@@ -1,0 +1,35 @@
+<Brushes>
+  <Brush Name="Gamepad.Cursor.Marker.Above">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="General\Gamepad\corner_cursor_above" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" Sprite="General\Gamepad\corner_cursor_above" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Gamepad.Cursor.Marker.Below">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="General\Gamepad\corner_cursor_below" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" Sprite="General\Gamepad\corner_cursor_below" />
+      </Style>
+    </Styles>
+  </Brush>
+  
+  <Brush Name="Gamepad.Cursor.Center">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="General\Gamepad\center_square_large_alt"/>
+    </Layers>
+    <Styles>
+      <Style Name="Square">
+        <BrushLayer Name="Default" Sprite="General\Gamepad\center_square_large_alt" />
+      </Style>
+    </Styles>
+  </Brush>
+  
+</Brushes>

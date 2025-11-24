@@ -1,0 +1,1719 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	type="scene">
+	<sites>
+		<site
+			id="scn_world_map"
+			name="world_map" />
+		<site
+			id="scn_random_scene"
+			name="random_scene" />
+		<site
+			id="scn_conversation_scene"
+			name="conversation_scene" />
+		<site
+			id="scn_minigame_scene"
+			name="minigame_scene" />
+		<site
+			id="scn_water"
+			name="water" />
+		<site
+			id="scn_random_scene_steppe"
+			name="random_scene_steppe" />
+		<site
+			id="scn_random_scene_plain"
+			name="random_scene_plain" />
+		<site
+			id="scn_random_scene_plain_team1_1"
+			name="random_scene_plain_team1_1" />
+		<site
+			id="scn_random_scene_plain_team1_siege"
+			name="random_scene_plain_team1_siege" />
+		<site
+			id="scn_random_scene_plain_team1_combat_test"
+			name="random_scene_plain_team1_combat_test" />
+		<site
+			id="scn_random_scene_plain_team2_1"
+			name="random_scene_plain_team2_1" />
+		<site
+			id="scn_random_scene_plain_team3_1"
+			name="random_scene_plain_team3_1" />
+		<site
+			id="scn_facegen_nord"
+			name="facegen_nord" />
+		<site
+			id="scn_random_scene_snow"
+			name="random_scene_snow" />
+		<site
+			id="scn_random_scene_desert"
+			name="random_scene_desert" />
+		<site
+			id="scn_random_scene_steppe_forest"
+			name="random_scene_steppe_forest" />
+		<site
+			id="scn_random_scene_plain_forest"
+			name="random_scene_plain_forest" />
+		<site
+			id="scn_random_scene_desert_forest"
+			name="random_scene_desert_forest" />
+		<site
+			id="scn_random_scene_snow_forest"
+			name="random_scene_snow_forest" />
+		<site
+			id="scn_random_scene_plain_test"
+			name="random_scene_plain_test" />
+		<site
+			id="scn_roman_tavern_a"
+			name="roman_tavern_a" />
+		<site
+			id="scn_roman_tavern_b"
+			name="roman_tavern_b" />
+		<site
+			id="scn_pict_tavern_a"
+			name="pict_tavern_a" />
+		<site
+			id="scn_pict_tavern_b"
+			name="pict_tavern_b" />
+		<site
+			id="scn_arabian_tavern_a"
+			name="arabian_tavern_a" />
+		<site
+			id="scn_arabian_tavern_b"
+			name="arabian_tavern_b" />
+		<site
+			id="scn_arabian_lords_hall_a"
+			name="arabian_lords_hall" />
+		<site
+			id="scn_pict_lords_hall_a"
+			name="pict_lords_hall" />
+		<site
+			id="scn_arabian_village_a"
+			name="arabian_village_a" />
+		<site
+			id="scn_pict_village_a"
+			name="pict_village_a" />
+		<site
+			id="scn_roman_village_a"
+			name="roman_village_a" />
+		<site
+			id="scn_nord_village_a"
+			name="nord_village_a" />
+		<site
+			id="scn_pict_village_a_test"
+			name="pict_village_a_test" />
+		<site
+			id="scn_roman_lords_hall_a"
+			name="roman_lords_hall_a" />
+		<site
+			id="scn_camp_scene"
+			name="camp_scene" />
+		<site
+			id="scn_four_ways_inn"
+			name="four_ways_inn" />
+		<site
+			id="scn_camp_scene_horse_track"
+			name="camp_scene_horse_track" />
+		<site
+			id="scn_test_scene"
+			name="test_scene" />
+		<site
+			id="scn_quick_battle_1"
+			name="quick_battle_1" />
+		<site
+			id="scn_quick_battle_2"
+			name="quick_battle_2" />
+		<site
+			id="scn_quick_battle_3"
+			name="quick_battle_3" />
+		<site
+			id="scn_quick_battle_4"
+			name="quick_battle_4" />
+		<site
+			id="scn_quick_battle_5"
+			name="quick_battle_5" />
+		<site
+			id="scn_quick_battle_6"
+			name="quick_battle_6" />
+		<site
+			id="scn_quick_battle_7"
+			name="quick_battle_7" />
+		<site
+			id="scn_novice_ground"
+			name="novice_ground" />
+		<site
+			id="scn_salt_mine"
+			name="salt_mine" />
+		<site
+			id="scn_zendar_arena"
+			name="zendar_arena" />
+		<site
+			id="scn_dhorak_keep"
+			name="dhorak_keep" />
+		<site
+			id="scn_reserved4"
+			name="reserved4" />
+		<site
+			id="scn_reserved5"
+			name="reserved5" />
+		<site
+			id="scn_reserved6"
+			name="reserved6" />
+		<site
+			id="scn_reserved7"
+			name="reserved7" />
+		<site
+			id="scn_reserved8"
+			name="reserved8" />
+		<site
+			id="scn_reserved9"
+			name="reserved9" />
+		<site
+			id="scn_reserved10"
+			name="reserved10" />
+		<site
+			id="scn_reserved11"
+			name="reserved11" />
+		<site
+			id="scn_reserved12"
+			name="reserved12" />
+		<site
+			id="scn_training_ground"
+			name="training_ground" />
+		<site
+			id="scn_tutorial_1"
+			name="tutorial_1" />
+		<site
+			id="scn_tutorial_2"
+			name="tutorial_2" />
+		<site
+			id="scn_tutorial_3"
+			name="tutorial_3" />
+		<site
+			id="scn_tutorial_4"
+			name="tutorial_4" />
+		<site
+			id="scn_tutorial_5"
+			name="tutorial_5" />
+		<site
+			id="scn_training_ground_horse_track_1"
+			name="training_ground_horse_track_1" />
+		<site
+			id="scn_training_ground_horse_track_2"
+			name="training_ground_horse_track_2" />
+		<site
+			id="scn_training_ground_horse_track_3"
+			name="training_ground_horse_track_3" />
+		<site
+			id="scn_training_ground_horse_track_4"
+			name="training_ground_horse_track_4" />
+		<site
+			id="scn_training_ground_horse_track_5"
+			name="training_ground_horse_track_5" />
+		<site
+			id="scn_training_ground_ranged_melee_1"
+			name="training_ground_ranged_melee_1" />
+		<site
+			id="scn_training_ground_ranged_melee_2"
+			name="training_ground_ranged_melee_2" />
+		<site
+			id="scn_training_ground_ranged_melee_3"
+			name="training_ground_ranged_melee_3" />
+		<site
+			id="scn_training_ground_ranged_melee_4"
+			name="training_ground_ranged_melee_4" />
+		<site
+			id="scn_training_ground_ranged_melee_5"
+			name="training_ground_ranged_melee_5" />
+		<site
+			id="scn_zendar_center"
+			name="zendar_center" />
+		<site
+			id="scn_the_happy_boar"
+			name="the_happy_boar" />
+		<site
+			id="scn_zendar_merchant"
+			name="zendar_merchant" />
+		<site
+			id="scn_town_1_center"
+			name="town_1_center" />
+		<site
+			id="scn_town_2_center"
+			name="town_2_center" />
+		<site
+			id="scn_town_3_center"
+			name="town_3_center" />
+		<site
+			id="scn_town_4_center"
+			name="town_4_center" />
+		<site
+			id="scn_town_5_center"
+			name="town_5_center" />
+		<site
+			id="scn_town_6_center"
+			name="town_6_center" />
+		<site
+			id="scn_town_7_center"
+			name="town_7_center" />
+		<site
+			id="scn_town_8_center"
+			name="town_8_center" />
+		<site
+			id="scn_town_9_center"
+			name="town_9_center" />
+		<site
+			id="scn_town_10_center"
+			name="town_10_center" />
+		<site
+			id="scn_town_11_center"
+			name="town_11_center" />
+		<site
+			id="scn_town_12_center"
+			name="town_12_center" />
+		<site
+			id="scn_town_13_center"
+			name="town_13_center" />
+		<site
+			id="scn_town_14_center"
+			name="town_14_center" />
+		<site
+			id="scn_town_15_center"
+			name="town_15_center" />
+		<site
+			id="scn_town_16_center"
+			name="town_16_center" />
+		<site
+			id="scn_town_17_center"
+			name="town_17_center" />
+		<site
+			id="scn_town_18_center"
+			name="town_18_center" />
+		<site
+			id="scn_town_19_center"
+			name="town_19_center" />
+		<site
+			id="scn_town_20_center"
+			name="town_20_center" />
+		<site
+			id="scn_town_21_center"
+			name="town_21_center" />
+		<site
+			id="scn_town_22_center"
+			name="town_22_center" />
+		<site
+			id="scn_town_1_castle"
+			name="town_1_castle" />
+		<site
+			id="scn_town_2_castle"
+			name="town_2_castle" />
+		<site
+			id="scn_town_3_castle"
+			name="town_3_castle" />
+		<site
+			id="scn_town_4_castle"
+			name="town_4_castle" />
+		<site
+			id="scn_town_5_castle"
+			name="town_5_castle" />
+		<site
+			id="scn_town_6_castle"
+			name="town_6_castle" />
+		<site
+			id="scn_town_7_castle"
+			name="town_7_castle" />
+		<site
+			id="scn_town_8_castle"
+			name="town_8_castle" />
+		<site
+			id="scn_town_9_castle"
+			name="town_9_castle" />
+		<site
+			id="scn_town_10_castle"
+			name="town_10_castle" />
+		<site
+			id="scn_town_11_castle"
+			name="town_11_castle" />
+		<site
+			id="scn_town_12_castle"
+			name="town_12_castle" />
+		<site
+			id="scn_town_13_castle"
+			name="town_13_castle" />
+		<site
+			id="scn_town_14_castle"
+			name="town_14_castle" />
+		<site
+			id="scn_town_15_castle"
+			name="town_15_castle" />
+		<site
+			id="scn_town_16_castle"
+			name="town_16_castle" />
+		<site
+			id="scn_town_17_castle"
+			name="town_17_castle" />
+		<site
+			id="scn_town_18_castle"
+			name="town_18_castle" />
+		<site
+			id="scn_town_19_castle"
+			name="town_19_castle" />
+		<site
+			id="scn_town_20_castle"
+			name="town_20_castle" />
+		<site
+			id="scn_town_21_castle"
+			name="town_21_castle" />
+		<site
+			id="scn_town_22_castle"
+			name="town_22_castle" />
+		<site
+			id="scn_town_1_tavern"
+			name="town_1_tavern" />
+		<site
+			id="scn_town_2_tavern"
+			name="town_2_tavern" />
+		<site
+			id="scn_town_3_tavern"
+			name="town_3_tavern" />
+		<site
+			id="scn_town_4_tavern"
+			name="town_4_tavern" />
+		<site
+			id="scn_town_5_tavern"
+			name="town_5_tavern" />
+		<site
+			id="scn_town_6_tavern"
+			name="town_6_tavern" />
+		<site
+			id="scn_town_7_tavern"
+			name="town_7_tavern" />
+		<site
+			id="scn_town_8_tavern"
+			name="town_8_tavern" />
+		<site
+			id="scn_town_9_tavern"
+			name="town_9_tavern" />
+		<site
+			id="scn_town_10_tavern"
+			name="town_10_tavern" />
+		<site
+			id="scn_town_11_tavern"
+			name="town_11_tavern" />
+		<site
+			id="scn_town_12_tavern"
+			name="town_12_tavern" />
+		<site
+			id="scn_town_13_tavern"
+			name="town_13_tavern" />
+		<site
+			id="scn_town_14_tavern"
+			name="town_14_tavern" />
+		<site
+			id="scn_town_15_tavern"
+			name="town_15_tavern" />
+		<site
+			id="scn_town_16_tavern"
+			name="town_16_tavern" />
+		<site
+			id="scn_town_17_tavern"
+			name="town_17_tavern" />
+		<site
+			id="scn_town_18_tavern"
+			name="town_18_tavern" />
+		<site
+			id="scn_town_19_tavern"
+			name="town_19_tavern" />
+		<site
+			id="scn_town_20_tavern"
+			name="town_20_tavern" />
+		<site
+			id="scn_town_21_tavern"
+			name="town_21_tavern" />
+		<site
+			id="scn_town_22_tavern"
+			name="town_22_tavern" />
+		<site
+			id="scn_town_1_store"
+			name="town_1_store" />
+		<site
+			id="scn_town_2_store"
+			name="town_2_store" />
+		<site
+			id="scn_town_3_store"
+			name="town_3_store" />
+		<site
+			id="scn_town_4_store"
+			name="town_4_store" />
+		<site
+			id="scn_town_5_store"
+			name="town_5_store" />
+		<site
+			id="scn_town_6_store"
+			name="town_6_store" />
+		<site
+			id="scn_town_7_store"
+			name="town_7_store" />
+		<site
+			id="scn_town_8_store"
+			name="town_8_store" />
+		<site
+			id="scn_town_9_store"
+			name="town_9_store" />
+		<site
+			id="scn_town_10_store"
+			name="town_10_store" />
+		<site
+			id="scn_town_11_store"
+			name="town_11_store" />
+		<site
+			id="scn_town_12_store"
+			name="town_12_store" />
+		<site
+			id="scn_town_13_store"
+			name="town_13_store" />
+		<site
+			id="scn_town_14_store"
+			name="town_14_store" />
+		<site
+			id="scn_town_15_store"
+			name="town_15_store" />
+		<site
+			id="scn_town_16_store"
+			name="town_16_store" />
+		<site
+			id="scn_town_17_store"
+			name="town_17_store" />
+		<site
+			id="scn_town_18_store"
+			name="town_18_store" />
+		<site
+			id="scn_town_19_store"
+			name="town_19_store" />
+		<site
+			id="scn_town_20_store"
+			name="town_20_store" />
+		<site
+			id="scn_town_21_store"
+			name="town_21_store" />
+		<site
+			id="scn_town_22_store"
+			name="town_22_store" />
+		<site
+			id="scn_town_1_arena"
+			name="town_1_arena" />
+		<site
+			id="scn_town_2_arena"
+			name="town_2_arena" />
+		<site
+			id="scn_town_3_arena"
+			name="town_3_arena" />
+		<site
+			id="scn_town_4_arena"
+			name="town_4_arena" />
+		<site
+			id="scn_town_5_arena"
+			name="town_5_arena" />
+		<site
+			id="scn_town_6_arena"
+			name="town_6_arena" />
+		<site
+			id="scn_town_7_arena"
+			name="town_7_arena" />
+		<site
+			id="scn_town_8_arena"
+			name="town_8_arena" />
+		<site
+			id="scn_town_9_arena"
+			name="town_9_arena" />
+		<site
+			id="scn_town_10_arena"
+			name="town_10_arena" />
+		<site
+			id="scn_town_11_arena"
+			name="town_11_arena" />
+		<site
+			id="scn_town_12_arena"
+			name="town_12_arena" />
+		<site
+			id="scn_town_13_arena"
+			name="town_13_arena" />
+		<site
+			id="scn_town_14_arena"
+			name="town_14_arena" />
+		<site
+			id="scn_town_15_arena"
+			name="town_15_arena" />
+		<site
+			id="scn_town_16_arena"
+			name="town_16_arena" />
+		<site
+			id="scn_town_17_arena"
+			name="town_17_arena" />
+		<site
+			id="scn_town_18_arena"
+			name="town_18_arena" />
+		<site
+			id="scn_town_19_arena"
+			name="town_19_arena" />
+		<site
+			id="scn_town_20_arena"
+			name="town_20_arena" />
+		<site
+			id="scn_town_21_arena"
+			name="town_21_arena" />
+		<site
+			id="scn_town_22_arena"
+			name="town_22_arena" />
+		<site
+			id="scn_town_1_prison"
+			name="town_1_prison" />
+		<site
+			id="scn_town_2_prison"
+			name="town_2_prison" />
+		<site
+			id="scn_town_3_prison"
+			name="town_3_prison" />
+		<site
+			id="scn_town_4_prison"
+			name="town_4_prison" />
+		<site
+			id="scn_town_5_prison"
+			name="town_5_prison" />
+		<site
+			id="scn_town_6_prison"
+			name="town_6_prison" />
+		<site
+			id="scn_town_7_prison"
+			name="town_7_prison" />
+		<site
+			id="scn_town_8_prison"
+			name="town_8_prison" />
+		<site
+			id="scn_town_9_prison"
+			name="town_9_prison" />
+		<site
+			id="scn_town_10_prison"
+			name="town_10_prison" />
+		<site
+			id="scn_town_11_prison"
+			name="town_11_prison" />
+		<site
+			id="scn_town_12_prison"
+			name="town_12_prison" />
+		<site
+			id="scn_town_13_prison"
+			name="town_13_prison" />
+		<site
+			id="scn_town_14_prison"
+			name="town_14_prison" />
+		<site
+			id="scn_town_15_prison"
+			name="town_15_prison" />
+		<site
+			id="scn_town_16_prison"
+			name="town_16_prison" />
+		<site
+			id="scn_town_17_prison"
+			name="town_17_prison" />
+		<site
+			id="scn_town_18_prison"
+			name="town_18_prison" />
+		<site
+			id="scn_town_19_prison"
+			name="town_19_prison" />
+		<site
+			id="scn_town_20_prison"
+			name="town_20_prison" />
+		<site
+			id="scn_town_21_prison"
+			name="town_21_prison" />
+		<site
+			id="scn_town_22_prison"
+			name="town_22_prison" />
+		<site
+			id="scn_town_1_walls"
+			name="town_1_walls" />
+		<site
+			id="scn_town_2_walls"
+			name="town_2_walls" />
+		<site
+			id="scn_town_3_walls"
+			name="town_3_walls" />
+		<site
+			id="scn_town_4_walls"
+			name="town_4_walls" />
+		<site
+			id="scn_town_5_walls"
+			name="town_5_walls" />
+		<site
+			id="scn_town_6_walls"
+			name="town_6_walls" />
+		<site
+			id="scn_town_7_walls"
+			name="town_7_walls" />
+		<site
+			id="scn_town_8_walls"
+			name="town_8_walls" />
+		<site
+			id="scn_town_9_walls"
+			name="town_9_walls" />
+		<site
+			id="scn_town_10_walls"
+			name="town_10_walls" />
+		<site
+			id="scn_town_11_walls"
+			name="town_11_walls" />
+		<site
+			id="scn_town_12_walls"
+			name="town_12_walls" />
+		<site
+			id="scn_town_13_walls"
+			name="town_13_walls" />
+		<site
+			id="scn_town_14_walls"
+			name="town_14_walls" />
+		<site
+			id="scn_town_15_walls"
+			name="town_15_walls" />
+		<site
+			id="scn_town_16_walls"
+			name="town_16_walls" />
+		<site
+			id="scn_town_17_walls"
+			name="town_17_walls" />
+		<site
+			id="scn_town_18_walls"
+			name="town_18_walls" />
+		<site
+			id="scn_town_19_walls"
+			name="town_19_walls" />
+		<site
+			id="scn_town_20_walls"
+			name="town_20_walls" />
+		<site
+			id="scn_town_21_walls"
+			name="town_21_walls" />
+		<site
+			id="scn_town_22_walls"
+			name="town_22_walls" />
+		<site
+			id="scn_town_1_alley"
+			name="town_1_alley" />
+		<site
+			id="scn_town_2_alley"
+			name="town_2_alley" />
+		<site
+			id="scn_town_3_alley"
+			name="town_3_alley" />
+		<site
+			id="scn_town_4_alley"
+			name="town_4_alley" />
+		<site
+			id="scn_town_5_alley"
+			name="town_5_alley" />
+		<site
+			id="scn_town_6_alley"
+			name="town_6_alley" />
+		<site
+			id="scn_town_7_alley"
+			name="town_7_alley" />
+		<site
+			id="scn_town_8_alley"
+			name="town_8_alley" />
+		<site
+			id="scn_town_9_alley"
+			name="town_9_alley" />
+		<site
+			id="scn_town_10_alley"
+			name="town_10_alley" />
+		<site
+			id="scn_town_11_alley"
+			name="town_11_alley" />
+		<site
+			id="scn_town_12_alley"
+			name="town_12_alley" />
+		<site
+			id="scn_town_13_alley"
+			name="town_13_alley" />
+		<site
+			id="scn_town_14_alley"
+			name="town_14_alley" />
+		<site
+			id="scn_town_15_alley"
+			name="town_15_alley" />
+		<site
+			id="scn_town_16_alley"
+			name="town_16_alley" />
+		<site
+			id="scn_town_17_alley"
+			name="town_17_alley" />
+		<site
+			id="scn_town_18_alley"
+			name="town_18_alley" />
+		<site
+			id="scn_town_19_alley"
+			name="town_19_alley" />
+		<site
+			id="scn_town_20_alley"
+			name="town_20_alley" />
+		<site
+			id="scn_town_21_alley"
+			name="town_21_alley" />
+		<site
+			id="scn_town_22_alley"
+			name="town_22_alley" />
+		<site
+			id="scn_castle_1_exterior"
+			name="castle_1_exterior" />
+		<site
+			id="scn_castle_1_interior"
+			name="castle_1_interior" />
+		<site
+			id="scn_castle_1_prison"
+			name="castle_1_prison" />
+		<site
+			id="scn_castle_2_exterior"
+			name="castle_2_exterior" />
+		<site
+			id="scn_castle_2_interior"
+			name="castle_2_interior" />
+		<site
+			id="scn_castle_2_prison"
+			name="castle_2_prison" />
+		<site
+			id="scn_castle_3_exterior"
+			name="castle_3_exterior" />
+		<site
+			id="scn_castle_3_interior"
+			name="castle_3_interior" />
+		<site
+			id="scn_castle_3_prison"
+			name="castle_3_prison" />
+		<site
+			id="scn_castle_4_exterior"
+			name="castle_4_exterior" />
+		<site
+			id="scn_castle_4_interior"
+			name="castle_4_interior" />
+		<site
+			id="scn_castle_4_prison"
+			name="castle_4_prison" />
+		<site
+			id="scn_castle_5_exterior"
+			name="castle_5_exterior" />
+		<site
+			id="scn_castle_5_interior"
+			name="castle_5_interior" />
+		<site
+			id="scn_castle_5_prison"
+			name="castle_5_prison" />
+		<site
+			id="scn_castle_6_exterior"
+			name="castle_6_exterior" />
+		<site
+			id="scn_castle_6_interior"
+			name="castle_6_interior" />
+		<site
+			id="scn_castle_6_prison"
+			name="castle_6_prison" />
+		<site
+			id="scn_castle_7_exterior"
+			name="castle_7_exterior" />
+		<site
+			id="scn_castle_7_interior"
+			name="castle_7_interior" />
+		<site
+			id="scn_castle_7_prison"
+			name="castle_7_prison" />
+		<site
+			id="scn_castle_8_exterior"
+			name="castle_8_exterior" />
+		<site
+			id="scn_castle_8_interior"
+			name="castle_8_interior" />
+		<site
+			id="scn_castle_8_prison"
+			name="castle_8_prison" />
+		<site
+			id="scn_castle_9_exterior"
+			name="castle_9_exterior" />
+		<site
+			id="scn_castle_9_interior"
+			name="castle_9_interior" />
+		<site
+			id="scn_castle_9_prison"
+			name="castle_9_prison" />
+		<site
+			id="scn_castle_10_exterior"
+			name="castle_10_exterior" />
+		<site
+			id="scn_castle_10_interior"
+			name="castle_10_interior" />
+		<site
+			id="scn_castle_10_prison"
+			name="castle_10_prison" />
+		<site
+			id="scn_castle_11_exterior"
+			name="castle_11_exterior" />
+		<site
+			id="scn_castle_11_interior"
+			name="castle_11_interior" />
+		<site
+			id="scn_castle_11_prison"
+			name="castle_11_prison" />
+		<site
+			id="scn_castle_12_exterior"
+			name="castle_12_exterior" />
+		<site
+			id="scn_castle_12_interior"
+			name="castle_12_interior" />
+		<site
+			id="scn_castle_12_prison"
+			name="castle_12_prison" />
+		<site
+			id="scn_castle_13_exterior"
+			name="castle_13_exterior" />
+		<site
+			id="scn_castle_13_interior"
+			name="castle_13_interior" />
+		<site
+			id="scn_castle_13_prison"
+			name="castle_13_prison" />
+		<site
+			id="scn_castle_14_exterior"
+			name="castle_14_exterior" />
+		<site
+			id="scn_castle_14_interior"
+			name="castle_14_interior" />
+		<site
+			id="scn_castle_14_prison"
+			name="castle_14_prison" />
+		<site
+			id="scn_castle_15_exterior"
+			name="castle_15_exterior" />
+		<site
+			id="scn_castle_15_interior"
+			name="castle_15_interior" />
+		<site
+			id="scn_castle_15_prison"
+			name="castle_15_prison" />
+		<site
+			id="scn_castle_16_exterior"
+			name="castle_16_exterior" />
+		<site
+			id="scn_castle_16_interior"
+			name="castle_16_interior" />
+		<site
+			id="scn_castle_16_prison"
+			name="castle_16_prison" />
+		<site
+			id="scn_castle_17_exterior"
+			name="castle_17_exterior" />
+		<site
+			id="scn_castle_17_interior"
+			name="castle_17_interior" />
+		<site
+			id="scn_castle_17_prison"
+			name="castle_17_prison" />
+		<site
+			id="scn_castle_18_exterior"
+			name="castle_18_exterior" />
+		<site
+			id="scn_castle_18_interior"
+			name="castle_18_interior" />
+		<site
+			id="scn_castle_18_prison"
+			name="castle_18_prison" />
+		<site
+			id="scn_castle_19_exterior"
+			name="castle_19_exterior" />
+		<site
+			id="scn_castle_19_interior"
+			name="castle_19_interior" />
+		<site
+			id="scn_castle_19_prison"
+			name="castle_19_prison" />
+		<site
+			id="scn_castle_20_exterior"
+			name="castle_20_exterior" />
+		<site
+			id="scn_castle_20_interior"
+			name="castle_20_interior" />
+		<site
+			id="scn_castle_20_prison"
+			name="castle_20_prison" />
+		<site
+			id="scn_castle_21_exterior"
+			name="castle_21_exterior" />
+		<site
+			id="scn_castle_21_interior"
+			name="castle_21_interior" />
+		<site
+			id="scn_castle_21_prison"
+			name="castle_21_prison" />
+		<site
+			id="scn_castle_22_exterior"
+			name="castle_22_exterior" />
+		<site
+			id="scn_castle_22_interior"
+			name="castle_22_interior" />
+		<site
+			id="scn_castle_22_prison"
+			name="castle_22_prison" />
+		<site
+			id="scn_castle_23_exterior"
+			name="castle_23_exterior" />
+		<site
+			id="scn_castle_23_interior"
+			name="castle_23_interior" />
+		<site
+			id="scn_castle_23_prison"
+			name="castle_23_prison" />
+		<site
+			id="scn_castle_24_exterior"
+			name="castle_24_exterior" />
+		<site
+			id="scn_castle_24_interior"
+			name="castle_24_interior" />
+		<site
+			id="scn_castle_24_prison"
+			name="castle_24_prison" />
+		<site
+			id="scn_castle_25_exterior"
+			name="castle_25_exterior" />
+		<site
+			id="scn_castle_25_interior"
+			name="castle_25_interior" />
+		<site
+			id="scn_castle_25_prison"
+			name="castle_25_prison" />
+		<site
+			id="scn_castle_26_exterior"
+			name="castle_26_exterior" />
+		<site
+			id="scn_castle_26_interior"
+			name="castle_26_interior" />
+		<site
+			id="scn_castle_26_prison"
+			name="castle_26_prison" />
+		<site
+			id="scn_castle_27_exterior"
+			name="castle_27_exterior" />
+		<site
+			id="scn_castle_27_interior"
+			name="castle_27_interior" />
+		<site
+			id="scn_castle_27_prison"
+			name="castle_27_prison" />
+		<site
+			id="scn_castle_28_exterior"
+			name="castle_28_exterior" />
+		<site
+			id="scn_castle_28_interior"
+			name="castle_28_interior" />
+		<site
+			id="scn_castle_28_prison"
+			name="castle_28_prison" />
+		<site
+			id="scn_castle_29_exterior"
+			name="castle_29_exterior" />
+		<site
+			id="scn_castle_29_interior"
+			name="castle_29_interior" />
+		<site
+			id="scn_castle_29_prison"
+			name="castle_29_prison" />
+		<site
+			id="scn_castle_30_exterior"
+			name="castle_30_exterior" />
+		<site
+			id="scn_castle_30_interior"
+			name="castle_30_interior" />
+		<site
+			id="scn_castle_30_prison"
+			name="castle_30_prison" />
+		<site
+			id="scn_castle_31_exterior"
+			name="castle_31_exterior" />
+		<site
+			id="scn_castle_31_interior"
+			name="castle_31_interior" />
+		<site
+			id="scn_castle_31_prison"
+			name="castle_31_prison" />
+		<site
+			id="scn_castle_32_exterior"
+			name="castle_32_exterior" />
+		<site
+			id="scn_castle_32_interior"
+			name="castle_32_interior" />
+		<site
+			id="scn_castle_32_prison"
+			name="castle_32_prison" />
+		<site
+			id="scn_castle_33_exterior"
+			name="castle_33_exterior" />
+		<site
+			id="scn_castle_33_interior"
+			name="castle_33_interior" />
+		<site
+			id="scn_castle_33_prison"
+			name="castle_33_prison" />
+		<site
+			id="scn_castle_34_exterior"
+			name="castle_34_exterior" />
+		<site
+			id="scn_castle_34_interior"
+			name="castle_34_interior" />
+		<site
+			id="scn_castle_34_prison"
+			name="castle_34_prison" />
+		<site
+			id="scn_castle_35_exterior"
+			name="castle_35_exterior" />
+		<site
+			id="scn_castle_35_interior"
+			name="castle_35_interior" />
+		<site
+			id="scn_castle_35_prison"
+			name="castle_35_prison" />
+		<site
+			id="scn_castle_36_exterior"
+			name="castle_36_exterior" />
+		<site
+			id="scn_castle_36_interior"
+			name="castle_36_interior" />
+		<site
+			id="scn_castle_36_prison"
+			name="castle_36_prison" />
+		<site
+			id="scn_castle_37_exterior"
+			name="castle_37_exterior" />
+		<site
+			id="scn_castle_37_interior"
+			name="castle_37_interior" />
+		<site
+			id="scn_castle_37_prison"
+			name="castle_37_prison" />
+		<site
+			id="scn_castle_38_exterior"
+			name="castle_38_exterior" />
+		<site
+			id="scn_castle_38_interior"
+			name="castle_38_interior" />
+		<site
+			id="scn_castle_38_prison"
+			name="castle_38_prison" />
+		<site
+			id="scn_castle_39_exterior"
+			name="castle_39_exterior" />
+		<site
+			id="scn_castle_39_interior"
+			name="castle_39_interior" />
+		<site
+			id="scn_castle_39_prison"
+			name="castle_39_prison" />
+		<site
+			id="scn_castle_40_exterior"
+			name="castle_40_exterior" />
+		<site
+			id="scn_castle_40_interior"
+			name="castle_40_interior" />
+		<site
+			id="scn_castle_40_prison"
+			name="castle_40_prison" />
+		<site
+			id="scn_castle_41_exterior"
+			name="castle_41_exterior" />
+		<site
+			id="scn_castle_41_interior"
+			name="castle_41_interior" />
+		<site
+			id="scn_castle_41_prison"
+			name="castle_41_prison" />
+		<site
+			id="scn_castle_42_exterior"
+			name="castle_42_exterior" />
+		<site
+			id="scn_castle_42_interior"
+			name="castle_42_interior" />
+		<site
+			id="scn_castle_42_prison"
+			name="castle_42_prison" />
+		<site
+			id="scn_castle_43_exterior"
+			name="castle_43_exterior" />
+		<site
+			id="scn_castle_43_interior"
+			name="castle_43_interior" />
+		<site
+			id="scn_castle_43_prison"
+			name="castle_43_prison" />
+		<site
+			id="scn_castle_44_exterior"
+			name="castle_44_exterior" />
+		<site
+			id="scn_castle_44_interior"
+			name="castle_44_interior" />
+		<site
+			id="scn_castle_44_prison"
+			name="castle_44_prison" />
+		<site
+			id="scn_castle_45_exterior"
+			name="castle_45_exterior" />
+		<site
+			id="scn_castle_45_interior"
+			name="castle_45_interior" />
+		<site
+			id="scn_castle_45_prison"
+			name="castle_45_prison" />
+		<site
+			id="scn_castle_46_exterior"
+			name="castle_46_exterior" />
+		<site
+			id="scn_castle_46_interior"
+			name="castle_46_interior" />
+		<site
+			id="scn_castle_46_prison"
+			name="castle_46_prison" />
+		<site
+			id="scn_castle_47_exterior"
+			name="castle_47_exterior" />
+		<site
+			id="scn_castle_47_interior"
+			name="castle_47_interior" />
+		<site
+			id="scn_castle_47_prison"
+			name="castle_47_prison" />
+		<site
+			id="scn_castle_48_exterior"
+			name="castle_48_exterior" />
+		<site
+			id="scn_castle_48_interior"
+			name="castle_48_interior" />
+		<site
+			id="scn_castle_48_prison"
+			name="castle_48_prison" />
+		<site
+			id="scn_village_1"
+			name="village_1" />
+		<site
+			id="scn_village_2"
+			name="village_2" />
+		<site
+			id="scn_village_3"
+			name="village_3" />
+		<site
+			id="scn_village_4"
+			name="village_4" />
+		<site
+			id="scn_village_5"
+			name="village_5" />
+		<site
+			id="scn_village_6"
+			name="village_6" />
+		<site
+			id="scn_village_7"
+			name="village_7" />
+		<site
+			id="scn_village_8"
+			name="village_8" />
+		<site
+			id="scn_village_9"
+			name="village_9" />
+		<site
+			id="scn_village_10"
+			name="village_10" />
+		<site
+			id="scn_village_11"
+			name="village_11" />
+		<site
+			id="scn_village_12"
+			name="village_12" />
+		<site
+			id="scn_village_13"
+			name="village_13" />
+		<site
+			id="scn_village_14"
+			name="village_14" />
+		<site
+			id="scn_village_15"
+			name="village_15" />
+		<site
+			id="scn_village_16"
+			name="village_16" />
+		<site
+			id="scn_village_17"
+			name="village_17" />
+		<site
+			id="scn_village_18"
+			name="village_18" />
+		<site
+			id="scn_village_19"
+			name="village_19" />
+		<site
+			id="scn_village_20"
+			name="village_20" />
+		<site
+			id="scn_village_21"
+			name="village_21" />
+		<site
+			id="scn_village_22"
+			name="village_22" />
+		<site
+			id="scn_village_23"
+			name="village_23" />
+		<site
+			id="scn_village_24"
+			name="village_24" />
+		<site
+			id="scn_village_25"
+			name="village_25" />
+		<site
+			id="scn_village_26"
+			name="village_26" />
+		<site
+			id="scn_village_27"
+			name="village_27" />
+		<site
+			id="scn_village_28"
+			name="village_28" />
+		<site
+			id="scn_village_29"
+			name="village_29" />
+		<site
+			id="scn_village_30"
+			name="village_30" />
+		<site
+			id="scn_village_31"
+			name="village_31" />
+		<site
+			id="scn_village_32"
+			name="village_32" />
+		<site
+			id="scn_village_33"
+			name="village_33" />
+		<site
+			id="scn_village_34"
+			name="village_34" />
+		<site
+			id="scn_village_35"
+			name="village_35" />
+		<site
+			id="scn_village_36"
+			name="village_36" />
+		<site
+			id="scn_village_37"
+			name="village_37" />
+		<site
+			id="scn_village_38"
+			name="village_38" />
+		<site
+			id="scn_village_39"
+			name="village_39" />
+		<site
+			id="scn_village_40"
+			name="village_40" />
+		<site
+			id="scn_village_41"
+			name="village_41" />
+		<site
+			id="scn_village_42"
+			name="village_42" />
+		<site
+			id="scn_village_43"
+			name="village_43" />
+		<site
+			id="scn_village_44"
+			name="village_44" />
+		<site
+			id="scn_village_45"
+			name="village_45" />
+		<site
+			id="scn_village_46"
+			name="village_46" />
+		<site
+			id="scn_village_47"
+			name="village_47" />
+		<site
+			id="scn_village_48"
+			name="village_48" />
+		<site
+			id="scn_village_49"
+			name="village_49" />
+		<site
+			id="scn_village_50"
+			name="village_50" />
+		<site
+			id="scn_village_51"
+			name="village_51" />
+		<site
+			id="scn_village_52"
+			name="village_52" />
+		<site
+			id="scn_village_53"
+			name="village_53" />
+		<site
+			id="scn_village_54"
+			name="village_54" />
+		<site
+			id="scn_village_55"
+			name="village_55" />
+		<site
+			id="scn_village_56"
+			name="village_56" />
+		<site
+			id="scn_village_57"
+			name="village_57" />
+		<site
+			id="scn_village_58"
+			name="village_58" />
+		<site
+			id="scn_village_59"
+			name="village_59" />
+		<site
+			id="scn_village_60"
+			name="village_60" />
+		<site
+			id="scn_village_61"
+			name="village_61" />
+		<site
+			id="scn_village_62"
+			name="village_62" />
+		<site
+			id="scn_village_63"
+			name="village_63" />
+		<site
+			id="scn_village_64"
+			name="village_64" />
+		<site
+			id="scn_village_65"
+			name="village_65" />
+		<site
+			id="scn_village_66"
+			name="village_66" />
+		<site
+			id="scn_village_67"
+			name="village_67" />
+		<site
+			id="scn_village_68"
+			name="village_68" />
+		<site
+			id="scn_village_69"
+			name="village_69" />
+		<site
+			id="scn_village_70"
+			name="village_70" />
+		<site
+			id="scn_village_71"
+			name="village_71" />
+		<site
+			id="scn_village_72"
+			name="village_72" />
+		<site
+			id="scn_village_73"
+			name="village_73" />
+		<site
+			id="scn_village_74"
+			name="village_74" />
+		<site
+			id="scn_village_75"
+			name="village_75" />
+		<site
+			id="scn_village_76"
+			name="village_76" />
+		<site
+			id="scn_village_77"
+			name="village_77" />
+		<site
+			id="scn_village_78"
+			name="village_78" />
+		<site
+			id="scn_village_79"
+			name="village_79" />
+		<site
+			id="scn_village_80"
+			name="village_80" />
+		<site
+			id="scn_village_81"
+			name="village_81" />
+		<site
+			id="scn_village_82"
+			name="village_82" />
+		<site
+			id="scn_village_83"
+			name="village_83" />
+		<site
+			id="scn_village_84"
+			name="village_84" />
+		<site
+			id="scn_village_85"
+			name="village_85" />
+		<site
+			id="scn_village_86"
+			name="village_86" />
+		<site
+			id="scn_village_87"
+			name="village_87" />
+		<site
+			id="scn_village_88"
+			name="village_88" />
+		<site
+			id="scn_village_89"
+			name="village_89" />
+		<site
+			id="scn_village_90"
+			name="village_90" />
+		<site
+			id="scn_village_91"
+			name="village_91" />
+		<site
+			id="scn_village_92"
+			name="village_92" />
+		<site
+			id="scn_village_93"
+			name="village_93" />
+		<site
+			id="scn_village_94"
+			name="village_94" />
+		<site
+			id="scn_village_95"
+			name="village_95" />
+		<site
+			id="scn_village_96"
+			name="village_96" />
+		<site
+			id="scn_village_97"
+			name="village_97" />
+		<site
+			id="scn_village_98"
+			name="village_98" />
+		<site
+			id="scn_village_99"
+			name="village_99" />
+		<site
+			id="scn_village_100"
+			name="village_100" />
+		<site
+			id="scn_village_101"
+			name="village_101" />
+		<site
+			id="scn_village_102"
+			name="village_102" />
+		<site
+			id="scn_village_103"
+			name="village_103" />
+		<site
+			id="scn_village_104"
+			name="village_104" />
+		<site
+			id="scn_village_105"
+			name="village_105" />
+		<site
+			id="scn_village_106"
+			name="village_106" />
+		<site
+			id="scn_village_107"
+			name="village_107" />
+		<site
+			id="scn_village_108"
+			name="village_108" />
+		<site
+			id="scn_village_109"
+			name="village_109" />
+		<site
+			id="scn_village_110"
+			name="village_110" />
+		<site
+			id="scn_field_1"
+			name="field_1" />
+		<site
+			id="scn_field_2"
+			name="field_2" />
+		<site
+			id="scn_field_3"
+			name="field_3" />
+		<site
+			id="scn_field_4"
+			name="field_4" />
+		<site
+			id="scn_field_5"
+			name="field_5" />
+		<site
+			id="scn_test2"
+			name="test2" />
+		<site
+			id="scn_test3"
+			name="test3" />
+		<site
+			id="scn_multi_scene_1"
+			name="multi_scene_1" />
+		<site
+			id="scn_multi_scene_2"
+			name="multi_scene_2" />
+		<site
+			id="scn_multi_scene_3"
+			name="multi_scene_3" />
+		<site
+			id="scn_multi_scene_4"
+			name="multi_scene_4" />
+		<site
+			id="scn_multi_scene_5"
+			name="multi_scene_5" />
+		<site
+			id="scn_multi_scene_6"
+			name="multi_scene_6" />
+		<site
+			id="scn_multi_scene_7"
+			name="multi_scene_7" />
+		<site
+			id="scn_multi_scene_8"
+			name="multi_scene_8" />
+		<site
+			id="scn_multi_scene_9"
+			name="multi_scene_9" />
+		<site
+			id="scn_multi_scene_10"
+			name="multi_scene_10" />
+		<site
+			id="scn_multi_scene_11"
+			name="multi_scene_11" />
+		<site
+			id="scn_multi_scene_12"
+			name="multi_scene_12" />
+		<site
+			id="scn_multi_scene_13"
+			name="multi_scene_13" />
+		<site
+			id="scn_multi_scene_14"
+			name="multi_scene_14" />
+		<site
+			id="scn_multi_scene_15"
+			name="multi_scene_15" />
+		<site
+			id="scn_random_multi_plain_medium"
+			name="random_multi_plain_medium" />
+		<site
+			id="scn_random_multi_plain_large"
+			name="random_multi_plain_large" />
+		<site
+			id="scn_random_multi_steppe_medium"
+			name="random_multi_steppe_medium" />
+		<site
+			id="scn_random_multi_steppe_large"
+			name="random_multi_steppe_large" />
+		<site
+			id="scn_multiplayer_maps_end"
+			name="multiplayer_maps_end" />
+		<site
+			id="scn_wedding"
+			name="wedding" />
+		<site
+			id="scn_lair_steppe_bandits"
+			name="lair_steppe_bandits" />
+		<site
+			id="scn_lair_taiga_bandits"
+			name="lair_taiga_bandits" />
+		<site
+			id="scn_lair_desert_bandits"
+			name="lair_desert_bandits" />
+		<site
+			id="scn_lair_forest_bandits"
+			name="lair_forest_bandits" />
+		<site
+			id="scn_lair_mountain_bandits"
+			name="lair_mountain_bandits" />
+		<site
+			id="scn_lair_sea_raiders"
+			name="lair_sea_raiders" />
+		<site
+			id="scn_quick_battle_scene_1"
+			name="quick_battle_scene_1" />
+		<site
+			id="scn_quick_battle_scene_2"
+			name="quick_battle_scene_2" />
+		<site
+			id="scn_quick_battle_scene_3"
+			name="quick_battle_scene_3" />
+		<site
+			id="scn_quick_battle_scene_4"
+			name="quick_battle_scene_4" />
+		<site
+			id="scn_quick_battle_scene_5"
+			name="quick_battle_scene_5" />
+		<site
+			id="scn_quick_battle_maps_end"
+			name="quick_battle_maps_end" />
+		<site
+			id="scn_tutorial_training_ground"
+			name="tutorial_training_ground" />
+		<site
+			id="scn_town_1_room"
+			name="town_1_room" />
+		<site
+			id="scn_town_5_room"
+			name="town_5_room" />
+		<site
+			id="scn_town_6_room"
+			name="town_6_room" />
+		<site
+			id="scn_town_8_room"
+			name="town_8_room" />
+		<site
+			id="scn_town_10_room"
+			name="town_10_room" />
+		<site
+			id="scn_town_19_room"
+			name="town_19_room" />
+		<site
+			id="scn_meeting_scene_steppe"
+			name="meeting_scene_steppe" />
+		<site
+			id="scn_meeting_scene_plain"
+			name="meeting_scene_plain" />
+		<site
+			id="scn_meeting_scene_snow"
+			name="meeting_scene_snow" />
+		<site
+			id="scn_meeting_scene_desert"
+			name="meeting_scene_desert" />
+		<site
+			id="scn_meeting_scene_steppe_forest"
+			name="meeting_scene_steppe_forest" />
+		<site
+			id="scn_meeting_scene_plain_forest"
+			name="meeting_scene_plain_forest" />
+		<site
+			id="scn_meeting_scene_snow_forest"
+			name="meeting_scene_snow_forest" />
+		<site
+			id="scn_meeting_scene_desert_forest"
+			name="meeting_scene_desert_forest" />
+		<site
+			id="scn_enterprise_tannery"
+			name="enterprise_tannery" />
+		<site
+			id="scn_enterprise_winery"
+			name="enterprise_winery" />
+		<site
+			id="scn_enterprise_mill"
+			name="enterprise_mill" />
+		<site
+			id="scn_enterprise_smithy"
+			name="enterprise_smithy" />
+		<site
+			id="scn_enterprise_dyeworks"
+			name="enterprise_dyeworks" />
+		<site
+			id="scn_enterprise_linen_weavery"
+			name="enterprise_linen_weavery" />
+		<site
+			id="scn_enterprise_wool_weavery"
+			name="enterprise_wool_weavery" />
+		<site
+			id="scn_enterprise_brewery"
+			name="enterprise_brewery" />
+		<site
+			id="scn_enterprise_oil_press"
+			name="enterprise_oil_press" />
+	</sites>
+</base>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData id="Deutsch" name="Deutsch" subtitle_extension="de" supported_iso="de,deu,ger,de-de,de-at,de-li,de-lu,de-ch" text_processor="TaleWorlds.Localization.TextProcessor.LanguageProcessors.GermanTextProcessor" under_development="false">
+  <LanguageFile xml_path="DE/de_functions.xml" />
+  <LanguageFile xml_path="DE/NoTranslation/std_consoles_xml-ger.xml" />
+  <LanguageFile xml_path="DE/std_common_strings_xml_ger-DE.xml" />
+  <LanguageFile xml_path="DE/std_crafting_pieces_xml_ger-DE.xml" />
+  <LanguageFile xml_path="DE/std_global_strings_xml_ger-DE.xml" />
+  <LanguageFile xml_path="DE/std_item_modifiers_xml_ger-DE.xml" />
+  <LanguageFile xml_path="DE/std_module_strings_xml_ger-DE.xml" />
+  <LanguageFile xml_path="DE/std_mpbadges_xml_ger-DE.xml" />
+  <LanguageFile xml_path="DE/std_mpcharacters_xml_ger-DE.xml" />
+  <LanguageFile xml_path="DE/std_mpclassdivisions_xml_ger-DE.xml" />
+  <LanguageFile xml_path="DE/std_mpitems_xml_ger-DE.xml" />
+  <LanguageFile xml_path="DE/std_multiplayer_strings_xml_ger-DE.xml" />
+  <LanguageFile xml_path="DE/std_native_strings_xml_ger-DE.xml" />
+  <LanguageFile xml_path="DE/std_photo_mode_strings_xml_ger-DE.xml" />
+  <LanguageFile xml_path="DE/std_siegeengines_xml_ger-DE.xml" />
+  <LanguageFile xml_path="DE/std_TaleWorlds_Core_ger-DE.xml" />
+  <LanguageFile xml_path="DE/std_TaleWorlds_MountAndBlade_GauntletUI_ger-DE.xml" />
+  <LanguageFile xml_path="DE/std_TaleWorlds_MountAndBlade_ger-DE.xml" />
+  <LanguageFile xml_path="DE/std_TaleWorlds_MountAndBlade_View_ger-DE.xml" />
+  <LanguageFile xml_path="DE/std_TaleWorlds_MountAndBlade_ViewModelCollection_ger-DE.xml" />
+  <LanguageFile xml_path="DE/std_TaleWorlds_PlatformService_Epic_ger-DE.xml" />
+  <LanguageFile xml_path="DE/std_TaleWorlds_PlatformService_GDK_ger-DE.xml" />
+  <LanguageFile xml_path="DE/std_TaleWorlds_PlatformService_PS_ger-DE.xml" />
+</LanguageData>

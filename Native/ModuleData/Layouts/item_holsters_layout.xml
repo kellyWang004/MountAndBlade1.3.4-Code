@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	type="string">
+	<layouts>
+		<layout
+			class="item_holster"
+			version="0.1"
+			xml_tag="item_holsters.item_holster"
+			name_attribute="id"
+			use_in_treeview="true">
+			<columns>
+				<column
+					id="0"
+					width="400" />
+			</columns>
+			<treeview_context_menu>
+				<item
+					name="Create Copy"
+					action_code="create_copy" />
+			</treeview_context_menu>
+			<items>
+				<item
+					name="show_skeleton"
+					label="Show Skeleton"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="show_joints"
+					label="Show Joints"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="preview"
+					label="Holster Preview"
+					type="preview_window"
+					column="0"
+					xml_path="">
+					<properties>
+						<property
+							name="scene_group_id"
+							value="skeleton_preview" />
+						<property
+							name="width"
+							value="480" />
+						<property
+							name="height"
+							value="640" />
+					</properties>
+				</item>
+				<item
+					name="id"
+					label="ID"
+					type="text"
+					column="1"
+					xml_path="id">
+					<properties>
+						<property
+							name="editable"
+							value="false" />
+						<property
+							name="sizePolicy"
+							value="Maximum" />
+					</properties>
+				</item>
+				<item
+					name="base_set"
+					label="Base Set"
+					type="text"
+					column="1"
+					xml_path="base_set"
+					optional="true">
+					<properties>
+						<property
+							name="sizePolicy"
+							value="Maximum" />
+					</properties>
+				</item>
+				<item
+					name="group_name"
+					label="Group Name"
+					type="text"
+					column="1"
+					xml_path="group_name">
+					<properties>
+						<property
+							name="sizePolicy"
+							value="Maximum" />
+					</properties>
+				</item>
+				<item
+					name="holster_bone"
+					label="Bone Name"
+					type="text"
+					column="1"
+					xml_path="holster_bone">
+					<properties>
+						<property
+							name="sizePolicy"
+							value="Maximum" />
+					</properties>
+				</item>
+				<item
+					name="holster_position"
+					label="Position"
+					type="vec3"
+					column="1"
+					xml_path="holster_position">
+					<properties>
+						<property
+							name="step_amount"
+							value="0.01" />
+						<property
+							name="min_value"
+							value="-360.0" />
+						<property
+							name="max_value"
+							value="360.0" />
+						<property
+							name="sizePolicy"
+							value="Maximum" />
+					</properties>
+				</item>
+				<item
+					name="holster_rotation"
+					label="Rotation"
+					type="vec3"
+					column="1"
+					xml_path="holster_rotation_yaw_pitch_roll">
+					<properties>
+						<property
+							name="sizePolicy"
+							value="Maximum" />
+						<property
+							name="min_value"
+							value="-360" />
+						<property
+							name="max_value"
+							value="360" />
+					</properties>
+				</item>
+				<item
+					name="uses_base_position"
+					label="Using Base Set Position"
+					type="checkbox"
+					column="1"
+					xml_path="">
+					<properties>
+						<property
+							name="sizePolicy"
+							value="Maximum" />
+					</properties>
+				</item>
+				<item
+					name="equip_action"
+					label="Equip Action"
+					type="text"
+					column="1"
+					xml_path="equip_action">
+					<properties>
+						<property
+							name="sizePolicy"
+							value="Maximum" />
+					</properties>
+				</item>
+				<item
+					name="equip_action_left_stance"
+					label="Equip Action Left Stance"
+					type="text"
+					column="1"
+					xml_path="equip_action_left_stance">
+					<properties>
+						<property
+							name="sizePolicy"
+							value="Maximum" />
+					</properties>
+				</item>
+				<item
+					name="unequip_action"
+					label="Unequip Action"
+					type="text"
+					column="1"
+					xml_path="unequip_action">
+					<properties>
+						<property
+							name="sizePolicy"
+							value="Maximum" />
+					</properties>
+				</item>
+				<item
+					name="unequip_action_left_stance"
+					label="Unequip Action Left Stance"
+					type="text"
+					column="1"
+					xml_path="unequip_action_left_stance">
+					<properties>
+						<property
+							name="sizePolicy"
+							value="Maximum" />
+					</properties>
+				</item>
+				<item
+					name="uses_base_rotation"
+					label="Using Base Set Rotation"
+					type="checkbox"
+					column="1"
+					xml_path="">
+					<properties>
+						<property
+							name="sizePolicy"
+							value="Maximum" />
+					</properties>
+				</item>
+				<item
+					name="uses_base_bone"
+					label="Using Base Set Bone"
+					type="checkbox"
+					column="1"
+					xml_path="">
+					<properties>
+						<property
+							name="sizePolicy"
+							value="Maximum" />
+					</properties>
+				</item>
+				<item
+					name="holster_scale"
+					label="Scale (Preview)"
+					type="vec3"
+					column="0"
+					xml_path="">
+					<properties>
+						<property
+							name="step_amount"
+							value="0.01" />
+					</properties>
+				</item>
+				<item
+					name="holster_rot_quat"
+					label="Quaternion (x,y,z,w) (Preview)"
+					type="text"
+					column="0"
+					xml_path="" />
+				<item
+					name="previewAnimation"
+					label="Preview Animation"
+					type="combobox"
+					column="0"
+					xml_path="">
+					<properties>
+						<property
+							name="editable_combobox" />
+						<property
+							name="sizePolicy"
+							value="Maximum" />
+					</properties>
+				</item>
+				<item
+					name="preview_mesh_search"
+					label="Preview Mesh"
+					type="meta_mesh_search_select"
+					column="0"
+					xml_path="">
+					<properties>
+						<property
+							name="sizePolicy"
+							value="Maximum" />
+					</properties>
+				</item>
+				<item
+					name="preview_armor_mesh_search"
+					label="Armor Mesh"
+					type="meta_mesh_search_select"
+					column="1"
+					xml_path="">
+					<properties>
+						<property
+							name="sizePolicy"
+							value="Maximum" />
+					</properties>
+				</item>
+				<item
+					name="head_visible"
+					label="Head Visibility"
+					type="checkbox"
+					column="1"
+					xml_path="">
+					<properties>
+						<property
+							name="sizePolicy"
+							value="Maximum" />
+					</properties>
+				</item>
+				<item
+					name="body_visible"
+					label="Body Visibility"
+					type="checkbox"
+					column="1"
+					xml_path="">
+					<properties>
+						<property
+							name="sizePolicy"
+							value="Maximum" />
+					</properties>
+				</item>
+				<item
+					name="hands_visible"
+					label="Hands Visibility"
+					type="checkbox"
+					column="1"
+					xml_path="">
+					<properties>
+						<property
+							name="sizePolicy"
+							value="Maximum" />
+					</properties>
+				</item>
+				<item
+					name="leg_visible"
+					label="Leg Visibility"
+					type="checkbox"
+					column="1"
+					xml_path="">
+					<properties>
+						<property
+							name="sizePolicy"
+							value="Maximum" />
+					</properties>
+				</item>
+				<item
+					name="item_name"
+					label="Item Name"
+					type="text"
+					column="1"
+					xml_path="">
+					<properties>
+						<property
+							name="sizePolicy"
+							value="Maximum" />
+					</properties>
+				</item>
+				<item
+					name="reload_weapon_data"
+					label="Reload Weapon Data"
+					type="tool_button"
+					column="1"
+					xml_path="" />
+			</items>
+		</layout>
+	</layouts>
+</base>

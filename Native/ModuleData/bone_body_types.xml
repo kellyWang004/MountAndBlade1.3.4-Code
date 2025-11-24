@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bone_body_types>
+	<bone_body_type
+		type="abdomen"
+		priority="3" />
+	<bone_body_type
+		type="chest"
+		priority="3" />
+	<bone_body_type
+		type="shoulder_left"
+		priority="3" />
+	<bone_body_type
+		type="shoulder_right"
+		priority="3" />
+	<bone_body_type
+		type="arm_left"
+		priority="1"
+		activate_sweep="true"
+		use_smaller_radius_mult_while_holding_shield="true" />
+	<bone_body_type
+		type="arm_right"
+		priority="1"
+		activate_sweep="true" />
+	<bone_body_type
+		type="legs"
+		priority="2"
+		activate_sweep="true" />
+	<bone_body_type
+		type="head"
+		priority="4"
+		do_not_scale_according_to_agent_scale="true" />
+	<bone_body_type
+		type="neck"
+		priority="4" />
+</bone_body_types>

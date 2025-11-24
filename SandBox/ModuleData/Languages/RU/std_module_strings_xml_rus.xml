@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Русский" />
+  </tags>
+  <strings>
+    <string id="0yCa27tK" text="Чтобы покинуть текущую область, удерживайте {LEAVE_AREA_KEY}." />
+    <string id="1xtmifKD" text="Собранная дань" />
+    <string id="2wiUtuu5" text="Выполненные ремесленные заказы" />
+    <string id="3Dhbg955" text="Суммарный авторитет преступника" />
+    <string id="3GDgVYim" text="Подчиненные враждебные кланы" />
+    <string id="3o6FDRsq" text="Захваченные города" />
+    <string id="4IZnbvlD" text="Бодеин" />
+    <string id="4v3Lb6BU" text="Предустановленная сложность" />
+    <string id="57QbB8cu" text="Налоговые поступления (динары)" />
+    <string id="584IPqj2" text="Самое дорогое созданное оружие (название/цена)" />
+    <string id="5gLojbx4" text="Выигранные турниры" />
+    <string id="6o10SHat" text="Легко (на 5% выше вероятность успеха)" />
+    <string id="6SRPa65F" text="Очень легко (на 10% выше вероятность успеха)" />
+    <string id="776J8Fng" text="Бальдимос" />
+    <string id="7ZhNilg8" text="Легко (на 5% выше скорость)" />
+    <string id="7ZOp7cg5" text="Захваченные замки" />
+    <string id="8byRf9zO" text="Общее" />
+    <string id="8eYtra7T" text="Установите сложность игры" />
+    <string id="9a6ZBSGw" text="Самая большая собранная армия" />
+    <string id="9jSxo790" text="Реалистич." />
+    <string id="9l5RgXiU" text="Выберите, будут ли оповещения отображаться справа на карте кампании." />
+    <string id="9WimyleE" text="Битвы" />
+    <string id="aaEgGfCX" text="Нет спутников с убийствами" />
+    <string id="ap9OK7Zl" text="Ваши воины будут ждать здесь" />
+    <string id="APt3biyJ" text="Дни в плену" />
+    <string id="AQfVclN8" text="Приз" />
+    <string id="aWeYcDKm" text="Открыть окно читов" />
+    <string id="ax9PEsfp" text="Сложность убеждения" />
+    <string id="b1h7b7oj" text="{BATTLES_WON}/{BATTLES_LOST}/{ALL_BATTLES}" />
+    <string id="B8qJSb66" text="Воины, захваченные в плен" />
+    <string id="bfiDLULr" text="Меньше на 50%" />
+    <string id="bLwIgxXa" text="Сложность найма воинов" />
+    <string id="BNynfsuy" text="Уничтоженные враждебные кланы" />
+    <string id="BqImNuSm" text="Определяет, могут ли герои – вы и/или другие – погибнуть в бою." />
+    <string id="BskZLZRb" text="Выберите, будут ли герои стареть и заводить детей." />
+    <string id="btC3Y3hb" text="В дальнейшем вы не сможете изменить этот параметр." />
+    <string id="CCFwzq24" text="Крупнейшая битва, выигранная в качестве полководца" />
+    <string id="CH9ZYhWk" text="Очень легко (на 50% меньше урона)" />
+    <string id="cKOZjVU0" text="Нет созданных предметов" />
+    <string id="cLHMjwb5" text="Воины, убитые и оглушенные в составе отряда" />
+    <string id="cpWFA3dl" text="Отключить смерть в битвах для героя игрока" />
+    <string id="CQZJLWfw" text="Вы можете сбросить свои умения у распорядителя турнира... за определенную цену. " />
+    <string id="czU1QREp" text="Спутник, решивший максимум проблем" />
+    <string id="d4O49oLs" text="Битвы(В/П/ВСЕ)" />
+    <string id="D9GkBqyW" text="Вы можете покинуть тренировочную площадку, удерживая {LEAVE_KEY}.{newline}На нее можно будет вернуться с карты кампании в любой момент." />
+    <string id="debaZA1j" text="Этот параметр можно изменять только при создании персонажа." />
+    <string id="DEH8AvZt" text="Определяет сложность игровых эпизодов, где в ход идут скрытность и маскировка." />
+    <string id="DELVwiEM" text="Тира" />
+    <string id="DFMhzFGV" text="Наличие лошадей в инвентаре может значительно повысить скорость вашего отряда, поскольку они позволяют пешим воинам передвигаться верхом и увеличивают переносимый вес. Вьючные лошади и мулы используются только для транспортировки грузов." />
+    <string id="DV7u7B6A" text="Герои, захваченные в плен" />
+    <string id="ehdBvNmN" text="Отключить смерть в битвах для всех героев" />
+    <string id="EhELIf65" text="Теруин" />
+    <string id="fbaQp3ox" text="Включает автоматическое распределение умений для членов вашего клана." />
+    <string id="fDQuQ8Ph" text="Завербованные пленники" />
+    <string id="FiRWs5vF" text="В режиме «Железная воля» у вас есть только один файл сохранения, который автоматически перезаписывается при выходе из игры." />
+    <string id="FlhW2QWY" text="Патрулировать район" />
+    <string id="freebooterdifficulty" text="Флибустьер" />
+    <string id="GbSZ3ZXh" text="Доход от караванов (динары)" />
+    <string id="GCqWwDWg" text="Баладир" />
+    <string id="ggMFUCVT" text="Герои, убитые в битвах" />
+    <string id="GkTR3n2o" text="Вы ушли на покой." />
+    <string id="gRVHCPak" text="Сбросить все обучение" />
+    <string id="H9X6MFgL" text="Высший рейтинг в турнирной таблице" />
+    <string id="HHaRDiuO" text="Воины, убитые и оглушенные лично" />
+    <string id="hLijkSTy" text="Окно читов можно также включить удержанием кнопок &quot;левый бампер + правый триггер + вниз на крестовине&quot; в режиме кампании." />
+    <string id="HVrobtL5" text="Название нового королевства:{newline} – не может содержать цифры;{newline} – не может быть длиннее {MAX_LETTER_COUNT} симв.;{newline} – не может быть короче {MIN_LETTER_COUNT} симв." />
+    <string id="HWNEo6pa" text="Вы еще не встретились с этим персонажем." />
+    <string id="irBV6UE4" text="{MINUTE} {?IS_PLURAL}мин.{?}минута{\?}" />
+    <string id="IWD56KMc" text="Скорость перемещения карты" />
+    <string id="izbANsTI" text="Определяет уровень сложности компьютерных противников в бою." />
+    <string id="JbFRrjqM" text="Находясь в городе или деревне, удерживайте {MISSION_INDICATORS_KEY}, чтобы отобразить метки значимых людей и интересных мест." />
+    <string id="jKn9B0bh" text="Вы завоевали Кальрадию!" />
+    <string id="JMhKt2W1" text="Полководец" />
+    <string id="JR6UgiT1" text="Легко (на 50% меньше урона)" />
+    <string id="k4CF68S6" text="Мы воздерживаемся" />
+    <string id="k71J6bVH" text="Победы" />
+    <string id="khb5YDgN" text="Выбрать шаблон сложности." />
+    <string id="KM7uAbL8" text="Урон, получаемый игроком" />
+    <string id="Kqkf6HBN" text="Нет спутников с решенными проблемами" />
+    <string id="lCHii7V0" text="Определяет вероятность успеха при попытке переубедить собеседника." />
+    <string id="lF6dauOB" text="Определяет, могут ли члены вашего клана погибнуть в бою." />
+    <string id="lfDzgLTa" text="{PROFESSION} в {LOCATION}{.l}" />
+    <string id="lJ28AH1a" text="Этот параметр можно изменить только при создании новой игры, включив или отключив модификацию «Быстрый режим» в меню запуска." />
+    <string id="LQAb6X5j" text="Определяет, какое число воинов можно нанимать у известных людей." />
+    <string id="ltfL5OSA" text="Определяет, какое количество урона будут получать ваши воины." />
+    <string id="m0907jTh" text="Увидев подсказку, нажмите {EXTEND_KEY}, чтобы прочитать ее подробную версию." />
+    <string id="M7HGkj18" text="Родившиеся дети" />
+    <string id="m7RFdwFt" text="Всего динаров получено" />
+    <string id="mD89ih8N" text="Изменить название клана" />
+    <string id="MI2007pj" text="Легко (на 25% меньше урона)" />
+    <string id="MMv0U5Yr" text="Лорд Знамени" />
+    <string id="mY4hNpbk" text="Вероятность гибели героя в бою" />
+    <string id="N6fz1efb" text="Пропустить обучение в начале игры." />
+    <string id="nJefkQ3Z" text="Финансы" />
+    <string id="npLZ741I" text="Отключить гибель членов клана в бою" />
+    <string id="NQfjuHcs" text="Приобретенное влияние" />
+    <string id="o81neN4A" text="Включить рождения и смерти" />
+    <string id="ob84Szvh" text="Очень легко (на 75% меньше урона)" />
+    <string id="Oea9a5nY" text="Урон, получаемый дружественными воинами" />
+    <string id="OKjjmsPq" text="Этот параметр зависит от значения параметра &quot;{OPTION}&quot;." />
+    <string id="OPPcXXSJ" text="Включить смерть в битвах для всех героев" />
+    <string id="opUBnFym" text="Терте" />
+    <string id="OXVO6LUN" text="Доход от мастерских (динары)" />
+    <string id="QBbSD4fG" text="Открыть {KEY}" />
+    <string id="qc9Llr3x" text="Герой" />
+    <string id="QEjoqEe0" text="Время игры в кампании (игровое)" />
+    <string id="QZHSvGrD" text="Бальдрим" />
+    <string id="QzmJL5I7" text="Легко (+1 воин)" />
+    <string id="ReNnVfEn" text="Изменить название королевства" />
+    <string id="rRhypEZV" text="Определяет размер урона, получаемого вашим персонажем." />
+    <string id="rweyNfS3" text="Зачищенные укрытия" />
+    <string id="Rx13jX4M" text="Спутник, убивший максимум врагов" />
+    <string id="RZFAxCMp" text="Очень легко (на 10% выше скорость)" />
+    <string id="S2NCdsTo" text="Быстрый режим включен" />
+    <string id="Sfd3aqia" text="Бандан" />
+    <string id="SFGwg8op" text="Полученные лоскуты" />
+    <string id="sp8Kred0" text="Для выполнения этого действия персонаж должен находиться в отряде игрока." />
+    <string id="SrkDqNdb" text="Включить обучающие подсказки" />
+    <string id="SrP38hbU" text="Нанятые спутники" />
+    <string id="sYVFg9ai" text="Сложность боевого ИИ" />
+    <string id="t47EzcbW" text="Включить обучение" />
+    <string id="TAgQrIxj" text="Созданное оружие" />
+    <string id="taU38mMa" text="Время игры в кампании (реальное)" />
+    <string id="Tv35SPaB" text="Доход от выкупа (динары)" />
+    <string id="Tz0aWGfB" text="Призвать воинов {KEY}" />
+    <string id="TZ9ugd1p" text="Автоматически распределять умения членов клана" />
+    <string id="uBajEuVL" text="Находясь в игровых окнах, вы можете открыть соответствующую страницу энциклопедии, нажав {ENCYCLOPEDIA_SHORTCUT}. Это касается портретов воинов, значков городов и большинства других элементов." />
+    <string id="UcgNVM0P" text="Очень легко (+2 воина)" />
+    <string id="UfQotsfo" text="Ранг" />
+    <string id="uG2Alcat" text="Сложность игры" />
+    <string id="V4PXAgJB" text="Ускоренный игровой процесс." />
+    <string id="veterandifficulty" text="Ветеран" />
+    <string id="vNLVkLT5" text="Железная воля" />
+    <string id="VRSsxx1g" text="Решенные проблемы" />
+    <string id="VtEF7wle" text="Вероятность гибели члена клана в бою" />
+    <string id="WBkmgu69" text="Воины, нанятые в городах и деревнях" />
+    <string id="Wgu9EK8b" text="Сложность скрытных вылазок" />
+    <string id="wZrW5FEB" text="Определяет скорость передвижения вашего отряда." />
+    <string id="XsIq2RFs" text="Бальдим" />
+    <string id="Y0GDVFiN" text="Разграбленные деревни" />
+    <string id="YhwN5u7f" text="Вашего клана больше нет!" />
+    <string id="yKJ9c8IV" text="Включить отображение оповещений справа на карте" />
+    <string id="yLa9ftit" text="Укажите интервал времени, через который будет производиться автосохранение." />
+    <string id="YuNsJ7bD" text="Ремесло" />
+    <string id="yvdQ9MD6" text="Терея" />
+    <string id="Z33uQl2f" text="Тарья" />
+    <string id="ZWiFWA2W" text="Пропустить обучение при прохождении основного сюжета" />
+  </strings>
+</base>

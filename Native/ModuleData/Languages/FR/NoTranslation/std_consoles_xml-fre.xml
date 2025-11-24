@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Français" />
+  </tags>
+  <strings>
+    <string id="ovqtG4LS" text="Afficher le profil PlayStation™Network" />
+    <string id="zZeDwVbv" text="Détermine la fonction de détection de mouvements en visant avec des armes à distance. Choisissez zéro pour désactiver la fonction." />
+    <string id="xboxStartButton" text="Touche Menu" />
+    <string id="xboxRightTrigger" text="gâchette droite" />
+    <string id="xboxRightStickUp" text="Stick analogique droit vers le haut" />
+    <string id="xboxRightStickRight" text="Stick analogique droit vers la droite" />
+    <string id="xboxRightStickLeft" text="Stick analogique droit vers la gauche" />
+    <string id="xboxRightStickDown" text="Stick analogique droit vers le bas" />
+    <string id="xboxRightStick" text="Stick analogique droit" />
+    <string id="xboxRightBumper" text="gâchette haute droite" />
+    <string id="xboxLeftTrigger" text="gâchette gauche" />
+    <string id="xboxLeftStickUp" text="Stick analogique gauche vers le haut" />
+    <string id="xboxLeftStickRight" text="Stick analogique gauche vers la droite" />
+    <string id="xboxLeftStickLeft" text="Stick analogique gauche vers la gauche" />
+    <string id="xboxLeftStickDown" text="Stick analogique gauche vers le bas" />
+    <string id="xboxLeftStick" text="Stick analogique gauche" />
+    <string id="xboxLeftBumper" text="gâchette haute gauche" />
+    <string id="xboxDpadUp" text="BMD haut" />
+    <string id="xboxDpadRight" text="BMD droite" />
+    <string id="xboxDpadLeft" text="BMD gauche" />
+    <string id="xboxDpadDown" text="BMD bas" />
+    <string id="xboxBackButton" text="Touche Affichage" />
+    <string id="wXuZKLkk" text="Modifie la méthode de visée avec les armes à distance. Si cette fonction est activée, appuyez sur la {?IS_PLAYSTATION}touche L2{?}gâchette gauche{\?} pour viser et la {?IS_PLAYSTATION}touche R2{?}gâchette droite{\?} pour tirer." />
+    <string id="pvit1VDX" text="Activer le contrôle du curseur avec le pavé tactile." />
+    <string id="psXButton" text="touche croix" />
+    <string id="psTriangleButton" text="touche triangle" />
+    <string id="psTouchpadButton" text="touche pavé tactile" />
+    <string id="psSquareButton" text="touche carré" />
+    <string id="psR2Button" text="touche R2" />
+    <string id="psR1Button" text="touche R1" />
+    <string id="psOptionsButton" text="touche OPTIONS" />
+    <string id="psL2Button" text="touche L2" />
+    <string id="psL1Button" text="touche L1" />
+    <string id="psCircleButton" text="touche cercle" />
+    <string id="NbiZd9up" text="Active la visée assistée de la fonction de détection de mouvements" />
+    <string id="m0NJf3BU" text="Active la fonction de détection de mouvements lors des attaques au corps à corps et pour déterminer la direction de la défense." />
+    <string id="jA2D1Rgt" text="Cette option est désactivée, car la fonction de détection de mouvements n&apos;est pas active." />
+    <string id="gLlM7pQw" text="Active le pavé tactile" />
+    <string id="bIuDbdVB" text="Active la visée alternative avec la manette {?IS_PLAYSTATION}sans fil{?}{\?}" />
+    <string id="aLAtopse" text="Active la fonction de détection de mouvements pour aider à viser à distance." />
+    <string id="aCVTu5AJ" text="Active la fonction de détection de mouvements pour déterminer la direction des blocages" />
+    <string id="7UqxMUHr" text="Cette option est désactivée, car l&apos;utilisation de la fonction de détection de mouvements pour déterminer la direction des blocages est activée." />
+    <string id="5mBbS0mb" text="Active la fonction de détection de mouvements lors des attaques et pour déterminer la direction des blocages." />
+    <string id="136P0uC5" text="Sensibilité de la fonction de détection de mouvements" />
+    <string id="UhUvwvkh" text="Vous avez été déconnecté de PlayStation™Network. Les fonctionnalités en ligne sont indisponibles." />
+    <string id="8yk50Ba5" text="Un abonnement PlayStation®Plus est requis pour jouer en multijoueur." />
+    <string id="3rcPHq9a" text="Vous n&apos;êtes pas connecté à PlayStation™Network. Vous devez vous connecter pour utiliser les fonctionnalités en ligne." />
+    <string id="controllerDisconnectedTitlePS" text="Manette sans fil déconnectée" />
+    <string id="controllerDisconnectedDescriptionPS" text="Merci de reconnecter votre manette sans fil pour continuer" />
+    <string id="MceLT3Zg" text="Manette sans fil" />
+    <string id="NyA57ke1" text="Déconnecté de PlayStation™Network" />
+    <string id="i6x93YjL" text="Vous pouvez également ouvrir le menu de triche en maintenant &quot;L1 + R2 + touche bas&quot; sur la carte." />
+    <string id="tHGHDaFH" text="Transfert de la sauvegarde de la console PS4™ effectué" />
+    <string id="PJK980ka" text="Sélectionnez un fichier de sauvegarde de la console PS4™ à transférer" />
+    <string id="ifkdZmxr" text="Aucune sauvegarde de la console PS4™ n&apos;a été trouvée" />
+    <string id="6WHz63af" text="Transférer la sauvegarde de la console PS4™" />
+    <string id="dlcInstallComplete" text="Installation du contenu téléchargeable terminée" />
+    <string id="psDlcInstallComplete" text="Installation de l'extension terminée" />
+    <string id="dlcInstalledDescription" text="L'installation du contenu téléchargeable est terminée. Vous devez retourner au menu principal pour accéder au nouveau contenu." />
+    <string id="psDlcInstalledDescription" text="L'installation de l'extension est terminée. Vous devez retourner au menu principal pour accéder au nouveau contenu." />
+	<string id="c3I1AjcF" text="Active les vibrations de la manette {?IS_PLAYSTATION}sans fil{?}{\?}" />
+	<string id="rightstickabbreviated" text="RS" />
+    <string id="rightstickabbreviatedps" text="R" />
+  </strings>
+</base>

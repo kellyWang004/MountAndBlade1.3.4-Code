@@ -1,0 +1,390 @@
+<Brushes>
+
+  <Brush Name="CustomBattle.CenterPanel">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="flat_panel_9" ExtendLeft="53" ExtendRight="52" AlphaFactor="0.5" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="CustomBattle.Slider.Lock.Opened">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\lock_opened" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.7" ColorFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.9" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.5" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="CustomBattle.Slider.Lock.Closed">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\lock_closed" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.7" ColorFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.9" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.5" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="CustomBattle.TroopSelection.PopUp.Window">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\custom_battle_troop_management_panel" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="CustomBattle.Siege.MachineIcon">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="SPGeneral\Siege\Ballista" />
+    </Layers>
+    <Styles>
+      <Style Name="Ballista">
+        <BrushLayer Name="Default" Sprite="SPGeneral\Siege\Ballista" />
+      </Style>
+      <Style Name="FireBallista">
+        <BrushLayer Name="Default" Sprite="SPGeneral\Siege\FireBallista" />
+      </Style>
+      <Style Name="Bricole">
+        <BrushLayer Name="Default" Sprite="SPGeneral\Siege\Bricole" />
+      </Style>
+      <Style Name="Ladder">
+        <BrushLayer Name="Default" Sprite="SPGeneral\Siege\Ladder" />
+      </Style>
+      <Style Name="Mangonel">
+        <BrushLayer Name="Default" Sprite="SPGeneral\Siege\Mangonel" />
+      </Style>
+      <Style Name="FireMangonel">
+        <BrushLayer Name="Default" Sprite="SPGeneral\Siege\FireMangonel" />
+      </Style>
+      <Style Name="Onager">
+        <BrushLayer Name="Default" Sprite="SPGeneral\Siege\Onager" />
+      </Style>
+      <Style Name="FireOnager">
+        <BrushLayer Name="Default" Sprite="SPGeneral\Siege\FireOnager" />
+      </Style>
+      <Style Name="Ram">
+        <BrushLayer Name="Default" Sprite="SPGeneral\Siege\Ram" />
+      </Style>
+      <Style Name="ImprovedRam">
+        <BrushLayer Name="Default" Sprite="SPGeneral\Siege\ImprovedRam" />
+      </Style>
+      <Style Name="SiegeTower">
+        <BrushLayer Name="Default" Sprite="SPGeneral\Siege\SiegeTower" />
+      </Style>
+      <Style Name="Trebuchet">
+        <BrushLayer Name="Default" Sprite="SPGeneral\Siege\Trebuchet" />
+      </Style>
+      <Style Name="Catapult">
+        <BrushLayer Name="Default" Sprite="SPGeneral\Siege\Catapult" />
+      </Style>
+      <Style Name="FireCatapult">
+        <BrushLayer Name="Default" Sprite="SPGeneral\Siege\FireCatapult" />
+      </Style>
+      <Style Name="Preperations">
+        <BrushLayer Name="Default" Sprite="SPGeneral\Siege\Preparations" />
+      </Style>
+      <Style Name="Ladder">
+        <BrushLayer Name="Default" Sprite="SPGeneral\Siege\Ladder" />
+      </Style>
+      <Style Name="None">
+        <BrushLayer Name="Default" Sprite="General\MenuElements\Cross" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="CustomBattle.Machine.Slot">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="SelectionBorder@2x_9" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.7" ColorFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.9" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.5" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="CustomBattle.SliderValue.Input">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="frame_small_9" ExtendTop="3" ExtendBottom="3"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.7" ColorFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.9" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.5" ColorFactor="0.7" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="CustomBattle.Menu.AddTroopType.Button">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\plus_button_medium" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.8" ColorFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.85" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.3" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" ColorFactor="1.1" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="CustomBattle.Menu.PopUp.SelectAll.Button">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\wide_rectangle_button_default" IsHidden="true"/>
+      <BrushLayer Name="Hovered" Sprite="StdAssets\wide_rectangle_button_hovered" IsHidden="true"/>
+      <BrushLayer Name="Pressed" Sprite="StdAssets\wide_rectangle_button_pressed" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Hovered" ColorFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Pressed" ColorFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.2" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" ColorFactor="1.1" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+<Brush Name="CustomBattle.Slider.Handle">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="SPGeneral\SPOptions\standart_slider_knob" IsHidden="true" ExtendLeft="12" ExtendTop="14" ExtendBottom="12" ExtendRight="12" />
+      <BrushLayer Name="Hovered" Sprite="SPGeneral\SPOptions\standart_slider_knob_hover" IsHidden="true" ExtendLeft="12" ExtendTop="14" ExtendBottom="12" ExtendRight="12" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" IsHidden="false" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Hovered" ColorFactor="0.8" IsHidden="false" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Hovered" IsHidden="false" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.4" SaturationFactor="-40" IsHidden="false" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="CustomBattle.Slider.Frame">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="SPGeneral\SPOptions\standart_slider_frame" IsHidden="true" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" IsHidden="false" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" IsHidden="false" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" IsHidden="false" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.4" SaturationFactor="-40" IsHidden="false" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="CustomBattle.Slider.Fill">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="SPGeneral\SPOptions\standart_slider_fill" IsHidden="true" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" IsHidden="false" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" IsHidden="false" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" IsHidden="false" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.4" SaturationFactor="-40" IsHidden="false" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="CustomBattle.Slider.Canvas">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="SPGeneral\SPOptions\standart_slider_canvas" IsHidden="true" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" IsHidden="false" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" IsHidden="false" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" IsHidden="false" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.4" SaturationFactor="-40" IsHidden="false" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="CustomBattle.Leave.Button" TransitionDuration="0.15">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\leave_button" Color="#ffc27cff"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" Sprite="StdAssets\leave_button" AlphaFactor="0.8" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" Sprite="StdAssets\leave_button" AlphaFactor="1" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" Sprite="StdAssets\leave_button" AlphaFactor="0.6" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" Sprite="StdAssets\leave_button" AlphaFactor="0.8" ColorFactor="0.6" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="CustomBattle.Switch.Button" TransitionDuration="0.15">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\button_switch_flat" Color="#ffc27cff"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.8" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="1" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.6" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.8" ColorFactor="0.6" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="CustomBattle.Random.Button" TransitionDuration="0.15">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\button_random_all" Color="#ffc27cff"  />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.8" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="1" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.6" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.8" ColorFactor="0.6" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="CustomBattle.Character.Title.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#BBAD99FF" TextGlowColor="#000000FF" TextOutlineColor="#000000FF" TextOutlineAmount="0" TextGlowRadius="0" TextBlur="0" FontSize="35" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="CustomBattle.Value.Text" Font="FiraSansExtraCondensed-Regular" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#F7C895FF" TextGlowColor="#FFFFFF00" TextOutlineColor="#FFFFFF00" TextOutlineAmount="0" TextGlowRadius="0" TextBlur="0" FontSize="20" />
+      <Style Name="Disabled" FontColor="#D5B88B00" TextGlowColor="#00000000" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="CustomBattle.SliderValue.Text" Font="FiraSansExtraCondensed-Regular" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#F7C895FF" TextGlowColor="#FFFFFF00" TextOutlineColor="#FFFFFF00" TextOutlineAmount="0" TextGlowRadius="0" TextBlur="0" FontSize="18" />
+      <Style Name="Hovered" FontColor="#ABA298FF" TextGlowColor="#FFFFFF00" TextOutlineColor="#FFFFFF00" TextOutlineAmount="0" TextGlowRadius="0" TextBlur="0" FontSize="18" />
+      <Style Name="Pressed" FontColor="#FFB96EFF" TextGlowColor="#FFFFFF00" TextOutlineColor="#FFFFFF00" TextOutlineAmount="0" TextGlowRadius="0" TextBlur="0" FontSize="18" />
+      <Style Name="Disabled" FontColor="#D5B88B00" TextGlowColor="#00000000" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="CustomBattle.PopUp.Buttons.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center" >
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" FontSize="24" TextBlur="0" TextGlowRadius="0" TextOutlineAmount="0" />
+    </Styles>
+  </Brush>
+
+</Brushes>

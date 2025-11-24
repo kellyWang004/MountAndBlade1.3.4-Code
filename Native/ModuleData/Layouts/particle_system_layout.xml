@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	type="string">
+	<layouts>
+		<layout
+			class="particle_system"
+			version="0.1"
+			xml_tag="particle_systems.particle_system"
+			name_attribute="id"
+			use_in_treeview="true">
+			<insertion_definitions>
+				<insertion_definition
+					label="Add Emitter"
+					xml_path="emitters">
+					<default_node>
+						<emitter
+							name="Emitter"
+							sample_mesh="prt_mesh_fire_1"
+							not_visible_on_low_config="false"
+							fadeout_multiplier="1000.000"
+							emitter_type="box"
+							billboard="3D"
+							particles_per_sec="10.000"
+							particle_life="2.000"
+							gravity="0.000, 0.000, 1.000"
+							gravity_weight="10.000"
+							turbulance_size="0.000"
+							turbulance_strength="0.000"
+							starting_scale_time="0.100"
+							starting_scale="2.000"
+							starting_color_time="0.200"
+							starting_color="1.000, 0.235, 0.047"
+							starting_alpha="1.000"
+							ending_scale_time="0.800"
+							ending_scale="0.300"
+							ending_color_time="1.000"
+							ending_color="0.902, 0.039, 0.039"
+							ending_alpha="0.000"
+							emit_size="0.200, 0.200, 0.000, 1.000"
+							emit_impulse="0.000, 0.000, 1.000"
+							emit_randomization="0.000, 0.000, 0.000"
+							damping="5.000"
+							rotation_speed="1.745"
+							rotational_damping="2.000"
+							scale_with_velocity_multiplier="0.000"
+							scale_with_emitters_velocity="0.000"
+							always_emit="true"
+							animated_sprite="true"
+							sprite_count="25"
+							texture_atlas_texture_counts="5.000000, 5.000000"
+							sprite_frame_rate="22.000"
+							randomize_size="true"
+							randomize_rotation="true">
+							<childreen />
+						</emitter>
+					</default_node>
+				</insertion_definition>
+			</insertion_definitions>
+			<items>
+				<item
+					name="id"
+					label="Name"
+					type="text"
+					column="0"
+					xml_path="id" />
+				<item
+					name="low_q_system"
+					label="Low Quality System"
+					type="text"
+					column="0"
+					xml_path="name"></item>
+				<item
+					name="low_q_system_dist"
+					label="Low Quality System Distance"
+					type="float"
+					column="0"
+					xml_path="low_quality_system_distance"></item>
+				<item
+					name="save_as_button"
+					label="Save as"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="add_new_button"
+					label="Add new"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="delete_button"
+					label="Delete selected"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="burst_button"
+					label="Burst"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="preview"
+					label="Preview Window"
+					type="preview_window"
+					column="1"
+					xml_path="">
+					<properties>
+						<property
+							name="scene_group_id"
+							value="skeleton_preview" />
+						<property
+							name="width"
+							value="500" />
+						<property
+							name="height"
+							value="500" />
+					</properties>
+				</item>
+			</items>
+		</layout>
+		<layout
+			class="particle_emitter"
+			version="0.1"
+			xml_tag="particle_systems.particle_system.emitters.emitter"
+			name_attribute="name"
+			use_in_treeview="true">
+			<insertion_definitions>
+				<insertion_definition
+					label="Add Child Emitter"
+					xml_path="childreen">
+					<default_node>
+						<emitter
+							material="prt_shd_fire_1"
+							not_visible_on_low_config="false"
+							fadeout_multiplier="1000.000"
+							name="Emitter"
+							emitter_type="box"
+							billboard="3D"
+							particles_per_sec="10.000"
+							particle_life="2.000"
+							gravity="0.000, 0.000, 1.000"
+							gravity_weight="10.000"
+							turbulance_size="0.000"
+							turbulance_strength="0.000"
+							starting_scale_time="0.100"
+							starting_scale="2.000"
+							starting_color_time="0.200"
+							starting_color="1.000, 0.235, 0.047"
+							starting_alpha="1.000"
+							ending_scale_time="0.800"
+							ending_scale="0.300"
+							ending_color_time="1.000"
+							ending_color="0.902, 0.039, 0.039"
+							ending_alpha="0.000"
+							emit_size="0.200, 0.200, 0.000, 1.000"
+							emit_impulse="0.000, 0.000, 1.000"
+							emit_randomization="0.000, 0.000, 0.000"
+							damping="5.000"
+							rotation_speed="1.745"
+							rotational_damping="2.000"
+							scale_with_velocity_multiplier="0.000"
+							scale_with_emitters_velocity="0.000"
+							always_emit="true"
+							animated_sprite="true"
+							sprite_count="25"
+							texture_atlas_texture_counts="5.000000, 5.000000"
+							sprite_frame_rate="22.000"
+							randomize_size="true"
+							randomize_rotation="true" />
+					</default_node>
+				</insertion_definition>
+			</insertion_definitions>
+			<items>
+				<item
+					name="burst_button"
+					label="Burst"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="name"
+					label="Name"
+					type="text"
+					column="0"
+					xml_path="name" />
+				<item
+					name="sample_mesh"
+					label="Sample mesh"
+					type="text"
+					column="0"
+					xml_path="sample_mesh" />
+				<item
+					name="material"
+					label="Material"
+					type="text"
+					column="0"
+					xml_path="material" />
+				<item
+					name="fadeout_multiplier"
+					label="Fadeout multiplier"
+					type="float"
+					column="0"
+					xml_path="fadeout_multiplier" />
+				<item
+					name="emitter_type"
+					label="Emitter Type"
+					type="combobox"
+					column="0"
+					xml_path="emitter_type">
+					<properties>
+						<property
+							name="system_values"
+							value="particle_system.emitter_type" />
+					</properties>
+				</item>
+				<item
+					name="billboard"
+					label="Emitter Type"
+					type="combobox"
+					column="0"
+					xml_path="billboard">
+					<properties>
+						<property
+							name="system_values"
+							value="particle_system.billboard" />
+					</properties>
+				</item>
+				<item
+					name="particles_per_sec"
+					label="Emission rate"
+					type="float"
+					column="0"
+					xml_path="particles_per_sec" />
+				<item
+					name="activation_delay"
+					label="Activation delay"
+					type="float"
+					column="0"
+					xml_path="activation_delay" />
+				<item
+					name="particle_life"
+					label="Particle life"
+					type="float"
+					column="0"
+					xml_path="particle_life" />
+				<item
+					name="particle_life_deviation"
+					label="Life deviation"
+					type="float"
+					column="0"
+					xml_path="particle_life_deviation" />
+				<item
+					name="burst_length"
+					label="Burst length"
+					type="float"
+					column="0"
+					xml_path="burst_length" />
+				<item
+					name="gravity"
+					label="Gravity"
+					type="vec3"
+					column="0"
+					xml_path="gravity" />
+				<item
+					name="gravity_weight"
+					label="Gravity weight"
+					type="float"
+					column="0"
+					xml_path="gravity_weight" />
+				<item
+					name="turbulance_size"
+					label="Turbulence size"
+					type="float"
+					column="0"
+					xml_path="turbulance_size" />
+				<item
+					name="turbulance_strength"
+					label="Turbulence strength"
+					type="float"
+					column="0"
+					xml_path="turbulance_strength" />
+				<item
+					name="starting_scale_time"
+					label="Starting Scale Time"
+					type="float"
+					column="0"
+					xml_path="starting_scale_time" />
+				<item
+					name="starting_scale"
+					label="Starting Scale"
+					type="float"
+					column="0"
+					xml_path="starting_scale" />
+				<item
+					name="starting_color_time"
+					label="Starting Color Time"
+					type="float"
+					column="0"
+					xml_path="starting_color_time" />
+				<item
+					name="starting_color"
+					label="Starting color"
+					type="color"
+					column="0"
+					xml_path="starting_color" />
+				<item
+					name="starting_alpha"
+					label="Starting alpha"
+					type="float"
+					column="0"
+					xml_path="starting_alpha" />
+				<item
+					name="ending_scale_time"
+					label="Ending scale time"
+					type="float"
+					column="0"
+					xml_path="ending_scale_time" />
+				<item
+					name="ending_scale"
+					label="Ending scale"
+					type="float"
+					column="0"
+					xml_path="ending_scale" />
+				<item
+					name="particle_size_deviation"
+					label="Size deviation"
+					type="float"
+					column="0"
+					xml_path="particle_size_deviation" />
+				<item
+					name="ending_color_time"
+					label="Ending color time"
+					type="float"
+					column="0"
+					xml_path="ending_color_time" />
+				<item
+					name="ending_color"
+					label="Ending color"
+					type="color"
+					column="0"
+					xml_path="ending_color" />
+				<item
+					name="ending_alpha"
+					label="Ending alpha"
+					type="float"
+					column="0"
+					xml_path="ending_alpha" />
+				<item
+					name="sprite_frame_rate"
+					label="Sprite Framerate"
+					type="float"
+					column="0"
+					xml_path="sprite_frame_rate" />
+				<item
+					name="sprite_count"
+					label="Sprite Count"
+					type="float"
+					column="0"
+					xml_path="sprite_count" />
+				<item
+					name="texture_atlas_texture_counts"
+					label="Texture Atlas Counts"
+					type="vec2"
+					column="0"
+					xml_path="texture_atlas_texture_counts" />
+				<item
+					name="emit_size"
+					label="Emitter size"
+					type="vec3"
+					column="0"
+					xml_path="emit_size" />
+				<item
+					name="emit_impulse"
+					label="Emit impulse"
+					type="vec3"
+					column="0"
+					xml_path="emit_impulse" />
+				<item
+					name="emit_randomization"
+					label="Emit randomization"
+					type="vec3"
+					column="0"
+					xml_path="emit_randomization" />
+				<item
+					name="damping"
+					label="Damping"
+					type="float"
+					column="0"
+					xml_path="damping" />
+				<item
+					name="rotation_speed"
+					label="Rotation speed"
+					type="float"
+					column="0"
+					xml_path="rotation_speed" />
+				<item
+					name="rotational_damping"
+					label="Angular damping"
+					type="float"
+					column="0"
+					xml_path="rotational_damping" />
+				<item
+					name="scale_with_velocity_multiplier"
+					label="Scale with particle's velocity"
+					type="float"
+					column="0"
+					xml_path="scale_with_velocity_multiplier" />
+				<item
+					name="scale_with_emitters_velocity"
+					label="Scale with emitter's velocity"
+					type="float"
+					column="0"
+					xml_path="scale_with_emitters_velocity" />
+				<!--				<item name="flags" label="Flags" type="flag_set" column="1" xml_path="flags">
+					<properties>
+						<property name="system_value" value="particle_system"/>
+					</properties>
+				</item>-->
+				<item
+					name="animated_sprite"
+					label="Animated sprite"
+					type="checkbox"
+					column="1"
+					xml_path="animated_sprite" />
+				<item
+					name="looping_sprite"
+					label="Loop sprite"
+					type="checkbox"
+					column="1"
+					xml_path="looping_sprite" />
+				<item
+					name="use_texture_atlas"
+					label="Texture atlas"
+					type="checkbox"
+					column="1"
+					xml_path="use_texture_atlas" />
+				<item
+					name="always_emit"
+					label="Always emit"
+					type="checkbox"
+					column="1"
+					xml_path="always_emit" />
+				<item
+					name="global_emit_dir"
+					label="Global emit direction"
+					type="checkbox"
+					column="1"
+					xml_path="global_emit_dir" />
+				<item
+					name="rain_culling"
+					label="Rain culling"
+					type="checkbox"
+					column="1"
+					xml_path="rain_culling" />
+				<item
+					name="collide_with_environment"
+					label="Collide with environment"
+					type="checkbox"
+					column="1"
+					xml_path="collide_with_environment" />
+				<item
+					name="rain_splash"
+					label="Rain splash"
+					type="checkbox"
+					column="1"
+					xml_path="rain_splash" />
+				<item
+					name="turbulance_2d"
+					label="2D turbulance"
+					type="checkbox"
+					column="1"
+					xml_path="turbulance_2d" />
+				<item
+					name="emit_water_level"
+					label="Emit water level"
+					type="checkbox"
+					column="1"
+					xml_path="emit_water_level" />
+				<item
+					name="randomize_size"
+					label="Random size"
+					type="checkbox"
+					column="1"
+					xml_path="randomize_size" />
+				<item
+					name="orderby_distance"
+					label="Order by distance"
+					type="checkbox"
+					column="1"
+					xml_path="orderby_distance" />
+				<item
+					name="gradient_normals"
+					label="Gradient normals"
+					type="checkbox"
+					column="1"
+					xml_path="gradient_normals" />
+				<item
+					name="emit_per_unit"
+					label="Emit per unit"
+					type="checkbox"
+					column="1"
+					xml_path="emit_per_unit" />
+				<item
+					name="randomize_rotation"
+					label="Random rotation"
+					type="checkbox"
+					column="1"
+					xml_path="randomize_rotation" />
+				<item
+					name="constant_instancing"
+					label="Constant instancing"
+					type="checkbox"
+					column="1"
+					xml_path="constant_instancing" />
+				<item
+					name="random_sample_mesh"
+					label="Random sample mesh"
+					type="checkbox"
+					column="1"
+					xml_path="random_sample_mesh" />
+				<item
+					name="fixed_initial_velocity"
+					label="Fixed initial velocity"
+					type="checkbox"
+					column="1"
+					xml_path="fixed_initial_velocity" />
+				<item
+					name="constant_wind"
+					label="Constant wind"
+					type="checkbox"
+					column="1"
+					xml_path="constant_wind" />
+				<item
+					name="scale_with_velocity"
+					label="Scale with velocity"
+					type="checkbox"
+					column="1"
+					xml_path="scale_with_velocity" />
+				<item
+					name="preview"
+					label="Preview Window"
+					type="preview_window"
+					column="2"
+					xml_path="">
+					<properties>
+						<property
+							name="scene_group_id"
+							value="skeleton_preview" />
+						<property
+							name="width"
+							value="500" />
+						<property
+							name="height"
+							value="500" />
+					</properties>
+				</item>
+			</items>
+		</layout>
+		<layout
+			class="particle_emitter"
+			version="0.1"
+			xml_tag="particle_systems.particle_system.emitters.emitter.childreen.emitter"
+			name_attribute="name"
+			use_in_treeview="true">
+			<items>
+				<item
+					name="burst_button"
+					label="Burst"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="name"
+					label="Name"
+					type="text"
+					column="0"
+					xml_path="name" />
+				<item
+					name="sample_mesh"
+					label="Sample mesh"
+					type="text"
+					column="0"
+					xml_path="sample_mesh" />
+				<item
+					name="material"
+					label="Material"
+					type="text"
+					column="0"
+					xml_path="material" />
+				<item
+					name="fadeout_multiplier"
+					label="Fadeout multiplier"
+					type="float"
+					column="0"
+					xml_path="fadeout_multiplier" />
+				<item
+					name="emitter_type"
+					label="Emitter Type"
+					type="combobox"
+					column="0"
+					xml_path="emitter_type">
+					<properties>
+						<property
+							name="system_values"
+							value="particle_system.emitter_type" />
+					</properties>
+				</item>
+				<item
+					name="billboard"
+					label="Emitter Type"
+					type="combobox"
+					column="0"
+					xml_path="billboard">
+					<properties>
+						<property
+							name="system_values"
+							value="particle_system.billboard" />
+					</properties>
+				</item>
+				<item
+					name="particles_per_sec"
+					label="Emission Rate"
+					type="float"
+					column="0"
+					xml_path="particles_per_sec" />
+				<item
+					name="particle_life"
+					label="Particle Life"
+					type="float"
+					column="0"
+					xml_path="particle_life" />
+				<item
+					name="gravity"
+					label="Gravity"
+					type="vec3"
+					column="0"
+					xml_path="gravity" />
+				<item
+					name="gravity_weight"
+					label="Gravity weight"
+					type="float"
+					column="0"
+					xml_path="gravity_weight" />
+				<item
+					name="turbulance_size"
+					label="Turbulence size"
+					type="float"
+					column="0"
+					xml_path="turbulance_size" />
+				<item
+					name="turbulance_strength"
+					label="Turbulence strength"
+					type="float"
+					column="0"
+					xml_path="turbulance_strength" />
+				<item
+					name="starting_scale_time"
+					label="Starting Scale Time"
+					type="float"
+					column="0"
+					xml_path="starting_scale_time" />
+				<item
+					name="starting_scale"
+					label="Starting Scale"
+					type="float"
+					column="0"
+					xml_path="starting_scale" />
+				<item
+					name="starting_color_time"
+					label="Starting Color Time"
+					type="float"
+					column="0"
+					xml_path="starting_color_time" />
+				<item
+					name="starting_color"
+					label="Starting color"
+					type="color"
+					column="0"
+					xml_path="starting_color" />
+				<item
+					name="starting_alpha"
+					label="Starting alpha"
+					type="float"
+					column="0"
+					xml_path="starting_alpha" />
+				<item
+					name="ending_scale_time"
+					label="Ending scale time"
+					type="float"
+					column="0"
+					xml_path="ending_scale_time" />
+				<item
+					name="ending_scale"
+					label="Ending scale"
+					type="float"
+					column="0"
+					xml_path="ending_scale" />
+				<item
+					name="ending_color_time"
+					label="Ending color time"
+					type="float"
+					column="0"
+					xml_path="ending_color_time" />
+				<item
+					name="ending_color"
+					label="Ending color"
+					type="color"
+					column="0"
+					xml_path="ending_color" />
+				<item
+					name="ending_alpha"
+					label="Ending alpha"
+					type="float"
+					column="0"
+					xml_path="ending_alpha" />
+				<item
+					name="sprite_frame_rate"
+					label="Sprite Framerate"
+					type="float"
+					column="0"
+					xml_path="sprite_frame_rate" />
+				<item
+					name="sprite_count"
+					label="Sprite Count"
+					type="float"
+					column="0"
+					xml_path="sprite_count" />
+				<item
+					name="texture_atlas_texture_counts"
+					label="Texture Atlas Counts"
+					type="vec2"
+					column="0"
+					xml_path="texture_atlas_texture_counts" />
+				<item
+					name="emit_size"
+					label="Emitter size"
+					type="vec3"
+					column="0"
+					xml_path="emit_size" />
+				<item
+					name="emit_impulse"
+					label="Emit impulse"
+					type="vec3"
+					column="0"
+					xml_path="emit_impulse" />
+				<item
+					name="emit_randomization"
+					label="Emit randomization"
+					type="vec3"
+					column="0"
+					xml_path="emit_randomization" />
+				<item
+					name="damping"
+					label="Damping"
+					type="float"
+					column="0"
+					xml_path="damping" />
+				<item
+					name="rotation_speed"
+					label="Rotation speed"
+					type="float"
+					column="0"
+					xml_path="rotation_speed" />
+				<item
+					name="rotational_damping"
+					label="Angular damping"
+					type="float"
+					column="0"
+					xml_path="rotational_damping" />
+				<item
+					name="scale_with_velocity_multiplier"
+					label="Scale with particle's velocity"
+					type="float"
+					column="0"
+					xml_path="scale_with_velocity_multiplier" />
+				<item
+					name="scale_with_emitters_velocity"
+					label="Scale with emitter's velocity"
+					type="float"
+					column="0"
+					xml_path="scale_with_emitters_velocity" />
+				<item
+					name="flags"
+					label="Flags"
+					type="flag_set"
+					column="1"
+					xml_path="flags">
+					<properties>
+						<property
+							name="system_value"
+							value="particle_system" />
+					</properties>
+				</item>
+				<item
+					name="preview"
+					label="Preview Window"
+					type="preview_window"
+					column="2"
+					xml_path="">
+					<properties>
+						<property
+							name="scene_group_id"
+							value="skeleton_preview" />
+						<property
+							name="width"
+							value="500" />
+						<property
+							name="height"
+							value="500" />
+					</properties>
+				</item>
+			</items>
+		</layout>
+	</layouts>
+</base>

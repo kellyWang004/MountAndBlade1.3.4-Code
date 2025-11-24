@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<music_parameters>
+	<music_parameter
+		id="SmallBattleTreshold"
+		value="60" />
+	<music_parameter
+		id="MediumBattleTreshold"
+		value="200" />
+	<music_parameter
+		id="LargeBattleTreshold"
+		value="450" />
+	<music_parameter
+		id="SmallBattleDistanceTreshold"
+		value="75.0" />
+	<music_parameter
+		id="MediumBattleDistanceTreshold"
+		value="150.0" />
+	<music_parameter
+		id="LargeBattleDistanceTreshold"
+		value="200.0" />
+	<music_parameter
+		id="MaxBattleDistanceTreshold"
+		value="220.0" />
+	<music_parameter
+		id="MinIntensity"
+		value="0.01" />
+	<music_parameter
+		id="DefaultStartIntensity"
+		value="0.25" />
+	<music_parameter
+		id="PlayerChargeEffectMultiplierOnIntensity"
+		value="1.1" />
+	<music_parameter
+		id="BattleSizeEffectOnStartIntensity"
+		value="0.35" />
+	<music_parameter
+		id="RandomEffectMultiplierOnStartIntensity"
+		value="0.2" />
+	<music_parameter
+		id="FriendlyTroopDeadEffectOnIntensity"
+		value="0.045" />
+	<music_parameter
+		id="EnemyTroopDeadEffectOnIntensity"
+		value="0.03" />
+	<music_parameter
+		id="PlayerTroopDeadEffectMultiplierOnIntensity"
+		value="1.2" />
+	<music_parameter
+		id="BattleRatioTresholdOnIntensity"
+		value="0.35" />
+	<music_parameter
+		id="BattleTurnsOneSideCooldown"
+		value="180.0" />
+	<music_parameter
+		id="CampaignDarkModeThreshold"
+		value="0.10" />
+</music_parameters>

@@ -1,0 +1,14 @@
+Native/ModuleData/global_strings.xml: base.strings.string.text
+Native/ModuleData/module_strings.xml: base.strings.string.text
+Native/ModuleData/photo_mode_strings.xml: base.strings.string.text
+Native/ModuleData/native_strings.xml: base.strings.string.text
+Native/ModuleData/multiplayer_strings.xml: base.strings.string.text
+Native/ModuleData/mpitems.xml: Items.Item.name, Items.CraftedItem.name
+Native/ModuleData/mpcultures.xml: Cultures.Culture.name
+Native/ModuleData/mpclassdivisions.xml: MPClassDivisions.MPClassDivision.Perks.Perk.name
+Native/ModuleData/mpcharacters.xml: MPCharacters.NPCCharacter.name
+Native/ModuleData/crafting_pieces.xml: CraftingPieces.CraftingPiece.name
+Native/ModuleData/item_modifiers.xml: ItemModifiers.ItemModifier.name
+Native/ModuleData/mpbadges.xml: Badges.Badge.name, Badges.Badge.description
+Native/ModuleData/siegeengines.xml: SiegeEngineTypes.SiegeEngineType.name, SiegeEngineTypes.SiegeEngineType.description
+Native/ModuleData/consoles.xml: base.strings.string.text: std_consoles_xml: TRUE

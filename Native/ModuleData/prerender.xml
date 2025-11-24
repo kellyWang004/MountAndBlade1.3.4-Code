@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	type="particle_sysm">
+	<postfx_graphs>
+		<postfx_graph
+			id="depth_chain_graph">
+			<postfx_node
+				id="depth_chain"
+				class="rglDepth_chain_node"
+				shader="postfx_depth_downsample_cs"
+				format="R32F"
+				size="relative"
+				width="0.5"
+				height="0.5"
+				compute="true"
+				compute_tg_size_x="8"
+				compute_tg_size_y="8">
+				<input
+					index="0"
+					type="provided"
+					source="gbuffer_depth_with_water" />
+				<input
+					index="1"
+					type="provided"
+					source="gbuffer_normals" />
+			</postfx_node>
+		</postfx_graph>
+		<postfx_graph
+			id="ambient_occlusion_graph">
+			<postfx_node
+				id="sao_small"
+				class="rglSAO_fxnode"
+				shader="postfx_sao_small_cs"
+				format="R8G8B8A8"
+				size="relative"
+				width="0.5"
+				height="0.5"
+				compute="true"
+				compute_tg_size_x="8"
+				compute_tg_size_y="8">
+				<input
+					index="0"
+					type="provided"
+					source="gbuffer_depth_with_water" />
+				<input
+					index="1"
+					type="provided"
+					source="gbuffer_vertex_normals" />
+				<input
+					index="2"
+					type="provided"
+					source="half_depth_rt" />
+				<preconditions>
+					<config
+						name="tsao" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="sao_large"
+				class="rglSAO_fxnode"
+				shader="postfx_sao_large_cs"
+				format="R8G8B8A8"
+				size="relative"
+				width="0.5"
+				height="0.5"
+				compute="true"
+				compute_tg_size_x="8"
+				compute_tg_size_y="8">
+				<input
+					index="0"
+					type="provided"
+					source="gbuffer_depth_with_water" />
+				<input
+					index="1"
+					type="provided"
+					source="gbuffer_vertex_normals" />
+				<input
+					index="2"
+					type="provided"
+					source="half_depth_rt" />
+				<input
+					index="3"
+					type="node"
+					source="sao_small" />
+				<preconditions>
+					<config
+						name="tsao" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="sao_temporal_denoise"
+				class="rglSao_temporal_fxnode"
+				shader="postfx_sao_temporal_denoise_cs"
+				format="R8G8B8A8"
+				size="relative"
+				width="0.5"
+				height="0.5"
+				compute="true"
+				compute_tg_size_x="8"
+				compute_tg_size_y="8">
+				<input
+					index="0"
+					type="node"
+					source="sao_large" />
+				<input
+					index="1"
+					type="provided"
+					source="gbuffer_motion_vectors" />
+				<input
+					index="2"
+					type="provided"
+					source="half_depth_rt" />
+				<!-- DO NOT CHANGE INDEX OF DEPTH CHAIN-->
+				<preconditions>
+					<config
+						name="tsao" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="sao_blurx"
+				shader="postfx_sao_blurx_cs"
+				format="R8G8B8A8"
+				size="relative"
+				width="0.5"
+				height="0.5"
+				compute="true"
+				compute_tg_size_x="8"
+				compute_tg_size_y="8">
+				<input
+					index="0"
+					type="node"
+					source="sao_temporal_denoise" />
+				<input
+					index="1"
+					type="provided"
+					source="half_depth_rt" />
+				<preconditions>
+					<config
+						name="tsao" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="sao_blury"
+				shader="postfx_sao_blury_cs"
+				format="R8"
+				size="relative"
+				width="0.5"
+				height="0.5"
+				compute="true"
+				compute_tg_size_x="8"
+				compute_tg_size_y="8">
+				<input
+					index="0"
+					type="node"
+					source="sao_blurx" />
+				<input
+					index="1"
+					type="provided"
+					source="half_depth_rt" />
+				<preconditions>
+					<config
+						name="tsao" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="sao_upsample"
+				shader="postfx_sao_up_sample_cs"
+				format="R8"
+				size="relative"
+				width="1"
+				height="1"
+				compute="true"
+				compute_tg_size_x="8"
+				compute_tg_size_y="8">
+				<input
+					index="0"
+					type="node"
+					source="sao_blury" />
+				<input
+					index="1"
+					type="provided"
+					source="gbuffer_depth_with_water" />
+				<input
+					index="2"
+					type="provided"
+					source="half_depth_rt" />
+				<preconditions>
+					<config
+						name="tsao" />
+				</preconditions>
+			</postfx_node>
+		</postfx_graph>
+		<postfx_graph
+			id="ssr_graph">
+			<postfx_node
+				id="screen_space_reflection_raycast"
+				class="rglSsr_raycast_fxnode"
+				shader="postfx_ssr_raycast_cs"
+				format="R16G16B16A16F"
+				size="relative"
+				width="0.5"
+				height="0.5"
+				compute="true"
+				compute_tg_size_x="16"
+				compute_tg_size_y="16">
+				<input
+					index="0"
+					type="provided"
+					source="prev_screen_rt" />
+				<input
+					index="1"
+					type="provided"
+					source="gbuffer_motion_vectors" />
+				<input
+					index="7"
+					type="provided"
+					source="gbuffer_stencil" />
+				<input
+					index="8"
+					type="texture"
+					source="bluenoise" />
+				<input
+					index="10"
+					type="provided"
+					source="water_normal_texture" />
+				<input
+					index="11"
+					type="provided"
+					source="gbuffer_spec_gloss_ao_shadow" />
+				<input
+					index="12"
+					type="provided"
+					source="gbuffer_depth" />
+				<input
+					index="13"
+					type="provided"
+					source="gbuffer_depth_with_water" />
+				<input
+					index="14"
+					type="provided"
+					source="gbuffer_normals" />
+				<input
+					index="15"
+					type="provided"
+					source="half_depth_rt" />
+				<preconditions>
+					<config
+						name="ssr" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="screen_space_reflection"
+				class="rglSsr_fxnode"
+				shader="postfx_ssr_cs"
+				format="R16G16B16A16F"
+				size="relative"
+				width="0.5"
+				height="0.5"
+				compute="true"
+				compute_tg_size_x="16"
+				compute_tg_size_y="16">
+				<input
+					index="0"
+					type="node"
+					source="screen_space_reflection_raycast" />
+				<input
+					index="1"
+					type="provided"
+					source="gbuffer_motion_vectors" />
+				<input
+					index="2"
+					type="provided"
+					source="prev_screen_rt" />
+				<preconditions>
+					<config
+						name="ssr" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="screen_space_reflection_blur"
+				class="rglSsr_blur_fxnode"
+				shader="postfx_ssr_blur"
+				format="R16G16B16A16F"
+				size="relative"
+				width="0.5"
+				height="0.5">
+				<input
+					index="0"
+					type="node"
+					source="screen_space_reflection" />
+				<preconditions>
+					<config
+						name="ssr" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="convolve"
+				class="rglConvolve_fxnode"
+				shader="postfx_convolve_x_cs"
+				format="R16G16B16A16F"
+				size="relative"
+				width="0.5"
+				height="0.5"
+				compute="true"
+				compute_tg_size_x="32"
+				compute_tg_size_y="32">
+				<input
+					index="0"
+					type="node"
+					source="screen_space_reflection_blur" />
+				<preconditions>
+					<config
+						name="ssr" />
+				</preconditions>
+			</postfx_node>
+		</postfx_graph>
+		<postfx_graph
+			id="shadowmap_graph">
+			<postfx_node
+				id="shadowmap_combine"
+				shader="postfx_shadowmap_combine"
+				format="R8"
+				size="relative"
+				width="1"
+				height="1">
+				<input
+					index="0"
+					type="provided"
+					source="gbuffer_depth" />
+				<input
+					index="1"
+					type="provided"
+					source="gbuffer_spec_gloss_ao_shadow" />
+			</postfx_node>
+			<postfx_node
+				id="shadowmap_temporal_pass"
+				class="rglShadowmap_combine_fxnode"
+				shader="postfx_shadow_temporal_pass"
+				format="R8G8_UNORM"
+				size="relative"
+				width="1"
+				height="1">
+				<input
+					index="0"
+					type="node"
+					source="shadowmap_combine" />
+				<input
+					index="1"
+					type="provided"
+					source="gbuffer_motion_vectors" />
+				<input
+					index="2"
+					type="provided"
+					source="gbuffer_depth" />
+				<preconditions>
+					<config
+						name="temporal_shadow" />
+				</preconditions>
+			</postfx_node>
+		</postfx_graph>
+		<postfx_graph
+			id="vt_resolve_graph">
+			<postfx_node
+				id="vt_resolve_downsample"
+				class="rglVt_resolve_node"
+				shader="postfx_vt_resolve_downsample"
+				format="R8G8B8A8"
+				size="relative"
+				width="0.0625"
+				height="0.0625">
+				<input
+					index="0"
+					type="provided"
+					source="gbuffer_vt_resolve" />
+			</postfx_node>
+		</postfx_graph>
+	</postfx_graphs>
+</base>

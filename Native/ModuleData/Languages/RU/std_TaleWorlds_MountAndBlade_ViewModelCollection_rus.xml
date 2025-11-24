@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Русский" />
+  </tags>
+  <strings>
+    <string id="0Itt3bZM" text="Файл с настройками управления устарел. Назначения клавиш возвращены к значениям по умолчанию." />
+    <string id="1hlaGzGI" text="Смотреть" />
+    <string id="1hnq3Kb1" text="Вы уверены, что хотите сбросить все параметры? Внесенные вами изменения будут утеряны." />
+    <string id="2AGvFYk9" text="Чтобы начать задание, вам требуется хотя бы одно подразделение класса {FORMATION_CLASS}." />
+    <string id="4gCU2ykB" text="Команды по умолчанию" />
+    <string id="5Ixsvn3s" text="Показать/скрыть таблицу результатов" />
+    <string id="61isYVW0" text="Игрок {USER_NAME} не найден" />
+    <string id="6syoutpV" text="От игрока {WHISPER_TARGET}" />
+    <string id="74PKmRWJ" text="Прическа" />
+    <string id="76VR5o8h" text="Для отправки следующего сообщения подождите {SECONDS} с." />
+    <string id="7jhe9cT9" text="Вы не можете менять тип подразделений, которых у вас нет." />
+    <string id="7XtICVeZ" text="Поле зрения" />
+    <string id="82LuSDnd" text="Быстрое движение курсора влево" />
+    <string id="9pCzjSTa" text="{PERCENTAGE}% воинов данного типа" />
+    <string id="ADKHovtz" text="Сбросить размещение" />
+    <string id="atUHbDeM" text="Поворот камеры на карте" />
+    <string id="b1DHZsaH" text="Сейчас невозможно отдать приказ." />
+    <string id="bIcFZT6L" text="Тип бровей" />
+    <string id="bLPSaLNv" text="Быстрое движение курсора вправо" />
+    <string id="bsiRNJtk" text="{NAME}:" />
+    <string id="CCBcdzGa" text="Для ВСЕХ настроек в этой категории будут восстановлены значения, предлагаемые по умолчанию. Это действие необратимо.{newline} {newline}Продолжить?" />
+    <string id="cDzWYQrz" text="Выставить значения по умолчанию?" />
+    <string id="cLJdeUWz" text="Рост:" />
+    <string id="D0TbQm4r" text="ПРОЛОМ" />
+    <string id="d1tCz15N" text="Удерживайте, чтобы бросить" />
+    <string id="d5SNB0HV" text="Взять {._}{ITEM_NAME}{.a}" />
+    <string id="Dhb2N5JD" text="Чтобы сменить канал, нажмите {KEY}" />
+    <string id="DmaP2qaR" text="Тип кожи" />
+    <string id="DQvGNQ0g" text="Вы никем не командуете." />
+    <string id="DvnRkWQg" text="Переместить воинов в подразделение {FORMATION_INDEX}" />
+    <string id="eeJcVeQG" text="Завершение фокусировки" />
+    <string id="eGuQKRhb" text="Вы покидаете местность!" />
+    <string id="EUAKPHek" text="Телосложение:" />
+    <string id="f64QfbTO" text="Чтобы отправить, нажмите {KEY}" />
+    <string id="FRSGOfUJ" text="Включить журнал боя" />
+    <string id="FTXx0aRp" text="Выбрать персонажа:" />
+    <string id="G6hYIR5k" text="Тон голоса:" />
+    <string id="gamepadActionKeybind" text="Действие" />
+    <string id="gamepadMapKeybind" text="Карта" />
+    <string id="gamevideo" text="Видео" />
+    <string id="GMhOZGnb" text="Мертвые игроки не могут отдавать приказы." />
+    <string id="hdGay8xc" text="Движение курсора по карте" />
+    <string id="HEEZhL90" text="Нажмите, чтобы использовать" />
+    <string id="hiKTvBgF" text="Вы уверены, что хотите отменить изменения, сделанные на этой вкладке? Внесенные вами изменения будут утеряны." />
+    <string id="i28Kjuay" text="Перемещение персонажа" />
+    <string id="i4Oo6aoM" text="Загрузка материалов..." />
+    <string id="j5pLIV91" text="Начало фокусировки" />
+    <string id="J9V9YhkY" text="Капитан в седле!" />
+    <string id="jS5rrX8M" text="Нет изменений для подтверждения." />
+    <string id="l2CNxPXG" text="Тип зубов" />
+    <string id="lCZMJt2k" text="Настройки графики были изменены" />
+    <string id="LlrlE199" text="Вам все еще доступны осадные орудия.{newline}Вы уверены, что хотите начать?" />
+    <string id="LW8QCm22" text="Уведомление" />
+    <string id="macpKFaG" text="Голос" />
+    <string id="meFS5F4V" text="-{DAMAGE}" />
+    <string id="mPCrz4rs" text="Закрепить процентное соотношение воинов." />
+    <string id="nEpZvaEl" text="Быстрое движение курсора вниз" />
+    <string id="ngyMTaqr" text="Назначить героем" />
+    <string id="Npqlj5Ln" text="Отменить изменения" />
+    <string id="NuMQvQxg" text="Крики" />
+    <string id="ou5KJERr" text="Чтобы скрыть, нажмите {KEY}" />
+    <string id="oZc8oEAP" text="Сбросить эту категорию до настроек по умолчанию" />
+    <string id="peUP9ZZj" text="Вы уверены? Внесенные вами изменения будут утрачены." />
+    <string id="photomodefocus" text="Фокусировка" />
+    <string id="pK4EyTZC" text="Вы хотите сохранить эти настройки?" />
+    <string id="qmNeO8FG" text="Настройка клавиш" />
+    <string id="qXxpITdc" text="Цвет глаз:" />
+    <string id="QZd3VSmO" text="Мы выпустили дополнение War Sails, в котором есть корабли, морские сражения и многое другое. Оно доступно на платформах новейшего поколения. Добавление ссылок на страницы продукта на некоторых платформах также требует от нас внести следующие изменения в информацию о возрастном рейтинге (ESRB rating):" />
+    <string id="RVIKFCno" text="По умолчанию" />
+    <string id="rx18kyZb" text="Журнал боя" />
+    <string id="Sbb8YcJM" text="Отменить выбор всех героев" />
+    <string id="scnSXrYC" text="Знаменосцы" />
+    <string id="SfsnlbyK" text="Изменения применены." />
+    <string id="SLY8z9fP" text="Все подразделения выбраны!" />
+    <string id="SQpGQzTI" text="Контроллер" />
+    <string id="suyl7WWa" text="Знамя не выбрано" />
+    <string id="trPyg7mr" text="Боевой дух" />
+    <string id="TxphX8Uk" text="Размещение" />
+    <string id="U1rHNqOk" text="Чтобы отменить, нажмите {KEY}" />
+    <string id="u78WUP9W" text="Быстрое движение курсора вверх" />
+    <string id="ufjypmaX" text="Капитан не в седле!" />
+    <string id="UhB1jlua" text="Мы выпустили дополнение War Sails, в котором есть корабли, морские сражения и многое другое. Добавление ссылок на страницы продукта на некоторых платформах также требует от нас внести следующие изменения в информацию о возрастном рейтинге (ESRB rating):" />
+    <string id="Uma907CV" text="Мы выпустили дополнение War Sails, в котором есть корабли, морские сражения и многое другое. Вы можете перейти на страницу магазина по ссылке в главном меню, чтобы приобрести дополнение и узнать больше информации. Добавление ссылок на страницы продукта также требует от нас внести следующие изменения в информацию о возрастном рейтинге (ESRB rating):" />
+    <string id="VIdtkghu" text="Информация о возрастном рейтинге (ESRB rating) изменена и теперь включает в себя интерактивный элемент:{newline}Внутриигровые покупки" />
+    <string id="VyMD4iRV" text="Герои" />
+    <string id="YjbNtFcw" text="Для всех клавиш будут восстановлены назначения, предлагаемые по умолчанию. Это действие необратимо.{newline} {newline}Продолжить?" />
+    <string id="YwbymaBc" text="Выбрать всех героев" />
+    <string id="zBld61ck" text="Вес:" />
+    <string id="zjcZZgUY" text="Эффект знамени" />
+  </strings>
+</base>

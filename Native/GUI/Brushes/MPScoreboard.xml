@@ -1,0 +1,340 @@
+<Brushes>
+  <Brush Name="MPScoreboard.DividerVertical">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPGeneral\MPScoreboard\divider_vertical" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="MPScoreboard.Divider">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPTeamSelection\divider" AlphaFactor="0.8" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="MPScoreboard.DividerNotched">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPClassLoadout\divider_notched_for_item_icons" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="MPScoreboard.PanelBackground">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="flat_panel_9" ExtendLeft="60" ExtendRight="59" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="MPScoreboard.PlayerIndicator">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPGeneral\MPScoreboard\player_indicator" AlphaFactor="0.3" HorizontalFlip="true" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPScoreboard.SteamProfileFrame">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPGeneral\MPScoreboard\steam_profile_frame" AlphaFactor="0.8" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="MPScoreboard.Scrollbar.Handle">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BlankWhiteSquare_9" Color="#A18661FF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="0.7" AlphaFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1" AlphaFactor="1" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.9" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.5" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="MPScoreboard.Scrollbar.Bed">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="mp_scroller_bed_9" AlphaFactor="0.6" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="MPScoreboard.EndOfBattle.ResultBackground">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPGeneral\MPScoreboard\result_texture" AlphaFactor="1.0" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="MPScoreboard.MuteAll.Button">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPGeneral\MPScoreboard\mute_icon" IsHidden="true" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" Sprite="MPGeneral\MPScoreboard\mute_icon" Color="#F4E1C4FF" AlphaFactor="0.6" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" Sprite="MPGeneral\MPScoreboard\mute_icon" Color="#F4E1C4FF" AlphaFactor="0.8" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" Sprite="MPGeneral\MPScoreboard\mute_icon" Color="#F4E1C4FF" AlphaFactor="0.4" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" Sprite="MPGeneral\MPScoreboard\unmute_icon" Color="#F4E1C4FF" AlphaFactor="1.0" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+    
+  <Brush Name="MPScoreboard.Scroller">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BlankWhiteSquare_9" Color="#A18661FF" IsHidden="true" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.8" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.7" ColorFactor="0.7" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPScoreboard.Scroller.Bed">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BlankWhiteSquare_9" Color="#A18661FF" IsHidden="true" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.6" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.5" ColorFactor="0.7" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+   
+  <Brush Name="MPScoreboard.FactionText" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="38" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPScoreboard.ScoreText" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#F3DCB8FF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="56" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPScoreboard.PlayerCountText" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#D9D6BAFF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="28" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPScoreboard.TitleText" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#FDD89FFF" TextAlphaFactor="0.7" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="20" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPScoreboard.Sortable.TitleText" Font="FiraSansExtraCondensed-Regular" FontSize="20" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#FDD89FFF" TextAlphaFactor="0.6" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" />
+      <Style Name="Hovered" FontColor="#FDD89FFF" TextAlphaFactor="0.8" TextBlur="0" TextOutlineAmount="0.1" TextGlowRadius="0" />
+      <Style Name="Pressed" FontColor="#FDD89FFF" TextAlphaFactor="0.4" TextBlur="0" TextOutlineAmount="0.1" TextGlowRadius="0" />
+      <Style Name="Selected" FontColor="#FDD89FFF" TextBlur="0" TextAlphaFactor="1" TextOutlineAmount="0.1" TextGlowRadius="0" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPScoreboard.PlayerNameText" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" FontSize="16" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPScoreboard.ValueText.Odd" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#FDD89FFF" TextAlphaFactor="0.7" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="22" />
+      <Style Name="Disabled" TextAlphaFactor="0.3" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPScoreboard.ValueText.Even" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextAlphaFactor="0.7" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="22" />
+      <Style Name="Disabled" TextAlphaFactor="0.3" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPScoreboard.EndOfBattle.Title" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#DAB173FF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="36" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPScoreboard.EndOfBattle.Result" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#F3DCB8FF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="66" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPScoreboard.EndOfBattle.CountdownDescription" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#E0C293FF" TextAlphaFactor="0.8" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="30" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPScoreboard.EndOfBattle.CountdownValue" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Left" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#F3DCB8FF" TextAlphaFactor="0.8" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="66" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPScoreboard.EndOfBattle.LeaveText" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#E0C293FF" TextAlphaFactor="0.7" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="30" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPScoreboard.EndOfBattle.Highlight.Header" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#F3DCB8FF" TextAlphaFactor="0.8" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="40" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPScoreboard.EndOfBattle.Highlight.Item.Title" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#DAB173FF" TextAlphaFactor="0.9" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="26" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPScoreboard.EndOfBattle.Highlight.Item.PlayerName" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#E8D3B4FF" TextAlphaFactor="0.9" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="24" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPScoreboard.EndOfBattle.Highlight.Item.Description" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#B79152FF" TextAlphaFactor="0.8" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="20" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPScoreboard.EndOfBattle.Highlight.Item.ApproveCount" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#E8D3B4FF" TextAlphaFactor="0.9" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="22" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPScoreboard.Info.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="24" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPScoreboard.MuteAll.Text" Font="FiraSansExtraCondensed-Regular" FontSize="24" TextHorizontalAlignment="Left" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" TextAlphaFactor="0.6" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" />
+      <Style Name="Hovered" FontColor="#F4E1C4FF" TextAlphaFactor="0.8" TextBlur="0" TextOutlineAmount="0.1" TextGlowRadius="0" />
+      <Style Name="Pressed" FontColor="#F4E1C4FF" TextAlphaFactor="0.4" TextBlur="0" TextOutlineAmount="0.1" TextGlowRadius="0" />
+      <Style Name="Selected" FontColor="#F4E1C4FF" TextBlur="0" TextAlphaFactor="1" TextOutlineAmount="0.1" TextGlowRadius="0" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPScoreboard.Defender.Icon">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\defender" Color="#F4E1C4FF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default"/>
+      </Style>
+    </Styles>
+  </Brush>
+  
+  <Brush Name="MPScoreboard.Attacker.Icon">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\attacker" Color="#F4E1C4FF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPScoreboard.Sort.ArrowBrush">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\sort_arrow" IsHidden="true" />
+      <BrushLayer Name="Ascending" Sprite="MPHud\sort_arrow" VerticalFlip="true" IsHidden="true" />
+      <BrushLayer Name="Descending" Sprite="MPHud\sort_arrow" IsHidden="true" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" IsHidden="false" Color="#F4E1C4FF" AlphaFactor="0.6" />
+      </Style>
+      <Style Name="Ascending">
+        <BrushLayer Name="Ascending" IsHidden="false" Color="#F4E1C4FF" AlphaFactor="1" />
+      </Style>
+      <Style Name="Descending">
+        <BrushLayer Name="Descending" IsHidden="false" Color="#F4E1C4FF" AlphaFactor="1" />
+      </Style>
+    </Styles>
+  </Brush>
+
+
+</Brushes>

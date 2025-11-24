@@ -1,0 +1,2208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Badges>
+	<Badge
+		id="badge_taleworlds_primary_dev"
+		type="Custom"
+		name="{=aubhe8Hk}TaleWorlds Developer"
+		description="{=GTmPMoYe}Employee of TaleWorlds"
+		is_visible_only_when_earned="true" />
+	<Badge
+		id="badge_taleworlds_dev"
+		type="Custom"
+		name="{=aubhe8Hk}TaleWorlds Developer"
+		description="{=GTmPMoYe}Employee of TaleWorlds"
+		is_visible_only_when_earned="true"></Badge>
+	<Badge
+		id="badge_official_server_admin"
+		type="Custom"
+		name="{=OUSbYfU4}Official Server Admin"
+		description="{=H7Zorkna}Can use Admin Panel on official servers."
+		is_visible_only_when_earned="true" />
+	<Badge
+		id="badge_alpha_tester"
+		type="Custom"
+		name="{=5IANKz8a}Alpha Tester"
+		description="{=qLpxrsFX}This badge has been awarded to the players who participated in the Multiplayer Alpha Test."
+		is_visible_only_when_earned="true" />
+	<Badge
+		id="badge_vip_tester"
+		type="Custom"
+		name="{=9C9Nbgbt}VIP"
+		description="{=dSWtiVLz}This badge has been awarded to the community members who contributed to the game and the community."
+		is_visible_only_when_earned="true" />
+	<Badge
+		id="badge_beta_tester"
+		type="Custom"
+		name="{=16hLiz40}Beta Tester"
+		description="{=BCWVcO6k}This badge has been awarded to the players who participated in the Multiplayer Beta Test."
+		is_visible_only_when_earned="true" />
+	<Badge
+		id="badge_bug_hunter"
+		type="Custom"
+		name="{=21oH4CWa}Bug Hunter"
+		description="{=gNiQcEa9}This badge has been awarded to the community members who helped us significantly in finding the bugs and issues we faced over the multiplayer alpha and beta period."
+		is_visible_only_when_earned="true" />
+	<Badge
+		id="badge_ea_participant"
+		type="Custom"
+		name="{=aNsV4LOg}EA Participant"
+		description="{=OGsa2aC1}This badge has been awarded to the players who participated in the Early Access."
+		is_visible_only_when_earned="true" />
+	<Badge
+		id="gamescom_2020_call_to_arms"
+		type="Conditional"
+		name="{=jneqTrQz}Call to Arms Gamescom 2020"
+		period_start="08/26/2020 23:00:00"
+		period_end="08/30/2020 23:00:00"
+		description="{=jtBNkpp9}This badge has been awarded to the players who won 5 matches during Gamescom 2020 events.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=j7bQmC5H}Total wins">
+			<Parameter
+				name="property"
+				value="WinCount" />
+			<Parameter
+				name="min_value"
+				value="5" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="gamescom_2020_manhunter"
+		type="Conditional"
+		name="{=npUvlnJr}Manhunter"
+		period_start="08/26/2020 23:00:00"
+		period_end="08/27/2020 23:00:00"
+		description="{=erM9uNiZ}This badge has been awarded to the players who killed other manhunters.">
+		<Condition
+			type="BadgeOwnerKill"
+			description="{=IhSV1upf}Manhunter badge owner">
+			<Parameter
+				name="required_badge.1"
+				value="gamescom_2020_manhunter" />
+			<Parameter
+				name="required_badge.2"
+				value="badge_taleworlds_primary_dev" />
+			<Parameter
+				name="required_badge.3"
+				value="badge_taleworlds_dev" />
+			<Parameter
+				name="min_value"
+				value="1" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="gamescom_2020_captain_champion_party"
+		type="Conditional"
+		name="{=ekDx9ObU}Captain Champion Gamescom 2020"
+		period_start="08/26/2020 23:00:00"
+		period_end="08/27/2020 23:00:00"
+		description="{=bFZBeN2j}This badge has been awarded to the player with most Captain kills during Gamescom 2020."
+		is_visible_only_when_earned="true">
+		<Condition
+			type="PlayerDataNumeric"
+			group_type="Solo"
+			description="{=bNEEElAA}Solo kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="is_best"
+				value="true" />
+		</Condition>
+		<Condition
+			type="PlayerDataNumeric"
+			group_type="Party"
+			description="{=g4BnT9UP}Party kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="is_best"
+				value="true" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="gamescom_2020_skirmish_champion_party"
+		type="Conditional"
+		name="{=jqbTUIwm}Skirmish Champion Gamescom 2020"
+		period_start="08/27/2020 23:00:00"
+		period_end="08/28/2020 23:00:00"
+		description="{=c66LlHlQ}This badge has been awarded to the player with most Skirmish kills during Gamescom 2020."
+		is_visible_only_when_earned="true">
+		<Condition
+			type="PlayerDataNumeric"
+			group_type="Solo"
+			description="{=bNEEElAA}Solo kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="is_best"
+				value="true" />
+		</Condition>
+		<Condition
+			type="PlayerDataNumeric"
+			group_type="Party"
+			description="{=g4BnT9UP}Party kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="is_best"
+				value="true" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="gamescom_2020_captain_champion_solo"
+		type="Conditional"
+		name="{=ekDx9ObU}Captain Champion Gamescom 2020"
+		period_start="08/28/2020 23:00:00"
+		period_end="08/29/2020 23:00:00"
+		description="{=bFZBeN2j}This badge has been awarded to the player with most Captain kills during Gamescom 2020."
+		is_visible_only_when_earned="true">
+		<Condition
+			type="PlayerDataNumeric"
+			group_type="Solo"
+			description="{=bNEEElAA}Solo kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="is_best"
+				value="true" />
+		</Condition>
+		<Condition
+			type="PlayerDataNumeric"
+			group_type="Party"
+			description="{=g4BnT9UP}Party kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="is_best"
+				value="true" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="gamescom_2020_skirmish_champion_solo"
+		type="Conditional"
+		name="{=jqbTUIwm}Skirmish Champion Gamescom 2020"
+		period_start="08/29/2020 23:00:00"
+		period_end="08/30/2020 23:00:00"
+		description="{=c66LlHlQ}This badge has been awarded to the player with most Skirmish kills during Gamescom 2020."
+		is_visible_only_when_earned="true">
+		<Condition
+			type="PlayerDataNumeric"
+			group_type="Solo"
+			description="{=bNEEElAA}Solo kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="is_best"
+				value="true" />
+		</Condition>
+		<Condition
+			type="PlayerDataNumeric"
+			group_type="Party"
+			description="{=g4BnT9UP}Party kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="is_best"
+				value="true" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="badge_beta_20_wins"
+		group_id="beta_wins"
+		type="Custom"
+		name="{=KcPkbnu2}Beta 20 Wins"
+		description="{=tI5cj3Qz}This badge has been awarded to the players who won 20 matches in the Beta Test"
+		is_visible_only_when_earned="true" />
+	<Badge
+		id="badge_beta_50_wins"
+		group_id="beta_wins"
+		type="Custom"
+		name="{=FDvwGjni}Beta 50 Wins"
+		description="{=1CxYPryo}This badge has been awarded to the players who won 50 matches in the Beta Test"
+		is_visible_only_when_earned="true" />
+	<Badge
+		id="badge_beta_100_wins"
+		group_id="beta_wins"
+		type="Custom"
+		name="{=DWb2zRsZ}Beta 100 Wins"
+		description="{=bKmVrmzG}This badge has been awarded to the players who won 100 matches in the Beta Test"
+		is_visible_only_when_earned="true" />
+	<Badge
+		id="badge_beta_250_wins"
+		group_id="beta_wins"
+		type="Custom"
+		name="{=H4Zlsiu1}Beta 250 Wins"
+		description="{=sli6QNV6}This badge has been awarded to the players who won 250 matches in the Beta Test."
+		is_visible_only_when_earned="true" />
+	<Badge
+		id="badge_ea_20_wins"
+		group_id="ea_wins"
+		type="Custom"
+		name="{=DKAH6hMC}EA 20 Wins"
+		description="{=OasvPXuW}This badge has been awarded to the players who won 20 matches in the Early Access."
+		is_visible_only_when_earned="true" />
+	<Badge
+		id="badge_ea_50_wins"
+		group_id="ea_wins"
+		type="Custom"
+		name="{=fAaorpa8}EA 50 Wins"
+		description="{=Cbf52UqN}This badge has been awarded to the players who won 50 matches in the Early Access."
+		is_visible_only_when_earned="true" />
+	<Badge
+		id="badge_ea_100_wins"
+		group_id="ea_wins"
+		type="Custom"
+		name="{=qvYJuD83}EA 100 Wins"
+		description="{=IcPNgbtl}This badge has been awarded to the players who won 100 matches in the Early Access."
+		is_visible_only_when_earned="true" />
+	<Badge
+		id="badge_ea_250_wins"
+		group_id="ea_wins"
+		type="Custom"
+		name="{=iGTJ4aQq}EA 250 Wins"
+		description="{=medMGVme}This badge has been awarded to the players who won 250 matches in the Early Access."
+		is_visible_only_when_earned="true" />
+	<Badge
+		id="badge_ea_500_wins"
+		group_id="ea_wins"
+		type="Custom"
+		name="{=Xws44eDL}EA 500 Wins"
+		description="{=5ZwXUBV5}This badge has been awarded to the players who won 500 matches in the Early Access."
+		is_visible_only_when_earned="true" />
+	<Badge
+		id="badge_ea_750_wins"
+		group_id="ea_wins"
+		type="Custom"
+		name="{=ZodCgSL5}EA 750 Wins"
+		description="{=ESOkYFiD}This badge has been awarded to the players who won 750 matches in the Early Access."
+		is_visible_only_when_earned="true" />
+	<Badge
+		id="hours_played_badge_1"
+		group_id="hours_played"
+		type="Conditional"
+		name="{=FXGZg2Tx}1 Hour"
+		description="{=RMfCrI9a}Play Bannerlord Multiplayer for 1 hour.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=zIZ6mnra}Hours Played">
+			<Parameter
+				name="property"
+				value="Playtime" />
+			<Parameter
+				name="min_value"
+				value="3600" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="hours_played_badge_5"
+		group_id="hours_played"
+		type="Conditional"
+		name="{=ESevd38t}5 Hours"
+		description="{=agDGvi5z}Play Bannerlord Multiplayer for 5 hours.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=zIZ6mnra}Hours Played">
+			<Parameter
+				name="property"
+				value="Playtime" />
+			<Parameter
+				name="min_value"
+				value="18000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="hours_played_badge_10"
+		group_id="hours_played"
+		type="Conditional"
+		name="{=a7e4pv1A}10 Hours"
+		description="{=Z6c8GjOG}Play Bannerlord Multiplayer for 10 hours.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=zIZ6mnra}Hours Played">
+			<Parameter
+				name="property"
+				value="Playtime" />
+			<Parameter
+				name="min_value"
+				value="36000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="hours_played_badge_15"
+		group_id="hours_played"
+		type="Conditional"
+		name="{=6daSmmbC}15 Hours"
+		description="{=HObaeaBL}Play Bannerlord Multiplayer for 15 hours.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=zIZ6mnra}Hours Played">
+			<Parameter
+				name="property"
+				value="Playtime" />
+			<Parameter
+				name="min_value"
+				value="54000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="hours_played_badge_20"
+		group_id="hours_played"
+		type="Conditional"
+		name="{=SR2gLFGN}20 Hours"
+		description="{=ASi0dL8J}Play Bannerlord Multiplayer for 20 hours.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=zIZ6mnra}Hours Played">
+			<Parameter
+				name="property"
+				value="Playtime" />
+			<Parameter
+				name="min_value"
+				value="72000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="hours_played_badge_25"
+		group_id="hours_played"
+		type="Conditional"
+		name="{=Jd5biabt}25 Hours"
+		description="{=tgCzP4m8}Play Bannerlord Multiplayer for 25 hours.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=zIZ6mnra}Hours Played">
+			<Parameter
+				name="property"
+				value="Playtime" />
+			<Parameter
+				name="min_value"
+				value="90000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="hours_played_badge_50"
+		group_id="hours_played"
+		type="Conditional"
+		name="{=ITT8aMtp}50 Hours"
+		description="{=DgKnDhbf}Play Bannerlord Multiplayer for 50 hours.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=zIZ6mnra}Hours Played">
+			<Parameter
+				name="property"
+				value="Playtime" />
+			<Parameter
+				name="min_value"
+				value="180000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="hours_played_badge_75"
+		group_id="hours_played"
+		type="Conditional"
+		name="{=GMXL5wfG}75 Hours"
+		description="{=X5hIe3U8}Play Bannerlord Multiplayer for 75 hours.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=zIZ6mnra}Hours Played">
+			<Parameter
+				name="property"
+				value="Playtime" />
+			<Parameter
+				name="min_value"
+				value="270000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="hours_played_badge_100"
+		group_id="hours_played"
+		type="Conditional"
+		name="{=CiGbxwdG}100 Hours"
+		description="{=SXEkSfKt}Play Bannerlord Multiplayer for 100 hours.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=zIZ6mnra}Hours Played">
+			<Parameter
+				name="property"
+				value="Playtime" />
+			<Parameter
+				name="min_value"
+				value="360000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="hours_played_badge_150"
+		group_id="hours_played"
+		type="Conditional"
+		name="{=bGOprieT}150 Hours"
+		description="{=6OKCtPMg}Play Bannerlord Multiplayer for 150 hours.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=zIZ6mnra}Hours Played">
+			<Parameter
+				name="property"
+				value="Playtime" />
+			<Parameter
+				name="min_value"
+				value="540000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="hours_played_badge_200"
+		group_id="hours_played"
+		type="Conditional"
+		name="{=OUfaVmEN}200 Hours"
+		description="{=2ams0Tby}Play Bannerlord Multiplayer for 200 hours.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=zIZ6mnra}Hours Played">
+			<Parameter
+				name="property"
+				value="Playtime" />
+			<Parameter
+				name="min_value"
+				value="720000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="hours_played_badge_250"
+		group_id="hours_played"
+		type="Conditional"
+		name="{=btxP1EMZ}250 Hours"
+		description="{=UvZpq86E}Play Bannerlord Multiplayer for 250 hours.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=zIZ6mnra}Hours Played">
+			<Parameter
+				name="property"
+				value="Playtime" />
+			<Parameter
+				name="min_value"
+				value="900000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="hours_played_badge_300"
+		group_id="hours_played"
+		type="Conditional"
+		name="{=wVCeT3Pn}300 Hours"
+		description="{=iJz6blun}Play Bannerlord Multiplayer for 300 hours.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=zIZ6mnra}Hours Played">
+			<Parameter
+				name="property"
+				value="Playtime" />
+			<Parameter
+				name="min_value"
+				value="1080000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="hours_played_badge_400"
+		group_id="hours_played"
+		type="Conditional"
+		name="{=x4hdxNCf}400 Hours"
+		description="{=2mQSbg16}Play Bannerlord Multiplayer for 400 hours.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=zIZ6mnra}Hours Played">
+			<Parameter
+				name="property"
+				value="Playtime" />
+			<Parameter
+				name="min_value"
+				value="1440000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="hours_played_badge_500"
+		group_id="hours_played"
+		type="Conditional"
+		name="{=i5c6dD5U}500 Hours"
+		description="{=7eyjmmLa}Play Bannerlord Multiplayer for 500 hours.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=zIZ6mnra}Hours Played">
+			<Parameter
+				name="property"
+				value="Playtime" />
+			<Parameter
+				name="min_value"
+				value="1800000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="hours_played_badge_600"
+		group_id="hours_played"
+		type="Conditional"
+		name="{=ZOnqe9Ju}600 Hours"
+		description="{=tAjuoucm}Play Bannerlord Multiplayer for 600 hours.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=zIZ6mnra}Hours Played">
+			<Parameter
+				name="property"
+				value="Playtime" />
+			<Parameter
+				name="min_value"
+				value="2160000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="hours_played_badge_700"
+		group_id="hours_played"
+		type="Conditional"
+		name="{=LUMEtToo}700 Hours"
+		description="{=jYb8lg8w}Play Bannerlord Multiplayer for 700 hours.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=zIZ6mnra}Hours Played">
+			<Parameter
+				name="property"
+				value="Playtime" />
+			<Parameter
+				name="min_value"
+				value="2520000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="hours_played_badge_800"
+		group_id="hours_played"
+		type="Conditional"
+		name="{=ikd2TZyJ}800 Hours"
+		description="{=7rXPCdGp}Play Bannerlord Multiplayer for 800 hours.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=zIZ6mnra}Hours Played">
+			<Parameter
+				name="property"
+				value="Playtime" />
+			<Parameter
+				name="min_value"
+				value="2880000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="hours_played_badge_900"
+		group_id="hours_played"
+		type="Conditional"
+		name="{=CNuW2VPr}900 Hours"
+		description="{=Zu1g7sv7}Play Bannerlord Multiplayer for 900 hours.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=zIZ6mnra}Hours Played">
+			<Parameter
+				name="property"
+				value="Playtime" />
+			<Parameter
+				name="min_value"
+				value="3240000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="hours_played_badge_1k"
+		group_id="hours_played"
+		type="Conditional"
+		name="{=NASCMzSY}1000+ Hours"
+		description="{=l6EKgnEm}Play Bannerlord Multiplayer for more than 1000 hours.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=zIZ6mnra}Hours Played">
+			<Parameter
+				name="property"
+				value="Playtime" />
+			<Parameter
+				name="min_value"
+				value="3600000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="ea_level_badge_10"
+		group_id="ea_levels"
+		type="Conditional"
+		name="{=4a2bJT7g}Level 10"
+		description="{=5mEy2fT0}Reach Level 10 in the Multiplayer.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=OKUTPdaa}Level">
+			<Parameter
+				name="property"
+				value="Level" />
+			<Parameter
+				name="min_value"
+				value="10" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="ea_level_badge_50"
+		group_id="ea_levels"
+		type="Conditional"
+		name="{=NZGkLSJ8}Level 50"
+		description="{=glHYOfzF}Reach Level 50 in the Multiplayer.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=OKUTPdaa}Level">
+			<Parameter
+				name="property"
+				value="Level" />
+			<Parameter
+				name="min_value"
+				value="50" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="ea_level_badge_100"
+		group_id="ea_levels"
+		type="Conditional"
+		name="{=JZpZrzs2}Level 100"
+		description="{=VqBh2CW4}Reach Level 100 in the Multiplayer.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=OKUTPdaa}Level">
+			<Parameter
+				name="property"
+				value="Level" />
+			<Parameter
+				name="min_value"
+				value="100" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="ea_level_badge_150"
+		group_id="ea_levels"
+		type="Conditional"
+		name="{=N39iqvud}Level 150"
+		description="{=Gp504aSx}Reach Level 150 in the Multiplayer.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=OKUTPdaa}Level">
+			<Parameter
+				name="property"
+				value="Level" />
+			<Parameter
+				name="min_value"
+				value="150" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="ea_level_badge_200"
+		group_id="ea_levels"
+		type="Conditional"
+		name="{=5yl9MDz7}Level 200"
+		description="{=qrmZPjtc}Reach Level 200 in the Multiplayer.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=OKUTPdaa}Level">
+			<Parameter
+				name="property"
+				value="Level" />
+			<Parameter
+				name="min_value"
+				value="200" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="ea_level_badge_250"
+		group_id="ea_levels"
+		type="Conditional"
+		name="{=sQBjQ148}Level 250"
+		description="{=s3HTqoLB}Reach Level 250 in the Multiplayer.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=OKUTPdaa}Level">
+			<Parameter
+				name="property"
+				value="Level" />
+			<Parameter
+				name="min_value"
+				value="250" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_kill_badges_1"
+		group_id="skirmish_kills"
+		type="Conditional"
+		name="{=TN4rdjoD}1 Skirmish Kill"
+		description="{=oI8cKePA}Get 1 kill in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=oxLBMh0W}Skirmish Kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="min_value"
+				value="1" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_kill_badges_5"
+		group_id="skirmish_kills"
+		type="Conditional"
+		name="{=BPo3gNAv}5 Skirmish Kills"
+		description="{=Xaf1klxr}Get 5 kills in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=oxLBMh0W}Skirmish Kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="min_value"
+				value="5" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_kill_badges_10"
+		group_id="skirmish_kills"
+		type="Conditional"
+		name="{=rXuZXrwG}10 Skirmish Kills"
+		description="{=uiecQRF7}Get 10 kills in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=oxLBMh0W}Skirmish Kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="min_value"
+				value="10" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_kill_badges_25"
+		group_id="skirmish_kills"
+		type="Conditional"
+		name="{=63MQh5P9}25 Skirmish Kills"
+		description="{=DSUsREnx}Get 25 kills in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=oxLBMh0W}Skirmish Kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="min_value"
+				value="25" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_kill_badges_50"
+		group_id="skirmish_kills"
+		type="Conditional"
+		name="{=RqmF2yD2}50 Skirmish Kills"
+		description="{=RNef1ThS}Get 50 kills in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=oxLBMh0W}Skirmish Kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="min_value"
+				value="50" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_kill_badges_100"
+		group_id="skirmish_kills"
+		type="Conditional"
+		name="{=GjJgUYoG}100 Skirmish Kills"
+		description="{=uNLRgURt}Get 100 kills in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=oxLBMh0W}Skirmish Kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="min_value"
+				value="100" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_kill_badges_250"
+		group_id="skirmish_kills"
+		type="Conditional"
+		name="{=mddRd5Qe}250 Skirmish Kills"
+		description="{=XmoZWHY3}Get 250 kills in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=oxLBMh0W}Skirmish Kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="min_value"
+				value="250" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_kill_badges_500"
+		group_id="skirmish_kills"
+		type="Conditional"
+		name="{=8WIu29TL}500 Skirmish Kills"
+		description="{=y1V6h76s}Get 500 kills in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=oxLBMh0W}Skirmish Kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="min_value"
+				value="500" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_kill_badges_1k"
+		group_id="skirmish_kills"
+		type="Conditional"
+		name="{=wqsDfPwv}1K Skirmish Kills"
+		description="{=cHRnWvHg}Get 1000 kills in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=oxLBMh0W}Skirmish Kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="min_value"
+				value="1000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_kill_badges_2k"
+		group_id="skirmish_kills"
+		type="Conditional"
+		name="{=wDeUhwkp}2K Skirmish Kills"
+		description="{=Krxm3Cez}Get 2000 kills in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=oxLBMh0W}Skirmish Kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="min_value"
+				value="2000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_kill_badges_3k"
+		group_id="skirmish_kills"
+		type="Conditional"
+		name="{=SMhnlsai}3K Skirmish Kills"
+		description="{=x2IKk7Hc}Get 3000 kills in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=oxLBMh0W}Skirmish Kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="min_value"
+				value="3000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_kill_badges_4k"
+		group_id="skirmish_kills"
+		type="Conditional"
+		name="{=lboBYXsb}4K Skirmish Kills"
+		description="{=WS26SCJ9}Get 4000 kills in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=oxLBMh0W}Skirmish Kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="min_value"
+				value="4000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_kill_badges_5k"
+		group_id="skirmish_kills"
+		type="Conditional"
+		name="{=2NKXox6B}5K Skirmish Kills"
+		description="{=Gs3jlkbX}Get 5000 kills in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=oxLBMh0W}Skirmish Kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="min_value"
+				value="5000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_kill_badges_6k"
+		group_id="skirmish_kills"
+		type="Conditional"
+		name="{=m7aASoPW}6K Skirmish Kills"
+		description="{=B1OKU7jn}Get 6000 kills in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=oxLBMh0W}Skirmish Kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="min_value"
+				value="6000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_kill_badges_7k"
+		group_id="skirmish_kills"
+		type="Conditional"
+		name="{=cahoCHJ9}7K Skirmish Kills"
+		description="{=4engYxiH}Get 7000 kills in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=oxLBMh0W}Skirmish Kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="min_value"
+				value="7000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_kill_badges_8k"
+		group_id="skirmish_kills"
+		type="Conditional"
+		name="{=lLgpdKmz}8K Skirmish Kills"
+		description="{=KLcbS5z4}Get 8000 kills in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=oxLBMh0W}Skirmish Kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="min_value"
+				value="8000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_kill_badges_9k"
+		group_id="skirmish_kills"
+		type="Conditional"
+		name="{=zmLPZrnv}9K Skirmish Kills"
+		description="{=bi4l3xYa}Get 9000 kills in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=oxLBMh0W}Skirmish Kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="min_value"
+				value="9000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_kill_badges_10k"
+		group_id="skirmish_kills"
+		type="Conditional"
+		name="{=u8vsd2TF}10K Skirmish Kills"
+		description="{=t7BAQ0Ej}Get 10000 kills in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=oxLBMh0W}Skirmish Kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="min_value"
+				value="10000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_kill_badges_20k"
+		group_id="skirmish_kills"
+		type="Conditional"
+		name="{=aljK4VFt}20K Skirmish Kills"
+		description="{=QtbKJGBi}Get 20000 kills in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=oxLBMh0W}Skirmish Kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="min_value"
+				value="20000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_kill_badges_30k"
+		group_id="skirmish_kills"
+		type="Conditional"
+		name="{=MDp4BIa8}30K Skirmish Kills"
+		description="{=dJdhMfBq}Get 30000 kills in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=oxLBMh0W}Skirmish Kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="min_value"
+				value="30000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_kill_badges_40k"
+		group_id="skirmish_kills"
+		type="Conditional"
+		name="{=biOsjq1w}40K Skirmish Kills"
+		description="{=2hwRwqeu}Get 40000 kills in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=oxLBMh0W}Skirmish Kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="min_value"
+				value="40000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_kill_badges_50k"
+		group_id="skirmish_kills"
+		type="Conditional"
+		name="{=qy3LQq8J}50K Skirmish Kills"
+		description="{=edlBQoLd}Get 50000 kills in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=oxLBMh0W}Skirmish Kills">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.KillCount" />
+			<Parameter
+				name="min_value"
+				value="50000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_kill_badges_10"
+		group_id="captain_kills"
+		type="Conditional"
+		name="{=nELaOwh9}10 Captain Kills"
+		description="{=2UVIakHk}Get 10 kills in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=4EblujXW}Captain Kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="min_value"
+				value="10" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_kill_badges_25"
+		group_id="captain_kills"
+		type="Conditional"
+		name="{=sHkmKS9r}25 Captain Kills"
+		description="{=GTrS1paG}Get 25 kills in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=4EblujXW}Captain Kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="min_value"
+				value="25" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_kill_badges_50"
+		group_id="captain_kills"
+		type="Conditional"
+		name="{=H1ayK1dU}50 Captain Kills"
+		description="{=aRVBEYdZ}Get 50 kills in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=4EblujXW}Captain Kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="min_value"
+				value="50" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_kill_badges_100"
+		group_id="captain_kills"
+		type="Conditional"
+		name="{=b239bdHe}100 Captain Kills"
+		description="{=FQQbLMZx}Get 100 kills in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=4EblujXW}Captain Kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="min_value"
+				value="100" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_kill_badges_250"
+		group_id="captain_kills"
+		type="Conditional"
+		name="{=uC8NaJMZ}250 Captain Kills"
+		description="{=auw7QI1b}Get 250 kills in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=4EblujXW}Captain Kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="min_value"
+				value="250" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_kill_badges_500"
+		group_id="captain_kills"
+		type="Conditional"
+		name="{=DNCJX1Eb}500 Captain Kills"
+		description="{=CRzmSbSm}Get 500 kills in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=4EblujXW}Captain Kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="min_value"
+				value="500" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_kill_badges_1k"
+		group_id="captain_kills"
+		type="Conditional"
+		name="{=VcG2HM7g}1K Captain Kills"
+		description="{=vjybRGkC}Get 1000 kills in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=4EblujXW}Captain Kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="min_value"
+				value="1000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_kill_badges_2.5k"
+		group_id="captain_kills"
+		type="Conditional"
+		name="{=E2ru1TH4}2.5K Captain Kills"
+		description="{=cl2YSg5u}Get 2500 kills in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=4EblujXW}Captain Kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="min_value"
+				value="2500" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_kill_badges_5k"
+		group_id="captain_kills"
+		type="Conditional"
+		name="{=t1b3PE6O}5K Captain Kills"
+		description="{=WneNcpTy}Get 5000 kills in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=4EblujXW}Captain Kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="min_value"
+				value="5000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_kill_badges_10k"
+		group_id="captain_kills"
+		type="Conditional"
+		name="{=JLj2CCGA}10K Captain Kills"
+		description="{=aUmbvAcr}Get 10000 kills in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=4EblujXW}Captain Kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="min_value"
+				value="10000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_kill_badges_20k"
+		group_id="captain_kills"
+		type="Conditional"
+		name="{=eOZbwBg8}20K Captain Kills"
+		description="{=6rRGEebP}Get 20000 kills in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=4EblujXW}Captain Kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="min_value"
+				value="20000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_kill_badges_30k"
+		group_id="captain_kills"
+		type="Conditional"
+		name="{=sfnOdmPN}30K Captain Kills"
+		description="{=O29z0Yv7}Get 30000 kills in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=4EblujXW}Captain Kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="min_value"
+				value="30000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_kill_badges_40k"
+		group_id="captain_kills"
+		type="Conditional"
+		name="{=82GOu9Xn}40K Captain Kills"
+		description="{=GKAzN0h7}Get 40000 kills in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=4EblujXW}Captain Kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="min_value"
+				value="40000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_kill_badges_50k"
+		group_id="captain_kills"
+		type="Conditional"
+		name="{=2haJ4Hcv}50K Captain Kills"
+		description="{=nnXbWJBo}Get 50000 kills in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=4EblujXW}Captain Kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="min_value"
+				value="50000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_kill_badges_60k"
+		group_id="captain_kills"
+		type="Conditional"
+		name="{=tiMGuZKv}60K Captain Kills"
+		description="{=arups4VQ}Get 60000 kills in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=4EblujXW}Captain Kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="min_value"
+				value="60000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_kill_badges_70k"
+		group_id="captain_kills"
+		type="Conditional"
+		name="{=VjE8hOGO}70K Captain Kills"
+		description="{=kw6AUzv1}Get 70000 kills in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=4EblujXW}Captain Kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="min_value"
+				value="70000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_kill_badges_80k"
+		group_id="captain_kills"
+		type="Conditional"
+		name="{=bRoQydvY}80K Captain Kills"
+		description="{=SQn9Bnbu}Get 80000 kills in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=4EblujXW}Captain Kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="min_value"
+				value="80000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_kill_badges_90k"
+		group_id="captain_kills"
+		type="Conditional"
+		name="{=1WljM7iN}90K Captain Kills"
+		description="{=SHwXtSCs}Get 90000 kills in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=4EblujXW}Captain Kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="min_value"
+				value="90000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_kill_badges_100k"
+		group_id="captain_kills"
+		type="Conditional"
+		name="{=Ycm1tFco}100K Captain Kills"
+		description="{=SbtOuQAF}Get 100000 kills in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=4EblujXW}Captain Kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="min_value"
+				value="100000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_kill_badges_200k"
+		group_id="captain_kills"
+		type="Conditional"
+		name="{=zaNLw3BW}200K Captain Kills"
+		description="{=GpTkaemG}Get 200000 kills in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=4EblujXW}Captain Kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="min_value"
+				value="200000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_kill_badges_300k"
+		group_id="captain_kills"
+		type="Conditional"
+		name="{=uYaabiLM}300K Captain Kills"
+		description="{=oZSZ3cJc}Get 300000 kills in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=4EblujXW}Captain Kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="min_value"
+				value="300000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_kill_badges_400k"
+		group_id="captain_kills"
+		type="Conditional"
+		name="{=yQMOACqA}400K Captain Kills"
+		description="{=LoKo54kV}Get 400000 kills in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=4EblujXW}Captain Kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="min_value"
+				value="400000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_kill_badges_500k"
+		group_id="captain_kills"
+		type="Conditional"
+		name="{=cDUVLNma}500K Captain Kills"
+		description="{=KDP7b4j4}Get 500000 kills in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=4EblujXW}Captain Kills">
+			<Parameter
+				name="property"
+				value="Stats.Captain.KillCount" />
+			<Parameter
+				name="min_value"
+				value="500000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_win_badges_1"
+		group_id="skirmish_wins"
+		type="Conditional"
+		name="{=y8Qucwo8}1 Skirmish Win"
+		description="{=8P5dVaj5}Get a win in a Skirmish game.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=2Ys7hehK}Skirmish Wins">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.WinCount" />
+			<Parameter
+				name="min_value"
+				value="1" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_win_badges_5"
+		group_id="skirmish_wins"
+		type="Conditional"
+		name="{=lymXO8Db}5 Skirmish Wins"
+		description="{=1M6atKQR}Get 5 wins in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=2Ys7hehK}Skirmish Wins">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.WinCount" />
+			<Parameter
+				name="min_value"
+				value="5" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_win_badges_10"
+		group_id="skirmish_wins"
+		type="Conditional"
+		name="{=aVCDFNDK}10 Skirmish Wins"
+		description="{=aUBWXr77}Get 10 wins in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=2Ys7hehK}Skirmish Wins">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.WinCount" />
+			<Parameter
+				name="min_value"
+				value="10" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_win_badges_25"
+		group_id="skirmish_wins"
+		type="Conditional"
+		name="{=SGWo5GWx}25 Skirmish Wins"
+		description="{=vmbD5mr9}Get 25 wins in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=2Ys7hehK}Skirmish Wins">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.WinCount" />
+			<Parameter
+				name="min_value"
+				value="25" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_win_badges_50"
+		group_id="skirmish_wins"
+		type="Conditional"
+		name="{=M5IubkYP}50 Skirmish Wins"
+		description="{=TRaCgBRE}Get 50 wins in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=2Ys7hehK}Skirmish Wins">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.WinCount" />
+			<Parameter
+				name="min_value"
+				value="50" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_win_badges_100"
+		group_id="skirmish_wins"
+		type="Conditional"
+		name="{=AMghdgij}100 Skirmish Wins"
+		description="{=veWtR387}Get 100 wins in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=2Ys7hehK}Skirmish Wins">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.WinCount" />
+			<Parameter
+				name="min_value"
+				value="100" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_win_badges_250"
+		group_id="skirmish_wins"
+		type="Conditional"
+		name="{=IskvXSLp}250 Skirmish Wins"
+		description="{=K4wDSlNy}Get 250 wins in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=2Ys7hehK}Skirmish Wins">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.WinCount" />
+			<Parameter
+				name="min_value"
+				value="250" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_win_badges_500"
+		group_id="skirmish_wins"
+		type="Conditional"
+		name="{=hiby7k7b}500 Skirmish Wins"
+		description="{=Fiy8XXGT}Get 500 wins in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=2Ys7hehK}Skirmish Wins">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.WinCount" />
+			<Parameter
+				name="min_value"
+				value="500" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_win_badges_750"
+		group_id="skirmish_wins"
+		type="Conditional"
+		name="{=f8xQElFP}750 Skirmish Wins"
+		description="{=iaej5Z8Z}Get 750 wins in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=2Ys7hehK}Skirmish Wins">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.WinCount" />
+			<Parameter
+				name="min_value"
+				value="750" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_win_badges_1k"
+		group_id="skirmish_wins"
+		type="Conditional"
+		name="{=DgG681uF}1K Skirmish Wins"
+		description="{=FPyc4kOa}Get 1000 wins in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=2Ys7hehK}Skirmish Wins">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.WinCount" />
+			<Parameter
+				name="min_value"
+				value="1000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_win_badges_1.5k"
+		group_id="skirmish_wins"
+		type="Conditional"
+		name="{=Xe6PwUSW}1.5K Skirmish Wins"
+		description="{=9DtujqB6}Get 1500 wins in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=2Ys7hehK}Skirmish Wins">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.WinCount" />
+			<Parameter
+				name="min_value"
+				value="1500" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_win_badges_2k"
+		group_id="skirmish_wins"
+		type="Conditional"
+		name="{=b2m42VgN}2K Skirmish Wins"
+		description="{=ZPmlRivY}Get 2000 wins in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=2Ys7hehK}Skirmish Wins">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.WinCount" />
+			<Parameter
+				name="min_value"
+				value="2000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_win_badges_2.5k"
+		group_id="skirmish_wins"
+		type="Conditional"
+		name="{=CAu8v3YN}2.5K Skirmish Wins"
+		description="{=yC2vtQdg}Get 2500 wins in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=2Ys7hehK}Skirmish Wins">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.WinCount" />
+			<Parameter
+				name="min_value"
+				value="2500" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_win_badges_3k"
+		group_id="skirmish_wins"
+		type="Conditional"
+		name="{=trfNdMJ5}3K Skirmish Wins"
+		description="{=TEqD7Agb}Get 3000 wins in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=2Ys7hehK}Skirmish Wins">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.WinCount" />
+			<Parameter
+				name="min_value"
+				value="3000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_win_badges_4k"
+		group_id="skirmish_wins"
+		type="Conditional"
+		name="{=IgvgHsKr}4K Skirmish Wins"
+		description="{=3fbcEJlU}Get 4000 wins in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=2Ys7hehK}Skirmish Wins">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.WinCount" />
+			<Parameter
+				name="min_value"
+				value="4000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_win_badges_5k"
+		group_id="skirmish_wins"
+		type="Conditional"
+		name="{=vdXMKLg8}5K Skirmish Wins"
+		description="{=xdrjQzQV}Get 5000 wins in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=2Ys7hehK}Skirmish Wins">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.WinCount" />
+			<Parameter
+				name="min_value"
+				value="5000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_win_badges_6k"
+		group_id="skirmish_wins"
+		type="Conditional"
+		name="{=lFBFO2JE}6K Skirmish Wins"
+		description="{=FKZ3dYik}Get 6000 wins in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=2Ys7hehK}Skirmish Wins">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.WinCount" />
+			<Parameter
+				name="min_value"
+				value="6000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_win_badges_7k"
+		group_id="skirmish_wins"
+		type="Conditional"
+		name="{=nVwxkgin}7K Skirmish Wins"
+		description="{=dYBrZKyV}Get 7000 wins in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=2Ys7hehK}Skirmish Wins">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.WinCount" />
+			<Parameter
+				name="min_value"
+				value="7000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_win_badges_8k"
+		group_id="skirmish_wins"
+		type="Conditional"
+		name="{=EihCSkXJ}8K Skirmish Wins"
+		description="{=TSItnVKH}Get 8000 wins in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=2Ys7hehK}Skirmish Wins">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.WinCount" />
+			<Parameter
+				name="min_value"
+				value="8000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_win_badges_9k"
+		group_id="skirmish_wins"
+		type="Conditional"
+		name="{=lvNAopwh}9K Skirmish Wins"
+		description="{=hLBLn7Ex}Get 9000 wins in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=2Ys7hehK}Skirmish Wins">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.WinCount" />
+			<Parameter
+				name="min_value"
+				value="9000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="skirmish_win_badges_10k"
+		group_id="skirmish_wins"
+		type="Conditional"
+		name="{=qAYRvltr}10K Skirmish Wins"
+		description="{=vWq3LN3z}Get 10000 wins in Skirmish games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=2Ys7hehK}Skirmish Wins">
+			<Parameter
+				name="property"
+				value="Stats.Skirmish.WinCount" />
+			<Parameter
+				name="min_value"
+				value="10000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_win_badges_1"
+		group_id="captain_wins"
+		type="Conditional"
+		name="{=xVCpomC8}1 Captain Win"
+		description="{=SR3hy9Sv}Get a win in a Captain game.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=YxGlexPJ}Captain Wins">
+			<Parameter
+				name="property"
+				value="Stats.Captain.WinCount" />
+			<Parameter
+				name="min_value"
+				value="1" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_win_badges_5"
+		group_id="captain_wins"
+		type="Conditional"
+		name="{=HDuvb5gA}5 Captain Wins"
+		description="{=3vVJJAln}Get 5 wins in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=YxGlexPJ}Captain Wins">
+			<Parameter
+				name="property"
+				value="Stats.Captain.WinCount" />
+			<Parameter
+				name="min_value"
+				value="5" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_win_badges_10"
+		group_id="captain_wins"
+		type="Conditional"
+		name="{=Jebj20yv}10 Captain Wins"
+		description="{=ZLnOfWuV}Get 10 wins in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=YxGlexPJ}Captain Wins">
+			<Parameter
+				name="property"
+				value="Stats.Captain.WinCount" />
+			<Parameter
+				name="min_value"
+				value="10" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_win_badges_25"
+		group_id="captain_wins"
+		type="Conditional"
+		name="{=0gi1kEIR}25 Captain Wins"
+		description="{=aCbpaHAc}Get 25 wins in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=YxGlexPJ}Captain Wins">
+			<Parameter
+				name="property"
+				value="Stats.Captain.WinCount" />
+			<Parameter
+				name="min_value"
+				value="25" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_win_badges_50"
+		group_id="captain_wins"
+		type="Conditional"
+		name="{=PyYkJMHf}50 Captain Wins"
+		description="{=AuEL61vN}Get 50 wins in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=YxGlexPJ}Captain Wins">
+			<Parameter
+				name="property"
+				value="Stats.Captain.WinCount" />
+			<Parameter
+				name="min_value"
+				value="50" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_win_badges_100"
+		group_id="captain_wins"
+		type="Conditional"
+		name="{=8lWsAP8q}100 Captain Wins"
+		description="{=hV8mjFzg}Get 100 wins in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=YxGlexPJ}Captain Wins">
+			<Parameter
+				name="property"
+				value="Stats.Captain.WinCount" />
+			<Parameter
+				name="min_value"
+				value="100" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_win_badges_250"
+		group_id="captain_wins"
+		type="Conditional"
+		name="{=natgsOuM}250 Captain Wins"
+		description="{=ViPUN3eO}Get 250 wins in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=YxGlexPJ}Captain Wins">
+			<Parameter
+				name="property"
+				value="Stats.Captain.WinCount" />
+			<Parameter
+				name="min_value"
+				value="250" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_win_badges_500"
+		group_id="captain_wins"
+		type="Conditional"
+		name="{=ZUJiO0qO}500 Captain Wins"
+		description="{=ke6inj1m}Get 500 wins in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=YxGlexPJ}Captain Wins">
+			<Parameter
+				name="property"
+				value="Stats.Captain.WinCount" />
+			<Parameter
+				name="min_value"
+				value="500" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_win_badges_750"
+		group_id="captain_wins"
+		type="Conditional"
+		name="{=7UyKTkzI}750 Captain Wins"
+		description="{=hfv9Irc4}Get 750 wins in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=YxGlexPJ}Captain Wins">
+			<Parameter
+				name="property"
+				value="Stats.Captain.WinCount" />
+			<Parameter
+				name="min_value"
+				value="750" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_win_badges_1k"
+		group_id="captain_wins"
+		type="Conditional"
+		name="{=ARada0oZ}1K Captain Wins"
+		description="{=uiAjbK8D}Get 1000 wins in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=YxGlexPJ}Captain Wins">
+			<Parameter
+				name="property"
+				value="Stats.Captain.WinCount" />
+			<Parameter
+				name="min_value"
+				value="1000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_win_badges_1.5k"
+		group_id="captain_wins"
+		type="Conditional"
+		name="{=WHoubQ0Q}1.5K Captain Wins"
+		description="{=ngtErswq}Get 1500 wins in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=YxGlexPJ}Captain Wins">
+			<Parameter
+				name="property"
+				value="Stats.Captain.WinCount" />
+			<Parameter
+				name="min_value"
+				value="1500" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_win_badges_2k"
+		group_id="captain_wins"
+		type="Conditional"
+		name="{=zqJpbh3x}2K Captain Wins"
+		description="{=1lj8RujG}Get 2000 wins in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=YxGlexPJ}Captain Wins">
+			<Parameter
+				name="property"
+				value="Stats.Captain.WinCount" />
+			<Parameter
+				name="min_value"
+				value="2000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_win_badges_2.5k"
+		group_id="captain_wins"
+		type="Conditional"
+		name="{=1aW0gpRa}2.5K Captain Wins"
+		description="{=CLNUZhQv}Get 2500 wins in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=YxGlexPJ}Captain Wins">
+			<Parameter
+				name="property"
+				value="Stats.Captain.WinCount" />
+			<Parameter
+				name="min_value"
+				value="2500" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_win_badges_3k"
+		group_id="captain_wins"
+		type="Conditional"
+		name="{=5KI42gNH}3K Captain Wins"
+		description="{=StGMCKHX}Get 3000 wins in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=YxGlexPJ}Captain Wins">
+			<Parameter
+				name="property"
+				value="Stats.Captain.WinCount" />
+			<Parameter
+				name="min_value"
+				value="3000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_win_badges_4k"
+		group_id="captain_wins"
+		type="Conditional"
+		name="{=ekqHONPb}4K Captain Wins"
+		description="{=CJXW1DOs}Get 4000 wins in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=YxGlexPJ}Captain Wins">
+			<Parameter
+				name="property"
+				value="Stats.Captain.WinCount" />
+			<Parameter
+				name="min_value"
+				value="4000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_win_badges_5k"
+		group_id="captain_wins"
+		type="Conditional"
+		name="{=7zyLOgK9}5K Captain Wins"
+		description="{=qDKlHRMy}Get 5000 wins in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=YxGlexPJ}Captain Wins">
+			<Parameter
+				name="property"
+				value="Stats.Captain.WinCount" />
+			<Parameter
+				name="min_value"
+				value="5000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_win_badges_6k"
+		group_id="captain_wins"
+		type="Conditional"
+		name="{=gWfIlSn5}6K Captain Wins"
+		description="{=pYaOSh9v}Get 6000 wins in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=YxGlexPJ}Captain Wins">
+			<Parameter
+				name="property"
+				value="Stats.Captain.WinCount" />
+			<Parameter
+				name="min_value"
+				value="6000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_win_badges_7k"
+		group_id="captain_wins"
+		type="Conditional"
+		name="{=KQgQNPpT}7K Captain Wins"
+		description="{=TROmMtTq}Get 7000 wins in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=YxGlexPJ}Captain Wins">
+			<Parameter
+				name="property"
+				value="Stats.Captain.WinCount" />
+			<Parameter
+				name="min_value"
+				value="7000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_win_badges_8k"
+		group_id="captain_wins"
+		type="Conditional"
+		name="{=NY7XxwgU}8K Captain Wins"
+		description="{=oJHTNWlw}Get 8000 wins in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=YxGlexPJ}Captain Wins">
+			<Parameter
+				name="property"
+				value="Stats.Captain.WinCount" />
+			<Parameter
+				name="min_value"
+				value="8000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_win_badges_9k"
+		group_id="captain_wins"
+		type="Conditional"
+		name="{=SYCjLBXY}9K Captain Wins"
+		description="{=CibcLbAf}Get 9000 wins in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=YxGlexPJ}Captain Wins">
+			<Parameter
+				name="property"
+				value="Stats.Captain.WinCount" />
+			<Parameter
+				name="min_value"
+				value="9000" />
+		</Condition>
+	</Badge>
+	<Badge
+		id="captain_win_badges_10k"
+		group_id="captain_wins"
+		type="Conditional"
+		name="{=3Vx61ntF}10K Captain Wins"
+		description="{=Tj6uWbbm}Get 10000 wins in Captain games.">
+		<Condition
+			type="PlayerDataNumeric"
+			description="{=YxGlexPJ}Captain Wins">
+			<Parameter
+				name="property"
+				value="Stats.Captain.WinCount" />
+			<Parameter
+				name="min_value"
+				value="10000" />
+		</Condition>
+	</Badge>
+</Badges>

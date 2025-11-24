@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+    <string id="0Itt3bZM" text="현재 키바인딩 문서 버전의 기한이 만료되었습니다. 키바인딩이 기본 설정으로 복구되었습니다." />
+    <string id="1hlaGzGI" text="보기" />
+    <string id="1hnq3Kb1" text="모든 속성을 초기화하시겠습니까? 변경사항이 사라집니다." />
+    <string id="2AGvFYk9" text="임무를 시작하려면 {FORMATION_CLASS} 클래스를 지닌 대형 하나 이상을 보유해야 합니다." />
+    <string id="4gCU2ykB" text="모든 키를 기본값으로 초기화" />
+    <string id="5Ixsvn3s" text="점수판 전환" />
+    <string id="61isYVW0" text="{USER_NAME}님을 찾을 수 없습니다." />
+    <string id="6syoutpV" text="{WHISPER_TARGET}님의 귓속말" />
+    <string id="74PKmRWJ" text="머리카락 넘기기" />
+    <string id="76VR5o8h" text="{SECONDS}초 후에 다른 메시지를 보낼 수 있습니다." />
+    <string id="7jhe9cT9" text="이 대형의 유형을 변경하려면 이 유형의 대형이 하나 이상 있어야 합니다." />
+    <string id="7XtICVeZ" text="시점" />
+    <string id="82LuSDnd" text="빠른 커서 왼쪽으로 이동" />
+    <string id="9pCzjSTa" text="소대 유형의 {PERCENTAGE}%" />
+    <string id="ADKHovtz" text="배치 초기화" />
+    <string id="atUHbDeM" text="맵 카메라 회전" />
+    <string id="b1DHZsaH" text="지금은 명령을 내릴 수 없습니다." />
+    <string id="bIcFZT6L" text="눈썹 유형" />
+    <string id="bLPSaLNv" text="빠른 커서 오른쪽으로 이동" />
+    <string id="bsiRNJtk" text="{NAME}:" />
+    <string id="CCBcdzGa" text="이 카테고리의 모든 옵션을 기본값으로 초기화합니다. 이 행동은 취소할 수 없습니다. {newline} {newline}계속하시겠습니까?" />
+    <string id="cDzWYQrz" text="기본 설정으로 초기화하시겠습니까?" />
+    <string id="cLJdeUWz" text="키:" />
+    <string id="D0TbQm4r" text="돌파당함" />
+    <string id="d1tCz15N" text="길게 눌러 떨어뜨리기" />
+    <string id="d5SNB0HV" text="{ITEM_NAME} 줍기" />
+    <string id="Dhb2N5JD" text="&apos;{KEY}&apos; 키를 눌러 채널 순환" />
+    <string id="DmaP2qaR" text="스킨 유형" />
+    <string id="DQvGNQ0g" text="지휘 중인 부대가 없습니다." />
+    <string id="DvnRkWQg" text="{FORMATION_INDEX} 대형으로 소대 전환" />
+    <string id="eeJcVeQG" text="포커스 엔드" />
+    <string id="eGuQKRhb" text="지역을 벗어납니다!" />
+    <string id="EUAKPHek" text="빌드:" />
+    <string id="f64QfbTO" text="&apos;{KEY}&apos; 키를 눌러 보내기" />
+    <string id="FRSGOfUJ" text="전투 로그를 포함하도록 전환" />
+    <string id="FTXx0aRp" text="다음으로 플레이" />
+    <string id="G6hYIR5k" text="음성 높이:" />
+    <string id="gamepadActionKeybind" text="행동" />
+    <string id="gamepadMapKeybind" text="지도" />
+    <string id="gamevideo" text="비디오" />
+    <string id="GMhOZGnb" text="사망 상태에서는 명령을 내릴 수 없습니다." />
+    <string id="hdGay8xc" text="맵 커서 이동" />
+    <string id="HEEZhL90" text="키를 눌러 장착" />
+    <string id="hiKTvBgF" text="이 탭의 모든 변경사항을 초기화하시겠습니까? 변경사항이 사라집니다." />
+    <string id="i28Kjuay" text="캐릭터 이동" />
+    <string id="i4Oo6aoM" text="콘텐츠 다운로드 중..." />
+    <string id="j5pLIV91" text="포커스 스타트" />
+    <string id="J9V9YhkY" text="대장이 말에 올랐습니다!" />
+    <string id="jS5rrX8M" text="적용할 변경 사항이 없습니다." />
+    <string id="l2CNxPXG" text="치아 유형" />
+    <string id="lCZMJt2k" text="비디오 옵션이 변경되었습니다" />
+    <string id="LlrlE199" text="아직 공성 장비를 배치할 수 있습니다.{newline}그냥 시작하시겠습니까?" />
+    <string id="LW8QCm22" text="공지" />
+    <string id="macpKFaG" text="음성" />
+    <string id="meFS5F4V" text="-{DAMAGE}" />
+    <string id="mPCrz4rs" text="상대적 변경에 대해 소대 비율을 고정합니다." />
+    <string id="nEpZvaEl" text="빠른 커서 아래쪽으로 이동" />
+    <string id="ngyMTaqr" text="영웅 소대로 배정" />
+    <string id="Npqlj5Ln" text="변경 사항 되돌리기" />
+    <string id="NuMQvQxg" text="외침" />
+    <string id="ou5KJERr" text="&apos;{KEY}&apos; 키를 눌러 숨기기" />
+    <string id="oZc8oEAP" text="이 카테고리를 기본값으로 초기화" />
+    <string id="peUP9ZZj" text="정말로 나가시겠습니까? 변경 사항이 저장되지 않습니다." />
+    <string id="photomodefocus" text="포커스" />
+    <string id="pK4EyTZC" text="이 설정을 유지하시겠습니까?" />
+    <string id="qmNeO8FG" text="조작 키 설정" />
+    <string id="qXxpITdc" text="눈 색깔:" />
+    <string id="QZd3VSmO" text="선박, 해상전 등의 다양한 콘텐츠가 포함된 War Sails 확장팩을 출시했습니다. 최신 세대의 플랫폼에서 이용하실 수 있습니다. 일부 플랫폼에 제품 페이지 링크를 추가하여 당사의 ESRB 등급 정보를 다음과 같이 업데이트해야 합니다." />
+    <string id="RVIKFCno" text="기본으로 초기화" />
+    <string id="rx18kyZb" text="전투 로그" />
+    <string id="Sbb8YcJM" text="선택한 영웅 전부 선택 해제" />
+    <string id="scnSXrYC" text="기수" />
+    <string id="SfsnlbyK" text="변경 사항이 적용됐습니다." />
+    <string id="SLY8z9fP" text="모든 대형이 선택되었습니다!" />
+    <string id="SQpGQzTI" text="컨트롤러" />
+    <string id="suyl7WWa" text="장착한 깃발 없음" />
+    <string id="trPyg7mr" text="전투 사기" />
+    <string id="TxphX8Uk" text="배치" />
+    <string id="U1rHNqOk" text="&apos;{KEY}&apos; 키를 눌러 취소" />
+    <string id="u78WUP9W" text="빠른 커서 위쪽으로 이동" />
+    <string id="ufjypmaX" text="대장이 말을 타지 않았습니다!" />
+    <string id="UhB1jlua" text="선박, 해상전 등의 다양한 콘텐츠가 포함된 War Sails 확장팩을 출시했습니다. 일부 플랫폼에 제품 페이지 링크를 추가하여 당사의 ESRB 등급 정보를 다음과 같이 업데이트해야 합니다." />
+    <string id="Uma907CV" text="선박, 해상전 등의 다양한 콘텐츠가 포함된 War Sails 확장팩을 출시했습니다. 스토어 페이지로 이동하는 메인 메뉴의 링크를 클릭하여 자세한 정보를 확인하고 확장팩을 구매하실 수 있습니다. 일부 플랫폼에 제품 페이지 링크를 추가하여 당사의 ESRB 등급 정보를 다음과 같이 업데이트해야 합니다." />
+    <string id="VIdtkghu" text="다음 상호작용 요소를 포함하도록 ESRB 등급 정보가 업데이트되었습니다.{newline}게임 내 구매" />
+    <string id="VyMD4iRV" text="영웅 소대" />
+    <string id="YjbNtFcw" text="모든 키를 기본값으로 초기화합니다. 이 행동은 취소할 수 없습니다. {newline} {newline}계속하시겠습니까?" />
+    <string id="YwbymaBc" text="모든 영웅 선택" />
+    <string id="zBld61ck" text="무게:" />
+    <string id="zjcZZgUY" text="깃발 효과" />
+  </strings>
+</base>

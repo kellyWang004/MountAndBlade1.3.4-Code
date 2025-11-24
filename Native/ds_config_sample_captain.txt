@@ -1,0 +1,18 @@
+ServerName Captain
+GameType Captain
+Map mp_sergeant_map_007
+CultureTeam1 empire
+CultureTeam2 khuzait
+RespawnPeriodTeam1 5
+RespawnPeriodTeam2 5
+RoundPreparationTimeLimit 25
+MaxNumberOfPlayers 12
+RoundTotal 5
+MapTimeLimit 60
+RoundTimeLimit 600
+WarmupTimeLimitInSeconds 300
+AutoTeamBalanceThreshold 1
+NumberOfBotsPerFormation 25
+SingleSpawn true
+end_game_after_mission_is_over
+start_game_and_mission

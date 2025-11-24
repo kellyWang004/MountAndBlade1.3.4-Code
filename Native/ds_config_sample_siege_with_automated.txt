@@ -1,0 +1,18 @@
+ServerName Siege Auto
+GameType Siege
+add_map_to_automated_battle_pool mp_siege_map_007_battania
+add_map_to_automated_battle_pool mp_siege_map_003
+add_map_to_automated_battle_pool mp_siege_map_012
+AllowPollsToKickPlayers False
+AllowPollsToBanPlayers False
+AllowPollsToChangeMaps False
+MapTimeLimit 30
+WarmupTimeLimitInSeconds 180
+AutoTeamBalanceThreshold 3
+RespawnPeriodTeam1 3
+RespawnPeriodTeam2 9
+MinNumberOfPlayersForMatchStart 0
+MaxNumberOfPlayers 100
+GoldGainChangePercentageTeam1 30
+start_game
+enable_automated_battle_switching

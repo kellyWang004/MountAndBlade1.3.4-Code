@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	type="tree_type">
+	<tree_types>
+		<tree_type
+			name="snow_trees">
+			<tree
+				name="snow_tree_a" />
+			<tree
+				name="snow_tree_b" />
+			<tree
+				name="snow_tree_c" />
+		</tree_type>
+		<tree_type
+			name="steppe_trees">
+			<tree
+				name="map_billboard_steppe_a" />
+			<tree
+				name="map_billboard_steppe_b" />
+			<tree
+				name="map_billboard_steppe_c" />
+			<tree
+				name="map_billboard_steppe_d" />
+		</tree_type>
+		<tree_type
+			name="desert_trees">
+			<tree
+				name="desert_tree_a" />
+			<tree
+				name="desert_tree_b" />
+			<tree
+				name="desert_tree_c" />
+			<tree
+				name="desert_tree_d" />
+		</tree_type>
+		<tree_type
+			name="plain_trees">
+			<tree
+				name="map_tree_a"
+				lod_mesh_name="map_tree_new_a_lod1" />
+			<tree
+				name="map_tree_b"
+				lod_mesh_name="map_tree_new_b_lod1" />
+			<tree
+				name="map_tree_c"
+				lod_mesh_name="map_tree_new_c_lod1" />
+			<tree
+				name="map_tree_d"
+				lod_mesh_name="map_tree_new_d_lod1" />
+			<!--		<tree name="map_billboard_plain_b01" />
+			<tree name="map_billboard_plain_c01" />
+			<tree name="map_billboard_plain_a1" />
+			<tree name="map_billboard_plain_b" />
+			<tree name="map_billboard_plain_d" />
+			<tree name="map_billboard_plain_e" />
+			<tree name="map_billboard_plain_f" />-->
+		</tree_type>
+		<tree_type
+			name="pine_trees">
+			<tree
+				name="map_pine_a" />
+			<tree
+				name="map_pine_b" />
+			<tree
+				name="map_pine_c" />
+			<!--  		<tree name="map_billboard_plain_a1" />
+			<tree name="map_billboard_plain_a" />
+			<tree name="map_billboard_plain_b" />-->
+		</tree_type>
+		<tree_type
+			name="mix_trees">
+			<tree
+				name="map_pine_a" />
+			<tree
+				name="map_pine_b" />
+			<tree
+				name="map_pine_c" />
+			<tree
+				name="map_tree_a"
+				lod_mesh_name="map_tree_new_a_lod1" />
+			<tree
+				name="map_tree_b"
+				lod_mesh_name="map_tree_new_b_lod1" />
+			<tree
+				name="map_tree_c"
+				lod_mesh_name="map_tree_new_c_lod1" />
+			<tree
+				name="map_tree_d"
+				lod_mesh_name="map_tree_new_d_lod1" />
+		</tree_type>
+	</tree_types>
+</base>

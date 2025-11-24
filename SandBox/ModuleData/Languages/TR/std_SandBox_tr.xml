@@ -1,0 +1,1064 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Türkçe" />
+  </tags>
+  <strings>
+    <string id="04gFKwY1" text="Eğer öyle birini görürsen, bana haber ver." />
+    <string id="07qBenIW" text="bir maşrapa bira" />
+    <string id="07QlFlXK" text="bir tabak ringa balığı" />
+    <string id="09PJ02x6" text="Merhaba. Sen bu topraklarda at koşturup güç ve servet elde etmeye çalışan azametli tiplerden olmalısın. Bilmem böyle şeylerden ne kazanmayı ümit ediyorsun..." />
+    <string id="0aGYre5B" text="{LEADER.LINK}, {ARMY_NAME}'{.e} ulaştı." />
+    <string id="0dlDkkJV" text="Casusu bulmayı başaramadın. {QUEST_GIVER.LINK} hayal kırıklığına uğradı." />
+    <string id="0enbhess" text="Teşekkürler. [ib:normal][if:convo_approving]Eminim hepiniz işinizin ehlisinizdir." />
+    <string id="0fp67gxl" text="İyi günler." />
+    <string id="0hXofVLx" text="Endişelenme, onu getireceğim." />
+    <string id="0NxiTi8b" text="İçinden ganimeti bölüşmek gelmedi, dolayısıyla hem tüccara hem de çete liderine ihanet ettin." />
+    <string id="0qc11kmz" text="bir tabak koyun etli mantı" />
+    <string id="0RCdPKj2" text="Evet, o muhtemelen üzülür. Ama zannettiğin sebepten değil. {QUEST_GIVER.LINK} beni müttefiklerinden birinin oğluyla evlendireceğine söz vermişti ve bu onun bütün planlarını altüst edecek. Bu bir gerçek." />
+    <string id="0RTwaPBJ" text="Birçok insanla konuşuyorum. {QUEST_GIVER.NAME}'{.e} sadık olduğum için, [if:convo_pondering]casuslara karşı gözümü hep açık tutuyorum elbette. Ama hiç öyle birini görmedim." />
+    <string id="0UUCTaEj" text="Son zamanlarda seninle ilgili çok şikayet duyuyoruz. Uslu durmaya başlasan iyi edersin yoksa dayağı yiyeceksin.[if:convo_mocking_revenge]" />
+    <string id="0Wg00sfN" text="Teşekkür ederim {?PLAYER.GENDER}hanımefendi{?}beyefendi{\?}. Hemen harekete geçeceğiz." />
+    <string id="0YJGvJ7o" text="Artık gitmelisin." />
+    <string id="108Dchvt" text="Dur! Artık dövüşmemize gerek yok. Adalet yerini bulduğu için, seninle bir alıp veremediğimiz kalmadı." />
+    <string id="15UCTrNA" text="Başka seçeneğim yok, öyle değil mi? Dürüst bir hırsızı bir haine tercih ederim![if:convo_aggressive] Hadi şuna haddini bildirelim." />
+    <string id="1auLEn9y" text="Bak arkadaşım, bunlar zor zamanlar biliyorum ama yoluna git lütfen. Müşterilerimi korkutup kaçıracaksın." />
+    <string id="1bzdDYoO" text="All AI pawns blocked. Removing one of the player's pawns to make a move" />
+    <string id="1esi62Zb" text="Turnuvaların unutulmaz olmasını isteriz. Dolayısıyla, destekçiler bir araya gelerek pazarlarda haftalarca konuşulacak bir ödül satın alırlar. Mesela değerli taşlarla süslenmiş bir bıçak ya da iyi bir savaş atı. Bir şampiyonun sahip olmaktan gurur duyacağı bir şey." />
+    <string id="1FbydhBb" text="Güç ve servetin tadını çıkarmayı tercih ederim." />
+    <string id="1ieLd5qq" text="Kent halkı casusun belirgin bir yara izi olmadığını söyledi." />
+    <string id="1jExD58d" text="{SETTLEMENT_NAME}'{.den} bir tüccar olan {QUEST_GIVER.LINK}, kızı {TARGET_HERO.NAME}'{.nin} ya kaçırıldığını ya da bir haydutla birlikte kaçtığını söyledi. Genç kadını bulup {SETTLEMENT_NAME}'{.e} getirmeyi kabul ettin. Eğer yerleşkeden çıktığında onların izlerini bulamazsan, ipuçları ve izler aramak için {SETTLEMENT_NAME} yakınlarındaki köylere uğramalısın." />
+    <string id="1MaECke2" text="Birçok insan kendini sadece iyilik yapmak için güç istediğine inandırır ama aslında gücün kendisinin peşindedir. Güç arzusuna kapılmadığından emin olmanın tek yolu bundan vazgeçmektir." />
+    <string id="1NSRPYZt" text="Sadece geçiyordum. Burada neler oluyor?" />
+    <string id="1Pc0SXXL" text="Üretim Enerjisini Doldur" />
+    <string id="1rCk6xRa" text="Şimdi... Eğer soruyorsan,[if:convo_normal][ib:normal]" />
+    <string id="1yEyUHJe" text="Umarım adamların tapumu geri alabilirler. [if:convo_excited]Babamın üzerine yemin ederim ki bir daha asla kumar oynamayacağım." />
+    <string id="1YGgXOB7" text="Peh... Bir şehrin sokaklarını yönetmenin kolay olduğunu mu sanıyorsun? Bizi küçümsüyorsun. Şimdi, para konusuna gelelim.[ib:closed2][if:convo_nonchalant]" />
+    <string id="22nahm29" text="Tüccarın kervanına yenildin ve {QUEST_GIVER.LINK}'{.e} yardım etmeyi başaramadın." />
+    <string id="28lLrXOe" text="{ISSUE_GIVER.LINK} seninle {TARGET_MERCHANT.LINK}'{.i} soyma planını paylaştı. Onların adına pusuya önderlik etmesi için yoldaşınla birlikte {TROOP_COUNT} adamını göndermeyi kabul ettin. {RETURN_DAYS} gün sonra dönecekler." />
+    <string id="2AGIxoUN" text="Klan üyelerinden {MOTHER} az önce hamile olduğunu öğrendi." />
+    <string id="2aXYYNBG" text="Saçınızı kestirmeye mi geldiniz {?PLAYER.GENDER}leydim{?}lordum{\?}? Görünüşünüzü tazelemeye?" />
+    <string id="2dL6j8Hp" text="Bir cesetle mi evlenmek istiyorsun? Çünkü eğer beni dinlemezsen, sevgilini öldüreceğim." />
+    <string id="2eydhtcz" text="Mevcut tutuklu: {PRISONER_NAMES}." />
+    <string id="2fbLBXtT" text="'Denizlerde yol aldı {newline} Ölülerdi mürettebatı {newline} Arkasında kara bulutlar bıraktı'" />
+    <string id="2Fxva3RY" text="Senin gibilerden emir almam." />
+    <string id="2haJj9mp" text="Evet ama kervana öncülük etmeden önce ilgilenmem gereken başka sorunlar var." />
+    <string id="2ihQeId5" text="{CALLING_KINGDOM}, diyarını {KINGDOM_TO_CALL_TO_WAR_AGAINST}'{.e} karşı savaşmaya çağırdı." />
+    <string id="2iVytG2y" text="İkna olmadım. Aklın başına gelene kadar zanlıyı koruyacağım." />
+    <string id="2lgkL9db" text="Elbette. Ben de casuslar tuttum. Ancak, eğer turnuva [if:convo_pondering][ib:confident3]katılımcılarından biri garnizonun ve surların durumu gibi masum bir yolcuyu hiç ilgilendirmeyecek şeyler soruyorsa - buna bir de aldığım özel bilgiler eklenince, adamımızı bulduğumuzu düşünüyorum. Casus {SELECTED_SETTLEMENT}'{.de} saklanıyor olmalı. Oraya ulaştığında kent halkını sorgulamaya başla." />
+    <string id="2Lj0WkSF" text="{COMPANION.NAME} artık {KINGDOM}'{.nin} bir {?COMPANION.GENDER}soylusu{?}lordu{\?}." />
+    <string id="2luygc8o" text="Mm. Sanırım. Aklımı boğuşmak zorunda olduğum bütün bu sorunlardan uzaklaştırır." />
+    <string id="2LW2jWuG" text="Artık casusu saptamak için yeterli kanıta sahipsin. Turnuva katılımcılarını sokaklarda bölgenin serserileriyle takılırken bulabilirsin. Onlarla konuş." />
+    <string id="2nFBTmao" text="Bunu çözmenin etrafta soruşturmaktan başka bir yolu var mı?" />
+    <string id="2OmrHVjp" text="{QUEST_GIVER.LINK} artık {QUEST_SETTLEMENT}'{.nin} sahibi değil. Sözleşmeniz iptal edildi." />
+    <string id="2P3UJ8be" text="Köydekilere {TARGET_HERO.NAME}'{.i} veya genç bir kadının yanında şüphe çeken birilerini gören olup olmadığını sordun.{newline}{newline}Köylüler sabahın erken saatlerinde atla gelen genç bir erkek ve kadın gördüklerini söylediler. Biraz erzak satın aldıktan sonra {TARGET_VILLAGE}'{.e} doğru yola çıktıkları biliniyor." />
+    <string id="2PEKd3Sz" text="Aslına bakarsan, fikrimi değiştirdim. Emri iptal et..." />
+    <string id="2VRTPyZY" text="{SETTLEMENT} senindir." />
+    <string id="2WI066bI" text="Nimr öldü. Banu Qild'in kafesinde can verdi.{newline}Bütün kadınlar kederle ağladı. Bütün kocalar rahat bir nefes aldı." />
+    <string id="2WnruiBw" text="{CLOSEST_TOURNAMENT}'{.de} başlayacak bir turnuva olduğunu biliyorum. Yeterince hızlı hareket edersen, yetişebilirsin." />
+    <string id="2ynnnR4c" text="Zorluğu olduğu yerde bırakmayı tercih ederim." />
+    <string id="31oG5njl" text="Sen zeki birisin. Önemli konularda görüşünü almak krallığımız için iyi olur." />
+    <string id="349mwgWC" text="Kesinlikle. İyi bir oyun zihni her zaman taze ve dinç tutar." />
+    <string id="35w6g8gM" text="Anlatmaya devam et. Adamın sorunu ne? " />
+    <string id="3buSOoHl" text="Çek git!" />
+    <string id="3BvfOe1y" text="Pekala öyleyse. Daha fazlasını yakalarsan ve elden çıkarmak istersen, beni nerede bulacağını biliyorsun..." />
+    <string id="3E1XVyGM" text="Sokağın hakimiyetini yitireceksin." />
+    <string id="3FvGk8k6" text="{SETTLEMENT} yerleşken, {FACTION}'{.nin} {PARTY}{.i} tarafından kuşatıldı!" />
+    <string id="3FzBTb3w" text="Bu bilgi için teşekkürler. {COMPANION_INQUIRY_COST}{GOLD_ICON} harcadığıma değdi." />
+    <string id="3hv4P5OO" text="{GAME_NAME} oynayarak zaman geçirmek ister misin?" />
+    <string id="3kHmtbVZ" text="Adamımın yaptığı yanlıştı, bunu inkar edemem. Ama onu astılar, başka ne yapabilirim ki? Çocukları onun suçunu taşımalı mı?" />
+    <string id="3n1KRLpZ" text="'Aşkım uzaklarda {newline} Bilmiyorum nerede {newline} Rüzgarlar söyler belki de'" />
+    <string id="3oaVUNdr" text="Umarım kararınızdan [if:convo_disbelief]pişman olmazsınız {?PLAYER.GENDER}leydim{?}lordum{\?}." />
+    <string id="3sfjBnaJ" text="Sessiz. Çok sessiz. Buralar hiç bu kadar uzun süre sessiz kalmaz." />
+    <string id="3tmXBpRH" text="Haklısın. Bunu yapamam. Ailemin yanına döneceğim. " />
+    <string id="3UX334MB" text="Hım... Pekala. Böldüğüm için özür dilerim." />
+    <string id="3wb2dCfz" text="Hemen hazır olacak öyleyse {?PLAYER.GENDER}hanımım{?}beyim{\?}." />
+    <string id="3wzCrzEq" text="{HERO.NAME} seviye atladı." />
+    <string id="3XimdHOn" text="Sana bunu zorla söyletmediğini nereden bileceğim?" />
+    <string id="3zZ8ZIca" text="Yaza lanet olsun. Geceleri sıcaktan uyuyamıyorum. Şimdi bir de kuyularda suyun azaldığını söylüyorlar..." />
+    <string id="45llLiYG" text="Nasıl yardım edeceksin? Beni koruyacak mısın?[ib:normal][if:convo_astonished]" />
+    <string id="46Q5MQHK" text="Hasat zayıftı. Kötü bir kış ve acımasız bir bahar olacak. Demedi deme.[rf:convo_grave]" />
+    <string id="4aiabOd4" text="Mantıklı bir {?PLAYER.GENDER}kadın{?}adam{\?} olduğunu biliyordum." />
+    <string id="4CFOH0kB" text="Bütün bunlardan hâlâ emin değilim ama pek bir seçeneğim olmadığı konusunda haklısın sanırım. Hadi gidip şu işi bitirelim.[ib:closed][if:convo_pondering]" />
+    <string id="4hDu8rDF" text="Benim aklımda başka biri var." />
+    <string id="4HokUcma" text="[if:convo_very_stern]Burnunu seni ilgilendirmeyen konulara soktuğuna pişman olacaksın!" />
+    <string id="4IHRAmnA" text="Tamam. Ulağını bekliyorum." />
+    <string id="4KvAwfEZ" text="10 Savaş Atı Ver" />
+    <string id="4mwSvCgG" text="Evet. Bu meseleyi barışçıl yoldan çözmek için seni {TARGET_NOTABLE.NAME}'{.e} götüreceğim." />
+    <string id="4QfQBi2k" text="Sokak savaşı kazanıldı" />
+    <string id="4QNycK7T" text="Geri dön" />
+    <string id="4Slck7UB" text="{RANDOM_RELATIVE}{.m}{.den} {TOWN_NAME}'{.e} bir miktar {._}{PLURAL(ITEM_NAME)} götürdüğünü ve {PRICE_DIFF}{GOLD_ICON} kazanç elde ettiğini duydum." />
+    <string id="4tY23HWb" text="Elbette. Kalradya'nın bütün saraylarında iyi karşılanırım. Bunu söyleyebilecek çok kişi yoktur! Dolayısıyla her zaman bir yerlere bol miktarda dinar sakladığından ve o dinarları çabucak bulacak sadık bir uşak bulundurduğundan emin ol." />
+    <string id="4upBpsnb" text="Tamam. Ben varım." />
+    <string id="4vAbAIqi" text="Tamam. Anladım sanırım." />
+    <string id="4xtBNkjN" text="Ne yazık ki sadece en iyi oyunumu oynadığımda bahsi kabul ederim. Zorluğu yükseltmen gerekecek." />
+    <string id="4zdyeTGn" text="{COMPANION.NAME} klanından ayrıldı." />
+    <string id="4zf1lg6L" text="Kendim gidebilir veya bir yoldaşımı gönderebilirim." />
+    <string id="56ynu2bW" text="Evet {?PLAYER.GENDER}hanımım{?}beyim{\?}." />
+    <string id="5a6KlSXt" text="Bir sorunum var. [ib:normal2][if:convo_pondering]Genç akrabam {PRODIGAL_SON.LINK} eğlenmek, içmek, zamparalık etmek ve kumar oynamak için kente gitti. Gençlerin çoğu böyle şeyler yapar ama anlaşılan bizimki ipin ucunu biraz kaçırmış. {SETTLEMENT_LINK} şehrinin çete liderlerinden {TARGET_HERO.LINK}'{.e} büyük miktarda para borçlandığına dair haber gönderdi. Birisi borcunu ödeyene kadar bu serseriler onu evlerinde &quot;misafir&quot; edeceklermiş." />
+    <string id="5aDlmdmb" text="Hayır... Hayır. Bu hiç mantıklı değil." />
+    <string id="5bIpeW9X" text="{SETTLEMENT}'{.de} bulunan sokağın komşu çetelerin saldırısı altında. Yardıma gitmediğin takdirde, sokak {RESPONSE_TIME} gün içinde kaybedilecek." />
+    <string id="5bRQ0gt7" text="Bunun için kaç adama ihtiyacın var? Her adam için 100{GOLD_ICON} isterim." />
+    <string id="5EXL1MiE" text="Bazen kaçıp Erithrys Dağı'ndaki münzevilere katılmak ve dertlerimi geride bırakmak istiyorum. Hatta daha da iyisi, bu yüce lordların bazıları oraya giderler belki. İnzivaya çekilip, boyunlarının vurulmasından ya da ihanete uğramaktan endişe etmeden günlerini güneşin altında geçirirler ve bizden vergi almalarına gerek kalmaz. Herkes için daha iyi olur." />
+    <string id="5hbSkbQg" text="Bu kayıtlı dosya e1.7.0'dan daha eski bir oyun sürümüne ait. Lütfen e1.7.0 oyun sürümüne geçip kayıtlı dosyayı yükle ve oyunu kaydet. Bu, oyunun e1.7.0'dan sonraki yeni sürümlerinde de çalışmasını sağlayacak." />
+    <string id="5jW4FVDc" text="O zaman aramıza hoş geldin. [ib:warrior][if:convo_evil_smile] Hadi o alçakları öldürelim!" />
+    <string id="5NljlbLA" text="Teşekkür ederim sevgili {?PLAYER.GENDER}hanımım{?}beyim{\?}, teşekkür ederim." />
+    <string id="5om6Wv1n" text="Kentteki bazı insanları sorguladıktan sonra casusun sakalı olduğunu öğrendin." />
+    <string id="5puy0Jle" text="{ISSUE_OWNER.NAME} oyuncudan genç bir klan üyesine yardım etmesini istiyor. Büyük bir kumar borcu olduğu için çete lideri onu rehin tutuyor. Senden onu her ne şekilde olursa olsun kurtarman istendi." />
+    <string id="5R0TauYV" text="Gizliliğin ifşa edildi." />
+    <string id="5RDF3aZN" text="{SALUTATION}... Benim için geldin!" />
+    <string id="5uXs8pS9" text="{SETTLEMENT_NAME}'{.de} Bulunan Bütün İnşaat Projelerini Tamamla" />
+    <string id="5W7Kxfq9" text="Anlıyorum. Eğer durum buysa, gitmene izin vereceğim." />
+    <string id="5ZbsASDx" text="İmparator Arenicos kendini iyi hissediyordu. Yatmaya gitti bir kadeh şarapla.{newline}Sabah ölü bulundu. Artık karısı hükmediyor İmparatorluğa!" />
+    <string id="63jJ3GGY" text="Her Birine 10 Üretim Malzemesi Ekle" />
+    <string id="64p9ULVu" text="Duyduğuma göre, dışarıdaki tarlaların hemen ötesinde haydutlar dolaşıyormuş. Verdiğimiz vergilere ne oldu, sorarım sana? {?OWNER.GENDER}Leydi{?}Lord{\?} {OWNER.LINK}'{.nin} adamları işini neden yapmıyor?" />
+    <string id="6dDXb4iI" text="Emin misin? Eminsen, hazırlanıp sana katılabiliriz." />
+    <string id="6eHPy57Z" text="{CALLING_KINGDOM}'{.nin} {KINGDOM_TO_CALL_TO_WAR_AGAINST}'{.e} karşı savaşmak için diyarına yaptığı çağrı son buldu." />
+    <string id="6f9Hs5zp" text="{CLAN_NAME}, paralı askerlik sözleşmesini sona erdirdi ve {NEW_FACTION_NAME}'{.nin} vasalı oldu." />
+    <string id="6g8qvD2M" text="Sonsuza kadar burada bekleyemem. Çabuk ol." />
+    <string id="6JL4GyKC" text="Şu anda konuşamam. Buraya göz kulak olmalıyım." />
+    <string id="6nIC6i2V" text="Arada sırada beni ziyaret etmeye gelen yardımcılarım var. Onlardan birinden soydaşlarına bir mesaj götürmesini isteyebilirim. Belki bir varis atamak istersin?" />
+    <string id="6OmbzoBs" text="{ISSUE_GIVER_SETTLEMENT}'{.den} bir tüccar olan {ISSUE_GIVER.LINK} sana kızının kaybolduğunu söyledi. Onu bulup getirmesi için {COMPANION.LINK} ile birlikte {REQUIRED_TROOP_AMOUNT} adam seçtin. Bu görevi tamamlayıp {ALTERNATIVE_SOLUTION_DAYS} gün içinde dönmelerini bekliyorsun." />
+    <string id="6Q4cPOSG" text="Evet." />
+    <string id="6SppoTum" text="Evet? Ne istiyorsun?" />
+    <string id="6TgRwB2Q" text="100 Nüfuz Ekle" />
+    <string id="6zcG8eng" text="{CULPRIT.LINK}'{.i} korumaya çalıştın ama mağlup oldun. {NOTABLE.LINK} intikamını aldı. {QUEST_GIVER.LINK}'{.e} verdiğin sözü tutarak {CULPRIT.LINK}'{.i} korumayı başaramadın. Kendisi çok öfkeli." />
+    <string id="6zxo4AU9" text="Bu büyük bir onur {?PLAYER.GENDER}leydim{?}lordum{\?}. Bir dakikanızı alabilir miyim? Size bir hizmette bulunabilirim." />
+    <string id="79XElnsg" text="{ISSUE_GIVER_1.LINK} birisinin bir şeyler yapması gerektiğine dair bir şeyler söyledi. {ISSUE_GIVER_2.LINK} de birisini arıyordu sanırım." />
+    <string id="7AiP4BwY" text="Konuşacak ne var? [if:convo_confused_annoyed]Bu alçak, soydaşlarımdan birini öldürdü ve ondan intikam almak bizim en doğal hakkımız!" />
+    <string id="7B7BhVhV" text="Bakalım ne bulacaksın...[if:convo_confused_annoyed]" />
+    <string id="7hlGVkbq" text="{PLAYER.NAME}... Neden böyle giyindiğini bilmiyorum ve bilmek istediğimi de sanmıyorum. Gelgelelim, etrafa bakınırsan sana yardımcı olacak birilerini bulursun bence." />
+    <string id="7IxFrati" text="İyi günler {?PLAYER.GENDER}leydim{?}lordum{\?}, size nasıl yardımcı olabilirim?" />
+    <string id="7k03GxZ1" text="Seninle iş yapmak güzeldi. Adamlarıma onu derhal serbest bırakmalarını emredeceğim.[if:convo_mocking_teasing]" />
+    <string id="7kn4Jmdl" text="Ah, evet! Gençliğimde böyle şiirler vardı." />
+    <string id="7pH9MzS1" text="Bize savaşmamız için para mı ödeyeceksin? Senin bundan çıkarın ne?" />
+    <string id="7qPda0SA" text="Evet... Bir sorunumuz var. Akrabalarımdan biri kavga sırasında öfkesine yenik düştü ve {TARGET_VILLAGE}'{.den} bir adamı öldürdü.[ib:normal2][if:convo_dismayed] Kan parası ödemeyi teklif ettik ama ailesi inatla reddetti. Meğer bu adam bölgenin büyüklerinden biri olan {TARGET_NOTABLE}'{.nin} bir akrabasıymış ve şimdi de {TARGET_VILLAGE}'{.nin} adamları akrabamı öldürmeye yemin ettiler." />
+    <string id="7RyXSkEE" text="{QUEST_GIVER.NAME}'{.nin} kızıyla kaçan kara sevdaya tutulmuş zavallı ahmak olmak istemem." />
+    <string id="7tuyySmq" text="Ben başlayacağım." />
+    <string id="7uFFaSHv" text="Bazı insanlar {?OWNER.GENDER}Leydi{?}Lord{\?} {OWNER.LINK}'{.nin} çok acımasız olduğunu söylüyorlar. Bana kalırsa insanların çoğu kötü ve biraz korkmaları iyi bir şey. Her neyse, bugünlerde sofralarda et var, buna kim karşı çıkabilir ki?" />
+    <string id="7v2dMsW5" text="Eşin {MOTHER} az önce hamile olduğunu öğrendi." />
+    <string id="7wkHMnNM" text="Belki {AMOUNT}{GOLD_ICON} beni hatırlamana yardımcı olabilir." />
+    <string id="7WlQ0Twr" text="{SETTLEMENT}'{.nin} {WEAPON}{.i} {BESIEGER}'{.nin} bazı askerlerini vurdu!" />
+    <string id="88Fk9keT" text="İyi bir iaşecim olsaydı, daha az kaynakla daha fazlasını yapabilirdim eminim." />
+    <string id="89b5ao7P" text="Şu anda kumara ayırabileceğim 1000 dinarım yok. Gerekli miktara sahip olduktan sonra geri dönebilirim." />
+    <string id="8bfzW0np" text="Birçok kişi hâlâ tutsak alınıyor ve aileleri onları geri almak için ödeme yapmaya hazır. Benim gibi adamlar İmparatorlukta ve dış krallıklarda gezerek tutsakları alır ve makul bir fidye için akrabalarıyla irtibat kurar." />
+    <string id="8bnlS0IV" text="Ekme, tarla sürme... Önümüzde bunlarla geçecek haftalar var." />
+    <string id="8CW2y0p3" text="Askerler birliğine katıldı" />
+    <string id="8EaCJ2uw" text="Başka ne yapabilirim?" />
+    <string id="8gmne3b9" text="Bana değil efendim, hayır. Birisinin başka bir tüccarla böyle şeyler konuştuğuna kulak misafiri oldum. Onu hatırlıyorum çünkü insanı huzursuz eden bir kılıcı vardı.[if:convo_disbelief]" />
+    <string id="8hNYr2VX" text="Sadece geçiyordum." />
+    <string id="8LghFfQO" text="Muhafız gibi davranarak {ISSUE_GIVER.NAME}'{.nin} {TARGET_MERCHANT.NAME}'{.i} soymasına yardım et." />
+    <string id="8N3cs42a" text="Pekala... Söylentilere göre {NOTABLE.LINK} sahip olduğu {.%}{SHOP_TYPE}{.%}'{.de} maliyetleri azaltmaya çalışıyormuş. Her fırsatta adamların ücretinden kesiyormuş." />
+    <string id="8NDuezga" text="{.^}{RANDOM_RELATIVE}{.m} ile konuştuğumda, buradan ucuza bir miktar {._}{PLURAL(ITEM_NAME)} alıp {TOWN_NAME}'{.e} götürdüğünü söyledi. Her birinden {PRICE_DIFF}{GOLD_ICON} kazanç elde etmiş." />
+    <string id="8SK2BZum" text="Bir çete liderine ait olan bir sokağı temizledin. Bu sokağı kendi çıkarın için sahiplenebilir ya da kente yardımcı olmak için boş bırakabilirsin. Bir sokağı sahiplenmek için, bu sokağa göz kulak olacak uygun bir klan üyesi ve birkaç asker ataman gerekir. Bunu yapmak klanına para getirir ama suç oranını arttırır." />
+    <string id="8Wy1OCsr" text="{BESIEGER}'{.nin} {WEAPON}{.i} {SETTLEMENT}'{.nin} surlarını vurdu!" />
+    <string id="8XM8CHIm" text="kayınbirader" />
+    <string id="91x5mjXa" text="Hey! O kılıkla bizi kandırabileceğini mi sandın? Sana ne yapacağımıza karar verene kadar zindanda kalacaksın!" />
+    <string id="92sbq1YY" text="Ben çocuk değilim {?PLAYER.GENDER}hanımefendi{?}beyefendi{\?}! Silahını çek! Seni düelloya davet ediyorum![ib:warrior2][if:convo_excited]" />
+    <string id="94WRYoQp" text="{QUEST_SETTLEMENT}'{.den} {?QUEST_GIVER.GENDER}Leydi{?}Lord{\?} {QUEST_GIVER.LINK}, turnuva katılımcılarının arasına gizlenmiş bir casus olduğuna dair söylentiler dolaştığını söyledi. Bu meseleyle kendin ilgilenmeyi kabul ettin. {QUEST_GIVER.LINK} casusun {QUEST_SETTLEMENT} şehrinde turnuva katılımcılarından biriymiş gibi davrandığına inanıyor." />
+    <string id="99OsuHGa" text="Aradığını bulacağım." />
+    <string id="9ACSEvzD" text="Devam edelim öyleyse." />
+    <string id="9b2BETct" text="Kararımı verdim. Fikrimi değiştirmemi bekleme." />
+    <string id="9Box0Yj7" text="{?NOTABLE.GENDER}Leydi{?}Lord{\?} {NOTABLE.LINK}... Ne büyük bir mutluluk." />
+    <string id="9DDWjL9Y" text="Hım... Belki, ama kim olduğunu hatırlayamıyorum. Şüpheli olduğunu düşünmedim." />
+    <string id="9FMvBKrV" text="5 Asker Ver" />
+    <string id="9Kr9pjGs" text="{QUEST_GIVER.LINK} adamlarını hazırladı ve seni bekliyor." />
+    <string id="9O8a1Yz8" text="Pazarda {NOTABLE.LINK}'{.nin} sahibi olduğu {.%}{SHOP_TYPE}{.%}'{.e} adam aradığını duydum. İşçilerine iyi davrandığını söylüyorlar." />
+    <string id="9PBA2OJz" text="Kendisi işte burada." />
+    <string id="9pg3qc6N" text="Dövüş idmanı yap" />
+    <string id="9pTkQ5o2" text="Bu genç soyluyu bırakmak senin çıkarına olur..." />
+    <string id="9PUvbZzD" text="{GAME_NAME}, {CULTURE_NAME}'{.nin} geleneksel bir oyunudur. Sakin bir strateji oyunudur. Taşlarını tahtaya yerleştirip düşmanının düşeceği bir tuzak hazırlayarak başlarsın. Ardından tahtada savaşır, rakibini yakalar ve saf dışı bırakırsın." />
+    <string id="9svpUWeo" text="Bu kaydın versiyonu ({SAVE_VERSION}) mevcut versiyondan ({CURRENT_VERSION}) daha yeni." />
+    <string id="9t1LGNz6" text="{RESPONSE_TIME} {?RESPONSE_TIME&gt;1}gün{?}gün{\?} kaldı." />
+    <string id="9VR0VeNT" text="Evet, işleri senin için ne kadar kolaylaştırmalıyım?" />
+    <string id="9w6zmKQ1" text="İnsanlar kuşkuluyken gizlice çıkamazsın!" />
+    <string id="9XijWk1o" text="Soran herkese söylüyorum: {NOTABLE.LINK} erdemli bir {?NOTABLE.GENDER}kadın{?}erkek{\?} ve Gökler onun aracılığıyla konuşuyor. Bu toprakların lordlarının ona kulak vermesi gerekiyor yoksa bahtsızlıklardan kurtulamayacağız." />
+    <string id="9z0Yz8za" text="Bana sağ kolum olacak ve savaşta askerlerime komuta etmeme yardım edecek bir teğmen gerekiyor." />
+    <string id="9ZngZ6W7" text="Yoldaşlarımdan birinin ve {REQUIRED_TROOP_AMOUNT} adamımın {RETURN_DAYS} gün boyunca akrabanı korumasını sağlayacağım. " />
+    <string id="a1FeLSbH" text="Beni ona götürebilir misin?" />
+    <string id="a2AO5T1Q" text="{CLAN_NAME} ile {KINGDOM_NAME} paralı askerlik anlaşmalarına son verdiler." />
+    <string id="A2oos2Uo" text="Beni dinle. {QUEST_GIVER.NAME}'{.nin} verdiği bir görevi yerine getiriyorum. Buralarda garnizon hakkında tuhaf sorular soran yabancılar oldu mu?" />
+    <string id="a3AFjfsU" text="Göreceğiz. " />
+    <string id="A3GfCPUb" text="Otoritemi bu şekilde kullanmak istediğimden emin değilim. Bunu çözmenin başka bir yolu yok mu?" />
+    <string id="A61ppTa6" text="Benim gibi birine görev verecek birini tanıyor musun?" />
+    <string id="a6hwSEAK" text="Atın ağır yaralandığı için {MODIFIED_NAME} haline geldi." />
+    <string id="A9uSikTY" text="Teşekkür ederim {?PLAYER.GENDER}leydim{?}lordum{\?}." />
+    <string id="aB1EZssb" text="Harika, başlayalım!" />
+    <string id="abpzOR0D" text="Kaçırılacak bir tutsak seç" />
+    <string id="abux36nq" text="{HERO.NAME} birliğine katıldı." />
+    <string id="aC0Fq6IE" text="Zaman kaybetme {PLAYER.NAME}. Casusluk yapan bu adam muhtemelen gereğinden daha fazla oyalanmayacaktır.[if:convo_thinking] Ya da kadın." />
+    <string id="aD1BoB3c" text="Evet. Bir tur daha atalım." />
+    <string id="AdbiUqtT" text="Ben meşgulüm ama bir yoldaşımla birlikte birkaç adamımı bırakacağım." />
+    <string id="adbQR9j0" text="Ben altınımı aldım, sen de oğlanı.[if:convo_bored2] Artık beni rahat bırak..." />
+    <string id="advPT3WY" text="Acele etsen iyi olur![ib:closed][if:convo_astonished]" />
+    <string id="AeJqCMJc" text="Evet, göreceksin. Sana iyi günler. " />
+    <string id="aEL2S1PZ" text="Gökler bizi {?NOTABLE.GENDER}Leydi{?}Lord{\?} {NOTABLE.LINK}'{.den} korusun..." />
+    <string id="agL4RTbB" text="Sevgilim ve ben hiç evlenmedik. O savaşta biraz para kazandı ve zengin bir adamın kızıyla evlenmek istedi. Kız ona 'Kov onu,' dedi ve o da öyle yaptı." />
+    <string id="AGnd7nDb" text="Merak etme. Buralardaki kanun kaçakları benim adımı çok iyi bilirler ve benden korkarlar." />
+    <string id="ah3WKIc8" text="Birliğime biraz daha asker katılması iyi olur. Hiç gönüllü buldun mu?" />
+    <string id="AHg5k9q2" text="{SETTLEMENT_NAME}'{.e} hoş geldin. Buranın genel olarak iyi ve kanunlara saygılı bir halkı olduğunu göreceksin." />
+    <string id="aHGbTpLp" text="Bana turnuvaların nasıl yürüdüğünü anlat." />
+    <string id="ahydRFKe" text="{INQUIRY_COMPANION.LINK} olduğunu söyleyen biri vardı. İlgini çekebilecek birine benziyor, öyle değil mi? {COMPANION_SETTLEMENT}'{.e} gideceğini söylemişti.[rb:positive]" />
+    <string id="AjBYneFr" text="Sokaktan {CLAN_MEMBER.NAME} sorumlu. Kendisi şu anda sokağa doğru yol alıyor ve {HOURS} {?HOURS &gt; 1}saat{?}saat{\?} sonra oraya varacak." />
+    <string id="ajSm2FEU" text="Casus yakalamanın zor olduğunu biliyorum ama bu görevi sana vermemin bir sebebi var. [if:convo_stern] Beni hayal kırıklığına uğratma {PLAYER.NAME}." />
+    <string id="ak2EMWWR" text="{QUEST_GIVER.LINK}'{.e} verdiğin sözü tutarak kızı {?QUEST_GIVER.GENDER}annesine{?}babasına{\?} getirmeyi başaramadın. {QUEST_GIVER.LINK} çok öfkeli." />
+    <string id="aka03VdU" text="Onunla şimdi buluş" />
+    <string id="aKbyJsho" text="Soydaşlarını bizzat ben kurtaracağım." />
+    <string id="akqJbZpH" text="Harikulade! Söylememin sakıncası yoksa, muhteşem görünüyorsunuz {?PLAYER.GENDER}leydim{?}lordum{\?}. Muhteşem." />
+    <string id="aLAyJPrI" text="Garios Garios hem güçlü hem yılmaz... Hep haklıdır, asla yanılmaz...{newline}Adamlar ona emanet eder canlarını... Ama sakınır karılarını ve kızlarını." />
+    <string id="aLrK7Si7" text="Evet. Sana katılmaya hazır {TROOPS_TO_RECRUIT} var." />
+    <string id="alruamIW" text="Hım... Haklı olabilirsin. Buna değmez. Çocuğu hemen serbest bırakacağım.[ib:hip][if:convo_pondering]" />
+    <string id="AMlaYbJv" text="1000 dinarın yok." />
+    <string id="aNZKqAAS" text="Burada neler oluyor?" />
+    <string id="aoJHP3Ud" text="Yeniden sana katılmaya hazırım. Sana borçluyum." />
+    <string id="AozaGCru" text="{CLAN_NAME} ile {KINGDOM_NAME} paralı askerlik anlaşması imzaladılar." />
+    <string id="ap5pYDR7" text="Buradan sıvışalım!" />
+    <string id="ApG1xg7O" text="{PARTY_NAME}, {ARMY_NAME}'{.den} ayrıldı." />
+    <string id="AQi1arUp" text="Her neyse, eğer elinde tutsaklar varsa, onları senden seve seve satın alırım." />
+    <string id="aRDcoLX0" text="Şimdi sırası değil {PLAYER.NAME}. " />
+    <string id="arena_master_24" text="Öyleyse, ne yapmak istersin?" />
+    <string id="arena_master_25" text="Beni turnuvaya kaydet." />
+    <string id="arena_master_26" text="İdman dövüşüne katılmak istiyorum..." />
+    <string id="arena_master_27" text="Yakınlardaki kentlerde turnuvalar var mı?" />
+    <string id="arena_master_30" text="Artık gitmeliyim. Hoşça kal." />
+    <string id="arena_master_31" text="{NEARBY_TOURNAMENT_STRING}" />
+    <string id="arena_master_32" text="Yakın zamanda turnuva olmayacak." />
+    <string id="arena_master_33" text="Hemen başla! Aşağı inerken bir idman silahı al.[if:convo_approving]" />
+    <string id="arena_master_34" text="Pekala, adını kuraya ekleyeceğiz - sıran geldiğinde, çıkıp dövüşmeye hazır ol![if:convo_merry]" />
+    <string id="arena_master_35" text="Öyle yapacağım." />
+    <string id="arena_master_36" text="Tekrar düşündüm de, erteleyeceğim." />
+    <string id="arena_master_37" text="Hazır olacağım." />
+    <string id="arena_master_38" text="Aslına bakarsan, boş ver." />
+    <string id="aRPLW15x" text="Teşekkür ederim. Mantıklı[ib:aggressive][if:convo_evil_smile] bir {?PLAYER.GENDER}kadın{?}adam{\?} olduğunu biliyordum." />
+    <string id="ArseaKsm" text="Pekala. Zaman ayırdığın için teşekkürler." />
+    <string id="ASOW1MuQ" text="{SETTLEMENT} yerleşken, {FACTION}'{.nin} {PARTY}{.i}{.nin} saldırısı altında!" />
+    <string id="asVE53ac" text="Kızı {QUEST_GIVER.LINK}'{.e} geri döndü. {QUEST_GIVER.LINK} mutlu. {BASE_REWARD}{GOLD_ICON} ile dolu bir keseyle birlikte hürmetlerini gönderdi." />
+    <string id="ASVkuYHG" text="Birkaç kişi tanıyorum. Nasıl birini arıyorsun?" />
+    <string id="aSZvZRYC" text="{QUEST_GIVER.NAME}'{.nin} bir akrabası {TARGET_NOTABLE.NAME}'{.nin} bir akrabasını öldürdü. {QUEST_GIVER.NAME} bu suçun karşılığında kan parası ödemeyi teklif ediyor ama {TARGET_NOTABLE.NAME} intikam istiyor." />
+    <string id="AULqrp7D" text="bir kadeh Kalradya şarabı" />
+    <string id="av0bRae8" text="Burada kimler tutsak?" />
+    <string id="avk9kNn1" text="{NOTABLE.FIRSTNAME}'{.nin} topraklarındaki sınır taşlarının her baktığında biraz daha yaklaşıyor gibi görünmesi ne tuhaf." />
+    <string id="avVno3H8" text="Bu tür oyunlarda becerikli olan bir yoldaşını[if:convo_thinking] ve ona arka çıkmaya yetecek sayıda adamını görevlendirebilirsin. Duyduklarıma bakılırsa, {NEEDED_MEN_COUNT} kişilik bir grup yeterli olmalı." />
+    <string id="awYMellZ" text="Casusun bir kılıç taşıdığı biliniyor." />
+    <string id="AwZhx2tT" text="Geri döneceğim." />
+    <string id="axLR9bQo" text="{QUEST_GIVER.LINK}'{.nin} isteğini yerine getirerek {PRODIGAL_SON.LINK}'{.i} rehin tutan haydutları yendin. {?QUEST_GIVER.GENDER}Leydi{?}Lord{\?} {QUEST_GIVER.LINK} kısa bir süre sonra sana hürmetleriyle birlikte {REWARD}{GOLD_ICON} tutarında bir ödül gönderdi." />
+    <string id="aXMg9M7t" text="Kavgaya karışmamaya karar verdin. Ona yardım etmezsen, rakip çeteye kesinlikle yenilecek." />
+    <string id="aYMW8bWi" text="Onunla konuş." />
+    <string id="aZaujaHb" text="Muhafız teklifini kabul etti. Ödeme yapmaya hazırsan, {PRISONER.NAME}'{.i} kaçırmana yardım edecek." />
+    <string id="azVhRGik" text="Doğru anı bekliyorum." />
+    <string id="B0eBWPoO" text=" Yemeğini ordundaki aç askerlerle paylaştın. {INFLUENCE}{INFLUENCE_ICON} kazandın." />
+    <string id="B2Donbwz" text="Daha fazla zamana ihtiyacım var." />
+    <string id="b2h3r1kL" text="Lordun salonunu ziyaret etmek istiyorum." />
+    <string id="b3KFoJJ8" text="Tamam öyleyse. Hapishaneye bir bakacağım." />
+    <string id="b3MBZKuQ" text="Buraya iş bulmaya geldik çünkü köyde iş yoktu. Ama işverenler sadece kalifiye çalışanlar istiyorlar. Biraz para biriktirebilirsem, eve dönebilirim." />
+    <string id="b5LdBYpF" text="{SETTLEMENT} kuşatma altında. {QUEST_GIVER.LINK} ile anlaşman iptal oldu." />
+    <string id="B8bHpJRP" text="Haklısınız {?PLAYER.GENDER}leydim{?}beyim{\?}. Hemen harekete geçmeliyim." />
+    <string id="Ba9nsfHc" text="{QUEST_GIVER.LINK} seninle {TARGET_MERCHANT.LINK}'{.i} soyma planını paylaştı. {TARGET_MERCHANT.LINK} ile konuşup, onu kervanını korumaya ikna etmeyi ve kervanı {TARGET_SETTLEMENT} civarlarındaki pusuya doğru yönlendirmeyi kabul ettin." />
+    <string id="bAy9PdrF" text="O halde başlayalım." />
+    <string id="bb6e8DoM" text="Köyü araştır" />
+    <string id="bblwaDi1" text="{TARGET_MERCHANT.LINK}'{.nin} kervanını {QUEST_GIVER.LINK} ile birlikte başarıyla soydun." />
+    <string id="bbroVUrD" text="Elbette {?PLAYER.GENDER}leydim{?}lordum{\?}." />
+    <string id="bBVLVT7L" text="Kesinlikle! Görünüşe bakılırsa, bizim çocukların birkaçı şu anda turnuva için ısınıyor. İstersen gidip onlara katılabilirsin. Ya da sadece idman yapmak istiyorsan, daha sonra tekrar gel.[ib:warrior]" />
+    <string id="bbwNIIKI" text="Köydekilere {TARGET_HERO.NAME}'{.i} veya genç bir kadının yanında şüphe çeken birilerini gören olup olmadığını sordun.{newline}{newline}Köylüler yorgunluktan bitap düşmüş genç bir erkek ve kadın gördüklerini söylediler. Köylülerden onların bir süre burada kalmalarına izin verdiklerini öğrendin.{newline}Hâlâ burada saklanıp saklanmadıklarını görmek için etrafı araştırabilirsin." />
+    <string id="BdpW8gUM" text="İyi görünüyor, hadi oynayalım!" />
+    <string id="bEipgE5E" text="Ah evet, en ilginç oyunlar bunlardır, öyle değil mi? [if:convo_excited]Kendimi bu zevkten mahrum bırakmayacağım ama tapunun onun için arazinin değerinden daha kıymetli olduğu belli. Tapuyla bahse girerim ama 1000 dinar koyman gerekir." />
+    <string id="bFjtk0Op" text="Pekala... Bazen bir beceriyi öğrendiğinde, o beceriyi belirli bir şekilde geliştirirsin ve bu bazı durumlarda sana faydalı olurken, bazı durumlarda da zarar verir. Eğer farklı bir yolda ilerlemek için kendini, yoldaşlarını veya klan üyelerini yeniden eğitmek istersen, arenadaki turnuva ustasına gidebilirsin. O sana yardımcı olur - belirli bir fiyat karşılığında tabi." />
+    <string id="bhkC3kcQ" text="Büyüklerin hakkında saygılı konuş seni pis velet!" />
+    <string id="bHRZhYzd" text="Hayır! Onların yanına bile yaklaşmam! Beni öldürürler![ib:closed2][if:convo_stern]" />
+    <string id="biqYiCnr" text="Yoldaşım halledebilir. Merak etme." />
+    <string id="bjNuUqTx" text="Memnuniyetle {?PLAYER.GENDER}hanımım{?}beyim{\?}. Bu size {COST}{GOLD_ICON}'{.e} mal olur." />
+    <string id="bl2aRW8f" text="{KEY} Otur" />
+    <string id="bLigh8Sd" text="Kafamda evirip çevirdiğim bir düşünce var.[ib:confident2][if:convo_bemused] Belki bana yardımcı olabilirsin. {TARGET_MERCHANT.NAME} ile tanıştın mı? Kendisi çok zengin bir tüccar. Hem de çok. Ama pek namuslu sayılmaz... Ahlaksız birinin o kadar büyük bir servete sahip olması haksızlık, öyle değil mi? Ben bu serveti biraz paylaştırmayı planlıyorum." />
+    <string id="blqTMwQT" text="Beni takip edin." />
+    <string id="BnoSOi3r" text="Aslında..." />
+    <string id="bNRfxIy7" text="Çok güzel. Bence zaman kaybetmeden işine bakmak senin için güvenli olur. Birlikte konuşurken ne kadar az görülürsek o kadar iyi, dolayısıyla bu beni son görüşün olabilir." />
+    <string id="BNz4ZA6S" text="Pekala. Bana hemen katılsınlar." />
+    <string id="boAcQxVV" text="Kanunları çiğniyorsun." />
+    <string id="bPqwLopK" text="Mm. Sen bir köle taciri misin?" />
+    <string id="bQnVtegC" text="Güzel, böylesi daha da iyi. [ib:confident][if:convo_astonished]{SETTLEMENT}'{.e} gidip kent meydanında dolaştığında evi kolaylıkla bulabilirsin. Ya da bu çete lideri {TARGET_HERO.LINK} ile konuşup durumu anlamasını ve çocuğu serbest bırakmasını sağlayabilirsin. İyi şanslar. Güzel haberlerini bekliyorum." />
+    <string id="bRMLn0jj" text="Eğer kalkıp başka bir kente giderse, gırtlağını keserlerse,[if:convo_pondering] veya tapuyu kaybederse, bu yanlış bir an olur, öyle değil mi?" />
+    <string id="bs8ayCGX" text="'Cesur bir savaşçı olabilirsin {newline} Kılıcınla, miğferinle ve şimşek gibi atınla {newline} Ama aklın varsa kulak ver uyarıma {newline} {RANDOM_TOWN}'{.nin} balıkçı kadınlarıyla uğraşma'" />
+    <string id="bSDIHQzO" text="Lütfen çabuk ol. Planımızın duyulmasını istemem.[if:convo_nervous]" />
+    <string id="BSeplVwe" text="Bu çok fazla. Daha sonra döneceğim." />
+    <string id="btA10FML" text="Bir tutsak için ne kadar alabilirim?" />
+    <string id="btJkBTSF" text="Çözebileceğine eminim." />
+    <string id="bTnmpqU4" text="Korkarım başka bir oyuna vaktim yok." />
+    <string id="btynhBAn" text="{SETTLEMENT}'{.nin} yeni valisi {HERO.NAME} hedefine vardı ve kontrolü eline aldı." />
+    <string id="bUmacxw7" text="İdman dövüşleri bile bahis oynamayı seven insanları çekiyor. Ancak, turnuvalar! Turnuvalar kilometrelerce öteden kalabalıkları buraya getiriyor. Tüccarlar turnuvalara bayıldıkları için, sert darbelere göğüs geren senin gibi yürekli kişilere vermemiz gereken gümüşü sökülüyorlar." />
+    <string id="BusYGTrN" text="Harika! İyi günler {?PLAYER.GENDER}leydim{?}lordum{\?}." />
+    <string id="bUweVtkk" text="{OWNER.LINK} neden sokaklara musallat olan hırsızlar konusunda hiçbir şey yapmıyor? Hasılatlarından pay alıyor olabilir mi?" />
+    <string id="bvhWLb4C" text="Oyun Ustası'nı yendin ve tapuyu geri aldın. {QUEST_GIVER.LINK}.{newline}&quot;Bu meseleyi bu kadar güzel çözümlediğin için teşekkür ederim. Lütfen teşekkürlerimle birlikte bu {GOLD}{GOLD_ICON} dinarı kabul et.&quot;" />
+    <string id="BYpoxUEB" text="Uzun zamandır iş arayan o tür becerilere sahip birini duymadım." />
+    <string id="bZ5rXBY5" text="{ALLEY_ACTIVITY_STRING}" />
+    <string id="bZbFrIUr" text="bir kupa kvas" />
+    <string id="c452Kevh" text="Endişeliyim ama artık hayatım size emanet. Beni koruyacağınıza güveniyorum {?PLAYER.GENDER}hanımım{?}beyim{\?}." />
+    <string id="C6EOT3yY" text="Hayır, üzgünüm. Öyle bir şey görmedim." />
+    <string id="c6GbRQlg" text="Dur. Artık dövüşmemize gerek yok. [ib:closed][if:convo_insulted]Meramını anlattın. Kan parasını kabul edeceğiz." />
+    <string id="C6rbcpbi" text="{QUEST_GIVER.LINK} herhangi bir zarara yol açmadan önce bir casusu bulmanı istiyor..." />
+    <string id="C9feTaca" text="{QUEST_GIVER.LINK}'{.nin}, {RIVAL_GANG_LEADER.LINK} ile arasındaki meseleyi kesin bir çözüme kavuşturacağını duydum." />
+    <string id="cAVxYAdw" text="Öyleyse para keseni getirsen iyi olur. Satacağım tutsaklar var." />
+    <string id="cc4EEDMg" text="Harika. Git {TARGET_MERCHANT.LINK} ile konuş. [if:convo_focused_happy]Eğer kervana rehberlik etmek için onu razı edebilirsen, yollarının üzerinde pusuda bekliyor olacağız." />
+    <string id="CdRtnwwX" text="Her şey yolunda ve {NOTABLE.LINK} bunu {?OWNER.GENDER}Leydi{?}Lord{\?} {OWNER.LINK}'{.nin} bilgeliğine borçlu olduğumuzu söylüyor." />
+    <string id="cDYz49kZ" text="İntikam çağrıları sona erene dek akrabamı korumanız altına alabilirsiniz.[ib:closed][if:convo_pondering] Belki onu koruması için savaşçı yoldaşlarınızdan birini ve {ALTERNATIVE_TROOP_COUNT} adamınızı yanında bırakabilirsiniz." />
+    <string id="cGSXFJ3N" text="Bu yerleşke kısa süre önce gerçekleşen bir kaçma girişimi nedeniyle tetikte. Muhafız seninle konuşurken bile görülmek istemiyor." />
+    <string id="ciXBiMMa" text="Teşekkürler {PLAYER.NAME}, umarım adamların başarılı olur.[if:convo_focused_happy]" />
+    <string id="ck36TZFP" text="400{GOLD_ICON}" />
+    <string id="CkaSSJz1" text="{NOTABLE.LINK}..." />
+    <string id="Ckou6bfg" text="İhtiyar pinti {NOTABLE.FIRSTNAME} benim büyük amcamın oğludur ve zor günlerde bana bir kuruş bile vermez." />
+    <string id="ClyaDhGU" text="Sokağın liderini değiştir" />
+    <string id="CM8Tr3lL" text="'Yürüttüler cebimdekileri {newline} Gömleğim kusmuktan sırılsıklam {newline} Kafam patlayacakmış gibi'" />
+    <string id="CMu4B9fZ" text="Görev Başarısız Oldu" />
+    <string id="cPmV8S4e" text="Arenayı alıştırma yapmak isteyen herkese açık tutuyoruz. Hiçbir kural ve takım yok. Ayakta tek bir savaşçı kalana kadar herkes birbirini dövüyor. Kulağa eğlenceli geliyor, değil mi?[ib:confident2]" />
+    <string id="cpTMttNb" text="Öyle mi? Hey, kervanbaşı, adın her neyse... [if:convo_contemptuous]Hazır hepimiz taraf değiştiriyorken, ikimize de ihanet eden bu alçağı yenmek için sana katılmama ne dersin? Hangimiz bu işten ayakta daha çok adamla çıkarsa, mallarını o alır." />
+    <string id="cqe8FU8M" text="{?QUEST_GIVER.GENDER}O{?}O{\?} beni hiç umursamıyor! Umursadığı tek şey bizim bölgemizdeki itibarı." />
+    <string id="cqlV1YLO" text="Kimi arıyorsun?" />
+    <string id="CQMkh88h" text="Satacağım tutsak yok ama bunu bilmek güzel." />
+    <string id="CqnAGehj" text="Diyelim ki birisi birtakım mallar satın almak istiyor ve gümrük vergisi ödemek istemiyor. Biz o kişiye yardımcı olabiliriz." />
+    <string id="CSqHz4EG" text="Hasat mevsimi neredeyse geldi." />
+    <string id="CWbAoGRu" text="Evet, nasıl çözdüğün umurumda değil. [if:convo_normal]Nasıl istersen öyle çöz. Haydutlarla nasıl başa çıkacağını bilen birinin önderlik ettiği {NEEDED_MEN_COUNT} kişinin bu işi aşağı yukarı {ALTERNATIVE_SOLUTION_DURATION} gün içinde çözeceğini tahmin ediyorum. Kendi adamlarımı gönderirdim ama başka bir lordun bölgesinde klan renklerimizi taşıyarak ilerlemek sorun yaratabilir." />
+    <string id="cwqR0pp1" text="İyi günler {?PLAYER.GENDER}leydim{?}lordum{\?}. Sizi burada görmek ne güzel. Nasıl yardımcı olabilirim?" />
+    <string id="CXw9a1i5" text="{QUEST_GIVER_CLAN} klanının bir {?QUEST_GIVER.GENDER}leydisi{?}lordu{\?} olan {QUEST_GIVER.LINK}, {SETTLEMENT}'{.e} gitmeni ve akrabasını kurtarmanı istedi. Delikanlı şu anda borçları yüzünden bölgenin çete liderlerinden biri olan {TARGET_HERO.LINK} tarafından rehin tutuluyor. {QUEST_GIVER.LINK} bir daha hiç kimsenin soyluları rehin almaya cesaret edememesi için bu çeteye dersini vermeni önerdi. Genç soylunun rehin tutulduğu evi kent meydanında kolaylıkla bulacağını söyledi." />
+    <string id="d18Ul2Zl" text="bir tabak sardalya" />
+    <string id="D25oY3j1" text="Teşekkürler {?PLAYER.GENDER}leydim{?}beyim{\?}. Nezaketiniz ve anlayışınız için. Bunu unutmayacağız.[ib:demure][if:convo_happy]" />
+    <string id="d5a8xQos" text="{QUEST_GIVER.LINK}'{.nin} akrabasını rehin tutan haydutları yenmeyi başaramadın. Senin saldırının ardından delikanlıyı daha güvenli bir yere götürdüklerini öğrendin. Artık onu bulmak imkansız. {QUEST_GIVER.LINK}, {TARGET_HERO.LINK} ile bizzat ilgilenmek zorunda kalacak. Bunu duymak onu memnun etmeyecek." />
+    <string id="dav5rmDd" text="{SETTLEMENT}'{.den} bir çete lideri olan {QUEST_GIVER.LINK}, kentinde yer edinmeye çalışan bir rakibi olduğundan bahsetti. Diğer çetenin gardını düşürmesi için {DAY_COUNT} gün beklemeni istedi." />
+    <string id="dC6YhgPP" text="Ah. İyi bir eşleşme." />
+    <string id="ddYWbO8b" text="Her zamankinden mi?" />
+    <string id="DeoalRXY" text="{NOTABLE.FIRSTNAME}'{.nin} av köpeklerinden biri kuzenimin koyununu kaptı ama {NOTABLE.FIRSTNAME} bunu telafi etmek için koyunun değerinin iki katını ödedi - bence bu çok adil, evet, çok adil." />
+    <string id="DFkzQHRQ" text="'Padişahın bütün ipekleri için {newline} İmparatorun bütün altınları için {newline} Doğunun bütün baharatları için...'" />
+    <string id="dgNCuuUL" text="Merhaba {PLAYER.NAME}. Seni tekrar görmek güzel." />
+    <string id="DgxVa0OP" text="{?NOTABLE.GENDER}Leydi{?}Lord{\?} {NOTABLE.LINK}..." />
+    <string id="DK3QwC68" text="Aşağı yamaçlardaki adamların yere yığıldığını görüp yardımına koştular. Yaralarınla ellerinden geldiğince ilgilendiler ve hayatta kalacaksın. Adamların sıradaki kararını bekliyorlar." />
+    <string id="DLesz9jI" text="{QUEST_GIVER.LINK}'{.nin} köyü yağmalandı. Kendisi kırsal bölgeye kaçtı ve anlaşmanız iptal oldu." />
+    <string id="dlOCK6Ro" text="O kıştan sonra, inek sabanı çekemeyecek kadar zayıfladı. İnek kiralamak için nereden para bulacağımı bilmiyorum.[rf:convo_grave]" />
+    <string id="dmaCQda0" text="Evet. {NOTABLE.LINK} konusuna gelirsek... Onun için çalışmanın zor olduğunu söylüyorlar. Tek bir hata yaptığın anda kendini sokakta buluyormuşsun." />
+    <string id="dmijPqWn" text="{QUEST_GIVER.LINK}'{.nin} akrabasını zamanında kurtarmayı başaramadın. Delikanlıyı daha güvenli bir yere götürdüler. Artık onu bulmak imkansız. {QUEST_GIVER.LINK}, {TARGET_HERO.LINK} ile bizzat ilgilenmek zorunda kalacak. Bunu duymak onu memnun etmeyecek." />
+    <string id="DMUsPekF" text="Bana dünyanın karanlık yüzünü biraz olsun bilen, suçlularla ve hırsızlarla baş edebilecek biri gerekiyor." />
+    <string id="dNjepcKu" text="Bitirelim şu işi![ib:hip][if:convo_mocking_revenge]" />
+    <string id="dOdp1aKA" text="Casusu bulamadın ve yanlış savaşçıyla düello yaptın. {QUEST_GIVER.LINK} hayal kırıklığına uğradı." />
+    <string id="dPE4A7fO" text="{ENEMY_PARTY_NAME} limandan {MAN_COUNT} adamla kente girdi." />
+    <string id="dpTHWqwv" text="Kanımızın değersiz olduğunu, içimizden birinin canı karşılığında gümüş almayı kabul edeceğimizi zanneden {?PLAYER.GENDER}kadın{?}erkek{\?} sen misin?" />
+    <string id="DqZtRBXR" text="Yaralısın ve kılık değiştirmiş durumdasın." />
+    <string id="DRpcqEMI" text="Kervan lideri kararlarının vakit kaybına neden olduğunu söyledi ve kendi yoluna gitmeye karar verdi. Planın kendi üzerine düşen kısmını yerine getiremedin." />
+    <string id="dt00CQCM" text="Daha düşük bir sürüme geçildiğinden dolayı başarılar devre dışı bırakıldı." />
+    <string id="Du31GKSb" text="Bu bölgenin yargıcı olarak kan parasının kabul edilmesini emrediyorum. Bu taammüden işlenmiş bir suç değil, bir tutku suçudur. {TARGET_NOTABLE.LINK}'{.e} gümüşü kabul etmediği takdirde gazabımla yüzleşeceğini söyle!" />
+    <string id="du3dpMaV" text="{RIVAL_GANG_LEADER.LINK}'{.nin} çetesini yenmeyi başaramadın ve {QUEST_GIVER.LINK}'{.e} verdiğin sözü yerine getiremedin." />
+    <string id="DUKbtlNb" text="{QUEST_GIVER.LINK} nihayet kendisiyle buluşup dövüşe katılmanı söyleyen bir ulak gönderdi." />
+    <string id="dUSfRYYH" text="Bir dakika..." />
+    <string id="DUVqJifX" text="Evet. Arena civarında öyle tuhaf sorular soran birini gördüm. Orta yaşlıydı ve saçı başı sıradandı ama başka bir şey hatırlayamıyorum.[if:convo_thinking]" />
+    <string id="dWf6ztYu" text="{ALLEY_TYPE} yakınlarındaki sokağındasın, {FURTHER_INFO}" />
+    <string id="dwNquUNr" text="Babam mı? Ah, şükürler olsun! Korkunç şeyler gördüm. [ib:nervous2][if:convo_shocked]Sevgilimi alıp götürdüler ve birçok masum kişiyi tereddüt etmeden öldürdüler." />
+    <string id="dY3Vazug" text="Birkaç adım ötede {AMOUNT}{GOLD_ICON} içeren bir para kesesi buldum. Sana ait herhalde." />
+    <string id="dyhZUHao" text="Kırpılmaya geldiğini düşünmüştüm [if:convo_shocked]ama koyun diş gösterebiliyormuş meğer. Pekala, güzel oynadın, adamının arazisini geri aldın." />
+    <string id="DYq30shK" text="Teşekkürler {?PLAYER.GENDER}hanımım{?}beyim{\?}." />
+    <string id="dzWioKRa" text="Selamlar, dostluk maçı mı istiyorsun? Ya da bahse tutuşmak belki?[if:convo_mocking_aristocratic]" />
+    <string id="E57VFXqU" text="Olur." />
+    <string id="e9bLGCQu" text="{NOTABLE.LINK}'{.nin}, sahibi olduğu {.%}{SHOP_TYPE}{.%}'{.e} adam aldığını söylüyorlar. O güvenilmez biridir." />
+    <string id="EA2JcVcb" text="Elbette! Bu artık Kalradya'nın dört bir yanına yayılmış olan eski bir İmparatorluk geleneğidir. Eskiden hüküm giymiş yüz suçluya kılıç verir ve ortalık kan gölüne dönene kadar onları birbirleriyle dövüştürürlerdi![if:convo_merry]" />
+    <string id="EAPYyktd" text="Sokaklarından biri liderini kaybetti ya da eksik sayıda askeri var" />
+    <string id="Eb7KG1bi" text="{HERO.LINK} yakınlarda olmalı...[ib:normal]" />
+    <string id="edoXFdmg" text="{QUEST_GIVER.NAME}'{.nin} kızını buldun." />
+    <string id="eeIX6loR" text="Aklıma başka biri gelmiyor." />
+    <string id="efdCZPw4" text="İşime döneceğim. Yardımlarını unutmayacağım..." />
+    <string id="EFjas6hI" text="Son anda kervan muhafızının tarafında yer almaya ve onları savunmaya karar verdin." />
+    <string id="EFKxbLaO" text="Bugünlerde işler biraz farklı elbette. İmparatorlar halkın ahlak anlayışı konusunda endişe duymaya başladılar ve halkı, savaş gibi, öldürmenin daha erdemli yollarına sevk ettiler. Oyunlar devam ediyor ama sadece kör silahlarla." />
+    <string id="EGC4BA4h" text="{PLAYER.NAME}! Bu doğru mu? Bak, sen akıllı bir {?PLAYER.GENDER}kadınsın{?}adamsın{\?}. [if:convo_shocked]{TARGET_MERCHANT.LINK}'{.nin} bu alçaklardan daha fazla ödeme yapabileceğini biliyorsun. Parayı al ve itibarını koru." />
+    <string id="EGI6ztlH" text="Tutsaklardan biriyle konuşmak istiyorum." />
+    <string id="EiiHoraV" text="Zor zamanlardan geçiyoruz... Çok zor zamanlardan." />
+    <string id="EIsQnfLP" text="Bunun nasıl benim çıkarıma olduğunu söyle...[ib:closed][if:convo_nonchalant]" />
+    <string id="eKLH9fOb" text="Yardımcı olabilir miyim {?PLAYER.GENDER}leydim{?}lordum{\?}?" />
+    <string id="eKy1II3h" text="Kaçmayı başardınız ama {PRISONER.NAME} bu sırada ağır yaralandı. Onu geride bırakıp arka sokaklarda izini kaybettirmekten ve kapıdan gizlice çıkmaktan başka seçeneğin yoktu.{INFORMATION_IF_PRISONER_DEAD}" />
+    <string id="ELfguvYD" text="Sokağı terk et" />
+    <string id="Emw9ut4A" text="Zor zamanlardan geçiyoruz... Bugünlerde iyi yardımcılar bulamıyorum. Yarısı çalışamayacak kadar aç. Diğer yarısı hırsız. Aklı olanların hepsi haftalar önce gitti.[rf:confused_annoyed]" />
+    <string id="EN3Zqyx5" text="Geveze birisin ha? Saldırın çocuklar![ib:aggressive][if:convo_angry]" />
+    <string id="EnOOqaqf" text="Ben koyunları alacağım." />
+    <string id="eO7p1Q3C" text="Kontrol Noktası" />
+    <string id="eOle8pYT" text="Arkadaşımdan bir arazi tapusu kazanmışsın. Ben onu geri kazanacağım." />
+    <string id="EPbHr2DX" text="iki sağlıklı bebek" />
+    <string id="epepvysB" text="Aklımda başka biri var." />
+    <string id="eQfL2UmE" text="Seni ilgilendirmez." />
+    <string id="ETiAbgHa" text="Onlarla hemen konuşacağım." />
+    <string id="evIohG6b" text="Teşekkür ederim ama gerek yok. Buradan çıktıktan sonra kendi başıma dönebilirim.[if:convo_happy] Yardımların için minnettarım. Klanımdaki herkese kahramanlığından bahsedeceğim." />
+    <string id="ExltvaKo" text="Neler sattığına bir bakayım..." />
+    <string id="EYT7b2J5" text="Herhangi bir gezgin, bir düşman tarafından seyahat ettiği yerleri gözetlemeye teşvik edilebilir. Bunu nasıl bulacağım?" />
+    <string id="eZq11NVD" text="Bu arada, biz sadece {ALLEY_BOSS.NAME}'{.den} emir alırız, başka da kimseden emir almayız." />
+    <string id="F44s8kPB" text="Kervan nerede? Adamlarım burada çok uzun süre bekleyemezler.[if:convo_undecided_open]" />
+    <string id="F9Xjbchh" text="Teşekkürler." />
+    <string id="fa8sla4i" text="{BESIEGER_PARTY}'{.nin} {SIEGE_ENGINE}{.i} yok edildi." />
+    <string id="fasAZDvM" text="{HERO.LINK}'{.e} gidiyoruz...[ib:demure]" />
+    <string id="fcqdfY09" text="Sokaktan {CLAN_MEMBER.NAME} sorumlu." />
+    <string id="fCrVeHP3" text="Ah! Bütün gün bunu arayıp durdum. Bunu geri getirmeniz ne büyük bir incelik {?PLAYER.GENDER}hanımefendi{?}beyefendi{\?}. Artık dürüst biri olduğunuzu bildiğime göre, içeri bir göz atmanızda sakınca yok. Buyurun... Ancak, aklınızdan herhangi birinin zincirlerini çözmek gibi şeyler geçiyorsa şunu bilin ki anahtarlar bende kalacak." />
+    <string id="FdwZlCCM" text="Hepiniz beni takip etmeyi bırakıp işinize geri dönebilirsiniz." />
+    <string id="FEcAwSfk" text="{ALTERNATIVE_SOLUTION_DURATION} günlüğüne bir yoldaşımla birlikte {NEEDED_MEN_COUNT} iyi adamımı görevlendireceğim." />
+    <string id="fF2BdOy9" text="Şu anda bir eksiğim yok." />
+    <string id="ff5XEKPB" text="Korkarım öyle birini hatırlamıyorum {?PLAYER.GENDER}hanımefendi{?}beyefendi{\?}." />
+    <string id="fgRq7kF2" text="Önce {QUEST_GIVER_SETTLEMENT}'{.de} {CULPRIT.LINK} ile konuşup, onu seninle birlikte {TARGET_SETTLEMENT}'{.de} bulunan {TARGET_NOTABLE.LINK}'{.e} gelmeye ikna etmeye ve meselenin barışçıl yoldan çözülmesi için arabuluculuk yaparak gereksiz yere kan dökülmesine son vermeye razı oldun. {QUEST_GIVER.LINK}, delikanlı güvende olduğunda sana {REWARD_GOLD} ödeyeceğini söyledi." />
+    <string id="FgSIsasF" text="Evet, haklısın. Gitmeliyim..." />
+    <string id="FguHzavX" text="Arenada idman yapamazsın çünkü şu anda devam eden bir turnuva var." />
+    <string id="fHc6fwrb" text="Güzel, bitirelim şu işi." />
+    <string id="fiMZ696A" text="Evet, tekrar oynayacağım." />
+    <string id="FJ93PXVa" text="Bütün Düşmanları Yarala" />
+    <string id="fkkYatnM" text="Aslına bakılırsa, fikrimi değiştirdim. Onunla daha sonra konuşacağım..." />
+    <string id="fkOYvnVG" text="Tur sona erdi, takımın turnuvanın bir sonraki aşamasına geçmeye hak kazandı." />
+    <string id="FnkYfyGa" text="{BESIEGER}'{.nin} {WEAPON}{.i} {SETTLEMENT}'{.nin} menzilli aletlerini vurdu!" />
+    <string id="FNLtDFbn" text="Kış için etimizi kesmenin ve tuzlamanın zamanı geldi." />
+    <string id="Fo47BuSY" text="Tamam, {ALLEY_BOSS.NAME}'{.i} tanıyorsun, burada bulunabilirsin. Yeter ki sorun çıkarma, tamam mı?" />
+    <string id="Fpk3BUBs" text="Mücadele henüz bitmedi!" />
+    <string id="FpNWdIaT" text="Evet, elbette. Bir şey gerekirse bana haber ver." />
+    <string id="fQaPv0Xl" text="Birkaç gün burada kalacağım. Hizmetlerime ihtiyacın olursa haber ver." />
+    <string id="fqKVojaV" text="Hayır, şimdi değil." />
+    <string id="fT57TeqJ" text="Artık işine bakabilirsin ve bir daha görüşmemize gerek yok." />
+    <string id="ftyp2ul1" text="Bu baş belaları - buralardan değiller. Buralardan olduklarına inanamam. Bugünlerde yabancı dillerde konuşan insanların sayısı devamlı artıyor - eminim onlardır." />
+    <string id="Fu47uNh4" text="Ailesi gözyaşı dökerken, kız kardeşimin kocası diğer aylaklarla birlikte handa bütün parasını içkiye ve kumara harcıyor. Umarım {NOTABLE.LINK} yanına dürüst insanlar alıp orayı ateşe verir! Ben kendim de bir meşale taşırım." />
+    <string id="FUL8TcYa" text="Çocuğu hayatım pahasına korumaya söz verdim. Ona zarar vermeye kalkışırsan, kanını dökerim." />
+    <string id="FvtAJE2Q" text="{QUEST_GIVER.LINK}'{.nin} kızını bulmak için yakınlardaki köyleri ziyaret etmeye karar verdin." />
+    <string id="Fwm0PwVb" text="Harika. Dediğim gibi,[ib:normal][if:convo_mocking_revenge] tedbiri elden bırakmaları için en az {NUMBER} gün gerekiyor. Zamanı geldiğinde sana haber vereceğim. Unutma, saldırmak için karanlığın çökmesini bekleyeceğiz." />
+    <string id="FxKgQECI" text="Lucon Lucon dediler bana. Yaşlı doğmuş ve daha da yaşlanmış.{newline}Altından bir sarayda yaşarmış. Bu saray hep soğuk ve karanlıkmış." />
+    <string id="G2IaEr2Z" text="Kullan" />
+    <string id="G3sImCKI" text="Bir şey yok... Sanırım senin gözüne girmek, normalde hizmetlerim karşılığında aldığım birkaç bakırdan daha değerli." />
+    <string id="g5ofoKa8" text="Evet... Şimdi seni hatırladım." />
+    <string id="g7qhnsnJ" text="{CLAN_NAME} klanı {KINGDOM_NAME}'{.den} ayrıldı." />
+    <string id="GAq7KAf0" text="Kesinlikle! Sen bir savaşçıya benziyorsun. Katılmalısın. Eskiden hep hüküm giymiş suçlular ve ölümüne dövüşler olurdu ama artık kör silahlar kullanılıyor." />
+    <string id="GAsVO8cZ" text="İyi günler dostum. Bahse girerim buraya oyunlar için ya da bugünlerde dedikleri gibi turnuva için geldin!" />
+    <string id="gcB54MUl" text="tereyağlı balık" />
+    <string id="GeJuBar0" text="Bazıları sana {NOTABLE.LINK}'{.nin} darağacını boylamayı hak eden sıradan bir hırsızdan farkı olmadığını söyleyecektir ama kuzenim {NOTABLE.FIRSTNAME}'{.nin} kendisine bir iyilikte bulunduğunu söylüyor. Neye inanacağımı bilemiyorum." />
+    <string id="GfHssUYV" text="Bahis oynamaktan çekinme." />
+    <string id="gfmU4wiM" text="Hanımda kalan {INQUIRY_COMPANION.LINK} adında bir {?INQUIRY_COMPANION.GENDER}kadın{?}adam{\?} var. Onunla konuşmak isteyebilirsin." />
+    <string id="GFt9KiHP" text="Haklısın. Belki de {QUEST_GIVER.NAME}'{.i} ikna etmeliyiz." />
+    <string id="gHnMYU9n" text="Evet... Dün gece handa... Bir sarhoşu köşeye sıkıştırdı ve ona bekçi odası hakkında sorular sorup durdu. Sakalı vardı.[if:convo_pondering]" />
+    <string id="GhPGpR90" text="bir tabak hurma" />
+    <string id="gJNdkwHV" text="Çete Partisi" />
+    <string id="GKl8U04i" text="Bacağıma saplanan bir oktan dolayı sakat kaldığım için tarlalarda çalışamıyorum ve hiçbir işe yaramadığımı söylüyorlar." />
+    <string id="GkwOyJn9" text="{newline}Sonradan onun aldığı yaralardan öldüğünü öğrendin." />
+    <string id="GLRrAj61" text="Senin gibilerle oyun oynamak istemiyorum." />
+    <string id="gm3wqjvi" text="Yolu göster." />
+    <string id="GmIluR4H" text="Elbette. Neden olmasın?" />
+    <string id="GMsZZQzI" text="Elinden geleni ardına koyma." />
+    <string id="gOWebWiK" text="Yönleri sefer haritasında okla işaretlenmiştir." />
+    <string id="GPBja02V" text="{QUEST_GIVER.LINK}'{.e} söz verdim ve hiç kimse beni satın alamaz." />
+    <string id="gPFfHluf" text="Klanın artık yerleşkenin sahibi. Yerleşkenin lordu olarak artık suç teşkil eden faaliyetlerde bulunamazsın. Görevi aldığın kişiyle anlaşman iptal oldu." />
+    <string id="gqdsXVNi" text="{SETTLEMENT}'{.nin} {WEAPON}{.i} {BESIEGER}'{.nin} menzilli aletlerini vurdu!" />
+    <string id="GrHJYz7O" text="Pekala. Şimdi, hangi tarafı istiyorsun?" />
+    <string id="grhRXqen" text="Sokağına düzenlediği saldırı konusunda {HOSTILE_GANG_LEADER.NAME} ile yüzleş." />
+    <string id="GtgGnMe1" text="{PLAYER_OPTION}" />
+    <string id="GvLZKQ1U" text="Kanepe" />
+    <string id="GvpvZEba" text="Pekala, kendine iyi bak." />
+    <string id="GW8ITTMb" text="{PRODUCTS}{.i} yağmaladın." />
+    <string id="GwHPEgsv" text="Hareket edemezsin. Almak için rakibinin piyonlarından birini seç ve bir hamle yap" />
+    <string id="GXk6f9ah" text="Bir sorunum var... [ib:confident][if:convo_undecided_closed]Bu sorunun adı {TARGET_NOTABLE.LINK}. Adamları surların dışından gelip, bizim korumamız altında kumar oynayarak ve içki içerek iyi vakit geçiren kişileri soyuyorlar. Çocuklarla birlikte onlara bir ders vermeye can atıyoruz ama biraz yardımın da zararı olmaz diye düşünüyorum." />
+    <string id="gYCSwLB2" text="Ne demek istiyorsun?[ib:closed][if:convo_confused_normal]" />
+    <string id="H2aaMAe5" text="Bana idman dövüşlerini anlat." />
+    <string id="h2tMadtI" text="Bu hikayeyi daha önce de duydum. Ne kaybettin?" />
+    <string id="H3fobmyO" text="Yaklaş" />
+    <string id="H4EVfKAh" text="Çete liderinin rakip çeteyi yenmek için yardıma ihtiyacı var." />
+    <string id="HCmQmZbe" text="Sadece bakıyorum. Sakıncası var mı?" />
+    <string id="HDCmeGhG" text="Üzgünüm ama bir söz verdim. Ben sözümden dönmem." />
+    <string id="HDhLMbt7" text="Selamlar gezgin. {GAME_NAME} oynar mısın? Ben {CULTURE_NAME}'{.nin} geleneksel eğlencesi olan bu oyunun ustası sayılırım. Eğer oynamak istersen, otur başlayalım." />
+    <string id="HdT5YyAb" text="Ben beyaz olacağım." />
+    <string id="HeIIW3EH" text="İyi haberlerinizi bekliyoruz {?PLAYER.GENDER}hanımım{?}beyim{\?}." />
+    <string id="HF2GIpbI" text="Beni dinle. Turnuva katılımcılarından herhangi biri pazarda ve handa uzun zaman geçirdi mi? Normalden daha uzun?" />
+    <string id="HGRWs0zE" text="Tapumu alan adamla tanıştın mı? Tapuyu geri aldın mı?[if:convo_astonished]" />
+    <string id="Hhd3KaKu" text="Teşekkür ederim {?PLAYER.GENDER}leydim{?}lordum{\?}. Eğer adamlarınız kızımı bulup geri getirebilirlerse, size çok minnettar olurum.[if:convo_happy] Zahmetlerinizin karşılığında size {BASE_REWARD_GOLD}{GOLD_ICON} öderim." />
+    <string id="hi6L6kTM" text="Bu kayıt, oyuna eklenmiş olan {MODULE_NAME} modülü olmadan oluşturuldu. Bu kaydı yüklemek için modülü devre dışı bırakman gerekiyor." />
+    <string id="HidEvGr4" text="Oyuncu Birliğini İyileştir" />
+    <string id="hJ1SFkmq" text="Casusu bulmayı başardın ama düelloda yenildin. {QUEST_GIVER.LINK} hayal kırıklığına uğradı." />
+    <string id="hkNrC5d3" text="Bu çok eğlenceliydi ama kılıç taşıyan kişileri fazla rencide etmemek gerektiğini bilirim.[if:convo_merry] Kazandıklarımı alıp keyfini çıkaracağım. Hoşça kal!" />
+    <string id="HlrGpPkV" text="{CLAN_NAME} değişerek {OLD_FACTION_NAME} yerine {NEW_FACTION_NAME} oldu." />
+    <string id="hM7LSuB1" text="Seni görmek çok güzel. Ancak yine de karanlığın çökmesini beklememiz gerekiyor. {HERO.LINK}'{.nin} adamları bizi izliyor olabilir, dolayısıyla gece çökene dek birbirimizden uzak duralım." />
+    <string id="hnhKJYbx" text="Bu sokağa atayabileceğin uygun bir klan üyesi yok. ({ROGUERY_SKILL} becerisi {NEEDED_SKILL_LEVEL} veya daha yüksek, {TRAIT_NAME} özelliği {MAX_TRAIT_AMOUNT} veya daha düşük)" />
+    <string id="HtAr22re" text="Bütün bunları unutmaya çalış ve babanın evine dön." />
+    <string id="htfLEQlf" text="Bana hücrelerin anahtarlarını ver - derhal!" />
+    <string id="hymvJALX" text="{KINGDOM_1} ile {KINGDOM_2} ittifak kurdu." />
+    <string id="HzabMi4t" text="Eğlenceli bir oyundu. Teşekkürler." />
+    <string id="i1sgAm0F" text="Sokağını saldırıya karşı savunmayı başardın. Dövüşte verdiğin kayıpların yerini tutması için birkaç asker bırakmak isteyebilirsin." />
+    <string id="i1sth9Ls" text="Haydut tarafından yenilgiye uğratıldın. O ve {TARGET_HERO.NAME} senin baygın olduğun sırada kaçtı. {QUEST_GIVER.LINK}'{.e} verdiğin sözü tutarak kızı {?QUEST_GIVER.GENDER}annesine{?}babasına{\?} getirmeyi başaramadın. {QUEST_GIVER.LINK} çok öfkeli." />
+    <string id="I4SjNT6Y" text="Bu sana {BRIBE_COST}{GOLD_ICON}'{.e} mal olacak.{?ENOUGH_GOLD}{?} Yeterli miktarda paran yok.{\?}" />
+    <string id="i4xzuOJE" text="Elbette, en zor seviyede oynayacağım." />
+    <string id="i5fNZrhh" text="Lütfen {?PLAYER.GENDER}leydim{?}beyim{\?}. Onu gerçekten seviyorum ve hayatımın geri kalanını onunla geçirmek istiyorum.[ib:demure][if:convo_worried] Yalvarırım bize engel olmayın." />
+    <string id="I6amLvVE" text="Güzel, güzel. Bu işleri yapmanın en iyi yolu bu. [if:convo_normal]{TARGET_SETTLEMENT}'{.e} gidip bu oyun ustasını bul ve yüzündeki sırıtışı sil." />
+    <string id="i8HysulS" text="Ben siyah olacağım." />
+    <string id="I8o7oarw" text="Bu alanı terk etmek istiyorum." />
+    <string id="i96KTeph" text="Sana {PRICE}{GOLD_ICON} karşılığında kentimiz {SETTLEMENT}'{.nin} sahibi olan {OWNER_CLAN} hakkında bilgi satabilirim." />
+    <string id="I979VDEn" text="Evet, {GOLD_AMOUNT}{GOLD_ICON} getirdin mi? [ib:hip][if:convo_stern]Borcu o kadar... Faiziyle elbette." />
+    <string id="IBhZGxxm" text="bir tabak zeytin" />
+    <string id="IboStvbL" text="Para işte burada, şimdi onu serbest bırak!" />
+    <string id="IdKG3IaS" text="Bunu duyduğuma sevindim." />
+    <string id="idPV1Csj" text="Evet... Neden olmasın? Şu anda çok acil bir işim yok." />
+    <string id="IeihUvCD" text="Tuzak" />
+    <string id="IfeN8lYd" text="Bizimle dövüşeceksin, ha? Bunu aklına {QUEST_GIVER.LINK} soktu, değil mi?[ib:aggressive2][if:convo_confused_annoyed] Bak, kan dökülmesine gerek yok. Bu kent hepimize yetecek kadar büyük. Gelgelelim... eğer kan dökülmesini istiyorsan, isteğini seve seve yerine getiririz." />
+    <string id="IKeZLbIK" text="Kusura bakma ama eğer durum buysa daha sık dışarı çıkmalısın.[if:convo_mocking_teasing]Her neyse, başlayalım mı?" />
+    <string id="ILrYPvTV" text="Biliyor musun, bütün ganimeti ben alacağım sanırım." />
+    <string id="iLuezAbk" text="Turnuva olmadığında da buraya uğramaya değer. Birçok savaşçı formunu korumak için zamanını burada idman yapmakla geçirir ve kazananları bir miktar parayla ödüllendiririz." />
+    <string id="IqhGJ8Dy" text="Merhaba dostum. Turnuva için mi geldin?[ib:confident3][if:convo_relaxed_happy]" />
+    <string id="IrsaIJ4u" text="Evet, bunlar gerçekten zor zamanlar..." />
+    <string id="iRupMGI0" text="Sakin ol! Baban beni seni bulmaya gönderdi." />
+    <string id="iSNrQKEN" text="Daha önce bahsettiğin bir konuya dönmek istiyorum..." />
+    <string id="iVJlUlOg" text="Bak dostum, başka bir yere geçersen bu akşam ikimiz de daha iyi doyarız. Sayımız çok fazla ve beyefendiler ile hanımefendiler bizden uzak duruyorlar." />
+    <string id="ivNVRP69" text="İşi senin yapmanı tercih ederim ama eli kılıç tutan[if:convo_evil_smile] ve pusu kurabilecek zekaya sahip güvenilir yoldaşlarından biri de {TROOP_COUNT} adamla birlikte bu işin üstesinden gelebilir. Ganimeti bölüşürüz ve senin için fazladan küçük bir mükafat da ilave ederim." />
+    <string id="IXnvQ8kG" text="{COMPANION.LINK} ile yanında gönderdiğin adamlar iyi haberlerle sağ salim döndü. {QUEST_GIVER.LINK} memnun oldu ve hürmetlerinin yanı sıra söz verdiği gibi {REWARD_GOLD}{GOLD_ICON} gönderdi." />
+    <string id="IY5b9vZV" text="Her şey yanlış. [if:convo_annoyed]O hep toprak sahtekarlığı dalaverelerine bulaşan ya da bilinen haydutlarla iş yaparken görülen alt tabakadan bir aileden geliyor. Her köyde böyle bir kara koyun vardır ama kızıma musallat olacağını hiç düşünmemiştim!" />
+    <string id="J1TykdEn" text="Ormanda gizli toplantılar olduğunu duydum. Kanla mühürlenmiş kutsal yeminler. Yakında büyük bir fırtına kopacak - demedi deme." />
+    <string id="J5cQPqGQ" text="Haklısın. Uygun gördüğün gibi adalet sağlamakta özgürsün." />
+    <string id="J9fJlz2Y" text="Başlayabilirsin." />
+    <string id="j9RrkCvM" text="Devam eden bir turnuva var mı?" />
+    <string id="JaAltoKP" text="Im... Ne diyorsun?" />
+    <string id="jaFWM6sN" text="Sizi burada görmek güzel {?PLAYER.GENDER}leydim{?}lordum{\?}. Onları ezip geçeceğiz." />
+    <string id="Jc8OiSZg" text="Olek Olek bir ayı ile savaşmış. Onu bir güzel yere yapıştırmış.{newline}Ne kılıcıyla ne de mızrağıyla. Ağzının sarımsak ve bira kokusuyla." />
+    <string id="Jdc2aaYo" text="10 Tahıl Ver" />
+    <string id="jfzErupx" text="Doğru söylüyor! İsteyerek onunla kaçtım. {?QUEST_GIVER.GENDER}Annemi{?}Babamı{\?} seviyorum[ib:closed][if:convo_grave] ama bazen çok zalim olabiliyor. Lütfen {?PLAYER.GENDER}leydim{?}beyim{\?}, eğer özgürlüğe ve aşka inanıyorsanız, lütfen bizi rahat bırakın." />
+    <string id="Jgkz4uo6" text="Kurada ayrıca hangi silahları alacağın da belirlenir. Her maçın kazananları bir sonraki tura geçer. Geriye sadece iki kişi kaldığında, bu iki kişi şampiyon olmak için birbiriyle dövüşür." />
+    <string id="JgrG0uoO" text="{TARGET_MERCHANT.LINK} ile birlikte kervanı korumayı başardın." />
+    <string id="jGxotDqF" text="En iyisi sen bu şarkıyı tanıştığın her yabancıya söyleme, evlat." />
+    <string id="JhbbB2dp" text="Biraz konuşabilir miyiz {?PLAYER.GENDER}leydim{?}lordum{\?}?" />
+    <string id="jjEzdO0Y" text="Boş bırak" />
+    <string id="jjkOBPkY" text="Buralarda tedbiri elden bırakamazsın. Etrafta kötü niyetli çok fazla alçak var." />
+    <string id="JjtmptiD" text="Çoğu erkeğin saçı var tabii ama bu da mozaiğin bir parçası." />
+    <string id="JjXETjYb" text="Teşekkürler.[ib:demure][if:convo_thinking] Ayrıca, zahmetlerinizin karşılığında {REWARD_GOLD}{GOLD_ICON} dinar ödemeye hazır olduğumu da eklemeliyim. Yakınlarda bir yerde saklanıyor. Gidip onunla konuşun ve meseleyi çözmeye geldiğinizi söyleyin." />
+    <string id="Jn0k20c3" text="Tur sona erdi, turnuvanın son turunu geçtin." />
+    <string id="joCSXAQQ" text="Yanımda iyi bir izci olsaydı, çok daha hızlı yol alırdım." />
+    <string id="JPiId1fb" text="İşe almak için belirli becerilere sahip kişiler arıyorum. Yakınlardaki kentlerde iş arayan birilerini tanıyor musun? " />
+    <string id="jPtG0Pu1" text="Savaş Sisini Aç" />
+    <string id="jqahxjWD" text="Gökler beni korusun![ib:aggressive][if:convo_astonished]" />
+    <string id="JqN5BSjN" text="Bölgenin adalet sağlayıcısı olarak, {TARGET_NOTABLE.LINK}'{.nin} akrabasının intikamını almasına izin vermeye karar verdin. Zanlıyı söz verdiğin gibi koruyamadın. {QUEST_GIVER.LINK} çok öfkeli." />
+    <string id="JQuCuaVv" text="{ENEMY_NAME}'{.nin} sınırın ötesine baskınlar düzenlediğini duydum. Buradaki insanlar artık uyansa iyi olacak." />
+    <string id="Jss9UqZC" text="Hemen gideceğim." />
+    <string id="JUjvu4XL" text="Seni eninde sonunda bulacağımızı biliyordum. Şimdi adaletle yüzleşeceksin![if:convo_evil_smile]" />
+    <string id="jVjIkODa" text="{ALLEY_ACTIVITY_STRING} {ALLEY_ACTIVITY_ADDITION}" />
+    <string id="JxNlB547" text="Savaşa hazır mısın?[ib:normal][if:convo_undecided_open]" />
+    <string id="jxw54Ijt" text="Tamam, yardımcı olabileceğim başka bir şey var mı?" />
+    <string id="jy1o5cNT" text="Sen bir savaşçısın, öyle değil mi? Oyunlar ismini duyurmanın iyi bir yoludur. Yörenin tüccarları bir araya gelip yetenekli savaşçıları cezbetmek için yüklü bir para kesesi hazırlarlar." />
+    <string id="jZF4l0jY" text="Ah, affedersiniz {?PLAYER.GENDER}hanımefendi{?}beyefendi{\?}. Yardımcı olabilir miyim?" />
+    <string id="k18dhQA1" text="Ailem salgına kurban gitti ve amcam onların topraklarını aldı. Yine de, zengin bir adama uşaklık edeceğime dilenmeyi tercih ederim!" />
+    <string id="k1b5crrx" text="Başarılı bir oyuncusun. Bunu aklımda tutacağım." />
+    <string id="K1ICRis9" text="Kervanını koruması için fazladan adam aradığını duydum. Hizmetlerimi sunmaya geldim." />
+    <string id="k3b5KqSc" text="Hadi ama. Burada patronun sen olduğunu sanıyordum." />
+    <string id="K5DgDU2a" text="Delikanlı için buradayım. {PRODIGAL_SON.LINK} için. Kimi kastettiğimi biliyorsun." />
+    <string id="K5mG9nDv" text="Memnuniyetle." />
+    <string id="k5R4qGtL" text="Ne? Beni burada öylece [ib:nervous][if:convo_nervous2]ölüme mi terk edeceksin? Akrabalarım bunu asla unutmayacaklar!" />
+    <string id="K8TSoRSD" text="{?QUEST_GIVER.GENDER}Leydi{?}Lord{\?} {QUEST_GIVER.LINK} seni beni kurtarmaya mı gönderdi?" />
+    <string id="K9i5SaDc" text="Kan parası tutku suçları için uygundur. Ancak, bu çocuğu soğukkanlılıkla öldürdüğün takdirde kanunların gözünde gerçek bir katil olacaksın ve hiç şüphesiz öleceksin." />
+    <string id="KAvwytDK" text="{DAUGHTER.NAME}'{.i} {QUEST_GIVER.LINK}'{.e} götürmedin. {QUEST_GIVER.LINK} çok öfkeli olmalı." />
+    <string id="KbMew14D" text="Çete lideri ile kervanbaşı güçlerini birleştirmiş olsalar da, onları yenmeyi başardın ve ganimeti aldın." />
+    <string id="kc6vCycY" text="Tam olarak ne yapmamı istiyorsun?" />
+    <string id="KC8CqquX" text="{KINGDOM_1} ile {KINGDOM_2} arasındaki ittifak sona erdi." />
+    <string id="kDItfaaN" text="Eve giderken beni sıcak tutması için son bir tane alacağım." />
+    <string id="ke0IvBXb" text="Açıklayabileceğim başka bir şey var mı?" />
+    <string id="KeIGtpxb" text="Bu sene evimde herkesin karnı doyduğu için mutluyum. Bunu her sene için söyleyemem." />
+    <string id="keKEFagm" text="Peki planın ne?" />
+    <string id="kePH44eg" text="Kendi kervanlarımı oluşturmayı planlıyorum ve onların başında durabilecek birini arıyorum." />
+    <string id="KfrybSrr" text="Kaçmayı başardınız ama {PRISONER.NAME} bu sırada ağır yaralandı. Onu geride bırakmaktan başka seçeneğin yoktu." />
+    <string id="kFWmcRpV" text="Gökler iyiliğe iyilikle karşılık verir {?PLAYER.GENDER}leydim{?}lordum{\?}." />
+    <string id="kG92fjCY" text="{CULPRIT.LINK}'{.i} savunurken baygın düştün. {TARGET_NOTABLE.LINK} intikam aldı. {QUEST_GIVER.LINK}'{.e} verdiğin sözü tutarak {CULPRIT.LINK}'{.i} koruyamadın. {QUEST_GIVER.LINK} çok öfkeli." />
+    <string id="kiaN39yb" text="Teşekkürler {PLAYER.NAME}. Eminim yoldaşın ikna edici olacaktır.[if:convo_relaxed_happy]" />
+    <string id="KJ61SXEU" text="{CULPRIT.LINK}'{.i} söz verdiğin gibi tehlikelerden korudun. {QUEST_GIVER.LINK} hizmetlerinden dolayı sana minnettar ve zahmetlerinin karşılığında {REWARD_GOLD}{GOLD_ICON} dinar dolu bir keseyle birlikte hürmetlerini gönderiyor." />
+    <string id="KKvOQAVa" text="{TRAVELING_ALLEY_LEADER.NAME}'{.nin} gelmesini bekliyoruz. O gelene dek ekstra dikkatli olacağız." />
+    <string id="KL8tVq8P" text="Öyle yapacağım." />
+    <string id="KLbeF6gf" text="1000 Altın Ekle" />
+    <string id="KMThnMbt" text="Hana gideceğim ve nasıl kaybettiysen öyle geri kazanacağım." />
+    <string id="ko2Nb5im" text="Zor zamanlardan geçtiğimizi biliyorum ama {NOTABLE.LINK} {?OWNER.GENDER}Leydi{?}Lord{\?} {OWNER.LINK}'{.nin} elinden geleni yaptığını söylüyor ve {NOTABLE.FIRSTNAME}'{.e} güveniyorum." />
+    <string id="KPfs7L7B" text="Ah, affedersiniz {?PLAYER.GENDER}hanımefendi{?}beyefendi{\?}. Yardımcı olabilir miyim?" />
+    <string id="kPTp6TPT" text="({AGENT_ROLE})" />
+    <string id="KQ3aYvp3" text="Bir gün sana iyilik yaptığımı anlayacaksın. Toplan, gitmen gerekiyor." />
+    <string id="kqXxvtwQ" text="Merak etme, onu kurtaracağım." />
+    <string id="kr68V5pm" text="{ISSUE_GIVER.NAME} Kızının Bulunmasını İstiyor" />
+    <string id="Kto7RWKE" text="İmdat! İmdat! Tutsak kaçıyor!" />
+    <string id="KtrZs3yA" text="Kesinlikle! Arena sert darbelere aldırış etmeyen herkese açıktır. Görünüşe bakılırsa, bizim çocukların birkaçı şu anda ısınıyor. İstersen gidip onlara katılabilirsin. Ya da daha sonra bir turnuva olduğunda gel.[ib:warrior]" />
+    <string id="Ku49Ipkf" text="Soran herkese söylüyorum: {NOTABLE.LINK} erdemli bir {?NOTABLE.GENDER}kadın{?}erkek{\?} ve yoksul insanlar adına konuşuyor. Bu toprakların lordlarının ona kulak vermesi gerekiyor yoksa bahtsızlıklardan kurtulamayacağız." />
+    <string id="kUReBc04" text="Güzel." />
+    <string id="KxEnNEoD" text="Klanın artık yerleşkenin sahibi. Yerleşkenin {?PLAYER.GENDER}leydisi{?}lordu{\?} olarak artık çete savaşlarına dahil olamazsın. {QUEST_GIVER.LINK} ile anlaşman iptal oldu." />
+    <string id="L5vAhxhO" text="Yapmam gereken daha önemli işler var." />
+    <string id="L7ZQtIuM" text="Zemin" />
+    <string id="LaBQQ7ue" text="{NOTABLE.LINK} hep balığın baştan koktuğunu söyler. Buralara bir baksana. Bence ne kastettiğini anlamak zor değil." />
+    <string id="LaHWB3r0" text="Ah... Korkarım bir yanlış anlaşılma olmuş. {PLAYER.NAME} bizimle.[if:convo_evil_smile] {TARGET_MERCHANT.LINK} aklını yalanlarla doldurup sonra da seni belanı bulmaya mı yolladı yoksa? Çok yazık, çok yazık. Kendisi bunu hep yapıyor ne yazık ki." />
+    <string id="LBiZ9Rie" text="Bu bilgiye zaten sahipsin." />
+    <string id="lbNl0a8t" text="Ayrıca," />
+    <string id="lbRMmZym" text="sağlıklı bir bebek" />
+    <string id="lc0YIqby" text="Zindandan kaçır" />
+    <string id="lcVauEKV" text="Tur sona erdi, turnuvadan elendin." />
+    <string id="LD4tGYCA" text="Bir tarım arazisinin tapusu. Çok büyük ya da değerli bir arazi değil aslında[ib:normal][if:convo_disbelief] ama adamlarıma araziyi bu sene neden ekemeyeceklerini açıklamak zorunda kalmak istemem. Onu benden alan adamı {TARGET_SETTLEMENT}'{.de} yer alan handa bulabilirsin. Ona &quot;Oyun Ustası&quot; diyorlar. Amacın konusunda dürüst ol. Kendisi araziyi işleyecek durumda değil. Araziden daha fazla para elde etme şansını geri çevireceğini sanmıyorum. Tapuyu geri getirirsen, {REWARD}{GOLD_ICON} senindir." />
+    <string id="LdCte9H0" text="Ben de seninle birlikte diğer çeteyle savaşacağım." />
+    <string id="Ldp6ckgj" text="Endişelenme, ben olmasam bile yoldaşlarımdan biri onu bulacak ve neler olduğunu öğrenecektir." />
+    <string id="lF5HkBDy" text="Nasıl istersen." />
+    <string id="LGrzKlET" text="Bana nasıl bir karşılaşma istediğini söyle, başlayalım. Sana {._}{DIFFICULTY} bir karşılaşma ve {?IS_BETTING}{BET_AMOUNT}{GOLD_ICON} tutarında bir bahis{?} dostluk maçı{\?} teklif etmeye hazırım." />
+    <string id="lh0so0uX" text="Farklı modülleri olan kayıtlı oyunu yüklemek istediğine emin misin?" />
+    <string id="LJ2AoQyS" text="Vay vay. Bakalım burada kimler varmış? Şanslı günündesin, [if:convo_huge_smile]ha? Paraları sökül de hiç kimsenin canı yanmasın." />
+    <string id="LKGivHYp" text="Bugünlerde maaş dedikleri sadaka... Akrabalarımdan ayrılmak istemiyorum ama sanırım şansımı başka bir kentte denemek zorunda kalacağım." />
+    <string id="Ll2wN2Gm" text="İşler böyle yürür dostum. Burası bizim bölgemiz. Biz {ALLEY_BOSS.NAME}'{.e} hesap veririz, o buraların {?ALLEY_BOSS.GENDER}kraliçesi{?}kralı{\?} gibidir. Dolayısıyla, eğer burada olmak için iyi bir sebebin yoksa toz ol." />
+    <string id="Ll8q45h5" text="Hıh... Pekala. Bu hakareti kanınla temizleyeceğim.[ib:warrior][if:convo_furious]" />
+    <string id="LM1yg5tI" text="{NOTABLE.LINK}'{.nin} {.%}{SHOP_TYPE}{.%}'{.de} çalışan ustalarından birini gün doğar doğmaz işe gelmediği için kapı dışarı ettiğini söylüyorlar. Bunlar zor zamanlar." />
+    <string id="lM7AscLo" text="Elimden geldiğince çabuk toplamaya çalışıyorum.[ib:closed][if:convo_nervous]" />
+    <string id="LmoyzsTE" text="{PLAYER.NAME} inzivaya çekilecek. {HEIR_PART} Devam etmek ister misin?" />
+    <string id="lmVCRD4Q" text="Umarım {QUEST_GIVER.LINK} [if:convo_disbelief]akrabalarıyla arasındaki sorunu çözebilir." />
+    <string id="ln3bGyIO" text="Evet, seni kurtarmaya geldim." />
+    <string id="LnbzQIz6" text="300{GOLD_ICON}" />
+    <string id="lOFR5sq6" text="{TARGET_MERCHANT.NAME} ile konuştun mu? Eğer fazla beklersek ve planımız duyulursa çok yazık olur." />
+    <string id="Lol4clzR" text="Bak, iyi bir denemeydi ama ödeme yapmayacaklar. Mantıklı olan tek hamle çocuğu serbest bırakmak." />
+    <string id="LPBVTiV6" text="bir dilim pastırma" />
+    <string id="LPtWLajd" text="Artık beni takip etmeyi bırakabilirsin. Teşekkürler." />
+    <string id="LqkxF5Op" text="Oyunlar sırasında bölgenin en iyi savaşçıları takımlar kurar ve birbirleriyle dövüşürler. İzleyiciler için gladyatörlerin birbirlerini deşmelerini izlemek kadar eğlenceli değil tabii ama katılımcılar için daha sağlıklı.[if:convo_approving]" />
+    <string id="LsDRCPp0" text="Klan üyelerinden {MOTHER.NAME}, {DELIVERED_CHILDREN} dünyaya getirdi." />
+    <string id="ltbu3S63" text="Evet, doğru duymuşsun. Yeterli sayıda adamı olan becerikli bir [if:convo_astonished]lider arıyorum. Kervana sadece {TARGET_SETTLEMENT}'{.e} ulaşana kadar eşlik etmen gerekiyor. Basit bir iş ama taşıyacağımız yük çok önemli. {MERCHANT_REWARD} dinar ödemeye hazırım. Tabii, şayet bana ihanet edersen..." />
+    <string id="lustkZ7s" text="Belki o bu planları seni sevdiği için yaptı." />
+    <string id="lVx35dWp" text="Tekrar düşününce, bu bir dostluk maçı olsun." />
+    <string id="LWjIbTBi" text="{QUEST_GIVER.LINK}'{.e} verdiğin sözü tutarak {CULPRIT.LINK}'{.i} koruyamadın. {QUEST_GIVER.LINK} çok öfkeli." />
+    <string id="lZjj3MZg" text="{QUEST_GIVER.LINK} geldiğinde, anlaşmanın kendi üzerine düşen kısmına sadık kaldın ve kervana saldırdın" />
+    <string id="LztDzy8W" text="Neden olmasın? Şu anda hiçbir yere gittiğim yok ve bir kadeh daha içebilirim." />
+    <string id="M0vxXQGB" text="Evet? Söyleyeceğin bir şey mi var?[ib:closed][if:convo_nonchalant]" />
+    <string id="M3K8wUOO" text="Pekala... Hoşunuza gitti mi {?PLAYER.GENDER}leydim{?}lordum{\?}?" />
+    <string id="MaGPKGHA" text="Teşekkür ederim {?PLAYER.GENDER}leydim{?}lordum{\?}. [if:convo_pondering]Adamlarınızın çocuğu koruyacağından ve {TARGET_NOTABLE.LINK}'{.nin} kan parasını kabul etmekten başka seçeneği kalmayacağından eminim. Ayrıca, zahmetleriniz için {REWARD_GOLD}{GOLD_ICON} dinar ödemeye hazır olduğumu da eklemeliyim." />
+    <string id="MaXA5HJi" text="Yoldaşların {ISSUE_GIVER.LINK}'{.nin} kızının ona sağ salim döndüğünü bildirdi. {ISSUE_GIVER.LINK} mutlu oldu ve {BASE_REWARD}{GOLD_ICON} ile dolu bir keseyle birlikte hürmetlerini gönderdi." />
+    <string id="mBPcZddA" text="Hâlâ adamlarınızın kızımı geri getirmesini bekliyoruz [ib:demure][if:convo_undecided_open]{?PLAYER.GENDER}hanımım{?}beyim{\?}. Başarılı olmaları için dua ediyorum." />
+    <string id="MbwG7Gy8" text="Zorluğu değiştirebilir miyim?" />
+    <string id="mdJapWRd" text="Tamam... İçimden bir ses senin sıradan bir dilenci olmadığını söylüyor. Eğer istediğin buysa, bir süre saklanmana ve gözlerden uzak kalmana yardımcı olabilirim." />
+    <string id="mDXzDXKY" text="Çok güzel. [if:convo_relaxed_happy]Çocuğu geri getirmesi için işinin ehli adamlar seçeceğinizden eminim." />
+    <string id="mEsaiLOR" text="Pekala öyleyse. Elinde daha çok tutsak olursa, beni nerede bulacağını biliyorsun." />
+    <string id="Mf3vLIQp" text="amca" />
+    <string id="MFDb5duu" text="Harika! Tahmin ediyorum ki bu iş kolunda arada sırada birkaç tutsak ele geçiriyorsundur. Onları senden alabilirim. Parayla elbette." />
+    <string id="mfVJBFUD" text="Ona vergi, buna vergi... Sevgili {?OWNER.GENDER}Leydi{?}Lord{\?} {OWNER.LINK} bütün bunlarla ne yapıyor acaba?" />
+    <string id="mgUoXwZt" text="Ailem çocuğun hayatı için endişeleniyor. Çocuk köy ahalisinin arasında saklanıyor. [ib:normal][if:convo_normal]{TARGET_NOTABLE.LINK} yola gelip kan parasını kabul edene ve kan davasına son verene dek onu koruyabilecek birine ihtiyacımız var. Eğer akrabama yardımcı olup onu bir süreliğine yanınıza alabilirseniz, size sonsuza kadar minnettar oluruz." />
+    <string id="mhgUwwZb" text="Elbette. Beni takip edin." />
+    <string id="mHm5SLhb" text="200{GOLD_ICON}" />
+    <string id="mimt3Qph" text="Her gün... Pazarlarda daha çok insan... Kuyuda daha çok insan... Bütün bu insanlar nereden geliyor?" />
+    <string id="MIxzaqzi" text="{QUEST_GIVER.LINK} sana {TARGET_CITY}'{.de} girdiği bir bahiste bir arazinin tapusunu kaybettiğini söyledi. Onu geri alması gerekiyor ve yoldaşlarının satıcıyı korkutarak makul bir fiyat önermeye sevk etmesini istiyor. {COMPANION.LINK}'{.den} yanına {TROOP_COUNT} adamını alıp bu meseleyle ilgilenmesini istedin. {RETURN_DAYS} gün içinde sana rapor verecekler." />
+    <string id="Mk3Qfb4D" text="Sorun istemiyorum. Hoşça kal." />
+    <string id="MLyBN51z" text="Tur sona erdi, takımın turnuvadan elendi." />
+    <string id="MN2v1AZQ" text="Senden nefret ediyorum! Onu öldürdün! İnanamıyorum! Ölene dek senden bütün kalbimle nefret edeceğim.[if:convo_angry]" />
+    <string id="mo4rbYvm" text="Çaresiz bir koyun sürüsüne karşı birkaç güçlü kurt. {GAME_NAME}, eşit şans içermeyen ve görünüşte rakiplerinin çok güçlü olduğu bir oyundur. Ancak, strateji ve fedakarlık sayesinde koyunlar bile kurtlara hükmedebilir." />
+    <string id="MOmePlJQ" text="Biraz acele edebilir misin? Başka bir alıcı bulmasını istemiyorum. [if:convo_pondering] Teşekkür ederim." />
+    <string id="Mr2rt8g8" text="{CLAN_NAME}'{.nin} Hayırsız Oğlu" />
+    <string id="mrtdsccq" text="Kendi halkım beni köyden kovdu. Hakkımda söyledikleri doğru değildi. Topraklarıma göz koydular kuşkusuz." />
+    <string id="MU8nbzwJ" text="Elinde bana karşı hiçbir kanıt yok. Eğer beni herhangi bir yere götürmeye kalkışırsan seni öldürürüm ve kendimi savunmuş olurum.[if:convo_grave]" />
+    <string id="MuzS4Et1" text="Gökler bize yardım etsin. Eğer kirayı ödeyemezsem, gündelik işler arayan evsizler gibi sokaklara düşeceğim.[rf:confused_annoyed]" />
+    <string id="MzHbdTYe" text="Vay vay vay, seni görmeyi beklemiyordum. Küçük kuşlar seni planlarımdan haberdar etmiş olmalı. Fark etmez gerçi. Yine de seni ezip geçeceğim." />
+    <string id="MZJhzaUJ" text="Artık bu kentte bir bağlantın var." />
+    <string id="n1qrbQVa" text="Şu anda onlara ihtiyacım yok." />
+    <string id="N1ZiaLRL" text="{QUEST_GIVER.LINK}'{.nin} istediği gibi {TARGET_MERCHANT.LINK} ile konuştun. Kervan {TARGET_SETTLEMENT}'{.e} doğru yola çıkmak için kapının dışında seni bekliyor." />
+    <string id="N6UeziT8" text="Başlat ({COST}{GOLD_ICON})" />
+    <string id="N7BFbQmT" text="İlgilenmiyorum." />
+    <string id="n9QRnxbC" text="Çocuğun arkasında o kadar silahlı adam olduğunu görünce {TARGET_NOTABLE.LINK}'{.nin} teklifi kabul etmek zorunda kalacağından[ib:closed][if:convo_grateful] hiç şüphem yok. Bu işi daha fazla kan dökülmeden sonuçlandırmaya yardım ettiğiniz için teşekkürler {?PLAYER.GENDER}hanımım{?}beyim{\?}." />
+    <string id="nAM821Fb" text="Al bakalım." />
+    <string id="NazK9rwF" text="Diğer zenginlere göre, {NOTABLE.FIRSTNAME} iyi biri. Tohumlarını kışın bitirenlere yardım etmek için her zaman biraz tahıl bulundurur. İyi bir itibarın değerini bilir." />
+    <string id="ncvB4XRL" text="Bana katılabilirsin." />
+    <string id="ndDpjT8s" text="Oğlanla konuşabildin mi?[if:convo_innocent_smile]" />
+    <string id="NESB0CVc" text="Turnuva nedeniyle dövüş idmanı yok." />
+    <string id="never_mind" text="Boş ver." />
+    <string id="Ng6Rrlr6" text="Başka bir şey yapmayı tercih ederim" />
+    <string id="NGcKLV88" text="İyi bir mühendis kentlerde kuşatma aletleri ve yeni binalar yapılmasına yardımcı olabilir." />
+    <string id="nh7a3Nog" text="Vay vay. Bizi görmeye kimleri getirdin? [ib:confident][if:convo_irritable]Kefenini de yanında getirdi mi? Umarım getirmiştir. Buradan canlı çıkmayacak." />
+    <string id="Nhfl6tcM" text="Belki, ama bu senin ailene karşı görevin." />
+    <string id="NIzQb6nT" text="Çık ve onunla daha sonra buluş" />
+    <string id="nMFY2Pb0" text="Mahvolduk diyorum, mahvolduk. Tutkularını kontrol edemeyen bir hükümdar diyarımızı yıkıma sürükler." />
+    <string id="nMn63bV1" text="Ben {PLAYER.NAME}. Tek istediğim bu ismi ve yaptıklarımı hatırlaman.{newline}Söylesene, şimdi ne yapacaksın?" />
+    <string id="nmPaCLHp" text="{FIGHT_DEBRIEF} Bir daha denemek ister misin?" />
+    <string id="NMrzr7Me" text="Şimdi, esenlikle git..." />
+    <string id="nMzfnOFG" text="{GAME_NAME} eşit şans içermeyen bir oyundur. Zayıflatılmış ve tuzağa düşmüş bir kralın, kendisine her yönden saldıran ordulardan kaçmaya çalışması gerekir. Ne gariptir ki bir zamanlar çok güçlü olan {CULTURE_NAME}'{.den} gelen bizler de şimdi aynı duruma düştük." />
+    <string id="No04urXt" text="{CLAN} kademesi {TIER_LEVEL}'{.e} yükseldi" />
+    <string id="NOb4GcOT" text="{NOTABLE.LINK}, Göklerin kanunlarına uydukları sürece yetkililerin bilgeliğine güvenmemiz gerektiğini söylüyor." />
+    <string id="NoxFbtEa" text="Burada bekle. Onun seninle konuşmak isteyip istemediğine bakacağız. (NOT IMPLEMENTED)" />
+    <string id="NPhnQgQS" text="Bugünlerde surların hemen ötesinde cirit atan haydutlar var. Verdiğimiz vergilere ne oldu, sorarım sana? {?OWNER.GENDER}Leydi{?}Lord{\?} {OWNER.LINK}'{.nin} adamları işini neden yapmıyor?" />
+    <string id="NPuHiggC" text="kuzen" />
+    <string id="NQOQb0C9" text="'Binlerce ceset güneşin altında çürüyor {newline} Lakin krallıklar ancak böyle kazanılıyor'" />
+    <string id="nRVrXSbv" text="Henüz değil {?PLAYER.GENDER}leydim{?}lordum{\?} ama üzerinde çalışıyorum. Haftaya tekrar konuşalım." />
+    <string id="Ns6Svjsn" text="Sence bu sana yıllar boyu sadık kalacak mı? Ben bir haydut görünce tanırım." />
+    <string id="NVvfxdIc" text="En iyisi patronla konuş." />
+    <string id="nwJPPIvn" text="Eğer yakalanırsam, beni fidye ile kurtarabilir misin?" />
+    <string id="nxpyHb77" text="Bu oyunda hâlâ acemiyim ama seninle oynamak bana çok şey öğretti." />
+    <string id="nxs2U0Yk" text="Çık git ve bir daha da geri gelme! [if:convo_furious]Eğer seni bir daha buralarda görürsek öldürürüz." />
+    <string id="nYCXzAYH" text="Sen! Adamlarıma çok zarar verdin. Bunu teke tek halletmeye ne dersin?" />
+    <string id="nZhPS83J" text="Atını kaybettin." />
+    <string id="O0Cjam62" text="Umarım adamların dikkatli davranırlar.[if:convo_focused_happy] Casus kaçarsa çok yazık olur." />
+    <string id="o0H8Qs0D" text="Turnuvanın kuralları Kalradya'da ve hatta İmparatorluk sınırları dışında bile standarttır. Savaşçıları kurayla eşleştiririz. Bazen bir takımla, bazen de kendi başına dövüşürsün." />
+    <string id="O15PyNUK" text="İzcilik becerin sayesinde onların izlerini takip edebildin." />
+    <string id="o1KOn4WZ" text="Eğer delikanlıyı serbest bırakırsan, ailesi kendilerine bir iyilikte bulunduğunu unutmayacaktır. Bu senin için kazanamayacağın bir savaşa girmekten daha iyi bir seçenek." />
+    <string id="o3MDpesZ" text="{NOTABLE.FIRSTNAME} işe yaramaz akrabalarına bu şekilde yardım etmeye devam ederse, bir dahaki ekim mevsimine hiç tahıl tohumu kalmayacak ve ben o zaman kahkahalarla güleceğim." />
+    <string id="O5PDH9Bc" text="Bir şey yok, bir şey yok. İşine bak." />
+    <string id="O7j0uzcH" text="Gitmeliyim." />
+    <string id="oAaKaXEy" text="Bu yemeği gerçekten çok beğendim. Bütün adamlarıma verilmesini istiyorum." />
+    <string id="oaFFW2bo" text="İblisler gece geliyor ve şafağa kadar beni rahat bırakmıyor. Ne yapacağım?" />
+    <string id="ob5SejgJ" text="Aşkımı terk etmeyeceğim {?PLAYER.GENDER}leydim{?}beyim{\?}!" />
+    <string id="obY78MnQ" text="{HERO.LINK}" />
+    <string id="ocNWAQsu" text="Diyarının {KINGDOM_TO_CALL_TO_WAR_AGAINST}'{.e} karşı savaşmak için {CALLED_KINGDOM}'{.e} yaptığı çağrı son buldu." />
+    <string id="ocoHNhNk" text="Hım... İşim başımdan aşkındı. Öyle bir şey duymadım.[if:convo_pondering]" />
+    <string id="OCRafO5h" text="Körük" />
+    <string id="oddzOnad" text="Bir casusun peşindeyim. Ve onu buldum." />
+    <string id="OeKgpuAv" text="Rakip çetenin sokağına düzenlediğin saldırıdan sonra {QUEST_GIVER.LINK} planlarını değiştirmeye karar verdi ve artık senin yardımına ihtiyacı yok. Görev iptal oldu." />
+    <string id="OgTUrRlR" text="Koltuk" />
+    <string id="oIA9lkpc" text="{DELIVERED_CHILDREN} dünyaya getirdin." />
+    <string id="OIBiRTRP" text="{QUEST_GIVER.LINK}, {SETTLEMENT}'{.de} seni bekliyor." />
+    <string id="OiCCfAeC" text="{SETTLEMENT} ele geçirildi. Seçim başladı." />
+    <string id="ojpW4WRD" text="Klanın artık {QUEST_GIVER.LINK}'{.nin} lordu ile savaşta. {QUEST_GIVER.LINK} ile anlaşman iptal edildi." />
+    <string id="oJt4bemH" text="{QUEST_SETTLEMENT}'{.de} toprak sahibi olan {QUEST_GIVER.LINK}, sana çirkin bir kan davasına dönüşmek üzere olan bir olaydan bahsetti. Bir delikanlının kavgada başka bir delikanlıyı öldürdüğünü, ölen delikanlının ailesinin kan parasını almayı reddettiğini ve intikam talep ettiğini öğrendin." />
+    <string id="OJtUNAbN" text="Pekala. Kervan [if:convo_calm_friendly]kapının dışında yola çıkmaya hazırlanıyor. Ödemeyi iş bitince alacaksın. İyi şanslar dostum." />
+    <string id="oL3amiu1" text="Gel {DAUGHTER_NAME.NAME}, diğer av köpekleri kokumuzu almadan gidelim... Yani... Siz üzerinize alınmayın {?PLAYER.GENDER}hanımefendi{?}beyfendi{\?}." />
+    <string id="olKsdJmv" text="Kötü bir evlilik yaptım. Benim bahtsızlığım buydu. Kocam bütün parasını içkiye yatırıyor ve ağzımı açacak olursam beni dövüyor, dolayısıyla çocuklarıma ekmek götürmek için dilenmek zorundayım. " />
+    <string id="OMKgidoP" text="Tüccarı zamanında kervanını korumaya ikna edemedin. {QUEST_GIVER.LINK} çok öfkelenmiş olmalı." />
+    <string id="OnaJowBF" text="Zor. Kendini tutma yoksa pişman olursun." />
+    <string id="onLDP7mP" text="Kayıtlı oyunu yüklemeye çalışırken bir sorun oluştu." />
+    <string id="oPUVNuhN" text="Seni aklımda tutacağım." />
+    <string id="OPwO5RXC" text="Hoş geldin patron. Seni burada ağırlamak bizim için büyük bir onur. Gözümüzü olup biten hiçbir şeyden ayırmadığımızdan emin olabilirsin." />
+    <string id="OQgBim7l" text="Aslında yapacak başka işlerim var." />
+    <string id="oQjsShmH" text="TUTSAKLAR" />
+    <string id="Osaupw6M" text="Affedersiniz {?PLAYER.GENDER}hanımefendi{?}beyefendi{\?}, ailemin yanına dönmem gerekiyor. İstediğiniz bir şey var mı?" />
+    <string id="OSgBicif" text="Buna pişman olacaksın![ib:warrior][if:convo_furious]" />
+    <string id="oulvvl52" text="{SETTLEMENT}'{.de} bir suçtan dolayı zan altındasın ve {QUEST_GIVER.LINK} artık bu konuda sana güvenmiyor." />
+    <string id="ovFbMMTJ" text="Sen kimsin? {QUEST_GIVER.LINK}'{.nin} izimizi bulmaya gönderdiği ödül avcılarından biri misin? Sanki hayvanmışız gibi. Bak dostum, biz yanlış bir şey yapmadık. Senin de tahmin etmiş olabileceğin gibi, birbirimizi seviyoruz. Ben onu hiçbir şeye zorlamadım.[ib:closed][if:convo_innocent_smile]" />
+    <string id="OwnoJUkn" text="{OWNER.LINK}'{.nin} dürüst bir {?OWNER.GENDER}kadın{?}erkek{\?} olduğunu söylüyorlar. Ancak o bile buralardaki hırsızlıkları ve yolsuzlukları durduramaz." />
+    <string id="oxb2FVz5" text="Klan Yok Oldu" />
+    <string id="OybG76Kf" text="Beni kurtardığınız için teşekkür ederim.[ib:normal][if:convo_astonished] Bugün burada yaptıklarınızı unutmayacağım." />
+    <string id="p1ETQbzg" text="Sadece seni kontrol ediyordum." />
+    <string id="P5UbgK4c" text="Sokaktan {CLAN_MEMBER.NAME} sorumluydu. Kendisi öldü. Yeni bir denetmen atanmadığı takdirde, sokak {REMAINING_DAYS} {?REMAINING_DAYS&gt;1}gün{?}gün{\?} sonra terk edilmiş olacak." />
+    <string id="P7aRBg2h" text="Neyse ki bu zor zamanlarda yoksullara yardım eden {NOTABLE.LINK} gibi {?NOTABLE.GENDER}kadınlar{?}adamlar{\?} var." />
+    <string id="P98iCLjl" text="Çekil karşımdan seni pis dilenci.[if:convo_angry]" />
+    <string id="P99OLPWU" text="Affedersiniz {?PLAYER.GENDER}hanımefendi{?}beyefendi{\?} ama birazdan işime dönmeliyim. İstediğiniz bir şey var mı?" />
+    <string id="pa3RY39w" text="Elbette. Kağıdı gümüşe dönüştürmek hoşuma gider... 1000 dinar diyelim.[if:convo_evil_smile]" />
+    <string id="PbDK3PIi" text="Bahis miktarını değiştirebilir miyim?" />
+    <string id="PBq1FyrJ" text="{CLAN_NAME} klanı yok edildi." />
+    <string id="PDf52VCf" text="Yine de zaman ayırdığın için teşekkürler." />
+    <string id="pf4EIcBQ" text="Başka bir şey var mı? Çünkü burada işin yoksa, gitmen daha iyi olur belki de.[if:convo_confused_annoyed][ib:closed]" />
+    <string id="pGfDkbBE" text="Bütün Üretim Şemalarını Aç" />
+    <string id="pGu2mcar" text="Güçlerini birleştiren {QUEST_GIVER.LINK} ile kervana dövüşte yenildin." />
+    <string id="phavdGYA" text="Emin misin?" />
+    <string id="pinSMuMe" text="Bir tane {CLOSEST_TOURNAMENT}'{.de}, bir tane de {NEXT_CLOSEST_TOURNAMENT}'{.de} başlayacak turnuva var. Eğer hızlı hareket edersen, ikisine de yetişebilirsin muhtemelen.[ib:hip]" />
+    <string id="Piq3oYmG" text="İstemem, teşekkür ederim." />
+    <string id="PJ7BhyOy" text="O serseriye dedim ki... 'Kızımı rahat bırak yoksa {NOTABLE.LINK}'{.e} durumu anlatırım.' Hah! Artık evimin etrafında dolaştığını görmüyorum, orası kesin." />
+    <string id="PLbxHyPu" text="Değişir. Sanırım ben fidye değeri biçmekte yetenekliyim. Bir adamın yatağa aç mı gittiğini yoksa etini doğudan gelen biberlerle ve karanfillerle mi çeşnilendirdiğini gösteren ufak tefek onlarca ayrıntı vardır. Asıl para aristokratlarda elbette ve eğer bir gün benim işimi yapmak istiyorsan, Kalradya'daki bütün toprak sahibi aileler, kabile şefleri, onların mülkleri, hem meşru hem de gayrimeşru çocukları ve tabi ki tüccarlarla durumları konusunda bilgi edinmelisin." />
+    <string id="PLgOm8tV" text="Kent halkı casusun kel olmadığını söyledi." />
+    <string id="PlIYRSIz" text="Tamam {?PLAYER.GENDER}leydim{?}lordum{\?}, hazır olacaklar." />
+    <string id="pmuEeFV8" text="Adamlarınla hâlâ pusuyu nasıl kuracağımızı kararlaştırıyoruz. Merak etme. Her şey yolunda gidecek." />
+    <string id="po79q14T" text="Sokağını saldırıya karşı korumayı başaramadığın için sokağın hakimiyetini kaybettin." />
+    <string id="PRadDFN5" text="{SALUTATION}... Doğrusu bunu beklemiyordum ama gerçekten minnettarım." />
+    <string id="prJBRboS" text="Biz buranın dürüst halkına göz kulak oluruz. Hiç kimsenin dükkanlarını kırıp dökmediğinden emin oluruz. Bize teşekkür etmek için biraz para vermek istiyorlarsa, bunun kime ne sakıncası var?" />
+    <string id="pS0bBRjt" text="Sen! Ailene git ve [if:convo_angry]bize kan parasını göndermelerini söyle." />
+    <string id="PsmnVIcb" text="Ana Kahramanı İyileştir" />
+    <string id="PUtbpIFI" text="Bütün yoldaşlarımı yerleşkede topla ve beni bul." />
+    <string id="PuuVGOyM" text="{NEEDED_MEN_COUNT} adamımı ve teğmenlerimden birini {ALTERNATIVE_SOLUTION_DURATION} günlüğüne sana yardıma göndereceğim." />
+    <string id="PV56VAFg" text="Şimdi uza bakalım evlat." />
+    <string id="pW69nUp8" text="Çok geç olmadan bu görevi bitir.[if:convo_stern]" />
+    <string id="pWzdxd7O" text="Gökler seni korusun gariban kardeşim ama şu anda sana verebilecek param yok." />
+    <string id="py6Y46sa" text="Hayır, hiç duymadım..." />
+    <string id="PZq1EMcx" text="Yardımların için teşekkür ederim. Kızım {TARGET_HERO.FIRSTNAME} için hâlâ çok endişeliyim. Lütfen onu en kısa sürede bulup bana geri getir.[if:convo_worried]" />
+    <string id="Q2RKkISe" text="Bu mağaralarda yaşayan birkaç kişi var. Keçiboynuzu ve yabani bal ile karnımızı doyuruyoruz. Aramızda zamanında güç ve servet sahibi olanlar da var ama artık özgürlüğü tercih ediyoruz. Biriktirdiklerimizi kaybetmekten endişelenmemenin özgürlüğünü. Eylemlerimizin Gökleri kızdırmasından korkmamanın özgürlüğünü. Tek gerçek özgürlüğü. Senin gibi iyi insanların aramıza katılmasından memnuniyet duyarız." />
+    <string id="Q7B68CVK" text="{?PLAYER.GENDER}Muhteşem{?}Bravo{\?}! Çok akıllıca bir hareket.[ib:normal]" />
+    <string id="Q7wBRXtR" text="Evet. ({GOLD_COST} {GOLD_ICON})" />
+    <string id="QaAzicqA" text="Birçok erkeğin sakalı var. Yine de, hiç yoktan iyidir." />
+    <string id="QaN26CZ5" text="Yaralarım hâlâ taze. İyileşmek için biraz zamana ihtiyacım var." />
+    <string id="Qbp2AiRZ" text="Varis atamayacağım. Artık dünyevi meselelere kafa yormayacağım. (OYUNU BİTİR)" />
+    <string id="QbzsgawM" text="Tamam, gözlerini açık tut yeter." />
+    <string id="QCuxL92I" text="İyi günler {?PLAYER.GENDER}hanımım{?}beyim{\?}. Nasıl yardımcı olabilirim?" />
+    <string id="qdDRe8QC" text="Bas git dilenci. Senin gibilerle muhatap olan birilerini bul." />
+    <string id="QdEGu0CW" text="{INQUIRY_COMPANION.LINK} adında bir {?INQUIRY_COMPANION.GENDER}kadın{?}adam{\?}, {COMPANION_SETTLEMENT}'{.e} doğru yol alırken buradan geçti. Acele edersen, ona yetişebilirsin.[rb:positive]" />
+    <string id="QdKWaabR" text="Merak etme {ISSUE_OWNER.NAME}, adamlarım göz açıp kapayana kadar tapunla birlikte geri gelmiş olacak." />
+    <string id="QEgzLRnC" text="{QUEST_GIVER.LINK}'{.e} yenildin ve tüccara söz verdiğin gibi yardım edemedin." />
+    <string id="qeiVFn9s" text="{CLAN_NAME}, {NEW_FACTION_NAME}'{.n}{.e} katıldı" />
+    <string id="qFoMsPIf" text="Sağ salim kurtulduğumuz için mutluyum. Şimdi ne yapacaksın?" />
+    <string id="QGdaakYW" text="{KEY} Kalk" />
+    <string id="QHoCsSZX" text="Ya aileleri ödeme yapamazsa?" />
+    <string id="qIQbIjVS" text="Tamam! Oğlanın canını bağışlıyorum. Şimdi yıkıl karşımdan.[ib:closed][if:convo_nonchalant]" />
+    <string id="QjtOAyKE" text="Ben kurtları alacağım." />
+    <string id="QkbkesNJ" text="{TARGET_SETTLEMENT} yağmalandıktan sonra {QUEST_GIVER.LINK} pusuyu iptal etti." />
+    <string id="QMaYa25R" text="{TARGET_NOTABLE.LINK}'{.e} karşı tek bir söz söylersen,[ib:aggressive2][if:convo_furious] bu senin ağzından çıkan son söz olur. Anladın mı alçak?" />
+    <string id="qmqTLZ9R" text="Teşekkür ederim {?PLAYER.GENDER}hanımefendi{?}beyefendi{\?}. Siz bir kurtarıcısınız." />
+    <string id="qN2LYVIO" text="Evet, {HERO.LINK}'{.i} tanıyorum." />
+    <string id="QNpuyzc4" text="Sakin ol. Burası artık hiç ilgimi çekmiyor. Senin olsun." />
+    <string id="QP7L2YLG" text="Kulağa eğlenceli geliyor." />
+    <string id="qPRl07mD" text="Tamam öyleyse. Deneyeceğim." />
+    <string id="qQ71Ux7D" text=" Ordun erzakını açlıktan kıvranan askerlerinle paylaştı. {INFLUENCE}{INFLUENCE_ICON} harcadın." />
+    <string id="QR0V8Ae5" text="Bizimkiler yakınlarda bir yerde saklanıyorlar,[ib:normal][if:convo_excited] o alçakları haklamak için işaret bekliyorlar. Bu iyiliğini unutmayacağım." />
+    <string id="QrBCe41Z" text="Sokak askerlerini yönet" />
+    <string id="qsavxffL" text="Ben saldıran taraf olacağım." />
+    <string id="qsg7pZOs" text="Teşekkürler. Ama yaralarımın iyileşmesine zaman tanıyacağım." />
+    <string id="qsJxhNGZ" text="İyi yolculuklar {?PLAYER.GENDER}hanımım{?}beyim{\?}." />
+    <string id="qSy4Ns1N" text="İhtiyaçlarını karşılayabilecek biri şu anda burada içki içiyor. Adı {INQUIRY_COMPANION.LINK}." />
+    <string id="qT4nbaAY" text="Hey, sen, burada ne arıyorsun?" />
+    <string id="QTfliM5b" text="Oyunumuzdan çok keyif aldım. Daha sonra tekrar oynayalım." />
+    <string id="QTZjjOXb" text="Devam edelim." />
+    <string id="qWLq2y84" text="ölü doğan bir bebek" />
+    <string id="qxhMagyZ" text="Birinin bu işle ilgileniyor olmasına sevindim.[if:convo_relaxed_happy] Yeter ki elini çabuk tutsun." />
+    <string id="QxIXbHai" text="Tutsaklardan biriyle konuşmak istiyorum (Cheat)." />
+    <string id="qxY2ASqp" text="Sokağın yönetimini üstlen" />
+    <string id="QYFuj7H7" text="{PRISONER_NAME}'{.i} bul ve konuş. Muhafızların dikkatini çekme!" />
+    <string id="QyGQanO7" text="İhtiyar {NOTABLE.FIRSTNAME}'{.nin} inatçı bir keçi olduğuna şüphe yok ama dürüst biri olmadığını söyleyemezsin." />
+    <string id="R0AbAxqX" text="Resmi olmayan modüllerden dolayı başarılar devre dışı bırakıldı." />
+    <string id="R2HP4EiX" text="Başka sorum yok." />
+    <string id="r7xdYj4q" text="Modül Uyumsuzluğu" />
+    <string id="RAA6bEw8" text="Eğer bu kentte yabancıysan, birkaç bakır karşılığında bir saman balyasının üzerinde ya da bir köprünün altında yatmana izin verecek birilerini bulursun eminim." />
+    <string id="RB4uQpPV" text="O zaman bana çok para ödeyeceksin, kesin konuşmak gerekirse {REWARD}{GOLD_ICON}. Ama bu fiyata, kabul ederim." />
+    <string id="Rb7g1U2s" text="{TARGET_HERO.LINK}'{.i} {PRODIGAL_SON.LINK}'{.i} serbest bırakmaya ikna ettin. {?QUEST_GIVER.GENDER}Leydi{?}Lord{\?} {QUEST_GIVER.LINK} kısa bir süre sonra hürmetleriyle birlikte {REWARD}{GOLD_ICON} tutarında bir ödül gönderdi." />
+    <string id="rcoESVVz" text="Üzgünüm ama seni tanımıyoruz. Herkesi içeri alamayız. (Nam yeterli değil)" />
+    <string id="RCsbpizl" text="Paran varsa işi yaparız." />
+    <string id="RcY8uZA1" text="Hedefi kaybettin." />
+    <string id="Rf0QqRIX" text="Rakip çete lideri {RIVAL_GANG_LEADER.LINK}'{.nin} yanında yer almaya karar verdin. {QUEST_GIVER.LINK} çok öfkelenmiş olmalı." />
+    <string id="rGaaVBBT" text="Ah. Pekala. Cesaretini sınamakta sakınca görmüyorum." />
+    <string id="rgTGzfzI" text="Evet. Bir sorunum var. [ib:confident][if:convo_undecided_closed]Sorunumun adı {TARGET_NOTABLE.LINK}. Adamları para talep ederek ve tehditler savurarak bizim korumamız altındaki atölye sahiplerini rahatsız ediyorlar. Sana bir şey söyleyeyim - bu dükkan sahipleri benim ineğim ve onları benden başkası sağamaz. Bu haddini bilmezlere bir ders vermeye hazırız ama biraz yardım fena olmaz." />
+    <string id="ribkM9dl" text="Yerleşkede başka bir sokağa sahipsin zaten." />
+    <string id="rjHQpVDZ" text="{QUEST_GIVER_SETTLEMENT}'{.de} toprak sahibi olan {QUEST_GIVER.LINK}, sana çirkin bir kan davasına dönüşmek üzere olan bir olaydan bahsetti. Bir gencin kavgada başka bir genci öldürdüğünü, ölen gencin ailesinin kan parasını almayı reddettiğini ve intikam peşinde olduğunu öğrendin." />
+    <string id="RJtCakaG" text="Şu anda içeride seni ağırlayacak hiç kimse yok." />
+    <string id="rlAec9CM" text="Pekala. Kendine dikkat et." />
+    <string id="rLcRwkqK" text="Buralarda {INQUIRY_COMPANION.LINK} adında bir {?INQUIRY_COMPANION.GENDER}kadın{?}adam{\?} var. Sanırım o senin aradığın türde becerilere sahip." />
+    <string id="rLlIVqmY" text="Eğer zaferle ayrıldığın savaşlarda eline birkaç tutsak geçerse ve onlara bakıp karınlarını doyurmaktan kurtulmak istersen, ben veya meslektaşlarımdan biri tahmini bir yatırım olarak onlar için seve seve para öderiz." />
+    <string id="RlP8aYVJ" text="Şu anda yardım arayan hiç kimse yok." />
+    <string id="roTCX8S8" text="{ISSUE_GIVER_1.LINK} birisinin bir şeyler yapması gerektiğine dair bir şeyler söyledi." />
+    <string id="RPgzaZeR" text="Oyunun sona erecek." />
+    <string id="rqFKxm24" text="Selamlar dostum. Eğer buraya oyunlar ve büyük dövüşler için geldiysen, şansına küs. Yakın bir zamanda oyun ya da bugünlerde dedikleri gibi 'turnuva' olmayacak." />
+    <string id="rshplAOt" text="Hım." />
+    <string id="RsOmvdmU" text="Konuşmaya geldik! Bizi bir dinle lütfen![if:convo_shocked]" />
+    <string id="rTrGXB1o" text="Evet... Söylentilere göre {._}{ITEM_NAME} {TOWN_NAME}'{.de} iyi satıyormuş. Yük başına {PRICE_DIFF}{GOLD_ICON} kâr bıraktığını söylüyorlar." />
+    <string id="ruHt0Ub5" text="Kahinlerin ve gizemcilerin uzun yıllardır sığındığı çok eski bir yanardağ olan Erithrys Dağı'nın eteklerindesin. Sarp koyağın yukarılarındaki yumuşak volkanik kayalarda mağaralar olduğunu görebiliyorsun. Yaklaştığında, bazılarında yerleşim belirtileri olduğunu fark ediyorsun. Bu mağaralardan birinin ağzında yırtık pırtık giysilere bürünmüş ve serin dağ havasında tefekküre dalmış yaşlı bir adam var." />
+    <string id="RUZKiW0u" text="İşler iyi. Bunu inkar edemem. Ancak fiyatlar yüksek ve yükselmeye de devam ediyor." />
+    <string id="rVHbbrCQ" text="Şu anda burada kimseyi tutmuyoruz. İçeri girmen için bir sebep yok.[ib:closed]" />
+    <string id="Rvt11UBE" text="{BASIC_EVAL} {REPUTATION}." />
+    <string id="RXhBl8e1" text="Doğal davran. Turnuvaya katılanlardan biri gelip garip sorular sordu mu?" />
+    <string id="RyAH9Zvk" text="Pazardaki adam dedi ki 'Bütün bu sıkıntılar ve acılar Göklerin tahttaki kişiden memnun olmadığı anlamına geliyor.' 'Böyle konuşmak hainliktir!' Ben ona böyle dedim. Evet, böyle dedim." />
+    <string id="rzGqa5oD" text="İntikamımı alacağım. Nefesini dövüşe sakla..." />
+    <string id="s0jKaYo0" text="Rakip çete planımızı duymadan saldırmalıyız. Acele etsen iyi olur![if:convo_astonished]" />
+    <string id="s1GWSE9Y" text="{QUEST_GIVER.LINK}, {SETTLEMENT}'{.nin} kuşatılmasından dolayı planlarınızı iptal etti. Rakip çeteyle olan çekişmesinden daha büyük sorunları var." />
+    <string id="S3MaaRQH" text="Muhafızlar bir şeyler döndüğünü anladı, dövüşmeye hazır ol!" />
+    <string id="s5fXZf2f" text="{CULPRIT.LINK}'{.i} {TARGET_SETTLEMENT}'{.e} gidip {TARGET_NOTABLE.LINK} ile yüzleşmeye ve meseleyi barışçıl yoldan çözmeye çalışmaya ikna ettin. Onu maktulün öfkeli akrabalarından koruman şartıyla teklifini kabul etti." />
+    <string id="s5qs0bPs" text="{QUEST_SETTLEMENT}'{.nin} {?ISSUE_GIVER.GENDER}leydisi{?}lordu{\?} {ISSUE_GIVER.LINK} sana turnuva katılımcısı kılığında saklanan bir casustan bahsetti. Casusu ortaya çıkarıp icabına bakmanı istedi. {COMPANION.LINK}'{.den} yanına en iyi adamlarından {NEEDED_MEN_COUNT} tanesini alıp bu meseleyle ilgilenmesini istedin. {ALTERNATIVE_SOLUTION_DURATION} gün içinde sana rapor verecekler." />
+    <string id="s8dsW6m0" text="Yeni Sokak" />
+    <string id="sakSp6H8" text="Sonsuza kadar gölgelerde saklanamazsın. İşler çirkinleşirse seni koruyacağıma şerefim üzerine söz veriyorum." />
+    <string id="sbczu2VI" text="Çalmaya devam et dostum." />
+    <string id="SbYlYGFA" text="Üzgünüm. Bir süredir buradan öyle biri geçmedi." />
+    <string id="SdgDF4OZ" text="Hah! Büyük bir hata yapıyorsun. [if:convo_excited]Başlarında savaşçı {PLAYER.NAME}'{.nin} bulunduğu şu adamları görüyor musun? Onlar bizimle birlikteler ve hepinizi deşecekler." />
+    <string id="SdKTUIVJ" text="Merhaba {?PLAYER.GENDER}leydim{?}lordum{\?}. Başınız sağ olsun, {DEAD_ALLEY_LEADER.NAME} bu sokaklarda özlenecek. Hazır olduğunuzda yeni bir patron atamanızı bekliyoruz." />
+    <string id="se2EXQu8" text="Hava bu kadar ısındığında, insan fazlasıyla susayabiliyor." />
+    <string id="seyti8xR" text="Zafer!" />
+    <string id="SFn4UFd4" text="Yeteneği Arttır" />
+    <string id="sfxfiWxl" text="İnsanlar dedikodu yapar {?PLAYER.GENDER}hanımım{?}beyim{\?}. Buralardaki herkes bu soruları sorduğunuzu biliyor. Eğer hızlı hareket etmezseniz, taş ocağınızı kaybedeceksiniz." />
+    <string id="sglD6abb" text="Lütfen! Kızımı geri getir." />
+    <string id="SGoz7xvk" text="{CRUEL_LANDOWNER.NAME}'{.nin} toprağını sürüp kiramı ödedim ve ona dünyanın parasını kazandırdım. Ama devir değişip fiyatlar da değişince, toprağını kullanma hakkımı elimden aldı ve orada artık koyun yetiştireceğini söyledi. Ben bu durumda nereye gideceğim? Ne yapacağım?" />
+    <string id="SHwlcdp3" text="Sana soruyorum çünkü burada tüccarsın. Turnuvadaki savaşçılardan birinin buralarda dolaştığını ve insanlara şüphe uyandıran sorular sorduğunu gördün mü?" />
+    <string id="shXdvd5p" text="Bu kentin sahibi hakkında bilgi almak istiyorum." />
+    <string id="sIfL5Vnx" text="Rapor edeceğim bir şey yok Leydi Hazretleri." />
+    <string id="SIxE2LGn" text="{ISSUE_GIVER_1.LINK} birisinin bir şeyler yapması gerektiğine dair bir şeyler söyledi. {ISSUE_GIVER_2.LINK} ile {ISSUE_GIVER_3.LINK} de birilerini arıyordu sanırım." />
+    <string id="SJHtVaNa" text="Aramızdaki Casus" />
+    <string id="skMoB7c6" text="{PRODIGAL_SON.LINK}'{.nin} borcunu ödedin. {TARGET_HERO.LINK} sözüne sadık kalarak çocuğu hemen serbest bıraktı. {?QUEST_GIVER.GENDER}Leydi{?}Lord{\?} {QUEST_GIVER.LINK} kısa bir süre sonra hürmetleriyle birlikte {REWARD}{GOLD_ICON} tutarında bir ödül gönderdi." />
+    <string id="SkzM5eSv" text="{ISSUE_GIVER.LINK}'{.nin} kızı kayıp. {ISSUE_GIVER.LINK} genç kadının bulunup sağ salim getirilmesi için büyük bir ödül teklif ediyor." />
+    <string id="SliFGAX4" text="{TARGET_MERCHANT.NAME} kervanlarını koruması[if:convo_evil_smile] için her zaman fazladan muhafız arar. Kötülükten en çok kötüler korkar da diyebilirsin. Ya bu muhafızlar aslında soyguncuysa? {TARGET_MERCHANT.NAME} öyle herkese güvenmez ama bence senin gibi tanınmış bir savaşçıya iş verebilir. Eğer bu savaşçı kervanı bir pusuya yönlendirirse... Ah, pek onurlu bir davranış olduğu söylenemez ama yerinde olsam itibarım için endişelenmezdim. {TARGET_MERCHANT.NAME} ortaklarını dolandırmasıyla tanınır. Kervanlarından birinin başına bir şey gelecek olsa - açıkçası, çoğu insan kime inanacağını bilemez ve umursamaz da." />
+    <string id="sm6ckPnp" text="Bahar geldi dostum. Rüzgarların mevsimi. Deliliğin mevsimi. Galiba bir içki daha içeceğim." />
+    <string id="Sn9a1Aba" text="ölü doğan iki bebek" />
+    <string id="Sph9Nliz" text="Arena ustası ile konuşarak arena hakkında daha fazla bilgi edinmelisin." />
+    <string id="SqrRaIU5" text="Uzmanlık alanı farklı birini sormak istiyorum." />
+    <string id="SRa9NyP1" text="Hayır dostum. Av peşindeyim." />
+    <string id="sSIjPCPO" text="Eğer kendin dövüşe dahil olmak istemezsen, [if:convo_mocking_aristocratic]yoldaşlarından biriyle beraber {TROOP_COUNT} iyi adamını da yanımda bırakabilirsin. {RETURN_DAYS} gün boyunca yanımda kalırlarsa, bana çok büyük bir iyilik yapmış olursun." />
+    <string id="SV0IEWD2" text="{GAME_NAME} bir tahmin oyunudur. Ele geçirme ihtimali olmadığı için, bütün dikkatini rakibini çözmeye ve planlarında ondan ileride olmaya vermen gerekir." />
+    <string id="sVcJTu7K" text="{GAME_NAME}, savaşın olması gerektiği gibi hızlı ve serttir. Rakibini zayıflatmak ve yıldırmak için olabildiğince çok taş ele geçirmelisin. Ancak bu sonsuz saldırının arkasında daima rakibinin kontrolü yeniden ele geçirme girişimlerini cezalandıracak güçlü bir savunma olmalı." />
+    <string id="svuD2vBo" text="{PRISONER.NAME}'{.i} zindandan kurtarmaya çalışırken kendinden geçerek bayıldın.{newline}Muhafızlar ikinizi de yakalayarak hücreye attı." />
+    <string id="swamqBRq" text="{ISSUE_OWNER.NAME} oyun ustasını yenmeni istiyor." />
+    <string id="sytYViXb" text="Düello davetini kabul ediyorum." />
+    <string id="T0zupcGB" text="Ah evet... Bundan bahsetmek biraz utanç verici [ib:nervous][if:convo_nervous]ama... Kentteyken genellikle handa bir şeyler içer ve bazen bir ya da iki el {GAME_TYPE} oynarım. Normalde düşük bahisler için oynarım ama bu sefer şarap başıma vurdu ve kaybetmeyi göze alamayacağım bir şey kaybettim." />
+    <string id="T29epQk3" text="100{GOLD_ICON}" />
+    <string id="T2GbF6lK" text="Uygun bir varis olmadığı için {CLAN_NAME} klanı son buldu. Yolculuğun burada sona erdi." />
+    <string id="t4KwQOB7" text="{HERO.NAME} yetişkinliğe adım attı." />
+    <string id="T5jd4m69" text="Bu sadece bunu daha da eğlenceli kılacak. Aklında ne kadar var?" />
+    <string id="t6W3UjG0" text="Kayıtlı oyun dosyası bozuk görünüyor. Yeni bir sefer başlatmayı ya da Kayıtlı Oyunlar menüsünden başka bir kayıt yüklemeyi deneyebilirsin." />
+    <string id="TazumJGN" text="Kendinizi dışarı attınız. Henüz hiç kimse zindanda olanların farkında değil ve {PRISONER.NAME}'{.i} apar topar kapılara doğru sürüklüyorsun.{newline}Artık {?SETTLEMENT_TYPE}yerleşkeden{?}kaleden{\?} çıkabilirsiniz." />
+    <string id="TCIaDC9X" text="Vlandiya'nın düşmanları yakıp yıkmaya geldiler. Kral Derthert adamlarını kaleye çağırdı!{newline}Adamları atlarını dörtnala sürdüler. Ama Derthert çoktan uyuyakalmıştı." />
+    <string id="TD8Jxn7U" text="İyi günler {?PLAYER.GENDER}leydim{?}lordum{\?}." />
+    <string id="TDgoyFBi" text="Yapılacak çok iş yok... Dikiş ve yama gibi şeyler." />
+    <string id="TdnD29Ax" text="Ah! Beni neredeyse yeniyordun! Belki yeterince dikkatini vermedin. [if:convo_mocking_teasing]Masaya 1000 dinar daha koyup tekrar denemek ister misin?" />
+    <string id="tdvnKIyS" text="Boş ver." />
+    <string id="Te4pxfWF" text="Katılabilir miyim öyleyse?" />
+    <string id="TfDomerj" text="Bence adamlarım ve ben kervanı korumaya yeter de artarız bile {?TARGET_MERCHANT.GENDER}hanımefendi{?}beyefendi{\?}." />
+    <string id="tFPJySG7" text="{SELECTED_SETTLEMENT}'{.de} bir turnuva düzenliyorum. [ib:convo_undecided_open][if:convo_pondering]Krallığın dört bir yanından gelen insanların bu turnuvaya katılmasını bekliyorum. Katılan savaşçılardan birinin aslında kentin savunması hakkında bilgi toplamak için gönderilen bir casus olduğuna inanmak için geçerli sebeplerim var." />
+    <string id="tGI135jv" text="Ah - bildiğim kadarıyla şu anda yok. Ama bu biraz tuhaf. Savaşlardan olmalı.[ib:closed]" />
+    <string id="tgUUxK7Z" text="Bak dostum - şu anda sana yardımcı olamam ama etrafa bakınırsan sana istediğini verecek birilerini bulursun eminim." />
+    <string id="tHUHfe6C" text="Onlarla mı birliktesin? Bu hayatımda gördüğüm en büyük alçaklık![if:convo_furious]" />
+    <string id="TIPxWsYW" text="Tapuyu oyun ustasından satın aldın. {QUEST_GIVER.LINK}.{newline}&quot;Arazimi geri aldığım için mutluyum. Bunun için ödeme yapmak zorunda kaldığımı herkesin bilmesinden o kadar da mutlu değilim ama... Neyse artık, lütfen teşekkürlerimle birlikte bu {GOLD}{GOLD_ICON} dinarı kabul et.&quot;" />
+    <string id="tirG1BB2" text="{QUEST_GIVER.LINK} sana {TARGET_SETTLEMENT}'{.de} bulunan bir handa oyun oynarken bir arazinin tapusunu kaybettiğini söyledi. Oyun ustasını bulmanı ve tapuyu onun adına geri kazanmanı istiyor. Ona bu meseleyle kendin ilgileneceğini söyledin." />
+    <string id="TIVHLAjy" text="Haklı olabilirsin. Bir önceki kararımı geri alıyorum." />
+    <string id="TkYk5yxn" text="Evet? Artık yola çık. Bizim oğlanı geri getir.[if:convo_excited]" />
+    <string id="TMhUM4tz" text="{NOTABLE.LINK}'{.nin} sahip olduğu {.%}{SHOP_TYPE}{.%}'{.den} çuvalla para kazandığını duydum. O çok kurnaz biri." />
+    <string id="Tn9g83ry" text="İçkinizden memnun musunuz {?PLAYER.GENDER}hanımım{?}beyim{\?}?" />
+    <string id="toHJ01dX" text="Karşılığında ne istiyorsun?" />
+    <string id="Tol5zRgG" text="Bu kış... Çocukların hepsi öksürüp aksırıyor. Yaşlı annem bir aydır yataktan çıkamıyor. Geceleri ocak yakacak kömür almaya gücüm yetmiyor. Bahar ne kadar erken gelse, benim için o kadar iyi olur." />
+    <string id="TOpysYqG" text="Güç, iyilik yapma gücü anlamına da gelebilir." />
+    <string id="TP7rZTKs" text="{DENAR_AMOUNT}{GOLD_ICON} dinarın yok." />
+    <string id="TsbjAsxs" text="Eşin {MOTHER.NAME}, {DELIVERED_CHILDREN} dünyaya getirdi." />
+    <string id="tsjwrZCZ" text="Bu bölgenin {?PLAYER.GENDER}leydisi{?}lordu{\?} olarak, bu kanunsuz tehditlerin cezasız kalmasına göz yummayacağınıza eminim. Bölgenin {?PLAYER.GENDER}leydisi{?}lordu{\?}olarak, {TARGET_NOTABLE.LINK} ile konuşabilir ve onu kan parasını kabul etmeye zorlayabilirsiniz." />
+    <string id="tTKpOFRK" text="Düelloyu kazandın ama rakibin masumdu. {QUEST_GIVER.LINK} hayal kırıklığına uğradı." />
+    <string id="TTkVcObg" text="Ne gibi bir seçeneğim var ki seni kalpsiz alçak?![if:convo_furious]" />
+    <string id="tuaQ5uU3" text="Sanırım seni bu yakışıklı çocuğun büyüsünden kurtarmanın tek yolu onu öldürmek." />
+    <string id="tVb0nWxm" text="Savaş tamamen fedakarlıkla ilgilidir. {GAME_NAME}'{.de} rakibinin senden daha fazla fedakarlıkta bulunmasını sağlaman gerekir. Her hamle seni ya da rakibini açıkta bırakabilir ve dikkatle düşünülmelidir." />
+    <string id="TWZ4abt5" text="Eskiden yaptığım gibi, gezip dolaşmaya devam edeceğim. Geçimimi sağlayabilirim. Endişelenmeye gerek yok." />
+    <string id="tWzLqegB" text="Turnuva sona erdi." />
+    <string id="tXpmCzoZ" text="Aslına bakılırsa, bir savaşçı vardı. Yakışıklı bir delikanlı. Savaşçıların dövüşürken edindiği yara izlerine sahip değildi, [if:convo_pondering]bazı sert tiplerin gururla sergilediği işaretlere ya da dövmelere de." />
+    <string id="TyultuzK" text="Bütün bilmem gereken buydu. Teşekkürler." />
+    <string id="tyyAfWRR" text="Yakın bir zamanda onlarla küçük bir sürtüşme yaşadık zaten. [if:convo_mocking_revenge]Tepelerine binmemizi bekliyor olacaklar. Bunun yerine, {NUMBER} gün bekleyeceğiz. Bırakalım geri çekildiğimizi sansınlar... {NUMBER} gün geçtikten sonra senin ve benim adamlarım gece yarısı hiç beklemedikleri bir anda saldıracaklar. Vakit geldiğinde sana bir ulak göndereceğim ve onları birlikte haklayacağız." />
+    <string id="U342eACh" text="Bir tur daha {GAME_NAME} oynamak ister misin?" />
+    <string id="u4jhIFwG" text="{GANG_LEADER}'{.nin} Birliği" />
+    <string id="U79CXBbj" text="Gökler bizi korusun. Gökler bize güç versin." />
+    <string id="U8iyCXmF" text="talihsiz insanlara yardım ediyoruz. Onlara sıkıntılarını atlatmaları için bir kese gümüş veriyoruz. Bir miktar faizle elbette." />
+    <string id="U9zFz8Et" text="{SIEGED_SETTLEMENT_NAME}'{.nin} {SIEGE_ENGINE}{.si} kırıldı." />
+    <string id="UBd0dEPp" text="Maç sona erdi" />
+    <string id="UBFS1JLj" text="Artık çocukla bir sorunum yok,[ib:closed][if:convo_annoyed] tamam mı? Beni rahat bırak." />
+    <string id="ubnVca4L" text="Yani, evet... {RANDOM_RELATIVE}{.m} {TOWN_NAME}'{.e} bir miktar {._}{PLURAL(ITEM_NAME)} götürdüğünü ve {PRICE_DIFF}{GOLD_ICON} kazanç elde ettiğini söyledi. Uyduruyor da olabilir elbette." />
+    <string id="udD7Y7mO" text="Beni koruduğunuz için teşekkür ederim {?PLAYER.GENDER}leydim{?}beyim{\?}. Gidip {ISSUE_GIVER.LINK}'{.e} buradaki başarınızdan söz edeceğim." />
+    <string id="UEY5aQ2l" text="Ben {TARGET_MERCHANT.NAME}'{.nin} uşaklığını yapmak için değil, onu soymak için buradayım. Şimdi ya malları verin ya da dövüşmeye hazır olun." />
+    <string id="UGTCe2qP" text="Sakin ol. Akraban {QUEST_GIVER.NAME} ile konuştum. Durumunu biliyorum. Yardım etmeye geldim." />
+    <string id="uhwoWUyR" text="Seni hâlâ {HERO.LINK}'{.e} götürmedim...[ib:demure]" />
+    <string id="uJceH1Dv" text="Sunor sosisi" />
+    <string id="uJNvbag5" text="{SETTLEMENT}'{.nin} surlarında çatlaklar oluştu." />
+    <string id="uJPAYUU7" text="Yakında yola çıkacağım." />
+    <string id="ukRZd2AA" text="Ben eşkıyalarla düello yapmam." />
+    <string id="UQyCoQCY" text="Dur! Bu çocuk benim korumam altında. Barış içinde konuşmaya geldik..." />
+    <string id="urCXu9Fc" text="Onu kendisinden satın almayı deneyebilirim ama bunu hiç tercih etmem.[if:convo_innocent_smile] Handa aylarca alay konusu olurum... Eğer sen satın almayı tercih edersen, ödemeni telafi etmesi için ancak {REWARD}{GOLD_ICON} teklif edebilirim. Bu tür oyunlardan anlayan bir adamın varsa, o da işimizi görebilir." />
+    <string id="urieibC4" text="Birini arıyorum." />
+    <string id="usMQ64pf" text="Umarım hasat için yeterince işçi vardır." />
+    <string id="ut26sd6p" text="Buranın sorumluluğunu başka birine vermek istiyorum." />
+    <string id="uTycGRdI" text="Yoluna git. Şu anda görev başındayım ve sana verebilecek param yok. Gökler seni korusun." />
+    <string id="uUhtKnfA" text="Handa Kapışma" />
+    <string id="uUkCLZEo" text="Bakalım... {ISSUE_GIVER_LIST}." />
+    <string id="UURamhdC" text="Teşekkürler. Bu iş ikimize de iyi para kazandıracak.[if:convo_delighted]" />
+    <string id="uVigJ3LP" text="{QUEST_GIVER.LINK} {SETTLEMENT}'{.nin} kontrolünü kaybetti ve anlaşma artık geçersiz." />
+    <string id="UxrXNSW7" text="Yönetici olarak, {TARGET_NOTABLE.LINK}'{.nin} akrabasının intikamını almasına göz yumdun ve {QUEST_GIVER.LINK}'{.e} söz verdiğin gibi delikanlıyı koruyamadın. {QUEST_GIVER.LINK} çok öfkeli." />
+    <string id="uXXH5GIU" text="Öyleyse lütfen savaşlarına ve endişelerine geri dön. İnsanın istemediği bir şeyi elde etmesine yardımcı olamam. Ama benim hiçbir yere gittiğim yok, dolayısıyla bir gün yardımımı istersen geri gelmekten çekinme." />
+    <string id="uYrxCtDa" text="Onu bulacağım ve neler olduğunu öğreneceğim." />
+    <string id="uytwdSVH" text="Tur sona erdi, turnuvanın bir sonraki aşamasına geçmeye hak kazandın." />
+    <string id="v0XsM7Zz" text="Eğer birkaç adamınla birlikte en iyi iz sürücünü gönderirsen, kızımı bulacaklarından [if:convo_pondering]ve en fazla {ALTERNATIVE_SOLUTION_WAIT_DAYS} gün içinde sana döneceklerinden eminim." />
+    <string id="v7pJerga" text="Güç ve servet konusundaki sorun şu ki her zaman onları elinden almak isteyen birileri olacaktır. Hatta belki öz çocukların. Güç sahibi insanlar huzur bulamaz." />
+    <string id="vAjgn7yx" text="Rakip Çete {SETTLEMENT}'{.e} Yerleşiyor" />
+    <string id="VaxbQby7" text="Kulağa harika geliyor." />
+    <string id="VcfZdKcp" text="Endişelenme, akrabanı koruyacağım." />
+    <string id="Vd22iVGE" text="Sizi hayal kırıklığına uğrattığımız için üzgünüm {?PLAYER.GENDER}leydim{?}beyim{\?} ama halkımızın kendine saygısı vardır." />
+    <string id="VDfyzs5v" text="yeğen" />
+    <string id="vEHaOSIT" text="bir kupa ekşi bira" />
+    <string id="VEHPTzhO" text="{LEADER.NAME}, {SETTLEMENT} yakınlarında bir ordu topluyor." />
+    <string id="vGnY4KBO" text="Tehditlerin hiç hoşuma gitmiyor. Benim işim {TARGET_NOTABLE.LINK} ile." />
+    <string id="VGrHWxzf" text="Bu bir düello değil katliam olacak ama benim için bir sakıncası yok." />
+    <string id="VH27tpkT" text="Bu, adını duyurmak için çok iyi bir fırsat. Dişlerinden başka riske attığın bir şey yok, Gökler bize böyle büyük fırsatları kaçırmayalım diye otuz tane diş vermedi mi zaten?" />
+    <string id="vjk2q3OT" text="{TARGET_NOTABLE.LINK}'{.nin} yeğeni akrabalarımızdan birini öldürdü [ib:aggressive][if:convo_bared_teeth]ve katilden intikam almak bizim en doğal hakkımız {?PLAYER.GENDER}hanımım{?}beyim{\?}. Gelenekler bize intikam alma hakkı verir. Oğullarımızın intikamını almaya hazır olduğumuzu herkesin bilmesi gerekir, yoksa başkaları da onları öldürmekte tereddüt etmez. Bütün oğullarımız katledildiği takdirde, gümüş içinde yüzen ihtiyarlardan oluşan bir klan olmak ne işimize yarar? Lütfen beyim, bırakın da intikamımızı alalım. Bunun anlamsız bir kan davasına dönüşmesine izin vermeyeceğimize söz veriyoruz." />
+    <string id="vjOkDM6C" text="Eğer bir katili savunursan, [ib:warrior][if:convo_furious]katil gibi ölürsün. Çocuklar, hepsini öldürün!" />
+    <string id="VkOtMe5a" text="Sokağa git" />
+    <string id="VM1SGrla" text="{HERO.NAME} senin düşmanın." />
+    <string id="vn13OyFV" text="bir sağlıklı, bir de ölü doğan bebek" />
+    <string id="VP6s1YFW" text="Birçok yarışmacının kılıcı var. Yine de bu bilgi faydalı olabilir." />
+    <string id="VPGkIqlh" text="{QUEST_GIVER.LINK}, çetesine düzenlediğin saldırıya sinirlendi ve anlaşmanızı bozdu." />
+    <string id="vpUl7xcy" text="Rakip çeteyi yendin ve {SETTLEMENT}'{.de} {QUEST_GIVER.LINK}'{.nin} çıkarlarını korudun." />
+    <string id="vS6oZJPA" text="Yoldaşın {COMPANION.LINK} ve adamların başarı haberleriyle döndüler. {TARGET_NOTABLE.LINK} ile haydutları suçluyu bulup öldürmeye teşebbüs etmişler ama adamların onları püskürtmeyi başarmışlar. {COMPANION.LINK}'{.nin} söylediklerine bakılırsa, burunlarını öyle bir kanatmışlar ki bir daha böyle bir şeye kalkışmaya cesaret edemezlermiş. {QUEST_GIVER.LINK} sana minnettar oldu ve teşekkürleriyle birlikte {REWARD}{GOLD_ICON} dolu bir para kesesi gönderdi." />
+    <string id="Vs9DfZmJ" text="Hayır. Son sözüm budur. Kan parasını alacaksın." />
+    <string id="VuqZuSe2" text="Klanın artık {QUEST_GIVER.LINK}'{.nin} krallığı ile savaşta. Anlaşmanız iptal oldu." />
+    <string id="vVH7wT07" text="Bu adamlar da kim? Dikkatli ol {PLAYER.NAME}, bela kokusu alıyorum![if:convo_confused_annoyed]" />
+    <string id="VWaNqkqJ" text="Buralarda öyle birini gördüğümü söyleyemem {?PLAYER.GENDER}hanımım{?}beyim{\?}." />
+    <string id="vx4ML2gX" text="{INQUIRY_COMPANION.LINK}'{.den} başka biri var mı?" />
+    <string id="VXp0R7da" text="Gökler seni korusun! Bu kadar kalleş bir teklifin seni asla ayartamayacağını biliyordum.[if:convo_huge_smile]" />
+    <string id="w0HPC53e" text="Sen kimsin? Benden ne istiyorsun?[ib:nervous][if:convo_bared_teeth]" />
+    <string id="w1vzpCNi" text="Benim için bir silah yapmanı istiyorum" />
+    <string id="W1wVPNpy" text="Bu oyunları duydum..." />
+    <string id="W2vV5jzj" text="Ailemin yanına döneceğim. Yardımlarını unutmayacağım..." />
+    <string id="w4yxgY3F" text="İyi günler. Eğer elinde tutsaklar varsa, onları senden memnuniyetle satın alırım." />
+    <string id="W7TD4yTc" text="Biliyor musun, {TARGET_MERCHANT.NAME}'{.nin} adamı iyi bir konuya parmak bastı aslında. Bu kervanı koruyacağım." />
+    <string id="wAgfOHio" text="{SETTLEMENT}'{.de} bulunan sokağın hakimiyetini kaybettin." />
+    <string id="wD1YDmmg" text="{PARTY_NAME}, {ARMY_NAME}'{.e} katıldı." />
+    <string id="WD7vOalb" text="Ben savunan taraf olacağım." />
+    <string id="WDdlPUHw" text="Bir düello olursa değil. Sana meydan okuyorum. Hiçbir gerçek turnuva savaşçısı bunu reddetmez." />
+    <string id="WGi3Zuv7" text="{CURRENT_SETTLEMENT} çevresindeki köylülere, {QUEST_GIVER.LINK}'{.nin} kızı {TARGET_HERO.NAME}'{.nin} tarifine uyan genç bir kadın görüp görmediklerini sordun.{newline}{newline}Sabahın erken saatlerinde genç bir kadın ile genç bir erkeğin erzak almaya geldiğini ve ardından {TARGET_VILLAGE}'{.e} doğru yola koyulduğunu söylediler." />
+    <string id="wJCVlVF7" text="Bu soylular sana bana benzemez. Varlıklarını senin gibi insanları nesiller boyu ezerek korudular. Onlara bulaşma." />
+    <string id="WNKkdpN3" text="{CLAN_NAME}, {OLD_FACTION_NAME}'{.den} ayrıldı." />
+    <string id="woMdU4Xl" text="Onun nerede olduğunu bilmiyorum." />
+    <string id="wOqOQuJl" text="Tur sona erdi, takımın turnuvanın son turunu geçti." />
+    <string id="wql79Eta" text="Güzel! Casusun {TARGET_SETTLEMENT}'{.e} gittiğini öğrenmiş olduk. Eğer bilgi toplamaya çalışıyorsa, [ib:aggressive2][if:convo_undecided_open] pazarda dolaşıp sohbet kisvesi altında sorular soracaktır. Kent halkıyla konuşarak onun kim olduğunu anlayabilirsin." />
+    <string id="WqY4nvHc" text="{TARGET_NOTABLE.LINK}'{.nin} köyü {TARGET_SETTLEMENT}'{.e} baskın düzenlendi. {QUEST_GIVER.LINK} ile anlaşman iptal oldu." />
+    <string id="wqzyHirl" text="Etrafına bak. İnsanlar çuvalla para kazanıyor, ipeklere bürünüyor, şarap ve parfüm kokuyorlar. Ama bunlar namuslu insanlar mı? Hiç sanmıyorum." />
+    <string id="wrEKw6ip" text="Guguk kuşu, guguk kuşu, bana yalan söyleme. 'Başka bir kuşun ağacına girdim gizli gizli'.{newline}Guguk kuşu, guguk kuşu, akıllıca bir şey söyle. 'Batanya'da bir kral var tıpkı benim gibi.'" />
+    <string id="WrnvRayQ" text="Hiç zahmete girmeyelim, sana o miktarı ödeyeceğim." />
+    <string id="WSAS3XLC" text="Burada kısa süre önce {INQUIRY_COMPANION.LINK} adında biri vardı. {COMPANION_SETTLEMENT}'{.e} gitmek üzere yola çıktı. Onu belki orada ya da yolda bulabilirsin.[rb:positive]" />
+    <string id="WSJxl2Hu" text="Demek istediğim şu ki... [if:convo_mocking_teasing]Bunun bir parçası olmana gerek yok. Eğer bize katılırsan, patronum sana onun verdiğinin iki katını verir." />
+    <string id="WSrGHkal" text="İz sürücülerimden birini ve {REQUIRED_TROOP_AMOUNT} adamımı kızını bulmaya göndereceğim." />
+    <string id="wvbiyZfp" text="Söyleyeceğin başka ne var?[if:convo_confused_annoyed]" />
+    <string id="WwbDoZXg" text="Turnuvalarda ödüller ne kadar?" />
+    <string id="wWrEvkuj" text="{CULPRIT.LINK} artık klanının bir üyesi değil. {QUEST_GIVER.LINK} ile anlaşman feshedildi." />
+    <string id="WZbrxhYm" text="bir şişe kefir" />
+    <string id="X18yfvX7" text="Sadece geçiyordum." />
+    <string id="X1A4r7wY" text="Sağlığınıza {?PLAYER.GENDER}hanımım{?}beyim{\?}. Size yardımcı olabilir miyim?" />
+    <string id="x4wnaovC" text="Senin özgürlük anlayışına katıldığımdan emin değilim." />
+    <string id="x7k87vj3" text="Size ne getireyim {?PLAYER.GENDER}hanımım{?}beyim{\?}? {.^}{FOOD} ile birlikte yöremize özgü {DRINK}{.den} tatmak ister misiniz?" />
+    <string id="x9VgLEzi" text="Evet... Büyük bir talihsizlik yaşadım. [ib:demure][if:convo_shocked]Başına buyruk biri olan kızım, serserinin birinin büyüsüne kapıldı. Onunla görüşmekten vazgeçmesini söyledim ama beni dinlemedi! Şimdiyse kayıp - onun tarafından kaçırıldığına eminim! Kızımı geri getiren herkese {BASE_REWARD_GOLD}{GOLD_ICON} tutarında bir ödül teklif ediyorum. Lütfen {?PLAYER.GENDER}hanımım{?}beyim{\?}! Bir babanın kalbinin kırılmasına göz yummayın." />
+    <string id="xADZi2bK" text="Gidip adamlarımı bulacağım. Yardımlarını unutmayacağım..." />
+    <string id="xatWDriV" text="Boş ver öyleyse." />
+    <string id="xb1Ps6ZC" text="Şimdi toz ol..." />
+    <string id="xEs830bT" text="Hazırlıklar tamamlanır tamamlanmaz haberin olacak.[ib:closed][if:convo_mocking_teasing] Kentten ayrılma yeter." />
+    <string id="xFmYRCHs" text="Elinde neler olduğuna bir bakayım..." />
+    <string id="xizHRti3" text="Rapor edeceğim bir şey yok Lord Hazretleri." />
+    <string id="xJJeXW6j" text="Askerlerine bir bakayım." />
+    <string id="XJOqws2b" text="Hıh. Tuhaf bir onur anlayışın var... Her neyse, eve elim boş dönecek değilim, dolayısıyla bitirelim şu işi.[if:convo_furious]" />
+    <string id="XLy8anVr" text="{QUEST_GIVER.LINK}'{.den} bir mesaj geldi. &quot;Bu sana önemli bir görev gibi gelmemiş olabilir ama ben sana güvenmiştim. Sanırım sana güvenmekle hata yapmışım.&quot;" />
+    <string id="XN0XZAkI" text="Seni içeri alamam. {?SETTLEMENT_OWNER.GENDER}Leydi{?}Lord{\?} {SETTLEMENT_OWNER.NAME} çok kızar." />
+    <string id="xNyLPMnx" text="Teşekkür ederim {?PLAYER.GENDER}leydim{?}lordum{\?}, teşekkür ederim." />
+    <string id="Xo5lc6sz" text="Eğer karnını doyurabileceğinden daha fazla insana bakıyorsan, {NOTABLE.FIRSTNAME} topraklarının bir kısmını işlemene izin verir - ama akrabası olsan bile hasadının üçte birini alır." />
+    <string id="xP8cKZFE" text="Tüccar {NOTABLE.LINK}'{.nin} sahip olduğu {.%}{SHOP_TYPE}{.%}'{.e} adam aldığını söylüyorlar. Dediklerine bakılırsa, kendisi sert ama adil bir işverenmiş." />
+    <string id="xPAAZAaI" text="Saçım olduğu gibi güzel, teşekkürler." />
+    <string id="xPTxkzVM" text="Bir casusun peşindeyim. Turnuvada etrafta dolaşan ve şüphe uyandıran sorular soran bir savaşçı gördün mü?" />
+    <string id="XqsrsjiL" text="Yapmam gerekeni yaptım. Toplan, gitmen gerekiyor." />
+    <string id="XqTa0iQZ" text="Ne istiyorsun alçak?[if:convo_stern]" />
+    <string id="Xqx0uZva" text="O ahmak {RANDOM_RELATIVE}{.m}{.e} söyledim. Evet, söyledim. Dedim ki, 'Eğer {NOTABLE.LINK}'{.den} para alırsan, iki katını geri ister. Elinin kemiklerine değer veriyorsan, bu parayı ödersin.' Ona işte böyle dedim." />
+    <string id="Xs7Qweuw" text="Başı çek {PLAYER.NAME}." />
+    <string id="XvkSbY6N" text="Bahsini görüyorum. Hadi oynayalım." />
+    <string id="xVZVYNan" text="Yeterli miktarda {GOLD_ICON}'{.e} sahip değilsin." />
+    <string id="XWpEpaQ4" text="Elbette {?PLAYER.GENDER}hanımım{?}beyim{\?}. Buyurun." />
+    <string id="XWVW0oTB" text="Seni alçak![ib:aggressive][if:convo_furious]" />
+    <string id="XX3sWsVX" text="Kulağa oldukça ciddi geliyor. Devam et." />
+    <string id="xxSlIDCW" text="{HERO.NAME} birliğine katıldı ve komutayı ele aldı." />
+    <string id="Y1O5bPpJ" text="Sadece bakıyorum. Sakıncası var mı?" />
+    <string id="Y5ztM8zq" text="Zor zamanlarında adamlarıma yardımcı olacak iyi bir cerrah, adamlarımın kendilerini daha güvende hissetmelerini sağlar." />
+    <string id="Y7tozytM" text="Merhaba {?PLAYER.GENDER}hanımım{?}beyim{\?}. Bir savaşçı gibi görünüyorsunuz. Bir dakikanızı alabilir miyim? Ortak çıkarlarımız olabilir." />
+    <string id="Yac7bSU3" text="Bana tekrar ne yaptığından bahset." />
+    <string id="ybXgaKEv" text="bir kadeh yerel şarap" />
+    <string id="YCC0hPuC" text="Ah, hayır. Köle tacirlerine bugünlerde pek rastlanılmıyor. Eskiden İmparatorluk ile komşuları birbiriyle savaştığında, mağlup olanlar genellikle köle olarak alınırdı. Bu, savaş masraflarının karşılanmasına yardımcı olurdu! Ama günümüzde bu artık pek de geçerli değil. Sınırların ortadan kalkmasıyla ve akıncıların dört bir yandan gelmesiyle, tutsakların kaçması için çok fazla fırsat doğdu. Ancak bu, savaşın kazançlı olamayacağı anlamına gelmez! Aslına bakılırsa, hâlâ kazançlı olabilir!" />
+    <string id="YDMlCaaz" text="Yüce Kağan Monchug elini kaldırdığında Herkes dikkat kesilir bir anda!{newline}Yüce Kağan Monchug atıyla uzaklaştığında Herkes geri döner uyuklamaya ve oyunlar oynamaya." />
+    <string id="YdwLnWa1" text="Kızın ve haydudun yönü" />
+    <string id="ye4oqBFB" text="Oyunu kaybettin ve {QUEST_GIVER.LINK}'{.e} yardım edemedin. &quot;Denediğin için teşekkürler {PLAYER.NAME} ama sanırım bu iş için yanlış kişiyi seçtim.&quot;" />
+    <string id="YequZz6U" text="'Neşeli ve güzeldir {RANDOM_TOWN}'{.nin} kızları {newline} Saçlarında çiçeklerle tasarlarlar fesatlıklarını {newline} Hâlâ genç olsam orada olurdum mutlaka {newline} Ama artık sıcaklığı yeğlerim belaya'" />
+    <string id="Yh0danUf" text="Teşekkürler ve iyi günler {?PLAYER.GENDER}leydim{?}lordum{\?}." />
+    <string id="YHTTPKMb" text="500{GOLD_ICON}" />
+    <string id="YIxpNP4k" text="{ISSUE_GIVER.LINK} bir mesaj gönderdi. &quot;Casusu öldürdüğün için teşekkürler. Lütfen teşekkürlerimizle birlikte bu {REWARD_GOLD}{GOLD_ICON} dinarı kabul et.&quot;" />
+    <string id="yj0VZ8IZ" text="Yük taşıyan bir katır kayıp nehre düştü ve {HARSH_MERCHANT.NAME} açlıktan ölsem de bunu benim ücretimden keseceğini söyledi. Eğer beğenmiyorsam, gidip sokaklarda dilenebilirmişim. Şu halime bak. Ona karşı koyunca ne hallere düştüğüme bir bak." />
+    <string id="YJkiQ6nM" text="Hayır, fikrimi değiştirdim. Burada kalacağız." />
+    <string id="yLIZlaS1" text="Pekala. Hazır olduğunuzda beklerim {?PLAYER.GENDER}leydim{?}lordum{\?}." />
+    <string id="yLRfb5zb" text="Haber var mı? Onu bulabildin mi?[if:convo_astonished]" />
+    <string id="ym6bSrNo" text="{STILL_ESCORTING_ANSWER}" />
+    <string id="YM7etEzu" text="{GAME_NAME} tam olarak nedir?" />
+    <string id="ymbVPod1" text="{SETTLEMENT}'{.den} bir çete lideri olan {ISSUE_GIVER.LINK}, kentte kendine yer edinmeye çalışan yeni bir çeteden bahsetti. {COMPANION.LINK}'{.den} yanına en iyi adamlarından {NEEDED_MEN_COUNT} tanesini alıp {ISSUE_GIVER.LINK} ile kalmasını ve yaklaşan çete savaşında ona yardım etmesini istedin. {RETURN_DAYS} gün içinde sana dönecekler." />
+    <string id="YmNT7HJ3" text="Kararını verdin mi? Dünyevi yüklerinden arınmaya ve daha sade bir hayat yaşamaya hazır mısın?" />
+    <string id="yN4imaGo" text="{?PLAYER.GENDER}Leydim{?}Lordum{\?}... Bu büyük bir onur. {GAME_NAME} oynar mısınız? Ben {CULTURE_NAME}'{.nin} geleneksel eğlencesi olan bu oyunun ustası sayılırım. Eğer oynamak isterseniz, lütfen oturun başlayalım." />
+    <string id="Yqv1jk7D" text="Merak etme, tuzağımıza doğru geliyorlar." />
+    <string id="ySk7bD8P" text="Aslında yapacak başka işlerim var. Belki daha sonra." />
+    <string id="YTaM6G1E" text="Köy kısa bir süre önce yağmalanmış gibi görünüyor. Ateş, duman ve ağlayan insanlardan başka bir şey bulamadın." />
+    <string id="YtS3cgto" text="Ne yapmayı planlıyorsun?" />
+    <string id="Ytws5O9S" text="Bir gün sen de kan parasıyla oğullarından birinin hayatını kurtarmak isteyebilirsin. Merhamet göstermezsen, merhamet görmezsin." />
+    <string id="YuabHAbV" text="Kısa süre sonra ilgileneceğim." />
+    <string id="z2duf82b" text="Belki bir süre huzur bulmak hoşuma gider. Ama klanımın geleceğini düşünmek zorundayım..." />
+    <string id="z43j3Tzq" text="Dövüş için hâlâ adamlarımı topluyorum. Vakit geldiğinde sana bir ulak göndereceğim." />
+    <string id="z47FuQ3f" text="bir kadeh arpa birası" />
+    <string id="z4arML8E" text="bir dilim kurutulmuş geyik eti" />
+    <string id="Z4MreMZz" text="İdman dövüşlerinde ödüller ne kadar?" />
+    <string id="Z9sp21rl" text="{QUEST_GIVER_CLAN} klanının bir lordu olan {QUEST_GIVER.LINK} akrabasını kurtarmanı istedi. Delikanlı şu anda borçları yüzünden bölgenin çete liderlerinden biri olan {TARGET_HERO.LINK} tarafından rehin tutuluyor. {?QUEST_GIVER.GENDER}Leydi{?}Lord{\?} {QUEST_GIVER.LINK} sana onun borçlarını kapatmaya yetecek kadar altın verdi ama seni parayı kendine saklamaya ve bu suçluları ibret olsun diye cezalandırmaya teşvik etti ki bir daha hiç kimse bir soyluyu rehin almaya cesaret edemesin. Bu meseleyle ilgilenmesi için {COMPANION.LINK} ile birlikte {NEEDED_MEN_COUNT} adamını gönderdin. {ALTERNATIVE_SOLUTION_DURATION} gün içinde geri dönecekler." />
+    <string id="zbPRul7h" text="Pekala... Seni tanımıyorum ama sana teşekkür borçluyum." />
+    <string id="ZC1slXw1" text="Borcu ödemeye niyetim yok. [ib:closed][if:convo_worried]En iyi aileler bile güvende değilken, böyle bir kanunsuzluğu ödüllendirmeyeceğim. {SETTLEMENT_NAME}'{.nin} lorduna haber gönderdim ama savaşlardan dolayı ondan bir yanıt almayı beklemiyorum açıkçası. Birinin oraya gidip delikanlıyı kurtarmasını istiyorum. Ödeme de yapabilirsin ama o alçaklara bir ders vermeni tercih ederim. Ben her iki türlü de sana ödeme yapacağım ama güç kullanırsan elinde daha çok para kalır elbette." />
+    <string id="ZCbQvqqv" text="Çiftçilerin ve tüccarların yüzünde yara izi olmaması doğaldır ama savaşçılar için aynısı söylenemez. Bu bilgi faydalı olabilir." />
+    <string id="ZGMfmNe0" text="Çok cömertsiniz {?PLAYER.GENDER}leydim{?}lordum{\?}. Hepinize sağlıklı bir ömür dilerim, bahtınız açık olsun." />
+    <string id="ZhCRL9mY" text="O alçaklar ortalıkta sarhoş sarhoş dolaşıp insanları rahatsız ediyorlar... Ne var ki, {NOTABLE.LINK} için çalışıyorlar, dolayısıyla kellene değer veriyorsan, hiçbir şey söyleyemezsin." />
+    <string id="ZhpT2qVh" text="Hamile olduğunu öğrendin." />
+    <string id="ZidO5gkC" text="Bu kayıt, oyundan kaldırılmış olan {MODULE_NAME} modülü ile oluşturuldu. Bu kaydı yüklemek için modülü aktive etmelisin." />
+    <string id="zJqEdDiq" text="{GANG_LEADER}'{.nin} Yardakçısı" />
+    <string id="zJReEB8Z" text="İnsan bütün gün pazarda oturunca çok şey öğreniyor, şayet kulaklarını açık tutarsa tabii... Ancak ne yazık ki son zamanlarda sizin ilginizi çekebilecek hiçbir şey duymadım." />
+    <string id="zlFSIvD5" text="Hayır, hayır. Bir tuzak gördüğümde anlarım. Sen kazandın. Hoşça kal." />
+    <string id="zLnqZdIK" text="Bu sokağa atayacak yeterli sayıda askerin yok. (Atanabilecek en düşük asker sayısı {NEEDED_TROOP_NUMBER})" />
+    <string id="zNPzh5jO" text="Ah! İşte bu iyi bir dövüştü. Bu para kesesini al, {QUEST_GIVER.LINK}'{.nin} söz verdiği gibi hepsi senin.[ib:hip2][if:convo_huge_smile]" />
+    <string id="zNqDEuAw" text="Ama seni bulacağıma ve {?QUEST_GIVER.GENDER}annene{?}babana{\?} götüreceğime söz verdim. {?QUEST_GIVER.GENDER}Annen{?}Baban{\?} yıkılacak." />
+    <string id="ZO5RaXMW" text="Bizi, namuslu halkın yüreğine korku salan hırsızları ve haydutları cezalandıramayacak kadar hassas olan {OWNER.LINK} gibi {?OWNER.GENDER}leydilerden{?}lordlardan{\?} koru." />
+    <string id="ZpDQxmzJ" text="Kan Davası" />
+    <string id="zRJ1bQFO" text="{ISSUE_GIVER_SETTLEMENT}'{.de} toprak sahibi olan {ISSUE_GIVER.LINK}, sana çirkin bir kan davasına dönüşmek üzere olan bir olaydan bahsetti. Bir gencin kazara başka bir genci öldürdüğünü, ölen gencin ailesinin kan parasını reddettiğini ve intikam peşinde olduğunu öğrendin. İşlerin yatışması için {COMPANION.LINK} ile birlikte birkaç adamını {RETURN_DAYS} gün boyunca orada bırakmaya karar verdin. {RETURN_DAYS} gün sonra {ISSUE_GIVER.LINK}'{.nin} vaat ettiği {REWARD_GOLD}{GOLD_ICON} dinarla dönmeleri gerekiyor." />
+    <string id="ZrMeSyPu" text="{BESIEGER}'{.nin} {WEAPON}{.i} {SETTLEMENT}'{.de} bulunan bazı askerleri vurdu!" />
+    <string id="zTF4bJm0" text="Evet, iyi oldu." />
+    <string id="ztiax0Sn" text="{?OWNER.GENDER}Leydi{?}Lord{\?} {OWNER.LINK} hakkında ne dersen de... Bölgedeki en alçak adama bile adil yargılanma hakkı sunar. Bunu inkar edemezsin." />
+    <string id="zUKqWeUa" text="Hadi ama {PLAYER.NAME}. Bu tereddütler beni geriyor. Bitirelim şu işi.[if:convo_nervous]" />
+    <string id="zv49qE35" text="İdman Dövüşü" />
+    <string id="ZVbQemrz" text="Kocam savaşta yaralandı ve artık tarla süremiyor. Bu nedenle toprağı kullanma hakkını kaybetti ve ben pazarda dilenmeye başlamak zorunda kaldım." />
+    <string id="ZVItXrnG" text="Verimsiz bir sonbahar oldu. Gökler kış gelmeden yeterince odun depolamamıza yardım etsin." />
+    <string id="zVmDmLCW" text="Diyarın {CALLED_KINGDOM}'{.i} {KINGDOM_TO_CALL_TO_WAR_AGAINST}'{.e} karşı savaşmaya çağırdı." />
+    <string id="ZvzxcRbc" text="İyi günler dostum. Arenada işlerin nasıl yürüdüğünü biliyor gibi görünüyorsun. Nasıl yardımcı olabilirim?" />
+    <string id="zxonBgY2" text="Sanırım onları kürek çekmeleri için Geroia cumhuriyetlerine satabilirim ama artık Geroia'da bile özgür kürekçileri tercih ediyorlar... Ancak iş nadiren o noktaya gelir. Bir köylünün ahırından ne tür hazineler çıkarabildiğini ya da kuzenlerinden neler koparabildiğini görsen şaşarsın!" />
+    <string id="zXQwb3lj" text="100 Nam Ekle" />
+  </strings>
+</base>

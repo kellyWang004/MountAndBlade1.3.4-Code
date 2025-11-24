@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Français" />
+  </tags>
+  <strings>
+    <string id="ansW4mx2" text="Citadine aseraï" />
+    <string id="aseraipeasantman" text="{?NPC.GENDER}Paysanne aseraï{?}Paysan aseraï{\?}" />
+    <string id="baAQDdE5" text="Citadine vlandaise" />
+    <string id="battaniapeasantman" text="{?NPC.GENDER}Paysanne battanienne{?}Paysan battanien{\?}" />
+    <string id="empirepeasantman" text="{?NPC.GENDER}Paysanne impériale{?}Paysan impérial{\?}" />
+    <string id="khuzaitpeasantman" text="{?NPC.GENDER}Paysanne khuzaïte{?}Paysan khuzaïte{\?}" />
+    <string id="Q7wFotYV" text="Citadine battanienne" />
+    <string id="qMqRkvWu" text="Citadine sturgienne" />
+    <string id="sturgiapeasantman" text="{?NPC.GENDER}Paysanne sturgienne{?}Paysan sturgien{\?}" />
+    <string id="V8GrFH4B" text="Citadine khuzaïte" />
+    <string id="vlandiapeasantman" text="{?NPC.GENDER}Paysanne vlandaise{?}Paysan vlandais{\?}" />
+    <string id="WbH2HS8j" text="Citadine impériale" />
+  </strings>
+</base>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Italiano" />
+  </tags>
+  <strings>
+    <string id="18NtjryL" text="Non ancora, ma presto lo farò." />
+    <string id="1ELK1UbN" text="Al momento, {HERO.NAME} è in navigazione." />
+    <string id="6P1ruzsC" text="Forse..." />
+    <string id="6QoSHiWC" text="Un vicolo senza un capo" />
+    <string id="9ACJsI6S" text="Bloccato" />
+    <string id="9NuttOBC" text="Carica" />
+    <string id="9y0zpKUF" text="L&apos;insediamento deve essere sotto il tuo controllo!" />
+    <string id="akHsjtPh" text="Non hai ancora incontrato quest&apos;eroe." />
+    <string id="aN85Kfnq" text="{.L}{SETTLEMENT} ha subito un assalto. Il tuo accordo con {QUEST_GIVER.LINK} è stato annullato." />
+    <string id="averageWealthStatus" text="Media" />
+    <string id="awjomtnJ" text="Vuoi procedere?" />
+    <string id="bqeWVVEE" text="Le tue azioni hanno scatenato una guerra con la fazione di {QUEST_GIVER.LINK}. L&apos;accordo con {QUEST_GIVER.LINK} è annullato e la missione è fallita." />
+    <string id="bSo9hKwr" text="{PERSUASION_OPTION_LINE} {SUCCESS_CHANCE}" />
+    <string id="cc1d7mkq" text="Grado" />
+    <string id="CDXUehf0" text="Bene, bene." />
+    <string id="CH7b5LaX" text="Ho cambiato idea." />
+    <string id="cKz1cyuM" text="Il tuo clan è entrato in guerra con {.l}{QUEST_GIVER_SETTLEMENT_FACTION}. La missione è annullata." />
+    <string id="D0xDRqvm" text="{PERSUASION_REACTION}" />
+    <string id="ddEu5IFQ" text="Lo spero." />
+    <string id="dQBArrqh" text="Gestione vicolo" />
+    <string id="ds294zxi" text="C&apos;è altro?" />
+    <string id="dzXaXKaC" text="Molto bene." />
+    <string id="FdzsOvDq" text="Quest&apos;azione è disabilitata durante una missione" />
+    <string id="g8qb3Ame" text="Grazie." />
+    <string id="GEvP9i5f" text="Continuerai a giocare nei panni di {HEIR.NAME}." />
+    <string id="gJG0xmAq" text="Il villaggio di {QUEST_GIVER.LINK}, {QUEST_SETTLEMENT}, è stato assaltato. Il tuo accordo con {QUEST_GIVER.LINK} è stato annullato." />
+    <string id="hCavIm4G" text="Pagherai {AMOUNT}{GOLD_ICON} denari." />
+    <string id="Hxf6bzmR" text="Denari attuali" />
+    <string id="I1CMeL9R" text="Arcieri a cavallo" />
+    <string id="I8raOMRH" text="Mi spiace. Ancora nessun progresso." />
+    <string id="iW9iKbb8" text="Niente." />
+    <string id="jcEoUPCB" text="Sei in incognito." />
+    <string id="k7ebznzr" text="Sì?" />
+    <string id="LZbHWkCB" text="Trattativa in corso con {PARTY_NAME}" />
+    <string id="mapbardenarvalue" text="{DENAR_AMOUNT}{VALUE_ABBREVIATION}" />
+    <string id="maptrack" text="Traccia" />
+    <string id="MIylzRc5" text="Non puoi effettuare questa azione mentre sei in un evento della mappa." />
+    <string id="mp68RYnD" text="Limite dimensioni del gruppo" />
+    <string id="nFl0ufe3" text="Un gruppo senza un capo" />
+    <string id="oJmRg2ms" text="Molto ricco" />
+    <string id="OlOhuO7X" text="No, grazie. Una buona giornata a te." />
+    <string id="pdqi2qz1" text="Non puoi effettuare quest&apos;azione mentre il tuo vicolo è sotto assedio." />
+    <string id="poorWealthStatus" text="Debole" />
+    <string id="ppi6eVos" text="Come desiderate." />
+    <string id="PXT6aA4J" text="Opzioni campagna" />
+    <string id="rkQ7D36f" text="La missione è stata annullata perché il tuo gruppo aveva più compagni di quelli che potevi gestire." />
+    <string id="RzFyGnWJ" text="Simpatizzanti" />
+    <string id="SixPXaNh" text="Molto povero" />
+    <string id="SlubkZ1A" text="Eliminato" />
+    <string id="UbRqC0Yz" text="Ricco" />
+    <string id="uYjEknNX" text="Esecuzione di {VICTIM.NAME} per mano di {EXECUTER.NAME}" />
+    <string id="vaUlAZba" text="Il tuo clan è entrato in guerra con {QUEST_GIVER.LINK}. Il tuo accordo con {QUEST_GIVER.LINK} è stato annullato." />
+    <string id="VLLAOXve" text="Stai attendendo la notte per tendere un&apos;imboscata" />
+    <string id="vW6kBki9" text="Ora il tuo clan è in guerra con il regno di {QUEST_GIVER.LINK}. Il tuo accordo con {QUEST_GIVER.LINK} è stato annullato." />
+    <string id="wlKtDR2z" text="Grazie, {?PLAYER.GENDER}mia signora{?}mio signore{\?}." />
+    <string id="xpCdwmlX" text="Non hai abbastanza oro per eleggere {HERO.NAME} a capogruppo." />
+    <string id="YuLLsAUb" text="Non hai {GOLD_AMOUNT}{GOLD_ICON}." />
+    <string id="zpqP5LsC" text="Parto immediatamente." />
+  </strings>
+</base>

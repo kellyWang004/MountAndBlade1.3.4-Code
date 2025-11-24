@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="日本語" />
+  </tags>
+  <strings>
+    <string id="2GE0in0u" text="弓が必要です。" />
+    <string id="2K0iVRkW" text="町の管理の他、指揮下にある部隊や、任せた部隊の規模にも影響する、兵站を管理する能力の素質。" />
+    <string id="6Tw6BLXI" text="盾が必要です。" />
+    <string id="81YLbLok" text="真面目な衛兵も多額の賄賂には生唾を呑む。{newline}人として許されざることの境界に潜む悪魔をどれだけ手懐けているかを表す。" />
+    <string id="97EmbcHQ" text="人々の心を自信で満たし、より大きな集団の熱意と勇気をかき立てる。人々を鼓舞する能力の素質。" />
+    <string id="Aj3zqQq4" text="使用不可" />
+    <string id="B9Gp7pIf" text="弓との併用はできません。" />
+    <string id="bJMUTZ00" text="盾との併用はできません。" />
+    <string id="Bn7IsMpu" text="INT" />
+    <string id="bVD9j0wI" text="自身の運動能力に関する素質。" />
+    <string id="controlskill" text="制御力" />
+    <string id="d2ApwXJr" text="END" />
+    <string id="EGeY1gfs" text="魅力" />
+    <string id="EhK4Q6S4" text="両手武器との併用はできません。" />
+    <string id="engineeringskill" text="工学" />
+    <string id="eoLbkhsY" text="大きな斧や剣などの両手武器を扱う素質。" />
+    <string id="F59nAr9s" text="武器なしでは使用できません。" />
+    <string id="Ffwgecvr" text="{PLUS_OR_MINUS}{BONUSEFFECT}" />
+    <string id="FLf5J3su" text="弓を正確に射るための体の動かし方や、扱いに関する素質。" />
+    <string id="FQOFDrAu" text="あらゆる敵勢力に対して、最も効果的なタイミングで適切な指揮を行う素質。" />
+    <string id="GHQMM8Df" text="騎乗中は使用できません。" />
+    <string id="H9Zamrao" text="馬の飼育に関する総合的な知識や、騎乗に関しての素質。{newline}戦闘時の騎乗状態での速度にも影響を及ぼす。" />
+    <string id="haV3nLYA" text="クロスボウの手入れに関する知識や、扱いに関する素質。" />
+    <string id="hbaMnpVR" text="強靭な構造物を製作する知識と素質。構造に関する知識はそのまま破壊にも応用できる。" />
+    <string id="HsLfmEmb" text="統率" />
+    <string id="HuXafdmR" text="CTR" />
+    <string id="igg5sEh3" text="受けた矢を取り除く戦闘に関する応急手当の他、感染防止の傷の洗浄など、日常的な治療も含めた総合医学の素質。" />
+    <string id="iKmXX7i3" text="片手、両手用の長柄武器を扱う素質。" />
+    <string id="jJ9sLOLb" text="活力は近接武器を使った戦闘において{newline}力強く、且つ素早い動きに必要となる特質{newline}" />
+    <string id="JKH59XNp" text="医学" />
+    <string id="JZM1mQvb" text="狡猾" />
+    <string id="K8rCOQUZ" text="持久力は長時間にわたり、{newline}肉体的負荷の高い活動を行うために必要な特質{newline}" />
+    <string id="kfdxjIad" text=", " />
+    <string id="kkzKtP78" text="クロスボウとの併用はできません。" />
+    <string id="kmBxaJZd" text="いたる場所の様々な痕跡から、敵の情報を把握できる素質。" />
+    <string id="kvOavzcs" text="持久力" />
+    <string id="LJ6Krlbr" text="偵察" />
+    <string id="lsJMCkZy" text="品物の本当の価値を見極める素質。この素質は交易や商談の知識に繋がり、確実な利益を生み出す。" />
+    <string id="m8o51fc7" text="戦術" />
+    <string id="NwTpATW5" text="物を正確、かつ強力に投げられる素質。" />
+    <string id="p9i3zRm9" text="乗馬" />
+    <string id="PHoxdReD" text="SOC" />
+    <string id="PkFT0D9a" text="衝突ダメージ減少" />
+    <string id="skZS2UlW" text="運動" />
+    <string id="smithingskill" text="鍛冶" />
+    <string id="socialskill" text="社交性" />
+    <string id="sOrJoxiC" text="知性" />
+    <string id="stewardskill" text="管理" />
+    <string id="sxGmF0tC" text="編隊に属する兵士による近接ダメージが、騎兵に対して{BONUS_AMOUNT}%増す。" />
+    <string id="t0Qzb7CY" text="騎兵中隊に対する近接ダメージが増加" />
+    <string id="TeUtEGV0" text="知性は理論的な学習への適性に関しての特質{newline}" />
+    <string id="tH6Ooj0P" text="CNG" />
+    <string id="Uz1HHeKg" text="ランダムな武器を製作した" />
+    <string id="V0ZMJ0PX" text="悪行" />
+    <string id="VajIVjkc" text="人に好かれて信頼される、また、人の心を動かす事柄を見極める素質。" />
+    <string id="Ve8xoa3i" text="VIG" />
+    <string id="vx0OCvaj" text="制御力は遠隔武器を扱う際、特に重要な{newline}的確、且つ強力に的を射るために必要な特質{newline}" />
+    <string id="wJbkXP98" text="片手武器との併用はできません。" />
+    <string id="XMDTt96y" text="社交性は人々の心を動かし、{newline}影響を与えるために必要となる特質{newline}" />
+    <string id="xWbkjccP" text="素材の扱いや知識、素材同士の組み合わせなど鍛冶全般に関する素質。" />
+    <string id="yEkSSqIm" text="盾の有無に関わらない、片手用武器を扱う素質。" />
+    <string id="YO5LUfiO" text="狡猾性は他人の計画を予測し、{newline}その計画の裏をかくために必要な特質{newline}" />
+    <string id="YWkdD7Ki" text="活力" />
+  </strings>
+</base>

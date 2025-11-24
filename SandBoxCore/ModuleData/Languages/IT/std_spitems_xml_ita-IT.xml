@@ -1,0 +1,780 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Italiano" />
+  </tags>
+  <strings>
+    <string id="2Ilvjlz9" text="{.MP}Vambraci steccati" />
+    <string id="LoUxaFeE" text="{.MP}Vambraci di cuoio" />
+    <string id="NfFAgMUE" text="{.MP}Parabraccia da khan a piastre" />
+    <string id="t01v8qW7" text="{.MP}Guanti signorili imbottiti" />
+    <string id="ulaMq9HL" text="{.MP}Vambraci fasciati a piastre" />
+    <string id="wLAL9NRB" text="{.MP}Parabraccia dei Fianna" />
+    <string id="0heYJNpN" text="{.MS}Stendardo degli Scudi serrati{@Plural}{.MP}Stendardi degli Scudi serrati{\@}" />
+    <string id="5Hn58Ra0" text="{.MS}Stendardo del Falco Faris{@Plural}{.MP}Stendardi del Falco Faris{\@}" />
+    <string id="6uSQnTob" text="{.MS}Stendardo in acciaio{@Plural}{.MP}Stendardo in acciaio{\@}" />
+    <string id="79QBpG6D" text="{.MS}Stendardo del Vento del deserto{@Plural}{.MP}Stendardi del Vento del deserto{\@}" />
+    <string id="7mCYbhbp" text="{.MS}Stendardo in ferro{@Plural}{.MP}Stendardi in ferro{\@}" />
+    <string id="8yEr93Aw" text="{.FS}Bandiera da arciere{@Plural}{.FP}Bandiere da arciere{\@}" />
+    <string id="9SbsZJUZ" text="{.MS}Stendardo degli Scudi di ferro{@Plural}{.MP}Stendardi degli Scudi di ferro{\@}" />
+    <string id="AEFT6XBM" text="{.MS}Stendardo del Muro di lance{@Plural}{.MP}Stendardi del Muro di lance{\@}" />
+    <string id="AfouAjT5" text="{.FS}Bandiera da balestriere{@Plural}{.FP}Bandiere da balestriere{\@}" />
+    <string id="atPgGfXo" text="{.MS}Stendardo degli Scudi d&apos;acciaio{@Plural}{.MP}Stendardi degli Scudi d&apos;acciaio{\@}" />
+    <string id="bFxReZW8" text="{.MS}Stendardo del Muro di picche{@Plural}{.MP}Stendardi del Muro di picche{\@}" />
+    <string id="bMI735CY" text="{.MS}Vessillo della Rabbia{@Plural}{.MP}Vessilli della Rabbia{\@}" />
+    <string id="caWWYP0J" text="{.FS}Bandiera da cecchino{@Plural}{.FP}Bandiere da cecchino{\@}" />
+    <string id="Cd6mr3q2" text="{.MS}Stendardo in pietra{@Plural}{.MP}Stendardi in pietra{\@}" />
+    <string id="CdBEdJqV" text="{.FS}Bandiera della Piaga del cavallo{@Plural}{.FP}Bandiere della Piaga del cavallo{\@}" />
+    <string id="CEK9YjWK" text="{.MS}Stendardo degli Scudi uniti{@Plural}{.MP}Stendardi degli Scudi uniti{\@}" />
+    <string id="D3RYsPg5" text="{.FS}Bandiera da guardaboschi{@Plural}{.FP}Bandiere da guardaboschi{\@}" />
+    <string id="dioBqbxi" text="{.MS}Drappo della Freccia in legno{@Plural}{.MP}Drappi della Freccia in legno{\@}" />
+    <string id="e59hZ6Er" text="{.MS}Stendardo del Vortice di sabbia{@Plural}{.MP}Stendardi del Vortice di sabbia{\@}" />
+    <string id="EbEmIi5K" text="{.MS}Stendardo del Falco dell&apos;emiro{@Plural}{.MP}Stendardi del Falco dell&apos;emiro{\@}" />
+    <string id="eIHsXeC4" text="{.MS}Stendardo dello Scudiero{@Plural}{.MP}Stendardi dello Scudiero{\@}" />
+    <string id="ETLxYEwL" text="{.MS}Stendardo del Cavaliere{@Plural}{.MP}Stendardi del Cavaliere{\@}" />
+    <string id="fqvQNrqN" text="{.MS}Stendardo del Muro di scudi{@Plural}{.MP}Stendardi del Muro di scudi{\@}" />
+    <string id="fUugSmen" text="{.FS}Bandiera da esploratore{@Plural}{.FP}Bandiere da esploratore{\@}" />
+    <string id="HAZIchT3" text="{.FS}Bandiera della Piaga del cinghiale{@Plural}{.FP}Bandiere della Piaga del cinghiale{\@}" />
+    <string id="iR9jPgOg" text="{.MS}Stendardo dell&apos;Aquila del sultano{@Plural}{.MP}Stendardi dell&apos;Aquila del sultano{\@}" />
+    <string id="jkEUOujE" text="{.MS}Drappo della Steppa infinita{@Plural}{.MP}Drappi della Steppa infinita{\@}" />
+    <string id="LbvihbBz" text="{.MS}Drappo dell&apos;Orda senza fine{@Plural}{.MP}Drappi dell&apos;Orda senza fine{\@}" />
+    <string id="LylVtFCG" text="{.MS}Vessillo della Testuggine{@Plural}{.MP}Vessilli della Testuggine{\@}" />
+    <string id="M3ZTF7rj" text="{.FS}Bandiera da ramingo{@Plural}{.FP}Bandiere da ramingo{\@}" />
+    <string id="ndfetbYO" text="{.MS}Vessillo della Falange{@Plural}{.MP}Vessilli della Falange{\@}" />
+    <string id="NrXBeKMl" text="{.MS}Vessillo del Coraggio{@Plural}{.MP}Vessilli del Coraggio{\@}" />
+    <string id="p6FU9oQa" text="{.MS}Stendardo delle Sabbie mobili{@Plural}{.MP}Stendardi delle Sabbie mobili{\@}" />
+    <string id="ppVcgN5l" text="{.MS}Drappo della Freccia in osso{@Plural}{.MP}Drappi della Freccia in osso{\@}" />
+    <string id="QR6AaH9A" text="{.MS}Stendardo dell&apos;Alfiere{@Plural}{.MP}Stendardi dell&apos;Alfiere{\@}" />
+    <string id="rUXo5AsE" text="{.MS}Drappo della Freccia sibilante{@Plural}{.MP}Drappi della Freccia sibilante{\@}" />
+    <string id="rZ4iW5vM" text="{.MS}Vessillo della Disciplina{@Plural}{.MP}Vessilli della Disciplina{\@}" />
+    <string id="SlmJXyQD" text="{.MS}Drappo del Cavallo selvaggio{@Plural}{.MP}Drappi del Cavallo Selvaggio{\@}" />
+    <string id="UMW7oc9g" text="{.MS}Vessillo del Phoulkon{@Plural}{.MP}Vessilli del Phoulkon{\@}" />
+    <string id="v652kWEt" text="{.MS}Vessillo dell&apos;Ira{@Plural}{.MP}Vessilli dell&apos;Ira{\@}" />
+    <string id="VP7YhB8K" text="{.MS}Stendardo degli Scudi in quercia{@Plural}{.MP}Stendardi degli Scudi in quercia{\@}" />
+    <string id="w9bVJ78F" text="{.MS}Stendardo del Ponte di lance{@Plural}{.MP}Stendardi del Ponte di lance{\@}" />
+    <string id="xbrIp3qS" text="{.MS}Vessillo della Furia{@Plural}{.MP}Vessilli della Furia{\@}" />
+    <string id="xjgt7gpf" text="{.MS}Vessillo del Dovere{@Plural}{.MP}Vessilli del Dovere{\@}" />
+    <string id="xzzr0WR7" text="{.FS}Bandiera della Piaga del cervo{@Plural}{.FP}Bandiere della Piaga del cervo{\@}" />
+    <string id="1WLiLoL5" text="{.FS}Armatura di cuoio specchiata{@Plural}{.FP}Armature di cuoio specchiate{\@}" />
+    <string id="2KQbV4To" text="{.FS}Pelliccia lunga da mercante{@Plural}{.FP}Pellicce lunghe da mercanti{\@}" />
+    <string id="2VZ10uRa" text="{.FS}Armatura meridionale a scaglie superiore su cotta di maglia{@Plural}{.FP}Armature meridionali a scaglie superiori su cotta di maglia{\@}" />
+    <string id="2WQTvOLF" text="{.MS}Grembiule in tessuto{@Plural}{.MP}Grembiuli in tessuto{\@}" />
+    <string id="4eSEJor3" text="{.MS}Abito con corsetto{@Plural}{.MP}Abiti con corsetto{\@}" />
+    <string id="63jCqJPA" text="{.FS}Armatura da bruto{@Plural}{.FP}Armature da bruti{\@}" />
+    <string id="6VW6zVa3" text="{.FS}Giubba di lusso{@Plural}{.FP}Giubbe di lusso{\@}" />
+    <string id="79I1U8OC" text="{.MP}Pettorale in bronzo{@Plural}{.MP}Pettorali in bronzo{\@}" />
+    <string id="7CPMZKVY" text="{.MS}Abito di tartan{@Plural}{.MP}Abiti di tartan{\@}" />
+    <string id="7uJkrHeg" text="{.FS}Giubba con grembiule da donna{@Plural}{.FP}Giubbe con grembiule da donna{\@}" />
+    <string id="aJLikenm" text="{.MS}Gambesone da fanteria{@Plural}{.MP}Gambesoni da fanteria{\@}" />
+    <string id="ALbtxxyC" text="{.FS}Armatura lamellare da cavalleria{@Plural}{.FP}Armature lamellari da cavalleria{\@}" />
+    <string id="aM2EPdXj" text="{.MS}Tabarro rosso su usbergo di maglia{@Plural}{.MP}Tabarri rossi su usbergo di maglia{\@}" />
+    <string id="aSJbMKdb" text="{.MS}Tartan degli altopiani con pettorale{@Plural}{.MP}Tartan degli altopiani con pettorale{\@}" />
+    <string id="atSRQkCE" text="{.MS}Usbergo di maglia pesante{@Plural}{.MP}Usberghi di maglia pesante{\@}" />
+    <string id="atu9tCq8" text="{.MS}Abito su misura{@Plural}{.MP}Abiti su misura{\@}" />
+    <string id="blEEEOdy" text="{.FS}Cotta di maglia meridionale{@Plural}{.FP}Cotte di maglia meridionali{\@}" />
+    <string id="bLgnonyc" text="{.FS}Veste da contadino semplice{@Plural}{.FP}Vesti da contadino semplici{\@}" />
+    <string id="btrf2AXp" text="{.MP}Pantaloni corti larghi" />
+    <string id="bxzrU99N" text="{.FS}Veste di maglia meridionale con piastre in ottone{@Plural}{.FP}Vesti di maglia meridionali con piastre in ottone{\@}" />
+    <string id="c7wcTevc" text="{.FS}Armatura di cuoio su tessuto pesante{@Plural}{.FP}Armature di cuoio su tessuto pesante{\@}" />
+    <string id="camFHYrN" text="{.FS}Armatura di cuoio con piastre in ferro{@Plural}{.FP}Armature di cuoio con piastre in ferro{\@}" />
+    <string id="CqMQXzUd" text="{.MS}Gambesone ruvido da fanteria{@Plural}{.MP}Gambesoni ruvidi da fanteria{\@}" />
+    <string id="CttLMqiq" text="{.FS}Giubba da khan a piastre{@Plural}{.FP}Giubbe da khan a piastre{\@}" />
+    <string id="CZvGrvzY" text="{.FS}Veste di maglia pesante{@Plural}{.FP}Vesti di maglia pesante{\@}" />
+    <string id="dAgxHUsJ" text="{.FS}Cotta di maglia meridionale con decorazioni{@Plural}{.FP}Cotte di maglia meridionali con decorazioni{\@}" />
+    <string id="deA729dQ" text="{.MS}Abito tagliato con tasca{@Plural}{.MP}Abiti tagliati con tasca{\@}" />
+    <string id="dIfcfMbY" text="{.MS}Panciotto di cuoio borchiato{@Plural}{.MP}Panciotti di cuoio borchiati{\@}" />
+    <string id="DMciP5z3" text="{.MS}Abito lungo di tartan{@Plural}{.MP}Abiti lunghi di tartan{\@}" />
+    <string id="DUp0MKZQ" text="{.MS}Abito invernale{@Plural}{.MP}Abiti invernali{\@}" />
+    <string id="eHyxxxoK" text="{.MS}Usbergo da huscarlo{@Plural}{.MP}Usberghi da huscarlo{\@}" />
+    <string id="eRZK8Kbp" text="{.MS}Abito ricco{@Plural}{.MP}Abiti ricchi{\@}" />
+    <string id="EvW5Xzt2" text="{.FS}Armatura di maglia meridionale rinforzata senza maniche{@Plural}{.FP}Armature di maglia meridionali rinforzate senza maniche{\@}" />
+    <string id="F9GB8lMZ" text="{.MP}Stracci laceri" />
+    <string id="FOJHPU5N" text="{.MS}Mezzo grembiule{@Plural}{.MP}Mezzi grembiuli{\@}" />
+    <string id="FRWm800F" text="{.FS}Armatura di cuoio{@Plural}{.FP}Armature di cuoio{\@}" />
+    <string id="gbRVBOLH" text="{.MP}Vestiti da popolano" />
+    <string id="Gcrqt90P" text="{.FS}Maglia degli altopiani rinforzata{@Plural}{.FP}Maglie degli altopiani rinforzate{\@}" />
+    <string id="gSWtpl8a" text="{.FS}Tunica su veste di maglia{@Plural}{.FP}Tuniche su veste di maglia{\@}" />
+    <string id="i6QMSiut" text="{.MS}Caffettano con fascia{@Plural}{.MP}Caffettani con fascia{\@}" />
+    <string id="j7EZxCiG" text="{.FS}Vecchia giubba di pelliccia{@Plural}{.FP}Vecchie giubbe di pelliccia{\@}" />
+    <string id="jbxeZs8K" text="{.FS}Tunica da popolano{@Plural}{.FP}Tuniche da popolano{\@}" />
+    <string id="JsmnUp0T" text="{.MS}Abito femminile{@Plural}{.MP}Abiti femminili{\@}" />
+    <string id="K2JbjKLG" text="{.MS}Caffettano semplice{@Plural}{.MP}Caffettani semplici{\@}" />
+    <string id="LSaIs3DB" text="{.FS}Armatura di cuoio{@Plural}{.FP}Armature di cuoio{\@}" />
+    <string id="MFYaL8FL" text="{.FS}Armatura lamellare pesante su cotta di maglia{@Plural}{.FP}Armature lamellari pesanti su cotta di maglia{\@}" />
+    <string id="MLBA8tej" text="{.MS}Abito{@Plural}{.MP}Abiti{\@}" />
+    <string id="Mm1QAtPx" text="{.FS}Giacca di maglia meridionale rinforzata{@Plural}{.FP}Giacche di maglia meridionali rinforzate{\@}" />
+    <string id="mT1bvZxM" text="{.FS}Giubba di lusso da cittadino{@Plural}{.FP}Giubbe di lusso da cittadino{\@}" />
+    <string id="MXpeQ7jp" text="{.FS}Veste spessa da abitante di villaggio{@Plural}{.FP}Vesti spesse da abitante di villaggio{\@}" />
+    <string id="mzc6SKeH" text="{.MS}Abito a balze{@Plural}{.MP}Abiti a balze{\@}" />
+    <string id="n7e0y95m" text="{.FS}Armatura di cuoio lavorato e borchiato{@Plural}{.FP}Armature di cuoio lavorato e borchiato{\@}" />
+    <string id="NMSEAA4A" text="{.MS}Abito con pelliccia{@Plural}{.MP}Abiti con pelliccia{\@}" />
+    <string id="OyBdFyeV" text="{.FS}Veste di maglia meridionale senza maniche con piastre in ottone{@Plural}{.FP}Vesti di maglia meridionali senza maniche con piastre in ottone{\@}" />
+    <string id="pbxbCnVy" text="{.MS}Abito di seta da nobile{@Plural}{.MP}Abiti di seta da nobile{\@}" />
+    <string id="PP5SzUx0" text="{.MS}Abito con lacci{@Plural}{.MP}Abiti con lacci{\@}" />
+    <string id="puNpMCgX" text="{.FS}Armatura di maglia con fibbie{@Plural}{.FP}Armature di maglia con fibbie{\@}" />
+    <string id="QaTkvy56" text="{.FS}Giacca a scaglie in bronzo{@Plural}{.FP}Giacche a scaglie in bronzo{\@}" />
+    <string id="QfqwaRZ2" text="{.MS}Abito a vestaglia{@Plural}{.MP}Abiti a vestaglia{\@}" />
+    <string id="qhbOjHRI" text="{.MP}Indumenti imbottiti stracciati" />
+    <string id="qi1lkMqk" text="{.MS}Caffettano da donna{@Plural}{.MP}Caffettani da donna{\@}" />
+    <string id="qPm3xaiP" text="{.MS}Abito con grembiule{@Plural}{.MP}Abiti con grembiule{\@}" />
+    <string id="qrCVMyEk" text="{.FS}Armatura a scaglie ruvide{@Plural}{.FP}Armature a scaglie ruvide{\@}" />
+    <string id="QuaE76ua" text="{.FS}Veste da studioso{@Plural}{.FP}Vesti da studioso{\@}" />
+    <string id="r0Ln9bAp" text="{.MS}Grembiule in cuoio{@Plural}{.MP}Grembiuli in cuoio{\@}" />
+    <string id="RUvI70xS" text="{.MS}Abito a quadri{@Plural}{.MP}Abiti a quadri{\@}" />
+    <string id="SsCM14Xu" text="{.FS}Tunica pesante con maniche{@Plural}{.FP}Tuniche pesanti con maniche{\@}" />
+    <string id="t695AnJU" text="{.MS}Abito semplice{@Plural}{.MP}Abiti semplici{\@}" />
+    <string id="TOf8dVcn" text="{.FS}Armatura a scaglie ornata{@Plural}{.FP}Armature a scaglie ornate{\@}" />
+    <string id="tuEQnm2r" text="{.MS}Abito corto da abitante di villaggio{@Plural}{.MP}Abiti corti da abitante di villaggio{\@}" />
+    <string id="U7WGaQ45" text="{.FS}Armatura meridionale a scaglie superiore su usbergo di maglia{@Plural}{.FP}Armature meridionali a scaglie superiori su usbergo di maglia{\@}" />
+    <string id="v6W9XaDI" text="{.FS}Vecchia armatura di pelliccia{@Plural}{.FP}Vecchie armature di pelliccia{\@}" />
+    <string id="VqFV9LS4" text="{.MS}Abito rosso{@Plural}{.MP}Abiti rossi{\@}" />
+    <string id="w6j8Oaai" text="{.MP}Pantaloni corti larghi corazzati" />
+    <string id="whiQg21b" text="{.MS}Caffettano di lusso{@Plural}{.MP}Caffettani di lusso{\@}" />
+    <string id="wJ4Y9IFc" text="{.FS}Veste di maglia da cavaliere{@Plural}{.FP}Vesti di maglia da cavaliere{\@}" />
+    <string id="wRZ3LExm" text="{.FS}Giacca a scaglie in bronzo su gambesone{@Plural}{.FP}Giacche a scaglie in bronzo su gambesone{\@}" />
+    <string id="xlLoyxXT" text="{.FS}Armatura lamellare leggera{@Plural}{.FP}Armature lamellari leggere{\@}" />
+    <string id="ya4i8G3y" text="{.FS}Tunica con cintura{@Plural}{.FP}Tuniche con cintura{\@}" />
+    <string id="yfjqWrUx" text="{.MS}Abito comune da boscaiolo{@Plural}{.MP}Abiti comuni da boscaiolo{\@}" />
+    <string id="YTST4rdh" text="{.FS}Armatura di maglia meridionale rinforzata{@Plural}{.FP}Armature di maglia meridionali rinforzate{\@}" />
+    <string id="zadVVah1" text="{.FS}Cotta di maglia su fasce di cuoio da fanteria{@Plural}{.FP}Cotte di maglia su fasce di cuoio da fanteria{\@}" />
+    <string id="zG4Ms3f4" text="{.MS}Tartan degli altopiani{@Plural}{.MP}Tartan degli altopiani{\@}" />
+    <string id="ZMPw2IPy" text="{.FS}Pelliccia grezza su cotta di maglia{@Plural}{.FP}Pelliccia grezze su cotta di maglia{\@}" />
+    <string id="zVieddxB" text="{.FS}Armatura di maglia corta meridionale rinforzata{@Plural}{.FP}Armature di maglia corta meridionali rinforzate{\@}" />
+    <string id="1b6T0M72" text="{.FS}Corona austera{@Plural}{.FP}Corone austere{\@}" />
+    <string id="2U17pNiY" text="{.MS}Copricapo rurale{@Plural}{.MP}Copricapi rurali{\@}" />
+    <string id="3Q2F2BKD" text="{.FS}Cuffia imbottita leggera{@Plural}{.FP}Cuffie imbottite leggere{\@}" />
+    <string id="4vB2SPZa" text="{.MS}Elmetto da catafratto reale{@Plural}{.MP}Elmetti da catafratti reali{\@}" />
+    <string id="4xXPKRpE" text="{.MS}Elmetto piumato da condottiero{@Plural}{.MP}Elmetti piumati da condottieri{\@}" />
+    <string id="5kAqcWac" text="{.MS}Elmetto gemmato con rifiniture in pelliccia{@Plural}{.MP}Elmetti gemmati con rifiniture in pelliccia{\@}" />
+    <string id="77RIGK7B" text="{.FS}Cuffia di maglia{@Plural}{.FP}Cuffie di maglia{\@}" />
+    <string id="83qyvGkN" text="{.MS}Elmetto da condottiero{@Plural}{.MP}Elmetti da condottieri{\@} " />
+    <string id="9efOcFRL" text="{.FS}Bandana allentata{@Plural}{.FP}Bandane allentate{\@}" />
+    <string id="9j9fb5pR" text="{.MS}Elmetto a piastre con guardie laterali{@Plural}{.MP}Elmetti a piastre con guardie laterali{\@}" />
+    <string id="9UJfJrZR" text="{.MS}Cappello d&apos;arme chiodato su imbottitura{@Plural}{.MP}Cappelli d&apos;arme chiodati su imbottitura{\@}" />
+    <string id="ac9xJt2X" text="{.MS}Elmo con nasale pesante su imbottitura{@Plural}{.MP}Elmi con nasale pesante su imbottitura{\@}" />
+    <string id="ahN0UNxw" text="{.MS}Elmetto meridionale in ottone con turbante{@Plural}{.MP}Elmetti meridionali in ottone con turbante{\@}" />
+    <string id="AoJ4Ztl2" text="{.MS}Cappuccio di cuoio da bandito{@Plural}{.MP}Cappucci di cuoio da banditi{\@}" />
+    <string id="AQIH729X" text="{.MS}Elmo con nasale in ferro su cuoio{@Plural}{.MP}Elmi con nasale in ferro su cuoio{\@}" />
+    <string id="aYLCCpS4" text="{.MS}Elmetto chiuso meridionale da condottiero{@Plural}{.MP}Elmetti chiusi meridionali da condottiero{\@}" />
+    <string id="B7tbURzI" text="{.FS}Testa di lupo{@Plural}{.FP}Teste di lupo{\@}" />
+    <string id="b7TdIRac" text="{.MS}Cappello d&apos;arme rotondo su cotta di maglia{@Plural}{.MP}Cappelli d&apos;arme rotondi su cotta di maglia{\@}" />
+    <string id="BD07fj39" text="{.MS}Elmetto gemmato imperiale{@Plural}{.MP}Elmetti gemmati imperiali{\@}" />
+    <string id="bfFNYaiU" text="{.FS}Cervelliera su cuffia con lacci{@Plural}{.FP}Cervelliere su cuffia con lacci{\@}" />
+    <string id="BUlmMbgH" text="{.MS}Elmetto d&apos;arme rotondo{@Plural}{.MP}Elmetti d&apos;arme rotondi{\@}" />
+    <string id="bXVSSptk" text="{.MS}Elmetto pesante da cavaliere{@Plural}{.MP}Elmetti pesanti da cavalieri{\@}" />
+    <string id="C8nk7NEf" text="{.MS}Cappuccio di pelliccia spessa{@Plural}{.MP}Cappucci di pelliccia spessa{\@}" />
+    <string id="Cg7vqdPQ" text="{.MS}Elmo con nasale di ferro su cuffia{@Plural}{.MP}Elmi con nasale di ferro su cuffia{\@}" />
+    <string id="CHaYjWDb" text="{.MS}Cappello d&apos;arme rotondo leggero su cuoio{@Plural}{.MP}Cappelli d&apos;arme rotondi leggeri su cuoio{\@}" />
+    <string id="cQ6IsHSL" text="{.MS}Elmo con nasale di ferro su imbottitura{@Plural}{.MP}Elmi con nasale di ferro su imbottitura{\@}" />
+    <string id="DeawBxbx" text="{.MS}Cappello d&apos;arme chiodato su cotta di maglia{@Plural}{.MP}Cappelli d&apos;arme chiodati su cotta di maglia{\@}" />
+    <string id="dHv9Dbkp" text="{.MS}Elmetto meridionale in ottone con risvolti in cuoio{@Plural}{.MP}Elmetti meridionali in ottone con risvolti in cuoio{\@}" />
+    <string id="e3nslzlA" text="{.MS}Spangenhelm piumato su cuoio{@Plural}{.MP}Spangenhelm piumati su cuoio{\@}" />
+    <string id="E3XTFDXt" text="{.MS}Elmetto con paraocchi su cuoio{@Plural}{.MP}Elmetti con paraocchi su cuoio{\@}" />
+    <string id="E5b3gc6R" text="{.MS}Elmetto in ottone con turbante e risvolti in cuoio{@Plural}{.MP}Elmetti in ottone con turbante e risvolti in cuoio{\@}" />
+    <string id="e9BpfZ9L" text="{.FS}Cervelliera su velo di tessuto{@Plural}{.FP}Cervelliere su velo di tessuto{\@}" />
+    <string id="ebPu5G8o" text="{.MS}Elmetto d&apos;arme con cotta di maglia da mamelucco{@Plural}{.MP}Elmetti d&apos;arme con cotta di maglia da mamelucchi{\@}" />
+    <string id="EPaqJLSg" text="{.MS}Elmetto coronato{@Plural}{.MP}Elmetti coronati{\@}" />
+    <string id="ePdiHF5D" text="{.MS}Spangenhelm piumato{@Plural}{.MP}Spangenhelm piumati{\@}" />
+    <string id="f2awUw9x" text="{.FS}Kefiah colorata{@Plural}{.FP}Kefiah colorate{\@}" />
+    <string id="GdM7iaV9" text="{.MS}Casco signorile in acciaio{@Plural}{.MP}Caschi signorili in acciaio{\@}" />
+    <string id="GnkKOx5H" text="{.FS}Cervelliera segmentata su cuffia con lacci{@Plural}{.FP}Cervelliere segmentate su cuffia con lacci{\@}" />
+    <string id="Gzc0Ql3a" text="{.MS}Hijab colorato{@Plural}{.MP}Hijab colorati{\@}" />
+    <string id="HrLupYXP" text="{.MS}Elmetto chiuso meridionale in ottone con turbante{@Plural}{.MP}Elmetti chiusi meridionali in ottone con turbante{\@}" />
+    <string id="ISCtxKub" text="{.MS}Elmetto con paraocchi da pirata{@Plural}{.MP}Elmetti con paraocchi da pirata{\@}" />
+    <string id="JjaUzfDK" text="{.MS}Elmo con paraguance da condottiero{@Plural}{.MP}Elmi con paraguance da condottiero{\@}" />
+    <string id="k4kivaf5" text="{.MS}Casco in acciaio con paranaso{@Plural}{.MP}Caschi in acciaio con paranaso{\@}" />
+    <string id="KD3OTFlE" text="{.MS}Elmetto con piume e paracollo da nobile cavaliere lanciere{@Plural}{.MP}Elmetti con piume e paracollo da nobili cavalieri lancieri{\@}" />
+    <string id="kEInAJ2P" text="{.MS}Casco di pelliccia da nomade{@Plural}{.MP}Caschi di pelliccia da nomade{\@}" />
+    <string id="KhXnRIan" text="{.MS}Velo femminile{@Plural}{.MP}Veli femminili{\@}" />
+    <string id="lawHibbG" text="{.MS}Elmetto su cotta di maglia intera da condottiero{@Plural}{.MP}Elmetti su cotte di maglia intere da condottiero{\@}" />
+    <string id="N3SgmNxe" text="{.FS}Bandana{@Plural}{.FP}Bandane{\@}" />
+    <string id="NB9bQt6O" text="{.MS}Elmetto chiodato con turbante aperto{@Plural}{.MP}Elmetti chiodati con turbante aperto{\@}" />
+    <string id="NEupkuqV" text="{.FS}Bandana del deserto{@Plural}{.FP}Bandane del deserto{\@}" />
+    <string id="NhDpFjF0" text="{.MS}Elmetto con paraocchi chiuso e rinforzato{@Plural}{.MP}Elmetti con paraocchi chiusi e rinforzati{\@}" />
+    <string id="noqT1MMC" text="{.MS}Casco in acciaio con ornamenti{@Plural}{.MP}Caschi in acciaio con ornamenti{\@}" />
+    <string id="nUarDXVH" text="{.MS}Cappello d&apos;arme rotondo in ferro su cuoio{@Plural}{.MP}Cappelli d&apos;arme rotondo in ferro su cuoio{\@}" />
+    <string id="nZ2MJWhM" text="{.MS}Turbante tribale{@Plural}{.MP}Turbanti tribali{\@}" />
+    <string id="o67ySkfH" text="{.MS}Elmetto a piastre{@Plural}{.MP}Elmetti a piastre{\@}" />
+    <string id="oa2XYnHC" text="{.FS}Sciarpa rurale da donna{@Plural}{.FP}Sciarpe rurali da donna{\@}" />
+    <string id="Oa4h7TVi" text="{.MS}Cappello da nomade{@Plural}{.MP}Cappelli da nomade{\@}" />
+    <string id="OFxwPQyA" text="{.FS}Corona da battaglia{@Plural}{.FP}Corone da battaglia{\@}" />
+    <string id="OLkncAaD" text="{.MS}Elmetto con paraocchi chiuso di maglia{@Plural}{.MP}Elmetti con paraocchi chiuso di maglia{\@}" />
+    <string id="OrMbh1dn" text="{.MS}Elmetto da cavaliere lanciere pesante{@Plural}{.MP}Elmetti da cavaliere lanciere pesante{\@}" />
+    <string id="Pqua61u8" text="{.MS}Elmetto seghettato da condottiero{@Plural}{.MP}Elmetti seghettati da condottiero{\@}" />
+    <string id="PVWsZleW" text="{.MS}Elmetto con turbante aperto{@Plural}{.MP}Elmetti con turbante aperto{\@} " />
+    <string id="pxTmx2ka" text="{.MS}Elmetto chiuso meridionale in ottone{@Plural}{.MP}Elmetti chiusi meridionali in ottone{\@}" />
+    <string id="py7VUj47" text="{.MS}Zucchetto a punta su gambesone{@Plural}{.MP}Zucchetti a punta su gambesone{\@}" />
+    <string id="qojh0tsC" text="{.MS}Spangenhelm su cotta di maglia{@Plural}{.MP}Spangenhelm su cotta di maglia{\@}" />
+    <string id="qxExIHbx" text="{.MS}Elmo in cuoio borchiato{@Plural}{.MP}Elmi in cuoio borchiati{\@}" />
+    <string id="Qyg2bJLX" text="{.MS}Velo rurale{@Plural}{.MP}Veli rurali{\@}" />
+    <string id="RraboU6p" text="{.MS}Elmetto fasciato con cuffia di maglia{@Plural}{.MP}Elmetti fasciati con cuffia di maglia{\@}" />
+    <string id="rUMPiiox" text="{.MS}Elmetto con pelliccia da nobile cavaliere lanciere{@Plural}{.MP}Elmetti con pelliccia da nobile cavaliere lanciere{\@}" />
+    <string id="sc2x2QRe" text="{.FS}Bandana con fez{@Plural}{.FP}Bandane con fez{\@}" />
+    <string id="sDKfIQbO" text="{.MS}Velo da contadino{@Plural}{.MP}Veli da contadino{\@}" />
+    <string id="sDWEWefz" text="{.FS}Corona cerimoniale degli altopiani{@Plural}{.FP}Corone cerimoniali degli altopiani{\@}" />
+    <string id="SugbcP3D" text="{.MS}Velo rurale da donna{@Plural}{.MP}Veli rurali da donna{\@}" />
+    <string id="SV1pTR2P" text="{.FS}Cuffia imbottita{@Plural}{.FP}Cuffie imbottite{\@}" />
+    <string id="SVTa5spB" text="{.MS}Casco in acciaio chiuso{@Plural}{.MP}Caschi in acciaio chiusi{\@}" />
+    <string id="T6ObiB5P" text="{.MS}Elmetto chiodato con turbante chiuso{@Plural}{.MP}Elmetti chiodati con turbante chiuso{\@} " />
+    <string id="twbUeZph" text="{.MS}Elmo in ferro su tessuto da legionario{@Plural}{.MP}Elmi in ferro su tessuto da legionario{\@}" />
+    <string id="U0bVXSVs" text="{.MS}Casco fasciato{@Plural}{.MP}Caschi fasciati{\@}" />
+    <string id="u5eafobF" text="{.FS}Fascia gemmata imperiale{@Plural}{.FP}Fasce gemmate imperiali{\@}" />
+    <string id="udQSdRXR" text="{.FS}Corona ingioiellata{@Plural}{.FP}Corone ingioiellate{\@}" />
+    <string id="uRsU67qC" text="{.MS}Elmetto meridionale in ottone{@Plural}{.MP}Elmetti meridionali in ottone{\@}" />
+    <string id="UsOgGylA" text="{.MS}Cappello d&apos;arme con cotta di maglia{@Plural}{.MP}Cappelli d&apos;arme con cotta di maglia{\@}" />
+    <string id="uu9rXeYz" text="{.MS}Cappello d&apos;arme rotondo su imbottitura{@Plural}{.MP}Cappelli d&apos;arme rotondo su imbottitura{\@}" />
+    <string id="uz24W7s4" text="{.MS}Elmetto coronato a piastre{@Plural}{.MP}Elmetti coronati a piastre{\@}" />
+    <string id="V5qbVfWF" text="{.MS}Elmetto da guardia palatina{@Plural}{.MP}Elmetti da guardia palatina{\@}" />
+    <string id="vaVvDVu4" text="{.MS}Elmetto signorile con fasce metalliche{@Plural}{.MP}Elmetti signorili con fasce metalliche{\@}" />
+    <string id="VBrLhqiJ" text="{.MS}Elmetto chiuso da nobile{@Plural}{.MP}Elmetti chiusi da nobile{\@}" />
+    <string id="VwQJ4aLY" text="{.MS}Elmetto in acciaio da fanteria{@Plural}{.MP}Elmetti in acciaio da fanteria{\@}" />
+    <string id="VXFwEF3M" text="{.MS}Cappuccio da pellegrino{@Plural}{.MP}Cappucci da pellegrino{\@}" />
+    <string id="VYmHTbTY" text="{.MS}Elmetto su cotta di maglia da condottiero{@Plural}{.MP}{\@}" />
+    <string id="W8OGOfyt" text="{.FS}Kefiah con fascia marrone{@Plural}{.FP}Kefiah con fascia marrone{\@}" />
+    <string id="WF14UrdR" text="{.FS}Corona d&apos;alloro in oro{@Plural}{.FP}Corone d&apos;alloro in oro{\@}" />
+    <string id="WkYsiU1c" text="{.MS}Casco con cuffia di pelliccia{@Plural}{.MP}Caschi con cuffia di pelliccia{\@}" />
+    <string id="wvnJzwbU" text="{.MS}Elmetto di piastre da condottiero{@Plural}{.MP}Elmetti di piastre da condottiero{\@}" />
+    <string id="wW3iouiU" text="{.MS}Hijab{@Plural}{.MP}Hijab{\@}" />
+    <string id="XCnUaINR" text="{.MS}Elmo con nasale in bronzo su cotta di maglia{@Plural}{.MP}Elmi con nasale in bronzo su cotta di maglia{\@}" />
+    <string id="xJTfOqD6" text="{.MS}Elmetto con paraocchi da catafratto{@Plural}{.MP}Elmetti con paraocchi da catafratto{\@}" />
+    <string id="xTH3z9Sr" text="{.MS}Spangenhelm su cuoio{@Plural}{.MP}Spangenhelm su cuoio{\@}" />
+    <string id="YFg8x5QC" text="{.MS}Spangenhelm piumato su cuffia{@Plural}{.MP}Spangenhelm piumati su cuffia{\@}" />
+    <string id="Z95RglmZ" text="{.MS}Casco in acciaio da nobile{@Plural}{.MP}Caschi in acciaio da nobile{\@}" />
+    <string id="ZhcOdFgK" text="{.FS}Bandana di lusso{@Plural}{.FP}Bandane di lusso{\@}" />
+    <string id="ZOWdFaUi" text="{.MS}Zucchetto a punta su cuffia di maglia{@Plural}{.MP}Zucchetti a punta su cuffia di maglia{\@}" />
+    <string id="17tuCyeb" text="{.MS}Cavallo di Askarat{@Plural}{.MP}Cavalli di Askarat{\@}" />
+    <string id="1DqnZxiC" text="{.MS}Pony battanico{@Plural}{.MP}Pony battanici{\@}" />
+    <string id="1O761hqN" text="{.FS}Cammello da soma{@Plural}{.FP}Cammelli da soma{\@}" />
+    <string id="2SUb8jNP" text="{.MP}Finimenti per mulo con cesti" />
+    <string id="2WB0qeAi" text="{.MS}Cavallo della steppa{@Plural}{.MP}Cavalli della steppa{\@}" />
+    <string id="2wFal5Nd" text="{.MS}Cavallo d&apos;assalto da sortita{@Plural}{.MP}Cavalli d&apos;assalto da sortita{\@}" />
+    <string id="33aaUcaX" text="{.MP}Finimenti battanici per cavallo" />
+    <string id="7S6BjECG" text="{.MP}Finimenti per mulo da soma" />
+    <string id="8el5a3sF" text="{.MS}Pollo{@Plural}{.MP}Polli{\@}" />
+    <string id="9X2l53vY" text="{.MS}Minerale d&apos;argento{@Plural}{.MP}Carichi di minerale d&apos;argento{\@}" />
+    <string id="ABWvOCTE" text="{.MS}Cammello del Nahasa{@Plural}{.MP}Cammelli del Nahasa{\@}" />
+    <string id="amqJbdDV" text="{.FS}Barda a scaglie{@Plural}{.FP}Barde a scaglie{\@}" />
+    <string id="ApiPJ1NJ" text="{.MS}Cammello di Husnphree{@Plural}{.MP}Cammelli di Husnphree{\@}" />
+    <string id="aqrJqQqx" text="{.FS}Sella di tessuto da beduino{@Plural}{.FP}Selle di tessuto da beduino{\@}" />
+    <string id="avXZdUvi" text="{.FS}Sella in pelliccia{@Plural}{.FP}Selle in pelliccia{\@}" />
+    <string id="b56X0QOh" text="{.MS}Purosangue di Wadar{@Plural}{.MP}Purosangue di Wadar{\@}" />
+    <string id="b5BDaOva" text="{.MS}Lodolaio battanico{@Plural}{.MP}Lodolai battanici{\@}" />
+    <string id="b6JvcSiQ" text="{.MS}Gatto{@Plural}{.MP}Gatti{\@}" />
+    <string id="bBGDwuXX" text="{.MS}Cavallo Nahasawi{@Plural}{.MP}Cavalli Nahasawi{\@}" />
+    <string id="BvLhPmdK" text="{.MS}Destriero reale{@Plural}{.MP}Destrieri reali{\@}" />
+    <string id="CB97qhVM" text="{.MS}Mulo{@Plural}{.MP}Muli{\@}" />
+    <string id="Cdecpigb" text="{.MS}Cavallo indigeno sturgitano{@Plural}{.MP}Cavalli indigeni sturgitani{\@}" />
+    <string id="CHxRDUN1" text="{.FS}Sella robusta di pelliccia{@Plural}{.FP}Selle robuste di pelliccia{\@}" />
+    <string id="CjjzWA1r" text="{.MS}Cavallo da guerra del deserto{@Plural}{.MP}Cavalli da guerra del deserto{\@}" />
+    <string id="daI3Ybk8" text="{.MS}Pony di Glintor{@Plural}{.MP}Pony di Glintor{\@}" />
+    <string id="ds1nrqNv" text="{.FS}Barda a scaglie da catafratto{@Plural}{.FP}Barde a scaglie da catafratti{\@}" />
+    <string id="EfRKaKs0" text="{.MP}Finimenti in pelliccia della steppa" />
+    <string id="f2O1XjYd" text="{.MS}Cane{@Plural}{.MP}Cani{\@}" />
+    <string id="FhTUc64z" text="{.FS}Oca{@Plural}{.FP}Oche{\@}" />
+    <string id="FkqbAeoY" text="{.MS}Pony di Swenryn{@Plural}{.MP}Pony di Swenryn{\@}" />
+    <string id="GSiBXOfg" text="{.MS}Trottatore sturgitano{@Plural}{.MP}Trottatori sturgitani{\@}" />
+    <string id="HAcujhib" text="{.MS}Cammello{@Plural}{.MP}Cammelli{\@}" />
+    <string id="he5mGIMh" text="{.MS}Cavallo d&apos;assalto{@Plural}{.MP}Cavalli d&apos;assalto{\@}" />
+    <string id="HJriXlcb" text="{.FS}Barda di armatura di maglia rinforzata{@Plural}{.FP}Barde di armatura di maglia rinforzata{\@}" />
+    <string id="i2QlHUVW" text="{.FS}Mezza barda a scaglie da catafratto{@Plural}{.FP}Mezze barde a scaglie da catafratto{\@}" />
+    <string id="IIzhL9gt" text="{.MS}Cavallo da guerra{@Plural}{.MP}Cavalli da guerra{\@}" />
+    <string id="iquQ9dro" text="{.FS}Mezza barda di maglia{@Plural}{.FP}Mezze barde di maglia{\@}" />
+    <string id="ItUyYjdd" text="{.FS}Ascia da esecuzione{@Plural}{.FP}Asce da esecuzione{\@}" />
+    <string id="JHef9oad" text="{.MP}Finimenti per mulo con bisacce" />
+    <string id="JkxPt29i" text="{.FS}Armatura di cotta di maglia da cavallo{@Plural}{.FP}Armature di cotta di maglia da cavallo{\@}" />
+    <string id="k3dvbLDi" text="{.FS}Sella di Enea{@Plural}{.FP}Selle di Enea{\@}" />
+    <string id="K4uryqOO" text="{.MS}Purosangue battanico{@Plural}{.MP}Purosangue battanici{\@}" />
+    <string id="kKuVy1jT" text="{.MS}Cavallo di Khamseen{@Plural}{.MP}Cavalli di Khamseen{\@}" />
+    <string id="Kp9kslko" text="{.MS}Cavallo darshi{@Plural}{.MP}Cavalli darshi{\@}" />
+    <string id="LzlQUcak" text="{.FS}Barda lamellare{@Plural}{.FP}Barde lamellari{\@}" />
+    <string id="meARhlZC" text="{.MS}Corsiero di Valanby{@Plural}{.MP}Corsieri di Valanby{\@}" />
+    <string id="MedDPUNh" text="{.MS}Destriero{@Plural}{.MP}Destrieri{\@}" />
+    <string id="MI65uuKB" text="{.FS}Barda in broigne{@Plural}{.FP}Barde in broigne{\@}" />
+    <string id="N5aT5hoA" text="{.MS}Palafreno delle lande centrali{@Plural}{.MP}Palafreni delle lande centrali{\@}" />
+    <string id="nhaiQ9oX" text="{.MS}Cacciatore della steppa{@Plural}{.MP}Cacciatori della steppa{\@}" />
+    <string id="NNUXGwTc" text="{.MS}Cavallo di Karahan{@Plural}{.MP}Cavalli di Karahan{\@}" />
+    <string id="NRB3V6yP" text="{.FS}Mezza barda di piastre rinforzata{@Plural}{.FP}Mezze barde di piastre rinforzate{\@}" />
+    <string id="NtsdmmW9" text="{.MP}Datteri{@Plural}{.MP}Sacchi di datteri{\@}" />
+    <string id="OaQE1Frx" text="{.FS}Sella della steppa{@Plural}{.FP}Selle della steppa{\@}" />
+    <string id="OflbQCw6" text="{.FS}Sella per cammello con carico leggero{@Plural}{.FP}Selle per cammello con carico leggero{\@}" />
+    <string id="Og0FswFV" text="{.MS}Trottatore di Omor{@Plural}{.MP}Trottatori di Omor{\@}" />
+    <string id="OKn90ad7" text="{.MS}Cavallo d&apos;assalto di Canterion{@Plural}{.MP}Cavalli d&apos;assalto di Canterion{\@}" />
+    <string id="P1rL28RT" text="{.MS}Cavallo di Sumpter{@Plural}{.MP}Cavalli di Sumpter{\@}" />
+    <string id="p2jR7Urm" text="{.FS}Sella robusta{@Plural}{.FP}Selle robuste{\@}" />
+    <string id="pb2ELRZQ" text="{.MS}Cavallo da sella{@Plural}{.MP}Cavalli da sella{\@}" />
+    <string id="Pd77RH8P" text="{.MS}Ronzino{@Plural}{.MP}Ronzini{\@}" />
+    <string id="qNNja5IF" text="{.FS}Mezza barda lamellare{@Plural}{.FP}Mezze barde lamellari{\@}" />
+    <string id="Qqdl6fbM" text="{.FS}Sella robusta da beduino{@Plural}{.FP}Selle robuste da beduini{\@}" />
+    <string id="quDh9Vlu" text="{.MS}Cavallo del deserto{@Plural}{.MP}Cavalli del deserto{\@}" />
+    <string id="r8NS1wz7" text="{.MS}Purosangue{@Plural}{.MP}Purosangue{\@}" />
+    <string id="rmjcrnll" text="{.MS}Cavallo di Palmatian{@Plural}{.MP}Cavalli di Palmatian{\@}" />
+    <string id="rO0oKtAo" text="{.MS}Stendardo da campagna piccolo{@Plural}{.MP}Stendardi da campagna piccoli{\@}" />
+    <string id="TXpQetkh" text="{.MS}Cammello da guerra{@Plural}{.MP}Cammelli da guerra{\@}" />
+    <string id="U3SWNkFt" text="{.MS}Cavallo da tiro{@Plural}{.MP}Cavalli da tiro{\@}" />
+    <string id="uPrWdLxV" text="{.MS}Cacciatore di Revyl{@Plural}{.MP}Cacciatori di Revyl{\@}" />
+    <string id="uRqm1nJ7" text="{.FS}Sella leggera{@Plural}{.FP}Selle leggere{\@}" />
+    <string id="uTt4HX6V" text="{.MS}Cavallo di Tyal{@Plural}{.MP}Cavalli di Tyal{\@}" />
+    <string id="Vj4ZBxm5" text="{.FS}Barda di piastre rinforzata{@Plural}{.FP}Barde di piastre rinforzate{\@}" />
+    <string id="voORddjl" text="{.MS}Cavallo cossiano{@Plural}{.MP}Cavalli cossiani{\@}" />
+    <string id="vPAHwC3X" text="{.MP}Beni rubati" />
+    <string id="VqCS28U1" text="{.MS}Mulo{@Plural}{.MP}Muli{\@}" />
+    <string id="vRIpgxhi" text="{.FN}Scelta del Fato" />
+    <string id="vXsifw1K" text="{.MS}Cavallo di Asaligat{@Plural}{.MP}Cavalli di Asaligat{\@}" />
+    <string id="w6Oz5viK" text="{.MS}Palafreno delle lande centrali{@Plural}{.MP}Palafreni delle lande centrali{\@}" />
+    <string id="W8r7A7qH" text="{.FS}Mezza barda a scaglie{@Plural}{.FP}Mezze barde a scaglie{\@}" />
+    <string id="Wj98Otmo" text="{.MS}Cavallo d&apos;assalto della steppa{@Plural}{.MP}Cavalli d&apos;assalto della steppa{\@}" />
+    <string id="yy7RvQKN" text="{.MS}Bō{@Plural}{.MP}Bō{\@}" />
+    <string id="ZgVVPGTb" text="{.FS}Uva{@Plural}{.MP}Sacchi d&apos;uva{\@}" />
+    <string id="ZJYVpjuR" text="{.FS}Sella per cammello con carico pesante{@Plural}{.FP}Selle per cammello con carico pesante{\@}" />
+    <string id="zPbDZ9VA" text="{.FS}Sella comune da beduino{@Plural}{.FP}Selle comuni da beduino{\@}" />
+    <string id="18ZFPXsO" text="{.MP}Stivali di piastre da huscarlo" />
+    <string id="4KZekKff" text="{.MP}Stivali con lacci" />
+    <string id="4Ygp7P0Y" text="{.MP}Stivali di cuoio degli altopiani" />
+    <string id="6QNQosHv" text="{.MP}Stivali di cuoio con lacci" />
+    <string id="bFm9jOft" text="{.MP}Stivali di cuoio con cinturino" />
+    <string id="DhHBBpPf" text="{.MP}Stivali di cuoio semplici" />
+    <string id="FptcHNb9" text="{.MP}Stivali fasciati" />
+    <string id="FQqaVHq2" text="{.MP}Stivali da boscaiolo" />
+    <string id="Ga5mCiLp" text="{.MP}Stivali da equitazione di cuoio" />
+    <string id="IOOTPpYj" text="{.MP}Stivali curvi con rifiniture in pelliccia" />
+    <string id="jVK5B86k" text="{.MP}Stivali di pelliccia" />
+    <string id="L7qYlJqn" text="{.MP}Stivali da boscaiolo" />
+    <string id="RU2EppgI" text="{.FP}Scarpe da donna" />
+    <string id="SxqSJK8h" text="{.MP}Mocassini" />
+    <string id="UuWPfE1x" text="{.MP}Stivali a scaglie" />
+    <string id="uvSXUgT8" text="{.MP}Stivali da cavaliere" />
+    <string id="VpxHysbZ" text="{.MP}Stivali di cuoio robusti" />
+    <string id="xqE9aycc" text="{.FS}Fasce per gambe da boscaiolo" />
+    <string id="xwWYJb5A" text="{.MP}Stivali di cuoio piegati" />
+    <string id="XXGZLTN6" text="{.MP}Stivali di piastra con decorazioni" />
+    <string id="0666zYUB" text="{.MS}Adarga borchiato{@Plural}{.MP}Adarga borchiati{\@}" />
+    <string id="1w5StEM1" text="{.MS}Scudo in vimini{@Plural}{.MP}Scudi in vimini{\@}" />
+    <string id="3TAnl7hb" text="{.MS}Scudo orientale decorato{@Plural}{.MP}Scudi orientali decorati{\@}" />
+    <string id="7MlFqkJ8" text="{.MS}Scudo a goccia da cavaliere di fortuna{@Plural}{.MP}Scudi a goccia da cavaliere di fortuna{\@}" />
+    <string id="8ndLVeN0" text="{.MS}Scudo a goccia di legno{@Plural}{.MP}Scudi a goccia di legno{\@}" />
+    <string id="8UMQ8ocB" text="{.MS}Scudo da cavalleria orientale{@Plural}{.MP}Scudi da cavalleria orientale{\@}" />
+    <string id="ap2yulQ2" text="{.MS}Scudo triangolare piatto{@Plural}{.MP}Scudi triangolari piatti{\@}" />
+    <string id="aprm5ypZ" text="{.MS}Scudo robusto da cavalleria leggera{@Plural}{.MP}Scudi robusti da cavalleria leggera{\@}" />
+    <string id="BmHJmxXz" text="{.MS}Scudo da cavalleria rinforzato{@Plural}{.MP}Scudi da cavalleria rinforzati{\@}" />
+    <string id="buaIafV6" text="{.MS}Scudo triangolare con rinforzi{@Plural}{.MP}Scudi triangolari con rinforzi{\@}" />
+    <string id="C2IIn10Q" text="{.MS}Scudo rotondo grande semplice{@Plural}{.MP}Scudi rotondi grandi semplici{\@}" />
+    <string id="cXesETQJ" text="{.MS}Adarga grande{@Plural}{.MP}Adarga grandi{\@}" />
+    <string id="dbbwszHd" text="{.MS}Scudo rotondo decorato{@Plural}{.MP}Scudi rotondi decorati{\@}" />
+    <string id="djSq8yL0" text="{.MS}Scudo angolare a goccia{@Plural}{.MP}Scudi angolari a goccia{\@}" />
+    <string id="eopAWegQ" text="{.MS}Scudo a goccia a punta di foglia{@Plural}{.MP}Scudi a goccia a punta di foglia{\@}" />
+    <string id="gfQDDkEY" text="{.FS}Adarga in legno{@Plural}{.FP}Adarga in legno{\@}" />
+    <string id="hRKmfw2H" text="{.MS}Scudo rotondo pesante{@Plural}{.MP}Scudi rotondi pesanti{\@}" />
+    <string id="hytuHaoA" text="{.MS}Scudo a goccia borchiato con fasce{@Plural}{.MP}Scudi a goccia borchiati con fasce{\@}" />
+    <string id="IBXDYUZW" text="{.MS}Scudo a goccia da cavaliere{@Plural}{.MP}Scudi a goccia da cavaliere{\@}" />
+    <string id="iE9JNuZI" text="{.MS}Scudo rotondo della steppa{@Plural}{.MP}Scudi rotondi della steppa{\@}" />
+    <string id="iFPkhVGe" text="{.MS}Scudo triangolare piatto piccolo{@Plural}{.MP}Scudi triangolari piatti piccoli{\@}" />
+    <string id="jAbn05Vg" text="{.MS}Scudo a goccia da cavaliere semplice{@Plural}{.MP}Scudi a goccia da cavaliere semplici{\@}" />
+    <string id="jdOu5l5D" text="{.MS}Scudo a goccia a punta di foglia rinforzato{@Plural}{.MP}Scudi a goccia a punta di foglia rinforzati{\@}" />
+    <string id="jqWBGBo7" text="{.MS}Scudo piccolo da cavalleria rinforzato{@Plural}{.MP}Scudi piccoli da cavalleria rinforzati{\@}" />
+    <string id="JzZJpbTB" text="{.FS}Targa rinforzata{@Plural}{.FP}Targhe rinforzate{\@}" />
+    <string id="kNDbSy6K" text="{.MS}Scudo a goccia da cavalleria rinforzato{@Plural}{.MP}Scudi a goccia da cavalleria rinforzati{\@}" />
+    <string id="LOhfAMnh" text="{.MS}Scudo triangolare da cavalleria piccolo{@Plural}{.MP}Scudi triangolari da cavalleria piccoli{\@}" />
+    <string id="Mb1hQRyT" text="{.MS}Scudo ovale del deserto{@Plural}{.MP}Scudi ovali del deserto{\@}" />
+    <string id="MiUxU83P" text="{.MS}Scudo a goccia semplice{@Plural}{.MP}Scudi a goccia semplici{\@}" />
+    <string id="n3sz2k5j" text="{.MS}Scudo a goccia da cavalieri{@Plural}{.MP}Scudi a goccia da cavalieri{\@}" />
+    <string id="NFvuDpwG" text="{.MS}Scudo a goccia fortificato{@Plural}{.MP}Scudi a goccia fortificati{\@}" />
+    <string id="nVAhoxcH" text="{.MS}Scudo da cavalieri{@Plural}{.MP}Scudi da cavalieri{\@}" />
+    <string id="O3TTXEFe" text="{.MS}Scudo a goccia da cavalleria leggera{@Plural}{.MP}Scudi a goccia da cavalleria leggera{\@}" />
+    <string id="OIcwZGmC" text="{.MS}Scudo di vimini rinforzato{@Plural}{.MP}Scudi di vimini rinforzati{\@}" />
+    <string id="OSHSIyhN" text="{.MS}Scudo rotondo degli altopiani{@Plural}{.MP}Scudi rotondi degli altopiani{\@}" />
+    <string id="pmabPgC0" text="{.MS}Scudo tribale della steppa{@Plural}{.MP}Scudi tribali della steppa{\@}" />
+    <string id="przGGaVm" text="{.MS}Scudo grande degli altopiani in bronzo rinforzato{@Plural}{.MP}Scudi grandi degli altopiani in bronzo rinforzato{\@}" />
+    <string id="QcKpipVr" text="{.MS}Adarga{@Plural}{.MP}Adarga{\@}" />
+    <string id="QodawBSN" text="{.MS}Scudo rotondo in ferro{@Plural}{.MP}Scudi rotondi in ferro{\@}" />
+    <string id="T3SFANYK" text="{.MS}Scudo a goccia dei Druzhinnik{@Plural}{.MP}Scudi a goccia dei Druzhinnik{\@}" />
+    <string id="txgUxMYw" text="{.MS}Scudo triangolare sagomato{@Plural}{.MP}Scudi triangolari sagomati{\@}" />
+    <string id="veI9RcR3" text="{.MS}Scudo a goccia rinforzato{@Plural}{.MP}Scudi a goccia rinforzati{\@}" />
+    <string id="vFqkSbGC" text="{.MS}Scudo rotondo rinforzato del deserto{@Plural}{.MP}Scudi rotondi rinforzati del deserto{\@}" />
+    <string id="vsI4M5oq" text="{.MS}Scudo grande degli altopiani in ferro rinforzato{@Plural}{.MP}Scudi grandi degli altopiani in ferro rinforzato{\@}" />
+    <string id="vXvuViMT" text="{.MS}Scudo a goccia di fortuna{@Plural}{.MP}Scudi a goccia di fortuna{\@}" />
+    <string id="wAcc9SX4" text="{.MS}Scudo grande degli altopiani{@Plural}{.MP}Scudi grandi degli altopiani{\@}" />
+    <string id="WpdmIlU5" text="{.MS}Scudo a goccia bordato in ferro{@Plural}{.MP}Scudi a goccia bordati in ferro{\@}" />
+    <string id="WzAJJQjP" text="{.MS}Scudo rotondo del deserto{@Plural}{.MP}Scudi rotondi del deserto{\@}" />
+    <string id="YRYJGzxw" text="{.MS}Adarga con ornamenti{@Plural}{.MP}Adarga con ornamenti{\@}" />
+    <string id="z62uDlbh" text="{.MS}Scudo rotondo norreno{@Plural}{.MP}Scudi rotondi norreni{\@}" />
+    <string id="1EhlbySK" text="{.MS}Mantello corto{@Plural}{.MP}Mantelli corti{\@}" />
+    <string id="27GO9o9K" text="{.FP}Spalliere di piastre in ferro" />
+    <string id="3Xx3hg8s" text="{.MP}Guardaspalle a scaglie con decorazioni" />
+    <string id="4ryhrb9p" text="{.MP}Finimenti rinforzati con cappa" />
+    <string id="567zyLq5" text="{.MP}Spallacci di cuoio lavorato e borchiato" />
+    <string id="5gsp0xUN" text="{.MS}Guardaspalle di maglia{@Plural}{.MP}Guardaspalle di maglia{\@}" />
+    <string id="5uqExwWb" text="{.MS}Mantello in pelliccia da boscaiolo{@Plural}{.MP}Mantelli in pelliccia da boscaiolo{\@}" />
+    <string id="9w40yGlZ" text="{.MS}Guardaspalle di cuoio{@Plural}{.MP}Guardaspalle di cuoio{\@}" />
+    <string id="aChUcrRt" text="{.MP}Guardaspalle a scaglie" />
+    <string id="AHQQp0O0" text="{.MP}Guardaspalle lamellari di cuoio" />
+    <string id="B58Ocaxw" text="{.MS}Mantello di pelliccia con catene{@Plural}{.MP}Mantelli di pelliccia con catene{\@}" />
+    <string id="beg6guIH" text="{.FS}Cappa di pelle di lupo{@Plural}{.FP}Cappe di pelle di lupo{\@}" />
+    <string id="C6f64ZyJ" text="{.FP}Spalliere rinforzate ornate su scaglie" />
+    <string id="D2ZuOT3H" text="{.MP}Guardaspalle lamellari in bronzo rinforzati" />
+    <string id="DbEzJcbD" text="{.FP}Spalliere lamellari" />
+    <string id="dIgaajLB" text="{.FP}Spalliere a scaglie in bronzo decorato a maniche lunghe" />
+    <string id="e6WOD7Ra" text="{.FS}Cappa a frange{@Plural}{.FP}Cappe a frange{\@}" />
+    <string id="ectdzWNx" text="{.FS}Sciarpa pesante in tartan{@Plural}{.FP}Sciarpe pesante in tartan{\@}" />
+    <string id="EyQTfFS6" text="{.FS}Spallina intrecciata{@Plural}{.FP}Spalline intrecciate{\@}" />
+    <string id="FItBDuqh" text="{.MS}Cappuccio in cotone{@Plural}{.MP}Cappucci in cotone{\@}" />
+    <string id="FQdTo5ay" text="{.MP}Guardaspalle a scaglie" />
+    <string id="h1bcf5zn" text="{.MS}Scialle{@Plural}{.MP}Scialli{\@}" />
+    <string id="HJdIkdm2" text="{.FS}Sciarpa spessa{@Plural}{.FP}Sciarpe spesse{\@}" />
+    <string id="hjYFbvcy" text="{.FS}Cappa da boscaiolo{@Plural}{.FP}Cappe da boscaiolo{\@}" />
+    <string id="Ie0EazLn" text="{.FP}Spalliere lamellari pesanti" />
+    <string id="imHoaCGi" text="{.MP}Guardaspalle a scaglie in bronzo" />
+    <string id="jQKVnVNR" text="{.FP}Spalliere in bronzo" />
+    <string id="k9ouZ59X" text="{.FP}Spalliere a scaglie in bronzo" />
+    <string id="kjzCaoMK" text="{.MS}Paracollo con spalliere di piastre in bronzo{@Plural}{.MP}Paracollo con spalliere di piastre in bronzo{\@}" />
+    <string id="KQ9h5eAe" text="{.MS}Mantello pesante{@Plural}{.MP}Mantelli pesanti{\@}" />
+    <string id="KrzAIXgG" text="{.FP}Spalliere a scaglie in bronzo decorato" />
+    <string id="LePDTpFD" text="{.MP}Guardaspalle a scaglie in bronzo rinforzati" />
+    <string id="NJSYumaV" text="{.FP}Spalliere ornate" />
+    <string id="NuWovN18" text="{.MP}Guardaspalle lamellari in bronzo" />
+    <string id="NZjbiEXg" text="{.MS}Mantello di tartan{@Plural}{.MP}Mantelli di tartan{\@}" />
+    <string id="Oub0aVl3" text="{.FP}Spalliere di cuoio lavorato" />
+    <string id="P0FmQHgF" text="{.MP}Finimenti di cuoio decorato su maglia" />
+    <string id="p0Xgt48l" text="{.MS}Grande mantello di pelliccia con piastra circolare{@Plural}{.MP}Grandi mantelli di pelliccia con piastra circolare{\@}" />
+    <string id="P96J2c61" text="{.FP}Spalliere di piastre in bronzo" />
+    <string id="P9wiCrIU" text="{.MP}Spallacci di maglia rinforzata" />
+    <string id="pGmYxauO" text="{.FS}Cappa da legionario{@Plural}{.FP}Cappe da legionario{\@}" />
+    <string id="Q19xluDy" text="{.MS}Paracollo borchiato rinforzato{@Plural}{.MP}Paracollo borchiati rinforzati{\@}" />
+    <string id="qGzZ78bM" text="{.FP}Fasce in cuoio borchiato" />
+    <string id="QlpyR6uc" text="{.MP}Guardaspalle lamellari" />
+    <string id="re2oRFLW" text="{.FP}Spalliere con cappa" />
+    <string id="RmPPVmgJ" text="{.MP}Coprispalle in bronzo lamellare" />
+    <string id="s7siCSsh" text="{.MP}Finimenti da legionario borchiati e rinforzati" />
+    <string id="s7WRzaf2" text="{.FS}Pelle d&apos;orso{@Plural}{.FP}Pelli d&apos;orso{\@}" />
+    <string id="SRyvwNd1" text="{.FP}Spalliere ornate con cappa" />
+    <string id="t6pQ6Vxc" text="{.MP}Guardaspalle borchiati rinforzati" />
+    <string id="TS7NjgyH" text="{.MP}Finimenti borchiati da legionario" />
+    <string id="U0zBG3F9" text="{.FP}Spalliere a scaglie" />
+    <string id="uIov9Yo9" text="{.MP}Guardaspalle scamosciati rinforzati" />
+    <string id="ujntvg7M" text="{.MS}Mantello di pelliccia con piastra circolare{@Plural}{.MP}Mantelli di pelliccia con piastra circolare{\@}" />
+    <string id="Uo2t80GH" text="{.MP}Coprispalle lamellari in acciaio decorato" />
+    <string id="URZVE5aK" text="{.FP}Spalliere in bronzo con paracollo" />
+    <string id="UTXWsY1Y" text="{.FP}Spalliere di cuoio rinforzate" />
+    <string id="vo9kYKNQ" text="{.MP}Coprispalle lamellari" />
+    <string id="vRBg9ICF" text="{.MP}Finimenti da spalla in tartan" />
+    <string id="W9bsRAfD" text="{.MP}Guardaspalle di cotta di maglia" />
+    <string id="WDNKhjca" text="{.FP}Cinghie imbottite da legionario" />
+    <string id="wMsbMc2T" text="{.FP}Spalliere ornate rinforzate" />
+    <string id="XpzvP7hE" text="{.MP}Guardaspalle lamellari rinforzati" />
+    <string id="yrCoCgJf" text="{.FP}Spalliere pesanti da condottiero" />
+    <string id="z4nryDlp" text="{.MP}Guardaspalle a scaglie in bronzo a maniche lunghe" />
+    <string id="zf2GUNfh" text="{.MP}Guardaspalle di cuoio lamellare decorati" />
+    <string id="2Igdc86g" text="{.FS}Spatha da allenamento{@Plural}{.FP}Spatha da allenamento{\@}" />
+    <string id="4Ea6pr5p" text="{.FS}Balestra da allenamento{@Plural}{.FP}Balestre da allenamento{\@}" />
+    <string id="5dQdBOTa" text="{.FS}Ascia Gallowglass da allenamento{@Plural}{.FP}Asce Gallowglass da allenamento{\@}" />
+    <string id="89bCqb0Z" text="{.MS}Scudo per torneo quadrato di vimini{@Plural}{.MP}Scudi per torneo quadrati di vimini{\@}" />
+    <string id="8WlRREMh" text="{.FS}Ascia con manico in bambù da allenamento{@Plural}{.FP}Asce con manico in bambù da allenamento{\@}" />
+    <string id="AB2lD2JQ" text="{.MS}Menavlion da allenamento{@Plural}{.MP}Menavlion da allenamento{\@}" />
+    <string id="APO9YcBv" text="{.FS}Ascia a due mani da allenamento{@Plural}{.FP}Asce a due mani da allenamento{\@}" />
+    <string id="B0E6Zfyk" text="{.MS}Giavellotto da allenamento{@Plural}{.MP}Giavellotti da allenamento{\@}" />
+    <string id="BACi0kaM" text="{.FS}Lancia seghettata da allenamento{@Plural}{.FP}Lance seghettate da allenamento{\@}" />
+    <string id="cG1g4T3t" text="{.MS}Flyssa da allenamento{@Plural}{.MP}Flyssa da allenamento{\@}" />
+    <string id="D1webCRZ" text="{.MS}Spadone da allenamento{@Plural}{.MP}Spadoni da allenamento{\@}" />
+    <string id="EbWA5mcO" text="{.MS}Roncone da allenamento{@Plural}{.MP}Ronconi da allenamento{\@}" />
+    <string id="es77bJBa" text="{.MS}Pugnale da lancio da allenamento{@Plural}{.MP}Pugnali da lancio da allenamento{\@}" />
+    <string id="faiiCbbS" text="{.MS}Scudo rotondo da allenamento{@Plural}{.MP}Scudi rotondi da allenamento{\@}" />
+    <string id="feMEjAIj" text="{.MS}Scudo a goccia da cavaliere da allenamento{@Plural}{.MP}Scudi a goccia da cavaliere da allenamento{\@}" />
+    <string id="HIjSiX4E" text="{.FS}Lancia da allenamento{@Plural}{.FP}Lance da allenamento{\@}" />
+    <string id="hyagO05b" text="{.FS}Targa da allenamento{@Plural}{.FP}Targhe da allenamento{\@}" />
+    <string id="Kba6rxWK" text="{.FS}Scimitarra da allenamento{@Plural}{.FP}Scimitarre da allenamento{\@}" />
+    <string id="lGHrlYqQ" text="{.FS}Arma a due mani da allenamento{@Plural}{.FP}Arme a due mani da allenamento{\@}" />
+    <string id="LLaFEt1m" text="{.FS}Spada d&apos;armi da allenamento{@Plural}{.FP}Spade d&apos;armi da allenamento{\@}" />
+    <string id="LpN4YWb2" text="{.FS}Sciabola da allenamento{@Plural}{.FP}Sciabole da allenamento{\@}" />
+    <string id="lW3smDRu" text="{.MS}Scudo a goccia da allenamento{@Plural}{.MP}Scudi a goccia da allenamento{\@}" />
+    <string id="M75Ybg6r" text="{.FS}Ascia da lancio da allenamento{@Plural}{.FP}Asce da lancio da allenamento{\@}" />
+    <string id="pdtQybBM" text="{.MS}Scudo rotondo da allenamento del deserto{@Plural}{.MP}Scudi rotondi da allenamento del deserto{\@}" />
+    <string id="Rwp23MLA" text="{.FS}Lama da allenamento{@Plural}{.FP}Lame da allenamento{\@}" />
+    <string id="tcN9Vyn7" text="{.MS}Giavellotto smussato da allenamento{@Plural}{.MP}Giavellotti smussati da allenamento{\@}" />
+    <string id="XU0b0yiW" text="{.FS}Lancia da cavalleria da allenamento{@Plural}{.FP}Lance da cavalleria da allenamento{\@}" />
+    <string id="YmoddWwb" text="{.MS}Scramasax da allenamento{@Plural}{.MP}Scramasax da allenamento{\@}" />
+    <string id="YQ9ybgmj" text="{.FS}Alabarda da allenamento{@Plural}{.FP}Alabarde da allenamento{\@}" />
+    <string id="06Qoh8AO" text="{.FS}Spada da guerra corta fasciata in oro{@Plural}{.FP}Spade da guerra corte fasciate in oro{\@}" />
+    <string id="0lNp3f76" text="{.FS}Kaskara angolare cesellata{@Plural}{.FP}Kaskara angolari cesellate{\@}" />
+    <string id="0NLJnGfF" text="{.MS}Giavellotto semplice{@Plural}{.MP}Giavellotti semplici{\@}" />
+    <string id="0S8k9Hqa" text="{.FS}Balestra leggera da contadino{@Plural}{.FP}Balestre leggere da contadino{\@}" />
+    <string id="160aqzPm" text="{.MS}Rasoio da guerra{@Plural}{.MP}Rasoi da guerra{\@}" />
+    <string id="1bc4kTaz" text="{.MS}Spathion in acciaio di Thamaske{@Plural}{.FP}Spathia in acciaio di Thamaske{\@}" />
+    <string id="1CamO1P3" text="{.FS}Spatha in ferro{@Plural}{.FP}Spatha in ferro{\@}" />
+    <string id="1HWRwbwT" text="{.FS}Spada in legno{@Plural}{.FP}Spade in legno{\@}" />
+    <string id="1mCmYNl6" text="{.FS}Lama inastata{@Plural}{.FP}Lame inastate{\@}" />
+    <string id="1oQWbXJw" text="{.MS}Arpione da pesca{@Plural}{.MP}Arpioni da pesca{\@}" />
+    <string id="1WxLaeQE" text="{.FS}Spada a due mani in acciaio pregiato{@Plural}{.FP}Spade a due mani in acciaio pregiato{\@}" />
+    <string id="24MA4JLX" text="{.FS}Kaskara lunga seghettata{@Plural}{.FP}Kaskara lunghe seghettate{\@}" />
+    <string id="2dJ5HB8a" text="{.MN}Cuore Nero" />
+    <string id="3daDQxwM" text="{.FP}Frecce dei bassopiani" />
+    <string id="3Pv0SlYj" text="{.MS}Scramasax{@Plural}{.MP}Scramasax{\@}" />
+    <string id="3yh33obu" text="{.FS}Lancia da cavalleria dei Druzhinnik{@Plural}{.FP}Lance da cavalleria dei Druzhinnik{\@}" />
+    <string id="3YhwjpQ0" text="{.FS}Spada stretta{@Plural}{.FP}Spade strette{\@}" />
+    <string id="4cMV1pY3" text="{.FS}Mazza leggera imperiale{@Plural}{.FP}Mazze leggere imperiali{\@}" />
+    <string id="4jmcs2Xm" text="{.MP}Quadrelli del torneo" />
+    <string id="4OaVIYuD" text="{.FS}Spatha con scanalatura stretta{@Plural}{.FP}Spatha con scanalatura stretta{\@}" />
+    <string id="4q69NwNy" text="{.FS}Spada d&apos;armi ricurva con guardia{@Plural}{.FP}Spade d&apos;armi ricurve con guardia{\@}" />
+    <string id="4RTsybkx" text="{.MS}Rasoio da guerra{@Plural}{.MP}Rasoi da guerra{\@}" />
+    <string id="4wQRk3f5" text="{.FS}Spada da guerra lunga decorata{@Plural}{.FP}Spade da guerra lunghe decorate{\@}" />
+    <string id="57jpWo7g" text="{.MS}Spadone da cavalleria in acciaio pregiato{@Plural}{.MP}Spadoni da cavalleria in acciaio pregiato{\@}" />
+    <string id="62nIvqbA" text="{.FS}Lama della montagna battanica{@Plural}{.FP}Lame della montagna battaniche{\@}" />
+    <string id="6EWm09LY" text="{.FS}Mazza chiodata{@Plural}{.FP}Mazze chiodate{\@}" />
+    <string id="6jYzHJjB" text="{.FS}Catena{@Plural}{.FP}Catene{\@}" />
+    <string id="6q0nmVtg" text="{.FS}Ascia da boscaiolo{@Plural}{.FP}Asce da boscaiolo{\@}" />
+    <string id="6QI8X6CY" text="{.FS}Mazza leggera scanalata{@Plural}{.FP}Mazze leggere scanalate{\@}" />
+    <string id="6WcZ5Tr0" text="{.MS}Martello da fabbro{@Plural}{.MP}Martelli da fabbri{\@}" />
+    <string id="77GPT2B6" text="{.MS}Mazzafrusto da guerra{@Plural}{.MP}Mazzafrusti da guerra{\@}" />
+    <string id="7jH0kuof" text="{.FS}Mazza chiodata{@Plural}{.FP}Mazze chiodate{\@}" />
+    <string id="7phSQw5i" text="{.FS}Zappa{@Plural}{.FP}Zappe{\@}" />
+    <string id="89OWzLBb" text="{.FS}Ascia con manico in bambù{@Plural}{.FP}Asce con manico in bambù{\@}" />
+    <string id="8fK5E68M" text="{.FS}Sciabola seghettata{@Plural}{.FP}Sciabole seghettate{\@} " />
+    <string id="8jEDX9J4" text="{.MS}Spadone{@Plural}{.MP}Spadoni{\@}" />
+    <string id="8mpp8ZCL" text="{.FS}Spada d&apos;armi medievale{@Plural}{.FP}Spade d&apos;armi medievali{\@}" />
+    <string id="8pnCvnFR" text="{.MS}Shestopyor in acciaio{@Plural}{.MP}Shestopyor in acciaio{\@}" />
+    <string id="93OHSnEV" text="{.FS}Scimitarra lunga decorata{@Plural}{.FP}Scimitarre lunghe decorate{\@}" />
+    <string id="9EWN9SiT" text="{.MS}Shishpar leggero{@Plural}{.MP}Shishpar leggeri{\@}" />
+    <string id="9pD32UdV" text="{.FS}Mazza degli altopiani{@Plural}{.FP}Mazze degli altopiani{\@}" />
+    <string id="9UB0LF8Z" text="{.FS}Asta da cavalleria settentrionale{@Plural}{.FP}Aste da cavalleria settentrionale{\@}" />
+    <string id="9YbFEaZ1" text="{.MS}Arco di tasso{@Plural}{.MP}Archi di tasso{\@}" />
+    <string id="9ZiUK3JJ" text="{.FS}Arma ampia scanalata a due mani{@Plural}{.FP}Armi ampie scanalate a due mani{\@}" />
+    <string id="a10taTGb" text="{.FS}Sciabola con leone impresso{@Plural}{.FP}Sciabole con leone impresso{\@}" />
+    <string id="a3WNz6Ci" text="{.MP}Proiettili di pietra per fionda" />
+    <string id="a47UTuL6" text="{.FN}Giustiziera" />
+    <string id="Ag6dujzl" text="{.FS}Lama affusolata{@Plural}{.FP}Lame affusolate{\@}" />
+    <string id="AMIdBVZb" text="{.FS}Spatha in acciaio pregiato{@Plural}{.FP}Spatha in acciaio pregiato{\@}" />
+    <string id="arBdK7st" text="{.FS}Spada bastarda semplice{@Plural}{.FP}Spade bastarde semplici{\@}" />
+    <string id="b88lWWOo" text="{.FS}Mazza in acciaio pregiato{@Plural}{.FP}Mazze in acciaio pregiato{\@}" />
+    <string id="b8AgXwbL" text="{.FS}Spada d&apos;armi larga{@Plural}{.FP}Spade d&apos;armi larghe{\@}" />
+    <string id="bANXyotg" text="{.MS}Flyssa leggermente seghettato{@Plural}{.MP}Flyssa leggermente seghettati{\@}" />
+    <string id="BAsjzOiH" text="{.FS}Ascia da boia{@Plural}{.FP}Asce da boia{\@}" />
+    <string id="bcjcw1o9" text="{.FS}Ascia spaccalegna{@Plural}{.FP}Asce spaccalegna{\@}" />
+    <string id="bdTQG99v" text="{.FS}Ascia con manico in bambù{@Plural}{.FP}Asce con manico in bambù{\@}" />
+    <string id="beVFwINO" text="{.MS}Martello in legno{@Plural}{.MP}Martelli in legno{\@}" />
+    <string id="bhiVBSge" text="{.MS}Coltello{@Plural}{.MP}Coltelli{\@}" />
+    <string id="Biq7t1xv" text="{.FP}Frecce a distanza" />
+    <string id="bK03bqdA" text="{.FP}Frecce da torneo" />
+    <string id="bNABNs8O" text="{.FS}Ascia a due mani a punta quadrata{@Plural}{.FP}Asce a due mani a punta quadrata{\@}" />
+    <string id="bohbzGjg" text="{.FS}Scimitarra decorata con impugnatura larga{@Plural}{.FP}Scimitarre decorate con impugnatura larga{\@}" />
+    <string id="BqAUrOpn" text="{.FP}Frecce leggere a punta bodkin" />
+    <string id="bt0uFefo" text="{.FS}Arma a due mani in legno{@Plural}{.FP}Armi a due mani in legno{\@}" />
+    <string id="bue69aD4" text="{.FS}Lancia corta semplice{@Plural}{.FP}Lance corte semplici{\@}" />
+    <string id="bwXACVOb" text="{.FS}Lancia a foglia in acciaio pregiato{@Plural}{.FP}Lance a foglia in acciaio pregiato{\@}" />
+    <string id="BYPhysbH" text="{.FN}Caduta del cavaliere" />
+    <string id="cKtkyroA" text="{.FS}Ascia a due mani settentrionale decorata{@Plural}{.FP}Asce a due mani settentrionali decorate{\@}" />
+    <string id="cmuMaYGR" text="{.MS}Arco lungo da allenamento{@Plural}{.MP}Archi lunghi da allenamento{\@}" />
+    <string id="Cr5ak47X" text="{.MS}Spadone decorato{@Plural}{.MP}Spadoni decorati{\@}" />
+    <string id="cRCkC36E" text="{.FS}Spada corta{@Plural}{.FP}Spade corte{\@}" />
+    <string id="DC0qJkVs" text="{.FP}Frecce smussate" />
+    <string id="dCbrowBV" text="{.FS}Kaskara lunga in acciaio pregiato{@Plural}{.FP}Kaskara lunghe in acciaio pregiato{\@}" />
+    <string id="DFcMeRdB" text="{.FS}Ascia da battaglia semplice da predone{@Plural}{.FP}Asce da battaglia semplici da predoni{\@}" />
+    <string id="DI9P2HDG" text="{.FS}Pila di frecce a punta bodkin{@Plural}{.FP}Pile di frecce a punta bodkin{\@}" />
+    <string id="dkldfSqU" text="{.MS}Mazzafrusto chiodato{@Plural}{.MP}Mazzafrusti chiodati{\@}" />
+    <string id="dkuzrKJF" text="{.FS}Picca pregiata{@Plural}{.FP}Picche pregiate{\@}" />
+    <string id="DQaV0i5W" text="{.MS}Spadone in ferro{@Plural}{.MP}Spadoni in ferro{\@}" />
+    <string id="dRWKmbaa" text="{.FS}Ascia piccola con sperone{@Plural}{.FP}Asce piccole con sperone{\@}" />
+    <string id="dSTxsYsh" text="{.FS}Mazza da cavalleria scanalata{@Plural}{.FP}Mazze da cavalleria scanalate{\@}" />
+    <string id="duIWCjdD" text="{.FS}Lancia uncinata con punta d&apos;acciaio{@Plural}{.FP}Lance uncinate con punta d&apos;acciaio{\@}" />
+    <string id="E7miRMw1" text="{.MS}Arco ricurvo pesante{@Plural}{.MP}Archi ricurvi pesanti{\@}" />
+    <string id="e8amL6a1" text="{.MS}Ild largo{@Plural}{.MP}Ild larghi{\@}" />
+    <string id="eaALL6uO" text="{.FS}Sciabola lunga{@Plural}{.FP}Sciabole lunghe{\@}" />
+    <string id="EadnjRjs" text="{.FS}Spada da guerra lunga{@Plural}{.FP}Spade da guerra lunghe{\@}" />
+    <string id="EBRG6qbv" text="{.FS}Lancia da cavaliere nobile{@Plural}{.FP}Lance da cavalieri nobili{\@}" />
+    <string id="EgrNdBct" text="{.FS}Lancia da tiro seghettata{@Plural}{.FP}Lance da tiro seghettate{\@}" />
+    <string id="ekUvh8Em" text="{.FS}Arma a due mani affusolata{@Plural}{.FP}Armi a due mani affusolate{\@}" />
+    <string id="eND6ECxg" text="{.FS}Lancia da cavalleria da catafratto{@Plural}{.FP}Lance da cavalleria da catafratti{\@}" />
+    <string id="EO7pCu1b" text="{.MS}Arco da nobile{@Plural}{.MP}Archi da nobili{\@}" />
+    <string id="ErOLa263" text="{.FS}Fiaccola{@Plural}{.FP}Fiaccole{\@}" />
+    <string id="FAzGPJn6" text="{.FS}Ascia di bambù{@Plural}{.FP}Asce di bambù{\@}" />
+    <string id="FbG3CW5p" text="{.MS}Forcone militare{@Plural}{.MP}Forconi militari{\@}" />
+    <string id="fcgDtZy7" text="{.FS}Mazza pesante orientale{@Plural}{.FP}Mazze pesanti orientali{\@}" />
+    <string id="fHj6NbWy" text="{.MS}Flyssa in ferro{@Plural}{.MP}Flyssa in ferro{\@}" />
+    <string id="finesteelbladeweapon" text="{.FS}Lama in acciaio pregiato degli altopiani{@Plural}{.FP}Lame in acciaio pregiato degli altopiani{\@}" />
+    <string id="FJDCc3Y2" text="{.FS}Mazza pesante da cavaliere{@Plural}{.FP}Mazze pesanti da cavalieri{\@}" />
+    <string id="FQHaFsyQ" text="{.MS}Costoliere{@Plural}{.MP}Costolieri{\@}" />
+    <string id="fuyj7s3F" text="{.FS}Scimitarra lunga in acciaio pregiato{@Plural}{.FP}Scimitarre lunghe in acciaio pregiato{\@}" />
+    <string id="fz23ajFz" text="{.FS}Mazza flangiata pesante{@Plural}{.FP}Mazze flangiate pesanti{\@}" />
+    <string id="g6IpxVat" text="{.FS}Mazza a due mani settentrionale{@Plural}{.FP}Mazze a due mani settentrionali{\@}" />
+    <string id="G7EbBKuA" text="{.FS}Lancia lunga e stretta{@Plural}{.FP}Lance lunghe e strette{\@}" />
+    <string id="g7vxJhiz" text="{.MP}Quadrelli leggeri" />
+    <string id="gadEbFyj" text="{.FS}Sciabola in acciaio pregiato{@Plural}{.FP}Sciabole in acciaio pregiato{\@}" />
+    <string id="gJPogg0J" text="{.FS}Sparth semplice{@Plural}{.FP}Sparth semplici{\@}" />
+    <string id="GKzw7E8a" text="{.FS}Picca semplice{@Plural}{.FP}Picche semplici{\@}" />
+    <string id="GrfnpDxu" text="{.FS}Ascia da lancio degli altopiani{@Plural}{.FP}Asce da lancio degli altopiani{\@}" />
+    <string id="gsGjXj8J" text="{.FS}Spada lunga del deserto{@Plural}{.FP}Spade lunghe del deserto{\@}" />
+    <string id="gYpNILVC" text="{.FS}Mazza da fabbro{@Plural}{.FP}Mazze da fabbro{\@}" />
+    <string id="GyYsQlVd" text="{.FS}Spatha corta decorata{@Plural}{.FP}Spatha corte decorate{\@}" />
+    <string id="H9hzBJz3" text="{.FS}Lancia da esercitazione{@Plural}{.FP}Lance da esercitazione{\@}" />
+    <string id="ha3rVEzP" text="{.FS}Spada d&apos;armi con punta dentata{@Plural}{.FP}Spade d&apos;armi con punta dentata{\@}" />
+    <string id="habJjtmv" text="{.MS}Spadone dentato in ferro{@Plural}{.MP}Spadoni dentati in ferro{\@}" />
+    <string id="HaK3y9yi" text="{.MS}Randello chiodato{@Plural}{.MP}Randelli chiodati{\@}" />
+    <string id="HclLXEaT" text="{.FS}Frusta per cavallo{@Plural}{.FP}Fruste per cavallo{\@}" />
+    <string id="HECAP8QW" text="{.FS}Berdica a manico corto{@Plural}{.FP}Berdiche a manico corto{\@}" />
+    <string id="hN4wE2gG" text="{.MP}Dardi pesanti" />
+    <string id="HpdJJO9g" text="{.FS}Lama di spatha con pomolo ad anello{@Plural}{.FP}Lame di spatha con pomolo ad anello{\@}" />
+    <string id="hQrLHkaU" text="{.FS}Ascia Gallowglass{@Plural}{.FP}Asce Gallowglass{\@}" />
+    <string id="hsRwbHSk" text="{.FS}Lancia da cavalleria mamelucca{@Plural}{.FP}Lance da cavalleria mamelucca{\@}" />
+    <string id="hTPJXK1w" text="{.FS}Ascia pesante da boia{@Plural}{.FP}Asce pesanti da boia{\@}" />
+    <string id="HVcwvRMF" text="{.FS}Lancia degli altopiani rinforzata{@Plural}{.FP}Lance degli altopiani rinforzate{\@}" />
+    <string id="HwO0AYul" text="{.FS}Spada corta seghettata larga{@Plural}{.FP}Spade corte seghettate larghe{\@}" />
+    <string id="hyq1zBg5" text="{.FS}Lancia da popolano semplice{@Plural}{.FP}Lance da popolano semplici{\@}" />
+    <string id="hz87PBsa" text="{.FS}Lancia a foglia larga{@Plural}{.FP}Lance a foglia larga{\@}" />
+    <string id="I1yTY2rx" text="{.FS}Balestra pregiata leggera{@Plural}{.FP}Balestre pregiate leggere{\@}" />
+    <string id="I67Avuos" text="{.MP}Dardi leggeri" />
+    <string id="IClH3Pus" text="{.FN}Valanga" />
+    <string id="IDfl59yt" text="{.FS}Lancia a testa tonda{@Plural}{.FP}Lance a testa tonda{\@}" />
+    <string id="iEbP2INp" text="{.FS}Kaskara decorata{@Plural}{.FP}Kashara decorate{\@}" />
+    <string id="ifzgMcrK" text="{.MS}Arco da nomade{@Plural}{.MP}Archi da nomadi{\@}" />
+    <string id="IK2Z9zWk" text="{.FS}Scimitarra semplice{@Plural}{.FP}Scimitarre semplici{\@}" />
+    <string id="IM2SamZ8" text="{.MS}Falcione{@Plural}{.MP}Falcioni{\@}" />
+    <string id="J3erdO1b" text="{.FN}Violalba" />
+    <string id="j4XraSN6" text="{.FS}Lancia da cavalleria leggera{@Plural}{.FP}Lance da cavalleria leggere{\@}" />
+    <string id="jcOJqWGA" text="{.FS}Lancia in acciaio pregiato{@Plural}{.FP}Lance in acciaio pregiato{\@}" />
+    <string id="jfWzICId" text="{.FS}Spada da guerra lunga scanalata{@Plural}{.FP}Spade da guerra lunga scanalata{\@}" />
+    <string id="jhFSLdve" text="{.FS}Ascia a due mani forata{@Plural}{.FP}Asce a due mani forate{\@}" />
+    <string id="Jkd2gmyj" text="{.FS}Lancia a punta triangolare{@Plural}{.FP}Lance a punta triangolare{\@}" />
+    <string id="JM8Mjfa0" text="{.FS}Mazza a spirale{@Plural}{.FP}Mazze a spirale{\@}" />
+    <string id="JPByibJQ" text="{.FS}Scimitarra in ferro{@Plural}{.FP}Scimitarre in ferro{\@}" />
+    <string id="jSspzlmR" text="{.FS}Sciabola dritta{@Plural}{.FP}Sciabole dritte{\@}" />
+    <string id="JXSZelwE" text="{.MP}Pugnali da lancio tribali" />
+    <string id="JxV66l02" text="{.FS}Alabarda lunga{@Plural}{.FP}Alabarde lunga{\@}" />
+    <string id="K2Xtca1a" text="{.MS}Roncone corto{@Plural}{.MP}Ronconi corti{\@}" />
+    <string id="K5XLb84w" text="{.FP}Frecce imperiali" />
+    <string id="k9bmPuTB" text="{.FS}Lancia da cavalleria pesante{@Plural}{.FP}Lance da cavalleria pesante{\@}" />
+    <string id="KanKBHcS" text="{.FS}Ascia da fanteria{@Plural}{.FP}Asce da fanteria{\@}" />
+    <string id="kJzIZMBR" text="{.FS}Lancia da tiro triangolare{@Plural}{.FP}Lance da tiro triangolari{\@}" />
+    <string id="knobbedclubweapon" text="{.MS}Randello borchiato{@Plural}{.MP}Randelli borchiati{\@}" />
+    <string id="koOrDa9q" text="{.MS}Pugnale da lancio degli altopiani{@Plural}{.MP}Pugnali da lancio degli altopiani{\@}" />
+    <string id="kR1blV2k" text="{.MS}Forcone militare intagliato{@Plural}{.MP}Forconi militari intagliati{\@}" />
+    <string id="KRhIG1cw" text="{.FS}Francisca grande{@Plural}{.FP}Francische grandi{\@}" />
+    <string id="KRuZuMFI" text="{.MN}Giudizio" />
+    <string id="ksxylfU4" text="{.FS}Spada d&apos;armi seghettata{@Plural}{.FP}Spade d&apos;armi seghettate{\@}" />
+    <string id="ktJ6crBs" text="{.MS}Falcione largo{@Plural}{.MP}Falcioni larghi{\@}" />
+    <string id="Kv4zAMIh" text="{.FS}Mazza da catafratto{@Plural}{.FP}Mazze da catafratto{\@}" />
+    <string id="kxtSkGju" text="{.MN}L&apos;Ambasciatore" />
+    <string id="L5i5RgO0" text="{.FS}Fionda con filo di lana{@Plural}{.FP}Fionde con filo di lana{\@}" />
+    <string id="l9kAJ1Xh" text="{.FS}Lama larga degli altopiani{@Plural}{.FP}Lame larghe degli altopiani{\@}" />
+    <string id="LAEaH3zB" text="{.FS}Balestra leggera semplice{@Plural}{.FP}Balestre leggere semplici{\@}" />
+    <string id="lbkaoPk6" text="{.FS}Sica{@Plural}{.FP}Siche{\@}" />
+    <string id="ljOwXClb" text="{.FS}Accetta norrena{@Plural}{.FP}Accette norrene{\@}" />
+    <string id="LVQworUy" text="{.FS}Kaskara larga{@Plural}{.FP}Kaskara larghe{\@}" />
+    <string id="lXwaLAYP" text="{.FS}Spada da guerra in acciaio di Thamaske{@Plural}{.FP}Spade da guerra in acciaio di Thamaske{\@}" />
+    <string id="LzqugHen" text="{.MS}Bisturi{@Plural}{.MP}Bisturi{\@}" />
+    <string id="Mb0CuONB" text="{.FS}Ascia barbuta{@Plural}{.FP}Asce barbute{\@}" />
+    <string id="mMtKWolp" text="{.FS}Grande sciabola seghettata{@Plural}{.FP}Grandi sciabole seghettate{\@}" />
+    <string id="MRIdGqhA" text="{.FS}Spada da guerra appuntita{@Plural}{.FP}Spade da guerra appuntite{\@}" />
+    <string id="mTWvG1xz" text="{.MS}Arco da guardaboschi{@Plural}{.MP}Archi da guardaboschi{\@}" />
+    <string id="mWxNSjSP" text="{.FS}Lancia sottile in acciaio pregiato{@Plural}{.FP}Lance sottili in acciaio pregiato{\@}" />
+    <string id="mzvtFPPi" text="{.FN}Spaccaossa" />
+    <string id="N0ErUFHS" text="{.MS}Giavellotto seghettato{@Plural}{.MP}Giavellotti seghettati{\@}" />
+    <string id="N28bDEhh" text="{.FS}Lancia in acciaio pregiato{@Plural}{.FP}Lance in acciaio pregiato{\@}" />
+    <string id="N8VJWdVY" text="{.FS}Mazza leggera della steppa{@Plural}{.FP}Mazze leggere della steppa{\@}" />
+    <string id="NaaM2O2g" text="{.MS}Spadone ampio scanalato settentrionale{@Plural}{.MP}Spadoni ampi scanalati settentrionali{\@}" />
+    <string id="NFT4sLva" text="{.FS}Lancia alta appuntita{@Plural}{.FP}Lance alte appuntite{\@}" />
+    <string id="NkV2c6YX" text="{.FS}Pila di frecce della steppa{@Plural}{.FP}Pile di frecce della steppa{\@}" />
+    <string id="nq26Puio" text="{.FS}Balestra pesante da contadino{@Plural}{.FP}Balestre pesanti da contadino{\@}" />
+    <string id="nTc20R1R" text="{.FS}Mazza da fabbro di fortuna{@Plural}{.FP}Mazze da fabbro di fortuna{\@}" />
+    <string id="o5kKAbRu" text="{.FS}Lancia da cavaliere{@Plural}{.FP}Lance da cavaliere{\@}" />
+    <string id="ObGN145P" text="{.MS}Giavellotto da boscaiolo{@Plural}{.MP}Giavellotti da boscaiolo{\@}" />
+    <string id="oFEzCTpW" text="{.MS}Forcone in ferro{@Plural}{.MP}Forconi in ferro{\@}" />
+    <string id="OjHwbgeY" text="{.MS}Arco forte tribale{@Plural}{.MP}Archi forti tribali{\@}" />
+    <string id="OLTUHPaD" text="{.MS}Paramerion in acciaio pregiato{@Plural}{.MP}Paramerion in acciaio pregiati{\@}" />
+    <string id="oQmUlQWp" text="{.FS}Sciabola semplice{@Plural}{.FP}Sciabole semplici{\@} " />
+    <string id="oV5AhcDl" text="{.MS}Giavellotto dei bassopiani{@Plural}{.MP}Giavellotti dei bassopiani{\@}" />
+    <string id="oXrbTRJo" text="{.FS}Mietitrice{@Plural}{.FP}Mietitrici{\@}" />
+    <string id="P9FUrH8a" text="{.FS}Spada d&apos;armi intagliata in oro{@Plural}{.FP}Spade d&apos;armi intagliate in oro{\@}" />
+    <string id="P9PcIk4q" text="{.FS}Ascia uncinata da cavalleria{@Plural}{.FP}Asce uncinata da cavalleria{\@}" />
+    <string id="PBLsXDgP" text="{.FS}Mazza leggera{@Plural}{.FP}Mazze leggere{\@}" />
+    <string id="pjvwuVuc" text="{.FS}Ascia barbuta a una mano{@Plural}{.FP}Asce barbute a una mano{\@}" />
+    <string id="POhLMyat" text="{.MS}Tzkurion largo{@Plural}{.MP}Tzkurion larghi{\@}" />
+    <string id="pP0GacSW" text="{.FS}Accetta a punta arrotondata in acciaio pregiato{@Plural}{.FP}Accette a punta arrotondata in acciaio pregiato{\@}" />
+    <string id="ppiy9Cwl" text="{.MS}Giavellotto a lama larga{@Plural}{.MP}Giavellotti a lama larga{\@}" />
+    <string id="QA3k2I4A" text="{.MP}Coltelli da lancio a lama larga" />
+    <string id="QA5zGCKf" text="{.FS}Spada scanalata decorata{@Plural}{.FP}Spade scanalate decorate{\@}" />
+    <string id="QjdyYS0m" text="{.FS}Sciabola in ferro{@Plural}{.FP}Sciabole in ferro{\@}" />
+    <string id="QnyD1yWB" text="{.FS}Ascia larga settentrionale{@Plural}{.FP}Asce larghe settentrionali{\@}" />
+    <string id="Qpl5aCb0" text="{.FS}Ascia da guerriero veterano{@Plural}{.FP}Asce da guerriero veterano{\@}" />
+    <string id="qxYDHkKl" text="{.FS}Fionda rinforzata{@Plural}{.FP}Fionde rinforzate{\@}" />
+    <string id="qZOpdQVx" text="{.MS}Falcione stellato{@Plural}{.MP}Falcioni stellati{\@}" />
+    <string id="Rcc0JW6H" text="{.FS}Spatha in acciaio di Thamaske{@Plural}{.FP}Spatha in acciaio di Thamaske{\@}" />
+    <string id="RcCtV0aS" text="{.MS}Arco in tasso da boscaiolo{@Plural}{.MP}Archi in tasso da boscaiolo{\@}" />
+    <string id="rdKSIamN" text="{.FP}Frecce perforanti" />
+    <string id="rhWOdhjr" text="{.FS}Lancia da guerra degli altopiani{@Plural}{.FP}Lance da guerra degli altopiani{\@}" />
+    <string id="rkqaCud5" text="{.MS}Pilum{@Plural}{.MP}Pilum{\@}" />
+    <string id="rnzpyc0N" text="{.MS}Pernach{@Plural}{.MP}Pernach{\@}" />
+    <string id="rtRGq1uU" text="{.FS}Arma larga a due mani{@Plural}{.FP}Armi larghe a due mani{\@}" />
+    <string id="RwpJFXxc" text="{.FS}Picca in acciaio di Thamaske{@Plural}{.FP}Picche in acciaio di Thamaske{\@}" />
+    <string id="RzLZHrYT" text="{.FS}Lancia da predone corta semplice{@Plural}{.FP}Lance da predone corte semplici{\@}" />
+    <string id="s7jkSgba" text="{.FS}Frecce con barbigli{@Plural}{.FP}{\@}" />
+    <string id="SbARa2gU" text="{.FP}Frecce bodkin" />
+    <string id="SDBvC0ON" text="{.FS}Ascia da battaglia chiodata{@Plural}{.FP}Asce da battaglia chiodate{\@}" />
+    <string id="SGdY9jmK" text="{.FS}Spada da guerra stretta e scanalata{@Plural}{.FP}Spade da guerra strette e scanalate{\@}" />
+    <string id="steppebowitem" text="{.MS}Arco della steppa{@Plural}{.MP}Archi della steppa{\@}" />
+    <string id="SUSbUAEl" text="{.MS}Arco da allenamento{@Plural}{.MP}Archi da allenamento{\@}" />
+    <string id="sWUbsPty" text="{.FS}Lancia pesante da cavaliere{@Plural}{.FP}Lance pesanti da cavaliere{\@}" />
+    <string id="t28VYqjP" text="{.FS}Lancia lunga in acciaio pregiato{@Plural}{.FP}Lance lunghe in acciaio pregiato{\@}" />
+    <string id="TbFLTHHm" text="{.MS}Tyrhung{@Plural}{.MP}Tyrhung{\@}" />
+    <string id="TBW9E2ao" text="{.FS}Balestra con fasce{@Plural}{.FP}Balestre con fasce{\@}" />
+    <string id="te48yHa8" text="{.MS}Coltello da lancio con lama a foglia{@Plural}{.MP}Coltelli da lancio con lama a foglia{\@}" />
+    <string id="Th4E7v2h" text="{.MS}Giavellotto da cavaliere{@Plural}{.MP}Giavellotti da cavaliere{\@}" />
+    <string id="tpUzcdY6" text="{.MS}Ild con impugnatura alta{@Plural}{.MP}Ild con impugnatura alta{\@}" />
+    <string id="TQ1MVhIX" text="{.FS}Lancia da cavalleria leggera{@Plural}{.FP}Lance da cavalleria leggera{\@}" />
+    <string id="tQw4Zfwu" text="{.MS}Falcione acuminato{@Plural}{.MP}Falcioni acuminati{\@}" />
+    <string id="tsaSBPKu" text="{.MS}Tzikourion{@Plural}{.MP}Tzikourion{\@}" />
+    <string id="tzoARfAm" text="{.FS}Lancia pesante dei Druzhinnik{@Plural}{.FP}Lance pesanti dei Druzhinnik{\@}" />
+    <string id="UMX05EQF" text="{.FS}Mazza reale leggera{@Plural}{.FP}Mazze reali leggere{\@}" />
+    <string id="Urv6mKxq" text="{.FS}Mazza rinforzata a due mani settentrionale{@Plural}{.FP}Mazze rinforzate a due mani settentrionali{\@}" />
+    <string id="uSBxV2Ob" text="{.FS}Ascia a testa rettangolare{@Plural}{.FP}Asce a testa rettangolare{\@}" />
+    <string id="UunjXpgb" text="{.MS}Menavlion in acciaio pregiato{@Plural}{.MP}Menavlion in acciaio pregiato{\@}" />
+    <string id="UWvOndG0" text="{.FS}Lancia leggera da cavaliere delle steppe{@Plural}{.FP}Lance leggere da cavaliere delle steppe{\@}" />
+    <string id="V4b2ZRTH" text="{.FS}Romfaia{@Plural}{.FP}Romfaie{\@}" />
+    <string id="v7WQhge3" text="{.FS}Sciabola decorata{@Plural}{.FP}Sciabole decorate{\@}" />
+    <string id="VAcSEseI" text="{.FS}Spada d&apos;armi scanalata larga{@Plural}{.FP}Spade d&apos;armi scanalate larghe{\@}" />
+    <string id="VAO11FSu" text="{.FS}Arma a due mani in acciaio di Thamaske{@Plural}{.FP}Armi a due mani in acciaio di Thamaske{\@}" />
+    <string id="vDfuEQ7M" text="{.MS}Arco corto sturgitano{@Plural}{.MP}Archi corti sturgitani{\@}" />
+    <string id="vDvj5zkG" text="{.FN}Furia del Vento" />
+    <string id="vmz4vfu5" text="{.MS}Giavellotto uncinato{@Plural}{.MP}Giavellotti uncinati{\@}" />
+    <string id="VP74qdJ3" text="{.FS}Lancia da corsiero{@Plural}{.FP}Lance da corsiero{\@}" />
+    <string id="vPXWpJTP" text="{.MS}Pugnale degli altopiani{@Plural}{.MP}Pugnali degli altopiani{\@}" />
+    <string id="VucrovFw" text="{.MS}Costoliere con incisioni{@Plural}{.MP}Costolieri con incisioni{\@}" />
+    <string id="VxRYaOc2" text="{.MS}Skaen largo{@Plural}{.MP}Skaen larghi{\@}" />
+    <string id="vXYlLH6L" text="{.FS}Lancia lunga con punta di Thamaske{@Plural}{.FP}Lance lunghe con punta di Thamaske{\@}" />
+    <string id="Vyw5KNxR" text="{.FS}Lancia corta della milizia{@Plural}{.FP}Lance corte della milizia{\@}" />
+    <string id="w6EU77OH" text="{.MS}Arco ricurvo della steppa{@Plural}{.MP}Archi ricurvo della steppa{\@}" />
+    <string id="w9RLq82l" text="{.FS}Spada d&apos;armi in ferro{@Plural}{.FP}Spada d&apos;armi in ferro{\@}" />
+    <string id="WASZXuec" text="{.MS}Pernach della milizia{@Plural}{.MP}Pernach della milizia{\@}" />
+    <string id="wfhHGTbl" text="{.MS}Arco da guerra della steppa{@Plural}{.MP}Archi da guerra della steppa{\@}" />
+    <string id="wi53b5PG" text="{.MP}Quadrelli pesanti" />
+    <string id="WQksMqMR" text="{.FS}Lancia lunga alta appuntita{@Plural}{.FP}Lance lunghe alte appuntite{\@}" />
+    <string id="WRqYWspc" text="{.MS}Arco lungo da nobile{@Plural}{.MP}Archi lunghi da nobile{\@}" />
+    <string id="WUasz2kP" text="{.FS}Spada a due mani pregiata degli altopiani{@Plural}{.FP}Spade a due mani pregiate degli altopiani{\@}" />
+    <string id="WWRKeqwD" text="{.FS}Ascia da lancio da predone{@Plural}{.FP}Asce da lancio da predone{\@}" />
+    <string id="wxL5TdDv" text="{.FS}Mazza della milizia{@Plural}{.FP}Mazze della milizia{\@}" />
+    <string id="x0x1gIbT" text="{.FN}Pensione anticipata" />
+    <string id="X31qND4N" text="{.FS}Ascia da lancio tribale{@Plural}{.FP}Asce da lancio tribale{\@}" />
+    <string id="XbwDj80t" text="{.FP}Frecce della steppa" />
+    <string id="xgOuAWEE" text="{.FS}Ascia da popolano{@Plural}{.FP}Asce da popolano{\@}" />
+    <string id="XIRtmaQt" text="{.FS}Sentinella" />
+    <string id="XRaPBg6d" text="{.FS}Ascia con testa piccola{@Plural}{.FP}Asce con testa piccola{\@}" />
+    <string id="XTGdfqVV" text="{.FS}Mannaia a due mani{@Plural}{.FP}Mannaie a due mani{\@} " />
+    <string id="xTyib5ms" text="{.FS}Lancia larga a foglia{@Plural}{.FP}{.FS}Lance larghe a foglia{\@}" />
+    <string id="Xv95gei9" text="{.FS}Mazza a due mani meridionale{@Plural}{.FP}Mazze a due mani meridionali{\@}" />
+    <string id="xWFW8jXw" text="{.FS}Ascia da battaglia{@Plural}{.FP}Asce da battaglia{\@}" />
+    <string id="xYk4953c" text="{.FS}Mazza in acciaio{@Plural}{.FP}Mazze in acciaio{\@}" />
+    <string id="yCvBx27Z" text="{.FS}Lancia seghettata{@Plural}{.FP}Lance seghettate{\@}" />
+    <string id="Yd4lmlQp" text="{.FS}Kaskara sottile in acciaio pregiato{@Plural}{.FP}Kaskara sottili in acciaio pregiato{\@}" />
+    <string id="yeQr4RiM" text="{.MP}Proiettili intagliati per fionda" />
+    <string id="YGndAhTr" text="{.FS}Lancia pesata delle steppe{@Plural}{.FP}Lance pesate delle steppe{\@}" />
+    <string id="YLplNGxb" text="{.FS}Mazza calradiana{@Plural}{.FP}Mazze calradiane{\@}" />
+    <string id="YPUDAJDH" text="{.MS}Arpione{@Plural}{.MP}Arpioni{\@}" />
+    <string id="YrAVxmFn" text="{.MS}Spadone degli altopiani{@Plural}{.MP}Spadoni degli altopiani{\@}" />
+    <string id="z3brrzJ9" text="{.FS}Fionda intrecciata{@Plural}{.FP}Fionde intrecciate{\@}" />
+    <string id="zBUT90xQ" text="{.FS}Kaskara in acciaio di Thamaske{@Plural}{.FP}{\@}" />
+    <string id="Zcaucj4W" text="{.FS}Spada d&apos;armi decorata{@Plural}{.FP}{\@}" />
+    <string id="ZDZR5UzN" text="{.MP}Proiettili di piombo per fionda" />
+    <string id="zH0QF7mE" text="{.FS}Lancia a testa tonda con frange{@Plural}{.FP}Lance a testa tonda con frange{\@}" />
+    <string id="ZLpYFYXo" text="{.FS}Lancia seghettata in acciaio pregiato{@Plural}{.FP}Lance seghettata in acciaio pregiato{\@}" />
+    <string id="ZQv5Bcl2" text="{.MS}Arco tribale{@Plural}{.MP}Archi tribali{\@}" />
+    <string id="ZsaukY0N" text="{.FS}Spada d&apos;armi con cerchio{@Plural}{.FP}Spade d&apos;armi con cerchio{\@}" />
+    <string id="zUFRE9y4" text="{.MS}Piccone{@Plural}{.MP}Picconi{\@}" />
+    <string id="zvIax8Kt" text="{.MS}Coltello da lancio dei bassopiani{@Plural}{.MP}Coltelli da lancio dei bassopiani{\@}" />
+  </strings>
+</base>

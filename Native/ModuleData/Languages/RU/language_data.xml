@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData id="Русский" name="Русский" subtitle_extension="ru" supported_iso="ru,rus,ru-ru,ru-md" text_processor="TaleWorlds.Localization.TextProcessor.LanguageProcessors.RussianTextProcessor" under_development="false">
+  <LanguageFile xml_path="RU/ru_functions.xml" />
+  <LanguageFile xml_path="RU/NoTranslation/std_consoles_xml_rus.xml" />
+  <LanguageFile xml_path="RU/std_common_strings_xml_rus.xml" />
+  <LanguageFile xml_path="RU/std_crafting_pieces_xml_rus.xml" />
+  <LanguageFile xml_path="RU/std_TaleWorlds_PlatformService_Epic_rus.xml" />
+  <LanguageFile xml_path="RU/std_TaleWorlds_PlatformService_GDK_rus.xml" />
+  <LanguageFile xml_path="RU/std_TaleWorlds_PlatformService_PS_rus.xml" />
+  <LanguageFile xml_path="RU/std_global_strings_xml_rus.xml" />
+  <LanguageFile xml_path="RU/std_item_modifiers_xml_rus.xml" />
+  <LanguageFile xml_path="RU/std_module_strings_xml_rus.xml" />
+  <LanguageFile xml_path="RU/std_mpbadges_xml_rus.xml" />
+  <LanguageFile xml_path="RU/std_mpcharacters_xml_rus.xml" />
+  <LanguageFile xml_path="RU/std_mpclassdivisions_xml_rus.xml" />
+  <LanguageFile xml_path="RU/std_mpitems_xml_rus.xml" />
+  <LanguageFile xml_path="RU/std_multiplayer_strings_xml_rus.xml" />
+  <LanguageFile xml_path="RU/std_native_strings_xml_rus.xml" />
+  <LanguageFile xml_path="RU/std_photo_mode_strings_xml_rus.xml" />
+  <LanguageFile xml_path="RU/std_siegeengines_xml_rus.xml" />
+  <LanguageFile xml_path="RU/std_TaleWorlds_Core_rus.xml" />
+  <LanguageFile xml_path="RU/std_TaleWorlds_MountAndBlade_GauntletUI_rus.xml" />
+  <LanguageFile xml_path="RU/std_TaleWorlds_MountAndBlade_rus.xml" />
+  <LanguageFile xml_path="RU/std_TaleWorlds_MountAndBlade_ViewModelCollection_rus.xml" />
+  <LanguageFile xml_path="RU/std_TaleWorlds_MountAndBlade_View_rus.xml" />
+</LanguageData>

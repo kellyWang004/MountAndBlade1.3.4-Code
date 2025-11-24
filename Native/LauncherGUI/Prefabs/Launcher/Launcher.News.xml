@@ -1,0 +1,64 @@
+<Prefab>
+  <Constants>
+    <Constant Name="ButtonBig.Width" Value="620" />
+    <Constant Name="ButtonBig.Height" Value="312" />
+
+    <Constant Name="ButtonSmall.Width" Value="232" />
+    <Constant Name="ButtonSmall.Height" Value="117" />
+  </Constants>
+  <VisualDefinitions>
+    <VisualDefinition Name="NewsItem.Bar" TransitionDuration="0.050">
+      <VisualState SuggestedHeight="2" State="Default" />
+      <VisualState SuggestedHeight="2" State="Pressed" />
+      <VisualState SuggestedHeight="2" State="Selected" />
+      <VisualState SuggestedHeight="10" State="Hovered" />
+      <VisualState SuggestedHeight="2" State="Disabled" />
+    </VisualDefinition>
+  </VisualDefinitions>
+  <Window>
+    <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent">
+      <Children>
+        <ListPanel WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="VerticalBottomToTop" VerticalAlignment="Center" HorizontalAlignment="Center" MarginRight="20">
+          <Children>
+
+            <LauncherNewsWidget DataSource="{NewsItems}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" RadioButtonContainer="..\RadioButtonContainer" TimeLeftFillWidget="..\TimeLeftFillParent\TimeLeftFillWidget">
+              <ItemTemplate>
+                <ButtonWidget DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!ButtonBig.Width" SuggestedHeight="!ButtonBig.Height" VerticalAlignment="Center" HorizontalAlignment="Center" Command.Click="ExecuteOpenLink" UpdateChildrenStates="true">
+                  <Children>
+                    <!--News Image Container-->
+                    <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" ClipContents="true">
+                      <Children>
+                        <LauncherOnlineImageTextureWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" HorizontalAlignment="Center" VerticalAlignment="Center" Brush.MaterialAlphaFactor="0.6" ImageSizePolicy="ScaleToBiggerDimension" LoadingIconWidget="LoadingIconWidget" OnlineImageSourceUrl="@NewsImageUrl">
+                          <Children>
+                            <Standard.LauncherCircleLoadingWidget Id="LoadingIconWidget" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                          </Children>
+                        </LauncherOnlineImageTextureWidget>
+                      </Children>
+                    </Widget>
+                    <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Sprite="launcher_news_grid_shadow" AlphaFactor="0.5" />
+                    <ImageWidget VisualDefinition="NewsItem.Bar" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" VerticalAlignment="Bottom" SuggestedHeight="2" Brush="Launcher.News.Bar" />
+                    <!--<TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="40" VerticalAlignment="Bottom" MarginLeft="15" MarginRight="15" MarginBottom="6" Brush="Launcher.News.TitleText" Text="@Title" />-->
+                  </Children>
+                </ButtonWidget>
+              </ItemTemplate>
+            </LauncherNewsWidget>
+
+            <Widget Id="TimeLeftFillParent" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!ButtonBig.Width" SuggestedHeight="5" VerticalAlignment="Center" HorizontalAlignment="Center" IsEnabled="false">
+              <Children>
+                <Widget Id="TimeLeftFillWidget" WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" Sprite="BlankWhiteSquare" Color="#CC990C55" />
+              </Children>
+            </Widget>
+            
+            <!--News Feed Radio Button Container-->
+            <ListPanel Id="RadioButtonContainer" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" VerticalAlignment="Center" HorizontalAlignment="Center" MarginTop="10">
+              <Children>
+                <ButtonWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedHeight="10" SuggestedWidth="30" MarginLeft="5" MarginRight="5" Brush="Launcher.NewsFeed.RadioButton"/>
+              </Children>
+            </ListPanel>
+
+          </Children>
+        </ListPanel>
+      </Children>
+    </Widget>
+  </Window>
+</Prefab>

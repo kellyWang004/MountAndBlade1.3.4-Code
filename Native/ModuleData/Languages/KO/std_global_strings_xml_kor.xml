@@ -1,0 +1,735 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+    <string id="02Qqpama" text="카메라를 오른쪽으로 돌립니다(시계 방향)." />
+    <string id="08oulGov" text="현재 장비한 무기를 버립니다." />
+    <string id="0BwwHF1s" text="캠페인 맵에서 맵 카메라를 왼쪽으로 움직입니다." />
+    <string id="0EDGnl1C" text="원거리 전용" />
+    <string id="0fLpwDzk" text="화면 모드를 설정합니다.{newline}창: 창 모드로 게임을 실행합니다.{newline}전체화면: 전체화면으로 게임을 실행합니다.{newline}테두리 없는 창 모드: 테두리 없이 최대화된 창 모드로 게임을 실행합니다." />
+    <string id="0ftxDUQU" text="맵 토글 시간 배속" />
+    <string id="0HNrwVGG" text="이동" />
+    <string id="0MvDMsEl" text="오클루전 방식" />
+    <string id="0ot0eBzv" text="승마 시 1인칭 시점으로 전환" />
+    <string id="0YV6wbsq" text="캠페인 맵에서 시간을 일시정지합니다." />
+    <string id="16EUzfcH" text="슬라이더로 노출값을 조정할 수 있습니다" />
+    <string id="1awQTVqN" text="래그돌 수" />
+    <string id="1CLLOxAt" text="플레이어의 일반 이름을 표시합니다. 모든 플레이어의 이름이 일반 이름으로 바뀝니다." />
+    <string id="1dQFNvhQ" text="숫자패드 +" />
+    <string id="1ebaa1Wf" text="걷기/달리기 전환" />
+    <string id="1uCaibsd" text="최대" />
+    <string id="1WsmBXkN" text="프레임 제한" />
+    <string id="22o7UHXL" text="부대 1을 선택합니다." />
+    <string id="23Tcbb4W" text="오른쪽 횡이동" />
+    <string id="25KihbcP" text="전투 임무에서 생성될 지원군 웨이브 수를 설정합니다. 값이 높을수록 전반적으로 임무 기간이 길어집니다. 무제한보다 낮은 설정에서는 모든 소대가 전투에 참전하지 않고 공선전이 마무리될 수도 있습니다." />
+    <string id="2Ao5DCb6" text="부대 아래로 이동" />
+    <string id="2AyPP3rw" text="높음" />
+    <string id="2bPTx7So" text="캐릭터가 웅크립니다." />
+    <string id="2cVkbPYO" text="유닛 생성 우선 순위" />
+    <string id="2e8wI3EM" text="무기 2 장착" />
+    <string id="2EjZcRgF" text="F5" />
+    <string id="2EnLU2ZC" text="UI 크기를 설정합니다." />
+    <string id="2h2148cq" text="모두에게 메시지 보내기" />
+    <string id="2p3Llq2x" text="네트워크 알림 아이콘 활성화" />
+    <string id="2xO6VDCj" text="동적 해상도가 비활성화되어 있어 이 옵션이 비활성화되었습니다." />
+    <string id="2ZJQylWo" text="걷기/달리기를 키를 눌러 전환합니다." />
+    <string id="3awgWrma" text="벤치마크" />
+    <string id="3CN7LUCf" text="커서를 표시하거나 숨깁니다." />
+    <string id="3Dngsvya" text="앞으로 이동" />
+    <string id="3nTeojbI" text="=" />
+    <string id="3oUbmqJY" text="게임의 프레임과 모니터의 주사율을 동기화합니다. 티어링 현상이 사라집니다." />
+    <string id="3P7eDKEY" text="장비 4 장착" />
+    <string id="3sULxlX1" text="길게 눌러 음성 대화를 합니다." />
+    <string id="3y9Q1m1n" text="선호하는 음성 언어를 설정합니다." />
+    <string id="3YwMXbAT" text="맵에서 시간의 흐름을 빠르게 합니다." />
+    <string id="44akzqlm" text="오른쪽 방향키" />
+    <string id="45yEpDdE" text="해상도 크기" />
+    <string id="46vWdakp" text="Y" />
+    <string id="48faf387" text="카메라 왼쪽으로 돌리기" />
+    <string id="4aAvY4yO" text="낮음" />
+    <string id="4e0ycN1Q" text="전체 주목" />
+    <string id="4Gdng2Tt" text="길게 누르면 캠페인 맵에서 카메라가 빠르게 움직입니다." />
+    <string id="4lZDJDb2" text="카메라를 확대했을 때 변경되는 감도 수준을 설정합니다." />
+    <string id="4Nw1hF2R" text="적이 공격 시 또는 방어 시가 아닐 때 발로 차서 적의 방어를 무너뜨립니다. 적이 방어 중이라면 장비 중인 무기로 적을 강타합니다." />
+    <string id="4Q9pzbqM" text="컨트롤러 진동을 활성화합니다." />
+    <string id="4R4shVxp" text="선명도" />
+    <string id="4x1wGwW9" text="명령 7 선택" />
+    <string id="54c9cZO4" text="캐릭터를 표시하거나 숨깁니다." />
+    <string id="5B3ptxje" text="캐릭터" />
+    <string id="5c7l7r31" text="마우스 왼쪽 버튼" />
+    <string id="5JTMe54k" text="부대 3을 선택합니다." />
+    <string id="5jxcNYlU" text="숫자패드6" />
+    <string id="5QfcrJ5r" text="야간 모드" />
+    <string id="5QpTaCa0" text="W" />
+    <string id="5siWUJPw" text="전체 화면" />
+    <string id="5TYDm7Vv" text="카메라 추적 모드" />
+    <string id="5WDQLWCk" text="캠페인 AI" />
+    <string id="6AnHiJGR" text="모니터 선택" />
+    <string id="6CeL6iOp" text="부대 1 선택" />
+    <string id="6d56kv7p" text="방향 조작 수직 감도" />
+    <string id="6g0y182U" text="환경 세부묘사" />
+    <string id="6HJxnF3G" text="저장 실패!" />
+    <string id="6ibNX7Rr" text="그래픽 모드" />
+    <string id="6Jcchu9g" text="점수판이 열린 상태에서 커서를 활성화합니다." />
+    <string id="6koNIQJi" text="저장 데이터를 생성할 수 없습니다. 저장 한계에 도달했습니다." />
+    <string id="6QiPm27r" text="캠페인 맵에서 부대를 위로 이동시킵니다." />
+    <string id="6sIFj7K9" text="시간 빨리 감기" />
+    <string id="6Uh76bYG" text="맵에서 시간정지" />
+    <string id="6uNvJbdx" text="부대 4 선택" />
+    <string id="7fnNx8uP" text="맵 카메라를 오른쪽으로 회전합니다." />
+    <string id="7hytmlkz" text="일반 아바타 활성화" />
+    <string id="7kYSyt9K" text="새로운 콘텐츠가 활성화되었습니다!" />
+    <string id="7MU008BT" text="F11" />
+    <string id="7phVPcDc" text="셰이더 품질을 설정합니다. 값이 높을수록 그래픽 효과가 향상됩니다." />
+    <string id="7QKjVON8" text="점프" />
+    <string id="7S1aCWFa" text="걷는 도중이나 말을 탄 상태에서 점프합니다." />
+    <string id="7SSytk7Z" text="U" />
+    <string id="7tYiV9Vw" text="비등방성 8X" />
+    <string id="7vl1ebVZ" text="왼쪽 Ctrl" />
+    <string id="7X6fZ5kQ" text="화면 공간 반사를 활성화합니다." />
+    <string id="7XmaJYuh" text="캠페인 맵에서 부대를 오른쪽으로 이동시킵니다." />
+    <string id="7ZmtmleI" text="해상도 크기를 설정합니다. 값이 낮을수록 성능이 향상됩니다.{newline}{newline}AMD's &quot;FidelityFX Super Resolution 1.0&quot;을 사용합니다.{newline}{newline}UI 품질에 영향을 주지 않습니다." />
+    <string id="8AiDqTFB" text="맵 이동(후방)" />
+    <string id="8b45xcyL" text="나무와 풀의 품질을 설정합니다." />
+    <string id="8BdF6a4j" text="{LEFT} - {RIGHT}" />
+    <string id="8FbEybTx" text="네트워크 알림 아이콘을 사용합니다.{newline}1. 지연 시간{newline}2. 패킷 손실{newline}3. 서버 성능 부진" />
+    <string id="8fYfD6Uw" text="명령 8을 선택합니다." />
+    <string id="8hArJQWf" text="조준선 표시" />
+    <string id="8iwie5KL" text="명령선택5" />
+    <string id="8kO2jDVf" text="텍스처 품질을 설정합니다." />
+    <string id="8t4KDZfU" text="E" />
+    <string id="8WrQ9fnb" text="C" />
+    <string id="929oYf3G" text="축소" />
+    <string id="92ZztgDd" text="데칼 품질" />
+    <string id="9bHr3oNj" text="원거리 무기 사용 시 표시되는 십자선입니다." />
+    <string id="9F323ez4" text="삼중 선형" />
+    <string id="9gAVbJAR" text="재생" />
+    <string id="9HdllyAZ" text="Bannerlord 벤치마크를 시작합니다." />
+    <string id="9hRcH7kV" text="햇살 효과" />
+    <string id="9N0zXegH" text="채팅 로그를 활성화합니다." />
+    <string id="9OHGqgjH" text="시점을 확대하여 적을 조준하거나 멀리 볼 수 있습니다." />
+    <string id="9pEc15Sb" text="S" />
+    <string id="9qZw55vR" text="마스터 볼륨을 설정합니다." />
+    <string id="9scrSz4i" text="그래픽 모드를 설정합니다.{newline}퍼포먼스: 다이나믹 해상도, 낮은 품질 설정, 전투 시 유닛 수 소량 설정에 초당 60프레임으로 게임을 구동합니다.{newline}피델리티: 네이티브 해상도, 높은 품질 설정, 전투 시 유닛 수 대량 설정에 초당 30프레임으로 게임을 구동합니다." />
+    <string id="9TrnHXRG" text="피델리티" />
+    <string id="9xKCz9BE" text="시점을 1인칭/3인칭으로 전환합니다." />
+    <string id="9zns14aF" text="방어 방향 조작 방법을 설정합니다. 멀티 플레이에선 기본값인 &quot;보는 방향&quot;으로 자동 설정됩니다." />
+    <string id="A0bqGRQc" text="F" />
+    <string id="a5l0tTLE" text="이벤트 로그 활성화" />
+    <string id="a8MvWaSN" text="메뉴에서 수직 동기화를 적용합니다. (로비, 인벤토리, 부대, 캐릭터, 임무 등)" />
+    <string id="Aa2Yokz3" text="숫자패드 *" />
+    <string id="aAaF9FWC" text="오른쪽 Ctrl" />
+    <string id="aAAl11qM" text="적을 대상으로 고정하거나 고정을 해제할 수 있습니다. 길게 누르면 대상들을 자세히 표시합니다." />
+    <string id="aAXqgbDv" text="설정 데이터를 생성할 수 없습니다. 설정 한계에 도달했습니다." />
+    <string id="accbLVWL" text="안티-에일리어싱 기술을 설정합니다. " />
+    <string id="acqAYxhr" text="," />
+    <string id="AD4phxAT" text="자동(SP 전용 기능)" />
+    <string id="advpV8PE" text="이 기능을 활성화하면 지표 보기 키를 누르고 있을 때는 물론 항상 아군 소대 깃발이 보입니다." />
+    <string id="aGb5H9Ni" text="장애물 뒤의 음원 소리를 없앱니다. 멀티 플레이에서는 항상 사용됩니다." />
+    <string id="AhrWBKx9" text="장비 1 장착" />
+    <string id="aIwUX5EF" text="{CONSOLE_KEY_NAME} 키를 눌러 계속하기" />
+    <string id="AJFpx99v" text="노출값 조정" />
+    <string id="aJxmDbur" text="길게 눌러 이 지역에서 나갑니다. " />
+    <string id="altgamekey" text="Alt" />
+    <string id="aMCChr97" text="캠페인 맵에서 카메라를 아래쪽으로 움직입니다." />
+    <string id="amdYLZ6o" text="퀘스트 창" />
+    <string id="an5aw1wc" text="변경한 일부 옵션은 나간 뒤 새 임무를 열기 전까지 적용되지 않습니다." />
+    <string id="aombIn07" text="노출값을 설정합니다." />
+    <string id="asrbFBbn" text="지휘 메뉴" />
+    <string id="asYEb2j7" text="매우 높음(250)" />
+    <string id="au7tXcD1" text="스테레오" />
+    <string id="aufrcNmq" text="입자 세부묘사" />
+    <string id="AuwOJ4Oz" text="임무 재시작 필요" />
+    <string id="aVcBbuKJ" text="F22" />
+    <string id="avDb6Y66" text="마우스 중간 버튼" />
+    <string id="averageCampaignAI" text="평균" />
+    <string id="averageCombatAI" text="평균" />
+    <string id="aWDfG0RO" text="F3" />
+    <string id="AXnSAaoi" text="일반 이름 활성화" />
+    <string id="aydCb7WA" text="중간" />
+    <string id="ayYYRfPP" text="개인 피해 보고" />
+    <string id="Az084VJK" text="방어" />
+    <string id="b00385oX" text="지도에서 백과사전 열기" />
+    <string id="b1OtYhnF" text="텍스처 필터링" />
+    <string id="b7cHW5DS" text="채팅 로그를 표시합니다. 멀티 플레이에서 전체 채팅에 입력을 시작합니다." />
+    <string id="B8aTbaQo" text="부대 4를 선택합니다." />
+    <string id="b9rDOY21" text="명령선택2" />
+    <string id="bbxpBzPr" text="무기 넣기" />
+    <string id="bdJv9dcm" text="캐릭터 확대" />
+    <string id="BDSEgN41" text="전체적인 그래픽 품질을 설정합니다." />
+    <string id="BDSLNk4Q" text="맵 왼쪽으로 회전" />
+    <string id="bEJsGiBK" text="수풀 품질" />
+    <string id="BfebVHWv" text="점수판 표시" />
+    <string id="bfis1Rqj" text="팀원이 죽은 곳을 알려주는 사망 위치 지시자를 활성화합니다." />
+    <string id="bfxMfZrk" text="렌더링 해상도를 낮춰 목표로 설정한 프레임을 유지합니다.{newline}{newline}AMD's &quot;FidelityFX Super Resolution 1.0&quot;을 사용합니다.{newline}{newline}UI 품질에 영향을 주지 않습니다." />
+    <string id="bGbIRSmD" text="." />
+    <string id="BgjaAUNf" text="물 품질을 설정합니다. 값이 높을수록 물의 표현이 향상됩니다." />
+    <string id="BGKHITSN" text="게임 창이 활성 창이 아닐 때 게임을 정지합니다." />
+    <string id="bgwA4Pd8" text="2" />
+    <string id="bGZeJJAH" text="카메라를 왼쪽으로 돌립니다(반시계 방향)." />
+    <string id="Bl8cKwhL" text="디스플레이 보정" />
+    <string id="bmpagYCb" text="방패를 장착하거나 다음 방패로 변경합니다." />
+    <string id="bOCScBYy" text="동적 물리 시뮬레이션 프레임 속도" />
+    <string id="BPiWCOco" text="명령 7을 선택합니다." />
+    <string id="bqb2K5b1" text="오른쪽으로 이동" />
+    <string id="bqUsNucg" text="입자 렌더링 품질을 설정합니다. 값이 높을수록 입자 품질이 향상됩니다." />
+    <string id="BSdIYN9F" text="P" />
+    <string id="bT77aWti" text="무기 사용법 전환" />
+    <string id="bubp5ys1" text="사진을 촬영합니다." />
+    <string id="bvJUmRBd" text="부대 2 선택" />
+    <string id="bW2urPqE" text="명령선택6" />
+    <string id="Bw6fZdOh" text="동적 해상도가 활성화되어 있어 이 옵션이 비활성화 되었습니다." />
+    <string id="byOZcjuE" text="음성 언어" />
+    <string id="bYwwY9qh" text="숫자패드5" />
+    <string id="c49AY7yF" text="낮음(128)" />
+    <string id="C7zwur4k" text="Esc" />
+    <string id="cAkgnVr5" text="Num Lock" />
+    <string id="CBwEl28t" text="사망 위치 지시자 활성화" />
+    <string id="CbwmI1JY" text="피사계 심도를 활성화합니다." />
+    <string id="CfjTvLNl" text="채팅 확정" />
+    <string id="CLpUemXL" text="게임 창 비활성화 시 게임 중단" />
+    <string id="CNjxn3eB" text="스피커" />
+    <string id="Co9aqFIB" text="카메라 추적 모드 전환" />
+    <string id="cOgmdp9e" text="거절" />
+    <string id="combatkick" text="발차기/강타" />
+    <string id="controlgamekey" text="Ctrl" />
+    <string id="cp80Mq2W" text=";" />
+    <string id="Crf6Z1S5" text="Page Up" />
+    <string id="cryvNnsO" text="전투에서 명령을 내릴 때 보이는 시각적인 요소를 정렬합니다." />
+    <string id="CsEtp6Az" text="그룹 3 듣기" />
+    <string id="ct0coyrR" text="A" />
+    <string id="CTiemsyh" text="숫자패드3" />
+    <string id="Cvdaadvs" text="매우 높음" />
+    <string id="cvhQOE38" text="공격 방향 표시" />
+    <string id="cWRA5VVr" text="왼쪽 Alt" />
+    <string id="czYbd1vo" text="H" />
+    <string id="D008gyKC" text="명령 1 선택" />
+    <string id="D0Ps9ddi" text="UI 숨기기" />
+    <string id="d5a3QdBR" text="저장 폴더에 접근할 수 없습니다." />
+    <string id="d6DkPU2b" text="전체" />
+    <string id="d75b5uSL" text="이중 선형" />
+    <string id="d7YTtqlO" text="맵 아래로 이동" />
+    <string id="dbkFMtJw" text="맵 확대" />
+    <string id="DbpgZxxK" text="3인칭 카메라 거리" />
+    <string id="dC1MBjrO" text="텍스처 스트리밍 캐시 크기에 영향을 미칩니다. 값이 높으면 비디오 메모리를 추가로 소모하지만 더 원활한 게임 경험을 제공합니다." />
+    <string id="deletekey" text="Delete" />
+    <string id="Dg0SKmCS" text="전투 속도 DESC" />
+    <string id="dg6yQU6z" text="팀에 메시지 보내기" />
+    <string id="DGRmXCg4" text="아이콘만(SP 전용 기능)" />
+    <string id="DiK2cKUi" text="사운드 장치" />
+    <string id="dkLG4JC4" text="Enter" />
+    <string id="dkYmFAk2" text="공격 받은 정착지 추적" />
+    <string id="DqFxOjTp" text="화면 해상도" />
+    <string id="drbgOAqx" text="경험치 습득을 표시합니다." />
+    <string id="drG1OL8d" text="마우스 휠 위로 스크롤" />
+    <string id="DTSHoHbu" text="인벤토리 창" />
+    <string id="dTyINo1B" text="대상 고정" />
+    <string id="dV5ar9eP" text="최대(1000)" />
+    <string id="Dw58UUua" text="텍스처 투영 효과" />
+    <string id="DxgwxziA" text="채팅 입력(보조)" />
+    <string id="DYcLYL6E" text="바" />
+    <string id="dzR8cr1m" text="음향 프리셋" />
+    <string id="E5xbXlLB" text="햇살 효과를 활성화합니다." />
+    <string id="ea8kNj32" text="사운드 출력 장치를 설정합니다." />
+    <string id="EaOcWkH3" text="백과사전 화면을 엽니다." />
+    <string id="eDRzvYz5" text="정착지가 공격을 받을 때 자동 추적하는 기능을 활성화합니다." />
+    <string id="eHb2U0dA" text="플레이어의 일반 아바타를 표시합니다. 모든 플레이어의 아바타가 일반 아바타로 바뀝니다." />
+    <string id="EkzORIiZ" text="모든 채팅을 엽니다." />
+    <string id="EMzCDjIR" text="부대 2를 선택합니다." />
+    <string id="ETxm7IBL" text="F18" />
+    <string id="evc8yBIy" text="M" />
+    <string id="EvOLbiqM" text="부대 3 선택" />
+    <string id="evzb1cmP" text="네 번째 슬롯에 있는 장비를 장착합니다." />
+    <string id="eXa0p5uN" text="설정 데이터를 생성할 수 없습니다." />
+    <string id="exportbuffersetting" text="버퍼 시각화 내보내기" />
+    <string id="EyYqpm5b" text="방향 조작시 수평 대비 수직 감도를 조절합니다. 카메라 움직임에는 영향을 주지 않습니다." />
+    <string id="eZsVkuQD" text="8" />
+    <string id="F2yX5CXI" text="설정 데이터를 생성할 수 없습니다. 저장 데이터가 손상되었습니다." />
+    <string id="fBXuMgdm" text="캠페인 AI DESC" />
+    <string id="FEDEsbCx" text="캠페인 맵에서 부대를 아래로 이동시킵니다." />
+    <string id="ffHX9L80" text="숫자패드0" />
+    <string id="FHBoO2sp" text="6" />
+    <string id="fJnqJx8m" text="캐릭터 창" />
+    <string id="fldPHfP6" text="게임의 주사율을 설정합니다." />
+    <string id="FLLnblfP" text="사상자 보고" />
+    <string id="fpYTcwqI" text="F24" />
+    <string id="FqvJUBRn" text="매우 낮음" />
+    <string id="fsI2wuHa" text="그룹 2 듣기" />
+    <string id="fUaihaa7" text="항상 아군 소대 깃발 표시" />
+    <string id="FwcM7taa" text="현재 스피커 구성에 가장 어울리도록 음향 출력 방식을 변경합니다." />
+    <string id="G17kWzwi" text="매우 높음(600)" />
+    <string id="G2e8xucc" text="체크무늬가 보이지 않으면 슬라이더를 움직여{newline}패턴이 희미하게 보이도록 조정하세요." />
+    <string id="g4Iq82iw" text="팀 채팅을 엽니다." />
+    <string id="g4VjAbMG" text="J" />
+    <string id="G8ug5Bwx" text="채팅" />
+    <string id="G9oAjFL7" text="매우 낮음(200)" />
+    <string id="GaZ6W7MD" text="명령 2를 선택합니다." />
+    <string id="gCDjIGB6" text="혈흔 표시" />
+    <string id="Gd2iUUHa" text="입자 품질을 설정합니다. 값이 높을수록 입자들이 상세하게 표현됩니다." />
+    <string id="gIsqhwTs" text="1인칭 시점" />
+    <string id="Gl2S6WEW" text="게임 화면을 출력할 모니터를 선택합니다." />
+    <string id="Gl7wgtPQ" text="부대 위로 이동" />
+    <string id="goodCampaignAI" text="좋음" />
+    <string id="goodCombatAI" text="좋음" />
+    <string id="grNuIieh" text="커서/카메라 감도" />
+    <string id="gu2JU5zq" text="조준선 유형" />
+    <string id="GxHV8b1b" text="숫자패드1" />
+    <string id="gxTsIPaS" text="명령 3을 선택합니다." />
+    <string id="gzMIzYTF" text="게임 로그 창" />
+    <string id="H1kB8qEb" text="명령 6을 선택합니다." />
+    <string id="h6wUbray" text="시체 수" />
+    <string id="haLX0kbG" text="계속하려면 클릭" />
+    <string id="haX0xRHa" text="카메라 빠르게" />
+    <string id="HC2sdqca" text="튜토리얼 힌트 활성화" />
+    <string id="hdbb0Jjp" text="백과사전 창" />
+    <string id="hdLs35aB" text="낮음(25)" />
+    <string id="HDV63kra" text="4" />
+    <string id="HeCR9aex" text="외침을 텍스트로 표시합니다." />
+    <string id="hHxSj7tY" text="명령선택3" />
+    <string id="HHyqabMX" text="{LEFT}/{RIGHT}" />
+    <string id="Hiv0420V" text="부대 6을 선택합니다." />
+    <string id="Hj1bsSbW" text="메뉴 수직 동기화 강제 적용" />
+    <string id="hjsLo4ri" text="명령을 표시합니다." />
+    <string id="hkiuDcb6" text="부대 5를 선택합니다." />
+    <string id="HmgPBPeq" text="바탕화면 해상도" />
+    <string id="HNTCnUYY" text="부대 화면" />
+    <string id="homekey" text="Home" />
+    <string id="Hs1CYfbc" text="다음 무기 장착" />
+    <string id="hS4wYBa8" text="부대 순서 반전" />
+    <string id="HsljR1NL" text="무기 1 장착" />
+    <string id="hUyPaplJ" text="전투 규모" />
+    <string id="HVa0okoe" text="F9" />
+    <string id="hwzQGpYa" text="음향 차폐" />
+    <string id="HxIqxjmk" text="모두 선택" />
+    <string id="hZEAeoCk" text="캠페인 맵에서 부대를 왼쪽으로 이동시킵니다." />
+    <string id="I3eooo5c" text="지형 품질을 설정합니다." />
+    <string id="I3rTzBae" text="캐릭터 세부묘사" />
+    <string id="i5xbEcE3" text="캠페인 맵의 시간의 흐름을 정지 또는 해제합니다." />
+    <string id="I9PN1qny" text="숫자패드 Enter" />
+    <string id="IahiWHHW" text="K" />
+    <string id="Iam02fhz" text="낮음(300)" />
+    <string id="IaoVYeZi" text="오브젝트 표면의 입체감을 향상시키는 효과를 활성화합니다." />
+    <string id="iazKqdH1" text="외침 보고" />
+    <string id="iblHebbT" text="F1" />
+    <string id="IcEPmXxM" text="앰비언트 오클루전을 설정합니다." />
+    <string id="ICgda8Is" text="방향키 위쪽 연타: 전방 돌진" />
+    <string id="ID9lG6xg" text="명령 표시" />
+    <string id="igGLkaf6" text="장비 2 장착" />
+    <string id="iGi5HsGS" text="왼쪽 Shift" />
+    <string id="ihAadMd5" text="캠페인 지도에서 백과사전을 엽니다." />
+    <string id="IjhCSwNn" text="3인칭 시점에서 카메라를 캐릭터로부터 멀리 이동시킵니다." />
+    <string id="IjLcnwpz" text="카메라 초점이 증가합니다." />
+    <string id="IjRHUbbN" text="테셀레이션" />
+    <string id="ikbBAZtA" text="버퍼 시각화를 내보냅니다." />
+    <string id="IKjxVh2N" text="모션 블러" />
+    <string id="ikoUJQyl" text="빛 번짐을 활성화합니다." />
+    <string id="iljRgsvP" text="명령 레이아웃 유형" />
+    <string id="invalidkey" text="-" />
+    <string id="IOZ4aWVp" text="부대 8 선택" />
+    <string id="iPbtrFzF" text="AMD FidelityFX™ 슈퍼 해상도를 활성화합니다." />
+    <string id="Irhxad7u" text="물 품질" />
+    <string id="iUFgqwkA" text="중간(256)" />
+    <string id="iuQk8map" text="음성 볼륨" />
+    <string id="iwO3g6Rz" text="전투 AI의 난이도를 선택합니다." />
+    <string id="ixHHmobT" text="근접 무기를 사용하는 동안 적에게 시야를 고정할 수 있습니다." />
+    <string id="ixTwtPt0" text="4 웨이브" />
+    <string id="IxzTvJH9" text="백그라운드 사운드" />
+    <string id="IyenJVb1" text="애니메이션 샘플링 프레임 속도에 영향을 줍니다. 값이 높을수록 CPU 자원이 더 필요하지만, 애니메이션이 더 부드러워집니다." />
+    <string id="IYLn67Xm" text="X" />
+    <string id="Iz2vu6xM" text="마우스 휠 아래로 스크롤" />
+    <string id="iZAwcZSV" text="정착지 추적" />
+    <string id="j2g8BSOF" text="정적/동적 모두 적용" />
+    <string id="J2pcA6KR" text="캐릭터 보기" />
+    <string id="j3k8PiPo" text="수풀이 움직이는 효과를 활성화합니다." />
+    <string id="jaeLYPIG" text="시간 일시정지" />
+    <string id="jafcz97A" text="그림자 품질" />
+    <string id="JAzv5xYY" text="입힌 피해량에 대한 정보를 표시합니다." />
+    <string id="jbLwdd6z" text="헤드폰" />
+    <string id="jd9ZG2CI" text="R" />
+    <string id="JDDANRcS" text="확대 감도 조절" />
+    <string id="jgCb0sga" text="원거리 무기의 조준선을 표시합니다." />
+    <string id="JKH8aiDE" text="캐릭터 전환" />
+    <string id="jkwgSmhl" text="원할 경우 서로 다른 믹스 모드로 전환할 수 있습니다." />
+    <string id="JLqe3lrb" text="전투 AI 난이도" />
+    <string id="JLtTANZg" text="왼쪽으로 이동" />
+    <string id="JmvywkK6" text="맵 위로 이동" />
+    <string id="jOGbGqOC" text="수직 조준 보정" />
+    <string id="JP1y1i0A" text="무기 4 장착" />
+    <string id="Js1lhJkk" text="언어" />
+    <string id="js6LONvV" text="뒤로 이동" />
+    <string id="Ju6btXsv" text="공격 방향 조작" />
+    <string id="JXdwIX8Q" text="무기 궤적의 두께를 설정합니다." />
+    <string id="jy9orOJz" text="플레이" />
+    <string id="JZFXI1LK" text="UI 크기" />
+    <string id="jZs8I1Uq" text="필름 그레인 효과를 활성화합니다." />
+    <string id="JZYQGUF3" text="아래 화살표 두 번 연타: 급정지" />
+    <string id="k4E1gylQ" text="선명도 값을 설정합니다." />
+    <string id="k7gJYLLj" text="숫자패드8" />
+    <string id="K80z5onY" text="3인칭 시점에서 카메라 거리를 설정합니다." />
+    <string id="kak4GxOh" text="F6" />
+    <string id="kCXjabff" text="채팅 로그를 표시합니다. 멀티 플레이에서 팀 채팅에 입력을 시작합니다." />
+    <string id="ke34iiXU" text="명령하는 동안 느려짐" />
+    <string id="kG4051e5" text="명령선택7" />
+    <string id="KGaaYZi1" text="주사율" />
+    <string id="Kh8qRccB" text="변경 사항을 초기화합니다." />
+    <string id="KHbdmIfF" text="정적" />
+    <string id="khHVSEiK" text="캠페인 맵에서 카메라를 위쪽으로 움직입니다." />
+    <string id="KiY5M2uk" text="저장 데이터를 생성했습니다." />
+    <string id="KjZas5Xs" text="디스플레이 장치를 선택합니다." />
+    <string id="kKg8oyGu" text="F19" />
+    <string id="KKNmozPI" text="왼쪽 방향키" />
+    <string id="Kksv0KyL" text="부대 7을 선택합니다." />
+    <string id="KL8cGTao" text="방사형" />
+    <string id="kNpWwJcc" text="높음(500)" />
+    <string id="KO5zuUvN" text="행동" />
+    <string id="KONClayU" text="\" />
+    <string id="KShlkb9M" text="맵 카메라를 왼쪽으로 회전합니다." />
+    <string id="KtYtBnvP" text="프레임 제한을 설정합니다." />
+    <string id="KUGomrhD" text="다시 표시 안 함" />
+    <string id="KwNTg7BT" text="화면 모드" />
+    <string id="l4ex8t6l" text="5 웨이브" />
+    <string id="l5aKnGy3" text="채팅 입력" />
+    <string id="l7Rfaa8f" text="부대 8을 선택합니다." />
+    <string id="L8UiZT7R" text="AMD FidelityFX™ 슈퍼 해상도" />
+    <string id="L992LXVF" text="카메라 추적 모드를 &quot;플레이어 시점&quot;과 &quot;자유 시점&quot; 간에 전환합니다." />
+    <string id="lCucoVwJ" text="예상 GPU 메모리 사용량" />
+    <string id="lG7AlfxK" text="지도에서 정착지 추적" />
+    <string id="lgOBD6MF" text="공격 방향을 표시합니다." />
+    <string id="lgzmPG6K" text="앉기" />
+    <string id="LjNnWa7R" text="F10" />
+    <string id="LJZAvH8f" text="텍스처 품질" />
+    <string id="ll2iP8yo" text="사용 가능한 비디오 메모리 용량을 초과할 경우 심각한 성능저하와 안정성 문제를 일으킬 수 있습니다." />
+    <string id="Lm5Wj9ty" text="음성 채팅 볼륨" />
+    <string id="Lo0bRwYO" text="저장 데이터를 생성할 수 없습니다. 저장 데이터가 손상되었습니다." />
+    <string id="LroTz1rL" text="플레이어가 명령하는 동안 게임이 느려집니다." />
+    <string id="lsQ1kFLn" text="장비 전환 메뉴" />
+    <string id="LsX8rTwl" text="캐릭터 화면을 엽니다" />
+    <string id="lsxqkhy6" text="O" />
+    <string id="LTxU2AST" text="자동 저장 시간 간격을 지정합니다. 값은 분 단위입니다." />
+    <string id="Lu1sjJKR" text="동적 해상도 조정" />
+    <string id="m1PinhQd" text="부대 화면을 엽니다" />
+    <string id="M1ZFZR5I" text="지형 품질" />
+    <string id="M3bY9bLu" text="정보 메시지를 활성화합니다." />
+    <string id="m4Lketfz" text="카메라 이동 시 Y축을 반전합니다. (캠페인 맵에는 적용되지 않습니다)" />
+    <string id="m6n7bAoQ" text="{newline}- {STR}" />
+    <string id="m7B471Hw" text="광원 품질을 설정합니다." />
+    <string id="m7IunCRL" text="깃발 편집기 화면을 엽니다." />
+    <string id="mBYYRzog" text="음성 채팅 활성화" />
+    <string id="Mf5qVgAv" text="장비 3 장착" />
+    <string id="MFbBFDqx" text="빠르게 맵 이동" />
+    <string id="MfsNAPh6" text="텍스처 투영 효과를 활성화 합니다." />
+    <string id="MfunBOxF" text="대비를 조정합니다." />
+    <string id="mG4rCrfE" text="0" />
+    <string id="Mja6xKiX" text="시각 효과 정렬" />
+    <string id="MkKL3Y4P" text="숫자패드7" />
+    <string id="mkQiThTA" text="설정 데이터를 생성했습니다." />
+    <string id="mLtHlKzD" text="오른쪽 Alt" />
+    <string id="MNsKxGzK" text="텍스처 스트리밍 가용량" />
+    <string id="mWnA4X5D" text="명령 6 선택" />
+    <string id="mWT9b9ZM" text="보통(75)" />
+    <string id="MXHkvySm" text="F7" />
+    <string id="Mxnj08mB" text="부대 오른쪽으로 이동" />
+    <string id="n23hFPye" text="커서 모드 변경" />
+    <string id="nbXC9aIe" text="120Hz 모드" />
+    <string id="nD11hOsQ" text="임무 화면을 엽니다" />
+    <string id="nDjFBDvE" text="전투시 표시할 최대 유닛 수를 설정합니다. 값이 높을수록 고성능의 CPU와 GPU가 필요합니다." />
+    <string id="nLhH8JhZ" text="음성 채팅 볼륨 레벨입니다." />
+    <string id="NMP6nR8C" text="DLSS 성능" />
+    <string id="NN7DHB1A" text="부대 1 주목" />
+    <string id="noYzJpKr" text="확대/축소 전환" />
+    <string id="nwdlr4MI" text="현재 진행 중인 투표를 거절합니다." />
+    <string id="o0QPZODk" text="부대 아래쪽 이동" />
+    <string id="o2wElwi5" text="동종" />
+    <string id="o8WjGqS4" text="Z" />
+    <string id="o9Bk7aLz" text="클릭하면 도발합니다. 길게 누르면 도발 메뉴가 표시됩니다." />
+    <string id="O9ed2AWr" text="채팅 상자가 활성화되어 있을 때 메시지를 확정합니다. 아니면 채팅 상자를 활성화합니다." />
+    <string id="ocNVbyPJ" text="테두리 없는 창 모드" />
+    <string id="oCtaP2tZ" text="DLSS가 활성화되어 있어 이 옵션을 설정할 수 없습니다." />
+    <string id="odsVjkbO" text="인벤토리 화면을 엽니다" />
+    <string id="oEdTBobd" text="이방성 2X" />
+    <string id="OeJ53VmM" text="&quot;동적 해상도 조정&quot;을 설정하여 목표 프레임 속도를 유지합니다.{newline}{newline}플레이하기에 편안한 최저 프레임 속도로 설정하는 것이 좋습니다. 너무 높게 설정하면 불필요한 해상도 저하가 발생합니다." />
+    <string id="OgXnrvcA" text="의상에 물리 효과를 활성화합니다. 프레임 저하가 일어날 수 있습니다." />
+    <string id="oI1gktYa" text="효과 볼륨을 설정합니다." />
+    <string id="OiB50fga" text="맵 선택" />
+    <string id="oIuCX8KW" text="장비 장착/버리기" />
+    <string id="OlajLkbl" text="F13" />
+    <string id="oMaTg568" text="캠페인 맵을 확대합니다." />
+    <string id="Oo7wQbfG" text="X2 마우스 버튼" />
+    <string id="Op68a8dO" text="메뉴 단축키" />
+    <string id="opGK2hO0" text="플레이어 임무 중에는 전투 UI 요소를 숨깁니다." />
+    <string id="otHjiYlN" text="입자 품질" />
+    <string id="OtS4DYD1" text="T" />
+    <string id="owS8kqZs" text="유닛 생성 우선 순위를 설정합니다.{newline}기본값: 부대 명단 내 직급에 따라 유닛이 생성됩니다.{newline}높은 레벨: 높은 레벨 유닛이 먼저 생성됩니다.{newline}낮은 레벨: 낮은 레벨 유닛이 먼저 생성됩니다.{newline}동종: 높은 레벨과 낮은 레벨 유닛이 같은 비율로 생성됩니다. 이 옵션의 경우 각 소대 유형의 유닛이 동일한 비율로 생산되도록 하며, 이 작업 중에는 유닛의 티어를 무시합니다.{newline}위 설정은 플레이어의 시작 조합에만 적용됩니다. AI는 영향을 받지 않습니다." />
+    <string id="OYaqdNAI" text="명령 2 선택" />
+    <string id="P4rblFQN" text="맵 축소" />
+    <string id="P5x1HU1u" text="안티-에일리어싱" />
+    <string id="P7E3rS3m" text="음악 볼륨을 설정합니다." />
+    <string id="pa8A2VG3" text="플레이어 피격 시 화면에 붉은 테두리를 표시합니다." />
+    <string id="PACe9VHN" text="&lt;" />
+    <string id="PADeKaAu" text="맵 컨텍스트 메뉴" />
+    <string id="PBzbWfGF" text="대상 고정" />
+    <string id="PC77pnRB" text="지도자 전용" />
+    <string id="pialOblr" text="명령 보류" />
+    <string id="PksJtzwJ" text="스페이스" />
+    <string id="pnEeRPAk" text="부대 7 주목" />
+    <string id="pNocZkrx" text="피격 시각 효과 사용" />
+    <string id="poorCampaignAI" text="낮음" />
+    <string id="poorCombatAI" text="낮음" />
+    <string id="pQLVaBuN" text="카메라 Y축 반전" />
+    <string id="pQVSwtfn" text="3인칭 화면에서 카메라를 캐릭터 근처로 이동합니다." />
+    <string id="PRsSB9B8" text="무기, 탈것, 문, 사람 등과 상호작용합니다." />
+    <string id="ps103cxD" text="무기의 공격 방식입니다." />
+    <string id="psDownDirectionButton" text="아래쪽 방향키" />
+    <string id="pshodFff" text="무기 궤적 표시" />
+    <string id="psLeftDirectionButton" text="왼쪽 방향키" />
+    <string id="psLeftStick" text="왼쪽 스틱" />
+    <string id="psLeftStickDown" text="왼쪽 스틱 아래" />
+    <string id="psLeftStickLeft" text="왼쪽 스틱 왼쪽" />
+    <string id="psLeftStickRight" text="왼쪽 스틱 오른쪽" />
+    <string id="psLeftStickUp" text="왼쪽 스틱 위" />
+    <string id="psRightDirectionButton" text="오른쪽 방향키" />
+    <string id="psRightStick" text="오른쪽 스틱" />
+    <string id="psRightStickDown" text="오른쪽 스틱 아래" />
+    <string id="psRightStickLeft" text="오른쪽 스틱 왼쪽" />
+    <string id="psRightStickRight" text="오른쪽 스틱 오른쪽" />
+    <string id="psRightStickUp" text="오른쪽 스틱 위" />
+    <string id="psUpDirectionButton" text="위쪽 방향키" />
+    <string id="PtI8voo3" text="F8" />
+    <string id="PvNGaexX" text="길게 눌러 중요한 인물, 장소, 지역, 지표 등을 표시합니다." />
+    <string id="pVrv5hnp" text="B" />
+    <string id="py0auN0A" text="{ESTIMATED}MB / {TOTAL}MB" />
+    <string id="Q1kAeH3b" text="F16" />
+    <string id="QaMie1KY" text="근접 전용" />
+    <string id="Qbz9VJGw" text="{Modifier} + {KEY}" />
+    <string id="QBzjt1c4" text="확장 키 1" />
+    <string id="QcNaK9xX" text="애니메이션 샘플링 품질" />
+    <string id="qDhDbZKh" text="현재 가리킨 정착지를 추적합니다." />
+    <string id="qDVoGsb9" text="길게 눌러 게임패드로 명령합니다." />
+    <string id="QfsXhxOI" text="울트라(800)" />
+    <string id="qggjceRq" text="음향 출력" />
+    <string id="qIRQRIQD" text="함대를 엽니다." />
+    <string id="QiYy3Ja4" text="명령 선택으로 돌아오기" />
+    <string id="QKy9a176" text="왼쪽 횡이동" />
+    <string id="qmplQd0Q" text="세 부분" />
+    <string id="qNPmVDmU" text="적용 가능할 경우 NVIDIA DLSS 방식을 설정합니다. " />
+    <string id="QObLf5jh" text="지도에서 선택" />
+    <string id="qOcw1xap" text="Page Down" />
+    <string id="QoGjzEwI" text="뒤로 이동" />
+    <string id="Qp3i4PrW" text="TV" />
+    <string id="QpUkFQnj" text="피델리티 모드에서 프레임 속도를 40Hz로 고정하고 퍼포먼스 모드에서 해제합니다." />
+    <string id="qR4S6PeD" text="DLSS 품질" />
+    <string id="qS0z458V" text="~" />
+    <string id="QsdUafoH" text="명령 5 선택" />
+    <string id="qSJZyoro" text="F2" />
+    <string id="qsrqjK0B" text="환경 요소의 디테일을 설정합니다." />
+    <string id="qtgBKzY8" text="화면에 표시될 시체 수를 설정합니다." />
+    <string id="qvaJYO9c" text="이방성 16X" />
+    <string id="qW1FWX0C" text="아래쪽 방향키" />
+    <string id="r4wEESkT" text="캠페인 맵과 임무에서 이벤트 로그를 활성화합니다." />
+    <string id="r5onpWZW" text="항상" />
+    <string id="R9cQCadq" text="공격 방향 조작 방법을 설정합니다." />
+    <string id="r9tGsO4Z" text="게임 재시작 필요" />
+    <string id="RaijrIxP" text="상호작용" />
+    <string id="Rh7aDJ3n" text="깃발 창" />
+    <string id="rHeu8Ndg" text="얼굴 생성 화면을 엽니다." />
+    <string id="Rhl5E2ut" text="그림자 종류를 설정합니다." />
+    <string id="RhUd5Y2T" text="현재 진행 중인 투표를 수락합니다." />
+    <string id="rKvjSSri" text="F14" />
+    <string id="rNiESgEo" text="]" />
+    <string id="ro0NhUnJ" text="1인칭 시점 시야각을 설정합니다." />
+    <string id="roJLc9oH" text="절반" />
+    <string id="rP058aIm" text="첫 번째 슬롯에 있는 장비를 장착합니다." />
+    <string id="rs0wImmD" text="저장 데이터를 생성할 수 없습니다." />
+    <string id="rS6nO0wb" text="비네트 효과 전환" />
+    <string id="RSmsn6mb" text="시간 재생/일시정지" />
+    <string id="RX76Kfa8" text="카메라 전환" />
+    <string id="rXftSOjn" text="맵 오른쪽으로 회전" />
+    <string id="rxTqpENB" text="F20" />
+    <string id="rYCYUZu5" text="부대 5 주목" />
+    <string id="RZ1x41t2" text="같은 팀 플레이어의 음성 채팅 메시지를 수신합니다." />
+    <string id="s4r1xdg0" text="부대 6 주목" />
+    <string id="s533kEjf" text="음악 볼륨" />
+    <string id="s7yWjpeB" text="장치 선택" />
+    <string id="saDoGzvp" text="새로운 콘텐츠가 설치되었습니다!" />
+    <string id="sAoWNAwZ" text="창 모드" />
+    <string id="sbUBtOTb" text="피해량 보고" />
+    <string id="sCjtEbTF" text="다음 모듈이 게임에서 제거되었습니다:" />
+    <string id="SEucYSln" text="숫자패드 2" />
+    <string id="ShDZ4GgG" text="무기 3 장착" />
+    <string id="sPqkglTv" text="전투 UI 숨기기" />
+    <string id="sQCP8t0U" text="맵 대기" />
+    <string id="StaoHYba" text="부대 4 주목" />
+    <string id="sTlHHQPs" text="설정이 적용하려면 게임을 재시작해야 합니다" />
+    <string id="SuYh3GtG" text="무기 모드 전환" />
+    <string id="SWDHaFCK" text="명령선택4" />
+    <string id="swdKFkfu" text="F21" />
+    <string id="SWk141EO" text="장비한 무기를 집어넣습니다." />
+    <string id="sxFsZAeC" text="1" />
+    <string id="sxIWNefq" text="레거시" />
+    <string id="t0vgSn7D" text="다음 부대 선택" />
+    <string id="T3Ex0K1p" text="End" />
+    <string id="T6IJg6wq" text="맵 카메라 추적 모드" />
+    <string id="TbCbHxeF" text="부대 선택 전환" />
+    <string id="tbGol5PT" text="F4" />
+    <string id="tbwhjsqS" text="마우스 오른쪽 버튼" />
+    <string id="Tdf5AbRp" text="클랜 화면을 엽니다." />
+    <string id="TEuOMadV" text="Tab" />
+    <string id="tFZspabL" text="이전 탭으로 전환" />
+    <string id="TgIAHPHs" text="명령 4 선택" />
+    <string id="tifiQGTa" text="왕국 화면을 엽니다." />
+    <string id="TIYrYxpr" text="부대 5 선택" />
+    <string id="tkCbjgfx" text="숫자패드 -" />
+    <string id="TlpNyR2U" text="낮은 레벨" />
+    <string id="tlR1jGNH" text="일시정지 메뉴 전환" />
+    <string id="TOebahlA" text="맵 시간 배속" />
+    <string id="toHFqO2G" text="명령 5를 선택합니다." />
+    <string id="TRmaxjal" text="3인칭 모드에서 수직 조준 보정을 사용합니다." />
+    <string id="tsPjK1Ke" text="활성화됨" />
+    <string id="ttCcMbwO" text="위쪽 방향키" />
+    <string id="TtWjblNo" text="토글 보이기" />
+    <string id="TUWeNFOv" text="스크린샷 촬영" />
+    <string id="TvGJqPGp" text="사망/기절 보고를 표시합니다." />
+    <string id="tw5Wxv3b" text="숫자패드 ." />
+    <string id="TWbbfaUu" text="캠페인 맵에서 맵 카메라를 오른쪽으로 움직입니다." />
+    <string id="TybJcG0A" text="매우 낮음(64) " />
+    <string id="tZGftbOD" text="눌러서 대화" />
+    <string id="TzpULeDH" text="명령 선택으로 돌아갑니다." />
+    <string id="u2dQaVY2" text="세 번째 슬롯에 있는 장비를 장착합니다." />
+    <string id="U58amXO0" text="길게 누르면 장비 전환 메뉴가 표시됩니다." />
+    <string id="U5xKAHGi" text="빛 번짐 효과" />
+    <string id="u6QCWQvu" text="네 부분" />
+    <string id="u7FkCtRN" text="부대 0 주목" />
+    <string id="U8NaF1bo" text="대비 설정" />
+    <string id="Uaae1eBV" text="오른쪽 방향키 두 번 연타: 빠르게 우회전" />
+    <string id="UboDNGJw" text="부대 7 선택" />
+    <string id="uBRn8Je8" text="3" />
+    <string id="Uc1n5MRj" text="NVIDIA DLSS" />
+    <string id="UFHqkvah" text="수풀 흔들림" />
+    <string id="uGEcLaqw" text="카메라 오른쪽으로 돌리기" />
+    <string id="UItoMdHh" text="설정 데이터를 생성할 수 없습니다. 공간이 부족합니다." />
+    <string id="UixNc11t" text="무기나 방패로 공격을 방어합니다." />
+    <string id="ukw0Zi1X" text="[" />
+    <string id="UNmUcizM" text="명령 3 선택" />
+    <string id="Uojm77jP" text="광원 품질" />
+    <string id="UoxjMhfJ" text="명령선택1" />
+    <string id="UqB9zKfE" text="주 무기 장착" />
+    <string id="uQfDuGem" text="캐릭터 축소" />
+    <string id="urbLiiQJ" text="노출값 설정" />
+    <string id="uRXlSUVh" text="N" />
+    <string id="uSGPBRFS" text="확대/축소" />
+    <string id="UTU6yVsp" text="캠페인 맵에서 시간을 다시 흐르게 합니다." />
+    <string id="uUHUfeQr" text="부대 6 선택" />
+    <string id="UwJIMaRi" text="셰이더 품질" />
+    <string id="UwuYCgIU" text="주의" />
+    <string id="v2me5eP1" text="비네트 효과를 켜거나 끕니다." />
+    <string id="V5ltCcw0" text="높음(125)" />
+    <string id="v8GIxASM" text="수직 동기화" />
+    <string id="vAnlshLW" text="9" />
+    <string id="VasVb9DK" text="무기를 장착하거나 다음 장비로 변경합니다." />
+    <string id="VAtNIoKC" text="L" />
+    <string id="VdGuZAoK" text="사용자 인터페이스를 숨깁니다." />
+    <string id="Ve99pCSo" text="의상 물리 효과" />
+    <string id="VE9TavSl" text="데칼 품질을 설정합니다." />
+    <string id="Vea6bRUO" text="하단 중앙에 플레이어의 피해와 사상자를 표시하는 인터페이스를 활성화합니다." />
+    <string id="vJ41v8zh" text="아군 소대 깃발 불투명도" />
+    <string id="vJDxgaOZ" text="다음 모듈은 버전이 다릅니다:" />
+    <string id="VLxclitg" text="채팅 로그 활성화" />
+    <string id="vN8ClsDX" text="동적 물리 시뮬레이션 프레임 속도를 설정합니다. 값이 높을수록 CPU 자원이 더 필요하지만, 물리 시뮬레이션이 더 부드러워집니다." />
+    <string id="vOanWRQi" text="명령 1을 선택합니다." />
+    <string id="vOVdr24b" text="명령 4를 선택합니다." />
+    <string id="vT3yIxmO" text="숫자패드 4" />
+    <string id="vvKU6wTA" text="음성 볼륨을 설정합니다." />
+    <string id="vXvmeGhm" text="그림자 유형" />
+    <string id="VzSerzva" text="오른쪽 Shift" />
+    <string id="W3NRW1d4" text="명령 레이아웃을 선택하십시오(예: 명령 카테고리 및 키).{newline}기본: 기본 명령 레이아웃입니다.{newline}레거시: 이전 게임 버전에서 사용하던 명령 레이아웃입니다." />
+    <string id="w4l8xA2Q" text="맵 이동 왼쪽" />
+    <string id="waNCurZY" text="모션 블러를 활성화합니다." />
+    <string id="wb84GjZw" text="그림자 필터링" />
+    <string id="WBVMg0bd" text="텍스처 필터링 기법을 설정합니다. 값이 높을수록 텍스처가 세밀하고 선명해집니다." />
+    <string id="wg5YeO4k" text="캠페인 맵" />
+    <string id="wGa1SUop" text="두 번째 슬롯에 있는 장비를 장착합니다." />
+    <string id="whn4v32E" text="그림자 해상도를 설정합니다." />
+    <string id="WiBlu6mE" text="명령선택9" />
+    <string id="wJWICbOg" text="게임 언어를 설정합니다." />
+    <string id="WldVAZhy" text="캐릭터의 세부 묘사 수준을 설정합니다." />
+    <string id="wMe5p2HG" text="7" />
+    <string id="WMmGH9yp" text="캠페인 맵을 축소합니다." />
+    <string id="WOubRnjm" text="경험치 보고" />
+    <string id="WP4bYHK2" text="투표" />
+    <string id="WP6GEbYa" text="게임이 비활성화 상태일 때 사운드를 출력합니다." />
+    <string id="Wr2DX9Go" text="F23" />
+    <string id="WVpVmbzC" text="다음 모듈이 게임에 새로 추가되었습니다:" />
+    <string id="wWDHH5FK" text="피사계 심도" />
+    <string id="wygub2sh" text="F15" />
+    <string id="WyI6xHlc" text="기본 메뉴로 돌아가시겠습니까? (현재 진행 상황을 잃게 됩니다!)" />
+    <string id="wYicqUa9" text="맵 시간 보통" />
+    <string id="X1nFnomy" text="보통(400)" />
+    <string id="X2CbgcZ9" text="보는 방향" />
+    <string id="X5cSNxHf" text="5" />
+    <string id="x7kYOUfi" text="효과 볼륨" />
+    <string id="x7qfk550" text="Q" />
+    <string id="XCB1SGxZ" text="벤치마크 시작" />
+    <string id="xEquRfRF" text="10" />
+    <string id="xikMYwty" text="DLSS 울트라 성능" />
+    <string id="xJpOH8DU" text="백과사전 열기" />
+    <string id="XldS0fkN" text="카메라 추적 모드 변경" />
+    <string id="xlxTJuJ9" text="모두 선택합니다." />
+    <string id="xMoqTFkZ" text="보는 방향 반대" />
+    <string id="XnhBdHnS" text="서라운드" />
+    <string id="xNprkuJl" text="무기 버리기" />
+    <string id="xnulLUFX" text="단축키로 빠르게 게임을 저장합니다." />
+    <string id="XrUGC7H4" text="Backspace" />
+    <string id="XtiGbj0W" text="커서 표시" />
+    <string id="xuOz73hl" text="전투에서 혈흔을 표시할지 선택합니다." />
+    <string id="xZ84ujuu" text="동시에 재생될 수 있는 사운드 채널 수를 설정합니다. 적은 값은 CPU 사용량을 줄이고 높은 값은 더 좋은 분위기를 제공합니다." />
+    <string id="y5FGfFdf" text="F17" />
+    <string id="y7dx24ih" text="1인칭 시점에서 승마 시 말의 방향으로 카메라를 회전시킵니다." />
+    <string id="YAHs7wBa" text="명령 8 선택" />
+    <string id="YDccwh2x" text="마스터 볼륨" />
+    <string id="yDr2HCFR" text="캐릭터 중심 360도 시점 모드로 전환합니다." />
+    <string id="yfMN8wWN" text="이방성 4X" />
+    <string id="Yg2jHH1M" text="숫자패드 /" />
+    <string id="YirOUaIV" text="카메라 초점이 감소합니다." />
+    <string id="yLCSTuBw" text="게임 해상도를 설정합니다. 높은 해상도는 고성능 디스플레이 장치가 필요합니다." />
+    <string id="Yn8bh0qT" text="다음 방패 장착" />
+    <string id="yruQv3th" text="3 웨이브" />
+    <string id="YT6ljA5V" text="맵 이동 앞" />
+    <string id="YTXLLaEN" text="높은 레벨" />
+    <string id="yV64UCaW" text="확대" />
+    <string id="YZv1752W" text="D" />
+    <string id="yZvw7EQb" text="화면 공간 반사" />
+    <string id="z5Kbb4pC" text="DLSS 균형 잡힘" />
+    <string id="z6ezjlkX" text="Shift" />
+    <string id="z8XjxODK" text="무기의 사용 방법을 전환합니다. 근접 / 원거리, 한손 / 양손." />
+    <string id="ZaaPPemL" text="명령선택8" />
+    <string id="ZeIsxhk4" text="그림자 필터링 기법을 설정합니다." />
+    <string id="ZewnkWoO" text="G" />
+    <string id="Zgs47DHB" text="Caps Lock" />
+    <string id="ZIKuUbUG" text="동시에 실행되는 래그돌 수를 설정합니다." />
+    <string id="ZKg3DqbQ" text="아군 소대 위에 표시되는 깃발의 불투명도를 설정합니다." />
+    <string id="ZlcrmFvl" text="다음 탭으로 전환" />
+    <string id="znSZmZvV" text="맵 이동 오른쪽" />
+    <string id="Zo2ngsUk" text="얼굴 생성" />
+    <string id="ZoDugJHP" text="이전 부대 선택" />
+    <string id="zofULNb8" text="보조 무기 장착" />
+    <string id="ZOUxmamu" text="커서 및 카메라 감도를 설정합니다." />
+    <string id="ZP1tLaa1" text="숫자패드 9" />
+    <string id="ZtDJrNz9" text="필름 그레인" />
+    <string id="zTFbqJ6R" text="&apos;" />
+    <string id="ZtxvyzjY" text="사운드 채널" />
+    <string id="ZUGXXsGj" text="지원군 웨이브 수" />
+    <string id="zUXxshZK" text="F12" />
+    <string id="zvD48rVQ" text="빠른 저장" />
+    <string id="ZvjfAm7H" text="저장 데이터를 생성할 수 없습니다. 공간이 부족합니다." />
+    <string id="ZVLr4CMO" text="X1 마우스 버튼" />
+    <string id="ZvtKqPt3" text="왼쪽 방향키 두 번 연타: 빠르게 좌회전" />
+    <string id="zwL5NFAr" text="Insert" />
+    <string id="ZX8TLWzd" text="이 시스템에서는 DLSS를 사용할 수 없습니다." />
+    <string id="zxMOqlhs" text="공격" />
+    <string id="zXUB15lX" text="동적 해상도 목표 FPS" />
+    <string id="zyR3jbj2" text="카메라 빠른 이동" />
+    <string id="zzonsjpL" text="높음(512)" />
+  </strings>
+</base>

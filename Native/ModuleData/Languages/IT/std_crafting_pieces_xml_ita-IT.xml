@@ -1,0 +1,735 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Italiano" />
+  </tags>
+  <strings>
+    <string id="03YrcAtx" text="{.FS}Impugnatura a due mani con rivestimento in cuoio" />
+    <string id="0gteBOD7" text="{.FS}Punta di berdica" />
+    <string id="0kP9bf7n" text="{.MS}Manico di falcetto" />
+    <string id="0LJtoZtW" text="{.FS}Guardia cesellata per scimitarra uncinata" />
+    <string id="0Y0kaTwm" text="{.FS}Lama di spatha semplice" />
+    <string id="13lb5at6" text="{.MS}Manico in mogano con rivestimento in pelle" />
+    <string id="19a3jJ1s" text="{.FS}Lama seghettata di grande sciabola" />
+    <string id="1ajbJdao" text="{.MS}Pomolo per spranga" />
+    <string id="1auabxxv" text="{.FS}Guardia piatta arrotondata" />
+    <string id="1e9OaUWk" text="{.FS}Testa di mazza leggera orientale" />
+    <string id="1Ia3Wxbf" text="{.FS}Lama di falx in acciaio pregiato" />
+    <string id="1nGcpiom" text="{.MS}Pomolo ornamentale arrotondato" />
+    <string id="1NLsucbu" text="{.FS}Testa di mazza flangiata pesante" />
+    <string id="1NSafswc" text="{.FS}Testa d&apos;ascia Gallowglass" />
+    <string id="1pvLe1Mh" text="{.MS}Pomolo per ild semplice" />
+    <string id="1rGNXUaJ" text="{.FS}Punta sottile di lancia in acciaio pregiato" />
+    <string id="1T0XBYlc" text="{.MS}Manico di ascia a due mani in legno di quercia temprato" />
+    <string id="1yEQNTG1" text="{.FS}Testa di shestopyor lungo" />
+    <string id="1zRo3td4" text="{.MS}{.FS}Impugnatura a due mani in corno borchiato" />
+    <string id="22f2NR2N" text="{.FS}Asta lunga in frassino nodoso" />
+    <string id="26KZ6S7F" text="{.MS}Pomolo con decorazioni orientali" />
+    <string id="27Oaoras" text="{.FS}Lama di scramasax lunga smussata" />
+    <string id="29OXRdZu" text="{.FS}Guardia stretta e affusolata" />
+    <string id="2FLWuksh" text="{.FS}Impugnatura battanica" />
+    <string id="2Fq1t169" text="{.FS}Impugnatura a due mani settentrionale fasciata" />
+    <string id="2LrkLq5M" text="{.FS}Guardia settentrionale per pugnale lungo" />
+    <string id="2MNfdGZQ" text="{.FS}Impugnatura in corno per spada lunga rinforzata ricoperta in cuoio pregiato" />
+    <string id="2mo4gsuh" text="{.FS}Lama di rasoio da guerra" />
+    <string id="2noNmMPc" text="{.FS}Guardia imperiale sontuosa e ampia " />
+    <string id="2OWBegq6" text="{.FS}Guardia per spada da guerra spessa con incisioni" />
+    <string id="2XBuTBru" text="{.FS}Impugnatura lunga a clessidra settentrionale" />
+    <string id="35tXR29a" text="{.FS}Impugnatura a due mani orientale semplice" />
+    <string id="37DVF96v" text="{.FS}Guardia con rilievi per pugnale ricurvo" />
+    <string id="38vt2VVz" text="{.MS}Pomolo largo" />
+    <string id="3aXHbrFV" text="{.MS}Lungo manico in bambù con punta in metallo" />
+    <string id="3cIsT4ZK" text="{.FS}Guardia a braccia largheper pugnale" />
+    <string id="3ged5Ozt" text="{.FS}Alabarda orientale eccezionale" />
+    <string id="3Q3FFqu0" text="{.FS}Testa di mazza reale leggera" />
+    <string id="3tCye4Iw" text="{.MS}Pomolo per lancia lunga semplice" />
+    <string id="3uUaFQ9Y" text="{.FS}Guardia a forma di martello con incisioni" />
+    <string id="3VCyUu2h" text="{.FS}Guardia stretta per pugnale orientale" />
+    <string id="3VoW9qZs" text="{.FS}Impugnatura fasciata in oro per spada d&apos;armi" />
+    <string id="3wn1WbIx" text="{.FS}Lama seghettata di kaskara lunga" />
+    <string id="3wXjMEwI" text="{.FS}Impugnatura segmentata ricoperta in cuoio per spada d&apos;armi" />
+    <string id="3Y7plSBX" text="{.FS}Lama di spadone in ferro" />
+    <string id="3ZyRhmke" text="{.FS}Impugnatura di sciabola corta" />
+    <string id="45k6EEUu" text="{.FS}Testa di roncone in ferro" />
+    <string id="47UEgMpD" text="{.MS}Manico in legno di quercia con estremità appuntita" />
+    <string id="4FnOKgB6" text="{.FS}Guardia imperiale per pugnale ricurvo" />
+    <string id="4Ilo91CO" text="{.FS}Testa di ascia da battaglia orientale" />
+    <string id="4MZvoVyI" text="{.MS}Pomolo arrotondato per lancia borchiata" />
+    <string id="4OefdTD1" text="{.FS}Lama seghettata di gladio corto" />
+    <string id="4Olvmpen" text="{.FS}Impugnatura a clessidra a una mano in cuoio ruvido" />
+    <string id="4t0EyE1B" text="{.FS}Impugnatura a due mani in cuoio intrecciato" />
+    <string id="4TvA6YaC" text="{.FS}Impugnatura in marmo per spada d&apos;armi" />
+    <string id="4VIUHmbP" text="{.MS}Manico di mazza ferrata con decorazioni" />
+    <string id="4XytssVk" text="{.FS}Guardia a mezzaluna" />
+    <string id="4z3U5ubo" text="{.FS}Guardia per spada da guerra in oro" />
+    <string id="57DBqJd1" text="{.MS}Manico spesso per mazza con rivestimento in cuoio" />
+    <string id="5ALE9Joh" text="{.FS}Testa di falce da guerra" />
+    <string id="5GR6xb8a" text="{.FS}Impugnatura per utensili" />
+    <string id="5KvdG6ep" text="{.FS}Guardia medievale ricurva in oro" />
+    <string id="5l0PBFAe" text="{.FS}Lama di flyssa smussata in ferro" />
+    <string id="5NeanDJM" text="{.MS}Pomolo ad anello" />
+    <string id="5o5DaSHZ" text="{.FS}Lama larga di pugnale" />
+    <string id="5V0QR20o" text="{.FS}Impugnatura a due mani rigonfia borchiata in cuoio ruvido" />
+    <string id="5Xoa1EFa" text="{.FS}Lama di costoliere con incisioni" />
+    <string id="61A1VUw8" text="{.FS}Guardia in bronzo con rilievi" />
+    <string id="61hjmt0T" text="{.MS}Pomolo triangolare" />
+    <string id="62biJ5O5" text="{.FS}Impugnatura a una mano in cuoio pregiato degli altopiani" />
+    <string id="6BMAGMRu" text="{.FS}Guardia piatta" />
+    <string id="6Da4uzZO" text="{.FS}Guardia ampia medievale cesellata" />
+    <string id="6HybYLtu" text="{.FS}Impugnatura a una mano settentrionale ricoperta in cuoio ruvido" />
+    <string id="6I4lZs47" text="{.MS}Pomolo per punta di lancia" />
+    <string id="6PD2rBbf" text="{.FS}Impugnatura affusolata a due mani in corno ricoperta in cuoio" />
+    <string id="6uyVChLK" text="{.MS}Stendardo rettangolare{@Plural}{.MP}Stendardi rettangolari{\@}" />
+    <string id="6xkt7bxz" text="{.FS}Testa di mazza reale pesante" />
+    <string id="6ZW9fOUJ" text="{.FS}Guardia per kaskara in oro" />
+    <string id="71588OX7" text="{.FS}Asta in bambù" />
+    <string id="7EZbFRaG" text="{.FS}Asta in pino rinforzato" />
+    <string id="7JjctWr3" text="{.FS}Guardia medievale cesellata a forma di martello" />
+    <string id="7lRnhAgf" text="{.FS}Impugnatura a clessidra a due mani settentrionale" />
+    <string id="7ZWtiHKj" text="{.FS}Lama di spada da guerra lunga" />
+    <string id="85bQmjWX" text="{.FS}Lama di coltello" />
+    <string id="85jApGfe" text="{.FS}Guardia per pugnale con rilievi" />
+    <string id="87BmkiMO" text="{.MS}Manico di mazza nodoso" />
+    <string id="89QyC7eD" text="{.FS}Guardia stretta settentrionale" />
+    <string id="8gW1o7iH" text="{.MS}Pomolo lobato orientale" />
+    <string id="8OaZSfaZ" text="{.FS}Impugnatura in crosta di cuoio ruvido per spada d&apos;armi" />
+    <string id="8olqutaL" text="{.FS}Impugnatura a due mani settentrionale in crosta" />
+    <string id="8S6ZYPFD" text="{.FS}Testa di accetta a punta arrotondata in acciaio pregiato" />
+    <string id="8T7gNbfM" text="{.FS}Punta di lancia ampia forata a foglia" />
+    <string id="8x9klENe" text="{.MS}Rinforzo segmentato per asta borchiata" />
+    <string id="8yb60cDi" text="{.FS}Asta in mogano per lancia lunga" />
+    <string id="8ZbL3exH" text="{.MS}Pomolo lobato" />
+    <string id="9aYBy1RN" text="{.FS}Punta di lancia a foglia in acciaio pregiato" />
+    <string id="9HgtH0Nb" text="{.FS}Guardia ondulata per lancia" />
+    <string id="9HMxA4AU" text="{.MS}Manico di mazza ferrata" />
+    <string id="9JMatUNQ" text="{.FS}Impugnatura ruvida a due mani settentrionale" />
+    <string id="9JxsngjD" text="{.FS}Guardia cesellata per kaskara in argento" />
+    <string id="9PgS5SzW" text="{.FS}Impugnatura a una mano in corno rinforzata in ferro" />
+    <string id="9phikaHT" text="{.FS}Guardia occidentale per pugnale ricurvo" />
+    <string id="9qaanOpL" text="{.MS}Pomolo settentrionale semplice" />
+    <string id="9T2KA9sk" text="{.FS}Impugnatura in acciaio fasciata in oro con decorazioni" />
+    <string id="9Y1zUaE7" text="{.MS}Pomolo imperiale arrotondato" />
+    <string id="A06HEqvF" text="{.FS}Ala di lancia con lacci" />
+    <string id="a0erBuF1" text="{.FS}Testa d&apos;ascia uncinata" />
+    <string id="A1m12E8N" text="{.FS}Guardia a braccia lunghe per pugnale" />
+    <string id="a4qSDsmb" text="{.FS}Guardia imperiale per spadone in oro" />
+    <string id="a860bQ4f" text="{.MS}Pomolo piatto" />
+    <string id="AA4WhCGw" text="{.FS}Guardia piatta per pugnale" />
+    <string id="aaEv3sBU" text="{.FS}Asta per giavellotto in legno di quercia" />
+    <string id="aalvbENh" text="{.MS}Pomolo in camoscio" />
+    <string id="aaYy1btG" text="{.MS}Stendardo a coda di rondine{@Plural}{.MP}Stendardi a coda di rondine{\@}" />
+    <string id="abLXJ3L3" text="{.MS}Pomolo a forma di mazza" />
+    <string id="aBnaaaHv" text="{.FS}Lama di scramasax lunga" />
+    <string id="Ac4kblsm" text="{.FS}Impugnatura a due mani settentrionale in pelle" />
+    <string id="aFxc3ZVL" text="{.FS}Guardia a disco concava" />
+    <string id="AGfMPOWB" text="{.MS}Manico angolare di mazza in acciaio pregiato" />
+    <string id="aGtEhibt" text="{.MS}Pomolo settentrionale arrotondato" />
+    <string id="aj59KGOS" text="{.FS}Impugnatura a due mani in cuoio ruvido" />
+    <string id="ajVcY9v6" text="{.FS}Testa piccola d&apos;ascia a martello" />
+    <string id="AkfEFzkk" text="{.FS}Guardia a coppo" />
+    <string id="AKJzOQkF" text="{.FS}Lama di costoliere orientale" />
+    <string id="aKpVHE2g" text="{.FP}Ali con nappe a doppio uncino" />
+    <string id="AlIRh9mz" text="{.FS}Lama settentrionale affusolata smussata" />
+    <string id="ALO9gw69" text="{.FS}Testa d&apos;ascia a due mani a punta quadrata" />
+    <string id="AlRRkKut" text="{.FS}Testa di stella del mattino pesante" />
+    <string id="alti0PsZ" text="{.FS}Lama appuntita di spada da guerra" />
+    <string id="AM6iuDAv" text="{.FS}Guardia con rilievi per pugnale a diamante" />
+    <string id="AO2BfABx" text="{.MS}Pomolo a fungo" />
+    <string id="Ao7c1VrC" text="{.MS}Pomolo settentrionale triangolare" />
+    <string id="AObgGzg9" text="{.FS}Impugnatura a una mano in corno borchiato" />
+    <string id="aPr8NPdo" text="{.FS}Testa d&apos;arma inastata orientale in ferro" />
+    <string id="aQa3tp6Q" text="{.FS}Asta lunga in pino con decorazioni" />
+    <string id="artqaNEi" text="{.FS}Guardia in ferro con rilievi" />
+    <string id="aS56bF5s" text="{.FS}Lama corta da taglio" />
+    <string id="ASGZJW85" text="{.FS}Impugnatura a una mano per spatha in ferro segmentato" />
+    <string id="aTnuOUCC" text="{.FS}Lama di kaskara in acciaio di Thamaske" />
+    <string id="AtNVVwTF" text="{.FS}Asta in pino corta" />
+    <string id="aUJaQmN1" text="{.FS}Impugnatura a due mani rinforzata e gemmata " />
+    <string id="aVBGVt7N" text="{.FS}Impugnatura in corno affusolata" />
+    <string id="Aw7Veoaa" text="{.FS}Impugnatura angolare in cuoio ruvido fasciata in ferro" />
+    <string id="aYnTt86Y" text="{.FS}Guardia con ali per pugnale in bronzo" />
+    <string id="az6t2tOm" text="{.FS}Guardia crestata orientale" />
+    <string id="azjW7lAg" text="{.FS}Guardia cesellata per ild" />
+    <string id="aZp1ur9Q" text="{.MS}Pomolo a calice" />
+    <string id="b1KGhVwD" text="{.FS}Guardia concava settentrionale" />
+    <string id="b30mn7KF" text="{.FS}Lama di khanjar" />
+    <string id="b9bboB3v" text="{.FS}Testa di mazza da fante meridionale" />
+    <string id="baQ99nza" text="{.FS}Asta lunga in frassino" />
+    <string id="bCCYhnbY" text="{.FS}Impugnatura in cuoio verde" />
+    <string id="bCZ6V3uY" text="{.FS}Guardia per pugnale a testa di serpente" />
+    <string id="bEbyObu7" text="{.FS}Impugnatura a una mano gemmata in oro" />
+    <string id="Bej5R7tP" text="{.FS}Guardia per pugnale a corona" />
+    <string id="bEQETxjB" text="{.MS}Pomolo crestato" />
+    <string id="bfE00BnK" text="{.MS}Manico di mazza con pomolo in ferro" />
+    <string id="bfueDx6s" text="{.MS}Manico di ascia grande in legno di quercia pesantemente rinforzato" />
+    <string id="bGaOu7rO" text="{.FS}Guardia piatta per pugnale orientale" />
+    <string id="bGfs8gNv" text="{.FS}Lama di costoliere settentrionale" />
+    <string id="bjQ8J71a" text="{.FS}Testa di alabarda lunga" />
+    <string id="BKHKQ15N" text="{.MS}Pomolo turchese" />
+    <string id="bki9u9FW" text="{.FS}Lama di spada d&apos;armi con cerchio dorato intagliato" />
+    <string id="BL96pnde" text="{.FS}Impugnatura di mannaia a una mano in cuoio ruvido" />
+    <string id="blaVlvm2" text="{.FS}Lama di spada da guerra corta con decorazioni" />
+    <string id="bM8kSewD" text="{.FS}Guardia crestata settentrionale" />
+    <string id="booEob1z" text="{.MS}Pomolo a disco" />
+    <string id="bP6SBz4s" text="{.FS}Guardia imperiale placcata in oro" />
+    <string id="bPUXlfs8" text="{.FS}Impugnatura orientale per ild con decorazioni" />
+    <string id="BQ3hMy9D" text="{.MS}Pomolo a forma di testa di cavallo" />
+    <string id="bQkJSHCt" text="{.FS}Impugnatura a due mani in bronzo con spirale in argento" />
+    <string id="bQzz8mc3" text="{.MS}Manico per ascia da lancio in legno di pino semplice" />
+    <string id="BtXFrrVj" text="{.FS}Guardia concava spessa" />
+    <string id="BXW4LeQT" text="{.FS}Lama scanalata corta e ampia" />
+    <string id="bZbW2UEE" text="{.FS}Guardia larga per pugnale orientale" />
+    <string id="bzr1DEgS" text="{.FS}Guardia a stella per pugnale meridionale" />
+    <string id="c1YI2Nxt" text="{.FS}Lama di spatha in ferro" />
+    <string id="C2hTDlWq" text="{.FS}Lama di sciabola pesante" />
+    <string id="c6aNuaDP" text="{.FS}Punta di lancia smussata seghettata" />
+    <string id="C89rbAz6" text="{.FS}Lama di spada d&apos;armi medievale" />
+    <string id="cag70E1F" text="{.FS}Testa di pernach" />
+    <string id="cbHjFPEb" text="{.FS}Impugnatura per spada bastarda in cuoio pregiato degli altopiani" />
+    <string id="CdBAvJdP" text="{.FS}Punta di kontos" />
+    <string id="CE1IQiEU" text="{.FS}Impugnatura a spirale in cuoio pregiato per spada d&apos;armi" />
+    <string id="CeeJmlSq" text="{.FS}Testa di shishpar pesante" />
+    <string id="cEU66ABf" text="{.FS}Lama d&apos;ascia da battaglia settentrionale" />
+    <string id="cFTzptut" text="{.MS}Manico in mogano" />
+    <string id="CiZRwdet" text="{.FS}Guardia piatta orientale" />
+    <string id="cK6D7cyn" text="{.FS}Testa di francisca grande" />
+    <string id="CKKaarrY" text="{.FS}Impugnatura fasciata con filo ricoperta in cuoio" />
+    <string id="CODGBskg" text="{.FS}Lama di sciabola lunga" />
+    <string id="cuxuEx40" text="{.FS}Guardia ovale piatta" />
+    <string id="CYVjEcPQ" text="{.MS}Stendardo a gagliardetto lungo{@Plural}{.MP}Stendardi a gagliardetto lunghi{\@}" />
+    <string id="czhTpYo8" text="{.FS}Lama di sciabola in ferro" />
+    <string id="d2kOHsY7" text="{.FS}Impugnatura per spadone con decorazioni" />
+    <string id="d4aLa7tz" text="{.MS}Pomolo superiore" />
+    <string id="d4bVwnK8" text="{.FS}Impugnatura a due mani in cuoio stropicciato" />
+    <string id="dafrn0mR" text="{.FS}Lama di spatha in acciaio di Thamaske" />
+    <string id="dbmuyJcf" text="{.MS}Pomolo piatto meridionale" />
+    <string id="dBVMNui8" text="{.FS}Impugnatura a due mani in corno rinforzata in ferro" />
+    <string id="dCco8dRt" text="{.FS}Guardia a disco per pugnale" />
+    <string id="Dd7fJ9aL" text="{.FS}Impugnatura in crosta di cuoio ruvido per spada lunga" />
+    <string id="DEpwMMql" text="{.FS}Guardia forata per pugnale meridionale" />
+    <string id="dgjXkbuA" text="{.MS}Pomolo a occhio di gufo" />
+    <string id="DiAHIRxm" text="{.FS}Guardia cesellata per sciabola" />
+    <string id="DID87A6l" text="{.FS}Impugnatura in cuoio intrecciato" />
+    <string id="Dix4EYD8" text="{.FS}Testa di maglio" />
+    <string id="DkhuNoTH" text="{.FS}Impugnatura a una mano in legno" />
+    <string id="dlnciENS" text="{.FS}Guardia in legno" />
+    <string id="DLvSnz8U" text="{.FS}Guardia intagliata degli altopiani" />
+    <string id="dnd2hafw" text="{.FS}Impugnatura con rivestimento ruvido semplice" />
+    <string id="dNk7UZVD" text="{.FS}Lama di spada d&apos;armi sottile scanalata seghettata smussata" />
+    <string id="do4vZhh4" text="{.FS}Guardia stretta e affusolata" />
+    <string id="DPa0JB1U" text="{.FS}Impugnatura angolare a due mani borchiata in bronzo" />
+    <string id="dpft1I1B" text="{.FS}Guardia stretta orientale" />
+    <string id="Dsf9JE8N" text="{.MS}Uncino in legno" />
+    <string id="dTkiV4i6" text="{.MS}Pomolo con peschereccio" />
+    <string id="dtSrK9bs" text="{.FS}Lama larga di scramasax" />
+    <string id="DVe5SkQA" text="{.FP}Ali a doppia pala" />
+    <string id="dvm8sTr9" text="{.MS}Pomolo in legno" />
+    <string id="DXLlcbf9" text="{.FS}Asta per giavellotto in legno di frassino" />
+    <string id="dXRt8jY4" text="{.FS}Punta di menavlion" />
+    <string id="DzncFcGk" text="{.MS}Pomolo a forma di kheshig" />
+    <string id="e1DF7wbz" text="{.MS}Bastone in frassino temprato" />
+    <string id="E7cNp0rF" text="{.MS}Pomolo per lancia borchiata" />
+    <string id="eapPaDKi" text="{.FS}Guardia spessa per spada da guerra in argento " />
+    <string id="EBlx3VId" text="{.FS}Lama in ferro grezzo degli altopiani" />
+    <string id="EbucFMZq" text="{.FS}Guardia concava larga per pugnale" />
+    <string id="eBxzZ1SW" text="{.FS}Impugnatura a una mano rinforzata in oro" />
+    <string id="edg8bnXX" text="{.FS}Guardia crestata per pugnale settentrionale" />
+    <string id="eeFrva8L" text="{.MS}Pomolo forato" />
+    <string id="EjJl6bA4" text="{.FS}Testa di roncone smussata" />
+    <string id="ELpWa0K5" text="{.FS}Asta per picca in legno di quercia stagionato" />
+    <string id="eLrbkvTV" text="{.FS}Guardia per spadone settentrionale" />
+    <string id="emryrbYV" text="{.MS}Pomolo intrecciato" />
+    <string id="emUoygLE" text="{.FS}Punta di arpione" />
+    <string id="euI3vluL" text="{.FS}Guardia per sciabola larga" />
+    <string id="f0syWNR7" text="{.FS}Lama di pugnale" />
+    <string id="f3zHQAs9" text="{.MS}Stendardo a pennone molto grande{@Plural}{.MP}Stendardi a pennone molto grandi{\@}" />
+    <string id="f4GSe3UB" text="{.FS}Testa di pala" />
+    <string id="faZasq1G" text="{.MS}Pomolo ad anello orientale" />
+    <string id="fd6Lnv1l" text="{.FS}Guardia per gladio in oro" />
+    <string id="fdR6zYiP" text="{.FS}Testa di francisca" />
+    <string id="FDscHYmZ" text="{.MS}Orifiamma{@Plural}{.MP}Orifiamma{\@}" />
+    <string id="fEkKXof4" text="{.FS}Ala borchiata" />
+    <string id="feVbf7sb" text="{.FS}Lama seghettata di kaskara corta" />
+    <string id="fhbGCsdC" text="{.FS}Testa di mazza pesante orientale" />
+    <string id="fHKHwvsW" text="{.MS}Pomolo a bande in bronzo" />
+    <string id="finesteelbladecraftingpiece" text="{.FS}Lama in acciaio pregiato degli altopiani" />
+    <string id="fnz6wUVy" text="{.MS}Pomolo arrotondato chiodato per lancia" />
+    <string id="fo040lyg" text="{.FS}Impugnatura con rivestimento semplice" />
+    <string id="fOrRdtNK" text="{.FS}Testa d&apos;ascia piccola con sperone" />
+    <string id="fRVQzcoY" text="{.FS}Impugnatura a una mano con rivestimento spesso in cuoio ruvido" />
+    <string id="Ft5A2Eb4" text="{.FS}Impugnatura a due mani orientale rinforzata e ricoperta in cuoio" />
+    <string id="ftwNaFZh" text="{.FP}Ali a doppio uncino" />
+    <string id="fuIxmJ2g" text="{.FS}Lama pesante in legno" />
+    <string id="FURnbmjc" text="{.FS}Asta in frassino" />
+    <string id="FxCfO3zN" text="{.MS}Manico di mazza rinforzato in ferro" />
+    <string id="g2r3QKOB" text="{.FS}Testa piccola d&apos;ascia meridionale" />
+    <string id="g5Va1lfk" text="{.FS}Guardia affusolata in camoscio" />
+    <string id="g60SQjOR" text="{.FS}Impugnatura per spada lunga in corno con rivestimento in cuoio" />
+    <string id="G8Fb2RPa" text="{.FS}Lama acuminata di falcione" />
+    <string id="G9cBw5sV" text="{.MS}Pomolo arrotondato degli altopiani" />
+    <string id="GA4AaQQk" text="{.FS}Impugnatura a una mano rinforzata in legno" />
+    <string id="gdVNxGZU" text="{.FS}Lama seghettata corta" />
+    <string id="Gewh8Bzr" text="{.FS}Impugnatura a due mani fasciata in pelliccia" />
+    <string id="GFBFgA7R" text="{.FS}Lama di pugnale larga smussata" />
+    <string id="GI6XD77j" text="{.MS}Pomolo imperiale con decorazioni" />
+    <string id="gIm5Lnh8" text="{.FS}Asta per giavellotto in mogano" />
+    <string id="GJYbHthS" text="{.FS}Coda di rondine a due lingue{@Plural}{.FP}Code di rondine a due lingue{\@}" />
+    <string id="GLnI8ozz" text="{.MS}Manico in sequoia" />
+    <string id="gM8zaQ8l" text="{.MS}Gonfalone{@Plural}{.MP}Gonfaloni{\@}" />
+    <string id="GMwWb6SE" text="{.FS}Punta di lancia in legno" />
+    <string id="gPXRnvas" text="{.FS}Guardia a disco" />
+    <string id="GQ9JwKBt" text="{.FS}Impugnatura di mannaia a due mani in cuoio ruvido" />
+    <string id="GqwD99cu" text="{.MS}Pomolo adornato" />
+    <string id="GsBQCQEF" text="{.FS}Asta lunga in pino rinforzato" />
+    <string id="gSdybwMN" text="{.FS}Testa grande forata norrena barbuta" />
+    <string id="gsNbyLjV" text="{.MS}Manico corto in sequoia" />
+    <string id="gTMThdRJ" text="{.MS}Pomolo signorile" />
+    <string id="gTzMtKYu" text="{.FS}Lama stellata di falcione" />
+    <string id="gwkR6TZL" text="{.FS}Lama di kaskara con decorazioni" />
+    <string id="GXhZ8NKv" text="{.FS}Lama ampia scanalata settentrionale" />
+    <string id="gXUXjtuL" text="{.FS}Lama di kama" />
+    <string id="GyOxvJpB" text="{.MS}Pomolo a sfera" />
+    <string id="gZzEkk5t" text="{.FS}Impugnatura a due mani in cuoio pregiato degli altopiani" />
+    <string id="H2xibh6p" text="{.FS}Impugnatura borchiata imperiale" />
+    <string id="h4DmfRfb" text="{.MS}Pomolo medievale" />
+    <string id="H6hlPsgV" text="{.FS}Impugnatura a una mano in pelle" />
+    <string id="HA4O76ri" text="{.MS}Nastro{@Plural}{.MP}Nastri{\@}" />
+    <string id="HaNPlFBt" text="{.FS}Asta lunga in legno massiccio rivestito" />
+    <string id="HbCb0T6W" text="{.FS}Lama di spadone smussata" />
+    <string id="hbv5aCRX" text="{.FS}Punta corta di lancia smussata semplice" />
+    <string id="hD5LzC6b" text="{.FS}Impugnatura angolare a una mano fasciata in ferro" />
+    <string id="he3725oa" text="{.MS}Pomolo conico per lancia" />
+    <string id="HF2WJagx" text="{.FS}Impugnatura per spada da guerra con rivestimento in cuoio con decorazioni" />
+    <string id="HHVH0IoH" text="{.MS}Manico in sequoia temprata con pelliccia" />
+    <string id="Hj151a5b" text="{.FS}Guardia affusolata ricurva" />
+    <string id="hk3d4d35" text="{.MS}Manico di mazza in sequoia" />
+    <string id="hKKIijPr" text="{.FS}Guardia concava a disco per pugnale" />
+    <string id="HlFpG5xw" text="{.FS}Guardia con ali in bronzo" />
+    <string id="HmsEarnz" text="{.MS}Pomolo a goccia" />
+    <string id="hN0kTfhB" text="{.FS}Impugnatura in cuoio stropicciato rinforzata in ferro" />
+    <string id="hRfqLq4V" text="{.FS}Lama di falcione" />
+    <string id="hRtzRR6C" text="{.FS}Testa di mazza leggera imperiale" />
+    <string id="hSSk6tTn" text="{.FS}Testa d&apos;ascia da lancio" />
+    <string id="huaGi2zw" text="{.FS}Guardia concava per pugnale settentrionale" />
+    <string id="HuYwPEmh" text="{.MS}Pomolo ornamentale" />
+    <string id="hvCj5TID" text="{.FS}Guardia acuminata ricurva" />
+    <string id="HwCYBWq2" text="{.FS}Lama di spatha a punta acuminata" />
+    <string id="hWTFaw0E" text="{.FS}Impugnatura in acciaio" />
+    <string id="hX6YZ5GJ" text="{.FS}Grande testa pesante di randello chiodato" />
+    <string id="HysmKS5a" text="{.FS}Lama ampia seghettata di pugnale" />
+    <string id="i7d3En7L" text="{.FS}Lama uncinata di falcione" />
+    <string id="i9Ja7Uib" text="{.FS}Guardia spessa per pugnale con incisioni" />
+    <string id="I9yrLqPc" text="{.FS}Testa di mazza ferrata flangiata orientale" />
+    <string id="IAltuLvf" text="{.FS}Impugnatura a una mano settentrionale affusolata" />
+    <string id="Ibaju3oe" text="{.MS}Pomolo a forma di testa d&apos;aquila" />
+    <string id="ibU7mZKx" text="{.FS}Asta di ascia grande in frassino" />
+    <string id="iFhr5nGq" text="{.FS}Testa d&apos;ascia imperiale" />
+    <string id="IftwekS7" text="{.FS}Guardia per spada da guerra in bronzo con incisioni" />
+    <string id="il1M66Z8" text="{.FS}Impugnatura a una mano con rivestimento in cuoio" />
+    <string id="iMbT3L4I" text="{.FS}Lama di falce" />
+    <string id="In69b7aL" text="{.FS}Impugnatura a una mano ricoperta a metà in cuoio ruvido con decorazioni in metallo" />
+    <string id="indl9fEW" text="{.FS}Impugnatura a una mano fasciata in cuoio spesso e ruvido" />
+    <string id="IR8UeIRp" text="{.FS}Testa di mazza per catafratto" />
+    <string id="ittUjlRb" text="{.FS}Guardia a diamante" />
+    <string id="IUlApNGp" text="{.FS}Lama lunga di falx" />
+    <string id="iuQE1xwL" text="{.FS}Lama stretta scanalata di spatha" />
+    <string id="IvUO8nJc" text="{.FS}Guardia ampia concava per pugnale" />
+    <string id="IWrTsX3V" text="{.FS}Impugnatura a una mano in cuoio rosso" />
+    <string id="IxCaIvUk" text="{.FS}Testa larga settentrionale con collo decorato" />
+    <string id="iznpu0ih" text="{.FS}Impugnatura per kaskara a una mano in cuoio stropicciato" />
+    <string id="Izstbt9y" text="{.FS}Lama degli altopiani con decorazioni" />
+    <string id="IZw8FnwW" text="{.FS}Testa d&apos;ascia grande" />
+    <string id="j2pkA2Yr" text="{.FS}Guardia a corona meridionale" />
+    <string id="J3ADekEw" text="{.FS}Asta di ascia grande in legno di quercia" />
+    <string id="J5Tu73Mb" text="{.MS}Bastone per lancia lunga in pino temprato" />
+    <string id="JabA2SWF" text="{.MS}Manico rinforzato in frassino" />
+    <string id="JanWod6k" text="{.FS}Guardia stretta per spada da guerra" />
+    <string id="Jbaj33wV" text="{.MS}Stendardo rettangolare lungo{@Plural}{.MP}Stendardi rettangolari lunghi{\@}" />
+    <string id="JbP7zdes" text="{.FS}Guardia a cuspide meridionale" />
+    <string id="JCYmlrKF" text="{.MS}Manico di mazza rinforzato in acciaio" />
+    <string id="JfRydy7M" text="{.FS}Guardia crestata per mannaia" />
+    <string id="jfyCVJya" text="{.FS}Impugnatura a due mani in acciaio annerito" />
+    <string id="JIj91e96" text="{.FS}Impugnatura a due mani fasciata in pelle" />
+    <string id="jMRMazLr" text="{.MS}Manico di mazza in pino con decorazioni" />
+    <string id="jN4PPWjp" text="{.FS}Guardia ricurva con rilievi" />
+    <string id="jqiXcEyD" text="{.FS}Impugnatura lunga fasciata" />
+    <string id="jre8aFdB" text="{.FS}Guardia acuminata per pugnale occidentale" />
+    <string id="Js1FKwrL" text="{.FS}Punta di giavellotto" />
+    <string id="JSba9OCN" text="{.FS}Guardia con rilievi per pugnale in ferro" />
+    <string id="jupH2NfE" text="{.FS}Impugnatura angolare per spada bastarda intagliata in oro" />
+    <string id="jZnVKvJN" text="{.MS}Pomolo a tre rami" />
+    <string id="jzzZDEw7" text="{.FS}Impugnatura lunga in filo" />
+    <string id="k2HEOuHV" text="{.FS}Impugnatura per spada bastarda fasciata in bronzo" />
+    <string id="k2MQ9kL0" text="{.MS}Manico di mazza in acciaio" />
+    <string id="k66YIIWR" text="{.FS}Lama sottile di kaskara in acciaio pregiato" />
+    <string id="kaoSz0Cx" text="{.FS}Impugnatura smussata a due mani in cuoio" />
+    <string id="kbh6i0M7" text="{.MS}Pomolo pregiato per gladio" />
+    <string id="KeTioaJE" text="{.MS}Manico di ascia grande in mogano con rivestimento in cuoio" />
+    <string id="KFqa2uF1" text="{.FS}Lama larga a due mani" />
+    <string id="Kh7AB6a4" text="{.FS}Impugnatura a clessidra a una mano settentrionale" />
+    <string id="KhHXgQJb" text="{.FS}Testa d&apos;ascia in ferro battuto" />
+    <string id="khO8Li1D" text="{.FS}Impugnatura lunghissima in pelle" />
+    <string id="kIbtwQRF" text="{.FS}Lama di spatha in acciaio pregiato" />
+    <string id="kiEZmxjT" text="{.FS}Impugnatura a collo di bottiglia a due mani in acciaio pregiato" />
+    <string id="kjw9c4M2" text="{.MS}Manico angolare di mazza in acciaio" />
+    <string id="kNhcSC6i" text="{.FS}Testa barbuta settentrionale" />
+    <string id="KNisROi1" text="{.FS}Lama larga di skaen" />
+    <string id="knobbedclubcraftingpiece" text="{.MS}Randello borchiato" />
+    <string id="Knv8oS4x" text="{.FS}Impugnatura a una mano con rivestimento spesso in cuoio" />
+    <string id="kp8hUsXA" text="{.FS}Guardia rettangolare settentrionale con ricami" />
+    <string id="kuROzU1J" text="{.FS}Lama di spada da guerra semplice" />
+    <string id="KyKh5jCE" text="{.MS}Manico in bambù" />
+    <string id="l13RibeF" text="{.MS}Manico di ascia grande in acciaio rinforzato" />
+    <string id="l1YxVZil" text="{.FS}Guardia con rilievi per pugnale in bronzo" />
+    <string id="L3vLdPJT" text="{.FS}Testa perfezionata di randello chiodato" />
+    <string id="L4PDF4MY" text="{.FS}Guardia per spada da guerra con incisioni dorate" />
+    <string id="L9wMZ9HB" text="{.FS}Guardia per lancia a forma di mazza chiodata" />
+    <string id="LbnJhG2R" text="{.FS}Testa pesante di randello chiodato" />
+    <string id="lcjkq4bA" text="{.MS}Pomolo con decorazioni meridionali" />
+    <string id="Ld1nfdj4" text="{.FS}Lama di sciabola in acciaio pregiato" />
+    <string id="LddmrrGM" text="{.FS}Impugnatura alta orientale a due mani" />
+    <string id="Ldq6AOrb" text="{.FS}Impugnatura a due mani fasciata in cuoio ruvido con anelli in ferro" />
+    <string id="LDRnfLRh" text="{.MS}Pomolo con decorazioni settentrionali" />
+    <string id="ldvppRXj" text="{.MS}Pomolo a motivi geometrici" />
+    <string id="LEdJzFrZ" text="{.FS}Impugnatura angolare a una mano smussata" />
+    <string id="lF10mZnb" text="{.FS}Impugnatura a una mano con rivestimento di filo" />
+    <string id="Lh1E9EsS" text="{.FS}Impugnatura a due mani imperiale rinforzata in acciaio" />
+    <string id="lLZfWq7i" text="{.FS}Impugnatura a collo di bottiglia in camoscio" />
+    <string id="lmxaWsmn" text="{.FS}Impugnatura lunga a due mani con rivestimento in cuoio" />
+    <string id="LNDbMUK0" text="{.FS}Punta di volge" />
+    <string id="lOiyLjqK" text="{.FS}Guardia imperiale ricurva" />
+    <string id="lpqDjWsL" text="{.FS}Impugnatura a una mano in cuoio pregiato con supporto in ferro" />
+    <string id="lpVGz11R" text="{.FS}Impugnatura a una mano in pelliccia settentrionale" />
+    <string id="LryUJnu7" text="{.MS}Pomolo liscio" />
+    <string id="LSOXMCAW" text="{.FS}Asta in pino" />
+    <string id="LSrJljDL" text="{.FS}Testa d&apos;azza" />
+    <string id="ltbHzq5B" text="{.MS}Rinforzo borchiato per punta di lancia" />
+    <string id="lv9oJyKJ" text="{.MS}Pomolo piatto orientale" />
+    <string id="LwM5byQG" text="{.MS}Pomolo per lancia in ferro semplice" />
+    <string id="lYEaqL9y" text="{.FS}Impugnatura a una mano fasciata in pelliccia" />
+    <string id="LYSMiV6V" text="{.FS}Impugnatura lunga in pelle" />
+    <string id="lz8rSkzE" text="{.FS}Lama spessa di sciabola smussata" />
+    <string id="LzHkkphU" text="{.FS}Impugnatura a una mano con rilievi in cuoio ruvido" />
+    <string id="lZoqaYmx" text="{.FS}Testa di randello chiodato" />
+    <string id="M08i7S6M" text="{.FS}Guardia affusolata per pugnale in camoscio" />
+    <string id="m0uOH4el" text="{.FS}Guardia curva per pugnale imperiale" />
+    <string id="m2Xz2K5v" text="{.FS}Impugnatura a due mani in pelliccia settentrionale" />
+    <string id="m6CVEgTU" text="{.FS}Lama d&apos;ascia da battaglia chiodata" />
+    <string id="m8eUrnVj" text="{.FS}Guardia stretta per pugnale occidentale" />
+    <string id="M9ACQeD6" text="{.FS}Testa d&apos;ascia grande smussata" />
+    <string id="mak3naEe" text="{.FS}Lama ampia scanalata a due mani" />
+    <string id="MCRppfbZ" text="{.FS}Asta per giavellotto in legno di pino" />
+    <string id="mcYSvJfA" text="{.MS}Ramo d&apos;albero" />
+    <string id="MDL2CcCH" text="{.FP}Spine lunghe pesate" />
+    <string id="MGD7zTLf" text="{.MS}Pomolo a ruota piatto" />
+    <string id="Mh5MDpsk" text="{.FS}Impugnatura a due mani meridionale in cuoio stropicciato" />
+    <string id="MJRzaazz" text="{.FS}Impugnatura a due mani con piastre in acciaio" />
+    <string id="MKtMbBJD" text="{.FS}Impugnatura alta orientale a una mano" />
+    <string id="mm24JNyb" text="{.FS}Impugnatura a clessidra settentrionale" />
+    <string id="mm6b54ZD" text="{.FS}Guardia ampia concava" />
+    <string id="MpVC0RXl" text="{.FS}Lancia triangolare settentrionale" />
+    <string id="mQCQF6TL" text="{.FS}Guardia stretta per pugnale settentrionale" />
+    <string id="MQEuR8Yz" text="{.FS}Testa borchiata pesante di mazza lunga orientale" />
+    <string id="MRqIJXqv" text="{.FS}Guardia per pugnale a diamante meridionale" />
+    <string id="mrTkURKV" text="{.FS}Punta di forcone intagliata" />
+    <string id="mSNaSLiC" text="{.FS}Lama di spada da guerra in acciaio di Thamaske" />
+    <string id="mSplbvgI" text="{.MP}Doppi uncini" />
+    <string id="mTDuVvVN" text="{.FS}Impugnatura alta a piastre" />
+    <string id="mU8oVsFW" text="{.FS}Testa di mazza chiodata" />
+    <string id="muv8N0Wo" text="{.FS}Guardia per pugnale in bronzo con incisioni" />
+    <string id="mVjshtzg" text="{.MS}Pomolo a forma di cappello a cono" />
+    <string id="mYP1ovEy" text="{.FS}Guardia forata in camoscio" />
+    <string id="N1qLYlxF" text="{.FS}Lama di kaskara in acciaio pregiato" />
+    <string id="N3VXsh2z" text="{.FS}Lama di paramerion in acciaio" />
+    <string id="n55UtbGg" text="{.FS}Punta di menavlion da allenamento" />
+    <string id="NAHHwS3G" text="{.FS}Punta di lancia larga a foglia" />
+    <string id="nazL7Z3e" text="{.FS}Impugnatura a due mani borchiata meridionale" />
+    <string id="NehOioZp" text="{.MS}Manico di mazza a due mani rinforzato in ferro" />
+    <string id="NfPgejKk" text="{.FS}Lama forata di sparth" />
+    <string id="nGP3FlHm" text="{.FS}Asta lunga in mogano" />
+    <string id="Nhhmj7bz" text="{.FS}Asta per picca in acero" />
+    <string id="Nk924YlG" text="{.FS}Impugnatura a una mano in acciaio pregiato con decorazioni" />
+    <string id="nKb9goqQ" text="{.FS}Guardia stretta" />
+    <string id="NkV2CAmL" text="{.FS}Lama di scimitarra smussata in ferro" />
+    <string id="NLs9M1D6" text="{.FS}Guardia ovale orientale semplice" />
+    <string id="NmkDgmWW" text="{.MS}Manico di mazza ferrata da cavaliere" />
+    <string id="NO6FhjbJ" text="{.FS}Impugnatura in cuoio di color mandarino" />
+    <string id="NQb8boHt" text="{.FS}Asta in frassino temprato" />
+    <string id="nr3K4od2" text="{.FS}Punta di pilum" />
+    <string id="NRhAqB5a" text="{.FS}Lancia lunga delle praterie smussata" />
+    <string id="nRKOX66b" text="{.FS}Punta di lancia seghettata in acciaio pregiato" />
+    <string id="NS83CCvb" text="{.FS}Testa d&apos;ascia in ferro" />
+    <string id="nsjbWcmp" text="{.FS}Lama sottile di sparth smussata" />
+    <string id="ntIEIQ0N" text="{.FS}Testa di shishpar leggero" />
+    <string id="Num2tkFb" text="{.FS}Impugnatura lunga a piastre" />
+    <string id="NuXH8rip" text="{.FS}Guardia in bronzo a strati" />
+    <string id="nVrg9Uda" text="{.FS}Impugnatura per spada d&apos;armi in corno con rivestimento in cuoio" />
+    <string id="nxyf3OHZ" text="{.FS}Impugnatura per spada d&apos;armi in cuoio pregiato fasciata in bronzo" />
+    <string id="Nz4mg7JT" text="{.FS}Guardia per scimitarra in oro" />
+    <string id="nZ5e678J" text="{.MS}Pomolo a ruota semplice" />
+    <string id="NzjHzhwC" text="{.FS}Guardia a diamante con rilievi" />
+    <string id="o2kFafbu" text="{.FS}Testa di mazza ferrata orientale" />
+    <string id="O2kPKeuK" text="{.FS}Lama di spada d&apos;armi con incisioni in oro" />
+    <string id="OBeOZ27b" text="{.FS}Testa di alabarda" />
+    <string id="oeELDZRo" text="{.MS}Stendardo rettangolare orizzontale{.MS}{@Plural}{.MP}Stendardi rettangolari orizzontali{\@}" />
+    <string id="oGPHQt1J" text="{.FS}Impugnatura alta per mannaia a due mani" />
+    <string id="OHHpwD0F" text="{.FS}Lama di sciabola dritta" />
+    <string id="OHl66gsX" text="{.FS}Guardia per pugnale con palla in bronzo" />
+    <string id="OJ7iPw5M" text="{.MS}Manico di ascia grande in frassino temprato rinforzato" />
+    <string id="OlnvawN6" text="{.FS}Guardia per spadone in bronzo" />
+    <string id="OlUuoUBe" text="{.FS}Impugnatura orientale in cuoio pregiato fasciata in ferro" />
+    <string id="ooBWHpxP" text="{.FS}Impugnatura angolare orientale ricoperta in cuoio" />
+    <string id="OPfm5y7W" text="{.FS}Guardia medievale dorata con teste di leoni" />
+    <string id="OphcYYyN" text="{.MS}Pomolo per lancia borchiato in acciaio pregiato" />
+    <string id="opUK4WmL" text="{.FS}Guardia piatta arrotondata per pugnale" />
+    <string id="orwoyDlX" text="{.FS}Punta di sparth grande" />
+    <string id="OryiZr9d" text="{.MS}Kontarion" />
+    <string id="OTtMvvJK" text="{.FS}Lama di spada d&apos;armi seghettata" />
+    <string id="ow1aK4DJ" text="{.FS}Asta lunga in legno di quercia rivestito" />
+    <string id="oW5N04JL" text="{.FS}Lama in acciaio degli altopiani" />
+    <string id="OW7w3Mth" text="{.MS}Pomolo dei Fianna" />
+    <string id="OwA6LLeY" text="{.MS}Manico di mazza a due mani con rivestimento in cuoio" />
+    <string id="Oxew9WCe" text="{.FS}Punta di lancia imperiale semplice" />
+    <string id="oXXWEUYY" text="{.FS}Lama di spadone smussata in ferro" />
+    <string id="Oz6xANFb" text="{.MS}Pomolo ornamentale degli altopiani" />
+    <string id="p1Uz3dqs" text="{.FS}Impugnatura borchiata per kaskara con decorazioni rosse" />
+    <string id="p2aqirUu" text="{.FS}Impugnatura per flyssa in cuoio pregiato" />
+    <string id="p2xjr5Bp" text="{.FS}Lama in legno" />
+    <string id="p3jlcHNo" text="{.MS}Pomolo per lancia lunga semplice" />
+    <string id="P5dUGIl7" text="{.FS}Lama di spada da guerra con decorazioni" />
+    <string id="pAqWQWJs" text="{.MS}Kontarion smussato" />
+    <string id="pb4zUxzA" text="{.FS}Lama di makhaira" />
+    <string id="PbxZzhZx" text="{.FS}Guardia stretta per scramasax" />
+    <string id="PjMeZcwO" text="{.FS}Guardia con bordo per pugnale" />
+    <string id="pkmy6zB2" text="{.FS}Guardia a stella meridionale" />
+    <string id="PmPxx2gK" text="{.FS}Testa di rasoio piegata" />
+    <string id="pnS90zg8" text="{.FS}Lama di spatha piatta seghettata smussata" />
+    <string id="pocRP9dq" text="{.MS}Bastone lungo in frassino" />
+    <string id="PQ8rR13R" text="{.FS}Lama lunga di scimitarra in acciaio pregiato" />
+    <string id="PqoJ1ZeB" text="{.FS}Lama di sciabola con decorazioni" />
+    <string id="PQThPvP6" text="{.FS}Lama corta di spatha con decorazioni" />
+    <string id="PsKP5j6A" text="{.FS}Guardia con rilievi" />
+    <string id="pT5C12yT" text="{.FS}Asta d&apos;ascia a due mani borchiata in frassino" />
+    <string id="PUAi75mb" text="{.MS}Pomolo ad anello imperiale" />
+    <string id="PuRJZS03" text="{.FS}Impugnatura a due mani meridionale" />
+    <string id="PvB0pW1Q" text="{.FS}Lama ampia scanalata senza filo" />
+    <string id="pX4nTZOI" text="{.FS}Kaskara larga in acciaio pregiato" />
+    <string id="pXxv7YJv" text="{.MS}Manico lungo in mogano con rivestimento in cuoio" />
+    <string id="PZYq0hBO" text="{.FS}Guardia a strati per pugnale in bronzo" />
+    <string id="Q6kGQNzP" text="{.FS}Impugnatura segmentata a due mani in ferro " />
+    <string id="q7jHkLam" text="{.FS}Lama di spada d&apos;armi sottile scanalata seghettata" />
+    <string id="Q9Gfv68h" text="{.FS}Impugnatura a due mani per sciabola" />
+    <string id="q9K7Y2pZ" text="{.MS}Stendardo in tessuto{@Plural}{.MP}Stendardi in tessuto{\@}" />
+    <string id="qbYoAvs6" text="{.FS}Impugnatura a una mano fasciata in pelle" />
+    <string id="QCE1sAu3" text="{.FS}Lama di spadone" />
+    <string id="QH0oIiIz" text="{.FS}Lama larga e lunga di pugnale" />
+    <string id="QIo60ZKh" text="{.FS}Lama di spada da guerra lunga scanalata" />
+    <string id="qjxXq3P5" text="{.FS}Guardia intagliata per pugnale degli altopiani" />
+    <string id="QNe7mQlZ" text="{.FS}Testa di rastrello" />
+    <string id="Qqb0VZ1a" text="{.FS}Asta a due mani in frassino con rivestimento in cuoio" />
+    <string id="qQrmuHQ9" text="{.FS}Testa di mazza pesante da cavaliere" />
+    <string id="qQtLUC7Q" text="{.FS}Guardia per falx in bronzo" />
+    <string id="qSV6C2tp" text="{.FS}Punta di svardstav" />
+    <string id="qtZNUUqG" text="{.FS}Impugnatura settentrionale a una mano in legno" />
+    <string id="Qw9HWSY7" text="{.FS}Lama di flyssa in ferro" />
+    <string id="QwfDN06p" text="{.FS}Punta di lancia da cavalleria medievale" />
+    <string id="qyaS75Gr" text="{.FS}Lama larga scanalata senza filo" />
+    <string id="qYxzdFAa" text="{.MS}Manico lungo in legno di quercia con rivestimento in cuoio" />
+    <string id="qZYeu55z" text="{.MS}Manico lungo di mazza con fondo in ferro" />
+    <string id="r3R6RM9G" text="{.FS}Punta corta di picca semplice" />
+    <string id="R3zJaL72" text="{.MS}Stendardo a pennone molto piccolo{@Plural}{.MP}Stendardi a pennone molto piccoli{\@}" />
+    <string id="R62maL2H" text="{.FS}Testa di roncone" />
+    <string id="R7OBSozV" text="{.FS}Lama corta e spessa di ild" />
+    <string id="R8hEAwUZ" text="{.FS}Impugnatura con rivestimento ruvido" />
+    <string id="r8KoZCBy" text="{.FS}Guardia ovale piatta per pugnale" />
+    <string id="r9NcHImd" text="{.MS}Triplo gonfalone" />
+    <string id="RB3oxhaV" text="{.FS}Guardia a braccia lunghe" />
+    <string id="RBoqow67" text="{.MS}Pomolo a uovo" />
+    <string id="RdVX1jC0" text="{.FS}Lama di kaskara con incisioni" />
+    <string id="reHxxC6K" text="{.MS}Manico di martello da fabbro" />
+    <string id="Rh3h5NIg" text="{.MS}Manico corto per ascia da lancio in legno massiccio temprato" />
+    <string id="rkEbLbYf" text="{.FS}Impugnatura lunga orientale rinforzata in cuoio" />
+    <string id="rKnBJPfp" text="{.FS}Lama di spadone da cavalleria in acciaio pregiato" />
+    <string id="rL2zMQ2l" text="{.FS}Guardia a braccia larghe" />
+    <string id="rn6tttI2" text="{.MS}Pomolo ornamentale meridionale" />
+    <string id="rSs1M2EJ" text="{.FS}Testa di mazza a spirale" />
+    <string id="RWljioj5" text="{.FS}Impugnatura a una mano in corno fasciata in ferro e cuoio" />
+    <string id="RWm1h40B" text="{.MS}Pomolo degli altopiani" />
+    <string id="RXjhTS9s" text="{.FS}Asta lunga in quercia rivestita" />
+    <string id="S2MYKoII" text="{.MS}Pomolo alto orientale" />
+    <string id="s50O60ed" text="{.FS}Guardia curva imperiale" />
+    <string id="S75vUGzK" text="{.FS}Punta di lancia in acciaio pregiato" />
+    <string id="S9zZO7qJ" text="{.FS}Punta di picca in acciaio pregiato" />
+    <string id="SaPaeTr4" text="{.FS}Impugnatura a due mani in legno " />
+    <string id="saYgR9C6" text="{.FS}Impugnatura a due mani degli altopiani di alta qualità" />
+    <string id="SEsx3kZz" text="{.FS}Punta di berdica pesante" />
+    <string id="SgJH5KtP" text="{.FS}Lama di sica" />
+    <string id="SgknWcu2" text="{.FS}Impugnatura a una mano in pelle" />
+    <string id="sHwhgRzK" text="{.MS}Pomolo ricurvo" />
+    <string id="SJiam61q" text="{.MS}Manico corto nodoso" />
+    <string id="SJssgxmf" text="{.FS}Lama di ild con decorazioni" />
+    <string id="sNJNDDKN" text="{.FS}Testa d&apos;ascia piccola" />
+    <string id="sq7G99xP" text="{.FS}Guardia a corona" />
+    <string id="SqR5K74b" text="{.FS}Impugnatura pregiata degli altopiani" />
+    <string id="SR7a3qlO" text="{.FS}Testa di ascia da battaglia a punta arrotondata" />
+    <string id="SraI0yxb" text="{.MS}Manico lungo in legno di quercia temprato" />
+    <string id="sUlksgjL" text="{.FS}Guardia per lancia inchiodata e rivestita" />
+    <string id="SVBYn9KW" text="{.MS}Forcone in ferro" />
+    <string id="sw5rAz73" text="{.FS}Testa di mazza leggera meridionale" />
+    <string id="swb45HVS" text="{.FS}Lama della montagna" />
+    <string id="T1aiDuOp" text="{.FS}Punta stretta di menavlion" />
+    <string id="T1xFTaOf" text="{.FS}Lama lunga di scimitarra con decorazioni" />
+    <string id="T62Cmrrh" text="{.MS}Pomolo livellato" />
+    <string id="tgJ3dSOx" text="{.MS}Bastone per lancia lunga in legno di quercia" />
+    <string id="TKQl9boE" text="{.FS}Impugnatura pregiata per spada d&apos;armi con decorazioni in oro" />
+    <string id="TKVxb6QD" text="{.FS}Punta di lancia a foglia in acciaio di Thamaske" />
+    <string id="tLa3nYAQ" text="{.MS}Pomolo a calice piatto" />
+    <string id="tnaGywrE" text="{.FS}Impugnatura a clessidra a due mani in cuoio ruvido" />
+    <string id="tNtulHAv" text="{.FS}Testa larga di norreno" />
+    <string id="tooJPhpa" text="{.MS}Stendardo sottile a coda di rondine{@Plural}{.MP}Stendardi sottili a coda di rondine{\@}" />
+    <string id="tq0eDwck" text="{.FS}Guardia per pugnale a coppo" />
+    <string id="tq5XGebt" text="{.FS}Impugnatura per spada a due mani ricoperta in cuoio pregiato fasciata in bronzo" />
+    <string id="TqXFwLYL" text="{.FS}Testa di alabarda smussata" />
+    <string id="trGnmFsh" text="{.FS}Testa di mazza calradiana" />
+    <string id="tRJC72Qh" text="{.MS}A una mano incrociato in cuoio" />
+    <string id="tSaAzzYe" text="{.FS}Lama stretta seghettata" />
+    <string id="tSgZoxsu" text="{.FS}Impugnatura una mano in legno rinforzata in ferro" />
+    <string id="tSQbGb4m" text="{.FS}Asta lunghissima in mogano" />
+    <string id="TUbTwW9U" text="{.FS}Lama di spatha piatta e seghettata" />
+    <string id="Tui9qvOZ" text="{.FS}Testa di tzikurion" />
+    <string id="U30HpvtI" text="{.FS}Punta di lancia triangolare settentrionale in ferro" />
+    <string id="u89rP5qY" text="{.MS}Pomolo ampio" />
+    <string id="uAfTaa3p" text="{.FS}Impugnatura orientale a una mano in cuoio pregiato" />
+    <string id="ubnADEGb" text="{.FS}Coda di rondine con lingua{@Plural}{.FP}Code di rondine con lingua{\@}" />
+    <string id="Udo97SZC" text="{.MS}Pomolo con decorazioni occidentali" />
+    <string id="ueCf3sde" text="{.FS}Impugnatura sottile a una mano con rivestimento in cuoio" />
+    <string id="ugQrq53t" text="{.MS}Pomolo a ventaglio" />
+    <string id="Uhc0KIdz" text="{.MS}Bastone per lancia in legno di pino" />
+    <string id="uIciSK8t" text="{.FS}Impugnatura nobile arrotondata con decorazioni meridionali" />
+    <string id="uKu7rTrW" text="{.FS}Impugnatura stretta rivestita a una mano" />
+    <string id="UKWwPPkx" text="{.FS}Lama di spada d&apos;armi con petali dorati intagliati" />
+    <string id="ukYW8FVm" text="{.MS}Pomolo tondeggiante per sciabola" />
+    <string id="uLqEw8LB" text="{.FS}Impugnatura lunga borchiata imperiale" />
+    <string id="UqNbbdKN" text="{.FS}Lama di coltello semplice" />
+    <string id="uQsJQLJH" text="{.FS}Impugnatura corta settentrionale in pelle" />
+    <string id="usVYZYYD" text="{.MS}Pomolo settentrionale signorile" />
+    <string id="USWfzbuW" text="{.FS}Testa larga di ascia grande settentrionale" />
+    <string id="uuover9F" text="{.FS}Lama di spada d&apos;armi corta" />
+    <string id="uvmvs2SP" text="{.FS}Impugnatura alta per mannaia" />
+    <string id="uwG8iwBc" text="{.FS}Lancia lunga delle praterie" />
+    <string id="V0khEGns" text="{.MS}Pomolo piatto" />
+    <string id="v22onVb2" text="{.FS}Lama di flyssa leggermente seghettata" />
+    <string id="V3JMuFEg" text="{.MS}Manico di mazza con lacci" />
+    <string id="V6YQykoc" text="{.FS}Guardia acuminata per pugnale ricurvo" />
+    <string id="V9Kbq6vj" text="{.FS}Punta smussata da allenamento" />
+    <string id="VbpiYB68" text="{.FS}Lama scanalata corta e ampia con decorazioni" />
+    <string id="VccYBtB0" text="{.FS}Testa d&apos;accetta settentrionale" />
+    <string id="VeHazKzb" text="{.MS}Manico lungo in legno massiccio con rivestimento in cuoio" />
+    <string id="Vf2wKojF" text="{.FP}Ali smussate" />
+    <string id="VfzFTGd8" text="{.FS}Testa piccola dalla punta arrotondata" />
+    <string id="vGda3CNV" text="{.FS}Impugnatura per spada bastarda in cuoio con decorazioni in oro" />
+    <string id="VgMDYLje" text="{.FS}Impugnatura a due mani in cuoio ruvido con rilievi" />
+    <string id="vh9AlAru" text="{.MS}Stendardo a gagliardetto{@Plural}{.MP}Stendardi a gagliardetto{\@}" />
+    <string id="vJieQpnH" text="{.FS}Impugnatura a una mano meridionale borchiata" />
+    <string id="VJmu4Yag" text="{.MS}Supporto decorativo per lancia" />
+    <string id="vJtBlaeS" text="{.FS}Impugnatura lunghissima per spada a due mani rivestita in cuoio" />
+    <string id="VL00fQvj" text="{.MS}Manico d&apos;ascia rinforzato" />
+    <string id="vPMsDf85" text="{.MS}Manico in legno di quercia con rivestimento in cuoio" />
+    <string id="vx2VIbmb" text="{.FS}Lama lunga di spada da guerra con decorazioni" />
+    <string id="vxqrW5GN" text="{.FS}Lama di falcetto" />
+    <string id="vYS4m95c" text="{.FS}Impugnatura per spada bastarda in cuoio con anelli in bronzo " />
+    <string id="W5tvNbjY" text="{.MS}Pomolo ornamentale orientale" />
+    <string id="wait0O6m" text="{.FS}Punta di rasoio da guerra" />
+    <string id="WAtAGKhV" text="{.FP}Ali a doppia spina" />
+    <string id="Wd3bU57P" text="{.MS}Pomolo ricurvo in bronzo" />
+    <string id="we4ykbNe" text="{.FS}Impugnatura a una mano in cuoio fasciata in ferro con un rilievo" />
+    <string id="weIT4gUP" text="{.FS}Lama stretta scanalata di spada da guerra" />
+    <string id="wfK63ZQn" text="{.MS}Pomolo per sciabola" />
+    <string id="wgWSJzGD" text="{.FS}Impugnatura smussata a due mani con fasciatura in cuoio" />
+    <string id="wHMdRIl6" text="{.FS}Impugnatura a una mano segmentata in cuoio ruvido" />
+    <string id="Wkhv9ESv" text="{.MS}Manico per ascia da lancio in legno di quercia temprato" />
+    <string id="wKJM541b" text="{.FS}Guardia acuminata" />
+    <string id="WkLj6xAo" text="{.MS}Pomolo trapezoidale" />
+    <string id="WkTkxQfw" text="{.FS}Lama a punta rettangolare" />
+    <string id="Wl1m0LbL" text="{.FS}Impugnatura rinforzata con incisioni in argento" />
+    <string id="Wn4GjoXY" text="{.FS}Testa d&apos;ascia a due mani a punta quadrata smussata" />
+    <string id="WNch6azL" text="{.FS}Lama di scimitarra in ferro" />
+    <string id="wQGWxeCc" text="{.FS}Lama spessa di sciabola" />
+    <string id="WrvDoYKa" text="{.FS}Testa di mazza flangiata lunga pesante" />
+    <string id="wsVbMK6L" text="{.FS}Lama piatta da battaglia" />
+    <string id="wTSBQduq" text="{.FP}Balze a coda di cavallo" />
+    <string id="wVcrqv4p" text="{.FS}Impugnatura in legno" />
+    <string id="wvLoXrFV" text="{.MS}Pomolo grande orientale" />
+    <string id="WXBkfAbb" text="{.FS}Guardia rettangolare settentrionale per pugnale con ricami" />
+    <string id="WxnqOG8s" text="{.FS}Guardia larga concava" />
+    <string id="wXUjru6o" text="{.FS}Guardia ampia per sciabola con rilievi" />
+    <string id="X1FY4VYe" text="{.FS}Testa di martello da fabbro" />
+    <string id="X7OrRebK" text="{.FS}Lama sottile di sparth" />
+    <string id="xa3vFv52" text="{.MS}Manico di mazza a due mani con punta di ferro" />
+    <string id="xb6e2YaV" text="{.FS}Guardia ovale per pugnale orientale semplice" />
+    <string id="XbaFle0M" text="{.FP}Ali di lancia orientali" />
+    <string id="xbazdytG" text="{.FS}Impugnatura a due mani meridionale fasciata in acciaio" />
+    <string id="xbB9Ga5X" text="{.FS}Lama affusolata settentrionale" />
+    <string id="XetKl5yO" text="{.FS}Guardia per sciabola in oro" />
+    <string id="XI5QgznO" text="{.FS}Guardia affusolata per mannaia" />
+    <string id="xJaVK4D0" text="{.FP}Ali di cinghiale" />
+    <string id="xKGpbQjJ" text="{.FS}Asta lunga in mogano con rivestimento in cuoio" />
+    <string id="Xo7l8eae" text="{.FS}Lama smussata" />
+    <string id="xoSaQWhX" text="{.FS}Guardia occidentale ricurva" />
+    <string id="XSabsFbx" text="{.FS}Punta d&apos;ahlspiess pesata" />
+    <string id="XtneitaD" text="{.FS}Lama di spada da guerra in acciaio pregiato" />
+    <string id="xVHbBpb9" text="{.FS}Impugnatura segmentata per scimitarra in acciaio" />
+    <string id="xWZuE1aE" text="{.FS}Guardia concava spessa per pugnale" />
+    <string id="XxhFx0yw" text="{.MS}Manico corto di ascia grande rivestito in cuoio" />
+    <string id="xYgJN0Ja" text="{.FS}Lama di scimitarra con decorazioni" />
+    <string id="xZ70rbRt" text="{.MS}Pomolo arrotondato in legno" />
+    <string id="Y0gbKTgZ" text="{.FS}Punta di forcone dell&apos;esercito sturgitano" />
+    <string id="Y4tIQnS4" text="{.FS}Punta corta di lancia imperiale semplice" />
+    <string id="y5A3HGua" text="{.FS}Lama di paramerion in acciaio pregiato" />
+    <string id="ybjDbw8p" text="{.MS}Manico lungo di mazza in legno di quercia" />
+    <string id="yD9v5GS0" text="{.FS}Asta in pino con decorazioni" />
+    <string id="YDG2spCf" text="{.FS}Impugnatura nobile orientale in cuoio" />
+    <string id="YFkEsUhn" text="{.FP}Balze a coda di cavallo rosse" />
+    <string id="yFm0f44p" text="{.FS}Guardia acuminata occidentale" />
+    <string id="YFy0t1NY" text="{.FS}Testa di mazza scanalata occidentale" />
+    <string id="Yi2PlMln" text="{.MS}Pomolo borchiato per lancia lunga" />
+    <string id="yilLfxCc" text="{.FS}Guardia con bordo" />
+    <string id="ykTYTbek" text="{.FS}Lama di coltello da lancio" />
+    <string id="YkWqmDEK" text="{.FS}Lama larga di falcione" />
+    <string id="YKXNxxvY" text="{.FS}Impugnatura a due mani settentrionale" />
+    <string id="ylUAAsQt" text="{.FS}Impugnatura a una mano con rivestimento in cuoio ruvido" />
+    <string id="yMWzpgjz" text="{.FS}Impugnatura angolare con rivestimento di filo a due mani" />
+    <string id="YQLEkXb7" text="{.FS}Ala a uncino singolo" />
+    <string id="yrdrYLA9" text="{.FS}Testa d&apos;ascia da lancio smussata" />
+    <string id="ysby6FNF" text="{.MS}Pomolo per lancia borchiata in acciaio di Thamaske" />
+    <string id="YTZblGJ0" text="{.FS}Impugnatura a due mani in corno rinforzata e ricoperta in cuoio" />
+    <string id="YUDKID1R" text="{.MS}Manico lungo di mazza in frassino rinforzato" />
+    <string id="yUyJ39ot" text="{.FS}Impugnatura per spatha fasciata in acciaio" />
+    <string id="YwKrIR6s" text="{.MS}Doppio uncino grande ricoperta di pelliccia" />
+    <string id="yWvSjlnb" text="{.FS}Testa di mazza orientale in acciaio pregiato" />
+    <string id="YxoUpPRb" text="{.FP}Ali a uncino borchiate" />
+    <string id="yzsneaL6" text="{.MS}Pomolo a ruota bordato" />
+    <string id="Z98LPAz7" text="{.FS}Impugnatura per spada bastarda ricoperta in cuoio con borchie in bronzo" />
+    <string id="zAdloN6Y" text="{.FS}Lama larga seghettata di spada corta" />
+    <string id="ZAoWK9Gt" text="{.FS}Punta arrotondata di lancia imperiale" />
+    <string id="Zc2Mb991" text="{.FS}Testa di shestopyor" />
+    <string id="ZCJ0aNYt" text="{.FS}Guardia a testa di serpente" />
+    <string id="ZcUNAfKT" text="{.FS}Punta di lancia lunghissima in acciaio pregiato" />
+    <string id="zCYuj3yr" text="{.FS}Lama di spada d&apos;armi con punta dentata" />
+    <string id="ZfEiEOsK" text="{.FS}Guardia per pugnale meridionale a corona" />
+    <string id="ZgCUNieQ" text="{.FS}Punta di forcone" />
+    <string id="Zgy40Qc4" text="{.MS}Manico lungo in mogano" />
+    <string id="zIbAD527" text="{.MS}Pomolo a spicchi" />
+    <string id="ZJrqEfBF" text="{.FS}Lama affusolata di kaskara" />
+    <string id="zKaNmT8r" text="{.FS}Guardia per pugnale a mezzaluna" />
+    <string id="ZKrpvDu6" text="{.FS}Impugnatura per spada bastarda rinforzata rivestita per metà in acciaio" />
+    <string id="ZKsIpbg6" text="{.FS}Impugnatura fasciata con filo ricoperta a metà in cuoio" />
+    <string id="ZmFx0XvN" text="{.FS}Impugnatura a una mano settentrionale in crosta" />
+    <string id="Zmtfwmh1" text="{.FS}Guardia affusolata per pugnale sottile" />
+    <string id="zoQhOBku" text="{.MS}Pomolo chiodato arrotondato" />
+    <string id="zoxF4ikz" text="{.MS}Manico lungo in frassino con rivestimento in cuoio" />
+    <string id="Zp625kEP" text="{.FS}Impugnatura a due mani settentrionale in legno" />
+    <string id="ZUp9mm79" text="{.FS}Punta di lancia seghettata" />
+    <string id="ZxZ7AJ1r" text="{.FS}Lama d&apos;ascia da battaglia meridionale" />
+  </strings>
+</base>

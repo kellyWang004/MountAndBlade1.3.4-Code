@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	type="string">
+	<layouts>
+		<layout
+			class="skinned_decal"
+			version="0.1"
+			xml_tag="skinned_decals.skinned_decal.decal_materials.decal_material"
+			name_attribute="id"
+			use_in_treeview="true">
+			<items>
+				<item
+					name="name"
+					label="Name"
+					type="text"
+					column="0"
+					xml_path="id">
+					<properties>
+						<property
+							name="editable"
+							value="true" />
+					</properties>
+				</item>
+			</items>
+		</layout>
+	</layouts>
+</base>

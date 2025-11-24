@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Português (BR)" />
+  </tags>
+  <strings>
+    <string id="18NtjryL" text="Ainda não, mas em breve." />
+    <string id="1ELK1UbN" text="{HERO.NAME} está navegando." />
+    <string id="6P1ruzsC" text="Talvez..." />
+    <string id="6QoSHiWC" text="Um beco sem líder" />
+    <string id="9ACJsI6S" text="Bloqueado" />
+    <string id="9NuttOBC" text="Carregar" />
+    <string id="9y0zpKUF" text="Esse povoamento precisa ser seu!" />
+    <string id="akHsjtPh" text="Você ainda não conheceu este herói." />
+    <string id="aN85Kfnq" text="{#GENDER(SETTLEMENT)}O {#}A {#}Os {#}As {#}{\#}{SETTLEMENT} {#GENDER(SETTLEMENT)}foi atacado{#}foi atacada{#}foram atacados{#}foram atacadas{#}foi atacada{\#}. Seu acordo com {QUEST_GIVER.LINK} foi revogado." />
+    <string id="averageWealthStatus" text="Média" />
+    <string id="awjomtnJ" text="Tem certeza?" />
+    <string id="bqeWVVEE" text="Suas ações provocaram uma guerra contra a facção de {QUEST_GIVER.LINK}. {?QUEST_GIVER.GENDER}Ela{?}Ele{\?} cancelou o seu acordo e a missão fracassou." />
+    <string id="bSo9hKwr" text="{PERSUASION_OPTION_LINE} {SUCCESS_CHANCE}" />
+    <string id="cc1d7mkq" text="Categoria" />
+    <string id="CDXUehf0" text="Muito bem, muito bem." />
+    <string id="CH7b5LaX" text="Eu mudei de ideia." />
+    <string id="cKz1cyuM" text="Seu clã agora está em guerra com {#GENDER(QUEST_GIVER_SETTLEMENT_FACTION)}o {#}a {#}os {#}as {#}{\#}{QUEST_GIVER_SETTLEMENT_FACTION}. Missão cancelada." />
+    <string id="D0xDRqvm" text="{PERSUASION_REACTION}" />
+    <string id="ddEu5IFQ" text="Espero que sim." />
+    <string id="dQBArrqh" text="Gerenciar Beco" />
+    <string id="ds294zxi" text="Mais alguma coisa?" />
+    <string id="dzXaXKaC" text="Pois bem." />
+    <string id="FdzsOvDq" text="Esta ação fica desativada em missão" />
+    <string id="g8qb3Ame" text="Agradeço." />
+    <string id="GEvP9i5f" text="Você continuará como {HEIR.NAME}." />
+    <string id="gJG0xmAq" text="O vilarejo de {QUEST_GIVER.LINK}, {#GENDER(QUEST_SETTLEMENT)}o {#}a {#}os {#}as {#}{\#}{QUEST_SETTLEMENT}, foi saqueado. Seu acordo com {QUEST_GIVER.LINK} foi revogado." />
+    <string id="hCavIm4G" text="Você pagará {AMOUNT}{GOLD_ICON} denários." />
+    <string id="Hxf6bzmR" text="Denários Atuais" />
+    <string id="I1CMeL9R" text="Arqueiros Montados" />
+    <string id="I8raOMRH" text="Desculpe. Ainda não houve progresso." />
+    <string id="iW9iKbb8" text="Nada." />
+    <string id="jcEoUPCB" text="Você está usando um disfarce." />
+    <string id="k7ebznzr" text="Pois não?" />
+    <string id="LZbHWkCB" text="Negociando com {PARTY_NAME}" />
+    <string id="mapbardenarvalue" text="{DENAR_AMOUNT}{VALUE_ABBREVIATION}" />
+    <string id="maptrack" text="Rastrear" />
+    <string id="MIylzRc5" text="Você não pode executar esta ação em um evento de mapa." />
+    <string id="mp68RYnD" text="Limite de Tamanho do Grupo" />
+    <string id="nFl0ufe3" text="Um grupo sem líder" />
+    <string id="oJmRg2ms" text="Muito rico" />
+    <string id="OlOhuO7X" text="Não, agradeço. Tenha um bom dia." />
+    <string id="pdqi2qz1" text="Você não pode realizar esta ação enquanto seu beco está sob ataque." />
+    <string id="poorWealthStatus" text="Fraca" />
+    <string id="ppi6eVos" text="Como queira." />
+    <string id="PXT6aA4J" text="Opções da Campanha" />
+    <string id="rkQ7D36f" text="A missão foi cancelada porque seu grupo tinha mais companheiros do que você podia administrar." />
+    <string id="RzFyGnWJ" text="Apoiadores" />
+    <string id="SixPXaNh" text="Muito pobre" />
+    <string id="SlubkZ1A" text="Eliminado" />
+    <string id="UbRqC0Yz" text="Rico" />
+    <string id="uYjEknNX" text="Execução de {VICTIM.NAME} por {EXECUTER.NAME}" />
+    <string id="vaUlAZba" text="Seu clã agora está em guerra com {QUEST_GIVER.LINK}. Seu acordo com {QUEST_GIVER.LINK} foi cancelado." />
+    <string id="VLLAOXve" text="Esperando o cair da noite para uma emboscada" />
+    <string id="vW6kBki9" text="Seu clã agora está em guerra com o reino de {QUEST_GIVER.LINK}. Seu acordo com {QUEST_GIVER.LINK} foi revogado." />
+    <string id="wlKtDR2z" text="Agradeço muito, {?PLAYER.GENDER}minha senhora{?}meu senhor{\?}." />
+    <string id="xpCdwmlX" text="Você não tem ouro suficiente para tornar {HERO.NAME} líder do grupo." />
+    <string id="YuLLsAUb" text="Você não tem {GOLD_AMOUNT}{GOLD_ICON}." />
+    <string id="zpqP5LsC" text="Eu vou agora mesmo." />
+  </strings>
+</base>

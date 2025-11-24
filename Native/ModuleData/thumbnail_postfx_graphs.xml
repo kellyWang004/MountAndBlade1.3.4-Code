@@ -1,0 +1,1622 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	type="particle_system">
+	<postfx_graphs>
+		<postfx_graph
+			id="thumbnail">
+			<!-- EXTERNAL LINEAR SCREEN INJECTION -->
+			<postfx_node
+				id="external_screen_injection"
+				shader="postfx_screen_injection"
+				format="R11G11B10F"
+				size="relative"
+				width="1.0"
+				height="1.0">
+				<output
+					index="0"
+					type="provided"
+					name="screen_rt" />
+				<input
+					index="0"
+					type="provided"
+					source="external_screen_input" />
+			</postfx_node>
+			<postfx_node
+				id="halfres_combine"
+				class="rglPosftx_halfres_combine_node"
+				shader="postfx_half_res_combine"
+				format="R16F"
+				size="relative"
+				width="1"
+				height="1">
+				<output
+					index="0"
+					type="provided"
+					name="screen_rt" />
+				<input
+					index="0"
+					type="provided"
+					source="half_screen_rt" />
+				<input
+					index="1"
+					type="provided"
+					source="half_depth_rt" />
+				<input
+					index="2"
+					type="provided"
+					source="gbuffer_depth" />
+			</postfx_node>
+			<postfx_node
+				id="histogram"
+				class="rglHistogram_node"
+				shader="postfx_eye_adaptation"
+				format="R16F"
+				size="absolute"
+				width="1"
+				height="1">
+				<input
+					index="1"
+					type="provided"
+					source="screen_rt" />
+				<input
+					index="14"
+					type="node"
+					source="SSSSS_specular_add" />
+				<input
+					index="15"
+					type="node"
+					source="halfres_combine" />
+				<!-- just to create a dependency-->
+			</postfx_node>
+			<postfx_node
+				id="motion_vector_normalization"
+				shader="postfx_motion_vector_normalizer"
+				format="R16G16F"
+				size="relative"
+				width="1"
+				height="1">
+				<input
+					index="0"
+					type="provided"
+					source="gbuffer_motion_vectors" />
+				<preconditions>
+					<config
+						name="dlss" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="dlss_node"
+				shader="postfx_final"
+				class="rglDlss_fxnode"
+				format="R16G16B16A16F"
+				size="relative"
+				width="1"
+				height="1">
+				<input
+					index="0"
+					type="provided"
+					source="screen_rt" />
+				<input
+					index="1"
+					type="node"
+					source="motion_vector_normalization" />
+				<input
+					index="2"
+					type="provided"
+					source="gbuffer_depth" />
+				<input
+					index="3"
+					type="node"
+					source="histogram" />
+				<preconditions>
+					<config
+						name="dlss" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="dof_coc"
+				shader="postfx_dof_coc"
+				format="R16G16F"
+				size="relative"
+				width="1.0"
+				height="1.0">
+				<input
+					index="0"
+					type="provided"
+					source="screen_rt"
+					exclude="dlss" />
+				<input
+					index="0"
+					type="node"
+					source="dlss_node"
+					include="dlss" />
+				<input
+					index="1"
+					type="provided"
+					source="gbuffer_depth" />
+				<!-- For dependency not used in shader -->
+				<input
+					index="2"
+					type="node"
+					source="external_screen_injection" />
+				<preconditions>
+					<config
+						name="dof" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="dof_coc_blurx"
+				shader="postfx_dof_coc_blurx"
+				format="R16G16F"
+				size="relative"
+				width="1.0"
+				height="1.0">
+				<input
+					index="0"
+					type="node"
+					source="dof_coc" />
+				<preconditions>
+					<config
+						name="dof" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="dof_coc_blury"
+				shader="postfx_dof_coc_blury"
+				format="R16G16F"
+				size="relative"
+				width="1.0"
+				height="1.0">
+				<input
+					index="0"
+					type="node"
+					source="dof_coc_blurx" />
+				<preconditions>
+					<config
+						name="dof" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="dof_blur_pass_1"
+				shader="postfx_dof_blur"
+				format="R11G11B10F"
+				size="relative"
+				width="1"
+				height="1">
+				<input
+					index="0"
+					type="provided"
+					source="screen_rt"
+					exclude="dlss" />
+				<input
+					index="0"
+					type="node"
+					source="dlss_node"
+					include="dlss" />
+				<input
+					index="1"
+					type="node"
+					source="dof_coc_blury" />
+				<preconditions>
+					<config
+						name="dof" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="dof_blur_pass_2"
+				class="rglDof_blur_final_node"
+				shader="postfx_dof_blur"
+				format="R11G11B10F"
+				size="relative"
+				width="1"
+				height="1">
+				<input
+					index="0"
+					type="node"
+					source="dof_blur_pass_1" />
+				<input
+					index="1"
+					type="node"
+					source="dof_coc_blury" />
+				<preconditions>
+					<config
+						name="dof" />
+				</preconditions>
+			</postfx_node>
+			<!-- CONTOUR -->
+			<postfx_node
+				id="contour_prepare"
+				shader="postfx_contour_prepare"
+				format="R8G8B8A8"
+				size="relative"
+				width="0.5"
+				height="0.5">
+				<input
+					index="0"
+					type="provided"
+					source="contour_color" />
+				<preconditions>
+					<config
+						name="contour" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="contour_blurx"
+				shader="postfx_contour_blurx"
+				format="R8G8B8A8"
+				size="relative"
+				width="0.5"
+				height="0.5">
+				<input
+					index="0"
+					type="node"
+					source="contour_prepare" />
+				<input
+					index="1"
+					type="provided"
+					source="gbuffer_depth" />
+				<preconditions>
+					<config
+						name="contour" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="contour_blury"
+				shader="postfx_contour_blury"
+				format="R8G8B8A8"
+				size="relative"
+				width="0.5"
+				height="0.5">
+				<input
+					index="0"
+					type="node"
+					source="contour_blurx" />
+				<input
+					index="1"
+					type="provided"
+					source="gbuffer_depth" />
+				<preconditions>
+					<config
+						name="contour" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="contour_final"
+				class="rglContour_final_fxnode"
+				shader="postfx_copy"
+				format="R8G8B8A8"
+				size="relative"
+				width="1"
+				height="1">
+				<input
+					index="0"
+					type="node"
+					source="contour_blury" />
+				<preconditions>
+					<config
+						name="contour" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="contour_combine"
+				shader="postfx_contour_combine"
+				format="R11G11B10F"
+				size="relative"
+				width="1"
+				height="1">
+				<input
+					index="1"
+					type="node"
+					source="dof_blur_pass_2"
+					include="dof" />
+				<input
+					index="1"
+					type="provided"
+					source="screen_rt"
+					exclude="dlss, dof" />
+				<input
+					index="1"
+					type="node"
+					source="dlss_node"
+					include="dlss"
+					exclude="dof" />
+				<input
+					index="2"
+					type="node"
+					source="contour_final"
+					include="contour" />
+				<input
+					index="2"
+					type="texture"
+					source="plain_alpha" />
+				<input
+					index="3"
+					type="node"
+					source="plain_alpha" />
+				<input
+					index="4"
+					type="node"
+					source="dof_blur_pass_2" />
+			</postfx_node>
+			<!-- SSSSS -->
+			<postfx_node
+				id="half_res_velocity_and_depth"
+				class="rglHalf_res_velocity_and_depth_node"
+				shader="postfx_half_res_velocity_and_depth"
+				format="R8G8B8A8"
+				size="relative"
+				width="0.5"
+				height="0.5">
+				<input
+					index="0"
+					type="provided"
+					source="gbuffer_depth" />
+				<input
+					index="1"
+					type="provided"
+					source="gbuffer_motion_vectors" />
+			</postfx_node>
+			<!-- NOTE: Filter size is 40 so relative buffer size is 1 / 40 -->
+			<postfx_node
+				id="tile_max_x"
+				shader="postfx_motion_blur_tile_max_x"
+				format="R16G16F"
+				size="relative"
+				width="0.05"
+				height="1">
+				<input
+					index="0"
+					type="provided"
+					source="gbuffer_motion_vectors" />
+				<preconditions>
+					<config
+						name="motionblur" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="tile_max_y"
+				shader="postfx_motion_blur_tile_max_y"
+				format="R16G16F"
+				size="relative"
+				width="0.05"
+				height="0.05">
+				<input
+					index="0"
+					type="node"
+					source="tile_max_x" />
+				<preconditions>
+					<config
+						name="motionblur" />
+				</preconditions>
+			</postfx_node>
+			<!-- NOTE: Filter size is 40 so relative buffer size is 1 / 40 -->
+			<postfx_node
+				id="tile_neighbor_max"
+				shader="postfx_motion_blur_tile_neightbour_max"
+				format="R16G16F"
+				size="relative"
+				width="0.05"
+				height="0.05">
+				<input
+					index="0"
+					type="node"
+					source="tile_max_y" />
+				<preconditions>
+					<config
+						name="motionblur" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="temporal_smaa_edge_detection"
+				class="rglSmaa_edge_detection_node"
+				shader="postfx_smaa_edge_detection"
+				format="R8G8_UNORM"
+				size="relative"
+				width="1"
+				height="1">
+				<input
+					index="0"
+					type="node"
+					source="contour_combine" />
+				<input
+					index="1"
+					type="texture"
+					source="smaa_areatex" />
+				<input
+					index="2"
+					type="texture"
+					source="smaa_searchtex" />
+				<input
+					index="6"
+					type="provided"
+					source="gbuffer_depth" />
+				<preconditions>
+					<config
+						name="temporal_smaa" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="temporal_smaa_blend_weight_calc"
+				class="rglSmaa_blend_weight_calc_node"
+				shader="postfx_smaa_blend_weight_calc"
+				format="R8G8B8A8"
+				size="relative"
+				width="1"
+				height="1">
+				<input
+					index="0"
+					type="node"
+					source="contour_combine" />
+				<input
+					index="1"
+					type="texture"
+					source="smaa_areatex" />
+				<input
+					index="2"
+					type="texture"
+					source="smaa_searchtex" />
+				<input
+					index="3"
+					type="node"
+					source="temporal_smaa_edge_detection" />
+				<input
+					index="4"
+					type="node"
+					source="temporal_smaa_edge_detection" />
+				<input
+					index="6"
+					type="provided"
+					source="gbuffer_depth" />
+				<preconditions>
+					<config
+						name="temporal_smaa" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="temporal_smaa_blending"
+				class="rglHistory_node"
+				shader="postfx_smaa_blending"
+				format="R11G11B10F"
+				size="relative"
+				width="1"
+				height="1">
+				<input
+					index="0"
+					type="node"
+					source="contour_combine" />
+				<input
+					index="1"
+					type="texture"
+					source="smaa_areatex" />
+				<input
+					index="2"
+					type="texture"
+					source="smaa_searchtex" />
+				<input
+					index="3"
+					type="node"
+					source="temporal_smaa_edge_detection" />
+				<input
+					index="4"
+					type="node"
+					source="temporal_smaa_blend_weight_calc" />
+				<input
+					index="6"
+					type="provided"
+					source="gbuffer_depth" />
+				<preconditions>
+					<config
+						name="temporal_smaa" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="taa_resolve_node"
+				class="rglTaa_resolve_fxnode"
+				shader="postfx_taa_resolve"
+				format="R11G11B10F"
+				size="relative"
+				width="1"
+				height="1">
+				<input
+					index="0"
+					type="node"
+					source="temporal_smaa_blending"
+					include="temporal_smaa" />
+				<input
+					index="0"
+					type="node"
+					source="contour_combine" />
+				<input
+					index="1"
+					type="provided"
+					source="gbuffer_motion_vectors" />
+				<input
+					index="2"
+					type="provided"
+					source="gbuffer_depth" />
+				<input
+					index="3"
+					type="node"
+					source="contour_combine" />
+				<input
+					index="11"
+					type="node"
+					mrt_index="0"
+					source="half_res_velocity_and_depth" />
+				<input
+					index="13"
+					type="node"
+					mrt_index="1"
+					source="half_res_velocity_and_depth" />
+				<!-- 4,5,6,7 is taken -->
+				<preconditions>
+					<config
+						name="temporal_resolve" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="taa_filter_node"
+				class="rglTaa_filter_fxnode"
+				shader="postfx_taa_filter"
+				format="R16G16B16A16F"
+				size="relative"
+				width="1"
+				height="1">
+				<input
+					index="0"
+					type="node"
+					source="taa_resolve_node"
+					include="temporal_resolve" />
+				<input
+					index="0"
+					type="node"
+					source="temporal_smaa_blending"
+					include="temporal_smaa"
+					exclude="temporal_resolve" />
+				<input
+					index="0"
+					type="node"
+					source="contour_combine" />
+				<input
+					index="1"
+					type="provided"
+					source="gbuffer_motion_vectors" />
+				<input
+					index="2"
+					type="provided"
+					source="gbuffer_depth" />
+				<input
+					index="3"
+					type="node"
+					source="contour_combine" />
+				<input
+					index="11"
+					type="node"
+					mrt_index="0"
+					source="half_res_velocity_and_depth" />
+				<input
+					index="13"
+					type="node"
+					mrt_index="1"
+					source="half_res_velocity_and_depth" />
+				<!-- 4,5,6,7 is taken -->
+				<input
+					index="12"
+					type="node"
+					source="histogram" />
+				<preconditions>
+					<config
+						name="temporal_filter" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="sunshaft_blurhalf"
+				shader="postfx_sunshafts_blurrhalf"
+				format="R16F"
+				size="relative"
+				width="0.5"
+				height="0.5">
+				<input
+					index="0"
+					type="provided"
+					source="gbuffer_depth" />
+				<preconditions>
+					<config
+						name="sunshafts" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="sunshafts_rays"
+				shader="postfx_sunshafts_rays"
+				format="R16F"
+				size="relative"
+				width="0.25"
+				height="0.25">
+				<input
+					index="0"
+					type="node"
+					source="sunshaft_blurhalf" />
+				<preconditions>
+					<config
+						name="sunshafts" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="sunshafts_blurt"
+				shader="postfx_sunshafts_blurt"
+				format="R16F"
+				size="relative"
+				width="0.25"
+				height="0.25">
+				<input
+					index="0"
+					type="node"
+					source="sunshafts_rays" />
+				<preconditions>
+					<config
+						name="sunshafts" />
+				</preconditions>
+			</postfx_node>
+			<!-- new bloom -->
+			<postfx_node
+				id="bright_pass"
+				shader="postfx_bloom_threshold"
+				format="R11G11B10F"
+				size="relative"
+				width="1.0"
+				height="1.0">
+				<input
+					index="0"
+					type="node"
+					source="taa_filter_node"
+					include="temporal_filter" />
+				<input
+					index="0"
+					type="node"
+					source="taa_resolve_node"
+					include="temporal_resolve"
+					exclude="temporal_filter" />
+				<input
+					index="0"
+					type="node"
+					source="temporal_smaa_blending"
+					include="temporal_smaa"
+					exclude="temporal_filter, temporal_resolve" />
+				<input
+					index="0"
+					type="node"
+					source="contour_combine" />
+				<input
+					index="4"
+					type="node"
+					source="histogram" />
+				<preconditions>
+					<config
+						name="hdr" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="motion_blur"
+				shader="postfx_motion_blur"
+				format="R11G11B10F"
+				size="relative"
+				width="1"
+				height="1">
+				<input
+					index="0"
+					type="node"
+					source="taa_filter_node"
+					include="temporal_filter" />
+				<input
+					index="0"
+					type="node"
+					source="taa_resolve_node"
+					include="temporal_resolve"
+					exclude="temporal_filter" />
+				<input
+					index="0"
+					type="node"
+					source="temporal_smaa_blending"
+					include="temporal_smaa"
+					exclude="temporal_filter, temporal_resolve" />
+				<input
+					index="0"
+					type="node"
+					source="contour_combine" />
+				<!--<input index="7" type="provided" source="gbuffer_motion_vectors" /> -->
+				<input
+					index="11"
+					type="node"
+					source="tile_neighbor_max" />
+				<input
+					index="12"
+					type="texture"
+					source="default_random32" />
+				<!--  <input index="13" type="provided" source="gbuffer_depth" /> -->
+				<input
+					index="13"
+					type="node"
+					mrt_index="0"
+					source="half_res_velocity_and_depth" />
+				<input
+					index="7"
+					type="node"
+					mrt_index="1"
+					source="half_res_velocity_and_depth" />
+				<input
+					index="14"
+					type="node"
+					mrt_index="2"
+					source="half_res_velocity_and_depth" />
+				<preconditions>
+					<config
+						name="motionblur" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="bloom_down1"
+				shader="postfx_bloom_down_first"
+				format="R11G11B10F"
+				size="relative"
+				width="0.5"
+				height="0.5">
+				<input
+					index="0"
+					type="node"
+					source="bright_pass" />
+				<preconditions>
+					<config
+						name="hdr" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="bloom_down2"
+				shader="postfx_bloom_down"
+				format="R11G11B10F"
+				size="relative"
+				width="0.25"
+				height="0.25">
+				<input
+					index="0"
+					type="node"
+					source="bloom_down1" />
+				<preconditions>
+					<config
+						name="hdr" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="bloom_down3"
+				shader="postfx_bloom_down"
+				format="R11G11B10F"
+				size="relative"
+				width="0.125"
+				height="0.125">
+				<input
+					index="0"
+					type="node"
+					source="bloom_down2" />
+				<preconditions>
+					<config
+						name="hdr" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="bloom_down4"
+				shader="postfx_bloom_down"
+				format="R11G11B10F"
+				size="relative"
+				width="0.0625"
+				height="0.0625">
+				<input
+					index="0"
+					type="node"
+					source="bloom_down3" />
+				<preconditions>
+					<config
+						name="hdr" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="bloom_down5"
+				shader="postfx_bloom_down"
+				format="R11G11B10F"
+				size="relative"
+				width="0.03125"
+				height="0.03125">
+				<input
+					index="0"
+					type="node"
+					source="bloom_down4" />
+				<preconditions>
+					<config
+						name="hdr" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="bloom_down6"
+				shader="postfx_bloom_down"
+				format="R11G11B10F"
+				size="relative"
+				width="0.015625"
+				height="0.015625">
+				<input
+					index="0"
+					type="node"
+					source="bloom_down5" />
+				<preconditions>
+					<config
+						name="hdr" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="bloom_up0"
+				shader="postfx_bloom_up_first"
+				format="R11G11B10F"
+				size="relative"
+				width="0.03125"
+				height="0.03125">
+				<input
+					index="0"
+					type="node"
+					source="bloom_down6" />
+				<preconditions>
+					<config
+						name="hdr" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="bloom_up1"
+				shader="postfx_bloom_up"
+				format="R11G11B10F"
+				size="relative"
+				width="0.0625"
+				height="0.0625">
+				<input
+					index="0"
+					type="node"
+					source="bloom_down5" />
+				<input
+					index="1"
+					type="node"
+					source="bloom_up0" />
+				<preconditions>
+					<config
+						name="hdr" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="bloom_up2"
+				shader="postfx_bloom_up"
+				format="R11G11B10F"
+				size="relative"
+				width="0.125"
+				height="0.125">
+				<input
+					index="0"
+					type="node"
+					source="bloom_down4" />
+				<input
+					index="1"
+					type="node"
+					source="bloom_up1" />
+				<preconditions>
+					<config
+						name="hdr" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="bloom_up3"
+				shader="postfx_bloom_up"
+				format="R11G11B10F"
+				size="relative"
+				width="0.25"
+				height="0.25">
+				<input
+					index="0"
+					type="node"
+					source="bloom_down3" />
+				<input
+					index="1"
+					type="node"
+					source="bloom_up2" />
+				<preconditions>
+					<config
+						name="hdr" />
+				</preconditions>
+			</postfx_node>
+			<!-- light streaks -->
+			<postfx_node
+				id="streak_bright_pass"
+				shader="postfx_streak_prefilter"
+				format="R11G11B10F"
+				size="relative"
+				width="1.0"
+				height="0.5">
+				<input
+					index="0"
+					type="node"
+					source="taa_filter_node"
+					include="temporal_filter" />
+				<input
+					index="0"
+					type="node"
+					source="taa_resolve_node"
+					include="temporal_resolve"
+					exclude="temporal_filter" />
+				<input
+					index="0"
+					type="node"
+					source="temporal_smaa_blending"
+					include="temporal_smaa"
+					exclude="temporal_filter, temporal_resolve" />
+				<input
+					index="0"
+					type="node"
+					source="contour_combine" />
+				<input
+					index="4"
+					type="node"
+					source="histogram" />
+				<preconditions>
+					<config
+						name="streaks" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="streak_down0"
+				shader="postfx_streak_down_first"
+				format="R11G11B10F"
+				size="relative"
+				width="0.5"
+				height="0.5">
+				<input
+					index="0"
+					type="node"
+					source="streak_bright_pass" />
+				<preconditions>
+					<config
+						name="streaks" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="streak_down1"
+				shader="postfx_streak_down"
+				format="R11G11B10F"
+				size="relative"
+				width="0.25"
+				height="0.5">
+				<input
+					index="0"
+					type="node"
+					source="streak_down0" />
+				<preconditions>
+					<config
+						name="streaks" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="streak_down2"
+				shader="postfx_streak_down"
+				format="R11G11B10F"
+				size="relative"
+				width="0.125"
+				height="0.5">
+				<input
+					index="0"
+					type="node"
+					source="streak_down1" />
+				<preconditions>
+					<config
+						name="streaks" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="streak_down3"
+				shader="postfx_streak_down"
+				format="R11G11B10F"
+				size="relative"
+				width="0.0625"
+				height="0.5">
+				<input
+					index="0"
+					type="node"
+					source="streak_down2" />
+				<preconditions>
+					<config
+						name="streaks" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="streak_down4"
+				shader="postfx_streak_down"
+				format="R11G11B10F"
+				size="relative"
+				width="0.03125"
+				height="0.5">
+				<input
+					index="0"
+					type="node"
+					source="streak_down3" />
+				<preconditions>
+					<config
+						name="streaks" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="streak_down5"
+				shader="postfx_streak_down"
+				format="R11G11B10F"
+				size="relative"
+				width="0.015625"
+				height="0.5">
+				<input
+					index="0"
+					type="node"
+					source="streak_down4" />
+				<preconditions>
+					<config
+						name="streaks" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="streak_down6"
+				shader="postfx_streak_down"
+				format="R11G11B10F"
+				size="relative"
+				width="0.0078125"
+				height="0.5">
+				<input
+					index="0"
+					type="node"
+					source="streak_down5" />
+				<preconditions>
+					<config
+						name="streaks" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="streak_up0"
+				shader="postfx_streak_up"
+				format="R11G11B10F"
+				size="relative"
+				width="0.015625"
+				height="0.5">
+				<input
+					index="0"
+					type="node"
+					source="streak_down6" />
+				<input
+					index="1"
+					type="node"
+					source="streak_down5" />
+				<preconditions>
+					<config
+						name="streaks" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="streak_up1"
+				shader="postfx_streak_up"
+				format="R11G11B10F"
+				size="relative"
+				width="0.03125"
+				height="0.5">
+				<input
+					index="0"
+					type="node"
+					source="streak_up0" />
+				<input
+					index="1"
+					type="node"
+					source="streak_down4" />
+				<preconditions>
+					<config
+						name="streaks" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="streak_up2"
+				shader="postfx_streak_up"
+				format="R11G11B10F"
+				size="relative"
+				width="0.0625"
+				height="0.5">
+				<input
+					index="0"
+					type="node"
+					source="streak_up1" />
+				<input
+					index="1"
+					type="node"
+					source="streak_down3" />
+				<preconditions>
+					<config
+						name="streaks" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="streak_up3"
+				shader="postfx_streak_up"
+				format="R11G11B10F"
+				size="relative"
+				width="0.125"
+				height="0.5">
+				<input
+					index="0"
+					type="node"
+					source="streak_up2" />
+				<input
+					index="1"
+					type="node"
+					source="streak_down2" />
+				<preconditions>
+					<config
+						name="streaks" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="streak_up4"
+				shader="postfx_streak_up"
+				format="R11G11B10F"
+				size="relative"
+				width="0.25"
+				height="0.5">
+				<input
+					index="0"
+					type="node"
+					source="streak_up3" />
+				<input
+					index="1"
+					type="node"
+					source="streak_down1" />
+				<preconditions>
+					<config
+						name="streaks" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="streak_up5"
+				shader="postfx_streak_up"
+				format="R11G11B10F"
+				size="relative"
+				width="0.5"
+				height="0.5">
+				<input
+					index="0"
+					type="node"
+					source="streak_up4" />
+				<input
+					index="1"
+					type="node"
+					source="streak_down0" />
+				<preconditions>
+					<config
+						name="streaks" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="streak_final"
+				shader="postfx_streak_final"
+				format="R11G11B10F"
+				size="relative"
+				width="1.0"
+				height="1.0">
+				<input
+					index="0"
+					type="node"
+					source="streak_up5" />
+				<preconditions>
+					<config
+						name="streaks" />
+				</preconditions>
+			</postfx_node>
+			<!-- light streaks -->
+			<!-- lens flare -->
+			<postfx_node
+				id="lens_flare_bright_pass"
+				shader="postfx_lens_flare_brightpass"
+				format="R11G11B10F"
+				size="relative"
+				width="0.25"
+				height="0.25">
+				<input
+					index="0"
+					type="node"
+					source="taa_filter_node"
+					include="temporal_filter" />
+				<input
+					index="0"
+					type="node"
+					source="taa_resolve_node"
+					include="temporal_resolve"
+					exclude="temporal_filter" />
+				<input
+					index="0"
+					type="node"
+					source="temporal_smaa_blending"
+					include="temporal_smaa"
+					exclude="temporal_filter, temporal_resolve" />
+				<input
+					index="0"
+					type="node"
+					source="contour_combine" />
+				<input
+					index="4"
+					type="node"
+					source="histogram" />
+				<preconditions>
+					<config
+						name="lens_flares" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="lens_flare1"
+				shader="postfx_lens_flare_feature_gen"
+				format="R11G11B10F"
+				size="relative"
+				width="0.25"
+				height="0.25">
+				<input
+					index="0"
+					type="node"
+					source="lens_flare_bright_pass" />
+				<input
+					index="1"
+					type="texture"
+					source="radially_sample_1d" />
+				<preconditions>
+					<config
+						name="lens_flares" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="lens_flare_blur1"
+				shader="postfx_lens_flare_blur1"
+				format="R11G11B10F"
+				size="relative"
+				width="0.25"
+				height="0.25">
+				<input
+					index="0"
+					type="node"
+					source="lens_flare1" />
+				<preconditions>
+					<config
+						name="lens_flares" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="lens_flare_blur2"
+				shader="postfx_lens_flare_blur2"
+				format="R11G11B10F"
+				size="relative"
+				width="0.25"
+				height="0.25">
+				<input
+					index="0"
+					type="node"
+					source="lens_flare_blur1" />
+				<preconditions>
+					<config
+						name="lens_flares" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="lens_flare_up"
+				shader="postfx_bloom_up_first"
+				format="R11G11B10F"
+				size="relative"
+				width="0.5"
+				height="0.5">
+				<input
+					index="0"
+					type="node"
+					source="lens_flare_blur2" />
+				<preconditions>
+					<config
+						name="lens_flares" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="lens_flare_final"
+				shader="postfx_bloom_up_first"
+				format="R11G11B10F"
+				size="relative"
+				width="1.0"
+				height="1.0">
+				<input
+					index="0"
+					type="node"
+					source="lens_flare_up" />
+				<preconditions>
+					<config
+						name="lens_flares" />
+				</preconditions>
+			</postfx_node>
+			<!-- lens flare -->
+			<postfx_node
+				id="motion_blur2"
+				shader="postfx_motion_blur"
+				format="R11G11B10F"
+				size="relative"
+				width="1"
+				height="1">
+				<input
+					index="0"
+					type="node"
+					source="motion_blur" />
+				<!--<input index="7" type="provided" source="gbuffer_motion_vectors" /> -->
+				<input
+					index="11"
+					type="node"
+					source="tile_neighbor_max" />
+				<input
+					index="12"
+					type="texture"
+					source="default_random32" />
+				<!--  <input index="13" type="provided" source="gbuffer_depth" /> -->
+				<input
+					index="13"
+					type="node"
+					mrt_index="0"
+					source="half_res_velocity_and_depth" />
+				<input
+					index="7"
+					type="node"
+					mrt_index="1"
+					source="half_res_velocity_and_depth" />
+				<input
+					index="14"
+					type="node"
+					mrt_index="2"
+					source="half_res_velocity_and_depth" />
+				<preconditions>
+					<config
+						name="motionblur" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="bloom_up4"
+				shader="postfx_bloom_up"
+				format="R11G11B10F"
+				size="relative"
+				width="0.50"
+				height="0.50">
+				<input
+					index="0"
+					type="node"
+					source="bloom_down2" />
+				<input
+					index="1"
+					type="node"
+					source="bloom_up3" />
+				<preconditions>
+					<config
+						name="hdr" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="bloom_up5"
+				shader="postfx_bloom_up"
+				format="R11G11B10F"
+				size="relative"
+				width="1"
+				height="1">
+				<input
+					index="0"
+					type="node"
+					source="bloom_down1" />
+				<input
+					index="1"
+					type="node"
+					source="bloom_up4" />
+				<preconditions>
+					<config
+						name="hdr" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="tonemap"
+				shader="postfx_tonemap"
+				format="R11G11B10F"
+				size="relative"
+				width="1"
+				height="1">
+				<input
+					index="0"
+					type="node"
+					source="motion_blur2"
+					include="motionblur" />
+				<input
+					index="0"
+					type="node"
+					source="taa_filter_node"
+					include="temporal_filter"
+					exclude="motionblur" />
+				<input
+					index="0"
+					type="node"
+					source="taa_resolve_node"
+					include="temporal_resolve"
+					exclude="motionblur, temporal_filter" />
+				<input
+					index="0"
+					type="node"
+					source="temporal_smaa_blending"
+					include="temporal_smaa"
+					exclude="motionblur, temporal_filter, temporal_resolve" />
+				<input
+					index="0"
+					type="node"
+					source="contour_combine" />
+				<input
+					index="1"
+					type="node"
+					source="bloom_up5" />
+				<input
+					index="2"
+					type="node"
+					source="lens_flare_final"
+					include="lens_flares" />
+				<input
+					index="3"
+					type="provided"
+					source="lens_flare_dirt_texture"
+					include="lens_flares" />
+				<input
+					index="4"
+					type="provided"
+					source="lens_flare_star_texture"
+					include="lens_flares" />
+				<input
+					index="6"
+					type="node"
+					source="histogram" />
+				<input
+					index="8"
+					type="node"
+					source="sunshafts_blurt" />
+				<input
+					index="9"
+					type="node"
+					source="streak_final" />
+				<input
+					index="7"
+					type="provided"
+					source="gbuffer_stencil" />
+			</postfx_node>
+			<postfx_node
+				id="after_postfx_node"
+				class="rglAfter_postfx_node"
+				shader="postfx_final"
+				format="R11G11B10F"
+				size="relative"
+				width="1"
+				height="1">
+				<input
+					index="0"
+					type="node"
+					source="tonemap" />
+			</postfx_node>
+			<!-- COMBINE -->
+			<postfx_node
+				id="final"
+				shader="postfx_final"
+				format="R8G8B8A8"
+				size="relative"
+				width="1"
+				height="1"
+				can_be_final="true">
+				<input
+					index="0"
+					type="node"
+					source="tonemap" />
+				<input
+					index="1"
+					type="node"
+					source="dlss_node"
+					include="dlss" />
+				<input
+					index="1"
+					type="provided"
+					source="screen_rt"
+					exclude="dlss" />
+				<input
+					index="2"
+					type="node"
+					source="after_postfx_node" />
+				<!-- Index 4 is for last frame -->
+				<!-- Index 5 is for cube texture -->
+				<input
+					index="6"
+					type="texture"
+					source="photo_mode_filter_identity" />
+				<input
+					index="8"
+					type="texture"
+					source="bluenoise" />
+				<input
+					index="9"
+					type="provided"
+					source="color_grade" />
+				<input
+					index="10"
+					type="provided"
+					source="color_grade_blend" />
+				<input
+					index="11"
+					type="texture"
+					source="default_random32" />
+			</postfx_node>
+			<postfx_node
+				id="blurx"
+				shader="postfx_thumbnail_blurx"
+				format="R8G8B8A8"
+				size="relative"
+				width="1"
+				height="1">
+				<input
+					index="0"
+					type="node"
+					source="final" />
+			</postfx_node>
+			<postfx_node
+				id="blury"
+				shader="postfx_thumbnail_blury"
+				format="R8G8B8A8"
+				size="relative"
+				width="1"
+				height="1"
+				can_be_final="true">
+				<input
+					index="0"
+					type="node"
+					source="blurx" />
+			</postfx_node>
+			<!-- ANTIALIASING 
+			<postfx_node id="fxaa" shader="postfx_fxaa" format="R8G8B8A8" size="relative" width="1" height="1" can_be_final="true">
+				<input index="4" type="provided" source="gbuffer_normals" />
+				<input index="6" type="node" source="final" />
+                <preconditions>
+          <config name="fxaa" />
+        </preconditions>
+      </postfx_node>
+
+      <postfx_node id="smaa_edge_detection" shader="postfx_smaa_edge_detection" format="R8G8B8A8" size="relative" width="1" height="1">
+        <input index="0" type="node" source="final" />
+        <input index="1" type="texture" source="smaa_areatex" />
+        <input index="2" type="texture" source="smaa_searchtex" />
+        <input index="6" type="provided" source="gbuffer_depth" />
+        <preconditions>
+          <config name="smaa" />
+        </preconditions>
+      </postfx_node>
+
+      <postfx_node id="smaa_blend_weight_calc" shader="postfx_smaa_blend_weight_calc" format="R8G8B8A8" size="relative" width="1" height="1">
+        <input index="0" type="node" source="final" />
+        <input index="1" type="texture" source="smaa_areatex" />
+        <input index="2" type="texture" source="smaa_searchtex" />
+        <input index="3" type="node" source="smaa_edge_detection" />
+        <input index="6" type="provided" source="gbuffer_depth" />
+				<preconditions>
+          <config name="smaa" />
+				</preconditions>
+			</postfx_node>
+
+      <postfx_node id="smaa_blending" shader="postfx_smaa_blending" format="R8G8B8A8" size="relative" width="1" height="1" can_be_final="true">
+        <input index="0" type="node" source="final" />
+        <input index="1" type="texture" source="smaa_areatex" />
+        <input index="2" type="texture" source="smaa_searchtex" />
+        <input index="3" type="node" source="smaa_edge_detection" />
+        <input index="4" type="node" source="smaa_blend_weight_calc" />
+        <input index="6" type="provided" source="gbuffer_depth" />
+        <input index="9" type="provided" source="color_grade" />
+        <preconditions>
+          <config name="smaa" />
+        </preconditions>
+      </postfx_node>
+     -->
+		</postfx_graph>
+	</postfx_graphs>
+</base>

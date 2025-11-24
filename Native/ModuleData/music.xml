@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	type="music">
+	<musics>
+		<music
+			id="music_cant_find_this.ogg"
+			name="cant_find_this.ogg"
+			flags="0x0"
+			continue_flags="0x0" />
+		<music
+			id="music_mount_and_blade_title_screen.ogg"
+			name="mount_and_blade_title_screen.ogg"
+			flags="0x400080"
+			continue_flags="0x400080" />
+		<music
+			id="music_ambushed_by_neutral.ogg"
+			name="ambushed_by_neutral.ogg"
+			flags="0x41000"
+			continue_flags="0x41000" />
+		<music
+			id="music_ambushed_by_khergit.ogg"
+			name="ambushed_by_khergit.ogg"
+			flags="0x41004"
+			continue_flags="0x41004" />
+		<music
+			id="music_ambushed_by_nord.ogg"
+			name="ambushed_by_nord.ogg"
+			flags="0x41008"
+			continue_flags="0x41008" />
+		<music
+			id="music_ambushed_by_rhodok.ogg"
+			name="ambushed_by_rhodok.ogg"
+			flags="0x41010"
+			continue_flags="0x41010" />
+		<music
+			id="music_ambushed_by_swadian.ogg"
+			name="ambushed_by_swadian.ogg"
+			flags="0x41001"
+			continue_flags="0x41001" />
+		<music
+			id="music_ambushed_by_vaegir.ogg"
+			name="ambushed_by_vaegir.ogg"
+			flags="0x41002"
+			continue_flags="0x41002" />
+		<music
+			id="music_arena_1.ogg"
+			name="arena_1.ogg"
+			flags="0x20000"
+			continue_flags="0x20000" />
+		<music
+			id="music_armorer.ogg"
+			name="armorer.ogg"
+			flags="0x10000"
+			continue_flags="0x10000" />
+		<music
+			id="music_bandit_fight.ogg"
+			name="bandit_fight.ogg"
+			flags="0x1C00"
+			continue_flags="0x1C00" />
+		<music
+			id="music_calm_night_2.ogg"
+			name="calm_night_2.ogg"
+			flags="0x80000"
+			continue_flags="0x80000" />
+		<music
+			id="music_capture.ogg"
+			name="capture.ogg"
+			flags="0x100"
+			continue_flags="0x100" />
+		<music
+			id="music_defeated_by_neutral.ogg"
+			name="defeated_by_neutral.ogg"
+			flags="0x8100"
+			continue_flags="0x8100" />
+		<music
+			id="music_defeated_by_neutral_2.ogg"
+			name="defeated_by_neutral_2.ogg"
+			flags="0x8100"
+			continue_flags="0x8100" />
+		<music
+			id="music_defeated_by_neutral_3.ogg"
+			name="defeated_by_neutral_3.ogg"
+			flags="0x8100"
+			continue_flags="0x8100" />
+		<music
+			id="music_empty_village.ogg"
+			name="empty_village.ogg"
+			flags="0x100"
+			continue_flags="0x100" />
+		<music
+			id="music_encounter_hostile_nords.ogg"
+			name="encounter_hostile_nords.ogg"
+			flags="0x200100"
+			continue_flags="0x200100" />
+		<music
+			id="music_escape.ogg"
+			name="escape.ogg"
+			flags="0x100"
+			continue_flags="0x100" />
+		<music
+			id="music_fight_1.ogg"
+			name="fight_1.ogg"
+			flags="0x1C00"
+			continue_flags="0x1C00" />
+		<music
+			id="music_fight_2.ogg"
+			name="fight_2.ogg"
+			flags="0x1C00"
+			continue_flags="0x1C00" />
+		<music
+			id="music_fight_3.ogg"
+			name="fight_3.ogg"
+			flags="0x1C00"
+			continue_flags="0x1C00" />
+		<music
+			id="music_fight_as_khergit.ogg"
+			name="fight_as_khergit.ogg"
+			flags="0x1C04"
+			continue_flags="0x1C04" />
+		<music
+			id="music_fight_as_nord.ogg"
+			name="fight_as_nord.ogg"
+			flags="0x1C08"
+			continue_flags="0x1C08" />
+		<music
+			id="music_fight_as_rhodok.ogg"
+			name="fight_as_rhodok.ogg"
+			flags="0x1C10"
+			continue_flags="0x1C10" />
+		<music
+			id="music_fight_as_vaegir.ogg"
+			name="fight_as_vaegir.ogg"
+			flags="0x1C02"
+			continue_flags="0x1C02" />
+		<music
+			id="music_fight_while_mounted_1.ogg"
+			name="fight_while_mounted_1.ogg"
+			flags="0x1C00"
+			continue_flags="0x1C00" />
+		<music
+			id="music_fight_while_mounted_2.ogg"
+			name="fight_while_mounted_2.ogg"
+			flags="0x1C00"
+			continue_flags="0x1C00" />
+		<music
+			id="music_infiltration_khergit.ogg"
+			name="infiltration_khergit.ogg"
+			flags="0x4004"
+			continue_flags="0x4004" />
+		<music
+			id="music_killed_by_khergit.ogg"
+			name="killed_by_khergit.ogg"
+			flags="0x8104"
+			continue_flags="0x8104" />
+		<music
+			id="music_killed_by_swadian.ogg"
+			name="killed_by_swadian.ogg"
+			flags="0x8101"
+			continue_flags="0x8101" />
+		<music
+			id="music_lords_hall_khergit.ogg"
+			name="lords_hall_khergit.ogg"
+			flags="0x10004"
+			continue_flags="0x10004" />
+		<music
+			id="music_lords_hall_nord.ogg"
+			name="lords_hall_nord.ogg"
+			flags="0x10000"
+			continue_flags="0x10000" />
+		<music
+			id="music_lords_hall_swadian.ogg"
+			name="lords_hall_swadian.ogg"
+			flags="0x10000"
+			continue_flags="0x10000" />
+		<music
+			id="music_lords_hall_rhodok.ogg"
+			name="lords_hall_rhodok.ogg"
+			flags="0x10000"
+			continue_flags="0x10000" />
+		<music
+			id="music_lords_hall_vaegir.ogg"
+			name="lords_hall_vaegir.ogg"
+			flags="0x10000"
+			continue_flags="0x10000" />
+		<music
+			id="music_mounted_snow_terrain_calm.ogg"
+			name="mounted_snow_terrain_calm.ogg"
+			flags="0x10000"
+			continue_flags="0x10000" />
+		<music
+			id="music_neutral_infiltration.ogg"
+			name="neutral_infiltration.ogg"
+			flags="0x4000"
+			continue_flags="0x4000" />
+		<music
+			id="music_outdoor_beautiful_land.ogg"
+			name="outdoor_beautiful_land.ogg"
+			flags="0x10000"
+			continue_flags="0x10000" />
+		<music
+			id="music_retreat.ogg"
+			name="retreat.ogg"
+			flags="0x8100"
+			continue_flags="0x8100" />
+		<music
+			id="music_seige_neutral.ogg"
+			name="seige_neutral.ogg"
+			flags="0x40000"
+			continue_flags="0x40000" />
+		<music
+			id="music_tavern_1.ogg"
+			name="tavern_1.ogg"
+			flags="0x1000200"
+			continue_flags="0x1000200" />
+		<music
+			id="music_tavern_2.ogg"
+			name="tavern_2.ogg"
+			flags="0x1000200"
+			continue_flags="0x1000200" />
+		<music
+			id="music_town_neutral.ogg"
+			name="town_neutral.ogg"
+			flags="0x12000"
+			continue_flags="0x12000" />
+		<music
+			id="music_town_khergit.ogg"
+			name="town_khergit.ogg"
+			flags="0x12004"
+			continue_flags="0x12004" />
+		<music
+			id="music_town_nord.ogg"
+			name="town_nord.ogg"
+			flags="0x12008"
+			continue_flags="0x12008" />
+		<music
+			id="music_town_rhodok.ogg"
+			name="town_rhodok.ogg"
+			flags="0x12010"
+			continue_flags="0x12010" />
+		<music
+			id="music_town_swadian.ogg"
+			name="town_swadian.ogg"
+			flags="0x12001"
+			continue_flags="0x12001" />
+		<music
+			id="music_town_vaegir.ogg"
+			name="town_vaegir.ogg"
+			flags="0x12002"
+			continue_flags="0x12002" />
+		<music
+			id="music_travel_khergit.ogg"
+			name="travel_khergit.ogg"
+			flags="0x10004"
+			continue_flags="0x10004" />
+		<music
+			id="music_travel_neutral.ogg"
+			name="travel_neutral.ogg"
+			flags="0x10000"
+			continue_flags="0x10000" />
+		<music
+			id="music_travel_nord.ogg"
+			name="travel_nord.ogg"
+			flags="0x10008"
+			continue_flags="0x10008" />
+		<music
+			id="music_travel_rhodok.ogg"
+			name="travel_rhodok.ogg"
+			flags="0x10010"
+			continue_flags="0x10010" />
+		<music
+			id="music_travel_swadian.ogg"
+			name="travel_swadian.ogg"
+			flags="0x10001"
+			continue_flags="0x10001" />
+		<music
+			id="music_travel_vaegir.ogg"
+			name="travel_vaegir.ogg"
+			flags="0x10002"
+			continue_flags="0x10002" />
+		<music
+			id="music_uncertain_homestead.ogg"
+			name="uncertain_homestead.ogg"
+			flags="0x10000"
+			continue_flags="0x10000" />
+		<music
+			id="music_victorious_evil.ogg"
+			name="victorious_evil.ogg"
+			flags="0x100"
+			continue_flags="0x100" />
+		<music
+			id="music_victorious_neutral_1.ogg"
+			name="victorious_neutral_1.ogg"
+			flags="0x800100"
+			continue_flags="0x800100" />
+		<music
+			id="music_victorious_neutral_2.ogg"
+			name="victorious_neutral_2.ogg"
+			flags="0x800100"
+			continue_flags="0x800100" />
+		<music
+			id="music_victorious_neutral_3.ogg"
+			name="victorious_neutral_3.ogg"
+			flags="0x800100"
+			continue_flags="0x800100" />
+		<music
+			id="music_victorious_swadian.ogg"
+			name="victorious_swadian.ogg"
+			flags="0x800102"
+			continue_flags="0x800102" />
+		<music
+			id="music_victorious_vaegir.ogg"
+			name="victorious_vaegir.ogg"
+			flags="0x800102"
+			continue_flags="0x800102" />
+		<music
+			id="music_victorious_vaegir_2.ogg"
+			name="victorious_vaegir_2.ogg"
+			flags="0x800102"
+			continue_flags="0x800102" />
+		<music
+			id="music_wedding.ogg"
+			name="wedding.ogg"
+			flags="0x100"
+			continue_flags="0x100" />
+	</musics>
+</base>

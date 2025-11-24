@@ -1,0 +1,736 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Français" />
+  </tags>
+  <strings>
+    <string id="02Qqpama" text="Faire tourner la caméra vers la droite (sens des aiguilles d&apos;une montre)." />
+    <string id="08oulGov" text="Lâche l&apos;arme équipée." />
+    <string id="0BwwHF1s" text="Déplace la caméra de carte vers la gauche sur la carte de campagne." />
+    <string id="0EDGnl1C" text="À distance uniquement" />
+    <string id="0fLpwDzk" text="Active le mode fenêtré.{newline}Mode fenêtré : lance le jeu dans une fenêtre.{newline}Plein écran : lance le jeu en plein écran.{newline}Plein écran sans bordure : lance le jeu dans une fenêtre agrandie sans bordure." />
+    <string id="0ftxDUQU" text="Activer l&apos;avance rapide sur la carte" />
+    <string id="0HNrwVGG" text="Par déplacement" />
+    <string id="0MvDMsEl" text="Méthode d&apos;occlusion" />
+    <string id="0ot0eBzv" text="Passer la caméra à cheval en vue à la première personne" />
+    <string id="0YV6wbsq" text="Met en pause le temps sur la carte de campagne." />
+    <string id="16EUzfcH" text="Ajustez le niveau d&apos;exposition selon vos préférences à l&apos;aide du curseur." />
+    <string id="1awQTVqN" text="Nombre de ragdolls" />
+    <string id="1CLLOxAt" text="Affiche des noms génériques pour les joueurs. Cela remplacera les noms de tous les joueurs par des noms génériques." />
+    <string id="1dQFNvhQ" text="+ (clavier num.)" />
+    <string id="1ebaa1Wf" text="Activer/désactiver le mode marche/course" />
+    <string id="1uCaibsd" text="Totale" />
+    <string id="1WsmBXkN" text="Limiteur d&apos;images" />
+    <string id="22o7UHXL" text="Sélectionner le groupe 1." />
+    <string id="23Tcbb4W" text="Se déplacer vers la droite" />
+    <string id="25KihbcP" text="Détermine le nombre de vagues de renforts qui apparaîtront au cours d&apos;une mission de combat. Généralement, plus la valeur est élevée, plus la mission peut durer longtemps. Avec des valeurs inférieures à &quot;illimité&quot;, les sièges peuvent être résolus sans que toutes les troupes n&apos;aient pu participer à la bataille." />
+    <string id="2Ao5DCb6" text="Déplacer le groupe vers le bas" />
+    <string id="2AyPP3rw" text="Élevés" />
+    <string id="2bPTx7So" text="Votre personnage s&apos;accroupit." />
+    <string id="2cVkbPYO" text="Priorité d&apos;apparition des unités" />
+    <string id="2e8wI3EM" text="Équiper l&apos;arme 2" />
+    <string id="2EjZcRgF" text="F5" />
+    <string id="2EnLU2ZC" text="Changer l&apos;échelle de l&apos;IU" />
+    <string id="2h2148cq" text="Envoyer un message à tout le monde" />
+    <string id="2p3Llq2x" text="Activer les icônes d&apos;alerte réseau" />
+    <string id="2xO6VDCj" text="Cette option est désactivée car la résolution dynamique n&apos;est pas activée." />
+    <string id="2ZJQylWo" text="Alterne entre les modes course et marche." />
+    <string id="3awgWrma" text="Test de performances" />
+    <string id="3CN7LUCf" text="Activer la visibilité du curseur." />
+    <string id="3Dngsvya" text="Avancer" />
+    <string id="3nTeojbI" text="=" />
+    <string id="3oUbmqJY" text="Synchronise le jeu avec le taux de rafraîchissement de l&apos;écran. Élimine le tearing (déchirure d&apos;image)." />
+    <string id="3P7eDKEY" text="Équiper l&apos;objet 4" />
+    <string id="3sULxlX1" text="Maintenir pour faire entendre votre voix." />
+    <string id="3y9Q1m1n" text="Langue de préférence des voix off." />
+    <string id="3YwMXbAT" text="Fait avancer le temps sur la carte de campagne." />
+    <string id="44akzqlm" text="Touche directionnelle droite" />
+    <string id="45yEpDdE" text="Échelle de résolution" />
+    <string id="46vWdakp" text="Y" />
+    <string id="48faf387" text="Faire tourner la caméra vers la gauche" />
+    <string id="4aAvY4yO" text="Bas(se)" />
+    <string id="4e0ycN1Q" text="Entendre tout le monde" />
+    <string id="4Gdng2Tt" text="Maintenir pour déplacer la caméra plus rapidement sur la carte de campagne." />
+    <string id="4lZDJDb2" text="Détermine la sensibilité de la caméra en zoom." />
+    <string id="4Nw1hF2R" text="Permet de frapper vos ennemis pour briser leur garde lorsqu&apos;ils n&apos;attaquent ou ne défendent pas. Permet de cogner vos ennemis avec votre équipement tout en défendant." />
+    <string id="4Q9pzbqM" text="Active les vibrations de la manette." />
+    <string id="4R4shVxp" text="Netteté de l&apos;image" />
+    <string id="4x1wGwW9" text="Sélectionner l&apos;ordre 7" />
+    <string id="54c9cZO4" text="Active/désactive les personnages." />
+    <string id="5B3ptxje" text="Développement du personnage" />
+    <string id="5c7l7r31" text="Bouton gauche de la souris" />
+    <string id="5JTMe54k" text="Sélectionner le groupe 3." />
+    <string id="5jxcNYlU" text="6 (clavier num.)" />
+    <string id="5QfcrJ5r" text="Mode nuit" />
+    <string id="5QpTaCa0" text="W" />
+    <string id="5siWUJPw" text="Plein écran" />
+    <string id="5TYDm7Vv" text="Mode de poursuite de la caméra" />
+    <string id="5Unqsx3N" text="Confirmer" />
+    <string id="5WDQLWCk" text="IA de campagne" />
+    <string id="6AnHiJGR" text="Écran sélectionné" />
+    <string id="6CeL6iOp" text="Sélectionner groupe 1" />
+    <string id="6d56kv7p" text="Échelle de mouvement vertical pour les gestes de direction" />
+    <string id="6g0y182U" text="Détails de l&apos;environnement" />
+    <string id="6HJxnF3G" text="Sauvegarde échouée !" />
+    <string id="6ibNX7Rr" text="Mode graphique" />
+    <string id="6Jcchu9g" text="Active le curseur lorsque le panneau d&apos;affichage est ouvert." />
+    <string id="6koNIQJi" text="Impossible de créer des données de sauvegarde. Limite de sauvegarde atteinte." />
+    <string id="6QiPm27r" text="Déplace votre groupe vers le haut sur la carte de campagne." />
+    <string id="6sIFj7K9" text="Accélérer le temps" />
+    <string id="6Uh76bYG" text="Mettre le temps en pause sur la carte" />
+    <string id="6uNvJbdx" text="Sélectionner ordre 4" />
+    <string id="7fnNx8uP" text="Fait pivoter la caméra de carte vers la droite." />
+    <string id="7hytmlkz" text="Activer les avatars génériques" />
+    <string id="7kYSyt9K" text="Nouveau contenu activé !" />
+    <string id="7MU008BT" text="F11" />
+    <string id="7phVPcDc" text="Définit la qualité des shaders. Plus la valeur est élevée, meilleurs sont les effets graphiques." />
+    <string id="7QKjVON8" text="Sauter" />
+    <string id="7S1aCWFa" text="Permet de sauter à pied ou à dos de monture." />
+    <string id="7SSytk7Z" text="U" />
+    <string id="7tYiV9Vw" text="Anisotropie 8x" />
+    <string id="7vl1ebVZ" text="Contrôle gauche" />
+    <string id="7X6fZ5kQ" text="Active la réflexion de l&apos;espace à l&apos;écran." />
+    <string id="7XmaJYuh" text="Déplace votre groupe vers la droite sur la carte de campagne." />
+    <string id="7ZmtmleI" text="Définit l&apos;échelle de résolution. Des valeurs plus faibles peuvent augmenter les performances. {newline}{newline}Utilise la &quot;FidelityFX Super Resolution 1.0&quot;{newline}{newline}N&apos;affecte pas la qualité de l&apos;IU" />
+    <string id="8AiDqTFB" text="Reculer (carte)" />
+    <string id="8b45xcyL" text="Définit la qualité des arbres et de l&apos;herbe." />
+    <string id="8BdF6a4j" text="{LEFT} - {RIGHT}" />
+    <string id="8FbEybTx" text="Active les icônes d&apos;alerte réseau.{newline}1. Latence{newline}2. Perte de paquets{newline}3. Performances réseau médiocres" />
+    <string id="8fYfD6Uw" text="Sélectionner l&apos;ordre 8." />
+    <string id="8hArJQWf" text="Afficher le réticule de visée" />
+    <string id="8iwie5KL" text="SélectionnerOrdre5" />
+    <string id="8kO2jDVf" text="Affecte la qualité des textures." />
+    <string id="8t4KDZfU" text="E" />
+    <string id="8WrQ9fnb" text="C" />
+    <string id="929oYf3G" text="Dézoomer" />
+    <string id="92ZztgDd" text="Qualité des aplats" />
+    <string id="9bHr3oNj" text="Marqueur de visée indiquant quand utiliser une arme à distance." />
+    <string id="9F323ez4" text="Trilinéaire" />
+    <string id="9gAVbJAR" text="Activer le temps" />
+    <string id="9HdllyAZ" text="Lancer le test de performances de Bannerlord." />
+    <string id="9hRcH7kV" text="Rayons du soleil" />
+    <string id="9N0zXegH" text="Afficher le journal de discussion." />
+    <string id="9OHGqgjH" text="Zoomez pour viser vos ennemis ou voir plus loin." />
+    <string id="9pEc15Sb" text="S" />
+    <string id="9qZw55vR" text="Niveau du volume principal." />
+    <string id="9scrSz4i" text="Définit le mode graphique.{newline}Performance : Fait tourner le jeu à 60 images par seconde dans une résolution dynamique, avec des paramètres graphiques plus faibles et moins d&apos;unités en combat.{newline}Fidélité : Fait tourner le jeu à 30 images par seconde dans une résolution native, avec des paramètres graphiques plus élevés et plus d&apos;unités en combat." />
+    <string id="9TrnHXRG" text="Fidélité" />
+    <string id="9xKCz9BE" text="Permet de passer de la vue à la 1re personne à celle à la 3e personne." />
+    <string id="9zns14aF" text="Permet de sélectionner la méthode de blocage. Auto. : active &quot;Par direction du regard&quot; par défaut en multijoueur." />
+    <string id="A0bqGRQc" text="F" />
+    <string id="a5l0tTLE" text="Activer le journal des événements" />
+    <string id="a8MvWaSN" text="Force la synchronisation verticale dans les menus (salon, inventaire, groupe, personnage, quêtes, etc.)" />
+    <string id="Aa2Yokz3" text="* (clavier num.)" />
+    <string id="aAaF9FWC" text="Contrôle droit" />
+    <string id="aAAl11qM" text="Verrouille ou non la vue sur l&apos;ennemi actuellement sélectionné. Appuyez plus longtemps pour voir l&apos;affichage détaillé." />
+    <string id="aAXqgbDv" text="Impossible de créer des données de configuration. Limite de configuration atteinte." />
+    <string id="accbLVWL" text="Définit le type d&apos;anticrénelage. " />
+    <string id="acqAYxhr" text="," />
+    <string id="AD4phxAT" text="Auto (seulement en solo)" />
+    <string id="advpV8PE" text="Lorsque cette option est activée, les indicateurs de bannière des troupes alliées sont toujours affichés, pas seulement lorsque vous maintenez la touche Afficher les indicateurs." />
+    <string id="aGb5H9Ni" text="Atténue les sources sonores derrière les obstacles. Activation forcée en multijoueur." />
+    <string id="AhrWBKx9" text="Équiper l&apos;objet 1" />
+    <string id="aIwUX5EF" text="Appuyer sur {CONSOLE_KEY_NAME} pour continuer" />
+    <string id="AJFpx99v" text="Ajustement de l&apos;exposition" />
+    <string id="aJxmDbur" text="Maintenir pour quitter une zone. " />
+    <string id="altgamekey" text="Alt" />
+    <string id="aMCChr97" text="Déplace la caméra de carte vers le bas sur la carte de campagne." />
+    <string id="amdYLZ6o" text="Fenêtre de quêtes" />
+    <string id="an5aw1wc" text="Certaines des options que vous avez modifiées ne prendront effet que lorsque vous quitterez et ouvrirez une nouvelle mission." />
+    <string id="aombIn07" text="Définit la quantité d&apos;exposition." />
+    <string id="asrbFBbn" text="Menu des ordres" />
+    <string id="asYEb2j7" text="Très élevé (250)" />
+    <string id="au7tXcD1" text="Stéréo" />
+    <string id="aufrcNmq" text="Détails des particules" />
+    <string id="AuwOJ4Oz" text="Redémarrage de la mission requis" />
+    <string id="aVcBbuKJ" text="F22" />
+    <string id="avDb6Y66" text="Bouton du milieu de la souris" />
+    <string id="averageCampaignAI" text="Moyenne" />
+    <string id="averageCombatAI" text="Moyenne" />
+    <string id="aWDfG0RO" text="F3" />
+    <string id="AXnSAaoi" text="Activer les noms génériques" />
+    <string id="aydCb7WA" text="Moyen(ne)" />
+    <string id="ayYYRfPP" text="Signaler les dégâts subis" />
+    <string id="Az084VJK" text="Défendre" />
+    <string id="b00385oX" text="Ouvrir l&apos;encyclopédie sur la carte" />
+    <string id="b1OtYhnF" text="Filtrage des textures" />
+    <string id="b7cHW5DS" text="Affiche le journal de discussion. Écrit dans tous les chats en multijoueur." />
+    <string id="B8aTbaQo" text="Sélectionner l&apos;ordre 4." />
+    <string id="b9rDOY21" text="SélectionnerOrdre2" />
+    <string id="bbxpBzPr" text="Rengainer l&apos;arme" />
+    <string id="bdJv9dcm" text="Zoomer sur le personnage" />
+    <string id="BDSEgN41" text="Définit la qualité générale des graphismes préenregistrés." />
+    <string id="BDSLNk4Q" text="Rotation vers la gauche (carte)" />
+    <string id="bEJsGiBK" text="Qualité des feuillages" />
+    <string id="BfebVHWv" text="Montrer le panneau d&apos;affichage" />
+    <string id="bfis1Rqj" text="Active les indicateurs de lieu de mort pour montrer où vos coéquipiers sont décédés." />
+    <string id="bfxMfZrk" text="Permet de baisser la résolution afin de maintenir la fréquence de rafraîchissement ciblée constante.{newline}{newline}Utilise la &quot;FidelityFX Super Resolution 1.0&quot;{newline}{newline}N&apos;affecte pas la qualité de l&apos;IU" />
+    <string id="bGbIRSmD" text="." />
+    <string id="BgjaAUNf" text="Définit la qualité de l&apos;eau. Plus la valeur est élevée, plus le rendu de l&apos;eau sera détaillé." />
+    <string id="BGKHITSN" text="Arrête le jeu lorsque la fenêtre du jeu n&apos;est plus active." />
+    <string id="bgwA4Pd8" text="2" />
+    <string id="bGZeJJAH" text="Faire tourner la caméra vers la gauche (sens inverse des aiguilles d&apos;une montre)." />
+    <string id="Bl8cKwhL" text="Réglage de l&apos;affichage" />
+    <string id="bmpagYCb" text="Vous équipe de votre bouclier ou sélectionne le suivant." />
+    <string id="bOCScBYy" text="Taux d&apos;images par seconde de la simulation de la physique dynamique" />
+    <string id="BPiWCOco" text="Sélectionner l&apos;ordre 7." />
+    <string id="bqb2K5b1" text="Se déplacer vers la droite" />
+    <string id="bqUsNucg" text="Définit la qualité de rendu des particules. Plus la valeur est élevée, plus les particules seront nettes." />
+    <string id="BSdIYN9F" text="P" />
+    <string id="bT77aWti" text="Sélectionner une utilisation d&apos;arme" />
+    <string id="bubp5ys1" text="Prendre une photo." />
+    <string id="bvJUmRBd" text="Sélectionner groupe 2" />
+    <string id="bW2urPqE" text="SélectionnerOrdre6" />
+    <string id="Bw6fZdOh" text="Cette option est désactivée car la résolution dynamique est activée." />
+    <string id="byOZcjuE" text="Langue des voix" />
+    <string id="bYwwY9qh" text="5 (clavier num.)" />
+    <string id="c49AY7yF" text="Faible (128)" />
+    <string id="C7zwur4k" text="Échapper" />
+    <string id="cAkgnVr5" text="Verrouill. num." />
+    <string id="CBwEl28t" text="Activer l&apos;indicateur de lieu de mort" />
+    <string id="CbwmI1JY" text="Active la profondeur de champ." />
+    <string id="CfjTvLNl" text="Terminer la discussion" />
+    <string id="CLpUemXL" text="Arrêter le jeu lorsque la fenêtre n&apos;est plus active" />
+    <string id="CNjxn3eB" text="Haut-parleurs" />
+    <string id="Co9aqFIB" text="Activer le mode de poursuite de la caméra" />
+    <string id="cOgmdp9e" text="Décliner" />
+    <string id="combatkick" text="Frapper/cogner" />
+    <string id="controlgamekey" text="Ctrl" />
+    <string id="cp80Mq2W" text=";" />
+    <string id="Crf6Z1S5" text="Page arrière" />
+    <string id="cryvNnsO" text="Gère les informations visibles lorsque vous donnez des ordres en combat." />
+    <string id="CsEtp6Az" text="Entendre le groupe 3" />
+    <string id="ct0coyrR" text="A" />
+    <string id="CTiemsyh" text="3 (clavier num.)" />
+    <string id="Cvdaadvs" text="Très élevé(e)" />
+    <string id="cvhQOE38" text="Afficher la direction des attaques" />
+    <string id="cWRA5VVr" text="Alt gauche" />
+    <string id="czYbd1vo" text="H" />
+    <string id="D008gyKC" text="Sélectionner l&apos;ordre 1" />
+    <string id="D0Ps9ddi" text="Masquer l&apos;IU" />
+    <string id="d5a3QdBR" text="Impossible d&apos;accéder au fichier de sauvegarde." />
+    <string id="d6DkPU2b" text="Qualité générale" />
+    <string id="d75b5uSL" text="Bilinéaire" />
+    <string id="d7YTtqlO" text="Déplacer la carte vers le bas" />
+    <string id="dbkFMtJw" text="Zoomer sur la carte" />
+    <string id="DbpgZxxK" text="Distance de la caméra à la troisième personne" />
+    <string id="dC1MBjrO" text="Influe sur la taille du cache de diffusion des textures. Plus la valeur est élevée, meilleure est votre expérience, au détriment d&apos;une plus grande consommation de mémoire vidéo." />
+    <string id="deletekey" text="Supprimer" />
+    <string id="Dg0SKmCS" text="Vitesse de combat DESC" />
+    <string id="dg6yQU6z" text="Envoyer un message à l&apos;équipe" />
+    <string id="DGRmXCg4" text="Icônes uniquement (seulement en solo)" />
+    <string id="DiK2cKUi" text="Périphérique audio" />
+    <string id="dkLG4JC4" text="Entrée" />
+    <string id="dkYmFAk2" text="Suivre les colonies attaquées" />
+    <string id="DqFxOjTp" text="Résolution de l&apos;écran" />
+    <string id="drbgOAqx" text="Autorise les notifications de gain d&apos;expérience." />
+    <string id="drG1OL8d" text="Molette de la souris vers le haut" />
+    <string id="DTSHoHbu" text="Fenêtre d&apos;inventaire" />
+    <string id="dTyINo1B" text="Verrouiller la cible" />
+    <string id="dV5ar9eP" text="Max (1 000)" />
+    <string id="Dw58UUua" text="Transluminescence" />
+    <string id="DxgwxziA" text="Commencer une discussion (annexe)" />
+    <string id="DYcLYL6E" text="Barre" />
+    <string id="dzR8cr1m" text="Préréglage audio" />
+    <string id="E5xbXlLB" text="Active les rayons du soleil." />
+    <string id="ea8kNj32" text="Votre périphérique de sortie audio favori." />
+    <string id="EaOcWkH3" text="Ouvre l&apos;encyclopédie." />
+    <string id="eDRzvYz5" text="Active le suivi automatique des colonies attaquées." />
+    <string id="eHb2U0dA" text="Affiche des avatars génériques pour les joueurs. Cela remplacera les avatars de tous les joueurs par des avatars génériques." />
+    <string id="EkzORIiZ" text="Ouvre la discussion globale." />
+    <string id="EMzCDjIR" text="Sélectionner le groupe 2." />
+    <string id="ETxm7IBL" text="F18" />
+    <string id="evc8yBIy" text="M" />
+    <string id="EvOLbiqM" text="Sélectionner groupe 3" />
+    <string id="evzb1cmP" text="Permet d&apos;équiper l&apos;objet dans le quatrième emplacement." />
+    <string id="eXa0p5uN" text="Impossible de créer des données de configuration." />
+    <string id="exportbuffersetting" text="Exporter les visualisations de la mémoire tampon" />
+    <string id="EyYqpm5b" text="Définit le multiplicateur de mouvement vertical pour les gestes de direction, vis-à-vis du mouvement horizontal. N&apos;affecte pas les mouvements de la caméra." />
+    <string id="eZsVkuQD" text="8" />
+    <string id="F2yX5CXI" text="Impossible de créer des données de configuration. Les données de sauvegarde sont corrompues." />
+    <string id="fBXuMgdm" text="IA de campagne DESC" />
+    <string id="FEDEsbCx" text="Déplace votre groupe vers le bas sur la carte de campagne." />
+    <string id="ffHX9L80" text="0 (clavier num.)" />
+    <string id="FHBoO2sp" text="6" />
+    <string id="fJnqJx8m" text="Fenêtre de personnage" />
+    <string id="fldPHfP6" text="Définit le taux de rafraîchissement du jeu." />
+    <string id="FLLnblfP" text="Signaler les blessés" />
+    <string id="fpYTcwqI" text="F24" />
+    <string id="FqvJUBRn" text="Très bas(se)" />
+    <string id="fsI2wuHa" text="Entendre le groupe 2" />
+    <string id="fUaihaa7" text="Toujours montrer l&apos;indicateur de bannières des troupes alliées" />
+    <string id="FwcM7taa" text="Adapte la méthode de sortie du son en fonction de la configuration de vos haut-parleurs." />
+    <string id="G17kWzwi" text="Très élevé (600)" />
+    <string id="G2e8xucc" text="Si les motifs à carreaux n&apos;apparaissent pas dans les cadres, essayez de déplacer les curseurs.{newline}Ajustez les curseurs jusqu&apos;à ce que les modèles soient presque visibles." />
+    <string id="g4Iq82iw" text="Ouvre la discussion d&apos;équipe." />
+    <string id="g4VjAbMG" text="J" />
+    <string id="G8ug5Bwx" text="Discussion" />
+    <string id="G9oAjFL7" text="Très faible (200)" />
+    <string id="GaZ6W7MD" text="Sélectionner l&apos;ordre 2." />
+    <string id="gCDjIGB6" text="Afficher le sang" />
+    <string id="Gd2iUUHa" text="Définit la qualité des particules. Plus la valeur est élevée, plus les particules seront détaillées." />
+    <string id="gIsqhwTs" text="Champ de vision à la 1re personne" />
+    <string id="Gl2S6WEW" text="Configure l&apos;écran afin d&apos;afficher la fenêtre de jeu." />
+    <string id="Gl7wgtPQ" text="Déplacer le groupe vers le haut" />
+    <string id="goodCampaignAI" text="Bon" />
+    <string id="goodCombatAI" text="Bon" />
+    <string id="grNuIieh" text="Sensibilité du curseur/de la caméra" />
+    <string id="gu2JU5zq" text="Type de marqueur de visée" />
+    <string id="GxHV8b1b" text="1 (clavier num.)" />
+    <string id="gxTsIPaS" text="Sélectionner l&apos;ordre 3." />
+    <string id="gzMIzYTF" text="Fenêtre de journal du jeu" />
+    <string id="H1kB8qEb" text="Sélectionner l&apos;ordre 6." />
+    <string id="h6wUbray" text="Nombre de cadavres" />
+    <string id="haLX0kbG" text="Cliquez pour continuer" />
+    <string id="haX0xRHa" text="Accélérer la caméra" />
+    <string id="HC2sdqca" text="Activer les astuces du didacticiel" />
+    <string id="hdbb0Jjp" text="Fenêtre d&apos;encyclopédie" />
+    <string id="hdLs35aB" text="Faible (25)" />
+    <string id="HDV63kra" text="4" />
+    <string id="HeCR9aex" text="Autorise les notifications textuelles pour les cris." />
+    <string id="hHxSj7tY" text="SélectionnerOrdre3" />
+    <string id="HHyqabMX" text="{LEFT}/{RIGHT}" />
+    <string id="Hiv0420V" text="Sélectionner le groupe 6." />
+    <string id="Hj1bsSbW" text="Forcer la synchronisation verticale dans les menus" />
+    <string id="hjsLo4ri" text="Voir les ordres." />
+    <string id="hkiuDcb6" text="Sélectionner le groupe 5." />
+    <string id="HmgPBPeq" text="Résolution du bureau" />
+    <string id="HNTCnUYY" text="Fenêtre de groupe" />
+    <string id="homekey" text="Accueil" />
+    <string id="Hs1CYfbc" text="Équiper l&apos;arme suivante" />
+    <string id="hS4wYBa8" text="Inverser l&apos;ordre du groupe" />
+    <string id="HsljR1NL" text="Équiper l&apos;arme 1" />
+    <string id="hUyPaplJ" text="Taille de la bataille" />
+    <string id="HVa0okoe" text="F9" />
+    <string id="hwzQGpYa" text="Occlusion du son" />
+    <string id="HxIqxjmk" text="Sélectionner tout le monde" />
+    <string id="hZEAeoCk" text="Déplace votre groupe vers la gauche sur la carte de campagne." />
+    <string id="I3eooo5c" text="Définit la qualité du terrain." />
+    <string id="I3rTzBae" text="Détails des personnages" />
+    <string id="i5xbEcE3" text="Active ou met en pause le temps sur la carte de campagne." />
+    <string id="I9PN1qny" text="Entrée (clavier num.)" />
+    <string id="IahiWHHW" text="K" />
+    <string id="Iam02fhz" text="Faible (300)" />
+    <string id="IaoVYeZi" text="Autoriser le pavage du plan." />
+    <string id="iazKqdH1" text="Signaler les cris" />
+    <string id="iblHebbT" text="F1" />
+    <string id="IcEPmXxM" text="Définit le type d&apos;occlusion ambiante." />
+    <string id="ICgda8Is" text="Appuyer deux fois vers le haut : charge en avant" />
+    <string id="ID9lG6xg" text="Voir les ordres" />
+    <string id="igGLkaf6" text="Équiper l&apos;objet 2" />
+    <string id="iGi5HsGS" text="Maj. gauche" />
+    <string id="ihAadMd5" text="Ouvre l&apos;encyclopédie sur la carte de campagne." />
+    <string id="IjhCSwNn" text="Éloigne la caméra de votre personnage en vue à la 3e personne." />
+    <string id="IjLcnwpz" text="Augmenter la mise au point de la caméra." />
+    <string id="IjRHUbbN" text="Pavage du plan" />
+    <string id="ikbBAZtA" text="Exporte les visualisations de la mémoire tampon." />
+    <string id="IKjxVh2N" text="Flou cinétique" />
+    <string id="ikoUJQyl" text="Active le flou lumineux." />
+    <string id="iljRgsvP" text="Type d&apos;agencement des ordres" />
+    <string id="invalidkey" text="-" />
+    <string id="IOZ4aWVp" text="Sélectionner groupe 8" />
+    <string id="iPbtrFzF" text="Active AMD FidelityFX™ Super Resolution." />
+    <string id="Irhxad7u" text="Qualité de l&apos;eau" />
+    <string id="iUFgqwkA" text="Moyen (256)" />
+    <string id="iuQk8map" text="Volume de la voix off" />
+    <string id="iwO3g6Rz" text="Définit la difficulté de l&apos;IA de combat." />
+    <string id="ixHHmobT" text="Permet de verrouiller des ennemis en utilisant une arme de corps à corps." />
+    <string id="ixTwtPt0" text="4 vagues" />
+    <string id="IxzTvJH9" text="Son en arrière-plan" />
+    <string id="IyenJVb1" text="Affecte le taux de rafraîchissement des animations. Plus la valeur est élevée, meilleures sont les animations, au détriment d&apos;une plus grande consommation de puissance processeur." />
+    <string id="IYLn67Xm" text="X" />
+    <string id="Iz2vu6xM" text="Molette de la souris vers le bas" />
+    <string id="iZAwcZSV" text="Suivre la colonie" />
+    <string id="j2g8BSOF" text="Statique et dynamique" />
+    <string id="J2pcA6KR" text="Voir le personnage" />
+    <string id="j3k8PiPo" text="Active la déformabilité de l&apos;herbe." />
+    <string id="jaeLYPIG" text="Mettre en pause le temps" />
+    <string id="jafcz97A" text="Qualité des ombres" />
+    <string id="JAzv5xYY" text="Autorise les notifications textuelles pour les dégâts infligés." />
+    <string id="jbLwdd6z" text="Casque" />
+    <string id="jd9ZG2CI" text="R" />
+    <string id="JDDANRcS" text="Modificateur de sensibilité du zoom" />
+    <string id="jgCb0sga" text="Active le marqueur de visée pour les armes à distance." />
+    <string id="JKH8aiDE" text="Activer/désactiver les personnages" />
+    <string id="jkwgSmhl" text="Vous pouvez sélectionner différents modes de mixage en fonction de vos préférences." />
+    <string id="JLqe3lrb" text="Difficulté de l&apos;IA de combat" />
+    <string id="JLtTANZg" text="Se déplacer à gauche" />
+    <string id="JmvywkK6" text="Déplacer la carte vers le haut" />
+    <string id="jOGbGqOC" text="Activer la correction de la visée verticale" />
+    <string id="JP1y1i0A" text="Équiper l&apos;arme 4" />
+    <string id="Js1lhJkk" text="Langue" />
+    <string id="js6LONvV" text="Reculer" />
+    <string id="Ju6btXsv" text="Contrôler la direction des attaques" />
+    <string id="JXdwIX8Q" text="Définit l&apos;épaisseur de la traînée des armes." />
+    <string id="jy9orOJz" text="Jouer" />
+    <string id="JZFXI1LK" text="Échelle de l&apos;IU" />
+    <string id="jZs8I1Uq" text="Active le grain du film." />
+    <string id="JZYQGUF3" text="Appuyer deux fois vers le bas : arrêt brusque" />
+    <string id="k4E1gylQ" text="Définit la netteté de l&apos;image." />
+    <string id="k7gJYLLj" text="8 (clavier num.)" />
+    <string id="K80z5onY" text="Détermine la distance à laquelle se positionne la caméra en vue à la 3e personne." />
+    <string id="kak4GxOh" text="F6" />
+    <string id="kCXjabff" text="Affiche le journal de discussion. Écrit dans le chat d&apos;équipe en multijoueur." />
+    <string id="ke34iiXU" text="Ralentir en donnant des ordres" />
+    <string id="kG4051e5" text="SélectionnerOrdre7" />
+    <string id="KGaaYZi1" text="Taux de rafraîchissement" />
+    <string id="Kh8qRccB" text="Réinitialiser les changements." />
+    <string id="KHbdmIfF" text="Statique uniquement" />
+    <string id="khHVSEiK" text="Déplace la caméra de carte vers le haut sur la carte de campagne." />
+    <string id="KiY5M2uk" text="Données de sauvegarde créées avec succès." />
+    <string id="KjZas5Xs" text="Définit la carte graphique qu&apos;utilisera le jeu pour fonctionner." />
+    <string id="kKg8oyGu" text="F19" />
+    <string id="KKNmozPI" text="Touche directionnelle gauche" />
+    <string id="Kksv0KyL" text="Sélectionner le groupe 7." />
+    <string id="KL8cGTao" text="Radial" />
+    <string id="kNpWwJcc" text="Élevé (500)" />
+    <string id="KO5zuUvN" text="Action" />
+    <string id="KONClayU" text="\" />
+    <string id="KShlkb9M" text="Fait pivoter la caméra de carte vers la gauche." />
+    <string id="KtYtBnvP" text="Configure le limiteur d&apos;images." />
+    <string id="KUGomrhD" text="Ne plus montrer" />
+    <string id="KwNTg7BT" text="Mode d&apos;affichage" />
+    <string id="l4ex8t6l" text="5 vagues" />
+    <string id="l5aKnGy3" text="Commencer une discussion" />
+    <string id="l7Rfaa8f" text="Sélectionner le groupe 8." />
+    <string id="L8UiZT7R" text="AMD FidelityFX™ Super Resolution" />
+    <string id="L992LXVF" text="Active le mode de poursuite de la caméra. Alterne entre &quot;Caméra sur le joueur&quot; et &quot;Caméra libre&quot;." />
+    <string id="lCucoVwJ" text="Estimation de l&apos;utilisation de la mémoire du GPU" />
+    <string id="lG7AlfxK" text="Suivre la colonie sur la carte" />
+    <string id="lgOBD6MF" text="Active les indicateurs de direction des attaques." />
+    <string id="lgzmPG6K" text="S&apos;accroupir" />
+    <string id="LjNnWa7R" text="F10" />
+    <string id="LJZAvH8f" text="Qualité des textures" />
+    <string id="ll2iP8yo" text="Dépasser la mémoire disponible de votre processeur graphique peut réduire grandement les performances et la stabilité. Faites attention." />
+    <string id="Lm5Wj9ty" text="Volume de la discussion audio" />
+    <string id="Lo0bRwYO" text="Impossible de créer des données de sauvegarde. Les données de sauvegarde sont corrompues." />
+    <string id="LroTz1rL" text="Permet de ralentir le jeu lorsque le joueur donne des ordres." />
+    <string id="lsQ1kFLn" text="Menu d&apos;équipement" />
+    <string id="LsX8rTwl" text="Ouvre l&apos;écran de développement du personnage." />
+    <string id="lsxqkhy6" text="O" />
+    <string id="LTxU2AST" text="Détermine l&apos;intervalle de temps entre les sauvegardes auto. La valeur est exprimée en minutes." />
+    <string id="Lu1sjJKR" text="Échelle de résolution dynamique" />
+    <string id="m1PinhQd" text="Ouvre l&apos;écran de groupe." />
+    <string id="M1ZFZR5I" text="Qualité du terrain" />
+    <string id="M3bY9bLu" text="Active les messages informatifs." />
+    <string id="m4Lketfz" text="Inverse l&apos;axe des Y pour le contrôle de la caméra. (Ne fonctionne pas sur la carte de campagne.)" />
+    <string id="m6n7bAoQ" text="{newline}- {STR}" />
+    <string id="m7B471Hw" text="Définit la qualité de l&apos;éclairage." />
+    <string id="m7IunCRL" text="Ouvre la fenêtre d&apos;éditeur de bannière." />
+    <string id="mBYYRzog" text="Activer la discussion audio" />
+    <string id="Mf5qVgAv" text="Équiper l&apos;objet 3" />
+    <string id="MFbBFDqx" text="Déplacement rapide (carte)" />
+    <string id="MfsNAPh6" text="Active la transluminescence." />
+    <string id="MfunBOxF" text="Ajuste les niveaux de contraste." />
+    <string id="mG4rCrfE" text="0" />
+    <string id="Mja6xKiX" text="Type d&apos;ordres visuels" />
+    <string id="MkKL3Y4P" text="7 (clavier num.)" />
+    <string id="mkQiThTA" text="Données de configuration créées avec succès." />
+    <string id="mLtHlKzD" text="Alt droite" />
+    <string id="MNsKxGzK" text="Ressources pour le streaming des textures" />
+    <string id="mWnA4X5D" text="Sélectionner l&apos;ordre 6" />
+    <string id="mWT9b9ZM" text="Moyen (75)" />
+    <string id="MXHkvySm" text="F7" />
+    <string id="Mxnj08mB" text="Déplacer le groupe vers la droite" />
+    <string id="n23hFPye" text="Changer le mode de curseur" />
+    <string id="nbXC9aIe" text="Mode 120 Hz" />
+    <string id="nD11hOsQ" text="Ouvre le journal des quêtes." />
+    <string id="nDjFBDvE" text="Définit le nombre maximal d&apos;unités lors des batailles. Une valeur élevée nécessite une carte graphique et un processeur puissants." />
+    <string id="nLhH8JhZ" text="Niveau du volume de la discussion audio" />
+    <string id="NMP6nR8C" text="Performances (DLSS)" />
+    <string id="NN7DHB1A" text="Entendre le groupe 1" />
+    <string id="noYzJpKr" text="Activer le zoom" />
+    <string id="nwdlr4MI" text="Rejeter le vote actuel." />
+    <string id="o0QPZODk" text="Déplacer le groupe vers la gauche" />
+    <string id="o2wElwi5" text="Homogène" />
+    <string id="o8WjGqS4" text="Z" />
+    <string id="o9Bk7aLz" text="Cliquer pour railler. Maintenir pour ouvrir la roue des railleries." />
+    <string id="O9ed2AWr" text="Termine le message si la fenêtre de discussion est active. Autrement, active la fenêtre de discussion." />
+    <string id="ocNVbyPJ" text="Plein écran sans bordure" />
+    <string id="oCtaP2tZ" text="Cette option est désactivée car le DLSS est activé." />
+    <string id="odsVjkbO" text="Ouvre l&apos;inventaire." />
+    <string id="oEdTBobd" text="Anisotropie 2x" />
+    <string id="OeJ53VmM" text="Le taux d&apos;images par seconde à maintenir en ajustant les paramètres de l&apos;&quot;échelle de résolution dynamique.&quot;{newline}{newline}Il est conseillé d&apos;indiquer la valeur la plus faible qui vous semble acceptable pour jouer. Indiquer une valeur trop élevée provoquera des baisses de résolution inutiles." />
+    <string id="OgXnrvcA" text="Active la simulation du tissu. Utilise des ressources du processeur graphique." />
+    <string id="oI1gktYa" text="Définit le niveau du volume des effets." />
+    <string id="OiB50fga" text="Sélectionner la carte" />
+    <string id="oIuCX8KW" text="Équiper/Lâcher l&apos;équipement" />
+    <string id="OlajLkbl" text="F13" />
+    <string id="oMaTg568" text="Rapproche la caméra de la carte de campagne." />
+    <string id="Oo7wQbfG" text="Bouton de la souris x2" />
+    <string id="Op68a8dO" text="Raccourcis du menu" />
+    <string id="opGK2hO0" text="Masque les éléments de l&apos;IU de combat lorsque le joueur est en mission." />
+    <string id="otHjiYlN" text="Qualité des particules" />
+    <string id="OtS4DYD1" text="T" />
+    <string id="owS8kqZs" text="Détermine la priorité d&apos;apparition des unités.{newline}Par défaut : Les unités apparaissent en fonction de leur position dans la liste des membres du groupe.{newline}Niveau élevé : Les unités de niveau élevé apparaîtront en premier.{newline}Niveau faible : Les unités de faible niveau apparaîtront en premier.{newline}Homogène : Les unités apparaissent de manière homogène en fonction de leurs types de troupes plutôt que de leurs niveaux. Cette option permet de remplir les rangs de chaque type d&apos;unité selon le même ratio en ignorant leurs niveaux.{newline}Les paramètres ci-dessus s&apos;appliquent uniquement à la composition de départ du joueur. L&apos;IA n&apos;est pas affectée." />
+    <string id="OYaqdNAI" text="Sélectionner l&apos;ordre 2" />
+    <string id="P4rblFQN" text="Dézoomer sur la carte" />
+    <string id="P5x1HU1u" text="Anticrénelage" />
+    <string id="P7E3rS3m" text="Niveau du volume de la musique." />
+    <string id="pa8A2VG3" text="Active la bordure rouge autour de l&apos;écran lorsque le joueur subit des dégâts." />
+    <string id="PACe9VHN" text="&lt;" />
+    <string id="PADeKaAu" text="Menu de contexte de la carte" />
+    <string id="PBzbWfGF" text="Verrouiller la cible" />
+    <string id="PC77pnRB" text="Chef uniquement" />
+    <string id="pialOblr" text="Maintenir pour ordre" />
+    <string id="PksJtzwJ" text="Espace" />
+    <string id="pnEeRPAk" text="Entendre le groupe 7" />
+    <string id="pNocZkrx" text="Activer le visuel des dégâts subis" />
+    <string id="poorCampaignAI" text="Médiocre" />
+    <string id="poorCombatAI" text="Médiocre" />
+    <string id="pQLVaBuN" text="Inverser l&apos;axe des Y de la caméra" />
+    <string id="pQVSwtfn" text="Rapproche la caméra de votre personnage en vue à la 3e personne." />
+    <string id="PRsSB9B8" text="Permet d&apos;interagir avec les armes, les montures, les portes, les personnes, etc." />
+    <string id="ps103cxD" text="Permet d&apos;effectuer une attaque avec votre arme." />
+    <string id="psDownDirectionButton" text="touche bas" />
+    <string id="pshodFff" text="Visibilité de la traînée de l&apos;arme" />
+    <string id="psLeftDirectionButton" text="touche gauche" />
+    <string id="psLeftStick" text="joystick gauche" />
+    <string id="psLeftStickDown" text="joystick gauche vers le bas" />
+    <string id="psLeftStickLeft" text="joystick gauche vers la gauche" />
+    <string id="psLeftStickRight" text="joystick gauche vers la droite" />
+    <string id="psLeftStickUp" text="joystick gauche vers le haut" />
+    <string id="psRightDirectionButton" text="touche droite" />
+    <string id="psRightStick" text="joystick droit" />
+    <string id="psRightStickDown" text="joystick droit vers le bas" />
+    <string id="psRightStickLeft" text="joystick droit vers la gauche" />
+    <string id="psRightStickRight" text="joystick droit vers la droite" />
+    <string id="psRightStickUp" text="joystick droit vers le haut" />
+    <string id="psUpDirectionButton" text="touche haut" />
+    <string id="PtI8voo3" text="F8" />
+    <string id="PvNGaexX" text="Maintenir pour afficher les indicateurs des personnes importantes, lieux, noms, etc." />
+    <string id="pVrv5hnp" text="B" />
+    <string id="py0auN0A" text="{ESTIMATED} Mo / {TOTAL} Mo" />
+    <string id="Q1kAeH3b" text="F16" />
+    <string id="QaMie1KY" text="Mêlée uniquement" />
+    <string id="Qbz9VJGw" text="{Modifier} + {KEY}" />
+    <string id="QBzjt1c4" text="Touche étendue 1" />
+    <string id="QcNaK9xX" text="Qualité des animations" />
+    <string id="qDhDbZKh" text="Suivre la colonie actuellement en surbrillance" />
+    <string id="qDVoGsb9" text="Maintenir pour donner des ordres avec une manette." />
+    <string id="QfsXhxOI" text="Ultra (800)" />
+    <string id="qggjceRq" text="Sortie du son" />
+    <string id="qIRQRIQD" text="Ouvre la flotte." />
+    <string id="QiYy3Ja4" text="Retourner à la sélection des ordres" />
+    <string id="QKy9a176" text="Se déplacer vers la gauche" />
+    <string id="qmplQd0Q" text="Trois parties" />
+    <string id="qNPmVDmU" text="Active la méthode NVIDIA DLSS si possible. " />
+    <string id="QObLf5jh" text="Sélectionner sur la carte." />
+    <string id="qOcw1xap" text="Page suivante" />
+    <string id="QoGjzEwI" text="Reculer" />
+    <string id="Qp3i4PrW" text="TV" />
+    <string id="QpUkFQnj" text="Verrouille le nombre d&apos;images par seconde à 40 en mode Fidélité et le déverrouille en mode Performance." />
+    <string id="qR4S6PeD" text="Qualité du DLSS" />
+    <string id="qS0z458V" text="~" />
+    <string id="QsdUafoH" text="Sélectionner l&apos;ordre 5" />
+    <string id="qSJZyoro" text="F2" />
+    <string id="qsrqjK0B" text="Définit le niveau de détails des éléments de l&apos;environnement." />
+    <string id="qtgBKzY8" text="Définit le nombre de cadavres visibles." />
+    <string id="qvaJYO9c" text="Anisotropie 16x" />
+    <string id="qW1FWX0C" text="Touche directionnelle bas" />
+    <string id="r4wEESkT" text="Activer le journal des événements sur la carte de campagne et pendant les missions." />
+    <string id="r5onpWZW" text="Toujours" />
+    <string id="R9cQCadq" text="Permet de sélectionner la façon d&apos;attaquer." />
+    <string id="r9tGsO4Z" text="Redémarrage du jeu requis" />
+    <string id="RaijrIxP" text="Interagir" />
+    <string id="Rh7aDJ3n" text="Fenêtre de bannière" />
+    <string id="rHeu8Ndg" text="Ouvrir la génération faciale" />
+    <string id="Rhl5E2ut" text="Définit le type d&apos;ombres." />
+    <string id="RhUd5Y2T" text="Accepter le vote actuel." />
+    <string id="rKvjSSri" text="F14" />
+    <string id="rNiESgEo" text="]" />
+    <string id="ro0NhUnJ" text="Définit le champ de vision en vue à la 1re personne." />
+    <string id="roJLc9oH" text="Moitié" />
+    <string id="rP058aIm" text="Permet d&apos;équiper l&apos;objet dans le premier emplacement." />
+    <string id="rs0wImmD" text="Impossible de créer des données de sauvegarde." />
+    <string id="rS6nO0wb" text="Activer le portrait" />
+    <string id="RSmsn6mb" text="Activer/mettre en pause le temps" />
+    <string id="RX76Kfa8" text="Activer/désactiver la caméra" />
+    <string id="rXftSOjn" text="Rotation vers la droite (carte)" />
+    <string id="rxTqpENB" text="F20" />
+    <string id="rYCYUZu5" text="Entendre le groupe 5" />
+    <string id="RZ1x41t2" text="Activez les messages audio de la part des joueurs de votre équipe." />
+    <string id="s4r1xdg0" text="Entendre le groupe 6" />
+    <string id="s533kEjf" text="Volume de la musique" />
+    <string id="s7yWjpeB" text="Carte graphique sélectionnée" />
+    <string id="saDoGzvp" text="Nouveau contenu installé !" />
+    <string id="sAoWNAwZ" text="Fenêtré" />
+    <string id="sbUBtOTb" text="Signaler les dégâts" />
+    <string id="sCjtEbTF" text="Ces modules ont été retirés du jeu :" />
+    <string id="SEucYSln" text="2 (clavier num.)" />
+    <string id="ShDZ4GgG" text="Équiper l&apos;arme 3" />
+    <string id="sPqkglTv" text="Masquer l&apos;IU de combat" />
+    <string id="sQCP8t0U" text="Attendre sur la carte" />
+    <string id="StaoHYba" text="Entendre le groupe 4" />
+    <string id="sTlHHQPs" text="Vous devrez redémarrer Bannerlord pour que ce paramètre soit pris en compte." />
+    <string id="SuYh3GtG" text="Activer/désactiver le mode Arme" />
+    <string id="SWDHaFCK" text="SélectionnerOrdre4" />
+    <string id="swdKFkfu" text="F21" />
+    <string id="SWk141EO" text="Rengaine l&apos;arme équipée." />
+    <string id="sxFsZAeC" text="1" />
+    <string id="sxIWNefq" text="Classique" />
+    <string id="t0vgSn7D" text="Sélectionner le groupe suivant" />
+    <string id="T3Ex0K1p" text="Fin" />
+    <string id="T6IJg6wq" text="Mode suivre de la caméra de la carte" />
+    <string id="TbCbHxeF" text="Activer la sélection de groupe" />
+    <string id="tbGol5PT" text="F4" />
+    <string id="tbwhjsqS" text="Bouton droit de la souris" />
+    <string id="Tdf5AbRp" text="Ouvre l&apos;écran de clan." />
+    <string id="TEuOMadV" text="Tab" />
+    <string id="tFZspabL" text="Passer à l&apos;onglet précédent" />
+    <string id="TgIAHPHs" text="Sélectionner l&apos;ordre 4" />
+    <string id="tifiQGTa" text="Ouvre l&apos;écran de royaume." />
+    <string id="TIYrYxpr" text="Sélectionner groupe 5" />
+    <string id="tkCbjgfx" text="- (clavier num.)" />
+    <string id="TlpNyR2U" text="Niveau faible" />
+    <string id="tlR1jGNH" text="Activer le menu pause" />
+    <string id="TOebahlA" text="Accélérer le temps sur la carte" />
+    <string id="toHFqO2G" text="Sélectionner l&apos;ordre 5." />
+    <string id="TRmaxjal" text="Active la correction de la visée verticale en vue à la troisième personne." />
+    <string id="tsPjK1Ke" text="Activé" />
+    <string id="ttCcMbwO" text="Touche directionnelle haut" />
+    <string id="TtWjblNo" text="Activer l&apos;affichage" />
+    <string id="TUWeNFOv" text="Capture d&apos;écran" />
+    <string id="TvGJqPGp" text="Autorise les notifications de mort et de KO." />
+    <string id="tw5Wxv3b" text=". (clavier num.)" />
+    <string id="TWbbfaUu" text="Déplace la caméra de carte vers la droite sur la carte de campagne." />
+    <string id="TybJcG0A" text="Très faible (64) " />
+    <string id="tZGftbOD" text="Appuyer pour parler" />
+    <string id="TzpULeDH" text="Retourner à la sélection des ordres." />
+    <string id="u2dQaVY2" text="Permet d&apos;équiper l&apos;objet dans le troisième emplacement." />
+    <string id="U58amXO0" text="Maintenez la touche enfoncée pour afficher le menu d&apos;équipement." />
+    <string id="U5xKAHGi" text="Flou lumineux" />
+    <string id="u6QCWQvu" text="Quatre parties" />
+    <string id="u7FkCtRN" text="Entendre le groupe 0" />
+    <string id="U8NaF1bo" text="Ajuster" />
+    <string id="Uaae1eBV" text="Appuyer deux fois à droite : tourner subitement à droite" />
+    <string id="UboDNGJw" text="Sélectionner groupe 7" />
+    <string id="uBRn8Je8" text="3" />
+    <string id="Uc1n5MRj" text="NVIDIA DLSS" />
+    <string id="UFHqkvah" text="Herbe interactive" />
+    <string id="uGEcLaqw" text="Faire tourner la caméra vers la droite" />
+    <string id="UItoMdHh" text="Impossible de créer des données de configuration. Espace insuffisant." />
+    <string id="UixNc11t" text="Permet de se défendre contre une attaque avec votre arme ou votre bouclier." />
+    <string id="ukw0Zi1X" text="[" />
+    <string id="UNmUcizM" text="Sélectionner l&apos;ordre 3" />
+    <string id="Uojm77jP" text="Qualité de la lumière" />
+    <string id="UoxjMhfJ" text="SélectionnerOrdre1" />
+    <string id="UqB9zKfE" text="Équiper l&apos;arme principale" />
+    <string id="uQfDuGem" text="Dézoomer sur le personnage" />
+    <string id="urbLiiQJ" text="Configurer l&apos;exposition" />
+    <string id="uRXlSUVh" text="N" />
+    <string id="uSGPBRFS" text="Zoomer" />
+    <string id="UTU6yVsp" text="Active le temps sur la carte de campagne." />
+    <string id="uUHUfeQr" text="Sélectionner groupe 6" />
+    <string id="UwJIMaRi" text="Qualité des shaders" />
+    <string id="UwuYCgIU" text="Prudence" />
+    <string id="v2me5eP1" text="Activer le portrait." />
+    <string id="V5ltCcw0" text="Élevé (125)" />
+    <string id="v8GIxASM" text="Synchronisation verticale" />
+    <string id="vAnlshLW" text="9" />
+    <string id="VasVb9DK" text="Vous équipe de votre arme ou sélectionne la suivante." />
+    <string id="VAtNIoKC" text="L" />
+    <string id="VdGuZAoK" text="Masquer l&apos;interface utilisateur." />
+    <string id="Ve99pCSo" text="Simulation du tissu" />
+    <string id="VE9TavSl" text="Définit la qualité des aplats." />
+    <string id="Vea6bRUO" text="Active les éléments de l&apos;interface indiquant les dégâts des joueurs et les dangers en bas au milieu." />
+    <string id="vJ41v8zh" text="Opacité des bannières des troupes alliées" />
+    <string id="vJDxgaOZ" text="Les versions de ces modules sont différentes :" />
+    <string id="VLxclitg" text="Affiche le journal de discussion." />
+    <string id="vN8ClsDX" text="Définit le taux d&apos;images par seconde de la simulation de la physique dynamique. Plus la valeur est élevée, meilleure est la simulation de la physique, au détriment d&apos;une plus grande consommation de puissance processeur." />
+    <string id="vOanWRQi" text="Sélectionner l&apos;ordre 1." />
+    <string id="vOVdr24b" text="Sélectionner l&apos;ordre 4." />
+    <string id="vT3yIxmO" text="4 (clavier num.)" />
+    <string id="vvKU6wTA" text="Niveau du volume de la voix off." />
+    <string id="vXvmeGhm" text="Type d&apos;ombres" />
+    <string id="VzSerzva" text="Maj. droite" />
+    <string id="W3NRW1d4" text="Modifie l&apos;agencement des ordres (c&apos;est à dire les catégories d&apos;ordres et les touches).{newline}Par défaut : L&apos;agencement des ordres par défaut.{newline}Classique : L&apos;agencement des ordres utilisé lors de versions antérieures du jeu." />
+    <string id="w4l8xA2Q" text="Déplacement vers la gauche (carte)" />
+    <string id="waNCurZY" text="Active le flou cinétique." />
+    <string id="wb84GjZw" text="Filtrage des ombres" />
+    <string id="WBVMg0bd" text="Définit le type de filtrage des textures. Plus la valeur est élevée, plus les textures seront détaillées et précises." />
+    <string id="wg5YeO4k" text="Carte de campagne" />
+    <string id="wGa1SUop" text="Permet d&apos;équiper l&apos;objet dans le deuxième emplacement." />
+    <string id="whn4v32E" text="Définit la résolution des ombres." />
+    <string id="WiBlu6mE" text="SélectionnerOrdre9" />
+    <string id="wJWICbOg" text="La langue de jeu de votre choix." />
+    <string id="WldVAZhy" text="Définit le niveau de détails des modèles de personnage." />
+    <string id="wMe5p2HG" text="7" />
+    <string id="WMmGH9yp" text="Éloigne la caméra de la carte de campagne." />
+    <string id="WOubRnjm" text="Signaler les gains d&apos;expérience" />
+    <string id="WP4bYHK2" text="Votes" />
+    <string id="WP6GEbYa" text="Conserve les sons du jeu lorsque le jeu n&apos;est pas au premier plan." />
+    <string id="Wr2DX9Go" text="F23" />
+    <string id="WVpVmbzC" text="Ces modules sont nouveaux dans le jeu :" />
+    <string id="wWDHH5FK" text="Profondeur de champ" />
+    <string id="wygub2sh" text="F15" />
+    <string id="WyI6xHlc" text="Retourner au menu principal maintenant ? (Votre progression en cours sera perdue !)" />
+    <string id="wYicqUa9" text="Mettre le temps de la carte en mode normal" />
+    <string id="X1nFnomy" text="Moyen (400)" />
+    <string id="X2CbgcZ9" text="Par direction du regard" />
+    <string id="X5cSNxHf" text="5" />
+    <string id="x7kYOUfi" text="Volume des effets" />
+    <string id="x7qfk550" text="Q" />
+    <string id="XCB1SGxZ" text="Lancer le test de performances" />
+    <string id="xEquRfRF" text="10" />
+    <string id="xikMYwty" text="Performances ultra (DLSS)" />
+    <string id="xJpOH8DU" text="Ouvrir l&apos;encyclopédie" />
+    <string id="XldS0fkN" text="Changer le mode de poursuite de la caméra" />
+    <string id="xlxTJuJ9" text="Sélectionner tout le monde." />
+    <string id="xMoqTFkZ" text="Par direction du regard (inversé)" />
+    <string id="XnhBdHnS" text="Multicanal" />
+    <string id="xNprkuJl" text="Lâcher l&apos;arme" />
+    <string id="xnulLUFX" text="Permet de sauvegarder rapidement votre partie à l&apos;aide d&apos;un raccourci." />
+    <string id="XrUGC7H4" text="Retour arrière" />
+    <string id="XtiGbj0W" text="Afficher le curseur" />
+    <string id="xuOz73hl" text="Permet d&apos;afficher ou de masquer le sang lors des batailles." />
+    <string id="xZ84ujuu" text="Définit le nombre de sons pouvant être joués en même temps. Une valeur faible réduit l&apos;utilisation de votre processeur, tandis qu&apos;une valeur élevée améliore l&apos;immersion." />
+    <string id="y5FGfFdf" text="F17" />
+    <string id="y7dx24ih" text="Tourne la caméra dès que vous changez de direction à cheval en vue à la 1re personne." />
+    <string id="YAHs7wBa" text="Sélectionner l&apos;ordre 8" />
+    <string id="YDccwh2x" text="Volume principal" />
+    <string id="yDr2HCFR" text="Passe en mode de vue à 360 degrés autour de votre personnage." />
+    <string id="yfMN8wWN" text="Anisotropie 4x" />
+    <string id="Yg2jHH1M" text="/ (clavier num.)" />
+    <string id="YirOUaIV" text="Diminuer la mise au point de la caméra." />
+    <string id="yLCSTuBw" text="Définit la résolution du jeu. Les résolutions les plus élevées nécessitent une carte graphique plus puissante." />
+    <string id="Yn8bh0qT" text="Équiper le bouclier suivant" />
+    <string id="yruQv3th" text="3 vagues" />
+    <string id="YT6ljA5V" text="Avancer (carte)" />
+    <string id="YTXLLaEN" text="Niveau élevé" />
+    <string id="yV64UCaW" text="Zoomer" />
+    <string id="YZv1752W" text="D" />
+    <string id="yZvw7EQb" text="Réflexion de l&apos;espace à l&apos;écran" />
+    <string id="z5Kbb4pC" text="Équilibrée (DLSS)" />
+    <string id="z6ezjlkX" text="Maj." />
+    <string id="z8XjxODK" text="Permet de passer à une autre utilisation d&apos;arme. (mêlée ou à distance, à une main ou à deux mains, etc.)" />
+    <string id="ZaaPPemL" text="SélectionnerOrdre8" />
+    <string id="ZeIsxhk4" text="Définit le type de filtrage des ombres." />
+    <string id="ZewnkWoO" text="G" />
+    <string id="Zgs47DHB" text="Verr Maj" />
+    <string id="ZIKuUbUG" text="Définit le nombre de simulations simultanées de ragdolls." />
+    <string id="ZKg3DqbQ" text="Détermine l&apos;opacité des bannières affichées au-dessus des troupes alliées." />
+    <string id="ZlcrmFvl" text="Passer à l&apos;onglet suivant" />
+    <string id="znSZmZvV" text="Déplacement vers la droite (carte)" />
+    <string id="Zo2ngsUk" text="Création faciale" />
+    <string id="ZoDugJHP" text="Sélectionner le groupe précédent" />
+    <string id="zofULNb8" text="Équiper l&apos;arme secondaire" />
+    <string id="ZOUxmamu" text="Définit la sensibilité des mouvements du curseur et du contrôle de la caméra." />
+    <string id="ZP1tLaa1" text="9 (clavier num.)" />
+    <string id="ZtDJrNz9" text="Grain du film" />
+    <string id="zTFbqJ6R" text="&apos;" />
+    <string id="ZtxvyzjY" text="Canaux de son" />
+    <string id="ZUGXXsGj" text="Vagues de renforts restantes" />
+    <string id="zUXxshZK" text="F12" />
+    <string id="zvD48rVQ" text="Sauvegarde rapide" />
+    <string id="ZvjfAm7H" text="Impossible de créer des données de sauvegarde. Espace insuffisant." />
+    <string id="ZVLr4CMO" text="Bouton de la souris x1" />
+    <string id="ZvtKqPt3" text="Appuyer deux fois à gauche : tourner subitement à gauche" />
+    <string id="zwL5NFAr" text="Inser" />
+    <string id="ZX8TLWzd" text="Le DLSS n&apos;est pas disponible pour ce système." />
+    <string id="zxMOqlhs" text="Attaquer" />
+    <string id="zXUB15lX" text="Cible d&apos;IPS de la résolution dynamique" />
+    <string id="zyR3jbj2" text="Caméra plus rapide" />
+    <string id="zzonsjpL" text="Élevé (512)" />
+  </strings>
+</base>

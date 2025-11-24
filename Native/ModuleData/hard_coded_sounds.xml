@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	type="hard_coded_sound">
+	<hard_coded_sounds>
+		<hard_coded_sound
+			id="mission_combat_wood_shield_broken"
+			path="event:/mission/combat/shield/broken" />
+		<hard_coded_sound
+			id="mission_combat_metal_shield_broken"
+			path="event:/mission/combat/shield/metal_broken" />
+		<hard_coded_sound
+			id="mission_combat_impact_corpse"
+			path="event:/mission/combat/impact/corpse" />
+	</hard_coded_sounds>
+</base>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Deutsch" />
+  </tags>
+   <functions>
+	<function functionName="genderCreator" functionBody="{?$0!.nnp}{.PCreator}{:?$0!.M}{.MCreator}{:?$0!.F}{.FCreator}{:?$0!.N}{.NCreator}{:}{\?}"/>	
+	<function functionName="ABS" functionBody="{?$0&gt;0}{$0}{?}{0 - $0}{\?}"/>
+	<function functionName="PLURAL" functionBody="{?$0.Plural}{$0.Plural}{?}{$0}{\?}"/>
+	<function functionName="WEAK" functionBody="{?$0.Weak}{$0.Weak}{?}{$0}{\?}"/>
+	<function functionName="MIXED" functionBody="{?$0.Mixed}{$0.Mixed}{?}{$0}{\?}"/>
+	<function functionName="IS_CASTLE" functionBody="{?$0.IS_CASTLE == 1}1{:}0{\?}"/>
+	<function functionName="IS_HIDEOUT" functionBody="{?$0.IS_HIDEOUT == 1}1{:}0{\?}"/>
+	<function functionName="TYPE" functionBody="{?$0.Type}{?$0.Type == 1}0{:?$0.Type == 2}1{:}2{\?}{?}2{\?}"/>
+	<function functionName="STRONG" functionBody="{?$0.Strong}{$0.Strong}{?}{$0}{\?}"/>
+	<function functionName="nachPreposition" functionBody="{?$0!.P}zu{:?$0!.M}zum{:?$0!.F}zur{:?$0!.N}zum{:}nach{\?}"/>
+	<function functionName="ausPreposition" functionBody="{?$0!.P}von{:?$0!.M}vom{:?$0!.F}von{:?$0!.N}vom{:}aus{\?}"/>
+	<function functionName="IS_PLURAL" functionBody="{?$0!.P}1{:?$0.Plural}1{:?$0!.ajsp}1{:?$0!.ajmp}1{:?$0!.ajwp}1{:?$0!.pnpgroup}1{:?$0!.nnp}1{:?$0!.pdp}1{:?$0!.pgp}1{:?$0!.pap}1{:?$0!.pnp}1{:?$0!.dp}1{:?$0!.gp}1{:?$0!.ap}1{:?$0!.np}1{:}0{\?}"/>
+	<function functionName="f_art" functionBody="{?($0 == 0)}die{:?($0 == 1)}der{:?($0 == 2)}der{:?($0 == 3)}die{:}die{\?}"/>
+	<function functionName="m_art" functionBody="{?($0 == 0)}der{:?($0 == 1)}des{:?($0 == 2)}dem{:?($0 == 3)}den{:}der{\?}"/>
+	<function functionName="n_art" functionBody="{?($0 == 0)}das{:?($0 == 1)}des{:?($0 == 2)}dem{:?($0 == 3)}das{:}das{\?}"/>
+	<function functionName="p_art" functionBody="{?($0 == 0)}die{:?($0 == 1)}der{:?($0 == 2)}den{:?($0 == 3)}die{:}die{\?}"/>
+	<function functionName="articleHelper" functionBody="{?$0.HAS_ARTICLE}{?$0!.[P,np,nnp]}{p_art($1)} {:?$0.Plural}{p_art($1)} {:?$0!.M}{m_art($1)} {:?$0!.F}{f_art($1)} {:?$0!.N}{n_art($1)} {:}{\?}{?}{\?}"/>
+  </functions>
+</base>

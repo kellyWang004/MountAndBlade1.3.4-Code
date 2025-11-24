@@ -1,0 +1,735 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Polski" />
+  </tags>
+  <strings>
+    <string id="03YrcAtx" text="{.MI}Owinięty{.aj} {.MI}skórzany{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="0gteBOD7" text="{.F}Głownia{.nn} {.MI}berdysza{.nn}" />
+    <string id="0kP9bf7n" text="{.F}Rękojeść{.nn} sierpa" />
+    <string id="0LJtoZtW" text="{.MI}Grawerowany{.aj} {.MI}haczykowany{.aj} {.MI}jelec{.nn} bułatu" />
+    <string id="0Y0kaTwm" text="{.N}Ostrze{.nn} prostej spathy" />
+    <string id="13lb5at6" text="{.F}Mahoniowa{.aj} {.F}rękojeść{.nn} {.F}owinięta{.aj} grubą skórą" />
+    <string id="19a3jJ1s" text="{.N}Prążkowane{.aj} {.N}ostrze{.nn} wielkiej szabli" />
+    <string id="1ajbJdao" text="{.F}Głowica{.nn} {.F}sztabkowa{.aj}" />
+    <string id="1auabxxv" text="{.MI}Zaokrąglony{.aj} {.MI}płaski{.aj} {.MI}jelec{.nn}" />
+    <string id="1e9OaUWk" text="{.F}Wschodnia{.aj} {.F}głowica{.nn} lekkiej buławy" />
+    <string id="1Ia3Wxbf" text="{.N}Ostrze{.nn} falku ze stali dobrej jakości" />
+    <string id="1nGcpiom" text="{.F}Okrągła{.aj} {.F}ornamentowana{.aj} {.F}głowica{.nn}" />
+    <string id="1NLsucbu" text="{.F}Głowica{.nn} ciężkiej buławy ze wzmocnieniami" />
+    <string id="1NSafswc" text="{.MI}Obuch{.nn} topora celtyckiej elity" />
+    <string id="1pvLe1Mh" text="{.F}Prosta{.aj} {.F}głowica{.nn} ildu" />
+    <string id="1rGNXUaJ" text="{.MI}Cienki{.aj} {.MI}grot{.nn} włóczni rębajły ze stali dobrej jakości" />
+    <string id="1T0XBYlc" text="{.N}Utwardzone{.aj} {.N}dębowe{.aj} {.N}stylisko{.nn} topora dwuręcznego" />
+    <string id="1yEQNTG1" text="{.F}Długa{.aj} {.F}głownia{.nn} piernacza" />
+    <string id="1zRo3td4" text="{.MI}Mocowany{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn} z rogu" />
+    <string id="22f2NR2N" text="{.N}Długie{.aj} {.N}sękate{.aj} {.N}drzewce{.nn} z drewna jesionu" />
+    <string id="26KZ6S7F" text="{.F}Wschodnia{.aj} {.F}zdobiona{.aj} {.F}głowica{.nn}" />
+    <string id="27Oaoras" text="{.N}Długie{.aj} {.N}tępe{.aj} {.N}ostrze{.nn} saksa" />
+    <string id="29OXRdZu" text="{.MI}Wąski{.aj} {.MI}stożkowy{.aj} {.MI}jelec{.nn}" />
+    <string id="2FLWuksh" text="{.MI}Batański{.aj} {.MI}uchwyt{.nn}" />
+    <string id="2Fq1t169" text="{.MI}Północny{.aj} {.MI}oprawiony{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="2LrkLq5M" text="{.MI}Północny{.aj} {.MI}jelec{.nn} długiego sztyletu" />
+    <string id="2MNfdGZQ" text="{.MI}Wzmocniony{.aj} {.MI}uchwyt{.nn} długiego miecza z rogu pokryty skórą dobrej jakości" />
+    <string id="2mo4gsuh" text="{.N}Ostrze{.nn} brzytwy drzewcowej" />
+    <string id="2noNmMPc" text="{.MI}Cesarski{.aj} {.MI}wystawny{.aj} {.MI}szeroki{.aj} {.MI}jelec{.nn} " />
+    <string id="2OWBegq6" text="{.MI}Gruby{.aj} {.MI}grawerowany{.aj} {.MI}jelec{.nn} bojowego miecza" />
+    <string id="2XBuTBru" text="{.MI}Północny{.aj} {.MI}długi{.aj} {.MI}uchwyt{.nn} w kształcie klepsydry" />
+    <string id="35tXR29a" text="{.MI}Gładki{.aj} {.MI}wschodni{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="37DVF96v" text="{.MI}Półksiężycowaty{.aj} {.MI}jelec{.nn} sztyletu {.MI}zakończony{.aj} guzami" />
+    <string id="38vt2VVz" text="{.F}Szeroka{.aj} {.F}głowica{.nn}" />
+    <string id="3aXHbrFV" text="{.F}Długa{.aj} {.F}bambusowa{.aj} {.F}rękojeść{.nn} z metalową końcówką" />
+    <string id="3cIsT4ZK" text="{.MI}Szeroki{.aj} {.MI}rycerski{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="3ged5Ozt" text="{.F}Wyjątkowa{.aj} {.F}wschodnia{.aj} {.F}glewia{.nn}" />
+    <string id="3Q3FFqu0" text="{.F}Lekka{.aj} {.F}głowica{.nn} królewskiej buławy" />
+    <string id="3tCye4Iw" text="{.F}Prosta{.aj} {.F}głowica{.nn} długiej włóczni" />
+    <string id="3uUaFQ9Y" text="{.MI}Grawerowany{.aj} {.MI}jelec{.nn} w kształcie młota" />
+    <string id="3VCyUu2h" text="{.MI}Wschodni{.aj} {.MI}cienki{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="3VoW9qZs" text="{.MI}Złoty{.aj} {.MI}oprawiony{.aj} {.MI}uchwyt{.nn} miecza rycerskiego" />
+    <string id="3wn1WbIx" text="{.N}Prążkowane{.aj} {.N}ostrze{.nn} długiej kaskary" />
+    <string id="3wXjMEwI" text="{.MI}Podzielony{.aj} {.MI}uchwyt{.nn} miecza rycerskiego {.MI}pokryty{.aj} skórą" />
+    <string id="3Y7plSBX" text="{.N}Ostrze{.nn} żelaznego pałasza" />
+    <string id="3ZyRhmke" text="{.MI}Krótki{.aj} {.MI}uchwyt{.nn} szabli" />
+    <string id="45k6EEUu" text="{.MI}Żelazny{.aj} {.MI}obuch{.nn} tasaka na drzewcu" />
+    <string id="47UEgMpD" text="{.F}Dębowa{.aj} {.F}rękojeść{.nn} zakończona szpicem" />
+    <string id="4FnOKgB6" text="{.MI}Cesarski{.aj} {.MI}półksiężycowaty{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="4Ilo91CO" text="{.MI}Zachodni{.aj} {.MI}obuch{.nn} topora bojowego" />
+    <string id="4MZvoVyI" text="{.F}Nitowana{.aj} {.F}okrągła{.aj} {.F}głowica{.nn} włóczni" />
+    <string id="4OefdTD1" text="{.N}Prążkowane{.aj} {.N}krótkie{.aj} {.N}ostrze{.nn} gladiusa" />
+    <string id="4Olvmpen" text="{.MI}Jednoręczny{.aj} {.MI}uchwyt{.nn} z szorstkiej skóry w kształcie klepsydry" />
+    <string id="4t0EyE1B" text="{.MI}Wyplatany{.aj} {.MI}skórzany{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="4TvA6YaC" text="{.MI}Marmurkowaty{.aj} {.MI}uchwyt{.nn} miecza rycerskiego" />
+    <string id="4VIUHmbP" text="{.F}Zdobiona{.aj} {.F}stalowa{.aj} {.F}rękojeść{.nn} buławy" />
+    <string id="4XytssVk" text="{.MI}Półksiężycowaty{.aj} {.MI}jelec{.nn}" />
+    <string id="4z3U5ubo" text="{.MI}Złoty{.aj} {.MI}jelec{.nn} miecza bojowego" />
+    <string id="57DBqJd1" text="{.F}Gruba{.aj} {.F}rękojeść{.nn} buławy owinięta skórą" />
+    <string id="5ALE9Joh" text="{.F}Głownia{.nn} kosy bojowej" />
+    <string id="5GR6xb8a" text="{.MI}Uchwyt{.nn} narzędzia" />
+    <string id="5KvdG6ep" text="{.MI}Rycerski{.aj} {.MI}złoty{.aj} {.MI}półksiężycowaty{.aj} {.MI}jelec{.nn}" />
+    <string id="5l0PBFAe" text="{.N}Żelazne{.aj} {.N}tępe{.aj} {.N}ostrze{.nn} flisy" />
+    <string id="5NeanDJM" text="{.F}Głowica{.nn} {.F}pierścieniowa{.aj}" />
+    <string id="5o5DaSHZ" text="{.N}Szerokie{.aj} {.N}ostrze{.nn} sztyletu" />
+    <string id="5V0QR20o" text="{.MI}Obszerny{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn} z szorstkiej skóry {.MI}zakończony{.aj} guzami" />
+    <string id="5Xoa1EFa" text="{.N}Grawerowane{.aj} {.N}ostrze{.nn} miecza jednosiecznego" />
+    <string id="61A1VUw8" text="{.MI}Jelec{.nn} z brązu {.MI}zakończony{.aj} guzami" />
+    <string id="61hjmt0T" text="{.F}Trójkątna{.aj} {.F}głowica{.nn}" />
+    <string id="62biJ5O5" text="{.MI}Góralski{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn} ze skóry dobrej jakości" />
+    <string id="6BMAGMRu" text="{.MI}Płaski{.aj} {.MI}jelec{.nn}" />
+    <string id="6Da4uzZO" text="{.MI}Grawerowany{.aj} {.MI}szeroki{.aj} {.MI}rycerski{.aj} {.MI}jelec{.nn}" />
+    <string id="6HybYLtu" text="{.MI}Północny{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn} {.MI}pokryty{.aj} szorstką skórą" />
+    <string id="6I4lZs47" text="{.F}Głowica{.nn} w kształcie grotu włóczni" />
+    <string id="6PD2rBbf" text="{.MI}Zwężany{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn} z rogu {.MI}pokryty{.aj} skórą" />
+    <string id="6uyVChLK" text="{.MI}Prostokątny{.aj} {.MI}sztandar{.nn}" />
+    <string id="6xkt7bxz" text="{.F}Ciężka{.aj} {.F}głowica{.nn} królewskiej buławy" />
+    <string id="6ZW9fOUJ" text="{.MI}Złoty{.aj} {.MI}jelec{.nn} kaskary" />
+    <string id="71588OX7" text="{.N}Bambusowe{.aj} {.N}drzewce{.nn}" />
+    <string id="7EZbFRaG" text="{.N}Wzmocnione{.aj} {.N}drzewce{.nn} z sosnowego drewna" />
+    <string id="7JjctWr3" text="{.MI}Rycerski{.aj} {.MI}grawerowany{.aj} {.MI}jelec{.nn} w kształcie młota" />
+    <string id="7lRnhAgf" text="{.MI}Północny{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn} w kształcie klepsydry" />
+    <string id="7ZWtiHKj" text="{.N}Długie{.aj} {.N}ostrze{.nn} miecza bojowego" />
+    <string id="85bQmjWX" text="{.N}Ostrze{.nn} noża" />
+    <string id="85jApGfe" text="{.MI}Jelec{.nn} sztyletu {.MI}zakończony{.aj} guzami" />
+    <string id="87BmkiMO" text="{.F}Sękata{.aj} {.F}rękojeść{.nn} buławy" />
+    <string id="89QyC7eD" text="{.MI}Północny{.aj} {.MI}wąski{.aj} {.MI}jelec{.nn}" />
+    <string id="8gW1o7iH" text="{.F}Zachodnia{.aj} {.F}głowica{.nn} z płatami" />
+    <string id="8OaZSfaZ" text="{.MI}Rozdwojony{.aj} {.MI}uchwyt{.nn} miecza rycerskiego z szorstkiej skóry" />
+    <string id="8olqutaL" text="{.MI}Północny{.aj} {.MI}rozdzielony{.aj} {.MI}uchwyt{.nn} {.MI}dwuręczny{.aj}" />
+    <string id="8S6ZYPFD" text="{.MI}Okrągły{.aj} {.MI}mocny{.aj} {.MI}obuch{.nn} siekierki ze stali dobrej jakości" />
+    <string id="8T7gNbfM" text="{.MI}Rytowany{.aj} {.MI}szeroki{.aj} {.MI}grot{.nn} włóczni w kształcie liścia" />
+    <string id="8x9klENe" text="{.N}Podzielone{.aj} {.N}nitowane{.aj} {.N}wzmocnienie{.nn} drzewca" />
+    <string id="8yb60cDi" text="{.N}Mahoniowe{.aj} {.N}drzewce{.nn} długiej włóczni" />
+    <string id="8ZbL3exH" text="{.F}Głowica{.nn} z płatami" />
+    <string id="9aYBy1RN" text="{.MI}Grot{.nn} włóczni ze stali dobrej jakości w kształcie liścia" />
+    <string id="9HgtH0Nb" text="{.MI}Jelec{.nn} włóczni w kształcie fali" />
+    <string id="9HMxA4AU" text="{.F}Żelazna{.aj} {.F}rękojeść{.nn} buławy" />
+    <string id="9JMatUNQ" text="{.MI}Szorstki{.aj} {.MI}północny{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="9JxsngjD" text="{.MI}Grawerowany{.aj} {.MI}srebrny{.aj} {.MI}jelec{.nn} kaskary" />
+    <string id="9PgS5SzW" text="{.MI}Wzmocniony{.aj} {.MI}żelazny{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn} z rogu" />
+    <string id="9phikaHT" text="{.MI}Zachodni{.aj} {.MI}półksiężycowaty{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="9qaanOpL" text="{.F}Północna{.aj} {.F}prosta{.aj} {.F}głowica{.nn}" />
+    <string id="9T2KA9sk" text="{.MI}Złoty{.aj} {.MI}oprawiony{.aj} {.MI}zdobiony{.aj} {.MI}stalowy{.aj} {.MI}uchwyt{.nn}" />
+    <string id="9Y1zUaE7" text="{.F}Cesarska{.aj} {.F}okrągła{.aj} {.F}głowica{.nn}" />
+    <string id="A06HEqvF" text="{.N}Wiązane{.aj} {.N}skrzydło{.nn} włóczni" />
+    <string id="a0erBuF1" text="{.MI}Haczykowany{.aj} {.MI}obuch{.nn} topora" />
+    <string id="A1m12E8N" text="{.MI}Długi{.aj} {.MI}rycerski{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="a4qSDsmb" text="{.MI}Cesarski{.aj} {.MI}złoty{.aj} {.MI}jelec{.nn} wielkiego miecza" />
+    <string id="a860bQ4f" text="{.F}Płaska{.aj} {.F}głowica{.nn}" />
+    <string id="AA4WhCGw" text="{.MI}Płaski{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="aaEv3sBU" text="{.N}Dębowe{.aj} {.N}drzewce{.nn} oszczepu" />
+    <string id="aalvbENh" text="{.F}Pustynna{.aj} {.F}głowica{.nn}" />
+    <string id="aaYy1btG" text="{.MI}Sztandar{.nn} z ogonem jaskółki" />
+    <string id="abLXJ3L3" text="{.F}Głowica{.nn} w kształcie buławy" />
+    <string id="aBnaaaHv" text="{.N}Długie{.aj} {.N}ostrze{.nn} saksa" />
+    <string id="Ac4kblsm" text="{.MI}Północny{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn} z grubej skóry" />
+    <string id="aFxc3ZVL" text="{.MI}Wklęsły{.aj} {.MI}jelec{.nn} w kształcie dysku" />
+    <string id="AGfMPOWB" text="{.F}Kanciasta{.aj} {.F}rękojeść{.nn} buławy ze stali dobrej jakości" />
+    <string id="aGtEhibt" text="{.F}Północna{.aj} {.F}okrągła{.aj} {.F}głowica{.nn}" />
+    <string id="aj59KGOS" text="{.MI}Dwuręczny{.aj} {.MI}uchwyt{.nn} z szorstkiej skóry" />
+    <string id="ajVcY9v6" text="{.MI}Obuch{.nn} małego topora" />
+    <string id="AkfEFzkk" text="{.MI}Miskowaty{.aj} {.MI}jelec{.nn}" />
+    <string id="AKJzOQkF" text="{.N}Wschodnie{.aj} {.N}ostrze{.nn} miecza jednosiecznego" />
+    <string id="aKpVHE2g" text="{.N}Podwójne{.ajp} {.N}haczykowate{.ajp} {.N}skrzydło{.nnp} z frędzlami" />
+    <string id="AlIRh9mz" text="{.N}Północne{.aj} {.N}tępe{.aj} {.N}zwężane{.aj} {.N}ostrze{.nn}" />
+    <string id="ALO9gw69" text="{.F}Kwadratowa{.aj} {.F}część{.nn} obucha dwuręcznego topora" />
+    <string id="AlRRkKut" text="{.F}Głowica{.nn} ciężkiego morgenszternu" />
+    <string id="alti0PsZ" text="{.N}Szpiczaste{.aj} {.N}ostrze{.nn} miecza bojowego" />
+    <string id="AM6iuDAv" text="{.MI}Jelec{.nn} sztyletu w kształcie rombu {.MI}zakończony{.aj} guzami" />
+    <string id="AO2BfABx" text="{.F}Grzybkowa{.aj} {.F}głowica{.nn}" />
+    <string id="Ao7c1VrC" text="{.F}Północna{.aj} {.F}trójkątna{.aj} {.F}głowica{.nn}" />
+    <string id="AObgGzg9" text="{.MI}Mocowany{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn} z rogu" />
+    <string id="aPr8NPdo" text="{.F}Zachodnia{.aj} {.F}żelazna{.aj} {.F}głownia{.nn} broni drzewcowej" />
+    <string id="aQa3tp6Q" text="{.N}Zdobione{.aj} {.N}długie{.aj} {.N}drzewce{.nn} z sosnowego drewna" />
+    <string id="artqaNEi" text="{.MI}Żelazny{.aj} {.MI}jelec{.nn} {.MI}zakończony{.aj} guzami" />
+    <string id="aS56bF5s" text="{.MI}Krótki{.aj} {.MI}nóż{.nn} do siekania" />
+    <string id="ASGZJW85" text="{.MI}Podzielony{.aj} {.MI}żelazny{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn} spathy" />
+    <string id="aTnuOUCC" text="{.N}Ostrze{.nn} kaskary z thamasceńskiej stali" />
+    <string id="AtNVVwTF" text="{.N}Krótkie{.aj} {.N}drzewce{.nn} z sosnowego drewna" />
+    <string id="aUJaQmN1" text="{.MI}Wzmocniony{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn} {.MI}wysadzany{.aj} klejnotami " />
+    <string id="aVBGVt7N" text="{.MI}Zwężany{.aj} {.MI}uchwyt{.nn} z rogu" />
+    <string id="Aw7Veoaa" text="{.MI}Oprawiony{.aj} {.MI}szorstki{.aj} {.MI}kanciasty{.aj} {.MI}uchwyt{.nn} z żelaza i skóry" />
+    <string id="aYnTt86Y" text="{.MI}Rozszczepiony{.aj} {.MI}jelec{.nn} sztyletu z brązu" />
+    <string id="az6t2tOm" text="{.MI}Zachodni{.aj} {.MI}prążkowany{.aj} {.MI}jelec{.nn}" />
+    <string id="azjW7lAg" text="{.MI}Grawerowany{.aj} {.MI}haczykowany{.aj} {.MI}jelec{.nn} ildu" />
+    <string id="aZp1ur9Q" text="{.F}Głowica{.nn} w kształcie kielicha" />
+    <string id="b1KGhVwD" text="{.MI}Północny{.aj} {.MI}wklęsły{.aj} {.MI}jelec{.nn}" />
+    <string id="b30mn7KF" text="{.N}Ostrze{.nn} handżaru" />
+    <string id="b9bboB3v" text="{.F}Południowa{.aj} {.F}głowica{.nn} buławy piechoty" />
+    <string id="baQ99nza" text="{.N}Długie{.aj} {.N}drzewce{.nn} z drewna jesionu" />
+    <string id="bCCYhnbY" text="{.MI}Zielony{.aj} {.MI}skórzany{.aj} {.MI}uchwyt{.nn}" />
+    <string id="bCZ6V3uY" text="{.MI}Jelec{.nn} sztyletu w kształcie głowy węża" />
+    <string id="bEbyObu7" text="{.MI}Złoty{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn} {.MI}wysadzany{.aj} klejnotami" />
+    <string id="Bej5R7tP" text="{.MI}Jelec{.nn} sztyletu z koroną" />
+    <string id="bEQETxjB" text="{.F}Prążkowana{.aj} {.F}głowica{.nn}" />
+    <string id="bfE00BnK" text="{.F}Rękojeść{.nn} buławy z żelazną głowicą" />
+    <string id="bfueDx6s" text="Silnie {.N}wzmocnione{.aj} {.N}dębowe{.aj} {.N}stylisko{.nn} wielkiego topora" />
+    <string id="bGaOu7rO" text="{.MI}Wschodni{.aj} {.MI}płaski{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="bGfs8gNv" text="{.N}Północne{.aj} {.N}ostrze{.nn} miecza jednosiecznego" />
+    <string id="bjQ8J71a" text="{.F}Głownia{.nn} długiej glewii" />
+    <string id="BKHKQ15N" text="{.F}Turkusowa{.aj} {.F}głowica{.nn}" />
+    <string id="bki9u9FW" text="{.N}Ostrze{.nn} miecza rycerskiego ze złotym kręgiem" />
+    <string id="BL96pnde" text="{.MI}Jednoręczny{.aj} {.MI}uchwyt{.nn} tasaka z szorstkiej skóry" />
+    <string id="blaVlvm2" text="{.N}Zdobione{.aj} {.N}krótkie{.aj} {.N}ostrze{.nn} miecza bojowego" />
+    <string id="bM8kSewD" text="{.MI}Północny{.aj} {.MI}prążkowany{.aj} {.MI}jelec{.nn}" />
+    <string id="booEob1z" text="{.F}Głowica{.nn} w kształcie dysku" />
+    <string id="bP6SBz4s" text="{.MI}Cesarski{.aj} {.MI}złoty{.aj} {.MI}prasowany{.aj} {.MI}jelec{.nn}" />
+    <string id="bPUXlfs8" text="{.MI}Zdobiony{.aj} {.MI}wschodni{.aj} {.MI}uchwyt{.nn} ildu" />
+    <string id="BQ3hMy9D" text="{.F}Głowica{.nn} w kształcie głowy konia" />
+    <string id="bQkJSHCt" text="{.MI}Dwuręczny{.aj} {.MI}uchwyt{.nn} z brązu ze srebrną spiralą" />
+    <string id="bQzz8mc3" text="{.N}Proste{.aj} {.N}stylisko{.nn} toporka do rzucania z drewna sosnowego" />
+    <string id="BtXFrrVj" text="{.MI}Gruby{.aj} {.MI}wklęsły{.aj} {.MI}jelec{.nn}" />
+    <string id="BXW4LeQT" text="{.N}Szerokie{.aj} {.N}krótkie{.aj} {.N}ostrze{.nn} ze zbroczem" />
+    <string id="bZbW2UEE" text="{.MI}Szeroki{.aj} {.MI}wschodni{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="bzr1DEgS" text="{.MI}Południowy{.aj} {.MI}jelec{.nn} sztyletu w kształcie gwiazdy" />
+    <string id="c1YI2Nxt" text="{.N}Żelazne{.aj} {.N}ostrze{.nn} spathy" />
+    <string id="C2hTDlWq" text="{.N}Ciężkie{.aj} {.N}ostrze{.nn} szabli" />
+    <string id="c6aNuaDP" text="{.MI}Ząbkowany{.aj} {.MI}tępy{.aj} {.MI}grot{.nn} włóczni" />
+    <string id="C89rbAz6" text="{.N}Ostrze{.nn} miecza rycerskiego" />
+    <string id="cag70E1F" text="{.F}Głowica{.nn} piernacza" />
+    <string id="cbHjFPEb" text="{.MI}Góralski{.aj} {.MI}uchwyt{.nn} półtoraręcznego miecza ze skóry dobrej jakości" />
+    <string id="CdBAvJdP" text="{.F}Głownia{.nn} kontosa" />
+    <string id="CE1IQiEU" text="{.MI}Spiralny{.aj} {.MI}uchwyt{.nn} miecza rycerskiego ze skóry dobrej jakości" />
+    <string id="CeeJmlSq" text="{.MI}Obuch{.nn} ciężkiego shishparu" />
+    <string id="cEU66ABf" text="{.N}Północne{.aj} {.N}ostrze{.nn} topora bojowego" />
+    <string id="cFTzptut" text="{.F}Mahoniowa{.aj} {.F}rękojeść{.nn}" />
+    <string id="CiZRwdet" text="{.MI}Wschodni{.aj} {.MI}płaski{.aj} {.MI}jelec{.nn}" />
+    <string id="cK6D7cyn" text="{.MI}Duży{.aj} {.MI}obuch{.nn} franciski" />
+    <string id="CKKaarrY" text="{.MI}Oprawiony{.aj} {.MI}drutowany{.aj} {.MI}uchwyt{.nn} {.MI}pokryty{.aj} skórą" />
+    <string id="CODGBskg" text="{.N}Ostrze{.nn} długiej szabli" />
+    <string id="cuxuEx40" text="{.MI}Owalny{.aj} {.MI}jelec{.nn} z fasetą" />
+    <string id="CYVjEcPQ" text="{.MI}Mały{.aj} {.MI}długi{.aj} {.MI}sztandar" />
+    <string id="czhTpYo8" text="{.N}Ostrze{.nn} żelaznej szabli" />
+    <string id="d2kOHsY7" text="{.MI}Zdobiony{.aj} {.MI}uchwyt{.nn} pałasza" />
+    <string id="d4aLa7tz" text="{.F}Głowica{.nn} {.F}szczytowa{.aj}" />
+    <string id="d4bVwnK8" text="{.MI}Kreszowany{.aj} {.MI}skórzany{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="dafrn0mR" text="{.N}Ostrze{.nn} spathy z thamasceńskiej stali" />
+    <string id="dbmuyJcf" text="{.F}Południowa{.aj} {.F}głowica{.nn} z fasetą" />
+    <string id="dBVMNui8" text="{.MI}Wzmocniony{.aj} {.MI}żelazny{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn} z rogu" />
+    <string id="dCco8dRt" text="{.MI}Jelec{.nn} sztyletu w kształcie dysku" />
+    <string id="Dd7fJ9aL" text="{.MI}Rozdwojony{.aj} {.MI}uchwyt{.nn} długiego miecza z szorstkiej skóry" />
+    <string id="DEpwMMql" text="{.MI}Południowy{.aj} {.MI}jelec{.nn} sztyletu z otworami" />
+    <string id="dgjXkbuA" text="{.F}Głowica{.nn} w kształcie sowiego oka" />
+    <string id="DiAHIRxm" text="{.MI}Grawerowany{.aj} {.MI}jelec{.nn} szabli" />
+    <string id="DID87A6l" text="{.MI}Wyplatany{.aj} {.MI}skórzany{.aj} {.MI}uchwyt{.nn}" />
+    <string id="Dix4EYD8" text="{.MI}Obuch{.nn} wielkiego młota" />
+    <string id="DkhuNoTH" text="{.MI}Drewniany{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="dlnciENS" text="{.MI}Drewniany{.aj} {.MI}jelec{.nn}" />
+    <string id="DLvSnz8U" text="{.MI}Góralski{.aj} {.MI}rytowany{.aj} {.MI}jelec{.nn}" />
+    <string id="dnd2hafw" text="{.MI}Szorstki{.aj} {.MI}owinięty{.aj} {.MI}prosty{.aj} {.MI}uchwyt{.nn}" />
+    <string id="dNk7UZVD" text="{.N}Wąskie{.aj} {.N}tępe{.aj} {.N}ostrze{.nn} miecza rycerskiego ze zbroczem" />
+    <string id="do4vZhh4" text="{.MI}Zwężany{.aj} {.MI}cienki{.aj} {.MI}jelec{.nn}" />
+    <string id="DPa0JB1U" text="{.MI}Ćwiekowany{.aj} {.MI}kanciasty{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn} z brązu" />
+    <string id="dpft1I1B" text="{.MI}Zachodni{.aj} {.MI}cienki{.aj} {.MI}jelec{.nn}" />
+    <string id="Dsf9JE8N" text="{.MI}Drewniany{.aj} {.MI}hak{.nn}" />
+    <string id="dTkiV4i6" text="{.F}Głowica{.aj} {.F}rybacka{.nn}" />
+    <string id="dtSrK9bs" text="{.N}Szerokie{.aj} {.N}ostrze{.nn} saksa" />
+    <string id="DVe5SkQA" text="{.N}Podwójne{.ajp} {.N}łopatkowe{.ajp} {.N}skrzydła{.nnp}" />
+    <string id="dvm8sTr9" text="{.F}Drewniana{.aj} {.F}głowica{.nn}" />
+    <string id="DXLlcbf9" text="{.N}Drzewce{.nn} oszczepu z drewna jesionu" />
+    <string id="dXRt8jY4" text="{.F}Głownia{.nn} menaulionu" />
+    <string id="DzncFcGk" text="{.F}Głowica{.nn} keszygu" />
+    <string id="e1DF7wbz" text="{.MI}Utwardzony{.aj} {.MI}kostur{.nn} z drewna jesionu" />
+    <string id="E7cNp0rF" text="{.F}Nitowana{.aj} {.F}głowica{.nn} włóczni" />
+    <string id="eapPaDKi" text="{.MI}Gruby{.aj} {.MI}posrebrzany{.a} {.MI}jelec{.nn} miecza bojowego " />
+    <string id="EBlx3VId" text="{.N}Góralskie{.aj} {.N}prymitywne{.aj} {.N}żelazne{.aj} {.N}ostrze{.nn}" />
+    <string id="EbucFMZq" text="{.MI}Szeroki{.aj} {.MI}wklęsły{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="eBxzZ1SW" text="{.MI}Wzmocniony{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn} {.MI}wysadzany{.aj} klejnotami" />
+    <string id="edg8bnXX" text="{.MI}Północny{.ak} {.MI}prążkowany{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="eeFrva8L" text="{.F}Głowica{.nn} z otworami" />
+    <string id="EjJl6bA4" text="{.MI}Tępy{.aj} {.MI}obuch{.nn} tasaka na drzewcu" />
+    <string id="ELpWa0K5" text="{.N}Utwardzone{.aj} {.N}dębowe{.aj} {.N}drzewce{.nn} piki" />
+    <string id="eLrbkvTV" text="{.MI}Północny{.aj} {.MI}jelec{.nn} wielkiego miecza" />
+    <string id="emryrbYV" text="{.F}Spleciona{.aj} {.F}głowica{.nn}" />
+    <string id="emUoygLE" text="{.F}Głownia{.nn} harpuna" />
+    <string id="euI3vluL" text="{.MI}Szeroki{.aj} {.MI}jelec{.nn} szabli" />
+    <string id="f0syWNR7" text="{.N}Ostrze{.nn} puginału" />
+    <string id="f3zHQAs9" text="{.MI}Sztandar{.nn} z nietypowym proporcem" />
+    <string id="f4GSe3UB" text="{.N}Ostrze{.nn} łopaty" />
+    <string id="faZasq1G" text="{.F}Wschodnia{.aj} {.F}głowica{.nn} pierścieniowa" />
+    <string id="fd6Lnv1l" text="{.MI}Złoty{.aj} {.MI}jelec{.nn} gladiusa" />
+    <string id="fdR6zYiP" text="{.MI}Obuch{.nn} franziski" />
+    <string id="FDscHYmZ" text="{.MI}Sztandar{.nn} oriflamme" />
+    <string id="fEkKXof4" text="{.N}Skrzydło{.nn} {.N}mocowane{.aj} na wylot" />
+    <string id="feVbf7sb" text="{.N}Prążkowane{.aj} {.N}ostrze{.nn} krótkiej kaskary" />
+    <string id="fhbGCsdC" text="{.F}Wschodnia{.aj} {.F}głowica{.nn} ciężkiej buławy" />
+    <string id="fHKHwvsW" text="{.F}Pręgowana{.aj} {.F}głowica{.nn} z brązu" />
+    <string id="finesteelbladecraftingpiece" text="{.N}Góralskie{.aj} {.N}ostrze{.nn} ze stali dobrej jakości" />
+    <string id="fnz6wUVy" text="{.F}Okrągła{.aj} {.F}głowica{.nn} włóczni z kolcami" />
+    <string id="fo040lyg" text="{.MI}Prosty{.aj} {.MI}owinięty{.aj} {.MI}uchwyt{.nn}" />
+    <string id="fOrRdtNK" text="{.MI}Mały{.aj} {.MI}obuch{.nn} topora z ostrogą" />
+    <string id="fRVQzcoY" text="{.MI}Jednoręczny{.aj} {.MI}uchwyt{.nn} {.MI}owinięty{.aj} szorstką, grubą skórą" />
+    <string id="Ft5A2Eb4" text="{.MI}Wschodni{.aj} {.MI}wzmocniony{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn} {.MI}pokryty{.aj} skórą" />
+    <string id="ftwNaFZh" text="{.N}Podwójne{.ajp} {.N}haczykowate{.ajp} {.N}skrzydła{.nnp}" />
+    <string id="fuIxmJ2g" text="{.N}Ciężkie{.aj} {.N}drewniane{.aj} {.N}ostrze{.nn}" />
+    <string id="FURnbmjc" text="{.N}Drzewce{.nn} z drewna jesionu" />
+    <string id="FxCfO3zN" text="{.F}Wzmocniona{.aj} {.F}żelazna{.aj} {.F}rękojeść{.nn} dwuręcznej buławy" />
+    <string id="g2r3QKOB" text="{.MI}Południowy{.aj} {.MI}mały{.aj} {.MI}obuch{.nn} topora" />
+    <string id="g5Va1lfk" text="{.MI}Zwężany{.aj} {.MI}pustynny{.aj} {.MI}jelec{.nn}" />
+    <string id="g60SQjOR" text="{.MI}Uchwyt{.nn} długiego miecza z rogu {.MI}owinięty{.aj} skórą" />
+    <string id="G8Fb2RPa" text="{.N}Szpiczaste{.aj} {.N}ostrze{.nn} falcjonu" />
+    <string id="G9cBw5sV" text="{.F}Góralska{.aj} {.F}okrągła{.aj} {.F}głowica{.nn}" />
+    <string id="GA4AaQQk" text="{.MI}Wzmocniony{.aj} {.MI}jednoręczny{.aj} {.MI}drewniany{.aj} {.MI}uchwyt{.nn}" />
+    <string id="gdVNxGZU" text="{.N}Prążkowane{.aj} {.N}krótkie{.aj} {.N}ostrze{.nn}" />
+    <string id="Gewh8Bzr" text="{.MI}Oprawiony{.aj} {.MI}futrzany{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="GFBFgA7R" text="{.N}Szerokie{.aj} {.N}tępe{.aj} {.N}ostrze{.nn} sztyletu" />
+    <string id="GI6XD77j" text="{.F}Cesarska{.aj} {.F}zdobiona{.aj} {.F}głowica{.nn}" />
+    <string id="gIm5Lnh8" text="{.N}Mahoniowe{.aj} {.N}drzewce{.nn} oszczepu" />
+    <string id="GJYbHthS" text="{.MI}Sztandar{.nn} z ogonem jaskółki i dwoma jęzorami" />
+    <string id="GLnI8ozz" text="{.F}Rękojeść{.nn} z drewna sekwoi" />
+    <string id="gM8zaQ8l" text="{.MI}Sztandar{.nn} na poprzecznym drzewcu" />
+    <string id="GMwWb6SE" text="{.N}Drewniane{.aj} {.N}ostrze{.nn} włóczni" />
+    <string id="gPXRnvas" text="{.MI}Jelec{.nn} w kształcie dysku" />
+    <string id="GQ9JwKBt" text="{.MI}Dwuręczny{.aj} {.MI}uchwyt{.nn} tasaka z szorstkiej skóry" />
+    <string id="GqwD99cu" text="{.F}Ozdobna{.aj} {.F}głowica{.nn}" />
+    <string id="GsBQCQEF" text="{.N}Wzmocnione{.aj} {.N}długie{.aj} {.N}drzewce{.nn} z sosnowego drewna" />
+    <string id="gSdybwMN" text="{.MI}Wielki{.aj} {.MI}zakrzywiony{.aj} {.MI}rytowany{.aj} {.MI}nordycki{.aj} {.MI}obuch{.nn}" />
+    <string id="gsNbyLjV" text="{.F}Krótka{.aj} {.F}rękojeść{.nn} z drewna sekwoi" />
+    <string id="gTMThdRJ" text="{.F}Głowica{.n} dla władcy" />
+    <string id="gTzMtKYu" text="{.MI}Sztych{.nn} falcjonu w kształcie gwiazdy" />
+    <string id="gwkR6TZL" text="{.N}Zdobione{.aj} {.N}ostrze{.nn} kaskary" />
+    <string id="GXhZ8NKv" text="{.N}Północne{.aj} {.N}szerokie{.aj} {.N}ostrze{.nn} ze zbroczem" />
+    <string id="gXUXjtuL" text="{.N}Ostrze{.nn} kamy" />
+    <string id="GyOxvJpB" text="{.F}Kulista{.aj} {.F}głowica{.nn}" />
+    <string id="gZzEkk5t" text="{.MI}Góralski{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn} ze skóry dobrej jakości" />
+    <string id="H2xibh6p" text="{.MI}Ćwiekowany{.aj} {.MI}cesarski{.aj} {.MI}uchwyt{.nn}" />
+    <string id="h4DmfRfb" text="{.F}Rycerska{.aj} {.F}głowica{.nn}" />
+    <string id="H6hlPsgV" text="{.MI}Jednoręczny{.aj} {.MI}uchwyt{.nn} z grubej skóry" />
+    <string id="HA4O76ri" text="{.F}Wstążka{.nn}" />
+    <string id="HaNPlFBt" text="{.N}Owinięte{.aj} {.N}długie{.aj} {.N}drzewce{.nn} z twardego drewna" />
+    <string id="HbCb0T6W" text="{.N}Tępe{.aj} {.N}ostrze{.nn} pałasza" />
+    <string id="hbv5aCRX" text="{.MI}Krótki{.aj} {.MI}tępy{.aj} {.MI}prosty{.aj} {.MI}grot{.nn} włóczni" />
+    <string id="hD5LzC6b" text="{.MI}Oprawiony{.aj} {.MI}kanciasty{.aj} {.MI}żelazny{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="he3725oa" text="{.F}Stożkowata{.aj} {.F}głowica{.nn} włóczni" />
+    <string id="HF2WJagx" text="{.MI}Zdobiony{.aj} {.MI}uchwyt{.nn} miecza bojowego {.MI}owinięty{.aj} skórą" />
+    <string id="HHVH0IoH" text="{.F}Utwardzona{.aj} {.F}rękojeść{.nn} z futra i drewna sekwoi" />
+    <string id="Hj151a5b" text="{.MI}Zwężany{.aj} {.MI}półksiężycowaty{.aj} {.MI}jelec{.nn}" />
+    <string id="hk3d4d35" text="{.F}Rękojeść{.nn} buławy z drewna sekwoi" />
+    <string id="hKKIijPr" text="{.MI}Wklęsły{.aj} {.MI}jelec{.nn} sztyletu w kształcie dysku" />
+    <string id="HlFpG5xw" text="{.MI}Rozszczepiony{.aj} {.MI}jelec{.nn} z brązu" />
+    <string id="HmsEarnz" text="{.F}Głowica{.nn} w kształcie łezki" />
+    <string id="hN0kTfhB" text="{.MI}Wzmocniony{.aj} {.MI}kreszowany{.aj} {.MI}uchwyt{.nn} z żelaza i skóry" />
+    <string id="hRfqLq4V" text="{.N}Ostrze{.nn} falcjonu" />
+    <string id="hRtzRR6C" text="{.F}Cesarska{.aj} {.F}lekka{.aj} {.F}głowica{.nn} buławy" />
+    <string id="hSSk6tTn" text="{.MI}Obuch{.nn} toporka do rzucania" />
+    <string id="huaGi2zw" text="{.MI}Północny{.aj} {.MI}wklęsły{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="HuYwPEmh" text="{.F}Ornamentowana{.aj} {.F}głowica{.nn}" />
+    <string id="hvCj5TID" text="{.MI}Szpiczasty{.aj} {.MI}półksiężycowaty{.aj} {.MI}jelec{.nn}" />
+    <string id="HwCYBWq2" text="{.N}Ostrze{.nn} spathy z zaostrzoną końcówką" />
+    <string id="hWTFaw0E" text="{.F}Stalowa{.aj} {.F}kolba{.nn}" />
+    <string id="hX6YZ5GJ" text="{.F}Głowica{.nn} ciężkiej dużej pałki z kolcami" />
+    <string id="HysmKS5a" text="{.N}Prążkowane{.aj} {.N}szerokie{.aj} {.N}ostrze{.nn} sztyletu" />
+    <string id="i7d3En7L" text="{.N}Haczykowate{.aj} {.N}ostrze{.nn} falcjonu" />
+    <string id="i9Ja7Uib" text="{.MI}Grawerowany{.aj} {.MI}gruby{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="I9yrLqPc" text="{.F}Wschodnia{.aj} {.F}głowica{.nn} buławy ze wzmocnieniami" />
+    <string id="IAltuLvf" text="{.MI}Północny{.aj} {.MI}zwężany{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="Ibaju3oe" text="{.F}Głowica{.nn} w kształcie głowy orła" />
+    <string id="ibU7mZKx" text="{.MI}Trzon{.nn} wielkiego topora z drewna jesionu" />
+    <string id="iFhr5nGq" text="{.MI}Cesarski{.aj} {.MI}obuch{.nn} topora" />
+    <string id="IftwekS7" text="{.MI}Grawerowany{.aj} {.MI}jelec{.nn} bojowego miecza z brązu" />
+    <string id="il1M66Z8" text="{.MI}Jednoręczny{.aj} {.MI}uchwyt{.nn} owinięty skórą" />
+    <string id="iMbT3L4I" text="{.N}Ostrze{.nn} kosy" />
+    <string id="In69b7aL" text="{.MI}Zdobiony{.aj} {.MI}metalowy{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn} w połowie {.MI}pokryty{.aj} skórą" />
+    <string id="indl9fEW" text="{.MI}Szorstki{.aj} {.MI}oprawiony{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn} z grubej skóry" />
+    <string id="IR8UeIRp" text="{.F}Głowica{.nn} buławy katafraktów" />
+    <string id="ittUjlRb" text="{.MI}Jelec{.nn} w kształcie rombu" />
+    <string id="IUlApNGp" text="{.N}Długie{.aj} {.N}ostrze{.nn} falku" />
+    <string id="iuQE1xwL" text="{.N}Wąskie{.aj} {.N}ostrze{.nn} spathy ze zbroczem" />
+    <string id="IvUO8nJc" text="{.MI}Szeroki{.aj} {.MI}wklęsły{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="IWrTsX3V" text="{.MI}Jednoręczny{.aj} {.MI}uchwyt{.nn} z czerwonej skóry" />
+    <string id="IxCaIvUk" text="{.F}Wielka{.aj} {.F}północna{.aj} {.F}szeroka{.aj} {.F}zdobiona{.aj} {.F}głownia{.nn}" />
+    <string id="iznpu0ih" text="{.MI}Kreszowany{.aj} {.MI}jednoręczny{.aj} {.MI}skórzany{.aj} {.MI}uchwyt{.nn} kaskary" />
+    <string id="Izstbt9y" text="{.N}Góralskie{.aj} {.N}zdobione{.aj} {.N}ostrze{.nn}" />
+    <string id="IZw8FnwW" text="{.F}Duża{.aj} {.F}głownia{.nn} askii" />
+    <string id="j2pkA2Yr" text="{.MI}Południowy{.aj} {.MI}jelec{.nn} z koroną" />
+    <string id="J3ADekEw" text="{.MI}Dębowy{.aj} {.MI}trzon{.nn} wielkiego topora" />
+    <string id="J5Tu73Mb" text="{.N}Utwardzone{.aj} {.N}drzewce{.nn} długiej włóczni z sosnowego drewna" />
+    <string id="JabA2SWF" text="{.F}Wzmocniona{.aj} {.F}rękojeść{.nn} z drewna jesionu" />
+    <string id="JanWod6k" text="{.MI}Wąski{.aj} {.MI}jelec{.nn} miecza bojowego" />
+    <string id="Jbaj33wV" text="{.MI}Długi{.aj} {.MI}prostokątny{.aj} {.MI}sztandar{.nn}" />
+    <string id="JbP7zdes" text="{.MI}Południowy{.aj} {.MI}jelec{.nn} ze szpicem" />
+    <string id="JCYmlrKF" text="{.F}Wzmocniona{.aj} {.F}stalowa{.aj} {.F}rękojeść{.nn} buławy" />
+    <string id="JfRydy7M" text="{.MI}Prążkowany{.aj} {.MI}jelec{.nn} tasaka" />
+    <string id="jfyCVJya" text="{.MI}Przyciemniony{.aj} {.MI}stalowy{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="JIj91e96" text="{.MI}Oprawiony{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn} z grubej skóry" />
+    <string id="jMRMazLr" text="{.F}Zdobiona{.aj} {.F}rękojeść{.nn} buławy z drewna sosnowego" />
+    <string id="jN4PPWjp" text="{.MI}Półksiężycowaty{.aj} {.MI}jelec{.nn} {.MI}zakończony{.aj} guzami" />
+    <string id="jqiXcEyD" text="{.MI}Długi{.aj} {.MI}oprawiony{.aj} {.MI}uchwyt{.nn}" />
+    <string id="jre8aFdB" text="{.MI}Zachodni{.aj} {.MI}szpiczasty{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="Js1FKwrL" text="{.MI}Grot{.nn} oszczepu" />
+    <string id="JSba9OCN" text="{.MI}Żelazny{.aj} {.MI}jelec{.nn} sztyletu {.MI}zakończony{.aj} guzami" />
+    <string id="jupH2NfE" text="{.MI}Złoty{.aj} {.MI}inkrustowany{.aj} {.MI}kanciasty{.aj} {.MI}uchwyt{.nn} półtoraręcznego miecza" />
+    <string id="jZnVKvJN" text="{.F}Rozgałęziona{.aj} {.F}głowica{.nn}" />
+    <string id="jzzZDEw7" text="{.MI}Długi{.aj} {.MI}drutowany{.aj} {.MI}uchwyt{.nn}" />
+    <string id="k2HEOuHV" text="{.MI}Oprawiony{.aj} {.MI}uchwyt{.nn} półtoraręcznego miecza z brązu" />
+    <string id="k2MQ9kL0" text="{.F}Stalowa{.aj} {.F}rękojeść{.nn} buławy" />
+    <string id="k66YIIWR" text="{.N}Wąskie{.aj} {.N}ostrze{.nn} kaskary ze stali dobrej jakości" />
+    <string id="kaoSz0Cx" text="{.MI}Cięty{.aj} na ukos {.MI}dwuręczny{.aj} {.MI}skórzany{.aj} {.MI}uchwyt{.nn}" />
+    <string id="kbh6i0M7" text="{.F}Głowica{.nn} gladiusa dobrej jakości" />
+    <string id="KeTioaJE" text="{.N}Mahoniowe{.aj} {.N}stylisko{.nn} wielkiego topora {.N}owinięte{.aj} skórą" />
+    <string id="KFqa2uF1" text="{.N}Szerokie{.aj} {.N}ostrze{.nn} dwuręczniaka" />
+    <string id="Kh7AB6a4" text="{.MI}Północny{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn} w kształcie klepsydry" />
+    <string id="KhHXgQJb" text="{.MI}Pospolity{.aj} {.MI}obuch{.nn} topora z kutego żelaza" />
+    <string id="khO8Li1D" text="Bardzo {.MI}długi{.aj} {.MI}uchwyt{.nn} z grubej skóry" />
+    <string id="kIbtwQRF" text="{.N}Ostrze{.nn} spathy ze stali dobrej jakości" />
+    <string id="kiEZmxjT" text="{.MI}Wąski{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn} ze stali dobrej jakości" />
+    <string id="kjw9c4M2" text="{.F}Stalowa{.aj} {.F}kanciasta{.aj} {.F}rękojeść{.nn} buławy" />
+    <string id="kNhcSC6i" text="{.MI}Północny{.aj} {.MI}zakrzywiony{.aj} {.MI}obuch{.nn} topora" />
+    <string id="KNisROi1" text="{.N}Szerokie{.aj} {.N}ostrze{.nn} skaenu" />
+    <string id="knobbedclubcraftingpiece" text="{.F}Pałka{.nn} {.F}zakończona{.aj} guzami" />
+    <string id="Knv8oS4x" text="{.MI}Gruby{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn} {.MI}owinięty{.aj} skórą" />
+    <string id="kp8hUsXA" text="{.MI}Północny{.aj} {.MI}zawiły{.aj} {.MI}prostokątny{.aj} {.MI}jelec{.nn}" />
+    <string id="kuROzU1J" text="{.N}Proste{.aj} {.N}ostrze{.nn} miecza bojowego" />
+    <string id="KyKh5jCE" text="{.F}Rękojeść{.nn} z drewna bambusa" />
+    <string id="l13RibeF" text="{.N}Wzmocnione{.aj} {.N}stalowe{.aj} {.N}stylisko{.nn} wielkiego topora" />
+    <string id="l1YxVZil" text="{.MI}Jelec{.nn} sztyletu z brązu {.MI}zakończony{.aj} guzami" />
+    <string id="L3vLdPJT" text="{.F}Ulepszona{.aj} {.F}głowica{.nn} pałki z kolcami" />
+    <string id="L4PDF4MY" text="{.MI}Grawerowany{.aj} złotem {.MI}jelec{.nn} bojowego miecza" />
+    <string id="L9wMZ9HB" text="{.MI}Jelec{.nn} włóczni z morgenszternem" />
+    <string id="LbnJhG2R" text="{.F}Głowica{.nn} ciężkiej pałki z kolcami" />
+    <string id="lcjkq4bA" text="{.F}Południowa{.aj} {.F}zdobiona{.aj} {.F}głowica{.nn}" />
+    <string id="Ld1nfdj4" text="{.N}Ostrze{.nn} szabli ze stali dobrej jakości" />
+    <string id="LddmrrGM" text="{.MI}Wysoki{.aj} {.MI}wschodni{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="Ldq6AOrb" text="{.MI}Oprawiony{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn} z ćwiekowanej skóry z żelaznymi pierścieniami" />
+    <string id="LDRnfLRh" text="{.F}Północna{.aj} {.F}zdobiona{.aj} {.F}głowica{.nn}" />
+    <string id="ldvppRXj" text="{.F}Głowica{.nn} z wzorem" />
+    <string id="LEdJzFrZ" text="{.MI}Cięty{.aj} na ukos {.MI}kanciasty{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="lF10mZnb" text="{.MI}Drutowany{.aj} {.MI}owinięty{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="Lh1E9EsS" text="{.MI}Cesarski{.aj} {.MI}wzmocniony{.aj} {.MI}stalowy{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="lLZfWq7i" text="{.MI}Wąski{.aj} {.MI}pustynny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="lmxaWsmn" text="{.MI}Długi{.aj} {.MI}owinięty{.aj} {.MI}skórzany{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="LNDbMUK0" text="{.F}Głownia{.nn} wolgii" />
+    <string id="lOiyLjqK" text="{.MI}Cesarski{.aj} {.MI}półksiężycowaty{.aj} {.MI}jelec{.nn}" />
+    <string id="lpqDjWsL" text="{.MI}Jednoręczny{.aj} {.MI}uchwyt{.nn} z żelaza i skóry dobrej jakości z klamrą" />
+    <string id="lpVGz11R" text="{.MI}Północny{.aj} {.MI}futrzany{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="LryUJnu7" text="{.F}Gładka{.aj} {.F}głowica{.nn}" />
+    <string id="LSOXMCAW" text="{.N}Drzewce{.nn} z sosnowego drewna" />
+    <string id="LSrJljDL" text="{.MI}Obuch{.nn} ciesaka" />
+    <string id="ltbHzq5B" text="{.N}Nitowane{.aj} {.N}wzmocnienie{.nn} grotu włóczni" />
+    <string id="lv9oJyKJ" text="{.F}Wschodnia{.aj} {.F}płaska{.aj} {.F}głowica{.nn}" />
+    <string id="LwM5byQG" text="{.F}Prosta{.aj} {.F}głowica{.nn} żelaznej włóczni" />
+    <string id="lYEaqL9y" text="{.MI}Oprawiony{.aj} {.MI}futrzany{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="LYSMiV6V" text="{.MI}Długi{.aj} {.MI}uchwyt{.nn} z grubej skóry" />
+    <string id="lz8rSkzE" text="{.N}Grube{.aj} {.N}tępe{.aj} {.N}ostrze{.nn} szabli" />
+    <string id="LzHkkphU" text="{.MI}Jednoręczny{.aj} {.MI}uchwyt{.nn} z szorstkiej skóry {.MI}zakończony{.aj} guzami" />
+    <string id="lZoqaYmx" text="{.F}Głowica{.nn} pałki z kolcami" />
+    <string id="M08i7S6M" text="{.MI}Zwężany{.aj} {.MI}pustynny{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="m0uOH4el" text="{.MI}Zakrzywiony{.aj} {.MI}cesarski{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="m2Xz2K5v" text="{.MI}Północny{.aj} {.MI}futrzany{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="m6CVEgTU" text="{.N}Ostrze{.nn} topora bojowego z kolcem" />
+    <string id="m8eUrnVj" text="{.MI}Zachodni{.aj} {.MI}cienki{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="M9ACQeD6" text="{.F}Duża{.aj} {.F}tępa{.aj} {.F}głownia{.nn} askii" />
+    <string id="mak3naEe" text="{.N}Ostrze{.nn} dwuręczniaka z szerokim zbroczem" />
+    <string id="MCRppfbZ" text="{.N}Drzewce{.nn} oszczepu z sosnowego drewna" />
+    <string id="mcYSvJfA" text="{.F}Gałąź{.nn} drzewa" />
+    <string id="MDL2CcCH" text="{.MI}Obciążony{.ajp} {.MI}długi{.ajp} {.MI}kolec{.nnp}" />
+    <string id="MGD7zTLf" text="{.F}Kołowa{.aj} {.F}głowica{.nn} z fasetą" />
+    <string id="Mh5MDpsk" text="{.MI}Południowy{.aj} {.MI}kreszowany{.aj} {.MI}skórzany{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="MJRzaazz" text="{.MI}Oprawiony{.aj} {.MI}stalowy{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn} {.MI}wzmacniany{.aj} płytami" />
+    <string id="MKtMbBJD" text="{.MI}Wysoki{.aj} {.MI}wschodni{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="mm24JNyb" text="{.MI}Północny{.aj} {.MI}uchwyt{.nn} w kształcie klepsydry" />
+    <string id="mm6b54ZD" text="{.MI}Szeroki{.aj} {.MI}wklęsły{.aj} {.MI}jelec{.nn}" />
+    <string id="MpVC0RXl" text="{.F}Północna{.aj} {.F}trójkątna{.aj} {.F}włócznia{.nn}" />
+    <string id="mQCQF6TL" text="{.MI}Północny{.aj} {.MI}wąski{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="MQEuR8Yz" text="{.F}Ćwiekowana{.aj} {.F}głowica{.nn} długiej ciężkiej buławy" />
+    <string id="MRqIJXqv" text="{.MI}Południowy{.aj} {.MI}jelec{.nn} sztyletu w kształcie rombu" />
+    <string id="mrTkURKV" text="{.F}Karbowana{.aj} {.F}końcówka{.nn} wideł" />
+    <string id="mSNaSLiC" text="{.N}Ostrze{.nn} miecza bojowego z thamasceńskiej stali" />
+    <string id="mSplbvgI" text="{.MI}Podwójny{.aj} {.MI}hak{.nn}" />
+    <string id="mTDuVvVN" text="{.MI}Wysoki{.aj} {.MI}uchwyt{.nn} {.MI}wzmacniany{.aj} płytami" />
+    <string id="mU8oVsFW" text="{.F}Głowica{.nn} morgenszternu" />
+    <string id="muv8N0Wo" text="{.MI}Grawerowany{.aj} {.MI}jelec{.nn} sztyletu z brązu" />
+    <string id="mVjshtzg" text="{.F}Stożkowata{.aj} {.F}głowica{.nn}" />
+    <string id="mYP1ovEy" text="{.MI}Pustynny{.aj} {.MI}jelec{.nn} z otworami" />
+    <string id="N1qLYlxF" text="{.N}Ostrze{.nn} kaskary ze stali dobrej jakości" />
+    <string id="N3VXsh2z" text="{.N}Stalowe{.aj} {.N}ostrze{.nn} paramerionu" />
+    <string id="n55UtbGg" text="{.F}Głownia{.nn} ćwiczebnego menaulionu" />
+    <string id="NAHHwS3G" text="{.MI}Szeroki{.aj} {.MI}czubek{.nn} włóczni w kształcie liścia" />
+    <string id="nazL7Z3e" text="{.MI}Mocowany{.aj} {.MI}południowy{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="NehOioZp" text="{.F}Wzmocniona{.aj} {.F}żelazna{.aj} {.F}rękojeść{.nn} dwuręcznej buławy" />
+    <string id="NfPgejKk" text="{.N}Rytowane{.aj} {.N}ostrze{.nn} sparra" />
+    <string id="nGP3FlHm" text="{.N}Długie{.aj} {.N}mahoniowe{.aj} {.N}drzewce{.nn}" />
+    <string id="Nhhmj7bz" text="{.N}Drzewce{.nn} piki z twardego drewna klonowego" />
+    <string id="Nk924YlG" text="{.MI}Zdobiony{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn} ze stali dobrej jakości" />
+    <string id="nKb9goqQ" text="{.MI}Cienki{.aj} {.MI}jelec{.nn}" />
+    <string id="NkV2CAmL" text="{.N}Żelazne{.aj} {.N}tępe{.aj} {.N}ostrze{.nn} bułatu" />
+    <string id="NLs9M1D6" text="{.MI}Wschodni{.aj} {.MI}prosty{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="NmkDgmWW" text="{.F}Stalowa{.aj} {.F}rękojeść{.nn} buławy jazdy" />
+    <string id="NO6FhjbJ" text="{.MI}Pomarańczowy{.aj} {.MI}uchwyt{.nn} {.MI}obity{.aj} skórą" />
+    <string id="NQb8boHt" text="{.N}Utwardzone{.aj} {.N}drzewce{.nn} z drewna jesionu" />
+    <string id="nr3K4od2" text="{.MI}Grot{.nn} pilum" />
+    <string id="NRhAqB5a" text="{.F}Równinna{.aj} {.F}tępa{.aj} {.F}długa{.aj} {.F}włócznia{.nn}" />
+    <string id="nRKOX66b" text="{.MI}Ząbkowany{.aj} {.MI}grot{.nn} włóczni ze stali dobrej jakości" />
+    <string id="NS83CCvb" text="{.MI}Pospolity{.aj} {.MI}obuch{.nn} żelaznego topora" />
+    <string id="nsjbWcmp" text="{.N}Wąskie{.aj} {.N}tępe{.aj} {.N}ostrze{.nn} sparra" />
+    <string id="ntIEIQ0N" text="{.MI}Lekki{.aj} {.MI}obuch{.nn} shishparu" />
+    <string id="Num2tkFb" text="{.MI}Długi{.aj} {.MI}uchwyt{.nn} {.MI}wzmacniany{.aj} płytami" />
+    <string id="NuXH8rip" text="{.MI}Warstwowy{.aj} {.MI}jelec{.nn} z brązu" />
+    <string id="nVrg9Uda" text="{.MI}Uchwyt{.nn} miecza rycerskiego z rogu {.MI}owinięty{.aj} skórą" />
+    <string id="nxyf3OHZ" text="{.MI}Oprawiony{.aj} {.MI}uchwyt{.nn} miecza rycerskiego z brązu i skóry dobrej jakości" />
+    <string id="Nz4mg7JT" text="{.MI}Złoty{.aj} {.MI}jelec{.nn} bułatu" />
+    <string id="nZ5e678J" text="{.F}Prosta{.aj} {.F}głowica{.nn} {.F}kołowa{.aj}" />
+    <string id="NzjHzhwC" text="{.MI}Jelec{.nn} w kształcie rombu {.MI}zakończony{.aj} guzami" />
+    <string id="o2kFafbu" text="{.F}Wschodnia{.aj} {.F}głowica{.nn} stalowej buławy" />
+    <string id="O2kPKeuK" text="{.N}Ostrze{.nn} miecza rycerskiego ze złotym grawerem" />
+    <string id="OBeOZ27b" text="{.F}Głownia{.nn} glewii" />
+    <string id="oeELDZRo" text="{.MI}Poziomy{.aj} {.MI}prostokątny{.aj} {.MI}sztandar{.nn}" />
+    <string id="oGPHQt1J" text="{.MI}Wysoki{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn} tasaka" />
+    <string id="OHHpwD0F" text="{.N}Proste{.aj} {.N}ostrze{.nn} szabli" />
+    <string id="OHl66gsX" text="{.MI}Jajowaty{.aj} {.MI}jelec{.nn} sztyletu z brązu" />
+    <string id="OJ7iPw5M" text="{.N}Wzmocnione{.aj} {.F}stylisko{.nn} wielkiego topora z utwardzanego drewna jesionu" />
+    <string id="OlnvawN6" text="{.MI}Jelec{.nn} wielkiego miecza z brązu" />
+    <string id="OlUuoUBe" text="{.MI}Wschodni{.aj} {.MI}oprawiony{.aj} {.MI}uchwyt{.nn} z żelaza i skóry dobrej jakości" />
+    <string id="ooBWHpxP" text="{.MI}Wschodni{.aj} {.MI}kanciasty{.aj} {.MI}uchwyt{.nn} {.MI}pokryty{.aj} skórą" />
+    <string id="OPfm5y7W" text="{.MI}Złoty{.aj} {.MI}rycerski{.aj} {.MI}jelec{.nn} z lwimi głowami" />
+    <string id="OphcYYyN" text="{.F}Nitowana{.aj} {.F}głowica{.nn} włóczni ze stali dobrej jakości" />
+    <string id="opUK4WmL" text="{.MI}Zaokrąglony{.aj} {.MI}płaski{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="orwoyDlX" text="{.MI}Wielki{.aj} {.MI}obuch{.nn} sparra" />
+    <string id="OryiZr9d" text="{.MI}Kontarion" />
+    <string id="OTtMvvJK" text="{.N}Prążkowane{.aj} {.N}ostrze{.nn} miecza rycerskiego" />
+    <string id="ow1aK4DJ" text="{.N}Owinięte{.aj} {.N}długie{.aj} {.N}dębowe{.aj} {.N}drzewce{.nn}" />
+    <string id="oW5N04JL" text="{.N}Góralskie{.aj} {.N}stalowe{.aj} {.N}ostrze{.nn}" />
+    <string id="OW7w3Mth" text="{.F}Głowica{.nn} fianny" />
+    <string id="OwA6LLeY" text="{.F}Owinięta{.aj} skórą {.F}rękojeść{.nn} dwuręcznej buławy" />
+    <string id="Oxew9WCe" text="{.MI}Cesarski{.aj} {.MI}prosty{.aj} {.MI}grot{.nn} włóczni" />
+    <string id="oXXWEUYY" text="{.N}Tępe{.aj} {.N}ostrze{.nn} żelaznego pałasza" />
+    <string id="Oz6xANFb" text="{.F}Góralska{.aj} {.F}ornamentowana{.aj} {.F}głowica{.nn}" />
+    <string id="p1Uz3dqs" text="{.MI}Nitowany{.aj} {.MI}zdobiony{.aj} {.MI}czerwony{.aj} {.MI}uchwyt{.nn} kaskary" />
+    <string id="p2aqirUu" text="{.MI}Uchwyt{.nn} flisy ze skóry dobrej jakości" />
+    <string id="p2xjr5Bp" text="{.N}Drewniane{.aj} {.N}ostrze{.nn}" />
+    <string id="p3jlcHNo" text="{.F}Długa{.aj} {.F}gładka{.aj} {.F}głowica{.nn} włóczni" />
+    <string id="P5dUGIl7" text="{.N}Zdobione{.aj} {.N}ostrze{.nn} miecza bojowego" />
+    <string id="pAqWQWJs" text="{.MI}Tępy{.aj} {.MI}kontarion{.nn}" />
+    <string id="pb4zUxzA" text="{.N}Ostrze{.nn} machairy" />
+    <string id="PbxZzhZx" text="{.MI}Wąski{.MI} {.MI}jelec{.nn} saksa" />
+    <string id="PjMeZcwO" text="{.MI}Wargowy{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="pkmy6zB2" text="{.MI}Południowy{.aj} {.MI}jelec{.nn} w kształcie gwiazdy" />
+    <string id="PmPxx2gK" text="{.F}Wygięta{.aj} {.F}głowica{.nn} {.F}brzytwowa{.aj}" />
+    <string id="pnS90zg8" text="{.N}Płaskie{.aj}, {.N}tępe{.aj}, {.N}prążkowane{.aj} {.N}ostrze{.nn} spathy" />
+    <string id="pocRP9dq" text="{.MI}Długi{.aj} {.MI}kostur{.nn} z drewna jesionu" />
+    <string id="PQ8rR13R" text="{.N}Ostrze{.nn} długiego bułatu ze stali dobrej jakości" />
+    <string id="PqoJ1ZeB" text="{.N}Zdobione{.aj} {.N}ostrze{.nn} szabli" />
+    <string id="PQThPvP6" text="{.N}Zdobione{.aj} {.N}krótkie{.aj} {.N}ostrze{.nn} spathy" />
+    <string id="PsKP5j6A" text="{.MI}Jelec{.nn} {.MI}zakończony{.aj} guzami" />
+    <string id="pT5C12yT" text="{.MI}Ćwiekowany{.aj} {.MI}trzon{.nn} topora dwuręcznego z drewna jesionu" />
+    <string id="PUAi75mb" text="{.F}Cesarska{.aj} {.F}głowica{.nn} {.F}pierścieniowa{.aj}" />
+    <string id="PuRJZS03" text="{.MI}Dwuręczny{.aj} {.MI}uchwyt{.nn} w południowym stylu" />
+    <string id="PvB0pW1Q" text="{.N}Szerokie{.aj} {.N}tępe{.aj} {.N}ostrze{.nn} ze zbroczem" />
+    <string id="pX4nTZOI" text="{.F}Szeroka{.aj} {.F}kaskara{.nn} ze stali dobrej jakości" />
+    <string id="pXxv7YJv" text="{.F}Długa{.aj} {.F}mahoniowa{.aj} {.F}rękojeść{.nn} {.F}owinięta{.aj} skórą" />
+    <string id="PZYq0hBO" text="{.MI}Warstwowy{.aj} {.MI}jelec{.nn} sztyletu z brązu" />
+    <string id="Q6kGQNzP" text="{.MI}Podzielony{.aj} {.MI}żelazny{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn} " />
+    <string id="q7jHkLam" text="{.N}Wąskie{.aj} {.N}ostrze{.nn} miecza rycerskiego ze zbroczem" />
+    <string id="Q9Gfv68h" text="{.MI}Dwuręczny{.aj} {.MI}uchwyt{.nn} szabli" />
+    <string id="q9K7Y2pZ" text="{.MI}Sztandar{.nn} z tkaniny" />
+    <string id="qbYoAvs6" text="{.MI}Oprawiony{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn} z grubej skóry" />
+    <string id="QCE1sAu3" text="{.N}Ostrze{.nn} pałasza" />
+    <string id="QH0oIiIz" text="{.N}Długie{.aj} {.N}szerokie{.aj} {.N}ostrze{.nn} sztyletu" />
+    <string id="QIo60ZKh" text="{.N}Długie{.aj} {.NN}ostrze{.nn} miecza bojowego ze zbroczem" />
+    <string id="qjxXq3P5" text="{.MI}Góralski{.aj} {.MI}rytowany{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="QNe7mQlZ" text="{.F}Końcówka{.nn} grabi" />
+    <string id="Qqb0VZ1a" text="{.N}Owinięte{.aj} skórą {.N}dwuręczne{.aj} {.N}drzewce{.nn} z drewna jesionu" />
+    <string id="qQrmuHQ9" text="{.F}Ciężka{.nn} {.F}głowica{.nn} buławy jazdy" />
+    <string id="qQtLUC7Q" text="{.MI}Jelec{.nn} falku z brązu" />
+    <string id="qSV6C2tp" text="Bardzo {.MI}długi{.aj} {.MI}grot{.nn} włóczni" />
+    <string id="qtZNUUqG" text="{.MI}Północny{.aj} {.MI}drewniany{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="Qw9HWSY7" text="{.N}Żelazne{.aj} {.N}ostrze{.nn} flisy" />
+    <string id="QwfDN06p" text="{.MI}Grot{.nn} rycerskiej lancy" />
+    <string id="qyaS75Gr" text="{.N}Szerokie{.aj} {.N}ostrze{.nn} ze zbroczem" />
+    <string id="qYxzdFAa" text="{.F}Długa{.aj} {.F}dębowa{.aj} {.F}rękojeść{.nn} {.F}owinięta{.aj} skórą" />
+    <string id="qZYeu55z" text="{.F}Długa{.aj} {.F}żelazna{.aj} {.F}gruntowana{.aj} {.F}rękojeść{.nn} buławy" />
+    <string id="r3R6RM9G" text="{.MI}Krótki{.aj} {.MI}prosty{.aj} {.MI}grot{.nn} piki" />
+    <string id="R3zJaL72" text="{.MI}Mały{.aj} {.MI}sztandar{.nn} z nietypowym proporcem" />
+    <string id="R62maL2H" text="{.MI}Obuch{.nn} tasaka na drzewcu" />
+    <string id="R7OBSozV" text="{.N}Krótkie{.aj} {.N}grube{.aj} {.N}ostrze{.nn} ildu" />
+    <string id="R8hEAwUZ" text="{.MI}Szorstki{.aj} {.MI}owinięty{.aj} {.MI}uchwyt{.nn}" />
+    <string id="r8KoZCBy" text="{.MI}Owalny{.aj} {.MI}jelec{.nn} sztyletu z fasetą" />
+    <string id="r9NcHImd" text="{.MI}Potrójny{.aj} {.MI}sztandar{.nn} na poprzecznym drzewcu" />
+    <string id="RB3oxhaV" text="{.MI}Długi{.aj} {.MI}rycerski{.aj} {.MI}jelec{.nn}" />
+    <string id="RBoqow67" text="{.F}Jajowata{.aj} {.F}głowica{.nn}" />
+    <string id="RdVX1jC0" text="{.N}Grawerowane{.aj} {.N}ostrze{.nn} kaskary" />
+    <string id="reHxxC6K" text="{.F}Rękojeść{.nn} młota kowalskiego" />
+    <string id="Rh3h5NIg" text="{.N}Utwardzone{.aj} {.N}stylisko{.nn} krótkiego toporka do rzucania z twardego drewna" />
+    <string id="rkEbLbYf" text="{.MI}Wschodni{.aj} {.MI}wzmocniony{.aj} {.MI}długi{.aj} {.MI}skórzany{.aj} {.MI}uchwyt{.nn}" />
+    <string id="rKnBJPfp" text="{.N}Ostrze{.nn} pałasza jazdy ze stali dobrej jakości" />
+    <string id="rL2zMQ2l" text="{.MI}Rozszerzony{.aj} {.MI}rycerski{.aj} {.MI}jelec{.nn}" />
+    <string id="rn6tttI2" text="{.F}Południowa{.aj} {.F}ornamentowana{.aj} {.F}głowica{.nn}" />
+    <string id="rSs1M2EJ" text="{.F}Spiralna{.aj} {.F}głowica{.nn} buławy" />
+    <string id="RWljioj5" text="{.MI}Oprawiony{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn} z rogu, żelaza i skóry" />
+    <string id="RWm1h40B" text="{.F}Góralska{.aj} {.F}głowica{.nn}" />
+    <string id="RXjhTS9s" text="{.N}Długie{.aj} {.N}dębowe{.aj} {.N}owinięte{.aj} {.N}drzewce{.nn}" />
+    <string id="S2MYKoII" text="{.F}Wysoka{.aj} {.F}wschodnia{.aj} {.F}głowica{.nn}" />
+    <string id="s50O60ed" text="{.MI}Zakrzywiony{.aj} {.MI}cesarski{.aj} {.MI}jelec{.nn}" />
+    <string id="S75vUGzK" text="{.MI}Grot{.nn} włóczni rębajły ze stali dobrej jakości" />
+    <string id="S9zZO7qJ" text="{.MI}Stalowy{.aj} {.MI}grot{.nn} piki dobrej jakości" />
+    <string id="SaPaeTr4" text="{.MI}Drewniany{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn} " />
+    <string id="saYgR9C6" text="{.MI}Góralski{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn} wysokiej jakości" />
+    <string id="SEsx3kZz" text="{.F}Ciężka{.aj} {.F}głownia{.nn} berdysza" />
+    <string id="SgJH5KtP" text="{.N}Ostrze{.nn} sicardu" />
+    <string id="SgknWcu2" text="{.MI}Jednoręczny{.aj} {.MI}uchwyt{.nn} z grubej skóry" />
+    <string id="sHwhgRzK" text="{.F}Półksiężycowata{.aj} {.F}głowica{.nn}" />
+    <string id="SJiam61q" text="{.F}Krótka{.aj} {.F}sękata{.aj} {.F}rękojeść{.nn}" />
+    <string id="SJssgxmf" text="{.N}Zdobione{.aj} {.N}ostrze{.nn} ildu" />
+    <string id="sNJNDDKN" text="{.MI}Obuch{.nn} małego topora" />
+    <string id="sq7G99xP" text="{.MI}Jelec{.nn} z koroną" />
+    <string id="SqR5K74b" text="{.MI}Góralski{.aj} {.MI}uchwyt{.nn} dobrej jakości" />
+    <string id="SR7a3qlO" text="{.MI}Okrągły{.aj} {.MI}mocny{.aj} {.MI}obuch{.nn} topora bojowego" />
+    <string id="SraI0yxb" text="{.F}Utwardzona{.aj} {.F}długa{.aj} {.F}dębowa{.aj} {.F}rękojeść{.nn}" />
+    <string id="sUlksgjL" text="{.MI}Połączony{.aj} gwoździami i {.MI}owinięty{.aj} {.MI}jelec{.nn} włóczni" />
+    <string id="SVBYn9KW" text="{.F}Żelazna{.ajp} {.F}widła{.nnp}" />
+    <string id="sw5rAz73" text="{.F}Południowa{.aj} {.F}lekka{.aj} {.F}głowica{.nn} buławy" />
+    <string id="swb45HVS" text="{.N}Górskie{.aj} {.N}ostrze{.nn}" />
+    <string id="T1aiDuOp" text="{.MI}Wąski{.aj} {.MI}grot{.nn} menaulionu" />
+    <string id="T1xFTaOf" text="{.N}Zdobione{.aj} {.N}długie{.aj} {.N}ostrze{.nn} bułatu" />
+    <string id="T62Cmrrh" text="{.F}Głowica{.nn} z fasetą" />
+    <string id="tgJ3dSOx" text="{.N}Dębowe{.aj} {.N}drzewce{.nn} długiej włóczni" />
+    <string id="TKQl9boE" text="{.MI}Zdobiony{.aj} {.MI}złoty{.aj} {.MI}uchwyt{.nn} miecza rycerskiego dobrej jakości" />
+    <string id="TKVxb6QD" text="{.MI}Grot{.nn} włóczni w kształcie liścia z thamasceńskiej stali" />
+    <string id="tLa3nYAQ" text="{.F}Głowica{.nn} w kształcie kielicha z fasetą" />
+    <string id="tnaGywrE" text="{.MI}Dwuręczny{.aj} {.MI}{.nn}uchwyt z szorstkiej skóry w kształcie klepsydry" />
+    <string id="tNtulHAv" text="{.MI}Duży{.aj}, {.MI}szeroki{.aj} {.MI}nordycki{.aj} {.MI}obuch{.nn}" />
+    <string id="tooJPhpa" text="{.MI}Wąski{.aj} {.MI}sztandar{.nn} z ogonem jaskółki" />
+    <string id="tq0eDwck" text="{.MI}Miskowaty{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="tq5XGebt" text="{.MI}Oprawiony{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn} miecza z brązu i skóry dobrej jakości" />
+    <string id="TqXFwLYL" text="{.MI}Tępy{.aj} {.MI}obuch{.nn} glewii" />
+    <string id="trGnmFsh" text="{.F}Kalradyjska{.aj} {.F}głowica{.nn} buławy" />
+    <string id="tRJC72Qh" text="{.MI}Skrzyżowany{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn} ze skóry" />
+    <string id="tSaAzzYe" text="{.N}Prążkowane{.aj} {.N}wąskie{.aj} {.N}ostrze{.nn}" />
+    <string id="tSgZoxsu" text="{.MI}Wzmocniony{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn} z żelaza i drewna" />
+    <string id="tSQbGb4m" text="Bardzo {.N}długie{.aj} {.N}mahoniowe{.aj} {.N}drzewce{.nn}" />
+    <string id="TUbTwW9U" text="{.N}Płaskie{.aj} {.N}prążkowane{.aj} {.N}ostrze{.nn} spathy" />
+    <string id="Tui9qvOZ" text="{.MI}Obuch{.nn} cykurionu" />
+    <string id="U30HpvtI" text="{.MI}Północny{.aj} {.MI}trójkątny{.aj} {.MI}żelazny{.aj} {.MI}grot{.nn} włóczni" />
+    <string id="u89rP5qY" text="{.F}Głowica{.nn} z szerokim brzegiem" />
+    <string id="uAfTaa3p" text="{.MI}Wschodni{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn} ze skóry dobrej jakości" />
+    <string id="ubnADEGb" text="{.MI}Sztandar{.nn} z ogonem jaskółki i jęzorem" />
+    <string id="Udo97SZC" text="{.F}Zachodnia{.aj} {.F}zdobiona{.aj} {.F}głowica{.nn}" />
+    <string id="ueCf3sde" text="{.MI}Cienki{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn} {.MI}owinięty{.aj} skórą" />
+    <string id="ugQrq53t" text="{.F}Głowica{.nn} w kształcie wachlarza" />
+    <string id="Uhc0KIdz" text="{.N}Drzewce{.nn} włóczni z sosnowego drewna" />
+    <string id="uIciSK8t" text="{.MI}Zdobiony{.aj} {.MI}okrągły{.aj} {.MI}południowy{.aj} {.MI}szlachecki{.aj} {.MI}uchwyt{.nn}" />
+    <string id="uKu7rTrW" text="Ciasno {.MI}owinięty{.aj} {.MI}wąski{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="UKWwPPkx" text="{.N}Ostrze{.nn} miecza rycerskiego ze złotymi płatkami" />
+    <string id="ukYW8FVm" text="{.F}Bulwiasta{.aj} {.F}głowica{.nn} szabli" />
+    <string id="uLqEw8LB" text="{.MI}Ćwiekowany{.aj} {.MI}cesarski{.aj} {.MI}długi{.aj} {.MI}uchwyt{.nn}" />
+    <string id="UqNbbdKN" text="{.N}Ostrze{.nn} prostego noża" />
+    <string id="uQsJQLJH" text="{.MI}Północny{.aj} {.MI}krótki{.aj} {.MI}uchwyt{.nn} z grubej skóry" />
+    <string id="usVYZYYD" text="{.F}Północna{.aj} {.F}głowica{.nn} dla władcy" />
+    <string id="USWfzbuW" text="{.MI}Północny{.aj} {.MI}rozszerzony{.aj} {.MI}obuch{.nn} wielkiego topora" />
+    <string id="uuover9F" text="{.N}Krótkie{.aj} {.N}ostrze{.nn} miecza rycerskiego" />
+    <string id="uvmvs2SP" text="{.MI}Wysoki{.aj} {.MI}uchwyt{.nn} tasaka" />
+    <string id="uwG8iwBc" text="{.F}Równinna{.aj} {.F}długa{.aj} {.F}włócznia{.nn}" />
+    <string id="V0khEGns" text="{.F}Płaska{.aj} {.F}głowica{.nn}" />
+    <string id="v22onVb2" text="Lekko {.N}prążkowane{.aj} {.N}ostrze{.nn} flisy" />
+    <string id="V3JMuFEg" text="{.F}Wiązana{.aj} {.F}rękojeść{.nn} buławy" />
+    <string id="V6YQykoc" text="{.MI}Szpiczasty{.aj} {.MI}półksiężycowaty{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="V9Kbq6vj" text="{.MI}Tępy{.aj} {.MI}ćwiczebny{.aj} {.MI}czubek{.nn}" />
+    <string id="VbpiYB68" text="{.N}Zdobione{.aj} {.N}szerokie{.aj} {.N}krótkie{.aj} {.N}ostrze{.nn} ze zbroczem" />
+    <string id="VccYBtB0" text="{.MI}Północny{.aj} {.MI}obuch{.nn} siekierki" />
+    <string id="VeHazKzb" text="{.F}Utwardzona{.aj} {.F}rękojeść{.nn} ze skórzaną owijką" />
+    <string id="Vf2wKojF" text="{.N}Tępe{.ajp} {.N}skrzydło{.nnp}" />
+    <string id="VfzFTGd8" text="{.MI}Mały{.aj} i {.MI}mocny{.aj} {.MI}okrągły{.aj} {.MI}obuch{.nn}" />
+    <string id="vGda3CNV" text="{.MI}Złoty{.aj} {.MI}zdobiony{.aj} {.MI}uchwyt{.nn} półtoraręcznego miecza ze skóry" />
+    <string id="VgMDYLje" text="{.MI}Dwuręczny{.aj} {.MI}uchwyt{.nn} z szorstkiej skóry {.MI}zakończony{.aj} guzami" />
+    <string id="vh9AlAru" text="{.MI}Mały{.aj} {.MI}sztandar{.nn}" />
+    <string id="vJieQpnH" text="{.MI}Południowy{.aj} {.MI}mocowany{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="VJmu4Yag" text="{.F}Zdobiona{.aj} {.F}klamra{.nn} włóczni" />
+    <string id="vJtBlaeS" text="Bardzo {.MI}długi{.aj} {.MI}uchwyt{.nn} dwuręcznego miecza {.MI}owinięty{.aj} skórą" />
+    <string id="VL00fQvj" text="{.N}Wzmocnione{.aj} {.N}stylisko{.nn} topora" />
+    <string id="vPMsDf85" text="{.F}Dębowa{.aj} {.F}rękojeść{.nn} owinięta skórą" />
+    <string id="vx2VIbmb" text="{.N}Zdobione{.aj} {.N}długie{.aj} {.N}ostrze{.nn} miecza bojowego" />
+    <string id="vxqrW5GN" text="{.N}Ostrze{.nn} sierpa" />
+    <string id="vYS4m95c" text="{.MI}Skórzany{.aj} {.MI}uchwyt{.nn} półtoraręcznego miecza z pierścieniami z brązu " />
+    <string id="W5tvNbjY" text="{.F}Wschodnia{.aj} {.F}ornamentowana{.aj} {.F}głowica{.nn}" />
+    <string id="wait0O6m" text="{.F}Głownia{.nn} brzytwy drzewcowej" />
+    <string id="WAtAGKhV" text="{.N}Podwójne{.ajp} {.N}kolczaste{.ajp} {.N}skrzydło{.nnp}" />
+    <string id="Wd3bU57P" text="{.F}Półksiężycowata{.aj} {.F}głowica{.nn} z brązu" />
+    <string id="we4ykbNe" text="{.MI}Oprawiony{.aj} {.MI}kanciasty{.aj} {.MI}skórzany{.aj} {.MI}jednoręczny{.aj} {.MI}uchwyt{.nn} z wybrzuszeniem" />
+    <string id="weIT4gUP" text="{.N}Wąskie{.aj} {.N}ostrze{.nn} miecza bojowego ze zbroczem" />
+    <string id="wfK63ZQn" text="{.F}Głowica{.nn} szabli" />
+    <string id="wgWSJzGD" text="{.MI}Cięty{.aj} na ukos {.MI}skórzany{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="wHMdRIl6" text="{.MI}Jednoręczny{.aj} {.MI}podzielony{.aj} {.MI}uchwyt{.nn} {.MI}owinięty{.aj} szorstką skórą" />
+    <string id="Wkhv9ESv" text="{.N}Utwardzone{.aj} {.N}dębowe{.aj} {.N}stylisko{.nn} toporka do rzucania" />
+    <string id="wKJM541b" text="{.MI}Naostrzony{.aj} {.MI}szpiczasty{.aj} {.MI}jelec{.nn}" />
+    <string id="WkLj6xAo" text="{.F}Głowica{.nn} w kształcie trapezu" />
+    <string id="WkTkxQfw" text="{.N}Prostokątne{.aj} {.N}mocne{.aj} {.N}ostrze{.nn}" />
+    <string id="Wl1m0LbL" text="{.MI}Wzmocniony{.aj} {.MI}inkrustowany{.aj} {.MI}grawerowany{.aj} {.MI}srebrny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="Wn4GjoXY" text="{.F}Tępa{.aj} {.F}kwadratowa{.aj} {.F}część{.nn} obucha dwuręcznego topora" />
+    <string id="WNch6azL" text="{.N}Żelazne{.aj} {.N}ostrze{.nn} bułatu" />
+    <string id="wQGWxeCc" text="{.N}Grube{.aj} {.N}ostrze{.nn} szabli" />
+    <string id="WrvDoYKa" text="{.F}Głowica{.nn} ciężkiej długiej buławy ze wzmocnieniami" />
+    <string id="wsVbMK6L" text="{.N}Płaskie{.aj} {.N}ostrze{.nn} {.N}turniejowe{.aj}" />
+    <string id="wTSBQduq" text="{.F}Ozdoba{.nn} końskiego ogona" />
+    <string id="wVcrqv4p" text="{.MI}Drewniany{.aj} {.MI}uchwyt{.nn}" />
+    <string id="wvLoXrFV" text="{.F}Wielka{.aj} {.F}zachodnia{.aj} {.F}głowica{.nn}" />
+    <string id="WXBkfAbb" text="{.MI}Północny{.aj} {.MI}zawiły{.aj} {.MI}prostokątny{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="WxnqOG8s" text="{.MI}Szeroki{.aj} {.MI}wklęsły{.aj} {.MI}jelec{.nn}" />
+    <string id="wXUjru6o" text="{.MI}Szeroki{.aj} {.MI}jelec{.nn} szabli {.MI}zakończony{.aj} guzami" />
+    <string id="X1FY4VYe" text="{.MI}Obuch{.nn} młota kowalskiego" />
+    <string id="X7OrRebK" text="{.N}Wąskie{.aj} {.N}ostrze{.nn} sparra" />
+    <string id="xa3vFv52" text="{.F}Wykończona{.aj} żelazem {.F}rękojeść{.nn} dwuręcznej buławy" />
+    <string id="xb6e2YaV" text="{.MI}Wschodni{.aj} {.MI}prosty{.aj} {.MI}owalny{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="XbaFle0M" text="{.N}Wschodnie{.ajp} {.N}podwójne{.ajp} {.N}skrzydło{.nnp} włóczni" />
+    <string id="xbazdytG" text="{.MI}Południowy{.aj} {.MI}oprawiony{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn} ze stali" />
+    <string id="xbB9Ga5X" text="{.N}Północne{.aj} {.N}zwężane{.aj} {.N}ostrze{.nn}" />
+    <string id="XetKl5yO" text="{.MI}Złoty{.aj} {.MI}jelec{.nn} szabli" />
+    <string id="XI5QgznO" text="{.MI}Zwężany{.aj} {.MI}jelec{.nn} tasaka" />
+    <string id="xJaVK4D0" text="{.N}Skrzydło{.nnp} dzika" />
+    <string id="xKGpbQjJ" text="{.N}Długie{.aj} {.N}mahoniowe{.aj} {.N}drzewce{.nn} {.N}owinięte{.aj} skórą" />
+    <string id="Xo7l8eae" text="{.N}Tępe{.aj} {.N}ostrze{.nn}" />
+    <string id="xoSaQWhX" text="{.MI}Zachodni{.aj} {.MI}półksiężycowaty{.aj} {.MI}jelec{.nn}" />
+    <string id="XSabsFbx" text="{.MI}Obciążony{.aj} {.MI}grot{.nn} szydła" />
+    <string id="XtneitaD" text="{.N}Ostrze{.nn} miecza bojowego ze stali dobrej jakości" />
+    <string id="xVHbBpb9" text="{.MI}Podzielony{.aj} {.MI}stalowy{.aj} {.MI}uchwyt{.nn} bułatu" />
+    <string id="xWZuE1aE" text="{.MI}Gruby{.aj} {.MI}wklęsły{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="XxhFx0yw" text="{.N}Krótkie{.aj} {.N}stylisko{.nn} wielkiego topora {.N}owinięte{.aj} skórą" />
+    <string id="xYgJN0Ja" text="{.N}Zdobione{.aj} {.N}ostrze{.nn} bułatu" />
+    <string id="xZ70rbRt" text="{.F}Okrągła{.aj} {.F}drewniana{.aj} {.F}głowica{.nn}" />
+    <string id="Y0gbKTgZ" text="{.MI}Sturgijski{.aj} {.MI}szpic{.nn} wojskowych wideł" />
+    <string id="Y4tIQnS4" text="{.MI}Krótki{.aj} {.MI}prosty{.aj} {.MI}grot{.nn} włóczni" />
+    <string id="y5A3HGua" text="{.N}Ostrze{.nn} paramerionu ze stali dobrej jakości" />
+    <string id="ybjDbw8p" text="{.F}Długa{.aj} {.F}dębowa{.aj} {.F}rękojeść{.nn} buławy" />
+    <string id="yD9v5GS0" text="{.N}Zdobione{.aj} {.N}drzewce{.nn} z sosnowego drewna" />
+    <string id="YDG2spCf" text="{.MI}Wschodni{.aj} {.MI}skórzany{.aj} {.MI}szlachecki{.aj} {.MI}uchwyt{.nn}" />
+    <string id="YFkEsUhn" text="{.F}Czerwona{.aj} {.F}ozdoba{.nn} końskiego ogona" />
+    <string id="yFm0f44p" text="{.MI}Zachodni{.aj} {.MI}szpiczasty{.aj} {.MI}jelec{.nn}" />
+    <string id="YFy0t1NY" text="{.F}Zachodnia{.aj} {.F}głowica{.nn} buławy ze zbroczem" />
+    <string id="Yi2PlMln" text="{.F}Nitowana{.aj} {.F}głowica{.nn} długiej włóczni" />
+    <string id="yilLfxCc" text="{.MI}Wargowy{.aj} {.MI}jelec{.nn}" />
+    <string id="ykTYTbek" text="{.N}Ostrze{.nn} noża do rzucania" />
+    <string id="YkWqmDEK" text="{.MI}Sztych{.nn} szerokiego falcjonu" />
+    <string id="YKXNxxvY" text="{.MI}Północny{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="ylUAAsQt" text="{.MI}Jednoręczny{.aj} {.MI}uchwyt{.nn} {.MI}owinięty{.aj} szorstką skórą" />
+    <string id="yMWzpgjz" text="{.MI}Kanciasty{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn} {.MI}owinięty{.aj} nicią" />
+    <string id="YQLEkXb7" text="{.N}Pojedyncze{.aj} {.N}haczykowate{.aj} {.N}skrzydło{.nn}" />
+    <string id="yrdrYLA9" text="{.MI}Tępy{.aj} {.MI}obuch{.nn} toporka do rzucania" />
+    <string id="ysby6FNF" text="{.F}Nitowana{.aj} {.F}głowica{.nn} włóczni z thamasceńskiej stali" />
+    <string id="YTZblGJ0" text="{.MI}Wzmocniony{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn} z rogu {.MI}pokryty{.aj} skórą" />
+    <string id="YUDKID1R" text="{.F}Wzmocniona{.aj} {.F}długa{.aj} {.F}rękojeść{.nn} buławy z drewna jesionu" />
+    <string id="yUyJ39ot" text="{.MI}Oprawiony{.aj} {.MI}stalowy{.aj} {.MI}uchwyt{.nn} spathy" />
+    <string id="YwKrIR6s" text="{.MI}Olbrzymi{.ajp} {.MI}podwójny{.ajp} {.MI}hak{.nnp} {.MI}pokryty{.ajp} futrem" />
+    <string id="yWvSjlnb" text="{.F}Wschodnia{.aj} {.F}głowica{.nn} buławy dobrej jakości" />
+    <string id="YxoUpPRb" text="{.N}Nitowane{.ajp} {.N}haczykowate{.ajp} {.N}skrzydło{.nnp}" />
+    <string id="yzsneaL6" text="{.F}Głowica{.nn} {.F}kołowa{.aj} z obwódką" />
+    <string id="Z98LPAz7" text="{.MI}Pokryty{.aj} skórą {.MI}uchwyt{.nn} półtoraręcznego miecza z ćwiekami z brązu" />
+    <string id="zAdloN6Y" text="{.N}Szerokie{.aj} {.N}prążkowane{.aj} {.N}ostrze{.nn} krótkiego miecza" />
+    <string id="ZAoWK9Gt" text="{.MI}Cesarski{.aj} {.MI}zaokrąglony{.aj} {.MI}grot{.nn} włóczni" />
+    <string id="Zc2Mb991" text="{.F}Głowica{.nn} piernacza" />
+    <string id="ZCJ0aNYt" text="{.MI}Jelec{.nn} w kształcie głowy węża" />
+    <string id="ZcUNAfKT" text="Bardzo {.MI}długi{.aj} {.MI}grot{.nn} włóczni ze stali dobrej jakości" />
+    <string id="zCYuj3yr" text="{.N}Ostrze{.nn} miecza rycerskiego z prążkowaną końcówką" />
+    <string id="ZfEiEOsK" text="{.MI}Południowy{.aj} {.MI}jelec{.nn} sztyletu z koroną" />
+    <string id="ZgCUNieQ" text="{.MI}Szpic{.nn} widłów" />
+    <string id="Zgy40Qc4" text="{.F}Długa{.aj} {.F}mahoniowa{.aj} {.F}rękojeść{.nn}" />
+    <string id="zIbAD527" text="{.F}Głowica{.nn} z hakiem" />
+    <string id="ZJrqEfBF" text="{.N}Zwężane{.aj} {.N}ostrze{.nn} kaskary" />
+    <string id="zKaNmT8r" text="{.MI}Półksiężycowaty{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="ZKrpvDu6" text="{.MI}Wzmocniony{.aj} w połowie {.MI}owinięty{.aj} {.MI}stalowy{.aj} {.MI}uchwyt{.nn} miecza półtoraręcznego" />
+    <string id="ZKsIpbg6" text="{.MI}Oprawiony{.aj} {.MI}drutowany{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn} w połowie {.MI}pokryty{.aj} skórą" />
+    <string id="ZmFx0XvN" text="{.MI}Północny{.aj} {.MI}rozdzielony{.aj} {.MI}uchwyt{.nn} {.MI}jednoręczny{.aj}" />
+    <string id="Zmtfwmh1" text="{.MI}Zwężany{.aj} {.MI}cienki{.aj} {.MI}jelec{.nn} sztyletu" />
+    <string id="zoQhOBku" text="{.F}Okrągła{.aj} {.F}głowica{.nn} z kolcami" />
+    <string id="zoxF4ikz" text="{.F}Długa{.aj} {.F}rękojeść{.nn} z drewna jesionu {.F}owinięta{.aj} skórą" />
+    <string id="Zp625kEP" text="{.MI}Północny{.aj} {.MI}drewniany{.aj} {.MI}dwuręczny{.aj} {.MI}uchwyt{.nn}" />
+    <string id="ZUp9mm79" text="{.MI}Ząbkowany{.aj} {.MI}grot{.nn} włóczni" />
+    <string id="ZxZ7AJ1r" text="{.N}Południowe{.aj} {.N}ostrze{.nn} topora bojowego" />
+  </strings>
+</base>

@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+    <string id="02FaqhzI" text="이야기는 들었지. 호평 일색이더군. 가끔씩 대화를 나누도록 하지. 나 같은 사람과 친분을 쌓을 경우 당신 같은 사람에게는 상당한 이득이 될 수 있네." />
+    <string id="0etg1Q9l" text="{FIRST_NAME} 밑에서 일하는 동안 부하들에게 수많은 희생을 강요해야 했어. 그들의 충성심이 잘못된 대상을 향했다는 말은 듣지 않겠어." />
+    <string id="1bxTLLAk" text="{SETTLEMENT_NAME}에 있는 내 마을을 습격하다니. 내가 약하다고 생각하나? 내 마을을 습격하고도 무사할 줄 알았나?" />
+    <string id="1JgKFOw8" text="당신께 충성하겠습니다." />
+    <string id="1jUa8olQ" text="그대가 항복할 거라고 기대하지는 않지만 어쨌든 기회는 주겠네.[ib:warrior][if:convo_stern]" />
+    <string id="1MPxKtue" text="중요한 일인가? 지금은 좀 바빠서 말일세." />
+    <string id="1Rht7WZI" text="자네 이름을 들어본 것 같아. 자넨 우리에게 문제가 될 것 같군." />
+    <string id="267ch9fZ" text="{VILLAGE_NAME} 습격은... 거기 농부들한테 시련이 되겠군. 뭐, 그건 그렇고 {ENEMY_NAME}, 그 자라면 우리에게도 똑같이 했을 걸세." />
+    <string id="27KUtWGA" text="내가 준 과제를 완수했군. 고맙네." />
+    <string id="2FWBCCw0" text="자매" />
+    <string id="2VkCAuiu" text="그래... 자네 이름을 들어본 것 같아." />
+    <string id="2vMNJl7F" text="잘 알겠네. 그러면 이걸로 끝난 걸세." />
+    <string id="3L7Rkswm" text="항복할 수는 있겠지만 그러지 않았으면 한다. 네가 비명을 지를 때까지 검을 네게 쑤셔 넣고 싶으니까.[ib:warrior][if:convo_mocking_revenge]" />
+    <string id="3PsQTf0z" text="이제 넌 구석에 몰린 쥐나 마찬가지다. 항복하지 않으면 공격하겠다.[ib:warrior][if:convo_aggressive]" />
+    <string id="3TGug4Vb" text="그대의 이름을 아네. 듣기로는 가장 용맹한 전사라고 하더군. 그에 걸맞는 명예와 자비로움도 갖추고 있었으면 좋겠네." />
+    <string id="3UucAOBW" text="나는 {CLAN_NAME}의 {CONVERSATION_CHARACTER.LINK}라고 하네." />
+    <string id="48g7K7Zi" text="친구, 이 길로 다닐 때에는 숨은 손의 시선을 피할 수 없다는 걸 알아둬야 해. 영주들과 황제들은 왔다가 가지만 우린 항상 여기 있거든." />
+    <string id="49sxmwcX" text="닥쳐라! 그 입은 곧 목숨을 구걸할 때나 놀리거라." />
+    <string id="4Jo8JMZm" text="숙녀분" />
+    <string id="4Uagj1LN" text="사실 당신을 내 포로로 잡아둘까 생각하고 있소." />
+    <string id="5DCMLfp8" text="당신에 대한 얘기를 들었소. 딱히 담소를 나눌 기분은 아니니 본론으로 들어가도록 합시다." />
+    <string id="5Fa0uDJn" text="아세라이의 여술탄" />
+    <string id="5ZfjV7hS" text="그만! 오늘은 네놈이 이겼다! 이렇게 수치스러울 수가![if:convo_angry]" />
+    <string id="62vceTar" text="나는 {CLAN_NAME}의 {CONVERSATION_CHARACTER.LINK}라고 하네." />
+    <string id="6acfbHiE" text="그대의 이름을 기억하겠네. 하지만 먼저 내 신뢰부터 얻어야 할 걸세, 이방인. 세상은 위험한 곳이고 위험한 시기이기도 하니까." />
+    <string id="6l8ty6Dr" text="만나서 반갑네." />
+    <string id="6LlDlGSb" text="바타니아의 패왕후" />
+    <string id="6UBdsXlo" text="언젠가는 우리도 전장에서 만나게 되겠지. 길만에 대해 궁금하다면 멋진 말들과 번쩍거리는 강철을 보시지. 우리가 당신의 편이라면 기뻐하게. 우리가 당신의 적이라면 싸움이 시작되기 전에 도망쳐야 고생을 피할 수 있을 걸세." />
+    <string id="6YUFDgGb" text="내가 곧 할 일은 정말로 중요하네. 그리고 이 일로 일이 쉬워질 걸세." />
+    <string id="7ErxFkCB" text="우리가 {VILLAGE_NAME}에서 한 일을{VILLAGE_FACTION}이(가) 좋아할 것 같지 않군..." />
+    <string id="7lWtkqHv" text="그대의 이름을 기억하겠네." />
+    <string id="7pQ3y21E" text="도움에 다시 한 번 감사하네." />
+    <string id="80C0gWJ4" text="블란디아의 왕" />
+    <string id="86aQkXpV" text="좋아. 그대의 용기를 시험해 보겠네!" />
+    <string id="8eLXNZ7U" text="상대가 누군지를 알고 싸우는 게 훨씬 낫지." />
+    <string id="8GDgJCB4" text="용감한 전사를 찾고 있다면 멧돼지 용병단을 고용하는 방안을 고려해 보십시오. 깃발 아래 모인 블란디아 최강의 사내들을 상상해 보시란 말입니다. 왜냐고요? 우리를 고용하지 않으시면 적이 고용할지도 모르거든요." />
+    <string id="8WLSZRZc" text="좋습니다. 어떤 제안을 하시겠습니까?" />
+    <string id="8x8kVUGX" text="가난하고 유순한 자들, 과부와 고아의 권리를 지킨다면 하늘이 그러한 노력을 알아줄 것입니다." />
+    <string id="99gE1ZoY" text="나는 {FACTION}의 {CONVERSATION_CHARACTER.LINK}입니다." />
+    <string id="9LwkLxo7" text="자넨 비록 평범하게 태어났지만, 결국에는 이름을 날릴 인물로 보이는군. 자네가 권력과 책임이 있는 자리에 오른다면, 그 권력을 어떻게 사용하겠나?" />
+    <string id="9uH1NdsT" text="잘생긴 친구로군. 분명 그 얼굴값 하느라 소란도 많았겠지." />
+    <string id="9ZHhYooG" text="나한테 일대일로 졌던 건 기억이 안 나나? 더 맞고 싶어서 온 건가?" />
+    <string id="A40Z3egp" text="내가 준 일을 훌륭히 마쳤군... 잘했네." />
+    <string id="a55SAS18" text="우리가 훨씬 유리하다. 항복하라. 그러면 잘 대우해 주지.[ib:warrior][if:convo_stern]" />
+    <string id="a5LChqbr" text="이 땅의 평민들에게는 그들을 돌봐줄 누군가가 필요해. 우리 형제단이 존재하는 이유지. 사람들은 우리를 도적이나 강도라고 부르겠지만 그건 전혀 사실이 아니야." />
+    <string id="a6EBXT6C" text="그래... 우리 둘 다 여기 마상 시합에 나오지 않았나? 정말 실망이야... {WINNER_NAME}이(가) 주사위 놀이로 그 상을 잃었으면 좋겠군." />
+    <string id="a8584KD0" text="나는 {CLAN_NAME}의 {CONVERSATION_CHARACTER.LINK}이네. 초원의 서사시에서 우리 클랜의 이름을 들어본 적이 있을 걸세. 우린 쿠자이트의 어머니, 위대한 암늑대가 낳은 열두 아들의 이름을 계승하네." />
+    <string id="aaadHoIb" text="{?GENDER}그자{?}그자{\?}가 {?GENDER}그{?}그{\?}의 모든 적을 박살내기를!" />
+    <string id="aagGt8pX" text="영주님" />
+    <string id="aFbkjgVe" text="과제를 완수하지 못했군... 뭐, 가끔은 불가항력의 상황도 생기는 법이지... 그렇지 않을 때도 있지만. 어쨌든 지나간 일은 잊기로 하세." />
+    <string id="agKiYTCE" text="아, 그래. 자네 이름을 들어본 것 같아. 이렇게 직접 만나다니 참으로 반가운 일이군." />
+    <string id="aIimfZZe" text="얘기를 들었습니다. 아주 훌륭한 전사라고 하더군요. 하지만 이렇게 매력이 넘치는 분이란 건 전혀 언급이 없었어요." />
+    <string id="aKD9kfTI" text="{TOURNAMENT_WINNER}이(가) {TOURNAMENT_TOWN}의 마상 시합에서 어떻게 이겼는지 자네도 알겠지... 그런 과분한 승리는 내 평생 처음 봤어..." />
+    <string id="atHFPCcK" text="만나서 반갑네. 이 세상에 그대의 말에 실린 무게보다 더 중요한 건 없네. 그러니까 진실을 말해 주게. 그러면 나도 그대를 진심으로 대하겠네." />
+    <string id="auVAWUJ3" text="만약 나를 상대로 선을 넘는다면 당장 까마귀 밥으로 던져 버리겠네." />
+    <string id="AZf7kPgr" text="오늘은 아무래도 역부족으로 보이는군. 부하들을 위해서라도 이만 포기하라![ib:warrior][if:convo_thinking]" />
+    <string id="bAir72Sf" text="그만! 항복하겠네![if:convo_beaten]" />
+    <string id="bbjLFWhP" text="저번 결투에서는 내가 승리했지만 그대는 잘 싸웠지. 재결투를 원하는 것도 충분히 이해하네." />
+    <string id="BbVpiTdi" text="세상 물정에 밝은 분이라고 들었소만... 그대의 여정에 대해 좀 이야기해주게." />
+    <string id="BCfeuAX5" text="내가? 사슬에 묶인 모습보다는 차라리 날 풀어주고 창피를 당하는 꼴을 보고 싶어하다니... 정말이지 격조 있는 잔인함을 갖췄군. 승리를 만끽하시게나![if:convo_contemptuous]" />
+    <string id="bDarsOFR" text="나는 {CLAN_NAME} 가문의 {CONVERSATION_CHARACTER.LINK}일세." />
+    <string id="bdiuV4qb" text="이름을 들었네. 아주 용맹한 {?PLAYER.GENDER}자{?}자{\?}라고 하더군. 언젠가 결투할 일이 생기면 영광으로 생각하겠네." />
+    <string id="BMc3VJcf" text="자네의 이름은 모르지만 별 상관은 없네. 위대한 혈통이 되는 것이 위대한 혈통으로 태어나는 것보다 영광스러운 일이라는 말도 있으니까 말일세." />
+    <string id="bNReoRmt" text="전사를 고용할 여건이 된다면 배신당한 자들의 군단을 고려해 보시죠. 믿음을 저버린 대가를 똑똑히 목격한 우리는 약속과 계약의 이행이 무엇을 의미하는지 잘 알고 있습니다." />
+    <string id="brGfaXyo" text="어떤 사람인지 감이 안 오는군. 아주 용감하거나 아주 경솔하거나... 둘 중 하나겠지." />
+    <string id="BRMngn5i" text="그만! 난 그대의 포로일세. 몸값을 지불할 수도 있어. 살아 있어야 더 쓸모가 있을 걸세.[if:convo_thinking]" />
+    <string id="C5JaFsDZ" text="{FIRST_NAME}, 그분이 내 군왕이오. 더 할 말은 없소." />
+    <string id="c7hrnOUE" text="내가 맡긴 임무를 제대로 해내지 못했나 보군." />
+    <string id="caKCwoPM" text="베니 질랄은 비밀의 수호자지. 우린 그림자 속에서 지켜보는 자들일세. 우릴 적으로 만들면 각오해야 할 걸세." />
+    <string id="cFiSjbf4" text="하! 난 당신과 싸워보고 싶어." />
+    <string id="cGuzIVlk" text="여행을 아주 많이 했다고 들었네. 그 여정 이야기를 좀 들려줄 수 있겠나..." />
+    <string id="cMO9JXvk" text="나는 {CLAN_NAME}의 {CONVERSATION_CHARACTER.LINK}라고 하네. 우리는 {LIEGE_TITLE}의 봉지를 소유하고 있으며 충성 서약을 지키지." />
+    <string id="CN20EFDE" text="안타깝게도 이 정도의 승산에도 불구하고 그대를 공격하지 않는다면 그건 어리석은 판단이겠지." />
+    <string id="CPWbB47d" text="이야기는 들었네! 오래전부터 만나 뵙고 싶었지." />
+    <string id="csxzwd17" text="그래, 자네가 그 마상 시합에서 이겼지... 뭐, 이런 일에는 언제나 운이 작용하는 법이니까, 그건 확실해." />
+    <string id="CUfZXlOd" text="그대의 이름을 기억하겠네." />
+    <string id="d2QGFdRJ" text="너에게 승산 따위는 없다. 항복하지 않으면 내장을 발라 버리겠다.[ib:warrior][if:convo_angry]" />
+    <string id="D5SIBhjl" text="{TOURNAMENT_WINNER}이(가) 여기 마상 시합에서 어떻게 이겼는지 자네도 알겠지... 그런 과분한 승리는 내 평생 처음 봤어..." />
+    <string id="dC8acIya" text="나는 {CLAN_NAME}의 {CONVERSATION_CHARACTER.LINK}라고 하네." />
+    <string id="dD6hNymL" text="제 부하와 저는... 무슨 소문을 들으셨든 관계없이 저희는 정부를 존중합니다. 저희가 도움이 될 수 있으면 좋겠습니다." />
+    <string id="dD93WVhO" text="나에 대해 알아야 할 한 가지가 있네. 난 아주 훌륭한 친구지만 절대 적으로 둬서는 안 될 인물이란 걸 말일세." />
+    <string id="dhwnbgoz" text="아니, 그걸로는 부족하지." />
+    <string id="DIjtFVu8" text="네놈의 피를 마지막 한 방울까지 모조리 뽑아주마." />
+    <string id="dKmAktt7" text="넌 날 이길 수 없어. 감히 나섰다간 뼈 아픈 교훈을 얻게 될 것이다. 항복해라![ib:warrior][if:convo_angry]" />
+    <string id="dLHsoh3f" text="소문은 들은적이 있네. 자네 이름만 들어도 사람들은 벌벌떨지. 아~주 좋은 평판이야. 어쩌면 나와 좋은 친구가 될 수 있을지도 모르겠군." />
+    <string id="dlkg2jQf" text="나는 스투르지아의 고대 혈통 중 하나인 {CLAN_NAME}의 {CONVERSATION_CHARACTER.LINK}일세." />
+    <string id="DLV6F3ob" text="카라케르지트에 대한 얘기를 들어본 적이 없는 모양이지? 우린 부패한 꿰매진 땅 전역에서 모험을 즐기지. 우린 칸을 섬긴다. 곡물은 키우지 않아. 우리는 대초원 속에서 전통 방식을 고수하지." />
+    <string id="dniQq29H" text="솔직히 말하지. 자넨 좋은 가문 출신이 아니야. 자네가 너무 과분한 욕심을 부린다고 하는 사람들이 있네. 하지만, 만약 출세한다고 하면, 무엇을 하겠나?" />
+    <string id="DRzsgjsD" text="나는 제국 연보에서 가장 걸출한 가문 중 하나인 {CLAN_NAME} 문중의{CONVERSATION_CHARACTER.LINK}일세." />
+    <string id="dvpbyoAQ" text="얘기는 많이 들었네. 드디어 만나보는군. 왠지 알고 지내면 좋을 것 같은 {?PLAYER.GENDER}사람{?}사람{\?}일 것 같네. 가끔 대화라도 나누도록 하지." />
+    <string id="DxuuarNT" text="이름은 알고 있네. 듣기로는 당신 때문에 비탄에 빠진 과부들이 많다고 하던데. 뭐, 나랑은 상관없는 일이네만." />
+    <string id="E9B7Vrbx" text="{SETTLEMENT_NAME}에 있는 내 마을을 습격하다니. 이제 전쟁이다. 준비하라!" />
+    <string id="eHuiRxC4" text="여기 마상 시합은 어떤가? 그리고 그 참가자들이 날 이길 수도 있다는 생각을 했다고 상상하는 건?" />
+    <string id="EIThhVgG" text="이름을 알고 있네. 만나서 반갑네." />
+    <string id="ELtT9ctL" text="스콜데르브로다에 대해 알고 계실지도 모르겠습니다. 우린 전장에서는 독보적인 존재입니다. 우린 가치에 맞는 금전적 대우를 원합니다. 물론 저렴하지는 않겠지만 만약 당신의 돈을 받게 된다면 목숨을 걸고 계약을 지키겠다고 맹세하겠습니다." />
+    <string id="ETxtYU6C" text="그래... 꽤나 이름을 날렸더군..." />
+    <string id="eu6O20oJ" text="아, 자네의 대의를 위해 난 기꺼이 피를 흘릴 걸세. 그러나 내게는 돌봐야 할 친족과 보호를 구하는 자들이 있네. 말한 것 이상의 대가가 필요하네." />
+    <string id="EXgm5Utx" text="{?GENDER}그분{?}그분{\?}께서 만수무강하시기를!" />
+    <string id="eyxfHmCU" text="나는 {CLAN_NAME}의 {CONVERSATION_CHARACTER.LINK}일세. 우리 가문은 대대로 블란디아와 왕에게 충성을 다해왔지." />
+    <string id="eZh2qzeR" text="{TOURNAMENT_TOWN} 마상 시합은 어떤가? 그리고 그 참가자들이 날 이길 수도 있다는 생각을 했다고 상상하는 건?" />
+    <string id="f2eZL7w5" text="아, 네놈에게 목숨을 구걸할 기회 정도는 주는 게 맞겠지. 그렇다면 항복하겠는가?[ib:warrior][if:convo_mocking_revenge]" />
+    <string id="f3X79aDs" text="그래... 꽤 많은 곳을 여행했다고 들었네. 아주 괴상하고 혐오스런 것들도 많아 봤을 테지. 어쩌면 괴상하고 혐오스런 짓도 많이 했을 테고. 자, 걸어온 여정에 대해 들려주게나. 놀라지 않겠다고 약속하겠네." />
+    <string id="Fb7JxGKM" text="그래... 그대의 이름을 아네. 담소 따위에는 관심이 없으니 본론으로 들어가도록 하지." />
+    <string id="fbArcLAA" text="숙녀분, 당신의 아름다운 자태만큼 무기를 다루는 실력도 뛰어나다면 적이 당신을 두려워할 수 밖에 없겠군요!" />
+    <string id="FbstpIYj" text="기회는 줬다. 딴소리는 하지 마라." />
+    <string id="FFXqPFwl" text="나는 블란디아 왕국의 연보에서 가장 걸출한 가문 중 하나인 {CLAN_NAME} 문중의{CONVERSATION_CHARACTER.LINK}일세." />
+    <string id="fHFpgitO" text="만나서 반갑네. 용기도 칭찬받을 일이지마 가장 위대한 미덕은 자비심이란 걸 항상 기억하게." />
+    <string id="FpD4Y9cX" text="감사하네. 내 그대의 적임에는 변함이 없지만 그래도 고마운 마음을 참을 수 없네.[if:convo_relaxed_happy]" />
+    <string id="FYLmd2ch" text="{SETTLEMENT_NAME}에 있는 내 소작인들을 습격하다니. 말할 필요도 없겠지만, 매우 불쾌하다." />
+    <string id="g3oFsCtd" text="자네는 협상을 요청했네. 자네가 전쟁의 관습을 이행하고 허튼 수작을 부리지 않을 거라 믿겠네." />
+    <string id="G8ol9sG3" text="그대와 싸워야 한다는 사실이 슬프지만 어쩔 수 없네. 물론 그대가 항복한다면 얘기가 다르겠지만.[ib:warrior][if:convo_stern]" />
+    <string id="gBRBdsIe" text="그대처럼 평판이 훌륭한 분이시라면 이 세상에서 말의 무게보다 중요한 건 없다는 걸 알고 있겠지. 진실을 말한다면 나 또한 그렇게 하겠네." />
+    <string id="gggmhjd7" text="난 그저 가져가기만 하면 되는데, 이보다 더 좋은 걸 내게 제안할 수 있을지 모르겠군." />
+    <string id="ghawrJRK" text="{SETTLEMENT_NAME}을(를) 습격했다고 하더군. 거긴 내 땅이다, 이 천치야. 그런다고 내가 약해 보일 것 같나? 죽음으로 그 대가를 치를 것이다." />
+    <string id="GO47mubj" text="제안하고 싶은 게 정확히 뭐지?" />
+    <string id="Gp3l5fjI" text="전에 준 과제 말일세... 뭐, 그대가 최선을 다하기를 바랄 수밖에 없겠지. 그대도 동의한 바니까." />
+    <string id="gxV3M6HH" text="물론 {?GENDER}그{?}그{\?}가 장수하고 {?GENDER}그{?}그{\?}의 모든 적들에게 승리하기를 바라고 있어. 달리 말한다면 그건 반역 행위가 될 테니까... 물론 그대도 잘 알고 있겠지." />
+    <string id="gyCA2mZP" text="내가 보기에 우린 더 이상 할 얘기가 없겠군." />
+    <string id="HaHZss32" text="나는 {LIEGE_TITLE} 님의 충성스런 심복, {CONVERSATION_CHARACTER.LINK}라 하네." />
+    <string id="HbVsATfi" text="이름을 알고 있네. 많은 이들의 당신의 용기를 칭송하더군. 하지만 명예와 자비심을 배양하는 것도 나름의 가치가 있다는 사실을 기억하시게." />
+    <string id="heKSWVJk" text="아, 네놈에게 항복할 기회를 주는 게 맞다고 보지만, 끝까지 항복은 안 했으면 좋겠군. 네놈을 참수할 때 모가지가 얼마나 질긴지 구경하고 싶거든.[ib:warrior][if:convo_mocking_aristocratic]" />
+    <string id="hfftfRcq" text="아아, 아무래도 의견이 일치하지 않는 것 같군." />
+    <string id="hP35jSyk" text="나는 {CLAN_NAME} 가문의 {CONVERSATION_CHARACTER.LINK}일세." />
+    <string id="hQlpbksp" text="그래... 우리 둘 다 {TOURNAMENT_TOWN}의 마상 시합에 나오지 않았나? 정말 실망이야... {WINNER_NAME}이(가) 주사위 놀이로 그 상을 잃었으면 좋겠군." />
+    <string id="hQsjeTix" text="항복하겠네! 내게 명예 항복을 허락한다면 그대 역시 명예를 얻을 걸세![if:convo_thinking]" />
+    <string id="HwhUEZPE" text="그래... 이름을 알고 있지... 딱히 그쪽에 대한 불만은 없어, 친구. 그러니까 내 일에서 좀 빠져줘. 나도 네 일에 간섭할 생각은 없으니까." />
+    <string id="HwsshsMz" text="최근 문제에 대한 타협점을 찾게 되어 기쁘군." />
+    <string id="i1RXpQxR" text="우리의 결투를 기억하나? 아주 멋진 승부였지. 하지만 지금은 아무래도 내가 유리하다 보니 전처럼 정정당당하게 싸우기는 쉽지 않겠네." />
+    <string id="I67MlgYp" text="아니... 좀 더 나은 대가를 주지 않는 한 그렇게 할 수는 없네." />
+    <string id="iAKHTPlP" text="여기 마상 시합에서 자네와 겨룰 수 있어 영광이었네." />
+    <string id="iepWkkfA" text="영주님" />
+    <string id="ieVRr359" text="그대의 이름을 기억하도록 하겠네." />
+    <string id="iM76GPzK" text="진실된 {?PLAYER.GENDER}자{?}자{\?}의 말에는 항상 귀를 기울일 준비가 되어있지. 만약 진실성이 부족하다면 괜히 나까지 더럽히지 말아 주게나." />
+    <string id="iOnsulPb" text="우리 얘기를 들어본 적이 있을지도 몰라. 사람들은 우리를 불꽃의 잉걸불이라고 부르지. 아주 오래 전, 하늘은 우리에게 대지의 위대한 정화를 준비하라고 말씀하셨다. 그날이 올 때까지는 불길을 삭이며 침묵으로 일관하고 있지. 하지만 그날이 오면 정의로운 분노가 활활 타오르게 될 거다." />
+    <string id="itfE84jd" text="넌 이미 수적으로 열세야. 그만 포기하시지. 싫으면 마라. 싸우다 죽는 건 명예로운 일이니까.[ib:warrior][if:convo_bored]" />
+    <string id="IuSH0tcp" text="{FIRST_NAME}, 항상 나에 대한 {?GENDER}그{?}그{\?} 도리를 다한 인물이지. 나도 똑같이 할 생각일세." />
+    <string id="J0wLOV3u" text="내린 과제가 쉽지 않았다는 건 알지만... 어쨌든 그 얘기는 그만 하도록 하지." />
+    <string id="JBZcBg9h" text="만나서 반갑네." />
+    <string id="JcdmntiC" text="아, 그래... 소문 때문인지 적의 피가 뚝뚝 흐르는 검을 들고 있는 모습을 상상했는데... 이렇게 매력적이고 우아한 자일 줄은 몰랐군." />
+    <string id="JJAWbuNT" text="나는 {CLAN_NAME}의 {CONVERSATION_CHARACTER.LINK}라 하네. 사람들의 말로는 우리 조상이 영웅의 시대에 서쪽에서 황금배를 타고 이 대륙으로 건너왔다고 하더군. 물론 전설처럼 그렇게 많은 사람들이 타고 있었다면 배가 뒤집히고 말았겠지." />
+    <string id="JkHvOVlo" text="그대의 이름을 기억하도록 하겠네. 내가 바로 친해지려고 하지 않는다고 오해하지는 말게. 세상은 위험한 곳이고 난 항상 신중하라고 배웠기 때문일세." />
+    <string id="JNb6l91E" text="영광을 누릴 기회를 얻고 싶다면 날 위해 싸우는 게 좋을 걸세. 언젠가는 내 지휘 아래서 싸웠다는 무용담을 손주들에게 할 날이 올 테니까." />
+    <string id="jr0XszmA" text="들어본 적이 있는 이름인지는 모르겠지만 어쨌든 만나게 되어 반갑군." />
+    <string id="jrG4UPBr" text="네놈이 {SETTLEMENT_NAME}을 습격하면서 태워버린 집 하나하나를 네 몸에 새겨주마." />
+    <string id="JS5hKW6p" text="난 오직 자신만을 위해 전쟁을 즐기는 부류는 아닐세. 하지만 약속을 지킬 줄 아는 믿을 수 있는 전사가 필요하네. 날 신뢰한다면 나 역시 그들에 대한 신뢰를 저버리지 않을 걸세." />
+    <string id="jxduaTUc" text="그대 이야기를 들었네. 사내처럼 싸울 줄 아는 여자라고 하더군." />
+    <string id="k50ZjzZ7" text="{TOURNAMENT_TOWN}의 마상 시합 이후로 처음이군. 우리 둘 중 하나는 다음 번에 운이 더 따라줄지도." />
+    <string id="K5Fvv504" text="{CLAN_NAME} 가문의 {CONVERSATION_CHARACTER.LINK}입니다, {?PLAYER.GENDER}영주님{?}영주님{\?}. 섬기게 되어 영광입니다." />
+    <string id="k6TABWrF" text="{SETTLEMENT_NAME}에 있는 내 마을을 습격하며 자행한 잔혹한 행위에 대해 들었다. 난 소작인을 보호해야 하고, 그러지 못할 경우, 복수할 책임이 있다." />
+    <string id="kaEUZ8NA" text="내 아들" />
+    <string id="kBcfMYzE" text="{TOURNAMENT_TOWN}의 마상 시합에서 자네와 겨룰 수 있어 영광이었네." />
+    <string id="KC7PxI8c" text="당신은 적이니까 계속 포로로 잡혀있게 될 걸세." />
+    <string id="kil3bT75" text="한 가지 알아야 할 게 있네. 날 건드리면 후회하게 될 걸세." />
+    <string id="kkOYSCSz" text="말로만 용감하기는 쉽지. 어디 두고 보자고." />
+    <string id="KkWNSw9p" text="그대의 이름을 아네. 사람들은 당신의 이름만 듣고도 공포에 질리더군. 아주 좋아. 언제 기회가 되면 대화라도 나눠보도록 하지." />
+    <string id="KlQlzYdS" text="오랜 벗들을 싸우게 하다니... 운명의 장난이 지나치군. 운명을 받아들일 텐가? 아니면 항복하겠나?[ib:warrior][if:convo_nonchalant]" />
+    <string id="KMygMFj2" text="너와 싸우는 건 내 의무다." />
+    <string id="L2GbDVja" text="{CLAN_NAME}의 {CONVERSATION_CHARACTER.LINK}입니다, {?PLAYER.GENDER}영주님{?}영주님{\?}. 섬기게 되어 영광입니다." />
+    <string id="l2nEIZV5" text="나는 {CLAN_NAME}의 {CONVERSATION_CHARACTER.LINK}라고 하네." />
+    <string id="L2PFxbD3" text="넌 불과 얼마 전에 내 믿음을 저버렸지. 이제 와서 더 할 말이 남았을까?" />
+    <string id="L6FSmeIv" text="자넨 여행을 많이 다녔다고 하더군. 우린 너무나 끔찍한 시대를 살고 있지, 정말 힘든 시기야. 여행하면서 본 것을 어떻게 생각하나?" />
+    <string id="l9CJa1Do" text="아니, 그런 일을 시킬 거라면 그걸로는 부족하겠군." />
+    <string id="LBb7YgXU" text="칼라디아의 적법한 왕" />
+    <string id="LbpdzoRd" text="나는 {CLAN_NAME} 가문의 {CONVERSATION_CHARACTER.LINK}일세. 우리 가문은 제국의 탄생 때 부터 평의회의 일원으로써 책무를 성실히 수행해 왔네." />
+    <string id="lcPeNFTN" text="만나서 참 반갑네." />
+    <string id="LEZKgNEm" text="그대의 이름은 들어본 적이 없는데... 전쟁으로 황폐화된 땅에서 뭐 먹을 게 없나 기웃대는 수많은 독수리들 중 한 마리에 불과할 테지만..." />
+    <string id="lI8rPjEd" text="설마 내가 음모나 꾸미는 잡배라고 생각하는 건가? 무슨 말을 하고 싶은지는 모르겠지만 날 모욕하지는 않는 게 좋을 걸세." />
+    <string id="LkVCTVMx" text="고맙소. 당신이라면 해 낼줄 알았소. 요즘 당신처럼 믿음직한 사람이 흔치 않은데 말이야." />
+    <string id="LYUqmf6P" text="어디 들어나 보세. 설마 날 모욕하는 말은 하지 않겠지." />
+    <string id="mHP7PtrJ" text="음, 그 정도면 합당하겠군." />
+    <string id="Mlpy0SQo" text="항복하겠소! 당신은 정말 잘 싸웠소. 더 이상 피를 흘릴 필요는 없겠지.[if:convo_thinking]" />
+    <string id="MSiuWF7V" text="더는 참을 수 없습니다! 우린 반란의 기준을 높였고 합당한 요구가 충족될 때까지 계속해서 민중의 적과 싸우겠습니다." />
+    <string id="mUa4sDgF" text="{SETTLEMENT_NAME}에 있는 내 마을을 습격했더군. 자, 이제 그 빚을 돌려주러 내가 여기 왔다." />
+    <string id="MUHdZHFw" text="얘기는 많이 들었네. 왠만한 사내 대장부보다도 전투 실력이 뛰어나다고 하더군. 언제 기회가 되면 마상 시합이나 전장에서 무훈을 다퉈보고 싶네!" />
+    <string id="MUuNmr6C" text="오늘은 운이 좋지 않았군. 우리와 싸울 수도 있겠지만, 항복한다고 해서 부끄럽지는 않을 걸세.[ib:warrior][if:convo_thinking]" />
+    <string id="MzKWlFTv" text="우리가 이렇게 싸워야 한다는 사실이 참으로 안타깝네. 항복하지 않겠나?[ib:warrior][if:convo_stern]" />
+    <string id="N5pglyyU" text="마음대로 하시지." />
+    <string id="NeUilOqh" text="우린 새친구들을 환영하네. 숲이란 동물도 식량도 풍족한 곳이니까. 하지만 개중에는 우릴 벗겨먹으려 드는 놈들도 종종 있지. 봄이오고 눈이 녹으면 놈들의 시체를 볼 수 있을걸세." />
+    <string id="nJgp2MoR" text="이름을 알고 있네. 슬픔에 젖은 수많은 과부들도 마찬가지겠지. 어쨌든 나랑은 상관없는 일이야." />
+    <string id="nLbQ8rpF" text="자네의 제안이 가장 그럴듯했네." />
+    <string id="NmlauVxB" text="음... 계속 해보게." />
+    <string id="Nq2dyiO1" text="나는 {CLAN_NAME}의 {CONVERSATION_CHARACTER.LINK}라고 하네. 스투르지아의 전설 속에서 수도 없이 접하게 될 이름일 걸세." />
+    <string id="nRnbBnFq" text="내가? 글쎄... 고맙기는 하군.[if:convo_relaxed_happy]" />
+    <string id="NW1n9k45" text="사촌" />
+    <string id="o2aKr8JD" text="이름을 들은 적이 있네." />
+    <string id="o4talwN5" text="그 문제를 처리하는 일에 동의해준 점, 다시 한 번 감사를 표하네." />
+    <string id="O8wTipT2" text="감사하네. 그대가 패배하면 아주 빠르고 자비로운 죽음을 맞이하도록 요청하겠네. 물론 그대가 우리와 함께하겠다면 결말은 다르겠지만... 일단은 작별일세.[if:convo_nonchalant]" />
+    <string id="ODa9Eikp" text="{VILLAGE_NAME} 약탈... 영주가 실수하면 가난한 사람만 죽어난다고들 하지." />
+    <string id="OgzAlCkk" text="아직도 네게 입은 상처를 치료 중이지." />
+    <string id="oIrz5050" text="폐하" />
+    <string id="oW51mkNE" text="우리와 싸우면 수많은 부하가 죽을 걸세. 물론 전투에서도 패배하겠지. 불필요한 피를 흘리지 않도록 이만 항복하게.[ib:warrior][if:convo_stern]" />
+    <string id="oxMlxVqd" text="{SETTLEMENT_NAME}에 있는 내 마을을 습격하다니. 죽음으로 그 대가를 치를 것이다!" />
+    <string id="oZnVxkp0" text="{VILLAGE_NAME}에서 있었던 일은... 난 무고한 주민을 공격하는 건 싫어. 그런 일은 하지 않았으면 좋겠어." />
+    <string id="PBgLvyOa" text="나는 {CLAN_NAME}의 {CONVERSATION_CHARACTER.LINK}라 하네. 우리 조상들은 대공의 데나르를 받고 이 땅을 지키겠다는 맹세를 하기 위해 머나먼 북쪽에서 내려왔네. 물론 지금까지도 그 맹세를 굳건히 지키고 있지." />
+    <string id="pDN7Wafo" text="쿠자이트의 칸" />
+    <string id="PFgGnk7z" text="제가 당신께 충성하는 것은 말할 필요도 없는 일입니다." />
+    <string id="Pg8vccKF" text="그대의 이름은 들어본 적이 없군. 딱히 문제가 될 것 같지는 않네만." />
+    <string id="pgIaAnBt" text="내가 처리해달라고 부탁했던 문제는... 잘 되지 않았다고 들었네." />
+    <string id="PhTv43ve" text="아, 그래. 드디어 만나보는군. 드디어 만나보는군. 왠지 알고 지내면 좋을 것 같은 {?PLAYER.GENDER}사람{?}사람{\?}일 것 같네. 가끔 대화라도 나누도록 하지." />
+    <string id="PKzNW9do" text="네놈이 {SETTLEMENT_NAME}에 있는 내 마을을 습격하면서 한 짓은 참을 수 없다. 전쟁이란 것이 원래 잔인하지만, 불필요한 잔악 행위까지는 필요 없다." />
+    <string id="pn79h0aj" text="나는 {CLAN_NAME}의 {CONVERSATION_CHARACTER.LINK}라 하네. 보르쇼스 황제께서 직접 우리에게 직책을 하사하셨지. 당시 황제께서는 우리의 약탈선에 붙잡혀 계셨던 관계로 선택의 여지는 없었겠지만, 우리에게 귀족의 피가 흐른다는 사실을 이미 눈치채셨을 걸세." />
+    <string id="pQkiu5qf" text="그대에게 또 다른 과제를 줘보는 건 어떨까? 또 날 배신할 수 있게 말일세." />
+    <string id="PQZfXcU1" text="이름을 들은 적이 있네. 사람들이 그대의 행동에 대해 얘기하더군. 드디어 만나게 되어 기쁘네." />
+    <string id="pXULuzaq" text="항복하겠네! 그대가 이겼네. 정말 최악의 날이로군![if:convo_angry]" />
+    <string id="pZj9C1yA" text="천국이 임하리라. 하지만 길을 닦는 자에게는 보상이 있으리니." />
+    <string id="q5nQGimE" text="나는 {CLAN_NAME} 가문의 {CONVERSATION_CHARACTER.LINK}일세. 자신의 가문에 대한 자만은 금물이지만 자부심은 가지고 있지. 우리 가문은 제국 백성들을 보호하는 임무를 한시도 게을리 한적이 없네." />
+    <string id="qa2xUjcT" text="내 자네 이름을 알지. 부디 내가 들은 얘기가 사실이 아니었으면 좋겠군." />
+    <string id="qB3wfM1f" text="이렇게 빨리 타협점을 찾게 되어 무척 기쁘군." />
+    <string id="Qb4tlTEj" text="이야기는 이제 됐네. 항복할지, 싸울지 결정을 내리시게![ib:warrior][if:convo_angry]" />
+    <string id="QhkM71ap" text="만나 뵙게 되어 영광입니다." />
+    <string id="QpBmbygb" text="엘레프테로이에 대해 들어본 적이 있을지도 모릅니다. 우리의 선조께서는 도적, 탈주자와 범죄자들이셨습니다. 이를 부인할 생각은 없습니다. 우리가 여기로 온 이유는 아무도 우리를 원하지 않았기 때문입니다. 하지만 이 점 하나는 분명히 하고 싶군요. 만약 제국이 살아남는다면 그건 침대에서 편하게 잠을 주무시는 분들 대신 황무지에서 고된 노역에 매진했던 우리들 덕분입니다." />
+    <string id="qRW6JkXM" text="네놈이 {SETTLEMENT_NAME}에 있는 내 마을을 습격하고 식량과 가축을 약탈한 놈 중 하나라더군. 너희 놈들도 배고팠겠지만, 우리 소작인도 마찬가지다. 남은 것을 걸고 싸워볼까?" />
+    <string id="qSF2z6Wa" text="당신의 이름은 들어본 적이 없지만 딱 봐도 언젠가는 {?PLAYER.GENDER}자수성가{?}자수성가{\?}할 관상을 지닌 {?PLAYER.GENDER}분{?}분{\?}이시군요." />
+    <string id="qvwfev22" text="이제 구석에 몰린 쥐 신세로군. 항복하거나 죽게나.[ib:warrior][if:convo_aggressive]" />
+    <string id="R6sTYEaz" text="아무리 입을 놀려도 지금 상황을 벗어날 수는 없네." />
+    <string id="ra7YMN8S" text="당신께 충성하겠습니다. 당신에 관한 소문이 돈다면, 그자의 혀를 잘라내겠습니다." />
+    <string id="RajD4RC1" text="처음 듣는 이름이군." />
+    <string id="rCNUXFTN" text="항복하겠네! 당신의 승리를 축하하네.[if:convo_angry]" />
+    <string id="reg1AUxr" text="내 자식" />
+    <string id="rhTUDKhJ" text="나는 {CLAN_NAME}의 {CONVERSATION_CHARACTER.LINK}일세. 바타니아의 모든 클랜은 각자 자기네 부족용사들 중 한명을 골라 그 두개골을 우리에게 바쳤지. 우린 그걸로 술을 마신다네." />
+    <string id="rK2dayAa" text="잘 알겠네. 그 일을 처리하도록 하지." />
+    <string id="rndbZI9I" text="오해하지는 말게. 하지만, 자네가 분에 넘치는 자리를 노린다는 소문이 돌더군. 만약 자네가 출세한다면 무엇을 하겠나?" />
+    <string id="RNZ9LOxc" text="내 친구" />
+    <string id="rPrBa7gK" text="내 남편" />
+    <string id="Rs0aUNlQ" text="{VILLAGE_NAME}의 주민이 오랫동안 우릴 잊지 못할 거야." />
+    <string id="rUzbs0Zr" text="쿠자이트의 카툰" />
+    <string id="ry1ycxNY" text="이런 상황이 오지 않기를 기도했건만." />
+    <string id="s1FVPS5D" text="나는 {CLAN_NAME} 가문의 {CONVERSATION_CHARACTER.LINK}일세. 우리 가문은 대대로 제국을 위해 일하고 있네." />
+    <string id="S1vGzr8z" text="나는 아세라이 클랜인 {CLAN_NAME}의 {CONVERSATION_CHARACTER.LINK}일세." />
+    <string id="s6xlGuTH" text="그대가이 협상 조건을 이행한다면 나 역시 그리 하겠네." />
+    <string id="sax2tF9L" text="{?PLAYER.GENDER}당신{?}당신{\?}은 정말 명예로운 {?PLAYER.GENDER}분{?}분{\?}이시군요. 절대 잊지 않겠습니다.[if:convo_relaxed_happy]" />
+    <string id="sEfAuErj" text="자네가 장차 크게 되리라 짐작하는 사람도 있다네... 만약 자네가 권력자가 된다면 무엇을 하겠나?" />
+    <string id="SJ3bpDxC" text="당신의 깃발을 알아볼 수는 없지만 높은 지위에 계신 여성분이란 건 알겠습니다. 저를 미천한 하인으로 여겨 주십시오." />
+    <string id="sJNrVlXa" text="여기저기 많이 돌아다녔다고 들었는데... 그렇다면 여행 이야기를 좀 풀어보는 게 어떤가?" />
+    <string id="SSuL62NZ" text="난 {FIRST_NAME}에게 충성을 다하지. 누구도 감히 부인할 수 없네." />
+    <string id="sswCmQZ2" text="사람들은 우리를 호수의 쥐들이라고 불러. 하지만 우린 그저 늪지 사람들로 알려지는 걸 원해. 어떤 대공이나 보야르도 우리를 무릎 꿇리거나 고개 숙이게 할 수 없어. 이것만 기억하면 우리와 별 문제 없이 지낼 수 있을 거야." />
+    <string id="T0Cdfsx2" text="자네는 협상을 요청했네. 허튼 수작을 부리고 싶은 마음이 들거든 주변에 궁병들이 배치되어 있음을 기억하게." />
+    <string id="t3FQbYU6" text="자네의 {TOURNAMENT_TOWN} 마상 시합 승리... 뭐, 이런 일에는 언제나 운이 작용하는 법이니까, 그건 확실해." />
+    <string id="t6sRVI5C" text="내 아내" />
+    <string id="T8kAgaPd" text="안 되겠군. 내 추종자들을 사지로 내모는 일이 없도록 하려면 그것보다는 더 받아야겠네." />
+    <string id="tA4wDLt2" text="기록관에게 그대의 이름을 적어 놓으라고 지시하겠네." />
+    <string id="te2DSMtg" text="더 이상은 참지 않겠다. 억압자, 그리고 우리의 정의로운 분노를 방해하는 모든 자들은 피를 흘리게 될 것이다." />
+    <string id="tOanKs9o" text="나는 {LIEGE_TITLE}일세." />
+    <string id="tRSD2C3k" text="아주 훌륭하게 처리해줬군. 정말 잘했네." />
+    <string id="tUa5WBpp" text="칼라디아의 적법한 여제" />
+    <string id="TUwY7IKc" text="넌 날 제대로 엿먹였지. 그런데 이제 와서 무슨 얘기를 나눌 수 있겠나?" />
+    <string id="TvqjhDaQ" text="그래, 내 젊은 사자여. 자넨 장수할 상이야, 비명횡사만 않는다면 말이지." />
+    <string id="Tvy4UvJC" text="블란디아의 여왕" />
+    <string id="tXnSN2ey" text="아무래도 이 거래는 안 되겠네." />
+    <string id="TzPC5L5X" text="난 항상 유능한 전사들을 찾고 있지. 사람들에게 나에 대해 묻는다면 부하들을 제대로 챙길 줄 아는 사람이라고 하나같이 답할 걸세." />
+    <string id="U4p70l9B" text="나는 {CLAN_NAME}의 {CONVERSATION_CHARACTER.LINK}라고 하네." />
+    <string id="u5b8UKaa" text="{VILLAGE_NAME} 습격은... 잔혹했지. 하지만, 그걸로 전쟁이 더 빨리 끝나기를 바라자구." />
+    <string id="U770Bvy8" text="나는 {CLAN_NAME}의 {CONVERSATION_CHARACTER.LINK}이라 하네. 우리 가문의 이름은 바타니아의 서사시에서도 가장 유명하지." />
+    <string id="U9u8Qeu4" text="울프스킨에 대해 들어본 적이 있을 것이오, 여행자. 우리는 짐승과도 같소. 우리가 조리한 음식을 먹지 않고 바느질한 옷을 입지 않고 지붕 아래에서 잠을 청하지 않는 이상 어떠한 인간의 법도 우리를 구속할 수 없소. 그러니 우리와 함께 걷고 싶다면 신중하게 행동하시오." />
+    <string id="Ua0T0A7t" text="나는 바타니아의 고대 혈통 중 하나인 {CLAN_NAME}의 {CONVERSATION_CHARACTER.LINK}일세." />
+    <string id="UBtWqLDS" text="{SETTLEMENT_NAME}의 불쌍한 주민들을 습격했다고 들었다. 내가 보호하는 곳이란 걸 알았어야지. 다음에 마을을 습격할 때는 그곳 주인에게 걸리지 않게 하게나... " />
+    <string id="UehvSvLD" text="내가 맡긴 일은... 실망했다고만 해두지." />
+    <string id="ufa20b2l" text="난 맹세를 지키는 자와만 거래하네. 만약 당신이 약속을 중요히 여기지 않는 사람이라면 더 내 시간을 낭비하지 말게." />
+    <string id="Ufn3916B" text="그대에 대한 얘기를 들은 적이 있네. 이렇게 만나게 되는군. 딱히 담소를 즐기지 않는 관계로 할 말이 있으면 바로 말하도록 하게나." />
+    <string id="UyIuz9dt" text="{VILLAGE_NAME}에서 벌어진 일은... 음, 전쟁은 잔인하니까." />
+    <string id="v4nyY62z" text="스투르지아의 여왕" />
+    <string id="VB5R2lAb" text="좋아. 그러면 이걸로 합의를 보도록 하지." />
+    <string id="ve7pKxrc" text="{VILLAGE_NAME}의 주민들은... 내 영주민이 될 수 있었던 사람들이지..." />
+    <string id="vN4spwD1" text="만약 나를 상대로 선을 넘는다면 재칼의 밥이 되고 말 걸세." />
+    <string id="vNnMHR84" text="당신은 정말 명예로운 {?PLAYER.GENDER}분{?}분{\?}이십니다. 절대 잊지 않겠습니다.[if:convo_relaxed_happy]" />
+    <string id="VOExVZtX" text="미안하네. 피를 보는 걸 좋아하지는 않지만, 당신이 살아서 또 다른 전투에 참여하도록 놔둘 수는 없네." />
+    <string id="VUn8mQ5n" text="바타니아의 패왕" />
+    <string id="w1BKhf5F" text="네놈은 {VILLAGE_NAME}을(를) 습격해서 내 재산을 약탈했다. 네놈의 목을 베어 앞으로 지을 첫 건물에 걸어두겠다." />
+    <string id="w6CzYbRH" text="여기 마상 시합 이후로 처음이군. 우리 둘 중 하나는 다음 번에 운이 더 따라줄지도." />
+    <string id="w7EY8rbd" text="주제를 바꾸세." />
+    <string id="WbAAkcbw" text="만나 뵙게 되어 영광입니다, 부인." />
+    <string id="Wec8VlAQ" text="{TOURNAMENT_TOWN} 마상 시합 승리를 축하하네." />
+    <string id="WFwoWAic" text="항복! 항복이라고! 어서 개들을 치워![if:convo_angry]" />
+    <string id="WH8P3Y5F" text="나는 {CLAN_NAME}의 {CONVERSATION_CHARACTER.LINK}라고 하네." />
+    <string id="wkZzavDk" text="비록 합의는 못 봤지만, 더 나은 제안을 주도록 하게. 그러면 귀를 기울이도록 하겠네." />
+    <string id="WnxA6JQl" text="만나서 반갑네. 이보게, 난 약속을 매우 중요하게 생각하네. 그러니까 날 솔직하게 대해주게. 그럼 나도 솔직한 태도를 취할 테니까." />
+    <string id="wrIYDx9V" text="놓아준다고? 그렇다면... 작별일세.[if:convo_nonchalant]" />
+    <string id="Wt4iJPcd" text="당신에 대한 얘기는 들었습니다! 마침내 만나 뵙게 되어 무척 기쁩니다." />
+    <string id="WVeS3Lsb" text="세상의 것들을 추구하지 말고 신성한 진리를 갈구하라." />
+    <string id="wWwoTzpG" text="형제" />
+    <string id="x3EZDo5k" text="{VILLAGE_NAME}의 소작인처럼 무력한 주민을 공격하는 게 취미라고 들었다. 내 부하들은 그렇게 쉽지 않다는 걸 알게 될 것이다." />
+    <string id="xb5RGe0W" text="날 위해 작은 문제를 처리해줘서 다시 한번 고맙네. 행운을 빌겠네." />
+    <string id="XBbdhx4M" text="이렇게 그대의 도움을 받게 되어 정말 다행이네." />
+    <string id="xH4KJEBP" text="난 {?GENDER}그분{?}그분{\?}을 섬기기로 맹세했네. 더 할 말은 없네." />
+    <string id="xHjVl9gR" text="얘기는 많이 들었네. 드디어 만나보는군. 왠지 알고 지내면 좋을 것 같은 {?PLAYER.GENDER}사람{?}사람{\?}일 것 같네. 가끔 대화라도 나누도록 하지. 어쩌면 서로에게 도움이 될 수도 있으니까." />
+    <string id="xJ1LJ3mH" text="마음대로 하십시오.[if:convo_beaten]" />
+    <string id="Xk2rNuxQ" text="아세라이의 술탄" />
+    <string id="Xl25HtPL" text="이름을 알게 되어 기쁘네. 만찬에서 본다면 인사를 건넬 수 있겠군. 하지만 방패벽 속의 당신을 만난다면 누구를 죽여야 할지도 알겠지." />
+    <string id="xsaOxeHV" text="이야기는 많이 들었네. 어떤 사내들은 전쟁 기술에 조예가 깊은 여성을 두려워하지만 개인적으로는 검을 잡을 수 있는 손을 뿌리칠 생각이 없네. 물론 검의 주인이 용감하고 충직하다면 말일세." />
+    <string id="xUOhJEJS" text="만나서 반갑네. 난 언제나 용기, 명예와 평판을 중하게 여기는 전사들을 찾고 있지." />
+    <string id="Y8rYJaOa" text="나는 제국 연보에서 가장 걸출한 가문 중 하나인 {CLAN_NAME} 문중의{CONVERSATION_CHARACTER.LINK}라고 하네. 우리가 처치한 야만인들의 수와 우리가 쌓은 영광의 탑은 그 누구도 넘볼 수 없지." />
+    <string id="y9bafYom" text="그 마상 시합 승리를 축하하네." />
+    <string id="YayEAKaI" text="자왈에 대해 들어본 적이 없는 모양이군. 오아시스와 샘에서 멀리 떨어진 사막을 건너면 다른 이들이 경멸하는 땅이 나오네. 염소와 낙타들만 좋아하는 가시나무로 가득한 이 땅이 바로 우리의 터전일세." />
+    <string id="YDjLPgi3" text="음... 흥미를 자극하는 사람이로군. 하고 싶은 말이 뭐지?" />
+    <string id="ygP56lXC" text="하늘은 우리에게 축복의 계명을 주셨습니다. 우리는 물론 남들 또한 계명을 지키도록 만들어야 할 것입니다." />
+    <string id="yRlINUML" text="하! 네놈은 곧 목숨을 구걸하게 될 것이다." />
+    <string id="yUkG588C" text="잘됐군. 이렇게 성사가 될 수 있어서 말일세." />
+    <string id="YWOSDu1W" text="그만! 난 하루라도 더 살아남아 싸울 걸세. 물론 그대는 전쟁의 관습을 존중하겠지? 나 역시 정당한 몸값을 지불할 걸세.[if:convo_thinking]" />
+    <string id="z1s1qOma" text="무슨 말인지 알겠네. 나처럼 명예를 중히 여기는 자라면 고려할 가치조차 없군." />
+    <string id="z2yr4mc6" text="나는 {CLAN_NAME}의 {CONVERSATION_CHARACTER.LINK}라 하오. 우리 클랜은 대대로 쿠자이트 칸국에 충성을 다하고 있소." />
+    <string id="Z3E8MDaB" text="{SETTLEMENT_NAME}에 있는 내 마을을 공격하다니. 솔직히 내 부하가 너희 마을에 복수하러 가면 마찬가지로 재미 좀 보긴 할 거야. 난 소작인의 보호자로서 복수할 의무가 있으니 개인적인 원한으로 받아들이지는 말라고." />
+    <string id="ZH04pkV6" text="스투르지아의 왕" />
+    <string id="ZlA0uc8z" text="내 문제를 처리해주겠다고 해줘서 다시 한번 고맙네. 행운을 빌겠네." />
+    <string id="zPbQs8Zt" text="싸우다가 명예로운 죽음을 맞이하겠나, 아니면 내 지하감옥에서 호의호식하겠나?[ib:warrior][if:convo_mocking_teasing]" />
+    <string id="zwRbpQJ0" text="그대 얘기를 들은 적이 있네! 이런 식으로 만나게 돼서 참으로 유감이군." />
+    <string id="zZ9FQJRI" text="나는 아세라이의 가장 유서 깊고 고결한 혈통인 {CLAN_NAME}의 {CONVERSATION_CHARACTER.LINK}라 하네." />
+  </strings>
+</base>

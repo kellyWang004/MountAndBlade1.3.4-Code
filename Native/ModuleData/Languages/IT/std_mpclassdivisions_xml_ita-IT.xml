@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Italiano" />
+  </tags>
+  <strings>
+    <string id="0o6o94sk" text="Sei abile nello sfondare le linee difensive in sella alla tua cavalcatura.{newline} {newline}+50% danni bonus velocità a cavallo" />
+    <string id="0TtCRwmr" text="In forma" />
+    <string id="0yGhTKey" text="Ottieni frecce aggiuntive." />
+    <string id="10u6mqIX" text="Sostituisce l&apos;arco corto da nomade con l&apos;arco ricurvo, un&apos;arma più lenta che infligge danni maggiori." />
+    <string id="1MaVHrmf" text="Ottieni una lancia di bambù più lunga e più leggera.{newline} {newline}Ottieni una lancia di bambù" />
+    <string id="25f3yj3M" text="{.FS}Spada più lunga" />
+    <string id="2BpUBMJS" text="Hai migliorato la tua armatura con robuste piastre metalliche.{newline} {newline}+10 armatura{newline}-20% danni da taglio subiti" />
+    <string id="2cNN7lem" text="Conduci la carica e le armi a distanza nemiche non ti sorprendono. Ottieni il kontos pesante{newline} {newline}-35% danni da armi a distanza subiti{newline}-35% danni da armi a distanza subiti dalle cavalcature" />
+    <string id="2NofSpJ0" text="Il dolore ti fa impazzire di rabbia, più ferite subisci nel corpo a corpo, minori sono i danni che subisci e maggiori quelli che infliggi.{newline} {newline}+5% danni ogni 20 punti ferita persi{newline}-5% danni da attacchi nel corpo a corpo subiti ogni 20 punti ferita persi" />
+    <string id="384xoQfD" text="Sostituisce la falx con la romfaia, un&apos;arma più lunga e lenta che infligge danni minori. Infligge danni aggiuntivi contro gli scudi." />
+    <string id="3hTJgq6V" text="Sei abile nel combattimento a cavallo.{newline} {newline}Ottieni una lancia da cavalleria lunga{newline} {newline}+33% velocità bonus con attacchi perforanti a cavallo" />
+    <string id="3J2Py6eg" text="Spada a due mani, un&apos;arma da affondo efficace negli scontri uno contro uno.{newline} {newline}Ottieni una spada a due mani{newline}+5% velocità di movimento" />
+    <string id="4bzbhbaP" text="{?NPC.GENDER}Compagna{?}Compagno{\?}" />
+    <string id="4Gi8asWk" text="Sostituisce l&apos;arco ricurvo con l&apos;arco composito, si tende più rapidamente e infligge danni maggiori." />
+    <string id="4O4xjMMd" text="{.MS}Arciere nomade" />
+    <string id="4t6A2jY8" text="Ascia e scudo" />
+    <string id="5aZNQczb" text="Sostituisce la cavalcatura con un cavallo più manovrabile." />
+    <string id="5f6TSkM1" text="Schermaglia a cavallo" />
+    <string id="5FPhltaZ" text="Sostituisce la balestra con l&apos;arbalesta, l&apos;arma a distanza più potente di tutta la Calradia. Ha un parabraccio da arciere rinforzato, che aumenta il raggio effettivo." />
+    <string id="5JQFx3EW" text="Sostituisce la cavalcatura con un cavallo più rapido e manovrabile." />
+    <string id="68e7N73f" text="Sai come sfruttare l&apos;equipaggiamento che i morti non possono più utilizzare. Le uccisioni e gli assist ti fanno guadagnare dell&apos;oro.{newline} {newline}+20 oro per uccisione" />
+    <string id="68oQg85B" text="Sei abile nel proteggere te e la tua cavalcatura.{newline} {newline}Ottieni uno scudo più resistente{newline} {newline}-33% danni da armi a distanza subiti{newline}-33% danni da armi a distanza subiti dalle cavalcature" />
+    <string id="6bdcoGI1" text="Sostituisce la cavalcatura con un cavallo più rapido e manovrabile." />
+    <string id="6CDEbd1S" text="Impalatore" />
+    <string id="6M5TbvlU" text="Armatura costruita con materiali di qualità superiore.{newline} {newline}+ 13 armatura" />
+    <string id="6W3s9mVH" text="Combattente" />
+    <string id="722U31od" text="Sostituisce la cavalcatura con un cavallo più resistente e manovrabile ma più lento. Infligge danni da carica maggiori." />
+    <string id="73DALTsR" text="Sostituisce il falcetto con il martello, un&apos;arma più efficace contro avversari corazzati." />
+    <string id="7cX6AQlT" text="Sei estremamente agile, la tua mira è meno influenzata dal movimento.{newline} {newline} +50% precisione in movimento{newline}+5% velocità di movimento" />
+    <string id="7dQz83TL" text="Ottieni la sciabola pesante, un&apos;arma più lunga che infligge danni maggiori." />
+    <string id="7h6y99Mx" text="Ottieni spada e scudo, che ti rendono più efficiente nel corpo a corpo grazie alla facilità di parata. {newline} {newline}Ottieni una spatha lunga{newline}Ottieni uno scudo rotondo {newline}+5% velocità di movimento" />
+    <string id="7HVIIZ8M" text="Il dolore ti fa impazzire di rabbia, più ferite subisci nel corpo a corpo, maggiori sono i danni che infliggi.{newline} {newline} Ottieni un&apos;ascia{newline} {newline}+5% danni ogni 20 punti ferita persi" />
+    <string id="7I7fd6OQ" text="Ottieni la mazza pesante, un&apos;arma più efficace contro avversari corazzati." />
+    <string id="7mssfSVp" text="Indossi strati extra di imbottitura sotto l&apos;armatura.{newline} {newline}+10 armatura{newline}-33% danni subiti da corpi contundenti" />
+    <string id="7qB0WKMW" text="Signore generoso" />
+    <string id="7sWKjye0" text="{.MS}Cavallo più rapido" />
+    <string id="7ZHPR7pJ" text="{.MP}Scudi saccheggiati" />
+    <string id="8B7pGxj4" text="Il tuo scudo è più robusto e subisci danni minori dagli attacchi a distanza.{newline} {newline}Ottieni uno scudo più forte{newline} {newline}-30% danni da armi a distanza subiti" />
+    <string id="8Ca2z4HB" text="Sei una forza della natura, infliggi più danni ai bersagli in movimento e agli scudi.{newline} {newline} +40% bonus danno velocità a piedi{newline}+25% bonus danno agli scudi" />
+    <string id="8NHaOWIO" text="Sei abile nel combattimento.{newline} {newline}+5% velocità di movimento{newline}+10% danni con armi corpo a corpo" />
+    <string id="8pBro9eG" text="Fatto di legno flessibile, quest&apos;arco può essere teso più velocemente." />
+    <string id="8wsIzdlM" text="Sostituisce il menavlion con il menavlion pesante, più lungo ma più lento.{newline} {newline}Può sfondare con fendenti sopra la testa." />
+    <string id="8zwWEfSs" text="Fanteria media" />
+    <string id="98Uh0FjL" text="{.MS}Dragone" />
+    <string id="9EcreTkL" text="Sostituisce l&apos;arco ricurvo con l&apos;arco composito, si tende più rapidamente e infligge danni maggiori, ma è meno preciso." />
+    <string id="9MSG1p0W" text="Sei estremamente agile, la tua mira è meno influenzata dal movimento.{newline} {newline} +80% precisione in movimento{newline}+5% velocità di movimento" />
+    <string id="9XtgLuAL" text="Specialista d&apos;ascia" />
+    <string id="a6HqLFC7" text="Sei {?PLAYER.GENDER}una guerriera{?}un guerriero{\?} delle steppe, in combattimento sei mobile e {?PLAYER.GENDER}pericolosa{?}pericoloso{\?} per i nemici colti alle spalle.{newline} {newline}Ottieni una lancia corta{newline} {newline}+5% al danno corpo a corpo" />
+    <string id="AApw8sqj" text="La tua esperienza in prima linea ti permette di combattere meglio nel corpo a corpo.{newline} {newline}Ottieni spade a due mani migliori{newline} {newline}+5% velocità di movimento{newline}-60% penalità alla precisione in movimento." />
+    <string id="aeWqECxF" text="{.MS}Arco lungo più rapido" />
+    <string id="aPnYFXVX" text="Sei abile nello spezzare le linee difensive. Ottieni un&apos;asta da cavalleria che infligge più danni.{newline} {newline}Ottieni un&apos;asta da cavalleria{newline} {newline}+50% danni bonus velocità a cavallo" />
+    <string id="AW8XDIIP" text="Pelle spessa" />
+    <string id="aZIG2v6p" text="Sei tra {?PLAYER.GENDER}le migliori{?}i migliori{\?} delle tue truppe, lanci con più precisione.{newline} {newline}+50% precisione iniziale.{newline}+80% precisione a distanza iniziale." />
+    <string id="b1AcD5zT" text="Conduci la carica e le armi a distanza nemiche non ti sorprendono.{newline} {newline}Ottieni il kontos{newline} {newline}-30% danni da armi a distanza subiti" />
+    <string id="b2w4dmy2" text="Sorvegliante" />
+    <string id="b4CYRWEr" text="Sei tra {?PLAYER.GENDER}le migliori{?}i migliori{\?} delle tue truppe, lanci con più precisione.{newline} {newline}+60% precisione iniziale.{newline}+70% precisione a distanza iniziale." />
+    <string id="b6D2xgke" text="Ottieni spada e scudo, che ti rendono più efficiente nel corpo a corpo grazie alla facilità di parata. {newline} {newline}Ottieni una spada settentrionale{newline}Ottieni uno scudo rotondo {newline}+5% velocità di movimento" />
+    <string id="BbV2Pwzb" text="{.FS}Armatura rinforzata{@Plural}{.FP}Armature rinforzate{\@}" />
+    <string id="BHXqTA0N" text="Sostituisce il flyssa con la kaskara, un&apos;arma più lunga che infligge danni maggiori." />
+    <string id="bIRS8ZSU" text="Sai lanciare le asce in modo molto rapido e con grande precisione, infliggendo inoltre danni extra agli scudi.{newline} {newline} Ottieni asce da lancio{newline} {newline}+30% danni inflitti agli scudi" />
+    <string id="blqDgCtL" text="Caccia grossa" />
+    <string id="bxUVwypQ" text="Sai come cavartela nel corpo a corpo, ottieni uno scudo e una mazza.{newline} {newline}Ottieni uno scudo in metallo piccolo{newline}Ottieni una mazza pesante{newline}+7% velocità di movimento" />
+    <string id="bZyzMko7" text="Sostituisce la cavalcatura con una cavalcatura più rapida. Sostituisce la barda intera con una mezza barda. Più veloce e manovrabile.{newline} {newline}Ottieni una mezza barda {newline}Ottieni un cavallo più rapido" />
+    <string id="C9ufRSsL" text="Spada e scudo" />
+    <string id="CD8bLYRc" text="Il dolore ti fa impazzire di rabbia, più ferite subisci nel corpo a corpo, maggiori sono i danni che infliggi.{newline} {newline}+10% danni ogni 20 punti ferita persi" />
+    <string id="cfSgK0nk" text="{.MS}Cavallo agile" />
+    <string id="chvOaryz" text="Sostituisce la lancia da cavalleria con un&apos;altra di qualsiasi civiltà." />
+    <string id="CQBiJLgv" text="{.MS}Cammello{@Plural}{.MP}Cammelli{\@}" />
+    <string id="cQHeVV3V" text="Sei abile nell&apos;eliminare grossi animali, specialmente con le armi da lancio.{newline} {newline}Ottieni una lancia da tiro{newline} {newline}+50% danni a distanza alle cavalcature" />
+    <string id="D1eUvgh1" text="Sei in grado di scagliare giavellotti più velocemente.{newline} {newline} ottieni 5 djerid aggiuntivi{newline} +10% velocità di preparazione." />
+    <string id="D36uGqf8" text="Braccia combinate" />
+    <string id="d3NMiZmW" text="Ottieni +2 truppe extra." />
+    <string id="d7Z3ka1m" text="{.MS}Arco migliorato" />
+    <string id="DciUJ0pY" text="Sei abile nei combattimenti a distanza quando ti muovi a cavallo.{newline} {newline}Ottieni giavellotti{newline} {newline}-25% penalità alla precisione in movimento{newline}-25% penalità alla precisione in rotazione" />
+    <string id="dIbTJvfA" text="Sei in grado di scagliare giavellotti più velocemente.{newline} {newline} ottieni 2 djerid aggiuntivi{newline} +10% velocità di preparazione." />
+    <string id="DlKYZgA3" text="{.FS}Armatura migliorata" />
+    <string id="Do4Mmbs9" text="{.FS}Armatura a piastre" />
+    <string id="drDLzIzS" text="{.FS}Druzina" />
+    <string id="DrWY4I8X" text="Specialista della mazza" />
+    <string id="dTpTyUtb" text="Rifornimento" />
+    <string id="du7l3z5b" text="Solidità" />
+    <string id="DYUfnBHb" text="Agricoltura" />
+    <string id="E0sUI9sm" text="Sei abile con l&apos;arco a cavallo, possiedi una maggiore precisione.{newline} {newline}Ottieni un arco corto e le frecce{newline}-50% penalità alla precisione in movimento" />
+    <string id="E1bKcoaT" text="Spezza-cavalleria" />
+    <string id="E7WWiQCf" text="{.MS}Arco lungo da distanza" />
+    <string id="E8f6ngSe" text="Sei il motivo per cui le truppe nemiche non riescono a dormire, sei inarrestabile nell&apos;uccidere.{newline} {newline}+9 all&apos;armatura{newline}+10% velocità fendente a cavallo{newline}+10% danni inflitti con armi contundenti" />
+    <string id="ebGVm8Ve" text="Ottieni uno scudo casuale di qualità differente." />
+    <string id="EcYwrKTf" text="Ascia pesante e scudo" />
+    <string id="efYCG9u2" text="{.FS}Punta di lancia corazzata{@Plural}{.FP}Punte di lancia corazzate{\@}" />
+    <string id="EjyFIpP6" text="Il tuo scudo è più resistente e ti permette di coprire un&apos;area maggiore. Inoltre, subisci meno danni dagli attacchi perforanti.{newline} {newline}Ottieni uno scudo più resistente{newline}+20% area dello scudo contro le armi a distanza{newline}-30% danni da attacchi perforanti subiti" />
+    <string id="eLoZTNYa" text="Sai abile nel combattimento in movimento con l&apos;arco.{newline} {newline}+25% velocità di movimento e mira{newline}-80% penalità alla precisione in rotazione{newline}-80% penalità alla precisione in movimento" />
+    <string id="eMd39oQf" text="Sei abile nei combattimenti a piedi contro la cavalleria e sai come usare la sua velocità a tuo favore.{newline} {newline}Ottieni una lancia lunga.{newline} {newline}+100% danni alle cavalcature con armi corpo a corpo{newline}+50% danni bonus velocità con armi corpo a corpo con attacchi perforanti" />
+    <string id="EqbLGvGF" text="Hai capito che in battaglia le dimensioni sono il più grande vantaggio.{newline} {newline}Ottieni una lancia da cavalleria più lunga.{newline} {newline}Ottieni uno scudo più grosso{newline} {newline}-25% danni subiti dalla cavalcatura con armi a distanza" />
+    <string id="eQLORdgE" text="{.FP}Frecce aggiuntive" />
+    <string id="eSBNJlzS" text="Sostituisce la balestra con una balestra pesante, più facile da tendere. Ricaricare è più veloce." />
+    <string id="f2A3Mhpd" text="{.FS}Balestra rapida" />
+    <string id="F2J9upsv" text="Sei abile nel combattimento.{newline} {newline}+5% velocità di movimento{newline}+5% danni con armi corpo a corpo" />
+    <string id="f2OE1CBp" text="Sei abile nel combattimento.{newline} {newline}+10% danni con armi corpo a corpo" />
+    <string id="fAnbXffX" text="{.FS}Asta da cavalleria" />
+    <string id="FK3jA1pT" text="Sei una forza della natura, infliggi più danni ai bersagli in movimento e agli scudi.{newline} {newline}+33% bonus danno velocità a piedi{newline}+100% bonus danno agli scudi" />
+    <string id="FLKxfaGn" text="Uno spesso strato muscolare ti protegge dai danni contundenti.{newline} {newline}-20% danni subiti da corpi contundenti" />
+    <string id="FqHvkh44" text="Sostituisce la cavalcatura con un cavallo che infligge danni da carica maggiori." />
+    <string id="fVaqYLsw" text="La tua esperienza da cecchino ti permette di scagliare frecce più pesanti con maggiore precisione.{newline} {newline}Ottieni frecce rinforzate{newline} {newline}+100% durata precisione massima" />
+    <string id="fzxdjq8G" text="{.MS}Arco superiore{@Plural}{.MP}Archi superiori{\@} della steppa" />
+    <string id="G4nZNi6t" text="Il tempo da te trascorso nella natura ti ha {?PLAYER.GENDER}resa{?}reso{\?} eccezionalmente forte, i tuoi lanci coprono grandi distanze.{newline} {newline}Ottieni una lancia da tiro{newline} {newline}+20% al danno da lancio" />
+    <string id="gcmyaxK9" text="Sai dove colpire il tuo bersaglio, i tuoi proiettili infliggono danni aggiuntivi, specialmente alla testa.{newline} {newline}+5% danni con proiettili {newline}+5% danni extra su colpi alla testa" />
+    <string id="gnb4493C" text="Sostituisce la spada con il randello, un&apos;arma più efficace contro avversari corazzati." />
+    <string id="gQtU8qqy" text="Ottieni l&apos;ascia, un&apos;arma efficace contro gli scudi." />
+    <string id="h5Oj84Wu" text="Il dolore ti fa impazzire di rabbia: più ferite subisci nel corpo a corpo, minori sono i danni che subisci e maggiori quelli che infliggi.{newline} {newline}+7% danni ogni 20 punti ferita persi{newline}-7% danni da attacchi subiti nel corpo a corpo ogni 20 punti ferita persi" />
+    <string id="H6y5zvHY" text="Uno spesso strato muscolare ti protegge da tagli e danni contundenti.{newline} {newline}+7 armatura{newline}-30% danni subiti da corpi contundenti" />
+    <string id="H8MYgA6i" text="{.MS}Menavlion più lungo" />
+    <string id="ha2b1k4u" text="La tua esperienza nella caccia ti permette di colpire le cavalcature in punti vitali, infliggendo danni maggiori.{newline} {newline}Ottieni frecce con barbigli{newline} {newline}+60% danni alle cavalcature" />
+    <string id="Ha8HVTck" text="Sei in grado di scagliare giavellotti molto più velocemente.{newline} {newline}Ottieni giavellotti aggiuntivi{newline}+5% lancio proiettili{newline} +10% velocità di preparazione." />
+    <string id="HbngeqNq" text="Lanciere" />
+    <string id="HBqsJ7a5" text="Hai portato in guerra uno strumento da campagna casuale. Sai come gestire gli animali.{newline} {newline}Ottieni uno strumento da campagna casuale{newline} {newline}+50% danni alle cavalcature" />
+    <string id="HgJetcmG" text="Ottieni una balestra con un parabraccio da arciere rinforzato, che aumenta il raggio effettivo." />
+    <string id="Hm1Qo6iv" text="Sei ben {?PLAYER.GENDER}equipaggiata{?}equipaggiato{\?}." />
+    <string id="HMbGb1V2" text="Milizia del villaggio" />
+    <string id="HoVaJ0BH" text="{.MS}Maglio a due mani" />
+    <string id="HQ20qb3g" text="Sostituisce la cavalcatura con un cavallo più rapido ma meno resistente." />
+    <string id="hvINBQ1p" text="Ottieni un&apos;armatura protettiva per la tua cavalcatura e una protezione aggiuntiva contro le armi a distanza.{newline} {newline}+17 all&apos;armatura per la cavalcatura{newline}-20% danni da armi a distanza subiti dalle cavalcature" />
+    <string id="HYxbTcNS" text="Sostituisce il tabar con spada e scudo. Ottieni più truppe, quindi versatilità e protezione maggiori.{newline} {newline}Ottieni una scimitarra pesante{newline}Ottieni uno scudo{newline}+2 truppe" />
+    <string id="i6OSr5QM" text="{.MS}Arco da distanza" />
+    <string id="IAhuOhEW" text="Sei {?PLAYER.GENDER}pronta{?}pronto{\?} alla battaglia. Ottieni uno scudo e frecce aggiuntive." />
+    <string id="iHljS6n5" text="Incubo mascherato" />
+    <string id="iISeUaCU" text="Il tuo codice di condotta ti vieta di morire. Sei più resistente ai danni subiti.{newline} {newline}Ottieni uno scudo piccolo{newline} {newline}-10% danni subiti" />
+    <string id="ILVb8Klx" text="La tua esperienza nella milizia del villaggio ti ha temprato. Subisci meno danni.{newline} {newline}Ottieni sassi da lancio{newline} {newline}-5% danni subiti" />
+    <string id="Isppj4D1" text="Ottieni un&apos;ascia migliore e uno scudo più grande" />
+    <string id="ITnsSkJr" text="Hai esperienza in tutte le discipline di combattimento con l&apos;ascia e detesti il legno.{newline} {newline}Ottieni un&apos;ascia{newline} {newline}+20% danni inflitti agli scudi{newline}" />
+    <string id="IUsT27oV" text="Ottieni +9 all&apos;armatura." />
+    <string id="Ixwvwhg9" text="Sai abile nel combattimento in movimento con l&apos;arco.{newline} {newline}-25% penalità alla velocità di movimento e mira con armi a distanza{newline}-80% penalità alla precisione in rotazione{newline}-80% penalità alla precisione in movimento" />
+    <string id="JbWbiO6O" text="Arco e frecce" />
+    <string id="jf8luKVV" text="Forte" />
+    <string id="jk3I7cqY" text="{.FS}Armatura di cuoio lavorato{@Plural}{.FP}Armature di cuoio lavorato{\@}" />
+    <string id="jKYWiUZA" text="Sostituisce la cavalcatura con un cavallo più resistente e manovrabile ma più lento. Infligge danni da carica maggiori." />
+    <string id="jpc34Myp" text="Hai buone liquidità e sai come spendere i tuoi soldi, ricarichi più in fretta.{newline} {newline}Ottieni più frecce extra{newline} {newline}+25% velocità di ricarica" />
+    <string id="jPX5Uhwn" text="Sostituisce l&apos;arco ricurvo con la balestra, un&apos;arma dalla cadenza di fuoco ridotta che infligge danni molto maggiori." />
+    <string id="Jstm1A5q" text="Sai come guadagnare dell&apos;oro extra.{newline} {newline}+20 oro per uccisione" />
+    <string id="jTJa8tBY" text="Indossi strati extra di imbottitura sotto l&apos;armatura.{newline} {newline}+10 armatura{newline}-20% danni subiti da corpi contundenti" />
+    <string id="JxDrcvDO" text="Conosci i punti deboli degli scudi, contro i quali i tuoi attacchi sono estremamente efficaci.{newline} {newline}+100% danni agli scudi" />
+    <string id="K5ab4UuF" text="Sostituisce l&apos;ascia a due mani con il maglio a due mani. Efficace contro avversari corazzati e capace di disarcionare la cavalleria con i fendenti.{newline} {newline}Può sfondare con fendenti sopra la testa." />
+    <string id="k5wDzNqz" text="Spezza-linea" />
+    <string id="KGYSP8Sn" text="Veloce come il vento" />
+    <string id="ko852qPg" text="La tua esperienza nella caccia ti permette di colpire le cavalcature in punti vitali, infliggendo danni maggiori.{newline} {newline}Ottieni quadrelli robusti{newline} {newline}+60% danni alle cavalcature" />
+    <string id="KrEPteFM" text="Conosci i punti deboli degli scudi, contro i quali i tuoi attacchi sono estremamente efficaci.{newline} {newline}+30% danni agli scudi" />
+    <string id="Kt605dRo" text="Le tue possenti braccia ti permettono di lanciare più rapidamente, con una forza letale.{newline} {newline}+5% al lancio di armi{newline} {newline}+15% ai danni da armi da lancio" />
+    <string id="KXwN1PW4" text="{.FS}Ascia grande" />
+    <string id="l2Qy5kbg" text="Abbatti ogni ostacolo sulla tua strada {newline} {newline}+17% danni da taglio con armi corpo a corpo" />
+    <string id="LB32tvzS" text="Duro a morire" />
+    <string id="LiRwNCZA" text="Sei in forma, corri più velocemente.{newline} {newline}+5% velocità di corsa massima" />
+    <string id="ljy7FbRB" text="Il tuo codice di condotta ti vieta di morire. Sei più resistente ai danni subiti.{newline} {newline}Ottieni uno scudo più grande{newline} {newline}-10% danni subiti" />
+    <string id="lKdJbwYz" text="Sei abile nei combattimenti a cavallo. Ottieni una lancia da cavalleria pesante che infligge più danni.{newline} {newline}Ottieni lancia da cavalleria pesante{newline} {newline}+15% velocità bonus con attacchi perforanti a cavallo" />
+    <string id="loPT6GUc" text="Ottieni il palvese, permette di parare più facilmente, efficace contro le unità a distanza." />
+    <string id="lQTHNi5P" text="Capoclan" />
+    <string id="LSO3BsYq" text="Sei in forma, corri più velocemente.{newline} {newline}+7% velocità di corsa massima" />
+    <string id="lWl3W0do" text="{.FS}Armatura imbottita{@Plural}{.FP}Armature imbottite{\@}" />
+    <string id="M5BDshPv" text="La tua armatura imbottita riduce l&apos;impatto delle armi contundenti.{newline} {newline}-40% danni da armi contundenti subiti" />
+    <string id="maaVSxDj" text="Sei abile con le armi da lancio a cavallo, possiedi una maggiore precisione.{newline} {newline}Ottieni giavellotti{newline} {newline}-25% penalità alla precisione in movimento{newline}-25% penalità alla precisione in rotazione" />
+    <string id="mbIhGIcV" text="Sei abile nei combattimenti a piedi contro la cavalleria e sai come usare la sua velocità a tuo favore.{newline} {newline}+75% danni alle cavalcature con armi corpo a corpo{newline}+50% danni bonus velocità con armi corpo a corpo con attacchi perforanti" />
+    <string id="mDU16Bih" text="Lasci che siano i contadini a fare il lavoro sporco e li paghi per i loro servigi, mentre tu ti copri di gloria per le uccisioni.{newline} {newline}+20 oro agli alleati per gli assist alle tue uccisioni." />
+    <string id="MW6PtdCh" text="La tua esperienza nel bracconaggio ti permette di colpire le cavalcature in punti vitali, infliggendo danni maggiori.{newline} {newline}Ottieni frecce con barbigli{newline} {newline}+50% danni alle cavalcature" />
+    <string id="n3q8k0lB" text="{.FS}Barda" />
+    <string id="n56qzZ6j" text="Sostituisce l&apos;accetta con l&apos;ascia a due mani, un&apos;arma ancora più efficace contro gli scudi e capace di disarcionare la cavalleria con i fendenti.{newline} {newline}+5% velocità di movimento" />
+    <string id="n5d7CnPo" text="La tua esperienza nella milizia del villaggio ti ha temprato. Subisci meno danni.{newline} {newline}Ottieni sassi da lancio{newline} {newline}-15% danni subiti" />
+    <string id="nDxTYPmt" text="Migliora la tua armatura di cuoio. Ti protegge da affondi e proiettili.{newline} {newline}+4 armatura{newline}-20% danni da perforazione subiti" />
+    <string id="NezswS6S" text="Sei abile con l&apos;arco a cavallo, possiedi una maggiore precisione.{newline} {newline}-50% penalità alla precisione in movimento{newline}-50% penalità alla precisione in rotazione" />
+    <string id="nGJvuvD3" text="{.FS}Lancia-ascia" />
+    <string id="NjXTLWSr" text="In quanto membro elitario di una druzina, hai affinato le tue abilità da cavaliere nel corso degli anni.{newline} {newline}Ottieni una lancia da cavalleria più lunga{newline} {newline}+15 abilità Equitazione" />
+    <string id="nzHUV2oZ" text="Sai dove colpire il tuo bersaglio, i tuoi proiettili infliggono danni aggiuntivi, specialmente alla testa.{newline} {newline}+15% danni con proiettili {newline}+5% danni extra su colpi alla testa" />
+    <string id="O3vdRYyZ" text="La tua esperienza con la picca ti permette di usarla in modo più efficace, con affondi più rapidi.{newline} {newline}Ottieni una picca{newline} {newline}+20% velocità di preparazione affondo" />
+    <string id="o9a3hgVH" text="{.FS}Spada da duello" />
+    <string id="OAUd9UU8" text="Sai dove colpire il tuo bersaglio, i tuoi colpi alla testa infliggono danni aggiuntivi.{newline} {newline}Ottieni munizioni più forti{newline} {newline}+10% danni da colpi alla testa" />
+    <string id="oBBE3ggU" text="Arruola" />
+    <string id="OjaeHZVO" text="Sostituisce la cavalcatura con un cavallo più rapido." />
+    <string id="oZ9KbXPI" text="Sei più resistente degli altri dalla nascita, è più difficile ucciderti.{newline} {newline}-15% danni da attacchi corpo a corpo subiti." />
+    <string id="p06HSYkq" text="Specialista" />
+    <string id="P1VHoGL2" text="Membri della tribù" />
+    <string id="p4y5G7MD" text="La tua esperienza da sorvegliante ti permette di combattere meglio nel corpo a corpo.{newline}Ottieni un&apos;arma inastata{newline}5% velocità di movimento" />
+    <string id="p9ygw8X7" text="La tua esperienza da lanciere ti rende più efficace contro la cavalleria.{newline} {newline}Ottieni una lancia{newline} {newline}+75% danni alle cavalcature" />
+    <string id="pblXb1ae" text="Ottieni la mazza, un&apos;arma più efficace contro avversari corazzati." />
+    <string id="PFTzVdJg" text="Ottieni +9 all&apos;armatura." />
+    <string id="Pg0oCeeA" text="Sostituisce il tabar con la berdica, un&apos;arma più lenta che infligge danni maggiori ed è capace di disarcionare la cavalleria con i fendenti." />
+    <string id="Pg2BjZ7v" text="Sei abile nei combattimenti a piedi contro la cavalleria e sai come usare la sua velocità a tuo favore. Ottieni una lancia lunga che infligge più danni.{newline} {newline}Ottieni una lancia lunga.{newline} {newline}+100% danni alle cavalcature con armi corpo a corpo{newline}+50% danni bonus velocità con armi corpo a corpo con attacchi perforanti" />
+    <string id="PhvYB5Jh" text="Sostituisce il cavallo con un altro casuale." />
+    <string id="pI8Ak491" text="Il tempo da te trascorso nella natura ti ha {?PLAYER.GENDER}resa{?}reso{\?} innaturalmente forte, i tuoi lanci coprono grandi distanze.{newline} {newline}Ottieni un pilum{newline} {newline}+20% al danno da lancio" />
+    <string id="pJGFNLOz" text="Sete di sangue" />
+    <string id="pjgUeOSa" text="Sei abile nell&apos;eliminare grossi animali, specialmente con le armi da lancio.{newline} {newline}Ottieni una lancia da tiro{newline} {newline}+100% danni alle cavalcature" />
+    <string id="pjq5Nkn4" text="Sostituisce l&apos;ascia con una sua versione più lunga e pesante. Ancora più efficace contro gli scudi e capace di disarcionare la cavalleria con i fendenti." />
+    <string id="pn9OIMbK" text="Sei {?PLAYER.GENDER}una guerriera{?}un guerriero{\?} delle steppe, in combattimento sei mobile e {?PLAYER.GENDER}pericolosa{?}pericoloso{\?} per i nemici colti alle spalle.{newline} {newline}Ottieni una lancia corta{newline} {newline}+7% alla velocità di movimento{newline}+5% al danno corpo a corpo" />
+    <string id="Pnzm9fvH" text="Imbottitura per l&apos;armatura" />
+    <string id="pqaYbQBy" text="Conosci i punti deboli degli scudi, contro i quali i tuoi attacchi sono estremamente efficaci.{newline} {newline}+20% danni agli scudi" />
+    <string id="ptxHd7K1" text="{.FS}Punta di lancia" />
+    <string id="PzgDEcZ5" text="{.MS}Arciere a cavallo" />
+    <string id="q5G5Hxbi" text="Sostituisce la spada con l&apos;alabarda, un&apos;arma inastata khuzata che può disarcionare la cavalleria con i fendenti. Nel combattimento corpo a corpo diventi una forza da non sottovalutare.{newline} {newline}Ottieni un&apos;alabarda{newline}+5% velocità di movimento" />
+    <string id="QDxixJH9" text="Ausiliare" />
+    <string id="QFu6m9aA" text="Sei abile nel proteggerti.{newline} {newline}Ottieni uno scudo più resistente{newline} {newline}-15% danni da armi a distanza subiti{newline}-15% danni subiti da armi da mischia" />
+    <string id="QJo0xake" text="Ottieni un arco lungo fatto del legno più robusto, che lo rende rapido e di lunga portata." />
+    <string id="QXF6TpBp" text="Ottieni una lancia più lunga che infligge più danni.{newline} {newline}Ottieni un&apos;asta da cavalleria" />
+    <string id="qZctRzJS" text="Mobilità" />
+    <string id="qzm0fL63" text="Ottieni un arco lungo fatto di legno flessibile, quest&apos;arco può essere teso più velocemente." />
+    <string id="R2X605jB" text="Hai buone liquidità e sai come spendere i tuoi soldi, ricarichi più in fretta.{newline} {newline}Ottieni 10 quadrelli extra{newline} {newline}+25% velocità di ricarica" />
+    <string id="rc3a4QFp" text="Ottieni un arco lungo fatto di legno flessibile, quest&apos;arco può essere teso più velocemente." />
+    <string id="RhNKYZZk" text="Sei abile nei combattimenti a cavallo.{newline} {newline}Ottieni un&apos;ascia bastarda che può disarcionare la cavalleria con i fendenti.{newline} {newline}+10% velocità fendente a cavallo{newline}+10% danni inflitti con armi da taglio a cavallo" />
+    <string id="RI9hmnDu" text="Migliora l&apos;armatura del tuo cavallo e aggiunge una protezione contro le armi a distanza.{newline} {newline}+11 all&apos;armatura per la cavalcatura{newline}-25% danni da armi a distanza subiti dalle cavalcature" />
+    <string id="rJFGyaBS" text="Moloch" />
+    <string id="Rl0GV742" text="Ottieni una spada a due mani da duello" />
+    <string id="rnO8lCtE" text="Sei abile nei combattimenti a cavallo. Ottieni una lancia da cavalleria pesante che infligge più danni.{newline} {newline}Ottieni lancia da cavalleria pesante{newline} {newline}+33% velocità bonus con attacchi perforanti a cavallo" />
+    <string id="RW2X4CgM" text="Ottieni un&apos;ascia, efficace nel fare a pezzi la carne e gli scudi." />
+    <string id="s5qRvBOp" text="Cecchino" />
+    <string id="sFJfF1Gb" text="Sostituisce il gladio con la spatha, un&apos;arma più lunga che infligge danni maggiori." />
+    <string id="sfK8Dkso" text="Sei più resistente degli altri dalla nascita, è più difficile ucciderti.{newline} {newline}-20% danni da attacchi corpo a corpo subiti." />
+    <string id="SjiFP0za" text="Sostituisce il randello con la spada, un&apos;arma da affondo efficace negli scontri uno contro uno." />
+    <string id="skPA7s3Q" text="Ottieni una spada lunga e uno scudo più grande." />
+    <string id="sOARp3Dc" text="Ottieni lo scudo, permette di parare più facilmente, efficace contro le unità a distanza." />
+    <string id="sQCpO6sp" text="Abile nel corpo a corpo" />
+    <string id="tbDajRvE" text="Arma inastata corta, simile a un&apos;ascia. Penetra le armature, le carni e il morale." />
+    <string id="tbQZitYG" text="Un&apos;arma più lunga che sostituisce la spada corta e infligge danni maggiori." />
+    <string id="TcaKHUUK" text="Ottieni una balestra più facile da tendere. Ricaricare è più veloce." />
+    <string id="Tci07nbZ" text="{.MS}Arco{@Plural}{.MP}Archi{\@} da distanza della steppa" />
+    <string id="tFWBFpji" text="Sostituisce la cavalcatura con un cammello, che infligge danni da carica maggiori, è più resistente e manovrabile ma più lento e incapace di saltare." />
+    <string id="TGcbxiOD" text="Hai subito così tanti colpi che hai imparato ad attutire i danni da armi a distanza che subisci.{newline} {newline}-35% danni da armi a distanza subiti" />
+    <string id="THpbhFDV" text="I tuoi anni tra i razziatori ti hanno regalato braccia potenti, lanci con grande velocità.{newline} {newline}Ottieni giavellotti più forti{newline} {newline}+10% lancio proiettili {newline}+10% velocità di preparazione." />
+    <string id="tiw9b4f6" text="Sei abile con l&apos;arco a cavallo, possiedi una maggiore precisione.{newline} {newline}Ottieni un arco da caccia e le frecce{newline}-40% penalità alla precisione in movimento" />
+    <string id="TK0GvrJR" text="Sostituisce la spada con la spada lunga degli altopiani, un&apos;arma più lunga ma più lenta che infligge danni maggiori." />
+    <string id="tN6LRGbm" text="{.MS}Cavallo rubato" />
+    <string id="tpbjS8J8" text="Hai imparato come combattere contro avversari in armatura. {newline}Ottieni una mazza pesante{newline}+4 all&apos;armatura" />
+    <string id="trR3odix" text="Sostituisce il volge con una combinazione di spada, scudo e lancia. Ottieni versatilità e protezione.{newline} {newline}Ottieni una spada{newline}Ottieni uno scudo {newline}Ottieni una lancia" />
+    <string id="tUEn8Si4" text="Grazie ad anni di esperienza sul campo di battaglia, hai sviluppato agilità e rapidità nell&apos;uso delle armi.{newline} {newline}+35% danni bonus velocità con armi corpo a corpo{newline} {newline}+5% velocità di movimento" />
+    <string id="Ty7PjLFt" text="In prima linea" />
+    <string id="tZgHdSOX" text="{.FS}Mezza barda" />
+    <string id="TzlcYzfg" text="Sai come cavartela nel corpo a corpo, ottieni uno scudo e una mazza.{newline} {newline}Ottieni uno scudo piccolo{newline}Ottieni una mazza pesante{newline} {newline}-25% di penalità al movimento quando miri con un&apos;arma a distanza." />
+    <string id="uaY0BfoI" text="{.FS}Balestra da distanza" />
+    <string id="uCJlbbVD" text="Sostituisce il volge con spada e scudo. Ottieni più truppe e versatilità e protezione maggiori.{newline} {newline}Ottieni una spada lunga{newline}Ottieni uno scudo{newline}+2 truppe" />
+    <string id="UkukckV4" text="Sai come sfruttare l&apos;equipaggiamento che i morti non possono più utilizzare. Le uccisioni e gli assist ti fanno guadagnare dell&apos;oro.{newline} {newline}+10 oro per uccisione" />
+    <string id="urTZJjZK" text="Sostituisce il menavlion con il menavlion lungo, un&apos;arma più lunga ma più lenta. Infligge più danni affondo e meno danni fendente ed è capace di disarcionare la cavalleria con i fendenti." />
+    <string id="uTBqXeKJ" text="Ottieni un roncone a due mani, efficace per il supporto alla fanteria dalla distanza e capace di disarcionare la cavalleria con i fendenti." />
+    <string id="uTfm0blH" text="Ottieni l&apos;arco corto, utilizzabile anche a cavallo." />
+    <string id="uxSlnb7y" text="Fatto di legno della miglior fattura, quest&apos;arco è eccezionalmente preciso." />
+    <string id="V2SKzX1e" text="{.MS}Cavallo d&apos;assalto" />
+    <string id="v2WKbNZo" text="Lanci rapidi" />
+    <string id="v3TAosde" text="{.MS}Arciere reale" />
+    <string id="v4w8KeMQ" text="Sostituisce la spada corta con la spada lunga, un&apos;arma più lunga che infligge danni maggiori." />
+    <string id="vBvDZCtw" text="Sostituisce il tabar con la spada a due mani, un&apos;arma da affondo efficace negli scontri uno contro uno." />
+    <string id="Vf4mofBO" text="Denaro sporco" />
+    <string id="vHIIkFQF" text="Rabbia feroce" />
+    <string id="vhyTjeAR" text="Le tue possenti braccia ti permettono di lanciare più rapidamente, con una forza letale.{newline} {newline}+5 lancio proiettili{newline} {newline}+20% ai danni da armi da lancio" />
+    <string id="VmoAFrzI" text="Sei abile nei combattimenti a piedi contro la cavalleria e sai come usare la sua velocità a tuo favore. Ottieni una lancia lunga che infligge più danni.{newline} {newline}Ottieni una lancia lunga.{newline} {newline}+100% danni alle cavalcature con armi corpo a corpo{newline}+50% danni bonus velocità con armi corpo a corpo con attacchi perforanti" />
+    <string id="vn2uYMOj" text="Sai dove colpire il tuo bersaglio, i tuoi colpi alla testa infliggono danni aggiuntivi.{newline} {newline}Ottieni munizioni più forti{newline} {newline}+10% danni da colpi alla testa" />
+    <string id="VPmy8IN2" text="Uno spesso strato muscolare ti protegge dai danni contundenti.{newline} {newline}-30% danni subiti da corpi contundenti" />
+    <string id="VR2SwarS" text="{.MS}Cavallo più resistente" />
+    <string id="vyI2KVKM" text="{.MS}Mirino" />
+    <string id="W4GfVIbC" text="La tua esperienza nella milizia del villaggio ti ha temprato. Subisci meno danni.{newline} {newline}Ottieni una lancia corta{newline}Ottieni uno scudo piccolo" />
+    <string id="WapSyVbv" text="{.FS}Barda intera" />
+    <string id="wHWD8N3u" text="Un arco lungo fatto di legno robusto si tende più lentamente, ma tira più lontano e colpisce più forte." />
+    <string id="wiBmTEGi" text="Sostituisce la cavalcatura con un cavallo più resistente." />
+    <string id="wjQCNHTO" text="Sostituisce la cavalcatura con una cavalcatura più manovrabile. Sostituisce la barda intera con una mezza barda. Più veloce e manovrabile.{newline} {newline}Ottieni una mezza barda {newline}Ottieni un cavallo agile" />
+    <string id="WkPDOnyD" text="La tua esperienza da lanciere ti rende più efficace contro la cavalleria.{newline} {newline}Ottieni una lancia lunga{newline} {newline}+75% danni alle cavalcature" />
+    <string id="WqJdn2ET" text="Pelle di berserker" />
+    <string id="wv6Jpubk" text="Fornisci aiuto nei combattimenti e guadagni oro per ogni assist come ricompensa.{newline} {newline}+20 oro per assist" />
+    <string id="wv9g9Kyr" text="{.MS}Arco più rapido" />
+    <string id="WxMGCqPw" text="Sostituisce il falcetto con il piccone, un&apos;arma più efficace contro gli scudi." />
+    <string id="X4Hvkakc" text="Sostituisce la spada con un martello a due mani, un&apos;arma più efficace contro avversari corazzati.{newline} {newline}Può sfondare con fendenti sopra la testa." />
+    <string id="x6MdhTmR" text="Fornisce armatura per la tua cavalcatura.{newline}{newline}+20 armatura alla cavalcatura" />
+    <string id="X8hLXbIc" text="Il tuo scudo è più robusto e subisci danni minori dagli attacchi a distanza.{newline} {newline}Ottieni uno scudo più forte{newline} {newline}-15% danni da armi a distanza subiti." />
+    <string id="XavOmQlX" text="{.MN}Golia" />
+    <string id="xbfjF5Xz" text="La tua esperienza nella gestione degli animali ti permette di conoscere i loro punti deboli e infliggere danni elevati alle cavalcature.{newline} {newline}Ottieni una picca{newline} {newline}+75% danni alle cavalcature" />
+    <string id="XgH6b7LY" text="Ottieni un&apos;ascia e uno scudo più forte. Efficace negli scontri corpo a corpo contro le truppe pesanti." />
+    <string id="xRK4nurx" text="Hai buone liquidità e sai come spendere i tuoi soldi, ricarichi più in fretta.{newline} {newline}Ottieni 20 quadrelli extra{newline} {newline}+25% velocità di ricarica" />
+    <string id="xSz6m21N" text="{.MS}Randello" />
+    <string id="xuad1OP3" text="Sostituisce la cavalcatura con il cavallo più resistente di tutta la steppa." />
+    <string id="XUo9YBoQ" text="Puntaspilli" />
+    <string id="XXj8htD5" text="Aggiunge uno strato di maglia extra sotto la tua armatura. Ti protegge da affondi e proiettili.{newline} {newline}+4 armatura{newline}-20% danni da perforazione subiti" />
+    <string id="XyrRqfb6" text="Ottieni un arco lungo fatto del legno più robusto, che lo rende rapido e di lunga portata." />
+    <string id="Y0btl1Dx" text="Sostituisce la spada corta con l&apos;ascia, un&apos;arma più pesante e più efficace contro gli scudi." />
+    <string id="Y30Y1Ywt" text="Ottieni una spada forte e uno scudo." />
+    <string id="ydALXo9b" text="Rinforzi" />
+    <string id="YeRH0SUc" text="Fanteria delle steppe" />
+    <string id="Yh1C24vG" text="Ottieni spada e scudo, rendendoti più efficace nel corpo a corpo grazie alla facilità di parata. Aumenta anche la tua velocità di movimento.{newline} {newline}Ottieni una spada lunga {newline}Ottieni uno scudo a goccia {newline}+5% velocità di movimento" />
+    <string id="YjmSNwpY" text="Hai migliorato la tua armatura con robuste piastre metalliche.{newline} {newline}+10 armatura{newline}-10% danni da taglio subiti" />
+    <string id="Yjs1ySjJ" text="Scudo e lancia" />
+    <string id="YnnrpaFO" text="Maglia extra" />
+    <string id="yRTNfCfm" text="{.FS}Balestra più veloce" />
+    <string id="ytSKeWyX" text="Sostituisce il randello con l&apos;ascia, un&apos;arma efficace contro gli scudi." />
+    <string id="YUauBtTT" text="Un parabraccio da arciere fatto del legno più robusto, che lo rende rapido e di lunga portata." />
+    <string id="YVwl3BgB" text="La tua esperienza da cecchino ti permette di scagliare frecce più pesanti con maggiore precisione.{newline} {newline}Ottieni frecce rinforzate{newline} {newline}+100% durata precisione massima" />
+    <string id="YYt0iLC7" text="Ottieni la lancia, un&apos;arma efficace contro la cavalleria.{newline}Ottieni uno scudo più forte." />
+    <string id="ZATaNNCu" text="Sostituisce la cavalcatura con un cavallo più resistente che infligge danni da carica maggiori." />
+    <string id="ZBEwVayp" text="Ottieni l&apos;alabarda, un&apos;arma inastata khuzata, letale se usata a cavallo e capace di disarcionare la cavalleria con i fendenti." />
+    <string id="ZE9TaGQ7" text="Indistruttibile" />
+    <string id="ZEdfJJP2" text="{.MS}Fiancheggiatore" />
+    <string id="zNe4nkar" text="Sostituisce le spade corte con asce, spade e qualche mazza." />
+    <string id="ZxqXs36U" text="Braccia possenti" />
+    <string id="zzGL0N0t" text="Sei abile nei combattimenti a distanza quando ti muovi a cavallo.{newline} {newline}Ottieni giavellotti{newline} {newline}-50% penalità alla precisione in movimento{newline}-50% penalità alla precisione in rotazione" />
+  </strings>
+</base>

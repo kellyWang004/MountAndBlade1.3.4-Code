@@ -1,0 +1,906 @@
+<Brushes>
+
+  <Brush Name="MPHUD.ServerPerformance">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\ServerStatus\server_performance"/>
+    </Layers>
+    <Styles>
+      <Style Name="0">
+        <BrushLayer Name="Default" />
+      </Style>
+      <Style Name="1">
+        <BrushLayer Name="Default" Color="#E6851CFF" IsHidden="false"/>
+      </Style>
+      <Style Name="2">
+        <BrushLayer Name="Default" Color="#BD1D1DFF" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.PingStatus">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\ServerStatus\latency"/>
+    </Layers>
+    <Styles>
+      <Style Name="0">
+        <BrushLayer Name="Default" />
+      </Style>
+      <Style Name="1">
+        <BrushLayer Name="Default" Color="#E6851CFF" IsHidden="false"/>
+      </Style>
+      <Style Name="2">
+        <BrushLayer Name="Default" Color="#BD1D1DFF" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.PacketLoss">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\ServerStatus\packet_loss"/>
+    </Layers>
+    <Styles>
+      <Style Name="0">
+        <BrushLayer Name="Default" />
+      </Style>
+      <Style Name="1">
+        <BrushLayer Name="Default" Color="#E6851CFF" IsHidden="false"/>
+      </Style>
+      <Style Name="2">
+        <BrushLayer Name="Default" Color="#BD1D1DFF" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.Compass.Background">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\compass" AlphaFactor="0.2" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.PowerBar.Background">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\power_bar_canvas" AlphaFactor="0.15" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.PowerBar.Fill.Left">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="power_bar_canvas_9" AlphaFactor="1" HorizontalFlip="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.PowerBar.Fill.Right">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="power_bar_canvas_9" AlphaFactor="1" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.PowerBar.Divider">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\power_bar_divider" AlphaFactor="0.4" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.PowerBar.Flag">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\flag" AlphaFactor="0.9" IsHidden="true"/>
+      <BrushLayer Name="Disabled" Sprite="MPHud\keep_flag" AlphaFactor="0.9" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Disabled" IsHidden="false" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.PowerBar.Flag.Background">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\flag" AlphaFactor="0.9" IsHidden="true"/>
+      <BrushLayer Name="Disabled" Sprite="MPHud\keep_flag_bg" AlphaFactor="0.9" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Disabled" IsHidden="false" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.DamageNotification.Background">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\text_bg" AlphaFactor="0.6" Color="#000000FF" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.FriendlyFireNotification.Background">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\text_bg" AlphaFactor="0.6" Color="#000000FF" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.PositiveGoldNotification.Background">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\text_bg" AlphaFactor="0.6" Color="#000000FF" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.NegativeNotification.Background">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\text_bg" AlphaFactor="0.6" Color="#000000FF" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.KillFeed.Background">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="kill_notification_9" AlphaFactor="0.5" Color="#46321BFF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.Duel.KillFeed.Background">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\kill_feed_bg_full_duel" ExtendRight="35" ExtendLeft="35" Color="#2A0D39FF" IsHidden="true"/>
+      <BrushLayer Name="EndOfDuel" Sprite="MPHud\kill_feed_bg_full_duel" ExtendRight="35" ExtendLeft="35" Color="#5E2A79FF" IsHidden="true" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" IsHidden="false"/>
+      </Style>
+      <Style Name="EndOfDuel">
+        <BrushLayer Name="EndOfDuel" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.Duel.KillFeed.Class.Background">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\duel_class_background" IsHidden="true"/>
+      <BrushLayer Name="EndOfDuel" Sprite="MPHud\end_of_duel_class_background" IsHidden="true" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" IsHidden="false"/>
+      </Style>
+      <Style Name="EndOfDuel">
+        <BrushLayer Name="EndOfDuel" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+  
+  <Brush Name="MPHUD.MoraleWidget.Background">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\morale_canvas" Color="#000000FF" AlphaFactor="0.5" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.MoraleWidget.ItemBackground">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\star_outline" Color="#FFFFFFFF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.MoraleWidget.Item">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\star_without_glow" AlphaFactor="0.8"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+      <Style Name="IncreaseAnim" AnimationToPlayOnBegin="IncreaseAnimation">
+        <BrushLayer Name="Default" />
+      </Style>
+      <Style Name="IsCriticalAnim" AnimationToPlayOnBegin="IsCriticalAnimation">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+    <Animations>
+      <Animation Name="IncreaseAnimation" Duration="0.75" Loop="true">
+        <AnimationProperty LayerName="Default" PropertyName="ColorFactor">
+          <KeyFrame Time="0.0" Value="1" />
+          <KeyFrame Time="0.075" Value="1.2" />
+          <KeyFrame Time="0.125" Value="1.3" />
+          <KeyFrame Time="0.2" Value="1.4" />
+          <KeyFrame Time="0.25" Value="1.6" />
+        </AnimationProperty>
+      </Animation>
+      <Animation Name="IsCriticalAnimation" Duration="0.75" Loop="true">
+        <AnimationProperty LayerName="Default" PropertyName="ColorFactor">
+          <KeyFrame Time="0.0" Value="1" />
+          <KeyFrame Time="0.05" Value="3.5" />
+          <KeyFrame Time="0.375" Value="4" />
+        </AnimationProperty>
+      </Animation>
+    </Animations>
+  </Brush>
+  <Brush Name="MPHUD.MoraleWidget.ItemGlow" BaseBrush="MPHUD.MoraleWidget.Item">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\star_glow" />
+    </Layers>
+  </Brush>
+  <Brush Name="MPHUD.MoraleWidget.Arrow.Right">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\morale_arrow" AlphaFactor="0.8" Color="#FFFFFFFF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.MoraleWidget.Arrow.Left">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\morale_arrow" AlphaFactor="0.8" Color="#FFFFFFFF" HorizontalFlip="true" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.UserProfile.HealthBar">
+    <Layers>
+      <BrushLayer Name="EmptyFill" Sprite="BlankWhiteSquare_9" Color="#391B1BFF" AlphaFactor="0.3" />
+      <BrushLayer Name="DefaultFill" Sprite="BlankWhiteSquare_9" Color="#9A3819FF" AlphaFactor="0.9" />
+      <BrushLayer Name="ChangeFill" Sprite="BlankWhiteSquare_9" Color="#00000000" AlphaFactor="0.0" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.UserProfile.DeadIcon">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\skull" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.UserProfile.SpawnActiveIcon">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\spawn_active" Color="#E2800DFF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.WarmupInfoBackground">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\warmup_text_background" Color="#000000FF" AlphaFactor="0.5" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.GoldAmount.Icon">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="General\Mission\PersonalKillfeed\bracelet_icon_shadow" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.PersonalNotification.TypeIcon">
+    <Layers>
+      <BrushLayer Name="FriendlyFireDamage" Sprite="General\Mission\PersonalKillfeed\friendly_fire_icon" Color="#8400FFFF" IsHidden="true"/>
+      <BrushLayer Name="FriendlyFireKill" Sprite="General\Mission\PersonalKillfeed\friendly_fire_icon" Color="#8400FFFF" IsHidden="true"/>
+      <BrushLayer Name="MountDamage" Sprite="General\Mission\PersonalKillfeed\Mount" IsHidden="true"/>
+      <BrushLayer Name="MakeUnconscious" Sprite="General\Mission\PersonalKillfeed\kill_icon" Color="#FFFFFFFF" IsHidden="true"/>
+      <BrushLayer Name="NormalKill" Sprite="General\Mission\PersonalKillfeed\kill_icon" Color="#CB0707FF" IsHidden="true"/>
+      <BrushLayer Name="MakeUnconsciousHeadshot" Sprite="General\Mission\PersonalKillfeed\headshot_kill_icon" Color="#FFFFFFFF" IsHidden="true"/>
+      <BrushLayer Name="NormalKillHeadshot" Sprite="General\Mission\PersonalKillfeed\headshot_kill_icon" Color="#CB0707FF" IsHidden="true"/>
+      <BrushLayer Name="Assist" Sprite="General\Mission\PersonalKillfeed\assist_icon" Color="#CB0707FF" IsHidden="true"/>
+      <BrushLayer Name="GoldChange" Sprite="General\Mission\PersonalKillfeed\bracelet_icon_shadow" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="FriendlyFireDamage">
+        <BrushLayer Name="FriendlyFireDamage" IsHidden="false"/>
+      </Style>
+      <Style Name="FriendlyFireKill">
+        <BrushLayer Name="FriendlyFireKill" IsHidden="false"/>
+      </Style>
+      <Style Name="MountDamage">
+        <BrushLayer Name="MountDamage" IsHidden="false"/>
+      </Style>
+      <Style Name="MakeUnconscious">
+        <BrushLayer Name="MakeUnconscious" IsHidden="false"/>
+      </Style>
+      <Style Name="NormalKill">
+        <BrushLayer Name="NormalKill" IsHidden="false"/>
+      </Style>
+      <Style Name="MakeUnconsciousHeadshot">
+        <BrushLayer Name="MakeUnconsciousHeadshot" IsHidden="false"/>
+      </Style>
+      <Style Name="NormalKillHeadshot">
+        <BrushLayer Name="NormalKillHeadshot" IsHidden="false"/>
+      </Style>
+      <Style Name="Assist">
+        <BrushLayer Name="Assist" IsHidden="false"/>
+      </Style>
+      <Style Name="GoldChange">
+        <BrushLayer Name="GoldChange" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.PersonalNotification.Background">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="personal_killfeed_notification_9" AlphaFactor="1" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Normal">
+        <BrushLayer Name="Default" Color="#000000FF" IsHidden="false"/>
+      </Style>
+      <Style Name="FriendlyFire">
+        <BrushLayer Name="Default" Color="#8400FFFF" IsHidden="false" AlphaFactor="0.4" ColorFactor="1.1" />
+      </Style>
+      <Style Name="GoldChangePositive">
+        <BrushLayer Name="Default" Color="#EFC032FF" IsHidden="false" AlphaFactor="0.6"/>
+      </Style>
+      <Style Name="GoldChangeNegative">
+        <BrushLayer Name="Default" Color="#CB0707FF" IsHidden="false" AlphaFactor="0.6"/>
+      </Style>
+      <Style Name="Message">
+        <BrushLayer Name="Default" Color="#333333FF" IsHidden="false"/>
+      </Style>
+      <Style Name="Hidden">
+        <BrushLayer Name="Default" IsHidden="true"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.Spawnability.Status.Icons">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="General\Mission\spawnable_icon" AlphaFactor="1" IsHidden="true"/>
+      <BrushLayer Name="Unspawnable" Sprite="General\Mission\unspawnable_icon" AlphaFactor="1" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" IsHidden="false"/>
+      </Style>
+      <Style Name="Unspawnable">
+        <BrushLayer Name="Default"  IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.Duel.Card.Canvas">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="duel_card_fill_9"  Color="#000000FF" IsHidden="true"/>
+      <BrushLayer Name="Focused" Sprite="duel_card_fill_9"  Color="#2A0D39FF" IsHidden="true"/>
+      <BrushLayer Name="Tracked" Sprite="duel_card_fill_9"  Color="#093313FF" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" IsHidden="true"/>
+      </Style>
+      <Style Name="Focused">
+        <BrushLayer Name="Focused" IsHidden="false"/>
+      </Style>
+      <Style Name="Tracked">
+        <BrushLayer Name="Tracked" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.Duel.Card.Frame">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="duel_card_outline_9"  Color="#000000FF" IsHidden="true"/>
+      <BrushLayer Name="Focused" Sprite="duel_card_outline_9"  Color="#FF9C00FF" IsHidden="true"/>
+      <BrushLayer Name="Tracked" Sprite="duel_card_outline_9" Color="#00FF00FF" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" IsHidden="true"/>
+      </Style>
+      <Style Name="Focused">
+        <BrushLayer Name="Focused" IsHidden="false"/>
+      </Style>      
+      <Style Name="Tracked">
+        <BrushLayer Name="Tracked" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.Duel.Card.Class.Outline">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\class_circle_default" IsHidden="true"/>
+      <BrushLayer Name="Tracked" Sprite="MPHud\class_circle_invite_received" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" IsHidden="false"/>
+      </Style>
+      <Style Name="Tracked">
+        <BrushLayer Name="Tracked" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+
+  <Brush Name="MPHUD.UserProfile.NameText" Font="FiraSansExtraCondensed-Medium" TextHorizontalAlignment="Center" TextVerticalAlignment="Center" >
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextBlur="0.2" TextOutlineAmount="0.3" TextGlowRadius="0.1" FontSize="10" TextAlphaFactor="0.8" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.Duel.Card.HugeBountyText" Font="FiraSansExtraCondensed-Medium" TextHorizontalAlignment="Left" TextVerticalAlignment="Center" >
+    <Styles>
+      <Style Name="Default" FontColor="#FF9C00FF" TextBlur="0.1" TextOutlineAmount="0.3" TextGlowRadius="0.1" FontSize="32" TextAlphaFactor="0.8" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.Duel.Arena.ScoreText" Font="Galahad_Numbers_Bold" TextHorizontalAlignment="Center" TextVerticalAlignment="Center" >
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextBlur="0.2" TextOutlineAmount="0.1" TextGlowRadius="0.1" FontSize="56" TextAlphaFactor="0.8" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.PersonalNotification.MessageText" Font="Galahad" TextHorizontalAlignment="Center" TextVerticalAlignment="Center" >
+    <Styles>
+      <Style Name="Normal" FontColor="#FFFFFFFF" TextBlur="0.2" TextGlowRadius="0.3" TextOutlineAmount="0" TextOutlineColor="#000000FF"  TextGlowColor="#000000FF" FontSize="24" />
+      <Style Name="FriendlyFire" FontColor="#8400FFFF" TextBlur="0.8" TextOutlineAmount="0.8" TextGlowRadius="0.5" FontSize="24" />
+      <Style Name="GoldChangePositive" FontColor="#EFC032FF" TextBlur="0.2" TextOutlineAmount="0.4" TextGlowRadius="0" FontSize="26" />
+      <Style Name="GoldChangeNegative" FontColor="#CB0707FF" TextBlur="0.2" TextOutlineAmount="0.4" TextGlowRadius="0" FontSize="26" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.PersonalNotification.AmountText" Font="Galahad_Numbers_Bold" TextHorizontalAlignment="Center" TextVerticalAlignment="Center" FontSize="35">
+    <Styles>
+      <Style Name="Normal" FontColor="#FFFFFFFF" TextBlur="0" TextOutlineAmount="0.1" TextGlowRadius="0" />
+      <Style Name="FriendlyFire" FontColor="#8400FFFF" TextBlur="0" TextOutlineAmount="0.1" TextGlowRadius="0" />
+      <Style Name="GoldChangePositive" FontColor="#EFC032FF" TextBlur="0" TextOutlineAmount="0.1" TextGlowRadius="0" />
+      <Style Name="GoldChangeNegative" FontColor="#CB0707FF" TextBlur="0" TextOutlineAmount="0.1" TextGlowRadius="0" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.KillFeed.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="16" />
+      <Style Name="EndOfDuel" FontColor="#FFD700FF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="16" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.KillFeed.ScoreText" Font="FiraSansExtraCondensed-Medium" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="28" />
+      <Style Name="EndOfDuel" FontColor="#FFD700FF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="28" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.PowerBar.FlagLetter" Font="FiraSansExtraCondensed-Medium" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="20" TextValueFactor="0.5"/>
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.Poll.InitiatorNameText" Font="FiraSansExtraCondensed-Medium" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="24" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.Poll.DescriptionText" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="24" TextValueFactor="0.5"/>
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.Poll.Accepted.Text" Font="FiraSansExtraCondensed-Medium" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#71C013FF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="32" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.Poll.Rejected.Text" Font="FiraSansExtraCondensed-Medium" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#ED1C24FF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="32" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.Duel.ArenaStatus.FlagLetter" Font="FiraSansExtraCondensed-Medium" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextBlur="0" TextOutlineAmount="0.3" TextGlowRadius="0.2" FontSize="24" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.Duel.ArenaStatus.ScoreText" Font="FiraSansExtraCondensed-Medium" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextBlur="0" TextOutlineAmount="0.3" TextGlowRadius="0.2" FontSize="20" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.Duel.Card.NameText" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Left" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" TextBlur="0" TextOutlineAmount="0.3" TextGlowRadius="0.2" FontSize="26" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.Duel.Card.ActionText" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" TextBlur="0" TextOutlineAmount="0.3" TextGlowRadius="0.2" FontSize="24" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.Compass.PrimaryMarkerText" Font="Galahad" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextOutlineColor="#AAAAAAFF" TextAlphaFactor="0.6" TextBlur="0.2" TextOutlineAmount="1" TextGlowRadius="0" FontSize="14" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.Compass.SecondaryMarkerText" Font="Galahad" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextOutlineColor="#AAAAAAFF" TextAlphaFactor="0.6" TextBlur="0.2" TextOutlineAmount="1" TextGlowRadius="0" FontSize="10" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPHUD.Compass.FlagLetter" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="17" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.TroopCount.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextBlur="0" TextOutlineAmount="0.1" TextOutlineColor="#000000FF" TextGlowRadius="0" FontSize="25" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.GoldAmount.Text" Font="Galahad_Numbers_Bold" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextOutlineColor="#000000FF" TextBlur="0.3" TextOutlineAmount="0.1" TextGlowRadius="0.0" FontSize="40" AnimationToPlayOnBegin="ValueChangeAnimation" />
+      <Style Name="Negative" AnimationToPlayOnBegin="NegativeValueChangeAnimation" />
+      <Style Name="Positive" AnimationToPlayOnBegin="PositiveValueChangeAnimation" />
+    </Styles>
+    <Animations>
+      <Animation Name="PositiveValueChangeAnimation" Duration="0.3" Loop="false">
+        <AnimationProperty PropertyName="FontColor">
+          <KeyFrame Time="0.0" Value="#FFFFFFFF" />
+          <KeyFrame Time="0.01" Value="#FFDF00FF" />
+        </AnimationProperty>
+        <AnimationProperty PropertyName="TextBlur">
+          <KeyFrame Time="0.0" Value="0" />
+          <KeyFrame Time="0.01" Value="0.5" />
+        </AnimationProperty>
+        <AnimationProperty PropertyName="TextGlowRadius">
+          <KeyFrame Time="0.0" Value="0" />
+          <KeyFrame Time="0.01" Value="0.25" />
+        </AnimationProperty>
+      </Animation>
+      <Animation Name="NegativeValueChangeAnimation" Duration="0.3" Loop="false">
+        <AnimationProperty PropertyName="FontColor">
+          <KeyFrame Time="0.0" Value="#FFFFFFFF" />
+          <KeyFrame Time="0.01" Value="#F442EEFF" />
+        </AnimationProperty>
+        <AnimationProperty PropertyName="TextBlur">
+          <KeyFrame Time="0.0" Value="0" />
+          <KeyFrame Time="0.01" Value="0.5" />
+        </AnimationProperty>
+        <AnimationProperty PropertyName="TextGlowRadius">
+          <KeyFrame Time="0.0" Value="0" />
+          <KeyFrame Time="0.01" Value="0.25" />
+        </AnimationProperty>
+      </Animation>
+    </Animations>
+  </Brush>
+
+  <Brush Name="MPHUD.SpectatorInfo.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="24" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.OngoingDuel.Player.Name.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Left" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="18" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.OngoingDuel.Score.Text" Font="Galahad_Numbers_Bold" TextHorizontalAlignment="Left" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="28" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.CountdownText" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextBlur="0.5" TextOutlineAmount="0.1" TextGlowRadius="0" FontSize="26" />
+      <Style Name="Warning" FontColor="#FBA0A0FF" AnimationToPlayOnBegin="WarningAnimation" />
+    </Styles>
+    <Animations>
+      <Animation Name="WarningAnimation" Duration="0.6" Loop="true">
+        <AnimationProperty PropertyName="FontColor">
+          <KeyFrame Time="0.0" Value="#F9EBD4FF" />
+          <KeyFrame Time="0.3" Value="#FBA0A0FF" />
+        </AnimationProperty>
+      </Animation>
+    </Animations>
+  </Brush>
+
+  <Brush Name="MPHUD.Extension.Banner.Circle">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BlankWhiteCircle" OverlayXOffset="0" OverlayYOffset="0" ColorFactor="0.5"/>
+    </Layers>
+  </Brush>
+
+  <Brush Name="MPHUD.ScoreText" Font="Galahad_Numbers_Bold" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontSize="46" FontColor="#FFFFFFFF" TextOutlineColor="#00000000" TextBlur="0.1" TextOutlineAmount="0" TextGlowRadius="0.1"/>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.WarmupInfoText" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="24" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.Flag.RemovalTime.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Left" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontSize="20" FontColor="#FFFFFFFF" TextOutlineColor="#00000000" TextBlur="0.1" TextOutlineAmount="0" TextGlowRadius="0.1"/>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.DeathCard.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Left" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontSize="20" FontColor="#FFFFFFFF" TextOutlineColor="#00000000" TextBlur="0.1" TextOutlineAmount="0" TextGlowRadius="0.1"/>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.DeathCard.SelfKilled.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Left" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontSize="20" FontColor="#8400FFFF" TextOutlineColor="#000000FF" TextBlur="0.1" TextOutlineAmount="0" TextGlowRadius="0.1"/>
+    </Styles>
+  </Brush>
+
+
+  <Brush Name="MPHUD.DeathCard.Medium.Text" Font="FiraSansExtraCondensed-Medium" TextHorizontalAlignment="Left" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontSize="20" FontColor="#FFFFFFFF" TextOutlineColor="#00000000" TextBlur="0.1" TextOutlineAmount="0" TextGlowRadius="0.1"/>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.DeathCard.Small.Text" Font="FiraSansExtraCondensed-Light" TextHorizontalAlignment="Left" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontSize="16" FontColor="#FFFFFFFF" TextOutlineColor="#00000000" TextBlur="0.1" TextOutlineAmount="0" TextGlowRadius="0.1"/>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.Duel.Countdown.Text" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" extBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="42" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.Duel.Arena.Flag.Background">
+    <Layers>
+      <BrushLayer Name="Infantry" Sprite="MPHud\flag_with_drop_shadow" Color="#B61B21FF" IsHidden="true"/>
+      <BrushLayer Name="Archery" Sprite="MPHud\flag_with_drop_shadow" Color="#AA7A0BFF" IsHidden="true"/>
+      <BrushLayer Name="Cavalry" Sprite="MPHud\flag_with_drop_shadow" Color="#186BD0FF" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Infantry">
+        <BrushLayer Name="Infantry" IsHidden="false"/>
+      </Style>
+      <Style Name="Archery">
+        <BrushLayer Name="Archery" IsHidden="false"/>
+      </Style>
+      <Style Name="Cavalry">
+        <BrushLayer Name="Cavalry" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.Duel.Preferred.Arena.Flag.Background">
+    <Layers>
+      <BrushLayer Name="Infantry" Sprite="MPHud\flag" Color="#B61B21FF" IsHidden="true"/>
+      <BrushLayer Name="Archery" Sprite="MPHud\flag" Color="#AA7A0BFF" IsHidden="true"/>
+      <BrushLayer Name="Cavalry" Sprite="MPHud\flag" Color="#186BD0FF" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Infantry">
+        <BrushLayer Name="Infantry" IsHidden="false"/>
+      </Style>
+      <Style Name="Archery">
+        <BrushLayer Name="Archery" IsHidden="false"/>
+      </Style>
+      <Style Name="Cavalry">
+        <BrushLayer Name="Cavalry" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.Duel.OngoingBattle.Background">
+    <Layers>
+      <BrushLayer Name="Infantry" Sprite="SPGeneral\SPScoreboard\reward_band_large" Color="#B50009FF" ColorFactor="1.6" IsHidden="true"/>
+      <BrushLayer Name="Archery" Sprite="SPGeneral\SPScoreboard\reward_band_large" Color="#AA7A0BFF" ColorFactor="1.9" IsHidden="true"/>
+      <BrushLayer Name="Cavalry" Sprite="SPGeneral\SPScoreboard\reward_band_large" Color="#186BD0FF" ColorFactor="1.6" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Infantry">
+        <BrushLayer Name="Infantry" IsHidden="false"/>
+      </Style>
+      <Style Name="Archery">
+        <BrushLayer Name="Archery" IsHidden="false"/>
+      </Style>
+      <Style Name="Cavalry">
+        <BrushLayer Name="Cavalry" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.Duel.Card.Flag.Background">
+    <Layers>
+      <BrushLayer Name="Infantry" Sprite="MPHud\flag" Color="#B61B21FF" IsHidden="true"/>
+      <BrushLayer Name="Archery" Sprite="MPHud\flag" Color="#AA7A0BFF" IsHidden="true"/>
+      <BrushLayer Name="Cavalry" Sprite="MPHud\flag" Color="#186BD0FF" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Infantry">
+        <BrushLayer Name="Infantry" IsHidden="false"/>
+      </Style>
+      <Style Name="Archery">
+        <BrushLayer Name="Archery" IsHidden="false"/>
+      </Style>
+      <Style Name="Cavalry">
+        <BrushLayer Name="Cavalry" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.Duel.Arena.Flag.Foreground">
+    <Layers>
+      <BrushLayer Name="Infantry" Sprite="MPHud\duel_arena_infantry_icon" IsHidden="true"/>
+      <BrushLayer Name="Archery" Sprite="MPHud\duel_arena_archery_icon" IsHidden="true"/>
+      <BrushLayer Name="Cavalry" Sprite="MPHud\duel_arena_cavalry_icon" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Infantry">
+        <BrushLayer Name="Infantry" Sprite="MPHud\duel_arena_infantry_icon" IsHidden="false"/>
+      </Style>
+      <Style Name="Archery">
+        <BrushLayer Name="Archery" IsHidden="false"/>
+      </Style>
+      <Style Name="Cavalry">
+        <BrushLayer Name="Cavalry" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>  
+
+  <Brush Name="MPHud.Defender.Icon">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\defender" Color="#E0C293FF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.6"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="1" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.4" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.4"/>
+      </Style>
+    </Styles>
+  </Brush>
+  
+  <Brush Name="MPHud.Attacker.Icon">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPHud\attacker" Color="#E0C293FF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.6"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="1" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.4" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.4"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.VoicePlayer.Text" Font="FiraSansExtraCondensed-Regular">
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" TextBlur="0.2" TextOutlineAmount="0.1" TextGlowRadius="0.1" FontSize="20" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPHUD.EndOfBattle.Standing" Font="FiraSansExtraCondensed-Medium" TextHorizontalAlignment="Left" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontSize="16" FontColor="#DAB173FF" TextOutlineColor="#00000000" TextBlur="0.1" TextOutlineAmount="0" TextGlowRadius="0.1"/>
+    </Styles>
+  </Brush>
+
+</Brushes>

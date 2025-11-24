@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="日本語" />
+  </tags>
+  <strings>
+    <string id="1B57e3WC" text="{HERO}が{FACTION}の{newline}評議会の意思を覆しました" />
+    <string id="3aYSoETE" text="{MOTHER.LINK}が元気な赤ん坊を出産しました" />
+    <string id="6q9sb18u" text="{HERO_2.LINK}は殺害されました" />
+    <string id="7SHqWNzE" text="{SETTLEMENT}の{COMMON_AREA}から{newline}悪党が一掃されました" />
+    <string id="7tx9sch3" text="隠れ家を発見" />
+    <string id="8Klpa7Xa" text="{INSULTER.LINK}は{INSULTEE.LINK}への{newline}報復を誓いました" />
+    <string id="8wlvxzuP" text="{HERO_1.LINK}が{HERO_2.LINK}と出会いました" />
+    <string id="a0qduLNq" text="{SETTLEMENT}は安全になりました" />
+    <string id="aheVbtmm" text="{FACTION}での{ITEM}" />
+    <string id="aowJMil0" text="{KINGDOM}は滅亡しました" />
+    <string id="AQK4ADS5" text="{HERO_1.LINK}が{HERO_2.LINK}を殺害しました" />
+    <string id="AxMrFoea" text="{TOWN_NAME}が{FACTION_NAME}の{newline}{LORD.LINK}率いる部隊により包囲されました！" />
+    <string id="bNAxWneP" text="{INSULTER.LINK}が言うには、{INSULTEE.LINK}は{newline}商会から金を巻き上げているようです" />
+    <string id="bNDUtygL" text="{INSULTER.LINK}が言うには、{INSULTEE.LINK}は{newline}価値を高騰させるために買い占めています" />
+    <string id="Bovy7D7s" text="{MOTHER.LINK}が出産しましたが、死産でした" />
+    <string id="bZvmjYPE" text="{PARTY}は{SETTLEMENT}を防衛しています。" />
+    <string id="Cae69FRp" text="{SETTLEMENT}は{PARTY}により防衛されています。" />
+    <string id="cOnCiZeH" text="{HERO1}は{SETTLEMENT}{ADDITIONAL_INFO}にある{newline}{HERO2}の共通区間を攻撃しました" />
+    <string id="dfAE3liA" text="{CLAN_NAME}の一団が{FACTION}と手を組みました" />
+    <string id="dmqy8OyY" text="{INSULTER.LINK}が言うには、{INSULTEE.LINK}は{newline}不誠実な商売を行っているようです" />
+    <string id="dzJOruIi" text="{SETTLEMENT}の{COMMON_AREA}は{newline}{HERO.LINK}の手に落ちました" />
+    <string id="EHFibjkM" text="{TOWN_NAME}が{FACTION_NAME}の{newline}{LORD.LINK}率いる軍隊に包囲されました！" />
+    <string id="ELFgdGJZ" text="{MOTHER.LINK}が妊娠しました。" />
+    <string id="eMRMptST" text="{MOTHER.LINK}は出産しました" />
+    <string id="ExbVzTZA" text="{CLAN}は{KINGDOM}と{newline}共に戦う契約を結びました" />
+    <string id="F3MPgmhR" text="{CLAIMANT.LINK}が言うには、{SETTLEMENT_NAME}は{newline}{CURRENT_OWNER_CLAN}ではなく{CLAIMANT_CLAN}が所有するべきだと{newline}主張しています" />
+    <string id="FZdiWaBs" text="{HERO}の共通区間が占拠されました" />
+    <string id="h5rkbVu3" text="{SETTLEMENT}の新しい所有者は{LORD.LINK}です" />
+    <string id="h78oPYTs" text="{INSULTER.LINK}が言うには、{INSULTEE.LINK}は{newline}異端者であるとのことです" />
+    <string id="hbWhfoWH" text="{SETTLEMENT}が{FACTION_NAME}の{newline}{LORD.LINK}によって襲撃されました" />
+    <string id="hJFCi1zu" text="{FACTION1}と{FACTION2}が和平を結びました" />
+    <string id="hopvV6Ch" text="{FACTION1_NAME}の{RULER_NAME}が、{FACTION2_NAME}に対して宣戦布告しました。" />
+    <string id="hP57Caab" text="{VICTOR_FACTION}の{VICTOR_PARTY}が、{DEFEATED_FACTION}の{DEFEATED_PARTY}を倒しました。" />
+    <string id="Jo3Lux3w" text="{HERO_2.LINK}は{HERO_1.LINK}の影響で死亡しました" />
+    <string id="jZcV4gI7" text="{INSULTER.LINK}が言うには、{INSULTEE.LINK}が{newline}臆病な行動にでたことで、{newline}戦場からの撤退を余儀なくされたようです" />
+    <string id="KbakhGqB" text="{HERO_1.LINK}が{HERO_2.LINK}の部隊を倒しました" />
+    <string id="kMwv4QJK" text="{INSULTER.LINK}は{INSULTEE.LINK}と{newline}求婚について、もめているようです" />
+    <string id="kqwNCCbZ" text="{TOWN_NAME}が、{FACTION_NAME}の{newline}{LORD.LINK}率いる軍隊に包囲されました！" />
+    <string id="ksr1bSTC" text="{SETTLEMENT}が{PARTY}に攻撃されています。" />
+    <string id="MoYYusXJ" text="{INSULTER.LINK}が言うには、{INSULTEE.LINK}が{newline}命令に背いたことにより、{newline}戦場からの撤退を余儀なくされたそうです" />
+    <string id="nbVW2cJ8" text="{SETTLEMENT}が{FACTION_NAME}の{newline}{LORD.LINK}率いる軍隊に襲撃されました" />
+    <string id="nPF738Cb" text="{INSULTER.LINK}は、{INSULTEE.LINK}が{newline}人々に迷惑をかけたとして非難しています" />
+    <string id="orDGbYZE" text="{INSULTER.LINK}が{INSULTEE.LINK}と争っています" />
+    <string id="P9RGAGFC" text="{MOTHER.LINK}が出産後、亡くなりました" />
+    <string id="pBMMXwVa" text="{INSULTER.LINK}が言うには、{INSULTEE.LINK}は{newline}不正に土地を得ようとしていたようです" />
+    <string id="pHyqL3bw" text="{MOTHER.LINK}と{FATHER.LINK}から{newline}{HERO.LINK}が産まれました" />
+    <string id="PLiydbpQ" text="{PARTY}が{SETTLEMENT}の侵攻を開始しました" />
+    <string id="PsU1ri42" text="{PARTY1}は{PARTY2}と戦闘状態にあります" />
+    <string id="RpVrqXOU" text="{INSULTER.LINK}が{INSULTEE.LINK}と{newline}領土を巡って争っています" />
+    <string id="S0oFKYfB" text="{CLAN}はもう{KINGDOM}に仕えていません" />
+    <string id="SLAkSrb5" text="{FACTION1_NAME}が、{FACTION2_NAME}に対して宣戦布告しました。" />
+    <string id="TsYCa2fZ" text="{FACTION1}と{FACTION2}が和平を結びました。" />
+    <string id="WiiRaLyK" text="{INSULTER.LINK}が言うには、{INSULTEE.LINK}が{newline}早まった行動をしたことにより、{newline}戦場からの撤退を余儀なくされたそうです" />
+    <string id="WYHqMwwo" text="{CLAN}は排除されました。" />
+    <string id="XRTcnnR2" text="{HERO.LINK}は逃亡者です" />
+    <string id="yUaE3eeX" text="{SETTLEMENT}は一掃されました" />
+    <string id="ZQ0bn7l7" text="{HERO_2}は{HERO_1}の影響で死亡しました" />
+  </strings>
+</base>

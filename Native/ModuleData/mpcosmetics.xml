@@ -1,0 +1,5506 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Cosmetics>
+	<!-- Vlanida Body Armors -->
+	<Cosmetic
+		type="Clothing"
+		id="mp_vlandia_chainmail"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_white_coat_over_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_white_coat_over_mail"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_vlandia_chainmail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_coat_of_plates_over_mail"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_white_coat_over_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_cloth_tunic"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_bandit_leather_water_flask" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_aketon"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_bandit_leather_water_flask" />
+			<Item
+				id="mp_vlandia_bandit_a" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_padded_short_coat"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_sleeveless_padded_short_coat" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_gambeson_b"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_sleeveless_padded_short_coat" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_leather_coat_over_cloth"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_vlandia_bandit_a" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_hauberk"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_mail_shirt" />
+			<Item
+				id="mp_white_coat_over_mail" />
+			<Item
+				id="mp_vlandia_chainmail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_leather_scale_armor"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_studded_leather_over_aketon" />
+			<Item
+				id="mp_layered_leather_tunic" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_long_hemp_tunic"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_vlandia_bandit_a" />
+		</Replace>
+	</Cosmetic>
+	<!--Team color flag yok-->
+	<!--<Cosmetic type="Clothing" id="mp_long_woolen_tunic" rarity="Common" cost="300">
+    <Replace>
+      <Item id="mp_bandit_leather_water_flask" />
+    </Replace>
+  </Cosmetic>-->
+	<Cosmetic
+		type="Clothing"
+		id="mp_padded_coat"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_sleeveless_padded_short_coat" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_padded_leather_shirt"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_sleeveless_padded_short_coat" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_sackcloth_tunic"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_bandit_leather_water_flask" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_sleeveless_padded_coat"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_sleeveless_padded_short_coat" />
+		</Replace>
+	</Cosmetic>
+	<!--
+  <Cosmetic type="Clothing" id="mp_veteran_mercenary_armor" rarity="Rare" cost="400">
+    <Replace>
+      <Item id="mp_mail_shirt" />
+      <Item id="mp_vlandia_chainmail" />
+    </Replace>
+  </Cosmetic>
+  -->
+	<Cosmetic
+		type="Clothing"
+		id="mp_nordic_sloven_leather"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_layered_leather_tunic" />
+			<Item
+				id="mp_heavy_nordic_coat" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_nordic_sloven_over_mail"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_banded_leather_over_mail" />
+			<Item
+				id="mp_mail_shirt" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_sturgian_fortified_armor"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_mail_shirt" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_veteran_mercenary_armor"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_layered_leather_tunic" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_banded_leather_over_mail"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_mail_shirt" />
+			<Item
+				id="mp_sleeveless_padded_short_coat" />
+		</Replace>
+	</Cosmetic>
+	<!-- Vlanida Head Armors-->
+	<Cosmetic
+		type="Clothing"
+		id="mp_peaked_helmet_over_padded_cloth"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_segmented_skullcap_over_laced_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_peaked_helmet_over_laced_coif"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_segmented_skullcap_over_laced_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_peaked_helmet_over_mail"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_segmented_skullcap_over_laced_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_peaked_helmet_over_mail_coif"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_segmented_skullcap_over_laced_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_segmented_skullcap_over_mail_coif"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_segmented_skullcap_over_laced_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_arming_coif"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_leather_cap" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_cervelliere_over_arming_coif"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_segmented_skullcap_over_mail_coif" />
+			<Item
+				id="mp_segmented_skullcap_over_laced_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_cervelliere_over_padded_cap"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_segmented_skullcap_over_laced_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_cloth_headwrap"
+		rarity="Unique"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_leather_cap" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_full_helm_over_arming_coif"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_full_helm_over_mail_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_full_helm_over_cloth_headwrap"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_full_helm_over_mail_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_full_helm_over_laced_coif"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_full_helm_over_mail_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_full_helm_over_padded_cloth"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_full_helm_over_padded_cap" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_guards_kettle_over_laced_coif"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_kettle_helmet_over_padded_cloth" />
+			<Item
+				id="mp_kettle_helmet_over_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_guards_kettle_over_mail_coif"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_kettle_helmet_over_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_spangenhelm_with_padded_cloth"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_kettle_helmet_over_padded_cloth" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_spangenhelm_with_leather"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_kettle_helmet_over_padded_cloth" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_kettle_helmet_with_leather"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_kettle_helmet_over_padded_cloth" />
+			<Item
+				id="mp_kettle_helmet_over_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_guards_kettle_over_padded_coif"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_kettle_helmet_over_padded_cloth" />
+			<Item
+				id="mp_kettle_helmet_over_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_kettle_hat_over_padded_cloth"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_kettle_helmet_over_padded_cloth" />
+			<Item
+				id="mp_kettle_helmet_over_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_kettle_hat_over_padded_coif"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_kettle_helmet_over_padded_cloth" />
+			<Item
+				id="mp_kettle_helmet_over_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_kettle_helmet_over_arming_coif"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_kettle_hat_over_mail_coif" />
+			<Item
+				id="mp_kettle_helmet_over_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_kettle_hat_over_mail_coif"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_kettle_helmet_over_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_kettle_helmet_over_laced_coif"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_kettle_hat_over_mail_coif" />
+			<Item
+				id="mp_kettle_helmet_over_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_kettle_helmet_over_padded_cap"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_kettle_hat_over_mail_coif" />
+			<Item
+				id="mp_kettle_helmet_over_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_kettle_helmet_over_padded_cloth"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_kettle_hat_over_mail_coif" />
+			<Item
+				id="mp_kettle_helmet_over_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_kettle_helmet_over_padded_coif"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_kettle_hat_over_mail_coif" />
+			<Item
+				id="mp_kettle_helmet_over_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_laced_coif"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_leather_cap" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_nasal_cervelliere_over_laced_coif"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_segmented_skullcap_over_laced_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_nasal_cervelliere_over_mail_coif"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_segmented_skullcap_over_laced_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_nasal_cervelliere_over_padded_cap"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_segmented_skullcap_over_mail_coif" />
+			<Item
+				id="mp_segmented_skullcap_over_laced_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_nasal_cervelliere_over_padded_coif"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_segmented_skullcap_over_mail_coif" />
+			<Item
+				id="mp_segmented_skullcap_over_laced_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_nasal_helmet_over_cloth_headwrap"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_nasal_helmet_over_laced_coif" />
+			<Item
+				id="mp_pointed_skullcap_over_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_nasal_helmet_over_laced_coif"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_pointed_skullcap_over_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_nasal_helmet_over_mail"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_nasal_helmet_over_laced_coif" />
+			<Item
+				id="mp_pointed_skullcap_over_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_nasal_helmet_over_mail_coif"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_pointed_skullcap_over_mail" />
+			<Item
+				id="mp_nasal_helmet_over_laced_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_nasal_helmet_over_padded_cloth"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_nasal_helmet_over_mail_coif" />
+			<Item
+				id="mp_pointed_skullcap_over_mail" />
+			<Item
+				id="mp_nasal_helmet_over_laced_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_nasal_helmet_over_padded_coif"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_nasal_helmet_over_mail_coif" />
+			<Item
+				id="mp_pointed_skullcap_over_mail" />
+			<Item
+				id="mp_nasal_helmet_over_laced_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_western_crowned_plated_helmet"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_pointed_skullcap_over_mail" />
+			<Item
+				id="mp_full_helm_over_padded_cap" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_open_padded_coif"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_leather_cap" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_padded_cap"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_leather_cap" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_padded_coif"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_leather_cap" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_padded_leather_cape"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_leather_cap" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_segmented_cervelliere_over_laced_coif"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_segmented_skullcap_over_laced_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_segmented_cervelliere_over_mail"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_segmented_skullcap_over_laced_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_segmented_cervelliere_over_mail_coif"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_segmented_skullcap_over_laced_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_segmented_skullcap_over_laced_coif"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_segmented_skullcap_over_mail_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_segmented_skullcap_over_padded_cloth"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_segmented_skullcap_over_mail_coif" />
+			<Item
+				id="mp_segmented_skullcap_over_laced_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_segmented_skullcap_over_padded_coif"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_segmented_skullcap_over_mail_coif" />
+			<Item
+				id="mp_segmented_skullcap_over_laced_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_visored_helmet_over_mail_coif"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_pointed_skullcap_over_mail" />
+			<Item
+				id="mp_full_helm_over_padded_cap" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_visored_helmet_over_laced_coif"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_visored_helmet_over_mail_coif" />
+			<Item
+				id="mp_pointed_skullcap_over_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_visored_helmet_over_padded_cloth"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_visored_helmet_over_mail_coif" />
+			<Item
+				id="mp_pointed_skullcap_over_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_visored_helmet_over_padded_coif"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_visored_helmet_over_mail_coif" />
+			<Item
+				id="mp_pointed_skullcap_over_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_vlandian_faceguard_helmet_a"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_visored_helmet_over_mail_coif" />
+			<Item
+				id="mp_pointed_skullcap_over_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_vlandian_faceguard_helmet_b"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_visored_helmet_over_mail_coif" />
+			<Item
+				id="mp_pointed_skullcap_over_mail" />
+		</Replace>
+	</Cosmetic>
+	<!-- Vlanida Shoulder Armors -->
+	<Cosmetic
+		type="Clothing"
+		id="mp_hood"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_padded_leather_shoulders" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_padded_leather_shoulders"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_hood" />
+			<Item
+				id="mp_peasant_hood" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_woodland_cloak"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_hood" />
+			<Item
+				id="mp_peasant_hood" />
+			<Item
+				id="mp_battania_civil_cloak" />
+		</Replace>
+	</Cosmetic>
+	<!-- Vlanida Hand Armors -->
+	<Cosmetic
+		type="Clothing"
+		id="mp_lordly_mail_mitten"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_reinforced_mail_mitten" />
+			<Item
+				id="mp_mail_mitten" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_reinforced_mail_mitten"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_mail_mitten" />
+		</Replace>
+	</Cosmetic>
+	<!-- Vlanida Leg Armors -->
+	<Cosmetic
+		type="Clothing"
+		id="mp_leather_cavalier_boots"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_leather_boots" />
+			<Item
+				id="mp_empire_horseman_boots" />
+			<Item
+				id="mp_steppe_leather_boots" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_mail_cavalier_boots"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_leather_boots" />
+			<Item
+				id="mp_leather_cavalier_boots" />
+			<Item
+				id="mp_mail_chausses" />
+			<Item
+				id="mp_steppe_leather_boots" />
+		</Replace>
+	</Cosmetic>
+	<!-- Battania Body Armors -->
+	<Cosmetic
+		type="Clothing"
+		id="mp_armored_baggy_trunks"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_battanian_savage_armor" />
+			<Item
+				id="mp_baggy_trunks" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_baggy_trunks"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_battanian_savage_armor" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_light_armor_d"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_battanian_savage_armor" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_light_armor_e"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_battanian_savage_armor" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_civil_a"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_battania_civil_b" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_light_armor_c"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_battania_civil_b" />
+			<Item
+				id="mp_battania_civil_a" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_civil_b"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_battania_civil_a" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_nordic_lamellar_vest"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_northern_padded_gambeson" />
+		</Replace>
+	</Cosmetic>
+	<!--<Cosmetic type="Clothing" id="mp_battania_civil_c" rarity="Rare" cost="285">
+    <Replace>
+      <Item id="mp_battania_civil_b" />
+      <Item id="mp_battania_civil_a" />
+    </Replace>
+  </Cosmetic>-->
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_woodland_chainmail"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_hauberk" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battanian_chainmail_armor_a"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_hauberk" />
+			<Item
+				id="mp_battania_woodland_chainmail" />
+		</Replace>
+	</Cosmetic>
+	<!-- TeamColor göstermiyor yok -->
+	<!--<Cosmetic type="Clothing" id="mp_western_scale_mail" rarity="Unique" cost="1000">
+    <Replace>
+      <Item id="mp_hauberk" />
+    </Replace>
+  </Cosmetic>-->
+	<Cosmetic
+		type="Clothing"
+		id="mp_battanian_chainmail_armor_c"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_hauberk" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battanian_chainmail_armor_b"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_hauberk" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_mercenary_armor"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_ranger_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_kilt_over_plated_leather"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_ranger_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_noble_armor"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_ranger_mail" />
+			<Item
+				id="mp_battania_woodland_chainmail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battanian_chainmail_armor_d"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_battania_woodland_chainmail" />
+		</Replace>
+	</Cosmetic>
+	<!-- TeamColor göstermiyor yok -->
+	<!--<Cosmetic type="Clothing" id="mp_battania_warlord_armor" rarity="Unique" cost="1000">
+    <Replace>
+      <Item id="mp_ranger_mail" />
+    </Replace>
+  </Cosmetic>-->
+	<Cosmetic
+		type="Clothing"
+		id="mp_battanian_scale_armor_a"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_ranger_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battanian_scale_armor_b"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_battania_civil_a" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_woodland_outfit"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_battania_civil_a" />
+		</Replace>
+	</Cosmetic>
+	<!-- Battania Head Armors-->
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_fur_helmet"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Itemless
+				troop="mp_light_infantry_battania"
+				slot="Head" />
+			<Itemless
+				troop="mp_shock_infantry_battania"
+				slot="Head" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_earmuff_helmet_a"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_battania_fur_helmet" />
+			<Itemless
+				troop="mp_light_infantry_battania"
+				slot="Head" />
+			<Itemless
+				troop="mp_shock_infantry_battania"
+				slot="Head" />
+			<Itemless
+				troop="mp_light_cavalry_battania"
+				slot="Head" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_earmuff_helmet_a_brnz"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_battania_fur_helmet" />
+			<Itemless
+				troop="mp_light_infantry_battania"
+				slot="Head" />
+			<Itemless
+				troop="mp_shock_infantry_battania"
+				slot="Head" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_ridged_northernhelm"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Itemless
+				troop="mp_light_infantry_battania"
+				slot="Head" />
+			<Itemless
+				troop="mp_light_cavalry_battania"
+				slot="Head" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_earmuff_helmet_b"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_ridged_northernhelm" />
+			<Itemless
+				troop="mp_light_infantry_battania"
+				slot="Head" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_earmuff_helmet_b_brnz"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_ridged_northernhelm" />
+			<Itemless
+				troop="mp_light_infantry_battania"
+				slot="Head" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_earmuff_helmet_c"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_plumed_helmet" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_earmuff_helmet_c_brnz"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_plumed_helmet" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_earmuff_helmet_c_cpr"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_plumed_helmet" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_earmuff_helmet_d"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_helmet_with_faceguard" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_earmuff_helmet_d_brnz"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_helmet_with_faceguard" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battanian_noble_helmet_with_feather"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_battanian_crowned_helmet" />
+			<Item
+				id="mp_helmet_with_faceguard" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_battle_crown"
+		rarity="Unique"
+		cost="1500">
+		<Replace>
+			<Item
+				id="mp_helmet_with_faceguard" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battanian_plated_noble_helmet"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_battanian_crowned_helmet" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_wolfhead"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Itemless
+				troop="mp_shock_infantry_battania"
+				slot="Head" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_bearhead"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Itemless
+				troop="mp_shock_infantry_battania"
+				slot="Head" />
+			<Itemless
+				troop="mp_light_cavalry_battania"
+				slot="Head" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_thinhide_coif"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_battania_civil_hood" />
+		</Replace>
+	</Cosmetic>
+	<!-- Battania Shoulder Armors -->
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_scarf_a"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_battania_civil_cloak" />
+			<Item
+				id="mp_battania_cloak" />
+			<Item
+				id="mp_battania_shoulder_strap_cloak" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battanian_leather_shoulder_a"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_battania_civil_cloak" />
+			<Item
+				id="mp_battania_shoulder_strap_cloak" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_shoulder_furr"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_battania_shoulder_strap" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battanian_chainmail_shoulder_b"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_battania_shoulder_furr" />
+			<Item
+				id="mp_battania_shoulder_strap_cloak" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_cloak_furr"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_battania_civil_cloak" />
+			<Item
+				id="mp_battania_cloak" />
+			<Item
+				id="mp_battania_shoulder_strap_cloak" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_shoulder_strap"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_armored_bearskin" />
+			<Item
+				id="mp_battania_shoulder_strap_cloak" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_shoulder_strap_cloak"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_armored_bearskin" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_civil_cloak"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_battania_shoulder_strap" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_armored_bearskin"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_battania_shoulder_strap" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_bearskin"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_battania_shoulder_strap" />
+			<Item
+				id="mp_rough_bearskin" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_civil_cape"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_battania_shoulder_strap" />
+		</Replace>
+	</Cosmetic>
+	<!-- Battania Hand Armors -->
+	<Cosmetic
+		type="Clothing"
+		id="mp_guarded_armwraps"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_highland_gloves" />
+			<Item
+				id="mp_armwraps" />
+			<Itemless
+				troop="mp_light_infantry_battania"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_skirmisher_battania"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_cavalry_battania"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_ranged_battania"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_ranged_sturgia"
+				slot="Gloves" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_ragged_armwraps"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_armwraps" />
+			<Item
+				id="mp_guarded_armwraps" />
+			<Itemless
+				troop="mp_light_ranged_battania"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_infantry_battania"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_cavalry_battania"
+				slot="Gloves" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_noble_bracers"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_highland_gloves" />
+			<Item
+				id="mp_guarded_armwraps" />
+			<Itemless
+				troop="mp_skirmisher_battania"
+				slot="Gloves" />
+		</Replace>
+	</Cosmetic>
+	<!-- TeamColor göstermiyor yok -->
+	<!--<Cosmetic type="Clothing" id="mp_battania_warlord_bracers" rarity="Unique" cost="1000">
+    <Replace>
+      <Item id="mp_highland_gloves" />
+    </Replace>
+  </Cosmetic>-->
+	<Cosmetic
+		type="Clothing"
+		id="mp_rough_tied_bracers"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_guarded_armwraps" />
+			<Item
+				id="mp_studded_leather_vambraces" />
+			<Item
+				id="mp_plated_strip_gauntlets" />
+			<Item
+				id="mp_eastern_plated_leather_vambraces" />
+			<Itemless
+				troop="mp_light_infantry_battania"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_cavalry_aserai"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_cavalry_sturgia"
+				slot="Gloves" />
+		</Replace>
+	</Cosmetic>
+	<!-- Battania Leg Armors -->
+	<Cosmetic
+		type="Clothing"
+		id="mp_wrapped_leather_boots"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_highland_leg_wrappings" />
+			<Item
+				id="mp_battania_leather_boots" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_highland_boots"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_battania_fur_boots" />
+			<Item
+				id="mp_battania_leather_boots" />
+			<Item
+				id="mp_wrapped_leather_boots" />
+			<Item
+				id="mp_highland_leg_wrappings" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_fur_boots"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_plated_strip_boots" />
+			<Item
+				id="mp_highland_boots" />
+			<Item
+				id="mp_wrapped_leather_boots" />
+			<Item
+				id="mp_highland_leg_wrappings" />
+			<Item
+				id="mp_battania_leather_boots" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_woodland_boots"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_plated_strip_boots" />
+			<Item
+				id="mp_highland_boots" />
+			<Item
+				id="mp_wrapped_leather_boots" />
+			<Item
+				id="mp_highland_leg_wrappings" />
+			<Item
+				id="mp_battania_leather_boots" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_battania_leather_boots"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_plated_strip_boots" />
+			<Item
+				id="mp_highland_boots" />
+			<Item
+				id="mp_wrapped_leather_boots" />
+			<Item
+				id="mp_highland_leg_wrappings" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_ragged_boots"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_plated_strip_boots" />
+			<Item
+				id="mp_highland_boots" />
+			<Item
+				id="mp_wrapped_leather_boots" />
+			<Item
+				id="mp_highland_leg_wrappings" />
+			<Item
+				id="mp_battania_leather_boots" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_rough_tied_boots"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_battania_fur_boots" />
+			<Item
+				id="mp_battania_woodland_boots" />
+		</Replace>
+	</Cosmetic>
+	<!-- TeamColor göstermiyor yok -->
+	<!--<Cosmetic type="Clothing" id="mp_battania_warlord_boots" rarity="Unique" cost="1000">
+    <Replace>
+      <Item id="mp_battania_woodland_boots" />
+    </Replace>
+  </Cosmetic>-->
+	<!-- Empire Body Armors -->
+	<!-- Recruit -->
+	<Cosmetic
+		type="Clothing"
+		id="mp_empire_short_dress"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_tunic_with_shoulder_pads" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_empire_warrior_padded_armor_f"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_tunic_with_shoulder_pads" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_empire_warrior_padded_armor_d"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_tunic_with_shoulder_pads" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_empire_warrior_padded_armor_c"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_empire_warrior_padded_armor_g" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_empire_legion_a"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_empire_warrior_padded_armor_g" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_imperial_mail_over_stripped_leather"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_empire_warrior_padded_armor_g" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_imperial_lamellar_over_leather"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_legionary_mail" />
+			<Item
+				id="mp_basic_imperial_leather_armor" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_northern_brass_lamellar_over_mail"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_imperial_lamellar_over_leather" />
+			<Item
+				id="mp_legionary_mail" />
+			<Item
+				id="mp_imperial_lamellar" />
+			<Item
+				id="mp_nordic_hauberk" />
+			<Item
+				id="mp_eastern_lamellar_armor" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_lamellar_with_scale_skirt"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_imperial_lamellar_over_leather" />
+			<Item
+				id="mp_legionary_mail" />
+			<Item
+				id="mp_imperial_lamellar" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_tunic_with_rolled_cloth"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_footmans_tunic" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_leather_tunic"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_footmans_tunic" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_imperial_robes"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_footmans_tunic" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_imperial_scale_armor"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_imperial_mail_vest" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_imperial_mail_over_leather"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_imperial_mail_vest" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_desert_scale_armor"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_stitched_leather_over_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_mail_shirt"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_legionary_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_eastern_studded_leather"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_basic_imperial_leather_armor" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_empire_legion_b"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_basic_imperial_leather_armor" />
+		</Replace>
+	</Cosmetic>
+	<!-- Empire Head Armors-->
+	<Cosmetic
+		type="Clothing"
+		id="mp_merchants_hat"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_laced_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_pilgrim_hood"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_laced_coif" />
+			<Item
+				id="mp_battania_civil_hood" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_leather_cap"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_laced_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_mail_coif"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_open_mail_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_heavy_nasalhelm_over_imperial_mail"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_ironlame_nasalhelm_over_imperial_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_roundkettle_over_imperial_cloth"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Itemless
+				troop="mp_shock_infantry_empire"
+				slot="Head" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_ironlame_nasalhelm_over_imperial_mail"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Itemless
+				troop="mp_shock_infantry_empire"
+				slot="Head" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_empire_helmet_with_metal_strips"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_ironlame_nasalhelm_over_imperial_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_empire_battle_crown_west"
+		rarity="Unique"
+		cost="1500">
+		<Replace>
+			<Item
+				id="mp_ironlame_nasalhelm_over_imperial_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_segmented_cervelliere_over_padded_cloth"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Itemless
+				troop="mp_shock_infantry_empire"
+				slot="Head" />
+			<Item
+				id="mp_segmented_skullcap_over_laced_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_plumed_helmet"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_ironlame_nasalhelm_over_imperial_mail" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_laced_cloth_coif"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_imperial_leather_coif" />
+		</Replace>
+	</Cosmetic>
+	<!--<Cosmetic type="Clothing" id="mp_open_mail_coif" rarity="Rare" cost="750">
+    <Replace>
+      <Item id="mp_imperial_leather_coif" />
+    </Replace>
+  </Cosmetic>-->
+	<Cosmetic
+		type="Clothing"
+		id="mp_ironlame_roundkettle_over_imperial_mail"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_segmented_cervelliere_over_padded_cloth" />
+			<Itemless
+				troop="mp_shock_infantry_empire"
+				slot="Head" />
+			<Item
+				id="mp_open_mail_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_ironlame_feathered_spangenhelm_over_mail"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_segmented_cervelliere_over_padded_cloth" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_empire_lord_helmet"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_open_mail_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_leatherlame_feathered_spangenhelm_over_leather"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_empire_guarded_lord_helmet" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_helmet_with_faceguard"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_segmented_cervelliere_over_padded_cloth" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_empire_guarded_lord_helmet"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_imperial_goggled_helmet" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_empire_battle_crown_north"
+		rarity="Unique"
+		cost="1500">
+		<Replace>
+			<Item
+				id="mp_imperial_goggled_helmet" />
+		</Replace>
+	</Cosmetic>
+	<!-- Empire Shoulder Armors -->
+	<Cosmetic
+		type="Clothing"
+		id="mp_studded_imperial_neckguard"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_imperial_studded_strip_shoulders" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_imperial_lamellar_shoulders"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_pauldron_cape_a" />
+			<Item
+				id="mp_studded_imperial_neckguard" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_varangian_bra_basic"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_empire_warrior_padded_armor_shoulder" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_varangian_bra_padded"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_empire_warrior_padded_armor_shoulder" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_varangian_bra_scale"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_empire_warrior_padded_armor_shoulder" />
+			<Item
+				id="mp_studded_imperial_neckguard" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_varangian_bra_royal"
+		rarity="Unique"
+		cost="1500">
+		<Replace>
+			<Item
+				id="mp_empire_warrior_padded_armor_shoulder" />
+			<Item
+				id="mp_studded_imperial_neckguard" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_pauldron_cape_a"
+		rarity="Unique"
+		cost="2500">
+		<Replace>
+			<Item
+				id="mp_empire_warrior_padded_armor_shoulder" />
+			<Item
+				id="mp_studded_imperial_neckguard" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_pauldron_cape_b"
+		rarity="Unique"
+		cost="2500">
+		<Replace>
+			<Item
+				id="mp_padded_leather_shoulders" />
+			<Item
+				id="mp_hood" />
+		</Replace>
+	</Cosmetic>
+	<!--<Cosmetic type="Clothing" id="mp_empire_warrior_padded_armor_shoulder" rarity="Common" cost="165">
+    <Replace>
+      <Itemless troop="mp_shock_infantry_empire" slot="Cape" />
+    </Replace>
+  </Cosmetic>-->
+	<!-- Empire Hand Armors -->
+	<Cosmetic
+		type="Clothing"
+		id="mp_leather_gloves"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Itemless
+				troop="mp_shock_infantry_sturgia"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_infantry_sturgia"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_ranged_empire"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_ranged_vlandia"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_infantry_vlandia"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_shock_infantry_empire"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_ranged_sturgia"
+				slot="Gloves" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_padded_vambrace"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Itemless
+				troop="mp_shock_infantry_empire"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_skirmisher_empire"
+				slot="Gloves" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_padded_mitten"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Itemless
+				troop="mp_shock_infantry_empire"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_skirmisher_empire"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_infantry_vlandia"
+				slot="Gloves" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_guarded_padded_vambrace"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_leather_gloves" />
+			<Item
+				id="mp_eastern_plated_leather_vambraces" />
+			<Itemless
+				troop="mp_heavy_infantry_khuzait"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_shock_infantry_empire"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_cavalry_vlandia"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_ranged_vlandia"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_ranged_empire"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_ranged_aserai"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_infantry_aserai"
+				slot="Gloves" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_mail_mitten"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_leather_gloves" />
+			<Item
+				id="mp_padded_mitten" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_reinforced_padded_mitten"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Itemless
+				troop="mp_shock_infantry_empire"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_cavalry_vlandia"
+				slot="Gloves" />
+			<Item
+				id="mp_padded_mitten" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_lamellar_plate_gauntlets"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_reinforced_leather_vambraces" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_decorated_imperial_gauntlets"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_reinforced_leather_vambraces" />
+			<Item
+				id="mp_lamellar_plate_gauntlets" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_northern_brass_bracers"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Itemless
+				troop="mp_light_cavalry_sturgia"
+				slot="Gloves" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_plated_strip_gauntlets"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_reinforced_leather_vambraces" />
+			<Item
+				id="mp_lamellar_plate_gauntlets" />
+			<Item
+				id="mp_studded_leather_vambraces" />
+			<Item
+				id="mp_northern_brass_bracers" />
+			<Item
+				id="mp_eastern_plated_leather_vambraces" />
+			<Itemless
+				troop="mp_shock_infantry_aserai"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_cavalry_sturgia"
+				slot="Gloves" />
+		</Replace>
+	</Cosmetic>
+	<!-- Empire Leg Armors -->
+	<Cosmetic
+		type="Clothing"
+		id="mp_fine_town_boots"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_empire_horseman_boots" />
+			<Item
+				id="mp_leather_cavalier_boots" />
+			<Item
+				id="mp_steppe_leather_boots" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_empire_horseman_boots"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_leather_cavalier_boots" />
+			<Item
+				id="mp_steppe_leather_boots" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_folded_town_boots"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_empire_horseman_boots" />
+			<Item
+				id="mp_leather_cavalier_boots" />
+			<Item
+				id="mp_steppe_leather_boots" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_plated_strip_boots"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_leather_cavalier_boots" />
+			<Item
+				id="mp_decorated_imperial_boots" />
+			<Item
+				id="mp_lamellar_plate_boots" />
+			<Item
+				id="mp_wrapped_shoes" />
+			<Item
+				id="mp_steppe_leather_boots" />
+			<Item
+				id="mp_battania_leather_boots" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_decorated_imperial_boots"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_lamellar_plate_boots" />
+			<Item
+				id="mp_fine_town_boots" />
+			<Item
+				id="mp_mail_chausses" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_lamellar_plate_boots"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_mail_chausses" />
+		</Replace>
+	</Cosmetic>
+	<!-- Aserai Body Armors -->
+	<Cosmetic
+		type="Clothing"
+		id="mp_aserai_scale_armor_on_cloth"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_eastern_plated_leather" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_aserai_civil_a"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_aserai_civil_e" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_aserai_civil_c"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_aserai_civil_b" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_aserai_civil_d"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_aserai_civil_b" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_aserai_archer_armor"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_southern_lamellar_armor" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_aserai_armor_02"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_southern_lamellar_armor" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_aserai_armor_02_b"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_southern_lamellar_armor" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_brass_lamellar_over_mail"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_eastern_lamellar_armor" />
+			<Item
+				id="mp_southern_lamellar_armor" />
+			<Item
+				id="mp_stitched_leather_over_mail" />
+			<Item
+				id="mp_khuzait_sturdy_armor" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_desert_padded_cloth"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_aserai_civil_e" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_eastern_silk_clothing"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_tassled_southern_robes" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_crude_leather_armor"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_tassled_southern_robes" />
+			<Item
+				id="mp_khuzait_belt_leather" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_leather_strips_over_padded_robe"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_long_padded_robe" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_ringed_desert_armor"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_aserai_robe_c_chain" />
+			<Item
+				id="mp_eastern_plated_leather" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_aserai_robe_c_chain"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_eastern_plated_leather" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_aserai_horseman_armor"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_eastern_plated_leather" />
+		</Replace>
+	</Cosmetic>
+	<!-- Aserai Head Armors-->
+	<Cosmetic
+		type="Clothing"
+		id="mp_aserai_civil_d_hscarf"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_desert_cap" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_tight_head_scarf"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_aserai_civil_hscarf_b" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_emirs_helmet"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_desert_mail_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_aserai_crown"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_desert_mail_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_closed_desert_helmet_with_mail"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_desert_mail_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_aserai_civil_c_head"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_aserai_civil_hscarf_a" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_desert_helmet"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_aserai_civil_hscarf_a" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_loose_wrapped_desert_helmet"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_open_desert_helmet" />
+			<Item
+				id="mp_aserai_civil_hscarf_a" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_open_desert_helmet"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_aserai_civil_hscarf_a" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_closed_desert_helmet"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_open_desert_helmet" />
+			<Item
+				id="mp_aserai_civil_hscarf_a" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_open_head_scarf"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_aserai_civil_e_hscarf" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_southern_lord_helmet"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_southern_noble_helmet" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_pointed_skullcap_over_laced_coif"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_desert_mail_coif" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_aserai_battle_crown"
+		rarity="Unique"
+		cost="1500">
+		<Replace>
+			<Item
+				id="mp_aserai_lord_helmet_a" />
+		</Replace>
+	</Cosmetic>
+	<!-- Aserai Shoulder Armors -->
+	<Cosmetic
+		type="Clothing"
+		id="mp_desert_scale_shoulders"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_brass_scale_shoulders" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_a_aserai_scale_b_shoulder_d"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_aserai_horseman_shoulder" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_a_battania_cloak_a"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Itemless
+				troop="mp_light_ranged_aserai"
+				slot="Cape" />
+			<Item
+				id="mp_empire_warrior_padded_armor_shoulder" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_leopard_pelt"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Itemless
+				troop="mp_desert_leather_shoulderpad"
+				slot="Cape" />
+		</Replace>
+	</Cosmetic>
+	<!-- Aserai Hand Armors -->
+	<Cosmetic
+		type="Clothing"
+		id="mp_buttoned_leather_bracers"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Itemless
+				troop="mp_skirmisher_aserai"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_ranged_aserai"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_infantry_aserai"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_ranged_sturgia"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_infantry_khuzait"
+				slot="Gloves" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_strapped_leather_bracers"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Itemless
+				troop="mp_skirmisher_aserai"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_ranged_aserai"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_infantry_sturgia"
+				slot="Gloves" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_woven_leather_bracers"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_studded_leather_vambraces" />
+			<Itemless
+				troop="mp_light_cavalry_aserai"
+				slot="Gloves" />
+		</Replace>
+	</Cosmetic>
+	<!-- Aserai Leg Armors -->
+	<Cosmetic
+		type="Clothing"
+		id="mp_mail_chausses"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_plated_strip_boots" />
+			<Item
+				id="mp_leather_cavalier_boots" />
+			<Item
+				id="mp_fine_town_boots" />
+			<Item
+				id="mp_mail_cavalier_boots" />
+		</Replace>
+	</Cosmetic>
+	<!-- Khuzait Body Armors -->
+	<Cosmetic
+		type="Clothing"
+		id="mp_khuzait_leather_stitched"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_khuzait_civil_coat_b" />
+		</Replace>
+	</Cosmetic>
+	<!-- TeamColor göstermiyor yok -->
+	<!--<Cosmetic type="Clothing" id="mp_belted_leather_cuirass" rarity="Rare" cost="750">
+    <Replace>
+      <Item id="mp_khuzait_civil_coat_b" />
+      <Item id="mp_khuzait_leather_stitched" />
+    </Replace>
+  </Cosmetic>-->
+	<Cosmetic
+		type="Clothing"
+		id="mp_eastern_lamellar_armor"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_khuzait_sturdy_armor" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_eastern_stitched_leather_coat"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_khuzait_fortified_armor" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_eastern_plated_leather"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_eastern_stitched_leather_coat" />
+			<Item
+				id="mp_khuzait_fortified_armor" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_eastern_plated_leather_vest"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_eastern_stitched_leather_coat" />
+			<Item
+				id="mp_khuzait_fortified_armor" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_khuzait_lamellar_strapped"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_khuzait_sturdy_armor" />
+			<Item
+				id="mp_khuzait_belt_leather" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_studded_leather_over_aketon"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_eastern_stitched_leather_coat" />
+			<Item
+				id="mp_khuzait_fortified_armor" />
+			<Item
+				id="mp_layered_leather_tunic" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_studded_steppe_leather"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_steppe_armor" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_khuzait_fortified_armor"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_leather_lamellar_armor" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_khuzait_sturdy_armor"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_leather_lamellar_armor" />
+			<Item
+				id="mp_khuzait_belt_leather" />
+		</Replace>
+	</Cosmetic>
+	<!-- Khuzait Head Armors-->
+	<Cosmetic
+		type="Clothing"
+		id="mp_plumed_lamellar_helmet"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_steppe_helmet" />
+			<Item
+				id="mp_nomad_helmet" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_plumed_nomad_helmet"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_steppe_helmet" />
+			<Item
+				id="mp_nomad_helmet" />
+			<Item
+				id="mp_plumed_lamellar_helmet" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_fur_hat"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_eastern_cap" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_decorated_nomad_cap"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_eastern_cap" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_fur_hood"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_eastern_cap" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_khuzait_noble_helmet_with_feathers"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_khuzait_noble_helmet_with_neckguard" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_khuzait_battle_crown"
+		rarity="Unique"
+		cost="1500">
+		<Replace>
+			<Item
+				id="mp_khuzait_noble_helmet_with_neckguard" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_khuzait_noble_helmet_with_fur"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_khuzait_noble_helmet_with_neckguard" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_peaked_fur_hood"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_eastern_cap" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_plumed_fur_lined_helmet"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_nomad_padded_hood" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_upturned_fur_cap"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_nomad_padded_hood" />
+		</Replace>
+	</Cosmetic>
+	<!-- Khuzait Shoulder Armors -->
+	<Cosmetic
+		type="Clothing"
+		id="mp_eastern_studded_shoulders"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_leather_lamellar_shoulders" />
+			<Item
+				id="mp_desert_leather_shoulderpad" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_khuzait_leather_pauldron"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_eastern_studded_shoulders" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_reinforced_suede_shoulders"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_eastern_studded_shoulders" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_steppe_leather_shoulders"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_eastern_studded_shoulders" />
+		</Replace>
+	</Cosmetic>
+	<!--<Cosmetic type="Clothing" id="mp_lamellar_shoulders" rarity="Rare" cost="500">
+    <Replace>
+      <Itemless troop="mp_heavy_ranged_khuzait" slot="Shoulder" /> 
+    </Replace>
+  </Cosmetic>-->
+	<Cosmetic
+		type="Clothing"
+		id="mp_brass_lamellar_shoulder"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_lamellar_shoulders" />
+			<Itemless
+				troop="mp_heavy_cavalry_aserai"
+				slot="Cape" />
+		</Replace>
+	</Cosmetic>
+	<!-- Khuzait Hand Armors -->
+	<Cosmetic
+		type="Clothing"
+		id="mp_eastern_plated_leather_vambraces"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_buttoned_leather_bracers" />
+			<Itemless
+				troop="mp_heavy_infantry_khuzait"
+				slot="Gloves" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_eastern_wrapped_armguards"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_buttoned_leather_bracers" />
+			<Itemless
+				troop="mp_light_infantry_khuzait"
+				slot="Gloves" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_steppe_leather_vambraces"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_buttoned_leather_bracers" />
+			<Item
+				id="mp_eastern_plated_leather_vambraces" />
+			<Itemless
+				troop="mp_heavy_infantry_khuzait"
+				slot="Gloves" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_studded_leather_vambraces"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_buttoned_leather_bracers" />
+			<Itemless
+				troop="mp_light_cavalry_aserai"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_cavalry_sturgia"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_heavy_infantry_khuzait"
+				slot="Gloves" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_studded_vambraces"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_buttoned_leather_bracers" />
+			<Itemless
+				troop="mp_light_infantry_khuzait"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_heavy_infantry_khuzait"
+				slot="Gloves" />
+		</Replace>
+	</Cosmetic>
+	<!-- Khuzait Leg Armors -->
+	<Cosmetic
+		type="Clothing"
+		id="mp_woven_leather_boots"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_steppe_leather_boots" />
+			<Item
+				id="mp_khuzait_curved_boots" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_eastern_leather_boots"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_steppe_leather_boots" />
+			<Item
+				id="mp_leather_cavalier_boots" />
+			<Item
+				id="mp_khuzait_curved_boots" />
+			<Item
+				id="mp_woven_leather_boots" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_khuzait_curved_boots"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_eastern_leather_boots" />
+			<Item
+				id="mp_steppe_leather_boots" />
+			<Item
+				id="mp_leather_cavalier_boots" />
+			<Item
+				id="mp_woven_leather_boots" />
+			<Item
+				id="mp_leather_boots" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_leather_boots"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_eastern_leather_boots" />
+			<Item
+				id="mp_steppe_leather_boots" />
+			<Item
+				id="mp_leather_cavalier_boots" />
+			<Item
+				id="mp_khuzait_curved_boots" />
+			<Item
+				id="mp_woven_leather_boots" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_steppe_leather_boots"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_eastern_leather_boots" />
+			<Item
+				id="mp_leather_cavalier_boots" />
+			<Item
+				id="mp_khuzait_curved_boots" />
+			<Item
+				id="mp_woven_leather_boots" />
+		</Replace>
+	</Cosmetic>
+	<!-- Sturgia Body Armors -->
+	<Cosmetic
+		type="Clothing"
+		id="mp_decorated_nordic_hauberk"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_nordic_hauberk" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_heavy_nordic_coat"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_nordic_padded_cloth" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_heavy_nordic_tunic"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_northern_padded_gambeson" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_layered_leather_tunic"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_heavy_nordic_coat" />
+		</Replace>
+	</Cosmetic>
+	<!--TeamColor Flag-->
+	<!--<Cosmetic type="Clothing" id="mp_nordic_tunic" rarity="Rare" cost="500">
+    <Replace>
+      <Item id="mp_heavy_nordic_coat" />
+    </Replace>
+  </Cosmetic>-->
+	<Cosmetic
+		type="Clothing"
+		id="mp_northern_leather_tabard"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_heavy_nordic_coat" />
+			<Item
+				id="mp_northern_lamellar_armor" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_northern_leather_vest"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_battania_civil_b" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_northern_padded_cloth"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_battania_civil_b" />
+			<Item
+				id="mp_nordic_padded_cloth" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_nordic_lamellar_armor"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_northern_lamellar_armor" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_northern_coat_of_plates"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_nordic_hauberk" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_northern_lamellar_armor"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_battania_civil_a" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_sturgian_chainmale_longsleeve"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_nordic_hauberk" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_sturgian_chainmale_shortsleeve"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_nordic_hauberk" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_sturgian_lamellar_base"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_northern_brass_lamellar_over_mail" />
+			<Item
+				id="mp_nordic_lamellar_armor" />
+			<Item
+				id="mp_nordic_hauberk" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_sturgian_lamellar_gambeson"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_northern_brass_lamellar_over_mail" />
+			<Item
+				id="mp_nordic_lamellar_armor" />
+			<Item
+				id="mp_nordic_hauberk" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_sturgian_lamellar_fortified"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_northern_brass_lamellar_over_mail" />
+			<Item
+				id="mp_nordic_hauberk" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_sturgian_lamellar_gambeson_heavy"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_northern_brass_lamellar_over_mail" />
+			<Item
+				id="mp_nordic_hauberk" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_fur_skirt"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_baggy_trunks" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_sleeveless_studded_fur_armor"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_armored_baggy_trunks" />
+			<Item
+				id="mp_battanian_savage_armor" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_sturgia_light_armor_a"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_northern_padded_gambeson" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_sturgia_light_armor_b"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_heavy_nordic_coat" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_sturgia_light_armor_c"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_nordic_padded_cloth" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_sturgia_light_armor_d"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_heavy_nordic_coat" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_sturgia_light_armor_e"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_nordic_padded_cloth" />
+		</Replace>
+	</Cosmetic>
+	<!-- Sturgia Head Armors-->
+	<Cosmetic
+		type="Clothing"
+		id="mp_nordic_fur_cap"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_roughhide_cap" />
+			<Item
+				id="mp_fur_hat" />
+			<Item
+				id="mp_nordic_leather_cap" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_northern_fur_cap"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_roughhide_cap" />
+			<Item
+				id="mp_nordic_leather_cap" />
+			<Item
+				id="mp_nordic_fur_cap" />
+			<Item
+				id="mp_fur_hat" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_roughhide_cap"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Itemless
+				troop="mp_light_ranged_sturgia"
+				slot="Head" />
+			<Item
+				id="mp_fur_hat" />
+			<Item
+				id="mp_nordic_leather_cap" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_nasalhelm_over_leather"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_nordic_fur_cap" />
+			<Item
+				id="mp_roughhide_cap" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_sturgian_helmet_base"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_nordic_fur_cap" />
+			<Item
+				id="mp_nasalhelm_over_leather" />
+			<Item
+				id="mp_nasalhelm_over_mail" />
+			<Item
+				id="mp_roughhide_cap" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_sturgian_helmet_b_open"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_sturgia_heavy_cavalry_helmet" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_goggled_helmet_over_mail"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_sturgia_heavy_cavalry_helmet" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_sturgian_lord_helmet_b"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_sturgia_heavy_cavalry_helmet" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_nordic_helmet"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_sturgia_heavy_cavalry_helmet" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_northern_warlord_helmet"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_sturgia_heavy_cavalry_helmet" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_nasalhelm_over_mail"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_nasalhelm_over_leather" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_sturgian_helmet_b_close"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_sturgia_heavy_cavalry_helmet" />
+			<Item
+				id="mp_eastern_vendel_helmet" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_sturgian_helmet_open"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_nasalhelm_over_leather" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_goggled_helmet_over_full_mail"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_eastern_vendel_helmet" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_lendman_helmet_over_full_mail"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_eastern_vendel_helmet" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_sturgian_helmet_closed"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_eastern_vendel_helmet" />
+		</Replace>
+	</Cosmetic>
+	<!-- Sturgia Shoulder Armors -->
+	<Cosmetic
+		type="Clothing"
+		id="mp_scarf"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_battania_woodland_cloak" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_brass_lamellar_shoulder_white"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_brass_scale_shoulders" />
+			<Item
+				id="mp_lamellar_shoulders" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_wrapped_scarf"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Itemless
+				troop="mp_heavy_cavalry_aserai"
+				slot="Cape" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_wolf_shoulder"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_rough_bearskin" />
+			<Item
+				id="mp_battania_shoulder_strap" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_rough_bearskin"
+		rarity="Rare"
+		cost="500">
+		<Replace>
+			<Item
+				id="mp_battania_shoulder_strap" />
+		</Replace>
+	</Cosmetic>
+	<!-- Sturgia Hand Armors -->
+	<Cosmetic
+		type="Clothing"
+		id="mp_northern_plated_gloves"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_plated_strip_gauntlets" />
+			<Itemless
+				troop="mp_light_cavalry_sturgia"
+				slot="Gloves" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_highland_gloves"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Item
+				id="mp_guarded_armwraps" />
+			<Item
+				id="mp_armwraps" />
+			<Itemless
+				troop="mp_shock_infantry_sturgia"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_infantry_sturgia"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_skirmisher_sturgia"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_infantry_battania"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_skirmisher_battania"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_cavalry_battania"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_ranged_sturgia"
+				slot="Gloves" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_roughtied_leather_bracers"
+		rarity="Common"
+		cost="300">
+		<Replace>
+			<Itemless
+				troop="mp_skirmisher_sturgia"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_infantry_sturgia"
+				slot="Gloves" />
+			<Itemless
+				troop="mp_light_cavalry_sturgia"
+				slot="Gloves" />
+		</Replace>
+	</Cosmetic>
+	<!-- Sturgia Leg Armors -->
+	<Cosmetic
+		type="Clothing"
+		id="mp_northern_plated_boots"
+		rarity="Unique"
+		cost="1000">
+		<Replace>
+			<Item
+				id="mp_plated_strip_boots" />
+			<Item
+				id="mp_battania_leather_boots" />
+		</Replace>
+	</Cosmetic>
+	<Cosmetic
+		type="Clothing"
+		id="mp_strapped_mail_chausses"
+		rarity="Rare"
+		cost="750">
+		<Replace>
+			<Item
+				id="mp_plated_strip_boots" />
+			<Item
+				id="mp_leather_cavalier_boots" />
+			<Item
+				id="mp_mail_chausses" />
+			<Item
+				id="mp_mail_cavalier_boots" />
+		</Replace>
+	</Cosmetic>
+	<!-- Sigils -->
+	<Cosmetic
+		type="Sigil"
+		id="sigil_158"
+		rarity="Common"
+		cost="0"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.158.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_100"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.100.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_101"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.101.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_102"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.102.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_103"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.103.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_104"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.104.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_105"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.105.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_106"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.106.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_107"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.107.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_108"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.108.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_109"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.109.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_110"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.110.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_111"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.111.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_112"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.112.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_113"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.113.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_114"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.114.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_115"
+		rarity="Common"
+		cost="0"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.115.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_116"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.116.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_117"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.117.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_118"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.118.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_119"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.119.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_120"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.120.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_121"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.121.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_122"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.122.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_123"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.123.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_124"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.124.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_125"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.125.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_126"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.126.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_127"
+		rarity="Common"
+		cost="0"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.127.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_128"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.128.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_129"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.129.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_130"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.130.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_131"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.131.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_132"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.132.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_133"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.133.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_134"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.134.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_135"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.135.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_136"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.136.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_137"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.137.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_138"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.138.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_139"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.139.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_140"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.140.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_141"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.141.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_142"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.142.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_143"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.143.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_144"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.144.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_145"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.145.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_146"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.146.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_147"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.147.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_148"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.148.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_149"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.149.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_150"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.150.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_151"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.151.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_152"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.152.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_153"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.153.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_154"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.154.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_155"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.155.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_156"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.156.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_157"
+		rarity="Common"
+		cost="0"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.157.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_159"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.159.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_200"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.200.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_201"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.201.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_202"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.202.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_203"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.203.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_204"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.204.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_205"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.205.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_206"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.206.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_207"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.207.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_208"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.208.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_209"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.209.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_210"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.210.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_211"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.211.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_212"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.212.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_213"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.213.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_214"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.214.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_215"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.215.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_216"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.216.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_217"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.217.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_218"
+		rarity="Common"
+		cost="0"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.218.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_219"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.219.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_220"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.220.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_221"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.221.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_222"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.222.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_223"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.223.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_300"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.300.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_301"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.301.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_302"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.302.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_303"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.303.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_304"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.304.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_305"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.305.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_306"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.306.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_307"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.307.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_308"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.308.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_309"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.309.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_310"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.310.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_311"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.311.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_312"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.312.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_313"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.313.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_314"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.314.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_315"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.315.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_316"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.316.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_317"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.317.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_318"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.318.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_319"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.319.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_320"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.320.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_321"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.321.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_322"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.322.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_323"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.323.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_324"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.324.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_325"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.325.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_326"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.326.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_327"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.327.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_328"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.328.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_329"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.329.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_330"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.330.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_331"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.331.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_332"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.332.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_333"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.333.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_334"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.334.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_335"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.335.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_336"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.336.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_337"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.337.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_338"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.338.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_339"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.339.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_340"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.340.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_341"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.341.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_342"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.342.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_343"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.343.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_344"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.344.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_345"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.345.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_346"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.346.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_347"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.347.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_400"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.400.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_401"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.401.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_402"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.402.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_403"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.403.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_404"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.404.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_405"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.405.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_406"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.406.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_407"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.407.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_408"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.408.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_409"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.409.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_410"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.410.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_411"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.411.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_412"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.412.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_413"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.413.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_414"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.414.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_415"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.415.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_416"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.416.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_417"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.417.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_418"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.418.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_419"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.419.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_421"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.421.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_422"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.422.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_423"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.423.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_424"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.424.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_425"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.425.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_426"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.426.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_427"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.427.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_428"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.428.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_429"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.429.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_430"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.430.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_431"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.431.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_432"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.432.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_433"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.433.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_434"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.434.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_435"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.435.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_436"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.436.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_437"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.437.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_438"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.438.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_439"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.439.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_440"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.440.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_441"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.441.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_442"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.442.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_443"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.443.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_444"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.444.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_445"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.445.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_446"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.446.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_447"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.447.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_448"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.448.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_449"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.449.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_450"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.450.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_451"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.451.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_452"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.452.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_453"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.453.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_454"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.454.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_455"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.455.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_456"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.456.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_457"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.457.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_458"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.458.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_459"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.459.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_500"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.500.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_501"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.501.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_502"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.502.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_503"
+		rarity="Common"
+		cost="0"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.503.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_504"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.504.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_505"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.505.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_506"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.506.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_507"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.507.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_508"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.508.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_509"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.509.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_510"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.510.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_511"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.511.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_512"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.512.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_513"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.513.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_514"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.514.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_515"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.515.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_516"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.516.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_517"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.517.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_518"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.518.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_519"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.519.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_520"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.520.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_521"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.521.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_522"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.522.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_523"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.523.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_524"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.524.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_525"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.525.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_526"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.526.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_527"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.527.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_528"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.528.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_529"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.529.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_530"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.530.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_531"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.531.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_532"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.532.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_533"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.533.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_534"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.534.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Sigil"
+		id="sigil_535"
+		rarity="Common"
+		cost="100"
+		banner_code="11.45.122.4345.4345.768.768.1.0.0.535.0.1.512.512.769.764.1.0.0" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_01"
+		rarity="Common"
+		cost="500"
+		name="{=*}Afraid" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_02"
+		rarity="Common"
+		cost="500"
+		name="{=*}Bow" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_03"
+		rarity="Common"
+		cost="500"
+		name="{=*}Break" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_04"
+		rarity="Common"
+		cost="500"
+		name="{=*}Disappoint" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_05"
+		rarity="Common"
+		cost="500"
+		name="{=*}Disappoint02" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_06"
+		rarity="Rare"
+		cost="750"
+		name="{=*}Disappoint03" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_07"
+		rarity="Unique"
+		cost="1000"
+		name="{=*}Disappont04" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_08"
+		rarity="Rare"
+		cost="750"
+		name="{=*}Shield Hit" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_09"
+		rarity="Rare"
+		cost="750"
+		name="{=*}Shield Hit02" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_10"
+		rarity="Rare"
+		cost="750"
+		name="{=*}Invite" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_11"
+		rarity="Common"
+		cost="0"
+		name="{=*}Invite02" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_12"
+		rarity="Common"
+		cost="500"
+		name="{=*}Invite03" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_13"
+		rarity="Common"
+		cost="500"
+		name="{=*}Invite04" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_14"
+		rarity="Unique"
+		cost="1000"
+		name="{=*}Invite05" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_15"
+		rarity="Common"
+		cost="500"
+		name="{=*}Laugh" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_16"
+		rarity="Common"
+		cost="500"
+		name="{=*}Laugh02" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_17"
+		rarity="Common"
+		cost="0"
+		name="{=*}Point" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_18"
+		rarity="Unique"
+		cost="1000"
+		name="{=*}Rage" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_19"
+		rarity="Unique"
+		cost="1000"
+		name="{=*}Rage02" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_20"
+		rarity="Common"
+		cost="0"
+		name="{=*}Respect" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_21"
+		rarity="Rare"
+		cost="750"
+		name="{=*}Scared" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_22"
+		rarity="Rare"
+		cost="750"
+		name="{=*}Scared02" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_23"
+		rarity="Common"
+		cost="500"
+		name="{=*}Search Opponent" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_24"
+		rarity="Rare"
+		cost="750"
+		name="{=*}Search Opponent02" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_25"
+		rarity="Rare"
+		cost="750"
+		name="{=*}Smash" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_26"
+		rarity="Common"
+		cost="500"
+		name="{=*}Surrender" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_27"
+		rarity="Rare"
+		cost="750"
+		name="{=*}Surrender02" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_28"
+		rarity="Rare"
+		cost="750"
+		name="{=*}Surrender03" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_29"
+		rarity="Rare"
+		cost="750"
+		name="{=*}Threat" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_30"
+		rarity="Rare"
+		cost="750"
+		name="{=*}Threat02" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_31"
+		rarity="Unique"
+		cost="1000"
+		name="{=*}Threat03" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_32"
+		rarity="Common"
+		cost="500"
+		name="{=*}Disappoint05" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_33"
+		rarity="Common"
+		cost="0"
+		name="{=*}Cheer 1" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_34"
+		rarity="Common"
+		cost="0"
+		name="{=*}Cheer 2" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_35"
+		rarity="Common"
+		cost="0"
+		name="{=*}Cheer 3" />
+	<Cosmetic
+		type="Taunt"
+		id="taunt_36"
+		rarity="Common"
+		cost="0"
+		name="{=*}Cheer 4" />
+</Cosmetics>

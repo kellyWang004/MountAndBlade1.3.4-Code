@@ -1,0 +1,381 @@
+<Brushes>
+  <Brush Name="Background.Layer.Card">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="General\CharacterCreation\facegen_card" HueFactor="15" SaturationFactor="-50" ExtendLeft="10" ExtendRight="10" ExtendTop="10" ExtendBottom="10" />
+      <BrushLayer Name="Selected" Sprite="General\CharacterCreation\facegen_card_selected" HueFactor="15" SaturationFactor="-50" ExtendLeft="17" ExtendRight="17" ExtendTop="17" ExtendBottom="17" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="1" />
+        <BrushLayer Name="Selected" IsHidden="true" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="2" />
+        <BrushLayer Name="Selected" IsHidden="true" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.8" />
+        <BrushLayer Name="Selected" IsHidden="true" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" IsHidden="true" />
+        <BrushLayer Name="Selected" ColorFactor="1.8" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.5" />
+        <BrushLayer Name="Selected" IsHidden="true" />
+      </Style>
+    </Styles>
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="checkbox" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="Collapsible.ButtonBrush" TransitionDuration="0.1" >
+    <Layers>
+      <BrushLayer Name="Default" Sprite="banner_editor_collapsible_expanded_9" OverlayMethod="CoverWithTexture" OverlaySprite="stone_texture_continuous" UseOverlayAlphaAsMask="false"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" Sprite="banner_editor_collapsible_expanded_9" ColorFactor="1.2"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" Sprite="banner_editor_collapsible_expanded_9" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" Sprite="banner_editor_collapsible_pressed_9" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" Sprite="banner_editor_collapsible_collapsed_9" ColorFactor="0.9" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" Sprite="banner_editor_collapsible_collapsed_9" SaturationFactor="-50" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="BannerBuilder.DeleteLayer.Button">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="General\MenuElements\delete_icon" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.6" SaturationFactor="-80" ValueFactor="-20" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="BannerBuilder.AddLayer.Button">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\plus_button" Color="#FFFFFFFF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#FAF4DEFF" TextOutlineColor="#FAF4DEFF">
+        <BrushLayer Name="Default" ColorFactor="1.0" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1.5" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.85" />
+      </Style>
+      <Style Name="Disabled" FontColor="#FAF4DE77" TextOutlineColor="#FAF4DE55">
+        <BrushLayer Name="Default" ColorFactor="0.2" />
+      </Style>
+      <Style Name="Selected" FontColor="#0099FFFF" TextOutlineColor="#FAF4DE55">
+        <BrushLayer Name="Default" ColorFactor="2.0" Color="#0099FFFF" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="BannerBuilder.LayerValue.Frame">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="frame_small_9" ExtendTop="8" ExtendBottom="8" ExtendLeft="8" ExtendRight="8"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.7" ColorFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.9" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.5" ColorFactor="0.7" />
+      </Style>
+    </Styles>
+  </Brush>
+  
+  <Brush Name="Layer.Option.DrawStroke">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BannerBuilder\draw_stroke" Color="#fec157ff"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="1" ColorFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="1" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1.2" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.5" ColorFactor="0.7" />
+      </Style>
+    </Styles>
+  </Brush>
+  
+  <Brush Name="Layer.Option.Mirror">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BannerBuilder\flip_horizontal" Color="#fec157ff"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="1" ColorFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="1" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1.2" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.5" ColorFactor="0.7" />
+      </Style>
+    </Styles>
+  </Brush>
+  
+  <Brush Name="Layer.Option.AlignCenter">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BannerBuilder\align_center" Color="#e2a55cff"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="1" ColorFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="1" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1.2" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.5" ColorFactor="0.7" />
+      </Style>
+    </Styles>
+  </Brush>
+  
+  <Brush Name="Layer.Option.ResetSize">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BannerBuilder\reset_all" Color="#e2a55cff"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="1" ColorFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="1" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1.2" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.5" ColorFactor="0.7" />
+      </Style>
+    </Styles>
+  </Brush>
+  
+  <Brush Name="Panel.Toggler.Transform">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BannerBuilder\transform" Color="#c09a56ff"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="1" ColorFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="1" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1.2" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.5" ColorFactor="0.7" />
+      </Style>
+    </Styles>
+  </Brush>
+  
+  <Brush Name="Panel.Toggler.Layers">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BannerBuilder\layers" Color="#c09a56ff"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="1" ColorFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="1" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1.2" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.5" ColorFactor="0.7" />
+      </Style>
+    </Styles>
+  </Brush>
+  
+  <Brush Name="Panel.Toggler.Hide.Banners">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BannerBuilder\banner_hide" Color="#fec157ff" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default" >
+        <BrushLayer Name="Default" Sprite="BannerBuilder\banner_hide" AlphaFactor="1" ColorFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="1" ColorFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.6" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" Sprite="BannerBuilder\banner_hide" AlphaFactor="0.7" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.5" ColorFactor="0.7" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+  
+  <Brush Name="Panel.Toggler.Show.Banners">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BannerBuilder\banner_show" Color="#fec157ff" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default" >
+        <BrushLayer Name="Default" Sprite="BannerBuilder\banner_show" AlphaFactor="1" ColorFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="1" ColorFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.6" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" Sprite="BannerBuilder\banner_show" AlphaFactor="0.7" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.5" ColorFactor="0.7" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+  
+  <Brush Name="Copy.Banner.Code.Button">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="General\Icons\copy_item_icon" Color="#fec157ff" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default" >
+        <BrushLayer Name="Default" AlphaFactor="0.7" ColorFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="1" ColorFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.6" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.5" ColorFactor="0.7" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="BannerBuilder.Category.CollapseIndicator" GlobalAlphaFactor="0.8" ColorFactor="1.5">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\collapsed" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+      <Style Name="Collapsed">
+        <BrushLayer Name="Default" Sprite="StdAssets\collapsed" />
+      </Style>
+      <Style Name="Expanded">
+        <BrushLayer Name="Default" Sprite="StdAssets\expanded" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="BannerBuilder.Agent.Banner">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BlankWhiteCircle" Color="#7e7e7eff"/>
+    </Layers>
+  </Brush>
+
+  <Brush Name="BannerBuilder.LayerProperties.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Left" TextVerticalAlignment="Center" >
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" FontSize="18" TextBlur="0" TextGlowRadius="0" TextOutlineAmount="0" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="BannerBuilder.BannerCode.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center" >
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" FontSize="18" TextBlur="0" TextGlowRadius="0" TextOutlineAmount="0" />
+    </Styles>
+  </Brush>
+  
+  <Brush Name="BannerBuilder.Collapsible.Text" Font="Galahad" TextHorizontalAlignment="Center" TextVerticalAlignment="Center" >
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" TextColorFactor="1.1" FontSize="28" TextBlur="0" TextGlowRadius="0" TextOutlineAmount="0" />
+      <Style Name="Hovered" FontColor="#F4E1C4FF" TextColorFactor="1" FontSize="28" TextBlur="0" TextGlowRadius="0" TextOutlineAmount="0" />
+      <Style Name="Pressed" FontColor="#F4E1C4FF" TextColorFactor="0.7" FontSize="24" TextBlur="0" TextGlowRadius="0" TextOutlineAmount="0" />
+      <Style Name="Selected" FontColor="#F4E1C4FF" TextColorFactor="0.9" FontSize="28" TextBlur="0" TextGlowRadius="0" TextOutlineAmount="0" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="BannerBuilder.Title.Text" Font="Galahad" TextHorizontalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#f4e1c4ff" TextGlowColor="#000000FF" TextOutlineColor="#000000FF" TextOutlineAmount="0.0" TextGlowRadius="0" TextBlur="0.0" FontSize="42" />
+    </Styles>
+  </Brush>
+</Brushes>

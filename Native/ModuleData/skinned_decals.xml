@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	type="skinned_decals">
+	<skinned_decals>
+		<skinned_decal>
+			<textures>
+				<texture
+					type="DiffuseMap"
+					name="blood_trail_decal_d" />
+				<texture
+					type="NormalMap"
+					name="blood_trail_decal_n" />
+				<texture
+					type="SpecularMap"
+					name="blood_trail_decal_s" />
+			</textures>
+			<materials>
+				<material
+					enum="material_00"
+					name="blood0" />
+				<material
+					enum="material_01"
+					name="blood1" />
+				<material
+					enum="material_02"
+					name="blood2" />
+				<material
+					enum="material_03"
+					name="blood3" />
+				<material
+					enum="material_10"
+					name="blood4" />
+				<material
+					enum="material_11"
+					name="blood5" />
+				<material
+					enum="material_12"
+					name="blood6" />
+				<material
+					enum="material_13"
+					name="blood7" />
+				<material
+					enum="material_10"
+					name="blood8" />
+				<material
+					enum="material_21"
+					name="blood9" />
+				<material
+					enum="material_22"
+					name="blood10" />
+				<material
+					enum="material_23"
+					name="blood11" />
+				<material
+					enum="material_30"
+					name="blood12" />
+				<material
+					enum="material_31"
+					name="blood13" />
+				<material
+					enum="material_32"
+					name="blood14" />
+				<material
+					enum="material_33"
+					name="blood15" />
+			</materials>
+		</skinned_decal>
+	</skinned_decals>
+</base>

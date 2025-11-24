@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Português (BR)" />
+  </tags>
+  <strings>
+    <string id="03G5GPec" text="Comboios possuídos: {CARAVAN_COUNT}" />
+    <string id="05fdfc6e238429753ef282f2ce97c1f8" text="Quantidade: " />
+    <string id="08abd5af7774d311cadc3ed900b47754" text="Tipo: " />
+    <string id="0mqdFC2x" text="Arma fabricada!" />
+    <string id="0Q4Xo2BQ" text="Selecione o líder do novo grupo" />
+    <string id="0rmpC7jf" text="A guarnição está faminta." />
+    <string id="0TauthlH" text="Nunca ({PERCENTAGE}%)" />
+    <string id="13wo3QQB" text="Secundário" />
+    <string id="154a34f8caccfc833238cc89d38861e8" text="Requer: " />
+    <string id="1CXlqb2U" text="Pegar:" />
+    <string id="1l4kpBDK" text="Falha ao aplicar mudanças" />
+    <string id="1UbocG5B" text="Renuncie aos seus direitos e responsabilidades em relação a esse feudo devolvendo-o ao reino." />
+    <string id="1xf8rHLH" text="Você não tem prisioneiros que possam ser recrutados." />
+    <string id="2abtb4xu" text="Independente" />
+    <string id="2ckyCKR7" text="Reserva" />
+    <string id="2Cq3tViJ" text="Limite de Tamanho de Tropas no Grupo" />
+    <string id="2GWR9Cba" text="Lares" />
+    <string id="2Hbr4TEj" text="O nome do item não pode começar nem terminar com espaço em branco." />
+    <string id="2lFwF07j" text="Mudar Nome" />
+    <string id="2maftPJP" text="Designar como Líder do Clã &amp; da Facção" />
+    <string id="2nN1QuxZ" text="Esta missão fracassará se não for cumprida dentro do prazo." />
+    <string id="3025020b83b218707499f0de3135ed0a" text="Manobra: " />
+    <string id="305cf7f98458b22e9af72b60a131714f" text="Armadura de Cavalo: " />
+    <string id="345a87fcc69f626ae3916939ef2fc135" text="Velocidade de Golpe: " />
+    <string id="3F0y3ugx" text="Sucesso!" />
+    <string id="3sxtCWPe" text="Saindo do Reino" />
+    <string id="43HYUImy" text="Cerco {#GENDER(SETTLEMENT)}ao {#}à {#}aos {#}às {#}a {\#}{SETTLEMENT}" />
+    <string id="4U9EnZt5" text="Sucesso Crítico!" />
+    <string id="4uMWNDoi" text="Velocidade de Estocada" />
+    <string id="4vPm9bFW" text="Esta oferta de aliança não é mais relevante." />
+    <string id="4vZLpzPi" text="+1 de Renome/dia" />
+    <string id="4Y8u4JKO" text="Você não pode sair do reino enquanto faz parte de um exército" />
+    <string id="5dec16fa0be433ade3c4cb0074ef366d" text="Precisão: " />
+    <string id="5dkPxmZG" text="Salários da Guarnição" />
+    <string id="5fa36d2798479803b4518a64beb4d732" text="Comprimento da Arma: " />
+    <string id="63Ic1Ahe" text="Custo: {UPGRADE_COST} (Você não tem)" />
+    <string id="68IlDbA2" text="Você precisa ter a vantagem {PERK_NAME} para aprimorar uma tropa bandida para tropa normal." />
+    <string id="6adabc1f82216992571c3e22abc164d7" text="Limite de Munição: " />
+    <string id="6ayEZQE1" text="Expira em {DAYS} {?DAYS &gt; 1}dias{?}dia{\?}." />
+    <string id="6DuCoCc2" text="É preciso confirmar suas mudanças para entrar em uma conversa." />
+    <string id="74dc1908cb0b990e80fb977b5a0ef10d" text="Velocidade: " />
+    <string id="7dXs9c2b" text="Capacidade no Mar Excedida" />
+    <string id="7l0LGKRk" text="Data de início" />
+    <string id="7tBOCHm6" text="Cor do Selo:" />
+    <string id="7tKjfMSb" text="Becos" />
+    <string id="84oSzquz" text="Fuga recente do cativeiro" />
+    <string id="88WPmTKH" text="Receber Material do Armazém" />
+    <string id="8BJDQe6o" text="Prisioneiros capturados {#GENDER(FACTION)}pelo {#}pela {#}pelos {#}pelas {#}por {\#}{FACTION}" />
+    <string id="8BlMRMiR" text="Categoria do Cavalo" />
+    <string id="8cad4a279770f269c4bb0dc7a357ee1e" text="Classe: " />
+    <string id="8d23bRmv" text="Peso em Terra" />
+    <string id="8fqFGxD9" text="Aperte {KEY} para comparar com: {ITEM}" />
+    <string id="8Jy9DnKk" text="Ligado {#GENDER(PARTY_NAME)}ao {#}à {#}aos {#}às {#}a {\#}{PARTY_NAME}" />
+    <string id="8lCWWK9G" text="Vantagens de Ferraria" />
+    <string id="8N1EdPB3" text="Você ganhará {GOLD}{GOLD_ICON}" />
+    <string id="8qbkS5D2" text="Progresso da Guerra" />
+    <string id="8szijlHj" text="Dificuldade da Solicitação: {DIFFICULTY}" />
+    <string id="8xKky9ja" text="Este item não pode ser comercializado ou descartado" />
+    <string id="94aHU6nD" text="Construção" />
+    <string id="9FJi2SaE" text="Função no Grupo" />
+    <string id="9i0wnjJK" text="L-II: {BONUS}" />
+    <string id="9sxECG6e" text="Tipo de Montaria: " />
+    <string id="9WrJP0hD" text="Transferir Todas as Tropas" />
+    <string id="a241aacb1780599430c79fd9f667b67f" text="Moral do Grupo: " />
+    <string id="a4GDfSel" text="Redefinir tutoriais" />
+    <string id="a4oqWgUi" text="Se não houver matéria-prima no armazém, a oficina compra no mercado até o estoque do armazém ser reposto" />
+    <string id="a8NoW1Q2" text="Quer mesmo cancelar as mudanças?" />
+    <string id="a8nRxITn" text="{?NOTABLE.GENDER}Prisioneira{?}Prisioneiro{\?} {#GENDER(PARTY_NAME)}do {#}da {#}dos {#}das {#}de {\#}{PARTY_NAME}" />
+    <string id="aAqMSU2d" text="Capacidade do Inventário no Mar" />
+    <string id="aFYwbosi" text="Este herói já lidera um grupo." />
+    <string id="aGFxIvqx" text="Abandonar Membro(s)" />
+    <string id="aGJYQOef" text="Mostrar localização do herói no mapa." />
+    <string id="ANV8UV5f" text="Reconvoque este membro para o seu grupo." />
+    <string id="armorTier" text="Categoria da Armadura: " />
+    <string id="aTdrjrEh" text="{SWING_DAMAGE_FACTOR}" />
+    <string id="av51ur2M" text="Você precisa de ao menos {REQUIRED_AMOUNT} denários para mudar o tipo de produção desta oficina." />
+    <string id="aYm5Ehv1" text="Você precisa escolher um item" />
+    <string id="b7muQ9mt" text="Você quer mesmo encerrar seu contrato de mercenário com {#GENDER(KINGDOM_INFORMALNAME)}o {#}a {#}os {#}as {#}{\#} {KINGDOM_INFORMALNAME}?" />
+    <string id="b8CqpGHx" text="Recrutar Prisioneiros" />
+    <string id="bAqDnkaT" text="Velocidade do Projétil" />
+    <string id="BbLTwhsA" text="Desorganização por {REMAINING_TIME}" />
+    <string id="Bcs9s2tC" text="Clique com o botão direito para remover" />
+    <string id="bd7oAQq6" text="Diária" />
+    <string id="bDwTWrru" text="Sem atraso" />
+    <string id="BEXTcJaS" text="Tempo decorrido" />
+    <string id="bfWlTVjs" text="Remover responsável" />
+    <string id="BgqZWbga" text="Os nobres do reino não vão gostar de você abandonar a sua lealdade. Quer mesmo deixar o Reino?" />
+    <string id="BkDycbdq" text="Erro ao exibir a árvore da tropa" />
+    <string id="bPFjmYCI" text="{SHOP_NAME} x {SHOP_DIFFERENCE_COUNT}" />
+    <string id="BqLsZhhr" text="Selecione um item para refinar" />
+    <string id="btoiLePb" text="{HERO} ({PLACE})" />
+    <string id="BV5exuPf" text="Remover dos favoritos" />
+    <string id="C2qpwFq5" text="{?IS_FEMALE}Dono{?}Dona{\?} de {SETTLEMENTS}" />
+    <string id="c5eYzHaM" text="{DAYS} {?DAY_IS_PLURAL}dias{?}dia{\?} ({PERCENTAGE}%)" />
+    <string id="c7638a0869219ae845de0f660fd57a9d" text="Dano de Investida: " />
+    <string id="c9c5dfed2ca6bcb7a73d905004c97b23" text="Dano: " />
+    <string id="C9tKA0ul" text="O nome do personagem não pode ficar vazio" />
+    <string id="ca8b1e8956057b831dfc665f54bae4b0" text="Manuseio: " />
+    <string id="CaRbMaZY" text="Salário Diário" />
+    <string id="cbbUzYX3" text="Dificuldade: {DIFFICULTY}" />
+    <string id="cBqjZjfJ" text="Capacidade do Inventário em Terra" />
+    <string id="cD1HTdYJ" text="Desenvolvimento já ativo" />
+    <string id="cDkHJOkl" text="É preciso estar no campo de visão, controlar o povoamento com seu reino ou ter um membro do clã no povoamento para ver os detalhes." />
+    <string id="cedvCZ73" text="Nenhuma cidade possuída {#GENDER(FACTION)}pelo {#}pela {#}pelos {#}pelas {#}por {\#}{FACTION}" />
+    <string id="CExQ40Ux" text="{PARTY_1S_MEMBERS}   " />
+    <string id="cf61cce254c7dca65be9bebac7fb9bf5" text="Armadura de Braço: " />
+    <string id="CGVK6l8I" text="Benefícios de Campeão" />
+    <string id="CK68QXen" text="Nenhum prisioneiro capturado {#GENDER(FACTION)}pelo {#}pela {#}pelos {#}pelas {#}por {\#}{FACTION}" />
+    <string id="Ck9HT8fQ" text="Resumo" />
+    <string id="cnmRwV4s" text="Limite de Munição" />
+    <string id="CnsIzaWo" text="Batalha em Campo" />
+    <string id="CRi905Ao" text="No seu grupo" />
+    <string id="cUUI8u2G" text="Vigor do Ferreiro" />
+    <string id="cZCOa00c" text="Apoiadores {SUPPORTER_RANK} ({NUM})" />
+    <string id="d2K6gMsZ" text="Abandonar membros. Requer ao menos 1 companheiro." />
+    <string id="d8jrv3nA" text="Adicionar aos favoritos" />
+    <string id="DAmdTxuC" text="Gerenciamento do Exército" />
+    <string id="DAYoD0aW" text="Criar grupo" />
+    <string id="dbBAJ8yi" text="Você pode mudar o estandarte e o nome do clã mais tarde na tela do clã" />
+    <string id="DbXZjPdf" text="Efeito do estandarte: " />
+    <string id="dD3kRDHi" text="Este herói é um fugitivo que está tentando escapar dos captores. Estará disponível após algum tempo." />
+    <string id="dEMUqz2Y" text="Esta oficina vai mandar 20% dos rendimentos acima dos {INITIAL_CAPITAL} do capital para o seu tesouro" />
+    <string id="DKJIp6xG" text="Efeitos" />
+    <string id="DNq9bdvV" text="{THRUST_DAMAGE_FACTOR}" />
+    <string id="DNXD37JL" text="Dias até a comida acabar no povoamento" />
+    <string id="dO95yR9b" text="Dano de Estocada" />
+    <string id="dOa7frHR" text="Mostrar apenas peças desbloqueadas" />
+    <string id="DRJOxrRF" text="Tropas no Exército" />
+    <string id="dVqowrRz" text=" - {STAT} {REQUIREMENT}" />
+    <string id="dWYm9GsC" text="Requer" />
+    <string id="eHVq6yDa" text="Propriedades do Item" />
+    <string id="eIgC6YGp" text="Tarifas" />
+    <string id="eIGFuGOx" text="Ceder Povoamento" />
+    <string id="EkFDvG7z" text="Estoque de Comida do Povoamento" />
+    <string id="eoVW9z54" text="Moral Médio" />
+    <string id="F0a7hyp0" text="Risco de rebelião" />
+    <string id="f2971dc587a9777223ad2d7be236fb05" text="Rumores Comerciais" />
+    <string id="f4nc7FfE" text="Aprimorar para {UPGRADE_NAME}" />
+    <string id="f90A6PGd" text="Alianças" />
+    <string id="faDegful" text="Remover da fila" />
+    <string id="FBYFcrWo" text="Deixar no povoamento" />
+    <string id="fgyvzyB5" text="Capacidade em Terra Excedida" />
+    <string id="fI7a7RoE" text="Capacidade do Inventário" />
+    <string id="FjJi1DJb" text="Este herói já faz parte de outro grupo." />
+    <string id="flxDkoMh" text="Fase concluída" />
+    <string id="fpE7BQ7f" text="Você não tem tropas que possam ser melhoradas." />
+    <string id="fPoB2u5m" text="O nome do personagem deve ter entre {MIN} e {MAX} caracteres." />
+    <string id="fRz2DJf4" text="Criar um grupo lhe custará {PARTY_COST}{GOLD_ICON}. Tem certeza?" />
+    <string id="FYJC7cDD" text="Característica(s)" />
+    <string id="fz2kQjFS" text="Escolha a cultura da personagem:" />
+    <string id="FzbeSkBb" text="Um dos seus becos perdeu o líder ou está sem tropas. Ele será abandonado após {DAYS} dias. Você pode designar outro membro do clã da tela do clã ou ir até o beco para adicionar mais tropas, se quiser mantê-lo. Tropas restantes no beco serão perdidas quando ele for abandonado." />
+    <string id="g08mptth" text="Mudando para um grupo para ser o novo líder" />
+    <string id="g1op0Thi" text="DESEMBARCANDO" />
+    <string id="G2h0V10w" text="Ceda este povoamento a um clã do seu reino." />
+    <string id="GCaYjA5W" text="Você só pode mudar o nome do clã se for líder dele." />
+    <string id="Gd6zuUwh" text="Construção Livre" />
+    <string id="gduqxfck" text="Você não tem os materiais necessários!" />
+    <string id="Gp2vmZGZ" text="{PERKS}" />
+    <string id="GP3jpU0X" text="A influência é convertida periodicamente em denários para os clãs dos mercenários." />
+    <string id="gTbE6t9I" text="Os seguintes requisitos não foram atendidos:" />
+    <string id="gu5xmV0E" text="Não há {#GENDER(WORKSHOP_NAME)}outro {#}outra {#}outros {#}outras {#}outra {\#}{WORKSHOP_NAME} nesta cidade." />
+    <string id="gUUnZNGk" text="Mudando para {#GENDER(SETTLEMENT_NAME)}o {#}a {#}os {#}as {#}{\#}{SETTLEMENT_NAME} para assumir o governo" />
+    <string id="guxNZZWh" text="Requisitos" />
+    <string id="GwA9oUBC" text="O foco da habilidade determina a velocidade do aumento da sua habilidade com a prática." />
+    <string id="h0xoKxxo" text="O nome do item deve ter entre {MIN} e {MAX} caracteres." />
+    <string id="heroRecovering" text="Recuperando" />
+    <string id="HfsUngkh" text="O recrutamento está inativo no momento." />
+    <string id="HFZdseH9" text="Só o governante do reino pode mudar o nome dele." />
+    <string id="HHTQVp52" text="Taxa de Cura de Heróis" />
+    <string id="HiJTlBgF" text="Vender Oficina" />
+    <string id="hn9TPqhK" text="Categoria da Arma" />
+    <string id="hOVPiG3z" text="Rebelou-se recentemente" />
+    <string id="hr4MuPnt" text="Materiais Necessários" />
+    <string id="hRSezxnT" text="Algumas das suas tropas estão prontas para melhorias." />
+    <string id="HTtWslIx" text="Estoque de Comida do Mercado" />
+    <string id="hwrQqWir" text="Sem habilidades" />
+    <string id="Hz8XO8wk" text="Governadores não podem liderar um grupo móvel e governar ao mesmo tempo." />
+    <string id="I2sZ7K28" text="Quer mesmo redefinir os tutoriais?" />
+    <string id="i9OsCshW" text="Esta decisão do reino não é mais relevante." />
+    <string id="idRXFzQ6" text="Já adicionado ao exército." />
+    <string id="Iefr8Fra" text="Os tutoriais foram redefinidos." />
+    <string id="IgoxNz2H" text="Melhorar Tropas" />
+    <string id="IJdjwXvn" text="Nível Atual: " />
+    <string id="InqmgBiF" text="Equipe Escolhida" />
+    <string id="Ioiqzz4E" text="Você precisa estar em um exército para aumentar a coesão" />
+    <string id="IQY9yykn" text="Itens de Comida" />
+    <string id="IRcy3pWJ" text="O nome não pode ficar vazio" />
+    <string id="iSZTOeYH" text="Nenhum exército para dispersar." />
+    <string id="ITKb4cKv" text="{ITEM_NAME} não é equipável." />
+    <string id="iuKvbKJ7" text="Corrida" />
+    <string id="iZ3w6opW" text="Coesão" />
+    <string id="j12VrGKz" text="Exército" />
+    <string id="j3iwQmoA" text="Quantidade do foco atual: {CURRENT_AMOUNT}" />
+    <string id="j4BdjLYp" text="Inicie uma conversa com este membro do clã." />
+    <string id="J8ddrAOf" text="Efeitos de Governador" />
+    <string id="j8uZBakZ" text="{PROPERTIES}" />
+    <string id="jdbT6nc9" text="Cada apoiador {SUPPORTER_RANK} concede {INFLUENCE_BONUS} por dia." />
+    <string id="JIr3Jc7b" text="Abdicar de todas as propriedades" />
+    <string id="jQdBl4hf" text="Governador de " />
+    <string id="JRKC4ed4" text="Esta oficina não produz há {DAY} {?PLURAL_DAYS}dias{?}dia{\?} devido à falta de matéria-prima no mercado da cidade." />
+    <string id="jVLJTuwl" text="Saber mais" />
+    <string id="JYOcl7Ox" text="Ineficaz!" />
+    <string id="K87pubLc" text="A opção &quot;{DEPENDENT_OPTION}&quot; pode ser habilitada com a ativação de &quot;{MODULE_NAME}&quot; module." />
+    <string id="kjaACKUq" text="Esta ação custará {GOLD}{GOLD_ICON}" />
+    <string id="KjuxDQfn" text="O líder do beco morreu." />
+    <string id="kMAQndom" text="Redefinir mudanças?" />
+    <string id="knayk28P" text="Você será desacelerado em terra. Tenha cuidado." />
+    <string id="kqeA8rjL" text="Quer mesmo dispersar seu exército?" />
+    <string id="kQsXUvgO" text="Você não pertence a um reino." />
+    <string id="KTKBKmvp" text="Fator de Dano de Estocada " />
+    <string id="KTTyBbsp" text="Máx. de PV" />
+    <string id="kWVbHPtT" text="Total" />
+    <string id="KxLoeSEO" text="Reagrupamento" />
+    <string id="KXQ7Mvec" text="Selecionar como Personagem Principal" />
+    <string id="la6R4xaY" text="Progresso da Guerra da Facção Adversária" />
+    <string id="laznt9ZK" text="Mudança na Comida do Povoamento" />
+    <string id="lc9s4rLZ" text="Criar Exército" />
+    <string id="LEiZWuZm" text="{SKILL_NAME}: {SKILL_VALUE}" />
+    <string id="lhIpaGt9" text="Há mais {COUNT} {?(COUNT &gt; 1)}{PLURAL(WORKSHOP_NAME)}{?}{WORKSHOP_NAME}{\?} nesta cidade." />
+    <string id="lIGdkJGm" text="Você deve escolher menos de {NUMBER} {?NUMBER&gt;1}itens{?}item{\?}" />
+    <string id="lkJfq1ap" text="Povoamentos dominados permanecem sob seu controle, mas os nobres não apreciarão esse ato desonroso e o reino declarará guerra a você." />
+    <string id="LlV29O9B" text="Você deve selecionar pelo menos {TROOP_COUNT} tropas" />
+    <string id="Lm6Mkhru" text="Consequências" />
+    <string id="LpsoPtOo" text="Projetos" />
+    <string id="lr2UaD9m" text="Batalha Naval" />
+    <string id="lSnejlxB" text="Você não pode participar de decisões do reino no momento." />
+    <string id="Lt0PzKHN" text="EMBARCANDO" />
+    <string id="LuC5ZZMu" text="{CRIMINAL_RATING} ({INCREASE}){CRIME_ICON}" />
+    <string id="LVJKy6a8" text="O aprimoramento desta tropa requer a vantagem {PERK_NAME} ({PERK_SKILL})." />
+    <string id="LVmkE2Ow" text="Tropas Prontas para Batalha" />
+    <string id="lVuGCYPC" text="Habilidade em Ferraria" />
+    <string id="lxwGbRwu" text="x {SHOP_DIFFERENCE_COUNT}" />
+    <string id="LxWVtDF0" text="Gerenciar Oficina" />
+    <string id="m1Yynagz" text="Página {NUMBER}" />
+    <string id="MaHMOzL2" text="Cultura da personagem" />
+    <string id="McJjNM50" text="Custo: {UPGRADE_COST}" />
+    <string id="mDFhzEMC" text="Máximo de Vida" />
+    <string id="mdvnjI72" text="As tropas não podem ser melhoradas nesta tela." />
+    <string id="Mfbc4rQR" text="Dano de Investida" />
+    <string id="mg7id9om" text="Número de Itens Consumíveis" />
+    <string id="mHVmrwRQ" text="Escreva seu nome" />
+    <string id="MkVTRqAw" text="Ordens ({ORDER_COUNT})" />
+    <string id="mountTier" text="Categoria de Montaria: " />
+    <string id="MT5A04X8" text=" - Tipo de Dano de Golpe não correspondente. Deveria ser: {TYPE}" />
+    <string id="myMbtwXi" text="Bônus de Moral" />
+    <string id="N63XYX2r" text="Suporte" />
+    <string id="NC9bbrt5" text="Denários no fim do dia" />
+    <string id="NcYbdiyT" text="Mudar Líder" />
+    <string id="NHZ1jNIF" text="Abaixo dos Requisitos" />
+    <string id="NkY3Kq9l" text="O nome do item não pode conter caracteres especiais." />
+    <string id="NLFeyz7m" text="Libertação recente do cativeiro" />
+    <string id="nNZ1ZtTE" text="Adiciona {BOOSTAMOUNT} de coesão ao seu exército" />
+    <string id="no0chrAH" text="Esta oficina não está operando há {DAY} {?PLURAL_DAYS}dias{?}dia{\?} porque a produção tem tido lucrativa" />
+    <string id="NVUi4bB9" text="Quando este armazém está cheio, a oficina vende produtos para o mercado da cidade" />
+    <string id="NxEy5Nbt" text="Alto risco de rebelião" />
+    <string id="nYYUQQm0" text="Fator de Dano de Golpe " />
+    <string id="o5G8A8ZH" text="Seus Denários" />
+    <string id="o79dIa3L" text="Cidades possuídas {#GENDER(FACTION)}pelo {#}pela {#}pelos {#}pelas {#}por {\#}{FACTION}" />
+    <string id="ocSW4WA2" text="Falha Crítica!" />
+    <string id="ODEnkg0o" text="Força do Clã" />
+    <string id="OGbskMfz" text="Peças Desbloqueadas:" />
+    <string id="oGgjuQav" text="Esta oferta de chamado de guerra não é mais relevante." />
+    <string id="OhNYkblK" text="Este herói acabou de escapar dos captores e estará disponível após algum tempo." />
+    <string id="OkWLI5C8" text="Tamanho:" />
+    <string id="oM2Ta1di" text="Aperte {CONSOLE_KEY_NAME} para redefinir a câmera" />
+    <string id="Omjlnsk3" text="Não é possível equipar {ITEM_NAME} neste espaço." />
+    <string id="OMqHwpXF" text="Um dos seus grupos perdeu o líder. Ele se dispersará depois de um dia. Você pode designar outro membro do clã para liderá-lo se quiser manter o grupo.{newline}{newline}Você quer designar um novo líder?" />
+    <string id="Oo3fkeab" text="Dificuldade: " />
+    <string id="oofSja21" text="O nome do personagem não pode começar nem terminar com espaço em branco." />
+    <string id="OpsiBFCu" text="... e {COUNT} itens a mais." />
+    <string id="opU0Nr2G" text="Progresso para desbloquear outra peça." />
+    <string id="oSfsqBwJ" text="Sem vantagens" />
+    <string id="OSsSBHKe" text="Comida do Povoamento" />
+    <string id="OTaPfaJl" text="{PARTY_2S_MEMBERS}   " />
+    <string id="otaUtXMX" text="+{AMOUNT} de chance de relação com notáveis por dia." />
+    <string id="oUhd9YhP" text="{PARTY_OWNERS_FACTION}" />
+    <string id="OyyJSyIX" text="{#GENDER(FACTION_1)}O {#}A {#}Os {#}As {#}{\#}{FACTION_1} {#GENDER(FACTION_1)}continuará pagando {#}continuará pagando {#}continuarão pagando {#}continuarão pagando {#}continuará pagando {\#}{DENAR}{GOLD_ICON} a título de tributo para {#GENDER(FACTION_2)}o {#}a {#}os {#}as {#}{\#}{FACTION_2} por mais {TRIBUTE_PAYMENTS_REMAINING}." />
+    <string id="P0To9aRW" text="Tempo de viagem: {TRAVEL_TIME}" />
+    <string id="P1hk0m4o" text="O nome do personagem não pode conter caracteres especiais" />
+    <string id="P5YtNXHR" text="Grupo de {LEADER.NAME}{.o}" />
+    <string id="p7raHA9x" text="Refinamento" />
+    <string id="p9wUyxfb" text="Tripulação Mínima do Navio" />
+    <string id="Pa4K0Paz" text="Progresso da guerra – {FACTION1} contra {FACTION2}" />
+    <string id="pBVbKYwo" text="Você perderá a propriedade do beco e das tropas nele. Tem certeza?" />
+    <string id="PcLGc2bM" text="Definir como desenvolvimento ativo" />
+    <string id="pDAuV918" text="Esta oficina não produz há {DAY} {?PLURAL_DAYS}dias{?}dia{\?} devido à atividade de rebeldes na cidade." />
+    <string id="Pdo7PpS3" text="{TASK_NAME} {CURRENT_PROGRESS}/{TARGET_PROGRESS}" />
+    <string id="pF0SqQxL" text="Aplicar mudanças?" />
+    <string id="PJZ8QYgA" text="L-I: {BONUS}" />
+    <string id="pnFgwLYG" text="Salário atual" />
+    <string id="POjDNVW3" text="Forjando" />
+    <string id="PRE5RKpp" text="Você precisa descansar e esperar algum tempo antes de poder realizar esta ação." />
+    <string id="pRP2sOWP" text="L-III: {BONUS}" />
+    <string id="PS02CqPu" text=" {PARTY_MEMBER.LINK} (Vida: {MEMBER_HEALTH}%)" />
+    <string id="pWyRg13f" text="Acordos Comerciais" />
+    <string id="Q0j1umAt" text="Requisito: {REQUIREMENT_NAME}" />
+    <string id="q1DVNQS7" text="Sob ataque! ({RESPONSE_TIME} {?RESPONSE_TIME&gt;1}dias restantes{?}dia restante{\?} para a resposta.)" />
+    <string id="q1J4a8rr" text="Taxa de Aprendizado" />
+    <string id="Q1KwpZYu" text="O uso da arma não atende os requisitos" />
+    <string id="Q8dhryRX" text="Comida dos Grupos" />
+    <string id="qaQqAYGc" text="Mudando para o grupo de {LEADER.NAME}{.o}" />
+    <string id="QBB0KQ2Z" text="Moral Médio dos Grupos" />
+    <string id="qBq70qDq" text="Projeto Atual" />
+    <string id="qbqimqMb" text="{GOVERNOR.NAME} está a caminho para assumir o governo {#GENDER(SETTLEMENT_NAME)}do {#}da {#}dos {#}das {#}de {\#}{SETTLEMENT_NAME}" />
+    <string id="qdoJOH0j" text="Salário do grupo" />
+    <string id="qeclv74c" text="Impostos" />
+    <string id="QeToaiLt" text="Dano de Golpe" />
+    <string id="QFfMd5q3" text="Página seguinte" />
+    <string id="qgK86eSo" text="Transferir Todos os Prisioneiros" />
+    <string id="qKUjgS6r" text="Povoamento" />
+    <string id="QlbkxoSp" text=" {TOOLTIP_TROOPS} ({PARTY_SIZE})" />
+    <string id="QmfZjCo1" text="Valor: " />
+    <string id="QMNWbmao" text="Limpar seleção" />
+    <string id="QQ03J6sf" text="O nome do item não pode ficar vazio." />
+    <string id="QSPrSsHv" text="Sem Sela!" />
+    <string id="Qu5clctb" text="A oficina está perdendo dinheiro. Os gastos estão sendo pagos pelo seu tesouro porque o capital da oficina está abaixo de {LOWER_THRESHOLD} denários" />
+    <string id="qZvNIVGV" text="Não há ninguém disponível no seu clã que possa liderar um grupo no momento." />
+    <string id="r0WIRUHo" text="Classificação Criminal" />
+    <string id="R2AaCaPJ" text="Mudança Esperada" />
+    <string id="R4rTlKMU" text="Os aprimoramentos de tropas estão desativados no momento." />
+    <string id="Ra17aK4e" text="Capital Atual" />
+    <string id="Raa4j4rF" text="Requerimento: {UPGRADE_ITEM}" />
+    <string id="RClxLG6N" text="Esperando" />
+    <string id="recruitVerb" text="Recruta" />
+    <string id="rgqA29b8" text="Você não tem perícia suficiente em {SKILL_NAME} para equipar este item" />
+    <string id="RjBSR9iO" text="Número de Navios Defensores" />
+    <string id="Rkh2k1OA" text="Conclusão:" />
+    <string id="rkubGa4K" text="Quer mesmo ceder este povoamento de volta para o seu reino?" />
+    <string id="rOKAvjtT" text="Dar Povoamento" />
+    <string id="rsHPaaYZ" text="A Coesão deve ser menos que {MINAMOUNT} para o aumento" />
+    <string id="rThSy9ed" text="Requerimento: {UPGRADE_ITEM} (Você não tem nenhum)" />
+    <string id="rUeWBOOi" text="Selecione um item para fundir" />
+    <string id="rwKBR4NE" text="Média de dias até a comida acabar" />
+    <string id="s06mScpJ" text="Se você tiver produtos no armazém, eles serão transferidos para o seu grupo. Tem certeza?" />
+    <string id="S1iS3OYj" text="Líder do grupo é o padrão para funções sem designação" />
+    <string id="saHYZKLt" text="Não há itens disponíveis no histórico" />
+    <string id="SDhQWonF" text="Pagando {DENAR}{GOLD_ICON} de tributo por dia, por mais {TRIBUTE_PAYMENTS_REMAINING} dias." />
+    <string id="SFB2uYHa" text="O líder do beco está indo para lá. ({LEFT_TIME} {?LEFT_TIME&gt;1}horas{?}hora{\?} para a chegada.)" />
+    <string id="SFebv4hH" text="Adicionar à fila" />
+    <string id="sffGeQ1g" text="Presente" />
+    <string id="sFiU3Ss2" text="Clique para redefinir a câmera" />
+    <string id="sFseX1Ka" text="Não foi possível aplicar as mudanças." />
+    <string id="SK8G9QpE" text="Aprim. Custo" />
+    <string id="Sls0KQVn" text="Eleições" />
+    <string id="slzfQzl3" text="Este herói está perdido" />
+    <string id="sVZaIPoQ" text="Velocidade de Golpe" />
+    <string id="sWWxrafa" text="Limite atual" />
+    <string id="Syha8biz" text="A ordem não pode ser cumprida" />
+    <string id="sZu7CCsh" text="Número de Navios Atacantes" />
+    <string id="SzuCFlNq" text="Nenhum item selecionado." />
+    <string id="t1lSXN9O" text="O estandarte do seu clã levado para a batalha" />
+    <string id="T9bndUYP" text="Assalto {#GENDER(SETTLEMENT)}ao {#}à {#}aos {#}às {#}a {\#}{SETTLEMENT}" />
+    <string id="ta4R2RR7" text="Primário" />
+    <string id="tAwRIPiy" text="Custo de Construção: {COST}" />
+    <string id="Tc5y7Tgd" text="Peso no Mar" />
+    <string id="TdWQM7QZ" text="Você deve selecionar menos de {TROOP_COUNT} tropas" />
+    <string id="TEkWkzbH" text="Caravanas possuídas: {CARAVAN_COUNT}" />
+    <string id="tf7301NC" text="Taxa de Cura" />
+    <string id="tnbCJyax" text="Alguns dos seus prisioneiros podem ser recrutados." />
+    <string id="twtbH1zv" text="Quantidade" />
+    <string id="Tx9Mynbt" text=" - Tipo de Dano de Estocada não correspondente. Deveria ser: {TYPE}" />
+    <string id="txjiykNa" text="Revisão" />
+    <string id="tYz4D8Or" text="Prisioneiro" />
+    <string id="TzLtVzdg" text="Tropas Feridas" />
+    <string id="U3ksQXD3" text="Dar" />
+    <string id="udPWHmOm" text="Dificuldade:" />
+    <string id="uGMGjUZy" text="Mande os membros do seu clã para {#GENDER(SETTLEMENT_NAME)}o {#}a {#}os {#}as {#}{\#}{SETTLEMENT_NAME}" />
+    <string id="UHLcmf9A" text="Limite de tamanho do grupo de prisioneiros" />
+    <string id="uipNpzVw" text="Não é possível dissolver o exército agora." />
+    <string id="uJro3Bua" text="Acima do Limite" />
+    <string id="URbKirPS" text="Contagem de Navios" />
+    <string id="US7UmBbt" text="Categoria da Armadura" />
+    <string id="UUaW0dba" text="Mudando para {#GENDER(SETTLEMENT_NAME)}o {#}a {#}os {#}as {#}{\#}{SETTLEMENT_NAME}" />
+    <string id="v3OF6vBg" text="Rendição" />
+    <string id="vdKiLwaf" text="Viajando" />
+    <string id="Ve5jkJqf" text="Oferta Automática" />
+    <string id="vggt7exj" text="Definir {CURINDEX}/{COUNT}" />
+    <string id="vIPrZCZ1" text="Você pode abdicar da liderança na tela do reino." />
+    <string id="vLaBJFGy" text=" {PARTY_MEMBER.LINK} ({PARTY_SIZE})" />
+    <string id="Voa0sinH" text="Requerimento: {NEEDED_EXP_AMOUNT}xp (Você tem {CURRENT_EXP_AMOUNT})" />
+    <string id="vOojEcIf" text="Você não pode designar um membro prisioneiro como novo líder do grupo" />
+    <string id="VSUqbvbE" text="Você não tem ouro suficiente para criar um grupo." />
+    <string id="VzCoqt8D" text="Sem sela equipada. Penalidade de 10% às manobras e à velocidade de montaria." />
+    <string id="VZjxs5Dt" text="Dono de " />
+    <string id="w0slxNAl" text="Se o limite for inferior ao salário atual, o grupo só recrutará tropas quando o salário for reduzido ao limite. Se o limite for superior ao salário atual, o grupo continuará recrutando." />
+    <string id="w1tgTNvK" text="Capacidade de Tropa Naval" />
+    <string id="W1tsTWZv" text=" {PARTY_MEMBER.LINK} ({MEMBER_HEALTH}%)" />
+    <string id="W3hmFcfv" text="Abandonar Beco" />
+    <string id="wcSSgFyK" text="O nome do personagem não pode ter espaços em branco consecutivos." />
+    <string id="weaponTier" text="Categoria da Arma: " />
+    <string id="wGWYNYYX" text="O estágio da educação não é mais relevante." />
+    <string id="WHRq5Dp0" text="Sem Vantagens de Ferraria" />
+    <string id="Wir2xZIg" text="Você não desbloqueou algumas das peças selecionadas." />
+    <string id="wMiLUTNY" text="Quer mesmo fundir esta arma? Ela está bloqueada no seu inventário." />
+    <string id="woD234nb" text="Você deve escolher mais de {NUMBER} {?NUMBER&gt;1}itens{?}item{\?}" />
+    <string id="WySAapWO" text="Salário ilimitado" />
+    <string id="wZGj3qO1" text="Escolha o que fabricar" />
+    <string id="X6eG4Q5V" text="Capacidade do Armazém" />
+    <string id="xaeXEj8J" text="Selecione o personagem para a ferraria" />
+    <string id="XgkFpSdq" text="Não é possível aplicar as mudanças. É preciso redefinir as mudanças para entrar em uma conversa." />
+    <string id="XIioBPi0" text="Sem mudanças" />
+    <string id="Xmw93W6a" text="Influência Insuficiente" />
+    <string id="xtlIFKaa" text="Quer mesmo deixar o Reino?{newline}Se for deixar, escolha como você quer deixá-lo." />
+    <string id="xtt9Oxer" text="Produções" />
+    <string id="XUtiwiYP" text="Comprimento: " />
+    <string id="xW4BPVLX" text="Histórico de Fabricação" />
+    <string id="xwRWjlar" text="Cor de fundo:" />
+    <string id="y2M014jI" text="Não é possível deixar membros em um vilarejo." />
+    <string id="y6qCNFQj" text="Armazenar Produtos no Armazém" />
+    <string id="Y7qbwrWE" text="Habilidades de {HERO_NAME}" />
+    <string id="Y8EcVL1c" text="Última atualização" />
+    <string id="ybLA7ZXp" text="Já no Máximo" />
+    <string id="ysireFjT" text="Vender esta Oficina por {GOLD_AMOUNT}{GOLD_ICON}" />
+    <string id="YT9giTet" text="Limite de Aprendizado" />
+    <string id="yuxBDKgM" text="Se você tiver produtos no armazém, eles serão perdidos! Tem certeza?" />
+    <string id="z2Slmx4N" text="Ainda há espaço para mais soldados. Quer prosseguir?" />
+    <string id="z3Xg0IaG" text="Castelos possuídos {#GENDER(FACTION)}pelo {#}pela {#}pelos {#}pelas {#}por {\#}{FACTION}" />
+    <string id="Z4GdqdgV" text="O nome do item não pode ter espaços em branco consecutivos." />
+    <string id="z8h0BRAb" text="Manter todas as propriedades" />
+    <string id="zawBaxl5" text="Distância: {DISTANCE}" />
+    <string id="ZcybPatO" text="Comprimento da Arma" />
+    <string id="zduu7dpz" text="Os prisioneiros não podem ser recrutados nesta tela." />
+    <string id="zFDoDbNj" text="Quantidade" />
+    <string id="zgnEagTJ" text="Parada" />
+    <string id="ZgYAGfbD" text="Capacidade de Tropa de Terra" />
+    <string id="ZIn8W5ZG" text="Valor" />
+    <string id="ZjaSde0X" text="Povoamentos dominados são devolvidos ao reino. Isso evita uma guerra e faz os nobres antipatizarem menos com você por negar sua lealdade." />
+    <string id="zlcMGAbn" text="Página anterior" />
+    <string id="zLFsnaqR" text="Sem governador" />
+    <string id="zoX9akov" text="Você será desacelerado no mar. Tenha cuidado." />
+    <string id="zrhr4rDA" text="Quer mesmo dispersar este exército? Isso resultará em perda de relação." />
+    <string id="ZUgoQ1Ws" text="Tipo de Cavalo" />
+    <string id="zWaVxD6T" text="Velocidade do Grupo" />
+    <string id="zZlWRZjO" text="Guerras" />
+    <string id="ZZmlYrgL" text="Nenhum castelo possuído {#GENDER(FACTION)}pelo {#}pela {#}pelos {#}pelas {#}por {\#}{FACTION}" />
+  </strings>
+</base>

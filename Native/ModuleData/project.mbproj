@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="solution">
+  <outputDirectory>../MBModule/MBModule/</outputDirectory>
+  <XMLDirectory>../WOTS/Modules/Native/</XMLDirectory>
+  <ModuleAssemblyDirectory>../WOTS/bin/</ModuleAssemblyDirectory>
+  <file id="soln_strings" name="ModuleData/strings.xml" type="string" />
+  <file id="soln_postfx" name="ModuleData/postfx_graphs.xml" type="postfx" />
+  <file id="soln_before_transparents_postfx" name="ModuleData/before_transparents_graph.xml" type="postfx" />
+  <file id="soln_thumbnail_postfx" name="ModuleData/thumbnail_postfx_graphs.xml" type="postfx" />
+  <file id="soln_ssao" name="ModuleData/prerender.xml" type="postfx" />
+  <file id="soln_skinned_decals" name="ModuleData/skinned_decals.xml" type="skinned_decals" />
+  <file id="soln_decal_sets" name="ModuleData/decal_sets.xml" type="decal_set" />
+  <file id="soln_decal_textures" name="ModuleData/decal_textures_all.xml" type="decal_texture" />
+  <file id="soln_decal_textures" name="ModuleData/decal_textures_worldmap.xml" type="decal_texture" />
+  <file id="soln_decal_textures" name="ModuleData/decal_textures_battle.xml" type="decal_texture" />
+  <file id="soln_decal_textures" name="ModuleData/decal_textures_town.xml" type="decal_texture" />
+  <file id="soln_decal_textures" name="ModuleData/decal_textures_multiplayer.xml" type="decal_texture" />
+  <file id="soln_collision_infos" name="ModuleData/collision_infos.xml" type="collision_infos" />
+  <file id="soln_hard_coded_sound" name="ModuleData/hard_coded_sounds.xml" type="hard_coded_sound" />
+  <file id="soln_module_sound" name="ModuleData/module_sounds.xml" type="module_sound" />
+  <file id="soln_map_icons" name="ModuleData/map_icons.xml" type="map_icon" />
+  <file id="soln_combat_system" name="ModuleData/combat_parameters.xml" type="animation_combat_parameters" />
+  <file id="soln_combat_system" name="ModuleData/native_parameters.xml" type="native_parameters" />
+  <file id="soln_prebaked_animations" name="ModuleData/prebaked_animations.xml" type="prebaked_animation" />
+  <file id="soln_action_sets" name="ModuleData/action_sets.xml" type="action_set" />
+  <file id="soln_action_types" name="ModuleData/action_types.xml" type="action_type" />
+  <file id="soln_skins" name="ModuleData/skins.xml" type="skin" />
+  <file id="soln_skeletons" name="ModuleData/skeletons.xml" type="skeleton" />
+  <file id="soln_physics_materials" name="ModuleData/physics_materials.xml" type="physics_material" />
+  <file id="soln_monsters" name="ModuleData/monsters.xml" type="monster" />
+  <file id="soln_item_usage_sets" name="ModuleData/item_usage_sets.xml" type="item_usage_set" />
+  <file id="soln_sound_files" name="ModuleData/soundfiles.xml" type="sound_files" />
+  <file id="soln_item_holsters" name="ModuleData/item_holsters.xml" type="item_holster" />
+  <file id="soln_parties" name="ModuleData/parties.xml" type="party" />
+  <file id="soln_flora_kinds" name="ModuleData/flora_kinds.xml" type="flora_kind" />
+  <file id="soln_face_animation_records" name="ModuleData/voices.xml" type="face_animation_record" />
+  <file id="soln_item_modifiers" name="ModuleData/item_modifiers.xml" type="item_modifier" />
+  <file id="soln_manifold_mappings" name="ModuleData/clothing_materials.xml" type="clothing_material" />
+  <file id="soln_tags" name="ModuleData/tags.xml" type="tag" />
+  <file id="soln_monster_usage_sets" name="ModuleData/monster_usage_sets.xml" type="monster_usage_set" />
+  <file id="soln_movement_sets" name="ModuleData/movement_sets.xml" type="movement_set" />
+  <file id="soln_full_movement_sets" name="ModuleData/full_movement_sets.xml" type="full_movement_set" />
+  <file id="soln_bone_body_types" name="ModuleData/bone_body_types.xml" type="bone_body_types" />
+  <file id="soln_particle_systems" name="ModuleData/particle_systems_hardcoded_misc1.xml" type="particle_system" />
+  <file id="soln_particle_systems" name="ModuleData/particle_systems_hardcoded_misc2.xml" type="particle_system" />
+  <file id="soln_particle_systems" name="ModuleData/particle_systems_general.xml" type="particle_system" />
+  <file id="soln_particle_systems" name="ModuleData/particle_systems_map_icon.xml" type="particle_system" />
+  <file id="soln_particle_systems" name="ModuleData/particle_systems_outdoor.xml" type="particle_system" />
+  <file id="soln_particle_systems" name="ModuleData/particle_systems_basic.xml" type="particle_system" />
+  <file id="soln_particle_systems" name="ModuleData/gpu_particle_systems.xml" type="gpu_particle_system" />
+  <file id="soln_worldmap_color_grades" name="ModuleData/worldmap_color_grades.xml" type="worldmap_color_grades" />
+  <file id="soln_sound_event_data" name="ModuleData/sound_event_data.gen.xml" type="sound_event_data" />
+  <file id="soln_sound_parameter_data" name="ModuleData/sound_params.gen.xml" type="sound_parameter_data" />
+  <file id="soln_voice_definitions" name="ModuleData/voice_definitions.xml" type="voice_definitions" />
+  <file id="soln_soundtrack" name="Music/soundtrack.xml" type="soundtrack" />
+</base>

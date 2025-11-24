@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objects>
+	<Faction />
+	<Item>
+		<object
+			itemkind="itm_practice_sword"
+			id="1"
+			name="Sword">
+			<attributes>
+				<attribute
+					code="WeaponSwingDamage"
+					value="30" />
+				<attribute
+					code="WeaponThrustDamage"
+					value="22" />
+				<attribute
+					code="WeaponLength"
+					value="20" />
+			</attributes>
+		</object>
+		<object
+			itemkind="itm_tutorial_spear"
+			id="2"
+			name="Spear">
+			<attributes>
+				<attribute
+					code="WeaponSwingDamage"
+					value="5" />
+				<attribute
+					code="WeaponThrustDamage"
+					value="40" />
+				<attribute
+					code="WeaponLength"
+					value="40" />
+			</attributes>
+		</object>
+		<object
+			itemkind="itm_tutorial_shield"
+			id="3"
+			name="Shield">
+			<attributes>
+				<attribute
+					code="ShieldHitPoints"
+					value="40" />
+				<attribute
+					code="ShieldSize"
+					value="20" />
+			</attributes>
+		</object>
+		<object
+			itemkind="itm_leather_covered_round_shield"
+			id="4"
+			name="Intelligent Shield">
+			<attributes>
+				<attribute
+					code="AgentIntelligence"
+					value="20" />
+				<attribute
+					code="ShieldHitPoints"
+					value="40" />
+				<attribute
+					code="ShieldSize"
+					value="20" />
+			</attributes>
+		</object>
+	</Item>
+	<NPCCharacter />
+	<PlayerCharacter>
+		<object
+			id="1"
+			name="rogue">
+			<attributes>
+				<attribute
+					code="AgentHitPoints"
+					value="200" />
+				<attribute
+					code="AgentRunningSpeed"
+					value="120" />
+				<attribute
+					code="AgentStrength"
+					value="12" />
+				<attribute
+					code="AgentAgility"
+					value="22" />
+				<attribute
+					code="AgentIntelligence"
+					value="10" />
+				<attribute
+					code="AgentCharisma"
+					value="12" />
+			</attributes>
+			<skills>
+				<skill
+					code="PowerStrike3" />
+				<skill
+					code="Runner" />
+			</skills>
+		</object>
+		<object
+			id="2"
+			name="leader">
+			<attributes>
+				<attribute
+					code="AgentHitPoints"
+					value="100" />
+				<attribute
+					code="AgentRunningSpeed"
+					value="80" />
+				<attribute
+					code="AgentStrength"
+					value="8" />
+				<attribute
+					code="AgentAgility"
+					value="10" />
+				<attribute
+					code="AgentIntelligence"
+					value="20" />
+				<attribute
+					code="AgentCharisma"
+					value="22" />
+			</attributes>
+			<skills>
+				<skill
+					code="Runner" />
+			</skills>
+		</object>
+	</PlayerCharacter>
+</objects>

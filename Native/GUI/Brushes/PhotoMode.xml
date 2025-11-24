@@ -1,0 +1,30 @@
+<Brushes>
+  
+  <Brush Name="PhotoMode.Property.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Right">
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" TextGlowColor="#000000FF" TextOutlineColor="#000000FF" TextOutlineAmount="0.01" TextGlowRadius="0" TextBlur="0" FontSize="18" />
+    </Styles>
+  </Brush>
+  
+  <Brush Name="PhotoMode.Slider.Handle">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="SPGeneral\SPOptions\standart_slider_knob" IsHidden="true" ExtendLeft="12" ExtendTop="14" ExtendBottom="12" ExtendRight="12" />
+      <BrushLayer Name="Hovered" Sprite="SPGeneral\SPOptions\standart_slider_knob_hover" IsHidden="true" ExtendLeft="12" ExtendTop="14" ExtendBottom="12" ExtendRight="12" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" IsHidden="false" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Hovered" ColorFactor="0.8" IsHidden="false" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Hovered" IsHidden="false" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.1" IsHidden="false" AlphaFactor="0" />
+      </Style>
+    </Styles>
+  </Brush>
+  
+</Brushes>

@@ -1,0 +1,23 @@
+<Brushes>
+  <Brush Name="Credits.Category.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#FF9404FF" TextAlphaFactor="1.0" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="35" />
+    </Styles>
+  </Brush>
+  <Brush Name="Credits.Section.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#F6E0C1FF" TextAlphaFactor="1.0" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="30" />
+    </Styles>
+  </Brush>
+  <Brush Name="Credits.Entry.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#F6E0C1FF" TextAlphaFactor="0.7" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="22" />
+    </Styles>
+  </Brush>
+</Brushes>

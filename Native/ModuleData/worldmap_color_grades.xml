@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<worldmap_color_grades>
+	<color_grade_grid
+		name="worldmap_colorgrade_grid" />
+	<color_grade_default
+		name="worldmap_colorgrade_stratosphere" />
+	<color_grade_night
+		name="worldmap_colorgrade_night" />
+	<color_grade
+		name="worldmap_colorgrade_desert"
+		value="20" />
+	<color_grade
+		name="worldmap_colorgrade_steppe"
+		value="40" />
+	<color_grade
+		name="worldmap_colorgrade_centraleurope"
+		value="60" />
+	<color_grade
+		name="worldmap_colorgrade_highlands"
+		value="80" />
+	<color_grade
+		name="worldmap_colorgrade_normandy"
+		value="100" />
+	<color_grade
+		name="worldmap_colorgrade_north"
+		value="120" />
+	<color_grade
+		name="worldmap_colorgrade_mediterranean"
+		value="140" />
+	<color_grade
+		name="worldmap_colorgrade_rain"
+		value="160" />
+</worldmap_color_grades>

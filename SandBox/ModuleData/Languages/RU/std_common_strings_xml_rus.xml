@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Русский" />
+  </tags>
+  <strings>
+    <string id="18NtjryL" text="Еще нет, но скоро." />
+    <string id="1ELK1UbN" text="{HERO.NAME} сейчас в море." />
+    <string id="6P1ruzsC" text="Возможно..." />
+    <string id="6QoSHiWC" text="Переулок без главаря" />
+    <string id="9ACJsI6S" text="Заблокировано" />
+    <string id="9NuttOBC" text="Загрузить" />
+    <string id="9y0zpKUF" text="Вы должны владеть этим поселением!" />
+    <string id="akHsjtPh" text="Вы еще не встречались с этим персонажем." />
+    <string id="aN85Kfnq" text="Поселение {SETTLEMENT} было атаковано. Ваш договор с {QUEST_GIVER.LINK}{.i} расторгнут." />
+    <string id="averageWealthStatus" text="Средний" />
+    <string id="awjomtnJ" text="Вы уверены?" />
+    <string id="bqeWVVEE" text="Ваши действия привели к войне с фракцией {QUEST_GIVER.LINK}{.g}. {?QUEST_GIVER.GENDER}Она{?}Он{\?} разрывает договор. Вы провалили задание." />
+    <string id="bSo9hKwr" text="{PERSUASION_OPTION_LINE} {SUCCESS_CHANCE}" />
+    <string id="cc1d7mkq" text="Класс" />
+    <string id="CDXUehf0" text="Ладно, ладно." />
+    <string id="CH7b5LaX" text="Я {?SPEAKER.GENDER}передумала{?}передумал{\?}." />
+    <string id="cKz1cyuM" text="Теперь ваш клан находится в состоянии войны с {QUEST_GIVER_SETTLEMENT_FACTION}{.i}. Задание отменено." />
+    <string id="D0xDRqvm" text="{PERSUASION_REACTION}" />
+    <string id="ddEu5IFQ" text="Надеюсь." />
+    <string id="dQBArrqh" text="Управление переулком" />
+    <string id="ds294zxi" text="Что-нибудь еще?" />
+    <string id="dzXaXKaC" text="Очень хорошо." />
+    <string id="FdzsOvDq" text="Это действие недоступно во время выполнения задания" />
+    <string id="g8qb3Ame" text="Благодарю." />
+    <string id="GEvP9i5f" text="Вы продолжите игру за {HEIR.NAME}{.a}." />
+    <string id="gJG0xmAq" text="На деревню {QUEST_SETTLEMENT}, где живет {QUEST_GIVER.LINK}, было совершено нападение. Ваш договор с {QUEST_GIVER.LINK}{.i} расторгнут." />
+    <string id="hCavIm4G" text="Вы заплатите {AMOUNT}{GOLD_ICON}." />
+    <string id="Hxf6bzmR" text="Динаров в наличии" />
+    <string id="I1CMeL9R" text="Конные лучники" />
+    <string id="I8raOMRH" text="Простите. Пока никакого продвижения." />
+    <string id="iW9iKbb8" text="Ничего." />
+    <string id="jcEoUPCB" text="Вы под прикрытием." />
+    <string id="k7ebznzr" text="Да?" />
+    <string id="LZbHWkCB" text="Переговоры с {PARTY_NAME}{.i}" />
+    <string id="mapbardenarvalue" text="{DENAR_AMOUNT}{VALUE_ABBREVIATION}" />
+    <string id="maptrack" text="Наблюд." />
+    <string id="MIylzRc5" text="Недоступно, пока вы принимаете участие в событии на карте." />
+    <string id="mp68RYnD" text="Лимит отряда" />
+    <string id="nFl0ufe3" text="Отряд без лидера" />
+    <string id="oJmRg2ms" text="Очень богатый" />
+    <string id="OlOhuO7X" text="Нет, благодарю. Доброго вам дня." />
+    <string id="pdqi2qz1" text="Вы не можете выполнить это действие, пока на переулок нападают." />
+    <string id="poorWealthStatus" text="Бедный" />
+    <string id="ppi6eVos" text="Как пожелаете." />
+    <string id="PXT6aA4J" text="Опции кампании" />
+    <string id="qGIFpahv" text="Нечего подать. Прости. Да хранят тебя небеса." />
+    <string id="rkQ7D36f" text="Задание отменено, поскольку в вашем отряде больше спутников, чем вы можете контролировать." />
+    <string id="RzFyGnWJ" text="Сторонники" />
+    <string id="SixPXaNh" text="Очень бедный" />
+    <string id="SlubkZ1A" text="Уничтожен" />
+    <string id="UbRqC0Yz" text="Богатый" />
+    <string id="uYjEknNX" text="{EXECUTER.NAME} казнит {VICTIM.NAME}{.a}" />
+    <string id="uZhHh7pm" text="{CURR_TEMPLATE_NAME} (создано)" />
+    <string id="vaUlAZba" text="{QUEST_GIVER.LINK} расторгает ваш договор, поскольку ваш клан находится с {?QUEST_GIVER.GENDER}ней{?}ним{\?} в состоянии войны." />
+    <string id="VLLAOXve" text="Ожидание наступления ночи для засады" />
+    <string id="vW6kBki9" text="Ваш договор с {QUEST_GIVER.LINK}{.i} расторгнут, поскольку ваш клан теперь находится в состоянии войны с {?QUEST_GIVER.GENDER}ее{?}его{\?} государством." />
+    <string id="wlKtDR2z" text="Благодарю вас, {?PLAYER.GENDER}госпожа{?}господин{\?}." />
+    <string id="xpCdwmlX" text="У вас недостаточно золота, чтобы назначить {HERO.NAME}{.a} лидером отряда." />
+    <string id="YuLLsAUb" text="У вас нет {GOLD_AMOUNT}{GOLD_ICON}." />
+    <string id="zpqP5LsC" text="Я отправляюсь немедленно." />
+  </strings>
+</base>

@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+    <string id="03G5GPec" text="보유한 호송대: {CARAVAN_COUNT}" />
+    <string id="05fdfc6e238429753ef282f2ce97c1f8" text="탄 개수: " />
+    <string id="08abd5af7774d311cadc3ed900b47754" text="유형: " />
+    <string id="0mqdFC2x" text="무기 제작 완료!" />
+    <string id="0Q4Xo2BQ" text="새 부대의 부대장 선택" />
+    <string id="0rmpC7jf" text="주둔군 굶주리는 중" />
+    <string id="0TauthlH" text="절대 안 함 ({PERCENTAGE}%)" />
+    <string id="13wo3QQB" text="보조" />
+    <string id="154a34f8caccfc833238cc89d38861e8" text="요구사항: " />
+    <string id="1CXlqb2U" text="선택:" />
+    <string id="1l4kpBDK" text="변경 사항 적용에 실패했습니다." />
+    <string id="1UbocG5B" text="왕국에 이 봉지를 반납하여 봉지에 대한 권리와 책임을 내려놓습니다." />
+    <string id="1xf8rHLH" text="모집할 수 있는 포로가 없습니다." />
+    <string id="2abtb4xu" text="독립" />
+    <string id="2ckyCKR7" text="예비금" />
+    <string id="2Cq3tViJ" text="부대의 소대 규모 제한" />
+    <string id="2GWR9Cba" text="가구수" />
+    <string id="2Hbr4TEj" text="아이템 이름의 앞뒤에는 공백이 올 수 없습니다." />
+    <string id="2lFwF07j" text="이름 변경" />
+    <string id="2maftPJP" text="클랜 및 세력 지도자로 지정" />
+    <string id="2nN1QuxZ" text="제시간에 완료하지 않으면 이 퀘스트를 실패하게 됩니다." />
+    <string id="3025020b83b218707499f0de3135ed0a" text="조작: " />
+    <string id="305cf7f98458b22e9af72b60a131714f" text="말 방어력: " />
+    <string id="345a87fcc69f626ae3916939ef2fc135" text="휘두르기 속도: " />
+    <string id="3F0y3ugx" text="성공!" />
+    <string id="3sxtCWPe" text="왕국을 떠나는 중" />
+    <string id="43HYUImy" text="{SETTLEMENT} 공성전" />
+    <string id="4U9EnZt5" text="대성공!" />
+    <string id="4uMWNDoi" text="찌르기 속도" />
+    <string id="4vPm9bFW" text="이 동맹 제안은 더 이상 유효하지 않습니다." />
+    <string id="4vZLpzPi" text="+1 명성 / 일" />
+    <string id="4Y8u4JKO" text="군대 소속 중에 왕국을 떠날 수 없습니다" />
+    <string id="5dec16fa0be433ade3c4cb0074ef366d" text="정확도: " />
+    <string id="5dkPxmZG" text="주둔군 급여" />
+    <string id="5fa36d2798479803b4518a64beb4d732" text="무기 길이: " />
+    <string id="63Ic1Ahe" text="비용: {UPGRADE_COST} (없음)" />
+    <string id="68IlDbA2" text="도적 소대를 일반 소대로 업그레이드하려면 {PERK_NAME} 특성이 필요합니다." />
+    <string id="6adabc1f82216992571c3e22abc164d7" text="탄 제한: " />
+    <string id="6ayEZQE1" text="{DAYS}{?DAYS &gt; 1}일{?}일{\?} 후 만료됩니다." />
+    <string id="6DuCoCc2" text="대화하려면 변경 사항을 확인해야 합니다." />
+    <string id="74dc1908cb0b990e80fb977b5a0ef10d" text="속도: " />
+    <string id="7dXs9c2b" text="바다 한도 초과" />
+    <string id="7l0LGKRk" text="시작 날짜" />
+    <string id="7tBOCHm6" text="인장 색상:" />
+    <string id="7tKjfMSb" text="뒷골목" />
+    <string id="84oSzquz" text="최근 탈출한 억류지" />
+    <string id="88WPmTKH" text="창고에서 입력 받기" />
+    <string id="8BJDQe6o" text="{FACTION} 세력이 포획한 포로" />
+    <string id="8BlMRMiR" text="말 등급" />
+    <string id="8cad4a279770f269c4bb0dc7a357ee1e" text="종류: " />
+    <string id="8d23bRmv" text="지상에서의 무게" />
+    <string id="8fqFGxD9" text="{KEY} 키를 눌러 다음과 비교: {ITEM}" />
+    <string id="8Jy9DnKk" text="{PARTY_NAME}에 귀속됨" />
+    <string id="8lCWWK9G" text="제련 특성" />
+    <string id="8N1EdPB3" text="{GOLD}{GOLD_ICON}를 받습니다" />
+    <string id="8qbkS5D2" text="전쟁 진행 상황" />
+    <string id="8szijlHj" text="주문 난이도: {DIFFICULTY}" />
+    <string id="8xKky9ja" text="이 아이템은 거래하거나 버릴 수 없습니다" />
+    <string id="94aHU6nD" text="건설" />
+    <string id="9FJi2SaE" text="부대 역할" />
+    <string id="9i0wnjJK" text="레벨 2: {BONUS}" />
+    <string id="9sxECG6e" text="탈것 유형: " />
+    <string id="9WrJP0hD" text="소대 전부 이양" />
+    <string id="a241aacb1780599430c79fd9f667b67f" text="부대 사기: " />
+    <string id="a4GDfSel" text="튜토리얼 초기화" />
+    <string id="a4oqWgUi" text="창고에 원자재가 없을 경우, 창고가 다시 보충될 때까지 작업장이 시장에서 원자재를 구입합니다." />
+    <string id="a8NoW1Q2" text="변경 사항을 취소하시겠습니까?" />
+    <string id="a8nRxITn" text="{PARTY_NAME}의 포로" />
+    <string id="aAqMSU2d" text="해상 인벤토리 용량" />
+    <string id="aFYwbosi" text="이 영웅은 이미 부대장입니다." />
+    <string id="aGFxIvqx" text="동료 남겨두기" />
+    <string id="aGJYQOef" text="영웅 위치를 맵에 표시합니다." />
+    <string id="ANV8UV5f" text="이 구성원을 부대에 소환합니다." />
+    <string id="armorTier" text="부대 등급: " />
+    <string id="aTdrjrEh" text="{SWING_DAMAGE_FACTOR}" />
+    <string id="av51ur2M" text="{REQUIRED_AMOUNT}데나르 이상이 있어야 이 작업장 생산 유형을 변경할 수 있습니다." />
+    <string id="aYm5Ehv1" text="아이템을 하나 선택해야 합니다." />
+    <string id="b7muQ9mt" text="{KINGDOM_INFORMALNAME}와(과)의 용병 계약을 종료하시겠습니까?" />
+    <string id="b8CqpGHx" text="포로 모집" />
+    <string id="bAqDnkaT" text="투사체 속도" />
+    <string id="BbLTwhsA" text="{REMAINING_TIME} 동안 무질서 상태" />
+    <string id="Bcs9s2tC" text="오른쪽 클릭하여 제거" />
+    <string id="bd7oAQq6" text="일일" />
+    <string id="bDwTWrru" text="지연 없음" />
+    <string id="BEXTcJaS" text="기한" />
+    <string id="bfWlTVjs" text="양수인 삭제" />
+    <string id="BgqZWbga" text="왕국의 귀족이 충성 서약을 저버린 당신을 싫어하게 됩니다. 왕국을 떠나시겠습니까?" />
+    <string id="BkDycbdq" text="소대 트리 표시 중 오류 발생" />
+    <string id="bPFjmYCI" text="{SHOP_NAME} x {SHOP_DIFFERENCE_COUNT}" />
+    <string id="BqLsZhhr" text="가공할 아이템 선택" />
+    <string id="btoiLePb" text="{HERO} ({PLACE})" />
+    <string id="BV5exuPf" text="북마크에서 삭제" />
+    <string id="C2qpwFq5" text="{SETTLEMENTS} 소유자" />
+    <string id="c5eYzHaM" text="{DAYS}{?DAY_IS_PLURAL}일{?}일{\?} ({PERCENTAGE}%)" />
+    <string id="c7638a0869219ae845de0f660fd57a9d" text="돌진 피해: " />
+    <string id="c9c5dfed2ca6bcb7a73d905004c97b23" text="피해: " />
+    <string id="C9tKA0ul" text="캐릭터 이름은 공란으로 둘 수 없습니다." />
+    <string id="ca8b1e8956057b831dfc665f54bae4b0" text="조작감: " />
+    <string id="CaRbMaZY" text="일일 급여:" />
+    <string id="cbbUzYX3" text="난이도: {DIFFICULTY}" />
+    <string id="cBqjZjfJ" text="육상 인벤토리 용량" />
+    <string id="cD1HTdYJ" text="이미 활성화된 개발입니다." />
+    <string id="cDkHJOkl" text="정착지 세부 정보를 확인하려면 관측 범위 안에 있거나 왕국으로 이 정착지를 통제하고 있거나 클랜원이 정착지에 있어야 합니다." />
+    <string id="cedvCZ73" text="{FACTION} 세력이 소유한 도시가 없습니다." />
+    <string id="CExQ40Ux" text="{PARTY_1S_MEMBERS}   " />
+    <string id="cf61cce254c7dca65be9bebac7fb9bf5" text="팔 방어력: " />
+    <string id="CGVK6l8I" text="용사 혜택" />
+    <string id="CK68QXen" text="{FACTION} 세력이 포획한 포로가 없습니다." />
+    <string id="Ck9HT8fQ" text="요약" />
+    <string id="cnmRwV4s" text="탄 제한" />
+    <string id="CnsIzaWo" text="야전 전투" />
+    <string id="CRi905Ao" text="내 부대에 있음" />
+    <string id="cUUI8u2G" text="기력" />
+    <string id="cZCOa00c" text="{SUPPORTER_RANK} 지지자 ({NUM})" />
+    <string id="d2K6gMsZ" text="멤버를 떠납니다. 최소 1명의 동료가 필요합니다." />
+    <string id="d8jrv3nA" text="북마크에 추가" />
+    <string id="DAmdTxuC" text="군대 관리" />
+    <string id="DAYoD0aW" text="부대 생성" />
+    <string id="dbBAJ8yi" text="나중에 클랜 화면에서 깃발과 클랜 이름을 변경할 수 있습니다." />
+    <string id="DbXZjPdf" text="깃발 효과: " />
+    <string id="dD3kRDHi" text="이 영웅은 도망자이며 억류자에게서 도주 중입니다. 어느 정도 시간이 지난 후에 사용 가능합니다." />
+    <string id="dEMUqz2Y" text="이 작업장은 {INITIAL_CAPITAL} 자본금을 넘는 수익의 20%를 당신의 금고에 보냅니다." />
+    <string id="DKJIp6xG" text="효과" />
+    <string id="DNq9bdvV" text="{THRUST_DAMAGE_FACTOR}" />
+    <string id="DNXD37JL" text="정착지 식량이 떨어질 때까지 남은 날" />
+    <string id="dO95yR9b" text="찌르기 피해" />
+    <string id="dOa7frHR" text="잠금 해제된 조각만 표시" />
+    <string id="DRJOxrRF" text="군대에 속한 소대" />
+    <string id="dVqowrRz" text=" - {STAT} {REQUIREMENT}" />
+    <string id="dWYm9GsC" text="요구 사항:" />
+    <string id="eHVq6yDa" text="아이템 속성" />
+    <string id="eIgC6YGp" text="관세" />
+    <string id="eIGFuGOx" text="정착지 제공" />
+    <string id="EkFDvG7z" text="정착지 식량 비축량" />
+    <string id="eoVW9z54" text="평균 사기" />
+    <string id="F0a7hyp0" text="반란 위험" />
+    <string id="f2971dc587a9777223ad2d7be236fb05" text="거래 소문" />
+    <string id="f4nc7FfE" text="{UPGRADE_NAME}(으)로 업그레이드" />
+    <string id="f90A6PGd" text="동맹" />
+    <string id="faDegful" text="대기열에서 삭제" />
+    <string id="FBYFcrWo" text="정착지에 두기" />
+    <string id="fgyvzyB5" text="지상 한도 초과" />
+    <string id="fI7a7RoE" text="인벤토리 용량" />
+    <string id="FjJi1DJb" text="이 영웅은 이미 다른 부대에 속해 있습니다." />
+    <string id="flxDkoMh" text="스테이지 완료" />
+    <string id="fpE7BQ7f" text="업그레이드할 수 있는 소대가 없습니다." />
+    <string id="fPoB2u5m" text="캐릭터 이름은 {MIN}~{MAX}자여야 합니다." />
+    <string id="fRz2DJf4" text="부대를 만들려면 {PARTY_COST}{GOLD_ICON}의 비용이 필요합니다. 계속하시겠습니까?" />
+    <string id="FYJC7cDD" text="자질" />
+    <string id="fz2kQjFS" text="캐릭터의 문화적 배경을 선택하세요:" />
+    <string id="FzbeSkBb" text="소유한 뒷골목 중 하나가 지도자를 잃었거나 소대 수가 부족합니다. {DAYS}일이 지나면 해당 뒷골목은 버려집니다. 뒷골목을 유지하고 싶다면 클랜 화면에서 새 클랜원을 배정하거나 뒷골목으로 가서 더 많은 소대를 배정하세요. 뒷골목이 버려지면 해당 구역에 배치된 모든 소대를 잃게 됩니다." />
+    <string id="g08mptth" text="새 지도자가 되기 위해 부대로 이동" />
+    <string id="g1op0Thi" text="하선하는 중" />
+    <string id="G2h0V10w" text="내 왕국에 있는 클랜에 이 정착지를 선물합니다." />
+    <string id="GCaYjA5W" text="클랜 지도자만 클랜 이름을 변경할 수 있습니다." />
+    <string id="Gd6zuUwh" text="자유 제작" />
+    <string id="gduqxfck" text="필요한 재료가 부족합니다!" />
+    <string id="Gp2vmZGZ" text="{PERKS}" />
+    <string id="GP3jpU0X" text="영향력은 용병 클랜의 데나르로 일시 전환됩니다." />
+    <string id="gTbE6t9I" text="다음 요건을 충족하지 못했습니다:" />
+    <string id="gu5xmV0E" text="이 도시에 다른 {WORKSHOP_NAME}이(가) 없습니다." />
+    <string id="gUUnZNGk" text="새 총독이 되기 위해 {SETTLEMENT_NAME}(으)로 이동" />
+    <string id="guxNZZWh" text="요건" />
+    <string id="GwA9oUBC" text="스킬 집중은 훈련을 통해 스킬의 상승률에 영향을 미칩니다." />
+    <string id="h0xoKxxo" text="아이템 이름은 {MIN}~{MAX}자 이내여야 합니다." />
+    <string id="heroRecovering" text="회복 중" />
+    <string id="HfsUngkh" text="모집은 현재 비활성화되어 있습니다." />
+    <string id="HFZdseH9" text="왕국 이름은 통치자만 변경할 수 있습니다." />
+    <string id="HHTQVp52" text="영웅 치유 속도" />
+    <string id="HiJTlBgF" text="작업장 판매" />
+    <string id="hn9TPqhK" text="무기 등급" />
+    <string id="hOVPiG3z" text="최근 반란 일으킴" />
+    <string id="hr4MuPnt" text="필요한 재료" />
+    <string id="hRSezxnT" text="소대 일부를 업그레이드할 수 있습니다." />
+    <string id="HTtWslIx" text="시장 식량 비축량" />
+    <string id="hwrQqWir" text="스킬 없음" />
+    <string id="Hz8XO8wk" text="총독 직책을 수행하는 동안에는 이동 가능한 부대를 지휘할 수 없습니다." />
+    <string id="I2sZ7K28" text="튜토리얼을 초기화하시겠습니까?" />
+    <string id="i9OsCshW" text="이 왕국의 결정은 이제 의미가 없습니다." />
+    <string id="idRXFzQ6" text="이미 군대에 추가되었습니다." />
+    <string id="Iefr8Fra" text="튜토리얼이 초기화됐습니다." />
+    <string id="IgoxNz2H" text="소대 업그레이드" />
+    <string id="IJdjwXvn" text="현재 레벨: " />
+    <string id="InqmgBiF" text="선택한 대원" />
+    <string id="Ioiqzz4E" text="응집력을 높이려면 군대에 속해야 합니다." />
+    <string id="IQY9yykn" text="식량 아이템" />
+    <string id="IRcy3pWJ" text="이름은 비워둘 수 없습니다." />
+    <string id="iSZTOeYH" text="해산할 군대가 없습니다." />
+    <string id="ITKb4cKv" text="{ITEM_NAME}은(는) 장착할 수 없습니다." />
+    <string id="iuKvbKJ7" text="영업 중" />
+    <string id="iZ3w6opW" text="응집력" />
+    <string id="j12VrGKz" text="군대" />
+    <string id="j3iwQmoA" text="현재 집중: {CURRENT_AMOUNT}" />
+    <string id="j4BdjLYp" text="이 클랜원과 대화를 시작합니다." />
+    <string id="J8ddrAOf" text="총독 효과" />
+    <string id="j8uZBakZ" text="{PROPERTIES}" />
+    <string id="jdbT6nc9" text="각 {SUPPORTER_RANK} 지지자는 매일 {INFLUENCE_BONUS}만큼을 제공합니다." />
+    <string id="JIr3Jc7b" text="모든 재산 포기" />
+    <string id="jQdBl4hf" text="총독: " />
+    <string id="JRKC4ed4" text="이 작업장은 마을 시장의 원자재 부족으로 인해 {DAY}{?PLURAL_DAYS}일{?}일{\?} 동안 제품을 생산하지 않았습니다." />
+    <string id="jVLJTuwl" text="자세히 보기" />
+    <string id="JYOcl7Ox" text="효과 없음!" />
+    <string id="K87pubLc" text="&quot;{DEPENDENT_OPTION}&quot; 옵션은 &quot;{MODULE_NAME}&quot; 모듈에 의해 활성화될 수 있습니다." />
+    <string id="kjaACKUq" text="이 행동에는 {GOLD}{GOLD_ICON}가 듭니다." />
+    <string id="KjuxDQfn" text="뒷골목 지도자가 죽었습니다." />
+    <string id="kMAQndom" text="변경 사항을 초기화하시겠습니까?" />
+    <string id="knayk28P" text="지상에서 속도가 감소합니다. 조심하세요." />
+    <string id="kqeA8rjL" text="군대를 해산하겠습니까?" />
+    <string id="kQsXUvgO" text="왕국에 속해 있지 않습니다." />
+    <string id="KTKBKmvp" text="찌르기 피해 인수 " />
+    <string id="KTTyBbsp" text="최대 HP" />
+    <string id="kWVbHPtT" text="총합" />
+    <string id="KxLoeSEO" text="재편성 중" />
+    <string id="KXQ7Mvec" text="주요 캐릭터로 선택" />
+    <string id="la6R4xaY" text="상대 세력의 전쟁 진행 상황" />
+    <string id="laznt9ZK" text="정착지 식량 변경량" />
+    <string id="lc9s4rLZ" text="군대 창설" />
+    <string id="LEiZWuZm" text="{SKILL_NAME}: {SKILL_VALUE}" />
+    <string id="lhIpaGt9" text="이 도시에는 {?(COUNT &gt; 1)}{?}{\?} {COUNT}개의 {?(COUNT &gt; 1)}{PLURAL(WORKSHOP_NAME)}{?}{WORKSHOP_NAME}{\?}이(가) 더 있습니다." />
+    <string id="lIGdkJGm" text="{NUMBER}개 미만의 {?NUMBER&gt;1}아이템{?}아이템{\?}을 선택해야 합니다." />
+    <string id="lkJfq1ap" text="소유한 정착지는 소유자 휘하의 것이 되지만, 귀족들은 이 비겁한 행위를 싫어할 것이며 왕국이 당신을 상대로 전쟁을 선포할 수도 있습니다." />
+    <string id="LlV29O9B" text="소대를 {TROOP_COUNT}명 이상 선택해야 합니다." />
+    <string id="Lm6Mkhru" text="대가" />
+    <string id="LpsoPtOo" text="프로젝트" />
+    <string id="lr2UaD9m" text="해군 전투" />
+    <string id="lSnejlxB" text="지금은 왕국의 결정에 참여할 수 없습니다." />
+    <string id="Lt0PzKHN" text="승선하는 중" />
+    <string id="LuC5ZZMu" text="{CRIMINAL_RATING} ({INCREASE}){CRIME_ICON}" />
+    <string id="LVJKy6a8" text="이 소대를 업그레이드하려면 {PERK_NAME}({PERK_SKILL}) 특성이 필요합니다." />
+    <string id="LVmkE2Ow" text="전투 준비를 마친 소대" />
+    <string id="lVuGCYPC" text="제련 스킬" />
+    <string id="lxwGbRwu" text="x {SHOP_DIFFERENCE_COUNT}" />
+    <string id="LxWVtDF0" text="작업장 관리" />
+    <string id="m1Yynagz" text="{NUMBER}페이지" />
+    <string id="MaHMOzL2" text="문화적 배경" />
+    <string id="McJjNM50" text="비용: {UPGRADE_COST}" />
+    <string id="mDFhzEMC" text="최대 체력" />
+    <string id="mdvnjI72" text="이 화면에서 소대를 업그레이드할 수 없습니다." />
+    <string id="Mfbc4rQR" text="돌진 피해" />
+    <string id="mg7id9om" text="소모품 수" />
+    <string id="mHVmrwRQ" text="이름 입력" />
+    <string id="MkVTRqAw" text="주문 ({ORDER_COUNT})" />
+    <string id="mountTier" text="탈것 등급: " />
+    <string id="MT5A04X8" text=" - 휘두르기 피해 유형이 맞지 않습니다. {TYPE} 유형이어야 합니다." />
+    <string id="myMbtwXi" text="사기 추가 효과" />
+    <string id="N63XYX2r" text="지원" />
+    <string id="NC9bbrt5" text="일과 종료 데나르" />
+    <string id="NcYbdiyT" text="지도자 변경" />
+    <string id="NHZ1jNIF" text="요건 미만" />
+    <string id="NkY3Kq9l" text="아이템 이름에 특수 문자를 사용할 수 없습니다." />
+    <string id="NLFeyz7m" text="최근 억류에서 벗어남" />
+    <string id="nNZ1ZtTE" text="군대에 응집력 {BOOSTAMOUNT} 추가" />
+    <string id="no0chrAH" text="생산의 수익성이 없기 때문에 이 작업장은 {DAY}{?PLURAL_DAYS}일{?}일{\?} 동안 경영되지 않았습니다." />
+    <string id="NVUi4bB9" text="창고가 가득 차면, 작업장은 마을 시장에 제품을 판매합니다." />
+    <string id="NxEy5Nbt" text="반란 위험 높음" />
+    <string id="nYYUQQm0" text="휘두르기 피해 인수 " />
+    <string id="o5G8A8ZH" text="내 데나르" />
+    <string id="o79dIa3L" text="{FACTION} 세력이 소유한 도시" />
+    <string id="ocSW4WA2" text="대실패!" />
+    <string id="ODEnkg0o" text="클랜 군사력" />
+    <string id="OGbskMfz" text="잠금 해제된 부품:" />
+    <string id="oGgjuQav" text="이 전쟁령은 더 이상 유효하지 않습니다." />
+    <string id="OhNYkblK" text="이 영웅은 억류되어 있다가 탈출했습니다. 휴식과 회복이 필요한 상태 입니다." />
+    <string id="OkWLI5C8" text="크기:" />
+    <string id="oM2Ta1di" text="{CONSOLE_KEY_NAME}을 눌러 카메라 초기화" />
+    <string id="Omjlnsk3" text="{ITEM_NAME}은(는) 이 슬롯에 장착할 수 없습니다." />
+    <string id="OMqHwpXF" text="당신 소속의 부대가 지도자를 잃었습니다. 하루 후 해당 부대는 해산됩니다. 부대를 유지하고 싶다면 새 클랜원을 지도자로 임명하도록 하십시오.{newline}{newline}새 지도자를 임명하시겠습니까?" />
+    <string id="Oo3fkeab" text="난이도: " />
+    <string id="oofSja21" text="캐릭터 이름의 앞뒤에는 공백이 올 수 없습니다." />
+    <string id="OpsiBFCu" text="...그리고 아이템 {COUNT}개가 더 있습니다." />
+    <string id="opU0Nr2G" text="새로운 조각 잠금 해제 진행 상황입니다." />
+    <string id="oSfsqBwJ" text="특성 없음" />
+    <string id="OSsSBHKe" text="정착지 식량" />
+    <string id="OTaPfaJl" text="{PARTY_2S_MEMBERS}   " />
+    <string id="otaUtXMX" text="일정 확률로 하루마다 중요 인물과의 관계가 +{AMOUNT} 증가합니다." />
+    <string id="oUhd9YhP" text="{PARTY_LEADERS_FACTION}" />
+    <string id="OyyJSyIX" text="{FACTION_1}이(가) {DENAR}{GOLD_ICON}를 {FACTION_2}에 공물로 바치고 있으며 {TRIBUTE_PAYMENTS_REMAINING}일 남았습니다." />
+    <string id="P0To9aRW" text="이동 시간: {TRAVEL_TIME}" />
+    <string id="P1hk0m4o" text="캐릭터 이름에 특수 문자를 사용할 수 없습니다." />
+    <string id="P5YtNXHR" text="{LEADER.NAME}의 부대" />
+    <string id="p7raHA9x" text="개선" />
+    <string id="p9wUyxfb" text="선박 최소 선원" />
+    <string id="Pa4K0Paz" text="{FACTION1} 대 {FACTION2}의 전쟁 진행 상황" />
+    <string id="pBVbKYwo" text="뒷골목 및 해당 지역에 배치한 소대의 소유권을 잃게 됩니다. 계속하시겠습니까?" />
+    <string id="PcLGc2bM" text="활성화된 개발로 설정합니다." />
+    <string id="pDAuV918" text="이 작업장은 도시에서 반군 활동이 발생하여 {DAY} {?PLURAL_DAYS}일{?}일{\?}동안 제품을 생산하지 않았습니다." />
+    <string id="Pdo7PpS3" text="{TASK_NAME} {CURRENT_PROGRESS}/{TARGET_PROGRESS}" />
+    <string id="pF0SqQxL" text="변경 사항을 적용하시겠습니까?" />
+    <string id="PJZ8QYgA" text="레벨 1: {BONUS}" />
+    <string id="pnFgwLYG" text="현재 급여" />
+    <string id="POjDNVW3" text="제작 중" />
+    <string id="PRE5RKpp" text="이 행동을 하려면 먼저 휴식을 취하고 시간을 보내야 합니다." />
+    <string id="pRP2sOWP" text="레벨 3: {BONUS}" />
+    <string id="PS02CqPu" text=" {PARTY_MEMBER.LINK} (체력: {MEMBER_HEALTH}%)" />
+    <string id="pWyRg13f" text="무역 협정" />
+    <string id="Q0j1umAt" text="요건: {REQUIREMENT_NAME}" />
+    <string id="q1DVNQS7" text="공격을 받고 있습니다! ({RESPONSE_TIME} {?RESPONSE_TIME&gt;1}일{?}일{\?} 남음)" />
+    <string id="q1J4a8rr" text="학습률" />
+    <string id="Q1KwpZYu" text="무기 사용이 요건과 맞지 않습니다" />
+    <string id="Q8dhryRX" text="부대 식량" />
+    <string id="qaQqAYGc" text="{LEADER.NAME}의 부대로 이동" />
+    <string id="QBB0KQ2Z" text="부대 평균 사기" />
+    <string id="qBq70qDq" text="현재 프로젝트" />
+    <string id="qbqimqMb" text="{GOVERNOR.NAME}이(가) {SETTLEMENT_NAME}의 총독이 되기 위해 이동 중" />
+    <string id="qdoJOH0j" text="부대 급여" />
+    <string id="qeclv74c" text="세금" />
+    <string id="QeToaiLt" text="휘두르기 피해" />
+    <string id="QFfMd5q3" text="다음 페이지" />
+    <string id="qgK86eSo" text="포로를 모두 이양" />
+    <string id="qKUjgS6r" text="정착지" />
+    <string id="QlbkxoSp" text=" {TOOLTIP_TROOPS} ({PARTY_SIZE})" />
+    <string id="QmfZjCo1" text="가치: " />
+    <string id="QMNWbmao" text="선택 취소" />
+    <string id="QQ03J6sf" text="아이템 이름은 비워둘 수 없습니다." />
+    <string id="QSPrSsHv" text="안장이 없습니다!" />
+    <string id="Qu5clctb" text="작업장이 돈을 잃고 있습니다. 작업장의 자본금이 {LOWER_THRESHOLD} 데나르 이하이기 때문에 당신의 금고에서 경비를 대고 있습니다." />
+    <string id="qZvNIVGV" text="지금은 부대를 지휘할 수 있는 클랜 구성원이 없습니다." />
+    <string id="r0WIRUHo" text="범죄자 등급" />
+    <string id="R2AaCaPJ" text="예상 변화" />
+    <string id="R4rTlKMU" text="소대 업그레이드가 현재 비활성회되어 있습니다." />
+    <string id="Ra17aK4e" text="현재 자본" />
+    <string id="Raa4j4rF" text="필요: {UPGRADE_ITEM}" />
+    <string id="RClxLG6N" text="대기 중" />
+    <string id="recruitVerb" text="신병" />
+    <string id="rgqA29b8" text="이 아이템 장착을 위한 {SKILL_NAME} 스킬이 부족합니다." />
+    <string id="RjBSR9iO" text="방어군 선박 수" />
+    <string id="Rkh2k1OA" text="완료:" />
+    <string id="rkubGa4K" text="정말로 이 정착지를 왕국에 반환하시겠습니까?" />
+    <string id="rOKAvjtT" text="정착지 선물" />
+    <string id="rsHPaaYZ" text="응집력은 {MINAMOUNT} 미만이어야 촉진됩니다." />
+    <string id="rThSy9ed" text="필수: {UPGRADE_ITEM} (없음)" />
+    <string id="rUeWBOOi" text="녹일 아이템 선택" />
+    <string id="rwKBR4NE" text="식량이 떨어질 때까지 남은 평균 일자" />
+    <string id="s06mScpJ" text="창고에 물건이 있다면 부대로 전달됩니다. 계속하시겠습니까?" />
+    <string id="S1iS3OYj" text="기본적으로 부대장은 역할을 맡지 않습니다." />
+    <string id="saHYZKLt" text="히스토리에 이용 가능한 아이템이 없습니다." />
+    <string id="SDhQWonF" text="매일 {DENAR}{GOLD_ICON}를 공물로 바치고 있으며 {TRIBUTE_PAYMENTS_REMAINING}일 남았습니다." />
+    <string id="SFB2uYHa" text="뒷골목 지도자가 뒷골목으로 이동 중입니다. ({LEFT_TIME} {?LEFT_TIME&gt;1}일{?}일{\?} 남음)" />
+    <string id="SFebv4hH" text="대기열에 추가" />
+    <string id="sffGeQ1g" text="선물" />
+    <string id="sFiU3Ss2" text="클릭해 카메라 초기화" />
+    <string id="sFseX1Ka" text="변경 사항을 적용할 수 없습니다." />
+    <string id="SK8G9QpE" text="업그레이드 비용" />
+    <string id="Sls0KQVn" text="선거" />
+    <string id="slzfQzl3" text="사라진 영웅입니다." />
+    <string id="sVZaIPoQ" text="휘두르기 속도" />
+    <string id="sWWxrafa" text="현재 제한" />
+    <string id="Syha8biz" text="명령을 완료할 수 없습니다." />
+    <string id="sZu7CCsh" text="공격군 선박 수" />
+    <string id="SzuCFlNq" text="선택한 아이템이 없습니다." />
+    <string id="t1lSXN9O" text="클랜 군기가 전투로 넘어갑니다." />
+    <string id="T9bndUYP" text="{SETTLEMENT} 습격" />
+    <string id="ta4R2RR7" text="주" />
+    <string id="tAwRIPiy" text="건설 비용: {COST}" />
+    <string id="Tc5y7Tgd" text="바다에서의 무게" />
+    <string id="TdWQM7QZ" text="소대를 {TROOP_COUNT}명 이하로 선택해야 합니다." />
+    <string id="TEkWkzbH" text="보유한 캐러밴: {CARAVAN_COUNT}" />
+    <string id="tf7301NC" text="치유 속도" />
+    <string id="tnbCJyax" text="포로 중 일부를 모집할 수 있습니다." />
+    <string id="twtbH1zv" text="탄 개수" />
+    <string id="Tx9Mynbt" text=" - 찌르기 피해 유형이 맞지 않습니다. {TYPE} 유형이어야 합니다." />
+    <string id="txjiykNa" text="검토" />
+    <string id="tYz4D8Or" text="포로" />
+    <string id="TzLtVzdg" text="부상당한 소대" />
+    <string id="U3ksQXD3" text="포기" />
+    <string id="udPWHmOm" text="난이도:" />
+    <string id="uGMGjUZy" text="{SETTLEMENT_NAME}에 클랜원 보내기" />
+    <string id="UHLcmf9A" text="부대 포로 규모 제한" />
+    <string id="uipNpzVw" text="지금 군대를 해산할 수 없습니다." />
+    <string id="uJro3Bua" text="제한 초과" />
+    <string id="URbKirPS" text="선박 수" />
+    <string id="US7UmBbt" text="방어구 등급" />
+    <string id="UUaW0dba" text="{SETTLEMENT_NAME}으(로) 이동 중" />
+    <string id="v3OF6vBg" text="획득 가능 재료" />
+    <string id="vdKiLwaf" text="이동하기" />
+    <string id="Ve5jkJqf" text="자동 제안" />
+    <string id="vggt7exj" text="{CURINDEX}/{COUNT} 설정" />
+    <string id="vIPrZCZ1" text="왕국 화면에서 왕위를 양도할 수 있습니다." />
+    <string id="vLaBJFGy" text=" {PARTY_MEMBER.LINK} ({PARTY_SIZE})" />
+    <string id="Voa0sinH" text="필요: {NEEDED_EXP_AMOUNT}xp ({CURRENT_EXP_AMOUNT} 보유)" />
+    <string id="vOojEcIf" text="포로를 새 부대 지도자로 임명할 수 없습니다." />
+    <string id="VSUqbvbE" text="골드가 부족해 새 부대를 생성할 수 없습니다." />
+    <string id="VzCoqt8D" text="안장이 장착되지 않았습니다. 기마 속도 및 조작에 -10%의 불이익이 적용됩니다." />
+    <string id="VZjxs5Dt" text="다음의 소유자: " />
+    <string id="w0slxNAl" text="제한이 현재 급여보다 낮을 경우, 급여가 제한까지 감소하기 전까지 부대에서 소대를 모집하지 않습니다. 제한이 현재 급여보다 높을 경우, 계속 모집합니다." />
+    <string id="w1tgTNvK" text="선박 소대 수용력" />
+    <string id="W1tsTWZv" text=" {PARTY_MEMBER.LINK} ({MEMBER_HEALTH}%)" />
+    <string id="W3hmFcfv" text="뒷골목 버리기" />
+    <string id="wcSSgFyK" text="캐릭터 이름에는 공백이 연속으로 들어갈 수 없습니다." />
+    <string id="weaponTier" text="무기 등급: " />
+    <string id="wGWYNYYX" text="이 교육 단계는 이제 의미가 없습니다." />
+    <string id="WHRq5Dp0" text="제련 특성 없음" />
+    <string id="Wir2xZIg" text="선택한 것 중 일부가 잠금 해제되지 않았습니다." />
+    <string id="wMiLUTNY" text="정말로 이 무기를 녹이시겠습니까? 이 무기는 잠겨 있습니다." />
+    <string id="woD234nb" text="{NUMBER}개가 넘는 {?NUMBER&gt;1}아이템{?}아이템{\?}을 선택해야 합니다." />
+    <string id="WySAapWO" text="무제한 급여" />
+    <string id="wZGj3qO1" text="제작할 아이템 선택" />
+    <string id="X6eG4Q5V" text="창고 한도" />
+    <string id="xaeXEj8J" text="제련할 캐릭터 선택" />
+    <string id="XgkFpSdq" text="변경 사항을 적용할 수 없습니다. 대화하려면 변경 사항을 확인해야 합니다." />
+    <string id="XIioBPi0" text="변화 없음" />
+    <string id="Xmw93W6a" text="영향력 부족" />
+    <string id="xtlIFKaa" text="왕국을 떠나시겠습니까?{newline}어떤 방식으로 왕국을 떠날지 선택해 주세요." />
+    <string id="xtt9Oxer" text="생산" />
+    <string id="XUtiwiYP" text="길이: " />
+    <string id="xW4BPVLX" text="제작 이력" />
+    <string id="xwRWjlar" text="배경색:" />
+    <string id="y2M014jI" text="구성원을 마을에 놓아둘 수 없습니다." />
+    <string id="y6qCNFQj" text="창고의 상점 결과" />
+    <string id="Y7qbwrWE" text="{HERO_NAME}의 스킬" />
+    <string id="Y8EcVL1c" text="마지막 업데이트" />
+    <string id="ybLA7ZXp" text="최대치 도달" />
+    <string id="ysireFjT" text="이 작업장을 {GOLD_AMOUNT}{GOLD_ICON}에 판매하기" />
+    <string id="YT9giTet" text="학습 제한" />
+    <string id="yuxBDKgM" text="창고에 물건이 있다면 사라집니다! 계속하시겠습니까?" />
+    <string id="z2Slmx4N" text="아직 병사를 더 받을 수 있습니다. 진행하시겠습니까?" />
+    <string id="z3Xg0IaG" text="{FACTION} 세력이 소유한 성" />
+    <string id="Z4GdqdgV" text="아이템 이름에는 공백이 연속으로 들어갈 수 없습니다." />
+    <string id="z8h0BRAb" text="모든 재산 유지" />
+    <string id="zawBaxl5" text="거리: {DISTANCE}" />
+    <string id="ZcybPatO" text="무기 길이" />
+    <string id="zduu7dpz" text="이 화면에서 포로를 모집할 수 없습니다." />
+    <string id="zFDoDbNj" text="수량" />
+    <string id="zgnEagTJ" text="영업 중단" />
+    <string id="ZgYAGfbD" text="지상 소대 수용력" />
+    <string id="ZIn8W5ZG" text="가치" />
+    <string id="ZjaSde0X" text="소유한 정착지가 왕국에 반환되었습니다. 이로써 전쟁을 방지하고 충성 서약을 저버렸다는 이유로 귀족이 당신을 덜 싫어할 것입니다." />
+    <string id="zlcMGAbn" text="이전 페이지" />
+    <string id="zLFsnaqR" text="총독 없음" />
+    <string id="zoX9akov" text="바다에서 속도가 감소합니다. 조심하세요." />
+    <string id="zrhr4rDA" text="이 군대를 해산하겠습니까? 관계 손실로 이어지게 됩니다." />
+    <string id="ZUgoQ1Ws" text="말 유형" />
+    <string id="zWaVxD6T" text="부대 속도" />
+    <string id="zZlWRZjO" text="전쟁" />
+    <string id="ZZmlYrgL" text="{FACTION} 세력이 보유한 성이 없습니다." />
+  </strings>
+</base>

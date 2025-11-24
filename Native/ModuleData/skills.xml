@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSkillData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SkillData
+		id="IronFlesh1"
+		Name="Iron Flesh 1">
+		<Modifiers>
+			<AttributeModifier
+				AttribCode="AgentHitPoints"
+				Modification="Multiply"
+				Value="1.01" />
+		</Modifiers>
+		<Documentation>Iron flesh increases hit points</Documentation>
+	</SkillData>
+	<SkillData
+		id="IronFlesh2"
+		Name="Iron Flesh 2">
+		<Modifiers>
+			<AttributeModifier
+				AttribCode="AgentHitPoints"
+				Modification="Multiply"
+				Value="1.02" />
+		</Modifiers>
+		<Documentation>Iron flesh increases hit points</Documentation>
+	</SkillData>
+	<SkillData
+		id="IronFlesh3"
+		Name="Iron Flesh 3">
+		<Modifiers>
+			<AttributeModifier
+				AttribCode="AgentHitPoints"
+				Modification="Multiply"
+				Value="1.03" />
+		</Modifiers>
+		<Documentation>Iron flesh increases hit points</Documentation>
+	</SkillData>
+	<SkillData
+		id="PowerStrike1"
+		Name="Power Strike">
+		<Modifiers>
+			<AttributeModifier
+				AttribCode="WeaponSwingDamage"
+				Modification="Multiply"
+				Value="1.08" />
+			<AttributeModifier
+				AttribCode="WeaponThrustDamage"
+				Modification="Multiply"
+				Value="1.08" />
+		</Modifiers>
+		<Documentation>Power Strike increases melee damage</Documentation>
+	</SkillData>
+	<SkillData
+		id="PowerStrike2"
+		Name="Power Strike">
+		<Modifiers>
+			<AttributeModifier
+				AttribCode="WeaponSwingDamage"
+				Modification="Multiply"
+				Value="1.16" />
+			<AttributeModifier
+				AttribCode="WeaponThrustDamage"
+				Modification="Multiply"
+				Value="1.16" />
+		</Modifiers>
+		<Documentation>Power Strike increases melee damage</Documentation>
+	</SkillData>
+	<SkillData
+		id="PowerStrike3"
+		Name="Power Strike">
+		<Modifiers>
+			<AttributeModifier
+				AttribCode="WeaponSwingDamage"
+				Modification="Multiply"
+				Value="1.24" />
+			<AttributeModifier
+				AttribCode="WeaponThrustDamage"
+				Modification="Multiply"
+				Value="1.24" />
+		</Modifiers>
+		<Documentation>Power Strike increases melee damage</Documentation>
+	</SkillData>
+	<SkillData
+		id="Runner"
+		Name="Runner">
+		<Modifiers>
+			<AttributeModifier
+				AttribCode="AgentRunningSpeed"
+				Modification="Multiply"
+				Value="2" />
+		</Modifiers>
+		<Documentation>Runner increases running speed</Documentation>
+	</SkillData>
+</ArrayOfSkillData>

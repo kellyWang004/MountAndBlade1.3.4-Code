@@ -1,0 +1,1770 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+    <string id="02E0oSJm" text="반칙! 상대가 경기장 밖에서 싸우고 있었습니다. {?OPPONENT_GENDER}상대{?}상대{\?}가 탈락했습니다!" />
+    <string id="04GuLxE1" text="본인 부대의 지도자를 변경하거나 부대를 해산할 수 없습니다." />
+    <string id="07b4Wy0h" text="기병대 선택" />
+    <string id="082FNWAD" text="자질" />
+    <string id="09ooh9I3" text="말은 상대의 홈 타일을 향해 이동합니다. 마지막 타일에 도달한 후에는 자신의 홈 타일을 향해 거꾸로 이동합니다. 이동 중에 적 말을 포획할 수 있습니다." />
+    <string id="0amC7X1h" text="선전포고" />
+    <string id="0DiBS84d" text="자비로움" />
+    <string id="0g7MZCAK" text="작업장 수입" />
+    <string id="0GZ19XHb" text="마구" />
+    <string id="0hCHIcVk" text="기마 상태에서 교전하라" />
+    <string id="0IjUokET" text="얼마죠? 얼마입니까? 서두르세요.[ib:hip][rf:convo_angry]" />
+    <string id="0j9JnMNB" text="{ITEM_NAME} 가져감" />
+    <string id="0JyRvjSF" text="우리의 계획은 방어선을 구축하는 것이다." />
+    <string id="0LgxcCbL" text="명령 {NUMBER}" />
+    <string id="0mDkVTWn" text="영웅" />
+    <string id="0qCbsOif" text="피스톨" />
+    <string id="0RkO7oHP" text="대장" />
+    <string id="0rsySqR6" text="{YEAR}년 {DAY_OF_YEAR}, 당신은 제국의 적을 동맹으로 만들기 위해 그림자 속에서 음모를 꾸미고 있다는 소문을 들었습니다." />
+    <string id="0T3bP5r6" text="{DAY}{?PLURAL_DAYS}일{?}일{\?}" />
+    <string id="0V4jIIju" text="포위를 위해 {SETTLEMENT_NAME}(으)로 이동 중입니다." />
+    <string id="0zNzaDGq" text="칼날" />
+    <string id="0zz1iDMY" text="족장" />
+    <string id="11aiaODt" text="발 방어구" />
+    <string id="13q8IRfZ" text="내 여자 형제 {REFERING_HERO.LINK}" />
+    <string id="1AcoIQVl" text="습격을 위해 {SETTLEMENT}에 도착했습니다. 일부 주민들이 당신과 맞서 싸우기 위해 모였습니다. 이 마을을 습격하면 {KINGDOM}와(과)의 전쟁이 일어납니다." />
+    <string id="1asbVsat" text="생포하려면 내 말이 상대의 말을 양쪽에서 포위해야 합니다.{newline}중앙 타일에 접근하지 못하도록 막는 방식으로도 말을 포획할 수 있습니다. 이는 양쪽 플레이어에게 동일하게 적용됩니다." />
+    <string id="1BSSOa8a" text="초갑옷" />
+    <string id="1cd6u0qn" text="관문을 열고 힘차게 떠나세요!" />
+    <string id="1dLZLQsY" text="소대에 기부합니다.{newline}이 행동은 취소할 수 없습니다." />
+    <string id="1E6hFc0r" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 후방으로 이동하는 적을 상대로 방어선을 구축 중입니다." />
+    <string id="1HPITLca" text="포로 규모 제한 초과" />
+    <string id="1ICTi9xQ" text="수비군이 달려 나와 {BESIEGER_LEADER.NAME}의 공성 야영지를 공격합니다" />
+    <string id="1KcIeYe2" text="캐릭터와 대화하려면 같은 위치에 있어야 합니다." />
+    <string id="1klXxZFS" text="난 {TOWNS}의 여주인이라네." />
+    <string id="1Llb4gGw" text="완료" />
+    <string id="1m8zRjs8" text="{YEAR}년 {DAY_OF_YEAR}, {CLAN_NAME}이(가) {KINGDOM_FORMALNAME}에 합류했습니다." />
+    <string id="1MStGeRa" text="제압한 상대: {BEATEN_OPPONENT_COUNT}" />
+    <string id="1o1TyPib" text="추가 동료 제한" />
+    <string id="1PwQxaOu" text="마상 시합 준비가 한창인 것 같습니다" />
+    <string id="1pxLpZ4r" text="계산 중:" />
+    <string id="1wkANMRC" text="우리의 계획은 이 좁은 협로를 사수하는 것이다." />
+    <string id="1XE7yeaP" text="이 포로가 {CONFORMITY_AMOUNT}의 순응도를 얻으면 1명의 포로를 추가로 모집할 수 있습니다." />
+    <string id="1XVvU23F" text="클립보드 텍스트를 본문 속성 키로 사용할 수 없습니다!" />
+    <string id="1z0rLrhs" text="아버지" />
+    <string id="1Zq8mzzJ" text="자, 어떤 날파리가 거미줄에 걸려들었는지 확인해 봅시다.[rf:convo_mocking_revenge]" />
+    <string id="21t7Ev03" text="감금되었을 때는 이 행동을 할 수 없습니다." />
+    <string id="22FUKSQb" text="이 스킬을 사용하여 레벨을 올리면 이 스킬용 경험치 {REQUIRED_XP_FOR_NEXT_LEVEL}xp를 얻습니다." />
+    <string id="22tbyEYI" text="{PARTY_NAME}에게 {ITEM} {COUNT}개를 받았습니다." />
+    <string id="24L5DoQt" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 주요 위치를 방어 중입니다." />
+    <string id="25MeMNbP" text="오른쪽" />
+    <string id="29bsCzkn" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 안전한 곳으로 후퇴하고 있습니다." />
+    <string id="2a33tk2f" text="일일 프로젝트" />
+    <string id="2Af5HRJU" text="마을 중요 인물" />
+    <string id="2AhTA1ba" text="우리 소대가 성으로 퇴각하고 있습니다." />
+    <string id="2aXJEgag" text="군사력: {ARMY_STRENGTH}" />
+    <string id="2CfPklXG" text="군대 이름" />
+    <string id="2CgZVkDj" text="집정관" />
+    <string id="2ER5aj0R" text="슬링용 돌" />
+    <string id="2EzfAklA" text="{HERO.NAME}에게 {ITEM} {COUNT}개를 줬습니다." />
+    <string id="2gpFPuZZ" text="잔인함" />
+    <string id="2Ja8KYVg" text="공격적" />
+    <string id="2JnLh6F0" text="기만적임" />
+    <string id="2Jr3zWQz" text="말과 마구" />
+    <string id="2Mic7nhz" text="부대의 누구도 명령을 완료할 {SKILL} 스킬이 충분하지 않습니다." />
+    <string id="2noOKM5N" text="귀속 정착지 거래" />
+    <string id="2qjkY4yu" text="무역 협정" />
+    <string id="2RFda5ph" text="보상으로 {GOLD_AMOUNT}{GOLD_ICON}를 받았습니다." />
+    <string id="2RIyK1bp" text="무기" />
+    <string id="2Sal30D2" text="소유자 영향력 +{BONUS_AMOUNT} 추가" />
+    <string id="2u3dRUlE" text="{SETTLEMENT_NAME} (세금)" />
+    <string id="2UCptBFi" text="스투르지아인" />
+    <string id="2W2l9Kym" text="궁극의 지도자 특성 추가 효과" />
+    <string id="2X1rBrdC" text="{DAY_VALUE}일 {HOUR_VALUE}시간" />
+    <string id="300TAI7u" text="모두 판매" />
+    <string id="32v8ryKV" text="공성전 시작 시 발리스타 +{BONUS_AMOUNT}" />
+    <string id="33ghdWWi" text="다른 정책" />
+    <string id="33hHRM8r" text="상대 차례" />
+    <string id="36hbMBhb" text="{YEAR}년 {DAY_OF_YEAR}, {FORMAL_NAME}은(는) 소멸했으며, 당신이 희망했던 대로 제국을 {?PLAYER_WANTS_RESTORE}복원{?}멸망{\?}시킨다는 소명은 이루지 못하게 되었습니다." />
+    <string id="3cTKRX1M" text="본 적 없음" />
+    <string id="3Ds5ARHL" text="상인" />
+    <string id="3E0ZXV7j" text="정책 결정 결과" />
+    <string id="3EGllWkd" text="북부 제국" />
+    <string id="3fAm8FaM" text="그렇다면 좋다... 아버지께서는 말씀하셨지. 누구도 죽이지 않는다면 그건 여정이라 부를 가치가 없다고." />
+    <string id="3FUaZk5A" text="숙녀분" />
+    <string id="3gkb0YCn" text="지금 후퇴하거나 병력을 지휘하세요!" />
+    <string id="3IGjY8RG" text="자유롭게 교전하라" />
+    <string id="3IpiWM7H" text="도적" />
+    <string id="3JE8EGH1" text="지금은 영웅을 처형할 수 없습니다" />
+    <string id="3jSl2v41" text="주군 소대의 일일 경험치 +{BONUS_AMOUNT} 추가 효과" />
+    <string id="3KD1KqHp" text="공성탑 (2레벨)" />
+    <string id="3l8HsbHK" text="헤... 현명한 선택을 했군. 이쪽으로 와서 다시 거래를 진행하도록 하지.[ib:closed][rf:convo_bemused]" />
+    <string id="3lZchBXQ" text="{ISSUE_NAME}: 소대가 문제를 해결하지 못했습니다." />
+    <string id="3o6FDRsq" text="점령한 도시" />
+    <string id="3Oit0vGb" text="계속할 경우 이 부대는 클랜 구성원이 이동하는 {TRAVEL_DURATION} 동안 지도자가 없는 상태가 됩니다. 해당 부대는 새 지도자가 오기 전까지 어떤 군대 소속도 될 수 없습니다.{?DOES_LEADER_NEED_GOLD}{newline}{newline}{PARTY_COST}{GOLD_ICON}의 비용이 필요합니다.{newline}{newline}{?} {\?}계속하시겠습니까?" />
+    <string id="3qFPyJtB" text="{SETTLEMENTS_NAME}에서 대기 중입니다." />
+    <string id="3sWa2Hmt" text="내 아들 {REFERING_HERO.LINK}" />
+    <string id="3tJq5QyQ" text="{HEALTHY_NUM}+{WOUNDED_NUM}부상" />
+    <string id="3TXGG01D" text="잘 선택하셨습니다{?PLAYER.GENDER}{?}{\?}. 내 부하들은 약속을 지키는 법을 알며 밥값도 충분히 해낼 수 있습니다.[ib:convo_approving]" />
+    <string id="3uR8wLko" text="우리 군왕 {REFERING_HERO.LINK}" />
+    <string id="3vT6TQmF" text="{PLAYER.LINK}, 넌 {SIDE_STRING} {CLASS_NAME}에 들어간다." />
+    <string id="3wS4uOvU" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 뒤에서 소규모 접전을 벌이고 있습니다." />
+    <string id="3xeuA9VP" text="+{TROOP_AMOUNT}개 소대{?ISPLURAL}{?}{\?}를 정착지로" />
+    <string id="3xIv2cP9" text="고지 사수" />
+    <string id="3XsOeE2v" text="{TRADE_AMOUNT}{GOLD_ICON}를 {?PAY_OR_GET}수령{?}지불{\?}합니다." />
+    <string id="3ZRTekjS" text="장갑" />
+    <string id="4AQmS4iA" text="주둔군 한도 +{BONUS_AMOUNT} 추가" />
+    <string id="4bq2mUf1" text="왕국 생성 가능" />
+    <string id="4BQaqqzg" text="안보:" />
+    <string id="4H1nDlBO" text="주간 급여" />
+    <string id="4Hdcxk0a" text="공격적" />
+    <string id="4jLW7hag" text="군대에서 해고" />
+    <string id="4kKxsVzZ" text="동맹 {ALLEY_NAME}이(가) {TOWN}에서 생포되었습니다." />
+    <string id="4KXvyxrK" text="귀속 정착지" />
+    <string id="4l3BLxBC" text="공성탑에서 발사하라" />
+    <string id="4M8h8ufy" text="양손으로 사용 불가" />
+    <string id="4ml9Bx6i" text="멀티 플레이어 특성" />
+    <string id="4mMXsVGb" text="여관 게임 호스트" />
+    <string id="4nv6LzDp" text="머스킷" />
+    <string id="4okzoXIw" text="동료" />
+    <string id="4ol7MhA5" text="적에 의해 고립되었습니다. 하지만 부하들이 싸울 수 있는 상태가 아닙니다." />
+    <string id="4qaunexe" text="캐러밴 방문율 증가" />
+    <string id="4QAwbFcQ" text="인근 은신처" />
+    <string id="4RIMHAHW" text="부하들이 근처의 몇몇 젊은이들을 신병으로 삼고자 억지로 붙잡았지만, 다른 젊은이 몇 명은 무기를 집어 들었습니다. 계속한다면 싸움이 벌어질 것입니다." />
+    <string id="4rRsmX8i" text="좋아. 경우에 따라서는 양을 먹는 것보다 털을 깎는 편이 나을 수도 있지." />
+    <string id="4tdVrFtU" text="31" />
+    <string id="4U6x48yQ" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 전투를 지휘하고 있습니다." />
+    <string id="4WD0kJSR" text="으으... 우리에게 장난치지 않는 게 좋을 거야." />
+    <string id="4wYguFLZ" text="문제 해결" />
+    <string id="4Y5T7wp1" text="가족은 클랜에서 추방할 수 없습니다." />
+    <string id="4ytmLxOy" text="임신" />
+    <string id="59hbrhfY" text="소대의 현재 XP" />
+    <string id="59PSpyu8" text="귀속 정착지: {SETTLEMENT_LINK}" />
+    <string id="5a4cY5az" text="공성전 중에는 이 행동을 할 수 없습니다." />
+    <string id="5aElrlUt" text="용병 보수" />
+    <string id="5bqmaciE" text="{ARMY_MEMBER}이(가) 군대에 있을 예정" />
+    <string id="5cGXHF1a" text="오늘" />
+    <string id="5CYdyMzj" text="남음" />
+    <string id="5DBDy2si" text="적을 고립시켰습니다." />
+    <string id="5eH0lCEO" text="이 튜토리얼 단계 비활성화" />
+    <string id="5H0cDmm1" text="이 캐릭터의 레벨을 올리려면 총 {SKILL_LEVEL_FOR_LEVEL_UP}의 스킬 점수를 획득해야 합니다." />
+    <string id="5IOct2ob" text="명령 요건" />
+    <string id="5jVYwNCQ" text="미지급된 급여" />
+    <string id="5k4dxUEJ" text="소대" />
+    <string id="5kS1qjZL" text="이 정착지에는 이미 논의 중인 안건이 있습니다." />
+    <string id="5lDYh7wJ" text="적을 상대로 방어벽을 건설했지만 남은 말 수가 적어 게임에서 패배했습니다!" />
+    <string id="5lT70YJY" text="{YEAR}년 {DAY_OF_YEAR}, 당신은 제국의 적을 상대할 목적으로 군세를 합하고자 두 라이벌 제국 세력이 비밀 조약을 맺었다는 소문을 들었습니다." />
+    <string id="5pGjYBFn" text="받은 공물" />
+    <string id="5QN7SFNW" text="III" />
+    <string id="5S1zPgTm" text="제국" />
+    <string id="5SQaiYXi" text="반칙입니다! 상대의 말을 공격하면 안 됩니다. 탈락했습니다!" />
+    <string id="5T7nyzda" text="듣던 중 반가운 소리로군. 살인은 우리에게 있어서도 힘든 일이야." />
+    <string id="5U70lB7k" text="{KEY} 키를 눌러 숨기" />
+    <string id="5UpDD9eS" text="10" />
+    <string id="5WJbtDqp" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 아군 뒤에서 소규모 접전을 벌이고 있습니다." />
+    <string id="5WWbQRQ5" text="상대가 더 이상 점프(점령)할 수 없으면 플레이어가 승리합니다." />
+    <string id="5X9Sq4T4" text="영주 {NUM}명" />
+    <string id="5XFDdsHf" text="왕위 양도" />
+    <string id="5ZPp8btH" text="흥정 제안이 수락되었습니다!" />
+    <string id="640qFpJ8" text="{DAY}{?PLURAL_DAYS}일{?}일{\?}, {HOUR}{?PLURAL_HOURS}시간{?}시간{\?}" />
+    <string id="65QqsaKe" text="잘못된 편에 있습니다!" />
+    <string id="6b1RXicd" text="개선된 공성추" />
+    <string id="6bex2HUl" text="대부분은 그럭저럭 생활하는 것처럼 보이지만, 많은 사람이 분노하고 있습니다. 당신은 몇몇 행인들이 인내의 한계를 토로하는 내용을 엿듣습니다. 당신은 뭔가 일이 벌어지고 있음을 느낍니다." />
+    <string id="6DZx6jTA" text="모집 가능한 포로" />
+    <string id="6e82kCVB" text="로우그립 폴암" />
+    <string id="6G5RFyr1" text="왕 지원" />
+    <string id="6GmsZ7AG" text="{PARTY_NAME}에 {ITEM} {COUNT}개를 줬습니다." />
+    <string id="6GSXsdeX" text="속도" />
+    <string id="6gvDrbe7" text="모집 비용" />
+    <string id="6Jx6qbZn" text="{?IS_GENERAL_SIDE}{?} {SIDE_STRING}{\?} 벽 방어" />
+    <string id="6kqK0kUn" text="방어만 하고 있을 필요는 없다. 주변을 정찰하라." />
+    <string id="6OZycZbc" text="클랜에 새 부대를 이끌 영웅이 없습니다." />
+    <string id="6pNrNj93" text="벽" />
+    <string id="6RDRxvaC" text="찌르기 공격으로 기수를 떨어뜨릴 수 있습니다." />
+    <string id="6S5JjlP2" text="커버" />
+    <string id="6SFktFH3" text="중간 방어구" />
+    <string id="6UUymZhL" text="제국" />
+    <string id="6UVm8RYL" text="{PRISONER_FACTION_LINK}의 {PRISONER_LORD.LINK}은(는) 이제 자유입니다." />
+    <string id="6Xl9F8Oa" text="도시 내 상점" />
+    <string id="6XYG7bux" text="{AMOUNT}{INFLUENCE_ICON}을 소모합니다." />
+    <string id="72Rasm5f" text="우린 아무 것도 없어. 은도 물건도..." />
+    <string id="7663BDwd" text="주둔군 ({CURRENT})" />
+    <string id="77aNVVE0" text="명성 추가 효과" />
+    <string id="77SdNt8C" text="상대가 당신을 상대로 방어벽을 건설했으며 남은 말 수가 적어 게임에서 패배했습니다!" />
+    <string id="79cOhac4" text="일단은 충분해. 무사히 여행하시게. 또 볼 수 있었으면 하네.[ib:closed][rf:convo_bemused]" />
+    <string id="7a3aryUB" text="동물" />
+    <string id="7acrOvmJ" text="원거리 무기 I" />
+    <string id="7AOOQ5iB" text="어려움에도 불구하고 불평하는 사람은 많지 않습니다. 그리고 백성들은 통치자가 자신들을 이끌어 역경에서 벗어나게 해주리라 믿는 것 같습니다." />
+    <string id="7aYV4L9z" text="+{NUMBER}" />
+    <string id="7b60SOvI" text="{YEAR}년 {DAY_OF_YEAR}, {KING_NAME}은(는) {TITLE_NAME}이(가) 되었습니다." />
+    <string id="7chepLLh" text="{?IS_GENERAL_SIDE}{?}{SIDE_STRING} 측면 {\?}공성 무기 파괴" />
+    <string id="7cMUohRm" text="시뮬레이션된 전투를 지휘하세요. 열세를 극복하고 전투에서 승리하세요. 필요하다면 소대를 희생하여 교전에서 벗어나세요." />
+    <string id="7cnb2iEb" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 소규모 접전을 벌이고 있습니다." />
+    <string id="7EnFh9e5" text="위치: {LOCATION}" />
+    <string id="7EVjgrFW" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 드문드문 소규모 접전을 벌이고 있습니다." />
+    <string id="7fjOwwVH" text="물론이야. 팁을 알려주지. 최근에 어떤 상인과 이야기를 나눴는데 {SETTLEMENT}에서 {ITEM_NAME} 상품을 {BUY_COST}{GOLD_ICON}에 사서 {DESTINATION}에서 {SELL_COST}{GOLD_ICON}에 팔았다더군." />
+    <string id="7h6cXdW7" text="공병대장" />
+    <string id="7hj7Kaoz" text="총 수입" />
+    <string id="7IqpjCDY" text="포로를 처형하면 평판에 부정적인 영향을 미치고 포로가 속한 세력 또는 클랜과의 관계가 악화됩니다.{newline}이 행동은 취소할 수 없습니다.{newline}이 캐릭터를 처형하시겠습니까?" />
+    <string id="7j4fQHg7" text="숲 전투{newline}{newline}• 보병이 작은 추가 효과를 받습니다.{newline}• 궁병이 중간 정도의 불이익을 받습니다.{newline}• 기병대가 큰 불이익을 받습니다.{newline}• 궁기병이 심각한 불이익을 받습니다." />
+    <string id="7JpAR59k" text="물건을 나르는 데 사용" />
+    <string id="7llkDelg" text="왕국의 결정" />
+    <string id="7mRN2br0" text="{HERO_NAME}에게 대형 지휘 자격이 주어졌습니다." />
+    <string id="7MSuWxaY" text="{CHILD.NAME}의 나이가 {CHILD.AGE}세가 되었고 {?CHILD.GENDER}아이{?}아이{\?} 발달에 당신의 지도가 필요합니다." />
+    <string id="7MWaMaez" text="우리가 가진 건 {ITEM_LIST} 뿐입니다. 다 가져가도 좋으니 목숨은 살려주십시오." />
+    <string id="7oJ9gIeT" text="상인이 가진 돈이 부족합니다." />
+    <string id="7pAZatbz" text="{?RULER.GENDER}여제{?}황제{\?} {RULER.NAME}" />
+    <string id="7sUhWG0E" text="찌르기 피해: " />
+    <string id="7sZMMYbe" text="군소 세력" />
+    <string id="7t1daAel" text="이 사람 이거... 후회할 텐데.[ib:aggressive][if:convo_very_stern]" />
+    <string id="7UNcl2xi" text="포로 모집 불가" />
+    <string id="7uzvI8e8" text="왕국의 예산 경비" />
+    <string id="7vdgxtwo" text="IV" />
+    <string id="7vrdpDFK" text="&lt;b&gt;망고넬&lt;/b&gt;{NEWLINE}비틀림 응력이 걸린 끈을 활용하여 먼 곳에 돌을 던집니다.{NEWLINE}벽, 적 공성 장비 및 조작자 모두에게 공평하게 효과적입니다." />
+    <string id="7W79uw0y" text="기본값으로 돌아가기" />
+    <string id="7Wcnipag" text="14" />
+    <string id="7WFFCVMa" text="특수" />
+    <string id="7xFRFV0P" text="원형 방어진을 형성합니다." />
+    <string id="7Ywub9bC" text="수비군이 여전히 요새를 장악하고 있습니다." />
+    <string id="7zaMwF08" text="{SETTLEMENT}을(를) 습격하던 중, {PARTY}이(가) 마을을 도우러 왔습니다. 당신은..." />
+    <string id="7zUWqY3O" text="왼쪽" />
+    <string id="80hwCw7B" text="반란 중 민병대 -{BONUS_AMOUNT_PERCENT}% 감소" />
+    <string id="83Yt9rbK" text="돌파당함" />
+    <string id="87qtKk4K" text="라운드 관전" />
+    <string id="87vr9BHq" text="{SETTLEMENT_NAME}의 뒷골목을 이끌고 있음" />
+    <string id="88kOYf0b" text="인력" />
+    <string id="893hzVCQ" text="&lt;b&gt;몽고넬 발사&lt;/b&gt;{NEWLINE}그리스의 불을 채운 병을 던집니다. 이미 치명적인 몽고넬의 화력에 화염을 더합니다." />
+    <string id="8apwrVjc" text="추가 클랜 부대" />
+    <string id="8B7V0qdT" text="전투에서 패배했습니다!" />
+    <string id="8bSHlWBL" text="이 도시에서는 현재 진행 중인 마상 시합이 없습니다." />
+    <string id="8c8NDpAd" text="{HERO.NAME}이(가) {TRAIT_NAME} 자질을 획득했습니다." />
+    <string id="8cY08v3s" text="중산층 마을입니다. 사람들과 가축들 모두 영양 상태가 좋습니다. 마을 주민들은 계절 일과를 소화하느라 분주합니다." />
+    <string id="8fLMcFFG" text="{YEAR}년 {DAY_OF_YEAR}, 당신은 용의 깃발을 휘날리며 제국을 {?PLAYER_WANTS_RESTORE}복원{?}멸망{\?}시킨다는 당신의 사명을 선포했습니다." />
+    <string id="8geYNpC9" text="투사체{THRUST_DAMAGE_TYPE} 피해: " />
+    <string id="8Gh3Waa3" text="아내" />
+    <string id="8iLzK3Y4" text="캐러밴 및 부대 수입" />
+    <string id="8iONwXCz" text="22" />
+    <string id="8J7ABQhb" text="귀족 기마 부대" />
+    <string id="8Jb61k7G" text="(+{GAIN_AMOUNT} 응집력)" />
+    <string id="8kVhiTmu" text="다음 등급:" />
+    <string id="8l8xEu64" text="구매 및 장착" />
+    <string id="8LhfzIQE" text="부상" />
+    <string id="8mBT44QK" text="{FACTION_INFORMAL_NAME}의 귀족" />
+    <string id="8oaVYIlk" text="현재 {SETTLEMENT_NAME} 외부에 있습니다. 적이 소유한 성이므로 들어갈 수 없습니다." />
+    <string id="8Rkxc5jE" text="식량 없음" />
+    <string id="8rzcgCO5" text="정렬 기준" />
+    <string id="8ucLajpU" text="한손 도끼" />
+    <string id="8UFjXbbW" text="{?IS_GENERAL_SIDE}{?} {SIDE_STRING} 측면 {\?}공격" />
+    <string id="8ZZgNNaY" text="{USE_KEY}" />
+    <string id="923438xA" text="아주 좋습니다, {PLAYER.LINK}. 당신은 무려 {OPPONENT_COUNT}명의 상대를 제압하는 데 성공했습니다. 당신의 활약에 군중은 열광했습니다. 게다가 상금으로 {PRIZE}{GOLD_ICON}을 획득했습니다." />
+    <string id="929Lxhde" text="군대를 버리면 {INFLUENCE_COST}의 영향력을 잃게 됩니다." />
+    <string id="92M0Pb5T" text="정찰병" />
+    <string id="984Ink0j" text="화살" />
+    <string id="9B5kxWb8" text="다른 부대의 소대 한도가 초과되었습니다.{newline}임시로 소대는 유지되겠지만 어느 정도의 시간이 지나면 빠르게 부대를 저버릴 것입니다.{newline}계속하시겠습니까?" />
+    <string id="9Bm06EEJ" text="이 정도의 번영을 이룬 통치자의 지혜는 많은 칭송을 듣게 마련입니다." />
+    <string id="9C0J0ZkT" text="보병 엄호 지역에서 발사하라." />
+    <string id="9dcQ2VZv" text="우리의 계획은 궁병 소대 주변에 원형 방어진을 구축하는 것이다." />
+    <string id="9ECleB7I" text="말에서 내려 상대와 결투하여 승리하세요!" />
+    <string id="9EgIraI1" text="시행 중인 정책" />
+    <string id="9esIWdDC" text="그렇다면 자네를 본보기로 삼을 수 밖에 없네. 자비를 구걸하지는 말게.[ib:aggressive][if:convo_bared_teeth]" />
+    <string id="9FhdRKWu" text="투척 나이프" />
+    <string id="9gNjg4P0" text="게임이 저장되지 않으며 기본 메뉴로 돌아갑니다. 종료하시겠습니까?" />
+    <string id="9iycVtyV" text="학습률: x {COUNT}" />
+    <string id="9Lhd2zVW" text="{YEAR}년 {DAY_OF_YEAR}, 세 번째 용의 깃발 조각을 찾았습니다. 이제 다시 한번 깃발을 휘날릴 준비가 되었습니다." />
+    <string id="9NjDfz5Z" text="({LEFT} / {RIGHT})" />
+    <string id="9PLNQrWw" text="불평이 적고 백성들이 나라를 신뢰하는 것으로 보입니다." />
+    <string id="9pwIt4aa" text="왁스{@Plural}왁스{\@}" />
+    <string id="9yffPYUl" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 돌격하고 있습니다." />
+    <string id="9zpZRkYz" text="프로젝트를 촉진하면 건설에 +{BOOST}이(가) 추가되며 비용은 하루 기준 {COST}데나르입니다." />
+    <string id="a0mJ0cVV" text="소모" />
+    <string id="A0sT86A3" text="선택한 전쟁 없음" />
+    <string id="a0TiMLJ4" text="메인 메뉴" />
+    <string id="a0YMy8E5" text="업그레이드하려면 {REQUIRED_ITEM}이(가) 필요합니다." />
+    <string id="a10WGnBr" text="반칙입니다! 경기장 밖에서 싸우면 안 됩니다. 탈락했습니다!" />
+    <string id="a15eUf3B" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 성벽 안에서 적과 싸우고 있습니다." />
+    <string id="A2OUHE2S" text="공성전 시작 시 투석기 +{BONUS_AMOUNT}" />
+    <string id="a3hmB91k" text="공성 장비를 제작하여 사용하세요. 공성전 공격이나 방어에 잘 사용하세요." />
+    <string id="A3T5z4Mv" text="방어적" />
+    <string id="a3uKkLez" text="{LORD.LINK}이(가) {SETTLEMENT_NAME} 근처의 전장에 있습니다." />
+    <string id="a47CpGXN" text="전력" />
+    <string id="a5j1v7tM" text="당신과 대의를 함께하기를 거부한 다른 자들에게 무슨 일이 일어났는지 들었습니다. 우리는 그들처럼 되고 싶지 않으며 싸울 방법도 없습니다. 당신이 만족할 때까지 당신의 편에 서겠습니다." />
+    <string id="a6D6Ga2F" text="무기 사거리: " />
+    <string id="a6FfHHVg" text="건물 효과" />
+    <string id="A6rK2YLJ" text="{?BONUS_AMOUNT == 1}경무장 순찰 부대{?}{?BONUS_AMOUNT == 2}보통 순찰 부대{?}강력한 순찰 부대{\?}{\?}" />
+    <string id="A7dcz7Yr" text="근접 무기 II" />
+    <string id="a8zwLVKj" text="군사력" />
+    <string id="aa5tNRb9" text="치명타 성공률" />
+    <string id="AagJ9cSL" text="{?ASKED_LORD.GENDER}그녀{?}그{\?}가 어디 있는지 모릅니다." />
+    <string id="aaQtzfjL" text="훌륭합니다{?PLAYER.GENDER}{?}{\?}. 돈과 와인만 끊기지 않게 해주신다면 칼라디아에서 어떤 적도 두려워할 필요가 없게 되실 겁니다.[ib:convo_approving]" />
+    <string id="aayrvLOX" text="출발하시지요. 안전한 여행길 되시기를." />
+    <string id="aBgnQ1MO" text="총독 임명" />
+    <string id="aBssWwIu" text="계속할 경우 {GOVERNOR.NAME}이(가) {SETTLEMENT_NAME}의 새 총독이 됩니다. 계속하시겠습니까?" />
+    <string id="abV5bff6" text="말을 포획했습니다." />
+    <string id="acbkKbT0" text="뭔가 다른 조치를 취해야 하네." />
+    <string id="aCkzVUCR" text="내구도: " />
+    <string id="aCP5ZBbp" text="관계:" />
+    <string id="ADJQa8am" text="용병단이 다른 클랜을 지원할 수 없습니다." />
+    <string id="adtqbbGU" text="군대 지도자까지의 거리" />
+    <string id="aebVkHyA" text="전투를 그만두시겠습니까?" />
+    <string id="aECQrlkM" text="적 공성 장비를 파괴하세요!" />
+    <string id="aepux62p" text="소유권 결정이 완료될 때까지 정착지를 합병할 수 없습니다." />
+    <string id="AewK9qME" text="정착지 수입" />
+    <string id="af4G3RYV" text=" (전투)" />
+    <string id="agIbuP9a" text="헤! 새파랗게 멍이 들었군. 하지만 걱정 말게. 항상 이길 수는 없지 않은가. 중요한 건 몸을 일으켜 먼지를 털어낸 후 계속해서 싸우는 거라네. 용사라면 당연히 그래야지." />
+    <string id="agkgu85j" text="{SETTLEMENT}에 공성전을 하기 위해 도착했습니다." />
+    <string id="aGNfjmsz" text="&lt;b&gt;사다리&lt;/b&gt;" />
+    <string id="aGSMGMfn" text="자비:" />
+    <string id="agYpWI9u" text="성공률" />
+    <string id="aH4KnzBu" text="신중함" />
+    <string id="AhcKMabs" text="습격당한 마을" />
+    <string id="aHKwty74" text="행동 취소" />
+    <string id="aHu7bgbx" text="{YEAR}년 {DAY_OF_YEAR}, {HERO_NAME}이(가) 성인이 되었습니다." />
+    <string id="AI2Spvw0" text="선택" />
+    <string id="AIh1Ik4A" text="칼라디아 제국" />
+    <string id="aiX4b5kS" text="완료한 퀘스트" />
+    <string id="AIYWSAyK" text="거래로 수익을 얻고 캐러밴을 운영합니다." />
+    <string id="aJAMnniz" text="{LEFT} &amp; {RIGHT}" />
+    <string id="aJoNj6JX" text="짧은 양손 무기로 싸웁니다." />
+    <string id="aJXhsjmT" text="반갑군, 여행자여. 당신의 뼈가 사막에 던져져 재칼에게 씹히는 꼴을 보고 싶지 않거든 우리가 원하는 걸 내놓으시오." />
+    <string id="ajZTZoXQ" text="양손 메이스" />
+    <string id="AkgIYqHT" text="술타나" />
+    <string id="AkUpgiBl" text="{TIER_LEVEL} 등급" />
+    <string id="alEG3BOa" text="{CLAN_LEADER}와(과)의 관계가 {MAGNITUDE} 증가했습니다. (현재 수치: {VALUE})" />
+    <string id="AMhvD9om" text="군대 지휘관" />
+    <string id="anrHk7ea" text="{PARTY}이(가) 적 공격을 주도하고 있습니다. 소대를 데리고 {?ARMY_COMMANDER_GENDER}그녀{?}그{\?}와 합류합니다." />
+    <string id="aNSAaHk9" text="바그 찰은 양(백)과 늑대(흑)의 승부를 다룬 놀이입니다.{newline}늑대는 게임판 네 모퉁이에서 4개의 말을 가지고 시작합니다. 서로 차례가 돌아올 때마다 게임판에는 양 한 마리가 놓이며, 모든 양이 게임판에 놓일 때까지 한 마리의 늑대가 움직이거나 포획을 합니다.{newline}양이 전부 놓이면 그때부터 양도 게임판에서 움직일 수 있습니다." />
+    <string id="anSH3M5W" text="{NUM1} x {NUM2}" />
+    <string id="aOvxxLZ8" text="식량 다양성" />
+    <string id="Aph8CcKO" text="무료 능력치 점수: 이 점수를 사용하면 능력치가 증가합니다. {ATTRIBUTE_EVERY_LEVEL}레벨을 올릴 때마다 무료 능력치 1개를 얻습니다. " />
+    <string id="aqCj9dhC" text="방어만 하고 있을 필요는 없다. 정착지를 포위하라!" />
+    <string id="AqHr4nRR" text="4" />
+    <string id="aR4e8B2A" text="II" />
+    <string id="archers" text="궁병" />
+    <string id="arfabNbu" text="{YEAR}년 {DAY_OF_YEAR}, {NAME}이(가) 전사했습니다." />
+    <string id="arHXmqqc" text="베이" />
+    <string id="ARQY0vAz" text="조우 중에는 군대를 관리할 수 없습니다" />
+    <string id="arWaVMpe" text="적의 공성 장비에 맹습을 퍼부어 파괴해야 한다." />
+    <string id="aS3xHcD4" text="아들" />
+    <string id="asHzEWnG" text="그렇다면 바닥을 네 피로 적시는 수밖에 없겠 군." />
+    <string id="AT5aTROe" text="7" />
+    <string id="AtFv5RMW" text="공물 지급금" />
+    <string id="ATsEQh7m" text="{SEASON}{?SEASON_IS_PLURAL}계절{?}계절{\?}" />
+    <string id="AtulqwTG" text="부대장 변경" />
+    <string id="AUDv8sEt" text="진행 중인 문제" />
+    <string id="aUNYlvbN" text="습격을 위해 {SETTLEMENT}에 도착했습니다. 일부 주민들이 당신과 맞서 싸우기 위해 모였습니다." />
+    <string id="AUOio5Tu" text="일일 기본" />
+    <string id="AVQUGwTg" text="중간 정도로 부유한 도시입니다." />
+    <string id="aVxmM2h1" text="점령한 성" />
+    <string id="AWW0T6xR" text="말은 한 번에 한 타일씩 직각으로 움직일 수 있습니다.{newline}말은 이전 턴에 위치했던 타일로 돌아갈 수 없습니다{newline}플레이어가 움직일 수 없는 경우 해당 플레이어는 상대의 말 중 하나를 제거한 후 계속해서 이동할 수 있습니다." />
+    <string id="aY2SKxqG" text="저들의 마을을 습격하라!" />
+    <string id="b0Mv6mZy" text="성 위치를 되찾으십시오!" />
+    <string id="b0yJ9JsW" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 성벽을 공격하고 있습니다." />
+    <string id="b1c0Sh4A" text="21" />
+    <string id="B1j4F6i7" text="{?DAY_IS_PLURAL}일{?}일{\?}" />
+    <string id="b1Ra7gHa" text="원거리 무기 II" />
+    <string id="b1vtY2yU" text="예상 결과" />
+    <string id="b5DWVsOZ" text="{HERO.NAME}이(가) 전사 했습니다." />
+    <string id="B5J6DbpG" text="식량 잔여 기간: {REMAINING_DAYS}{newline}{newline}총 식량: {TOTAL_FOOD_AMOUNT}{newline}일일 소비량: {DAILY_FOOD_CONSUMPTION}" />
+    <string id="b5t34yLX" text="마구" />
+    <string id="b6biU4f1" text="새 부대 생성" />
+    <string id="b778BvfW" text="이 아이템은 평균 가격 대비 {PERCENTAGE}% 더 비쌉니다." />
+    <string id="b7aDfCR9" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 방어하고 있습니다." />
+    <string id="b7bWCXbk" text="이제 그만 가거라, 어린 양아. 그리고 다른 늑대 무리를 조심하거라." />
+    <string id="b7U3Gvuu" text="분노한 주민들 중 일부는 최근에 당신의 요구를 들어줬다고 말합니다. 멈추지 않으면 싸움이 벌어질 것 같습니다." />
+    <string id="baFazbmR" text="철{@Plural}철{\@}" />
+    <string id="baHmYsx3" text="양손 무기" />
+    <string id="bAHNQGAw" text="동맹에게 도움이 필요하다. 포위를 풀어라!" />
+    <string id="baIUUw1c" text="영향력을 소비하여 이 클랜의 영향력을 높입니다." />
+    <string id="bARwyXXZ" text="업그레이드 가능한 소대" />
+    <string id="Basxo8Hv" text="주둔군 급여 +{BONUS_AMOUNT}% 감소" />
+    <string id="bB4602W2" text="찌르기 {THRUST_DAMAGE_TYPE} 피해: " />
+    <string id="bbmrHzRF" text="{SETTLEMENT_NAME}에 클랜 구성원 보내기" />
+    <string id="bBXGPgwe" text="내 딸 {REFERING_HERO.LINK}" />
+    <string id="BbYFboh2" text="{RULER.NAME} {?RULER.GENDER}베검{?}베그{\?}" />
+    <string id="bcmlu1ml" text="{?ASKED_LORD.GENDER}그녀{?}그{\?}는 {PRISON_PARTY_LEADER.LINK}의 포로입니다." />
+    <string id="bcR8D3x2" text="{A0} 비용" />
+    <string id="BD8Mi02a" text="{ASKED_LORD.LINK}은(는) 현재 도망자입니다." />
+    <string id="BdFaNDom" text="이 영웅은 이미 뒷골목 지도자입니다." />
+    <string id="bdFJgWp3" text="수비군 깃발" />
+    <string id="Bdg4kSqC" text=" ({NUMBER_OF_MEN})" />
+    <string id="bdJtVxQp" text="{TRADE_AMOUNT}{INFLUENCE_ICON}을 {?PAY_OR_GET}얻습니다{?}잃습니다{\?}." />
+    <string id="bdQBpUba" text="정말 친절하시군요. 덕분에 빈손으로 집에 돌아갈 일은 없겠군요." />
+    <string id="bdvTPbLB" text="겨드랑이에 고정 가능" />
+    <string id="BE1scex6" text="일일 작업장 수익" />
+    <string id="bF38BIoe" text="탄 개수: " />
+    <string id="bFpLKvcS" text="칸" />
+    <string id="BFSWJKHI" text="이 클랜을 왕국에서 추방할 것을 제안합니다.(지원: {SUPPORT}%)" />
+    <string id="BftxIurV" text="{DECISION_NAME} 정책의 결정을 내려야 합니다." />
+    <string id="bg6x6Hbv" text="투구" />
+    <string id="Bg83jhCR" text="이 도시는 어려운 시기를 겪고 있는 게 분명합니다. 사람들은 굶주린 것처럼 보이며 건물 관리 상태도 형편없습니다." />
+    <string id="bg8co4he" text="학살{newline}이 행동은 취소할 수 없습니다." />
+    <string id="bh2v8n4K" text="의복{@Plural}의복{\@}" />
+    <string id="bh9U2fsZ" text="사위" />
+    <string id="BhGlPxqx" text="이동 가능한 부대만 해산할 수 있습니다." />
+    <string id="BhiOmgst" text="공성전 중" />
+    <string id="bigbrother" text="형제" />
+    <string id="bigsister" text="자매" />
+    <string id="BixmxJPX" text="가신들이 이 적에게 습격 및 공성과 같은 공격적인 행동을 더 많이 취하게 됩니다." />
+    <string id="bJ5SzaXp" text="부상병" />
+    <string id="bjxBjKH2" text="숙녀분" />
+    <string id="BkB9aOhw" text="지금은 깃발 창을 사용할 수 없습니다!" />
+    <string id="BKFcRo7f" text="손자" />
+    <string id="Bl7UdJup" text="조카" />
+    <string id="bLWyjOdS" text="몸 방어력: " />
+    <string id="Bm4yZBWb" text="당신은 {SETTLEMENT_NAME}의 감옥에 있습니다." />
+    <string id="bMjtFIba" text="딱 필요할 때 도착했군! {PLAYER.LINK}. 정말 감사하네!" />
+    <string id="BMQ5SHOH" text="말 장비 I" />
+    <string id="bN8gqxtB" text="전투 종료" />
+    <string id="BNAHlS9P" text="계속하시겠습니까? 이 행동은 취소할 수 없습니다." />
+    <string id="bNoCJyi9" text="명예로운" />
+    <string id="bO5kjF3G" text="명예:" />
+    <string id="BObPGFCw" text="습득 및 장착" />
+    <string id="bPCAdgLs" text="지휘할 대형 선택" />
+    <string id="BPVFAl7J" text="우리의 계획은 보병 주위에 모든 화력을 집중시키는 것이다." />
+    <string id="BPVmRxrA" text="{FACTION}와(과)의 동맹 형성" />
+    <string id="bPXvukDs" text="이동 및 포획" />
+    <string id="bPzyoTEF" text="그렇게 대답한 걸 후회하게 될 거다.[ib:aggressive][if:convo_insulted]" />
+    <string id="BQDrheU6" text="천{@Plural}천{\@}" />
+    <string id="brQ42NE5" text="학습 방법" />
+    <string id="BsdOl4He" text="반칙! 상대가 당신의 말을 공격했습니다. {?OPPONENT_GENDER}상대{?}상대{\?}가 탈락했습니다!" />
+    <string id="BSmAtdWF" text="포위를 풀어라!" />
+    <string id="bTAkmho7" text="업그레이드를 위해 필요한 XP: {XP_AMOUNT}" />
+    <string id="Btglp7Ij" text="본인의 클랜은 추방할 수 없습니다." />
+    <string id="btil6Rdb" text="이것 좀 보게. 산의 정령이 우리의 기도에 응답하여 성공적인 사냥을 허락해주신 모양이로군." />
+    <string id="BtnJh0j4" text="전쟁 중" />
+    <string id="buQvCDbP" text="방어를 위해 {SETTLEMENT_NAME}(으)로 이동 중입니다." />
+    <string id="BVaXBAr9" text="주사위 굴리기" />
+    <string id="bWcpv1ou" text="선택한 정착지 없음" />
+    <string id="bWVG2s2h" text="옆에 상대의 말이 있는 말만 중앙 타일로 움직일 수 있습니다.{newline}모든 말은 외부 가장자리를 따라 한 타일씩 자유롭게 움직일 수 있습니다.{newline}중앙 타일의 말은 이동 가능한 모든 타일로 움직일 수 있습니다." />
+    <string id="bWz3rWWq" text="무척 까불대는군. 그래서 얼마지?" />
+    <string id="bWzRXUbp" text="클랜 구성원 소환" />
+    <string id="BX8RG4Dj" text="응답" />
+    <string id="BxeU4zMb" text="이미 이 이름을 가진 다른 클랜이 있습니다." />
+    <string id="bXS5KHk8" text="결투에서 승리했습니다. 당신의 힘을 본 군대가 고무되었습니다. 부대가 사기를 얻습니다." />
+    <string id="BY5RMAoj" text="{ATTACKER_NAME}에게서 {AMOUNT}의 {DAMAGE_TYPE} 피해를 입었습니다({LOST_HP_PERCENTAGE}% HP)." />
+    <string id="bZJs2AQX" text="저희의 돈입니다. {MONEY}{GOLD_ICON}. 여기 물건도 있습니다. {ITEM_LIST}. 전부 가져가도 좋으니 목숨만 살려 주십시오{?PLAYER.GENDER}{?}{\?}." />
+    <string id="bzrOHiS8" text="사람들은 대놓고 나라를 욕하고 있습니다. 더 이상 잃을 것도 없다는 듯이 말입니다." />
+    <string id="C0llOApK" text="{HERO}의 군대" />
+    <string id="c1Ag8YJS" text="바타니아인들은 칼라디아 북부까지 숲이 광활하게 펼쳐져 있고 제국과 도시들이 그들의 존엄성을 침범하지 않았던 옛 시절을 여전히 기억합니다. 그들은 전투에 나설 때마다 얼굴에 칠을 하며, 심지어는 귀족들조차도 말에서 내려 거대한 도끼와 양손검을 능숙하게 다루며 싸우는 편을 선호합니다." />
+    <string id="c1g7MC9D" text="클랜 등급 추가 효과" />
+    <string id="c3cdHImi" text="상대의 말을 포획하려면 양쪽에서 말을 포위해야 합니다. 말이 상대의 말 두 개 사이로 움직이는 경우에는 포획되지 않습니다.{newline}처음에 보이는 두 이미지에서는 흰색 말이 검은색 말에 의해 포획됩니다. 마지막 두 개의 이미지에서는 포획이 이루어지지 않습니다." />
+    <string id="c4Pmtkle" text="탈것과 안장" />
+    <string id="c6Ei8Fqh" text="{FACTION_INFORMAL_NAME}의 신하" />
+    <string id="C6n2tZlQ" text="내 동맹 {REFERING_HERO.LINK}" />
+    <string id="c7bVbjD7" text="분부대로 하겠습니다. 앞으로 우리는 당신을 위해 싸우겠습니다." />
+    <string id="C9EDof32" text="선택한 군대 없음" />
+    <string id="caadBNhn" text="공성탑 (3레벨)" />
+    <string id="caaxvMcY" text="친척" />
+    <string id="CaeFx54J" text="획득한 영향력: + {INFLUENCE} {INFLUENCE_ICON}" />
+    <string id="caFEBWSY" text="상대에게 당했습니다. 패배했습니다." />
+    <string id="cAgI2lPn" text="{SETTLEMENT_NAME}의 총독" />
+    <string id="calculatinglevel3trait" text="계산적" />
+    <string id="caPP57v9" text="예비군으로 이동" />
+    <string id="CaW72yB3" text="총 비용" />
+    <string id="cBNSgpZN" text="{CLAN_NAME}과의 관계를 &lt;a style=&quot;IncreaseStyle&quot; &gt;&lt;b&gt;{AMOUNT}&lt;/b&gt;&lt;/a&gt; 획득하게 됩니다." />
+    <string id="cBY2MxY0" text="여대공" />
+    <string id="CcAG3D8Q" text="지정되지 않음" />
+    <string id="ccUEYdrU" text="군대 합류" />
+    <string id="cDjq52h2" text="하사관" />
+    <string id="centerformation" text="진중심" />
+    <string id="CgAGsR1P" text="29" />
+    <string id="chieftainfemale" text="족장" />
+    <string id="ChmM5tjf" text="무승부!" />
+    <string id="cJmI2poS" text="정보" />
+    <string id="cjZqTaHm" text="영향력이 부족합니다." />
+    <string id="CKGavOyA" text="한손 또는 양손 창이나 유사한 폴암을 사용하여 싸우세요." />
+    <string id="cKKYSB0z" text="{AMOUNT}{GOLD_ICON}를 잃었습니다." />
+    <string id="ckPhG1KV" text="통치 중인 마을" />
+    <string id="CkwERBcS" text="아군 대형 배후에서 소규모 접전을 감행하라." />
+    <string id="cmn6qNoX" text="척후병" />
+    <string id="cMrROb6w" text="수행 가능 퀘스트" />
+    <string id="cNaiQyva" text="16" />
+    <string id="coastalPatrolPartyName" text="{SETTLEMENT} 해안 순찰대" />
+    <string id="CObuCGjA" text="{CLAN_NAME}의 결혼 제안" />
+    <string id="CODsu5Ok" text="새 캠페인" />
+    <string id="COhJ2HsU" text="{HOUR}시간 후에 자동으로 결정됩니다." />
+    <string id="CoHPb7DL" text="우리의 계획은 기병대로 적을 박살 내고 후속 공격으로 잔당을 쓸어 버리는 것이다." />
+    <string id="CP7ebY11" text="휘두르기 공격으로 기수를 떨어뜨릴 수 있습니다." />
+    <string id="cpaUPZ4c" text="이 땅을 통과하려면 우리에게 통행세를 내야 해. 그래서 말인데, 자네의 지갑에서 우리 몫을 꺼내도 괜찮겠지?" />
+    <string id="cqI6P8fr" text="성벽에서 발사" />
+    <string id="cQWCp9F1" text="부대 일일 급여" />
+    <string id="cr9fxFyS" text="방패 상대 시 추가 효과" />
+    <string id="cRMgjRMP" text="그래 그렇게 나오셔야지. 신용거래 좋지. 배 갈라서 내장 뒤지고 그러는 거 보다 얼마나 좋아.[ib:hip][rf:convo_bemused]" />
+    <string id="CRR7cYhJ" text="현재 건설 중" />
+    <string id="cRwZI5o2" text="최근 이벤트" />
+    <string id="cSuNR48H" text="작업장 비용" />
+    <string id="CthDdsb6" text="승자" />
+    <string id="cThSwxbP" text="영웅이 아닌 포로는 처형할 수 없습니다." />
+    <string id="CVymZs3m" text="전투 승마" />
+    <string id="cXnQaNfe" text="의사 결정에 효과를 미치지 않습니다." />
+    <string id="CXUXk5ai" text="제국인" />
+    <string id="cyPGadJ6" text="자동 배치" />
+    <string id="CyTa1Z5d" text="{TEXT} [{HOTKEY}]" />
+    <string id="CzIslwx5" text="이 정책의 폐지를 고려합니다.(지원: {SUPPORT}%)" />
+    <string id="CZqZGAVB" text="흥정 제안이 거부되었습니다!" />
+    <string id="D2KdSGGJ" text="현재 {SETTLEMENT_NAME} 외부에 있습니다. 들어갈 수 없습니다. 보통 적 도시에 접근할 때에는 길이 텅텅 빕니다. 그러나 이번에는 구경꾼들이 있었으며, 가끔씩 응원 소리도 들려옵니다. 당신은 도시 거주민 중 {FACTION_INFORMAL_NAME} 충성파는 거의 없으며, 민병대가 도시 방어를 위해 무기를 들 일은 없을 것 같다는 생각을 합니다." />
+    <string id="d4n8AuUh" text="아군 소대가 도망가고 있습니다. 전투에 패배했습니다." />
+    <string id="d4OPyxom" text="창고 한도를 초과했습니다." />
+    <string id="D5QlXOV0" text="대실패 및 전체 설득 실패 확률" />
+    <string id="d68pZq4j" text="필요한 스킬 레벨" />
+    <string id="D7KllIPI" text="문제" />
+    <string id="D7ooUTqV" text="쓰러졌습니다!" />
+    <string id="D8Wjbw9K" text="난 잡혔지만 나중에 도주하는 데 성공했네." />
+    <string id="D9WJXQ9Z" text="거부" />
+    <string id="da5WMfiJ" text="이 정착지를 다른 사람에게 양도하겠다고 제안(지원: {SUPPORT}%)" />
+    <string id="DaMQ9c3T" text="마을 전투{newline}{newline}• 보병이 작은 추가 효과를 받습니다.{newline}• 궁병이 방어 중 작은 추가 효과를 받습니다.{newline}• 기병대가 방어 중 중간 정도의 불이익을 받습니다." />
+    <string id="DaX6bsaD" text="{CLAN_PARTY_NAME}이(가) {SETTLEMENT_NAME} 근처에서 {ENEMY_PARTY_NAME}의 공격을 받았습니다." />
+    <string id="dbdliaP3" text="내 아내 {REFERING_HERO.LINK}" />
+    <string id="dbRtrxYq" text="{PRISONER_FACTION_LINK}의 {PRISONER_LORD.LINK}이(가) 전투 이후에 풀려났습니다." />
+    <string id="DBU4VaIl" text="도적 세력" />
+    <string id="dc24lBcV" text="근접 무기 IV" />
+    <string id="dcV0iOYB" text="소대를 모아 전투에 대비하라!" />
+    <string id="dd7Owiys" text="{KINGDOM_NAME}와(과) 평화 조약 맺기" />
+    <string id="DdXZHifm" text="{ATTRIBUTE_NAME} 능력치가 증가하면 이 방면의 경험치 습득량이 증가하고, 습득 한도가 상향조정 됩니다." />
+    <string id="debCJDAZ" text="조우 중에는 이 행동을 할 수 없습니다" />
+    <string id="depxBZNO" text="리더십 스킬 레벨 추가 효과" />
+    <string id="dfwCjiRx" text="{A0}에서 얻는 교역세" />
+    <string id="dgaf7Jpb" text="설정" />
+    <string id="DGbSsANY" text="{HERO.NAME}이(가) 노환으로 사망했습니다." />
+    <string id="dGDYBpzz" text="서부 제국" />
+    <string id="DGOgsMfx" text="{PRISONER.NAME}의 몸값이 지불되어 풀려났습니다{?PRISONER.GENDER}{?}{\?}." />
+    <string id="di4MlBRx" text="{ITEM} {NUMBER_OF}개" />
+    <string id="DItheHi7" text="예비군 후방에 잔류" />
+    <string id="DIuI1moW" text="폭력단 두목" />
+    <string id="dJbaRaAD" text="식량 고갈까지 남은 일수" />
+    <string id="DJgeYv9X" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 예비군에 합류하고 있습니다." />
+    <string id="DjoYTx2w" text="용병은 군대를 모을 수 없습니다." />
+    <string id="DkaNhxpg" text="정말로 통치를 양도하시겠습니까?{?WILL_DESTROY}{newline}왕위를 차지할 다른 클랜이 없습니다. 왕국이 파괴됩니다.{?}{\?}" />
+    <string id="dKcvwi6V" text="아니, 이게 누구신가! 우리한테 박살 나기 싫으면 당장 은을 토해내는 게 좋을 거야, 친구." />
+    <string id="dKXdN4BL" text="군대를 지휘하는 중입니다." />
+    <string id="DM6luo3c" text="계속" />
+    <string id="dMKyWmJ6" text="적에 의해 고립되었습니다." />
+    <string id="dO5tqXT8" text="전 배우자" />
+    <string id="DOaIBObZ" text="(건설 중인 프로젝트가 없을 때는 일일 기본값이 활성화됩니다)" />
+    <string id="DOKG38dF" text="튜토리얼 활성화됨" />
+    <string id="DPbv2cOo" text="재배치 중" />
+    <string id="dpPMuLa4" text="명령을 완료할 수 없습니다." />
+    <string id="DqJG7bvh" text="한도 초과" />
+    <string id="dQRdP9eQ" text="조우" />
+    <string id="DRaJ7hoz" text="승자:" />
+    <string id="Dtcv8XNu" text="&lt;b&gt;공성탑&lt;/b&gt;{NEWLINE}성벽위로 빠르게 올라갈 수 있습니다. 사다리보다 좋습니다." />
+    <string id="DTRwTvT4" text="궁기병, 교전하라!" />
+    <string id="DTt1aeSj" text="{?IS_POSITIVE}+{?}-{\?}{ITEM_AMOUNT} {ITEM_TYPE}" />
+    <string id="DTWem4V1" text="이 비축물" />
+    <string id="DuFg1avZ" text="다음 레벨: {NEXT_SKILL_POINTS}" />
+    <string id="Duoo5R2P" text="투기장 감독관" />
+    <string id="dxtuFW8b" text="아주 잘 싸웠습니다. 아주 인상적인 판단도 돋보였고 말입니다. 물론 몇 차례의 실수는 있었지만 확실히 가능성이 보입니다. 그리고 {OPPONENT_COUNT}명의 상대를 제압한 보상으로 {PRIZE}{GOLD_ICON}를 획득했습니다." />
+    <string id="DyarV8i7" text="이미 이 정책과 관련하여 제안된 결정이 있습니다." />
+    <string id="dyLYsWPf" text="든든한 존재감 특성 추가 효과" />
+    <string id="dyY3hkH1" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 {?IS_PLURAL}여러 적 대형{?}적 대형{\?}을 향해 돌진 중입니다." />
+    <string id="Dzntsudy" text="{VICTIM_NAME}에게 {AMOUNT}의 {DAMAGE_TYPE} 피해를 입혔습니다({LOST_HP_PERCENTAGE}% HP)." />
+    <string id="E05lmb5n" text="{HERO_NAME}와(과)의 관계가 &lt;a style=&quot;DecreaseStyle&quot; &gt;&lt;b&gt;감소&lt;/b&gt;&lt;/a&gt;합니다." />
+    <string id="E0lb2Z2r" text="{YEAR}년 {DAY_OF_YEAR}, 제국을 상대로 한 음모가 성공을 거둬 적이 단합했으며 {FACTION_NAMES}의 군대들이 동시에 출진합니다." />
+    <string id="e1tZ4kEY" text="전부" />
+    <string id="E3BsEDav" text="부대를 위한 재정 지원" />
+    <string id="e4OPfBqt" text="불참" />
+    <string id="eAGeVRjI" text="{GOLD_AMOUNT}{GOLD_ICON}를 받았습니다." />
+    <string id="EAicirVE" text="두려움 없는" />
+    <string id="eaIQXj6O" text="무료 능력치 점수: {NUMBER}" />
+    <string id="ealIwlQH" text="{SETTLEMENT_NAME} 방어 중" />
+    <string id="eavr4x8n" text="건설:" />
+    <string id="EbB9y2zZ" text="전쟁 선포" />
+    <string id="eDVvDS1i" text="마을 주민" />
+    <string id="eEmbb1MR" text="생산" />
+    <string id="eHBvuPk6" text="26" />
+    <string id="EHkzaZBi" text="{SETTLEMENT_NAME} 마상 시합" />
+    <string id="Ej0QNsY9" text="15" />
+    <string id="eJgaemO5" text="내기에서 획득한 금액: {BET} {GOLD_ICON}" />
+    <string id="ejhFyhyx" text="&lt;b&gt;공성탑&lt;/b&gt;&lt;br&gt;{NEWLINE}공격군을 벽과 같은 높이에 위치하도록 하여 수비군을 상대로 대등하게 싸울 수 있게 합니다." />
+    <string id="ekQP9052" text="초원 전투{newline}{newline}• 기병대가 큰 추가 효과를 받습니다.{newline}• 궁기병이 큰 추가 효과를 받습니다." />
+    <string id="eKwhGmbI" text="이 소대가 {XP_AMOUNT}xp를 획득하면 한 개의 소대를 추가로 업그레이드할 수 있습니다." />
+    <string id="EL7lZLXN" text="쓰러뜨리기 가능" />
+    <string id="elhSbQfW" text="내 친척 {REFERING_HERO.LINK}" />
+    <string id="EMCISbYJ" text="전투복" />
+    <string id="empiremembers" text="제국" />
+    <string id="eMsA4Vk0" text="이 부대의 규모가 확장됩니다. 현재 목표 규모는 {TARGET_SIZE}입니다." />
+    <string id="EMVLtu5L" text="{HERO.LINK}이(가) {SKILL_NAME}에서 {?PLURAL}{GAINED_POINTS}의 스킬 점수{?}스킬 점수{\?}를 획득하여 {UPDATED_SKILL_LEVEL}이(가) 되었습니다." />
+    <string id="enhza8zr" text="세력" />
+    <string id="eNQgzubm" text="말에서 내려서 싸웁니다. 지도상에서 도보로 이동합니다." />
+    <string id="entirestackdiscarditems" text="[{KEY_NAME}]키를 길게 눌러 전부 수행" />
+    <string id="entirestackrecruitunits" text="[{KEY_NAME}]키를 길게 눌러 전부 수행" />
+    <string id="entirestacktakeitems" text="[{KEY_NAME}]키를 길게 눌러 전부 수행" />
+    <string id="entirestacktransfertroops" text="[{KEY_NAME}]키를 길게 눌러 전부 수행" />
+    <string id="entirestackupgradeunits" text="[{KEY_NAME}]키를 길게 눌러 전부 수행" />
+    <string id="ENzvOHsA" text="{ASKED_LORD.LINK}은(는) 전장에 있으며, {?ASKED_LORD.GENDER}그녀{?}그{\?}는 현재 {SETTLEMENT_NAME} 근처에 있을 것입니다." />
+    <string id="EOhmOITp" text="관련 퀘스트 목표 추적" />
+    <string id="EPGDe5fG" text="늑대만 포획이 가능하며, 이때 양을 뛰어넘어 양 뒤쪽의 이동 가능한 타일에 착지해야 합니다. 포획 시에도 게임판의 선을 따릅니다." />
+    <string id="eqAc8AOs" text="{LEFT}:" />
+    <string id="eRqURgZY" text="바타니아인" />
+    <string id="es0Y3Bxc" text="참여" />
+    <string id="esxNxipn" text="사기가 낮은 부대" />
+    <string id="eTyaQ1sG" text="캠페인 재개" />
+    <string id="eu25AFfI" text="지금은 인벤토리를 사용할 수 없습니다!" />
+    <string id="EuEJ08Dg" text="건강한 수비군 소대 수" />
+    <string id="eufhFrnC" text="{VILLAGE_NAME} 주민" />
+    <string id="EuGCNdHG" text="왕국 떠나기" />
+    <string id="EUmwEtap" text="잘 싸웠습니다, {PLAYER.LINK}. {OPPONENT_COUNT}명의 상대를 제압했군요. 당연히 활약에 걸맞는 보상이 있어야겠죠. 자, {PRIZE}{GOLD_ICON}입니다. 맘에 드시죠?" />
+    <string id="eURzhtb0" text="{PARTY_NAME} 주변에 집결 중입니다." />
+    <string id="EUzxzL9s" text="머리 방어력: " />
+    <string id="EV0av1mc" text="지도자 레벨 추가 효과" />
+    <string id="evuR5kwf" text="이곳의 {ITEM_NAME}은(는) 다른 도시에 비해 판매 가격이 저렴하다는 소문이 있습니다. 여기서 구매하여 {TOWN_NAME}(으)로 가져가면 품목당 약 {PRICE_DIFF}{GOLD_ICON}의 수익을 거둘 수 있습니다." />
+    <string id="EvvMNX3A" text="먼저 시작하는 플레이어는 네 개의 말 중 게임판에서 제거할 말 하나를 선택합니다.{newline}그러면 상대 플레이어도 근처 자신의 말 중 하나를 선택하여 제거합니다. 먼저 시작하는 플레이어의 말이 중앙에 있었다면 상대 플레이어 역시 중앙에 있는 두 개의 말 중 하나를 제거해야 합니다.{newline}{newline}이제 게임을 시작합니다." />
+    <string id="EWa1R7bv" text="적 " />
+    <string id="EWq48MmD" text="{LEFT}: {RIGHT}" />
+    <string id="EWRoIdbA" text="도적" />
+    <string id="exhusbandbrotherinlaw" text="전 도련님" />
+    <string id="exhusbandfatherinlaw" text="전 장인" />
+    <string id="exhusbandmotherinlaw" text="전 장모" />
+    <string id="exhusbandsisterinlaw" text="전 아가씨" />
+    <string id="exwifebrotherinlaw" text="전 처남" />
+    <string id="exwifefatherinlaw" text="전 장인" />
+    <string id="exwifemotherinlaw" text="전 장모" />
+    <string id="exwifesisterinlaw" text="전 처제" />
+    <string id="ey5OcaGI" text="방패와 함께 사용할 수 없음" />
+    <string id="eyMU7X0e" text="당신은 영주이며 투표 중입니다. 마지막에는 통치자가 투표하여 결과를 결정합니다." />
+    <string id="EZLs7hLL" text="어이! 일단 정지! 있는 돈 다 내놔. 장난하는 거 아냐.[if:convo_angry]" />
+    <string id="EzrK2tnA" text="전투 중에는 군대를 관리할 수 없습니다." />
+    <string id="F3U9AtmF" text="9" />
+    <string id="F3UEOdTT" text="계약한 마을의 생산 +{BONUS_AMOUNT_PERCENT}% 증가" />
+    <string id="F4RMyaR5" text="{PARTY}와(과) 조우했습니다." />
+    <string id="F5UPr9jh" text="전부 습득" />
+    <string id="F6GhrriD" text="왕국 생성" />
+    <string id="f6gSyvnC" text="활과 화살로 적을 쏘세요. 먼 거리에서 맞추기 까다로운 표적을 쏴 보세요." />
+    <string id="f6pjlKdz" text="어제" />
+    <string id="f7t4saJu" text="가치" />
+    <string id="f7vOVQb7" text="여름" />
+    <string id="F8g1TzoX" text="당신은 {SETTLEMENT_NAME} 밖에 있습니다. 성문 위에 휘날리는 {LORD.LINK}의 깃발이 보입니다." />
+    <string id="Fa16r8MN" text="포로 처형" />
+    <string id="Fa2nKXxI" text="총독" />
+    <string id="fAEvWw8z" text="수비군이 퇴각하여 요새 안에서 최후의 저항을 시작하고 있습니다." />
+    <string id="fApjg2ae" text="아세라이인" />
+    <string id="faYiCHXK" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 투사체 사거리 안으로 들어오고 있습니다." />
+    <string id="FbcC2loc" text="공격에 맞아서 기절했습니다. 상대가 승리했습니다!" />
+    <string id="FC64p6ED" text="건강한 공격군 소대 수" />
+    <string id="fd35ahzV" text="&lt;b&gt;발리스타 발사&lt;/b&gt;{NEWLINE}끝에 타르를 적신 볼트를 발사합니다.{NEWLINE}적 공성 장비와 목조 구조물에 화염 피해를 입히며, 병사를 상대로 치명적인 효과를 발휘합니다." />
+    <string id="FdTd3yIx" text="변경 사항을 적용할 수 없습니다. 초기화 후에 화면을 변경하시겠습니까?" />
+    <string id="FEFBObjR" text="{PRISONER_FACTION_LINK}의 {PRISONER_LORD.LINK}이(가) {CAPTURER_LORD.LINK}의 포로로 붙잡혔습니다." />
+    <string id="fEJQcb4U" text="충성도 변경" />
+    <string id="fEqd7jXj" text="{EFFECT_NAME}: +{NUM}" />
+    <string id="fEu5S6Bd" text="거리" />
+    <string id="fEXuXAl1" text="군대 사기 : {ARMY_MORALE}{newline}{ARMY_MORALE_ITEMS}" />
+    <string id="FfVdGZsj" text="식량 생산에 +{BONUS_AMOUNT} 추가" />
+    <string id="Fg9qCGUu" text="포도{@Plural}포도{\@}" />
+    <string id="fivestackdiscarditems" text="[{KEY_NAME}] 키를 길게 눌러 5회 수행" />
+    <string id="fivestackrecruitunits" text="[{KEY_NAME}] 키를 길게 눌러 5회 수행" />
+    <string id="fivestacktakeitems" text="[{KEY_NAME}] 키를 길게 눌러 5회 수행" />
+    <string id="fivestacktransfertroops" text="[{KEY_NAME}] 키를 길게 눌러 5회 수행" />
+    <string id="fivestackupgradeunits" text="[{KEY_NAME}] 키를 길게 눌러 5회 수행" />
+    <string id="FjRiPhEI" text="보낸 부대" />
+    <string id="FLa5OuyK" text="방랑자" />
+    <string id="FLrzc1uk" text="아, 그렇다면 자네의 목을 벨 수 밖에 없네. 물론 원칙에 따라 무단 침입죄로 말이지." />
+    <string id="fMh5KZfk" text="여기 머물 필요는 없겠군. 가자!" />
+    <string id="FmIIQEQD" text="{HERO.NAME}이(가) 사망했습니다." />
+    <string id="fMmlUHyz" text="휘두르기 피해: " />
+    <string id="forgeverb" text="단조" />
+    <string id="FpI5JMZq" text="거래가 초기화되었습니다." />
+    <string id="fQ2RLaOa" text="클랜이 어떤 봉지도 소유하고 있지 않음" />
+    <string id="fQAGU9GW" text="관대함:" />
+    <string id="FqwHAxuM" text="양손 폴암" />
+    <string id="FRepQsmO" text="이번 마상 시합은 마상 창시합입니다." />
+    <string id="frt7AmX0" text="{MAJOR_PARTY_LEADER}의 수비대" />
+    <string id="fRu5Y4OT" text="난 상처를 입고 방치되어 죽음을 기다리고 있었소." />
+    <string id="FRuzuVyO" text="선택한 클랜 없음" />
+    <string id="FS78CuPs" text="{ATTRIBUTE_NAME} 능력치에 귀속된 스킬:" />
+    <string id="FSl1LFP6" text="{CLAN}이(가) {AMOUNT_TO_ADD}의 명성을 획득했습니다. 새로운 명성은 {NEW_RENOWN}입니다." />
+    <string id="fTyJB9wd" text="24" />
+    <string id="fUNa6FAo" text="전투 도중에 {MISSION_INDICATORS_KEY}을 길게 누르면 적과 아군 대형에 마커가 표시됩니다." />
+    <string id="FuxkL78G" text="{YEAR}{?YEAR_IS_PLURAL}년{?}년{\?}" />
+    <string id="FuYivUV1" text="{YEAR}년 {DAY_OF_YEAR}, 당신은 {RULER.NAME}이(가) {?RULER.GENDER}제국{?}제국{\?}을 {?PLAYER_WANTS_RESTORE}복원{?}멸망{\?}시킬 자이기를 바라며 충성을 맹세했습니다." />
+    <string id="fV2FfLWq" text="일일 건설에 +{BONUS_AMOUNT} 추가 효과" />
+    <string id="FVEvjlis" text="부대 규모 제한 초과" />
+    <string id="fveVnpbZ" text="친척" />
+    <string id="FvO5B2bJ" text="{PRISONER_LORD.LINK}은(는) 이제 자유입니다." />
+    <string id="FwlZRESM" text="민병대에 +{BONUS_AMOUNT} 추가" />
+    <string id="fWwYUOVs" text="당신의 제안을 수락하겠습니다." />
+    <string id="FxoVjLvl" text="방패&amp;원거리" />
+    <string id="FxPzcyLN" text="{SUPPORTERNAME}이(가) {CANDIDATENAME}을(를) 지원합니다." />
+    <string id="FZBqNCvd" text="아무도 없음" />
+    <string id="g0gDsalr" text="충동적" />
+    <string id="g1KLcfxT" text="번창한 마을입니다. 넘쳐나는 곡물 포대, 건강해 보이는 가축과 짐이 가득 실린 수레들이 풍성한 수확량을 증명해 줍니다." />
+    <string id="G4XXubLg" text="에미라" />
+    <string id="G5yvspkZ" text="후퇴할 수 없습니다. 결투 중입니다!" />
+    <string id="g6J4Oe6z" text="클랜 이름은 {MIN}~{MAX} 글자 사이여야 합니다." />
+    <string id="g7zo28KR" text="{PARTY}와(과) 조우했습니다. 당신의 압도적인 화력을 상대로 승산이 없음을 깨달은 그들은 항복합니다." />
+    <string id="g8nrakuu" text="근접 무기 I" />
+    <string id="G95mB3b3" text="지금은 캐릭터 창을 사용할 수 없습니다!" />
+    <string id="gA5fByM2" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 {#IS_LEFT}{#}오른쪽 벽{#}여러 측면의 벽{\#}{?IS_MIDDLE}가운데 벽{?}{\?}{?IS_RIGHT}왼쪽 벽{?}{\?}을 재탈환하려고 시도 중입니다." />
+    <string id="gamefinance" text="재정" />
+    <string id="gAX49b7b" text="적을 상대로 방어벽을 건설했지만 남은 말 수가 같아서 게임이 무승부로 끝났습니다!" />
+    <string id="GAzaM1RC" text="도살하여 고기와 가죽을 얻을 수 있습니다." />
+    <string id="GbbGlcMZ" text="말은 가로 또는 세로 방향의 모든 타일로 이동할 수 있지만 다른 말을 뛰어넘을 수는 없습니다.{newline}말은 중앙 타일로 이동하거나 중앙 타일을 뛰어넘을 수 없습니다. 왕이 이 타일을 벗어나면 더 이상 횡단할 수 없습니다." />
+    <string id="gCaT2BTu" text="평화 조약에 따라 {PRISONER.NAME}이(가) 석방되었습니다." />
+    <string id="gdi8TAMM" text="부하들이 약탈을 시작했지만, 점차 더 많은 마을 사람이 무기를 집어 들고 있습니다. 아무래도 공격할 용기가 생기는 모양입니다." />
+    <string id="gdraqMso" text="당신은 {SETTLEMENT_NAME} 밖에 있습니다. 안으로 들어갈 수 없습니다." />
+    <string id="gdUE1h39" text="무역 협정 체결을 고려합니다.(지원: {SUPPORT}%)" />
+    <string id="GDugjWao" text="여기 {MONEY}{GOLD_ICON}입니다. 돈만 가져가고 우리는 풀어주십시오." />
+    <string id="gE7QFy6y" text="{PRISONER.NAME}이(가) {?PRISONER.GENDER}그녀{?}그{\?}의 억류지에서 탈출했습니다." />
+    <string id="geJQxzgB" text="퀘스트 실패: {QUEST_TITLE}" />
+    <string id="genericcharacterfirstname" text="{CHARACTER_FIRSTNAME}" />
+    <string id="genericcharactername" text="{CHARACTER_NAME}" />
+    <string id="genericclanname" text="{CLAN_NAME}" />
+    <string id="generickingdomname" text="{KINGDOM_NAME}" />
+    <string id="generickingdomshortname" text="{KINGDOM_SHORT_NAME}" />
+    <string id="gflnRhhe" text="({PRIMARY_ROLE}/{SECONDARY_ROLE})" />
+    <string id="GfpRqcWN" text="궁병 선택" />
+    <string id="GfR7NY0n" text="공성 전투{newline}{newline}• 궁병이 방어 중 작은 추가 효과를 받습니다.{newline}• 기병대가 방어 중 중간 정도의 불이익을 받습니다.{newline}• 궁기병이 방어 중 큰 추가 효과를 받습니다." />
+    <string id="ggMmjk31" text="잘못됨" />
+    <string id="ggpRTQQl" text="부대장" />
+    <string id="ggrqoGnE" text="{AMOUNT} 소비" />
+    <string id="ggzCiYkk" text="업그레이드하려면 {VALUE}{GOLD_ICON}가 필요합니다." />
+    <string id="GHdrCWpF" text="{CONSOLE_KEY_NAME} 키를 눌러 닫기" />
+    <string id="giftverb" text="선물" />
+    <string id="gj2HD7M3" text="아직 승리할 가능성은 있습니다. 기권하시겠습니까?" />
+    <string id="Gj4R9uso" text="정의되지 않음" />
+    <string id="gjwlxZpg" text="{CAPTURER_FACTION}에 붙잡혀 있던 중 {PRISONER_FACTION_LINK}의 {PRISONER_LORD.LINK}이(가) 사망했습니다." />
+    <string id="gKbGZObs" text="총 비축량" />
+    <string id="GKO2ogal" text="부패" />
+    <string id="GNGTllPc" text="마을 습격 중에는 이 행동을 할 수 없습니다" />
+    <string id="GNkrUdwb" text="도움을 주셔서 정말 고맙네, 이방인이여. 내 이름은 {CONVERSATION_CHARACTER.LINK}이라 하네. 이름을 물어봐도 되겠나?" />
+    <string id="GnWy8WAW" text="충성도:" />
+    <string id="gNzXoCrq" text="그냥 가던 길이나 가시지." />
+    <string id="goJ91547" text="적 지원군이 도착했습니다!" />
+    <string id="GopVkA1q" text="무법자" />
+    <string id="gOSpzTrt" text="당장 멈춰라. 가진 걸 전부 내놔라.[if:convo_aggressive]" />
+    <string id="gPAkLi7l" text="({STR})" />
+    <string id="GPW3ku2Y" text="{?RULER.GENDER}여대공{?}대공{\?} {RULER.NAME}" />
+    <string id="gQCEJvmf" text="딸" />
+    <string id="GralaKWi" text="{YEAR}년 {DAY_OF_YEAR}, {FATHER_NAME}, {MOTHER_NAME}의 아이가 태어났습니다." />
+    <string id="Gre2v55i" text="위세: {POWER}" />
+    <string id="GRX8NjWI" text="규모" />
+    <string id="gSVaitFE" text="{SETTLEMENT_NAME} 습격 중" />
+    <string id="gT5zJaD7" text="적에게 당하여 완전히 정신을 잃었소." />
+    <string id="gTlW1qOB" text="이 아이템은 평균 가격 대비 {PERCENTAGE}% 더 저렴합니다." />
+    <string id="GtY5rdK9" text="전쟁령 지급금" />
+    <string id="GUBcQZ3J" text="포로의 현재 순응도" />
+    <string id="gwKPbSVE" text="{TRAIT}{newline}{TRAIT_DESCRIPTION}" />
+    <string id="gXQ7WncX" text="주둔군 및 부대 비용" />
+    <string id="gxsoJMb8" text="0" />
+    <string id="gY8kkujq" text="전투가 종료되었습니다! 나가려면 Tab 키를 누르세요... " />
+    <string id="gYATKZJp" text="{NUMBER}%" />
+    <string id="GYhHacVk" text="적중하여 1점을 올렸습니다!" />
+    <string id="GZKY51fB" text="안전한 통행 기간 안에 군대에 합류할 수 없습니다." />
+    <string id="gZmQvtxm" text="공성추 지붕" />
+    <string id="h03DZtbc" text="사역 말" />
+    <string id="H0o13D7a" text="상점" />
+    <string id="H4rAiNlf" text="본인에게 {BET_AMOUNT}을(를) 건 싸움에서 승리했습니다. 보상으로 {REWARD_AMOUNT}{GOLD_ICON}을 지급합니다." />
+    <string id="h6AJXR2e" text="부대에 후퇴를 지시하시겠습니까?" />
+    <string id="h8Bcd7NE" text="{FACTION} 통치자 선거" />
+    <string id="hAgZBZP8" text="기권" />
+    <string id="haRRjDmy" text="말 {TRADE_AMOUNT}{?IS_PLURAL}마리{?}마리{\?}를 지급해서 업그레이드합니다." />
+    <string id="hbeUbpEA" text="취소하시겠습니까?" />
+    <string id="hbwor8e8" text="전쟁령에 응답" />
+    <string id="HcAV8x7p" text="부대원" />
+    <string id="HCZ5XSEL" text="{?IS_POSITIVE}+{?}-{\?} {NUMBER}" />
+    <string id="HD2wzAxz" text="스투르지아는 칼라디아 북부에서 생활하는 이국 부족의 후예들의 국가입니다. 제국의 세력이 이들이 살고 있는 얼어붙은 숲까지 닿자, 이들이 전통적으로 사냥하거나 포획하던 삼림지대 동물의 고급 모피는 새로운 시장을 확보할 수 있게 되었습니다. 경제적으로 부유해진 스투르지아의 족장은 대공이 되었으며, 왕국으로 이주한 노드 용병의 무력을 등에 업고 지위 다툼이 시작되었습니다. 이들은 사냥꾼이자 방랑자이며, 교역과 약탈을 위해서라면 장거리 이동도 마다하지 않습니다." />
+    <string id="hDktLs4a" text="현명한 행동을 취한 데다 존중심도 엿보이는군. 가도 좋네." />
+    <string id="HdTVkcII" text="사람들과의 관계를 개선하세요. 귀족들과 친목을 도모하세요. 흥정을 해 보세요." />
+    <string id="hdyQFP2Z" text="야생 {MOUNT_NAME}에게 사망했습니다!" />
+    <string id="hE4XvvXv" text="정렬 기준:" />
+    <string id="HEQ2zEei" text="실행 취소" />
+    <string id="HEUDyfbG" text="{CLAN_NAME}에 {HERO.NAME}이(가) 합류합니다" />
+    <string id="hEWuE0Ch" text="당신은 지휘관입니다. 전투 도중 모든 대형에 명령을 내릴 수 있습니다." />
+    <string id="hfSW9FTN" text="원거리 무기 V" />
+    <string id="hJypvWMR" text="가공" />
+    <string id="HKrCB1Pa" text="막기 무시 가능" />
+    <string id="HkZ4E94O" text="초원 부족들의 연합체인 쿠자이트는 원래 유목민의 삶을 살았지만, 최근에는 제국의 동부 변방에 정착하며 조금씩 영구적인 도심을 보유한 농업 사회로 변모하고 있습니다. 이러한 추세에도 불구하고, 이들은 여전히 말과의 유대감을 비롯해 수많은 유목민의 생활 습관을 고수하고 있습니다. 이들은 기마 궁술의 대가이며 활을 쏘다가 적들의 사거리 밖으로 벗어납니다." />
+    <string id="hL3JIQbd" text="전투에서 이 대형을 이끕니다." />
+    <string id="Hlusn1gG" text="클랜 이름에 유효하지 않은 문자가 있습니다." />
+    <string id="HmbvM9Na" text="현재 경기를 건너뛰시겠습니까?" />
+    <string id="HMgrtLYa" text="용사가 결투에서 패배했습니다. 군대가 낙담하기 시작합니다. 부대가 사기를 잃었습니다." />
+    <string id="hMIjbLjt" text="부인" />
+    <string id="hmlUJaDa" text="정말 잘 와줬네, {PLAYER.LINK}. 난 {CONVERSATION_CHARACTER.LINK}일세. 이 은혜는 평생 잊지 않겠네. 도울 일이 있으면 언제라도 알려만 주시게..." />
+    <string id="HNBAw1uO" text="{PARTY}이(가) {AMOUNT_TO_ADD}의 명성을 획득했습니다. {CLAN}의 현재 명성은 {NEW_RENOWN}입니다." />
+    <string id="HNqy4Ctc" text="문제를 해결 중인 동료는 추방할 수 없습니다." />
+    <string id="hoebgN2u" text="계속하면 선택된 클랜 구성원은 이동을 시작하며, {SETTLEMENT_NAME}에 도착할 때까지 이용할 수 없게 됩니다. 계속하시겠습니까?" />
+    <string id="homesettlement" text="거주지" />
+    <string id="hourabbr" text="h" />
+    <string id="HP9wMk1T" text="지금은 부대 화면을 사용할 수 없습니다!" />
+    <string id="HQgSPtK6" text="멀티 플레이를 종료하시겠습니까?" />
+    <string id="hqIIEur1" text="{ARMY}와(과) 조우했습니다." />
+    <string id="hroWCoqV" text="제정 지지" />
+    <string id="hSsS5xAa" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 다른 공성 장비가 도착하기를 기다립니다." />
+    <string id="HuCClZqT" text="급여" />
+    <string id="husbandbrotherinlaw" text="도련님" />
+    <string id="husbandfatherinlaw" text="장인" />
+    <string id="husbandmotherinlaw" text="장모" />
+    <string id="husbandsisterinlaw" text="처제" />
+    <string id="hVmamTJX" text="식량 다양성으로 부대 사기를 획득합니다(병참장교). 정착지의 번영도를 개선하고 시설을 건설합니다(총독)." />
+    <string id="Hvw3uSNN" text="억류 세력이 전투에서 패배하여 {PRISONER.NAME}이(가) 풀려났습니다{?PRISONER.GENDER}{?}{\?}." />
+    <string id="Hx47TGrA" text="어려움" />
+    <string id="HYVQKIhh" text="수비군 군대" />
+    <string id="HZ8ws4qX" text="용병직" />
+    <string id="hzflo2kJ" text="또 나를 위기에서 구해주었군, {PLAYER.LINK}! 자네는 정말 최고의 벗일세." />
+    <string id="i0ELqRca" text="구출" />
+    <string id="i0H8WLRx" text="지배 클랜은 추방할 수 없습니다." />
+    <string id="I2YhWaIt" text="물건" />
+    <string id="i30TCtj2" text="일시정지됨" />
+    <string id="I3Vfk5mz" text="20" />
+    <string id="I42QtISB" text="주 영웅은 클랜에서 추방할 수 없습니다." />
+    <string id="I4BbOX46" text="당신은 {ARMY_LEADER}의 군대에 속해 있습니다." />
+    <string id="i4g81l3E" text="관계: {NUM}" />
+    <string id="i5ROjI8K" text="{YEAR}년 {DAY_OF_YEAR}, 당신은 탁테오스가 말한 유물을 찾았습니다." />
+    <string id="I8xMpWxO" text="대담한" />
+    <string id="IbGNaL0H" text="{HERO.LINK}   레벨: {LEVEL}" />
+    <string id="IbkODMHV" text="흔적과 은신처를 찾습니다. 험지를 통해 이동합니다. (정찰병)" />
+    <string id="iBtZMoPG" text="{PRISONER_FACTION_LINK}의 {PRISONER_LORD.LINK}이(가) {CAPTOR_FACTION}의 포로로 붙잡혔습니다." />
+    <string id="ibVjcb3a" text="{PRISONER_LORD.LINK}이(가) {CAPTURER_LORD.LINK}의 포로로 붙잡혔습니다." />
+    <string id="iBZc9RbE" text="모두 올 때까지 기다리자." />
+    <string id="IcgVKFxZ" text="통치자" />
+    <string id="iCirZbD8" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 성벽 위에서 공격 중입니다." />
+    <string id="icmyseoo" text="영주님" />
+    <string id="IcQ2doLo" text="x{QUANTITY}" />
+    <string id="ID8wnSIi" text="현재 스토리 단계에서는 이 행동을 할 수 없습니다." />
+    <string id="IdYj8OJg" text="폼멜" />
+    <string id="If65Vm9h" text="아이 교육" />
+    <string id="IF7zS5ia" text="포로 한도가 초과되었습니다.{newline}임시로 포로는 유지되겠지만 어느 정도의 시간이 지나면 빠르게 부대에서 탈출할 것입니다. 또한 속도가 저하됩니다.{newline}계속하시겠습니까?" />
+    <string id="iffbWGBa" text="고모" />
+    <string id="iFg5N7r3" text="한손 무기" />
+    <string id="ihVHfUFT" text="대형" />
+    <string id="iIBqTcKx" text="공격으로 적을 쓰러뜨릴 수 있습니다." />
+    <string id="iisvVbDI" text="전부 구입" />
+    <string id="IiyN5krb" text="{TRAIT_NAME} ({TRAIT} {TRAIT_VALUE}){newline}{TRAIT_DESCRIPTION}" />
+    <string id="ikgIt1df" text="+{BONUS_AMOUNT_PERCENT}% 귀속된 가구 수에 따른 일일 세금 수입" />
+    <string id="iKUXVaFf" text="영향력 비용: {reg0}" />
+    <string id="iKzyJHiD" text="미안하네만, 지금 당장은 교역과 관련된 팁이 없네." />
+    <string id="iLEhyGI8" text="칼라디아 제국은 현재 쇠퇴하고 있습니다. 아레니코스 황제의 의심스러운 붕어 이전에도 이미 이 왕국은 정쟁으로 분열되어 있었으며, 지금은 그 세력들이 서로 전쟁을 벌이기에 이르렀습니다. 하지만, 칼란디아는 아직 버티고 있습니다. 구원군이 도착할 때까지 요새 도시로 침략군의 이동 속도를 늦추는 체계적인 방어 전략 때문에 침략국은 종종 궁지에 몰리고는 합니다." />
+    <string id="ilhkpKfp" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 말에 탄 채로 소규모 접전을 벌이고 있습니다." />
+    <string id="ImJ4hdke" text="새 정책 제안" />
+    <string id="iNDKwJYJ" text="소대 업그레이드 XP 비용" />
+    <string id="iNriAkLl" text="속도를 높이는 데 사용" />
+    <string id="ioKVFDcQ" text="{?AND} {?}및 {\?}{SENTENCE_3} " />
+    <string id="ioKwRFcj" text="평화 조약을 고려합니다(지지율: {SUPPORT}%)" />
+    <string id="IoLK7Lec" text="기본 크기" />
+    <string id="iORENG5d" text="용병은 정책을 제안할 수 없습니다." />
+    <string id="IOtAJCVw" text="총 영향력: {TOTAL_INFLUENCE}" />
+    <string id="IPjqLEdQ" text="{DAY}일 전" />
+    <string id="IQ4bSdf5" text="처제" />
+    <string id="iQao7Ct6" text="굶주린 부대" />
+    <string id="iRo4meJR" text="지금은 백과사전을 사용할 수 없습니다!" />
+    <string id="Is3O8NXW" text=" ({NUMBER_OF_MEN}+{NUMBER_OF_WOUNDED_MEN} 부상)" />
+    <string id="ISJ8Tt8a" text="{?(COUNT &gt; 1)}{PLURAL(ITEM)}{?}{ITEM}{\?} {COUNT}개" />
+    <string id="ISz5bLEO" text="12" />
+    <string id="IT5vdmak" text="{PRISONER_LORD.LINK}이(가) 억류지에서 탈출했습니다." />
+    <string id="itLpRUtF" text="클랜에 빈 부대 슬롯이 없습니다." />
+    <string id="ITTGMEUJ" text="대추{@Plural}대추{\@}" />
+    <string id="itvLr7dL" text="줍기" />
+    <string id="iUTXqFmm" text=" 및 {VILLAGE_NAMES}의 인접 {?VILLAGE_COUNT}마을{?}마을{\?}" />
+    <string id="IUxlDj4s" text="전부 무작위" />
+    <string id="iVEZrZzs" text="선봉대로 질주" />
+    <string id="IvrBQHRp" text="근접 무기" />
+    <string id="IwpFM2CJ" text="이번 마상 시합은 경마입니다." />
+    <string id="iyDOTnCS" text="그들에게 원하는 걸 주게!" />
+    <string id="iyob7aH3" text="위치 방어" />
+    <string id="IzDYSckc" text="캐러밴 ({CURRENT})" />
+    <string id="izKWEAbY" text="클랜 추가 수입 없음" />
+    <string id="j2OaZPQz" text="특성에 따라 무기나 방어구를 기부하면 소대가 {XP_AMOUNT} 경험치를 획득합니다. 최대 {XP_DONATION_LIMIT} 경험치를 획득할 수 있습니다." />
+    <string id="J3ACAwbt" text="상대가 당신을 상대로 방어벽을 건설했지만 남은 말 수가 많아 게임에서 승리했습니다!" />
+    <string id="J3L0MuEU" text="전투에서 패배했습니다. 결과를 확인하려면 {leave_key} 키를 누르세요." />
+    <string id="j46AltVv" text="28" />
+    <string id="j4IdJPkE" text="기마 상태에서는 장전할 수 없습니다." />
+    <string id="J5961cx8" text="속도가 크게 감소합니다. 조심하세요." />
+    <string id="J7DnK8Kv" text="친구, 오늘은 일진이 안 좋군. 당장 은화를 내놓는 게 어때? 목을 베고 싶지는 않거든.[if:convo_mocking_revenge]" />
+    <string id="JAFIo7cM" text=":" />
+    <string id="jAISxqxR" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 공성 무기를 방어 중입니다." />
+    <string id="JbN0RwM2" text="왕국의 수성전을 단념하여 {INFLUENCE} 영향력을 잃었습니다." />
+    <string id="jbQ3LYBl" text="황제" />
+    <string id="jCbYaCcg" text="반갑네, {PLAYER.LINK}. 내 이름은 {CONVERSATION_CHARACTER.LINK}일세. 도움에 감사하지. 나중에 또 만날 수 있기를 바라네." />
+    <string id="jd4ULLGr" text="진행 중인 퀘스트" />
+    <string id="JdNTRtpJ" text="부대의 사기를 높게 유지하세요. 군대를 모아 지휘하세요. 소대를 업그레이드하세요." />
+    <string id="Jelvod71" text="포획" />
+    <string id="jfbrvp9f" text="강 전투{newline}{newline}• 경형 선박이 큰 추가 효과를 받습니다.{newline}• 중형 선박이 큰 불이익을 받습니다.{newline}" />
+    <string id="jfIbp2Hg" text="후속 조치: " />
+    <string id="jFL2rgkP" text="소대나 포로를 풀어주게 됩니다! 계속하시겠습니까?" />
+    <string id="JflqTj4T" text="기타" />
+    <string id="JG2bgZMM" text="아군 {AI_SIDE} {CLASS} 정면에서 교전" />
+    <string id="jGFEbaex" text="주사위 굴리기" />
+    <string id="JGk5MJkN" text="무료 점수" />
+    <string id="Jh7sayJB" text="실패 확률" />
+    <string id="JHBEwYGT" text="도시민이 구입함" />
+    <string id="jhosdZaX" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 성의 중요 위치를 방어 중입니다." />
+    <string id="jiKRLWD4" text="백과사전에 표시" />
+    <string id="jIZcOvMT" text="{YEAR}년 {DAY_OF_YEAR}, {NAME}이(가) 처형당했습니다." />
+    <string id="JkpSoFQ8" text="발생한 사상자" />
+    <string id="JKQjXH9M" text="27" />
+    <string id="jL7XgaP3" text="주력 부대 급여" />
+    <string id="jM9KGCIa" text="{?RULER.GENDER}에미라{?}에미르{\?} {RULER.NAME}" />
+    <string id="JnoB0RZ4" text="{?DYING_HERO.GENDER}그녀{?}그{\?}를 처형" />
+    <string id="jnTQbSsH" text="주민들이 당신에게 저항하기 위해 마을에 모이고 있습니다. 어떻게 하시겠습니까?" />
+    <string id="joICaqvo" text="임명 안 됨" />
+    <string id="Jp6Wa29v" text="다음 등급 추가 효과" />
+    <string id="JP7LTAsa" text="좋아! 좋다고! 이제 그만 사라져![ib:aggressive][if:convo_angry]" />
+    <string id="jPwa1oOm" text="은{@Plural}은{\@}" />
+    <string id="JQarnWiz" text="재료가 부족합니다." />
+    <string id="jQGcUobB" text="민간인" />
+    <string id="JQOUUVct" text="일시정지" />
+    <string id="JSokBXER" text="중보병" />
+    <string id="jSXE0Gbj" text="이곳은 마을 주민의 수가 적고 전부 겁을 먹고 있습니다. 그리고 그들은 당신보다 먼저 흩어지며 도주합니다. 이제 마을의 운명은 당신 손에 달렸습니다." />
+    <string id="jtN3ayKE" text="기본 생산" />
+    <string id="JTyC3Xra" text="자린고비인" />
+    <string id="Ju9ZiFT2" text="근접 무기 V" />
+    <string id="jvexRWHX" text="{PRISONER_LORD.LINK}이(가) {CAPTURER_FACTION_LINK}의 {CAPTURER_LORD.LINK}에게 포로로 붙잡혔습니다." />
+    <string id="Jw4oiIM4" text="{YEAR}년 {DAY_OF_YEAR}, {KING_NAME}이(가) 칼라디아의 {?IS_KING_MALE}황제{?}여황제{\?}로 축성을 받았습니다." />
+    <string id="jxatfzXh" text="{YEAR}년 {DAY_OF_YEAR}, {NAME}이(가) 자연사했습니다." />
+    <string id="K0mlQblA" text="군대의 일일 식량 소비량" />
+    <string id="K0XVOalL" text="현재 판돈" />
+    <string id="k2AeDE6w" text="왕의 지원" />
+    <string id="K2G3XJwZ" text="고집불통" />
+    <string id="k6tT1vIg" text="마상 창 시합이 종료되었으며 상대가 승리했습니다..." />
+    <string id="k7ig2JvK" text="남작" />
+    <string id="k8ocninL" text="거기 멈춰라. 자, 흥분하지 말고... 위대하신 영원의 하늘은 우리에게 이 땅을 선물하셨다. 따라서 우리의 허락 없이는 누구도 이곳을 지나갈 수 없다." />
+    <string id="k8PxNh7x" text="방패 V" />
+    <string id="k8QpbFnj" text="망토" />
+    <string id="k9OYeP9y" text="클릭하여 닫기" />
+    <string id="ka7vAxgo" text="적 {AI_SIDE} {CLASS}을(를) 향해 돌진" />
+    <string id="KafFddmO" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 장군을 보호하고 있습니다." />
+    <string id="KawqKhwh" text="무거운 방어구" />
+    <string id="KC5AZohd" text="반갑소, 여행자. 우리 숲에 오신 걸 환영하오. 다만, 소정의 통행료를 징수하고자 하오.[rf:convo_mocking_revenge]" />
+    <string id="KcQiDE6b" text="{SETTLEMENT_NAME}에서 다음 가격으로 판매 가능: {SELL_PRICE}" />
+    <string id="kd5mMCJJ" text="일일 안보에 +{BONUS_AMOUNT} 추가 효과" />
+    <string id="kdV0tx9K" text="이게 뉘신가? 오늘 집에서 나올 때 지갑은 챙겨왔지? 사람들은 우릴 도적이라고 한단다. 돈을 내놓지 않으면 지나갈 수 없고 말이지.[if:convo_mocking_revenge]" />
+    <string id="kDV7wCtI" text="완료까지 남은 시간: {PREPARATION_TIME}" />
+    <string id="KE9rdUhD" text="- {HERO_NAME}" />
+    <string id="kftE5nvv" text="마갑" />
+    <string id="KGH8rjOP" text="습격을 위해 {SETTLEMENT_NAME}(으)로 이동 중입니다." />
+    <string id="KGHlXL8H" text="그렇다면 좋다. 네놈의 피로 이 땅을 정화하겠다." />
+    <string id="KGjFnVsR" text="컨셉" />
+    <string id="kgqCVvIb" text="내 형제 {REFERING_HERO.LINK}" />
+    <string id="kHC5EjDJ" text="도시 추가 효과" />
+    <string id="kHC5EjEJ" text="군소 세력 추가 효과" />
+    <string id="Khr5yETv" text="아세라이는 나하사 사막의 거주민들로, 유목민인 베두인과 정착한 오아시스 농부들이 뒤섞여 있습니다. 그들은 승마술과 토지에 대한 지식, 또한 교역로에서 손에 넣은 각종 약품과 의학지식으로 유명합니다. 아세라이의 각 클랜은 자신들의 혈통에 강한 자부심을 느끼며 타 클랜을 비방하지만, 카리스마 있는 지도자가 그들을 통솔하게 된다면 남부의 지배자로 급부상할 것입니다." />
+    <string id="KiVCv1Bx" text="{SETTLEMENT_NAME} 포위 중" />
+    <string id="KJDqOGEU" text="우리의 계획은 대형 뒤로 물러나 다음 전투를 기약하는 것이다." />
+    <string id="KkaVpLXd" text="이 정책의 제정을 고려합니다.{newline}(지지율: {SUPPORT}%)" />
+    <string id="KkwLUO3o" text="6" />
+    <string id="klZnvb15" text="캐릭터" />
+    <string id="kM1Y8XT0" text="실망하지 않으실 겁니다{?PLAYER.GENDER}{?}{\?}. 칼라디아 어디에서도 저보다 훌륭한 전사는 찾을 수 없습니다.[ib:convo_approving]" />
+    <string id="kMAD20Ny" text="현재 {SETTLEMENT_NAME} 외부에 있습니다. 적이 소유한 성이므로 들어갈 수 없습니다. 보통 적 도시에 접근할 때에는 길이 텅텅 빕니다. 그러나 이번에는 구경꾼들이 있었으며, 가끔씩 응원 소리도 들려옵니다. 당신은 도시 거주민 중 {FACTION_INFORMAL_NAME} 충성파는 거의 없으며, 민병대가 도시 방어를 위해 무기를 들 일은 없을 것 같다는 생각을 합니다." />
+    <string id="KOwCdwEU" text="어머니" />
+    <string id="KQQaoouG" text="(완료됨)" />
+    <string id="kRKYHQ6V" text="스택이 홈 타일에 정확하게 쌓이면 스택을 조종하는 플레이어의 모든 말이 해당 플레이어의 손으로 돌아가며 다시 사용할 수 있게 됩니다. 다른 플레이어가 소유한 말은 게임에서 사라집니다." />
+    <string id="krmvzGaV" text="플레이 방법" />
+    <string id="kROTif9h" text="전쟁령 수입" />
+    <string id="kRraos2Z" text="내 구역에서 문제를 일으켰군... 신경조차 쓰지 않았는데 말이지." />
+    <string id="krtuDr9P" text="새 샌드박스" />
+    <string id="KSaxvbs9" text="지도에 표시" />
+    <string id="ksDGaGIi" text="19" />
+    <string id="ktFeXrXl" text="더 움직일 수 없습니다. 차례를 건너뜁니다." />
+    <string id="KTGG9EgL" text="안전한 여행 되길! 우리 말고 다른 놈들에게는 돈을 뺏기지 말라고!" />
+    <string id="KTUcgvMZ" text="소대 한도를 초과하게 됩니다. 부대 사기가 저하될 수 있습니다." />
+    <string id="kUBvVY89" text="강 건널목 전투{newline}{newline}• 보병이 작은 추가 효과를 받습니다.{newline}• 이 방어 중 작은 추가 효과를 받습니다.{newline}• 기병대가 방어 중 작은 불이익을 받습니다." />
+    <string id="kuKad3dj" text="{MISSION_MODE}" />
+    <string id="kuLjsNgz" text="외곽 지역 중요 인물" />
+    <string id="kVuucX4o" text="13" />
+    <string id="kvykuTJS" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 공성 무기를 공격 중입니다." />
+    <string id="Kw7awUCK" text="균형 잡힘" />
+    <string id="KWXEMsHC" text="{LORD.LINK}이(가) {SETTLEMENT_NAME}에 있습니다." />
+    <string id="kX8svveF" text="이 아이템 비용 평균 가격 수준입니다." />
+    <string id="kx8ZfaST" text="좋아. 그래서 넌 목숨을 얼마나 소중히 여기지?[ib:hip][if:convo_bared_teeth]" />
+    <string id="kXno6ZuU" text="전투가 종료되었습니다..." />
+    <string id="kyiibFu2" text="전투에서 승리했습니다!" />
+    <string id="kZ7gLqMz" text="자동 모집을 활성화하면 주둔군이 도시 중앙과 근처 마을의 중요 인물을 소대로 모집합니다. 정착지 소유자가 모집 비용을 지불합니다." />
+    <string id="KZAQHSa2" text="하지만 모두가 번영의 혜택을 고르게 누리는 건 아닌 게 분명합니다. 사람들은 화가 난 것처럼 보이며 새로 유입된 외곽 지역의 이주자들, 물가 상승, 그리고 남보다 다 높은 수익을 올리는 자들에 대해 끊임없이 불평하고 있습니다." />
+    <string id="L1Q4AysI" text="수익" />
+    <string id="L3EE8bmx" text="부대의 누구도 이 명령을 완료할 {SKILL} 스킬이 충분하지 않습니다. ({AMOUNT} 더 필요)" />
+    <string id="l4pRw7pO" text="{OWNER.NAME}의 무장 캐러밴" />
+    <string id="l4uTnJct" text="결과를 선택해야 하며, 이러한 결과를 어느 정도까지 지원할지도 선택해야 합니다." />
+    <string id="l57Dk2DQ" text="지하감옥 한도 도달함(죄수 {TROOP_NUMBER}명)" />
+    <string id="l6a3grfK" text="내 부대" />
+    <string id="L7qKijnE" text="{COMPANION.NAME}이(가) 획득한 {ITEM_NAME}이(가) 인벤토리에 추가되었습니다." />
+    <string id="L7teSXvq" text="부대 지휘관만 관리할 수 있습니다." />
+    <string id="l9Vve3bD" text="가을" />
+    <string id="lAgfGeXJ" text="왕국 세력" />
+    <string id="LApMSsnb" text="집중 점수" />
+    <string id="laV5aNhK" text="고유" />
+    <string id="LAvXPBbs" text="공성 장비를 방어하세요!" />
+    <string id="lb13ceVM" text="{?RULER.GENDER}여패왕{?}패왕{\?} {RULER.NAME}" />
+    <string id="Lb1te6Ov" text="관세 수입 +{BONUS_AMOUNT_PERCENT}% 증가" />
+    <string id="lbdSaDpI" text="남은 시간" />
+    <string id="LBy6YDMV" text="재편성" />
+    <string id="Lc1vIEnM" text="늑대와 양은 차례당 한 개의 타일씩 장기판의 선을 따라 같은 방식으로 움직입니다." />
+    <string id="lcbzU94j" text="{FACTION}과(와)의 무역 협정" />
+    <string id="LdLYZX3R" text="일일 세금에 +{BONUS_AMOUNT}% 추가 효과" />
+    <string id="LEC8NhCV" text="정책" />
+    <string id="lfMgaBiJ" text="널 살려준 보답을 제대로 해야 할 게다." />
+    <string id="Lg3zeoYi" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 {#IS_LEFT}{#}왼쪽{#}복수의{\#}{?IS_MIDDLE}중앙{?}{\?}{?IS_RIGHT}오른쪽{?}{\?} 측면{#IS_LEFT}{#}{#}{\#}을 보호 중입니다." />
+    <string id="lh1yhgXw" text="말 장비 V" />
+    <string id="lihYjOSc" text="개" />
+    <string id="littlebrother" text="형제" />
+    <string id="littlesister" text="자매" />
+    <string id="lj8XH6O7" text="지금은 왕국 창을 사용할 수 없습니다!" />
+    <string id="ljcHO6PW" text="안보 변경" />
+    <string id="LjUhEJxz" text="{OWNER.NAME}의 캐러밴" />
+    <string id="LJwKdMdw" text="상대가 위치를 잡을 때까지 대기합니다." />
+    <string id="lKIHqkAV" text="17" />
+    <string id="LL6GkIfg" text="쓰러지기 전에 상대 {OPPONENT_COUNT_1}명을 제압하면 {PRIZE_1}{GOLD_ICON}를 획득합니다. {OPPONENT_COUNT_2}명 이상의 상대를 쓰러뜨리면 {PRIZE_2}{GOLD_ICON}, {OPPONENT_COUNT_3}명의 상대를 제압하면 {PRIZE_3}{GOLD_ICON}, {OPPONENT_COUNT_4}명의 상대를 제압할 때까지 살아남으면 {PRIZE_4}{GOLD_ICON}를 획득합니다. 최후의 승자로 남는 데 성공하면 가장 높은 금액인 {PRIZE_5}{GOLD_ICON}를 보상으로 획득합니다. 구미가 당기죠?[if:convo_nonchalant]" />
+    <string id="Ll90uaxu" text="성공적인 공성전" />
+    <string id="lNADu8JO" text="역할" />
+    <string id="lnKAqDVM" text="중요 위치 방어" />
+    <string id="lockverb" text="잠김" />
+    <string id="LpAiJGeV" text="{HERO_NAME}이(가) 선택 가능한 명령을 완료할 수 없습니다." />
+    <string id="lpbDPuuW" text="{?RULER.GENDER}여제{?}황제{\?} {RULER.NAME}" />
+    <string id="LpVaZbRS" text="이미 이 이름을 가진 다른 왕국이 있습니다." />
+    <string id="lqm9PfF1" text="{?RULER.GENDER}여공작{?}공작{\?} {RULER.NAME}" />
+    <string id="lqMQ6GXj" text="잉여 식량" />
+    <string id="lQQPKo02" text="이동하여 우리 후방에 진입하는 적을 상대로 우리를 엄호하라" />
+    <string id="lRAaUTjs" text="떨어뜨리기" />
+    <string id="lrAnY7Fb" text="완료한 퀘스트" />
+    <string id="LSsFOEQy" text="하루 이내" />
+    <string id="lTTWrL1Q" text="퀘스트 시간 만료: {QUEST_TITLE}" />
+    <string id="lvc1Xgf8" text="여관 여종업원" />
+    <string id="lxLTCX5j" text="소속:" />
+    <string id="LymKjMLk" text="부하가 방금 부대에 합류했습니다." />
+    <string id="lZ1IDnpP" text="전부 주기" />
+    <string id="LZhRP3PM" text="다른 공성 기계를 기다립니다." />
+    <string id="Lzmtqif5" text="군대 규모" />
+    <string id="lznqF0oO" text="해산 중" />
+    <string id="M2b5mtAE" text="다음 대상의 동료:" />
+    <string id="m2YKBbdI" text="반갑소, 어린 양. 우린 이 산의 늑대라오. 괜찮다면 잠시 시간을 내주시겠소?[rf:convo_mocking_revenge]" />
+    <string id="m6A7RLby" text="기만적인" />
+    <string id="M6cWtObI" text="다음 영웅들이 이 무기를 제작할 수 있습니다:" />
+    <string id="M6tfHhq7" text="당신은 투표를 완료했고 통치자가 결과에 대한 결정을 내렸습니다." />
+    <string id="M9p0vPad" text="자네의 이름을 알고 있네... {COMMENT_STRING_MAIN}" />
+    <string id="m9vD3VlN" text="이 부대의 규모는 확장되거나 축소되지 않으며, 규모를 원래대로 유지하려고 합니다." />
+    <string id="Ma0PyWAC" text="결정을 내릴 때 습격, 공격, 공성 부대의 우선순위가 높아집니다. 부대의 적 추적 거리가 늘어납니다." />
+    <string id="ma49Ya6b" text="30" />
+    <string id="MacceKIX" text="{BASE_HERO.NAME}의 {RELATION_TEXT}" />
+    <string id="mAEaO8jM" text="{PRISONER.NAME}이(가) 풀려났습니다." />
+    <string id="MaExlLD7" text="항해 중에는 이 행동을 할 수 없습니다" />
+    <string id="MaIgPHXK" text="{PRISONER_LORD.LINK}이(가) 전투 이후에 풀려났습니다." />
+    <string id="MAkZQKp0" text="스킬 추가 효과/불이익" />
+    <string id="maptimeplay" text="플레이" />
+    <string id="mbS0DkUo" text="습격" />
+    <string id="Mc8ojOGn" text="가구수" />
+    <string id="mDbaNQay" text="말을 타고 전진하여 적에게 공격을 시도하세요!" />
+    <string id="mds0myr4" text="{HERO.NAME}이(가) {?PLAYER.GENDER}{?}{\?}{TRAIT_NAME} 자질을 잃었습니다." />
+    <string id="MeQmoYb4" text="이 소대를 인수할 수 있을 정도로 관계가 높지 않습니다. {newline}{REL1}을(를) 보유 중입니다. {REL2}이(가) 필요합니다." />
+    <string id="MFLAvq4Z" text="안에 도적이 있습니다. 공격하시겠습니까?" />
+    <string id="MfnYoLdc" text="비용" />
+    <string id="mG4oq1vb" text="외해 전투{newline}{newline}• 중형 선박이 큰 추가 효과를 받습니다.{newline}• 소형 선박이 큰 불이익을 받습니다.{newline}" />
+    <string id="MGv4Uabd" text="본인에게 {BET_AMOUNT}을(를) 걸었지만 패배하고 말았습니다." />
+    <string id="MgwKd3jd" text="{A0}의 관세" />
+    <string id="mGWrSJLE" text="지도 이벤트를 진행 중인 군대는 해산할 수 없습니다." />
+    <string id="mhAr3dfG" text="퀘스트 시작됨: {QUEST_TITLE}" />
+    <string id="MHJCuM3N" text="멈춰라! 이방인인 네놈이 이 성스러운 땅을 밟는 바람에 조상께서 진노하셨다. 자, 어찌할 텐가?[rf:convo_mocking_revenge]" />
+    <string id="mieKgbp8" text="일일 발사 속도" />
+    <string id="minuteabbr" text="m" />
+    <string id="mJB7knQo" text="후퇴" />
+    <string id="mJE0o9Zi" text="주둔군" />
+    <string id="mJkJWccN" text="계속하면 {GOVERNOR.NAME}을(를) {SETTLEMENT_NAME}의 총독 자리에서 제거하게 됩니다. 계속하시겠습니까?" />
+    <string id="Ml5PFDph" text="{YEAR}년 {DAY_OF_YEAR}, {NAME}이(가) 처형됐습니다." />
+    <string id="MLmHSSg0" text="중기병대" />
+    <string id="MmNF7sW7" text="말을 움직일 수 있는 유일한 방법은 상대의 말을 포획하는 것입니다.{newline}말을 포획하려면 상대의 말을 1개 이상 직각으로 뛰어넘어야 합니다." />
+    <string id="Mms9bbhY" text="{DAY_NUM} {?DAY_NUM==1}일{?}일{\?}" />
+    <string id="mNr84Xm1" text="지금은 클랜 창을 사용할 수 없습니다!" />
+    <string id="mPaQzgS0" text="여기서 만나게 되어 반갑네, {PLAYER.LINK}." />
+    <string id="MpDMaBE9" text="감히 우리에게 저항하겠다고? 네놈의 두개골에 술을 따라 마셔주겠다!" />
+    <string id="mPtUKcI3" text="적군이 뭉치고 있습니다. 곧 전략적 후퇴를 고려하세요." />
+    <string id="MPZ40lEk" text="신생아 이름 짓기" />
+    <string id="MqsWixDp" text="후퇴!" />
+    <string id="mSPDO0Fe" text="적에 의해 고립되었습니다. 하지만 싸울 수 있는 상태가 아닙니다. 항복 외에는 선택의 여지가 없습니다." />
+    <string id="MT4b8H9h" text="알 수 없음" />
+    <string id="MTtrk28a" text="동맹 조약을 고려합니다(지지율: {SUPPORT}%)" />
+    <string id="MUCmJaXQ" text="{FACTION_INFORMAL_NAME}의 통치자" />
+    <string id="MUStU7ab" text="형제" />
+    <string id="MWatMKoP" text="{YEAR}년 {DAY_OF_YEAR}, 이전에는 라이벌이었던 세력의 군대가 함께 참전하며 제국 세력 간의 비밀 조약은 이제 만천하에 드러났습니다." />
+    <string id="MWByKPst" text="장군" />
+    <string id="mwegfVKr" text="지적" />
+    <string id="MWGATOoz" text="이번 마상 시합은 단체 근접전입니다." />
+    <string id="MwgcfGsr" text="말이 상대의 말이 이미 있는 타일에 착지하면 상대의 말을 포획합니다. 포획된 말은 공격한 말 밑에 포개집니다.{newline}포개진 말은 위에 있는 말이 상대의 소유인 이상 다시 포획될 수 있습니다.{newline}말은 포획을 감행하는 즉시 다음 차례에 홈 타일 방향으로 돌아갑니다." />
+    <string id="MxG4217V" text="마을 주민" />
+    <string id="mxuirhkW" text="모든 적 공성 장비를 파괴했습니다! 성으로 물러날 때입니다." />
+    <string id="mXxVf2rb" text="책" />
+    <string id="Myb3WrB9" text="부대장 역할과 효과" />
+    <string id="mZR7eYHa" text="방패 I" />
+    <string id="MzxFIyAQ" text="왕국 비교 바 보기" />
+    <string id="N0MCVBXb" text="무시하기" />
+    <string id="n3e3g6Rq" text="돈 걸기" />
+    <string id="N6O2GtTK" text="가공 중" />
+    <string id="n6Q6vv5t" text="{GOLD} 골드를 약탈했습니다." />
+    <string id="N7w6zi0F" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 후퇴 중입니다." />
+    <string id="N7yWipWU" text="강 건널목 전투{newline}{newline}• 보병이 작은 추가 효과를 받습니다.{newline}• 기병대가 공격 중 중간 정도의 불이익을 받습니다.{newline}• 궁기병이 공격 중 작은 불이익을 받습니다." />
+    <string id="N84HlDaV" text="{NUMBER_OF} {ITEM} ({AMOUNT}{GOLD_ICON})" />
+    <string id="n9qR84YI" text="{PRISONER.NAME}이(가) {SETTLEMENT}에서 탈출했습니다." />
+    <string id="NaAA5kjG" text="{TRIBUTE_DURATION}일 동안 매일 {TRIBUTE_AMOUNT}의 공물을 받고 평화 조약을 맺는 것을 고려합니다.(지지율: {SUPPORT}%)" />
+    <string id="nAaT19CC" text="{?RULER.GENDER}여집정관{?}집정관{\?} {RULER.NAME}" />
+    <string id="NaNMRPv4" text="아세라이" />
+    <string id="NaorUInI" text="전투력이 부족한 부대" />
+    <string id="NarcUcZA" text="세력 이름에 유효하지 않은 문자가 있습니다." />
+    <string id="nbBgbwM2" text="대기열: {NUMBER}" />
+    <string id="NbgeKwVr" text="작업장" />
+    <string id="NBv29XpJ" text="본인이 소속된 군대는 해산할 수 없습니다." />
+    <string id="nbw71MCj" text="{SETTLEMENT_NAME}의 {BUILDING_NAME} 건물이 완성되었습니다." />
+    <string id="nCDhsh8s" text="동맹 제안" />
+    <string id="nDNOn5o2" text="장비" />
+    <string id="ndXuPWYV" text="{NUM1}x{NUM2}" />
+    <string id="Nfm5lLWv" text="{CHILD.NAME}을(를) 당장 살펴봐야 합니다!" />
+    <string id="nfQhamAF" text="휘두르기 속도: " />
+    <string id="NgHSyQem" text="군대에서" />
+    <string id="nHGm1wYg" text="전투가 종료되었습니다. 결과를 확인하려면 {leave_key} 키를 누르세요." />
+    <string id="nHkQbLDc" text="탈것과 함께 사용할 수 없음" />
+    <string id="nHSVy0ns" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 {#IS_LEFT}{#}왼쪽{#}여러 방향{\#}{?IS_MIDDLE}중앙{?}{\?}{?IS_RIGHT}오른쪽{?}{\?}에서 측면을 공격 중입니다." />
+    <string id="NiyNgXMe" text="이 부대는 이미 해산 중입니다." />
+    <string id="njnMk5P1" text="정책 폐지" />
+    <string id="nk0bADtq" text="결투 도전을 거부했습니다. 당신을 겁쟁이로 본 군대가 낙담하기 시작합니다. 부대가 사기를 잃었습니다." />
+    <string id="NkbszXv6" text="정착지가 반란을 일으키고 있습니다." />
+    <string id="NKYem1X0" text="이 부대는 {ARMY_LEADER}의 군대 소속입니다." />
+    <string id="nkzKgspT" text="주둔군 관리" />
+    <string id="NLmaID0O" text="{HERO.NAME}이(가) {KILLER.NAME}에게 처형당했습니다." />
+    <string id="nMcvafHY" text="활성" />
+    <string id="nNDdo3I9" text="한손검" />
+    <string id="nnr8sANN" text="{PARTY_LIST_TAG}({COUNT} + {WEAK_COUNT}w)" />
+    <string id="nNRKCYpR" text="내부 생산" />
+    <string id="NnZ5w9zm" text="{NUM1} ({NUM2})" />
+    <string id="nojcK4ia" text="{?RULER.GENDER}여대공{?}대공{\?} {RULER.NAME}" />
+    <string id="NPJRmNAY" text="제작할 수 없습니다." />
+    <string id="NQbqtEqP" text="비용: {COUNT}" />
+    <string id="NqSLYe6b" text="명성:" />
+    <string id="NqtTPVzn" text="능력치" />
+    <string id="NRbNsJ9C" text="변경 사항이 취소됩니다! 계속하시겠습니까?" />
+    <string id="NRpwZGxI" text="병사" />
+    <string id="NvJru5Tz" text="남성 전용" />
+    <string id="nVKEUvaC" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 머더홀을 사용 중입니다." />
+    <string id="NvqbkaFD" text="{PARTY}이(가) {SETTLEMENT}을(를) 습격하는 중, 당신이 마을을 도우러 왔습니다. 당신은..." />
+    <string id="nvswKHTZ" text="{GOLD_AMOUNT}{GOLD_ICON}을 지불했습니다." />
+    <string id="nWbp3o3H" text="봄" />
+    <string id="nwqUFaU8" text="겨울" />
+    <string id="nxQaab9d" text="{SHOPNAME} ({SHOPTYPE})" />
+    <string id="ny32aoLJ" text="말 장비 II" />
+    <string id="nyGRpJT3" text="대기열" />
+    <string id="NYHinaEh" text="전투 중에는 인벤토리를 사용할 수 없습니다!" />
+    <string id="NZUELfbp" text="공성전 도중에는 군대를 관리할 수 없습니다" />
+    <string id="o0OQ5omY" text="우리의 계획은 방어 태세를 유지하는 것이다." />
+    <string id="O10KTShQ" text="손잡이" />
+    <string id="o1LEfpWD" text="조카딸" />
+    <string id="o1MtbgEi" text="해결되지 않은 문제" />
+    <string id="o2ce7bhY" text="현명한 판단입니다." />
+    <string id="O37b0e8r" text="평화가 선포되어 {PRISONER_FACTION_LINK}의 {PRISONER_LORD.LINK}이(가) 석방되었습니다." />
+    <string id="O69Vhqxk" text="그래서 우리에게 얼마를 줄 생각인가?[rf:convo_angry]" />
+    <string id="o7I8qayN" text="하! 제대로 복부를 강타당하는 것만큼 살아있다는 걸 실감할 수 있는 방법이 또 없죠? {OPPONENT_COUNT}명의 상대를 제압하는 데 성공한 모양이군요. 나쁘지 않습니다. 하지만 그 정도로는 상금을 획득할 수 없어요. 자, 나라면 다시 돌아가서 모두에게 자신의 능력을 보여주겠어요..." />
+    <string id="O9xpd5bn" text="여남작" />
+    <string id="oAg4dtbB" text="25" />
+    <string id="ObTSCxra" text="신하" />
+    <string id="OBXNbvkK" text="당신이 마을 주민들에게 물건 각출을 강요하자 몇몇 주민들이 당신에게 저항하기 위해 모여들기 시작합니다. 그들과 싸우면 {KINGDOM}와(과)의 전쟁이 일어납니다." />
+    <string id="Oc85b0Bx" text="중요 인물로부터" />
+    <string id="OCGaTxac" text="마상 시합 상품" />
+    <string id="OdFPHvtE" text="반란군이 이 정착지를 공격하고 있습니다. 개입하시겠습니까?" />
+    <string id="OEax2Y9c" text="캐러밴 습격. 도적 소대를 고용하고 통솔하기. 적의 영지를 침략하기. 뇌물의 사용. 감금장소에서 탈옥하기." />
+    <string id="oGflu1jV" text="머더홀 사용" />
+    <string id="OGjq7rpg" text="물건을 {TOWN}의 시장에서 판매하려고 합니다." />
+    <string id="OgRtdJhu" text="마을 전투{newline}{newline}• 보병이 작은 추가 효과를 받습니다.{newline}• 궁병이 공격 중 중간 정도의 불이익을 받습니다.{newline}• 궁기병이 공격 중 중간 정도의 불이익을 받습니다." />
+    <string id="ogtgc69b" text="깃발을 소지할 수 있는 권리를 받았습니다. 깃발은 당신의 지위를 상징하며 명예를 가져다줄 것입니다. 어떤 깃발을 선택하시겠습니까?" />
+    <string id="OGxk0EXC" text="마상 시합이 종료되었습니다. {TOURNAMENT_FINAL_PARTICIPANT_A}이(가) 결승전에서 {TOURNAMENT_FINAL_PARTICIPANT_B}을(를) 물리치고 승리했습니다." />
+    <string id="Ohdrbpiw" text="블란디아인" />
+    <string id="OhLXo0gb" text="범죄자 총독" />
+    <string id="OIBpCGYv" text="이 부대의 규모가 축소됩니다. 현재 목표 규모는 {TARGET_SIZE}입니다." />
+    <string id="OiCCv0EL" text="이 마을은 어려운 시기를 겪고 있습니다. 농기구는 녹이 슬고 부서졌습니다. 외곽 농경지에는 잡초가 자라고 있습니다. " />
+    <string id="oiFt5bEV" text="건설 추가 효과" />
+    <string id="oiSW6MyB" text="흉갑" />
+    <string id="OJmC1Ckc" text="남은 상대: {REMAINING_OPPONENT_COUNT}" />
+    <string id="oKct1ecg" text="딸" />
+    <string id="OLKGQGHU" text="난 {TOWNS}의 영주요." />
+    <string id="OLyjbawD" text="[더보기]" />
+    <string id="OLZqZZF3" text="계속하면 {GOVERNOR.NAME}은(는) {TRAVEL_DURATION} 동안 {SETTLEMENT_NAME}의 새 총독이 되기 위해 이동합니다. 이동 중에는 {GOVERNOR.NAME}와(과) 상호작용할 수 없으며 {SETTLEMENT_NAME}의 총독을 {GOVERNOR.NAME}이(가) 도착할 때까지 변경할 수 없습니다. 계속하시겠습니까?" />
+    <string id="ONGv27TH" text="이제 그만 꺼져라, 비루먹은 개새끼 같은 놈!" />
+    <string id="OnttNMRn" text="방패 IV" />
+    <string id="Ooqyo9RB" text="라운드 건너뛰기" />
+    <string id="OPhlqUVl" text="대화" />
+    <string id="OpSGWdrk" text="폭력단원" />
+    <string id="OqCodBZJ" text="거기 멈춰라! 가진 물건을 내놔 봐!" />
+    <string id="Or9YduTA" text="자매" />
+    <string id="oRaa1yls" text="소모품" />
+    <string id="OSZUvWbG" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 준비되어 있습니다." />
+    <string id="oTGDxKW7" text="{FACTION}을(를) 상대로 전쟁 선포" />
+    <string id="OtP3heba" text="상대를 제압하고 게임에서 승리했습니다!" />
+    <string id="ou9asw1a" text="휘두르기 {SWING_DAMAGE_TYPE} 피해: " />
+    <string id="OviaJ1tA" text="기타" />
+    <string id="oVSS2Lp5" text="말 장비 III" />
+    <string id="OWCoBElc" text="{PARTY_NAME}에게 생포되었습니다." />
+    <string id="owg6SqHF" text="에미르" />
+    <string id="owTlJjJc" text="처남" />
+    <string id="OxiaKT0G" text="스투르지아인" />
+    <string id="oYUAuLO7" text="당신은 공격하지 않기로 맹세했습니다." />
+    <string id="OzazmGBi" text="쿠자이트" />
+    <string id="ozYRUrum" text=" 정착지에서 부상당한 병사의 치료를 돕습니다." />
+    <string id="P1VmnfsB" text="{SETTLEMENT_NAME}의 {BUILDING_NAME} 건물 레벨이 올랐습니다." />
+    <string id="P2CRzfV7" text="정착지 상점" />
+    <string id="p2WBSIa7" text="응집력:" />
+    <string id="P3SJla9F" text="약탈당한 마을" />
+    <string id="p4PIzGTP" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 고지를 사수하고 있습니다." />
+    <string id="p5Rad7i2" text="전쟁 부대" />
+    <string id="p8amfQyz" text="용병은 클랜을 추방할 수 없습니다." />
+    <string id="P8BxiiKd" text="빈곤함에도 불구하고 불만에 찬 소리는 거의 들려오지 않습니다. 변화를 기대하기에는 사람들이 너무 지친 것 같습니다." />
+    <string id="P8Z3zQyy" text="안전함" />
+    <string id="p9vAIDL1" text="중상모략" />
+    <string id="PAa618xe" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 진군을 시작합니다." />
+    <string id="pAOtyE9u" text="사구 전투{newline}{newline}• 기병대가 큰 추가 효과를 받습니다.{newline}• 궁기병이 큰 추가 효과를 받습니다." />
+    <string id="patrolPartyName" text="{SETTLEMENT} 순찰대" />
+    <string id="pb4KfhxC" text="대장들이 전략적 후퇴를 명령하고 있습니다!" />
+    <string id="pB5anEQq" text="시작 위치로 이동" />
+    <string id="pbdrFqb3" text="이 군대를 강제로 해산" />
+    <string id="Pc0zpaGa" text="오, 이게 누구신가? 여기를 통과하려면 통행세를 내야 한다네, 여행자여. 돈이 없으면 피로 지불해야 하네.[if:convo_bared_teeth]" />
+    <string id="PdXqoa2W" text="{SETTLEMENT_NAME}(으)로 이동 중입니다." />
+    <string id="PE4nuMc7" text="이 페이지에서는 Bannerlord의 여러 게임 컨셉을 설명합니다." />
+    <string id="pebUiIkT" text="잠행 복장" />
+    <string id="PEKxMxal" text="이제 도망칠 수 있습니다." />
+    <string id="pEm60xEX" text="상대가 말을 포획합니다." />
+    <string id="PFbLgd1I" text="항복" />
+    <string id="pgd7Dp78" text="거주지" />
+    <string id="pGEIBlLR" text="제정하기" />
+    <string id="PGl6fYqY" text="궁기병 선택" />
+    <string id="PGXitpMN" text="{SETTLEMENT_NAME} - ({COMMON_AREA_NAME})" />
+    <string id="PH7pkve4" text="{ISSUE_NAME}: 당신의 소대가 이 문제를 해결 중입니다." />
+    <string id="PhF8wNaG" text="기마 상태에서 사용 불가" />
+    <string id="PhoKHbhd" text="전투에서 승리했습니다. 결과를 확인하려면 {leave_key} 키를 누르세요." />
+    <string id="Pia30xtc" text="{?ASKED_LORD.GENDER}그녀{?}그{\?}는 현재 {TOWN_NAME}에 있습니다." />
+    <string id="pin2L6tH" text="급여 한도 초과" />
+    <string id="PitdvCJI" text="총독 교체" />
+    <string id="pJBz7hhl" text="부하를 모으게. 또 다른 임무가 생겼네!" />
+    <string id="PJEuE208" text="민병대:" />
+    <string id="pLZeP6L6" text="{?IS_GENERAL_SIDE}{?}{SIDE_STRING} 측면 {\?}벽 공격" />
+    <string id="pm0yiOmv" text="획득: {DENAR_AMOUNT}{GOLD_ICON}" />
+    <string id="pMb8Pe12" text="며느리" />
+    <string id="PMnSk81U" text="싸울 생각인가, 어린 양? 어디 한번 실력 좀 볼까?" />
+    <string id="PN4Edq9W" text="근접 무기 III" />
+    <string id="pn9KNMxb" text="적에 의해 고립되었습니다. 하지만 부하들이 싸울 수 있는 상태가 아닙니다. 항복 외에는 선택의 여지가 없습니다." />
+    <string id="policypropose" text="제안" />
+    <string id="PpPbWYPB" text="용병이 될 수 있습니다." />
+    <string id="pPRYdrk7" text="군대 관리" />
+    <string id="PpwmZ4ZN" text="방어군 측" />
+    <string id="pq48aN8d" text="사기: {reg1}" />
+    <string id="pQ9Sxily" text="축하합니다, 용사여! 기억에 남을 전투였습니다! 물론 최후의 승자에게는 가장 높은 상금인 {PRIZE}{GOLD_ICON}가 지급됩니다." />
+    <string id="PqfS5lgq" text="{ABSORBED_AMOUNT} 피해가 {ARMOR_AMOUNT} 방어구에 흡수되었습니다." />
+    <string id="pqfz386V" text="클랜 지도자" />
+    <string id="PqOXjfef" text="평화가 선포되어 {PRISONER_LORD.LINK}이(가) 석방되었습니다." />
+    <string id="prs0jRAy" text="총합" />
+    <string id="psjAVdkH" text="초기화 아이콘" />
+    <string id="pSjnd6PX" text="결투에서 패배했습니다. 당신의 패배에 군대가 낙담하기 시작합니다. 부대가 사기를 잃었습니다." />
+    <string id="pSWt8NXH" text="{SETTLEMENT_NAME} 습격 중({RAIDING_PROCESS}%)" />
+    <string id="pSz4xSqO" text="영웅의 {SKILL_NAME} 스킬이 {MIN_SKILL_AMOUNT} 이상이어야 합니다." />
+    <string id="pT9TZehy" text="야영지" />
+    <string id="puwXJDa9" text="번영도:" />
+    <string id="pvdKMIL7" text="드래그" />
+    <string id="PVidxUQ8" text="식량 비축량" />
+    <string id="PvrRFwHM" text="{TRADE_AMOUNT}{MORALE_ICON}을 {?PAY_OR_GET}얻습니다{?}잃습니다{\?}." />
+    <string id="PVUeymMR" text="진행 중" />
+    <string id="pwFp1A5W" text="가학적인" />
+    <string id="PxUrlIvL" text="{KINGDOM_TO_CALL_TO_WAR_AGAINST}에 전쟁을 선포하는 {CALLING_KINGDOM}의 부름에 응답" />
+    <string id="PYaUEZzn" text="선전포고를 고려합니다.{newline}(지지율: {SUPPORT}%)" />
+    <string id="PylbJEe5" text="인력 #" />
+    <string id="Q0qrw7F5" text="집중 추가" />
+    <string id="Q2alNolf" text="내 여자 친척 {REFERING_HERO.LINK}" />
+    <string id="Q2JYjFQl" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END}{?IS_PLURAL}{?}{\?} 소대가 철수하고 있습니다." />
+    <string id="Q3hlcBa4" text="다음의 일부:" />
+    <string id="Q3KrMlLd" text="돌진!" />
+    <string id="Q67Wys0i" text="{SETTLEMENT_NAME} 주변을 정찰 중입니다." />
+    <string id="Q7ONA10T" text="&lt;b&gt;트레뷰셋&lt;/b&gt;{NEWLINE}정확도가 떨어지지만 벽을 상대로 파괴적인 효과를 발휘합니다." />
+    <string id="q7xpz1xb" text="통치 중인 마을 거래" />
+    <string id="Q8mI3b4K" text="선택한 정책 없음" />
+    <string id="Q9h3y2oO" text="8" />
+    <string id="QA8Gm9PY" text="날씨가 참 덥지? 괜히 싸우다가 힘 빼지 말고... 원하는 걸 주면 사라져 주겠어.[rf:convo_mocking_revenge]" />
+    <string id="qaueUlAp" text="좋아. 밖에서는 조심하라고. 세상은 도적 천지거든. 게다가 우리처럼 친절하지 않은 놈들도 많다고.[ib:closed][rf:convo_bemused]" />
+    <string id="QAv3upYr" text="클록" />
+    <string id="qb31gnpr" text="클랜 지도자 추가 효과" />
+    <string id="QBbBahLv" text="여정을 이어가도 좋다는 허가를 내리겠네." />
+    <string id="qC4OsBt1" text="마을(공성전 중)" />
+    <string id="qDSda1OI" text="{DAY} {?DAY_IS_PLURAL}일{?}일{\?}" />
+    <string id="QE1XRyUP" text="공성 장비 생산 속도에 +{BONUS_AMOUNT_PERCENT}% 추가 효과" />
+    <string id="qe686AAn" text="당신은 통치자입니다. 당신의 결정이 최종적이며 다른 모든 의견보다 우선시됩니다." />
+    <string id="QeeK2rge" text="당신" />
+    <string id="QFMshJaj" text="{SETTLEMENT_NAME} 근처에서 집결 중입니다." />
+    <string id="qg0WttZb" text="왕국의 일원이어야 합니다." />
+    <string id="Qg5suamT" text="{FIGHTER_NAME}에게 {BET_AMOUNT}을(를) 걸었지만 {?FIGHTER_GENDER}그녀{?}그{\?}가 패배했습니다." />
+    <string id="qgHblOq4" text="매복한 적을 발견했습니다." />
+    <string id="qgL4P2vO" text="번창한 도시입니다. 시민들은 건강하고 편안해 보입니다." />
+    <string id="QgUej8DP" text="진행 중인 퀘스트 없음" />
+    <string id="qhhLVJAC" text="&lt;b&gt;준비&lt;/b&gt;" />
+    <string id="qHkTYCy0" text="소대가 {XP_AMOUNT} 경험치를 획득합니다." />
+    <string id="qKg44yWp" text="우선순위" />
+    <string id="QKGVAVcc" text="총독 특성" />
+    <string id="QL2t7D44" text="추가 작업장 제한" />
+    <string id="ql8Xr5ap" text="공성 전투{newline}{newline}• 궁병이 공격 중 큰 불이익을 받습니다.{newline}• 기병대가 공격 중 중간 정도의 불이익을 받습니다.{newline}• 궁기병이 공격 중 심각한 불이익을 받습니다." />
+    <string id="QlaGZAHq" text="새로운 지원군이 도착했습니다!" />
+    <string id="QLM6DWHB" text="활성 퀘스트" />
+    <string id="qlnXblKO" text="{ISSUE_NAME}: 소대가 문제를 해결한 후 임무에 복귀했습니다." />
+    <string id="QLRbhRKL" text="문제" />
+    <string id="qlw2LWgu" text="사거리로 이동" />
+    <string id="qM8daraD" text="총 스킬 점수: {CURRENT_SKILL_POINTS}" />
+    <string id="QmaVRAkx" text="급여를 전부 지불하지 못했습니다. 부대가 {reg1}의 사기를 잃었습니다." />
+    <string id="qMhCpq9k" text="부대 규모 초과" />
+    <string id="Qn3DCH3d" text="지주" />
+    <string id="qNgjr719" text="{SETTLEMENT} 정착지를 포위한 군대가 공격을 시작했습니다!" />
+    <string id="qpmpTdla" text="중요 인물" />
+    <string id="qQLh6S2w" text="SP {CURRENTAMOUNT}/{TARGETAMOUNT}" />
+    <string id="qR0s1VvE" text="가격, 물량 부족, 탐욕스런 상인에 관한 불만이 들리지만 정상적인 수준을 벗어나지는 않습니다." />
+    <string id="qSC0t1lY" text="{YEAR}년 {DAY_OF_YEAR}, {FIRST_HERO}이(가) {SECOND_HERO}와(과) 결혼했습니다." />
+    <string id="qsh0I4Rm" text="상대가 {DICE_ROLL}을(를) 굴립니다." />
+    <string id="qt7WSK15" text="{SETTLEMENT_NAME}(습격당함)" />
+    <string id="QTbZPyha" text="동반자:" />
+    <string id="qtHAlJEk" text="100{GOLD_ICON}을 걸고 승리하면 {NORMALIZED_EXPECTED_GOLD}{GOLD_ICON}을 획득합니다." />
+    <string id="qtmj7h2r" text="  0" />
+    <string id="QtXf82OD" text="찌르기 {THRUST_DAMAGE_TYPE} 피해를 주는 무기" />
+    <string id="quantitysign" text="#" />
+    <string id="qUtYks66" text="{ARMY_LEADER.LINK}의 군대가 {SETTLEMENT_NAME} 근처에서 집결 중입니다." />
+    <string id="QxdINoOA" text="여자 친척" />
+    <string id="QxlDIo3q" text="5" />
+    <string id="QY2nuTFB" text="후퇴합시다!" />
+    <string id="qyahMgD3" text="캐러밴 ({A0})" />
+    <string id="qzRbMK8G" text="가신들이 이 적에게 적 습격 및 공성 대응과 같이 수비적인 행동을 더 많이 취하게 됩니다." />
+    <string id="r312jCKr" text="평화 제안" />
+    <string id="R4eS65oX" text="분노한 주민들 중 일부가 연장을 들고 당신에게 저항할 준비를 합니다. 멈추지 않으면 싸움이 벌어질 것 같습니다." />
+    <string id="R5IOmwN1" text="공성전 진영 구축" />
+    <string id="R6oKMaZ5" text="{MARRIED_HERO.LINK}이(가) {MARRIED_TO.LINK}와(과) 결혼했습니다." />
+    <string id="R7v2UD8b" text="말을 움직입니다." />
+    <string id="r7ZX7QAq" text="공격군 측" />
+    <string id="r9Wtbayx" text="슬링용 돌" />
+    <string id="RaAnj4On" text="수비군" />
+    <string id="rangedtroop" text="궁병" />
+    <string id="ranksign" text="#" />
+    <string id="rBieLPA7" text="소대 한도가 초과되었습니다.{newline}임시로 소대는 유지되겠지만 어느 정도의 시간이 지나면 빠르게 부대를 저버릴 것입니다. 또한 속도가 저하됩니다.{newline}계속하시겠습니까?" />
+    <string id="Rbn9l507" text="반란 정착지 추가 효과" />
+    <string id="rdbw9TVm" text="방패 II" />
+    <string id="rDnWQL87" text="칼집 표시/숨김" />
+    <string id="RdsbyNE2" text="{TRIBUTE_DURATION}일 동안 매일 {TRIBUTE_AMOUNT}의 공물을 주고 평화 조약을 맺는 것을 고려합니다.(지지율: {SUPPORT}%)" />
+    <string id="REdb7vbQ" text="{?RULER.GENDER}술타나{?}술탄{\?} {RULER.NAME}" />
+    <string id="redwEIlW" text="병참장교" />
+    <string id="rFvEZJu7" text="{ITEM_NAME}이(가) {PLAYER.LINK}의 인벤토리에 추가되었습니다." />
+    <string id="rgmnL6sF" text="사막 전투{newline}{newline}• 기병대가 큰 추가 효과를 받습니다.{newline}• 궁기병이 큰 추가 효과를 받습니다." />
+    <string id="rGNrtXSx" text="공격자들의 손에서 정착지를 방어하는 걸 돕기 위해 {SETTLEMENT}에 도착했습니다." />
+    <string id="RGqPxabq" text="위세" />
+    <string id="rhfgzKtA" text="{A0}에서 얻는 공물" />
+    <string id="rHSjMjWX" text="결정 해결" />
+    <string id="RiZ9lNAe" text="벽 레벨" />
+    <string id="RjgBIYvH" text="&lt;b&gt;개선된 공성추&lt;/b&gt;{NEWLINE}문을 파괴하는 데 사용됩니다. 일반 공성추보다 강력합니다." />
+    <string id="RJJ1Pbjk" text="{FACTION_INFORMAL_NAME}을(를) 위해 싸우는 용병" />
+    <string id="RJKLJDdf" text="감옥 수용 한도 +{BONUS_AMOUNT} 증가" />
+    <string id="RKyiu5MH" text="어쩌면 서로 거래를 할 수 있을지도 모르겠군." />
+    <string id="rmSkXZlp" text="마상 시합이 종료되었습니다. {TOURNAMENT_FINAL_OPPONENT}이(가) 결승전에서 당신을 물리치고 승리했습니다." />
+    <string id="RNQIG1DS" text="휘파람 소리와 울부짖는 소리가 들려? 저건 바람이 아니야. 우리에게 저항했던 자들이 유령이 되어 내는 소리지. 자, 유령과 함께할 준비를 하거라." />
+    <string id="RO0a71EP" text="상대가 당신을 상대로 방어벽을 건설했지만 남은 말 수가 같아서 게임이 무승부로 끝났습니다!" />
+    <string id="ROB0VcsI" text="용사가 결투에서 승리했습니다. 당신의 승리에 군대가 고무되었습니다. 부대가 사기를 얻습니다." />
+    <string id="RpfgdR45" text="영주님" />
+    <string id="rPvzZKFk" text="수비대 부족" />
+    <string id="rQ5On2GL" text="클랜 내 모든 부대의 추가 부대 규모" />
+    <string id="RqnEjYVe" text="+{RECRUIT_AMOUNT} 신병{?ISPLURAL}{?}{\?}" />
+    <string id="rqWJL27J" text="총 골드" />
+    <string id="RsBO5aOq" text="휘두르기 {SWING_DAMAGE_TYPE} 피해를 주는 무기" />
+    <string id="RTmDiT0l" text="현재 부대 규모 추가 효과" />
+    <string id="rTuptXLg" text="공격군 깃발" />
+    <string id="RU6D7hSR" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 진격 중입니다." />
+    <string id="RUcYGbUH" text="점수가 부족합니다." />
+    <string id="RuHaC2Ck" text="병역 면제 세금" />
+    <string id="RvDxHQ73" text="가격: " />
+    <string id="RVfkxgMm" text="{?IS_PRISONER_FOLLOWING}머무르기{?}따라가기{\?}" />
+    <string id="rxOK6dn1" text="신하가 될 수 있습니다." />
+    <string id="rxxZFVOa" text="{HERO_NAME}이(가) {NUMBER}개의 명령을 완료했습니다." />
+    <string id="rY23b263" text="상대가 말을 움직입니다." />
+    <string id="rZ9aqmaq" text="더 나은 목표가 있네. 거기로 가야 해." />
+    <string id="RzjMX0Og" text="좋다. 이만 가봐. 물을 충분히 섭취하는 걸 잊지 말라고!" />
+    <string id="rzsRQkXw" text="{CHAR_NAME}은(는) 이미 {PERK_NAME} 특성을 보유 중입니다." />
+    <string id="s1NEbhFL" text="대기열 내" />
+    <string id="s2vaPUdG" text="창벽" />
+    <string id="S3ymfdwB" text="설정이 변경되었습니다. 변경 사항을 적용하시겠습니까?" />
+    <string id="s5h0Yarn" text="내 군대 관리" />
+    <string id="s6ofDDii" text="바리케이드" />
+    <string id="S9tmCkHz" text="이 영웅은 공유지를 정리하는 중입니다." />
+    <string id="sa2TQu1G" text="이 영웅은 문제나 퀘스트로 인해 바쁩니다." />
+    <string id="SBp4Ja1u" text="무료 집중 점수를 사용하여 개별 스킬의 학습 한도를 높일 수 있습니다. 캐릭터는 레벨을 올릴 때마다 {FOCUS_PER_LEVEL}의 집중 점수를 획득합니다." />
+    <string id="sbtJb2tL" text="금을 걸어 받을 보상을 늘릴 수 있습니다. 라운드마다 배당률이 다르며, 매번 {MAX_AMOUNT}{GOLD_ICON}까지 걸 수 있습니다." />
+    <string id="SCAehHN6" text="아들" />
+    <string id="SdcpdfaV" text="이봐, 가방 안에 뭐가 들었지? 뭘 운반하는 거야?[if:convo_bared_teeth]" />
+    <string id="SdXS4lxN" text="세력 지도자 추가 효과" />
+    <string id="SEBZa2Lh" text="응집력 촉진" />
+    <string id="secondabbr" text="s" />
+    <string id="SeQ0Q7r6" text="진행 중인 문제" />
+    <string id="settlementtrack" text="추적" />
+    <string id="sfcbd6QS" text="이 설득 시도에서 성공하는 데 필요한 {TARGET_PROGRESS} 중에서 {CURRENT_PROGRESS}점을 획득했습니다." />
+    <string id="SFddKpPz" text="인색한" />
+    <string id="SFg3xgCM" text="근처" />
+    <string id="sFpNAqHs" text="자비로운" />
+    <string id="Sj9Ux8jS" text="도주" />
+    <string id="sJLUbnLl" text="총 군사력" />
+    <string id="slKe6Gyc" text="군대 총 식량" />
+    <string id="SLNKWIj5" text="영웅의 {TRAIT_NAME} 자질이 {MAX_TRAIT_AMOUNT} 이하여야 합니다." />
+    <string id="smeltverb" text="제련" />
+    <string id="smithingverb" text="제련하기" />
+    <string id="SMws1ws6" text="큰 방패" />
+    <string id="SNfvAnuV" text="벽 수리 속도에 +{BONUS_AMOUNT_PERCENT}% 추가 효과" />
+    <string id="SNVrnzES" text="조우 중에는 군대를 모을 수 없습니다" />
+    <string id="snxLc1Wq" text="각 플레이어의 말 두 개는 게임판에 보이는 상태로 시작합니다. 플레이어는 차례대로 쓸 수 있는 타일(중앙 타일 제외)에 나머지 말을 놓습니다." />
+    <string id="snyxby5L" text="처음으로 돌아가기" />
+    <string id="So5yubRS" text="한손으로 사용 불가" />
+    <string id="SojzHoCa" text="여성 전용" />
+    <string id="spIe8wd8" text="한손 폴암" />
+    <string id="spkv1rOW" text="부대장 변경" />
+    <string id="SqUphVOm" text="부대 ({CURRENT} / {LIMIT})" />
+    <string id="SrfYbg3x" text="지도자" />
+    <string id="SRYuaoh1" text="이 지역은 시민들의 소요가 팽배하지만 사람들은 여전히 일상 생활을 이어가고 있습니다. 대부분은 시장에서 오래 머물지 않거나 시선을 피합니다. 하지만 외곽 지역의 반란군에 대해 숨죽여 대화하는 소리는 엿들을 수 있습니다. 반란군을 두려워하는 사람들이 있는가 하면, 당분간이라도 뒤바뀐 부자와 권력자의 형세에 대해 은밀한 짜릿함을 느끼는 이들도 있습니다." />
+    <string id="Ssbr2dYx" text="전쟁령 선포" />
+    <string id="strcharactertypelady" text="숙녀" />
+    <string id="stS5PBIr" text="설교자" />
+    <string id="Sv4tD65i" text="{PRISONER_FACTION_LINK}의 {PRISONER_LORD.LINK}이(가) {CAPTURER_FACTION}에 몸값을 내고 풀려났습니다." />
+    <string id="svArZT0G" text="세부 정보" />
+    <string id="Svem1NiV" text="상대가 기절하여 플레이어가 승리했습니다!" />
+    <string id="svnxJA0L" text="{HERO}에게 이 무기를 제작할 {SKILL} 스킬이 부족합니다." />
+    <string id="switchToNextElement" text="전환" />
+    <string id="SwY4YLMY" text="용의 깃발이 다시 우뚝 섰습니다." />
+    <string id="SydDh9jf" text="{HERO.NAME}에게 {ITEM} {COUNT}개를 받았습니다." />
+    <string id="SYm7rgCX" text="{COMPANION.LINK}이(가) 부대를 떠났습니다." />
+    <string id="szSjkkyl" text="다음 목표를 선택해야 합니다." />
+    <string id="T0aULilA" text="&lt;b&gt;공성추&lt;/b&gt;{NEWLINE}문을 파괴하는 데 사용됩니다. 사다리보다 좋습니다." />
+    <string id="t1hYTrMR" text="{YEAR}년 {DAY_OF_YEAR}, 왕국이 무너졌습니다. {FORMAL_NAME}은(는) 이제 존재하지 않습니다." />
+    <string id="T3JJ7aIV" text="말을 타고 지도에서 최대의 속도로 질주합니다. 기마 상태로 싸우며 추가 속도를 얻습니다." />
+    <string id="T592iYI4" text="{DICE_ROLL}을(를) 굴립니다." />
+    <string id="T5VsEnNE" text="인원 수" />
+    <string id="t5X1TNBq" text="공성 기계를{?IS_GENERAL_SIDE}{?} {SIDE_STRING} 측면{\?}에 사용" />
+    <string id="t6DiaDQ3" text="베검" />
+    <string id="t6NXmyoF" text="{STR}" />
+    <string id="t6sgwieR" text="제작 가치" />
+    <string id="t6xdCj43" text="오, 당연히 할 수 있지. 할 수 있고 말고. 물론 당신의 두둑한 지갑을 여기서 비워줄 의향이 있다는 전제 하에 말이지.[ib:hip][rf:convo_bemused]" />
+    <string id="T8w5VRAy" text="적 소대가 성으로 퇴각하고 있습니다." />
+    <string id="taaNCsVZ" text="결승전에서 {TOURNAMENT_FINAL_OPPONENT}을(를) 물리치고 마상 시합에 승리했습니다." />
+    <string id="tAMBVG9B" text="3" />
+    <string id="tb6e1wjQ" text="적이 아군의 공성 장비를 모두 파괴했습니다!" />
+    <string id="TBfUP7n3" text="은신처" />
+    <string id="TcLnmzr3" text="부대가 해산되면 지도자는 도망자가 되며, 남은 구성원들은 인근 동맹 정착지로 이동해 방어군에 합류하거나 야생으로 흩어집니다.{?DOES_DISBANDING_PARTY_HAVE_SHIP}이 배는 클랜원들에게 분배됩니다.{?}{\?}{newline}{newline}결정하면 되돌릴 수 없습니다.{newline} {newline}계속하시겠습니까?" />
+    <string id="tDA5dhn3" text="황후" />
+    <string id="TDQId8c9" text="적을 상대로 방어벽을 건설했으며 남은 말 수가 많아 게임에서 승리했습니다!" />
+    <string id="tDy1TfDq" text="영웅에게 돌아가기" />
+    <string id="tdYB3Tzc" text="다시 실행" />
+    <string id="TeWnL9bh" text="내 남편 {REFERING_HERO.LINK}" />
+    <string id="TgtdcMGS" text="날개를 파닥이며 꿈틀대는 날파리 정도는 감당할 수 있지..." />
+    <string id="thIebQAR" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 선봉에서 달리고 있습니다." />
+    <string id="ThZdJyVW" text="총독 교체" />
+    <string id="Ti2GeG0U" text="이 선택지를 고르면 무작위 선택지 하나가 차단됩니다." />
+    <string id="ti5FwD4t" text="알 수 없는 부대" />
+    <string id="TLuaPAIO" text="세금 {A0}" />
+    <string id="TlvM7kuQ" text="18" />
+    <string id="tMg5AF19" text="지금은 퀘스트를 받을 수 없습니다!" />
+    <string id="TmKbTxQy" text="카툰" />
+    <string id="TNLRC4Gf" text="짧은 한손 무기로 싸웁니다." />
+    <string id="tnZ7BfO9" text="평화 제안" />
+    <string id="toK51MD4" text="방문" />
+    <string id="tpjGRDHP" text="결투가 종료되었습니다. 나가려면 {leave_key} 키를 길게 누르세요." />
+    <string id="Tqa0r78j" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 치고 빠지기 전략을 구사 중입니다." />
+    <string id="tQDbRfMs" text="전투 도중에 갈라졌습니다." />
+    <string id="tqSODeKW" text="자살했습니다!" />
+    <string id="tributeIncome" text="공물 수입" />
+    <string id="troopclassname" text="{FORMATION_CLASS}" />
+    <string id="trRLa9pi" text="{PARTY}와(과) 조우했습니다. 싸우면 {KINGDOM}와(과)의 전쟁이 일어납니다." />
+    <string id="Tsn6bCft" text="관대한" />
+    <string id="TSw4tD02" text="그렇게 나오시겠다? 이거 아무래도 오늘 험한 꼴 좀 보겠는데.[ib:aggressive][if:convo_bared_teeth]" />
+    <string id="TSWen983" text="활성 퀘스트" />
+    <string id="Tu46dFyH" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 공성 무기를 사용 중입니다." />
+    <string id="TVcqGJ1r" text="주 영웅이 투옥되었습니다!" />
+    <string id="TvmDFK6o" text="{REWARD}" />
+    <string id="twinfemale" text="쌍둥이" />
+    <string id="twinmale" text="쌍둥이" />
+    <string id="txa5GFWE" text="이 부대는 지금 전투 중입니다." />
+    <string id="Txbga7js" text="전투 중인 {ATTACKER} 및 {DEFENDER}을(를) 발견했습니다." />
+    <string id="TxeKpK3Y" text="{HERO.NAME}와(과)의 관계가 {MAGNITUDE} 증가했습니다. (현재 수치: {VALUE})" />
+    <string id="tXl9REtA" text="{SETTLEMENT_NAME}의 민병대" />
+    <string id="Tyc4aAdz" text="전투에 참여하지만 부하를 지휘하지는 않습니다." />
+    <string id="u3c9M8vx" text="여집정관" />
+    <string id="U3LdMEXb" text="채무" />
+    <string id="U7etPQA2" text="{JOB_NAME} {FIRSTNAME}" />
+    <string id="U7Z7f7ZT" text="배우자" />
+    <string id="U8TPlwW9" text="마침 잘 만났네, {PLAYER.LINK}. 이렇게 빚을 지게 되는군. 언젠가 은혜를 갚을 방법을 찾아 보겠네." />
+    <string id="U8VHRdwF" text="다리 방어력: " />
+    <string id="ua15BlYh" text="전체 초기화" />
+    <string id="uAL3bCfN" text="무게{newline}장착한 방어구와 무기의 총 중량입니다.{newline}짐이 많으면 도보 이동 속도가 감소합니다." />
+    <string id="UaV0JT87" text="이 영웅은 이 아이템을 제작할 수 없습니다." />
+    <string id="Uaw5VF3D" text="상대가 기권하고 싶어 합니다. 승리를 수락하시겠습니까? 수락하지 않으면 계속 플레이합니다." />
+    <string id="uawXA7zW" text="{YEAR}년 {DAY_OF_YEAR}, {NAME}이(가) 살해됐습니다." />
+    <string id="UaYsPbER" text="미지급된 급여" />
+    <string id="uB245vWg" text="식량:" />
+    <string id="uBxHeyxy" text="무용:" />
+    <string id="ucHWLtIt" text="매일 계약한 마을의 가구 수 +{BONUS_AMOUNT} 증가" />
+    <string id="uCikaIoq" text="아주 좋아. 나와 내 부하들은 그렇게 잔인한 사람들이 아니야. 조금 탐욕스럽기는 하지만, 그건 부인할 수 없는 사실이지. 그러니까 인색하게 굴지 말라고.[ib:hip][rf:convo_bemused]" />
+    <string id="UckVajhO" text="획득한 명성: + {RENOWN}" />
+    <string id="UCo8oT1Q" text="전쟁 전략" />
+    <string id="uEiFfbOq" text="{YEAR}년 {SEASON} {DAY}일" />
+    <string id="uFDiRV1Z" text="({PRIMARY_ROLE})" />
+    <string id="uFuDwaYp" text="{HOUR}{?PLURAL_HOURS}시간{?}시간{\?}" />
+    <string id="ug4LiPbb" text="원거리 무기 IV" />
+    <string id="uGahvbVP" text="{?IS_GENERAL_SIDE}{?}{SIDE_STRING} 측면 {\?}공성 무기 방어" />
+    <string id="UgMbCUMO" text="내 아버지 {REFERING_HERO.LINK}" />
+    <string id="ugX2RRDY" text="붙잡혀서 몸값을 요구당했네." />
+    <string id="uhcIXeba" text="아이템을 버립니다. 정말 버리시겠습니까?" />
+    <string id="uinDitbl" text="벽을 파괴해야 한다." />
+    <string id="UIqPXN62" text="투척 무기로 적을 공격하세요." />
+    <string id="uixuohBp" text="정착지 프로젝트" />
+    <string id="UJ01br0b" text="이 영웅에게는 이 명령 완료에 필요한 {SKILL} 기술이 없습니다." />
+    <string id="um1Z5swc" text="숙녀 {REFERING_HERO.LINK}" />
+    <string id="uN5gwV05" text="사망" />
+    <string id="uOqdr7FM" text="축하합니다! 상대에게 승리했습니다!" />
+    <string id="uOqfaqbk" text="{PARTY_LIST_TAG}({COUNT} / {MAX_COUNT})" />
+    <string id="UOr4UP47" text="매우 신중한" />
+    <string id="UP6yVQ7b" text="다음 대상의 지지자:" />
+    <string id="uPZH31zw" text="삼촌" />
+    <string id="uQbT8RwL" text="바다 전투{newline}{newline}• 경형 선박이 큰 추가 효과를 받습니다.{newline}• 중형 선박이 큰 불이익을 받습니다.{newline}" />
+    <string id="UQc6zg1Q" text="소유한 뒷골목" />
+    <string id="ur8kO8iM" text="게임 팁" />
+    <string id="UtQhRvS8" text="남편" />
+    <string id="Uu0wzNj3" text="클랜 등급 : {TIER} " />
+    <string id="uUlO8l6M" text="{COMMON_AREA_OWNER}의 부하 몇 놈과 싸움에 휘말렸다지? 뭐, 나랑은 상관없는 일일세." />
+    <string id="uuwm0Kga" text="문" />
+    <string id="uuyso3mg" text="부대의 수입" />
+    <string id="uvIL0tP9" text="시야 사거리" />
+    <string id="uwPByaQg" text="공격 시작" />
+    <string id="UX7reJ3K" text="적이 파괴하기 전에 서둘러 공성 기계를 방어해야 한다." />
+    <string id="UxAl9iyi" text="개인" />
+    <string id="UxD6lPXa" text="{INFLUENCE}의 영향력을 획득했습니다. 변경된 영향력은 {NEW_INFLUENCE}입니다." />
+    <string id="UxyIkWah" text="용병은 정착지를 합병할 수 없습니다." />
+    <string id="uYFd4meY" text="퀘스트 제공자" />
+    <string id="V03gbccF" text="아군 소대를 공격했습니다!" />
+    <string id="V0Kw3O7c" text="튜토리얼" />
+    <string id="V0OMMQ1F" text="뛰어난 활약이었습니다, {PLAYER.LINK}. 무려 {OPPONENT_COUNT}명의 상대를 쓰러뜨렸군요. 관중이 열광하고 있습니다. 보상으로 {PRIZE}{GOLD_ICON}를 획득했습니다." />
+    <string id="V1FKcYyi" text="{SETTLEMENT_NAME}(약탈당함)" />
+    <string id="v3cY44N1" text="지배 클랜의 정착지는 합병할 수 없습니다." />
+    <string id="v3MZGujs" text="{PRISONER_LORD.LINK}이(가) {CAPTOR_FACTION}의 포로가 되었습니다." />
+    <string id="v4nltcfz" text="{PARTY_LIST_TAG}{TOTAL_COUNT}/{MAX_COUNT} ({COUNT} + {WEAK_COUNT}w)" />
+    <string id="v5bJd6mZ" text="번영도 변화에 +{BONUS_AMOUNT} 추가" />
+    <string id="V7ESaOJU" text="깃발 선택" />
+    <string id="Vap6ahft" text="전원! {BEHAVIOUR_NAME_BEGIN}!" />
+    <string id="Vc9Mx6Jb" text="퀘스트" />
+    <string id="vdK5SaJN" text="음... 유감이로군.[ib:aggressive][if:convo_annoyed]" />
+    <string id="vdKLq8T5" text="벽{newline}레벨 {LEVEL}" />
+    <string id="veiFupWz" text="{?RULER.GENDER}여남작{?}남작{\?} {RULER.NAME}" />
+    <string id="VeJii4gg" text="배신으로 실패한 퀘스트: {QUEST_TITLE}" />
+    <string id="VeOqrmx5" text="{LEFT}{FOCUS_ICON}{RIGHT}" />
+    <string id="VeqwXwYc" text="적이 도망칩니다. 전투에서 승리했습니다." />
+    <string id="vgXYtMrj" text="전투 생존자" />
+    <string id="VHjIJGja" text="왕국에 있어야 합니다." />
+    <string id="vhq22OyK" text="번영도" />
+    <string id="Vi6ojGrk" text="{FACTION_1_NAME} 대 {FACTION_2_NAME}" />
+    <string id="vIpFgbU6" text="경갑옷" />
+    <string id="VJNJsdif" text="{COMPANION.NAME}이(가) 부대에 합류했습니다." />
+    <string id="vK3PVdsN" text="{PRISONER_FACTION_LINK}의 {PRISONER_LORD.LINK}이(가) 억류에서 탈출했습니다." />
+    <string id="vLU6nNwp" text="{FIGHTER_NAME}에게 {BET_AMOUNT}을(를) 걸었고 {?FIGHTER_GENDER}그녀{?}그{\?}가 결투에서 승리했습니다. 보상으로 {REWARD_AMOUNT}{GOLD_ICON}을 지급하겠습니다." />
+    <string id="vn7A8aXV" text="당신은 {SETTLEMENT_NAME} 밖에 있습니다. 성문 위로 당신의 깃발이 휘날립니다." />
+    <string id="vnmy8Bjl" text="총 비용 " />
+    <string id="vo867CHX" text="작년에 완료한 퀘스트" />
+    <string id="VOYhAyJh" text="&apos;{MODIFIER_KEY}&apos; + &apos;{CLICK_KEY}&apos;를 눌러 따라가십시오." />
+    <string id="VoZBLWay" text="{RULER.NAME} {?RULER.GENDER}카툰{?}칸{\?}" />
+    <string id="VpCa9ATa" text="그래, 넌 죽었어.[ib:aggressive][if:convo_insulted]" />
+    <string id="VpKIzJxz" text="반갑군, 여행자. 방금 전에 이곳에 도착하여 약탈 대상을 찾고 있었는데 마침 잘 만났군.[rf:convo_mocking_revenge]" />
+    <string id="vpx7Pa7v" text="제안" />
+    <string id="VPYazFVH" text="찌르기 속도 " />
+    <string id="VqpmXU1m" text="석궁을 적에게 쏩니다." />
+    <string id="VrTGIQyy" text="민병대 숙련도 +{BONUS_AMOUNT_PERCENT}% 증가" />
+    <string id="vSr60kDj" text="{YEAR}년 {DAY_OF_YEAR}, {MOTHER_NAME}의 아이가 태어났습니다." />
+    <string id="VSZGbSEO" text="일치하는 아이템이 없습니다." />
+    <string id="vT4MPxNt" text="{PRISONER_LORD.LINK}이(가) {CAPTURER_FACTION}에 몸값을 내고 풀려났습니다." />
+    <string id="Vvo92lyj" text="남부 제국의" />
+    <string id="vvUayAoO" text="{HERO.NAME}이(가) 살해당했습니다." />
+    <string id="vvXTnr8i" text="클랜에서 추방" />
+    <string id="vw1bbcww" text="아군 {AI_SIDE} {CLASS} 배후에서 교전" />
+    <string id="Vw7BUXvw" text="후함" />
+    <string id="VWahbQGh" text="내 친구 {REFERING_HERO.LINK}" />
+    <string id="VWQbVKT4" text="부대 해산" />
+    <string id="vXY5wPgP" text="식량 소모 {BONUS_AMOUNT_PERCENT}% {?BONUS_AMOUNT_PERCENT &gt; 0}증가{?}감소{\?}" />
+    <string id="vXzJJtYq" text="우리의 계획은 사거리에 진입하여 적에게 화살을 퍼붓는 것이다." />
+    <string id="VyJMWO8a" text="{GOLD_AMOUNT}{GOLD_ICON}가 제거되었습니다." />
+    <string id="VyPwh1CT" text="영웅을 부대로 이동" />
+    <string id="vZRYAvYH" text="블란디아" />
+    <string id="vZVJNTOD" text="기부 경험치" />
+    <string id="vZzDCjDr" text="이 도시에는 현재 모집에 응하려는 사람이 없습니다." />
+    <string id="W1seGc3t" text="탄" />
+    <string id="w3v2S03V" text="{HERO_NAME}와(과)의 관계가 &lt;a style=&quot;IncreaseStyle&quot; &gt;&lt;b&gt;증가&lt;/b&gt;&lt;/a&gt;합니다." />
+    <string id="W5gPypVY" text="대장간을 사용하여 무기를 제작하고, 재료를 가공하고, 낡은 무기를 제련하세요." />
+    <string id="w758X31N" text="아이템" />
+    <string id="w7Q64T2H" text="{CAPTURER_FACTION}에 붙잡혀 있던 중 {PRISONER_LORD.LINK}이(가) 사망했습니다." />
+    <string id="w9beDbTI" text="카메라 모드 전환" />
+    <string id="w9C43LhX" text="{DECISION_NAME} 정책에 대해 결정을 내리시겠습니까?" />
+    <string id="WaQ93uXZ" text="{YEAR}년 {DAY_OF_YEAR}, {NAME}이(가) 분만 중에 사망했습니다." />
+    <string id="WDduTwIB" text="자동 모집 +{BONUS_AMOUNT} 증가" />
+    <string id="wdKJWkNQ" text="순찰 중인 부대" />
+    <string id="wdsJRYRn" text="때마침 잘 왔네, {PLAYER.LINK}. 도와준 은혜는 잊지 않겠네." />
+    <string id="Wey28apL" text="버티기 가능" />
+    <string id="wFzAKWMX" text="{KINGDOM_TO_CALL_TO_WAR_AGAINST}에 전쟁을 선포하도록 {CALLED_KINGDOM}을(를) 부름" />
+    <string id="WharCvcX" text="적이 들어올 수 없도록 벽을 방어해야 한다." />
+    <string id="WHED64rw" text="시간이 지나면 여기서 새 소대를 이용할 수 있습니다." />
+    <string id="WHtINdhX" text="23" />
+    <string id="WhuufgY5" text="중요 인물 관계" />
+    <string id="wib91252" text="직업: {PROFESSION}" />
+    <string id="wifebrotherinlaw" text="처남" />
+    <string id="wifefatherinlaw" text="장인" />
+    <string id="wifemotherinlaw" text="장모" />
+    <string id="wifesisterinlaw" text="처제" />
+    <string id="wjb4tZDX" text="레벨: {LEVEL}" />
+    <string id="WJGCGka2" text="{PRISONER_FACTION_LINK}의 {PRISONER_LORD.LINK}이(가) {CAPTURER_FACTION_LINK}의 {CAPTURER_LORD.LINK}에게 포로로 붙잡혔습니다." />
+    <string id="wjuieMsE" text="상대가 적중하여 1점을 획득했습니다!" />
+    <string id="wKbafI9r" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 공성탑에서 사격 중입니다." />
+    <string id="wKgpciSx" text="{AMOUNT}{INFLUENCE_ICON}" />
+    <string id="WlV9cE5E" text="용병은 전쟁 정책을 제안할 수 없습니다." />
+    <string id="wmpwMa8j" text="{?IS_POSITIVE}+{?}-{\?}{CHANGE}" />
+    <string id="wNHfL0x0" text="{YEAR}년 {DAY_OF_YEAR}, {NAME}이(가) 전사했습니다." />
+    <string id="wNjhpOOM" text="교환 적용" />
+    <string id="wshehbFu" text="용병은 군대를 해산할 수 없습니다." />
+    <string id="WsOoZCRR" text="작업장 생산량 +{BONUS_AMOUNT_PERCENT}% 증가" />
+    <string id="WSoZkkqD" text="교도관" />
+    <string id="wtDdqXGW" text="뭐, 고대부터 전해져 내려온 우리의 성스러운 특권을 존중한다니 기쁘군." />
+    <string id="WTR5Lr8W" text="왕을 게임판 아무 가장자리에나 옮길 수 있으면 수비군이 승리합니다.{newline}공격군은 왕을 포획하거나 수비군이 하나도 움직일 수 없게 만들면 승리합니다." />
+    <string id="wTT3Fyzl" text="경" />
+    <string id="WusvipsF" text="돈이 부족합니다!" />
+    <string id="WVAUoXMY" text="{CURRENT_XP} / {LEVEL_MAX_XP}xp" />
+    <string id="WvyWpbE8" text="포로 모집 순응도 비용" />
+    <string id="wXQUXa1P" text="이 스킬에 집중 점수를 더 투자할 수 없습니다." />
+    <string id="WYfjyuHj" text="그렇다면 뭐... 긴 여정이었으니 지갑을 탈탈 털어봐." />
+    <string id="wZnsFoQ6" text="제대로 소개를 하지 못했군, 친구. 내 목숨을 구해줬는데 아직 그대의 이름도 모르다니..." />
+    <string id="wZovddJ9" text="{PRISONER.NAME}이(가) 부대에서 탈출했습니다." />
+    <string id="WZTRH6W9" text="양수인" />
+    <string id="X1tny9v2" text="성공적인 습격" />
+    <string id="x2mSJAVa" text="상대의 말이 1개 이하면 승리합니다.{newline}{newline}상대 플레이어의 말이 전부 한쪽에 몰리도록 방어벽을 구축해도 승리할 수 있습니다. 방어벽이 건설되면 남은 말 수가 더 많은 플레이어가 승리합니다." />
+    <string id="X4qO3jBf" text="{?RULER.GENDER}여백작{?}백작{\?} {RULER.NAME}" />
+    <string id="XaCbpDUv" text="한동안 이 지역을 순찰해야 할 겁니다." />
+    <string id="XaFXqGhz" text="탄" />
+    <string id="xaHELVnx" text="공성탑 (1레벨)" />
+    <string id="xavuhZtN" text="계속할 경우 {LEADER.NAME}이(가) 이 부대의 새 지도자가 됩니다.{?DOES_LEADER_NEED_GOLD}{newline}{newline}{PARTY_COST}{GOLD_ICON}의 비용이 필요합니다.{newline}{newline}{?} {\?}계속하시겠습니까?" />
+    <string id="xbh6Bmhf" text="왕국 내 현재 지원" />
+    <string id="XBIPqxA2" text="비어 있음" />
+    <string id="XbKMacMQ" text="지지자 비용" />
+    <string id="XbMVn2JV" text="수송용 탈것" />
+    <string id="xD3ICb06" text="눈 전투{newline}{newline}• 기병대가 큰 추가 효과를 받습니다.{newline}• 궁기병이 큰 추가 효과를 받습니다." />
+    <string id="xD9xlbXt" text="대공" />
+    <string id="Xedhfj07" text="{HERO_NAME}이(가) 당신의 부대에 도착하려면 {TRAVEL_DURATION}이 걸립니다. 계속하시겠습니까?" />
+    <string id="xEWwbGVK" text="정확도: " />
+    <string id="xf4gqDml" text="공성전 중에는 군대를 모을 수 없습니다" />
+    <string id="XgioIHv6" text="기존 결정 해결" />
+    <string id="xGjug9Sd" text="!" />
+    <string id="xgwjHi1p" text="거부" />
+    <string id="xHc1xhG8" text="성 안의 적을 제거하세요." />
+    <string id="XJ6EG3Pa" text="예비 식량 한도에 +{BONUS_AMOUNT} 추가" />
+    <string id="xKa6TwEX" text="{SETTLEMENT_NAME}에서 머무는 중" />
+    <string id="XNNvdkul" text="{SETTLEMENT_NAME}에서 통치 중" />
+    <string id="XnsAbUE3" text="해산" />
+    <string id="xo2zvOir" text="상대가 더 움직일 수 없습니다. 차례를 건너뜁니다." />
+    <string id="xq62HAIO" text="아군 {AI_SIDE} {CLASS}의 {?IS_GENERAL_SIDE}{?} {SIDE_STRING}{\?} 측면 보호" />
+    <string id="xqeFT0cU" text="{DAY} {?DAY_IS_PLURAL}일{?}일{\?} 동안" />
+    <string id="xqN16a4k" text="보드게임" />
+    <string id="xqOqriWF" text="손녀" />
+    <string id="XqV3x4i3" text="이 옵션을 선택하면 설득 시도가 다음 단계로 넘어갑니다." />
+    <string id="xsIU28Za" text="좋아! 더 이상 차가운 바위에서 잠을 자거나 더러운 다람쥐로 연명할 필요가 없겠어." />
+    <string id="xSKFr3Rs" text="대기" />
+    <string id="xT8955dO" text="민간인 복장" />
+    <string id="XTubeiTb" text="방패 III" />
+    <string id="Xv6knZP8" text="-{PRISONERS_AMOUNT}명의 포로{?ISPLURAL}{?} {\?}" />
+    <string id="xv8T0Il8" text="먼저 시작하는 플레이어와 차례마다 움직일 수 있는 타일 수는 두 가지 색을 칠한 막대를 던지는 방식으로 결정됩니다." />
+    <string id="xwWUDia6" text="베팅" />
+    <string id="xWydBJyS" text="{SETTLEMENT}의 반란군이 {RULER} 영주에게 맞서 들고 일어섰습니다." />
+    <string id="Xx9EbSwG" text="장화" />
+    <string id="XxLCJb0W" text="정직한" />
+    <string id="xycMiCIq" text="최근에는 수지가 맞는 장사를 찾지 못했네." />
+    <string id="XzggyCPW" text="이 영웅은 바쁩니다." />
+    <string id="xZxbFuDI" text="그렇다면 오늘 저녁에는 재칼이 배불리 먹겠군." />
+    <string id="y0MmmV8C" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 궁병 부대 주변에 원형 방어진을 구축 중입니다." />
+    <string id="y1uH6Og1" text="말 장비 IV" />
+    <string id="Y20AQIvo" text="{PRISONER.NAME}이(가) {CAPTOR_NAME}에게 잡혔습니다!" />
+    <string id="y3cP8Etv" text="퀘스트 취소됨: {QUEST_TITLE}" />
+    <string id="y3OKIfj0" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 보병 엄호 지역에서 사격 중입니다." />
+    <string id="Y4fht2kI" text="중요 인물 캐릭터" />
+    <string id="y4MiEr0H" text="소대 유형" />
+    <string id="Y5byltUT" text="술탄" />
+    <string id="y8Catvvn" text="원거리 무기 III" />
+    <string id="y8tOrlnJ" text="11" />
+    <string id="yaxwYglT" text="파견됨" />
+    <string id="YbabzW3H" text="{SETTLEMENT_NAME}의 감옥에서 {NUMBER_OF_DAYS}{?PLURAL}일{?}일{\?}을 보냈습니다." />
+    <string id="YbB2IpTR" text="{HERO.NAME}와(과)의 관계가 {MAGNITUDE} 감소했습니다. (현재 수치: {VALUE})" />
+    <string id="yBnwGiuB" text="영주" />
+    <string id="Yc4xzip6" text="{NAME}을(를) 처형하시겠습니까?" />
+    <string id="YCYwPPlJ" text="모든 튜토리얼 비활성화" />
+    <string id="YeaFZzXS" text="{YEAR}년 {DAY_OF_YEAR}, {LEADER_NAME}이(가) 새 왕국, {KINGDOM_NAME}의 건국을 선포했습니다." />
+    <string id="yeEaBV29" text="우리가 가져가겠다. 목숨은 살려주마. 자, 마음 바뀌기 전에 어서 사라져.[ib:closed][if:convo_normal]" />
+    <string id="yenZGMzi" text="빨리 감기" />
+    <string id="YevUiidU" text="{CLAN_LEADER}와(과)의 관계가 {MAGNITUDE} 감소했습니다. (현재 수치: {VALUE})" />
+    <string id="Yf6bHCeW" text="{SETTLEMENT_NAME} (관세)" />
+    <string id="yfNAkFgF" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 소규모 접전 전선을 형성 중입니다." />
+    <string id="YgcirtUD" text="평원 전투{newline}{newline}• 기병대가 큰 추가 효과를 받습니다.{newline}• 궁기병이 큰 추가 효과를 받습니다." />
+    <string id="ygY1oKQD" text="분부만 내리십시오{?PLAYER.GENDER}{?}{\?}. 적의 방향만 가리켜 주시면 나머지는 저희가 처리하겠습니다.[ib:convo_approving]" />
+    <string id="YhLweMrP" text="방어구" />
+    <string id="YifFZaG7" text="부대 소유자" />
+    <string id="Yj0cQVLH" text="돌진!" />
+    <string id="yjXoftYs" text="{SETTLEMENT}{?IS_IN_SETTLEMENT}에서{?} 근처에서{\?} 마지막으로 목격됐습니다." />
+    <string id="YkagFP1z" text="내 어머니 {REFERING_HERO.LINK}" />
+    <string id="ykZLXKH3" text="명성: {RENOWN}" />
+    <string id="ylQJwqKH" text="고생하여 획득한 공짜 전리품을 두고 가야 합니다! 계속하시겠습니까?" />
+    <string id="ymBKDAuj" text="이 전쟁의 최근 이벤트 보기" />
+    <string id="YMIFqVOk" text="항복하시겠습니까? 모든 소대를 잃습니다!" />
+    <string id="YNND0kc9" text="갈고리 날밑 창" />
+    <string id="yNyQ3RFa" text="{HERO.NAME}이(가) 출산 중에 사망했습니다." />
+    <string id="yOJAiSf4" text="대형 없음" />
+    <string id="YOSEIvyf" text="조작감: " />
+    <string id="yQiDdDPY" text="가벼운 말" />
+    <string id="yRQDL2ab" text="주둔군:" />
+    <string id="yRTV90eN" text="결과를 선택해야 합니다." />
+    <string id="yrvH6Oa1" text="시작 위치에서 대기하라!" />
+    <string id="ySlVPZyF" text="당신이 중요 인물들에게 신병을 달라고 강요하자 몇몇 주민들이 당신에게 저항하기 위해 모여들기 시작합니다. 그들과 싸우면 {KINGDOM}와(과)의 전쟁이 일어납니다." />
+    <string id="YSM0lxns" text="비용" />
+    <string id="ySmxkiKH" text="가자!" />
+    <string id="ytlsMCCn" text="{DESERTER_COUNT}개 {?PLURAL}소대{?}소대{\?}가 {PARTY}을(를) 떠났습니다." />
+    <string id="ytYPOCZ8" text="{NUMBER}% 완료됨" />
+    <string id="yU35xy1f" text="부대가 바다에 있을 때는 군대를 생성할 수 없습니다." />
+    <string id="YukbQgHJ" text="투사체 속도: " />
+    <string id="yUo269Us" text="도와줘서 감사하네, 이방인이여. 아직 제대로 소개를 하지 못했군. 이름이 어떻게 되나?" />
+    <string id="yVLv2Q23" text="계속" />
+    <string id="YvwQL9aa" text="무게: " />
+    <string id="yWD4Nwy2" text="동맹을 도와야 하네." />
+    <string id="YxEcX6pS" text="{YEAR}년 {DAY_OF_YEAR}, 당신은 두 번째 용의 깃발 조각을 찾았습니다." />
+    <string id="YxKHEUEX" text="마상 시합이 종료되었습니다. {TOURNAMENT_FINAL_PARTICIPANT_A}이(가) 결승전에서 {TOURNAMENT_FINAL_PARTICIPANT_B}을(를) 물리치고 승리했습니다. 당신은 {TOURNAMENT_ELIMINATED_ROUND}라운드에서 탈락했습니다." />
+    <string id="YYdPfXEP" text="수비군 공격군(검은색)과 수비군(흰색)이 승부를 가리는 게임입니다.{newline}공격군은 수비군보다 수적으로 우세하지만, 수비군은 포획 없이도 승리할 수 있습니다. 주된 목표는 상대의 왕(중앙의 말)을 확보하는 것입니다.{newline}왕은 다른 말과 동일한 이동 및 포획 규칙을 따릅니다." />
+    <string id="YYvzM5Dh" text="전부 버리기" />
+    <string id="yzIOcJoK" text="상대가 막혀서 더 움직일 수 없으면 플레이어가 승리합니다." />
+    <string id="z0c2pDhZ" text="평화 유지 중" />
+    <string id="z3AvJZMt" text="{SETTLEMENT_NAME}에서 다음 가격으로 구입 가능: {BUY_PRICE}" />
+    <string id="Z3yCe1HS" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} 및 {?}{\?}{TROOP_NAMES_END} 소대가 전열을 가다듬고 있습니다." />
+    <string id="Z5kGFH7k" text="개" />
+    <string id="Z5RlxyPJ" text="{PARTY_NAME}에게 포로로 억류된 지 {NUMBER_OF_DAYS} {?PLURAL}일{?}일{\?}이 지났습니다." />
+    <string id="Z6sDPstD" text="마을 농장" />
+    <string id="z716wRaB" text="민병대 부대는 해산할 수 없습니다." />
+    <string id="z7vSaa7L" text="마을 생산" />
+    <string id="Z8LeI4ho" text="보디가드" />
+    <string id="ZaoZKcx9" text="도시민" />
+    <string id="ZaseErqk" text="근처에 적이 있어 후퇴할 수 없습니다!" />
+    <string id="zBC5cQic" text="폐지 지지" />
+    <string id="ZdeswYbM" text="상인이 소지한 돈이 부족합니다! 계속하시겠습니까?" />
+    <string id="ZdqbU2gw" text="수락" />
+    <string id="zE6OFPRu" text="정착지 세금" />
+    <string id="zEbvDH7V" text="본인의 클랜을 지지할 수 없습니다." />
+    <string id="zeGAw2IE" text="처치자:" />
+    <string id="ZEzxHLaH" text="포로 영웅은 모집할 수 없음" />
+    <string id="zg0q1aqD" text="주둔군 부대는 해산할 수 없습니다." />
+    <string id="Zg5Zmgui" text="{TOWN}의 시장에서 마을로 돌아가고 있습니다." />
+    <string id="ZhiB1EOM" text="{SETTLEMENT_NAME}의 포로" />
+    <string id="zkJPFtYn" text="퀘스트 완료: {QUEST_TITLE}" />
+    <string id="ZlJIpfWg" text="추가 속도: {SPEED_BONUS}%." />
+    <string id="ZMdOAbTd" text="공격군" />
+    <string id="zNekjGmR" text="포로 모집" />
+    <string id="zNEvBr6R" text="내 차례" />
+    <string id="zNHtgL0S" text="이번 마상 시합은 궁술 대회입니다." />
+    <string id="ZnsseELq" text="세력 이름은 {MIN}~{MAX}자 사이여야 합니다." />
+    <string id="znxbib0f" text="이 용도의 통계 수치 표시" />
+    <string id="zo5hQfll" text="5마리의 양을 장기판에서 제거할 수 있으면 늑대가 승리합니다.{newline}{newline}늑대가 더는 움직일 수 없도록 막으면 양이 승리합니다." />
+    <string id="zpaLDTI4" text="돈을 내면 지나갈 수 있다." />
+    <string id="ZPaw3WuO" text="블란디아인은 수백 년 동안 제국의 지배를 받다가 독립 왕국을 세운 서부 모험가들의 후손들입니다. 제국이 몰락한 후, 이들은 호전적 귀족 계급이 이끄는 조직화된 봉건 사회로 진화했습니다. 말을 타고 창과 랜스로 싸우는 방식을 선호합니다." />
+    <string id="zqihwKAs" text="&lt;b&gt;Ballista&lt;/b&gt;{NEWLINE}볼트를 발사하여 치명적인 효과를 발휘합니다. 병사를 상대로 효과적입니다." />
+    <string id="ZqWOb1jM" text="{SETTLEMENT_NAME} 외부에 있습니다. {FACTION_TERM}에 의해 수배되었으므로 안에 들어갈 수 없습니다." />
+    <string id="ZR2bAa1p" text="경기병대" />
+    <string id="zruLFJDG" text="결정을 내릴 때 정착지 방어의 우선순위가 높아집니다. 부대의 적 추적 거리가 줄어듭니다." />
+    <string id="ztP8UKb8" text="보병 선택" />
+    <string id="zTxMEKaY" text="지금은 함대 메뉴를 사용할 수 없습니다!" />
+    <string id="ZuLa12aT" text="태도가 맘에 드는군... 웬만하면 우리는 건드리지 않는 게 좋아.[rf:convo_bemused]" />
+    <string id="Zuq5mO5e" text="부대장과 대화" />
+    <string id="ZuRzP6kF" text="전투 중에는 군대를 모을 수 없습니다." />
+    <string id="ZV7bt7Il" text="{newline}{PARTY_NAME} : {PARTY_MORALE}" />
+    <string id="ZvoyX6DX" text="바타니아인" />
+    <string id="zw5IEUuD" text="{TITLE}: 기록이 갱신되었습니다." />
+    <string id="Zw60OTJe" text="대부분의 사람들은 만족하며 지내지만 물가 상승, 빈부격차, 외곽 지역의 이주민에 대한 불만이 들려옵니다." />
+    <string id="ZwyPnboN" text="정착지 충성도에 +{BONUS_AMOUNT} 추가" />
+    <string id="zX4C3332" text="그렇다면 죽여주마. 준비하거라." />
+    <string id="zxckitKe" text="당신은 {PARTY}(을)를 공격하러 출발했습니다." />
+    <string id="ZxcnmaXi" text="습격을 위해 {SETTLEMENT}에 도착했습니다. 저항하는 주민은 없습니다. 이 마을을 습격하면 {KINGDOM}와(과)의 전쟁이 일어납니다." />
+    <string id="ZXXNrvvg" text="상대의 손이나 게임판에 쓸 수 있는 말이 없으면 플레이어가 승리합니다." />
+    <string id="zzUk6ZaA" text="떠나는 중" />
+  </strings>
+</base>

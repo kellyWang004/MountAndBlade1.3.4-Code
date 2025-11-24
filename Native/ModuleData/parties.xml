@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	type="party">
+	<parties>
+		<party
+			id="p_temp_party"
+			name="{!}temp party"
+			flags="0x100"
+			party_template="pt_none"
+			position="0.000000, 0.000000, 0.000000"
+			average_bearing_rot="0" />
+		<party
+			id="p_temp_casualties"
+			name="{!}casualties"
+			flags="0x80100"
+			party_template="pt_none"
+			position="1.000000, 1.000000, 0.000000"
+			average_bearing_rot="0">
+			<field
+				field_name="ThinkFrequencyMin"
+				field_value="3" />
+			<field
+				field_name="ThinkFrequencyMax"
+				field_value="21" />
+		</party>
+	</parties>
+</base>

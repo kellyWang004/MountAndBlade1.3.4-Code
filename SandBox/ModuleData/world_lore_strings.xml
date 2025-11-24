@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<!-- this include lords about lords, lords about factions, factions about factions, etc-->
+	<!-- lucon vs apys -->
+	<!--string id="LRS_lord_1_1_re_lord_1_9" text="{=bsZbjQza}Men such as him, who have no regard for the majesty of imperial law, are a disgrace upon the Senate. Years ago, when he was a magistrate, he let it be known that whoever paid him the highest bribe should win any judgement that came before him. When I learned of this, I filed a prosecution against him, and won it, banning him from further office for a period of several years. In my opinion, he should have been hanged.">
+    <tags>
+  	<tag tag_name="DefaultTag" />
+    </tags>
+    <chars>
+  	<char char_name="NPCCharacter.lord_1_1" />
+  	<char char_name="NPCCharacter.lord_1_9" />
+    </chars>
+  </string-->
+	<!-- apys vs lucon -->
+	<!--string id="LRS_lord_1_9_re_lord_1_1" text="{=u2oBLnZb}Ah, yes - a man who hands out huge gifts to his backers to their support in the Senate, and yet prosecutes better men then him on charges of corruption. I asked him about this, and he said, 'While giving gifts is an ancient and hallowed tradition, selling judgements as a magistrate rocks the very foundations of our Empire.' Did you ever hear such hypocrisy?">
+    <tags>
+  	<tag tag_name="DefaultTag" />
+    </tags>
+    <chars>
+  	<char char_name="NPCCharacter.lord_1_9" />
+  	<char char_name="NPCCharacter.lord_1_1" />
+    </chars>
+  </string-->
+	<!-- neretzes vs gario -->
+	<!--string id="LRS_lord_1_5_re_lord_1_7" text="{=Bpjbijab}Ah, yes. He's a scoundrel, that one. Years ago, I led an army against the Sturgians, to subdue them and return them to imperial tutelage. Well, to make a long story short, I wasn't given the support I was needed and ultimately our army came to grief, although we inflicted many casualties upon the enemy. Well, Gario mops up their depleted force and then claims he rescued the Empire from my incompetence. Can you believe that?">
+    <tags>
+  	<tag tag_name="DefaultTag" />
+    </tags>
+    <chars>
+  	<char char_name="NPCCharacter.lord_1_5" />
+  	<char char_name="NPCCharacter.lord_1_7" />
+    </chars>
+  </string-->
+	<!-- gario vs neretzes-->
+	<!--string id="LRS_lord_1_7_re_lord_1_5" text="{=FTcrUhqe}Ha! Neretzes. He took an army into the Sturgian woods and got himself ambushed and his army wiped out. I had to scratch together a new army and managed to surprise them when they were laying waste to the lands around Lageta. Neretzes will no doubt try to blame the defeat on someone else and take credit for my victory, but ask any soldier who served under him what he thinks of Neretzes' leadership.">
+    <tags>
+  	<tag tag_name="DefaultTag" />
+    </tags>
+    <chars>
+  	<char char_name="NPCCharacter.lord_1_7" />
+  	<char char_name="NPCCharacter.lord_1_5" />
+    </chars>
+  </string-->
+	<!-- gario vs lucon -->
+	<!--string id="LRS_lord_1_7_re_lord_1_1" text="{=pv3Dv89a}Twenty years ago, my uncle Pateor led a deputation of his veterans through the streets of Ambrela, requesting a fair compensation for their services to the Empire - a bit of land, so they wouldn't end up on the streets begging scraps from those who they fought to defend. Lucon and his friends in the Senate prosecuted my uncle for mutiny, then beheaded him. The army fondly remembers Pateor and my men have told me that they aspire, some day, to take Lucon's head and parade it about on a pike. I hope you'll forgive me if I indulge them in this.">
+    <tags>
+  	<tag tag_name="DefaultTag" />
+    </tags>
+    <chars>
+  	<char char_name="NPCCharacter.lord_1_7" />
+  	<char char_name="NPCCharacter.lord_1_1" />
+    </chars>
+  </string-->
+	<!-- arkit heir 6_9 vs siga lord_2_4-->
+	<!--string id="LRS_lord_6_9_re_lord_2_4" text="{=7CPvlhjw}That Sturgian witch killed my uncle. Her younger sister had been given to him in marriage by the Sturgian king, but she betrayed him and sent word to Siga, and let her into his castle at night. He would never have been defeated by a woman, a Sturgian, or anyone else in fair combat. At any rate he was slain. The Sturgian king, who at least has some honor, sent us the sister's head. But Siga remains alive - for now. Some day I will honor my father's memory by cutting her throat at his gravesite.">
+    <tags>
+  	<tag tag_name="DefaultTag" />
+    </tags>
+    <chars>
+  	<char char_name="NPCCharacter.lord_6_9" />
+  	<char char_name="NPCCharacter.lord_2_4" />
+    </chars>
+  </string-->
+	<!-- siga vs raganvad -->
+	<!--string id="LRS_lord_2_4_re_2_1" text="{=Nqjv6fwc}You may know that there is a matter between Raganvad and myself. Well, someone else will have to tell you about it. In my family, when there is a matter like this, we let our swords do the talking.">
+    <tags>
+  	<tag tag_name="DefaultTag" />
+    </tags>
+    <chars>
+  	<char char_name="NPCCharacter.lord_2_4" />
+  	<char char_name="NPCCharacter.lord_2_1" />
+    </chars>
+  </string-->
+	<!--string id="LRS_lord_2_4_re_6_5" text="{=RkS0cwHl}Monchug, yes. I have made a vow about that Khuzait. When I have fulfilled that vow, you may ask the skalds to tell you the whole story. It will be a bloody tale.">
+    <tags>
+  	<tag tag_name="DefaultTag" />
+    </tags>
+    <chars>
+  	<char char_name="NPCCharacter.lord_2_4" />
+  	<char char_name="NPCCharacter.lord_6_5" />
+    </chars>
+  </string-->
+	<!-- olek vs raganvad -->
+	<!--string id="LRS_lord_2_3_re_2_1" text="{=U7xbAEpr}Ah, yes. Raganvad, the glorious king, gave my little sister Pira to a Khuzait to seal an alliance. Well, my other sister - Siga - she wasn't having any of that. She rescued NAME, and left the Khuzait's castle in flames behind her. Well, Raganvad couldn't have that - he had my sister taken by surprise, and sent her head to the Khuzaits. This is not something that our family can forget.">
+    <tags>
+  	<tag tag_name="DefaultTag" />
+    </tags>
+    <chars>
+  	<char char_name="NPCCharacter.lord_2_3" />
+  	<char char_name="NPCCharacter.lord_2_1" />
+    </chars>
+  </string-->
+	<!-- banu sarran vs banu qild -->
+	<!--string id="LRS_lord_3_8_re_3_5" text="{=47m74Vbk}We will not forget what the Banu Qild did to my cousin Nimr. He seduced a Qildi princess, and penned a poem about it, as princes do. The Banu Qild hunted him down - as princesses' families do. If they had slain him then, we would accept that as the way of the world. But he was not given an honorable death in battle. They took him alive, and hanged him in a cage to die of thirst. He was denied dignity in death. Someday I will make Thanza al-Qildi pay the price for his cruelty.">
+    <tags>
+  	<tag tag_name="DefaultTag" />
+    </tags>
+    <chars>
+  	<char char_name="NPCCharacter.lord_3_8" />
+  	<char char_name="NPCCharacter.lord_3_5" />
+    </chars>
+  </string-->
+	<!-- for queen rhagaea - you may wonder why it matters. under a good king or an evil one, landlords will rape their tenants' daughters, watch captains will demand bribes from merchants, masters will beat apprentices, husbands will beat wives
+  Well, perhaps it does not matter. But the common people - if the good king triumphs, even if it costs tens of thousands of lives, they will tell it to future generations. That right beats wrong. And perhaps the wrongdoers will be a bit more afraid, perhaps the righteous will be a bit bolter.
+  	
+  Lucon says he fights for the return of the old laws, that prevented tyranny. I do not believe that.
+  Garios says he fights for his own men. Him I believe
+  
+  The Empire... Learned to love it.
+  So long as the ruler is from one faction, there will be war.
+  Men fight civil wars because they cannot stand to see one from the other faction lifted above them, to see his imitators in their alleys elevated by his glory.
+  Do not think it will end with the death of Garios or Lucon.
+  The ruler must come from above. I am not aristocrat nor populist. I am a foreigner. I am the memory of a dead man, my husband, a cold man who gave no one is full counsel.
+  
+  
+  Mentor:
+  "Arenicos is a man of genius with one great flaw: he believes everyone understands him when he speaks. He thinks that when he talks for three hours before the Senate, the Senators have followed every word and grasp the urgency of what he says, not that they applaud because he is Emperor."
+  "Most men do not break with tradition lightly. Gario does. But he does not grasp that when he makes his daring moves, it is no longer so daring, and his rivals will soon imitate him. And thus, the unspoken contracts that have tied together our Empire fall apart."
+  "Lucon sees us weak, when we were once strong, and the outer kingdoms strong, when they were once weak. He believes, as a man who cares nothing of events outside the Empire, that the cause is entirely within ourselves - we have abandoned our old traditions, and grown weaker. It does not occur for him for an instant that barbarians have learned our tricks, and grown stronger. "
+  "Rhagaea knows she would be a good Empress, and that the time is right to establish that a woman can inherit. Believe me, I am the last to dispute that only men can sit on the throne. But if Rhagaea is empress, then it is only one easy step for her mad daughter Ira to inherit it, 
+  
+  	-->
+	<!-- intra-vlandian, someone who squired with furthard -->
+	<!--string id="faction_bg1_aserai" text="{=jl2SyboD}Founded in 923 when the Empire recognized Thalas al-Asera, a chief of the southern tribes," />
+  <string id="faction_bg2_aserai" text="{=s2SRdyYK}as king of the lands between the Baetoric Sea and the great desert." />
+  <string id="faction_bg3_aserai" text="{=q8z3sddJ}Includes farmers in the lands near the sea, the nomadic bedouin of the wastes," />
+  <string id="faction_bg4_aserai" text="{=xiEE4uZj}and oasis dwellers in the far south." />
+  <string id="faction_bg1_battania" text="{=8JrcoTi3}Founded in 940 when the Battanians, a confederation of hill clans" />
+  <string id="faction_bg2_battania" text="{=RjjdOeJS}that had long been the Empire's most restive subjects," />
+  <string id="faction_bg3_battania" text="{=IIrvHRGB}revolted and massacred the imperial garrison. Made up of farmers" />
+  <string id="faction_bg4_battania" text="{=z2lvpyjh}and herders in the lands between the Sefen river and the Sideric mountains." />
+  <string id="faction_bg1_vlandia" text="{=IfWaPiaW}Founded in 882 when the Empire granted Uthor, a warlord of the Waland seafarers" />
+  <string id="faction_bg2_vlandia" text="{=NHiel2zM}who had long ravaged the western coasts, the title 'Dux of the Sea.'" />
+  <string id="faction_bg3_vlandia" text="{=6hc8VPrF}They have since declared themselves an independent kingdom, controlling " />
+  <string id="faction_bg4_vlandia" text="{=NXD4kJqk}the river valleys and pastures that were once some of the Empire's wealthiest lands." />
+  <string id="faction_bg1_sturgia" text="{=iMyyMhFT}Founded in 1002 by the warlord Gundar, who united the fractious colonies" />
+  <string id="faction_bg2_sturgia" text="{=aDybGybE}established by raiders in the forests and bogs of the north." />
+  <string id="faction_bg3_sturgia" text="{=w07Exl1c}The Empire granted him the title 'Warden of the Marches.' Its people are a mixture " />
+  <string id="faction_bg4_sturgia" text="{=kt0oVBjY}of northern colonists and the tribes of the cold woods south of the Gray Sea." />
+  <string id="faction_bg1_khuzait" text="{=JGXdHFpd}Founded in 920 when steppe horsemen led by the Khan Urkhun overran an earlier" />
+  <string id="faction_bg2_khuzait" text="{=PTuu1B0q}imperial client kingdom, itself made up of civilized former raiders, that had guarded." />
+  <string id="faction_bg3_khuzait" text="{=pbz3stKz}the caravan routes leading to the lands of the Padishah. Consists of wealthy trading cities" />
+  <string id="faction_bg4_khuzait" text="{=2Vl3akDH}and settled former nomads, recognized by the Empire as overlords of its eastern frontier." /-->
+	<!--
+  	Poems:
+  	
+  	The Mischief of the Banu Sarran
+  	The Wrath of Siga Olgoving
+  	The Song of the Dionikoi (sacrifice, honor, etc)	
+  	
+  	
+  	items 
+  	
+  	Recurring:
+  	Gyrfalcon chicks on northern crag - Mountain hideout 14
+  	Gems of Golconda wash, picked through for gemstones - Desert hideout 1
+  	Ambergris off a beach - Seaside hideout 2
+  	Momia, or something else dug out of the sand -
+  	Dragonsblood - sap of a tree, used as dye
+  Narwhal tusk
+  Conch
+  Ostrich plumes
+  
+  
+  	Unique (regalia?):
+  	Iron crown of lombardy
+  	Oriflamme-style banner
+  	Bones of a holy man, in a reliquary
+  	Sword of a king
+  	Book of X
+  	Jewel
+  	Cup		
+  -->
+	<!--string id="rake_lore" text="{=bnhuyi9U}You can get them anywhere, but we need to have something with which to test this quest." />
+  <string id="clan_empire_north_1_history_self" text="{=WaQauPua}Ostikos history - old patricians." />
+  <string id="clan_empire_north_2_history_self" text="{=akSdajNp}Argoros - northern wards." />
+  <string id="clan_empire_north_3_history_self" text="{=7Gjbrv3i}Neretzes - lost land in Vlandia." />
+  <string id="clan_empire_west_1_history_self" text="{=aS4eLloR}Comnos - populists." />
+  <string id="clan_empire_west_2_history_self" text="{=SXczOPP7}Varros history." />
+  <string id="clan_empire_west_3_history_self" text="{=sMx0v0w7}Dionicos - western frontier" />
+  <string id="clan_empire_south_3_history_self" text="{=mbaVbPTc}Mestricaros history." />
+  <string id="clan_empire_south_2_history_self" text="{=7si0hZqq}Leonipardes history." />
+  <string id="clan_empire_south_1_history_self" text="{=IaTchfKq}Pethros history." /-->
+	<!-- monarchists -->
+	<!-- Pharon: lord_1_15. Rhagaea: lord_1_14. -->
+	<string
+		id="str_political_philosophy_lord_1_15_for_lord_1_14"
+		text="{=5BWAsyeB}Fortune smiled on me. I was born to one of the richest houses in Calradia. My father spent much money to educate me, so that I can retain that wealth. And the first and most important thing I learned is that the common people are the source of my wealth, so I must protect the common people." />
+	<string
+		id="str_political_philosophy_lord_1_15_for_lord_1_14_b"
+		text="{=kRRnXYOR}Beyond that, I was taught what any aristocrat worthy of his noble name should know and how he should behave. Keep his word. Fight for his country. Have the grace to listen to the needs of the poor men who work his estate. Have the sense not to take their advice on how to manage it." />
+	<string
+		id="str_political_philosophy_lord_1_15_for_lord_1_14_c"
+		text="{=bFZrLY8W}My class was taught how to rule, and rule we should. But one of our number should always be above the others. Put us together in a Senate, as Lucon wants, and we will always quarrel and fight. Let an emperor or empress rule in the capital, and let their children succeed them, without any fuss. We shall give them a peaceful and prosperous countryside." />
+	<!-- Rhagaea: lord_1_14. Rhagaea: lord_1_14. -->
+	<string
+		id="str_political_philosophy_lord_1_14_for_lord_1_14"
+		text="{=SCogGc7N}We are the family of the martyred Emperor. Every man wishes to leave what he has to his children, be it a tiny patch of land or the imperial throne. Everyone in Calradia, rich or poor, grasps this. The universal principle of inheritance, not the obscure laws of the Senate, is what makes an Emperor in the eyes of the people." />
+	<string
+		id="str_political_philosophy_lord_1_14_for_lord_1_14_b"
+		text="{=kssR76dM}I will strive to be a good Empress. I'll do my best. But I know well that whoever wins this civil war, landlords will still cheat tenants, city guards will still demand bribes, warriors will still kill men to steal their cattle, drunken husbands will beat wives. The plague and the labor of childbirth will take more lives than all the evils of man put together. " />
+	<string
+		id="str_political_philosophy_lord_1_14_for_lord_1_14_c"
+		text="{=FSwVVdHV}Still, men are willing to fight for me, though it gains them nothing, for no other reason that the throne is my right. I will not betray these men. If I win, in centuries to come, people will think back on my victory and think, 'Heavens smile on those who fight for their rights.' That is all one can do." />
+	<!-- Oros: lord_1_17. Rhagaea: lord_1_14. -->
+	<string
+		id="str_political_philosophy_lord_1_17_for_lord_1_14"
+		text="{=dlaodeKS}All men are thieves at heart. I'd rather have one big thief than a thousand little ones. So, I believe in monarchy." />
+	<!-- Ira: lord_1_37. . Rhagaea: lord_1_14-->
+	<string
+		id="str_political_philosophy_lord_1_37_for_lord_1_14"
+		text="{=T1svPL9Z}I am the daughter of the Emperor Arenicos. If I were his son, all the Senate would be tripping over their beards and walking sticks to swear allegiance to me. One day I will stand before them as empress, and they will give me their oaths." />
+	<!-- Men should be ruled by something greater than themselves. We cannot have a god come down and rule us, so let us have a man or woman that we treat like a god. Call him a king or an emperor, I don't care. Let her be an empress or a queen. Just stop this filthy squabbling between faction and faction and let one person rule. -->
+	<!-- Lucon: lord_1_1-->
+	<string
+		id="str_political_philosophy_lord_1_1_for_lord_1_1"
+		text="{=MoAKmXDv}We're of a very old family that has done great service to the Empire. But I'll tell you something - a man, whatever his bloodline, is only as good as his honor and his obediance to the law. " />
+	<string
+		id="str_political_philosophy_lord_1_1_for_lord_1_1_b"
+		text="{=Cx2FCePF}The Senate chooses the Emperor. That is our law. It has been twisted, broken, or ignored for 100 years. But it has never been changed. Without law, without fealty to the written word, there is but tyranny and the mob." />
+	<string
+		id="str_political_philosophy_lord_1_1_for_lord_1_1_c"
+		text="{=uJeoa6u1}Senators understand the law. If a man does not understand the law, no matter how much money he has, he cannot enter the senate. I respect our soldiers but they cannot govern. If I win this war, I will reestablish the Senate's authority over the emperor." />
+	<!-- Penton: lord_1_5-->
+	<string
+		id="str_political_philosophy_lord_1_5_for_lord_1_1"
+		text="{=bpSh9rhh}The Neretzes have always upheld the law, upheld order, and made sure that the best people are the ones in charge. So that's what I'm doing now." />
+	<string
+		id="str_political_philosophy_lord_1_5_for_lord_1_1_b"
+		text="{=2DpewE0u}The quality of blood will always show itself. Look at Garios and his scoundrels. Play to the mob. Who are Rhagaea's people? Nobodies. She's a jumped-up adventuress." />
+	<string
+		id="str_political_philosophy_lord_1_5_for_lord_1_1_c"
+		text="{=3VSBVR8R}Anyway, Lucon. He's from a good family, you can't deny that. He knows our laws and respects our laws, and you know he'll keep up standards." />
+	<!-- Manteos - northerner. Swore an oath on induction into senate text = "I have sworn two solemn oaths in my life. When I became archon, I swore to protect the people beneath me. When I was inducted into the Senate, I swore to uphold its laws and traditions. Those oaths I intend to keep.  -->
+	<!-- Encurion, lord_1_20 - young ambitious aristocrat. Alkibiades? -->
+	<string
+		id="str_political_philosophy_lord_1_20_for_lord_1_1"
+		text="{=8faAcjLz}Echerion the Tyrant-Slayer was my ancestor. Wouldn't be right if I fought for an upstart demagogue like Garios or a half-foreign adventuress like Rhagaea, now would it?" />
+	<!-- Miron - eccentric stoic. Distaste for both tyrants and populists. Class bias -->
+	<!-- Olypos - genuine republican  -->
+	<!--
+  From the birth of our empire until only 100 years ago, the Senate chose the emperor. The Senate could remove him. Any emperor who went against the Senate was a tyrant.
+  We were remiss in our duty. We thought of wealth and trade, and we did not assemble as often as we should. The emperors began choosing their children and comrades to follow them, and we acquiesced.
+  You have seen what happened in the past 100 years: we have had some good emperors, some bad ones, and some lunatics. A strong Senate is the only reliable barrier both against tyranny.
+  Arenicos was a good emperor, all told. But if he indeed named Rhagaea his heir, and that is not just a lie, it shows that even the best of men may be seized by madness. The daughter of the former Padishah? How do we know she won't just serve us to her people on a plate.
+  People like Garios hate the Senate, calling it corrupt and that it blocks any change. He would have the army proclaim the emperor. I respect our men; I would even call them heroes. But they are easily enough swayed by a ration of free wine and a good speech. Letting them choose the emperor is the rule of the mob. 
+  -->
+	<!-- Garios, lord_1_7-->
+	<string
+		id="str_political_philosophy_lord_1_7_for_lord_1_7"
+		text="{=jg6SMQLc}Our family has always sent its sons to become generals. It has been our privilege to lead the men of the Empire into battle. Without these men, there would be no empire. The great estates of the senators would be blackened ash." />
+	<string
+		id="str_political_philosophy_lord_1_7_for_lord_1_7_b"
+		text="{=uK4IX036}The soldiers of the Empire don't ask for much in return. They want an Emperor who will train them hard, fight them hard, and reward them generously. Let them choose the man to do that." />
+	<string
+		id="str_political_philosophy_lord_1_7_for_lord_1_7_c"
+		text="{=aRlW5rks}The Heavens know I loved Arenicos. I shed my blood for him. But his dream of peace with our neighbors was moonshine. You can have war on the frontiers or war at home. I prefer war on the frontiers. Let the men earn glory, gold, and tales to tell their grandchildren." />
+	<!-- Crotor, lord_1_11-->
+	<string
+		id="str_political_philosophy_lord_1_11_for_lord_1_7"
+		text="{=9f11AsTw}My people are the people of the hills. Up here, we watch out for each other. Your life and wealth depend on your neighbors spotting a Battanian raiding party coming your way. My people like Garios. They trust him. I'm not going to spill their blood fighting for anyone else." />
+	<!-- Apys, lord_1_21-->
+	<string
+		id="str_political_philosophy_lord_1_21_for_lord_1_7"
+		text="{=6Opb3jr0}I am a rich man. I invest my money, and then I do whatever is necessary to make sure that money turns a profit. Does that answer your question?" />
+	<!-- Milos, lord_1_46, moralist democrat, knows populists are scoundrels -->
+	<string
+		id="str_political_philosophy_lord_1_46_for_lord_1_7"
+		text="{=OFOXDkPv}The Empire, before it was an empire, was a Republic. Popular assemblies made the decisions. My family were known for their talents as rhetors. We took it upon ourselves to speak to the popular assemblies, to steer them to reason. It is not easy to get a tumultuous crowd to think in its interests and not follow its passions, but we tried. " />
+	<string
+		id="str_political_philosophy_lord_1_46_for_lord_1_7_b"
+		text="{=Cgdg9Q8t}The popular assemblies are dead, of course. The temptation to turn our affairs over to a tyrant, or a gathering of rich old men - it was overwhelming. Who wished to deal with the chaos, the stubbornness, of a crowd? It was never easy. But I still believe that the only just way for a community to make decisions is for all its members to vote." />
+	<string
+		id="str_political_philosophy_lord_1_46_for_lord_1_7_c"
+		text="{=spQJxKtr}Lucon and Rhagaea will never restore the assemblies. Neither has any faith in the people. Garios, well, he is no democrat, but he has that faith. I will fight for him. Maybe he will bring back the assemblies. No one else will." />
+	<!-- tynops for garios -->
+	<!-- Add one genuine democrat - The assemblies once had supreme power, and the Senate only advised them. Then we were one city, now we number in the scores. The Senate tells us that this means democracy is dead. But I say the army is the next best thing. It is open to all classes, and anyone who fights knows what it means to depend on others. And soldiers are the first people who pay the price for a mistake. -->
+	<!-- desporion for garios -->
+	<!-- anger -->
+	<!-- apys for garios. Well, of course what I want to is to serve the people. Lucon is a vile little hypocrite and Rhagaea a puffed-up foreign usurpress, so of course I would back Garios-->
+	<!--
+  Rhagaea's philosophy:
+  I am fighting because the Emperor Arenicos named me, the mother of his children, as his heir. That is how it has been done the past 100 years. The Senate are a bunch of greedy squabbling rich old men, and there is good reason why the people no longer accept them as their masters.
+  I do not proclaim any lofty cause. Whoever wins this war, landlords will cheat tenants, city guards will demand bribes from merchants, warriors will rape farmers' daughters, husbands will beat wives. The plague and the flux will take more lives than all the evils of man put together.
+  I will strive to be a good queen. I will pursue policies that I believe to be sensible, such as persuading the Aserai and the Khuzait to accept imperial citizenship and join us rather than harass our frontiers. But I can offer no guarantee that my heir, or my heir's heir, will not be a monster. 
+  I could marry Lucon or Gario, and save thousands of lives. But men are willing to fight for me, though it gains them nothing, for no other reason that the throne is my right. I will not betray these men.
+  If I win, in centuries to come, people will think back on my victory and think, "Heavens smile on those who fight for truth."
+  
+  YES - WOMEN CAN JOIN THE SENATE
+  NO - SOLDIERS SHOULD BE PROVIDED PENSION BY THE STATE
+  YES - FOREIGNERS SHOULD BE ALLOWED TO BECOME CITIZENS
+  NO - SLAVES SHOULD BE ABLE TO BUY THEIR FREEDOM
+  NO - SENATE SHOULD NOMINATE THE EMPEROR
+  	
+  -->
+	<!--
+  Lucon's philosophy
+  I am fighting not for myself, but because this empire went wrong, and I am going to turn it back to how it should be.
+  From the birth of our empire until only 100 years ago, the Senate chose the emperor. The Senate could remove him. Any emperor who went against the Senate was a tyrant.
+  One hundred years ago, the emperors stopped going before the Senate, and started naming their heirs themselves. The Senate was weak at the time. We acquiesced, so as not to split the empire, but we never accepted. Nor did we have the right, even if we had wanted, to sign away a right and a duty given to us by the Heavens.
+  You have seen what happened in the past 100 years: we have had some good emperors, some bad ones, and some lunatics. A strong Senate is the only reliable barrier both against tyranny
+  Arenicos was a good emperor, all told. But if he indeed named Rhagaea his heir, and that is not just a lie, it shows that even the best of men may be seized by madness. The daughter of the former Padishah? How do we know she won't just serve us to her people on a plate.
+  People like Gario hate the Senate, calling it corrupt and that it blocks any change. He would have the army proclaim the emperor. Gario is a scoundrel,  but I will do him the honor of taking his proposal seriously. I respect our men; I would even call them heroes. But they are easily enough swayed by a ration of free wine and a good speech. Letting them choose the emperor is the rule of the mob. 
+  If I win this war, I will reestablish the Senate's authority over the emperor. 
+  (people think a strong emperor who can do whatever he wants makes a strong state. opposite is true. must be sure never to lose an army.)		
+  
+  
+  NO - WOMEN CAN JOIN THE SENATE
+  NO - SOLDIERS SHOULD BE PROVIDED PENSION BY THE STATE
+  NO - FOREIGNERS SHOULD BE ALLOWED TO BECOME CITIZENS
+  NO - SLAVES SHOULD BE ABLE TO BUY THEIR FREEDOM
+  YES - SENATE SHOULD NOMINATE THE EMPEROR
+  
+  
+  
+  Outer kingdoms - centralizer, legalist, upstart
+  
+  Sturgians - Raganvad is centralizer
+  Battanians - Caladog is upstart
+  Aserai - Unqid is legalist
+  Vlandians - Derthert is legalist
+  Khuzaits - Khan is centralizer
+  
+  	
+  -->
+	<!-- lord_2_1, Raganvad-->
+	<string
+		id="str_political_philosophy_lord_2_1_for_lord_2_1"
+		text="{=He0b6FpY}The boyars swore an oath to my grandfather to obey him as prince. They begged him to save them from the wrath of the Empire, which they had stirred up with their raids and their lawless ways." />
+	<string
+		id="str_political_philosophy_lord_2_1_for_lord_2_1_b"
+		text="{=aifXT4E1}My grandfather did save the boyars, and ever since, their thankless heirs have tried to weasel out of that oath. They like to quarrel, and take what they want, and care nothing for the realm." />
+	<string
+		id="str_political_philosophy_lord_2_1_for_lord_2_1_c"
+		text="{=nz6ff0nw}I will break them. By the Heavens I will bring them to heel, or the knife will fall on them." />
+	<!-- lord_2_3, Olek-->
+	<string
+		id="str_political_philosophy_lord_2_3_for_lord_2_1"
+		text="{=nQn87o0F}Our family have been the masters of this corner of the woods since the gods willed that the trees grow and the rivers flow. Someone wants to call himself Prince of the Sturgians? We have no quarrel with that. Just let that prince know that on our land, we're still the masters." />
+	<!-- lord_2_5, Godun -->
+	<string
+		id="str_political_philosophy_lord_2_5_for_lord_2_1"
+		text="{=oUKWHMDq}Two generations ago, the Sturgian lords entered into a covenant to give their allegiance to a prince. We surrendered our ancient freedoms so that we might be united in war. Was that wise? I have no idea. But I know that if we rupture that convenant now, forging it again would be long and bloody task. Perhaps an impossible one." />
+	<!-- lord_5_1, caladog -->
+	<string
+		id="str_political_philosophy_lord_5_1_for_lord_5_1"
+		text="{=91wurGIB}My family? I was adopted by the fen Gruffendoc but really, I have no family. I was sent directly by the Heavens as a gift to the Battanians. They didn't know it, but they needed a strong king." />
+	<string
+		id="str_political_philosophy_lord_5_1_for_lord_5_1_b"
+		text="{=7poObaCF}Yes, they needed a strong king, like a herd of cattle on a mountain trail needs a herdsman who knows the trail. Herds in the mountains, you see... Sometimes the stubborn old bulls, set in their ways, wander off the trail and lead the others toward a precipice." />
+	<string
+		id="str_political_philosophy_lord_5_1_for_lord_5_1_c"
+		text="{=Sy7dajDq}The wise herdsman, you see, will slaughter the old bulls to prevent the destruction of the entire herd. And I am a wise herdsman." />
+	<!-- lord 5_3, ergeon-->
+	<string
+		id="str_political_philosophy_lord 5_3_for_lord_5_1"
+		text="{=vzYQuR5r}We are the sons of Derngil. Our forefathers came to this land in the ships from the west, in the time of the gods. We have been here a long time. And I tell you, never have we seen a leader like Caladog. A right murderous bloody bastard, a man with no father, some would say, and would I call them a liar? But he holds us together, somehow, and I would stomach a great deal of tyranny for that." />
+	<!-- lord 5_5, melidir-->
+	<string
+		id="str_political_philosophy_lord 5_5_for_lord_5_1"
+		text="{=wv2jPN3Q}We, the sons of Uvain, were passed over by the High King when it came time to marry their daughter. They chose Caladog. And, well, one might ask... What did that get them? But no matter, no matter. It's all done now. We have all sworn our oaths to Caladog. So let him rule." />
+	<!-- lord_3_1, unqid-->
+	<string
+		id="str_political_philosophy_lord_3_1_for_lord_3_1"
+		text="{=PN8hNFek}The Banu Hulyan have never sought glory or domination. Where some see an enemy, we see only a trading partner who has gone astray. For that reason, we have tried to treat all others with fairness and respect." />
+	<string
+		id="str_political_philosophy_lord_3_1_for_lord_3_1_b"
+		text="{=ZIhocjnr}For that reason, the clans have always brought their quarrels to us, to adjudicate. And it was natural that, when it came time for the Banu Asera to choose a sultan, that we were the ones chosen." />
+	<string
+		id="str_political_philosophy_lord_3_1_for_lord_3_1_c"
+		text="{=GwvxfXs3}But it is wearisome to be a Sultan. The clans cling to their grievances as though they were their children. It is not in men's nature to appreciate the fruits of peace and order. Rather, they brood over small injustices and perceived slights, and dream of shedding blood." />
+	<!-- lord 3_3, adram -->
+	<string
+		id="str_political_philosophy_lord_3_3_for_lord_3_1"
+		text="{=gpuxIEBl}We are the Banu Sarran. Our lineage is as old as is any of the Aserai. Our forefather Sarran was a grandson of Asera, no less than Qild or Hulyan. . But a hundred years ago we were driven into the desert. Only recently have we returned. The others look down on us for this." />
+	<string
+		id="str_political_philosophy_lord_3_3_for_lord_3_1_b"
+		text="{=YWQlYXST}Unqid is a wise man. He knows how to keep the peace, to soothe over tensions. But there is only so much he can do. We can overlook an insult, or two. But if we overlook too many, perhaps some people will think that we would also overlook an injury. That would be dangerous." />
+	<string
+		id="str_political_philosophy_lord_3_3_for_lord_3_1_c"
+		text="{=uvd3DYcI}I would advise the other clans: Watch what you say about us. We have our pride, and our swords. Do not tempt us." />
+	<!-- lord 3_5, tais al-qildi -->
+	<string
+		id="str_political_philosophy_lord_3_5_for_lord_3_1"
+		text="{=eylmGUOE}The duty of a sultan is to lead the tribes in war, and to allow them to uphold their honor. It is not to make them love each other, and it is not to make men of honor sit down and pretend to be friends with thieves and scum in the name of 'peace.' That is all I will say." />
+	<!-- lord_4_1, derthert -->
+	<string
+		id="str_political_philosophy_lord_4_1_for_lord_4_1"
+		text="{=rKKAYQkJ}When my great-grandfather Osric Iron-Arm declared himself king of Vlandia, the emperor himself sent us a golden crown as a goodwill gift. Hmf. Do not trust gifts from the Empire." />
+	<string
+		id="str_political_philosophy_lord_4_1_for_lord_4_1_b"
+		text="{=yJQLtlXj}If you toss a bone into a pack of wild dogs, what does having that bone mean? It means that you get bitten a lot. I have spent most of my life in the saddle or sitting in front of a besieged fortress. Once I thought, 'I suffer, but at least my son will rule in peace.' Such lies we tell ourselves. There will never be peace." />
+	<string
+		id="str_political_philosophy_lord_4_1_for_lord_4_1_c"
+		text="{=5mvtRbb8}My son will rule, and he will fight his brothers and vassals. And after him my grandchildren will fight each other. At least, as kings and princes, they can enjoy a dry tent, good wine, and a soft bed between dusk and dawn. That is all the peace one gets in life." />
+	<!-- lord 4_3, aldric, weak with low valor and generosity -->
+	<!-- lord 4_6, calatild -->
+	<!-- lord_6_1, monchug-->
+	<string
+		id="str_political_philosophy_lord_6_1_for_lord_6_1"
+		text="{=YZyaxSbH}Urkhun, my forefather, gave the Khuzaits everything they had. They were as mangy steppe dogs, eating from the scrapheap outside the walls of the cities. He turned them into a pack of wolves. He raised his hand, and cities fell, and he gave the clans land to call their own." />
+	<string
+		id="str_political_philosophy_lord_6_1_for_lord_6_1_b"
+		text="{=zR1ONwM8}Is there a chieftain of the Khuzaits who does not like my decisions? Is there one who does not want me as khan? So be it - let him abandon his lands, the gift of my forefathers, and flee back into the great grass. I will not follow. I will not hunt him." />
+	<string
+		id="str_political_philosophy_lord_6_1_for_lord_6_1_c"
+		text="{=6roMVNMW}But he who stays here, in the land won by my forefather, he lives under my hand. That is all there is to say." />
+	<!-- lord_6_4, lady mesui -->
+	<string
+		id="str_political_philosophy_lord_6_4_for_lord_6_1"
+		text="{=dpYb59BB}The Khergit have suffered greatly in the wars of the Khuzaits. So many of our men have fallen..." />
+	<string
+		id="str_political_philosophy_lord_6_4_for_lord_6_1_b"
+		text="{=RyrdJI5j}It is for this reason that I lead the clan. The other clans, they think that because the Khergits are led by woman, that we are weak. They look at our land, our wealth, and think - we could take that. I can fight one of them, I can fight two, but I cannot fight them all." />
+	<string
+		id="str_political_philosophy_lord_6_4_for_lord_6_1_c"
+		text="{=l4quU1x3}So long as Monchug has a firm hand on things, I do not worry much. The other clans dare not covet our lands and herds too openly. Yes... A strong khan can be a great blessing to the weak, so long as he remains strong." />
+	<!-- lord_6_5, tulag -->
+	<string
+		id="str_political_philosophy_lord_6_5_for_lord_6_1"
+		text="{=yqn4Wtwr}The Arkit are the eldest sons of the great she-wolf who gave birth to the Khuzaits. Properly speaking, Urkhun should have allowed us to lead the great war of conquest. But no matter, that time has passed. We respect the khanate and we respect the banner of the khan. We swore our oaths to Urkhun and we shall keep faith with our oaths, so long as his heirs keep faith as well." />
+	<!--
+  
+  Derthert for Derthert - My father spent his life in the saddle
+  
+  Unqid
+  Adram Banu Sarran- we spent years in the desert. they despise us. We must tread carefully.
+  
+  Tais of the Banu Qild. Honor lineage.
+  
+  Gario's philosophy
+  
+  I want everyone in the Empire to know that there is no better way in life to get ahead than to become a soldier. I want to hand out land. I want to give them pensions when they retire. I want them to hold high public office. And they should get to choose the Emperor.
+  I don't know if Arenicos really named Rhagaea as Empress, or if that's one of her lies, and I don't care. What I do know is this: I don't want this empire run by a Padishah's daughter. It needs a soldier-emperor. It needs me.
+  
+  YES - WOMEN CAN JOIN THE SENATE
+  YES - SOLDIERS SHOULD BE PROVIDED PENSION BY THE STATE
+  NO - FOREIGNERS SHOULD BE ALLOWED TO BECOME CITIZENS
+  YES - SLAVES SHOULD BE ABLE TO BUY THEIR FREEDOM
+  NO - SENATE SHOULD NOMINATE THE EMPEROR
+  
+  -->
+	<!--
+  STURGIAN LORDS
+  -->
+	<!--
+  Lord opinions on laws
+  Blood-price
+  "It is a sad fact of the world that the lives of some are valued more than the lives of others. If laws to fly in the face of reality, this may cause many unforeseen problems. For example, if a lord may be hanged for the wrongful death of a commoner, then men will not fear him, and he will be unable impose justice in his lands."
+  Mercy +1
+  
+  
+  Trial by jury
+  "Juries can be bought. Or they may rule with their hearts not their heads. The application of the law will become random and arbitrary."
+  Mercy +1
+  
+  Urban rights
+  "If it becomes more difficult to impose taxes on the cities, then kings will squeeze the countryside."
+  Mercy +1
+  
+  
+  Serfs
+  "It is a mercy to keep them tethered to the land. For people who are ignorant of the world, freedom is merely the freedom to wander, to be robbed, to fritter away one's money, and ultimately to starve in a ditch."
+  Mercy +1
+  
+  Slaves
+  "It may seem cruel to deny a slave the right to buy his freedom. But many do not know how to make use of their freedoms, and such laws will merely see our cities flooded with desperate penniless men."
+  Mercy +1
+  "Let the low-born know their place. To give them the right to leave their land will encourage them to be insolent to their betters."
+  Mercy -1
+  
+  
+  
+  Cosmopolitan negative
+  "People should keep to their separate ways. Let not the lion breed with the hyena."
+  ImpEd -1, 
+  "Foreigners may live with us for 20 years, but they will never lose their savageness, and they will erode the values we hold sacred."
+  ImpEd +1, 
+  
+  
+  Women's inheritance
+  "If women can control their own property, they will become targets for conniving fortune-hunters, or they will become as merchants themselves and lose their natural graces. Better leave such things in the hands of men, who are accustomed to the rougher aspects of the world."
+  HighRegister +1
+  "That's one good law that the empire has. There are some things that are a man's job, and some things that are a woman's."
+  HighRegister -1
+  -->
+</strings>

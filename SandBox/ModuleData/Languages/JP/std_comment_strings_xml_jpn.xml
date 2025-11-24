@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="日本語" />
+  </tags>
+  <strings>
+    <string id="02FaqhzI" text="君の噂は聞いている。良い噂ばかりだ。たまには話そうじゃないか。君のような人に私のような友人がいれば、だいぶ得をするぞ。" />
+    <string id="0etg1Q9l" text="{FIRST_NAME}に仕える私の部下達には多くの犠牲を払ってもらった。彼らの忠誠心が間違っていたとは言わせない。" />
+    <string id="1bxTLLAk" text="{SETTLEMENT_NAME}にある、私の村を襲ったそうだな。バカにしているのか？私の村人たちから略奪しておいて、タダで済むとでも思ったか？" />
+    <string id="1JgKFOw8" text="あなたに忠誠を誓います。" />
+    <string id="1jUa8olQ" text="お前が降参するとは思えないが、そのチャンスは与えてやろう。[ib:warrior][if:convo_stern]" />
+    <string id="1MPxKtue" text="重要な話か？今わりと忙しいのだ。" />
+    <string id="1Rht7WZI" text="お前の名前には聞き覚えがある。確か以前、面倒を起こしてくれたな。" />
+    <string id="267ch9fZ" text="あの{VILLAGE_NAME}での略奪行為… 農民たちがあまりにも哀れだった。だがまあ、あれが{ENEMY_NAME}でも、俺たちにまったく同じことをしたはずだ。" />
+    <string id="27KUtWGA" text="私が与えた仕事をこなしてくれたんだな。感謝する。" />
+    <string id="2FWBCCw0" text="姉妹" />
+    <string id="2VkCAuiu" text="ああ… あなたの名前に聞き覚えがある気がする。" />
+    <string id="2vMNJl7F" text="いいだろう。では、それで決まりだな。" />
+    <string id="3L7Rkswm" text="降伏しても構わないが、そうしないことを願おう。お前が叫び声を上げるまで、剣を突き刺す楽しみを味わいたいのだ。[ib:warrior][if:convo_mocking_revenge]" />
+    <string id="3PsQTf0z" text="追い詰めたぞ。諦めろ、さもなくば攻撃する。[ib:warrior][if:convo_aggressive]" />
+    <string id="3TGug4Vb" text="君の名は知っている。最も勇敢な戦士だそうだな。君の道義心と慈悲がそれに見合えばいいが。" />
+    <string id="3UucAOBW" text="私は{CLAN_NAME}の{CONVERSATION_CHARACTER.LINK}だ。" />
+    <string id="48g7K7Zi" text="この道を歩く時は、「見えざる手」に全てを把握されると考えたほうがいいぞ、友よ。領主や皇帝は現れては消えるが、我々は変わらずここにいる。" />
+    <string id="49sxmwcX" text="おとなしくしろ！その元気は、もう少し後まで取っておくんだな。きっと許しを請うことになる。" />
+    <string id="4Jo8JMZm" text="お嬢様" />
+    <string id="4Uagj1LN" text="実のところ、我が捕虜としてお前を捕らえておくつもりだ。" />
+    <string id="5DCMLfp8" text="君の事は知っている。無駄話をする気分ではないから、礼儀は省かせてもらおう。" />
+    <string id="5Fa0uDJn" text="アセライのスルタナ" />
+    <string id="5ZfjV7hS" text="もういい！今日はお前の勝ちだ、卑劣な奴め！ああ、なんという恥だ！[if:convo_angry]" />
+    <string id="62vceTar" text="私は{CLAN_NAME}の{CONVERSATION_CHARACTER.LINK}だ。" />
+    <string id="6acfbHiE" text="君の名前は覚えておこう。だが今や裏切りばかりが蔓延る、危険な時代だ。よそ者である君は私の信用を勝ち取る必要がある。" />
+    <string id="6l8ty6Dr" text="お会いできて光栄だ。" />
+    <string id="6LlDlGSb" text="バッタニアの上級女王" />
+    <string id="6UBdsXlo" text="君とはいつの日か戦場で出会うかもしれない。我々グラームの事は馬と鎧の輝きで見分けることができるだろう。我々が君の味方であれば喜ぶといい。敵であれば、戦いが始まる前に逃走したほうが、いろいろと面倒を避けることができるだろう。" />
+    <string id="6YUFDgGb" text="大きな一歩を踏み出そうとしていたところだが、これで楽になった。" />
+    <string id="7ErxFkCB" text="{VILLAGE_NAME}で我々がしたことを、{VILLAGE_FACTION}が許すとは思えないな…" />
+    <string id="7lWtkqHv" text="君の名前は覚えておこう。" />
+    <string id="7pQ3y21E" text="今一度、君の援助に感謝したい。" />
+    <string id="80C0gWJ4" text="ヴランディアの王" />
+    <string id="86aQkXpV" text="いいだろう、君の勇気を試してやろう！" />
+    <string id="8eLXNZ7U" text="戦う相手を知ることは良いことだ。" />
+    <string id="8GDgJCB4" text="勇敢な戦士が必要な時は、「イノシシの集団」を雇うことを考慮するといい。ヴランディアでもっとも勇猛な男たちが、我らの旗の下に結集しているのだからな。君が雇わないなら、敵が雇うかもしれないぞ。" />
+    <string id="8WLSZRZc" text="いいだろう、君の提案は？" />
+    <string id="8x8kVUGX" text="貧しい者、従順な者、未亡人や孤児の権利を守れば、天国は気づいてくれるだろう。" />
+    <string id="99gE1ZoY" text="私は{FACTION}の{CONVERSATION_CHARACTER.LINK}だ。" />
+    <string id="9LwkLxo7" text="生まれこそ卑しくとも、あなたは出世できる側の人間のように思う。仮に権力と責任ある立場になったとして、あなたはその力をどう行使する？" />
+    <string id="9uH1NdsT" text="ずいぶん整った顔をしているんだな？さぞ、面倒を引き起こす性質なんだろうな。" />
+    <string id="9ZHhYooG" text="一対一の戦いで、私に負けたことを忘れたか？まだやられ足りないのか？" />
+    <string id="A40Z3egp" text="君に任せた仕事のことだが… よくやった。" />
+    <string id="a55SAS18" text="我々の方が優勢だ。降伏しろ、そうすれば悪いようにはしない。[ib:warrior][if:convo_stern]" />
+    <string id="a5LChqbr" text="この土地の庶民には彼らを保護する者が必要だ。そこで我々の協会の出番だ。我々を山賊だの強盗だの言う奴らの言葉は、一切信じてはいけない。" />
+    <string id="a6EBXT6C" text="そうだ…我々はどちらもあの競技会に出場していた、だな？全くがっかりだ…ろくでなしの{WINNER_NAME}がサイコロ遊びで賞品を失うのを願おう。" />
+    <string id="a8584KD0" text="私は{CLAN_NAME}の{CONVERSATION_CHARACTER.LINK}。我々の一族の名は、この草原地帯の伝説で耳にしたことがあるだろう。我々はクーザイトの母である偉大なる狼の、十二の息子より名を継いでいる。" />
+    <string id="aaadHoIb" text="{?GENDER}彼女{?}彼{\?}が{?GENDER}彼女{?}彼{\?}の敵をすべて打ち砕かんことを！" />
+    <string id="aagGt8pX" text="これはこれは{PLAYER.NAME}様" />
+    <string id="aFbkjgVe" text="任務を完了できなかったのだな… まぁ、我々の手に負えない状況も、たまにはあるだろう… どうにかなる場合もあるが。だがこれ以上悩むのはやめよう。" />
+    <string id="agKiYTCE" text="ああ、そうだ。あなたの名前には、確かに聞き覚えがある。こうして直接お会いできて光栄だ。" />
+    <string id="aIimfZZe" text="君の噂は聞いていた。大変素晴らしい戦士のようだな。だが君がこんなに、その、魅力的な人物とは聞いていなかった。" />
+    <string id="aKD9kfTI" text="{TOURNAMENT_WINNER}が{TOURNAMENT_TOWN}の競技会でどうやって勝ったかよく覚えてるよ…あれほど相応しくない勝利は見たことがない…" />
+    <string id="atHFPCcK" text="君に会えて良かった。忘れるな、この世で言葉の重みほど価値のあるものはない。私に正直でいてくれるならば、私も君に正直でいよう。" />
+    <string id="auVAWUJ3" text="私に逆らえば、カラスの餌になることを覚えておけ。" />
+    <string id="AZf7kPgr" text="今日はお前の負けだ。自分自身のために降参できないならば、部下である兵達のことを考えろ！[ib:warrior][if:convo_thinking]" />
+    <string id="bAir72Sf" text="やめろ！降参だ！[if:convo_beaten]" />
+    <string id="bbjLFWhP" text="この前の決闘は私が勝利したが、君もよく戦った。君が再試合を望んでも当然だろう。" />
+    <string id="BbVpiTdi" text="皆が言うには君は、「世界の男」らしいな。君の旅について少し話してくれないか。" />
+    <string id="BCfeuAX5" text="そうなのか？私を鎖で繋ぐより、自由にして生き恥を晒させるとは、どこまでも残酷な奴だ。勝利に酔いしれるがいい！[if:convo_contemptuous]" />
+    <string id="bDarsOFR" text="私は{CLAN_NAME}家の{CONVERSATION_CHARACTER.LINK}だ。" />
+    <string id="bdiuV4qb" text="君の名は知っている。君は勇敢な{?PLAYER.GENDER}女{?}男{\?}だと聞いた。もし君と剣を交わす運命になるならば、名誉なことだ。" />
+    <string id="BMc3VJcf" text="君の名前は知らないが、それは重要じゃない。偉大な血筋を持って生まれるより、それを創り出す方が名誉なことだと人は言う。" />
+    <string id="bNReoRmt" text="戦士を雇う必要があれば「裏切られた軍団」を検討してくれ。君の言葉と契約は必ず守る。信用を失うことの代償はよく理解しているつもりだ。" />
+    <string id="brGfaXyo" text="君は一体どういう人間なのだろうか。勇気に溢れているのか、軽率すぎるのか、もしくは両方なのか。" />
+    <string id="BRMngn5i" text="もう許してくれ！私は捕虜になろう。身代金も支払える。私を生かした方が利益になる筈だ。[if:convo_thinking]" />
+    <string id="C5JaFsDZ" text="{FIRST_NAME}が私の領主だ。それ以上言う必要はない。" />
+    <string id="c7hrnOUE" text="私があなたに託した任務はうまくいかなかったようだな。" />
+    <string id="caKCwoPM" text="ベニ・ジラルは秘密の番人だ。影の中から監視している。我々を敵に回さないほうがいい。" />
+    <string id="cFiSjbf4" text="ハハ！お前と戦いたい。" />
+    <string id="cGuzIVlk" text="君は世界中を旅したらしいな。それついて少し話してくれないか…" />
+    <string id="cMO9JXvk" text="私は{CLAN_NAME}の{CONVERSATION_CHARACTER.LINK}。{LIEGE_TITLE}の領土を保有し、忠誠の誓いを守る。" />
+    <string id="CN20EFDE" text="残念ながらこの状況で君を攻撃しないのは、かえってこちらが間抜けになる。" />
+    <string id="CPWbB47d" text="君の噂は聞いている！ずっとお近づきになりたいと思っていたんだ。" />
+    <string id="csxzwd17" text="じゃあ競技会に勝ったのか…まあ、こういうのには常に運が絡んでくる、必ずな。" />
+    <string id="CUfZXlOd" text="君の名前は覚えておこう。" />
+    <string id="d2QGFdRJ" text="お前に勝ち目はない。降参しないなら、魚をおろすように腹を切り裂いてやる。[ib:warrior][if:convo_angry]" />
+    <string id="D5SIBhjl" text="{TOURNAMENT_WINNER}がこの競技会でどうやって勝ったかよく覚えてるよ…あれほど相応しくない勝利は見たことがない…" />
+    <string id="dC8acIya" text="私は{CLAN_NAME}の{CONVERSATION_CHARACTER.LINK}だ。" />
+    <string id="dD6hNymL" text="部下と私は… どんな噂を聞いたのであれ、我々は権威を尊重する。役に立てると嬉しい。" />
+    <string id="dD93WVhO" text="私はとても良い友人になれるが、まちがっても敵には回さないほうがいいぞ。その事だけは知っておくといい。" />
+    <string id="dhwnbgoz" text="いや。それではだめだ。" />
+    <string id="DIjtFVu8" text="せいぜい最後の一滴まで、その血を垂れ流せ。" />
+    <string id="dKmAktt7" text="お前に私は倒せない。手を出せば痛い目にあわせてやる。諦めろ！[ib:warrior][if:convo_angry]" />
+    <string id="dLHsoh3f" text="君の噂は聞いている。君の名前は人々の心に恐怖を植え付ける。評判としては最高だ。我々の利害は一致するかもしれないな。" />
+    <string id="dlkg2jQf" text="私はスタルジアの古くからの血統を受け継ぐ、{CLAN_NAME}の{CONVERSATION_CHARACTER.LINK}だ。" />
+    <string id="DLV6F3ob" text="カラケルギト族を知らないようだな。我々は繁栄した土地へも腐敗した土地へも足を踏み入れる。どんなハンにも屈服しない。どんな植物の種も植えない。大いなる草原の中で昔の慣習を貫くのだ。" />
+    <string id="dniQq29H" text="単刀直入に言おう。お前は良き家柄の出身ではない。望みが高すぎると言う者もきっといるだろう。だが仮に出世できたとして、その時お前は何をする？" />
+    <string id="DRzsgjsD" text="私はこの帝国の歴史の中で最も高名な一族のひとつである、{CLAN_NAME}家の{CONVERSATION_CHARACTER.LINK}だ。" />
+    <string id="dvpbyoAQ" text="君の噂は聞いている。やっと会えたな。なかなか好感の持てる{?PLAYER.GENDER}女{?}男{\?}のようだ。たまには話そうじゃないか。" />
+    <string id="DxuuarNT" text="君の名前は知っている。噂によると悲嘆に暮れている、多くの未亡人にも知られているようだ。私には関係のない事だが。" />
+    <string id="E9B7Vrbx" text="{SETTLEMENT_NAME}にある、私の村を襲ったそうだな。とうとう、貴様を戦いの場に引きずり出せた。構えろ！" />
+    <string id="eHuiRxC4" text="競技会はどうだった、ん？参加者たちは私に勝ち目があると思っていたようだな。" />
+    <string id="EIThhVgG" text="君の名前は知っている。会えて嬉しいぞ。" />
+    <string id="ELtT9ctL" text="スコルダーブローダ族の事は知っているだろう。戦場で我々に勝る者はいない。我々が要求する報酬は、我々の価値に見合う決して安くない額だが、それを受け取れば契約を守り続ける事を誓う。たとえそれで死ぬことになってもな。" />
+    <string id="ETxtYU6C" text="ふむ… ずいぶんと名を上げたようだな…" />
+    <string id="eu6O20oJ" text="なあ、聞いてくれ。あんたの大義のために血を流すのは構わない。だが面倒を見なきゃいけない身内がいるんだ。守ってやらないといけないやつらも。それじゃあ足りないな。" />
+    <string id="EXgm5Utx" text="{?GENDER}彼女{?}彼{\?}に万歳！" />
+    <string id="eyxfHmCU" text="私は{CLAN_NAME}の{CONVERSATION_CHARACTER.LINK}だ。私の一族は何代にも渡り、ヴランディアの王に仕えてきた。" />
+    <string id="eZh2qzeR" text="{TOURNAMENT_TOWN}の競技会はどうだった、ん？参加者たちは私に勝ち目があると思っていたようだな。" />
+    <string id="f2eZL7w5" text="ああ、這いつくばって命乞いをするチャンスくらい、与えてやらねばな。どうする、降伏するか？[ib:warrior][if:convo_mocking_revenge]" />
+    <string id="f3X79aDs" text="で… 君は様々な場所を旅したと聞いている。奇妙なものや恐ろしいものをたくさん見てきただろう。その中には君自身の手によるものも、含まれるのかもしれない。君の旅の話を少し聞かせてくれないか。何を聞いても驚かないと約束する。" />
+    <string id="Fb7JxGKM" text="ああ… 君の名は知っている。そうだ、無駄話は好きではない。すぐ本題に入ろう。" />
+    <string id="fbArcLAA" text="お嬢様、あなたが見た目同様に武器の腕前も優れているのであれば、敵はあなたを恐れるべきでしょう！" />
+    <string id="FbstpIYj" text="お前にはチャンスを与えただろう。" />
+    <string id="FFXqPFwl" text="私はヴランディア王国の歴史の中で最も高名な一族のひとつ、{CLAN_NAME}族の{CONVERSATION_CHARACTER.LINK}だ。" />
+    <string id="fHFpgitO" text="君に会えて良かった。勇気は称賛されるものだが、慈悲の心こそ最大の美徳だ。" />
+    <string id="FpD4Y9cX" text="ありがとう。君の敵であることに変わりはないが、それでも感謝している。[if:convo_relaxed_happy]" />
+    <string id="FYLmd2ch" text="{SETTLEMENT_NAME}で、村人たちから略奪をしたそうだな。言うまでもない事だが、こちらとしてはいい気分ではない。" />
+    <string id="g3oFsCtd" text="君は和平交渉を提案した。君が戦争における慣習に敬意を表し、卑怯なマネはしないことを信じるぞ。" />
+    <string id="G8ol9sG3" text="君と戦うのは悲しい事だが、そうせざるを得ない。もちろん君が降伏するなら別だが。[ib:warrior][if:convo_stern]" />
+    <string id="gBRBdsIe" text="君ほどの評判の人物なら、この世に言葉の重みより価値のあるものはない事を、知っているだろう。私に正直でいてくれるならば、私も君に正直でいよう。" />
+    <string id="gggmhjd7" text="どんな物でも奪ったほうが容易いというのに、一体何を捧げようと言うのだ。" />
+    <string id="ghawrJRK" text="{SETTLEMENT_NAME}を襲撃したそうだな。あれは私の土地だぞ、愚か者めが。私に恥をかかせたつもりか？死をもって償ってもらう。" />
+    <string id="GO47mubj" text="君の提案は一体何なのだ？" />
+    <string id="Gp3l5fjI" text="で、君に与えた任務だが… 君自身も言った通り、最善を尽くしてもらったと考える他ない。" />
+    <string id="gxV3M6HH" text="当然ながら、{?GENDER}彼女{?}彼{\?}の長寿と{?GENDER}彼女{?}彼{\?}の全ての敵に対する勝利を願っている。これ以外の事を口にすれば、反逆行為になる事は君も知っているだろう。" />
+    <string id="gyCA2mZP" text="私が見る限り、君と話し合える事はない。" />
+    <string id="HaHZss32" text="私は{CONVERSATION_CHARACTER.LINK}、{LIEGE_TITLE}の忠実な従者だ。" />
+    <string id="HbVsATfi" text="君の名は知っている。皆、君の勇気を称えている。だが栄誉と慈悲にも、価値があることを忘れるな。" />
+    <string id="heKSWVJk" text="ああ、降伏するチャンスくらいは与えてやらなくちゃならないが、君が降伏しないことを願ってるよ。君の頭をその首から、取り外してみたいんでな。[ib:warrior][if:convo_mocking_aristocratic]" />
+    <string id="hfftfRcq" text="悲しいかな、このことに関しては意見が合わないようだ。" />
+    <string id="hP35jSyk" text="私は{CLAN_NAME}家の{CONVERSATION_CHARACTER.LINK}だ。" />
+    <string id="hQlpbksp" text="そうだ…我々はどちらも{TOURNAMENT_TOWN}の競技会に出場していた、だな？全くがっかりだ…ろくでなしの{WINNER_NAME}がサイコロ遊びで賞品を失うのを願おう。" />
+    <string id="hQsjeTix" text="降参だ！自らの功績を誇るがいい。[if:convo_thinking]" />
+    <string id="HwhUEZPE" text="ああ… 君の名は知っている。君に対して敵意はない。私の邪魔をしなければ、私も君の邪魔はしない。" />
+    <string id="HwsshsMz" text="あの件について君と合意できたことを嬉しく思う。" />
+    <string id="i1RXpQxR" text="あの決闘を覚えているか？良い戦いだった。だが私が優勢な今、当時のように公正に闘える気がしない。" />
+    <string id="I67MlgYp" text="いや… もっと出せないのなら、無理だ。" />
+    <string id="iAKHTPlP" text="競技会であなたと戦えて光栄だった。" />
+    <string id="iepWkkfA" text="貴婦人" />
+    <string id="ieVRr359" text="君の名は覚えておこう。" />
+    <string id="iM76GPzK" text="品位のある{?PLAYER.GENDER}女性{?}男性{\?}には耳を貸そう。一方、君にそれが欠けているのであれば、ここで私に面倒をかけないでくれ。" />
+    <string id="iOnsulPb" text="我々の噂は聞いているだろう。人々は我々の事を「炎の残り火」と呼ぶ。何代も昔、天国は我々に地上の浄化に備えるよう指示した。その日まで我々は静かにくすぶっている。だがその日が来れば、我々による正義の天罰が炎と共に下されるだろう。" />
+    <string id="itfE84jd" text="お前は劣勢だ。諦めろ。もしくは諦めなくてもいい。戦闘で死ぬのも良い事だ。[ib:warrior][if:convo_bored]" />
+    <string id="IuSH0tcp" text="{FIRST_NAME}は私のために常に{?GENDER}彼女{?}彼{\?}の全力をもって、尽くしてくれている。私もそれに報いたい。" />
+    <string id="J0wLOV3u" text="君に与えた任務は、簡単ではなかった事は理解している… まぁ、その事について話すのはもうやめよう。" />
+    <string id="JBZcBg9h" text="君に会えて嬉しい。" />
+    <string id="JcdmntiC" text="ああ、そうだ。噂を聞いていた限り、私が想像していたのは、敵の血がまだしたたる剣を持っているような人物だった。こんなに上品で魅力的な人物ではない。" />
+    <string id="JJAWbuNT" text="私は{CLAN_NAME}の{CONVERSATION_CHARACTER.LINK}。我々の祖先は「勇者の時代」に黄金の船に乗り、西からこの地に辿り着いたと聞いている。もちろん、皆が言う通りの人数が、本当にその船に乗っていたならば、重さで沈没していただろうが。" />
+    <string id="JkHvOVlo" text="君の名前は覚えておこう。さて、友情の証としてすぐに握手を求めなかったことについては、どうか気を悪くしないでくれ。この危険な世の中では、こちらも慎重にならざるを得ない。" />
+    <string id="JNb6l91E" text="栄光を手にするチャンスが欲しければ、私と共に戦うと良い。いつか君の孫に、私に仕えた時の話をする事ができるだろう。" />
+    <string id="jr0XszmA" text="聞いたことのない名だが、知り合えて光栄だ。" />
+    <string id="jrG4UPBr" text="貴様が{SETTLEMENT_NAME}を襲撃した時に焼いた家の一つ一つが、私の物だ。貴様の肉を同じ数だけ、削ぎ落してやろう。" />
+    <string id="JS5hKW6p" text="私は自分のために、好んで戦争に溺れる者とは違う。だがそれでも約束を守れる、信頼に値する戦士が必要だ。私への信義を守る者には、私も信義で報いる。" />
+    <string id="jxduaTUc" text="君の噂は聞いている。男と同様に戦うことができる女だろう。" />
+    <string id="k50ZjzZ7" text="{TOURNAMENT_TOWN}での競技会以来だな。次はこちら側の誰かにツキが巡ってくるだろう。" />
+    <string id="K5Fvv504" text="私は{CLAN_NAME}家の{CONVERSATION_CHARACTER.LINK}です、我が{?PLAYER.GENDER}君主{?}君主{\?}。あなたにお仕えできるのは我が誇りです。" />
+    <string id="k6TABWrF" text="{SETTLEMENT_NAME}にある私の村を襲撃した時の、貴様の残酷な仕打ちについて聞いている。私には村人たちを守る責任がある。守る事が叶わないなら、報復をする責任がな。" />
+    <string id="kaEUZ8NA" text="私の息子" />
+    <string id="kBcfMYzE" text="{TOURNAMENT_TOWN}の競技会であなたと戦えて光栄だった。" />
+    <string id="KC7PxI8c" text="お前は私の敵だ。だから、囚われの身のままでいてもらう。" />
+    <string id="kil3bT75" text="一つ覚えておけ。私に逆らうと、後悔することになるぞ。" />
+    <string id="kkOYSCSz" text="勇敢な言葉を口にするのは容易だ。どうなるか見届けてやるとしよう。" />
+    <string id="KkWNSw9p" text="君の名は知っている。人々の心に恐怖を植え付ける名だ。いつか話し合おうじゃないか。" />
+    <string id="KlQlzYdS" text="旧友同士が戦うのは、ままある運命のいたずらだ。このまま流され続けるか、それとも降参するか？[ib:warrior][if:convo_nonchalant]" />
+    <string id="KMygMFj2" text="お前と戦うのが私の使命だ" />
+    <string id="L2GbDVja" text="私は{CLAN_NAME}の{CONVERSATION_CHARACTER.LINK}です、我が{?PLAYER.GENDER}君主{?}君主{\?}。あなたにお仕えできるのは我が誇りです。" />
+    <string id="l2nEIZV5" text="私は{CLAN_NAME}の{CONVERSATION_CHARACTER.LINK}だ。" />
+    <string id="L2PFxbD3" text="さて… お前が私の信頼を裏切ったのは、そう昔のことではない。そんなお前と、一体どんな話をしろと言うのだ？" />
+    <string id="L6FSmeIv" text="様々な地を旅してきたそうだな。我々は困難に満ちた、大変な時代を生きている。これまで見てきた物について、何を思う？" />
+    <string id="l9CJa1Do" text="だめだ。あんたが頼んでることを考えると、それじゃあ足りない。" />
+    <string id="LBb7YgXU" text="カルラディアの正統なる皇帝" />
+    <string id="LbpdzoRd" text="私は{CLAN_NAME}家の{CONVERSATION_CHARACTER.LINK}。私の一族は帝国の設立時から元老院議会に立ち、その務めを立派に果たしてきた。" />
+    <string id="lcPeNFTN" text="お会いできて嬉しい。" />
+    <string id="LEZKgNEm" text="お前の事は聞いたこともない。お前もまた戦争の残飯をついばむためにやってきた、ハゲタカだろう。" />
+    <string id="lI8rPjEd" text="私を何だと思っている？策略家だとでも言いたいのか？何にせよ名誉のあるものにしてくれ。" />
+    <string id="LkVCTVMx" text="私のために君がしてくれた事に感謝する。君は約束を守ってくれた。近頃ここまで頼りにできる者は多くない。" />
+    <string id="LYUqmf6P" text="話を聞こう。君ならば、不名誉な提案をする事もあるまい。" />
+    <string id="mHP7PtrJ" text="ふん。まあ良いだろう。" />
+    <string id="Mlpy0SQo" text="降参だ！我々は良く戦った。{newline}これ以上、血を流す必要もない。[if:convo_thinking]" />
+    <string id="MSiuWF7V" text="もう我慢ならない！我々は反旗を翻し、我々の正当なる要求が認められるまで、人々の敵と戦い続ける。" />
+    <string id="mUa4sDgF" text="{SETTLEMENT_NAME}にある、私の村を襲ったそうだな。今、その借りを返してやろう。" />
+    <string id="MUHdZHFw" text="君のうわさはよく聞いている。君の兵士としての力は、最も勇敢な男達のそれと同等だと聞く。いつか競技会か戦場で、お互いの勇気を比べ合おうじゃないか。" />
+    <string id="MUuNmr6C" text="今日の君に勝ち目はない。我々と戦う事を選んでも構わないが、降参を恥じることはない。[ib:warrior][if:convo_thinking]" />
+    <string id="MzKWlFTv" text="我々が戦わねばならないとは残念だ。降参の意思はあるのか？[ib:warrior][if:convo_stern]" />
+    <string id="N5pglyyU" text="好きにしろ。" />
+    <string id="NeUilOqh" text="我々は部外者を受け入れている。森は広く、全ての者を養うのに十分な獲物と食料がある。だが我々から盗み、あるいは奴隷にし、税金を課す者がいる。春になると、そうした盗っ人どもの遺体が雪解けの中から現れるのさ。" />
+    <string id="nJgp2MoR" text="君の名前は知っている。噂によると悲嘆に暮れている、多くの未亡人にも知られているようだ。私には関係のない事だが。" />
+    <string id="nLbQ8rpF" text="願ってもない提案だ。" />
+    <string id="NmlauVxB" text="ふむ、続けろ。" />
+    <string id="Nq2dyiO1" text="私は{CLAN_NAME}の{CONVERSATION_CHARACTER.LINK}。スタルジアの英雄物語に、何度も登場する一族の者だ。" />
+    <string id="nRnbBnFq" text="そうか？それは… 嬉しいよ。[if:convo_relaxed_happy]" />
+    <string id="NW1n9k45" text="いとこ" />
+    <string id="o2aKr8JD" text="その名前は聞いたことがある。" />
+    <string id="o4talwN5" text="例の件の対処を引き受けてくれたことに、重ねて礼を言う。" />
+    <string id="O8wTipT2" text="ありがとう。君が最終的に敗北する際には、君が苦しむことのないよう、迅速な死を与えられるようにしよう。我々の仲間になるなら、話はまた別だが… 今のところはこれで別れるとしよう。[if:convo_nonchalant]" />
+    <string id="ODa9Eikp" text="{VILLAGE_NAME}での襲撃だが… まあ、いつだって領主の過ちのせいで苦しむのは、貧しい者たちという事だな。" />
+    <string id="OgzAlCkk" text="お前から受けた傷はまだ癒えていない。" />
+    <string id="oIrz5050" text="殿下" />
+    <string id="oW51mkNE" text="我々と戦えば、君の兵は大勢死に、君は敗北するだろう。降参しろ。そうすれば双方ともに、無駄な血を流さずに済む。[ib:warrior][if:convo_stern]" />
+    <string id="oxMlxVqd" text="{SETTLEMENT_NAME}にある、私の村を襲ったそうだな。死をもって償ってもらう！" />
+    <string id="oZnVxkp0" text="{VILLAGE_NAME}での事だが… あんなふうに、罪のない村人を襲うのは好きじゃない。こんな事をやらずに済めばいいのに。" />
+    <string id="PBgLvyOa" text="私は{CLAN_NAME}の{CONVERSATION_CHARACTER.LINK}。我々の祖先は大公のデナールを受け取るために遥か北から訪れ、この土地を守る事を誓った。今でもその誓いを守り続けている。" />
+    <string id="pDN7Wafo" text="クーザイトのハン" />
+    <string id="PFgGnk7z" text="もちろん、あなたに忠誠を誓います。" />
+    <string id="Pg8vccKF" text="お前の事は知らぬ。問題になりそうな奴ではないな。" />
+    <string id="pgIaAnBt" text="あなたに任せた例の件だが… あまりいい結果にならなかったそうだな。" />
+    <string id="PhTv43ve" text="ああ、やっと会えたな。知り合うに値する女性のようだ。たまには話をしよう。" />
+    <string id="PKzNW9do" text="{SETTLEMENT_NAME}にある私の村を襲った時、ずいぶん派手に暴れてくれたようだな。戦争とは残酷なものだが、必要以上に残酷にする必要もないはずだ。" />
+    <string id="pn79h0aj" text="私は{CLAN_NAME}の{CONVERSATION_CHARACTER.LINK}。我々の称号は、ヴォルティオス皇帝から直々に賜ったものだ。当時彼は我々の襲撃船に捕らわれた状態にあったので、不本意な選択ではあったろうがね。それでも皇帝は、我々の血に流れる気高さに気づいていたのだろう。" />
+    <string id="pQkiu5qf" text="また私からの任務を受けて裏切るつもりか？" />
+    <string id="PQZfXcU1" text="あなたの名前は聞いたことがある。その功績についても、人々がよく話しているよ。ようやくお会いできて嬉しい。" />
+    <string id="pXULuzaq" text="降参だ！お前の勝ちだ。この日を呪うぞ！[if:convo_angry]" />
+    <string id="pZj9C1yA" text="天国の望みを叶えよう。だがそのための道を整えた者には、報酬が与えられるだろう。" />
+    <string id="q5nQGimE" text="私は{CLAN_NAME}家の{CONVERSATION_CHARACTER.LINK}。自分の血筋を必要以上にひけらかすべきではないが、帝国の庶民を守る任務を真剣に続けてきたということには誇りを持っている。" />
+    <string id="qa2xUjcT" text="あなたの名前を聞いたことがある。聞いた話が事実ではないことを祈るばかりだ。" />
+    <string id="qB3wfM1f" text="先の件で君と同意に達することが出来て、嬉しく思っている。" />
+    <string id="Qb4tlTEj" text="だが話はこれまでだ。降参しないならば戦え！[ib:warrior][if:convo_angry]" />
+    <string id="QhkM71ap" text="あなたにお会いできて光栄です。" />
+    <string id="QpBmbygb" text="我々の名前は耳にしたことがあるだろう。エレフセロイ族だ。我々の祖先は盗賊であり、逃亡者であり、厄介者だった。それは否定しない。我々は強制されてこの地にやって来た。だが教えてやろう、この帝国が生き延びれば、それはベッドで気持ちよく寝ている奴らのおかげなどではない。この荒野で、苦しく血なまぐさい仕事を請け負っている我々のおかげだ。" />
+    <string id="qRW6JkXM" text="{SETTLEMENT_NAME}にある私の村を襲ったのは、貴様だと聞いている。作物や家畜を奪ったそうだな。貴様の兵たちも腹を空かせていたのだろうが、それはこちらの村人たちとて同じ事。残った物を賭けて戦うか？" />
+    <string id="qSF2z6Wa" text="君の事は知らないが、いずれ何かを成し遂げる{?PLAYER.GENDER}女{?}男{\?}の顔をしている。" />
+    <string id="qvwfev22" text="追い詰めたぞ。降参するか死ぬか、どちらかを選べ。[ib:warrior][if:convo_aggressive]" />
+    <string id="R6sTYEaz" text="話で解決できるような事ではない。" />
+    <string id="ra7YMN8S" text="あなたに忠誠を誓います。もし誰かがあなたに仇なす言葉を言ったなら、その人物の舌を切り落としましょう。" />
+    <string id="RajD4RC1" text="あなたの事は聞いたことがない。" />
+    <string id="rCNUXFTN" text="降参だ！君の勝利を祝福しよう。[if:convo_beaten]" />
+    <string id="reg1AUxr" text="私の子供" />
+    <string id="rhTUDKhJ" text="私は{CLAN_NAME}の{CONVERSATION_CHARACTER.LINK}。バッタニアのクランは一つの例外もなく、その戦士の頭蓋骨が、我々の杯のコレクションに仲間入りしている。" />
+    <string id="rK2dayAa" text="いいだろう。準備は出来てる。" />
+    <string id="rndbZI9I" text="悪く取らないでほしいのだが、中にはお前の望みが、分不相応だと言う者も出てくるだろう。だが仮に出世できたとして、その時お前は何をする？" />
+    <string id="RNZ9LOxc" text="私の友人" />
+    <string id="rPrBa7gK" text="私の夫" />
+    <string id="Rs0aUNlQ" text="{VILLAGE_NAME}の村人たちは、長きにわたって我々の事を忘れるまい。" />
+    <string id="rUzbs0Zr" text="クーザイトの女王" />
+    <string id="ry1ycxNY" text="こうなることは望んでいなかった。" />
+    <string id="s1FVPS5D" text="私は{CLAN_NAME}家の{CONVERSATION_CHARACTER.LINK}。私の一家は何代にも渡り、帝国に仕えてきた。" />
+    <string id="S1vGzr8z" text="私はアセライのクラン、{CLAN_NAME}の{CONVERSATION_CHARACTER.LINK}。" />
+    <string id="s6xlGuTH" text="そちらが同じようにすると言うのなら、交渉の条件を飲もう。" />
+    <string id="sax2tF9L" text="あなたは本当に信義を重んじる{?PLAYER.GENDER}女性{?}男性{\?}ですね、{?PLAYER.GENDER}マダム{?}サー{\?}。この事は忘れません！[if:convo_relaxed_happy]" />
+    <string id="sEfAuErj" text="君がいずれ大成すると噂する人々がいる… 仮に君が権力を手にしたとしよう。その時、君は何をする？" />
+    <string id="SJ3bpDxC" text="あなたの軍旗には見覚えがないが、あなたは明らかに階級の高い女性だ。私をあなたの最も忠実な下僕としてください。" />
+    <string id="sJNrVlXa" text="様々な場所を巡ってきたそうだな… 少し君の旅の話をしてもらおう。" />
+    <string id="SSuL62NZ" text="私は{FIRST_NAME}に忠実だ。それについて、いかなる反論も許さない。" />
+    <string id="sswCmQZ2" text="皆は我々の事を「湖の鼠」と呼ぶが、どちらかというと、沼地の自由人として認知されたい。どんな公子や貴族にも、頭を下げたり跪いたりしない。それを理解してもらえれば、お互い仲良くやっていけるだろう。" />
+    <string id="T0Cdfsx2" text="あなたから和平を申し出たのです。おかしなマネをしようとお考えなら、それを阻むために弓兵が配置されていることを、ご留意ください。" />
+    <string id="t3FQbYU6" text="あなたの{TOURNAMENT_TOWN}での競技会優勝…まあ、こういうのには常に運が絡んでくる、必ずな。" />
+    <string id="t6sRVI5C" text="私の妻" />
+    <string id="T8kAgaPd" text="だめだ。部下の命がかかってるんだぞ。それじゃあ足りない。" />
+    <string id="tA4wDLt2" text="私の書記に君の名前を控えさせよう。" />
+    <string id="te2DSMtg" text="もう我慢ならん。迫害者どもと、我々の正当な報復を邪魔だてする者たち、全てを血祭りにあげてやる。" />
+    <string id="tOanKs9o" text="私は{LIEGE_TITLE}。" />
+    <string id="tRSD2C3k" text="代わりにやってもらった例の仕事だが、本当によくやってくれた。" />
+    <string id="tUa5WBpp" text="カルラディアの正統なる女帝" />
+    <string id="TUwY7IKc" text="さて… 君にはしてやられた。あれの後だ、君と話し合う事などもはやあるまい。" />
+    <string id="TvqjhDaQ" text="若き獅子よ。あなたはいずれ大成しそうな気がする。途中で死ぬようなことにさえ、ならなければな。" />
+    <string id="Tvy4UvJC" text="ヴランディアの女王" />
+    <string id="tXnSN2ey" text="取引は不成立だな。" />
+    <string id="TzPC5L5X" text="私は常に良い戦士を探している。私の事を誰かに尋ねれば、私が部下の兵士達を大切に扱っている話が聞けるだろう。" />
+    <string id="U4p70l9B" text="私は{CLAN_NAME}の{CONVERSATION_CHARACTER.LINK}だ。" />
+    <string id="u5b8UKaa" text="{VILLAGE_NAME}での襲撃だが… 酷な事をしたとは思う。だがそのおかげで、戦争の終結が早まったと考える事にしよう。" />
+    <string id="U770Bvy8" text="私は{CLAN_NAME}の{CONVERSATION_CHARACTER.LINK}。バッタニアの歌の中では、私の一家の名が一番有名だ。" />
+    <string id="U9u8Qeu4" text="旅人よ、ウルフスキンの名をおそらく聞いたことがあるだろう。我々は獣だ。我々は調理された肉も、布の服も、屋根のある寝床も拒否する。したがって、人間の法律にも縛られない。我々との付き合い方には、せいぜい気をつけるんだな。" />
+    <string id="Ua0T0A7t" text="私はバッタニアの古くから続く一族のひとつである、{CLAN_NAME}の{CONVERSATION_CHARACTER.LINK}だ。" />
+    <string id="UBtWqLDS" text="貴様の部下どもが、{SETTLEMENT_NAME}の哀れな村人たちを襲撃したそうだな。私の保護下にあるとの知っての事か。次にどこかの村を襲う時は、所有者に捕まらないようにするんだな… " />
+    <string id="UehvSvLD" text="君に任せた例の件だが… がっかりしたと言わざるを得ない。" />
+    <string id="ufa20b2l" text="私が話をするのは、誓いを守る者だけだ。お前もまた、言葉に真実が宿らない者ならば、私の時間を無駄にするな。" />
+    <string id="Ufn3916B" text="君の噂は聞いている。やっとこうして実物を拝めたわけだ。私は話好きな方ではないが、聞く分にはかまわない。" />
+    <string id="UyIuz9dt" text="{VILLAGE_NAME}での事だが… 戦争とは実に残酷なものだな。" />
+    <string id="v4nyY62z" text="スタルジアの女王" />
+    <string id="VB5R2lAb" text="よし。これで取り決めはまとまったな。" />
+    <string id="ve7pKxrc" text="先程の{VILLAGE_NAME}の村人たち… 一歩違えば、私の民がああなっていた…" />
+    <string id="vN4spwD1" text="私に逆らえば、ジャッカルの餌になることを覚えておけ。" />
+    <string id="vNnMHR84" text="このことをどうぞ、あなたの手柄にしてください、{?PLAYER.GENDER}マダム{?}サー{\?}。この事は忘れません。[if:convo_relaxed_happy]" />
+    <string id="VOExVZtX" text="すまない。流血は好まないが、お前を生かしてここから逃がすことはできない。" />
+    <string id="VUn8mQ5n" text="バッタニアの上級王" />
+    <string id="w1BKhf5F" text="{VILLAGE_NAME}を襲撃した時、貴様は私の所有物を奪ったのだ。だから貴様の首を落として、一番に建て直した物に飾ってやろう。" />
+    <string id="w6CzYbRH" text="ここでの競技会以来だな。次はこちら側の誰かにツキが巡ってくるだろう。" />
+    <string id="w7EY8rbd" text="話を変えよう。" />
+    <string id="WbAAkcbw" text="あなたにお会いできて光栄です、お嬢様。" />
+    <string id="Wec8VlAQ" text="{TOURNAMENT_TOWN}での競技会勝利おめでとう。" />
+    <string id="WFwoWAic" text="降参だ！降参だ！犬を追い払ってくれ！[if:convo_angry]" />
+    <string id="WH8P3Y5F" text="私は{CLAN_NAME}の{CONVERSATION_CHARACTER.LINK}だ。" />
+    <string id="wkZzavDk" text="取引は不成立のようだが、もっと良い提案を思い付いたら、その時にはまた話を聞こう。" />
+    <string id="WnxA6JQl" text="会えて嬉しいぞ。ところで私が大切に思っていることの一つは、約束を守ることだ。私と正直な関わり方をしてくれるなら、こちらも君に対して同じように接する。" />
+    <string id="wrIYDx9V" text="私は自由なのか？では… このまま去らせてもらう。[if:convo_nonchalant]" />
+    <string id="Wt4iJPcd" text="君の噂は聞いている！君とはずっと、お近づきになりたいと思っていたんだ。" />
+    <string id="WVeS3Lsb" text="探し求めるべきは、この世にあるものではない。神聖なる真実をこそ、渇望せよ。" />
+    <string id="wWwoTzpG" text="兄弟" />
+    <string id="x3EZDo5k" text="どうも貴様は、無力な村人たちを襲う習性があるようだな。{VILLAGE_NAME}に住む我が村人たちも餌食となったとか。私の部下たちなら、もっと襲いがいがあると思うぞ。" />
+    <string id="xb5RGe0W" text="例の問題を引き受けてくれたことに、重ねて礼を言う。幸運を祈るよ。" />
+    <string id="XBbdhx4M" text="あらためて、君の援助があって良かった。" />
+    <string id="xH4KJEBP" text="私は{?GENDER}彼女{?}彼{\?}に奉仕する事を誓った。それだけだ。" />
+    <string id="xHjVl9gR" text="君の噂は聞いている。やっと会えたな。なかなか好感の持てる{?PLAYER.GENDER}女{?}男{\?}のようだ。たまには話そうじゃないか。何か共通の利益が見いだせるかもしれない。" />
+    <string id="xJ1LJ3mH" text="あなたの仰せの通りに。[if:convo_beaten]" />
+    <string id="Xk2rNuxQ" text="アセライのスルタン" />
+    <string id="Xl25HtPL" text="君の名を知ることが出来て良かった。祝宴で出会えば挨拶ができる。そして盾の壁の向こうに君の姿を確認できれば、始末するべき敵だとわかる。" />
+    <string id="xsaOxeHV" text="君の噂はよく聞いている。兵法に精通した女性を恐れる男もいるが、剣を握れる手を持つ者を私は拒絶しない。その者が勇敢かつ忠実であればの話だが。" />
+    <string id="xUOhJEJS" text="君に会えて良かった。私は勇気と栄光、そして良き評判を大切にする戦士を常に探している。" />
+    <string id="Y8rYJaOa" text="私はこの帝国の歴史の中で最も高名な一族のひとつ、{CLAN_NAME}家の{CONVERSATION_CHARACTER.LINK}だ。我々が倒してきた野蛮人と、勝ち取ってきた栄光の数に並べる者はいない。" />
+    <string id="y9bafYom" text="競技会での勝利おめでとう" />
+    <string id="YayEAKaI" text="ジャワールの事は知らないようだな。オアシスや湧き水から、遠く離れた砂漠を通過しているとしよう。人々が拒絶するその地に、ヤギやラクダのみが通り抜けられるトゲが広がっていれば、そこは我々の領土だ。" />
+    <string id="YDjLPgi3" text="ふむ。興味はある。して、何が言いたい？" />
+    <string id="ygP56lXC" text="天国は我々に戒律を与えた。我々はそれを守り、また、他の者にも同じように守らせなくてはいけない。" />
+    <string id="yRlINUML" text="ハハハ！命乞いすることになるぞ。" />
+    <string id="yUkG588C" text="よし。うまくいって良かったよ。" />
+    <string id="YWOSDu1W" text="もうやめてくれ！私はここで撤退させてもらう。君なら戦いの慣習に背くことはするまい。十分な賠償金も払うから許してくれ。[if:convo_thinking]" />
+    <string id="z1s1qOma" text="お前の言いたいことは分かる。だがそうした考えを巡らせることすら、私の名誉が許さない。" />
+    <string id="z2yr4mc6" text="私は{CLAN_NAME}の{CONVERSATION_CHARACTER.LINK}だ。私の一族は何代にも渡り、クーザイト・ハン国に忠実に仕えてきた。" />
+    <string id="Z3E8MDaB" text="{SETTLEMENT_NAME}にある、私の村を襲ったそうだな。なに、綺麗事を言うつもりはない。私が部下たちと共に、お前の村を訪れる側に回ったら、同じように楽しませてもらったことだろう。だが村人たちの守護者として、多少でも報復をする義務がある。恨まないでくれよ。" />
+    <string id="ZH04pkV6" text="スタルジアの王" />
+    <string id="ZlA0uc8z" text="私の問題の対処を引き受けてくれたことに、改めて例を言うよ。幸運を祈っている。" />
+    <string id="zPbQs8Zt" text="君には戦闘での名誉ある死か、地下牢でのもてなしを約束しよう。[ib:warrior][if:convo_mocking_teasing]" />
+    <string id="zwRbpQJ0" text="君の噂は聞いている！このような形で出会うとは残念だ。" />
+    <string id="zZ9FQJRI" text="私は{CLAN_NAME}の{CONVERSATION_CHARACTER.LINK}。アセライの血統の中でも、最も古く気高い一族だ。" />
+  </strings>
+</base>

@@ -1,0 +1,34 @@
+<Prefab>
+  <Window>
+    <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent">
+      <Children>
+        
+        <!-- Suspicion is full text -->
+        <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Bottom" PositionYOffset="-165" Brush="Mission.Suspicion.Treshold.Text" IsVisible="@HasReachedSuspicionTreshold" Text="@SuspicionFullText" />
+        
+        <!-- Bottom Detection Bar -->
+        <Widget DoNotAcceptEvents="true" DoNotPassEventsToChildren="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" VerticalAlignment="Bottom" HorizontalAlignment="Center" PositionYOffset="-130" IsVisible="@HasDetection">
+          <Children>
+
+            <Widget Id="Background" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="320" SuggestedHeight="28" VerticalAlignment="Center" HorizontalAlignment="Center" Sprite="BlankWhiteSquare_9" Color="#000000FF" AlphaFactor="0.9">
+              <Children>
+                <ValueComparisonStateChangerWidget WatchType="Equals" FirstValueFloat="@CurrentDetectionLevel" SecondValueFloat="@MaximumDetectionLevel" TrueState="Glow" FalseState="Default" TargetWidget="..\DetectionSlider" IsVisible="false" />
+                <SliderWidget Id="DetectionSlider" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginTop="-2" MarginBottom="-2" MarginLeft="-2" MarginRight="-2" DoNotUpdateHandleSize="true" Filler="Filler" Handle="SliderHandle" MinValueFloat="@MinimumDetectionLevel" MaxValueFloat="@MaximumDetectionLevel" ValueFloat="@CurrentDetectionLevel" Brush="Mission.Detection.Fillbar.Frame">
+                  <Children>
+                    <Widget Id="Filler" WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="322" HorizontalAlignment="Left" MarginLeft="1" MarginTop="1" MarginBottom="1" MarginRight="1" ClipContents="true">
+                      <Children>
+                        <MissionSuspicionFillerBrushWidget Id="Filler" WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="322" HorizontalAlignment="Left" Brush="Mission.Stealth.Suspicion.Fillbar.Filler" CurrentSuspicionRatio="@CurrentDetectionLevelRatio" ColorChangeDuration="0.2" />
+                      </Children>
+                    </Widget>
+                  </Children>
+                </SliderWidget>
+              </Children>
+            </Widget>
+
+          </Children>
+        </Widget>
+        
+      </Children>
+    </Widget>
+  </Window>
+</Prefab>

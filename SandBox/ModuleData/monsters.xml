@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Monsters>
+	<!-- family_type:
+  0 for human
+  1 for horse
+  2 for camel
+  3 for cow
+  4 for goose
+  5 for hog
+  6 for sheep
+  7 for hare
+  -->
+	<Monster
+		id="cover_cow"
+		action_set="as_cow"
+		monster_usage="animals"
+		weight="500"
+		hit_points="150"
+		num_paces="5"
+		jump_acceleration="0"
+		sound_and_collision_info_class="bovine"
+		standing_eye_height="1.50"
+		eye_offset_wrt_head="0.07, -0.05, 0.0"
+		jump_speed_limit="3.5"
+		family_type="3"
+		ragdoll_bone_to_check_for_corpses_0="pelvis_0"
+		ragdoll_bone_to_check_for_corpses_1="bn_spine_02_13"
+		ragdoll_bone_to_check_for_corpses_2="bn_spine_03_14"
+		ragdoll_bone_to_check_for_corpses_3="bn_neck_01_25"
+		ragdoll_bone_to_check_for_corpses_4="bn_head_27"
+		ragdoll_fall_sound_bone_0="pelvis_0"
+		ragdoll_fall_sound_bone_1="bn_spine_02_13"
+		ragdoll_fall_sound_bone_2="bn_neck_01_25"
+		ragdoll_fall_sound_bone_3="bn_head_27"
+		head_look_direction_bone="bn_head_27"
+		thorax_look_direction_bone="bn_spine_03_14"
+		neck_root_bone="bn_neck_01_25"
+		pelvis_bone="pelvis_0"
+		fall_blow_damage_bone="pelvis_0">
+		<Capsules>
+			<body_capsule
+				radius="0.4"
+				pos1="0, 1.0, 1.15"
+				pos2="0, -0.57, 1.15" />
+		</Capsules>
+		<Flags
+			RunsAwayWhenHit="false"
+			CanWander="false"
+			MoveAsHerd="false"
+			MoveForwardOnly="false" />
+	</Monster>
+</Monsters>

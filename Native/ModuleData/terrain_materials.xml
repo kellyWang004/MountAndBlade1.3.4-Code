@@ -1,0 +1,702 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<terrain_materials>
+	<terrain_material
+		is_enabled="true"
+		name="default"
+		is_flora_layer="false"
+		is_mesh_blend_layer="false"
+		pitch_roll_yaw="0.000, 0.000, 0.000"
+		scale="5.000, 5.000"
+		shear="0.000, 0.000"
+		position_offset="0.000, 0.000"
+		physics_material="soil"
+		elevation_amount="0.000"
+		parallax_amount="0.000"
+		bigdetailmap_mode="0"
+		bigdetailmap_weight="0.000"
+		bigdetailmap_scale_x="0.080"
+		bigdetailmap_scale_y="0.080"
+		bigdetailmap_bias_x="0.080"
+		bigdetailmap_bias_y="0.080">
+		<textures>
+			<texture
+				type="diffusemap"
+				name="editor_grid_8" />
+			<texture
+				type="areamap"
+				name="none" />
+			<texture
+				type="normalmap"
+				name="none" />
+			<texture
+				type="specularmap"
+				name="editor_grid_8_s" />
+			<texture
+				type="splattingmap"
+				name="none" />
+		</textures>
+		<layer_flags>
+			<flag
+				name="use_parallax"
+				value="false" />
+			<flag
+				name="use_displacement_mapping"
+				value="false" />
+			<flag
+				name="use_randomized_normalmap"
+				value="false" />
+			<flag
+				name="use_transparency_of_diffuse_alpha"
+				value="false" />
+			<flag
+				name="use_transparency_of_ground_slope"
+				value="false" />
+			<flag
+				name="use_dxt5_normal"
+				value="false" />
+			<flag
+				name="use_six_side_uv_mapping"
+				value="false" />
+		</layer_flags>
+		<meshes />
+	</terrain_material>
+	<terrain_material
+		is_enabled="true"
+		name="rock_cliff"
+		is_flora_layer="false"
+		is_mesh_blend_layer="false"
+		pitch_roll_yaw="0.000, 0.000, 0.000"
+		scale="5.000, 5.000"
+		shear="0.000, 0.000"
+		position_offset="0.000, 0.000"
+		physics_material="stone"
+		detail_level_adjustment="0"
+		elevation_amount="0.000"
+		parallax_amount="0.000"
+		ground_slope_scale="1.000"
+		bigdetailmap_mode="0"
+		bigdetailmap_weight="0.000"
+		bigdetailmap_scale_x="0.080"
+		bigdetailmap_scale_y="0.080"
+		bigdetailmap_bias_x="0.080"
+		bigdetailmap_bias_y="0.080">
+		<textures>
+			<texture
+				type="diffusemap"
+				name="rock_cliff_b_d" />
+			<texture
+				type="areamap"
+				name="none" />
+			<texture
+				type="normalmap"
+				name="rock_cliff_b_n" />
+			<texture
+				type="specularmap"
+				name="rock_cliff_b_s" />
+			<texture
+				type="splattingmap"
+				name="none" />
+			<texture
+				type="displacementmap"
+				name="rock_cliff_b_h" />
+		</textures>
+		<layer_flags>
+			<flag
+				name="use_parallax"
+				value="false" />
+			<flag
+				name="use_displacement_mapping"
+				value="false" />
+			<flag
+				name="use_randomized_normalmap"
+				value="false" />
+			<flag
+				name="use_transparency_of_diffuse_alpha"
+				value="false" />
+			<flag
+				name="use_transparency_of_ground_slope"
+				value="false" />
+			<flag
+				name="use_dxt5_normal"
+				value="false" />
+			<flag
+				name="use_six_side_uv_mapping"
+				value="false" />
+		</layer_flags>
+		<meshes />
+	</terrain_material>
+	<terrain_material
+		is_enabled="true"
+		name="desert_a"
+		is_flora_layer="false"
+		is_mesh_blend_layer="false"
+		pitch_roll_yaw="0.000, 0.000, 0.000"
+		scale="5.000, 5.000"
+		shear="0.000, 0.000"
+		position_offset="0.000, 0.000"
+		physics_material="sand"
+		detail_level_adjustment="0"
+		elevation_amount="0.000"
+		parallax_amount="0.000"
+		ground_slope_scale="1.000"
+		bigdetailmap_mode="0"
+		bigdetailmap_weight="0.000"
+		bigdetailmap_scale_x="0.080"
+		bigdetailmap_scale_y="0.080"
+		bigdetailmap_bias_x="0.080"
+		bigdetailmap_bias_y="0.080">
+		<textures>
+			<texture
+				type="diffusemap"
+				name="desert_floor_a" />
+			<texture
+				type="areamap"
+				name="desert_floor_a" />
+			<texture
+				type="normalmap"
+				name="desert_floor_a_n" />
+			<texture
+				type="specularmap"
+				name="desert_floor_a_s" />
+			<texture
+				type="splattingmap"
+				name="none" />
+			<texture
+				type="displacementmap"
+				name="desert_floor_a_h" />
+		</textures>
+		<layer_flags>
+			<flag
+				name="use_parallax"
+				value="false" />
+			<flag
+				name="use_displacement_mapping"
+				value="false" />
+			<flag
+				name="use_randomized_normalmap"
+				value="false" />
+			<flag
+				name="use_transparency_of_diffuse_alpha"
+				value="false" />
+			<flag
+				name="use_transparency_of_ground_slope"
+				value="false" />
+			<flag
+				name="use_dxt5_normal"
+				value="false" />
+			<flag
+				name="use_six_side_uv_mapping"
+				value="false" />
+		</layer_flags>
+		<meshes />
+	</terrain_material>
+	<terrain_material
+		is_enabled="true"
+		name="desert_cliff"
+		is_flora_layer="false"
+		is_mesh_blend_layer="false"
+		pitch_roll_yaw="0.000, 0.000, 0.000"
+		scale="5.000, 5.000"
+		shear="0.000, 0.000"
+		position_offset="0.000, 0.000"
+		physics_material="stone"
+		detail_level_adjustment="0"
+		elevation_amount="0.000"
+		parallax_amount="0.000"
+		ground_slope_scale="1.000"
+		bigdetailmap_mode="0"
+		bigdetailmap_weight="0.000"
+		bigdetailmap_scale_x="0.080"
+		bigdetailmap_scale_y="0.080"
+		bigdetailmap_bias_x="0.080"
+		bigdetailmap_bias_y="0.080">
+		<textures>
+			<texture
+				type="diffusemap"
+				name="cliff_c_d" />
+			<texture
+				type="areamap"
+				name="desert_floor_a" />
+			<texture
+				type="normalmap"
+				name="cliff_c_n" />
+			<texture
+				type="specularmap"
+				name="cliff_c_s" />
+			<texture
+				type="splattingmap"
+				name="none" />
+			<texture
+				type="displacementmap"
+				name="cliff_c_h" />
+		</textures>
+		<layer_flags>
+			<flag
+				name="use_parallax"
+				value="false" />
+			<flag
+				name="use_displacement_mapping"
+				value="false" />
+			<flag
+				name="use_randomized_normalmap"
+				value="false" />
+			<flag
+				name="use_transparency_of_diffuse_alpha"
+				value="false" />
+			<flag
+				name="use_transparency_of_ground_slope"
+				value="false" />
+			<flag
+				name="use_dxt5_normal"
+				value="false" />
+			<flag
+				name="use_six_side_uv_mapping"
+				value="false" />
+		</layer_flags>
+		<meshes />
+	</terrain_material>
+	<terrain_material
+		is_enabled="true"
+		name="desert_b"
+		is_flora_layer="false"
+		is_mesh_blend_layer="false"
+		pitch_roll_yaw="0.000, 0.000, 0.000"
+		scale="5.000, 5.000"
+		shear="0.000, 0.000"
+		position_offset="0.000, 0.000"
+		physics_material="sand"
+		detail_level_adjustment="0"
+		elevation_amount="0.000"
+		parallax_amount="0.000"
+		ground_slope_scale="1.000"
+		bigdetailmap_mode="0"
+		bigdetailmap_weight="0.000"
+		bigdetailmap_scale_x="0.080"
+		bigdetailmap_scale_y="0.080"
+		bigdetailmap_bias_x="0.080"
+		bigdetailmap_bias_y="0.080">
+		<textures>
+			<texture
+				type="diffusemap"
+				name="desert_floor_b" />
+			<texture
+				type="areamap"
+				name="desert_floor_a" />
+			<texture
+				type="normalmap"
+				name="desert_floor_b_n" />
+			<texture
+				type="specularmap"
+				name="desert_floor_b_s" />
+			<texture
+				type="splattingmap"
+				name="none" />
+			<texture
+				type="displacementmap"
+				name="desert_floor_b_h" />
+		</textures>
+		<layer_flags>
+			<flag
+				name="use_parallax"
+				value="false" />
+			<flag
+				name="use_displacement_mapping"
+				value="false" />
+			<flag
+				name="use_randomized_normalmap"
+				value="false" />
+			<flag
+				name="use_transparency_of_diffuse_alpha"
+				value="false" />
+			<flag
+				name="use_transparency_of_ground_slope"
+				value="false" />
+			<flag
+				name="use_dxt5_normal"
+				value="false" />
+			<flag
+				name="use_six_side_uv_mapping"
+				value="false" />
+		</layer_flags>
+		<meshes />
+	</terrain_material>
+	<terrain_material
+		is_enabled="true"
+		name="soil_b"
+		is_flora_layer="false"
+		is_mesh_blend_layer="false"
+		pitch_roll_yaw="0.000, 0.000, 0.000"
+		scale="5.000, 5.000"
+		shear="0.000, 0.000"
+		position_offset="0.000, 0.000"
+		physics_material="soil"
+		detail_level_adjustment="0"
+		elevation_amount="0.000"
+		parallax_amount="0.000"
+		ground_slope_scale="1.000"
+		bigdetailmap_mode="0"
+		bigdetailmap_weight="0.000"
+		bigdetailmap_scale_x="0.080"
+		bigdetailmap_scale_y="0.080"
+		bigdetailmap_bias_x="0.080"
+		bigdetailmap_bias_y="0.080">
+		<textures>
+			<texture
+				type="diffusemap"
+				name="ground_soil_b_d" />
+			<texture
+				type="areamap"
+				name="desert_floor_a" />
+			<texture
+				type="normalmap"
+				name="ground_soil_b_n" />
+			<texture
+				type="specularmap"
+				name="ground_soil_b_s" />
+			<texture
+				type="splattingmap"
+				name="none" />
+			<texture
+				type="displacementmap"
+				name="ground_soil_b_h" />
+		</textures>
+		<layer_flags>
+			<flag
+				name="use_parallax"
+				value="false" />
+			<flag
+				name="use_displacement_mapping"
+				value="false" />
+			<flag
+				name="use_randomized_normalmap"
+				value="false" />
+			<flag
+				name="use_transparency_of_diffuse_alpha"
+				value="false" />
+			<flag
+				name="use_transparency_of_ground_slope"
+				value="false" />
+			<flag
+				name="use_dxt5_normal"
+				value="false" />
+			<flag
+				name="use_six_side_uv_mapping"
+				value="false" />
+		</layer_flags>
+		<meshes />
+	</terrain_material>
+	<terrain_material
+		is_enabled="true"
+		name="flora_habitat_a"
+		is_flora_layer="false"
+		is_mesh_blend_layer="false"
+		pitch_roll_yaw="0.000, 0.000, 0.000"
+		scale="5.000, 5.000"
+		shear="0.000, 0.000"
+		position_offset="0.000, 0.000"
+		physics_material="grass"
+		detail_level_adjustment="0"
+		elevation_amount="0.000"
+		parallax_amount="0.000"
+		ground_slope_scale="1.000"
+		bigdetailmap_mode="0"
+		bigdetailmap_weight="0.000"
+		bigdetailmap_scale_x="0.080"
+		bigdetailmap_scale_y="0.080"
+		bigdetailmap_bias_x="0.080"
+		bigdetailmap_bias_y="0.080">
+		<textures>
+			<texture
+				type="diffusemap"
+				name="ground_grass_c_d" />
+			<texture
+				type="areamap"
+				name="none" />
+			<texture
+				type="normalmap"
+				name="ground_grass_c_n" />
+			<texture
+				type="specularmap"
+				name="ground_grass_c_s" />
+			<texture
+				type="splattingmap"
+				name="none" />
+			<texture
+				type="displacementmap"
+				name="ground_grass_c_h" />
+		</textures>
+		<layer_flags>
+			<flag
+				name="use_parallax"
+				value="false" />
+			<flag
+				name="use_displacement_mapping"
+				value="false" />
+			<flag
+				name="use_randomized_normalmap"
+				value="false" />
+			<flag
+				name="use_transparency_of_diffuse_alpha"
+				value="false" />
+			<flag
+				name="use_transparency_of_ground_slope"
+				value="false" />
+			<flag
+				name="use_dxt5_normal"
+				value="false" />
+			<flag
+				name="use_six_side_uv_mapping"
+				value="false" />
+		</layer_flags>
+		<meshes>
+			<mesh
+				name="flora_grass_a_non_shadow"
+				density="55"
+				seed_index="1"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+			<mesh
+				name="flora_green__mix"
+				density="45"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+			<mesh
+				name="flora_plant__mix"
+				density="25"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.500, 0.500, 0.500"
+				size_max="1.200, 1.200, 1.200"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+			<mesh
+				name="tree_high__mix"
+				density="12"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+			<mesh
+				name="flora_green__mix_flower"
+				density="35"
+				seed_index="6"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</meshes>
+	</terrain_material>
+	<terrain_material
+		is_enabled="true"
+		name="em f sum"
+		is_flora_layer="false"
+		is_mesh_blend_layer="false"
+		pitch_roll_yaw="0.000, 0.000, 0.000"
+		scale="3.600, 3.600"
+		shear="0.000, 0.000"
+		position_offset="0.000, 0.000"
+		physics_material="soil"
+		detail_level_adjustment="1"
+		elevation_amount="0.200"
+		parallax_amount="-0.200"
+		ground_slope_scale="2.700"
+		bigdetailmap_mode="2"
+		bigdetailmap_weight="0.500"
+		bigdetailmap_scale_x="0.001"
+		bigdetailmap_scale_y="0.001"
+		bigdetailmap_bias_x="0.001"
+		bigdetailmap_bias_y="0.001">
+		<textures>
+			<texture
+				type="diffusemap"
+				name="ground_grass_soil_a_d" />
+			<texture
+				type="areamap"
+				name="black_terrain" />
+			<texture
+				type="normalmap"
+				name="ground_grass_soil_a_n" />
+			<texture
+				type="specularmap"
+				name="ground_grass_soil_a_s" />
+			<texture
+				type="splattingmap"
+				name="none" />
+			<texture
+				type="displacementmap"
+				name="ground_grass_soil_a_h" />
+		</textures>
+		<layer_flags>
+			<flag
+				name="use_parallax"
+				value="true" />
+			<flag
+				name="use_displacement_mapping"
+				value="false" />
+			<flag
+				name="use_randomized_normalmap"
+				value="false" />
+			<flag
+				name="use_transparency_of_diffuse_alpha"
+				value="false" />
+			<flag
+				name="use_transparency_of_ground_slope"
+				value="true" />
+			<flag
+				name="use_dxt5_normal"
+				value="false" />
+			<flag
+				name="use_six_side_uv_mapping"
+				value="false" />
+		</layer_flags>
+		<meshes />
+	</terrain_material>
+	<terrain_material
+		is_enabled="true"
+		name="summerFpreset"
+		is_flora_layer="false"
+		is_mesh_blend_layer="false"
+		pitch_roll_yaw="0.000, 0.000, 0.000"
+		scale="3.600, 3.600"
+		shear="0.000, 0.000"
+		position_offset="0.000, 0.000"
+		physics_material="soil"
+		detail_level_adjustment="1"
+		elevation_amount="0.200"
+		parallax_amount="-0.200"
+		ground_slope_scale="2.700"
+		bigdetailmap_mode="2"
+		bigdetailmap_weight="0.500"
+		bigdetailmap_scale_x="0.001"
+		bigdetailmap_scale_y="0.001"
+		bigdetailmap_bias_x="0.001"
+		bigdetailmap_bias_y="0.001">
+		<textures>
+			<texture
+				type="diffusemap"
+				name="ground_grass_soil_a_d" />
+			<texture
+				type="areamap"
+				name="black_terrain" />
+			<texture
+				type="normalmap"
+				name="ground_grass_soil_a_n" />
+			<texture
+				type="specularmap"
+				name="ground_grass_soil_a_s" />
+			<texture
+				type="splattingmap"
+				name="none" />
+			<texture
+				type="displacementmap"
+				name="ground_grass_soil_a_h" />
+		</textures>
+		<layer_flags>
+			<flag
+				name="use_parallax"
+				value="true" />
+			<flag
+				name="use_displacement_mapping"
+				value="false" />
+			<flag
+				name="use_randomized_normalmap"
+				value="false" />
+			<flag
+				name="use_transparency_of_diffuse_alpha"
+				value="false" />
+			<flag
+				name="use_transparency_of_ground_slope"
+				value="true" />
+			<flag
+				name="use_dxt5_normal"
+				value="false" />
+			<flag
+				name="use_six_side_uv_mapping"
+				value="false" />
+		</layer_flags>
+		<meshes />
+	</terrain_material>
+	<terrain_material
+		is_enabled="true"
+		name="mud_cliff"
+		is_flora_layer="false"
+		is_mesh_blend_layer="false"
+		pitch_roll_yaw="0.000, 0.000, 0.000"
+		scale="5.000, 5.000"
+		shear="0.000, 0.000"
+		position_offset="0.000, 0.000"
+		physics_material="stone"
+		detail_level_adjustment="0"
+		elevation_amount="0.000"
+		parallax_amount="-0.300"
+		ground_slope_scale="1.000"
+		bigdetailmap_mode="2"
+		bigdetailmap_weight="0.650"
+		albedo_factor_color="1.000, 1.000, 1.000"
+		albedo_factor_mode="0"
+		smooth_blend_amount="1.000"
+		bigdetailmap_scale_x="0.080"
+		bigdetailmap_scale_y="0.080"
+		bigdetailmap_bias_x="0.080"
+		bigdetailmap_bias_y="0.080">
+		<textures>
+			<texture
+				type="diffusemap"
+				name="ground_soil_b_d" />
+			<texture
+				type="areamap"
+				name="ground_soil_b_d" />
+			<texture
+				type="normalmap"
+				name="ground_earth_bump" />
+			<texture
+				type="specularmap"
+				name="ground_road_mud_a_s" />
+			<texture
+				type="splattingmap"
+				name="none" />
+			<texture
+				type="displacementmap"
+				name="ground_soil_b_h" />
+		</textures>
+		<layer_flags>
+			<flag
+				name="use_parallax"
+				value="true" />
+			<flag
+				name="use_displacement_mapping"
+				value="false" />
+			<flag
+				name="use_randomized_normalmap"
+				value="false" />
+			<flag
+				name="use_transparency_of_diffuse_alpha"
+				value="false" />
+			<flag
+				name="use_transparency_of_ground_slope"
+				value="false" />
+			<flag
+				name="use_dxt5_normal"
+				value="false" />
+			<flag
+				name="use_six_side_uv_mapping"
+				value="false" />
+		</layer_flags>
+		<meshes />
+	</terrain_material>
+</terrain_materials>

@@ -1,0 +1,55 @@
+<Prefab>
+  <Constants>
+    <Constant Name="PresetButton.Background.Width" BrushName="Launcher.Mods.PresetButton.Background" BrushLayer="Default" BrushValueType="Width"/>
+    <Constant Name="PresetButton.Background.Height" BrushName="Launcher.Mods.PresetButton.Background" BrushLayer="Default" BrushValueType="Height"/>
+
+    <Constant Name="ModToggle.Width" BrushName="Launcher.Mods.ModToggle" BrushLayer="Default" BrushValueType="Width"/>
+    <Constant Name="ModToggle.Height" BrushName="Launcher.Mods.ModToggle" BrushLayer="Default" BrushValueType="Height"/>
+
+    <Constant Name="ModSorter.Width" BrushName="Launcher.Mods.ModSorter" BrushLayer="Default" BrushValueType="Width"/>
+    <Constant Name="ModSorter.Height" BrushName="Launcher.Mods.ModSorter" BrushLayer="Default" BrushValueType="Height"/>
+
+    <Constant Name="VersionText.Width" Value="200"/>
+  </Constants>
+  <Window>
+    <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" IsDisabled="@IsDisabled">
+      <Children>
+        <ListPanel WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="26" MarginTop="10" MarginLeft="30">
+          <Children>
+            <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!ModToggle.Width" SuggestedHeight="!ModToggle.Height" VerticalAlignment="Center">
+              <Children>
+
+              </Children>
+            </Widget>
+            <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!ModSorter.Width" SuggestedHeight="!ModSorter.Height" VerticalAlignment="Center" MarginLeft="10" />
+            <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="34" SuggestedHeight="25" MarginLeft="3"/>
+            <TextWidget Text="@NameCategoryText" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="10" PositionYOffset="2" Brush="Launcher.Mods.ModNameText" Brush.TextHorizontalAlignment="Left"/>
+            <TextWidget Text="@VersionCategoryText" WidthSizePolicy="Fixed" SuggestedWidth="!VersionText.Width" HeightSizePolicy="StretchToParent" PositionYOffset="2" Brush="Launcher.Mods.ModNameText"/>
+          </Children>
+        </ListPanel>
+
+        <ScrollablePanel Id="ScrollablePanel" HeightSizePolicy ="StretchToParent" WidthSizePolicy="StretchToParent" InnerPanel="MyClipRect\InnerPanel" ClipRect="MyClipRect" MarginLeft="30" MarginTop="46" VerticalScrollbar="..\Scrollbar" AutoHideScrollBars="true" AcceptDrop="true" Command.Drop="ChangeLoadingOrderOf" CommandParameter.Drop="Mod">
+          <Children>
+            <Widget Id="MyClipRect" WidthSizePolicy = "StretchToParent" HeightSizePolicy = "StretchToParent" HorizontalAlignment="Center" ClipContents="true" >
+              <Children>
+                <ListPanel Id="InnerPanel" DataSource="{Modules}" StackLayout.LayoutMethod="VerticalBottomToTop" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" AcceptDrop="true" Command.Drop="..\ChangeLoadingOrderOf" CommandParameter.Drop="withIndex">
+                  <ItemTemplate>
+                    <Launcher.Mods.ModuleTuple/>
+                  </ItemTemplate>
+                </ListPanel>
+              </Children>
+            </Widget>
+          </Children>
+        </ScrollablePanel>
+
+        <ScrollbarWidget Id="Scrollbar" UpdateChildrenStates="true" WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="8" HorizontalAlignment="Right" VerticalAlignment="Bottom" MarginTop="45" MarginBottom="5" MarginRight="80" AlignmentAxis="Vertical" Handle="ScrollbarHandle" MaxValue="100" MinValue="0" Sprite="friends_list_slider_bed_9" Brush.AlphaFactor="0.2" >
+          <Children>
+            <Widget WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="4" HorizontalAlignment="Center" PositionXOffset="-0.2" Sprite="BlankWhiteSquare_9" Color="#5A4033FF" AlphaFactor="0.2" />
+            <ImageWidget Id="ScrollbarHandle" WidthSizePolicy="Fixed" SuggestedWidth="8" HorizontalAlignment="Center" VerticalAlignment="Top" Brush="Launcher.Mods.ScrollHandle" MinHeight="50" />
+          </Children>
+        </ScrollbarWidget>
+
+      </Children>
+    </Widget>
+  </Window>
+</Prefab>

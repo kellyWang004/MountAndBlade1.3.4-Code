@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData id="Polski" name="Polski" subtitle_extension="pl" supported_iso="pl,pol,pl-pl" text_processor="TaleWorlds.Localization.TextProcessor.LanguageProcessors.PolishTextProcessor" under_development="false">
+  <LanguageFile xml_path="PL/pl_functions.xml" />
+  <LanguageFile xml_path="PL/NoTranslation/std_consoles_xml_pol.xml" />
+  <LanguageFile xml_path="PL/std_common_strings_xml_pol.xml" />
+  <LanguageFile xml_path="PL/std_crafting_pieces_xml_pol.xml" />
+  <LanguageFile xml_path="PL/std_TaleWorlds_PlatformService_Epic_pol.xml" />
+  <LanguageFile xml_path="PL/std_TaleWorlds_PlatformService_GDK_pol.xml" />
+  <LanguageFile xml_path="PL/std_TaleWorlds_PlatformService_PS_pol.xml" />
+  <LanguageFile xml_path="PL/std_global_strings_xml_pol.xml" />
+  <LanguageFile xml_path="PL/std_item_modifiers_xml_pol.xml" />
+  <LanguageFile xml_path="PL/std_module_strings_xml_pol.xml" />
+  <LanguageFile xml_path="PL/std_mpbadges_xml_pol.xml" />
+  <LanguageFile xml_path="PL/std_mpcharacters_xml_pol.xml" />
+  <LanguageFile xml_path="PL/std_mpclassdivisions_xml_pol.xml" />
+  <LanguageFile xml_path="PL/std_mpitems_xml_pol.xml" />
+  <LanguageFile xml_path="PL/std_multiplayer_strings_xml_pol.xml" />
+  <LanguageFile xml_path="PL/std_native_strings_xml_pol.xml" />
+  <LanguageFile xml_path="PL/std_photo_mode_strings_xml_pol.xml" />
+  <LanguageFile xml_path="PL/std_siegeengines_xml_pol.xml" />
+  <LanguageFile xml_path="PL/std_TaleWorlds_Core_pol.xml" />
+  <LanguageFile xml_path="PL/std_TaleWorlds_MountAndBlade_GauntletUI_pol.xml" />
+  <LanguageFile xml_path="PL/std_TaleWorlds_MountAndBlade_pol.xml" />
+  <LanguageFile xml_path="PL/std_TaleWorlds_MountAndBlade_ViewModelCollection_pol.xml" />
+  <LanguageFile xml_path="PL/std_TaleWorlds_MountAndBlade_View_pol.xml" />
+</LanguageData>

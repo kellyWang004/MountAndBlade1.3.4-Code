@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Español (LA)" />
+  </tags>
+  <strings>
+    <string id="1QAEyN2V" text="Truco usado: {CHEAT}" />
+    <string id="1tiF5JhE" text="{TITLE} &gt; {SUBTITLE}" />
+    <string id="5zeL8sa9" text="Ganaste {A0} de influencia." />
+    <string id="6qYaQkDD" text="{COUNT} + {PRISONER_COUNT} p" />
+    <string id="7AI8jA0b" text="El texto de entrada no puede estar vacío." />
+    <string id="7WdWK2Dt" text="Guardar partida" />
+    <string id="AdgAJbAP" text="Regresar al mapa" />
+    <string id="aG6XMhA1" text="Ya existe una partida guardada con este nombre." />
+    <string id="Ahy035gM" text="Costo de construcción" />
+    <string id="ANoYN1yZ" text="Desbloqueaste el mascarón {A0}." />
+    <string id="azJulvrp" text="{?IS_BETTING}Perderás {BET_AMOUNT}{GOLD_ICON} si abandonas.{newline}{?}{\?}¿De verdad quieres abandonar?" />
+    <string id="B3W6fcQX" text="El texto de entrada no puede ser mayor de {MAX_LENGTH} caracteres." />
+    <string id="CiIWjF3f" text="+{PRISONERAMOUNT} p" />
+    <string id="cp2XDjeq" text="Guardando..." />
+    <string id="CqAhj27p" text=" {ITEM_NAME} x{ITEM_NUMBER}" />
+    <string id="deleteaction" text="Borrar" />
+    <string id="DeXfSjgY" text="No se pudo crear un nuevo archivo de guardado. Se alcanzó el límite de datos guardados." />
+    <string id="eiWQoW9j" text="Ganaste {A0} de renombre." />
+    <string id="eL8nhkhQ" text="Crear nueva ranura de guardado" />
+    <string id="FFiPLPbs" text="Actualizar partida" />
+    <string id="Fm0rjkH7" text="Hombre de hierro" />
+    <string id="GaOE4bdd" text="Saltar todas las rondas" />
+    <string id="gDKhs4lD" text="{A0} murió en el campo de batalla." />
+    <string id="GmjiZk9P" text="Llamar tropas" />
+    <string id="gZIOG0wl" text="Influencia de arqueros a caballo" />
+    <string id="GZWPHmAw" text="Día: {DAY}" />
+    <string id="HH2mZq8J" text="¿De verdad quieres borrar esta partida guardada?" />
+    <string id="hiCxFj4E" text="Campañas guardadas" />
+    <string id="hUSmlhNh" text="{CURRENT_PAGE}/{TOTAL_PAGES}" />
+    <string id="hYL3CFHX" text="¿Quieres sobrescribir esta partida guardada?" />
+    <string id="hZrwUIaq" text="Riqueza" />
+    <string id="IwhpeT8C" text="Nivel: {PLAYER_LEVEL}" />
+    <string id="KdT0PM8Y" text="{.MS}Centinela" />
+    <string id="KgTFCWG8" text="Sospechas" />
+    <string id="kXRdeawC" text="El texto de entrada no puede incluir caracteres especiales." />
+    <string id="kXy4R7ca" text="Estás a punto de perder el objetivo." />
+    <string id="L9GnQvsq" text="Inversión: {BETTED_DENARS}" />
+    <string id="lPMYSSAa" text="Se necesitan herramientas" />
+    <string id="M1AEHJ76" text="Ten en cuenta que esta partida de guardado se creó para una sesión que tiene habilitado el modo Hombre de hierro. No existe ningún otro archivo de guardado para la sesión relacionada. ¿De verdad quieres borrar esta partida guardada?" />
+    <string id="M4WMKyE1" text="El texto de entrada incluye texto reservado." />
+    <string id="nvemmBZz" text="Obtuviste {AMOUNT} % del botín y prisioneros" />
+    <string id="nVGqjtaa" text="Campaña {ID}" />
+    <string id="O9nwLrYp" text="+{WOUNDEDAMOUNT} h" />
+    <string id="o9PIe7am" text="Corrupción" />
+    <string id="OYtysXzk" text="Trucos" />
+    <string id="PY00wRz4" text="No se pudo eliminar el archivo de guardado." />
+    <string id="Q1HIlJxe" text="Sobrescribir" />
+    <string id="QHV8aeEg" text="Borrar partida" />
+    <string id="qIeDZoSx" text="Comprado: {ITEMS}" />
+    <string id="R3Zn7x07" text="Debes elegir una opción" />
+    <string id="RoYPofhK" text="Partida corrupta" />
+    <string id="Rtakaivj" text="El texto de entrada debe incluir al menos un carácter que no sea un espacio." />
+    <string id="SRjrhb0A" text="Número de feudos en posesión" />
+    <string id="str_save_text_ps4" text="Guardando. No apagues la consola." />
+    <string id="str_save_text_ps5" text="Guardando. No apagues la consola." />
+    <string id="TFJTOYea" text="Problema solucionado" />
+    <string id="uncategorized_save" text="Sin categoría" />
+    <string id="vjhkoUFS" text="Guardando. No apagues la consola." />
+    <string id="WAKz9xX8" text="Obtuviste {A0} de moral." />
+    <string id="WcSky2KB" text="Zona de sigilo" />
+    <string id="WDlVhNuq" text="Nombra tu archivo de guardado" />
+    <string id="X8i3jZn8" text="Influencia de caballería" />
+    <string id="xlEZ02Qw" text="Las imágenes del personaje están desactivadas durante &quot;Guardar como&quot; en el mapa de campaña." />
+    <string id="xu5NA6AW" text="Obtuviste {A0} % del botín." />
+    <string id="xzzSaN4b" text="Esperado: {OVERALL_EXPECTED_DENARS}" />
+    <string id="yF5fpwNE" text="Total: {TOTAL}" />
+    <string id="YgyHVu8S" text="Vendido: {ITEMS}" />
+    <string id="ZDPIq4hi" text="Carga la partida guardada seleccionada, sobrescríbela con la versión actual del juego y regresa a esta pantalla." />
+  </strings>
+</base>

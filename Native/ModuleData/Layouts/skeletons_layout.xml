@@ -1,0 +1,1196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	type="string">
+	<layouts>
+		<layout
+			class="skeleton"
+			version="0.1"
+			xml_tag="skeletons.skeleton"
+			name_attribute="name"
+			use_in_treeview="true">
+			<columns>
+				<column
+					id="0"
+					width="400" />
+			</columns>
+			<insertion_definitions>
+				<insertion_definition
+					label="Add Hinge Joint"
+					xml_path="joints">
+					<default_node>
+						<hinge_joint
+							name="default_hinge"
+							bone1="_AUTO_GET_BONE_0_"
+							bone2="_AUTO_GET_BONE_1_"
+							pos="2.000, 0.000, 0.000"
+							entity_space_rot="0.000, -0.000, -0.000"
+							min_angle="0"
+							max_angle="90" />
+					</default_node>
+				</insertion_definition>
+				<insertion_definition
+					label="Add D6 Joint"
+					xml_path="joints">
+					<default_node>
+						<d6_joint
+							name="default_d6"
+							bone1="_AUTO_GET_BONE_0_"
+							bone2="_AUTO_GET_BONE_1_"
+							pos="2.000, 0.000, 0.000"
+							entity_space_rot="0.000, -0.000, -0.000"
+							axis_lock_x="locked"
+							axis_lock_y="locked"
+							axis_lock_z="locked"
+							axis_limit="0.100"
+							twist_lock="limited"
+							twist_lower_limit="0.000"
+							twist_upper_limit="0.000"
+							swing1_lock="limited"
+							swing2_lock="limited"
+							swing_span1="10.000"
+							swing_span2="10.000" />
+					</default_node>
+				</insertion_definition>
+				<insertion_definition
+					label="Add IK Joint"
+					xml_path="joints">
+					<default_node>
+						<ik
+							name="default_ik"
+							bone1="_AUTO_GET_BONE_0_"
+							bone2="_AUTO_GET_BONE_1_"
+							pos="2.000, 0.000, 0.000"
+							entity_space_rot="0.000, -0.000, -0.000"
+							twist_lower_limit="0.000"
+							twist_upper_limit="0.000"
+							swing_span1="10.000"
+							swing_span2="10.000" />
+					</default_node>
+				</insertion_definition>
+				<insertion_definition
+					label="Add Cloth Capsule"
+					xml_path="cloth_body.capsules">
+					<default_node>
+						<capsule
+							name="New capsule"
+							point_1="0.010, 0.010, 0.000"
+							point_2="0.140, -0.020, 0.000"
+							radius_1="0.080"
+							radius_2="0.080"
+							owner_bone="" />
+					</default_node>
+				</insertion_definition>
+			</insertion_definitions>
+			<items>
+				<item
+					name="wireframe_button"
+					label="Toggle Wireframe"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="show_collision_button"
+					label="Toggle Capsule Display"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="toggle_capsules_button"
+					label="Toggle Collision/Ragdoll Shapes"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="simulation_button"
+					label="Toggle Simulation"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="selective_simulation_button"
+					label="Toggle Selective Simulation"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="rotate_entity"
+					label="Rotate Entity"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="preview"
+					label="Preview Window"
+					type="preview_window"
+					column="0"
+					xml_path="">
+					<properties>
+						<property
+							name="width"
+							value="500" />
+						<property
+							name="height"
+							value="450" />
+					</properties>
+				</item>
+				<item
+					name="name"
+					label="Name"
+					type="text"
+					column="0"
+					xml_path="name">
+					<properties>
+						<property
+							name="editable"
+							value="false" />
+					</properties>
+				</item>
+				<item
+					name="skeleton_body_type"
+					label="Skeleton Body Type"
+					type="text"
+					column="0"
+					xml_path="skeleton_body_type" />
+				<item
+					name="default_mesh"
+					label="Default Mesh"
+					type="text"
+					column="0"
+					xml_path="default_mesh" />
+				<item
+					name="type"
+					label="Type"
+					type="combobox"
+					column="0"
+					xml_path="type">
+					<properties>
+						<property
+							name="system_values"
+							value="skeleton.type" />
+					</properties>
+				</item>
+				<item
+					name="physics_material"
+					label="Physics Material"
+					type="combobox"
+					column="0"
+					xml_path="physics_material">
+					<properties>
+						<property
+							name="system_values"
+							value="skeleton.physics_material" />
+					</properties>
+				</item>
+				<item
+					name="bounding_box_min"
+					label="Bounding Box Min"
+					type="vec3"
+					column="0"
+					xml_path="bounding_box_min" />
+				<item
+					name="bounding_box_max"
+					label="Bounding Box Max"
+					type="vec3"
+					column="0"
+					xml_path="bounding_box_max" />
+				<item
+					name="boundingbox_padding"
+					label="Bounding Box Padding"
+					type="float"
+					column="0"
+					xml_path="boundingbox_padding" />
+			</items>
+		</layout>
+		<layout
+			class=""
+			version="0.1"
+			xml_tag="skeletons.skeleton.bones"
+			use_in_treeview="true" />
+		<layout
+			class="bone"
+			version="0.1"
+			xml_tag="skeletons.skeleton.bones.bone"
+			name_attribute="name"
+			use_in_treeview="true">
+			<columns>
+				<column
+					id="0"
+					width="400" />
+			</columns>
+			<treeview_context_menu>
+				<item
+					name="Delete"
+					action_code="delete_bone" />
+			</treeview_context_menu>
+			<items>
+				<item
+					name="simulation_button"
+					label="Toggle Simulation"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="wireframe_button"
+					label="Toggle Wireframe"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="wireframe_button"
+					label="Toggle Selective Simulation"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="show_collision_button"
+					label="Toggle Capsule Display"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="toggle_capsules_button"
+					label="Toggle Collision/Ragdoll Shapes"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="rotate_entity"
+					label="Rotate Entity"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="preview"
+					label="Preview Window"
+					type="preview_window"
+					column="0"
+					xml_path="">
+					<properties>
+						<property
+							name="scene_group_id"
+							value="skeleton_preview" />
+						<property
+							name="width"
+							value="500" />
+						<property
+							name="height"
+							value="450" />
+					</properties>
+				</item>
+				<item
+					name="name"
+					label="Name"
+					type="text"
+					column="0"
+					xml_path="name" />
+				<item
+					name="type"
+					label="Type"
+					type="combobox"
+					column="0"
+					xml_path="type">
+					<properties>
+						<property
+							name="system_values"
+							value="skeleton.bone.type" />
+					</properties>
+				</item>
+				<item
+					name="body_type"
+					label="Body Type"
+					type="combobox"
+					column="0"
+					xml_path="body_part">
+					<properties>
+						<property
+							name="option"
+							value="arm_left" />
+						<property
+							name="option"
+							value="arm_right" />
+						<property
+							name="option"
+							value="legs" />
+						<property
+							name="option"
+							value="torso" />
+						<property
+							name="option"
+							value="shoulders" />
+						<property
+							name="option"
+							value="head" />
+					</properties>
+				</item>
+				<item
+					name="mirror"
+					label="Mirror"
+					type="text"
+					column="0"
+					xml_path="mirror" />
+				<item
+					name="mass"
+					label="Mass"
+					type="float"
+					column="0"
+					xml_path="mass" />
+				<item
+					name="collision_body"
+					label="Collision Body"
+					type="complex"
+					column="0"
+					xml_path="collision_body" />
+				<item
+					name="ragdoll_body"
+					label="Ragdoll Body"
+					type="complex"
+					column="0"
+					xml_path="ragdoll_body" />
+			</items>
+		</layout>
+		<layout
+			class=""
+			version="0.1"
+			xml_tag="skeletons.skeleton.cloth_body"
+			use_in_treeview="true" />
+		<layout
+			class=""
+			version="0.1"
+			xml_tag="skeletons.skeleton.cloth_body.capsules"
+			use_in_treeview="true" />
+		<layout
+			class="cloth_capsule"
+			version="0.1"
+			xml_tag="skeletons.skeleton.cloth_body.capsules.capsule"
+			name_attribute="name"
+			use_in_treeview="true">
+			<columns>
+				<column
+					id="0"
+					width="400" />
+			</columns>
+			<items>
+				<item
+					name="preview"
+					label="Preview Window"
+					type="preview_window"
+					column="0"
+					xml_path="">
+					<properties>
+						<property
+							name="width"
+							value="500" />
+						<property
+							name="height"
+							value="450" />
+					</properties>
+				</item>
+				<item
+					name="origin"
+					label="Point 1"
+					type="vec3"
+					column="0"
+					xml_path="point_1">
+					<properties>
+						<property
+							name="step_amount"
+							value="0.01" />
+					</properties>
+				</item>
+				<item
+					name="origin"
+					label="Point 2"
+					type="vec3"
+					column="0"
+					xml_path="point_2">
+					<properties>
+						<property
+							name="step_amount"
+							value="0.01" />
+					</properties>
+				</item>
+				<item
+					name="radius"
+					label="Radius 1"
+					type="float"
+					column="0"
+					xml_path="radius_1">
+					<properties>
+						<property
+							name="step_amount"
+							value="0.01" />
+					</properties>
+				</item>
+				<item
+					name="radius"
+					label="Radius 2"
+					type="float"
+					column="0"
+					xml_path="radius_2">
+					<properties>
+						<property
+							name="step_amount"
+							value="0.01" />
+					</properties>
+				</item>
+				<item
+					name="name"
+					label="Owner Bone"
+					type="text"
+					column="0"
+					xml_path="owner_bone" />
+			</items>
+		</layout>
+		<layout
+			class=""
+			version="0.1"
+			xml_tag="skeletons.skeleton.bones.bone.ragdoll_body"
+			name_attribute=""
+			use_in_treeview="false">
+			<columns>
+				<column
+					id="0"
+					width="400" />
+			</columns>
+			<items>
+				<item
+					name="simulation_button"
+					label="Toggle Simulation"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="wireframe_button"
+					label="Toggle Wireframe"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="wireframe_button"
+					label="Toggle Selective Simulation"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="show_collision_button"
+					label="Toggle Capsule Display"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="toggle_capsules_button"
+					label="Toggle Collision/Ragdoll Shapes"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="rotate_entity"
+					label="Rotate Entity"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="radius"
+					label="Radius"
+					type="float"
+					column="0"
+					xml_path="radius">
+					<properties>
+						<property
+							name="step_amount"
+							value="0.01" />
+					</properties>
+				</item>
+				<item
+					name="pos1"
+					label="Position 1"
+					type="vec3"
+					column="0"
+					xml_path="pos1">
+					<properties>
+						<property
+							name="step_amount"
+							value="0.01" />
+					</properties>
+				</item>
+				<item
+					name="pos2"
+					label="Position 2"
+					type="vec3"
+					column="0"
+					xml_path="pos2">
+					<properties>
+						<property
+							name="step_amount"
+							value="0.01" />
+					</properties>
+				</item>
+			</items>
+		</layout>
+		<layout
+			class=""
+			version="0.1"
+			xml_tag="skeletons.skeleton.bones.bone.collision_body"
+			name_attribute=""
+			use_in_treeview="false">
+			<columns>
+				<column
+					id="0"
+					width="400" />
+			</columns>
+			<items>
+				<item
+					name="simulation_button"
+					label="Toggle Simulation"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="wireframe_button"
+					label="Toggle Wireframe"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="wireframe_button"
+					label="Toggle Selective Simulation"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="show_collision_button"
+					label="Toggle Capsule Display"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="toggle_capsules_button"
+					label="Toggle Collision/Ragdoll Shapes"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="rotate_entity"
+					label="Rotate Entity"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="radius"
+					label="Radius"
+					type="float"
+					column="0"
+					xml_path="radius">
+					<properties>
+						<property
+							name="step_amount"
+							value="0.01" />
+					</properties>
+				</item>
+				<item
+					name="pos1"
+					label="Position 1"
+					type="vec3"
+					column="0"
+					xml_path="pos1">
+					<properties>
+						<property
+							name="step_amount"
+							value="0.01" />
+					</properties>
+				</item>
+				<item
+					name="pos2"
+					label="Position 2"
+					type="vec3"
+					column="0"
+					xml_path="pos2">
+					<properties>
+						<property
+							name="step_amount"
+							value="0.01" />
+					</properties>
+				</item>
+			</items>
+		</layout>
+		<layout
+			class=""
+			version="0.1"
+			xml_tag="skeletons.skeleton.joints"
+			use_in_treeview="true" />
+		<layout
+			class="hinge_joint"
+			version="0.1"
+			xml_tag="skeletons.skeleton.joints.hinge_joint"
+			name_attribute="name"
+			use_in_treeview="true">
+			<columns>
+				<column
+					id="0"
+					width="400" />
+			</columns>
+			<treeview_context_menu>
+				<item
+					name="Delete"
+					action_code="delete_hinge" />
+				<item
+					name="Change type">
+					<treeview_context_menu>
+						<item
+							name="D6 joint"
+							action_code="convert_hinge_to_d6" />
+					</treeview_context_menu>
+				</item>
+			</treeview_context_menu>
+			<items>
+				<item
+					name="simulation_button"
+					label="Toggle Simulation"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="wireframe_button"
+					label="Toggle Wireframe"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="wireframe_button"
+					label="Toggle Selective Simulation"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="show_collision_button"
+					label="Toggle Capsule"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="toggle_capsules_button"
+					label="Toggle Collision/Ragdoll"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="rotate_entity"
+					label="Rotate Entity"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="preview"
+					label="Preview Window"
+					type="preview_window"
+					column="0"
+					xml_path="">
+					<properties>
+						<property
+							name="width"
+							value="500" />
+						<property
+							name="height"
+							value="450" />
+					</properties>
+				</item>
+				<item
+					name="name"
+					label="Name"
+					type="text"
+					column="0"
+					xml_path="name" />
+				<item
+					name="bone1"
+					label="Bone1"
+					type="text"
+					column="0"
+					xml_path="bone1" />
+				<item
+					name="bone2"
+					label="Bone2"
+					type="text"
+					column="0"
+					xml_path="bone2" />
+				<item
+					name="pos"
+					label="Position"
+					type="vec3"
+					column="0"
+					xml_path="pos">
+					<properties>
+						<property
+							name="step_amount"
+							value="0.01" />
+					</properties>
+				</item>
+				<item
+					name="entity_space_rot"
+					label="Rotation"
+					type="vec3"
+					column="0"
+					xml_path="entity_space_rot">
+					<properties>
+						<property
+							name="step_amount"
+							value="5.0" />
+					</properties>
+				</item>
+				<item
+					name="min_angle"
+					label="Min Angle"
+					type="float"
+					column="0"
+					xml_path="min_angle">
+					<properties>
+						<property
+							name="min_value"
+							value="-360.0" />
+						<property
+							name="max_value"
+							value="360.0" />
+					</properties>
+				</item>
+				<item
+					name="max_angle"
+					label="Max Angle"
+					type="float"
+					column="0"
+					xml_path="max_angle">
+					<properties>
+						<property
+							name="min_value"
+							value="-360.0" />
+						<property
+							name="max_value"
+							value="360.0" />
+					</properties>
+				</item>
+			</items>
+		</layout>
+		<layout
+			class="d6_joint"
+			version="0.1"
+			xml_tag="skeletons.skeleton.joints.d6_joint"
+			name_attribute="name"
+			use_in_treeview="true">
+			<columns>
+				<column
+					id="0"
+					width="400" />
+			</columns>
+			<treeview_context_menu>
+				<item
+					name="Delete"
+					action_code="delete_d6" />
+				<item
+					name="Change type">
+					<treeview_context_menu>
+						<item
+							name="Hinge joint"
+							action_code="convert_d6_to_hinge" />
+					</treeview_context_menu>
+				</item>
+			</treeview_context_menu>
+			<items>
+				<item
+					name="simulation_button"
+					label="Toggle Simulation"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="wireframe_button"
+					label="Toggle Wireframe"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="wireframe_button"
+					label="Toggle Selective Simulation"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="show_collision_button"
+					label="Toggle Capsule Display"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="toggle_capsules_button"
+					label="Toggle Collision/Ragdoll Shapes"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="rotate_entity"
+					label="Rotate Entity"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="preview"
+					label="Preview Window"
+					type="preview_window"
+					column="0"
+					xml_path="">
+					<properties>
+						<property
+							name="width"
+							value="500" />
+						<property
+							name="height"
+							value="450" />
+					</properties>
+				</item>
+				<item
+					name="name"
+					label="Name"
+					type="text"
+					column="0"
+					xml_path="name" />
+				<item
+					name="bone1"
+					label="Bone 1"
+					type="text"
+					column="0"
+					xml_path="bone1" />
+				<item
+					name="bone2"
+					label="Bone 2"
+					type="text"
+					column="0"
+					xml_path="bone2" />
+				<item
+					name="pos"
+					label="Position"
+					type="vec3"
+					column="0"
+					xml_path="pos">
+					<properties>
+						<property
+							name="step_amount"
+							value="0.01" />
+					</properties>
+				</item>
+				<item
+					name="entity_space_rot"
+					label="Entity Space Rotation"
+					type="vec3"
+					column="0"
+					xml_path="entity_space_rot">
+					<properties>
+						<property
+							name="step_amount"
+							value="5.0" />
+					</properties>
+				</item>
+				<item
+					name="axis_lock_x"
+					label="Axis Lock X"
+					type="combobox"
+					column="0"
+					xml_path="axis_lock_x">
+					<properties>
+						<property
+							name="system_values"
+							value="skeleton.joint.d6.lock_type" />
+					</properties>
+				</item>
+				<item
+					name="axis_lock_y"
+					label="Axis Lock Y"
+					type="combobox"
+					column="0"
+					xml_path="axis_lock_y">
+					<properties>
+						<property
+							name="system_values"
+							value="skeleton.joint.d6.lock_type" />
+					</properties>
+				</item>
+				<item
+					name="axis_lock_z"
+					label="Axis Lock Z"
+					type="combobox"
+					column="0"
+					xml_path="axis_lock_z">
+					<properties>
+						<property
+							name="system_values"
+							value="skeleton.joint.d6.lock_type" />
+					</properties>
+				</item>
+				<item
+					name="axis_limit"
+					label="Axis Limit"
+					type="float"
+					column="0"
+					xml_path="axis_limit">
+					<properties>
+						<property
+							name="min_value"
+							value="-360.0" />
+						<property
+							name="max_value"
+							value="360.0" />
+					</properties>
+				</item>
+				<item
+					name="twist_lock"
+					label="Twist Lock"
+					type="combobox"
+					column="0"
+					xml_path="twist_lock">
+					<properties>
+						<property
+							name="system_values"
+							value="skeleton.joint.d6.lock_type" />
+					</properties>
+				</item>
+				<item
+					name="twist_lower_limit"
+					label="Twist Lower Limit"
+					type="float"
+					column="0"
+					xml_path="twist_lower_limit">
+					<properties>
+						<property
+							name="min_value"
+							value="-360.0" />
+						<property
+							name="max_value"
+							value="360.0" />
+					</properties>
+				</item>
+				<item
+					name="twist_upper_limit"
+					label="Twist Upper limit"
+					type="float"
+					column="0"
+					xml_path="twist_upper_limit">
+					<properties>
+						<property
+							name="min_value"
+							value="-360.0" />
+						<property
+							name="max_value"
+							value="360.0" />
+					</properties>
+				</item>
+				<item
+					name="swing1_lock"
+					label="Swing1 Lock"
+					type="combobox"
+					column="0"
+					xml_path="swing1_lock">
+					<properties>
+						<property
+							name="system_values"
+							value="skeleton.joint.d6.lock_type" />
+					</properties>
+				</item>
+				<item
+					name="swing2_lock"
+					label="Swing2 Lock"
+					type="combobox"
+					column="0"
+					xml_path="swing2_lock">
+					<properties>
+						<property
+							name="system_values"
+							value="skeleton.joint.d6.lock_type" />
+					</properties>
+				</item>
+				<item
+					name="swing_span1"
+					label="Swing Span 1"
+					type="float"
+					column="0"
+					xml_path="swing_span1">
+					<properties>
+						<property
+							name="min_value"
+							value="-360.0" />
+						<property
+							name="max_value"
+							value="360.0" />
+					</properties>
+				</item>
+				<item
+					name="swing_span2"
+					label="Swing Span 2"
+					type="float"
+					column="0"
+					xml_path="swing_span2">
+					<properties>
+						<property
+							name="min_value"
+							value="-360.0" />
+						<property
+							name="max_value"
+							value="360.0" />
+					</properties>
+				</item>
+			</items>
+		</layout>
+		<layout
+			class="ik_joint"
+			version="0.1"
+			xml_tag="skeletons.skeleton.joints.ik_joint"
+			name_attribute="name"
+			use_in_treeview="true">
+			<columns>
+				<column
+					id="0"
+					width="400" />
+			</columns>
+			<treeview_context_menu>
+				<item
+					name="Delete"
+					action_code="delete_ik" />
+			</treeview_context_menu>
+			<items>
+				<item
+					name="simulation_button"
+					label="Toggle Simulation"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="wireframe_button"
+					label="Toggle Wireframe"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="wireframe_button"
+					label="Toggle Selective Simulation"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="show_collision_button"
+					label="Toggle Capsule Display"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="toggle_capsules_button"
+					label="Toggle Collision/Ragdoll Shapes"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="rotate_entity"
+					label="Rotate Entity"
+					type="tool_button"
+					column="0"
+					xml_path="" />
+				<item
+					name="name"
+					label="Name"
+					type="text"
+					column="0"
+					xml_path="name" />
+				<item
+					name="bone1"
+					label="Bone 1"
+					type="text"
+					column="0"
+					xml_path="bone1" />
+				<item
+					name="bone2"
+					label="Bone 2"
+					type="text"
+					column="0"
+					xml_path="bone2" />
+				<item
+					name="pos"
+					label="Position"
+					type="vec3"
+					column="0"
+					xml_path="pos">
+					<properties>
+						<property
+							name="step_amount"
+							value="0.01" />
+					</properties>
+				</item>
+				<item
+					name="entity_space_rot"
+					label="Entity Space Rotation"
+					type="vec3"
+					column="0"
+					xml_path="entity_space_rot">
+					<properties>
+						<property
+							name="step_amount"
+							value="5.0" />
+					</properties>
+				</item>
+				<item
+					name="twist_lower_limit"
+					label="Twist Lower Limit"
+					type="float"
+					column="0"
+					xml_path="twist_lower_limit">
+					<properties>
+						<property
+							name="min_value"
+							value="-360.0" />
+						<property
+							name="max_value"
+							value="360.0" />
+					</properties>
+				</item>
+				<item
+					name="twist_upper_limit"
+					label="Twist Upper limit"
+					type="float"
+					column="0"
+					xml_path="twist_upper_limit">
+					<properties>
+						<property
+							name="min_value"
+							value="-360.0" />
+						<property
+							name="max_value"
+							value="360.0" />
+					</properties>
+				</item>
+				<item
+					name="swing_span1"
+					label="Swing Span 1"
+					type="float"
+					column="0"
+					xml_path="swing_span1">
+					<properties>
+						<property
+							name="min_value"
+							value="-360.0" />
+						<property
+							name="max_value"
+							value="360.0" />
+					</properties>
+				</item>
+				<item
+					name="swing_span2"
+					label="Swing Span 2"
+					type="float"
+					column="0"
+					xml_path="swing_span2">
+					<properties>
+						<property
+							name="min_value"
+							value="-360.0" />
+						<property
+							name="max_value"
+							value="360.0" />
+					</properties>
+				</item>
+			</items>
+		</layout>
+	</layouts>
+</base>

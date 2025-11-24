@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Français" />
+  </tags>
+  <strings>
+    <string id="0Itt3bZM" text="La version du document contenant les touches paramétrées est dépassée. Les touches ont été réinitialisées par défaut." />
+    <string id="1hlaGzGI" text="Regarder" />
+    <string id="1hnq3Kb1" text="Voulez-vous vraiment réinitialiser toutes les propriétés ? Vos changements seront perdus." />
+    <string id="2AGvFYk9" text="Pour commencer cette mission, vous devez disposer d&apos;au moins une formation de classe {FORMATION_CLASS}." />
+    <string id="4gCU2ykB" text="Réinitialiser toutes les touches par défaut" />
+    <string id="5Ixsvn3s" text="Activer le panneau d&apos;affichage" />
+    <string id="61isYVW0" text="Le joueur {USER_NAME} est introuvable" />
+    <string id="6syoutpV" text="De la part de {WHISPER_TARGET}" />
+    <string id="74PKmRWJ" text="Inverser la coiffure" />
+    <string id="76VR5o8h" text="Vous devez attendre {SECONDS} secondes avant de pouvoir envoyer un autre message." />
+    <string id="7jhe9cT9" text="Vous devez avoir au moins une formation similaire en plus pour changer le genre de cette formation." />
+    <string id="7XtICVeZ" text="Champ de vision" />
+    <string id="82LuSDnd" text="Déplacement rapide du curseur à gauche" />
+    <string id="9pCzjSTa" text="{PERCENTAGE} % de type de troupe" />
+    <string id="ADKHovtz" text="Réinitialiser le déploiement" />
+    <string id="atUHbDeM" text="Rotation de la caméra de la carte" />
+    <string id="b1DHZsaH" text="Impossible de donner des ordres pour le moment." />
+    <string id="bIcFZT6L" text="Type de sourcils" />
+    <string id="bLPSaLNv" text="Déplacement rapide du curseur à droite" />
+    <string id="bsiRNJtk" text="{NAME} :" />
+    <string id="CCBcdzGa" text="Cela réinitialisera TOUTES les options de cette catégorie à leur état par défaut. Vous ne pourrez pas annuler cette action.{newline}{newline}Voulez-vous vraiment faire cette action ?" />
+    <string id="cDzWYQrz" text="Rétablir les paramètres par défaut ?" />
+    <string id="cLJdeUWz" text="Hauteur :" />
+    <string id="D0TbQm4r" text="EFFONDRÉ" />
+    <string id="d1tCz15N" text="Maintenir pour lâcher" />
+    <string id="d5SNB0HV" text="Ramasser {.l}{ITEM_NAME}" />
+    <string id="Dhb2N5JD" text="Appuyez sur {KEY} pour passer d&apos;un canal à l&apos;autre" />
+    <string id="DmaP2qaR" text="Type d&apos;apparence" />
+    <string id="DQvGNQ0g" text="Il n&apos;y aucune unité sous commandement." />
+    <string id="DvnRkWQg" text="Transférer les troupes vers {FORMATION_INDEX}" />
+    <string id="eeJcVeQG" text="Fin de concentration" />
+    <string id="eGuQKRhb" text="Vous quittez la zone !" />
+    <string id="EUAKPHek" text="Carrure :" />
+    <string id="f64QfbTO" text="Appuyez sur {KEY} pour envoyer" />
+    <string id="FRSGOfUJ" text="Activer le journal de combat" />
+    <string id="FTXx0aRp" text="Jouer en tant que" />
+    <string id="G6hYIR5k" text="Voix :" />
+    <string id="gamepadActionKeybind" text="Action" />
+    <string id="gamepadMapKeybind" text="Carte" />
+    <string id="gamevideo" text="Vidéo" />
+    <string id="GMhOZGnb" text="Impossible de donner des ordres lorsque vous êtes {?PLAYER.GENDER}morte{?}mort{\?}" />
+    <string id="hdGay8xc" text="Déplacement du curseur sur la carte" />
+    <string id="HEEZhL90" text="Appuyer pour équiper" />
+    <string id="hiKTvBgF" text="Voulez-vous vraiment réinitialiser les changements effectués dans cet onglet ? Vos changements seront perdus." />
+    <string id="i28Kjuay" text="Déplacer le personnage" />
+    <string id="i4Oo6aoM" text="Téléchargement du contenu..." />
+    <string id="j5pLIV91" text="Début de concentration" />
+    <string id="J9V9YhkY" text="Le capitaine est à dos de monture !" />
+    <string id="jS5rrX8M" text="Il n&apos;y a aucun changement à appliquer." />
+    <string id="l2CNxPXG" text="Type de dents" />
+    <string id="lCZMJt2k" text="Les options vidéo ont été modifiées" />
+    <string id="LlrlE199" text="Vous pouvez toujours déployer des engins de siège.{newline}Souhaitez-vous poursuivre ?" />
+    <string id="LW8QCm22" text="Annonce" />
+    <string id="macpKFaG" text="Voix" />
+    <string id="meFS5F4V" text="-{DAMAGE}" />
+    <string id="mPCrz4rs" text="Verrouiller le pourcentage des troupes à partir des changements relatifs." />
+    <string id="nEpZvaEl" text="Déplacement rapide du curseur en bas" />
+    <string id="ngyMTaqr" text="Assigner comme troupe héroïque" />
+    <string id="Npqlj5Ln" text="Réinitialiser les changements" />
+    <string id="NuMQvQxg" text="Cris" />
+    <string id="ou5KJERr" text="Appuyez sur {KEY} pour masquer" />
+    <string id="oZc8oEAP" text="Rétablir cette catégorie par défaut" />
+    <string id="peUP9ZZj" text="Êtes-vous {?PLAYER.GENDER}sûre{?}sûr{\?} ? Vous avez fait des changements et ils seront perdus." />
+    <string id="photomodefocus" text="Concentration" />
+    <string id="pK4EyTZC" text="Voulez-vous conserver ces paramètres ?" />
+    <string id="qmNeO8FG" text="Commandes" />
+    <string id="qXxpITdc" text="Couleur des yeux :" />
+    <string id="QZd3VSmO" text="Nous avons sorti le pack d&apos;extension War Sails pour le jeu, qui comprend des navires, des batailles navales et bien plus encore. Il est disponible sur la dernière génération de plateformes. L&apos;ajout des liens vers la page du produit sur certaines plateformes nécessite également que nous mettions à jour nos informations de classification PEGI comme suit :" />
+    <string id="RVIKFCno" text="Rétablir par défaut" />
+    <string id="rx18kyZb" text="Journal de combat" />
+    <string id="Sbb8YcJM" text="Désélectionner tous les héros sélectionnés" />
+    <string id="scnSXrYC" text="Porteurs de bannière" />
+    <string id="SfsnlbyK" text="Changements appliqués." />
+    <string id="SLY8z9fP" text="Toutes les formations sont sélectionnées !" />
+    <string id="SQpGQzTI" text="Manette" />
+    <string id="suyl7WWa" text="Aucune bannière équipée" />
+    <string id="trPyg7mr" text="Moral de bataille" />
+    <string id="TxphX8Uk" text="Déploiement" />
+    <string id="U1rHNqOk" text="Appuyez sur {KEY} pour annuler" />
+    <string id="u78WUP9W" text="Déplacement rapide du curseur en haut" />
+    <string id="ufjypmaX" text="Le capitaine n&apos;est pas à dos de monture !" />
+    <string id="UhB1jlua" text="Nous avons sorti le pack d&apos;extension War Sails pour le jeu, qui comprend des navires, des batailles navales et bien plus encore. L&apos;ajout des liens vers la page du produit sur certaines plateformes nécessite également que nous mettions à jour nos informations de classification PEGI comme suit :" />
+    <string id="Uma907CV" text="Nous avons sorti le pack d&apos;extension War Sails pour le jeu, qui comprend des navires, des batailles navales et bien plus encore. Vous pouvez utiliser le lien dans le menu principal pour vous rendre sur la page de la boutique afin d&apos;obtenir plus d&apos;informations et vous procurer le pack d&apos;extension. L&apos;ajout du lien vers la page du produit nécessite également que nous mettions à jour nos informations de classification PEGI comme suit :" />
+    <string id="VIdtkghu" text="Les informations de classification PEGI ont été mises à jour pour inclure l&apos;élément interactif suivant :{newline}Achats en jeu" />
+    <string id="VyMD4iRV" text="Troupes héroïques" />
+    <string id="YjbNtFcw" text="Cela réinitialisera TOUTES les touches à leur état par défaut. Vous ne pourrez pas annuler cette action.{newline}{newline}Voulez-vous vraiment faire cette action ?" />
+    <string id="YwbymaBc" text="Sélectionner tous les héros" />
+    <string id="zBld61ck" text="Poids :" />
+    <string id="zjcZZgUY" text="Effet de bannière" />
+  </strings>
+</base>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	type="particle_system">
+	<postfx_graphs>
+		<postfx_graph
+			id="before_transparents_graph">
+			<postfx_node
+				id="SSSSS_x"
+				class="rglSSS_fxnode"
+				shader="postfx_sssss_blurx"
+				format="R11G11B10F"
+				size="relative"
+				width="1.0"
+				height="1.0">
+				<input
+					index="0"
+					type="provided"
+					source="screen_rt" />
+				<input
+					index="1"
+					type="provided"
+					source="gbuffer_depth" />
+				<preconditions>
+					<config
+						name="sssss" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="SSSSS_y"
+				class="rglSSS_fxnode"
+				shader="postfx_sssss_blury"
+				format="R11G11B10F"
+				size="relative"
+				width="1.0"
+				height="1.0">
+				<input
+					index="0"
+					type="node"
+					source="SSSSS_x" />
+				<input
+					index="1"
+					type="provided"
+					source="gbuffer_depth" />
+				<preconditions>
+					<config
+						name="sssss" />
+				</preconditions>
+			</postfx_node>
+			<postfx_node
+				id="SSSSS_specular_add"
+				class="rglSSS_specular_add_fxnode"
+				shader="pbr_deferred"
+				format="R11G11B10F"
+				size="relative"
+				width="1.0"
+				height="1.0">
+				<output
+					index="0"
+					type="provided"
+					name="screen_rt" />
+				<input
+					index="8"
+					type="node"
+					source="SSSSS_y" />
+				<preconditions>
+					<config
+						name="sssss" />
+				</preconditions>
+			</postfx_node>
+		</postfx_graph>
+	</postfx_graphs>
+</base>

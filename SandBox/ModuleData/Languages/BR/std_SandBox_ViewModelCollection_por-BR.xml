@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Português (BR)" />
+  </tags>
+  <strings>
+    <string id="1QAEyN2V" text="Trapaça usada: {CHEAT}" />
+    <string id="1tiF5JhE" text="{TITLE} &gt; {SUBTITLE}" />
+    <string id="5zeL8sa9" text="Você ganhou {A0} de influência." />
+    <string id="6qYaQkDD" text="{COUNT} + {PRISONER_COUNT}p" />
+    <string id="7AI8jA0b" text="O texto informado não pode estar vazio." />
+    <string id="7WdWK2Dt" text="Salvar Jogo" />
+    <string id="AdgAJbAP" text="Retornar ao mapa" />
+    <string id="aG6XMhA1" text="Já existe um arquivo de jogo salvo com este nome." />
+    <string id="Ahy035gM" text="Custo de Construção" />
+    <string id="ANoYN1yZ" text="Você desbloqueou a figura de proa {A0}." />
+    <string id="azJulvrp" text="{?IS_BETTING}Você perderá {BET_AMOUNT}{GOLD_ICON} se desistir.{newline}{?}{\?}Quer mesmo desistir?" />
+    <string id="B3W6fcQX" text="O texto informado não pode conter mais que {MAX_LENGTH} caracteres." />
+    <string id="CiIWjF3f" text="+{PRISONERAMOUNT}p" />
+    <string id="cp2XDjeq" text="Salvando..." />
+    <string id="CqAhj27p" text=" {ITEM_NAME} x {ITEM_NUMBER}" />
+    <string id="deleteaction" text="Excluir" />
+    <string id="DeXfSjgY" text="Não é possível criar um novo jogo salvo. Limite de jogos salvos atingido." />
+    <string id="eiWQoW9j" text="Você ganhou {A0} de renome." />
+    <string id="eL8nhkhQ" text="Criar Novo Espaço de Jogo Salvo" />
+    <string id="FFiPLPbs" text="Atualizar Jogo Salvo" />
+    <string id="Fm0rjkH7" text="Resistência" />
+    <string id="GaOE4bdd" text="Pular Todas as Rodadas" />
+    <string id="gDKhs4lD" text="{A0} morreu no campo de batalha." />
+    <string id="GmjiZk9P" text="Chamar tropas" />
+    <string id="gZIOG0wl" text="Influência de Arqueiro Montado" />
+    <string id="GZWPHmAw" text="Dia: {DAY}" />
+    <string id="HH2mZq8J" text="Quer mesmo excluir este jogo salvo?" />
+    <string id="hiCxFj4E" text="Campanhas Salvas" />
+    <string id="hUSmlhNh" text="{CURRENT_PAGE}/{TOTAL_PAGES}" />
+    <string id="hYL3CFHX" text="Quer mesmo substituir este jogo salvo?" />
+    <string id="hZrwUIaq" text="Vida" />
+    <string id="IwhpeT8C" text="Nível: {PLAYER_LEVEL}" />
+    <string id="KdT0PM8Y" text="Sentinela" />
+    <string id="KgTFCWG8" text="Você está {?PLAYER.GENDER}desconfiada{?}desconfiado{\?}" />
+    <string id="kXRdeawC" text="O texto informado não pode conter caracteres especiais." />
+    <string id="kXy4R7ca" text="Você está prestes a perder o alvo." />
+    <string id="L9GnQvsq" text="Aposta: {BETTED_DENARS}" />
+    <string id="lPMYSSAa" text="Ferramentas Necessárias" />
+    <string id="M1AEHJ76" text="Lembre-se, este jogo salvo é criado para uma sessão com o modo Resistência ativado. Essa sessão não possui outros jogos salvos. Quer mesmo excluir este jogo salvo?" />
+    <string id="M4WMKyE1" text="O texto informado inclui texto reservado." />
+    <string id="nvemmBZz" text="Você ganhou {AMOUNT}% do saque e prisioneiros" />
+    <string id="nVGqjtaa" text="Campanha {ID}" />
+    <string id="O9nwLrYp" text="+{WOUNDEDAMOUNT}w" />
+    <string id="o9PIe7am" text="Corrompido" />
+    <string id="OYtysXzk" text="Trapaças" />
+    <string id="PY00wRz4" text="Falha ao excluir o arquivo salvo." />
+    <string id="Q1HIlJxe" text="Substituir" />
+    <string id="QHV8aeEg" text="Excluir Jogo Salvo" />
+    <string id="qIeDZoSx" text="{ITEMS} comprados" />
+    <string id="R3Zn7x07" text="Você precisa selecionar uma opção" />
+    <string id="RoYPofhK" text="Jogo Salvo Corrompido" />
+    <string id="Rtakaivj" text="O texto informado precisa incluir ao menos um caractere que não seja espaço." />
+    <string id="SRjrhb0A" text="Contagem de Feudos" />
+    <string id="str_save_text_ps4" text="Salvando. Não desligue o console." />
+    <string id="str_save_text_ps5" text="Salvando. Não desligue o console." />
+    <string id="TFJTOYea" text="Problema resolvido" />
+    <string id="uncategorized_save" text="Sem Categoria" />
+    <string id="vjhkoUFS" text="Salvando. Não desligue o console." />
+    <string id="WAKz9xX8" text="Você ganhou {A0} de moral." />
+    <string id="WcSky2KB" text="Área de furtividade" />
+    <string id="WDlVhNuq" text="Nomeie o arquivo salvo" />
+    <string id="X8i3jZn8" text="Influência de Cavalaria" />
+    <string id="xlEZ02Qw" text="O visual do personagem é desativado durante &quot;Salvar como&quot; no mapa da campanha." />
+    <string id="xu5NA6AW" text="Você ganhou {A0}% do saque." />
+    <string id="xzzSaN4b" text="Expectativa: {OVERALL_EXPECTED_DENARS}" />
+    <string id="yF5fpwNE" text="Total: {TOTAL}" />
+    <string id="YgyHVu8S" text="{ITEMS} vendidos" />
+    <string id="ZDPIq4hi" text="Carregue o jogo salvo, sobrescreva com a versão atual e volte a esta tela." />
+  </strings>
+</base>

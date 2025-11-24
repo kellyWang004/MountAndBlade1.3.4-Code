@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+	<parameter
+		guid="{69732103-d577-479b-b55f-7b2dbc718d49}"
+		name="MusicLevel" />
+	<parameter
+		guid="{e84b1ffc-0560-422e-a805-ed88a0165d4f}"
+		name="WaveStrength" />
+	<parameter
+		guid="{979ba77b-ae1f-426e-aefd-162d3e534875}"
+		name="isNaval" />
+	<parameter
+		guid="{4a5897a9-c2bb-495d-b354-e6bacf5ecb70}"
+		name="isOnShip" />
+	<parameter
+		guid="{3049c9d4-b603-4ae5-870c-f0a2fdc7b3e0}"
+		name="isUnderwaterFloat" />
+	<parameter
+		guid="{3ae394c3-d416-4415-b76d-bf642b212286}"
+		name="agent_state" />
+	<parameter
+		guid="{38ba0e0c-8f27-45ae-ad83-d4f3b1e5321f}"
+		name="MissionCulture" />
+	<parameter
+		guid="{f7c024d1-ba5a-4b6f-b6a2-2e75929610ce}"
+		name="Armor Type" />
+	<parameter
+		guid="{c26081cd-8b3d-04f5-2d81-75d6ecd30c7c}"
+		name="Force" />
+	<parameter
+		guid="{b0921103-8734-0877-0410-9cc070725a9a}"
+		name="isPlayer" />
+	<parameter
+		guid="{7c1ffb41-e626-4edc-a1ab-e22b785fc405}"
+		name="Occlusion" />
+	<parameter
+		guid="{f2d5216e-7c00-4316-baaf-1733ef68f7ef}"
+		name="isMissile" />
+	<parameter
+		guid="{adf6cc5f-e056-0a61-18dd-bc5e6bdfd79b}"
+		name="Size" />
+	<parameter
+		guid="{09b08163-24a6-0854-224b-76e00d179bbf}"
+		name="Depth" />
+	<parameter
+		guid="{c71178f0-cac5-499b-9666-d18bb7923f4f}"
+		name="impactModifier" />
+	<parameter
+		guid="{6adacb42-0a58-0d71-271c-5504ddee75d1}"
+		name="Daytime" />
+	<parameter
+		guid="{55a081b1-e56e-0672-1a1c-df8048eb8fcf}"
+		name="Rainfall" />
+	<parameter
+		guid="{4da44227-da7b-44e2-adad-f32abf8ab18c}"
+		name="MissionCombatMode" />
+	<parameter
+		guid="{115bca1e-1f89-4ccf-aecb-d5667aa19de3}"
+		name="Season" />
+	<parameter
+		guid="{8d310069-a881-0742-27cb-4b2f687b6f98}"
+		name="Loop" />
+	<parameter
+		guid="{6d04de95-ac09-4538-b0a4-f7bf4339a611}"
+		name="BodydragMaterial" />
+	<parameter
+		guid="{8849a751-38e8-491e-adef-8f6e379c6a1a}"
+		name="BodydragSpeed" />
+	<parameter
+		guid="{be7bdca0-473b-451c-9e2b-6f6016548fcb}"
+		name="SceneType" />
+	<parameter
+		guid="{6c39b70c-d80c-48c1-8d6f-b8dea3dfa78c}"
+		name="mpMusicSwitcher" />
+	<parameter
+		guid="{7cd25895-8764-418b-bdb4-b09c6963b9bf}"
+		name="ArenaIntensity" />
+	<parameter
+		guid="{a53ed5b3-7a5e-4bf5-881b-505127875fb8}"
+		name="CampaignCameraHeight" />
+	<parameter
+		guid="{2cb2fa68-4efd-4cb1-af80-3b24f26e3ee4}"
+		name="WindStrength" />
+	<parameter
+		guid="{124f32bf-b731-4b4a-a39d-882fc9d0e2a9}"
+		name="Crowd Size" />
+	<parameter
+		guid="{983ae073-a238-4d4b-8279-bd02fd133b21}"
+		name="WaveHeight" />
+	<parameter
+		guid="{65ef2e12-6416-45f2-b594-ab7c27fce6a4}"
+		name="FireIntensity" />
+	<parameter
+		guid="{3cbdd777-8e84-44f5-9230-618177db8993}"
+		name="MissionProsperity" />
+	<parameter
+		guid="{a57d6e48-9b5a-47a1-bbe6-1b263f931519}"
+		name="ArmySize" />
+	<parameter
+		guid="{4acc02c3-320e-058c-33bf-6d9ba622980b}"
+		name="battle_size" />
+	<parameter
+		guid="{a6ade4f8-b501-4ac9-a837-6faa340c5fe5}"
+		name="StormIntensity" />
+	<parameter
+		guid="{12e29fa9-9839-4773-8ef1-ff16cedc403b}"
+		name="ForceContinuous" />
+	<parameter
+		guid="{511d509d-9a98-48ea-869b-995b14a8d3e6}"
+		name="OarsmanLevel" />
+	<parameter
+		guid="{e2f88084-9530-4bba-b660-8c2d6256fb96}"
+		name="RowingPower" />
+	<parameter
+		guid="{f02b6de1-4720-4116-b43e-568cac6b13fc}"
+		name="SailRotation" />
+	<parameter
+		guid="{178bbdbb-b16b-46fb-a69b-ffee4fb1a8a8}"
+		name="VibrationSend" />
+	<parameter
+		guid="{2598c261-ce3e-4390-badc-abad1ebdaf40}"
+		name="RudderStress" />
+	<parameter
+		guid="{996fe977-97cb-4987-9599-112fd2dad594}"
+		name="WakeRate" />
+	<parameter
+		guid="{218ba1d7-c361-4195-99f4-6a7eb2391575}"
+		name="ShipSpeed" />
+	<parameter
+		guid="{7175c67e-f7d7-4da2-9141-ff2669e140e7}"
+		name="Campaign Ship Damage" />
+</base>

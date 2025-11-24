@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Polski" />
+  </tags>
+  <strings>
+    <string id="1QAEyN2V" text="Skorzystano z oszustwa: {CHEAT}" />
+    <string id="1tiF5JhE" text="{TITLE} &gt; {SUBTITLE}" />
+    <string id="5zeL8sa9" text="Zdobywasz wpływ: {A0}" />
+    <string id="6qYaQkDD" text="{COUNT} + {PRISONER_COUNT}j" />
+    <string id="7AI8jA0b" text="Pole nie może pozostać puste." />
+    <string id="7WdWK2Dt" text="Zapisz grę" />
+    <string id="AdgAJbAP" text="Wróć do mapy" />
+    <string id="aG6XMhA1" text="Istnieje już plik zapisu gry o tej nazwie." />
+    <string id="Ahy035gM" text="Koszt budowy" />
+    <string id="ANoYN1yZ" text="Odblokowano figurę dziobową: {A0}." />
+    <string id="azJulvrp" text="{?IS_BETTING}Stracisz {BET_AMOUNT}{GOLD_ICON}, jeśli się poddasz.{newline}{?}{\?}Czy naprawdę chcesz się poddać?" />
+    <string id="B3W6fcQX" text="Długość tekstu nie może przekraczać {MAX_LENGTH} znaków." />
+    <string id="CiIWjF3f" text="+{PRISONERAMOUNT}j" />
+    <string id="cp2XDjeq" text="Zapisywanie..." />
+    <string id="CqAhj27p" text=" {ITEM_NAME} x{ITEM_NUMBER}" />
+    <string id="deleteaction" text="Usuń" />
+    <string id="DeXfSjgY" text="Nie można stworzyć nowego zapisu, ponieważ osiągnięto limit." />
+    <string id="eiWQoW9j" text="Zdobywasz sławę: {A0}" />
+    <string id="eL8nhkhQ" text="Stwórz nowy punkt zapisu" />
+    <string id="FFiPLPbs" text="Zaktualizuj zapis gry" />
+    <string id="Fm0rjkH7" text="Żelazny człowiek" />
+    <string id="GaOE4bdd" text="Pomiń wszystkie rundy" />
+    <string id="gDKhs4lD" text="{A0} ginie na polu bitwy." />
+    <string id="GmjiZk9P" text="Wezwij żołnierzy" />
+    <string id="gZIOG0wl" text="Wpływ – łucznicy konni" />
+    <string id="GZWPHmAw" text="Dzień: {DAY}" />
+    <string id="HH2mZq8J" text="Czy na pewno chcesz usunąć ten zapis gry?" />
+    <string id="hiCxFj4E" text="Zapisane kampanie" />
+    <string id="hUSmlhNh" text="{CURRENT_PAGE}/{TOTAL_PAGES}" />
+    <string id="hYL3CFHX" text="Czy chcesz zastąpić ten zapis gry?" />
+    <string id="hZrwUIaq" text="Zdrowie" />
+    <string id="IwhpeT8C" text="Poziom: {PLAYER_LEVEL}" />
+    <string id="KdT0PM8Y" text="{.MP}Strażnik" />
+    <string id="KgTFCWG8" text="Budzisz podejrzenia" />
+    <string id="kXRdeawC" text="Tekst nie może zawierać znaków specjalnych." />
+    <string id="kXy4R7ca" text="Za chwilę zgubisz cel." />
+    <string id="L9GnQvsq" text="Stawka: {BETTED_DENARS}" />
+    <string id="lPMYSSAa" text="Wymagane narzędzia" />
+    <string id="M1AEHJ76" text="Pamiętaj, że ten zapis gry jest tworzony dla sesji z włączonym trybem „Żelazny człowiek”. Nie istnieje żaden inny plik zapisu dla powiązanej sesji. Czy na pewno chcesz usunąć ten zapis gry?" />
+    <string id="M4WMKyE1" text="Tekst zawiera zarezerwowane słowa." />
+    <string id="nvemmBZz" text="Zdobywasz {AMOUNT}% łupów i jeńców" />
+    <string id="nVGqjtaa" text="Kampania {ID}" />
+    <string id="O9nwLrYp" text="+{WOUNDEDAMOUNT}r" />
+    <string id="o9PIe7am" text="Uszkodzone" />
+    <string id="OYtysXzk" text="Oszustwa" />
+    <string id="PY00wRz4" text="Usunięcie pliku zapisu nie powiodło się." />
+    <string id="Q1HIlJxe" text="Zastąp" />
+    <string id="QHV8aeEg" text="Usuń zapis gry" />
+    <string id="qIeDZoSx" text="Zakupiono – {ITEMS}" />
+    <string id="R3Zn7x07" text="Musisz wybrać opcję" />
+    <string id="RoYPofhK" text="Uszkodzony plik zapisu" />
+    <string id="Rtakaivj" text="Tekst musi zawierać przynajmniej jeden znak niebędący spacją." />
+    <string id="SRjrhb0A" text="{.F}Liczba{.nn} posiadanych lenn" />
+    <string id="str_save_text_ps4" text="Zapisywanie. Nie wyłączaj konsoli." />
+    <string id="str_save_text_ps5" text="Zapisywanie. Nie wyłączaj konsoli." />
+    <string id="TFJTOYea" text="Rozwiązano problem" />
+    <string id="uncategorized_save" text="Bez kategorii" />
+    <string id="vjhkoUFS" text="Zapisywanie. Nie wyłączaj konsoli." />
+    <string id="WAKz9xX8" text="Zdobywasz morale: {A0}" />
+    <string id="WcSky2KB" text="Obszar skrytego działania" />
+    <string id="WDlVhNuq" text="Nazwij plik zapisu" />
+    <string id="X8i3jZn8" text="Wpływ – kawaleria" />
+    <string id="xlEZ02Qw" text="Widok postaci jest wyłączony podczas korzystania z opcji „zapisz jako” na mapie kampanii." />
+    <string id="xu5NA6AW" text="Zdobywasz {A0}% łupów." />
+    <string id="xzzSaN4b" text="Oczekiwane: {OVERALL_EXPECTED_DENARS}" />
+    <string id="yF5fpwNE" text="Suma: {TOTAL}" />
+    <string id="YgyHVu8S" text="Sprzedano – {ITEMS}" />
+    <string id="ZDPIq4hi" text="Wczytaj wybrany plik zapisu, zastąp go aktualną wersją gry i powróć do tego ekranu." />
+  </strings>
+</base>

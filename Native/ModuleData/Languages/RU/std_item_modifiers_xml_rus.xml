@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Русский" />
+  </tags>
+  <strings>
+    <string id="3JaHZA3Y" text="Большой колчан {._}{ITEMNAME}{.gp}" />
+    <string id="5yVgXqQr" text="{adjectiveGenderCreator(ITEMNAME)}Изношенный{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {._}{ITEMNAME}{.n}" />
+    <string id="85WO1MKG" text="{adjectiveGenderCreator(ITEMNAME)}Добротный{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {._}{ITEMNAME}{.n}" />
+    <string id="8Pd6fLoy" text="{adjectiveGenderCreator(ITEMNAME)}Раздробленный{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {._}{ITEMNAME}{.n}" />
+    <string id="8Tal0XIj" text="{ITEMNAME} тонкой работы" />
+    <string id="BA9c7gPb" text="{adjectiveGenderCreator(ITEMNAME)}Плотный{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {._}{ITEMNAME}{.n}" />
+    <string id="bAdxUq7s" text="{adjectiveGenderCreator(ITEMNAME)}Качественный{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {._}{ITEMNAME}{.n}" />
+    <string id="br0N6SSH" text="{adjectiveGenderCreator(ITEMNAME)}Надломленный?{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {._}{ITEMNAME}{.n}" />
+    <string id="bWhJwHA1" text="{adjectiveGenderCreator(ITEMNAME)}Просторный{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {._}{ITEMNAME}{.n}" />
+    <string id="eb4miTUB" text="{adjectiveGenderCreator(ITEMNAME)}Погнутый{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {._}{ITEMNAME}{.n}" />
+    <string id="fdgcpipH" text="{adjectiveGenderCreator(ITEMNAME)}Сбалансированный{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {._}{ITEMNAME}{.n}" />
+    <string id="geUpgQI5" text="{adjectiveGenderCreator(ITEMNAME)}Хромой{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {._}{ITEMNAME}{.n}" />
+    <string id="l7QEpVwU" text="{adjectiveGenderCreator(ITEMNAME)}Ржавый{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {._}{ITEMNAME}{.n}" />
+    <string id="LmzHz4CG" text="{adjectiveGenderCreator(ITEMNAME)}Тупой{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {._}{ITEMNAME}{.n}" />
+    <string id="lRf4t9Qg" text="{adjectiveGenderCreator(ITEMNAME)}Легендарный{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {._}{ITEMNAME}{.n}" />
+    <string id="Pbb94NdW" text="{adjectiveGenderCreator(ITEMNAME)}Разорванный{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {._}{ITEMNAME}{.n}" />
+    <string id="PobRGG9S" text="{adjectiveGenderCreator(ITEMNAME)}Помятый{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {._}{ITEMNAME}{.n}" />
+    <string id="Q5HVyNWJ" text="{adjectiveGenderCreator(ITEMNAME)}Заказной{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {._}{ITEMNAME}{.n}" />
+    <string id="TePk4BSJ" text="{adjectiveGenderCreator(ITEMNAME)}Подранный{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {._}{ITEMNAME}{.n}" />
+    <string id="VbxJPJGe" text="{adjectiveGenderCreator(ITEMNAME)}Несбалансированный{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {._}{ITEMNAME}{.n}" />
+    <string id="w3jn7Ahz" text="{adjectiveGenderCreator(ITEMNAME)}Роскошный{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {._}{ITEMNAME}{.n}" />
+    <string id="WbaIorOh" text="{adjectiveGenderCreator(ITEMNAME)}Подогнанный{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {._}{ITEMNAME}{.n}" />
+    <string id="xeb1b5PQ" text="{adjectiveGenderCreator(ITEMNAME)}Изящный{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {._}{ITEMNAME}{.n}" />
+    <string id="y3TvYqhG" text="{adjectiveGenderCreator(ITEMNAME)}Старый{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {._}{ITEMNAME}{.n}" />
+    <string id="zPqPvf0o" text="{adjectiveGenderCreator(ITEMNAME)}Вощеный{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {._}{ITEMNAME}{.n}" />
+  </strings>
+</base>

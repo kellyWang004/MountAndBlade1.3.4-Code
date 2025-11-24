@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	type="string">
+	<layouts>
+		<layout
+			class="animation"
+			version="0.1"
+			xml_tag="animations.animation"
+			name_attribute="id"
+			use_in_treeview="true">
+			<columns>
+				<column
+					id="0"
+					width="500" />
+			</columns>
+			<items>
+				<item
+					name="preview"
+					label="Preview Window"
+					type="preview_window"
+					column="0"
+					xml_path="">
+					<properties>
+						<property
+							name="scene_group_id"
+							value="skeleton_preview" />
+						<property
+							name="width"
+							value="400" />
+						<property
+							name="height"
+							value="400" />
+					</properties>
+				</item>
+				<item
+					name="id"
+					label="ID"
+					type="text"
+					column="0"
+					xml_path="id" />
+				<item
+					name="param1"
+					label="Param"
+					type="float"
+					column="0"
+					xml_path="param1" />
+				<item
+					name="duration"
+					label="Duration"
+					type="float"
+					column="0"
+					xml_path="duration" />
+				<item
+					name="anim_data_name"
+					label="Animation Data Name"
+					type="text"
+					column="0"
+					xml_path="anim_data_name" />
+				<item
+					name="source1"
+					label="Start Frame"
+					type="float"
+					column="0"
+					xml_path="source1" />
+				<item
+					name="source1"
+					label="End Frame"
+					type="float"
+					column="0"
+					xml_path="source2" />
+				<item
+					name="blend_in_period"
+					label="Blend In Period"
+					type="float"
+					column="0"
+					xml_path="blend_in_period" />
+				<item
+					name="flags"
+					label="Flags"
+					type="flag_set"
+					column="1"
+					xml_path="flags">
+					<properties>
+						<property
+							name="system_value"
+							value="animation" />
+					</properties>
+				</item>
+			</items>
+		</layout>
+	</layouts>
+</base>

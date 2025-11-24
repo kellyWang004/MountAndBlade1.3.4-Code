@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Deutsch" />
+  </tags>
+  <strings>
+    <string id="18NtjryL" text="Noch nicht, aber bald." />
+    <string id="1ELK1UbN" text="{HERO.NAME} segelt gerade." />
+    <string id="6P1ruzsC" text="Vielleicht ..." />
+    <string id="6QoSHiWC" text="Eine Gasse ohne Anführer" />
+    <string id="9ACJsI6S" text="Geblockt" />
+    <string id="9NuttOBC" text="Laden" />
+    <string id="9y0zpKUF" text="Ihr müsst der Besitzer dieser Siedlung sein!" />
+    <string id="akHsjtPh" text="Ihr seid diesem Helden noch nicht begegnet." />
+    <string id="aN85Kfnq" text="{SETTLEMENT} wurde überfallen. Eure Vereinbarung mit {QUEST_GIVER.LINK} ist aufgehoben." />
+    <string id="averageWealthStatus" text="Durchschnitt" />
+    <string id="awjomtnJ" text="Seid Ihr Euch sicher?" />
+    <string id="bqeWVVEE" text="Euer Vorgehen hat zu einem Krieg mit der Fraktion von {QUEST_GIVER.LINK} geführt. {?QUEST_GIVER.GENDER}Sie{?}Er{\?} kündigt Eure Vereinbarung auf und die Quest ist gescheitert." />
+    <string id="bSo9hKwr" text="{PERSUASION_OPTION_LINE} {SUCCESS_CHANCE}" />
+    <string id="cc1d7mkq" text="Rang" />
+    <string id="CDXUehf0" text="Fein, fein." />
+    <string id="CH7b5LaX" text="Ich habe es mir anders überlegt." />
+    <string id="cKz1cyuM" text="Euer Clan befindet sich nun im Krieg mit {#TYPE(QUEST_GIVER_SETTLEMENT_FACTION)}{genderCreator(QUEST_GIVER_SETTLEMENT_FACTION)}der{.pd} {WEAK(QUEST_GIVER_SETTLEMENT_FACTION)}{.d}{#}den {QUEST_GIVER_SETTLEMENT_FACTION}{#}{QUEST_GIVER_SETTLEMENT_FACTION}{\#}. Quest abgebrochen." />
+    <string id="D0xDRqvm" text="{PERSUASION_REACTION}" />
+    <string id="ddEu5IFQ" text="Das hoffe ich." />
+    <string id="dQBArrqh" text="Gasse verwalten" />
+    <string id="ds294zxi" text="Sonst noch etwas?" />
+    <string id="dzXaXKaC" text="Nun gut." />
+    <string id="FdzsOvDq" text="Diese Aktion steht während einer Mission nicht zur Verfügung" />
+    <string id="g8qb3Ame" text="Danke." />
+    <string id="GEvP9i5f" text="Ihr spielt als {HEIR.NAME} weiter." />
+    <string id="gJG0xmAq" text="Das Dorf {QUEST_SETTLEMENT} von {QUEST_GIVER.LINK} wurde überfallen. Eure Vereinbarung mit {QUEST_GIVER.LINK} ist aufgehoben." />
+    <string id="hCavIm4G" text="Ihr werdet {AMOUNT}{GOLD_ICON} Denar zahlen." />
+    <string id="Hxf6bzmR" text="Denar aktuell" />
+    <string id="I1CMeL9R" text="Ber. Bogenschützen" />
+    <string id="I8raOMRH" text="Verzeiht. Bisher gibt es noch keine Fortschritte." />
+    <string id="iW9iKbb8" text="Nichts." />
+    <string id="jcEoUPCB" text="Ihr habt Euch verkleidet." />
+    <string id="k7ebznzr" text="Ja?" />
+    <string id="LZbHWkCB" text="Verhandlungen mit {PARTY_NAME}" />
+    <string id="mapbardenarvalue" text="{DENAR_AMOUNT}{VALUE_ABBREVIATION}" />
+    <string id="maptrack" text="Verfolgen" />
+    <string id="MIylzRc5" text="Diese Aktion kann während eines Kartenereignisses nicht durchgeführt werden." />
+    <string id="mp68RYnD" text="Truppgrößenlimit" />
+    <string id="nFl0ufe3" text="Ein Trupp ohne Anführer." />
+    <string id="oJmRg2ms" text="Sehr reich" />
+    <string id="OlOhuO7X" text="Nein danke. Einen schönen Tag noch." />
+    <string id="pdqi2qz1" text="Diese Aktion könnt Ihr nicht ausführen, während Eure Gasse angegriffen wird." />
+    <string id="poorWealthStatus" text="Niedrig" />
+    <string id="ppi6eVos" text="Wie Ihr wünscht." />
+    <string id="PXT6aA4J" text="Kampagnenoptionen" />
+    <string id="qGIFpahv" text="Ich kann Euch leider kein Geld geben. Verzeiht. Möge der Himmel Euch entlohnen." />
+    <string id="rkQ7D36f" text="Die Quest wurde abgebrochen, weil Euer Trupp aus zu vielen Gefährten bestand." />
+    <string id="RzFyGnWJ" text="Unterstützer" />
+    <string id="SixPXaNh" text="Sehr arm" />
+    <string id="SlubkZ1A" text="Eliminiert" />
+    <string id="UbRqC0Yz" text="Reich" />
+    <string id="uYjEknNX" text="Hinrichtung von {VICTIM.NAME} durch {EXECUTER.NAME}" />
+    <string id="vaUlAZba" text="Euer Clan befindet sich nun im Krieg mit {QUEST_GIVER.LINK}. Eure Übereinkunft mit {QUEST_GIVER.LINK} wurde beendet." />
+    <string id="VLLAOXve" text="Bis zur Dunkelheit warten, ehe Ihr angreift" />
+    <string id="vW6kBki9" text="Euer Clan befindet sich nun im Krieg mit dem Reich von {QUEST_GIVER.LINK}. Eure Vereinbarung mit {QUEST_GIVER.LINK} ist aufgehoben." />
+    <string id="wlKtDR2z" text="Danke, {?PLAYER.GENDER}meine Dame{?}mein Herr{\?}." />
+    <string id="xpCdwmlX" text="Ihr habt nicht genügend Gold, um {HERO.NAME} zum Truppführer zu machen." />
+    <string id="YuLLsAUb" text="Ihr habt keine {GOLD_AMOUNT}{GOLD_ICON}." />
+    <string id="zpqP5LsC" text="Ich breche sofort auf." />
+  </strings>
+</base>

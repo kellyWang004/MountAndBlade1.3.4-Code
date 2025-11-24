@@ -1,0 +1,1469 @@
+<Brushes>
+  <Brush Name="Order.Card.Background">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Order\ranged_unit_troop_card_default" IsHidden="true"/>
+      <BrushLayer Name="Selected" Sprite="Order\ranged_unit_troop_card_selected" IsHidden="true"/>
+      <BrushLayer Name="Disabled" Sprite="Order\ranged_unit_troop_card_disabled" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.8" IsHidden="false"  />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Selected" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Disabled" AlphaFactor="0.8" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Order.Card.Background.Melee">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Order\melee_unit_troop_card_default" IsHidden="true"/>
+      <BrushLayer Name="Selected" Sprite="Order\melee_unit_troop_card_selected" IsHidden="true"/>
+      <BrushLayer Name="Disabled" Sprite="Order\ranged_unit_troop_card_disabled" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.8" IsHidden="false"  />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Selected" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Disabled" AlphaFactor="0.8" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Order.Card.Background.Ranged">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Order\ranged_unit_troop_card_default" IsHidden="true"/>
+      <BrushLayer Name="Selected" Sprite="Order\ranged_unit_troop_card_selected" IsHidden="true"/>
+      <BrushLayer Name="Disabled" Sprite="Order\ranged_unit_troop_card_disabled" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.8" IsHidden="false"  />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Selected" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Disabled" AlphaFactor="0.8" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Order.Card.Highlight.Melee">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Order\melee_unit_troop_card_default" ExtendLeft="3" ExtendRight="3" ExtendTop="3" ExtendBottom="3"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="5" Color="#1FDE42FF" AlphaFactor="0.5" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Order.Card.Highlight.Ranged">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Order\ranged_unit_troop_card_default" ExtendLeft="3" ExtendRight="3" ExtendTop="3" ExtendBottom="3"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="5" Color="#1FDE42FF" AlphaFactor="0.5" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Order.Transfer.Card.Background">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Order\melee_unit_troop_card_default" IsHidden="true"/>
+      <BrushLayer Name="Disabled" Sprite="Order\melee_unit_troop_card_selected" IsHidden="true"/>
+      <BrushLayer Name="Selected" Sprite="Order\melee_unit_troop_card_transfer_selected" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.8" IsHidden="false"  />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Selected" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Disabled" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Order.Card.Captain.Frame">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="rounded_frame_9" IsHidden="true" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" Color="#866638FF" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" Color="#FEC157FF" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" Color="#999999FF" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Order.Item.Background">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="General\RadialMenu\radial_menu_item_background" />
+      <BrushLayer Name="Highlight" Sprite="General\RadialMenu\radial_menu_item_glow" ExtendLeft="15" ExtendRight="15" ExtendTop="15" ExtendBottom="15"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.4" />
+        <BrushLayer Name="Highlight" AlphaFactor="0.4" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.2" />
+        <BrushLayer Name="Highlight" AlphaFactor="0" />
+      </Style>
+      <Style Name="Active">
+        <BrushLayer Name="Default" Color="#FEC157FF" />
+        <BrushLayer Name="Highlight" AlphaFactor="0.6" Color="#FEC157FF" />
+      </Style>
+      <Style Name="PartiallyActive">
+        <BrushLayer Name="Default" />
+        <BrushLayer Name="Highlight" AlphaFactor="0.35" Color="#FEC157FF"  />
+      </Style>
+    </Styles>
+    <SoundProperties>
+      <StateSounds >
+        <StateSound StateName="Selected" Audio="tab"/>
+      </StateSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="Order.Item.Background.Square">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Order\OrderItem" />
+      <BrushLayer Name="Highlight" Sprite="Order\OrderItemHighlight" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+        <BrushLayer Name="Highlight" AlphaFactor="0" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.4" />
+        <BrushLayer Name="Highlight" AlphaFactor="0" />
+      </Style>
+      <Style Name="Active">
+        <BrushLayer Name="Default" />
+        <BrushLayer Name="Highlight" AlphaFactor="1" HueFactor="-30" SaturationFactor="70" />
+      </Style>
+      <Style Name="PartiallyActive">
+        <BrushLayer Name="Default" />
+        <BrushLayer Name="Highlight" AlphaFactor="1" HueFactor="-10" SaturationFactor="0" />
+      </Style>
+    </Styles>
+    <SoundProperties>
+      <StateSounds >
+        <StateSound StateName="Selected" Audio="tab"/>
+      </StateSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="Order.Troop.Icon">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Order\FormationTypeIcons\Infantry" Color="#fcf5eaff" />
+    </Layers>
+    <Styles>
+      <Style Name="Infantry">
+        <BrushLayer Name="Default" Sprite="Order\FormationTypeIcons\Infantry" />
+      </Style>
+      <Style Name="Ranged">
+        <BrushLayer Name="Default" Sprite="Order\FormationTypeIcons\Ranged" />
+      </Style>
+      <Style Name="Cavalry">
+        <BrushLayer Name="Default" Sprite="Order\FormationTypeIcons\Cavalry" />
+      </Style>
+      <Style Name="HorseArcher">
+        <BrushLayer Name="Default" Sprite="Order\FormationTypeIcons\HorseArcher" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="Order.Troop.MoraleFillBar">
+    <Layers>
+      <BrushLayer Name="EmptyFill" Sprite="BlankWhiteSquare_9" ColorFactor="0.8" Color="#00000000" />
+      <BrushLayer Name="DefaultFill" Sprite="BlankWhiteSquare_9" ColorFactor="1" Color="#FFD98755" />
+      <BrushLayer Name="ChangeFill" Sprite="BlankWhiteSquare_9" ColorFactor="1.5" Color="#00000000" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="Order.Siege.Deployment.DeployPoint">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="card_canvas_default_9" Color="#000000FF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.3" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.5" Color="#B58127FF" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.3" Color="#9B6F22FF" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="0.5" Color="#B26017FF" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="Order.Siege.Deployment.MachineItem">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="card_canvas_default_9" IsHidden="true"/>
+      <BrushLayer Name="Selected" Sprite="card_canvas_selected_9" IsHidden="true"/>
+      <BrushLayer Name="Disabled" Sprite="card_canvas_disabled_9" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Selected" ColorFactor="0.8" IsHidden="false" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Selected" ColorFactor="0.6" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Selected" IsHidden="false" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Disabled" ColorFactor="0.4" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="Order.Siege.Deployment.MachineIcon">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Order\SiegeIcons\Ballista" Color="#F4E1C4FF"/>
+    </Layers>
+    <Styles>
+      <Style Name="Ballista">
+        <BrushLayer Name="Default" Sprite="Order\SiegeIcons\siege_ballista"/>
+      </Style>
+      <Style Name="FireBallista">
+        <BrushLayer Name="Default" Sprite="Order\SiegeIcons\siege_fire_ballista" />
+      </Style>
+      <Style Name="Bricole">
+        <BrushLayer Name="Default" Sprite="Order\SiegeIcons\siege_trebuchet" />
+      </Style>
+      <Style Name="Ladder">
+        <BrushLayer Name="Default" Sprite="Order\SiegeIcons\siege_ladder" />
+      </Style>
+      <Style Name="Mangonel">
+        <BrushLayer Name="Default" Sprite="Order\SiegeIcons\siege_catapult" />
+      </Style>
+      <Style Name="FireMangonel">
+        <BrushLayer Name="Default" Sprite="Order\SiegeIcons\siege_fire_catapult" />
+      </Style>
+      <Style Name="Onager">
+        <BrushLayer Name="Default" Sprite="Order\SiegeIcons\siege_catapult" />
+      </Style>
+      <Style Name="FireOnager">
+        <BrushLayer Name="Default" Sprite="Order\SiegeIcons\siege_fire_catapult" />
+      </Style>
+      <Style Name="Ram">
+        <BrushLayer Name="Default" Sprite="Order\SiegeIcons\siege_battering_ram" />
+      </Style>
+      <Style Name="ImprovedRam">
+        <BrushLayer Name="Default" Sprite="Order\SiegeIcons\siege_battering_ram" />
+      </Style>
+      <Style Name="SiegeTower">
+        <BrushLayer Name="Default" Sprite="Order\SiegeIcons\siege_tower" />
+      </Style>
+      <Style Name="Trebuchet">
+        <BrushLayer Name="Default" Sprite="Order\SiegeIcons\siege_trebuchet" />
+      </Style>
+      <Style Name="Catapult">
+        <BrushLayer Name="Default" Sprite="Order\SiegeIcons\siege_catapult" />
+      </Style>
+      <Style Name="FireCatapult">
+        <BrushLayer Name="Default" Sprite="Order\SiegeIcons\siege_fire_catapult" />
+      </Style>
+      <Style Name="None">
+        <BrushLayer Name="Default" Sprite="Order\SiegeIcons\non_selected" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Order.Siege.Deployment.TypeIcon">
+    <Layers>
+      <BrushLayer Name="Default" Color="#F4E1C4FF"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" Sprite="" />
+      </Style>
+      <Style Name="BatteringRam">
+        <BrushLayer Name="Default" Sprite="Order\SiegeIcons\siege_battering_ram" />
+      </Style>
+      <Style Name="TowerLadder">
+        <BrushLayer Name="Default" Sprite="Order\SiegeIcons\siege_tower" />
+      </Style>
+      <Style Name="Breach">
+        <BrushLayer Name="Default" Sprite="" />
+      </Style>
+      <Style Name="Ranged">
+        <BrushLayer Name="Default" Sprite="Order\SiegeIcons\siege_machine"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.Add.Captain.Icon">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="OrderOfBattle\assign_captain" Color="#866638FF" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.8" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.4" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.2" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.Remove.Captain.Icon">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="OrderOfBattle\unassign_captain" Color="#866638FF" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.8" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.4" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.2" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.Add.HeroTroop.Icon">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="OrderOfBattle\assign_hero" Color="#866638FF" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.8" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.4" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.2" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>  
+
+  <Brush Name="OrderOfBattle.Remove.HeroTroop.Icon">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="OrderOfBattle\unassign_hero" Color="#866638FF" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.8" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.4" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.2" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>  
+
+  <Brush Name="OrderOfBattle.Formation.Canvas">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="card_canvas_default_9" IsHidden="true" />
+      <BrushLayer Name="Selected" Sprite="card_canvas_selected_9" IsHidden="true" />
+      <BrushLayer Name="Disabled" Sprite="card_canvas_disabled_9" IsHidden="true" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.8" IsHidden="false"  />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Selected" AlphaFactor="0.9" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Selected" AlphaFactor="0.9" ColorFactor="0.6" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Selected" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Disabled" AlphaFactor="0.8" ColorFactor="0.6" SaturationFactor="-150" IsHidden="false"/>
+      </Style>
+    </Styles>
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="tab"/>
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.FormationTypeSelection.Dropdown">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="card_header_default_9" IsHidden="true" />
+      <BrushLayer Name="Selected" Sprite="card_header_selected_9" IsHidden="true" />
+      <BrushLayer Name="Disabled" Sprite="card_header_disabled_9" IsHidden="true" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" IsHidden="false" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1.2" IsHidden="false" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.8" IsHidden="false" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Selected" IsHidden="false" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Disabled" AlphaFactor="1" ColorFactor="0.7" SaturationFactor="-150" IsHidden="false" />
+      </Style>
+    </Styles>
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="oob/dropdown" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.Captains.Background">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BlankWhiteSquare_9" Color="#000000FF"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.3" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="1" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.SwapCaptain.Button.Background">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BlankWhiteSquare_9" Color="#000000FF" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.6" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.3" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.8" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.SwapCaptain.Icon">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="OrderOfBattle\replace_icon" Color="#F4E1C4FF" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.7" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.5" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.Formation.Background">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BlankWhiteSquare_9" Color="#312B22FF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="1" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" ColorFactor="1.3" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.Formation.Class.Type.Base">
+    <Layers>
+      <BrushLayer Name="Default"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.7" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.8" ColorFactor="1.25" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.6" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1.0" ColorFactor="1.25" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.7" ColorFactor="0.6" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.FormationClass.Unset" BaseBrush="OrderOfBattle.Formation.Class.Type.Base">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Order\oob_none" IsHidden="true"/>
+      <BrushLayer Name="Disabled" Sprite="Order\lock_closed" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.9" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.3" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Disabled" AlphaFactor="0.7" ColorFactor="0.6" SaturationFactor="-150" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.FormationClass.Infantry" BaseBrush="OrderOfBattle.Formation.Class.Type.Base">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Order\oob_inf" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.9" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.3" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.7" ColorFactor="0.6" SaturationFactor="-150" IsHidden="false"/>
+      </Style>
+    </Styles>
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="oob/formation_infantry" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.FormationClass.Ranged" BaseBrush="OrderOfBattle.Formation.Class.Type.Base">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Order\oob_archer" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.9" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.3" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.7" ColorFactor="0.6" SaturationFactor="-150" IsHidden="false"/>
+      </Style>
+    </Styles>
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="oob/formation_archers" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.FormationClass.Cavalry" BaseBrush="OrderOfBattle.Formation.Class.Type.Base">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Order\oob_cav" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.9" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.3" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.7" ColorFactor="0.6" SaturationFactor="-150" IsHidden="false"/>
+      </Style>
+    </Styles>
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="oob/formation_cavalry" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.FormationClass.HorseArcher" BaseBrush="OrderOfBattle.Formation.Class.Type.Base">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Order\oob_horse_archer" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.9" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.3" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.7" ColorFactor="0.6" SaturationFactor="-150" IsHidden="false"/>
+      </Style>
+    </Styles>
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="oob/formation_horse_archers" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.FormationClass.InfantryAndRanged" BaseBrush="OrderOfBattle.Formation.Class.Type.Base">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Order\oob_inf_archer" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.9" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.3" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.7" ColorFactor="0.6" SaturationFactor="-150" IsHidden="false"/>
+      </Style>
+    </Styles>
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="oob/formation_infantry_archers" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.FormationClass.CavalryAndHorseArcher" BaseBrush="OrderOfBattle.Formation.Class.Type.Base">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Order\oob_cav_horsearcher" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.9" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.3" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.7" ColorFactor="0.6" SaturationFactor="-150" IsHidden="false"/>
+      </Style>
+    </Styles>
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="oob/formation_cavalry_horse_archers" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.Formation.Class.Unlocked" BaseBrush="OrderOfBattle.Formation.Class.Type.Base">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\lock_opened" IsHidden="true"/>
+      <BrushLayer Name="Disabled" Sprite="StdAssets\lock_closed" IsHidden="true" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.7" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.9" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.3" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Disabled" AlphaFactor="0.7" ColorFactor="0.6" SaturationFactor="-150" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.Formation.Class.Locked" BaseBrush="OrderOfBattle.Formation.Class.Type.Base">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\lock_closed" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.Filters.Checkmark">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="General\Icons\icon_quest_done_checkmark" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.0" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.0" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.Filter.Unset" BaseBrush="OrderOfBattle.Formation.Class.Type.Base">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="General\Icons\add_icon" IsHidden="true"/>
+      <BrushLayer Name="Disabled" Sprite="StdAssets\lock_closed" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.9" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.3" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Disabled" AlphaFactor="0.7" ColorFactor="0.6" SaturationFactor="-150" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.Filter.Spear" BaseBrush="OrderOfBattle.Formation.Class.Type.Base">
+    <Layers>
+      <BrushLayer Name="Default"  Sprite="General\EquipmentIcons\equipment_type_polearm" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.9" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.3" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.7" ColorFactor="0.6" SaturationFactor="-150" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.Filter.Shield" BaseBrush="OrderOfBattle.Formation.Class.Type.Base">
+    <Layers>
+      <BrushLayer Name="Default"  Sprite="General\EquipmentIcons\equipment_type_shield" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.9" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.3" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.7" ColorFactor="0.6" SaturationFactor="-150" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.Filter.Thrown" BaseBrush="OrderOfBattle.Formation.Class.Type.Base">
+    <Layers>
+      <BrushLayer Name="Default"  Sprite="General\EquipmentIcons\equipment_type_throwing" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.9" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.3" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.7" ColorFactor="0.6" SaturationFactor="-150" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.Filter.Heavy" BaseBrush="OrderOfBattle.Formation.Class.Type.Base">
+    <Layers>
+      <BrushLayer Name="Default"  Sprite="General\EquipmentIcons\equipment_type_head_armor" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.9" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.3" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.7" ColorFactor="0.6" SaturationFactor="-150" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.Filter.HighTier" BaseBrush="OrderOfBattle.Formation.Class.Type.Base">
+    <Layers>
+      <BrushLayer Name="Default"  Sprite="General\EquipmentIcons\oob_filter_high_tier" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.9" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.3" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.7" ColorFactor="0.6" SaturationFactor="-150" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.Filter.LowTier" BaseBrush="OrderOfBattle.Formation.Class.Type.Base">
+    <Layers>
+      <BrushLayer Name="Default"  Sprite="General\EquipmentIcons\oob_filter_low_tier" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.9" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.3" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.7" ColorFactor="0.6" SaturationFactor="-150" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.CaptainSlot.Frame">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="slick_frame_9" ExtendLeft="5" ExtendTop="5" ExtendRight="5" ExtendBottom="6" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.7" ColorFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.85" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.7" SaturationFactor="-150" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" ColorFactor="1.6" />
+      </Style>
+    </Styles>
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="oob/officer_pick" />
+        <EventSound EventName="DragBegin" Audio="oob/officer_drag" />
+        <EventSound EventName="DragEnd" Audio="oob/officer_drag" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.CaptainSlot.Background">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BlankWhiteSquare_9" Color="#312B22FF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="0.7" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.6" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.3" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" ColorFactor="1.1" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.ClassDropdown.Arrow">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="OrderOfBattle\dropdown_arrow_disabled" IsHidden="true"/>
+      <BrushLayer Name="Selected" Sprite="OrderOfBattle\dropdown_arrow_enabled" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.9" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Selected" AlphaFactor="0.3" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Selected" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.0" ColorFactor="0.6" SaturationFactor="-150" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.FilterDropdown.Arrow">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="OrderOfBattle\dropdown_arrow_disabled" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.9" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.3" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.0" ColorFactor="0.6" SaturationFactor="-150" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.Slider.SliderHandle">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\minimal_slider_knob" ExtendLeft="3" ExtendRight="3" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" Sprite="StdAssets\minimal_slider_knob" ColorFactor="1.0" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" Sprite="StdAssets\minimal_slider_knob" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" Sprite="StdAssets\minimal_slider_knob" ColorFactor="0.8" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.Hero.Card" TransitionDuration="0.07">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="order_popup_card_default_9" IsHidden="true" />
+      <BrushLayer Name="Selected" Sprite="order_popup_card_selected_9" IsHidden="true" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="1.2" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Selected" ColorFactor="0.8" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="1.2" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Selected" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.75" SaturationFactor="-150" IsHidden="false"/>
+      </Style>
+    </Styles>
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="popup" />
+        <EventSound EventName="HoverBegin" Audio="mini_popup" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.CaptainList.PageButton">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BlankWhiteCircle" Color="#FEC157FF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" Sprite="BlankWhiteCircle" AlphaFactor="0.4" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" Sprite="BlankWhiteCircle" AlphaFactor="0.8" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.7" SaturationFactor="-150" />
+      </Style>      
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" Sprite="BlankWhiteCircle" AlphaFactor="0.3" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.CaptainList.PageButton.Full">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BlankWhiteCircle" Color="#FEC157FF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" Sprite="BlankWhiteCircle" AlphaFactor="1.0" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" Sprite="BlankWhiteCircle" AlphaFactor="0.8" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.7" SaturationFactor="-150" />
+      </Style>      
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" Sprite="BlankWhiteCircle" AlphaFactor="0.3" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.CaptainList.PageButton.Empty">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BlankWhiteCircle" Color="#FEC157FF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" Sprite="BlankWhiteCircle" AlphaFactor="0.4" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" Sprite="BlankWhiteCircle" AlphaFactor="0.8" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.7" SaturationFactor="-150" />
+      </Style>      
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" Sprite="BlankWhiteCircle" AlphaFactor="0.3" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.CaptainList.SelectAllButton">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="OrderOfBattle\oob_select_all" Color="#FEC157FF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" Sprite="OrderOfBattle\oob_select_all" AlphaFactor="0.4" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" Sprite="OrderOfBattle\oob_select_all" AlphaFactor="0.8" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.7" SaturationFactor="-150" />
+      </Style>      
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" Sprite="OrderOfBattle\oob_select_all" AlphaFactor="0.3" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.CaptainList.ClearSelectionButton">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="OrderOfBattle\oob_reset" Color="#FEC157FF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" Sprite="OrderOfBattle\oob_reset" AlphaFactor="0.4" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" Sprite="OrderOfBattle\oob_reset" AlphaFactor="0.8" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.7" SaturationFactor="-150" />
+      </Style>      
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" Sprite="OrderOfBattle\oob_reset" AlphaFactor="0.3" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.Formation.HeroSlot">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="oob_slot_canvas_9" ExtendTop="5" ExtendBottom="5" ExtendLeft="5" ExtendRight="5" IsHidden="true" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" Sprite="oob_slot_canvas_9" AlphaFactor="0.75" IsHidden="false" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" Sprite="oob_slot_canvas_9" AlphaFactor="1.0" IsHidden="false" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" Sprite="oob_slot_canvas_9" AlphaFactor="0.3" IsHidden="false" />
+      </Style>
+    </Styles>
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="oob/officer_drag" />
+        <EventSound EventName="Archers" Audio="oob/formation_archers" />
+        <EventSound EventName="Cavalry" Audio="oob/formation_cavalry" />
+        <EventSound EventName="CavalryHorseArchers" Audio="oob/formation_cavalry_horse_archers" />
+        <EventSound EventName="HorseArchers" Audio="oob/formation_horse_archers" />
+        <EventSound EventName="Infantry" Audio="oob/formation_infantry" />
+        <EventSound EventName="InfantryArchers" Audio="oob/formation_infantry_archers" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>  
+  
+  <Brush Name="OrderOfBattle.AssignHero.Text" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="22" />
+    </Styles>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.4" IsHidden="false" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.8" IsHidden="false" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.3" IsHidden="false" />
+      </Style>
+    </Styles>    
+  </Brush>
+
+  <Brush Name="OrderOfBattle.NoFormation.Text" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="22" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.Mismatched.Assignment.Text" Font="Galahad" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#FF0000FF" TextBlur="0.5" TextOutlineAmount="0.2" TextGlowRadius="00.1" FontSize="24" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.FormationClass.Slider.Fill" TransitionDuration="0.07">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="minimal_slider_fill_9" IsHidden="true" />
+      <BrushLayer Name="Selected" Sprite="minimal_slider_fill_9" IsHidden="true" />      
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="1.2" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Selected" ColorFactor="1.5" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="1.2" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Selected" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.75" SaturationFactor="-100" IsHidden="false"/>
+      </Style>      
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.Formation.Focus.Indicator" TransitionDuration="0.07">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="formation_targeter_9" Color="#FFFFFFFF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" Color="#3cee19ff"/>
+      </Style>
+      <Style Name="Targeting">
+        <BrushLayer Name="Default" Color="#30b116ff"/>
+      </Style>      
+    </Styles>
+  </Brush>
+  
+  <Brush Name="Order.SelectedOrder.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextGlowRadius="0" TextBlur="0.5" TextShadowOffset="0" TextOutlineAmount="0.6" TextGlowColor="#00000055" FontSize="20" />
+    </Styles>
+  </Brush>  
+
+  <Brush Name="Order.Troop.CountText" Font="Galahad_Numbers_Bold" TextHorizontalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#f4e1c4ff" TextGlowRadius="0" TextBlur="0.5" TextShadowOffset="0" TextOutlineAmount="0.3" TextGlowColor="#00000055" FontSize="28" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Order.Transferred.Troop.Text" Font="Galahad_Numbers_Bold" TextHorizontalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#39b54aff" TextGlowRadius="0" TextBlur="0.5" TextShadowOffset="0" TextOutlineAmount="0.3" TextGlowColor="#00000055" FontSize="28" />
+      <Style Name="Disabled" FontColor="#ed1c24ff" TextGlowRadius="0" TextBlur="0.5" TextShadowOffset="0" TextOutlineAmount="0.3" TextGlowColor="#00000055" FontSize="28" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Order.Troop.HotKeyText" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextGlowRadius="0" TextBlur="0.0" TextShadowOffset="0" TextOutlineAmount="0.0" TextGlowColor="#00000055" FontSize="16" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Order.CameraToggle.DescriptionText.Radial" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextGlowRadius="0" TextBlur="0" TextShadowOffset="0" TextOutlineAmount="0.8" TextGlowColor="#00000055" FontSize="22" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Order.Item.DescriptionText.Radial" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextGlowRadius="0" TextBlur="0" TextShadowOffset="0" TextOutlineAmount="0.8" TextGlowColor="#00000055" FontSize="15" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Order.Item.DescriptionText.Bar" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextGlowRadius="0" TextBlur="0" TextShadowOffset="0" TextOutlineAmount="0.8" TextGlowColor="#00000055" FontSize="12" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Order.Item.ShortcutText" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Top">
+    <Styles>
+      <Style Name="Default" FontColor="#222222FF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="16" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Order.TransferPopup.TitleText" Font="Galahad" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#f4e1c4ff" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="36" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Order.TransferPopup.FormationName" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Top">
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="24" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Order.TransferPopup.SliderValue" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Left" TextVerticalAlignment="Top">
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="24" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Order.Siege.MainButton.Text" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="24" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Order.Siege.Breaced.Text" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextBlur="1" TextOutlineColor="#000000FF" TextOutlineAmount="0.3" TextGlowRadius="0" FontSize="30" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="OrderOfBattle.HeroLevel.Text" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" TextBlur="1" TextOutlineColor="#000000FF" TextOutlineAmount="0.3" TextGlowRadius="0" FontSize="30" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Order.Siege.DeploymentPointButton.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="20" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Order.Icon">
+    <BrushLayer Name="Default" Sprite="BlankWhiteSquare_9" />
+  </Brush>
+
+  <Brush Name="Order.Icons.Round">
+    <Layers>
+      <BrushLayer Name="order_type_movement" Sprite="Order\ItemIconsRound\OIMoveToPosition" />
+      <BrushLayer Name="order_type_form" Sprite="Order\ItemIconsRound\OIFormLoose" />
+      <BrushLayer Name="order_type_toggle" Sprite="Order\ItemIconsRound\OIToggle" />
+      <BrushLayer Name="order_type_facing" Sprite="Order\ItemIconsRound\OIToggleFacing" />
+      <BrushLayer Name="order_return" Sprite="Order\ItemIconsRound\OIReturn" />
+      <BrushLayer Name="order_movement_move" Sprite="Order\ItemIconsRound\OIMoveToPosition" />
+      <BrushLayer Name="order_movement_follow" Sprite="Order\ItemIconsRound\OIFollowMe" />
+      <BrushLayer Name="order_movement_charge" Sprite="Order\ItemIconsRound\OICharge" />
+      <BrushLayer Name="order_movement_advance" Sprite="Order\ItemIconsRound\OIAdvance" />
+      <BrushLayer Name="order_movement_fallback" Sprite="Order\ItemIconsRound\OIFallback" />
+      <BrushLayer Name="order_movement_stop" Sprite="Order\ItemIconsRound\OIStop" />
+      <BrushLayer Name="order_movement_retreat" Sprite="Order\ItemIconsRound\OIRetreat" />
+      <BrushLayer Name="order_movement_skirmish" Sprite="Order\ItemIconsRound\OISkirmish" />
+      <BrushLayer Name="order_form_line" Sprite="Order\ItemIconsRound\OIFormLine" />
+      <BrushLayer Name="order_form_close" Sprite="Order\ItemIconsRound\OIFormClose" />
+      <BrushLayer Name="order_form_loose" Sprite="Order\ItemIconsRound\OIFormLoose" />
+      <BrushLayer Name="order_form_circular" Sprite="Order\ItemIconsRound\OIFormCircular" />
+      <BrushLayer Name="order_form_schiltron" Sprite="Order\ItemIconsRound\OIFormSchiltron" />
+      <BrushLayer Name="order_form_v" Sprite="Order\ItemIconsRound\OIFormV" />
+      <BrushLayer Name="order_form_column" Sprite="Order\ItemIconsRound\OIFormColumn" />
+      <BrushLayer Name="order_form_scatter" Sprite="Order\ItemIconsRound\OIFormScatter" />
+      <BrushLayer Name="order_toggle_fire" Sprite="Order\ItemIconsRound\OIToggleFireActive" />
+      <BrushLayer Name="order_toggle_fire_active" Sprite="Order\ItemIconsRound\OIToggleFire" />
+      <BrushLayer Name="order_toggle_mount" Sprite="Order\ItemIconsRound\OIToggleMountActive" />
+      <BrushLayer Name="order_toggle_mount_active" Sprite="Order\ItemIconsRound\OIToggleMount" />
+      <BrushLayer Name="order_toggle_ai" Sprite="Order\ItemIconsRound\OIToggleAIActive" />
+      <BrushLayer Name="order_toggle_ai_active" Sprite="Order\ItemIconsRound\OIToggleAI" />
+      <BrushLayer Name="order_toggle_transfer" Sprite="Order\ItemIconsRound\OIToggleTransfer" />
+      <BrushLayer Name="order_toggle_facing" Sprite="Order\ItemIconsRound\OIToggleFacing" />
+      <BrushLayer Name="order_toggle_facing_active" Sprite="Order\ItemIconsRound\OIToggleFacingActive" />
+      <BrushLayer Name="naval_troop_defend_ship_order" Sprite="Order\ItemIconsRound\OIDefendShip" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Order.Icons.Square">
+    <Layers>
+      <BrushLayer Name="order_type_movement" Sprite="Order\ItemIconsSquare\OIMoveToPosition" />
+      <BrushLayer Name="order_type_form" Sprite="Order\ItemIconsSquare\OIFormLoose" />
+      <BrushLayer Name="order_type_toggle" Sprite="Order\ItemIconsSquare\OIToggle" />
+      <BrushLayer Name="order_type_facing" Sprite="Order\ItemIconsSquare\OIToggleFacing" />
+      <BrushLayer Name="order_return" Sprite="Order\ItemIconsSquare\OIReturn" />
+      <BrushLayer Name="order_movement_move" Sprite="Order\ItemIconsSquare\OIMoveToPosition" />
+      <BrushLayer Name="order_movement_follow" Sprite="Order\ItemIconsSquare\OIFollowMe" />
+      <BrushLayer Name="order_movement_charge" Sprite="Order\ItemIconsSquare\OICharge" />
+      <BrushLayer Name="order_movement_advance" Sprite="Order\ItemIconsSquare\OIAdvance" />
+      <BrushLayer Name="order_movement_fallback" Sprite="Order\ItemIconsSquare\OIFallback" />
+      <BrushLayer Name="order_movement_stop" Sprite="Order\ItemIconsSquare\OIStop" />
+      <BrushLayer Name="order_movement_retreat" Sprite="Order\ItemIconsSquare\OIRetreat" />
+      <BrushLayer Name="order_movement_skirmish" Sprite="Order\ItemIconsSquare\OISkirmish" />
+      <BrushLayer Name="order_form_line" Sprite="Order\ItemIconsSquare\OIFormLine" />
+      <BrushLayer Name="order_form_close" Sprite="Order\ItemIconsSquare\OIFormClose" />
+      <BrushLayer Name="order_form_loose" Sprite="Order\ItemIconsSquare\OIFormLoose" />
+      <BrushLayer Name="order_form_circular" Sprite="Order\ItemIconsSquare\OIFormCircular" />
+      <BrushLayer Name="order_form_schiltron" Sprite="Order\ItemIconsSquare\OIFormSchiltron" />
+      <BrushLayer Name="order_form_v" Sprite="Order\ItemIconsSquare\OIFormV" />
+      <BrushLayer Name="order_form_column" Sprite="Order\ItemIconsSquare\OIFormColumn" />
+      <BrushLayer Name="order_form_scatter" Sprite="Order\ItemIconsSquare\OIFormScatter" />
+      <BrushLayer Name="order_toggle_fire" Sprite="Order\ItemIconsSquare\OIToggleFireActive" />
+      <BrushLayer Name="order_toggle_fire_active" Sprite="Order\ItemIconsSquare\OIToggleFire" />
+      <BrushLayer Name="order_toggle_mount" Sprite="Order\ItemIconsSquare\OIToggleMountActive" />
+      <BrushLayer Name="order_toggle_mount_active" Sprite="Order\ItemIconsSquare\OIToggleMount" />
+      <BrushLayer Name="order_toggle_ai" Sprite="Order\ItemIconsSquare\OIToggleAIActive" />
+      <BrushLayer Name="order_toggle_ai_active" Sprite="Order\ItemIconsSquare\OIToggleAI" />
+      <BrushLayer Name="order_toggle_transfer" Sprite="Order\ItemIconsSquare\OIToggleTransfer" />
+      <BrushLayer Name="order_toggle_facing" Sprite="Order\ItemIconsSquare\OIToggleFacing" />
+      <BrushLayer Name="order_toggle_facing_active" Sprite="Order\ItemIconsSquare\OIToggleFacingActive" />
+      <BrushLayer Name="naval_troop_defend_ship_order" Sprite="Order\ItemIconsSquare\OIDefendShip" />
+    </Layers>
+  </Brush>
+  
+</Brushes>

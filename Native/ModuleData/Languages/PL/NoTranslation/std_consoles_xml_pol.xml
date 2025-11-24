@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Polski" />
+  </tags>
+  <strings>
+    <string id="ovqtG4LS" text="Pokaż profil PlayStation™Network" />
+    <string id="zZeDwVbv" text="Ustaw czułość funkcji czujnika ruchu przy celowaniu z broni dystansowej. Wartość „0” oznacza wyłączenie funkcji." />
+    <string id="xboxStartButton" text="Przycisk menu" />
+    <string id="xboxRightTrigger" text="prawy spust" />
+    <string id="xboxRightStickUp" text="Prawy drążek w górę" />
+    <string id="xboxRightStickRight" text="Prawy drążek w prawo" />
+    <string id="xboxRightStickLeft" text="Prawy drążek w lewo" />
+    <string id="xboxRightStickDown" text="Prawy drążek w dół" />
+    <string id="xboxRightStick" text="{.MI}Prawy{.nn} {.MI}drążek{.nn}" />
+    <string id="xboxRightBumper" text="prawy bumper" />
+    <string id="xboxLeftTrigger" text="lewy spust" />
+    <string id="xboxLeftStickUp" text="Lewy drążek w górę" />
+    <string id="xboxLeftStickRight" text="Lewy drążek w prawo" />
+    <string id="xboxLeftStickLeft" text="Lewy drążek w lewo" />
+    <string id="xboxLeftStickDown" text="Lewy drążek w dół" />
+    <string id="xboxLeftStick" text="{.MI}Lewy{.aj} {.MI}drążek{.nn}" />
+    <string id="xboxLeftBumper" text="lewy bumper" />
+    <string id="xboxDpadUp" text="Przycisk kierunkowy w górę" />
+    <string id="xboxDpadRight" text="Przycisk kierunkowy w prawo" />
+    <string id="xboxDpadLeft" text="Przycisk kierunkowy w lewo" />
+    <string id="xboxDpadDown" text="Przycisk kierunkowy w dół" />
+    <string id="xboxBackButton" text="Przycisk podglądu" />
+    <string id="wXuZKLkk" text="Zmienia sposób, w jaki celujesz z broni dystansowej. Jeśli opcja jest włączona, {?IS_PLAYSTATION}przycisk L2{?}lewy spust{\?} służy do celowania, a {?IS_PLAYSTATION}przycisk R2{?}prawy spust{\?} – do oddawania strzału." />
+    <string id="pvit1VDX" text="Włącz sterowanie kursorem za pomocą panelu dotykowego." />
+    <string id="psXButton" text="przycisk krzyżyk" />
+    <string id="psTriangleButton" text="przycisk trójkąt" />
+    <string id="psTouchpadButton" text="przycisk panelu dotykowego" />
+    <string id="psSquareButton" text="przycisk kwadrat" />
+    <string id="psR2Button" text="przycisk R2" />
+    <string id="psR1Button" text="przycisk R1" />
+    <string id="psOptionsButton" text="przycisk OPTIONS" />
+    <string id="psL2Button" text="przycisk L2" />
+    <string id="psL1Button" text="przycisk L1" />
+    <string id="psCircleButton" text="przycisk kółko" />
+    <string id="NbiZd9up" text="Włącz wspomaganie celowania funkcją czujnika ruchu" />
+    <string id="m0NJf3BU" text="Używaj funkcji czujnika ruchu do wskazywania kierunku przy atakowaniu i bronieniu się." />
+    <string id="jA2D1Rgt" text="Ta opcja jest wyłączona, gdyż funkcja czujnika ruchu jest wyłączona." />
+    <string id="gLlM7pQw" text="Włącz panel dotykowy" />
+    <string id="bIuDbdVB" text="Włącz alternatywny sposób celowania kontrolerem {?IS_PLAYSTATION}bezprzewodowym{?}{\?}" />
+    <string id="aLAtopse" text="Używaj funkcji czujnika ruchu podczas celowania z broni dystansowej." />
+    <string id="aCVTu5AJ" text="Używaj funkcji czujnika ruchu do wskazywania kierunku przy atakowaniu i blokowaniu" />
+    <string id="7UqxMUHr" text="Ta opcja jest wyłączona, ponieważ &quot;używanie funkcji czujnika ruchu do wskazywania kierunku przy atakowaniu i blokowaniu&quot; jest włączone." />
+    <string id="5mBbS0mb" text="Używaj funkcji czujnika ruchu do wskazywania kierunku przy atakowaniu i blokowaniu." />
+    <string id="136P0uC5" text="{.F}Czułość{.nn} celowania funkcji czujnika ruchu" />
+    <string id="UhUvwvkh" text="Nie masz połączenia z PlayStation™Network. Funkcje online są niedostępne." />
+    <string id="8yk50Ba5" text="PlayStation®Plus jest wymagane do gry wieloosobowej." />
+    <string id="3rcPHq9a" text="Użytkownik nie jest wpisany do PlayStation™Network. Należy się wpisać, by korzystać z funkcji online." />
+    <string id="controllerDisconnectedTitlePS" text="Rozłączono kontroler bezprzewodowy" />
+    <string id="controllerDisconnectedDescriptionPS" text="Podłącz ponownie kontroler bezprzewodowy, by kontynuować" />
+    <string id="MceLT3Zg" text="Kontroler bezprzewodowy" />
+    <string id="NyA57ke1" text="Wylogowano z PlayStation™Network" />
+    <string id="i6x93YjL" text="Menu oszustw można również wywołać, przytrzymując L1 + R2 + przycisk „w dół” na otwartej mapie." />
+    <string id="tHGHDaFH" text="Pomyślnie przeniesiono plik zapisu z konsoli PS4™" />
+    <string id="PJK980ka" text="Wybierz zapis konsoli PS4™ do przeniesienia" />
+    <string id="ifkdZmxr" text="Nie znaleziono zapisu z konsoli PS4™" />
+    <string id="6WHz63af" text="Przenieś zapis z konsoli PS4™" />
+    <string id="dlcInstallComplete" text="Instalowanie zawartości do pobrania ukończone" />
+    <string id="psDlcInstallComplete" text="Instalowanie dodatku ukończone" />
+    <string id="dlcInstalledDescription" text="Zakończono instalowanie zawartości do pobrania. Musisz wrócić do menu głównego, aby uzyskać do niej dostęp." />
+    <string id="psDlcInstalledDescription" text="Zakończono instalowanie dodatku. Musisz wrócić do menu głównego, aby uzyskać do niego dostęp." />
+	<string id="c3I1AjcF" text="Włącz wibracje kontrolera {?IS_PLAYSTATION}bezprzewodowego{?}{\?}" />
+	<string id="rightstickabbreviated" text="RS" />
+    <string id="rightstickabbreviatedps" text="R" />
+  </strings>
+</base>

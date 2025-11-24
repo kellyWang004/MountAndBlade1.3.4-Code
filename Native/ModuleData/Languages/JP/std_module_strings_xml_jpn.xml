@@ -1,0 +1,1770 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="日本語" />
+  </tags>
+  <strings>
+    <string id="02E0oSJm" text="反則！対戦相手は場外で戦闘を行ったので、{?OPPONENT_GENDER}彼{?}彼女{\?}は失格となります！" />
+    <string id="04GuLxE1" text="自分自身の指揮官を変更したり、解散させたりすることはできません" />
+    <string id="07b4Wy0h" text="騎兵を選択" />
+    <string id="082FNWAD" text="特性" />
+    <string id="09ooh9I3" text="ポーンは相手のホームタイルに向かって移動します。最後のタイルに到達すると、彼らは自身のホームタイルに戻ってきます。途中で敵のポーンを捕まえることができます。" />
+    <string id="0amC7X1h" text="宣戦布告" />
+    <string id="0DiBS84d" text="慈悲深い" />
+    <string id="0g7MZCAK" text="作業場の収入" />
+    <string id="0GZ19XHb" text="引き具" />
+    <string id="0hCHIcVk" text="騎乗散兵" />
+    <string id="0IjUokET" text="いくらだ？いくらなんだ？早くしろ。[ib:hip][rf:convo_angry]" />
+    <string id="0j9JnMNB" text="{ITEM_NAME}を奪われました。" />
+    <string id="0JyRvjSF" text="私たちの計画は防衛戦を構築することだ。" />
+    <string id="0LgxcCbL" text="指令{NUMBER}" />
+    <string id="0mDkVTWn" text="英雄" />
+    <string id="0qCbsOif" text="ピストル" />
+    <string id="0RkO7oHP" text="隊長" />
+    <string id="0rsySqR6" text="{YEAR}年、{DAY_OF_YEAR}。あなたは帝国の敵対者たちに、同盟関係を結ばせようと暗躍している者たちがいることを耳にした。" />
+    <string id="0T3bP5r6" text="{DAY}{?PLURAL_DAYS}日{?}日{\?}" />
+    <string id="0V4jIIju" text="{SETTLEMENT_NAME}を包囲しに移動中。" />
+    <string id="0zNzaDGq" text="刃" />
+    <string id="0zz1iDMY" text="族長" />
+    <string id="11aiaODt" text="脚甲" />
+    <string id="13q8IRfZ" text="我が姉妹{REFERING_HERO.LINK}" />
+    <string id="1AcoIQVl" text="{SETTLEMENT}を襲撃しに来ました。一部の住民があなたに抵抗しようと集まっています。この村を襲撃すると、{KINGDOM}との戦争になります。" />
+    <string id="1asbVsat" text="捕獲は相手のポーンを、自身のポーンで両側から挟むことによって行います。{newline}ポーンは相手を中央タイルでブロックすることでも捕獲できます。これは両方のプレイヤーが行えます。" />
+    <string id="1BSSOa8a" text="ウルトラアーマー" />
+    <string id="1cd6u0qn" text="門を開けて出撃せよ！" />
+    <string id="1dLZLQsY" text="兵士に提供する{newline}この行動を取り消すことはできません。" />
+    <string id="1E6hFc0r" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、背後を突こうとする敵を防いでいます。" />
+    <string id="1HPITLca" text="囚人上限を超えました" />
+    <string id="1ICTi9xQ" text="防衛部隊が、{BESIEGER_LEADER.NAME}が攻城戦に備えて作った野営地を襲撃しようと出撃した" />
+    <string id="1KcIeYe2" text="話しかけたいキャラクターと、同じ場所にいる必要があります。" />
+    <string id="1klXxZFS" text="{newline}{TOWNS}の領主だ。" />
+    <string id="1Llb4gGw" text="完了" />
+    <string id="1m8zRjs8" text="{YEAR}年、{DAY_OF_YEAR}。{CLAN_NAME}が{KINGDOM_FORMALNAME}に加入した。" />
+    <string id="1MStGeRa" text="撃破した対戦相手：{BEATEN_OPPONENT_COUNT}" />
+    <string id="1o1TyPib" text="追加できる仲間の上限" />
+    <string id="1PwQxaOu" text="競技会の準備が進んでいるようだ。" />
+    <string id="1pxLpZ4r" text="計算高さ：" />
+    <string id="1wkANMRC" text="私たちの計画はこの狭い通路を守ることだ。" />
+    <string id="1XE7yeaP" text="この囚人の従順度が{CONFORMITY_AMOUNT}に達すると、囚人がもう一人、雇用可能になります。" />
+    <string id="1XVvU23F" text="クリップボードのテキストはボディプロパティーのキーとして使用できません！" />
+    <string id="1z0rLrhs" text="父" />
+    <string id="1Zq8mzzJ" text="さて、どんな虫が網にかかってるか見てみるとしようか。[rf:convo_mocking_revenge]" />
+    <string id="21t7Ev03" text="投獄されている間は、このアクションを実行できません。" />
+    <string id="22FUKSQb" text="{REQUIRED_XP_FOR_NEXT_LEVEL}xp獲得して、このスキルをレベルアップさせるために使いましょう" />
+    <string id="22tbyEYI" text="{PARTY_NAME}から{ITEM}を{COUNT}受け取りました。" />
+    <string id="24L5DoQt" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、重要な位置を守っています。" />
+    <string id="25MeMNbP" text="右移動" />
+    <string id="29bsCzkn" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、安全な場所まで退却していきます。" />
+    <string id="2a33tk2f" text="デイリープロジェクト" />
+    <string id="2Af5HRJU" text="村の名士" />
+    <string id="2AhTA1ba" text="我が隊が城へと退却している。" />
+    <string id="2aXJEgag" text="強さ：{ARMY_STRENGTH}" />
+    <string id="2CfPklXG" text="軍隊名" />
+    <string id="2CgZVkDj" text="統治者" />
+    <string id="2ER5aj0R" text="スリング用の石" />
+    <string id="2EzfAklA" text="{HERO.NAME}に{ITEM}を{COUNT}与えました。" />
+    <string id="2gpFPuZZ" text="残酷" />
+    <string id="2Ja8KYVg" text="攻撃的" />
+    <string id="2JnLh6F0" text="欺騙" />
+    <string id="2Jr3zWQz" text="馬と引き具" />
+    <string id="2Mic7nhz" text="部隊メンバーの中にこの指令を完遂するための、{SKILL}スキルを有する者がいません。" />
+    <string id="2noOKM5N" text="交易関連の集落" />
+    <string id="2qjkY4yu" text="貿易協定" />
+    <string id="2RFda5ph" text="報酬として{GOLD_AMOUNT}{GOLD_ICON}受け取りました。" />
+    <string id="2RIyK1bp" text="武器" />
+    <string id="2Sal30D2" text="所持者の影響力に+{BONUS_AMOUNT}ボーナス" />
+    <string id="2u3dRUlE" text="{SETTLEMENT_NAME} (税)" />
+    <string id="2UCptBFi" text="スタルジア" />
+    <string id="2W2l9Kym" text="究極のリーダーの恩恵ボーナス" />
+    <string id="2X1rBrdC" text="{DAY_VALUE}日{HOUR_VALUE}時間" />
+    <string id="300TAI7u" text="全て売る" />
+    <string id="32v8ryKV" text="攻城戦の開始時に+{BONUS_AMOUNT}バリスタ" />
+    <string id="33ghdWWi" text="その他の方針" />
+    <string id="33hHRM8r" text="対戦相手のターン" />
+    <string id="36hbMBhb" text="{YEAR}年、{DAY_OF_YEAR}。{FORMAL_NAME}は滅ぼされ、あなたの望みどおりに帝国を{?PLAYER_WANTS_RESTORE}復興{?}滅亡{\?}させる宿命を果たすことができなくなった。" />
+    <string id="3cTKRX1M" text="新規" />
+    <string id="3Ds5ARHL" text="商人" />
+    <string id="3E0ZXV7j" text="決定の結果" />
+    <string id="3EGllWkd" text="北部の帝国" />
+    <string id="3fAm8FaM" text="そうかい… 親父が言ってたっけ。誰も殺せない旅に、たいした価値はないってな。" />
+    <string id="3FUaZk5A" text="お嬢様" />
+    <string id="3gkb0YCn" text="今すぐ退くか、部隊の指揮を執れ！" />
+    <string id="3IGjY8RG" text="自由な小戦闘" />
+    <string id="3IpiWM7H" text="盗賊" />
+    <string id="3JE8EGH1" text="今は英雄を処刑できません" />
+    <string id="3jSl2v41" text="駐屯地の兵士に+{BONUS_AMOUNT}XPボーナス（1日あたり）" />
+    <string id="3KD1KqHp" text="攻城塔（レベル2）" />
+    <string id="3l8HsbHK" text="へへっ、賢い選択だ。また会ったらぜひ取引をしようじゃないか。[ib:closed][rf:convo_bemused]" />
+    <string id="3lZchBXQ" text="{ISSUE_NAME}: あなたの兵は問題の解決に失敗しました。" />
+    <string id="3o6FDRsq" text="占拠した町" />
+    <string id="3Oit0vGb" text="このまま続行すると、クランメンバーの移動中（{TRAVEL_DURATION}）、部隊にリーダーが不在の状態となります。部隊は新しいリーダーが到着するまで軍隊に参加することができません。{?DOES_LEADER_NEED_GOLD}{newline}{newline}また、{PARTY_COST}{GOLD_ICON}が消費されます。{newline}{newline}{?} {\?}よろしいですか？" />
+    <string id="3qFPyJtB" text="{SETTLEMENT_NAME}で待機中。" />
+    <string id="3sWa2Hmt" text="我が息子{REFERING_HERO.LINK}" />
+    <string id="3tJq5QyQ" text="{HEALTHY_NUM}+{WOUNDED_NUM}負傷" />
+    <string id="3TXGG01D" text="{?PLAYER.GENDER}ご婦人{?}卿{\?}、あなたは賢い選択をしました。私の部下たちは約束を守り、報酬を得る方法を心得ています。[ib:convo_approving]" />
+    <string id="3uR8wLko" text="我が君主{REFERING_HERO.LINK}" />
+    <string id="3vT6TQmF" text="{PLAYER.LINK}、あなたは{SIDE_STRING} {CLASS_NAME}についているのですね。" />
+    <string id="3wS4uOvU" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、背後から牽制を仕掛けています。" />
+    <string id="3xeuA9VP" text="集落に+{TROOP_AMOUNT}兵士{?ISPLURAL}{?}{\?}" />
+    <string id="3xIv2cP9" text="優勢を維持せよ" />
+    <string id="3XsOeE2v" text="あなたは{TRADE_AMOUNT}{GOLD_ICON}{?PAY_OR_GET}手に入れる{?}払う{\?}でしょう" />
+    <string id="3ZRTekjS" text="手袋" />
+    <string id="4AQmS4iA" text="駐屯地の規模に+{BONUS_AMOUNT}ボーナス" />
+    <string id="4bq2mUf1" text="王国を作る資格があります" />
+    <string id="4BQaqqzg" text="治安：" />
+    <string id="4H1nDlBO" text="週給" />
+    <string id="4Hdcxk0a" text="積極的" />
+    <string id="4jLW7hag" text="除隊" />
+    <string id="4kKxsVzZ" text="{TOWN}の路地{ALLEY_NAME}が占拠されました" />
+    <string id="4KXvyxrK" text="集落の管理" />
+    <string id="4l3BLxBC" text="攻城塔から射撃" />
+    <string id="4M8h8ufy" text="両手での使用不可" />
+    <string id="4ml9Bx6i" text="マルチプレイヤーの恩恵" />
+    <string id="4mMXsVGb" text="酒場ゲームのホスト" />
+    <string id="4nv6LzDp" text="マスケット銃" />
+    <string id="4okzoXIw" text="仲間" />
+    <string id="4ol7MhA5" text="敵に囚われましたが、部下は戦える状態にありません。" />
+    <string id="4qaunexe" text="隊商の訪問頻度を上げる。" />
+    <string id="4QAwbFcQ" text="付近の隠れ家" />
+    <string id="4RIMHAHW" text="部下が近くにいる若者を何人か無理やり兵として引き入れましたが、他の何人かは武器を手にしました。このまま続けると戦闘が発生します。" />
+    <string id="4rRsmX8i" text="いいだろう。羊は食べちまうより、毛を刈る方がいい場合もあるからな。" />
+    <string id="4tdVrFtU" text="31" />
+    <string id="4U6x48yQ" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、戦いを先導しています。" />
+    <string id="4WD0kJSR" text="ああ… ふざけないほうが良いぜ。" />
+    <string id="4wYguFLZ" text="問題を解決中" />
+    <string id="4Y5T7wp1" text="家族の一員をクランから追い出すことはできません。" />
+    <string id="4ytmLxOy" text="妊婦" />
+    <string id="59hbrhfY" text="兵士の現在のXP" />
+    <string id="59PSpyu8" text="集落の管理：{SETTLEMENT_LINK}" />
+    <string id="5a4cY5az" text="攻城戦中は、このアクションを実行できません。" />
+    <string id="5aElrlUt" text="傭兵たちへの賃金" />
+    <string id="5bqmaciE" text="{ARMY_MEMBER}を軍隊に" />
+    <string id="5cGXHF1a" text="今日" />
+    <string id="5CYdyMzj" text="残り" />
+    <string id="5DBDy2si" text="敵を捕らえました。" />
+    <string id="5eH0lCEO" text="現在のチュートリアルステップを無効にする" />
+    <string id="5H0cDmm1" text="このキャラクターのレベルを上げるには、スキルポイントを合計{SKILL_LEVEL_FOR_LEVEL_UP}獲得しましょう。" />
+    <string id="5IOct2ob" text="命令の条件" />
+    <string id="5jVYwNCQ" text="未払い賃金" />
+    <string id="5k4dxUEJ" text="兵士ユニット" />
+    <string id="5kS1qjZL" text="この集落にはすでに未解決の決定があります。" />
+    <string id="5lDYh7wJ" text="あなたは障害物を構築しましたが、残っているポーンが敵より少ない状態です。あなたはゲームに敗北しました！" />
+    <string id="5lT70YJY" text="{YEAR}年、{DAY_OF_YEAR}。あなたは帝国の宿敵たる勢力同士の間で、密約が交わされた噂を耳にした。帝国の敵に立ち向かうため、お互い力を合わせるつもりでいるらしい。" />
+    <string id="5pGjYBFn" text="受領した献上金" />
+    <string id="5QN7SFNW" text="III" />
+    <string id="5S1zPgTm" text="帝国" />
+    <string id="5SQaiYXi" text="反則！相手の馬を攻撃したため、失格となります！" />
+    <string id="5T7nyzda" text="そりゃ良かった。俺たちだって、殺すとなると手間がかかるからな。" />
+    <string id="5U70lB7k" text="{KEY}で隠れる" />
+    <string id="5UpDD9eS" text="10" />
+    <string id="5WJbtDqp" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、味方の背後で小競り合いをしています。" />
+    <string id="5WWbQRQ5" text="対戦相手がそれ以上ジャンプ（捕獲）をできなくなると、プレイヤーの勝利です。" />
+    <string id="5X9Sq4T4" text="{NUM} 王" />
+    <string id="5XFDdsHf" text="王位を放棄" />
+    <string id="5ZPp8btH" text="物々交換の申し出が受け入れられました！" />
+    <string id="640qFpJ8" text="{DAY}{?PLURAL_DAYS}日{?}日{\?} と {HOUR}{?PLURAL_HOURS}時間{?}時間{\?}" />
+    <string id="65QqsaKe" text="あなたは味方する相手を間違っている！" />
+    <string id="6b1RXicd" text="改良された破城槌" />
+    <string id="6bex2HUl" text="多くの人はなんとかやっているようだが、それでも怒りは隠せない。通りすがる人の、我慢が限界に達しそうなつぶやきを聞いているだろう。何かが動いているのがわかるはずだ。" />
+    <string id="6DZx6jTA" text="採用可能な囚人" />
+    <string id="6e82kCVB" text="持ち手の低い長柄武器" />
+    <string id="6G5RFyr1" text="王への支持" />
+    <string id="6GmsZ7AG" text="{PARTY_NAME}に{ITEM}を{COUNT}与えました。" />
+    <string id="6GSXsdeX" text="スピード" />
+    <string id="6gvDrbe7" text="採用経費" />
+    <string id="6Jx6qbZn" text="{?IS_GENERAL_SIDE}{?} {SIDE_STRING}{\?}の壁を守れ" />
+    <string id="6kqK0kUn" text="守りに徹する必要はない。周辺を巡回しろ。" />
+    <string id="6OZycZbc" text="クランには新しい部隊を率いる英雄がいません。" />
+    <string id="6pNrNj93" text="壁" />
+    <string id="6RDRxvaC" text="突き攻撃で騎手を乗騎から落とすことができます" />
+    <string id="6S5JjlP2" text="遮蔽物" />
+    <string id="6SFktFH3" text="ミディアムアーマー" />
+    <string id="6UUymZhL" text="帝国" />
+    <string id="6UVm8RYL" text="{PRISONER_FACTION_LINK}の{PRISONER_LORD.LINK}は解放されました。" />
+    <string id="6Xl9F8Oa" text="町の店" />
+    <string id="6XYG7bux" text="{AMOUNT}{INFLUENCE_ICON}を消費します" />
+    <string id="72Rasm5f" text="私たちにはなにもない。銀貨も、商品も。" />
+    <string id="7663BDwd" text="駐屯地（{CURRENT}）" />
+    <string id="77aNVVE0" text="名声ボーナス" />
+    <string id="77SdNt8C" text="あなたの対戦相手が障害物を構築し、残っているポーンも敵より少ない状態です。あなたはゲームに敗北しました！" />
+    <string id="79cOhac4" text="いいだろう。今回はこれで勘弁してやる。良い旅を。また会えるといいな。[ib:closed][rf:convo_bemused]" />
+    <string id="7a3aryUB" text="動物" />
+    <string id="7acrOvmJ" text="遠隔武器 I" />
+    <string id="7AOOQ5iB" text="苦難にもかかわらず、不満のつぶやきはほとんど聞こえてこない。人々は自分たちの統治者が、逆境を切り抜けられると信じているようだ。" />
+    <string id="7aYV4L9z" text="+{NUMBER}" />
+    <string id="7b60SOvI" text="{YEAR}年、{DAY_OF_YEAR}。{KING_NAME}が{TITLE_NAME}の座に就きました。" />
+    <string id="7chepLLh" text="{?IS_GENERAL_SIDE}{?}の{SIDE_STRING}にある{\?}攻城兵器を破壊せよ" />
+    <string id="7cMUohRm" text="シミュレーションによる戦闘を指揮せよ。困難な戦いで勝利を収めるのだ。必要ならば、兵士を犠牲にして交戦を逃れろ。" />
+    <string id="7cnb2iEb" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、小競り合いをしています。" />
+    <string id="7EnFh9e5" text="位置：{LOCATION}" />
+    <string id="7EVjgrFW" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、ときおり小競り合いをしています。" />
+    <string id="7fjOwwVH" text="旅の友に助言を差し上げましょう。 私は先程{SETTLEMENT}で{.%}{ITEM_NAME}{.%}を{BUY_COST}{GOLD_ICON}で購入したいう商人に会いました。{DESTINATION}では{SELL_COST}{GOLD_ICON}で売れるそうです。" />
+    <string id="7h6cXdW7" text="技術者" />
+    <string id="7hj7Kaoz" text="総収入" />
+    <string id="7IqpjCDY" text="囚人を処刑するとあなたの評判に悪影響を与え、囚人の勢力やクランとの関係が悪化します。{newline}この行動は取り消すことができませんが、本当にこの英雄を処刑しますか？" />
+    <string id="7j4fQHg7" text="森での戦闘{newline}{newline}• 歩兵に小規模ボーナスが付与される。{newline}• 弓兵に中程度のペナルティが課せられる。{newline}• 騎兵に大幅なペナルティが課せられる。{newline}• 弓騎兵に深刻なペナルティが課せられる。" />
+    <string id="7JpAR59k" text="荷物用" />
+    <string id="7llkDelg" text="王国の決定" />
+    <string id="7mRN2br0" text="{HERO_NAME}に陣頭指揮権が与えられた。" />
+    <string id="7MSuWxaY" text="{CHILD.NAME}が{CHILD.AGE}歳を迎え、あなたの指導を必要としている。" />
+    <string id="7MWaMaez" text="これが俺たちの手に入れたものだ：{ITEM_LIST}。持っていけ。だが、命は助けてくれ。" />
+    <string id="7oJ9gIeT" text="交易商は十分なお金を持っていません。" />
+    <string id="7pAZatbz" text="{?RULER.GENDER}女帝{?}皇帝{\?}{RULER.NAME}" />
+    <string id="7sUhWG0E" text="突きダメージ： " />
+    <string id="7sZMMYbe" text="小規模勢力" />
+    <string id="7t1daAel" text="判断を誤ったな。[ib:aggressive][if:convo_very_stern]" />
+    <string id="7UNcl2xi" text="囚人を雇うことはできません" />
+    <string id="7uzvI8e8" text="王国の予算経費" />
+    <string id="7vdgxtwo" text="IV" />
+    <string id="7vrdpDFK" text="&lt;b&gt;マンゴネル&lt;/b&gt;{NEWLINE}ねじった縄を使って、岩を遠くまで射出する。{NEWLINE}防壁や敵の攻城兵器、あるいはその操縦者に対して効果的。" />
+    <string id="7W79uw0y" text="デフォルトに戻す" />
+    <string id="7Wcnipag" text="14" />
+    <string id="7WFFCVMa" text="特別" />
+    <string id="7xFRFV0P" text="防御円を形成する。" />
+    <string id="7Ywub9bC" text="防衛側はまだ要塞を維持しています。" />
+    <string id="7zaMwF08" text="あなたが{SETTLEMENT}を襲撃している間に、{PARTY}が村の支援に駆けつけました。あなたの決断は…" />
+    <string id="7zUWqY3O" text="左移動" />
+    <string id="80hwCw7B" text="反乱時の民兵-{BONUS_AMOUNT_PERCENT}%" />
+    <string id="83Yt9rbK" text="城壁が破られました" />
+    <string id="87qtKk4K" text="観戦する" />
+    <string id="87vr9BHq" text="{SETTLEMENT_NAME}の路地を率いています" />
+    <string id="88kOYf0b" text="兵士" />
+    <string id="893hzVCQ" text="&lt;b&gt;ファイアマンゴネル&lt;/b&gt;{NEWLINE}ギリシア火薬を詰めた壺を射出し、マンゴネルの強力な攻撃力と火薬の威力を掛け合わせる。" />
+    <string id="8apwrVjc" text="追加のクラン部隊" />
+    <string id="8B7V0qdT" text="バトルに敗北しました！" />
+    <string id="8bSHlWBL" text="この町では現在、競技会は開催されていません。" />
+    <string id="8c8NDpAd" text="{HERO.NAME}は{TRAIT_NAME}の特性を獲得した。" />
+    <string id="8cY08v3s" text="この村は平均的に裕福で、人も動物もしっかりと食事を取り、暮らしているように見えます。村人は季節の仕事に忙しい様子。" />
+    <string id="8fLMcFFG" text="{YEAR}年、{DAY_OF_YEAR}。あなたはドラゴンの旗を広げ、帝国を{?PLAYER_WANTS_RESTORE}復興{?}滅亡{\?}させるという、己の使命を宣言してみせた。" />
+    <string id="8geYNpC9" text="飛び道具による{THRUST_DAMAGE_TYPE}ダメージ： " />
+    <string id="8Gh3Waa3" text="妻" />
+    <string id="8iLzK3Y4" text="隊商と部隊の収入" />
+    <string id="8iONwXCz" text="22" />
+    <string id="8J7ABQhb" text="貴族乗用馬" />
+    <string id="8Jb61k7G" text="(+{GAIN_AMOUNT}  結束力)" />
+    <string id="8kVhiTmu" text="次のTier：" />
+    <string id="8l8xEu64" text="購入して装備" />
+    <string id="8LhfzIQE" text="負傷" />
+    <string id="8mBT44QK" text="{FACTION_INFORMAL_NAME}の貴族" />
+    <string id="8oaVYIlk" text="あなたは{SETTLEMENT_NAME}の外にいます。城が敵の占領下にあるため、中に入ることはできません。" />
+    <string id="8Rkxc5jE" text="食料がありません" />
+    <string id="8rzcgCO5" text="でソート" />
+    <string id="8ucLajpU" text="片手斧" />
+    <string id="8UFjXbbW" text="{?IS_GENERAL_SIDE}{?}を{SIDE_STRING}側{\?}から攻撃" />
+    <string id="8ZZgNNaY" text="{USE_KEY}" />
+    <string id="923438xA" text="{PLAYER.LINK}、素晴らしい。あなたは{OPPONENT_COUNT}以上の相手を打倒しました。その武勇をもって、大衆の人気者となりました。そしてもちろん、{PRIZE}{GOLD_ICON}の賞金も獲得しました。" />
+    <string id="929Lxhde" text="軍隊を見捨てた場合、影響力が{INFLUENCE_COST}失われます。" />
+    <string id="92M0Pb5T" text="斥候" />
+    <string id="984Ink0j" text="矢" />
+    <string id="9B5kxWb8" text="他の部隊は兵士の数が上限に達しています。{newline}一時的に隊を維持させることはできますが、しばらくするとすぐに部隊が解散してしまいます。{newline}本当によろしいですか？" />
+    <string id="9Bm06EEJ" text="この繁栄を成し遂げた支配者たちの英知への称賛が聞こえます。" />
+    <string id="9C0J0ZkT" text="歩兵に援護射撃。" />
+    <string id="9dcQ2VZv" text="私たちの計画は射撃兵士の周囲に、防衛戦を構築することだ。" />
+    <string id="9ECleB7I" text="自らの足で立って相手と決闘し、勝利をつかめ！" />
+    <string id="9EgIraI1" text="有効な方針" />
+    <string id="9esIWdDC" text="それなら見せしめにするしかないな。いまさら慈悲を請うようなマネはするなよ。[ib:aggressive][if:convo_bared_teeth]" />
+    <string id="9FhdRKWu" text="投げナイフ" />
+    <string id="9gNjg4P0" text="メインメニューに戻ります。進行は保存されません。" />
+    <string id="9iycVtyV" text="学習効率：{COUNT}倍" />
+    <string id="9Lhd2zVW" text="{YEAR}年、{DAY_OF_YEAR}。あなたはドラゴンの旗の最後のかけらを見つけました。今一度、この旗を広げる時がきました。" />
+    <string id="9NjDfz5Z" text="（{LEFT}/{RIGHT}）" />
+    <string id="9PLNQrWw" text="不満も少なく、人々は権力者を信頼しているようだ。" />
+    <string id="9pwIt4aa" text="蝋{@Plural}蝋の荷台{\@}" />
+    <string id="9yffPYUl" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、突撃しています。" />
+    <string id="9zpZRkYz" text="計画の進行をブーストさせると、一日あたりの建設が+{BOOST}になり、{COST}デナール消費します。" />
+    <string id="a0mJ0cVV" text="消費量" />
+    <string id="A0sT86A3" text="戦争が選択されていません" />
+    <string id="a0TiMLJ4" text="メインメニュー" />
+    <string id="a0YMy8E5" text="アップグレードするには、{REQUIRED_ITEM}が必要です。" />
+    <string id="a10WGnBr" text="反則！場外戦闘は禁止されているため、あなたは失格です！" />
+    <string id="a15eUf3B" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、壁の中で敵と戦っています。" />
+    <string id="A2OUHE2S" text="攻城戦の開始時に+{BONUS_AMOUNT}カタパルト" />
+    <string id="a3hmB91k" text="攻城兵器を建造し、操作しよう。攻城戦にて攻守両方にわたり、うまく使おう。" />
+    <string id="A3T5z4Mv" text="防御的" />
+    <string id="a3uKkLez" text="{LORD.LINK}が{SETTLEMENT_NAME}の近くの戦場にいます" />
+    <string id="a47CpGXN" text="パワーレベル" />
+    <string id="a5j1v7tM" text="私たちは、あなたの大義に従うことを拒否した人々が、どうなったかを聞いた。私たちは彼らのようにはなりたくないし、あなたと戦う理由もない。私たちはあなたの望むままに振る舞いましょう。" />
+    <string id="a6D6Ga2F" text="武器の射程： " />
+    <string id="a6FfHHVg" text="建築物効果" />
+    <string id="A6rK2YLJ" text="{?BONUS_AMOUNT == 1}小規模巡回部隊{?}{?BONUS_AMOUNT == 2}中規模巡回部隊{?}Strong patrol party{\?}{\?}" />
+    <string id="A7dcz7Yr" text="近接武器 II" />
+    <string id="a8zwLVKj" text="力" />
+    <string id="aa5tNRb9" text="クリティカル成功率" />
+    <string id="AagJ9cSL" text="{?ASKED_LORD.GENDER}彼女{?}彼{\?}がどこにいるのかはわかりません。" />
+    <string id="aaQtzfjL" text="{?PLAYER.GENDER}マダム{?}サー{\?}、よくぞ成し遂げました。我らがこのまま金とワインを独占し続けられれば、カルラディアにあなたが恐れるべき敵はもはやおりません。[ib:convo_approving]" />
+    <string id="aayrvLOX" text="それじゃあな。良い旅を。" />
+    <string id="aBgnQ1MO" text="統治者の割当" />
+    <string id="aBssWwIu" text="このまま続行すると、{GOVERNOR.NAME}が{SETTLEMENT_NAME}の新しい統治者となります。本当によろしいですか？" />
+    <string id="abV5bff6" text="ポーンを捕獲しました。" />
+    <string id="acbkKbT0" text="別の方法を試してみよう。" />
+    <string id="aCkzVUCR" text="ヒットポイント： " />
+    <string id="aCP5ZBbp" text="関係：" />
+    <string id="ADJQa8am" text="傭兵は他のクランを支援できません。" />
+    <string id="adtqbbGU" text="軍隊指揮官までの距離" />
+    <string id="aebVkHyA" text="戦いを諦めますか？" />
+    <string id="aECQrlkM" text="敵の攻城兵器を破壊せよ！" />
+    <string id="aepux62p" text="所有権の決定が下されるまで、集落は併合できません。" />
+    <string id="AewK9qME" text="集落の収入" />
+    <string id="af4G3RYV" text=" （バトル）" />
+    <string id="agIbuP9a" text="ほぉ立派なあざを作ってご機嫌ですね！心配ご無用、誰にでも負けることはあります。大切なのは体を起こして土を払い、戦い続けること。一流の戦士とはそういうもんです。" />
+    <string id="agkgu85j" text="包囲攻撃のために{SETTLEMENT}に到着しました。" />
+    <string id="aGNfjmsz" text="&lt;b&gt;はしご&lt;/b&gt;" />
+    <string id="aGSMGMfn" text="慈悲：" />
+    <string id="agYpWI9u" text="成功率" />
+    <string id="aH4KnzBu" text="慎重" />
+    <string id="AhcKMabs" text="襲撃された村" />
+    <string id="aHKwty74" text="行動を中止" />
+    <string id="aHu7bgbx" text="{YEAR}年、{DAY_OF_YEAR}。{HERO_NAME}が成人しました。" />
+    <string id="AI2Spvw0" text="選ぶ" />
+    <string id="AIh1Ik4A" text="カルラディア帝国" />
+    <string id="aiX4b5kS" text="完了したクエスト" />
+    <string id="AIYWSAyK" text="交易で利益を得よう。隊商を運営しよう。" />
+    <string id="aJAMnniz" text="{LEFT} &amp; {RIGHT}" />
+    <string id="aJoNj6JX" text="長柄系以外の両手武器を戦場で振るう。" />
+    <string id="aJXhsjmT" text="ごきげんよう、旅人さん。骨を砂に埋めてジャッカル共のエサになりたくなければ、俺たちの言う通りにするんだな。" />
+    <string id="ajZTZoXQ" text="両手メイス" />
+    <string id="AkgIYqHT" text="スルタナ" />
+    <string id="AkUpgiBl" text="Tier{TIER_LEVEL}" />
+    <string id="alEG3BOa" text="あなたの{CLAN_LEADER}との関係が、{MAGNITUDE}増加し{VALUE}になりました。" />
+    <string id="AMhvD9om" text="軍隊の指揮官" />
+    <string id="anrHk7ea" text="{PARTY}が敵への攻撃の先頭に立っています。兵士を率いて、{?ARMY_COMMANDER_GENDER}彼女{?}彼{\?}に加勢しましょう。" />
+    <string id="aNSAaHk9" text="バグ・シャルは羊（白）と狼（黒）のゲームです。{newline}狼は開始時から盤面上の4隅に、4体のポーンを所持しています。毎ターン、1体の羊が盤面上に配置され、1体の狼が移動もしくは捕獲を行います。全ての羊が盤面上に配置されるまで、これを行います。{newline}全ての羊が配置された後は、羊も盤面上で移動することができます。" />
+    <string id="anSH3M5W" text="{NUM1} x {NUM2}" />
+    <string id="aOvxxLZ8" text="食料の種類" />
+    <string id="Aph8CcKO" text="自由特質ポイント：このポイントは特質値を上昇させるために使用できます{newline}{ATTRIBUTE_EVERY_LEVEL}レベルごとに1ポイント獲得します " />
+    <string id="aqCj9dhC" text="守りに徹する必要はない。奴らの集落を包囲せよ！" />
+    <string id="AqHr4nRR" text="4" />
+    <string id="aR4e8B2A" text="II" />
+    <string id="archers" text="弓兵" />
+    <string id="arfabNbu" text="{YEAR}年、{DAY_OF_YEAR}。{NAME}が戦死しました。" />
+    <string id="arHXmqqc" text="ベグ" />
+    <string id="ARQY0vAz" text="遭遇戦中に軍隊の管理はできません" />
+    <string id="arWaVMpe" text="私たちは猛攻撃をしかけて、敵の攻城兵器を破壊せねばなりません。" />
+    <string id="aS3xHcD4" text="息子" />
+    <string id="asHzEWnG" text="ならばお前の血で、この地を汚してやろう。" />
+    <string id="AT5aTROe" text="7" />
+    <string id="AtFv5RMW" text="支払う献上金" />
+    <string id="ATsEQh7m" text="{SEASON} {?SEASON_IS_PLURAL}季節{?}季節{\?}" />
+    <string id="AtulqwTG" text="部隊リーダーを変更" />
+    <string id="AUDv8sEt" text="有効な問題" />
+    <string id="aUNYlvbN" text="{SETTLEMENT}を襲撃しに来ました。一部の住民があなたに抵抗しようと集まっています。" />
+    <string id="AUOio5Tu" text="デイリーデフォルト" />
+    <string id="AVQUGwTg" text="この町の裕福さは平均的です。" />
+    <string id="aVxmM2h1" text="占拠した城" />
+    <string id="AWW0T6xR" text="ポーンは1度に1タイル、直交方向に移動することができます。{newline}ポーンは前のターンにいた位置に戻ることはできません。{newline}一方のプレイヤーが移動できない場合、そのプレイヤーは相手のポーンを1つ取り除き、移動することができます。" />
+    <string id="aY2SKxqG" text="奴らの村を襲え！" />
+    <string id="b0Mv6mZy" text="城を奪い返せ！" />
+    <string id="b0yJ9JsW" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、壁に攻撃しています。" />
+    <string id="b1c0Sh4A" text="21" />
+    <string id="B1j4F6i7" text="{?DAY_IS_PLURAL}日{?}日{\?}" />
+    <string id="b1Ra7gHa" text="遠隔武器 II" />
+    <string id="b1vtY2yU" text="予想" />
+    <string id="b5DWVsOZ" text="{HERO.NAME}が戦死しました。" />
+    <string id="B5J6DbpG" text="食料が確保できる残日数: {REMAINING_DAYS}{newline}{newline}食料合計: {TOTAL_FOOD_AMOUNT}{newline}一日の消費量: {DAILY_FOOD_CONSUMPTION}" />
+    <string id="b5t34yLX" text="馬の引き具" />
+    <string id="b6biU4f1" text="新しい部隊を編成" />
+    <string id="b778BvfW" text="この道具は、平均よりも{PERCENTAGE}%高いな。" />
+    <string id="b7aDfCR9" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、防衛しています。" />
+    <string id="b7bWCXbk" text="さあ行くがいい、小さな羊よ。{newline}他の狼の群れにも気をつけてな。" />
+    <string id="b7U3Gvuu" text="怒った村人の中には、つい最近もあなたの要求を満たしたばかりだと言っている者もいる。このままでは、手に負えない状態になるだろう。" />
+    <string id="baFazbmR" text="鉄{@Plural}鉄鉱石の荷台{\@}" />
+    <string id="baHmYsx3" text="両手武器" />
+    <string id="bAHNQGAw" text="仲間が助けを必要としている。包囲を解除しろ！" />
+    <string id="baIUUw1c" text="選択したクランへの影響力を増すには、自身の影響力を消費します。" />
+    <string id="bARwyXXZ" text="アップグレード可能な兵士" />
+    <string id="Basxo8Hv" text="駐屯地の賃金-{BONUS_AMOUNT_PERCENT}%" />
+    <string id="bB4602W2" text="突き{THRUST_DAMAGE_TYPE}ダメージ： " />
+    <string id="bbmrHzRF" text="{SETTLEMENT_NAME}にクランメンバーを派遣する" />
+    <string id="bBXGPgwe" text="我が娘{REFERING_HERO.LINK}" />
+    <string id="BbYFboh2" text="{RULER.NAME}・{?RULER.GENDER}ベーグム{?}ベグ{\?}" />
+    <string id="bcmlu1ml" text="{?ASKED_LORD.GENDER}彼女{?}彼{\?}は{PRISON_PARTY_LEADER.LINK}の囚人だ。" />
+    <string id="bcR8D3x2" text="{A0} 経費" />
+    <string id="BD8Mi02a" text="{ASKED_LORD.LINK}は現在逃亡中だ。" />
+    <string id="BdFaNDom" text="この英雄は既に路地のリーダーです。" />
+    <string id="bdFJgWp3" text="防衛側の旗" />
+    <string id="Bdg4kSqC" text=" ({NUMBER_OF_MEN})" />
+    <string id="bdJtVxQp" text="あなたは{TRADE_AMOUNT}{INFLUENCE_ICON}を{?PAY_OR_GET}獲得し{?}失い{\?}ます。" />
+    <string id="bdQBpUba" text="親切なこった。おかげさまで手ぶらで帰らずに済むぜ。" />
+    <string id="bdvTPbLB" text="突撃攻撃が可能" />
+    <string id="BE1scex6" text="作業場の一日あたりの利益" />
+    <string id="bF38BIoe" text="積載量： " />
+    <string id="bFpLKvcS" text="ハン" />
+    <string id="BFSWJKHI" text="王国からこのクランを追放する提案をする（支持：{SUPPORT}%）" />
+    <string id="BftxIurV" text="{DECISION_NAME}の決定を、決議する必要があります。" />
+    <string id="bg6x6Hbv" text="兜" />
+    <string id="Bg83jhCR" text="この町は明らかに困難な状況にある。人々は栄養失調に見えるし、建物も手入れされていない。" />
+    <string id="bg8co4he" text="屠殺{newline}この行動を取り消すことはできません。" />
+    <string id="bh2v8n4K" text="衣服{@Plural}衣服の荷台{\@}" />
+    <string id="bh9U2fsZ" text="義理の息子" />
+    <string id="BhGlPxqx" text="移動可能な部隊のみ解散できます" />
+    <string id="BhiOmgst" text="包囲されている" />
+    <string id="bigbrother" text="兄弟" />
+    <string id="bigsister" text="姉妹" />
+    <string id="BixmxJPX" text="この敵に対し、家臣が襲撃や攻城戦といった攻撃的な行動を取る可能性が上がります。" />
+    <string id="bJ5SzaXp" text="負傷" />
+    <string id="bjxBjKH2" text="お嬢様" />
+    <string id="BkB9aOhw" text="今は旗ウィンドウを開けません！" />
+    <string id="BKFcRo7f" text="孫" />
+    <string id="Bl7UdJup" text="甥" />
+    <string id="bLWyjOdS" text="胴体の防具： " />
+    <string id="Bm4yZBWb" text="あなたは{SETTLEMENT_NAME}で{newline}囚われています。" />
+    <string id="bMjtFIba" text="ギリギリのご到着だな！{PLAYER.LINK}。心から感謝するよ！" />
+    <string id="BMQ5SHOH" text="馬具 I" />
+    <string id="bN8gqxtB" text="バトル終了" />
+    <string id="BNAHlS9P" text="本当によろしいですか？この行動を取り消すことはできません。" />
+    <string id="bNoCJyi9" text="高貴" />
+    <string id="bO5kjF3G" text="名誉：" />
+    <string id="BObPGFCw" text="拾って装備" />
+    <string id="bPCAdgLs" text="率いる陣形を選択" />
+    <string id="BPVFAl7J" text="私たちの計画は、歩兵部隊の周囲を全力で攻撃することだ。" />
+    <string id="BPVmRxrA" text="{FACTION}と同盟を結ぶ" />
+    <string id="bPXvukDs" text="移動と捕獲" />
+    <string id="bPzyoTEF" text="後悔させてやる。[ib:aggressive][if:convo_insulted]" />
+    <string id="BQDrheU6" text="布{@Plural}布の荷台{\@}" />
+    <string id="brQ42NE5" text="習熟方法" />
+    <string id="BsdOl4He" text="反則！対戦相手が馬を攻撃したため、{?OPPONENT_GENDER}彼{?}彼女{\?}は失格となります！" />
+    <string id="BSmAtdWF" text="包囲を解除しろ！" />
+    <string id="bTAkmho7" text="アップグレードに必要なXP：{XP_AMOUNT}" />
+    <string id="Btglp7Ij" text="自分のクランを追放することはできません。" />
+    <string id="btil6Rdb" text="どれどれ？山の精霊たちが我らの祈りに答え、狩りの成功を与えてくれたようだ。" />
+    <string id="BtnJh0j4" text="戦争中" />
+    <string id="buQvCDbP" text="{SETTLEMENT_NAME}を防衛しに移動中。" />
+    <string id="BVaXBAr9" text="ダイスを振る" />
+    <string id="bWcpv1ou" text="集落が選択されていません" />
+    <string id="bWVG2s2h" text="相手のポーンと隣接しているポーンは、中央のタイルにしか移動できません。{newline}すべてのポーンは、外側の縁に沿って自由に移動できます。{newline}中央のタイルのポーンは、利用可能な任意のタイルに移動できます。" />
+    <string id="bWz3rWWq" text="賢いハエだ。いくら出す？" />
+    <string id="bWzRXUbp" text="クランメンバーを呼び戻す" />
+    <string id="BX8RG4Dj" text="応答" />
+    <string id="BxeU4zMb" text="同じ名前のクランがすでに存在しています。" />
+    <string id="bXS5KHk8" text="あなたは決闘に勝利しました。軍隊はあなたの力に勇気づけられます。あなたの部隊の士気が上昇しました。" />
+    <string id="BY5RMAoj" text="あなたは{ATTACKER_NAME}から{AMOUNT} {DAMAGE_TYPE}ダメージを受けました。 （HPの{LOST_HP_PERCENTAGE}%）" />
+    <string id="bZJs2AQX" text="手持ちのお金です： {MONEY}{GOLD_ICON}。そしてこれらが商品です： {ITEM_LIST}。どうぞ持って行ってください。ただ命ばかりはお助けください、{?PLAYER.GENDER}マダム{?}サー{\?}" />
+    <string id="bzrOHiS8" text="人々は、まるで失うものがなにもないと言わんばかりに、権力者を罵っている。" />
+    <string id="C0llOApK" text="{HERO}の軍隊" />
+    <string id="c1Ag8YJS" text="バッタニア人は森がカルラディア北部に広がり、帝国とその都市が彼らの聖域を侵すことはなかった過去を覚えている。猛者たちは今でも、昔ながらの伝統的なやり方に忠実であり続けており、戦いに赴く際には貴族ですら顔に紋様を描き、絶大な威力を誇る大斧や両手剣を存分に振るうために、自らの足で戦場を踏みしだく。" />
+    <string id="c1g7MC9D" text="クランTierボーナス" />
+    <string id="c3cdHImi" text="相手のポーンを捕獲するには、対象を両側から挟みます。ポーンが、相手側のポーン2体の間を移動する場合は、捕獲されません。{newline}最初の2つの画像の場合は、白いポーンが黒いポーンによって捕獲されます。最後の2つの場合は捕獲されません。" />
+    <string id="c4Pmtkle" text="乗騎と鞍" />
+    <string id="c6Ei8Fqh" text="{FACTION_INFORMAL_NAME}の家臣" />
+    <string id="C6n2tZlQ" text="我が味方{REFERING_HERO.LINK}" />
+    <string id="c7bVbjD7" text="望みのままに。これから我らはあなたのために戦います。" />
+    <string id="C9EDof32" text="軍隊が選択されていません" />
+    <string id="caadBNhn" text="攻城塔（レベル3）" />
+    <string id="caaxvMcY" text="親戚" />
+    <string id="CaeFx54J" text="獲得した影響力：+ {INFLUENCE} {INFLUENCE_ICON}" />
+    <string id="caFEBWSY" text="対戦相手があなたを打ち負かしました。あなたは敗北しました。" />
+    <string id="cAgI2lPn" text="{SETTLEMENT_NAME}の統治者" />
+    <string id="calculatinglevel3trait" text="計算高さ" />
+    <string id="caPP57v9" text="備蓄に移動" />
+    <string id="CaW72yB3" text="合計コスト" />
+    <string id="cBNSgpZN" text="{CLAN_NAME}との関係性が&lt;a style=&quot;IncreaseStyle&quot; &gt;&lt;b&gt;{AMOUNT}&lt;/b&gt;&lt;/a&gt;上昇します。" />
+    <string id="cBY2MxY0" text="王女" />
+    <string id="CcAG3D8Q" text="割当なし" />
+    <string id="ccUEYdrU" text="軍隊に参加する" />
+    <string id="cDjq52h2" text="兵長" />
+    <string id="centerformation" text="中心地" />
+    <string id="CgAGsR1P" text="29" />
+    <string id="chieftainfemale" text="女族長" />
+    <string id="ChmM5tjf" text="ゲームは引き分けです！" />
+    <string id="cJmI2poS" text="情報" />
+    <string id="cjZqTaHm" text="影響力が足りません。" />
+    <string id="CKGavOyA" text="片手および、両手用の長柄武器を戦場で振るう。" />
+    <string id="cKKYSB0z" text="{AMOUNT}{GOLD_ICON}失いました。" />
+    <string id="ckPhG1KV" text="管理する村" />
+    <string id="CkwERBcS" text="味方陣営の後ろで散兵戦をおこなう。" />
+    <string id="cmn6qNoX" text="散兵" />
+    <string id="cMrROb6w" text="選択可能なクエスト" />
+    <string id="cNaiQyva" text="16" />
+    <string id="coastalPatrolPartyName" text="{SETTLEMENT}の沿岸巡回" />
+    <string id="CObuCGjA" text="{CLAN_NAME}から婚姻の提案" />
+    <string id="CODsu5Ok" text="新たなキャンペーン" />
+    <string id="COhJ2HsU" text="{HOUR}時間後、自動的に決定されます。" />
+    <string id="CoHPb7DL" text="私たちの計画は、騎兵で彼らを粉砕し、残りを追撃で掃討することだ。" />
+    <string id="CP7ebY11" text="振り攻撃で騎手を乗騎から落とすことができます" />
+    <string id="cpaUPZ4c" text="この土地の通行料は、俺らに払ってもらわないといけないんでね。あんたの財布から、ちょいと俺らへの支払い分を回収させてもらうぜ…" />
+    <string id="cqI6P8fr" text="城壁から射撃" />
+    <string id="cQWCp9F1" text="一日あたりの部隊賃金" />
+    <string id="cr9fxFyS" text="盾に対するボーナス" />
+    <string id="cRMgjRMP" text="よぉし、後で身包み剥いで調べるよりも、紳士的に取引を行った方が随分と楽だからな。[ib:hip][rf:convo_bemused]" />
+    <string id="CRR7cYhJ" text="現在建築中" />
+    <string id="cRwZI5o2" text="最近の出来事" />
+    <string id="cSuNR48H" text="作業場の経費" />
+    <string id="CthDdsb6" text="勝者" />
+    <string id="cThSwxbP" text="英雄でない囚人を処刑することはできません" />
+    <string id="CVymZs3m" text="戦争乗用馬" />
+    <string id="cXnQaNfe" text="意思決定への影響はありません。" />
+    <string id="CXUXk5ai" text="皇族" />
+    <string id="cyPGadJ6" text="自動配備" />
+    <string id="CyTa1Z5d" text="{TEXT} [{HOTKEY}]" />
+    <string id="CzIslwx5" text="この政策の撤廃を検討する（支持：{SUPPORT}%）" />
+    <string id="CZqZGAVB" text="物々交換の申し出が拒否されました！" />
+    <string id="D2KdSGGJ" text="あなたは{SETTLEMENT_NAME}の外にいます。中に入ることはできません。通常、敵の町に近づくと道路は閑散としているものですが、今回は野次馬がいて、時折歓声まで聞こえてきました。{FACTION_INFORMAL_NAME}に忠誠を誓う住民はほとんどおらず、民兵も街の防衛のために武器を取ることはないだろうとあなたは考えます。" />
+    <string id="d4n8AuUh" text="味方兵士が撤退しています。あなたの敗北です。" />
+    <string id="d4OPyxom" text="倉庫の容量を超えました。" />
+    <string id="D5QlXOV0" text="重大な失敗と全体の説得機会の失敗" />
+    <string id="d68pZq4j" text="必要なスキルレベル" />
+    <string id="D7KllIPI" text="問題" />
+    <string id="D7ooUTqV" text="あなたは倒れました！" />
+    <string id="D8Wjbw9K" text="私は捕まりましたが、その後どうにか逃げ出したのです。" />
+    <string id="D9WJXQ9Z" text="却下" />
+    <string id="da5WMfiJ" text="この集落を誰かに与えるための提案を議題に載せる（支持：{SUPPORT}%）" />
+    <string id="DaMQ9c3T" text="村での戦闘{newline}{newline}• 歩兵に小規模ボーナスが付与される。{newline}• 防御中、弓兵に小規模なボーナスが付与される。{newline}• 防御中、騎兵に中程度のペナルティが課せられる。" />
+    <string id="DaX6bsaD" text="{SETTLEMENT_NAME}の近くで、{CLAN_PARTY_NAME} が{ENEMY_PARTY_NAME}に攻撃されています" />
+    <string id="dbdliaP3" text="我が妻{REFERING_HERO.LINK}" />
+    <string id="dbRtrxYq" text="{PRISONER_FACTION_LINK}の{PRISONER_LORD.LINK}は戦いの後に解放されました。" />
+    <string id="DBU4VaIl" text="盗賊勢力" />
+    <string id="dc24lBcV" text="近接武器 IV" />
+    <string id="dcV0iOYB" text="兵を集め、戦いに備えよ！" />
+    <string id="dd7Owiys" text="{FACTION}と和平を結ぶ" />
+    <string id="DdXZHifm" text="{ATTRIBUTE_NAME}の増加で、スキルポイントが{newline}獲得しやすくなり、ポイントの上限値も増加する" />
+    <string id="debCJDAZ" text="遭遇戦中は、このアクションを実行できません。" />
+    <string id="depxBZNO" text="リーダーシップ・スキルレベル・ボーナス" />
+    <string id="dfwCjiRx" text="{A0}の交易税" />
+    <string id="dgaf7Jpb" text="設定" />
+    <string id="DGbSsANY" text="{HERO.NAME}が老衰で亡くなりました。" />
+    <string id="dGDYBpzz" text="西部の帝国" />
+    <string id="DGOgsMfx" text="身代金が支払われ、{PRISONER.NAME}は解放されました。" />
+    <string id="di4MlBRx" text="{NUMBER_OF} {ITEM}" />
+    <string id="DItheHi7" text="予備兵として残る" />
+    <string id="DIuI1moW" text="徒党集団のリーダー" />
+    <string id="dJbaRaAD" text="食料が尽きるまでの日数" />
+    <string id="DJgeYv9X" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、控えに移動しています。" />
+    <string id="DjoYTx2w" text="傭兵は軍隊を集められません" />
+    <string id="DkaNhxpg" text="本当に王位を放棄しますか？{?WILL_DESTROY}{newline}統率する他のクランは存在しません。あなたの王国は破壊されます。{?}{\?}" />
+    <string id="dKcvwi6V" text="おやおや、見てみろよ！おとなしく少しの銀貨を渡しちまった方が、身のためだぜ。でないと俺と部下たちで、ボコボコにしちまうぞ。" />
+    <string id="dKXdN4BL" text="あなたは軍隊を率いています" />
+    <string id="DM6luo3c" text="続ける" />
+    <string id="dMKyWmJ6" text="あなたは敵に囚われました。" />
+    <string id="dO5tqXT8" text="元配偶者" />
+    <string id="DOaIBObZ" text="（建設中のプロジェクトがない時、デイリーデフォルトが有効になります）" />
+    <string id="DOKG38dF" text="チュートリアルが有効" />
+    <string id="DPbv2cOo" text="再配備中" />
+    <string id="dpPMuLa4" text="完遂できる指令がありません。" />
+    <string id="DqJG7bvh" text="容量を超えました" />
+    <string id="dQRdP9eQ" text="遭遇戦" />
+    <string id="DRaJ7hoz" text="勝者は" />
+    <string id="Dtcv8XNu" text="&lt;b&gt;攻城塔&lt;/b&gt;{NEWLINE}壁の上に登るのに使用する。ただのハシゴよりも有効。" />
+    <string id="DTRwTvT4" text="弓騎兵、散れ！" />
+    <string id="DTt1aeSj" text="{?IS_POSITIVE}+{?}-{\?}{ITEM_AMOUNT} {ITEM_TYPE}" />
+    <string id="DTWem4V1" text="この備蓄" />
+    <string id="DuFg1avZ" text="次のレベルまで：{NEXT_SKILL_POINTS}" />
+    <string id="Duoo5R2P" text="闘技場の主" />
+    <string id="dxtuFW8b" text="なかなかいい戦いぶりでしたね。何手か見事な動きも見えました。多少残念な点もありましたが、見込みはあります。{newline}そうそう、{OPPONENT_COUNT}人の敵を倒した賞金{PRIZE}{GOLD_ICON}です。" />
+    <string id="DyarV8i7" text="この政策に対して、提案された決定がすでにあります。" />
+    <string id="dyLYsWPf" text="心強い存在のパークボーナス" />
+    <string id="dyY3hkH1" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、{?IS_PLURAL}異なる敵陣に{?}敵陣に{\?}突撃しています。" />
+    <string id="Dzntsudy" text="あなたは{VICTIM_NAME}に{AMOUNT} {DAMAGE_TYPE}ダメージを与えました。 (HPの{LOST_HP_PERCENTAGE}%)" />
+    <string id="E05lmb5n" text="あなたの{HERO_NAME}との関係は&lt;a style=&quot;DecreaseStyle&quot; &gt;&lt;b&gt;悪化します&lt;/b&gt;&lt;/a&gt;" />
+    <string id="E0lb2Z2r" text="{YEAR}年、{DAY_OF_YEAR}。帝国に対する陰謀が成功し、{FACTION_NAMES}の軍隊が結託して戦場に立つことになった。" />
+    <string id="e1tZ4kEY" text="全てのもの" />
+    <string id="E3BsEDav" text="部隊の財政支援" />
+    <string id="e4OPfBqt" text="棄権" />
+    <string id="eAGeVRjI" text="{GOLD_AMOUNT}{GOLD_ICON}受け取りました。" />
+    <string id="EAicirVE" text="大胆不敵" />
+    <string id="eaIQXj6O" text="自由特質ポイント：{NUMBER}" />
+    <string id="ealIwlQH" text="{SETTLEMENT_NAME}を防衛中" />
+    <string id="eavr4x8n" text="建設:" />
+    <string id="EbB9y2zZ" text="宣戦布告" />
+    <string id="eDVvDS1i" text="村人" />
+    <string id="eEmbb1MR" text="生産物" />
+    <string id="eHBvuPk6" text="26" />
+    <string id="EHkzaZBi" text="{SETTLEMENT_NAME}の競技会" />
+    <string id="Ej0QNsY9" text="15" />
+    <string id="eJgaemO5" text="賭け金からの収益：{BET} {GOLD_ICON}" />
+    <string id="ejhFyhyx" text="&lt;b&gt;攻城塔&lt;/b&gt;&lt;br&gt;{NEWLINE}攻撃側を壁と同じ高さにまで登らせ、防御側との互角な戦いを可能にする。" />
+    <string id="ekQP9052" text="草原地帯での戦闘{newline}{newline}• 騎兵に大幅なボーナスが付与される。{newline}• 弓騎兵に大幅なボーナスが付与される。" />
+    <string id="eKwhGmbI" text="この兵士が{XP_AMOUNT}xpを獲得した後、もう1兵士を追加でアップグレード可能です" />
+    <string id="EL7lZLXN" text="ノックダウン可能" />
+    <string id="elhSbQfW" text="我が血族{REFERING_HERO.LINK}" />
+    <string id="EMCISbYJ" text="戦闘装束" />
+    <string id="empiremembers" text="帝国" />
+    <string id="eMsA4Vk0" text="この部隊は大きくなるでしょう。現在の規模の目標は{TARGET_SIZE}です。" />
+    <string id="EMVLtu5L" text="{HERO.LINK}:{SKILL_NAME}{?PLURAL}+{GAINED_POINTS}！{?}+1！{\?}{newline}（現在の{SKILL_NAME}値：{UPDATED_SKILL_LEVEL}）" />
+    <string id="enhza8zr" text="勢力" />
+    <string id="eNQgzubm" text="自らの足で戦場に立って戦う。キャンペーンマップを徒歩で移動する。" />
+    <string id="entirestackdiscarditems" text="[{KEY_NAME}]同時押し：全て" />
+    <string id="entirestackrecruitunits" text="[{KEY_NAME}]同時押し：全て" />
+    <string id="entirestacktakeitems" text="[{KEY_NAME}]同時押し：全て" />
+    <string id="entirestacktransfertroops" text="[{KEY_NAME}]同時押し：全て" />
+    <string id="entirestackupgradeunits" text="[{KEY_NAME}]同時押し：全て" />
+    <string id="ENzvOHsA" text="{ASKED_LORD.LINK}が戦場にいる。今、{?ASKED_LORD.GENDER}彼女{?}彼{\?}は {SETTLEMENT_NAME}に近づいているはずだ。" />
+    <string id="EOhmOITp" text="関係するクエスト目標を追跡" />
+    <string id="EPGDe5fG" text="捕獲が可能なのは狼のみです。羊を飛び越え、その後ろにある空いているタイルに移動することで、羊を捕獲することができます。また、捕獲は盤面上の線に沿っておこないます。" />
+    <string id="eqAc8AOs" text="{LEFT}：" />
+    <string id="eRqURgZY" text="バッタニア" />
+    <string id="es0Y3Bxc" text="参加" />
+    <string id="esxNxipn" text="士気が低下している部隊" />
+    <string id="eTyaQ1sG" text="キャンペーンを再開" />
+    <string id="eu25AFfI" text="今はインベントリを開けません！" />
+    <string id="EuEJ08Dg" text="健康な防衛兵の数" />
+    <string id="eufhFrnC" text="{VILLAGE_NAME}の村人" />
+    <string id="EuGCNdHG" text="王国を去る" />
+    <string id="EUmwEtap" text="素晴らしい戦いでした、{PLAYER.LINK}。あなたは{OPPONENT_COUNT}人の敵を打倒しました。もちろん、あなたの戦績にふさわしい賞金も用意しています。{newline}{PRIZE}{GOLD_ICON}です。ご機嫌でしょう？" />
+    <string id="eURzhtb0" text="{PARTY_NAME}を招集中。" />
+    <string id="EUzxzL9s" text="頭部の防具： " />
+    <string id="EV0av1mc" text="リーダーレベルボーナス" />
+    <string id="evuR5kwf" text="この辺りでは{ITEM_NAME}が、他の町よりも安く売られているという噂があります。ここでいくつか購入しておいて、より高値で売られている{TOWN_NAME}まで運んでいけば、一つあたり{PRICE_DIFF}{GOLD_ICON}程度のの利益が見込めます。" />
+    <string id="EvvMNX3A" text="先攻プレーヤーは、盤面上から取り除く4つのポーンのうちの、1つを選びます。{newline}次に、もう一方のプレイヤーが、自分の隣接したポーンのいずれかを選んで取り除きます。先攻プレーヤーのポーンが中央にあった場合、もう一人のプレーヤーも、中央にある2つのポーンのうちの1つを、取り除かなければなりません。{newline}{newline}ゲームを開始します。" />
+    <string id="EWa1R7bv" text="敵 " />
+    <string id="EWq48MmD" text="{LEFT}: {RIGHT}" />
+    <string id="EWRoIdbA" text="盗賊" />
+    <string id="exhusbandbrotherinlaw" text="かつての義兄弟" />
+    <string id="exhusbandfatherinlaw" text="かつての義父" />
+    <string id="exhusbandmotherinlaw" text="かつての義母" />
+    <string id="exhusbandsisterinlaw" text="かつての義姉妹" />
+    <string id="exwifebrotherinlaw" text="かつての義兄弟" />
+    <string id="exwifefatherinlaw" text="かつての義父" />
+    <string id="exwifemotherinlaw" text="かつての義母" />
+    <string id="exwifesisterinlaw" text="かつての義姉妹" />
+    <string id="ey5OcaGI" text="盾との併用は不可" />
+    <string id="eyMU7X0e" text="あなたは王であり、投票しています。支配者は最後に投票し、結果を決めます。" />
+    <string id="EZLs7hLL" text="お前！動くな！銀貨を出しな。{newline}これはハッタリなんかじゃないぜ。[if:convo_angry]" />
+    <string id="EzrK2tnA" text="戦闘中は軍隊を管理することはできません" />
+    <string id="F3U9AtmF" text="9" />
+    <string id="F3UEOdTT" text="従属村の生産+{BONUS_AMOUNT}" />
+    <string id="F4RMyaR5" text="{PARTY}と遭遇しました。" />
+    <string id="F5UPr9jh" text="全て受け取る" />
+    <string id="F6GhrriD" text="王国を作成" />
+    <string id="f6gSyvnC" text="戦場で弓を用いて敵を射る。{newline}ヘッドショットや遠距離の敵への命中でXPボーナス。" />
+    <string id="f6pjlKdz" text="昨日" />
+    <string id="f7t4saJu" text="価値" />
+    <string id="f7vOVQb7" text="夏" />
+    <string id="F8g1TzoX" text="{SETTLEMENT_NAME}の外にいます。{LORD.LINK}の旗が、城門の上にはためいているのが見えます。" />
+    <string id="Fa16r8MN" text="囚人を処刑する" />
+    <string id="Fa2nKXxI" text="統治者" />
+    <string id="fAEvWw8z" text="防衛側は後退し、要塞の中で最後の抵抗をしています。" />
+    <string id="fApjg2ae" text="アセライ" />
+    <string id="faYiCHXK" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、射撃位置に移動しています。" />
+    <string id="FbcC2loc" text="あなたは気絶させられ、相手側が勝利を得ました！" />
+    <string id="FC64p6ED" text="健康な攻撃兵の数" />
+    <string id="fd35ahzV" text="&lt;b&gt;ファイアバリスタ&lt;/b&gt;{NEWLINE}先端にタールを塗ったボルトを放ちます。{NEWLINE}敵の攻城兵器や木造建築物を燃やし、兵士にも致命傷を与えます。" />
+    <string id="FdTd3yIx" text="変更を適用できませんでした。設定しなおして画面を変更しますか？" />
+    <string id="FEFBObjR" text="{PRISONER_FACTION_LINK}の{PRISONER_LORD.LINK}は{CAPTURER_LORD.LINK}の捕虜になりました。" />
+    <string id="fEJQcb4U" text="忠誠の変動" />
+    <string id="fEqd7jXj" text="{EFFECT_NAME}: +{NUM}" />
+    <string id="fEu5S6Bd" text="距離" />
+    <string id="fEXuXAl1" text="軍隊の士気：{ARMY_MORALE}{newline}{ARMY_MORALE_ITEMS}" />
+    <string id="FfVdGZsj" text="食料生産に+{BONUS_AMOUNT}ボーナス" />
+    <string id="Fg9qCGUu" text="ブドウ{@Plural}ブドウの袋{\@}" />
+    <string id="fivestackdiscarditems" text="[{KEY_NAME}]同時押し：x5" />
+    <string id="fivestackrecruitunits" text="[{KEY_NAME}]同時押し：x5" />
+    <string id="fivestacktakeitems" text="[{KEY_NAME}]同時押し：x5" />
+    <string id="fivestacktransfertroops" text="[{KEY_NAME}]同時押し：x5" />
+    <string id="fivestackupgradeunits" text="[{KEY_NAME}]同時押し：x5" />
+    <string id="FjRiPhEI" text="撤退した部隊" />
+    <string id="FLa5OuyK" text="放浪者" />
+    <string id="FLrzc1uk" text="それなら喉をかっ切るしかない。もちろん、道徳的見地からだ。立派な不法侵入だからな。" />
+    <string id="fMh5KZfk" text="ここに留まる必要はない。行こう！" />
+    <string id="FmIIQEQD" text="{HERO.NAME}が死亡しました。" />
+    <string id="fMmlUHyz" text="振りダメージ： " />
+    <string id="forgeverb" text="鍛造" />
+    <string id="FpI5JMZq" text="取引は白紙に戻りました" />
+    <string id="fQ2RLaOa" text="クランは領土を所有していません" />
+    <string id="fQAGU9GW" text="度量：" />
+    <string id="FqwHAxuM" text="両手用の長柄武器" />
+    <string id="FRepQsmO" text="その競技会は、馬上槍試合になるでしょう。" />
+    <string id="frt7AmX0" text="{MAJOR_PARTY_LEADER}の駐屯地" />
+    <string id="fRu5Y4OT" text="私は負傷し、死んだものとして見捨てられました" />
+    <string id="FRuzuVyO" text="クランが選択されていません" />
+    <string id="FS78CuPs" text="特質({ATTRIBUTE_NAME})が関係するスキル：" />
+    <string id="FSl1LFP6" text="{CLAN}が{AMOUNT_TO_ADD}の名声を獲得しました。新たな名声は{NEW_RENOWN}です。" />
+    <string id="fTyJB9wd" text="24" />
+    <string id="fUNa6FAo" text="バトル中に{MISSION_INDICATORS_KEY}を長押しすることで、敵と味方の隊の上にマーカーを表示させます。" />
+    <string id="FuxkL78G" text="{YEAR} {?YEAR_IS_PLURAL}年{?}年{\?}" />
+    <string id="FuYivUV1" text="{YEAR}年、{DAY_OF_YEAR}。あなたは{RULER.NAME}が帝国を{?PLAYER_WANTS_RESTORE}復興{?}滅亡{\?}させる戦いを率いてくれることを期待して、{?RULER.GENDER}彼{?}彼女{\?}に忠誠を誓いました。" />
+    <string id="fV2FfLWq" text="建設に+{BONUS_AMOUNT}ボーナス（1日あたり）" />
+    <string id="FVEvjlis" text="部隊規模の上限を超えました" />
+    <string id="fveVnpbZ" text="親類" />
+    <string id="FvO5B2bJ" text="{PRISONER_LORD.LINK}は解放されました。" />
+    <string id="FwlZRESM" text="民兵に+{BONUS_AMOUNT}ボーナス" />
+    <string id="fWwYUOVs" text="それで手を打とう。" />
+    <string id="FxoVjLvl" text="盾&amp;遠隔" />
+    <string id="FxPzcyLN" text="{SUPPORTERNAME}は{CANDIDATENAME}を支援しています" />
+    <string id="FZBqNCvd" text="誰でもない" />
+    <string id="g0gDsalr" text="衝動的" />
+    <string id="g1KLcfxT" text="この村は繁栄している。溢れんばかりの穀物が入った袋、健康な動物、荷を積んだ荷車が畑の豊かさを物語っている。" />
+    <string id="G4XXubLg" text="首長" />
+    <string id="G5yvspkZ" text="撤退できません、決闘中です！" />
+    <string id="g6J4Oe6z" text="クラン名は{MIN} - {MAX}文字である必要があります。" />
+    <string id="g7zo28KR" text="{PARTY}と遭遇しました。あなたの圧倒的な力に対して彼らに勝ち目はなく、降伏しました。" />
+    <string id="g8nrakuu" text="近接武器 I" />
+    <string id="G95mB3b3" text="今はキャラクターウィンドウを開けません！" />
+    <string id="gA5fByM2" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、{#IS_LEFT}{#}右の防壁{#}複数の防壁{\#}{?IS_MIDDLE}中央の防壁{?}{\?}{?IS_RIGHT}左の防壁{?}{\?}を奪還しようとしています。" />
+    <string id="gamefinance" text="財務" />
+    <string id="gAX49b7b" text="あなたは障害物を構築しましたが、残っているポーンが相手と同数です。ゲームは引き分けです！" />
+    <string id="GAzaM1RC" text="肉と革のために屠殺することができます" />
+    <string id="GbbGlcMZ" text="ポーンは垂直または水平方向にある、どのタイルにも移動できますが、他のポーンを飛び越えることはできません。{newline}また、中央のタイルに移動したり、それを越えて移動することもできません。さらに、キングがいったんこのタイルから離れた場合も同様に、そのタイルを越えることはできなくなります。" />
+    <string id="gCaT2BTu" text="{PRISONER.NAME}は和平協定の後、解放されました。" />
+    <string id="gdi8TAMM" text="部下が略奪を始めると、武器を手にする村人が増えてきました。どうやら勇気を振り絞り、襲いかかろうとしているようです。" />
+    <string id="gdraqMso" text="{SETTLEMENT_NAME}の外にいます。中に入ることはできません。" />
+    <string id="gdUE1h39" text="貿易協定の締結を検討する（支持：{SUPPORT}%）" />
+    <string id="GDugjWao" text="{MONEY}{GOLD_ICON}やる。それを持って何処かに行ってくれ。" />
+    <string id="gE7QFy6y" text="{PRISONER.NAME}が{?PRISONER.GENDER}彼女{?}彼{\?}が監禁されていた場所から逃亡しました。" />
+    <string id="geJQxzgB" text="クエスト失敗：{QUEST_TITLE}" />
+    <string id="genericcharacterfirstname" text="{CHARACTER_FIRSTNAME}" />
+    <string id="genericcharactername" text="{CHARACTER_NAME}" />
+    <string id="genericclanname" text="{CLAN_NAME}" />
+    <string id="generickingdomname" text="{KINGDOM_NAME}" />
+    <string id="generickingdomshortname" text="{KINGDOM_SHORT_NAME}" />
+    <string id="gflnRhhe" text="（{PRIMARY_ROLE}/{SECONDARY_ROLE}）" />
+    <string id="GfpRqcWN" text="弓兵を選択" />
+    <string id="GfR7NY0n" text="攻城戦{newline}{newline}• 防御中、弓兵に大幅なボーナスが付与される。{newline}• 防御中、騎兵に中程度のペナルティが課せられる。{newline}• 防御中、弓騎兵に大幅なボーナスが付与される。" />
+    <string id="ggMmjk31" text="無効" />
+    <string id="ggpRTQQl" text="部隊リーダー" />
+    <string id="ggrqoGnE" text="{AMOUNT}消費" />
+    <string id="ggzCiYkk" text="アップグレードするには、{VALUE}{GOLD_ICON}が必要です。" />
+    <string id="GHdrCWpF" text="{CONSOLE_KEY_NAME}を押して閉じる" />
+    <string id="giftverb" text="贈り物" />
+    <string id="gj2HD7M3" text="まだ勝ち目はありますが、降参しますか？" />
+    <string id="Gj4R9uso" text="未定義" />
+    <string id="gjwlxZpg" text="{PRISONER_FACTION_LINK}の{PRISONER_LORD.LINK}は、{CAPTURER_FACTION}の捕虜となっている間に死亡しました。" />
+    <string id="gKbGZObs" text="合計備蓄" />
+    <string id="GKO2ogal" text="堕落" />
+    <string id="GNGTllPc" text="村を襲撃している間は、このアクションを実行できません。" />
+    <string id="GNkrUdwb" text="世話になったな、見知らぬお方。私は{CONVERSATION_CHARACTER.LINK}だ。あなたは何と言う？" />
+    <string id="GnWy8WAW" text="忠誠：" />
+    <string id="gNzXoCrq" text="立ち去るがいい、虫けらめ。" />
+    <string id="goJ91547" text="敵の増援が到着しました！" />
+    <string id="GopVkA1q" text="無法者" />
+    <string id="gOSpzTrt" text="そこで止まれ。強盗様だ。[if:convo_aggressive]" />
+    <string id="gPAkLi7l" text="({STR})" />
+    <string id="GPW3ku2Y" text="{?RULER.GENDER}王女{?}王子{\?} {RULER.NAME}" />
+    <string id="gQCEJvmf" text="娘" />
+    <string id="GralaKWi" text="{YEAR}年、{DAY_OF_YEAR}。{FATHER_NAME}と{MOTHER_NAME}の間に、子供が生まれました。" />
+    <string id="Gre2v55i" text="パワー：{POWER}" />
+    <string id="GRX8NjWI" text="サイズ" />
+    <string id="gSVaitFE" text="{SETTLEMENT_NAME}を襲撃中" />
+    <string id="gT5zJaD7" text="私は敵に殴られて意識を失いました" />
+    <string id="gTlW1qOB" text="この道具は、平均よりも{PERCENTAGE}%安い" />
+    <string id="GtY5rdK9" text="戦争への呼びかけの支払い" />
+    <string id="GUBcQZ3J" text="囚人の現在の従順さ" />
+    <string id="gwKPbSVE" text="{TRAIT}{newline}{TRAIT_DESCRIPTION}" />
+    <string id="gXQ7WncX" text="駐屯地と部隊の出費" />
+    <string id="gxsoJMb8" text="0" />
+    <string id="gY8kkujq" text="バトル終了！Tabキーで閉じる… " />
+    <string id="gYATKZJp" text="{NUMBER}%" />
+    <string id="GYhHacVk" text="命中して1ポイント獲得！" />
+    <string id="GZKY51fB" text="無害通航中は軍隊に参加することができません。" />
+    <string id="gZmQvtxm" text="破城槌の屋根" />
+    <string id="h03DZtbc" text="重装馬" />
+    <string id="H0o13D7a" text="店" />
+    <string id="H4rAiNlf" text="あなたは自分に{BET_AMOUNT}賭けて勝利しました。報酬は{REWARD_AMOUNT}{GOLD_ICON}になります。" />
+    <string id="h6AJXR2e" text="本当に部隊を退却させますか？" />
+    <string id="h8Bcd7NE" text="{FACTION}の支配者の選出" />
+    <string id="hAgZBZP8" text="降参" />
+    <string id="haRRjDmy" text="アップグレードのために、{TRADE_AMOUNT} {?IS_PLURAL}馬の頭{?}馬の頭{\?}を使用します。" />
+    <string id="hbeUbpEA" text="本当に中止しますか？" />
+    <string id="hbwor8e8" text="戦争への呼びかけに応える" />
+    <string id="HcAV8x7p" text="部隊メンバー" />
+    <string id="HCZ5XSEL" text="{?IS_POSITIVE}+{?}-{\?} {NUMBER}" />
+    <string id="HD2wzAxz" text="スタルジア人はカルラディア北部の外国部族の子孫である。帝国が彼らの冷たい森にまで勢力を拡げたとき、彼らは伝統的な狩りで捕らえてきた森林動物を豪華な毛皮としてすぐさま市場に流通させられる事を知る。スタルジアの指導者たちは王侯となり、領地に移住してきたノルドの傭兵たちの助けを借りて、より高い地位を得るべく争った。彼らは優れた狩人にして放浪者であり、交易と略奪の機会を求め、はるか遠くまで旅をする。" />
+    <string id="hDktLs4a" text="お前は賢明かつ、敬意ある行動をとった。行かせてやろう。" />
+    <string id="HdTVkcII" text="人々との関係を強化する。貴族と交際する。物々交換を行う。" />
+    <string id="hdyQFP2Z" text="あなたは野生の{MOUNT_NAME}に殺されてしまいました！" />
+    <string id="hE4XvvXv" text="ソート順：" />
+    <string id="HEQ2zEei" text="取り消す" />
+    <string id="HEUDyfbG" text="{HERO.NAME}が{CLAN_NAME}に参加" />
+    <string id="hEWuE0Ch" text="あなたは指揮官です。戦闘中、すべての編隊を指示することができます。" />
+    <string id="hfSW9FTN" text="遠隔武器 V" />
+    <string id="hJypvWMR" text="精製" />
+    <string id="HKrCB1Pa" text="突破可能" />
+    <string id="HkZ4E94O" text="かつては遊牧生活を送る草原の部族であったクーザイト連合であったが、最近では帝国東部の辺境に定住し、町の中心に恒久的な機能を集中させた農耕社会へと徐々に移行しつつある。しかしながら遊牧生活を重んじ、馬たちとの親しみを忘れることのない彼らは今でも騎射の達人であり、放った矢が獲物を射抜く頃には、遥か遠くを颯爽と駆け抜けている。" />
+    <string id="hL3JIQbd" text="この編隊を戦闘に率いる。" />
+    <string id="Hlusn1gG" text="クラン名に無効な文字が含まれています。" />
+    <string id="HmbvM9Na" text="現在の試合をスキップしますか？" />
+    <string id="HMgrtLYa" text="あなたの戦士は決闘に負けました。あなたの軍隊は、この敗北で意気消沈しています。部隊の士気が低下しました。" />
+    <string id="hMIjbLjt" text="マダム" />
+    <string id="hmlUJaDa" text="本当に助かったよ、{PLAYER.LINK}。私は{CONVERSATION_CHARACTER.LINK}。この恩は決して忘れない。何か困ったことがあったら、いつでも訪ねてきてくれ…" />
+    <string id="HNBAw1uO" text="{PARTY}が{AMOUNT_TO_ADD}の名声を獲得しました。{CLAN}の新たな名声は{NEW_RENOWN}です。" />
+    <string id="HNqy4Ctc" text="問題を解決中の仲間は追放できません。" />
+    <string id="hoebgN2u" text="このまま続行すると、選択したクランメンバーたちが移動を開始し、{SETTLEMENT_NAME}に到着するまで使用できなくなります。本当によろしいですか？" />
+    <string id="homesettlement" text="家" />
+    <string id="hourabbr" text="h" />
+    <string id="HP9wMk1T" text="今は部隊画面を開けません！" />
+    <string id="HQgSPtK6" text="本当にマルチプレイモードを終了しますか？" />
+    <string id="hqIIEur1" text="{ARMY}と遭遇しました。" />
+    <string id="hroWCoqV" text="制定を支持" />
+    <string id="hSsS5xAa" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、他の攻城兵器の到着を待っています。" />
+    <string id="HuCClZqT" text="賃金" />
+    <string id="husbandbrotherinlaw" text="義兄弟" />
+    <string id="husbandfatherinlaw" text="義父" />
+    <string id="husbandmotherinlaw" text="義母" />
+    <string id="husbandsisterinlaw" text="義姉妹" />
+    <string id="hVmamTJX" text="多様な食料で部隊の士気を向上させる（補給官）。集落の繁栄を促進し、計画を立てる（統治者）。" />
+    <string id="Hvw3uSNN" text="{PRISONER.NAME}は{?PRISONER.GENDER}彼女を{?}彼を{\?}捕えた者が戦闘で敗れた後、解放された。" />
+    <string id="Hx47TGrA" text="ハード" />
+    <string id="HYVQKIhh" text="防衛側の軍隊" />
+    <string id="HZ8ws4qX" text="傭兵事業" />
+    <string id="hzflo2kJ" text="{PLAYER.LINK}、あなたはまたしても私たちの命を救ってくれた！あなたは本当に、最高の友人だ。" />
+    <string id="i0ELqRca" text="救出する" />
+    <string id="i0H8WLRx" text="支配中のクランを追放することはできません。" />
+    <string id="I2YhWaIt" text="商品" />
+    <string id="i30TCtj2" text="一時停止" />
+    <string id="I3Vfk5mz" text="20" />
+    <string id="I42QtISB" text="クランからメインの英雄は追放できません。" />
+    <string id="I4BbOX46" text="あなたは{ARMY_LEADER}の軍隊に所属しています。" />
+    <string id="i4g81l3E" text="関係：{NUM}" />
+    <string id="i5ROjI8K" text="{YEAR}年、{DAY_OF_YEAR}。あなたは、タクテオスが言っていた遺物を発見しました。" />
+    <string id="I8xMpWxO" text="勇敢" />
+    <string id="IbGNaL0H" text="{HERO.LINK}   レベル： {LEVEL}" />
+    <string id="IbkODMHV" text="痕跡と隠れ家を発見する。困難な地形を踏破する。（斥候）" />
+    <string id="iBtZMoPG" text="{PRISONER_FACTION_LINK}の{PRISONER_LORD.LINK}は{CAPTOR_FACTION}の捕虜になりました。" />
+    <string id="ibVjcb3a" text="{PRISONER_LORD.LINK}は{CAPTURER_LORD.LINK}の捕虜になりました。" />
+    <string id="iBZc9RbE" text="皆を待とう。" />
+    <string id="IcgVKFxZ" text="支配者" />
+    <string id="iCirZbD8" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、城壁から射撃しています。" />
+    <string id="icmyseoo" text="我が君" />
+    <string id="IcQ2doLo" text="{QUANTITY}個" />
+    <string id="ID8wnSIi" text="このアクションは、物語の現在のステージでは認められません。" />
+    <string id="IdYj8OJg" text="ポメル" />
+    <string id="If65Vm9h" text="子の教育" />
+    <string id="IF7zS5ia" text="囚人の数が上限に達しています。{newline}一時的に囚人を捕らえておくことはできますが、しばらくするとすぐに部隊から逃亡してしまいます。また、隊の移動速度も遅くなります{newline}本当によろしいですか？" />
+    <string id="iffbWGBa" text="叔母" />
+    <string id="iFg5N7r3" text="片手武器" />
+    <string id="ihVHfUFT" text="編隊" />
+    <string id="iIBqTcKx" text="攻撃することで敵をノックダウンできます" />
+    <string id="iisvVbDI" text="全て購入" />
+    <string id="IiyN5krb" text="{TRAIT_NAME} ({TRAIT} {TRAIT_VALUE}){newline}{TRAIT_DESCRIPTION}" />
+    <string id="ikgIt1df" text="従属村の暖炉数からの税収入+{BONUS_AMOUNT_PERCENT}%（1日あたり）" />
+    <string id="iKUXVaFf" text="影響力コスト：{reg0}" />
+    <string id="iKzyJHiD" text="申し訳ありません。今のところ、良い交易情報は把握していません。" />
+    <string id="iLEhyGI8" text="カルラディア帝国は衰退しつつある。アレニコス皇帝が不審死を遂げる以前から、かつての連合王国は政治的な対立により引き裂かれていた。それらの派閥は今でも公然と争いを続けており、カルラディア人たちは今日も耐え忍んでいる。駐屯地の都市では移動可能な野戦軍が救援に来るまで侵入を遅らせるという防衛戦略の体系的な研究が、近隣諸国を寄せ付けないことに一役買っている。 " />
+    <string id="ilhkpKfp" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、騎乗して小競り合いをしています。" />
+    <string id="ImJ4hdke" text="新しい方針を提案する" />
+    <string id="iNDKwJYJ" text="兵士のアップグレードにかかるXPコスト" />
+    <string id="iNriAkLl" text="騎乗用" />
+    <string id="ioKVFDcQ" text="{?AND} {?}と{\?}{SENTENCE_3} " />
+    <string id="ioKwRFcj" text="和平を検討する（支持：{SUPPORT}%）" />
+    <string id="IoLK7Lec" text="基本サイズ" />
+    <string id="iORENG5d" text="傭兵は方針を提案できません" />
+    <string id="IOtAJCVw" text="影響力の合計：{TOTAL_INFLUENCE}" />
+    <string id="IPjqLEdQ" text="{DAY}日前" />
+    <string id="IQ4bSdf5" text="義姉妹" />
+    <string id="iQao7Ct6" text="飢餓状態の部隊" />
+    <string id="iRo4meJR" text="今は百科事典を開けません！" />
+    <string id="Is3O8NXW" text=" ({NUMBER_OF_MEN}+{NUMBER_OF_WOUNDED_MEN}負傷)" />
+    <string id="ISJ8Tt8a" text="{COUNT} {.%}{?(COUNT &gt; 1)}{PLURAL(ITEM)}{?}{ITEM}{\?}{.%}" />
+    <string id="ISz5bLEO" text="12" />
+    <string id="IT5vdmak" text="{PRISONER_LORD.LINK}が監禁場所から逃亡しました。" />
+    <string id="itLpRUtF" text="クランに空いている部隊スロットがありません。" />
+    <string id="ITTGMEUJ" text="ナツメヤシ{@Plural}ナツメヤシの袋{\@}" />
+    <string id="itvLr7dL" text="拾う" />
+    <string id="iUTXqFmm" text=" と{VILLAGE_NAMES}付近の{?VILLAGE_COUNT}村{?}村{\?}" />
+    <string id="IUxlDj4s" text="全てランダム化" />
+    <string id="iVEZrZzs" text="先陣を切る" />
+    <string id="IvrBQHRp" text="近接武器" />
+    <string id="IwpFM2CJ" text="その競技会は馬による競争になるでしょう。" />
+    <string id="iyDOTnCS" text="彼らが要求していたものを渡せ！" />
+    <string id="iyob7aH3" text="自分の地位を守る" />
+    <string id="IzDYSckc" text="隊商（{CURRENT}）" />
+    <string id="izKWEAbY" text="クランには追加収入がありません" />
+    <string id="j2OaZPQz" text="あなたのパークしだいで、武器や防具を寄贈することで兵士が{XP_AMOUNT}の経験値を得ることができます。最大{XP_DONATION_LIMIT}の経験値が獲得可能です。" />
+    <string id="J3ACAwbt" text="あなたの対戦相手が障害物を構築しましたが、あなたの方が残っているポーンの数が多い状態です。あなたはゲームに勝利しました！" />
+    <string id="J3L0MuEU" text="バトルに敗北しました。{leave_key}を押して、結果を確認しましょう。" />
+    <string id="j46AltVv" text="28" />
+    <string id="j4IdJPkE" text="騎乗中に再装填はできません。" />
+    <string id="J5961cx8" text="速度が劇的に落ちます。気をつけてください。" />
+    <string id="J7DnK8Kv" text="あんた、今日はついてないな。おとなしく銀貨を置いてっちゃくれないか？誰かさんの喉を掻き切るのも忍びないんでね。[if:convo_mocking_revenge]" />
+    <string id="JAFIo7cM" text=":" />
+    <string id="jAISxqxR" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、攻城兵器を防衛しています。" />
+    <string id="JbN0RwM2" text="自らの王国を守る攻城戦を放棄したため、影響力を{INFLUENCE}失いました。" />
+    <string id="jbQ3LYBl" text="皇帝" />
+    <string id="jCbYaCcg" text="助かったよ、{PLAYER.LINK}。私は{CONVERSATION_CHARACTER.LINK}だ。助けてくれて感謝する。また会えることを願っているよ。" />
+    <string id="jd4ULLGr" text="有効なクエスト" />
+    <string id="JdNTRtpJ" text="部隊の士気を高いまま、維持してください。軍隊を作り上げて率い、兵士をアップグレードしましょう。" />
+    <string id="Jelvod71" text="捕獲中" />
+    <string id="jfbrvp9f" text="川の戦い{newline}{newline}• 軽量船は大きなボーナスを得る。{newline}• 重量船は大きなペナルティを受ける。{newline}" />
+    <string id="jfIbp2Hg" text="追跡： " />
+    <string id="jFL2rgkP" text="兵士や囚人を置き去りにすることになります！ 本当によろしいですか？" />
+    <string id="JflqTj4T" text="その他" />
+    <string id="JG2bgZMM" text="味方の{AI_SIDE} {CLASS}の前で小戦闘を行う" />
+    <string id="jGFEbaex" text="ダイスを振る" />
+    <string id="JGk5MJkN" text="自由ポイント" />
+    <string id="Jh7sayJB" text="失敗率" />
+    <string id="JHBEwYGT" text="町民が購入" />
+    <string id="jhosdZaX" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、城の重要な位置を守っています。" />
+    <string id="jiKRLWD4" text="百科事典で確認する" />
+    <string id="jIZcOvMT" text="{YEAR}年、{DAY_OF_YEAR}。{NAME}が処刑されました。" />
+    <string id="JkpSoFQ8" text="倒した敵兵数" />
+    <string id="JKQjXH9M" text="27" />
+    <string id="jL7XgaP3" text="主要部隊の賃金" />
+    <string id="jM9KGCIa" text="{?RULER.GENDER}エミーラ{?}エミール{\?}・{RULER.NAME}" />
+    <string id="JnoB0RZ4" text="{?DYING_HERO_GENDER}彼女{?}彼{\?}を処刑する" />
+    <string id="jnTQbSsH" text="村の人々が、あなたに抵抗するために集まっています。どうしますか？" />
+    <string id="joICaqvo" text="割り当てなし" />
+    <string id="Jp6Wa29v" text="次のティアボーナス" />
+    <string id="JP7LTAsa" text="よーしよし！もういいぞ！さっさと消えろ！[ib:aggressive][if:convo_angry]" />
+    <string id="jPwa1oOm" text="銀{@Plural}銀鉱石の荷台{\@}" />
+    <string id="JQarnWiz" text="素材が足りません。" />
+    <string id="jQGcUobB" text="市民" />
+    <string id="JQOUUVct" text="一時停止" />
+    <string id="JSokBXER" text="重歩兵" />
+    <string id="jSXE0Gbj" text="ここには村人はほとんどおらず、恐怖によってすぐにあなたの前から逃げていく。この村はあなたの思うままだ。" />
+    <string id="jtN3ayKE" text="一次生産" />
+    <string id="JTyC3Xra" text="ケチ" />
+    <string id="Ju9ZiFT2" text="近接武器 V" />
+    <string id="jvexRWHX" text="{PRISONER_LORD.LINK}は{CAPTURER_FACTION_LINK}の{CAPTURER_LORD.LINK}の捕虜になりました。" />
+    <string id="Jw4oiIM4" text="{YEAR}年、{DAY_OF_YEAR}。{KING_NAME}がカルラディアの{?IS_KING_MALE}皇帝{?}女帝{\?}に任命されました。" />
+    <string id="jxatfzXh" text="{YEAR}年、{DAY_OF_YEAR}。{NAME}が自然死を迎えました。" />
+    <string id="K0mlQblA" text="軍隊の一日あたりの食料消費" />
+    <string id="K0XVOalL" text="現在の賭け金" />
+    <string id="k2AeDE6w" text="王の支援" />
+    <string id="K2G3XJwZ" text="短気" />
+    <string id="k6tT1vIg" text="馬上槍試合が終了し、対戦相手があなたを打ち負かしました…" />
+    <string id="k7ig2JvK" text="男爵" />
+    <string id="k8ocninL" text="そこで止まれ。武器を下ろせ。この土地は大いなる空が、我らに与えてくれたものだ。俺たちの許可なしには、誰一人ここを通ることはできない。" />
+    <string id="k8PxNh7x" text="盾 V" />
+    <string id="k8QpbFnj" text="ケープ" />
+    <string id="k9OYeP9y" text="クリックして閉じる" />
+    <string id="ka7vAxgo" text="敵{AI_SIDE} {CLASS}に突撃する" />
+    <string id="KafFddmO" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、将軍を守っています。" />
+    <string id="KawqKhwh" text="ヘビーアーマー" />
+    <string id="KC5AZohd" text="ごきげんよう、旅人よ。私たちの地にようこそ。少しばかり通行料を頂戴させていただく。[rf:convo_mocking_revenge]" />
+    <string id="KcQiDE6b" text="{SETTLEMENT_NAME}にて{SELL_PRICE}で売却可能。" />
+    <string id="kd5mMCJJ" text="治安に+{BONUS_AMOUNT}ボーナス（1日あたり）" />
+    <string id="kdV0tx9K" text="よう、旅人さん。財布は持ってるよな。俺たちはいわゆる、賊ってヤツだ。金も払わずにここを通ろうなんて、考えちゃいないだろうな？[if:convo_mocking_revenge]" />
+    <string id="kDV7wCtI" text="完了まで：{PREPARATION_TIME}" />
+    <string id="KE9rdUhD" text="- {HERO_NAME}" />
+    <string id="kftE5nvv" text="馬鎧" />
+    <string id="KGH8rjOP" text="{SETTLEMENT_NAME}を襲撃しに移動中。" />
+    <string id="KGHlXL8H" text="よし。この地をお前の血で浄化してやろう。" />
+    <string id="KGjFnVsR" text="ゲーム概要" />
+    <string id="kgqCVvIb" text="我が兄弟{REFERING_HERO.LINK}" />
+    <string id="kHC5EjDJ" text="町ボーナス" />
+    <string id="kHC5EjEJ" text="小規模勢力ボーナス" />
+    <string id="Khr5yETv" text="アセライは遊牧民のベドウィンと、定住したオアシス農民から成るナハサ砂漠の民である。彼らはその馬術と、様々な土地で学んだ知識の深さで知られている。とりわけ、大陸において最も利益の出る交易ルートに沿った生息域を活かして得た医学の知識が豊富である。各氏族とも血筋に確固たる誇りを持っており、互いに嫉妬することも多いが、カリスマ性を持つ指導者によって統一されたとき、南の一大勢力となる。" />
+    <string id="KiVCv1Bx" text="{SETTLEMENT_NAME}を包囲中" />
+    <string id="KJDqOGEU" text="私たちの計画は、日を改めて戦うために隊を後退させることだ。" />
+    <string id="KkaVpLXd" text="この政策の成立を検討する（支持：{SUPPORT}%）" />
+    <string id="KkwLUO3o" text="6" />
+    <string id="klZnvb15" text="キャラクター" />
+    <string id="kM1Y8XT0" text="あなたを失望させることはありません、{?PLAYER.GENDER}マダム{?}サー{\?}。カルラディア中を探しても、彼らより優れた戦士はいませんよ。[ib:convo_approving]" />
+    <string id="kMAD20Ny" text="あなたは{SETTLEMENT_NAME}の外にいます。城が敵のものであるため、中に入ることができません。通常、敵の町に近づくと道路は閑散としているものですが、今回は野次馬がいて、時折歓声まで聞こえてきました。{FACTION_INFORMAL_NAME}に忠誠を誓う住民はほとんどおらず、民兵も城の防衛のために武器を取ることはないだろうとあなたは考えます。" />
+    <string id="KOwCdwEU" text="母" />
+    <string id="KQQaoouG" text="（完了済）" />
+    <string id="kRKYHQ6V" text="重ねられたポーンを正確にホームタイルに置ければ、対戦相手のプレイヤーのポーンをゲームから除外した後、プレイヤーは自分のポーンを回収、再使用することができます。" />
+    <string id="krmvzGaV" text="遊び方" />
+    <string id="kROTif9h" text="戦争への呼びかけの収入" />
+    <string id="kRraos2Z" text="私の縄張りで問題を起こしたな… 気に入らん。" />
+    <string id="krtuDr9P" text="新しいサンドボックス" />
+    <string id="KSaxvbs9" text="マップで表示" />
+    <string id="ksDGaGIi" text="19" />
+    <string id="ktFeXrXl" text="移動できません。ターンをスキップします。" />
+    <string id="KTGG9EgL" text="安全な旅を！俺たち以外にたかられるなよ！" />
+    <string id="KTUcgvMZ" text="兵士数の上限を超えます。このことで、部隊の士気に悪影響を及ぼす可能性があります。" />
+    <string id="kUBvVY89" text="渡河中の戦闘{newline}{newline}• 歩兵に小規模ボーナスが付与される。{newline}• 防御中、弓兵に小規模なボーナスが付与される。{newline}• 防御中、騎兵に小規模のペナルティが課せられる。" />
+    <string id="kuKad3dj" text="{MISSION_MODE}" />
+    <string id="kuLjsNgz" text="農村の名士" />
+    <string id="kVuucX4o" text="13" />
+    <string id="kvykuTJS" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、攻城兵器を攻撃しています。" />
+    <string id="Kw7awUCK" text="均整がとれている" />
+    <string id="KWXEMsHC" text="{LORD.LINK}が{SETTLEMENT_NAME}にいます。" />
+    <string id="kX8svveF" text="この道具の費用は、平均価格とほぼ同じです" />
+    <string id="kx8ZfaST" text="いいだろう。それでお前は自分の命を、どれほど大事に思っているんだ？[ib:hip][if:convo_bared_teeth]" />
+    <string id="kXno6ZuU" text="バトル終了…" />
+    <string id="kyiibFu2" text="戦闘に勝利しました！" />
+    <string id="kZ7gLqMz" text="自動採用が有効になっていると、駐屯地は町の中心地や付近の村にいる名士から部隊を採用します。費用は集落の所有者が支払います。" />
+    <string id="KZAQHSa2" text="しかしこの繁栄によって、すべての人が平等に恩恵を受けていないことは明らかだ。人々は怒りに満ちており、新たな地方からの移住者や、物価の上昇、そしてより多くの利益を得ている人々に対して、絶え間なく不満を述べている。" />
+    <string id="L1Q4AysI" text="収益" />
+    <string id="L3EE8bmx" text="部隊メンバーの中にこの指令を完遂するための、{SKILL}スキルを有する者がいません。（あと{AMOUNT}必要）" />
+    <string id="l4pRw7pO" text="{OWNER.NAME}の武装隊商" />
+    <string id="l4uTnJct" text="結果を選択する必要があります。また、その結果をどの程度支援したいのかも選択してください。" />
+    <string id="l57Dk2DQ" text="地下牢の上限({TROOP_NUMBER} prisoners)に達しました" />
+    <string id="l6a3grfK" text="あなたの部隊" />
+    <string id="L7qKijnE" text="{COMPANION.NAME}が勝ち取った{ITEM_NAME}がインベントリに追加されました。" />
+    <string id="L7teSXvq" text="軍隊を管理するには、そのリーダーになる必要があります" />
+    <string id="l9Vve3bD" text="秋" />
+    <string id="lAgfGeXJ" text="王国の勢力" />
+    <string id="LApMSsnb" text="フォーカスポイント" />
+    <string id="laV5aNhK" text="ユニーク" />
+    <string id="LAvXPBbs" text="こちらの攻城兵器を守れ！" />
+    <string id="lb13ceVM" text="{?RULER.GENDER}上級女王{?}上級王{\?}{RULER.NAME}" />
+    <string id="Lb1te6Ov" text="関税収入+{BONUS_AMOUNT_PERCENT}%" />
+    <string id="lbdSaDpI" text="残り時間" />
+    <string id="LBy6YDMV" text="再編成" />
+    <string id="Lc1vIEnM" text="狼と羊はどちらも、盤面上の線に沿って移動します。ターンごとに、1タイル移動できます。" />
+    <string id="lcbzU94j" text="{FACTION}との貿易協定" />
+    <string id="LdLYZX3R" text="税金+{BONUS_AMOUNT}%ボーナス（1日あたり）" />
+    <string id="LEC8NhCV" text="方針" />
+    <string id="lfMgaBiJ" text="お前を生かす事が正しいと証明してみせろ。" />
+    <string id="Lg3zeoYi" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、{#IS_LEFT}{#}左翼{#}複数箇所{\#}{?IS_MIDDLE}中央{?}{\?}{?IS_RIGHT}右翼{?}{\?}側面{#IS_LEFT}{#}{#}s{\#}の防衛にあたっています。" />
+    <string id="lh1yhgXw" text="馬具 V" />
+    <string id="lihYjOSc" text="個" />
+    <string id="littlebrother" text="兄弟" />
+    <string id="littlesister" text="姉妹" />
+    <string id="lj8XH6O7" text="今は王国ウィンドウを開けません！" />
+    <string id="ljcHO6PW" text="治安の変動" />
+    <string id="LjUhEJxz" text="{OWNER.NAME}の隊商" />
+    <string id="LJwKdMdw" text="相手が配置につくまで待っています" />
+    <string id="lKIHqkAV" text="17" />
+    <string id="LL6GkIfg" text="あなたが倒れる前に{OPPONENT_COUNT_1}人の敵を倒すことができれば、{PRIZE_1}{GOLD_ICON}を獲得できます。また、最低{OPPONENT_COUNT_2}人倒すことができれば {PRIZE_2}{GOLD_ICON}、 {OPPONENT_COUNT_3}人倒せば{PRIZE_3}{GOLD_ICON}、そして{OPPONENT_COUNT_4}人倒すまで生き延びることができれば、{PRIZE_4}{GOLD_ICON}を獲得できます。もし最後の一人まで生き残れば、{PRIZE_5}{GOLD_ICON}もの多大な褒賞を得られます。悪くない話でしょう？[if:convo_nonchalant]" />
+    <string id="Ll90uaxu" text="成功した包囲" />
+    <string id="lNADu8JO" text="役割" />
+    <string id="lnKAqDVM" text="重要な位置を守る" />
+    <string id="lockverb" text="ロック" />
+    <string id="LpAiJGeV" text="発令可能な指令の内、{HERO_NAME}がこなせるものがありません。" />
+    <string id="lpbDPuuW" text="{?RULER.GENDER}女帝{?}皇帝{\?}{RULER.NAME}" />
+    <string id="LpVaZbRS" text="同じ名前の王国がすでに存在しています。" />
+    <string id="lqm9PfF1" text="{?RULER.GENDER}クニャージャ{?}クニャージ{\?}・{RULER.NAME}" />
+    <string id="lqMQ6GXj" text="余剰食料" />
+    <string id="lQQPKo02" text="背後を突こうとする敵から、私たちを守るために移動せよ" />
+    <string id="lRAaUTjs" text="落とす" />
+    <string id="lrAnY7Fb" text="古いクエスト" />
+    <string id="LSsFOEQy" text="1日未満" />
+    <string id="lTTWrL1Q" text="中断したクエスト: {QUEST_TITLE}" />
+    <string id="lvc1Xgf8" text="酒場の女給" />
+    <string id="lxLTCX5j" text="職業：" />
+    <string id="LymKjMLk" text="あなたの部下が、ちょうど部隊に参加しました" />
+    <string id="lZ1IDnpP" text="全て手放す" />
+    <string id="LZhRP3PM" text="他の攻城兵器を待つ" />
+    <string id="Lzmtqif5" text="軍隊の規模" />
+    <string id="lznqF0oO" text="解散中" />
+    <string id="M2b5mtAE" text="の仲間" />
+    <string id="m2YKBbdI" text="迷える子羊よ。俺たちはこの山の狼だ。少しばかり俺たちに付き合ってもらおうか…[rf:convo_mocking_revenge]" />
+    <string id="m6A7RLby" text="腹黒" />
+    <string id="M6cWtObI" text="この武器は以下の英雄が製作可能です：" />
+    <string id="M6tfHhq7" text="あなたは投票し、支配者は結果を決定しました。" />
+    <string id="M9p0vPad" text="その名には覚えがある… {COMMENT_STRING_MAIN}" />
+    <string id="m9vD3VlN" text="この部隊の規模は、大きくも小さくもならないでしょう。そのままの規模を維持しようとするはずです。" />
+    <string id="Ma0PyWAC" text="意思決定において、部隊の襲撃や攻撃、そして攻城戦の比重が高くなります。部隊は敵をより遠くまで追跡します。" />
+    <string id="ma49Ya6b" text="30" />
+    <string id="MacceKIX" text="{BASE_HERO.NAME}の{RELATION_TEXT}" />
+    <string id="mAEaO8jM" text="{PRISONER.NAME}が釈放されました。" />
+    <string id="MaExlLD7" text="このアクションは航行中には行えません" />
+    <string id="MaIgPHXK" text="{PRISONER_LORD.LINK}は戦いの後に解放されました。" />
+    <string id="MAkZQKp0" text="スキルボーナス / ペナルティ" />
+    <string id="maptimeplay" text="プレイ" />
+    <string id="mbS0DkUo" text="襲撃" />
+    <string id="Mc8ojOGn" text="暖炉（世帯数）" />
+    <string id="mDbaNQay" text="前進し、相手を打ち倒そう！" />
+    <string id="mds0myr4" text="{HERO.NAME}は{?PLAYER.GENDER}彼女{?}彼{\?}の特性{TRAIT_NAME}を失った。" />
+    <string id="MeQmoYb4" text="あなたはこの兵士を獲得するのに、十分な関係性を構築できていません。{newline}現在の関係は{REL1}ですが、{REL2}必要です。" />
+    <string id="MFLAvq4Z" text="この中には盗賊がいる。奴らを攻撃するか？" />
+    <string id="MfnYoLdc" text="経費" />
+    <string id="mG4oq1vb" text="公海の戦い{newline}{newline}• 重量船は大きなボーナスを得る。{newline}• 軽量船は大きなペナルティを受ける。{newline}" />
+    <string id="MGv4Uabd" text="あなたは自分に{BET_AMOUNT}賭けましたが、敗北しました。" />
+    <string id="MgwKd3jd" text="{A0}の関税" />
+    <string id="mGWrSJLE" text="マップイベント中に軍隊を解散することはできません。" />
+    <string id="mhAr3dfG" text="始動したクエスト: {QUEST_TITLE}" />
+    <string id="MHJCuM3N" text="待て！この神聖な地によそ者が踏み込めば、我らが祖先の怒りを買うだろう。どう始末をつけてくれようか？[rf:convo_mocking_revenge]" />
+    <string id="mieKgbp8" text="一日あたりの連射速度" />
+    <string id="minuteabbr" text="m" />
+    <string id="mJB7knQo" text="後退する" />
+    <string id="mJE0o9Zi" text="駐屯地" />
+    <string id="mJkJWccN" text="このまま続行すると、{GOVERNOR.NAME}が{SETTLEMENT_NAME}の統治者となるのを阻むことになります。本当によろしいですか？" />
+    <string id="Ml5PFDph" text="{YEAR}年、{DAY_OF_YEAR}。{NAME}が処刑されました。" />
+    <string id="MLmHSSg0" text="重騎兵" />
+    <string id="MmNF7sW7" text="ポーンの移動は、相手のポーンを捕獲することによってのみ、可能です。{newline}捕獲は敵対ポーンを1つ以上、直角に飛び越すことによって行います。" />
+    <string id="Mms9bbhY" text="{DAY_NUM} {?DAY_NUM==1}日{?}日{\?}" />
+    <string id="mNr84Xm1" text="今はクラン画面を開けません！" />
+    <string id="mPaQzgS0" text="来てくれて嬉しいぞ、 {PLAYER.LINK}。" />
+    <string id="MpDMaBE9" text="俺たちに逆らうってのか？お前の頭蓋骨を盃にしてやるぜ！" />
+    <string id="mPtUKcI3" text="敵が結成し始めている。すぐに戦術的退却を考えるべきだ。" />
+    <string id="MPZ40lEk" text="新生児の命名" />
+    <string id="MqsWixDp" text="撤退！" />
+    <string id="mSPDO0Fe" text="敵に囚われました。あなたは戦える状態にありません。唯一の選択肢は降伏することのみです。" />
+    <string id="MT4b8H9h" text="不明" />
+    <string id="MTtrk28a" text="同盟を検討する（支持：{SUPPORT}%）" />
+    <string id="MUCmJaXQ" text="{FACTION_INFORMAL_NAME}の統治者" />
+    <string id="MUStU7ab" text="兄弟" />
+    <string id="MWatMKoP" text="{YEAR}年、{DAY_OF_YEAR}。かつての宿敵たちの軍隊が戦場で結託したことで、帝国勢力間の密約は白日の元に晒された。" />
+    <string id="MWByKPst" text="将軍" />
+    <string id="mwegfVKr" text="理知的" />
+    <string id="MWGATOoz" text="その競技会は、集団白兵戦になるでしょう。" />
+    <string id="MwgcfGsr" text="相手のポーンがすでに存在するタイルに着地するポーンは、相手のポーンを捕獲することができます。捕獲されたポーンは、侵入してきたポーンの下にスタックされます。{newline}ポーンのスタックは、一番上のポーンが対戦相手のものである限り、再捕獲することができます。{newline}ポーンは捕獲を行うとすぐに、次のターンでホームタイルに向かって戻っていきます。" />
+    <string id="MxG4217V" text="村人" />
+    <string id="mxuirhkW" text="敵の攻城兵器を全て破壊しました！ そろそろ城まで撤退しましょう。" />
+    <string id="mXxVf2rb" text="書物" />
+    <string id="Myb3WrB9" text="部隊リーダーの役割 &amp; 効果" />
+    <string id="mZR7eYHa" text="盾 I" />
+    <string id="MzxFIyAQ" text="王国の比較バーを表示" />
+    <string id="N0MCVBXb" text="処刑を取り消す" />
+    <string id="n3e3g6Rq" text="賭ける" />
+    <string id="N6O2GtTK" text="精製" />
+    <string id="n6Q6vv5t" text="{GOLD}デナール略奪しました。" />
+    <string id="N7w6zi0F" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、後退しています。" />
+    <string id="N7yWipWU" text="渡河中の戦闘{newline}{newline}• 歩兵に小規模ボーナスが付与される。{newline}• 攻撃中、騎兵に中程度のペナルティが課せられる。{newline}• 攻撃中、弓騎兵に小規模のペナルティが課せられる。" />
+    <string id="N84HlDaV" text="{NUMBER_OF} {ITEM} ({AMOUNT}{GOLD_ICON})" />
+    <string id="n9qR84YI" text="{PRISONER.NAME}が、{SETTLEMENT}から逃亡しました。" />
+    <string id="NaAA5kjG" text="{TRIBUTE_DURATION}日間、1日毎に{TRIBUTE_AMOUNT}の献上金を受け取り、和平を検討する（支持：{SUPPORT}%）" />
+    <string id="nAaT19CC" text="{?RULER.GENDER}アルコネス{?}アルコン{\?}・{RULER.NAME}" />
+    <string id="NaNMRPv4" text="アセライ" />
+    <string id="NaorUInI" text="兵員不足の部隊" />
+    <string id="NarcUcZA" text="勢力名に無効な文字が含まれています。" />
+    <string id="nbBgbwM2" text="待機中：{NUMBER}" />
+    <string id="NbgeKwVr" text="作業場" />
+    <string id="NBv29XpJ" text="あなたが参加している軍隊を、解散させることはできません。" />
+    <string id="nbw71MCj" text="{SETTLEMENT_NAME}にある{BUILDING_NAME}の建造物が完成しました。" />
+    <string id="nCDhsh8s" text="同盟の提案" />
+    <string id="nDNOn5o2" text="装備" />
+    <string id="ndXuPWYV" text="{NUM1}x{NUM2}" />
+    <string id="Nfm5lLWv" text="今すぐ{CHILD.NAME}の面倒を見る必要があります！" />
+    <string id="nfQhamAF" text="振りスピード： " />
+    <string id="NgHSyQem" text="軍隊内" />
+    <string id="nHGm1wYg" text="バトルが終了しました。{leave_key}を押して、結果を確認しましょう。" />
+    <string id="nHkQbLDc" text="騎乗しての使用は不可" />
+    <string id="nHSVy0ns" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、{#IS_LEFT}{#}左翼{#}複数箇所{\#}{?IS_MIDDLE}中央{?}{\?}{?IS_RIGHT}右翼{?}{\?}から、側面に攻撃を仕掛けています。" />
+    <string id="NiyNgXMe" text="この部隊はすでに解散しかけています" />
+    <string id="njnMk5P1" text="方針の否認" />
+    <string id="nk0bADtq" text="あなたは決闘の申し込みを拒否しました。あなたの軍隊は、その臆病さに落胆しています。部隊の士気が低下しました。" />
+    <string id="NkbszXv6" text="集落が反乱を起こしています。" />
+    <string id="NKYem1X0" text="この部隊は、{ARMY_LEADER}の軍隊の一部です。" />
+    <string id="nkzKgspT" text="駐屯地の管理" />
+    <string id="NLmaID0O" text="{HERO.NAME}が{KILLER.NAME}に処刑されました。" />
+    <string id="nMcvafHY" text="有効" />
+    <string id="nNDdo3I9" text="片手剣" />
+    <string id="nnr8sANN" text="{PARTY_LIST_TAG}({COUNT}+{WEAK_COUNT}負傷)" />
+    <string id="nNRKCYpR" text="内部の食料生産量" />
+    <string id="NnZ5w9zm" text="{NUM1} ({NUM2})" />
+    <string id="nojcK4ia" text="{?RULER.GENDER}大公女{?}大公{\?}{RULER.NAME}" />
+    <string id="NPJRmNAY" text="製作できません。" />
+    <string id="NQbqtEqP" text="コスト： {COUNT}" />
+    <string id="NqSLYe6b" text="名声：" />
+    <string id="NqtTPVzn" text="属性" />
+    <string id="NRbNsJ9C" text="実行すると変更がキャンセルされます！ 本当によろしいですか？" />
+    <string id="NRpwZGxI" text="兵士" />
+    <string id="NvJru5Tz" text="男性限定" />
+    <string id="nVKEUvaC" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、殺人孔を使用しています。" />
+    <string id="NvqbkaFD" text="{PARTY}が{SETTLEMENT}を襲撃している間に、あなたが村の支援に駆けつけました。あなたの決断は… " />
+    <string id="nvswKHTZ" text="{GOLD_AMOUNT}{GOLD_ICON}を支払いました。" />
+    <string id="nWbp3o3H" text="春" />
+    <string id="nwqUFaU8" text="冬" />
+    <string id="nxQaab9d" text="{SHOPNAME} ({SHOPTYPE})" />
+    <string id="ny32aoLJ" text="馬具 II" />
+    <string id="nyGRpJT3" text="待機列" />
+    <string id="NYHinaEh" text="戦闘中はインベントリを開けません！" />
+    <string id="NZUELfbp" text="攻城戦中に軍隊の管理はできません" />
+    <string id="o0OQ5omY" text="私たちの計画は防衛のために残ることだ。" />
+    <string id="O10KTShQ" text="ハンドル" />
+    <string id="o1LEfpWD" text="姪" />
+    <string id="o1MtbgEi" text="未解決の問題" />
+    <string id="o2ce7bhY" text="お利口さんだ。" />
+    <string id="O37b0e8r" text="平和宣言が発表されたため、{PRISONER_FACTION_LINK}の{PRISONER_LORD.LINK}は解放されました。" />
+    <string id="O69Vhqxk" text="それで、俺たちにいくら払ってくれるんだ？[rf:convo_angry]" />
+    <string id="o7I8qayN" text="ははっ、ボディにいい一撃をもらった時ほど、生きてる実感を得られる事もそうそうないでしょう。{OPPONENT_COUNT}人倒せた事は悪くはないですが、それでは賞金には届かない。私があなたなら、ご機嫌ななめですぐに戦場に戻り、大暴れしているよ…" />
+    <string id="O9xpd5bn" text="バロネス" />
+    <string id="oAg4dtbB" text="25" />
+    <string id="ObTSCxra" text="家臣" />
+    <string id="OBXNbvkK" text="村人に物品を提供するよう強要すると、あなたに抵抗しようとする住民が集まります。彼らと戦うと{KINGDOM}との戦争になります。" />
+    <string id="Oc85b0Bx" text="名士より" />
+    <string id="OCGaTxac" text="競技会の賞金" />
+    <string id="OdFPHvtE" text="反乱軍がこの集落を攻撃しています。介入しますか？" />
+    <string id="OEax2Y9c" text="隊商を襲撃する。盗賊を雇い、率いる。敵の町に侵入する。賄賂を渡す。囚われの身から脱出する。" />
+    <string id="oGflu1jV" text="殺人孔を使用する" />
+    <string id="OGjq7rpg" text="私たちは{TOWN}の市場に、製品を運んでいるところです。" />
+    <string id="OgRtdJhu" text="村での戦闘{newline}{newline}• 歩兵に小規模ボーナスが付与される。{newline}• 攻撃中、弓兵に中程度のペナルティが課せられる。{newline}• 攻撃中、弓騎兵に中程度のペナルティが課せられる。" />
+    <string id="ogtgc69b" text="あなたは旗を掲げる権利を与えられました。あなたの旗はその地位を示し、名誉をもたらすでしょう。どの旗を選びますか？" />
+    <string id="OGxk0EXC" text="競技会が終了しました。最終ラウンドで{TOURNAMENT_FINAL_PARTICIPANT_A}が{TOURNAMENT_FINAL_PARTICIPANT_B}を倒して勝利しました。" />
+    <string id="Ohdrbpiw" text="ヴランディア人" />
+    <string id="OhLXo0gb" text="不道徳な統治者" />
+    <string id="OIBpCGYv" text="この部隊は縮小していくでしょう。現在の目標規模は{TARGET_SIZE}です。" />
+    <string id="OiCCv0EL" text="この村は困難な時期にある。農具は錆びて壊れてしまっている。茂みや雑草が外の畑に広がっている。 " />
+    <string id="oiFt5bEV" text="建築物ボーナス" />
+    <string id="oiSW6MyB" text="胸の防具" />
+    <string id="OJmC1Ckc" text="残りの対戦相手：{REMAINING_OPPONENT_COUNT}" />
+    <string id="oKct1ecg" text="娘" />
+    <string id="OLKGQGHU" text="{newline}{TOWNS}の領主だ。" />
+    <string id="OLyjbawD" text="[More]" />
+    <string id="OLZqZZF3" text="このまま続行すると、{GOVERNOR.NAME}は{SETTLEMENT_NAME}の新たな統治者になるため、{TRAVEL_DURATION}の間、移動中の状態となります。その間、{GOVERNOR.NAME}は使用できなくなり、{GOVERNOR.NAME}が到着するまで、{SETTLEMENT_NAME}の統治者の変更もできなくなります。本当によろしいですか？" />
+    <string id="ONGv27TH" text="もう用はねぇ。とっとと消えろ、このみすぼらしい野良犬め！" />
+    <string id="OnttNMRn" text="盾 IV" />
+    <string id="Ooqyo9RB" text="ラウンドをスキップ" />
+    <string id="OPhlqUVl" text="話す" />
+    <string id="OpSGWdrk" text="犯罪組織の構成員" />
+    <string id="OqCodBZJ" text="そこで止まれ！持っているものを見せろ！" />
+    <string id="Or9YduTA" text="姉妹" />
+    <string id="oRaa1yls" text="消耗品" />
+    <string id="OSZUvWbG" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}は、準備が完了しています。" />
+    <string id="oTGDxKW7" text="{FACTION}に宣戦布告する" />
+    <string id="OtP3heba" text="対戦相手を倒し、ゲームに勝利しました！" />
+    <string id="ou9asw1a" text="振り{SWING_DAMAGE_TYPE}ダメージ： " />
+    <string id="OviaJ1tA" text="その他" />
+    <string id="oVSS2Lp5" text="馬具 III" />
+    <string id="OWCoBElc" text="あなたは{PARTY_NAME}に囚われました。" />
+    <string id="owg6SqHF" text="首長" />
+    <string id="owTlJjJc" text="義兄弟" />
+    <string id="OxiaKT0G" text="スタルジア人" />
+    <string id="oYUAuLO7" text="攻撃はしないと誓ったはずだ。" />
+    <string id="OzazmGBi" text="クーザイト" />
+    <string id="ozYRUrum" text=" 集落で負傷した兵士の治療を手伝う。" />
+    <string id="P1VmnfsB" text="{SETTLEMENT_NAME}にある{BUILDING_NAME}の建造物はレベルが1上がりました。" />
+    <string id="P2CRzfV7" text="集落の店" />
+    <string id="p2WBSIa7" text="結束力：" />
+    <string id="P3SJla9F" text="略奪された村" />
+    <string id="p4PIzGTP" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、優勢を保っています。" />
+    <string id="p5Rad7i2" text="戦争部隊" />
+    <string id="p8amfQyz" text="傭兵はクランを追放することはできません。" />
+    <string id="P8BxiiKd" text="貧しさにもかかわらず、不満の声はほとんど聞こえない。人々はひどく打ちのめされて、変化を期待することもできないかのようだ。" />
+    <string id="P8Z3zQyy" text="安全" />
+    <string id="p9vAIDL1" text="裏切り者" />
+    <string id="PAa618xe" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、出撃中です。" />
+    <string id="pAOtyE9u" text="砂丘での戦闘{newline}{newline}• 騎兵に大幅なボーナスが付与される。{newline}• 弓騎兵に大幅なボーナスが付与される。" />
+    <string id="patrolPartyName" text="{SETTLEMENT}の巡回" />
+    <string id="pb4KfhxC" text="指揮下の隊長たちが戦術的退却を命じています！" />
+    <string id="pB5anEQq" text="開始位置に移動する" />
+    <string id="pbdrFqb3" text="この軍隊を強制的に解散させる" />
+    <string id="Pc0zpaGa" text="おやぁ、お客さんかぁ？旅人さん、ここを通るには通行料が必要でごぜぇます。{newline}使える通貨は銀かアンタの血だ。[if:convo_bared_teeth]" />
+    <string id="PdXqoa2W" text="{SETTLEMENT_NAME}に移動中。" />
+    <string id="PE4nuMc7" text="このページではBannerlordのゲームコンセプトを説明します" />
+    <string id="pebUiIkT" text="隠密装束" />
+    <string id="PEKxMxal" text="逃げることが可能になりました。" />
+    <string id="pEm60xEX" text="対戦相手がポーンを捕獲しました。" />
+    <string id="PFbLgd1I" text="降参する" />
+    <string id="pgd7Dp78" text="住居" />
+    <string id="pGEIBlLR" text="執行" />
+    <string id="PGl6fYqY" text="弓騎兵を選択" />
+    <string id="PGXitpMN" text="{SETTLEMENT_NAME} - ({COMMON_AREA_NAME})" />
+    <string id="PH7pkve4" text="{ISSUE_NAME}: あなたの兵たちが問題を解決中です。" />
+    <string id="PhF8wNaG" text="騎乗中は使用不可" />
+    <string id="PhoKHbhd" text="戦闘に勝利しました。{leave_key}を押して、結果を確認しましょう。" />
+    <string id="Pia30xtc" text="{?ASKED_LORD.GENDER}彼女{?}彼{\?}は、現在{TOWN_NAME}にいます。" />
+    <string id="pin2L6tH" text="賃金の上限を超過" />
+    <string id="PitdvCJI" text="統治者の変更" />
+    <string id="pJBz7hhl" text="兵を集めろ、次の仕事に取りかかるぞ！" />
+    <string id="PJEuE208" text="民兵：" />
+    <string id="pLZeP6L6" text="防壁{?IS_GENERAL_SIDE}{?}を{SIDE_STRING}側{\?}から攻撃" />
+    <string id="pm0yiOmv" text="獲得：{DENAR_AMOUNT}{GOLD_ICON}" />
+    <string id="pMb8Pe12" text="義理の娘" />
+    <string id="PMnSk81U" text="子羊の分際で戦うつもりか？ならば、お手並み拝見といこう。" />
+    <string id="PN4Edq9W" text="近接武器 III" />
+    <string id="pn9KNMxb" text="あなたは敵に囚われましたが、部下は戦える状態にありません。唯一の選択肢は降伏することのみです。" />
+    <string id="policypropose" text="提案" />
+    <string id="PpPbWYPB" text="傭兵になる資格がある" />
+    <string id="pPRYdrk7" text="軍隊の管理" />
+    <string id="PpwmZ4ZN" text="防衛側" />
+    <string id="pq48aN8d" text="士気: {reg1}" />
+    <string id="pQ9Sxily" text="おめでとう、チャンピオン！あなたの戦いは記憶に残るものです！最後まで残ったからには当然、最高賞金の{PRIZE}{GOLD_ICON}を与えましょう。" />
+    <string id="PqfS5lgq" text="{ARMOR_AMOUNT}アーマーによって、{ABSORBED_AMOUNT}ダメージ緩和されました。" />
+    <string id="pqfz386V" text="クランリーダー" />
+    <string id="PqOXjfef" text="平和宣言が発表されたため、{PRISONER_LORD.LINK}は解放されました。" />
+    <string id="prs0jRAy" text="合計" />
+    <string id="psjAVdkH" text="アイコンをリセット" />
+    <string id="pSjnd6PX" text="あなたは決闘に負けました。あなたの軍隊は、この敗北で意気消沈しています。部隊の士気が低下しました。" />
+    <string id="pSWt8NXH" text="{SETTLEMENT_NAME} を襲撃中({RAIDING_PROCESS}%)" />
+    <string id="pSz4xSqO" text="英雄の{SKILL_NAME}スキルが{MIN_SKILL_AMOUNT}以上でなければなりません。" />
+    <string id="pT9TZehy" text="野営地" />
+    <string id="puwXJDa9" text="繁栄：" />
+    <string id="pvdKMIL7" text="引きずる" />
+    <string id="PVidxUQ8" text="食料の在庫" />
+    <string id="PvrRFwHM" text="あなたは{TRADE_AMOUNT}{MORALE_ICON}を{?PAY_OR_GET}獲得し{?}失い{\?}ます。" />
+    <string id="PVUeymMR" text="進行中" />
+    <string id="pwFp1A5W" text="嗜虐的" />
+    <string id="PxUrlIvL" text="{CALLING_KINGDOM}の呼びかけに応え、{KINGDOM_TO_CALL_TO_WAR_AGAINST}へ宣戦布告する" />
+    <string id="PYaUEZzn" text="宣戦布告を検討する（支持： {SUPPORT}%）" />
+    <string id="PylbJEe5" text="人数 #" />
+    <string id="Q0qrw7F5" text="フォーカスを追加" />
+    <string id="Q2alNolf" text="我が血族{REFERING_HERO.LINK}" />
+    <string id="Q2JYjFQl" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、退却しています。" />
+    <string id="Q3hlcBa4" text="の一部" />
+    <string id="Q3KrMlLd" text="突撃！" />
+    <string id="Q67Wys0i" text="{SETTLEMENT_NAME}の周囲を巡回中。" />
+    <string id="Q7ONA10T" text="&lt;b&gt;トレビュシェ&lt;/b&gt;{NEWLINE}多少精度は悪いが、防壁に対して効果的。" />
+    <string id="q7xpz1xb" text="交易関連の村" />
+    <string id="Q8mI3b4K" text="方針が選択されていません" />
+    <string id="Q9h3y2oO" text="8" />
+    <string id="QA8Gm9PY" text="今日は暑いな？戦うのもしんどいだろう。こちらの欲しい物をくれれば、さっさと退散するぜ。[rf:convo_mocking_revenge]" />
+    <string id="qaueUlAp" text="よし。気をつけて行けよ。この世は盗人だらけだ。俺たちみたいに、親切な奴らばかりじゃない。[ib:closed][rf:convo_bemused]" />
+    <string id="QAv3upYr" text="マント" />
+    <string id="qb31gnpr" text="クランリーダーボーナス" />
+    <string id="QBbBahLv" text="旅を続けることを許可しよう。" />
+    <string id="qC4OsBt1" text="村（包囲されている）" />
+    <string id="qDSda1OI" text="{DAY}{?DAY_IS_PLURAL}日{?}日{\?}" />
+    <string id="QE1XRyUP" text="攻城兵器の生産速度+{BONUS_AMOUNT_PERCENT}%ボーナス" />
+    <string id="qe686AAn" text="支配者はあなただ。あなたの決定が最終的なものとなり、すべてを覆すことができる。" />
+    <string id="QeeK2rge" text="あなた" />
+    <string id="QFMshJaj" text="{SETTLEMENT_NAME}の近くに集結中。" />
+    <string id="qg0WttZb" text="王国の一員である必要があります。" />
+    <string id="Qg5suamT" text="あなたは{FIGHTER_NAME}に{BET_AMOUNT}賭けましたが、{?FIGHTER_GENDER}彼女{?}彼{\?}は敗北しました。" />
+    <string id="qgHblOq4" text="伏兵を発見しました。" />
+    <string id="qgL4P2vO" text="この町は繁栄している。人々は十分に食べ、生活にそれなりに満足しているように見える。" />
+    <string id="QgUej8DP" text="有効なクエストがありません" />
+    <string id="qhhLVJAC" text="&lt;b&gt;準備&lt;/b&gt;" />
+    <string id="qHkTYCy0" text="兵士が{XP_AMOUNT}の経験値を獲得できます。" />
+    <string id="qKg44yWp" text="優先度" />
+    <string id="QKGVAVcc" text="統治者の恩恵" />
+    <string id="QL2t7D44" text="追加できる作業場の上限" />
+    <string id="ql8Xr5ap" text="攻城戦{newline}{newline}• 攻撃中、弓兵に大幅なペナルティが課せられる。{newline}• 攻撃中、騎兵に中程度のペナルティが課せられる。{newline}• 攻撃中、弓騎兵に深刻なペナルティが課せられる。" />
+    <string id="QlaGZAHq" text="新たな増援が到着しました！" />
+    <string id="QLM6DWHB" text="有効なクエスト" />
+    <string id="qlnXblKO" text="{ISSUE_NAME}：あなたの部隊は問題を解決し、任務から戻った。" />
+    <string id="QLRbhRKL" text="問題" />
+    <string id="qlw2LWgu" text="射程内に移動" />
+    <string id="qM8daraD" text="合計スキルポイント：{CURRENT_SKILL_POINTS}" />
+    <string id="QmaVRAkx" text="賃金をすべて支払えなかったため、部隊の士気が{reg1}下がりました。" />
+    <string id="qMhCpq9k" text="部隊規模を超えました" />
+    <string id="Qn3DCH3d" text="地主" />
+    <string id="qNgjr719" text="{SETTLEMENT}を包囲している勢力が攻撃を開始しました！" />
+    <string id="qpmpTdla" text="名士" />
+    <string id="qQLh6S2w" text="SP {CURRENTAMOUNT}/{TARGETAMOUNT}" />
+    <string id="qR0s1VvE" text="物価、品不足、貪欲な商人たちに対する不満を耳にするが、日常的な光景にかわりありません。" />
+    <string id="qSC0t1lY" text="{YEAR}年、{DAY_OF_YEAR}。{FIRST_HERO}が{SECOND_HERO}と結婚しました。" />
+    <string id="qsh0I4Rm" text="対戦相手の出目は{DICE_ROLL}です。" />
+    <string id="qt7WSK15" text="{SETTLEMENT_NAME} (襲撃済)" />
+    <string id="QTbZPyha" text="同行中" />
+    <string id="qtHAlJEk" text="100{GOLD_ICON}を賭けて勝利した場合、{NORMALIZED_EXPECTED_GOLD}{GOLD_ICON}を獲得します" />
+    <string id="qtmj7h2r" text="  0" />
+    <string id="QtXf82OD" text="この武器には突き{THRUST_DAMAGE_TYPE}ダメージが必要です" />
+    <string id="quantitysign" text="#" />
+    <string id="qUtYks66" text="{ARMY_LEADER.LINK}の軍隊が、{SETTLEMENT_NAME}の近くに集結しています。" />
+    <string id="QxdINoOA" text="親類" />
+    <string id="QxlDIo3q" text="5" />
+    <string id="QY2nuTFB" text="後退するぞ！" />
+    <string id="qyahMgD3" text="隊商（{A0}）" />
+    <string id="qzRbMK8G" text="この敵に対し、家臣が敵の襲撃や攻城戦への対応といった防御的な行動を取る可能性が上がります。" />
+    <string id="r312jCKr" text="和平を提案" />
+    <string id="R4eS65oX" text="怒った村人の中には、道具を持って抵抗する準備をしている者もいる。このままでは、手に負えない状態になるだろう。" />
+    <string id="R5IOmwN1" text="攻城キャンプを建築" />
+    <string id="R6oKMaZ5" text="{MARRIED_HERO.LINK}が{MARRIED_TO.LINK}と結婚しました。" />
+    <string id="R7v2UD8b" text="ポーンを移動させました。" />
+    <string id="r7ZX7QAq" text="攻撃側" />
+    <string id="r9Wtbayx" text="スリング用の石" />
+    <string id="RaAnj4On" text="防御側" />
+    <string id="rangedtroop" text="遠隔" />
+    <string id="ranksign" text="#" />
+    <string id="rBieLPA7" text="兵士の数が上限に達しています。{newline}一時的に兵士を維持させることはできますが、しばらくするとすぐに部隊から去ってしまいます。また、隊の移動速度も遅くなります。{newline}本当によろしいですか？" />
+    <string id="Rbn9l507" text="反逆集落ボーナス" />
+    <string id="rdbw9TVm" text="盾 II" />
+    <string id="rDnWQL87" text="鞘の表示/非表示" />
+    <string id="RdsbyNE2" text="{TRIBUTE_DURATION}日間、1日毎に{TRIBUTE_AMOUNT}の献上金を払い、和平を検討する（支持：{SUPPORT}%）" />
+    <string id="REdb7vbQ" text="{?RULER.GENDER}スルタナ{?}スルタン{\?}・{RULER.NAME}" />
+    <string id="redwEIlW" text="補給官" />
+    <string id="rFvEZJu7" text="{ITEM_NAME}が{PLAYER.LINK}のインベントリに追加されました。" />
+    <string id="rgmnL6sF" text="砂漠での戦闘{newline}{newline}• 騎兵に大幅なボーナスが付与される。{newline}• 弓騎兵に大幅なボーナスが付与される。" />
+    <string id="rGNrtXSx" text="集落を攻撃から守るために{SETTLEMENT}に到着しました。" />
+    <string id="RGqPxabq" text="パワー" />
+    <string id="rhfgzKtA" text="{A0}からの献上金" />
+    <string id="rHSjMjWX" text="決定を決議する" />
+    <string id="RiZ9lNAe" text="防壁レベル" />
+    <string id="RjgBIYvH" text="&lt;b&gt;改良型破城槌&lt;/b&gt;{NEWLINE}門を破壊するために使用する。通常のものより高性能。" />
+    <string id="RJJ1Pbjk" text="{FACTION_INFORMAL_NAME}のために戦っている傭兵" />
+    <string id="RJKLJDdf" text="監獄の最大収容数+{BONUS_AMOUNT}" />
+    <string id="RKyiu5MH" text="あなたと私とで取引できるかもしれません。" />
+    <string id="rmSkXZlp" text="競技会が終了しました。最終ラウンドで{TOURNAMENT_FINAL_OPPONENT}が、あなたを倒して勝利しました。" />
+    <string id="RNQIG1DS" text="あの囁きとうなり声が聞こえるか？あれは風じゃない、俺たちに反抗した奴らの亡霊だ。あそこに仲間入りする覚悟をするんだな。" />
+    <string id="RO0a71EP" text="あなたの対戦相手が障害物を構築しましたが、残っているポーンの数があなたと同じです。ゲームは引き分けです！" />
+    <string id="ROB0VcsI" text="あなたの戦士が決闘に勝利しました。あなたの軍隊は、この勝利に勇気づけられました。あなたの部隊の士気が上昇しました。" />
+    <string id="RpfgdR45" text="我が君" />
+    <string id="rPvzZKFk" text="無力な駐屯地" />
+    <string id="rQ5On2GL" text="クランのすべての部隊に、追加の部隊規模" />
+    <string id="RqnEjYVe" text="+{RECRUIT_AMOUNT} 新兵{?ISPLURAL}{?} {\?}" />
+    <string id="rqWJL27J" text="合計ゴールド" />
+    <string id="RsBO5aOq" text="この武器には振り{SWING_DAMAGE_TYPE}ダメージが必要です" />
+    <string id="RTmDiT0l" text="現在の部隊規模ボーナス" />
+    <string id="rTuptXLg" text="攻撃側の旗" />
+    <string id="RU6D7hSR" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、前進していきます。" />
+    <string id="RUcYGbUH" text="ポイントが足りません。" />
+    <string id="RuHaC2Ck" text="軍役免除税" />
+    <string id="RvDxHQ73" text="価格： " />
+    <string id="RVfkxgMm" text="{?IS_PRISONER_FOLLOWING}留まれ{?}後に続け{\?}" />
+    <string id="rxOK6dn1" text="家臣になる資格がある" />
+    <string id="rxxZFVOa" text="{HERO_NAME}は{NUMBER}個の指令を完遂可能です。" />
+    <string id="rY23b263" text="対戦相手がポーンを移動させました。" />
+    <string id="rZ9aqmaq" text="マシな目的地を知っている、そっちに行こう。" />
+    <string id="RzjMX0Og" text="よし。もう行っていいぞ。{newline}水はこまめに補給しろよ！" />
+    <string id="rzsRQkXw" text="{CHAR_NAME}は既に{PERK_NAME}パークを所持しています。" />
+    <string id="s1NEbhFL" text="待機中" />
+    <string id="s2vaPUdG" text="槍の留め具" />
+    <string id="S3ymfdwB" text="変更が行われました。適用しますか？" />
+    <string id="s5h0Yarn" text="軍隊を管理する" />
+    <string id="s6ofDDii" text="障害物" />
+    <string id="S9tmCkHz" text="この英雄は共通区画を掃討中です。" />
+    <string id="sa2TQu1G" text="この英雄は問題の解決やクエストで多忙です。" />
+    <string id="SBp4Ja1u" text="自由フォーカスポイント：{newline}スキルの学習効率とポイント上限が増加{newline}レベルアップの度、{FOCUS_PER_LEVEL}ポイント獲得します" />
+    <string id="sbtJb2tL" text="お金を賭けることで、さらに多くの報酬を手に入れることができます。倍率はラウンドごとに異なり、毎回{MAX_AMOUNT}{GOLD_ICON}まで賭けることが可能です。" />
+    <string id="SCAehHN6" text="息子" />
+    <string id="SdcpdfaV" text="おい、あんた。カバンの中身は何だ？何を運んでいる？[if:convo_bared_teeth]" />
+    <string id="SdXS4lxN" text="勢力リーダーボーナス" />
+    <string id="SEBZa2Lh" text="結束力を強化" />
+    <string id="secondabbr" text="s" />
+    <string id="SeQ0Q7r6" text="発生中の問題" />
+    <string id="settlementtrack" text="追跡" />
+    <string id="sfcbd6QS" text="この説得を成功させるために必要な{TARGET_PROGRESS}ポイントのうち、{CURRENT_PROGRESS}を獲得しました。" />
+    <string id="SFddKpPz" text="ケチな" />
+    <string id="SFg3xgCM" text="付近" />
+    <string id="sFpNAqHs" text="情け深い" />
+    <string id="Sj9Ux8jS" text="撤退" />
+    <string id="sJLUbnLl" text="力の合計" />
+    <string id="slKe6Gyc" text="軍隊の合計食料" />
+    <string id="SLNKWIj5" text="英雄の{TRAIT_NAME}の特性が{MAX_TRAIT_AMOUNT}以下である必要があります。" />
+    <string id="smeltverb" text="精錬" />
+    <string id="smithingverb" text="鍛造" />
+    <string id="SMws1ws6" text="大盾" />
+    <string id="SNfvAnuV" text="壁の修復速度に+{BONUS_AMOUNT_PERCENT}%ボーナス" />
+    <string id="SNVrnzES" text="遭遇戦中に軍隊を形成することはできません" />
+    <string id="snxLc1Wq" text="このように各プレイヤーのポーンが2体、盤面に配置された状態でスタートします。プレイヤーは中央のタイルを除く、使用可能なタイル上に、順番に残りのポーンを配置していきます。" />
+    <string id="snyxby5L" text="拠点に戻る" />
+    <string id="So5yubRS" text="片手での使用不可" />
+    <string id="SojzHoCa" text="女性限定" />
+    <string id="spIe8wd8" text="片手用の長柄武器" />
+    <string id="spkv1rOW" text="部隊リーダーの変更" />
+    <string id="SqUphVOm" text="部隊（{CURRENT} / {LIMIT}）" />
+    <string id="SrfYbg3x" text="リーダー" />
+    <string id="SRYuaoh1" text="この地域は内政の混乱に見舞われているが、それでも人々は日々の生活を営むより他ない。ほとんどの者は、市場に長く留まったり、目を合わせたりはしない。しかし、あなたは田舎の反乱軍に関する会話を耳にした。反乱軍を恐れる者もいれば、つかの間のことであっても、金持ちや権力者たちの形勢が逆転したことをひそかに喜んでいる者もいる。" />
+    <string id="Ssbr2dYx" text="戦争への呼びかけを発令する" />
+    <string id="strcharactertypelady" text="婦人" />
+    <string id="stS5PBIr" text="牧師" />
+    <string id="Sv4tD65i" text="{PRISONER_FACTION_LINK}の{PRISONER_LORD.LINK}は、{CAPTURER_FACTION}から身代金を要求されました。" />
+    <string id="svArZT0G" text="詳細" />
+    <string id="Svem1NiV" text="対戦相手が気絶し、あなたが勝利しました！" />
+    <string id="svnxJA0L" text="この英雄には、この武器を製作するのに十分な{SKILL}スキルがありません。" />
+    <string id="switchToNextElement" text="切り替え" />
+    <string id="SwY4YLMY" text="ドラゴンの旗が再び、その雄姿を取り戻した。" />
+    <string id="SydDh9jf" text="{HERO.NAME}から{ITEM}を{COUNT}受け取りました。" />
+    <string id="SYm7rgCX" text="{COMPANION.LINK}があなたの部隊を離脱しました。" />
+    <string id="szSjkkyl" text="次の目標を定めよう。" />
+    <string id="T0aULilA" text="&lt;b&gt;破城槌&lt;/b&gt;{NEWLINE}門を破壊するために使用する。ハシゴのみで挑むより有効。" />
+    <string id="t1hYTrMR" text="{YEAR}年、{DAY_OF_YEAR}。王国は滅亡しました。{FORMAL_NAME}はもう存在しません。" />
+    <string id="T3JJ7aIV" text="騎乗状態で戦闘を行ったり、キャンペーンマップ上を移動する。" />
+    <string id="T592iYI4" text="あなたの出目は{DICE_ROLL}です。" />
+    <string id="T5VsEnNE" text="人数" />
+    <string id="t5X1TNBq" text="{?IS_GENERAL_SIDE}{?}で{SIDE_STRING}で{\?}攻城兵器を使用する" />
+    <string id="t6DiaDQ3" text="高貴な女性" />
+    <string id="t6NXmyoF" text="{STR}" />
+    <string id="t6sgwieR" text="製作した価値" />
+    <string id="t6xdCj43" text="ああ、もちろんできるさ、できるとも。あんたがずっしりとした財布を持っていて、それを軽くする覚悟があるのならね。[ib:hip][rf:convo_bemused]" />
+    <string id="T8w5VRAy" text="敵隊が城へと退却している。" />
+    <string id="taaNCsVZ" text="最終ラウンドで{TOURNAMENT_FINAL_OPPONENT}を倒して{newline}競技会で優勝しました。" />
+    <string id="tAMBVG9B" text="3" />
+    <string id="tb6e1wjQ" text="敵に全ての攻城兵器を破壊されてしまいました！" />
+    <string id="TBfUP7n3" text="隠れ家" />
+    <string id="TcLnmzr3" text="部隊が解散するとリーダーは逃亡し、残されたメンバーは最寄りの味方の集落に向かって防衛部隊に加わるか、野に散らばろうとします。{?DOES_DISBANDING_PARTY_HAVE_SHIP}船はあなたのクランのメンバー間で分配されます。{?}{\?}{newline}{newline}この操作を取り消したり、キャンセルしたりすることはできません。{newline}{newline}本当によろしいですか？" />
+    <string id="tDA5dhn3" text="女帝" />
+    <string id="TDQId8c9" text="あなたは障害物を構築し、残っているポーンの数も対戦相手より多い状態です。あなたはゲームに勝利しました！" />
+    <string id="tDy1TfDq" text="英雄に戻る" />
+    <string id="tdYB3Tzc" text="やり直す" />
+    <string id="TeWnL9bh" text="我が夫{REFERING_HERO.LINK}" />
+    <string id="TgtdcMGS" text="ハエごときのあがきなど取るに足らん。始末してやるまでだ…" />
+    <string id="thIebQAR" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、先陣を切っています。" />
+    <string id="ThZdJyVW" text="統治者の排除" />
+    <string id="Ti2GeG0U" text="このオプションを選択すると、ランダムなオプションが1つブロックされます。" />
+    <string id="ti5FwD4t" text="未知の部隊" />
+    <string id="TLuaPAIO" text="{A0} 税" />
+    <string id="TlvM7kuQ" text="18" />
+    <string id="tMg5AF19" text="今はクエストを確認できません！" />
+    <string id="TmKbTxQy" text="ハトゥン" />
+    <string id="TNLRC4Gf" text="長柄系以外の片手武器を戦場で振るう。" />
+    <string id="tnZ7BfO9" text="和平の提案" />
+    <string id="toK51MD4" text="訪れる" />
+    <string id="tpjGRDHP" text="決闘が終了しました。{leave_key}で離脱します。" />
+    <string id="Tqa0r78j" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、一撃離脱を仕掛けています。" />
+    <string id="tQDbRfMs" text="私たちは戦闘の真っ只中で離れ離れになりました。" />
+    <string id="tqSODeKW" text="自殺しました！" />
+    <string id="tributeIncome" text="献上金の収入" />
+    <string id="troopclassname" text="{FORMATION_CLASS}" />
+    <string id="trRLa9pi" text="{PARTY}と遭遇しました。彼らと戦うと、{KINGDOM}との戦争になります。" />
+    <string id="Tsn6bCft" text="寛大" />
+    <string id="TSw4tD02" text="そうかい？それなら、今日は手を汚すしかなさそうだな。[ib:aggressive][if:convo_bared_teeth]" />
+    <string id="TSWen983" text="有効なクエスト" />
+    <string id="Tu46dFyH" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、攻城兵器を使用しています。" />
+    <string id="TVcqGJ1r" text="{PLAYER.NAME}が捕虜になりました！" />
+    <string id="TvmDFK6o" text="{REWARD}" />
+    <string id="twinfemale" text="双子(女)" />
+    <string id="twinmale" text="双子(男)" />
+    <string id="txa5GFWE" text="この部隊は現在戦闘中です" />
+    <string id="Txbga7js" text="{ATTACKER}と{DEFENDER}の戦闘に遭遇しました。" />
+    <string id="TxeKpK3Y" text="あなたの{HERO.NAME}との関係が{MAGNITUDE}上がり、{VALUE}になりました。" />
+    <string id="tXl9REtA" text="{SETTLEMENT_NAME}の民兵" />
+    <string id="Tyc4aAdz" text="誰も率いることなく戦闘に参加する" />
+    <string id="u3c9M8vx" text="女性統治者" />
+    <string id="U3LdMEXb" text="借金" />
+    <string id="U7etPQA2" text="{JOB_NAME}の{FIRSTNAME}" />
+    <string id="U7Z7f7ZT" text="配偶者" />
+    <string id="U8TPlwW9" text="助かったよ、{PLAYER.LINK}。あなたには借りができた。いつの日か、この恩を返せることを願っている。" />
+    <string id="U8VHRdwF" text="脚部の防具： " />
+    <string id="ua15BlYh" text="すべてリセット" />
+    <string id="uAL3bCfN" text="負荷{newline}装備している武器と防具の総重量。{newline}負荷が大きいほど、歩兵としての移動速度が遅くなります。" />
+    <string id="UaV0JT87" text="この英雄はこのアイテムを製作できません。" />
+    <string id="Uaw5VF3D" text="対戦相手は降伏したいようです。あなたの勝利を受け入れますか？受け入れない場合は、ゲームを続行します。" />
+    <string id="uawXA7zW" text="{YEAR}年、{DAY_OF_YEAR}。{NAME}が殺害されました。" />
+    <string id="UaYsPbER" text="未払い賃金" />
+    <string id="uB245vWg" text="食料：" />
+    <string id="uBxHeyxy" text="胆力：" />
+    <string id="ucHWLtIt" text="従属村の暖炉数+{BONUS_AMOUNT}（1日あたり）" />
+    <string id="uCikaIoq" text="すばらしい。見ろ、俺たちはそこまで残酷じゃない。ちょっと欲張りなのは否定できないが、気前はいいのさ。[ib:hip][rf:convo_bemused]" />
+    <string id="UckVajhO" text="獲得した名声：+{RENOWN}" />
+    <string id="UCo8oT1Q" text="戦争での戦略" />
+    <string id="uEiFfbOq" text="{YEAR}年、{SEASON} {DAY}日目" />
+    <string id="uFDiRV1Z" text="（{PRIMARY_ROLE}）" />
+    <string id="uFuDwaYp" text="{HOUR}{?PLURAL_HOURS}時間{?}時間{\?}" />
+    <string id="ug4LiPbb" text="遠隔武器 IV" />
+    <string id="uGahvbVP" text="{?IS_GENERAL_SIDE}{?}の{SIDE_STRING}にある{\?}攻城兵器を防衛せよ" />
+    <string id="UgMbCUMO" text="我が父{REFERING_HERO.LINK}" />
+    <string id="ugX2RRDY" text="私は人質にとられ、身代金を要求された" />
+    <string id="uhcIXeba" text="アイテムを捨てようとしています。よろしいですか？" />
+    <string id="uinDitbl" text="壁を破らなければならない。" />
+    <string id="UIqPXN62" text="投てき武器を敵に命中させる。" />
+    <string id="uixuohBp" text="集落のプロジェクト" />
+    <string id="UJ01br0b" text="この英雄には、この指令を完遂するのに必要な{SKILL}スキルがありません。" />
+    <string id="um1Z5swc" text="{REFERING_HERO.LINK}婦人" />
+    <string id="uN5gwV05" text="死者" />
+    <string id="uOqdr7FM" text="おめでとうございます！あなたは対戦相手に打ち勝ちました！" />
+    <string id="uOqfaqbk" text="{PARTY_LIST_TAG}({COUNT} / {MAX_COUNT})" />
+    <string id="UOr4UP47" text="非常に慎重" />
+    <string id="UP6yVQ7b" text="の支援者" />
+    <string id="uPZH31zw" text="叔父" />
+    <string id="uQbT8RwL" text="海の戦い{newline}{newline}• 軽量船は大きなボーナスを得る。{newline}• 重量船は大きなペナルティを受ける。{newline}" />
+    <string id="UQc6zg1Q" text="所有している路地" />
+    <string id="ur8kO8iM" text="ゲームのヒント" />
+    <string id="UtQhRvS8" text="夫" />
+    <string id="Uu0wzNj3" text="クランTier：{TIER}  " />
+    <string id="uUlO8l6M" text="{COMMON_AREA_OWNER}の部下たちと喧嘩したそうですね。まあ、私には関係のないことですが。" />
+    <string id="uuwm0Kga" text="ドア" />
+    <string id="uuyso3mg" text="部隊からの収入" />
+    <string id="uvIL0tP9" text="視界" />
+    <string id="uwPByaQg" text="攻撃を開始" />
+    <string id="UX7reJ3K" text="敵に攻城兵器が破壊されないように、急いで防衛しに行かなければ。" />
+    <string id="UxAl9iyi" text="個人" />
+    <string id="UxD6lPXa" text="あなたは影響力を{INFLUENCE}獲得しました。{newline}（現在の影響力：{NEW_INFLUENCE}）" />
+    <string id="UxyIkWah" text="傭兵は集落を併合できません。" />
+    <string id="uYFd4meY" text="クエストの提供者" />
+    <string id="V03gbccF" text="味方の隊を攻撃しました！" />
+    <string id="V0Kw3O7c" text="チュートリアル" />
+    <string id="V0OMMQ1F" text="存分に力を見せつけた戦いぶりでしたね、{PLAYER.LINK}。ボキッ！バキッ！敵を{OPPONENT_COUNT}倒しました。群衆は大変盛り上がりました。あなたは{PRIZE}{GOLD_ICON}を受け取りました。" />
+    <string id="V1FKcYyi" text="{SETTLEMENT_NAME}(略奪済み)" />
+    <string id="v3cY44N1" text="支配しているクランの集落は併合できません。" />
+    <string id="v3MZGujs" text="{PRISONER_LORD.LINK}が、{CAPTOR_FACTION}の捕虜になりました。" />
+    <string id="v4nltcfz" text="{PARTY_LIST_TAG}{TOTAL_COUNT}/{MAX_COUNT} ({COUNT} + {WEAK_COUNT}w)" />
+    <string id="v5bJd6mZ" text="繁栄変更に+{BONUS_AMOUNT}ボーナス" />
+    <string id="V7ESaOJU" text="軍旗を選択してください" />
+    <string id="Vap6ahft" text="兵士たちよ！{BEHAVIOUR_NAME_BEGIN}！" />
+    <string id="Vc9Mx6Jb" text="クエスト" />
+    <string id="vdK5SaJN" text="むぅ、残念だな。[ib:aggressive][if:convo_annoyed]" />
+    <string id="vdKLq8T5" text="壁{newline}レベル {LEVEL}" />
+    <string id="veiFupWz" text="{?RULER.GENDER}バロネス{?}バロン{\?}・{RULER.NAME}" />
+    <string id="VeJii4gg" text="裏切りにより失敗したクエスト: {QUEST_TITLE}" />
+    <string id="VeOqrmx5" text="{LEFT}{FOCUS_ICON}{RIGHT}" />
+    <string id="VeqwXwYc" text="敵が撤退しています。あなたの勝利です。" />
+    <string id="vgXYtMrj" text="戦闘生存者" />
+    <string id="VHjIJGja" text="王国に属すると開放" />
+    <string id="vhq22OyK" text="繁栄" />
+    <string id="Vi6ojGrk" text="{FACTION_1_NAME} 対 {FACTION_2_NAME}" />
+    <string id="vIpFgbU6" text="軽鎧" />
+    <string id="VJNJsdif" text="{COMPANION.NAME}があなたの部隊に加入しました。" />
+    <string id="vK3PVdsN" text="{PRISONER_FACTION_LINK}の{PRISONER_LORD.LINK}が監禁場所から逃亡しました。" />
+    <string id="vLU6nNwp" text="あなたは{FIGHTER_NAME}に{BET_AMOUNT}を賭け、{?FIGHTER_GENDER}彼女{?}彼{\?}が戦いに勝利しました。あなたに{REWARD_AMOUNT}{GOLD_ICON}が贈られます。" />
+    <string id="vn7A8aXV" text="{SETTLEMENT_NAME}の外にいます。あなたの旗が、城門の上にはためいているのが見えます。" />
+    <string id="vnmy8Bjl" text="総経費 " />
+    <string id="vo867CHX" text="昨年完了したクエスト" />
+    <string id="VOYhAyJh" text="「{MODIFIER_KEY}」と「{CLICK_KEY}」を押して追従します。" />
+    <string id="VoZBLWay" text="{RULER.NAME}・{?RULER.GENDER}ハトゥン{?}ハン{\?}" />
+    <string id="VpCa9ATa" text="そうか。なら今日がお前の命日だ。[ib:aggressive][if:convo_insulted]" />
+    <string id="VpKIzJxz" text="よう、旅のお人。我々は襲撃と略奪をしに、この地に上陸したばかりだ。あんたに会えてすごく嬉しいよ。[rf:convo_mocking_revenge]" />
+    <string id="vpx7Pa7v" text="提供する" />
+    <string id="VPYazFVH" text="突きスピード: " />
+    <string id="VqpmXU1m" text="戦場でクロスボウを用いて敵を射る。{newline}ヘッドショットや遠距離の敵への命中でXPボーナス。" />
+    <string id="VrTGIQyy" text="民兵の熟練度+{BONUS_AMOUNT_PERCENT}%" />
+    <string id="vSr60kDj" text="{YEAR}年、{DAY_OF_YEAR}。{MOTHER_NAME}の元に、子供が生まれました。" />
+    <string id="VSZGbSEO" text="一致するアイテムがありません。" />
+    <string id="vT4MPxNt" text="{PRISONER_LORD.LINK}は、{CAPTURER_FACTION}から身代金を要求されました。" />
+    <string id="Vvo92lyj" text="南部帝国" />
+    <string id="vvUayAoO" text="{HERO.NAME}が殺害されました。" />
+    <string id="vvXTnr8i" text="クランから追放" />
+    <string id="vw1bbcww" text="味方{AI_SIDE} {CLASS}の後ろで小戦闘をおこなう。" />
+    <string id="Vw7BUXvw" text="豪勢" />
+    <string id="VWahbQGh" text="私の友人 {REFERING_HERO.LINK}" />
+    <string id="VWQbVKT4" text="部隊を解散する" />
+    <string id="vXY5wPgP" text="食料の消費が{BONUS_AMOUNT_PERCENT}%{?BONUS_AMOUNT_PERCENT &gt; 0}増加{?}減少{\?}" />
+    <string id="vXzJJtYq" text="我々の計画は接近し矢の雨を降らせることだ。" />
+    <string id="VyJMWO8a" text="{GOLD_AMOUNT}{GOLD_ICON}が引かれました。" />
+    <string id="VyPwh1CT" text="英雄を部隊に追加する" />
+    <string id="vZRYAvYH" text="ヴランディア" />
+    <string id="vZVJNTOD" text="寄贈XP" />
+    <string id="vZzDCjDr" text="現在、この町に雇用希望者はいません。" />
+    <string id="W1seGc3t" text="爆薬筒" />
+    <string id="w3v2S03V" text="あなたの {HERO_NAME} との関係は &lt;a style=&quot;IncreaseStyle&quot; &gt;&lt;b&gt;増加します&lt;/b&gt;&lt;/a&gt;" />
+    <string id="W5gPypVY" text="町の鍛冶屋を利用して武器の作成、精製、精錬を行う。" />
+    <string id="w758X31N" text="アイテム" />
+    <string id="w7Q64T2H" text="{PRISONER_LORD.LINK}は、{CAPTURER_FACTION}の捕虜となっている間に死亡しました。" />
+    <string id="w9beDbTI" text="カメラモードの切替" />
+    <string id="w9C43LhX" text="{DECISION_NAME}の議決に参加しますか？" />
+    <string id="WaQ93uXZ" text="{YEAR}年、{DAY_OF_YEAR}。{NAME}が分娩中に死亡しました。" />
+    <string id="WDduTwIB" text="自動採用数+{BONUS_AMOUNT}" />
+    <string id="wdKJWkNQ" text="巡回中の部隊" />
+    <string id="wdsJRYRn" text="ちょうどいいところに来てくれたな、{PLAYER.LINK}。あなたの支援は忘れない。" />
+    <string id="Wey28apL" text="突撃耐性あり" />
+    <string id="wFzAKWMX" text="{CALLED_KINGDOM}が{KINGDOM_TO_CALL_TO_WAR_AGAINST}に宣戦布告するよう呼びかける" />
+    <string id="WharCvcX" text="敵を中に入れないよう、我々は壁を守らねばならい。" />
+    <string id="WHED64rw" text="しばらくするとここから、新しい兵士が利用可能になります。" />
+    <string id="WHtINdhX" text="23" />
+    <string id="WhuufgY5" text="主な関係" />
+    <string id="wib91252" text="職業: {PROFESSION}" />
+    <string id="wifebrotherinlaw" text="義兄弟" />
+    <string id="wifefatherinlaw" text="義父" />
+    <string id="wifemotherinlaw" text="義母" />
+    <string id="wifesisterinlaw" text="義姉妹" />
+    <string id="wjb4tZDX" text="レベル: {LEVEL}" />
+    <string id="WJGCGka2" text="{PRISONER_FACTION_LINK}の{PRISONER_LORD.LINK}は{CAPTURER_FACTION_LINK}の{CAPTURER_LORD.LINK}の捕虜になりました。" />
+    <string id="wjuieMsE" text="あなたの敵が命中により1ポイント獲得！" />
+    <string id="wKbafI9r" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、攻城塔から矢を放っています。" />
+    <string id="wKgpciSx" text="{AMOUNT}{INFLUENCE_ICON}" />
+    <string id="WlV9cE5E" text="傭兵は戦争の方針を提案できません。" />
+    <string id="wmpwMa8j" text="{?IS_POSITIVE}+{?}-{\?}{CHANGE}" />
+    <string id="wNHfL0x0" text="{YEAR}年、{DAY_OF_YEAR}。{NAME}が戦死しました。" />
+    <string id="wNjhpOOM" text="交換を適用" />
+    <string id="wshehbFu" text="傭兵は軍隊を解散できません。" />
+    <string id="WsOoZCRR" text="作業場の生産+{BONUS_AMOUNT_PERCENT}%" />
+    <string id="WSoZkkqD" text="看守" />
+    <string id="wtDdqXGW" text="あんたが俺たちの、古くからの聖なる特権に敬意を払ってくれて嬉しいぞ。" />
+    <string id="WTR5Lr8W" text="防御側は彼らの王を、ボードのいずれかの角まで動かすと勝利します。{newline}攻撃側は王を捕獲、またはすべての防御側を動けなくすると勝利します。" />
+    <string id="wTT3Fyzl" text="旦那様" />
+    <string id="WusvipsF" text="資金が不足しています！" />
+    <string id="WVAUoXMY" text="{CURRENT_XP} / {LEVEL_MAX_XP} XP" />
+    <string id="WvyWpbE8" text="採用した囚人の従順コスト" />
+    <string id="wXQUXa1P" text="このスキルにはフォーカスポイントを、これ以上追加できません。" />
+    <string id="WYfjyuHj" text="そうか… 長旅だったものでね、財布の中に残っている金をかき集めてもらおうか。" />
+    <string id="wZnsFoQ6" text="ちゃんとした挨拶がまだだったな。命を救ってもらったのに、まだあなたの名前を知らない…" />
+    <string id="wZovddJ9" text="{PRISONER.NAME}があなたの部隊から逃亡しました。" />
+    <string id="WZTRH6W9" text="受託者" />
+    <string id="X1tny9v2" text="成功した襲撃" />
+    <string id="x2mSJAVa" text="敵のポーンが残り1体、またはゼロになるとプレイヤーの勝利となります。{newline}{newline}もうひとつの勝利方法は、片面に敵のポーンをすべて封じる障壁を建設することです。障壁が建設された後は、最も多くのポーンを保持しているプレイヤーが勝利します。" />
+    <string id="X4qO3jBf" text="{?RULER.GENDER}バンモーマー{?}モーマー{\?}・{RULER.NAME}" />
+    <string id="XaCbpDUv" text="しばらくはこの辺りを巡回すべきだろう。" />
+    <string id="XaFXqGhz" text="弾" />
+    <string id="xaHELVnx" text="攻城塔（レベル1）" />
+    <string id="xavuhZtN" text="このまま続行すると、{LEADER.NAME}がこの部隊の新しいリーダーになります。{?DOES_LEADER_NEED_GOLD}{newline}{newline}また、{PARTY_COST}{GOLD_ICON}が消費されます。{newline}{newline}{?} {\?}よろしいですか？" />
+    <string id="xbh6Bmhf" text="王国における現状の支持" />
+    <string id="XBIPqxA2" text="空き" />
+    <string id="XbKMacMQ" text="支持者の費用" />
+    <string id="XbMVn2JV" text="荷運び乗用馬" />
+    <string id="xD3ICb06" text="雪での戦闘{newline}{newline}• 騎兵に大幅なボーナスが付与される。{newline}• 弓騎兵に大幅なボーナスが付与される。" />
+    <string id="xD9xlbXt" text="王子" />
+    <string id="Xedhfj07" text="{HERO.NAME}があなたの部隊と合流するまで、{TRAVEL_DURATION}かかります。このまま続行しますか？" />
+    <string id="xEWwbGVK" text="精度: " />
+    <string id="xf4gqDml" text="攻城戦中に軍隊を形成することはできません" />
+    <string id="XgioIHv6" text="既存の決定を決議する" />
+    <string id="xGjug9Sd" text="!" />
+    <string id="xgwjHi1p" text="否認" />
+    <string id="xHc1xhG8" text="城内にいる敵を排除" />
+    <string id="XJ6EG3Pa" text="備蓄食料の上限に+{BONUS_AMOUNT}のボーナス" />
+    <string id="xKa6TwEX" text="{SETTLEMENT_NAME}で宿泊中" />
+    <string id="XNNvdkul" text="{SETTLEMENT_NAME}を統治中" />
+    <string id="XnsAbUE3" text="解散" />
+    <string id="xo2zvOir" text="敵は移動できません。ターンをスキップします。" />
+    <string id="xq62HAIO" text="味方の{?IS_GENERAL_SIDE}{?} {SIDE_STRING}{\?}側面 {AI_SIDE} {CLASS}を保護" />
+    <string id="xqeFT0cU" text="{DAY}{?DAY_IS_PLURAL}日{?}日{\?}間" />
+    <string id="xqN16a4k" text="ボードゲーム" />
+    <string id="xqOqriWF" text="孫娘" />
+    <string id="XqV3x4i3" text="選択すると、このオプションは説得の試みを次の段階に進めます。" />
+    <string id="xsIU28Za" text="やったぞ！これで冷たい岩の上で寝たり、筋張ったリスばかり食べないで済む…!!" />
+    <string id="xSKFr3Rs" text="待機" />
+    <string id="xT8955dO" text="市民の衣類" />
+    <string id="XTubeiTb" text="盾 III" />
+    <string id="Xv6knZP8" text="-{PRISONERS_AMOUNT}囚人{?ISPLURAL}{?} {\?}" />
+    <string id="xv8T0Il8" text="先攻プレイヤーとターン毎に移動できるタイル数は、2色に塗られた棒を4本投げることで決定します。" />
+    <string id="xwWUDia6" text="賭け金" />
+    <string id="xWydBJyS" text="{SETTLEMENT}の反逆者たちが、彼らの領主・{RULER}に反抗して決起しました。" />
+    <string id="Xx9EbSwG" text="ブーツ" />
+    <string id="XxLCJb0W" text="正直" />
+    <string id="xycMiCIq" text="最近、利益の出る取引が出来ていない。" />
+    <string id="XzggyCPW" text="この英雄は多忙です。" />
+    <string id="xZxbFuDI" text="今晩はジャッカルたちに、ご馳走を食わせてやれそうだ。" />
+    <string id="y0MmmV8C" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、飛び道具兵士の周りに防衛の輪を結成しています。" />
+    <string id="y1uH6Og1" text="馬具 IV" />
+    <string id="Y20AQIvo" text="{PRISONER.NAME}が{CAPTOR_NAME}に捕らえられました！" />
+    <string id="y3cP8Etv" text="中止したクエスト: {QUEST_TITLE}" />
+    <string id="y3OKIfj0" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、歩兵に守られて矢を放っています。" />
+    <string id="Y4fht2kI" text="主要キャラクター" />
+    <string id="y4MiEr0H" text="兵士タイプ" />
+    <string id="Y5byltUT" text="スルタン" />
+    <string id="y8Catvvn" text="遠隔武器 III" />
+    <string id="y8tOrlnJ" text="11" />
+    <string id="yaxwYglT" text="派遣済み" />
+    <string id="YbabzW3H" text="あなたが{SETTLEMENT_NAME}で投獄されてから、{NUMBER_OF_DAYS} {?PLURAL}日{?}日{\?}経ちました。" />
+    <string id="YbB2IpTR" text="あなたの{HERO.NAME}との関係が{MAGNITUDE}下がり、{VALUE}になりました。" />
+    <string id="yBnwGiuB" text="領主" />
+    <string id="Yc4xzip6" text="{NAME}を処刑しますか？" />
+    <string id="YCYwPPlJ" text="すべてのチュートリアルを無効にする" />
+    <string id="YeaFZzXS" text="{YEAR}年、{DAY_OF_YEAR}。 {LEADER_NAME}が新たな王国、{KINGDOM_NAME}の誕生を宣言しました。" />
+    <string id="yeEaBV29" text="そいつで手を打とう。生かしてやる。俺の気が変わる前に行け。[ib:closed][if:convo_normal]" />
+    <string id="yenZGMzi" text="早送り" />
+    <string id="YevUiidU" text="あなたの{CLAN_LEADER}との関係が{MAGNITUDE}下がり、{VALUE}になりました。" />
+    <string id="Yf6bHCeW" text="{SETTLEMENT_NAME} (関税)" />
+    <string id="yfNAkFgF" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}は、散兵線を結成しています。" />
+    <string id="YgcirtUD" text="平原での戦闘{newline}{newline}• 騎兵に大幅なボーナスが付与される。{newline}• 弓騎兵に大幅なボーナスが付与される。" />
+    <string id="ygY1oKQD" text="何なりとお申し付けください、{?PLAYER.GENDER}ご婦人{?}旦那様{\?}。襲うべき人物のいる方向を指していただければ、後はお任せください。[ib:convo_approving]" />
+    <string id="YhLweMrP" text="鎧" />
+    <string id="YifFZaG7" text="部隊の所有者" />
+    <string id="Yj0cQVLH" text="突撃！" />
+    <string id="yjXoftYs" text="最後に{SETTLEMENT}{?IS_IN_SETTLEMENT}で{?}の近くで{\?}目撃されている。" />
+    <string id="YkagFP1z" text="我が母{REFERING_HERO.LINK}" />
+    <string id="ykZLXKH3" text="名声: {RENOWN}" />
+    <string id="ylQJwqKH" text="苦労して確保した戦利品を放置するのですか！？" />
+    <string id="ymBKDAuj" text="この戦争での最近の出来事を表示" />
+    <string id="YMIFqVOk" text="本当に降伏しますか？降伏すると兵士をすべて失うことになります！" />
+    <string id="YNND0kc9" text="ガード付きの鉤槍" />
+    <string id="yNyQ3RFa" text="{HERO.NAME}が出産中に亡くなりました。" />
+    <string id="yOJAiSf4" text="編隊無し" />
+    <string id="YOSEIvyf" text="操作性: " />
+    <string id="yQiDdDPY" text="軽量の馬" />
+    <string id="yRQDL2ab" text="駐屯地：" />
+    <string id="yRTV90eN" text="結果を選択する必要があります。" />
+    <string id="yrvH6Oa1" text="開始位置で待機してください！" />
+    <string id="ySlVPZyF" text="名士たちに兵を提供するよう強要すると、あなたに抵抗しようとする住民が集まります。彼らと戦うと{KINGDOM}との戦争になります。" />
+    <string id="YSM0lxns" text="コスト" />
+    <string id="ySmxkiKH" text="行こう！" />
+    <string id="ytlsMCCn" text="{DESERTER_COUNT} {?PLURAL}兵士{?}兵士{\?} が {PARTY} から離脱しました。" />
+    <string id="ytYPOCZ8" text="{NUMBER}% 完了" />
+    <string id="yU35xy1f" text="部隊が海上にいる間は軍隊を編成できません。" />
+    <string id="YukbQgHJ" text="飛び道具の速度: " />
+    <string id="yUo269Us" text="助けて感謝する、見知らぬ者よ。まだちゃんと挨拶をしていなかったな？そちらの名前は？" />
+    <string id="yVLv2Q23" text="続行する" />
+    <string id="YvwQL9aa" text="重さ: " />
+    <string id="yWD4Nwy2" text="我々の味方を援助するべきだ。" />
+    <string id="YxEcX6pS" text="{YEAR}年、{DAY_OF_YEAR}。 あなたはカルラディオスのドラゴンの旗の、2つ目のかけらを見つけました。" />
+    <string id="YxKHEUEX" text="競技会が終了しました。最終ラウンドで{TOURNAMENT_FINAL_PARTICIPANT_A}が{TOURNAMENT_FINAL_PARTICIPANT_B}を倒して勝利しました。あなたは{TOURNAMENT_ELIMINATED_ROUND}ラウンド目で敗れました。" />
+    <string id="YYdPfXEP" text="タフルは攻撃側(黒)と防御側(白)が戦うゲームです。{newline}攻撃側は防御側より人数が多いですが、防御側は勝利のために捕獲する必要がありません。主な目的は自陣の王(中心のポーン)を守ることです。{newline}王にも、他のポーンと同じ動作や捕獲ルールが適用されます。" />
+    <string id="YYvzM5Dh" text="すべて破棄" />
+    <string id="yzIOcJoK" text="対戦相手がブロックされ、移動できなくなれば、プレイヤーの勝利です。" />
+    <string id="z0c2pDhZ" text="和平状態" />
+    <string id="z3AvJZMt" text="{SETTLEMENT_NAME}にて{BUY_PRICE}で購入可能" />
+    <string id="Z3yCe1HS" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}と{?}{\?}{TROOP_NAMES_END}が、再集結しています。" />
+    <string id="Z5kGFH7k" text="個" />
+    <string id="Z5RlxyPJ" text="あなたが{PARTY_NAME}の捕虜になってから、{NUMBER_OF_DAYS} {?PLURAL}日{?}日{\?}経ちました。" />
+    <string id="Z6sDPstD" text="村の農場" />
+    <string id="z716wRaB" text="民兵部隊を解散させることはできません。" />
+    <string id="z7vSaa7L" text="村の生産" />
+    <string id="Z8LeI4ho" text="護衛" />
+    <string id="ZaoZKcx9" text="町人" />
+    <string id="ZaseErqk" text="撤退できません。近くに敵がいます！" />
+    <string id="zBC5cQic" text="廃止を支持" />
+    <string id="ZdeswYbM" text="商人は資金が不足しています！本当によろしいですか？" />
+    <string id="ZdqbU2gw" text="承認" />
+    <string id="zE6OFPRu" text="集落の税金" />
+    <string id="zEbvDH7V" text="自分のクランを援助することはできません。" />
+    <string id="zeGAw2IE" text="殺した者" />
+    <string id="ZEzxHLaH" text="囚人の英雄を雇うことはできません" />
+    <string id="zg0q1aqD" text="駐屯地にいる部隊を解散させることはできません" />
+    <string id="Zg5Zmgui" text="{TOWN}の市場から村へ帰るところです。" />
+    <string id="ZhiB1EOM" text="{SETTLEMENT_NAME}の囚人" />
+    <string id="zkJPFtYn" text="完了したクエスト: {QUEST_TITLE}" />
+    <string id="ZlJIpfWg" text="スピードボーナス: {SPEED_BONUS}%" />
+    <string id="ZMdOAbTd" text="攻撃側の軍隊" />
+    <string id="zNekjGmR" text="囚人を採用する" />
+    <string id="zNEvBr6R" text="あなたの番" />
+    <string id="zNHtgL0S" text="その競技会は、弓術試合になるでしょう。" />
+    <string id="ZnsseELq" text="勢力名は{MIN} - {MAX}文字である必要があります。" />
+    <string id="znxbib0f" text="この用法のステータスを表示" />
+    <string id="zo5hQfll" text="狼はボードから5匹の羊を排除すると勝利します。{newline}{newline}羊は狼をブロックし、移動できなくすれば勝利します。" />
+    <string id="zpaLDTI4" text="金を払えば通してやる。" />
+    <string id="ZPaw3WuO" text="西の冒険家たちの子孫であるヴランディア人は、独立した王国を形成するまでの数百年の間、帝国に支配された状態で暮らしていた。皇族の権力が衰退すると、槍騎兵や槍兵として戦うことを好む好戦的な貴族たちが指導者となり、よく整備された封建社会へと発展した。" />
+    <string id="zqihwKAs" text="&lt;b&gt;バリスタ&lt;/b&gt;{NEWLINE}圧倒的な破壊力を持つボルトを撃つ。兵士に対して有効。" />
+    <string id="ZqWOb1jM" text="あなたは{SETTLEMENT_NAME}の外にいます。{FACTION_TERM}により指名手配されているので、中に入ることはできません。" />
+    <string id="ZR2bAa1p" text="軽騎兵" />
+    <string id="zruLFJDG" text="意思決定において、集落を守ることの比重が高くなります。部隊が敵を追跡する距離も短くなります。" />
+    <string id="ztP8UKb8" text="歩兵を選択" />
+    <string id="zTxMEKaY" text="今は船隊メニューを確認できません！" />
+    <string id="ZuLa12aT" text="そうこなくては… 我々はろくでなしの一団だ。下手なマネはしない方が身のためだ。[rf:convo_bemused]" />
+    <string id="Zuq5mO5e" text="部隊リーダーと話す" />
+    <string id="ZuRzP6kF" text="戦闘中は軍隊を集めることはできません" />
+    <string id="ZV7bt7Il" text="{newline}{PARTY_NAME} : {PARTY_MORALE}" />
+    <string id="ZvoyX6DX" text="バッタニア" />
+    <string id="zw5IEUuD" text="{TITLE}: ログが更新されました。" />
+    <string id="Zw60OTJe" text="人々は概ね満足しているが、物価の上昇、富の不公平な分配と、田舎から来る移住者に対しての不満の声は耳にする。" />
+    <string id="ZwyPnboN" text="集落の忠誠に+{BONUS_AMOUNT}のボーナス" />
+    <string id="zX4C3332" text="では望みどおり殺してやろう。覚悟しろ。" />
+    <string id="zxckitKe" text="あなたは{PARTY}を攻撃するために出撃しました。" />
+    <string id="ZxcnmaXi" text="あなたは襲撃のため{SETTLEMENT}を訪れました。抵抗勢力はいないようです。この村を襲撃すると{KINGDOM}との戦争が始まります。" />
+    <string id="ZXXNrvvg" text="対戦相手の手元にポーンが残っていなかったり、ボード上にポーンがいなくなるとプレイヤーが勝利します。" />
+    <string id="zzUk6ZaA" text="この場を去る" />
+  </strings>
+</base>

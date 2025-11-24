@@ -1,0 +1,1483 @@
+using System;
+using System.Collections.Generic;
+using System.Numerics;
+using System.Threading.Tasks;
+using TaleWorlds.GauntletUI.BaseTypes;
+using TaleWorlds.GauntletUI.GamepadNavigation;
+using TaleWorlds.InputSystem;
+using TaleWorlds.Library;
+using TaleWorlds.Library.EventSystem;
+using TaleWorlds.TwoDimension;
+
+namespace TaleWorlds.GauntletUI;
+
+public class EventManager
+{
+	public const int MinParallelUpdateCount = 64;
+
+	private const int DirtyCount = 2;
+
+	private const float DragStartThreshold = 100f;
+
+	private const float ScrollScale = 0.4f;
+
+	public Rectangle2D AreaRectangle;
+
+	private List<Action> _onAfterFinalizedCallbacks;
+
+	private Widget _focusedWidget;
+
+	private Widget _hoveredView;
+
+	private List<Widget> _mouseOveredViews;
+
+	private Widget _dragHoveredView;
+
+	private Widget _latestMouseDownWidget;
+
+	private Widget _latestMouseUpWidget;
+
+	private Widget _latestMouseAlternateDownWidget;
+
+	private Widget _latestMouseAlternateUpWidget;
+
+	private int _measureDirty;
+
+	private int _layoutDirty;
+
+	private bool _positionsDirty;
+
+	private const int _stickMovementScaleAmount = 3000;
+
+	private Vector2 _lastClickPosition;
+
+	private bool _mouseIsDown;
+
+	private bool _mouseAlternateIsDown;
+
+	private Vector2 _dragOffset = new Vector2(0f, 0f);
+
+	private Widget _draggedWidgetPreviousParent;
+
+	private int _draggedWidgetIndex;
+
+	private DragCarrierWidget _dragCarrier;
+
+	private object _lateUpdateActionLocker;
+
+	private Dictionary<int, List<UpdateAction>> _lateUpdateActions;
+
+	private Dictionary<int, List<UpdateAction>> _lateUpdateActionsRunning;
+
+	private WidgetContainer _widgetsWithUpdateContainer;
+
+	private WidgetContainer _widgetsWithLateUpdateContainer;
+
+	private WidgetContainer _widgetsWithParallelUpdateContainer;
+
+	private WidgetContainer _widgetsWithVisualDefinitionsContainer;
+
+	private WidgetContainer _widgetsWithTweenPositionsContainer;
+
+	private WidgetContainer _widgetsWithUpdateBrushesContainer;
+
+	private const int UpdateActionOrderCount = 5;
+
+	private volatile bool _doingParallelTask;
+
+	private TwoDimensionDrawContext _drawContext;
+
+	private Action _widgetsWithUpdateContainerDoDefragmentationDelegate;
+
+	private Action _widgetsWithParallelUpdateContainerDoDefragmentationDelegate;
+
+	private Action _widgetsWithLateUpdateContainerDoDefragmentationDelegate;
+
+	private Action _widgetsWithUpdateBrushesContainerDoDefragmentationDelegate;
+
+	private readonly TWParallel.ParallelForWithDtAuxPredicate ParallelUpdateWidgetPredicate;
+
+	private readonly TWParallel.ParallelForWithDtAuxPredicate UpdateBrushesWidgetPredicate;
+
+	private readonly TWParallel.ParallelForWithDtAuxPredicate WidgetDoTweenPositionAuxPredicate;
+
+	private float _lastSetFrictionValue = 1f;
+
+	private bool _isOnScreenKeyboardRequested;
+
+	public Func<bool> OnGetIsHitThisFrame;
+
+	public float Time { get; private set; }
+
+	public Vec2 UsableArea { get; set; } = new Vec2(1f, 1f);
+
+	public float LeftUsableAreaStart { get; private set; }
+
+	public float TopUsableAreaStart { get; private set; }
+
+	public Vector2 PageSize { get; private set; }
+
+	public static TaleWorlds.Library.EventSystem.EventManager UIEventManager { get; private set; }
+
+	public Vector2 MousePositionInReferenceResolution => MousePosition * Context.CustomInverseScale;
+
+	public bool IsControllerActive { get; private set; }
+
+	public UIContext Context { get; private set; }
+
+	public Widget Root { get; private set; }
+
+	public Widget FocusedWidget
+	{
+		get
+		{
+			return _focusedWidget;
+		}
+		set
+		{
+			if (_isOnScreenKeyboardRequested || (_focusedWidget is EditableTextWidget && Input.IsOnScreenKeyboardActive) || _focusedWidget == value)
+			{
+				return;
+			}
+			_focusedWidget?.OnLoseFocus();
+			if (value != null && (!value.ConnectedToRoot || !value.IsFocusable))
+			{
+				_focusedWidget = null;
+			}
+			else
+			{
+				_focusedWidget = value;
+				_focusedWidget?.OnGainFocus();
+				if (_focusedWidget is EditableTextWidget && IsControllerActive)
+				{
+					_isOnScreenKeyboardRequested = true;
+				}
+			}
+			this.OnFocusedWidgetChanged?.Invoke();
+		}
+	}
+
+	public Widget HoveredView
+	{
+		get
+		{
+			return _hoveredView;
+		}
+		private set
+		{
+			if (value != null && value.ConnectedToRoot)
+			{
+				_hoveredView = value;
+			}
+			else
+			{
+				_hoveredView = null;
+			}
+		}
+	}
+
+	public List<Widget> MouseOveredViews
+	{
+		get
+		{
+			return _mouseOveredViews;
+		}
+		private set
+		{
+			if (value != null)
+			{
+				_mouseOveredViews = value;
+			}
+			else
+			{
+				_mouseOveredViews = null;
+			}
+		}
+	}
+
+	public Widget DragHoveredView
+	{
+		get
+		{
+			return _dragHoveredView;
+		}
+		private set
+		{
+			if (_dragHoveredView != value)
+			{
+				_dragHoveredView?.OnDragHoverEnd();
+				if (value != null && (!value.ConnectedToRoot || !value.AcceptDrop))
+				{
+					_dragHoveredView = null;
+					return;
+				}
+				_dragHoveredView = value;
+				_dragHoveredView?.OnDragHoverBegin();
+			}
+		}
+	}
+
+	public Widget DraggedWidget { get; private set; }
+
+	public Vector2 DraggedWidgetPosition
+	{
+		get
+		{
+			if (DraggedWidget != null)
+			{
+				return _dragCarrier.AreaRect.TopLeft * Context.CustomScale - new Vector2(LeftUsableAreaStart, TopUsableAreaStart);
+			}
+			return MousePositionInReferenceResolution;
+		}
+	}
+
+	public Widget LatestMouseDownWidget
+	{
+		get
+		{
+			return _latestMouseDownWidget;
+		}
+		private set
+		{
+			if (value != null && value.ConnectedToRoot)
+			{
+				_latestMouseDownWidget = value;
+			}
+			else
+			{
+				_latestMouseDownWidget = null;
+			}
+		}
+	}
+
+	public Widget LatestMouseUpWidget
+	{
+		get
+		{
+			return _latestMouseUpWidget;
+		}
+		private set
+		{
+			if (value != null && value.ConnectedToRoot)
+			{
+				_latestMouseUpWidget = value;
+			}
+			else
+			{
+				_latestMouseUpWidget = null;
+			}
+		}
+	}
+
+	public Widget LatestMouseAlternateDownWidget
+	{
+		get
+		{
+			return _latestMouseAlternateDownWidget;
+		}
+		private set
+		{
+			if (value != null && value.ConnectedToRoot)
+			{
+				_latestMouseAlternateDownWidget = value;
+			}
+			else
+			{
+				_latestMouseAlternateDownWidget = null;
+			}
+		}
+	}
+
+	public Widget LatestMouseAlternateUpWidget
+	{
+		get
+		{
+			return _latestMouseAlternateUpWidget;
+		}
+		private set
+		{
+			if (value != null && value.ConnectedToRoot)
+			{
+				_latestMouseAlternateUpWidget = value;
+			}
+			else
+			{
+				_latestMouseAlternateUpWidget = null;
+			}
+		}
+	}
+
+	public Vector2 MousePosition => Context.InputContext.GetMousePosition();
+
+	public ulong LocalFrameNumber => Context.LocalFrameNumber;
+
+	private bool IsDragging => DraggedWidget != null;
+
+	public float DeltaMouseScroll => Context.InputContext.GetMouseScrollDelta();
+
+	public float RightStickVerticalScrollAmount
+	{
+		get
+		{
+			float y = Input.GetKeyState(InputKey.ControllerRStick).Y;
+			return 3000f * y * 0.4f * CachedDt;
+		}
+	}
+
+	public float RightStickHorizontalScrollAmount
+	{
+		get
+		{
+			float x = Input.GetKeyState(InputKey.ControllerRStick).X;
+			return 3000f * x * 0.4f * CachedDt;
+		}
+	}
+
+	internal float CachedDt { get; private set; }
+
+	public event Action OnDragStarted;
+
+	public event Action OnDragEnded;
+
+	public event Action OnFocusedWidgetChanged;
+
+	internal EventManager(UIContext context)
+	{
+		Context = context;
+		Root = new Widget(context)
+		{
+			Id = "Root"
+		};
+		if (UIEventManager == null)
+		{
+			UIEventManager = new TaleWorlds.Library.EventSystem.EventManager();
+		}
+		AreaRectangle = Rectangle2D.Create();
+		_widgetsWithUpdateContainer = new WidgetContainer(context, 64, WidgetContainer.ContainerType.Update);
+		_widgetsWithParallelUpdateContainer = new WidgetContainer(context, 64, WidgetContainer.ContainerType.ParallelUpdate);
+		_widgetsWithLateUpdateContainer = new WidgetContainer(context, 64, WidgetContainer.ContainerType.LateUpdate);
+		_widgetsWithTweenPositionsContainer = new WidgetContainer(context, 64, WidgetContainer.ContainerType.TweenPosition);
+		_widgetsWithVisualDefinitionsContainer = new WidgetContainer(context, 64, WidgetContainer.ContainerType.VisualDefinition);
+		_widgetsWithUpdateBrushesContainer = new WidgetContainer(context, 64, WidgetContainer.ContainerType.UpdateBrushes);
+		_lateUpdateActionLocker = new object();
+		_lateUpdateActions = new Dictionary<int, List<UpdateAction>>();
+		_lateUpdateActionsRunning = new Dictionary<int, List<UpdateAction>>();
+		_onAfterFinalizedCallbacks = new List<Action>();
+		for (int i = 1; i <= 5; i++)
+		{
+			_lateUpdateActions.Add(i, new List<UpdateAction>(32));
+			_lateUpdateActionsRunning.Add(i, new List<UpdateAction>(32));
+		}
+		_drawContext = new TwoDimensionDrawContext();
+		MouseOveredViews = new List<Widget>();
+		ParallelUpdateWidgetPredicate = ParallelUpdateWidget;
+		WidgetDoTweenPositionAuxPredicate = WidgetDoTweenPositionAux;
+		UpdateBrushesWidgetPredicate = UpdateBrushesWidget;
+		IsControllerActive = Input.IsControllerConnected && !Input.IsMouseActive;
+	}
+
+	internal void OnFinalize()
+	{
+		if (!_lastSetFrictionValue.ApproximatelyEqualsTo(1f))
+		{
+			_lastSetFrictionValue = 1f;
+			Input.SetCursorFriction(_lastSetFrictionValue);
+		}
+		_widgetsWithLateUpdateContainer.Clear();
+		_widgetsWithParallelUpdateContainer.Clear();
+		_widgetsWithTweenPositionsContainer.Clear();
+		_widgetsWithUpdateBrushesContainer.Clear();
+		_widgetsWithUpdateContainer.Clear();
+		_widgetsWithVisualDefinitionsContainer.Clear();
+		for (int i = 0; i < _onAfterFinalizedCallbacks.Count; i++)
+		{
+			_onAfterFinalizedCallbacks[i]?.Invoke();
+		}
+		_onAfterFinalizedCallbacks.Clear();
+		_onAfterFinalizedCallbacks = null;
+		_widgetsWithLateUpdateContainer = null;
+		_widgetsWithParallelUpdateContainer = null;
+		_widgetsWithTweenPositionsContainer = null;
+		_widgetsWithUpdateBrushesContainer = null;
+		_widgetsWithUpdateContainer = null;
+		_widgetsWithVisualDefinitionsContainer = null;
+	}
+
+	public void AddAfterFinalizedCallback(Action callback)
+	{
+		_onAfterFinalizedCallbacks.Add(callback);
+	}
+
+	internal void OnContextActivated()
+	{
+		List<Widget> allChildrenAndThisRecursive = Root.GetAllChildrenAndThisRecursive();
+		for (int i = 0; i < allChildrenAndThisRecursive.Count; i++)
+		{
+			allChildrenAndThisRecursive[i].OnContextActivated();
+		}
+	}
+
+	internal void OnContextDeactivated()
+	{
+		List<Widget> allChildrenAndThisRecursive = Root.GetAllChildrenAndThisRecursive();
+		for (int i = 0; i < allChildrenAndThisRecursive.Count; i++)
+		{
+			allChildrenAndThisRecursive[i].OnContextDeactivated();
+		}
+	}
+
+	internal void OnWidgetConnectedToRoot(Widget widget)
+	{
+		widget.HandleOnConnectedToRoot();
+		List<Widget> allChildrenAndThisRecursive = widget.GetAllChildrenAndThisRecursive();
+		for (int i = 0; i < allChildrenAndThisRecursive.Count; i++)
+		{
+			Widget widget2 = allChildrenAndThisRecursive[i];
+			widget2.HandleOnConnectedToRoot();
+			RegisterWidgetForEvent(WidgetContainer.ContainerType.Update, widget2);
+			RegisterWidgetForEvent(WidgetContainer.ContainerType.LateUpdate, widget2);
+			RegisterWidgetForEvent(WidgetContainer.ContainerType.UpdateBrushes, widget2);
+			RegisterWidgetForEvent(WidgetContainer.ContainerType.ParallelUpdate, widget2);
+			RegisterWidgetForEvent(WidgetContainer.ContainerType.VisualDefinition, widget2);
+			RegisterWidgetForEvent(WidgetContainer.ContainerType.TweenPosition, widget2);
+		}
+	}
+
+	internal void OnWidgetDisconnectedFromRoot(Widget widget)
+	{
+		widget.HandleOnDisconnectedFromRoot();
+		if (widget == DraggedWidget && DraggedWidget.DragWidget != null)
+		{
+			ReleaseDraggedWidget();
+			ClearDragObject();
+		}
+		GauntletGamepadNavigationManager.Instance.OnWidgetDisconnectedFromRoot(widget);
+		List<Widget> allChildrenAndThisRecursive = widget.GetAllChildrenAndThisRecursive();
+		for (int i = 0; i < allChildrenAndThisRecursive.Count; i++)
+		{
+			Widget widget2 = allChildrenAndThisRecursive[i];
+			widget2.HandleOnDisconnectedFromRoot();
+			UnRegisterWidgetForEvent(WidgetContainer.ContainerType.Update, widget2);
+			UnRegisterWidgetForEvent(WidgetContainer.ContainerType.LateUpdate, widget2);
+			UnRegisterWidgetForEvent(WidgetContainer.ContainerType.UpdateBrushes, widget2);
+			UnRegisterWidgetForEvent(WidgetContainer.ContainerType.ParallelUpdate, widget2);
+			UnRegisterWidgetForEvent(WidgetContainer.ContainerType.VisualDefinition, widget2);
+			UnRegisterWidgetForEvent(WidgetContainer.ContainerType.TweenPosition, widget2);
+			GauntletGamepadNavigationManager.Instance?.OnWidgetDisconnectedFromRoot(widget2);
+			widget2.GamepadNavigationIndex = -1;
+			widget2.UsedNavigationMovements = GamepadNavigationTypes.None;
+			widget2.IsUsingNavigation = false;
+		}
+	}
+
+	internal void RegisterWidgetForEvent(WidgetContainer.ContainerType type, Widget widget)
+	{
+		switch (type)
+		{
+		case WidgetContainer.ContainerType.Update:
+			lock (_widgetsWithUpdateContainer)
+			{
+				if (widget.WidgetInfo.GotCustomUpdate && widget.OnUpdateListIndex < 0)
+				{
+					widget.OnUpdateListIndex = _widgetsWithUpdateContainer.Add(widget);
+				}
+				break;
+			}
+		case WidgetContainer.ContainerType.ParallelUpdate:
+			lock (_widgetsWithParallelUpdateContainer)
+			{
+				if (widget.WidgetInfo.GotCustomParallelUpdate && widget.OnParallelUpdateListIndex < 0)
+				{
+					widget.OnParallelUpdateListIndex = _widgetsWithParallelUpdateContainer.Add(widget);
+				}
+				break;
+			}
+		case WidgetContainer.ContainerType.LateUpdate:
+			lock (_widgetsWithLateUpdateContainer)
+			{
+				if (widget.WidgetInfo.GotCustomLateUpdate && widget.OnLateUpdateListIndex < 0)
+				{
+					widget.OnLateUpdateListIndex = _widgetsWithLateUpdateContainer.Add(widget);
+				}
+				break;
+			}
+		case WidgetContainer.ContainerType.VisualDefinition:
+			lock (_widgetsWithVisualDefinitionsContainer)
+			{
+				if (widget.VisualDefinition != null && widget.OnVisualDefinitionListIndex < 0)
+				{
+					widget.OnVisualDefinitionListIndex = _widgetsWithVisualDefinitionsContainer.Add(widget);
+				}
+				break;
+			}
+		case WidgetContainer.ContainerType.TweenPosition:
+			lock (_widgetsWithTweenPositionsContainer)
+			{
+				if (widget.TweenPosition && widget.OnTweenPositionListIndex < 0)
+				{
+					widget.OnTweenPositionListIndex = _widgetsWithTweenPositionsContainer.Add(widget);
+				}
+				break;
+			}
+		case WidgetContainer.ContainerType.UpdateBrushes:
+			lock (_widgetsWithUpdateBrushesContainer)
+			{
+				if (widget.WidgetInfo.GotUpdateBrushes && widget.OnUpdateBrushesIndex < 0)
+				{
+					widget.OnUpdateBrushesIndex = _widgetsWithUpdateBrushesContainer.Add(widget);
+				}
+				break;
+			}
+		case WidgetContainer.ContainerType.None:
+			break;
+		}
+	}
+
+	internal void UnRegisterWidgetForEvent(WidgetContainer.ContainerType type, Widget widget)
+	{
+		switch (type)
+		{
+		case WidgetContainer.ContainerType.Update:
+			lock (_widgetsWithUpdateContainer)
+			{
+				if (widget.WidgetInfo.GotCustomUpdate && widget.OnUpdateListIndex != -1)
+				{
+					_widgetsWithUpdateContainer.RemoveFromIndex(widget.OnUpdateListIndex);
+					widget.OnUpdateListIndex = -1;
+				}
+				break;
+			}
+		case WidgetContainer.ContainerType.ParallelUpdate:
+			lock (_widgetsWithParallelUpdateContainer)
+			{
+				if (widget.WidgetInfo.GotCustomParallelUpdate && widget.OnParallelUpdateListIndex != -1)
+				{
+					_widgetsWithParallelUpdateContainer.RemoveFromIndex(widget.OnParallelUpdateListIndex);
+					widget.OnParallelUpdateListIndex = -1;
+				}
+				break;
+			}
+		case WidgetContainer.ContainerType.LateUpdate:
+			lock (_widgetsWithLateUpdateContainer)
+			{
+				if (widget.WidgetInfo.GotCustomLateUpdate && widget.OnLateUpdateListIndex != -1)
+				{
+					_widgetsWithLateUpdateContainer.RemoveFromIndex(widget.OnLateUpdateListIndex);
+					widget.OnLateUpdateListIndex = -1;
+				}
+				break;
+			}
+		case WidgetContainer.ContainerType.VisualDefinition:
+			lock (_widgetsWithVisualDefinitionsContainer)
+			{
+				if (widget.VisualDefinition != null && widget.OnVisualDefinitionListIndex != -1)
+				{
+					_widgetsWithVisualDefinitionsContainer.RemoveFromIndex(widget.OnVisualDefinitionListIndex);
+					widget.OnVisualDefinitionListIndex = -1;
+				}
+				break;
+			}
+		case WidgetContainer.ContainerType.TweenPosition:
+			lock (_widgetsWithTweenPositionsContainer)
+			{
+				if (widget.TweenPosition && widget.OnTweenPositionListIndex != -1)
+				{
+					_widgetsWithTweenPositionsContainer.RemoveFromIndex(widget.OnTweenPositionListIndex);
+					widget.OnTweenPositionListIndex = -1;
+				}
+				break;
+			}
+		case WidgetContainer.ContainerType.UpdateBrushes:
+			lock (_widgetsWithUpdateBrushesContainer)
+			{
+				if (widget.WidgetInfo.GotUpdateBrushes && widget.OnUpdateBrushesIndex != -1)
+				{
+					_widgetsWithUpdateBrushesContainer.RemoveFromIndex(widget.OnUpdateBrushesIndex);
+					widget.OnUpdateBrushesIndex = -1;
+				}
+				break;
+			}
+		case WidgetContainer.ContainerType.None:
+			break;
+		}
+	}
+
+	internal void OnWidgetVisualDefinitionChanged(Widget widget)
+	{
+		if (widget.VisualDefinition != null)
+		{
+			RegisterWidgetForEvent(WidgetContainer.ContainerType.VisualDefinition, widget);
+		}
+		else
+		{
+			UnRegisterWidgetForEvent(WidgetContainer.ContainerType.VisualDefinition, widget);
+		}
+	}
+
+	internal void OnWidgetTweenPositionChanged(Widget widget)
+	{
+		if (widget.TweenPosition)
+		{
+			RegisterWidgetForEvent(WidgetContainer.ContainerType.TweenPosition, widget);
+		}
+		else
+		{
+			UnRegisterWidgetForEvent(WidgetContainer.ContainerType.TweenPosition, widget);
+		}
+	}
+
+	private void MeasureAll()
+	{
+		Root.Measure(PageSize);
+	}
+
+	private void LayoutAll(float left, float bottom, float right, float top)
+	{
+		Root.Layout(left, bottom, right, top);
+	}
+
+	private void UpdatePositions()
+	{
+		AreaRectangle.LocalPosition = new Vector2(LeftUsableAreaStart, TopUsableAreaStart);
+		AreaRectangle.LocalScale = new Vector2(PageSize.X, PageSize.Y);
+		AreaRectangle.LocalPivot = new Vector2(0.5f, 0.5f);
+		AreaRectangle.CalculateMatrixFrame(Rectangle2D.Invalid);
+		Root.UpdatePosition();
+	}
+
+	private void WidgetDoTweenPositionAux(int startInclusive, int endExclusive, float deltaTime)
+	{
+		List<Widget> currentList = _widgetsWithParallelUpdateContainer.GetCurrentList();
+		for (int i = startInclusive; i < endExclusive; i++)
+		{
+			currentList[i].DoTweenPosition(deltaTime);
+		}
+	}
+
+	private void ParallelDoTweenPositions(float dt)
+	{
+		TWParallel.For(0, _widgetsWithTweenPositionsContainer.Count, dt, WidgetDoTweenPositionAuxPredicate);
+	}
+
+	private void TweenPositions(float dt)
+	{
+		if (_widgetsWithTweenPositionsContainer.CheckFragmentation())
+		{
+			lock (_widgetsWithTweenPositionsContainer)
+			{
+				_widgetsWithTweenPositionsContainer.DoDefragmentation();
+			}
+		}
+		if (_widgetsWithTweenPositionsContainer.Count > 64)
+		{
+			ParallelDoTweenPositions(dt);
+			return;
+		}
+		List<Widget> currentList = _widgetsWithTweenPositionsContainer.GetCurrentList();
+		for (int i = 0; i < currentList.Count; i++)
+		{
+			currentList[i].DoTweenPosition(dt);
+		}
+	}
+
+	internal void CalculateCanvas(Vector2 pageSize, float dt)
+	{
+		if (_measureDirty > 0 || _layoutDirty > 0)
+		{
+			PageSize = pageSize;
+			Vec2 vec = new Vec2(pageSize.X / UsableArea.X, pageSize.Y / UsableArea.Y);
+			LeftUsableAreaStart = (vec.X - vec.X * UsableArea.X) * 0.5f;
+			TopUsableAreaStart = (vec.Y - vec.Y * UsableArea.Y) * 0.5f;
+			AreaRectangle.LocalPosition = new Vector2(LeftUsableAreaStart, TopUsableAreaStart);
+			AreaRectangle.LocalScale = new Vector2(PageSize.X, PageSize.Y);
+			if (_measureDirty > 0)
+			{
+				MeasureAll();
+			}
+			LayoutAll(0f, PageSize.Y, PageSize.X, 0f);
+			TweenPositions(dt);
+			UpdatePositions();
+			if (_measureDirty > 0)
+			{
+				_measureDirty--;
+			}
+			if (_layoutDirty > 0)
+			{
+				_layoutDirty--;
+			}
+			_positionsDirty = false;
+		}
+	}
+
+	internal void RecalculateCanvas()
+	{
+		if (_measureDirty == 2 || _layoutDirty == 2)
+		{
+			if (_measureDirty == 2)
+			{
+				MeasureAll();
+			}
+			LayoutAll(0f, PageSize.Y, PageSize.X, 0f);
+			if (_positionsDirty)
+			{
+				UpdatePositions();
+				_positionsDirty = false;
+			}
+		}
+	}
+
+	internal void MouseDown()
+	{
+		_mouseIsDown = true;
+		_lastClickPosition = MousePosition;
+		Widget widgetAtMousePositionForEvent = GetWidgetAtMousePositionForEvent(GauntletEvent.MousePressed);
+		if (widgetAtMousePositionForEvent != null)
+		{
+			DispatchEvent(widgetAtMousePositionForEvent, GauntletEvent.MousePressed);
+		}
+	}
+
+	internal void MouseUp()
+	{
+		_mouseIsDown = false;
+		if (IsDragging)
+		{
+			if (DraggedWidget.PreviewEvent(GauntletEvent.DragEnd))
+			{
+				DispatchEvent(DraggedWidget, GauntletEvent.DragEnd);
+			}
+			Widget widgetAtMousePositionForEvent = GetWidgetAtMousePositionForEvent(GauntletEvent.Drop);
+			if (widgetAtMousePositionForEvent != null)
+			{
+				DispatchEvent(widgetAtMousePositionForEvent, GauntletEvent.Drop);
+			}
+			else
+			{
+				CancelAndReturnDrag();
+			}
+			if (DraggedWidget != null)
+			{
+				ClearDragObject();
+			}
+		}
+		else
+		{
+			Widget widgetAtMousePositionForEvent2 = GetWidgetAtMousePositionForEvent(GauntletEvent.MouseReleased);
+			DispatchEvent(widgetAtMousePositionForEvent2, GauntletEvent.MouseReleased);
+			LatestMouseUpWidget = widgetAtMousePositionForEvent2;
+		}
+	}
+
+	internal void MouseAlternateDown()
+	{
+		_mouseAlternateIsDown = true;
+		Widget widgetAtMousePositionForEvent = GetWidgetAtMousePositionForEvent(GauntletEvent.MouseAlternatePressed);
+		if (widgetAtMousePositionForEvent != null)
+		{
+			DispatchEvent(widgetAtMousePositionForEvent, GauntletEvent.MouseAlternatePressed);
+		}
+	}
+
+	internal void MouseAlternateUp()
+	{
+		_mouseAlternateIsDown = false;
+		Widget widgetAtMousePositionForEvent = GetWidgetAtMousePositionForEvent(GauntletEvent.MouseAlternateReleased);
+		DispatchEvent(widgetAtMousePositionForEvent, GauntletEvent.MouseAlternateReleased);
+		LatestMouseAlternateUpWidget = widgetAtMousePositionForEvent;
+	}
+
+	internal void MouseScroll()
+	{
+		if (TaleWorlds.Library.MathF.Abs(DeltaMouseScroll) > 0.001f)
+		{
+			Widget widgetAtMousePositionForEvent = GetWidgetAtMousePositionForEvent(GauntletEvent.MouseScroll);
+			if (widgetAtMousePositionForEvent != null)
+			{
+				DispatchEvent(widgetAtMousePositionForEvent, GauntletEvent.MouseScroll);
+			}
+		}
+	}
+
+	internal void RightStickMovement()
+	{
+		if (Input.GetKeyState(InputKey.ControllerRStick).X != 0f || Input.GetKeyState(InputKey.ControllerRStick).Y != 0f)
+		{
+			Widget widgetAtMousePositionForEvent = GetWidgetAtMousePositionForEvent(GauntletEvent.RightStickMovement);
+			if (widgetAtMousePositionForEvent != null)
+			{
+				DispatchEvent(widgetAtMousePositionForEvent, GauntletEvent.RightStickMovement);
+			}
+		}
+	}
+
+	public void ClearFocus()
+	{
+		FocusedWidget = null;
+		SetHoveredView(null);
+	}
+
+	private void CancelAndReturnDrag()
+	{
+		if (_draggedWidgetPreviousParent != null)
+		{
+			DraggedWidget.ParentWidget = _draggedWidgetPreviousParent;
+			DraggedWidget.SetSiblingIndex(_draggedWidgetIndex);
+			DraggedWidget.PosOffset = new Vector2(0f, 0f);
+			if (DraggedWidget.DragWidget != null)
+			{
+				DraggedWidget.DragWidget.ParentWidget = DraggedWidget;
+				DraggedWidget.DragWidget.IsVisible = false;
+			}
+		}
+		else
+		{
+			ReleaseDraggedWidget();
+		}
+		_draggedWidgetPreviousParent = null;
+		_draggedWidgetIndex = -1;
+	}
+
+	private void ClearDragObject()
+	{
+		DraggedWidget = null;
+		this.OnDragEnded?.Invoke();
+		_dragOffset = new Vector2(0f, 0f);
+		_dragCarrier.ParentWidget = null;
+		_dragCarrier = null;
+	}
+
+	internal void MouseMove()
+	{
+		if (_mouseIsDown)
+		{
+			if (IsDragging)
+			{
+				Widget widgetAtMousePositionForEvent = GetWidgetAtMousePositionForEvent(GauntletEvent.DragHover);
+				if (widgetAtMousePositionForEvent != null)
+				{
+					DispatchEvent(widgetAtMousePositionForEvent, GauntletEvent.DragHover);
+				}
+				else
+				{
+					DragHoveredView = null;
+				}
+			}
+			else if (LatestMouseDownWidget != null)
+			{
+				if (LatestMouseDownWidget.PreviewEvent(GauntletEvent.MouseMove))
+				{
+					DispatchEvent(LatestMouseDownWidget, GauntletEvent.MouseMove);
+				}
+				if (!IsDragging && LatestMouseDownWidget.PreviewEvent(GauntletEvent.DragBegin))
+				{
+					Vector2 vector = _lastClickPosition - MousePosition;
+					if (new Vector2(vector.X, vector.Y).LengthSquared() > 100f * Context.Scale)
+					{
+						DispatchEvent(LatestMouseDownWidget, GauntletEvent.DragBegin);
+					}
+				}
+			}
+		}
+		else if (!_mouseAlternateIsDown)
+		{
+			Widget widgetAtMousePositionForEvent2 = GetWidgetAtMousePositionForEvent(GauntletEvent.MouseMove);
+			if (widgetAtMousePositionForEvent2 != null)
+			{
+				DispatchEvent(widgetAtMousePositionForEvent2, GauntletEvent.MouseMove);
+			}
+		}
+		List<Widget> list = new List<Widget>();
+		List<Widget> list2 = new List<Widget>();
+		CollectEnableWidgetsAt(Root, MousePosition, list2);
+		for (int i = 0; i < list2.Count; i++)
+		{
+			Widget widget = list2[i];
+			if (!MouseOveredViews.Contains(widget))
+			{
+				widget.OnMouseOverBegin();
+				GauntletGamepadNavigationManager.Instance?.OnWidgetHoverBegin(widget);
+			}
+			list.Add(widget);
+		}
+		for (int j = 0; j < MouseOveredViews.Count; j++)
+		{
+			Widget widget2 = MouseOveredViews[j];
+			if (!list.Contains(widget2))
+			{
+				widget2.OnMouseOverEnd();
+				if (widget2.GamepadNavigationIndex != -1)
+				{
+					GauntletGamepadNavigationManager.Instance?.OnWidgetHoverEnd(widget2);
+				}
+			}
+		}
+		MouseOveredViews = list;
+	}
+
+	private static bool IsPointInsideMeasuredArea(Widget w, Vector2 p)
+	{
+		return w.AreaRect.IsPointInside(in p);
+	}
+
+	public bool IsPointInsideUsableArea(Vector2 p)
+	{
+		return AreaRectangle.IsPointInside(in p);
+	}
+
+	private Widget GetWidgetAtMousePositionForEvent(GauntletEvent gauntletEvent)
+	{
+		if (!GetIsHitThisFrame())
+		{
+			return null;
+		}
+		return GetWidgetAtPositionForEvent(gauntletEvent, MousePosition);
+	}
+
+	private Widget GetWidgetAtPositionForEvent(GauntletEvent gauntletEvent, Vector2 pointerPosition)
+	{
+		Widget result = null;
+		List<Widget> list = new List<Widget>();
+		CollectEnableWidgetsAt(Root, pointerPosition, list);
+		for (int i = 0; i < list.Count; i++)
+		{
+			Widget widget = list[i];
+			if (widget.PreviewEvent(gauntletEvent))
+			{
+				result = widget;
+				break;
+			}
+		}
+		return result;
+	}
+
+	private void DispatchEvent(Widget selectedWidget, GauntletEvent gauntletEvent)
+	{
+		if (gauntletEvent != GauntletEvent.MouseReleased)
+		{
+			_ = 4;
+		}
+		switch (gauntletEvent)
+		{
+		case GauntletEvent.MousePressed:
+			LatestMouseDownWidget = selectedWidget;
+			selectedWidget.OnMousePressed();
+			FocusedWidget = selectedWidget;
+			break;
+		case GauntletEvent.MouseReleased:
+			if (LatestMouseDownWidget != null && LatestMouseDownWidget != selectedWidget)
+			{
+				LatestMouseDownWidget.OnMouseReleased();
+			}
+			selectedWidget?.OnMouseReleased();
+			break;
+		case GauntletEvent.MouseAlternatePressed:
+			LatestMouseAlternateDownWidget = selectedWidget;
+			selectedWidget.OnMouseAlternatePressed();
+			FocusedWidget = selectedWidget;
+			break;
+		case GauntletEvent.MouseAlternateReleased:
+			if (LatestMouseAlternateDownWidget != null && LatestMouseAlternateDownWidget != selectedWidget)
+			{
+				LatestMouseAlternateDownWidget?.OnMouseAlternateReleased();
+			}
+			selectedWidget?.OnMouseAlternateReleased();
+			break;
+		case GauntletEvent.MouseMove:
+			selectedWidget.OnMouseMove();
+			SetHoveredView(selectedWidget);
+			break;
+		case GauntletEvent.DragHover:
+			DragHoveredView = selectedWidget;
+			break;
+		case GauntletEvent.DragBegin:
+			selectedWidget.OnDragBegin();
+			break;
+		case GauntletEvent.DragEnd:
+			selectedWidget.OnDragEnd();
+			break;
+		case GauntletEvent.Drop:
+			selectedWidget.OnDrop();
+			break;
+		case GauntletEvent.MouseScroll:
+			selectedWidget.OnMouseScroll();
+			break;
+		case GauntletEvent.RightStickMovement:
+			selectedWidget.OnRightStickMovement();
+			break;
+		}
+	}
+
+	public static bool HitTest(Widget widget, Vector2 position)
+	{
+		if (widget == null)
+		{
+			Debug.FailedAssert("Calling HitTest using null widget!", "C:\\BuildAgent\\work\\mb3\\TaleWorlds.Shared\\Source\\GauntletUI\\TaleWorlds.GauntletUI\\EventManager.cs", "HitTest", 1157);
+			return false;
+		}
+		return AnyWidgetsAt(widget, position);
+	}
+
+	public bool FocusTest(Widget root)
+	{
+		for (Widget widget = FocusedWidget; widget != null; widget = widget.ParentWidget)
+		{
+			if (root == widget)
+			{
+				return true;
+			}
+		}
+		return false;
+	}
+
+	private static bool AnyWidgetsAt(Widget widget, Vector2 position)
+	{
+		if (widget.IsEnabled && widget.IsVisible)
+		{
+			if (!widget.DoNotAcceptEvents && IsPointInsideMeasuredArea(widget, position))
+			{
+				return true;
+			}
+			if (!widget.DoNotPassEventsToChildren)
+			{
+				for (int num = widget.ChildCount - 1; num >= 0; num--)
+				{
+					Widget child = widget.GetChild(num);
+					if (!child.IsHidden && !child.IsDisabled && AnyWidgetsAt(child, position))
+					{
+						return true;
+					}
+				}
+			}
+		}
+		return false;
+	}
+
+	private static void CollectEnableWidgetsAt(Widget widget, Vector2 position, List<Widget> widgets)
+	{
+		if (!widget.IsEnabled || !widget.IsVisible)
+		{
+			return;
+		}
+		if (!widget.DoNotPassEventsToChildren)
+		{
+			for (int num = widget.ChildCount - 1; num >= 0; num--)
+			{
+				Widget child = widget.GetChild(num);
+				if (!child.IsHidden && !child.IsDisabled && IsPointInsideMeasuredArea(child, position))
+				{
+					CollectEnableWidgetsAt(child, position, widgets);
+				}
+			}
+		}
+		if (!widget.DoNotAcceptEvents && IsPointInsideMeasuredArea(widget, position))
+		{
+			widgets.Add(widget);
+		}
+	}
+
+	private static void CollectVisibleWidgetsAt(Widget widget, Vector2 position, List<Widget> widgets)
+	{
+		if (!widget.IsVisible)
+		{
+			return;
+		}
+		for (int num = widget.ChildCount - 1; num >= 0; num--)
+		{
+			Widget child = widget.GetChild(num);
+			if (child.IsVisible && IsPointInsideMeasuredArea(child, position))
+			{
+				CollectVisibleWidgetsAt(child, position, widgets);
+			}
+		}
+		if (IsPointInsideMeasuredArea(widget, position))
+		{
+			widgets.Add(widget);
+		}
+	}
+
+	internal void ManualAddRange(List<Widget> list, LinkedList<Widget> linked_list)
+	{
+		if (list.Capacity < linked_list.Count)
+		{
+			list.Capacity = linked_list.Count;
+		}
+		for (LinkedListNode<Widget> linkedListNode = linked_list.First; linkedListNode != null; linkedListNode = linkedListNode.Next)
+		{
+			list.Add(linkedListNode.Value);
+		}
+	}
+
+	private void ParallelUpdateWidget(int startInclusive, int endExclusive, float dt)
+	{
+		List<Widget> currentList = _widgetsWithParallelUpdateContainer.GetCurrentList();
+		for (int i = startInclusive; i < endExclusive; i++)
+		{
+			currentList[i].ParallelUpdate(dt);
+		}
+	}
+
+	internal void ParallelUpdateWidgets(float dt)
+	{
+		TWParallel.For(0, _widgetsWithParallelUpdateContainer.Count, dt, ParallelUpdateWidgetPredicate);
+	}
+
+	internal void Update(float dt)
+	{
+		Time += dt;
+		CachedDt = dt;
+		IsControllerActive = Input.IsControllerConnected && !Input.IsMouseActive;
+		int realCount = _widgetsWithUpdateContainer.RealCount;
+		int realCount2 = _widgetsWithParallelUpdateContainer.RealCount;
+		int realCount3 = _widgetsWithLateUpdateContainer.RealCount;
+		int num = TaleWorlds.Library.MathF.Max(_widgetsWithUpdateBrushesContainer.RealCount, TaleWorlds.Library.MathF.Max(realCount, TaleWorlds.Library.MathF.Max(realCount2, realCount3)));
+		if (_widgetsWithUpdateContainerDoDefragmentationDelegate == null)
+		{
+			_widgetsWithUpdateContainerDoDefragmentationDelegate = delegate
+			{
+				lock (_widgetsWithUpdateContainer)
+				{
+					_widgetsWithUpdateContainer.DoDefragmentation();
+				}
+			};
+			_widgetsWithParallelUpdateContainerDoDefragmentationDelegate = delegate
+			{
+				lock (_widgetsWithParallelUpdateContainer)
+				{
+					_widgetsWithParallelUpdateContainer.DoDefragmentation();
+				}
+			};
+			_widgetsWithLateUpdateContainerDoDefragmentationDelegate = delegate
+			{
+				lock (_widgetsWithLateUpdateContainer)
+				{
+					_widgetsWithLateUpdateContainer.DoDefragmentation();
+				}
+			};
+			_widgetsWithUpdateBrushesContainerDoDefragmentationDelegate = delegate
+			{
+				lock (_widgetsWithUpdateBrushesContainer)
+				{
+					_widgetsWithUpdateBrushesContainer.DoDefragmentation();
+				}
+			};
+		}
+		bool flag = _widgetsWithUpdateContainer.CheckFragmentation() || _widgetsWithParallelUpdateContainer.CheckFragmentation() || _widgetsWithLateUpdateContainer.CheckFragmentation() || _widgetsWithUpdateBrushesContainer.CheckFragmentation();
+		Task task = null;
+		Task task2 = null;
+		Task task3 = null;
+		Task task4 = null;
+		if (flag && num > 64)
+		{
+			task = Task.Run(_widgetsWithUpdateContainerDoDefragmentationDelegate);
+			task2 = Task.Run(_widgetsWithParallelUpdateContainerDoDefragmentationDelegate);
+			task3 = Task.Run(_widgetsWithLateUpdateContainerDoDefragmentationDelegate);
+			task4 = Task.Run(_widgetsWithUpdateBrushesContainerDoDefragmentationDelegate);
+		}
+		UpdateDragCarrier();
+		if (_widgetsWithVisualDefinitionsContainer.CheckFragmentation())
+		{
+			lock (_widgetsWithVisualDefinitionsContainer)
+			{
+				_widgetsWithVisualDefinitionsContainer.DoDefragmentation();
+			}
+		}
+		List<Widget> currentList = _widgetsWithVisualDefinitionsContainer.GetCurrentList();
+		for (int num2 = 0; num2 < currentList.Count; num2++)
+		{
+			currentList[num2].UpdateVisualDefinitions(dt);
+		}
+		if (flag)
+		{
+			if (num > 64)
+			{
+				Task.WaitAll(task, task2, task3, task4);
+			}
+			else
+			{
+				_widgetsWithUpdateContainerDoDefragmentationDelegate();
+				_widgetsWithParallelUpdateContainerDoDefragmentationDelegate();
+				_widgetsWithLateUpdateContainerDoDefragmentationDelegate();
+				_widgetsWithUpdateBrushesContainerDoDefragmentationDelegate();
+			}
+		}
+		UIContext.MouseCursors activeCursorOfContext = ((HoveredView?.HoveredCursorState == null) ? UIContext.MouseCursors.Default : ((UIContext.MouseCursors)Enum.Parse(typeof(UIContext.MouseCursors), HoveredView.HoveredCursorState)));
+		Context.ActiveCursorOfContext = activeCursorOfContext;
+		List<Widget> currentList2 = _widgetsWithUpdateContainer.GetCurrentList();
+		for (int num3 = 0; num3 < currentList2.Count; num3++)
+		{
+			currentList2[num3].Update(dt);
+		}
+		_doingParallelTask = true;
+		if (_widgetsWithParallelUpdateContainer.Count > 64)
+		{
+			ParallelUpdateWidgets(dt);
+		}
+		else
+		{
+			List<Widget> currentList3 = _widgetsWithParallelUpdateContainer.GetCurrentList();
+			for (int num4 = 0; num4 < currentList3.Count; num4++)
+			{
+				currentList3[num4].ParallelUpdate(dt);
+			}
+		}
+		_doingParallelTask = false;
+	}
+
+	internal void ParallelUpdateBrushes(float dt)
+	{
+		TWParallel.For(0, _widgetsWithUpdateBrushesContainer.Count, dt, UpdateBrushesWidgetPredicate);
+	}
+
+	internal void UpdateBrushes(float dt)
+	{
+		if (_widgetsWithUpdateBrushesContainer.Count > 64)
+		{
+			ParallelUpdateBrushes(dt);
+			return;
+		}
+		List<Widget> currentList = _widgetsWithUpdateBrushesContainer.GetCurrentList();
+		for (int i = 0; i < currentList.Count; i++)
+		{
+			currentList[i].UpdateBrushes(dt);
+		}
+	}
+
+	private void UpdateBrushesWidget(int startInclusive, int endExclusive, float dt)
+	{
+		List<Widget> currentList = _widgetsWithUpdateBrushesContainer.GetCurrentList();
+		for (int i = startInclusive; i < endExclusive; i++)
+		{
+			currentList[i].UpdateBrushes(dt);
+		}
+	}
+
+	public void AddLateUpdateAction(Widget owner, Action<float> action, int order)
+	{
+		UpdateAction item = new UpdateAction
+		{
+			Target = owner,
+			Action = action,
+			Order = order
+		};
+		if (_doingParallelTask)
+		{
+			lock (_lateUpdateActionLocker)
+			{
+				_lateUpdateActions[order].Add(item);
+				return;
+			}
+		}
+		_lateUpdateActions[order].Add(item);
+	}
+
+	internal void LateUpdate(float dt)
+	{
+		List<Widget> currentList = _widgetsWithLateUpdateContainer.GetCurrentList();
+		for (int i = 0; i < currentList.Count; i++)
+		{
+			currentList[i].LateUpdate(dt);
+		}
+		Dictionary<int, List<UpdateAction>> lateUpdateActions = _lateUpdateActions;
+		_lateUpdateActions = _lateUpdateActionsRunning;
+		_lateUpdateActionsRunning = lateUpdateActions;
+		for (int j = 1; j <= 5; j++)
+		{
+			List<UpdateAction> list = _lateUpdateActionsRunning[j];
+			for (int k = 0; k < list.Count; k++)
+			{
+				if (list[k].Target.ConnectedToRoot)
+				{
+					list[k].Action(dt);
+				}
+			}
+			list.Clear();
+		}
+		if (IsControllerActive)
+		{
+			if (HoveredView != null && HoveredView.IsRecursivelyVisible())
+			{
+				if (HoveredView.FrictionEnabled && DraggedWidget == null)
+				{
+					_lastSetFrictionValue = 0.45f;
+				}
+				else
+				{
+					_lastSetFrictionValue = 1f;
+				}
+				Input.SetCursorFriction(_lastSetFrictionValue);
+			}
+			if (!_lastSetFrictionValue.ApproximatelyEqualsTo(1f) && HoveredView == null)
+			{
+				_lastSetFrictionValue = 1f;
+				Input.SetCursorFriction(_lastSetFrictionValue);
+			}
+		}
+		if (!_isOnScreenKeyboardRequested)
+		{
+			return;
+		}
+		if (IsControllerActive && FocusedWidget is EditableTextWidget editableTextWidget)
+		{
+			string initialText = editableTextWidget.Text ?? string.Empty;
+			string descriptionText = editableTextWidget.KeyboardInfoText ?? string.Empty;
+			int maxLength = editableTextWidget.MaxLength;
+			int keyboardTypeEnum = (editableTextWidget.IsObfuscationEnabled ? 2 : 0);
+			if (FocusedWidget is IntegerInputTextWidget || FocusedWidget is FloatInputTextWidget)
+			{
+				keyboardTypeEnum = 1;
+			}
+			Context.TwoDimensionContext.Platform.OpenOnScreenKeyboard(initialText, descriptionText, maxLength, keyboardTypeEnum);
+		}
+		_isOnScreenKeyboardRequested = false;
+	}
+
+	private void UpdateDragCarrier()
+	{
+		if (_dragCarrier != null)
+		{
+			_dragCarrier.PosOffset = MousePositionInReferenceResolution + _dragOffset - new Vector2(LeftUsableAreaStart, TopUsableAreaStart) * Context.InverseScale;
+		}
+	}
+
+	public void SetHoveredView(Widget view)
+	{
+		if (HoveredView != view)
+		{
+			if (HoveredView != null)
+			{
+				HoveredView.OnHoverEnd();
+			}
+			HoveredView = view;
+			if (HoveredView != null)
+			{
+				HoveredView.OnHoverBegin();
+			}
+		}
+	}
+
+	internal void BeginDragging(Widget draggedObject)
+	{
+		if (DraggedWidget != null)
+		{
+			Debug.FailedAssert("Trying to BeginDragging while there is already a dragged object.", "C:\\BuildAgent\\work\\mb3\\TaleWorlds.Shared\\Source\\GauntletUI\\TaleWorlds.GauntletUI\\EventManager.cs", "BeginDragging", 1617);
+			ClearDragObject();
+		}
+		if (!draggedObject.ConnectedToRoot)
+		{
+			Debug.FailedAssert("Trying to drag a widget with no parent, possibly a widget which is already being dragged", "C:\\BuildAgent\\work\\mb3\\TaleWorlds.Shared\\Source\\GauntletUI\\TaleWorlds.GauntletUI\\EventManager.cs", "BeginDragging", 1623);
+			return;
+		}
+		draggedObject.IsPressed = false;
+		_draggedWidgetPreviousParent = null;
+		_draggedWidgetIndex = -1;
+		Widget parentWidget = draggedObject.ParentWidget;
+		DraggedWidget = draggedObject;
+		Vector2 globalPosition = DraggedWidget.GlobalPosition;
+		_dragCarrier = new DragCarrierWidget(Context);
+		_dragCarrier.ParentWidget = Root;
+		if (draggedObject.DragWidget != null)
+		{
+			Widget dragWidget = draggedObject.DragWidget;
+			_dragCarrier.WidthSizePolicy = SizePolicy.CoverChildren;
+			_dragCarrier.HeightSizePolicy = SizePolicy.CoverChildren;
+			_dragOffset = Vector2.Zero;
+			dragWidget.IsVisible = true;
+			dragWidget.ParentWidget = _dragCarrier;
+			if (DraggedWidget.HideOnDrag)
+			{
+				DraggedWidget.IsVisible = false;
+			}
+			_draggedWidgetPreviousParent = null;
+		}
+		else
+		{
+			_dragOffset = (globalPosition - MousePosition) * Context.InverseScale;
+			_dragCarrier.WidthSizePolicy = SizePolicy.Fixed;
+			_dragCarrier.HeightSizePolicy = SizePolicy.Fixed;
+			if (DraggedWidget.WidthSizePolicy == SizePolicy.StretchToParent)
+			{
+				_dragCarrier.ScaledSuggestedWidth = DraggedWidget.Size.X + (DraggedWidget.MarginRight + DraggedWidget.MarginLeft) * Context.Scale;
+				_dragOffset += new Vector2(0f - DraggedWidget.MarginLeft, 0f);
+			}
+			else
+			{
+				_dragCarrier.ScaledSuggestedWidth = DraggedWidget.Size.X;
+			}
+			if (DraggedWidget.HeightSizePolicy == SizePolicy.StretchToParent)
+			{
+				_dragCarrier.ScaledSuggestedHeight = DraggedWidget.Size.Y + (DraggedWidget.MarginTop + DraggedWidget.MarginBottom) * Context.Scale;
+				_dragOffset += new Vector2(0f, 0f - DraggedWidget.MarginTop);
+			}
+			else
+			{
+				_dragCarrier.ScaledSuggestedHeight = DraggedWidget.Size.Y;
+			}
+			if (parentWidget != null)
+			{
+				_draggedWidgetPreviousParent = parentWidget;
+				_draggedWidgetIndex = draggedObject.GetSiblingIndex();
+			}
+			DraggedWidget.ParentWidget = _dragCarrier;
+		}
+		_dragCarrier.PosOffset = MousePositionInReferenceResolution + _dragOffset - new Vector2(LeftUsableAreaStart, TopUsableAreaStart) * Context.InverseScale;
+		this.OnDragStarted?.Invoke();
+	}
+
+	internal Widget ReleaseDraggedWidget()
+	{
+		Widget draggedWidget = DraggedWidget;
+		if (_draggedWidgetPreviousParent != null)
+		{
+			DraggedWidget.ParentWidget = _draggedWidgetPreviousParent;
+			_draggedWidgetIndex = TaleWorlds.Library.MathF.Max(0, TaleWorlds.Library.MathF.Min(TaleWorlds.Library.MathF.Max(0, DraggedWidget.ParentWidget.ChildCount - 1), _draggedWidgetIndex));
+			DraggedWidget.SetSiblingIndex(_draggedWidgetIndex);
+		}
+		else
+		{
+			DraggedWidget.IsVisible = true;
+		}
+		DragHoveredView = null;
+		return draggedWidget;
+	}
+
+	internal void Render(TwoDimensionContext twoDimensionContext)
+	{
+		twoDimensionContext.ResetScissor();
+		SimpleRectangle boundingBox = AreaRectangle.GetBoundingBox();
+		twoDimensionContext.SetScissor(new ScissorTestInfo(boundingBox.X, boundingBox.Y, boundingBox.X2, boundingBox.Y2));
+		_drawContext.Reset();
+		Root.Render(twoDimensionContext, _drawContext);
+		_drawContext.DrawTo(twoDimensionContext);
+	}
+
+	public void UpdateLayout()
+	{
+		SetMeasureDirty();
+		SetLayoutDirty();
+		Root.LayoutUpdated();
+	}
+
+	internal void SetMeasureDirty()
+	{
+		_measureDirty = 2;
+	}
+
+	internal void SetLayoutDirty()
+	{
+		_layoutDirty = 2;
+	}
+
+	internal void SetPositionsDirty()
+	{
+		_positionsDirty = true;
+	}
+
+	public bool GetIsHitThisFrame()
+	{
+		if (OnGetIsHitThisFrame != null)
+		{
+			return OnGetIsHitThisFrame();
+		}
+		return false;
+	}
+}

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	type="particle_system">
+	<particle_systems>
+		<particle_system
+			name="test"
+			material="gpuparticle_standard"
+			life="1.000000"
+			emission_rate="500.000000"
+			emit_velocity="0.000000, 0.000000, 6.000000"
+			emit_direction_randomness="1.000000, 1.000000, 1.000000"
+			emit_velocity_randomness="0.000000"
+			emit_sphere_radius="0.050000"
+			scale_t0="0.000000"
+			scale_t1="1.000000"
+			start_scale="1.000000"
+			end_scale="1.500000"
+			alpha_t0="0.000000"
+			alpha_t1="0.400000"
+			linear_damping="0.500000"
+			gravity_constant="0.800000"
+			angular_speed="0.500000"
+			angular_damping="0.500000"
+			burst_length="0.500000"
+			is_burst="false" />
+	</particle_systems>
+</base>

@@ -1,0 +1,1770 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Español (LA)" />
+  </tags>
+  <strings>
+    <string id="02E0oSJm" text="¡FALTA! Tu oponente estaba peleando fuera de la justa. ¡{?OPPONENT_GENDER}La{?}Lo{\?} descalificaron!" />
+    <string id="04GuLxE1" text="No puedes cambiar el líder de tu grupo ni disolverlo" />
+    <string id="07b4Wy0h" text="Elegir caballería" />
+    <string id="082FNWAD" text="Rasgos" />
+    <string id="09ooh9I3" text="Las piezas se mueven hacia la casilla de inicio del oponente. Al llegar a la última casilla, se moverán hacia su propia casilla de inicio. Se pueden capturar piezas enemigas en el camino." />
+    <string id="0amC7X1h" text="Declaración de guerra" />
+    <string id="0DiBS84d" text="{?NPC.GENDER}Piadosa{?}Piadoso{\?}" />
+    <string id="0g7MZCAK" text="Ingresos del taller" />
+    <string id="0GZ19XHb" text="Arnés" />
+    <string id="0hCHIcVk" text="escaramuce a caballo" />
+    <string id="0IjUokET" text="¿Cuánto? ¿Cuánto dinero? Apúrate.[ib:hip][rf:convo_angry]" />
+    <string id="0j9JnMNB" text="{#GENDER(ITEM_NAME)} recibido{#} recibido{#} recibidos{#} recibidas{\#}." />
+    <string id="0JyRvjSF" text="Nuestro plan es formar una línea defensiva." />
+    <string id="0LgxcCbL" text="Orden {NUMBER}" />
+    <string id="0mDkVTWn" text="{?NPC.GENDER}Heroínas{?}Héroes{\?}" />
+    <string id="0qCbsOif" text="Pistola" />
+    <string id="0RkO7oHP" text="capitán" />
+    <string id="0rsySqR6" text="En el {DAY_OF_YEAR} día de {YEAR} escuchaste de una conspiración que trabaja desde las sombras para hacer que los enemigos del imperio forjen una alianza." />
+    <string id="0T3bP5r6" text="{DAY} {?PLURAL_DAYS}días{?}día{\?}" />
+    <string id="0V4jIIju" text="Viajando a {.l}{SETTLEMENT_NAME} para sitiar." />
+    <string id="0zNzaDGq" text="Hoja" />
+    <string id="0zz1iDMY" text="un cacique" />
+    <string id="11aiaODt" text="Armadura de pies" />
+    <string id="13q8IRfZ" text="mi hermana {REFERING_HERO.LINK}" />
+    <string id="1AcoIQVl" text="Llegaste a {.l}{SETTLEMENT} para asaltar. Algunos residentes se reunieron para oponerte resistencia. Si asaltas esta aldea, provocarás una guerra con el reino de {.l}{KINGDOM}." />
+    <string id="1asbVsat" text="Puedes capturar al rodear a una pieza contraria desde ambos lados con tus piezas.{newline}Las piezas también se pueden capturar al bloquearlas contra la casilla del centro. Esto funciona para ambos jugadores." />
+    <string id="1BSSOa8a" text="Ultraarmadura" />
+    <string id="1cd6u0qn" text="¡Abra las puertas y salga!" />
+    <string id="1dLZLQsY" text="Donar tropas{newline}No podrás deshacer esta acción." />
+    <string id="1E6hFc0r" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están protegiéndonos del enemigo que avanza por la retaguardia." />
+    <string id="1HPITLca" text="Límite de tamaño de prisioneros excedido" />
+    <string id="1ICTi9xQ" text="Los defensores salen a atacar el campamento de asedio de {BESIEGER_LEADER.NAME}" />
+    <string id="1KcIeYe2" text="Tienes que estar en la misma ubicación que el personaje para poder hablarle" />
+    <string id="1klXxZFS" text="Soy la señora de {TOWNS}." />
+    <string id="1Llb4gGw" text="Completar" />
+    <string id="1m8zRjs8" text="En el {DAY_OF_YEAR} día de {YEAR}, {CLAN_NAME} se unió a {.l}{KINGDOM_FORMALNAME}." />
+    <string id="1MStGeRa" text="Oponentes derrotados: {BEATEN_OPPONENT_COUNT}" />
+    <string id="1o1TyPib" text="Límite de acompañantes adicionales" />
+    <string id="1PwQxaOu" text="Al parecer, hay preparaciones en curso para llevar a cabo un torneo." />
+    <string id="1pxLpZ4r" text="Índole:" />
+    <string id="1wkANMRC" text="Nuestro plan es intentar controlar este paso estrecho." />
+    <string id="1XE7yeaP" text="Después de que este prisionero obtenga {CONFORMITY_AMOUNT} de conformidad, un prisionero más estará disponible para reclutar." />
+    <string id="1XVvU23F" text="¡No se puede usar el texto de portapapeles como tecla de propiedades de cuerpo!" />
+    <string id="1z0rLrhs" text="padre" />
+    <string id="1Zq8mzzJ" text="Bueno. Veamos qué clase de mosca cayó en nuestra telaraña.[rf:convo_mocking_revenge]" />
+    <string id="21t7Ev03" text="No puedes realizar esta acción mientras estás en prisión." />
+    <string id="22FUKSQb" text="Obtén {REQUIRED_XP_FOR_NEXT_LEVEL} EXP para esta habilidad al usarla y así subirla de nivel." />
+    <string id="22tbyEYI" text="Recibiste {COUNT} {ITEM} de {.l}{PARTY_NAME}." />
+    <string id="24L5DoQt" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están defendiendo posiciones clave." />
+    <string id="25MeMNbP" text="Derecha" />
+    <string id="29bsCzkn" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están retirándose a un lugar seguro." />
+    <string id="2a33tk2f" text="Proyecto diario" />
+    <string id="2Af5HRJU" text="Eminencias de la aldea" />
+    <string id="2AhTA1ba" text="Nuestras tropas retroceden hacia el castillo." />
+    <string id="2aXJEgag" text="Fuerza: {ARMY_STRENGTH}" />
+    <string id="2CfPklXG" text="Nombre" />
+    <string id="2CgZVkDj" text="{?RULER.GENDER}una{?}un{\?} arconte" />
+    <string id="2ER5aj0R" text="Piedras de honda" />
+    <string id="2EzfAklA" text="Le diste {COUNT} {ITEM} a {HERO.NAME}." />
+    <string id="2gpFPuZZ" text="Cruel" />
+    <string id="2Ja8KYVg" text="Ofensiva" />
+    <string id="2JnLh6F0" text="{?NPC.GENDER}Deshonesta{?}Deshonesto{\?}" />
+    <string id="2Jr3zWQz" text="Caballos y arneses" />
+    <string id="2Mic7nhz" text="Nadie de tu grupo tiene suficiente habilidad {SKILL} para completar una orden." />
+    <string id="2noOKM5N" text="Asentamiento establecido para el comercio" />
+    <string id="2qjkY4yu" text="Acuerdo comercial" />
+    <string id="2RFda5ph" text="Recibiste {GOLD_AMOUNT}{GOLD_ICON} como recompensa." />
+    <string id="2RIyK1bp" text="Armas" />
+    <string id="2Sal30D2" text="+{BONUS_AMOUNT} a la influencia {?PLAYER.GENDER}de la propietaria{?}del propietario{\?}" />
+    <string id="2u3dRUlE" text="{SETTLEMENT_NAME} (impuesto)" />
+    <string id="2UCptBFi" text="los sturgianos" />
+    <string id="2W2l9Kym" text="Bonificación de ventaja de líder definitivo" />
+    <string id="2X1rBrdC" text="{DAY_VALUE} d {HOUR_VALUE} h" />
+    <string id="300TAI7u" text="Vender todo" />
+    <string id="32v8ryKV" text="+{BONUS_AMOUNT} de balista cuando empieza un asedio" />
+    <string id="33ghdWWi" text="Otras políticas" />
+    <string id="33hHRM8r" text="Turno del oponente" />
+    <string id="36hbMBhb" text="En el día {DAY_OF_YEAR} de {YEAR}, se destruyó {FORMAL_NAME}. No cumplirá su destino de {?PLAYER_WANTS_RESTORE}restaurar{?}destruir{\?} el imperio tal como querías." />
+    <string id="3cTKRX1M" text="Nunca antes visto" />
+    <string id="3Ds5ARHL" text="Mercante" />
+    <string id="3E0ZXV7j" text="Resultado de decisión" />
+    <string id="3EGllWkd" text="del imperio septentrional" />
+    <string id="3fAm8FaM" text="Que así sea... Como mi padre decía, un viaje no es digno de su nombre si no puedes matar a nadie." />
+    <string id="3FUaZk5A" text="Mi señora." />
+    <string id="3gkb0YCn" text="¡Retírate ahora o toma el mando de tus fuerzas!" />
+    <string id="3IGjY8RG" text="Escaramuza libre" />
+    <string id="3IpiWM7H" text="Bandido" />
+    <string id="3JE8EGH1" text="No puedes ejecutar al héroe ahora mismo" />
+    <string id="3jSl2v41" text="+{BONUS_AMOUNT} de bonificación de EXP a las tropas de guarnición por día" />
+    <string id="3KD1KqHp" text="Torre de asedio (nivel 2)" />
+    <string id="3l8HsbHK" text="Je. Tomaste una sabia decisión. Pasa por aquí de nuevo y podremos volver a negociar.[ib:closed][rf:convo_bemused]" />
+    <string id="3lZchBXQ" text="{ISSUE_NAME}: Tus tropas no resolvieron el asunto." />
+    <string id="3o6FDRsq" text="Pueblos capturados" />
+    <string id="3Oit0vGb" text="Si procedes, el grupo quedará sin líder durante {TRAVEL_DURATION} mientras los miembros de tu clan viajan. No podrá unirse a ningún ejército hasta que llegue el nuevo líder.{?DOES_LEADER_NEED_GOLD}{newline}{newline}Te costará {PARTY_COST}{GOLD_ICON}.{newline}{newline}{?} {\?}¿De verdad quieres continuar?" />
+    <string id="3qFPyJtB" text="Esperando en {.l}{SETTLEMENT_NAME}." />
+    <string id="3sWa2Hmt" text="mi hijo {REFERING_HERO.LINK}" />
+    <string id="3tJq5QyQ" text="{HEALTHY_NUM}+{WOUNDED_NUM}h" />
+    <string id="3TXGG01D" text="Escogió bien, {?PLAYER.GENDER}señora{?}señor{\?}. Mis chicos saben cómo cumplir con su palabra y ganarse su paga.[ib:convo_approving]" />
+    <string id="3uR8wLko" text="nuestro señor feudal {REFERING_HERO.LINK}" />
+    <string id="3vT6TQmF" text="{PLAYER.LINK}, estás en {.l}{SIDE_STRING} de {.l}{CLASS_NAME} ." />
+    <string id="3wS4uOvU" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están escaramuzando en la retaguardia." />
+    <string id="3xeuA9VP" text="+{TROOP_AMOUNT} tropa{?ISPLURAL}s{?} {\?} al asentamiento" />
+    <string id="3xIv2cP9" text="mantenga el terreno elevado" />
+    <string id="3XsOeE2v" text="{?PAY_OR_GET}Recibirás{?}Pagarás{\?} {TRADE_AMOUNT}{GOLD_ICON}" />
+    <string id="3ZRTekjS" text="Guantelete" />
+    <string id="4AQmS4iA" text="+{BONUS_AMOUNT} a la capacidad de guarnición" />
+    <string id="4bq2mUf1" text="Elegible para crear un reino" />
+    <string id="4BQaqqzg" text="Seguridad:" />
+    <string id="4H1nDlBO" text="Salario semanal" />
+    <string id="4Hdcxk0a" text="Beligerante" />
+    <string id="4jLW7hag" text="Descartar del ejército" />
+    <string id="4kKxsVzZ" text="Capturaron tu callejón {.%}{ALLEY_NAME}{.%} en {TOWN}." />
+    <string id="4KXvyxrK" text="Asentamiento establecido" />
+    <string id="4l3BLxBC" text="dispare desde la torre de asedio" />
+    <string id="4M8h8ufy" text="No puede usarse a dos manos" />
+    <string id="4ml9Bx6i" text="Ventaja multijugador" />
+    <string id="4mMXsVGb" text="Anfitrión de juegos de la taberna" />
+    <string id="4nv6LzDp" text="Mosquete" />
+    <string id="4okzoXIw" text="Acompañante" />
+    <string id="4ol7MhA5" text="El enemigo te rodeó, pero tus hombres no están en condiciones de pelear." />
+    <string id="4qaunexe" text="Aumenta el índice de visitas de caravana." />
+    <string id="4QAwbFcQ" text="Escondite cercano" />
+    <string id="4RIMHAHW" text="Tus hombres reclutan a las malas a un par de muchachos cercanos, pero otros deciden alzarse en armas. Si continúas, habrá una pelea." />
+    <string id="4rRsmX8i" text="Bien. A veces es mejor esquilar a las ovejas que comérselas." />
+    <string id="4tdVrFtU" text="trigésimo primer" />
+    <string id="4U6x48yQ" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están liderando la batalla." />
+    <string id="4WD0kJSR" text="Arrr... Será mejor que no estés jugando con nosotros." />
+    <string id="4wYguFLZ" text="Solucionando tarea" />
+    <string id="4Y5T7wp1" text="No puedes expulsar a miembros de la familia del clan." />
+    <string id="4ytmLxOy" text="Embarazada" />
+    <string id="59hbrhfY" text="EXP actual de tropa" />
+    <string id="59PSpyu8" text="Asentamiento: {SETTLEMENT_LINK}" />
+    <string id="5a4cY5az" text="No puedes realizar esta acción mientras estás en un asedio." />
+    <string id="5aElrlUt" text="Pago a mercenarios" />
+    <string id="5bqmaciE" text="{ARMY_MEMBER} para estar en el ejército" />
+    <string id="5cGXHF1a" text="Hoy" />
+    <string id="5CYdyMzj" text="Restantes" />
+    <string id="5DBDy2si" text="Rodeaste al enemigo." />
+    <string id="5eH0lCEO" text="Deshabilitar paso de tutorial actual" />
+    <string id="5H0cDmm1" text="Obtén un total de {SKILL_LEVEL_FOR_LEVEL_UP} puntos de habilidad para subir de nivel a este personaje." />
+    <string id="5IOct2ob" text="Requisito de orden" />
+    <string id="5jVYwNCQ" text="Salarios sin pagar" />
+    <string id="5k4dxUEJ" text="Tropas" />
+    <string id="5kS1qjZL" text="Ya existe una decisión sin solución en este asentamiento." />
+    <string id="5lDYh7wJ" text="Construiste una barrera contra tu oponente, pero tienes menos piezas restantes. ¡Perdiste el juego!" />
+    <string id="5lT70YJY" text="En el {DAY_OF_YEAR} día de {YEAR} escuchaste rumores sobre un pacto secreto que se está fraguando entre facciones imperiales rivales para combinar sus fuerzas contra los enemigos del imperio." />
+    <string id="5pGjYBFn" text="Contribución recibida" />
+    <string id="5QN7SFNW" text="III" />
+    <string id="5S1zPgTm" text="imperial" />
+    <string id="5SQaiYXi" text="¡FALTA! No puedes golpear al caballo de tu oponente. ¡Te descalificaron!" />
+    <string id="5T7nyzda" text="Me alegra oír eso. Matar también es un trabajo duro para nosotros." />
+    <string id="5U70lB7k" text="Oprime {KEY} para ocultarte" />
+    <string id="5UpDD9eS" text="décimo" />
+    <string id="5WJbtDqp" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están escaramuzando detrás de los aliados." />
+    <string id="5WWbQRQ5" text="Un jugador gana cuando su oponente no puede realizar más saltos (capturas)." />
+    <string id="5X9Sq4T4" text="{NUM} señor(es)" />
+    <string id="5XFDdsHf" text="Renunciar al liderazgo" />
+    <string id="5ZPp8btH" text="¡Oferta de trueque aceptada!" />
+    <string id="640qFpJ8" text="{DAY} {?PLURAL_DAYS}días{?}día{\?} y {HOUR} {?PLURAL_HOURS}horas{?}hora{\?}" />
+    <string id="65QqsaKe" text="¡Estás en el lado equivocado!" />
+    <string id="6b1RXicd" text="Ariete mejorado" />
+    <string id="6bex2HUl" text="Aunque pareciera que la mayoría de la gente se las arregla para sobrevivir, muchos se ven enojados, y escuchas a algunos transeúntes murmurar que se les está acabando la paciencia. Sientes que algo podría estar pasando." />
+    <string id="6DZx6jTA" text="Prisioneros que se pueden reclutar" />
+    <string id="6e82kCVB" text="Arma de asta de agarre bajo" />
+    <string id="6G5RFyr1" text="Apoyo para el rey" />
+    <string id="6GmsZ7AG" text="Le diste {COUNT} {ITEM} a {.l}{PARTY_NAME}." />
+    <string id="6GSXsdeX" text="Velocidad" />
+    <string id="6gvDrbe7" text="Gastos de reclutamiento" />
+    <string id="6Jx6qbZn" text="defienda{?IS_GENERAL_SIDE}{?} las paredes de {.l}{SIDE_STRING}{\?}" />
+    <string id="6kqK0kUn" text="No tiene caso quedarse en la defensa. Patrulla la zona." />
+    <string id="6OZycZbc" text="El clan no tiene ningún héroe disponible para liderar el nuevo grupo." />
+    <string id="6pNrNj93" text="Muro" />
+    <string id="6RDRxvaC" text="Los ataques de estocada pueden desmontar a los jinetes" />
+    <string id="6S5JjlP2" text="Cubrir" />
+    <string id="6SFktFH3" text="Armadura mediana" />
+    <string id="6UUymZhL" text="el imperio" />
+    <string id="6UVm8RYL" text="{PRISONER_LORD.LINK} de {.l}{PRISONER_FACTION_LINK} ahora está libre." />
+    <string id="6Xl9F8Oa" text="Tiendas del pueblo" />
+    <string id="6XYG7bux" text="Vas a gastar {AMOUNT}{INFLUENCE_ICON}" />
+    <string id="72Rasm5f" text="No tenemos nada, ni plata ni mercancías." />
+    <string id="7663BDwd" text="({CURRENT}) guarniciones" />
+    <string id="77aNVVE0" text="Bonificación de renombre" />
+    <string id="77SdNt8C" text="Tu oponente construyó una barrera en tu contra y tienes menos piezas restantes. ¡Perdiste el juego!" />
+    <string id="79cOhac4" text="Con eso bastará. Por ahora, de todos modos. Viaja con cuidado, espero verte de nuevo.[ib:closed][rf:convo_bemused]" />
+    <string id="7a3aryUB" text="Animal" />
+    <string id="7acrOvmJ" text="Armas a distancia I" />
+    <string id="7AOOQ5iB" text="A pesar de las dificultades, escuchas algunos rumores de quejas, pero la gente parece confiar en que sus gobernantes los liderarán a través de la adversidad." />
+    <string id="7aYV4L9z" text="+{NUMBER}" />
+    <string id="7b60SOvI" text="En el {DAY_OF_YEAR} día de {YEAR}, coronaron a {KING_NAME} como {TITLE_NAME}." />
+    <string id="7chepLLh" text="destruya armas de asedio{?IS_GENERAL_SIDE}{?} en el área {SIDE_STRING}{\?}" />
+    <string id="7cMUohRm" text="Comanda batallas simuladas. Gana batallas con probabilidades difíciles. Sacrifica tropas si es necesario para escapar de enfrentamientos." />
+    <string id="7cnb2iEb" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están escaramuzando." />
+    <string id="7EnFh9e5" text="Ubicación: {LOCATION}" />
+    <string id="7EVjgrFW" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están escaramuzando de forma dispersa." />
+    <string id="7fjOwwVH" text="Claro, te daré un consejo. Hablé con unos comerciantes que dijeron que acaban de comprar el artículo {.%}{ITEM_NAME}{.%} en {.l}{SETTLEMENT} a {BUY_COST}{GOLD_ICON} y lo vendieron en {.l}{DESTINATION} por {SELL_COST}{GOLD_ICON}." />
+    <string id="7h6cXdW7" text="{?NPC.GENDER}Ingeniera{?}Ingeniero{\?}" />
+    <string id="7hj7Kaoz" text="Ingresos totales" />
+    <string id="7IqpjCDY" text="Ejecutar a un prisionero afectará de forma negativa tu reputación y disminuirá tu relación con la facción o clan del prisionero.{newline}No podrás deshacer esta acción.{newline}¿De verdad quieres ejecutar a este personaje?" />
+    <string id="7j4fQHg7" text="Batalla forestal{newline}{newline}• La infantería obtiene una bonificación menor.{newline}• Los arqueros sufren una penalización media.{newline}• La caballería sufre una gran penalización.{newline}• Los arqueros a caballo sufren una severa penalización." />
+    <string id="7JpAR59k" text="Se usa para llevar objetos" />
+    <string id="7llkDelg" text="Decisiones del reino" />
+    <string id="7mRN2br0" text="El liderazgo de la formación se otorgó a {HERO_NAME}." />
+    <string id="7MSuWxaY" text="{CHILD.NAME} ha cumplido {CHILD.AGE} y necesita tu guía." />
+    <string id="7MWaMaez" text="Esto es lo que tenemos: {ITEM_LIST}. Quédese con todo, pero déjenos vivir." />
+    <string id="7oJ9gIeT" text="El comerciante no tiene suficiente dinero." />
+    <string id="7pAZatbz" text="{?RULER.GENDER}Emperatriz{?}Emperador{\?} {RULER.NAME}" />
+    <string id="7sUhWG0E" text="Daño de estocada: " />
+    <string id="7sZMMYbe" text="Facción menor" />
+    <string id="7t1daAel" text="Mala decisión, {?PLAYER.GENDER}amiga{?}amigo{\?}.[ib:aggressive][if:convo_very_stern]" />
+    <string id="7UNcl2xi" text="No puedes reclutar al prisionero" />
+    <string id="7uzvI8e8" text="Gastos del presupuesto del reino" />
+    <string id="7vdgxtwo" text="IV" />
+    <string id="7vrdpDFK" text="&lt;b&gt;Mangana&lt;/b&gt;{NEWLINE}Lanza rocas a distancia usando cuerdas de torsión.{NEWLINE}Igual de eficaz contra muros, artefactos de asedio enemigos y sus operadores." />
+    <string id="7W79uw0y" text="Restablecer predeterminado" />
+    <string id="7Wcnipag" text="decimocuarto" />
+    <string id="7WFFCVMa" text="Especial" />
+    <string id="7xFRFV0P" text="forme un círculo defensivo." />
+    <string id="7Ywub9bC" text="Los defensores siguen defendiendo la fortaleza." />
+    <string id="7zaMwF08" text="Mientras asaltabas el asentamiento de {.l}{SETTLEMENT}, {PARTY} vino a ayudar a la aldea. Decides..." />
+    <string id="7zUWqY3O" text="Izquierda" />
+    <string id="80hwCw7B" text="-{BONUS_AMOUNT_PERCENT} % de reducción de milicia durante la rebelión" />
+    <string id="83Yt9rbK" text="Atravesado" />
+    <string id="87qtKk4K" text="Ver ronda" />
+    <string id="87vr9BHq" text="Lidera un callejón en {.l}{SETTLEMENT_NAME}" />
+    <string id="88kOYf0b" text="Hombres" />
+    <string id="893hzVCQ" text="&lt;b&gt;Mangana de fuego&lt;/b&gt;{NEWLINE}Lanza frascos llenos de fuego griego, combina el poder ya letal de las manganas con fuego." />
+    <string id="8apwrVjc" text="Grupo de clan adicional" />
+    <string id="8B7V0qdT" text="¡Perdiste la batalla!" />
+    <string id="8bSHlWBL" text="No hay un torneo en este pueblo en este momento." />
+    <string id="8c8NDpAd" text="{HERO.NAME} obtuvo el rasgo {TRAIT_NAME}." />
+    <string id="8cY08v3s" text="La aldea tiene una riqueza promedio. Los humanos y los animales se ven bien alimentados. Los aldeanos se ocupan activamente de las tareas de la temporada." />
+    <string id="8fLMcFFG" text="En el {DAY_OF_YEAR} día de {YEAR} desplegaste el estandarte de dragón y proclamaste tu misión para {?PLAYER_WANTS_RESTORE}restaurar{?}derrotar{\?} el imperio." />
+    <string id="8geYNpC9" text="Daño de {THRUST_DAMAGE_TYPE} de misil: " />
+    <string id="8Gh3Waa3" text="esposa" />
+    <string id="8iLzK3Y4" text="Ingresos de caravanas y grupos" />
+    <string id="8iONwXCz" text="vigésimo segundo" />
+    <string id="8J7ABQhb" text="Montura noble" />
+    <string id="8Jb61k7G" text="(+{GAIN_AMOUNT} de cohesión)" />
+    <string id="8kVhiTmu" text="Siguiente categoría:" />
+    <string id="8l8xEu64" text="Comprar y equipar" />
+    <string id="8LhfzIQE" text="h" />
+    <string id="8mBT44QK" text="Noble de {.l}{FACTION_INFORMAL_NAME}" />
+    <string id="8oaVYIlk" text="Estás afuera de {.l}{SETTLEMENT_NAME}. No puedes entrar porque el castillo pertenece al enemigo." />
+    <string id="8Rkxc5jE" text="Sin comida" />
+    <string id="8rzcgCO5" text="Ordenar por" />
+    <string id="8ucLajpU" text="Hacha a una mano" />
+    <string id="8UFjXbbW" text="flanquee{?IS_GENERAL_SIDE}{?} desde {.l}{SIDE_STRING}{\?}" />
+    <string id="8ZZgNNaY" text="{USE_KEY}" />
+    <string id="923438xA" text="Bien hecho, {PLAYER.LINK}, bien hecho. Lograste derribar nada menos que a {OPPONENT_COUNT} oponentes. La multitud te prefería a ti, por tus agallas. Y, por supuesto, obtuviste {PRIZE}{GOLD_ICON} como dinero de premio." />
+    <string id="929Lxhde" text="Perderás {INFLUENCE_COST} de influencia si abandonas el ejército." />
+    <string id="92M0Pb5T" text="{?NPC.GENDER}Exploradora{?}Explorador{\?}" />
+    <string id="984Ink0j" text="Flecha" />
+    <string id="9B5kxWb8" text="El otro grupo excedió su límite de tropas.{newline}Conservarán a sus tropas de momento, pero después de un tiempo abandonarán rápidamente su grupo.{newline}¿De verdad quieres continuar?" />
+    <string id="9Bm06EEJ" text="Escuchas muchos elogios por la sabiduría de los gobernantes que lograron esta prosperidad." />
+    <string id="9C0J0ZkT" text="dispare desde la cobertura de infantería." />
+    <string id="9dcQ2VZv" text="Nuestro plan es formar un círculo defensivo alrededor de nuestras tropas a distancia." />
+    <string id="9ECleB7I" text="¡Bate en duelo a tu oponente a pie para obtener la victoria!" />
+    <string id="9EgIraI1" text="Políticas activas" />
+    <string id="9esIWdDC" text="Entonces me temo que tendremos que usarte como ejemplo. No te molestes en pedir piedad.[ib:aggressive][if:convo_bared_teeth]" />
+    <string id="9FhdRKWu" text="Cuchillo arrojadizo" />
+    <string id="9gNjg4P0" text="Esto no guardará tu partida y volverás al menú principal. ¿De verdad quieres salir?" />
+    <string id="9iycVtyV" text="Índice de aprendizaje: x {COUNT}" />
+    <string id="9Lhd2zVW" text="En el {DAY_OF_YEAR} día de {YEAR} encontraste una tercera pieza del estandarte de dragón. Ya está todo listo para volverlo a desplegar." />
+    <string id="9NjDfz5Z" text="({LEFT} / {RIGHT})" />
+    <string id="9PLNQrWw" text="Escuchas algunas quejas y la gente parece confiar en las autoridades." />
+    <string id="9pwIt4aa" text="{.FS}Cera{@Plural}{.MP}montones de cera{\@}" />
+    <string id="9yffPYUl" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están atacando." />
+    <string id="9zpZRkYz" text="Potenciar un proyecto agrega +{BOOST} de construcción y cuesta {COST} denares por día." />
+    <string id="a0mJ0cVV" text="Consumo(s)" />
+    <string id="A0sT86A3" text="No se seleccionó una guerra" />
+    <string id="a0TiMLJ4" text="Menú principal" />
+    <string id="a0YMy8E5" text="Se necesita {REQUIRED_ITEM} para mejorar." />
+    <string id="a10WGnBr" text="¡FALTA! No puedes pelear fuera de la justa. ¡Te descalificaron!" />
+    <string id="a15eUf3B" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están enfrentándose al enemigo dentro de los muros." />
+    <string id="A2OUHE2S" text="+{BONUS_AMOUNT} de catapulta cuando empieza un asedio" />
+    <string id="a3hmB91k" text="Construye y usa artefactos de asedio. Usa artefactos en asedios de forma ofensiva y defensiva con éxito." />
+    <string id="A3T5z4Mv" text="Defensivo" />
+    <string id="a3uKkLez" text="{LORD.LINK} está en el campo cerca de {.l}{SETTLEMENT_NAME}" />
+    <string id="a47CpGXN" text="Niveles de poder" />
+    <string id="a5j1v7tM" text="Escuchamos lo que les pasó a los otros que no se unieron a su causa. No queremos acabar como ellos ni tampoco medios para luchar. Usaremos sus colores a partir de ahora hasta que nos diga lo contrario." />
+    <string id="a6D6Ga2F" text="Alcance de arma: " />
+    <string id="a6FfHHVg" text="Efectos de construcción" />
+    <string id="A6rK2YLJ" text="{?BONUS_AMOUNT == 1}Grupo de patrulla ligero{?}{?BONUS_AMOUNT == 2}Grupo de patrulla moderado{?}Grupo de patrulla fuerte{\?}{\?}" />
+    <string id="A7dcz7Yr" text="Armas cuerpo a cuerpo II" />
+    <string id="a8zwLVKj" text="Fuerza" />
+    <string id="aa5tNRb9" text="Probabilidad de éxito crítica" />
+    <string id="AagJ9cSL" text="No sé dónde está {?ASKED_LORD.GENDER}ella{?}él{\?}." />
+    <string id="aaQtzfjL" text="Bien hecho, {?PLAYER.GENDER}señora{?}señor{\?}. Siga enviándonos dinero y vino, y no habrá ningún enemigo en Calradia al que deba temerle.[ib:convo_approving]" />
+    <string id="aayrvLOX" text="Puedes retomar tu camino. Que tengas un buen viaje." />
+    <string id="aBgnQ1MO" text="Asignar administrador" />
+    <string id="aBssWwIu" text="Si procedes, {GOVERNOR.NAME} se convertirá en la persona encargada de administrar {.l}{SETTLEMENT_NAME}. ¿De verdad quieres continuar?" />
+    <string id="abV5bff6" text="Capturaste una pieza." />
+    <string id="acbkKbT0" text="Deberíamos hacer algo diferente." />
+    <string id="aCkzVUCR" text="Puntos de golpe: " />
+    <string id="aCP5ZBbp" text="Relación:" />
+    <string id="ADJQa8am" text="Los mercenarios no pueden apoyar a otros clanes." />
+    <string id="adtqbbGU" text="Distancia a líder del ejército" />
+    <string id="aebVkHyA" text="¿Rendirse?" />
+    <string id="aECQrlkM" text="¡Destruye artefactos de asedio enemigos!" />
+    <string id="aepux62p" text="No puedes anexar un asentamiento hasta que se complete la resolución de propiedad." />
+    <string id="AewK9qME" text="Ingresos del asentamiento" />
+    <string id="af4G3RYV" text=" (batalla)" />
+    <string id="agIbuP9a" text="¡Je! Tienes un moretón bastante grande. Pero no te preocupes, a todo el mundo le dan una paliza de vez en cuando. Lo importante es que te levantes, quites el polvo y sigas peleando. Eso es lo que hacen los campeones." />
+    <string id="agkgu85j" text="Llegaste a {.l}{SETTLEMENT} para asediar." />
+    <string id="aGNfjmsz" text="&lt;b&gt;Escalera&lt;/b&gt;" />
+    <string id="aGSMGMfn" text="Piedad:" />
+    <string id="agYpWI9u" text="Probabilidad de éxito" />
+    <string id="aH4KnzBu" text="Prudente" />
+    <string id="AhcKMabs" text="Aldeas asaltadas" />
+    <string id="aHKwty74" text="Cancelar acción" />
+    <string id="aHu7bgbx" text="En el {DAY_OF_YEAR} día de {YEAR}, {HERO_NAME} llegó a la mayoría de edad." />
+    <string id="AI2Spvw0" text="Pico" />
+    <string id="AIh1Ik4A" text="Imperio calradiano" />
+    <string id="aiX4b5kS" text="Misiones completadas" />
+    <string id="AIYWSAyK" text="Obtén ganancias a través del comercio. Maneja caravanas." />
+    <string id="aJAMnniz" text="{LEFT} y {RIGHT}" />
+    <string id="aJoNj6JX" text="Lucha con un arma corta a dos manos." />
+    <string id="aJXhsjmT" text="Saludos, {?PLAYER.GENDER}viajera{?}viajero{\?}. A menos que quieras que los chacales mastiquen tus huesos en la arena, danos lo que queremos." />
+    <string id="ajZTZoXQ" text="Maza a dos manos" />
+    <string id="AkgIYqHT" text="sultana" />
+    <string id="AkUpgiBl" text="Categoría {TIER_LEVEL}" />
+    <string id="alEG3BOa" text="Tu relación con {CLAN_LEADER} aumentó en {MAGNITUDE} y quedó en {VALUE}." />
+    <string id="AMhvD9om" text="Comandante de ejército" />
+    <string id="anrHk7ea" text="{PARTY} liderará el ataque contra el enemigo. Te unirás a {?ARMY_COMMANDER_GENDER}ella{?}él{\?} con tus tropas." />
+    <string id="aNSAaHk9" text="Bagh Chal es un juego de ovejas (piezas blancas) contra lobos (piezas negras).{newline}Los lobos tienen cuatro piezas que empiezan en las cuatro esquinas del tablero. En cada turno, se coloca una oveja en el tablero y un lobo realiza un movimiento o captura hasta que se hayan colocado todas las ovejas en el tablero.{newline}Después de que se hayan colocado todas las ovejas, estas también pueden moverse." />
+    <string id="anSH3M5W" text="{NUM1} x {NUM2}" />
+    <string id="aOvxxLZ8" text="Variedad de comida" />
+    <string id="Aph8CcKO" text="Puntos de atributo gratis: puedes usar estos puntos para aumentar los atributos. Obtendrás un atributo gratis por cada {ATTRIBUTE_EVERY_LEVEL} niveles que obtengas. " />
+    <string id="aqCj9dhC" text="No tiene caso quedarse en la defensa. ¡Asedia sus asentamientos!" />
+    <string id="AqHr4nRR" text="cuarto" />
+    <string id="aR4e8B2A" text="II" />
+    <string id="archers" text="Arqueros" />
+    <string id="arfabNbu" text="En el {DAY_OF_YEAR} día de {YEAR}, {VICTIM.LINK} murió en la batalla." />
+    <string id="arHXmqqc" text="un beg" />
+    <string id="ARQY0vAz" text="No se puede gestionar el ejército durante un encuentro" />
+    <string id="arWaVMpe" text="Debemos atacarlos con fuerza y destruir sus máquinas de asedio." />
+    <string id="aS3xHcD4" text="Hijo" />
+    <string id="asHzEWnG" text="Mancharemos la arena con tu sangre, entonces." />
+    <string id="AT5aTROe" text="séptimo" />
+    <string id="AtFv5RMW" text="Pagos de contribución" />
+    <string id="ATsEQh7m" text="{?SEASON_IS_PLURAL}Temporada{?}Temporadas{\?} {SEASON}" />
+    <string id="AtulqwTG" text="Cambiar líder del grupo" />
+    <string id="AUDv8sEt" text="Tarea activa" />
+    <string id="aUNYlvbN" text="Llegaste a {.l}{SETTLEMENT} para asaltar. Algunos residentes se reunieron para oponerte resistencia." />
+    <string id="AUOio5Tu" text="Predeterminados diarios" />
+    <string id="AVQUGwTg" text="El pueblo tiene una riqueza promedio." />
+    <string id="aVxmM2h1" text="Castillos capturados" />
+    <string id="AWW0T6xR" text="Una pieza se puede mover de forma perpendicular, una casilla a la vez.{newline}Las piezas no pueden volver a la casilla de la que avanzaron en el turno anterior.{newline}Si un jugador no puede moverse, dicho jugador puede eliminar una de las piezas del oponente y aun así realizar un movimiento." />
+    <string id="aY2SKxqG" text="¡Asalta las aldeas!" />
+    <string id="b0Mv6mZy" text="¡Recupera la posición del castillo!" />
+    <string id="b0yJ9JsW" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están asaltando los muros." />
+    <string id="b1c0Sh4A" text="vigésimo primer" />
+    <string id="B1j4F6i7" text="{?DAY_IS_PLURAL}Días{?}Día{\?}" />
+    <string id="b1Ra7gHa" text="Armas a distancia II" />
+    <string id="b1vtY2yU" text="Esperado" />
+    <string id="b5DWVsOZ" text="{HERO.NAME} murió en batalla." />
+    <string id="B5J6DbpG" text="Días restantes de comida: {REMAINING_DAYS}{newline}{newline}Comida total: {TOTAL_FOOD_AMOUNT}{newline}Consumo diario: {DAILY_FOOD_CONSUMPTION}" />
+    <string id="b5t34yLX" text="{.MS}Arnés para caballo" />
+    <string id="b6biU4f1" text="Crear nuevo grupo" />
+    <string id="b778BvfW" text="Este artículo es un {PERCENTAGE} % más caro que el promedio" />
+    <string id="b7aDfCR9" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están defendiendo." />
+    <string id="b7bWCXbk" text="Ahora corre, ovejita. Y ten cuidado con otras manadas ahí afuera." />
+    <string id="b7U3Gvuu" text="Algunos de los aldeanos enojados dicen que cumplieron tus exigencias hace poco. Parece que tendrás que pelear si decides continuar." />
+    <string id="baFazbmR" text="{.MS}Hierro{@Plural}{.MP}montones de minerales de hierro{\@}" />
+    <string id="baHmYsx3" text="{.FP}Arma a dos manos" />
+    <string id="bAHNQGAw" text="Nuestros aliados necesitan ayuda. ¡Levanten el asedio!" />
+    <string id="baIUUw1c" text="Gasta tu influencia para aumentar la influencia del clan seleccionado" />
+    <string id="bARwyXXZ" text="Tropas que se pueden mejorar" />
+    <string id="Basxo8Hv" text="+{BONUS_AMOUNT_PERCENT} % de reducción de los salarios de guarnición" />
+    <string id="bB4602W2" text="Daño de {THRUST_DAMAGE_TYPE} de estocada: " />
+    <string id="bbmrHzRF" text="Enviar miembros del clan a {.l}{SETTLEMENT_NAME}" />
+    <string id="bBXGPgwe" text="mi hija {REFERING_HERO.LINK}" />
+    <string id="BbYFboh2" text="{RULER.NAME} {?RULER.GENDER}begum{?}beg{\?}" />
+    <string id="bcmlu1ml" text="{?ASKED_LORD.GENDER}Es prisionera{?}Es prisionero{\?} de {PRISON_PARTY_LEADER.LINK}." />
+    <string id="bcR8D3x2" text="{A0} gastos" />
+    <string id="BD8Mi02a" text="{ASKED_LORD.LINK} está a la fuga en este momento." />
+    <string id="BdFaNDom" text="Este héroe ya lidera un callejón." />
+    <string id="bdFJgWp3" text="Estandarte del defensor" />
+    <string id="Bdg4kSqC" text=" ({NUMBER_OF_MEN})" />
+    <string id="bdJtVxQp" text="{?PAY_OR_GET}Obtendrás{?}Perderás{\?} {TRADE_AMOUNT}{INFLUENCE_ICON}" />
+    <string id="bdQBpUba" text="Qué amable eres al no enviarnos a casa con las manos vacías." />
+    <string id="bdvTPbLB" text="Puede apuntar al frente" />
+    <string id="BE1scex6" text="Ganancias de taller diarias" />
+    <string id="bF38BIoe" text="Cantidad de montón: " />
+    <string id="bFpLKvcS" text="kan" />
+    <string id="BFSWJKHI" text="Propone expulsar a este clan del reino (apoyo: {SUPPORT} %)" />
+    <string id="BftxIurV" text="Tienes que proponer una decisión de {DECISION_NAME}." />
+    <string id="bg6x6Hbv" text="{.MS}Yelmo" />
+    <string id="Bg83jhCR" text="Está claro que el pueblo está pasando por un momento difícil. La gente parece estar desnutrida y los edificios no están bien mantenidos." />
+    <string id="bg8co4he" text="Sacrificar{newline}No podrás deshacer esta acción." />
+    <string id="bh2v8n4K" text="{.FS}Prenda{@Plural}{.MP}montones de prendas{\@}" />
+    <string id="bh9U2fsZ" text="Yerno" />
+    <string id="BhGlPxqx" text="Solo puedes disolver grupos en movimiento" />
+    <string id="BhiOmgst" text="Bajo asedio" />
+    <string id="bigbrother" text="Hermano" />
+    <string id="bigsister" text="Hermana" />
+    <string id="BixmxJPX" text="Los vasallos serán más propensos a tomar acciones ofensivas en contra de este enemigo, como asaltos y asedios." />
+    <string id="bJ5SzaXp" text="Heridos" />
+    <string id="bjxBjKH2" text="mi señora" />
+    <string id="BkB9aOhw" text="¡No puedes acceder a la ventana de estandartes en este momento!" />
+    <string id="BKFcRo7f" text="Nieto" />
+    <string id="Bl7UdJup" text="Sobrino" />
+    <string id="bLWyjOdS" text="Armadura de cuerpo: " />
+    <string id="Bm4yZBWb" text="Estás en la prisión de {.l}{SETTLEMENT_NAME}." />
+    <string id="bMjtFIba" text="¡Llegaste justo a tiempo, {PLAYER.LINK}! ¡Muchas gracias desde el fondo de mi corazón!" />
+    <string id="BMQ5SHOH" text="Equipo de caballo I" />
+    <string id="bN8gqxtB" text="Finalizar batalla" />
+    <string id="BNAHlS9P" text="¿De verdad quieres continuar? No podrás deshacer esta opción." />
+    <string id="bNoCJyi9" text="Honorable" />
+    <string id="bO5kjF3G" text="Honor:" />
+    <string id="BObPGFCw" text="Tomar y equipar" />
+    <string id="bPCAdgLs" text="Elegir formación para liderar" />
+    <string id="BPVFAl7J" text="Nuestro plan es atacar con toda la fuerza de nuestra infantería." />
+    <string id="BPVmRxrA" text="Forma una alianza con {.l}{FACTION}" />
+    <string id="bPXvukDs" text="Movimiento y captura" />
+    <string id="bPzyoTEF" text="Te arrepentirás de esa respuesta.[ib:aggressive][if:convo_insulted]" />
+    <string id="BQDrheU6" text="{.FS}Tela{@Plural}{.MP}montones de tela{\@}" />
+    <string id="brQ42NE5" text="Cómo aprender" />
+    <string id="BsdOl4He" text="¡FALTA! Tu oponente golpeó a tu caballo. ¡{?OPPONENT_GENDER}La{?}Lo{\?} descalificaron!" />
+    <string id="BSmAtdWF" text="¡Levanten el asedio!" />
+    <string id="bTAkmho7" text="Se requiere EXP para mejorar: {XP_AMOUNT}" />
+    <string id="Btglp7Ij" text="No puedes expulsar a tu propio clan." />
+    <string id="btil6Rdb" text="¿Qué tenemos aquí? Parece que los espíritus de las montañas contestaron nuestras plegarias y nos otorgaron éxito en la cacería." />
+    <string id="BtnJh0j4" text="En guerra" />
+    <string id="buQvCDbP" text="Viajando hacia {.l}{SETTLEMENT_NAME} para defender." />
+    <string id="BVaXBAr9" text="Tirar dado" />
+    <string id="bWcpv1ou" text="No se seleccionó un asentamiento" />
+    <string id="bWVG2s2h" text="Solo puedes mover una pieza que tenga una pieza contraria a su lado, hacia la casilla del centro.{newline}Cada pieza puede moverse con libertad una casilla a lo largo del borde exterior.{newline}Si una pieza está en la casilla del centro, puede moverse hacia cualquier casilla." />
+    <string id="bWz3rWWq" text="Una mosquita sabia. ¿Cuánto?" />
+    <string id="bWzRXUbp" text="Retirar miembro del clan" />
+    <string id="BX8RG4Dj" text="Responder" />
+    <string id="BxeU4zMb" text="Ya hay otro clan con este nombre." />
+    <string id="bXS5KHk8" text="Ganaste el duelo. Tu ejército está inspirado por esta demostración de poder. El grupo obtendrá moral." />
+    <string id="BY5RMAoj" text="Recibiste {AMOUNT} de daño de {DAMAGE_TYPE} de {ATTACKER_NAME} ({LOST_HP_PERCENTAGE} % de PS)." />
+    <string id="bZJs2AQX" text="Tome nuestro dinero: {MONEY}{GOLD_ICON}. Y aquí tiene nuestras mercancías: {ITEM_LIST}. Solo tómelas y perdónenos la vida, {?PLAYER.GENDER}señora{?}señor{\?}." />
+    <string id="bzrOHiS8" text="La gente insulta abiertamente a las autoridades, como si sintieran que no tienen nada que perder." />
+    <string id="C0llOApK" text="Ejército de {HERO}{.o}" />
+    <string id="c1Ag8YJS" text="Los battanianos todavía recuerdan los días de antaño, cuando el bosque se extendía a lo largo de Calradia del norte y el imperio y sus ciudades aún no profanaban su santidad. Los guerreros feroces permanecen leales a sus métodos tradicionales. Pintan sus rostros cuando van a la batalla e incluso sus nobles prefieren luchar a pie mientras usan grandes hachas y espadas a dos manos con una eficacia letal." />
+    <string id="c1g7MC9D" text="Bonificación de categoría de clan" />
+    <string id="c3cdHImi" text="Captura las piezas de tu oponente al rodearlo por ambos lados. Si una pieza se mueve entre dos piezas contrarias, no puede capturarse.{newline}En las primeras dos imágenes, las piezas negras capturan a las blancas. En las últimas dos, no hay capturas." />
+    <string id="c4Pmtkle" text="Monturas y sillas de montar" />
+    <string id="c6Ei8Fqh" text="{?NPC.GENDER}Vasalla{?}Vasallo{\?} de {FACTION_INFORMAL_NAME}" />
+    <string id="C6n2tZlQ" text="mi {?HERO.GENDER}aliada{?}aliado{\?} {REFERING_HERO.LINK}" />
+    <string id="c7bVbjD7" text="Como desee. A partir de ahora, pelearemos para usted." />
+    <string id="C9EDof32" text="No se seleccionó un ejército" />
+    <string id="caadBNhn" text="Torre de asedio (nivel 3)" />
+    <string id="caaxvMcY" text="Pariente" />
+    <string id="CaeFx54J" text="Influencia obtenida: + {INFLUENCE} {INFLUENCE_ICON}" />
+    <string id="caFEBWSY" text="Tu oponente te superó. Perdiste." />
+    <string id="cAgI2lPn" text="{?HERO.GENDER}Administradora{?}Administrador{\?} de {SETTLEMENT_NAME}" />
+    <string id="calculatinglevel3trait" text="Índole" />
+    <string id="caPP57v9" text="Mover a reserva" />
+    <string id="CaW72yB3" text="Costo total" />
+    <string id="cBNSgpZN" text="Obtendrás &lt;a style=&quot;IncreaseStyle&quot; &gt;&lt;b&gt;{AMOUNT}&lt;/b&gt;&lt;/a&gt; de relación con {.l}{CLAN_NAME}" />
+    <string id="cBY2MxY0" text="{.MS}princesa" />
+    <string id="CcAG3D8Q" text="Sin asignar" />
+    <string id="ccUEYdrU" text="Unirse al ejército" />
+    <string id="cDjq52h2" text="Sargento" />
+    <string id="centerformation" text="central" />
+    <string id="CgAGsR1P" text="vigésimo noveno" />
+    <string id="chieftainfemale" text="un cacique" />
+    <string id="ChmM5tjf" text="¡El juego terminó en un empate!" />
+    <string id="cJmI2poS" text="Información" />
+    <string id="cjZqTaHm" text="No tienes suficiente influencia." />
+    <string id="CKGavOyA" text="Lucha con una lanza o arma de asta similar, ya sea a una o dos manos." />
+    <string id="cKKYSB0z" text="Perdiste {AMOUNT}{GOLD_ICON}." />
+    <string id="ckPhG1KV" text="Aldea(s) establecida(s)" />
+    <string id="CkwERBcS" text="escaramuce detrás de la formación aliada." />
+    <string id="cmn6qNoX" text="{.MP}Escaramuzadores" />
+    <string id="cMrROb6w" text="Misión disponible" />
+    <string id="cNaiQyva" text="decimosexto" />
+    <string id="coastalPatrolPartyName" text="Patrulla costera de {.l}{SETTLEMENT}" />
+    <string id="CObuCGjA" text="Oferta de matrimonio de {.l}{CLAN_NAME}" />
+    <string id="CODsu5Ok" text="Nueva campaña" />
+    <string id="COhJ2HsU" text="Se solucionará automáticamente en {HOUR} horas." />
+    <string id="CoHPb7DL" text="Nuestro plan es aplastarlos con nuestra caballería y arrasar con el resto con un ataque consecutivo." />
+    <string id="CP7ebY11" text="Los ataques con giro pueden desmontar a los jinetes" />
+    <string id="cpaUPZ4c" text="Hay que pagar un peaje para pasar por esta tierra, a nosotros, así que, si no te molesta, vamos a tomar la cuota de tu bolsa..." />
+    <string id="cqI6P8fr" text="dispare desde los muros del castillo" />
+    <string id="cQWCp9F1" text="Salario de grupo diario" />
+    <string id="cr9fxFyS" text="Bonificación contra escudo" />
+    <string id="cRMgjRMP" text="Bien, muy bien. Prefiero un negocio directo en lugar de tener que hurgar en tus tripas para ver qué podrías tener oculto ahí dentro.[ib:hip][rf:convo_bemused]" />
+    <string id="CRR7cYhJ" text="Construyéndose en este momento" />
+    <string id="cRwZI5o2" text="Eventos recientes" />
+    <string id="cSuNR48H" text="Gastos del taller" />
+    <string id="CthDdsb6" text="{?NPC.GENDER}Ganadora{?}Ganador{\?}" />
+    <string id="cThSwxbP" text="No puedes ejecutar a prisioneros que no son héroes" />
+    <string id="CVymZs3m" text="Montura de guerra" />
+    <string id="cXnQaNfe" text="No hay ningún efecto en la toma de decisiones." />
+    <string id="CXUXk5ai" text="imperiales" />
+    <string id="cyPGadJ6" text="Autodespliegue" />
+    <string id="CyTa1Z5d" text="{TEXT} [{HOTKEY}]" />
+    <string id="CzIslwx5" text="Considera abolir esta política (apoyo: {SUPPORT} %)" />
+    <string id="CZqZGAVB" text="¡Oferta de trueque rechazada!" />
+    <string id="D2KdSGGJ" text="Estás afuera de {.l}{SETTLEMENT_NAME}. No tienes permiso para entrar. Por lo general, cuando te acercas a una ciudad enemiga, los caminos están vacíos. Sin embargo, esta vez ves a algunos espectadores e, incluso, escuchas una que otra aclamación. Sospechas que hay algunos entre la población que son leales a {.l}{FACTION_INFORMAL_NAME} y que es poco probable que la milicia tome las armas para defender la ciudad." />
+    <string id="d4n8AuUh" text="Las tropas aliadas están huyendo. Perdiste la batalla." />
+    <string id="d4OPyxom" text="Se excedió la capacidad del depósito." />
+    <string id="D5QlXOV0" text="Probabilidad de persuasión de fracaso crítico y fracaso completo" />
+    <string id="d68pZq4j" text="Nivel de habilidad necesario:" />
+    <string id="D7KllIPI" text="Tareas" />
+    <string id="D7ooUTqV" text="¡Te derribaron!" />
+    <string id="D8Wjbw9K" text="Me capturaron, pero logré escapar" />
+    <string id="D9WJXQ9Z" text="Rechazar" />
+    <string id="da5WMfiJ" text="Presenta la propuesta para otorgar este asentamiento a alguien más (apoyo: {SUPPORT} %)" />
+    <string id="DaMQ9c3T" text="Batalla de la aldea{newline}{newline}• La infantería obtiene una bonificación menor.{newline}• Los arqueros obtienen una bonificación menor mientras defienden.{newline}• La caballería sufre una penalización media mientras defiende." />
+    <string id="DaX6bsaD" text="{ENEMY_PARTY_NAME} atacó a {.l}{CLAN_PARTY_NAME} cerca de {.l}{SETTLEMENT_NAME}." />
+    <string id="dbdliaP3" text="mi esposa {REFERING_HERO.LINK}" />
+    <string id="dbRtrxYq" text="Liberaron a {PRISONER_LORD.LINK} de {.l}{PRISONER_FACTION_LINK} luego de la batalla." />
+    <string id="DBU4VaIl" text="Facción de bandido" />
+    <string id="dc24lBcV" text="Armas cuerpo a cuerpo IV" />
+    <string id="dcV0iOYB" text="¡Reúne a tus tropas y prepárate para la batalla!" />
+    <string id="dd7Owiys" text="Hacer un tratado de paz con {.l}{FACTION}" />
+    <string id="DdXZHifm" text="Aumentar {.l}{ATTRIBUTE_NAME} facilita aprender habilidades vinculadas y además aumenta su límite de aprendizaje." />
+    <string id="debCJDAZ" text="No puedes realizar esta acción mientras estás en un encuentro." />
+    <string id="depxBZNO" text="Bonificación de nivel de la habilidad de liderazgo" />
+    <string id="dfwCjiRx" text="Impuesto de comercio de {A0}" />
+    <string id="dgaf7Jpb" text="Configuración" />
+    <string id="DGbSsANY" text="{HERO.NAME} murió de vejez." />
+    <string id="dGDYBpzz" text="del imperio occidental" />
+    <string id="DGOgsMfx" text="{PRISONER.NAME} recibió su libertad pues se pagó por su liberación." />
+    <string id="di4MlBRx" text="{NUMBER_OF} {ITEM}" />
+    <string id="DItheHi7" text="se quede en la reserva" />
+    <string id="DIuI1moW" text="Líder de pandilla" />
+    <string id="dJbaRaAD" text="Días hasta quedarse sin comida" />
+    <string id="DJgeYv9X" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están avanzando con cautela." />
+    <string id="DjoYTx2w" text="Los mercenarios no pueden reunir ejércitos" />
+    <string id="DkaNhxpg" text="¿De verdad quieres renunciar al liderazgo?{?WILL_DESTROY}{newline}No hay otros clanes que puedan aceptar el liderazgo. Tu reino será destruido.{?}{\?}" />
+    <string id="dKcvwi6V" text="¡Vaya, vaya, miren esto! Será mejor que empieces a toser plata, {?PLAYER.GENDER}amiga{?}amigo{\?}, o mis chicos y yo te daremos una paliza." />
+    <string id="dKXdN4BL" text="Tú lideras un ejército" />
+    <string id="DM6luo3c" text="Continuar" />
+    <string id="dMKyWmJ6" text="El enemigo te rodeó." />
+    <string id="dO5tqXT8" text="Excónyuge" />
+    <string id="DOaIBObZ" text="(Los valores diarios predeterminados se activan cuando no hay proyectos en construcción)" />
+    <string id="DOKG38dF" text="Tutoriales habilitados" />
+    <string id="DPbv2cOo" text="Volviendo a desplegar" />
+    <string id="dpPMuLa4" text="No se puede completar ningún pedido." />
+    <string id="DqJG7bvh" text="Capacidad excedida" />
+    <string id="dQRdP9eQ" text="Enfrentamiento" />
+    <string id="DRaJ7hoz" text="{?HERO.GENDER}La ganadora{?}El ganador{\?} es" />
+    <string id="Dtcv8XNu" text="&lt;b&gt;Torre de asedio&lt;/b&gt;{NEWLINE}Se usa para subirse a los muros. Es mejor que las escaleras." />
+    <string id="DTRwTvT4" text="¡Arquero a caballo, escaramuza!" />
+    <string id="DTt1aeSj" text="{?IS_POSITIVE}+{?}-{\?}{ITEM_AMOUNT} {ITEM_TYPE}" />
+    <string id="DTWem4V1" text="esta reserva" />
+    <string id="DuFg1avZ" text="Siguiente nivel en: {NEXT_SKILL_POINTS}" />
+    <string id="Duoo5R2P" text="Maestro de la arena" />
+    <string id="dxtuFW8b" text="Sí que diste pelea ahí dentro. Algunos de tus movimientos son muy buenos. Te equivocaste un poco, sí, pero definitivamente muestras promesa. Y obtuviste {PRIZE}{GOLD_ICON} como premio por acabar con {OPPONENT_COUNT} oponentes." />
+    <string id="DyarV8i7" text="Ya hay una decisión propuesta para esta política." />
+    <string id="dyLYsWPf" text="Asegurando bonificación de ventaja de presencia" />
+    <string id="dyY3hkH1" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están atacando {?IS_PLURAL}diferentes formaciones enemigas{?}una formación enemiga{\?}." />
+    <string id="Dzntsudy" text="Infligiste {AMOUNT} de daño de {DAMAGE_TYPE} a {VICTIM_NAME} ({LOST_HP_PERCENTAGE} % de PS)." />
+    <string id="E05lmb5n" text="&lt;a style=&quot;DecreaseStyle&quot; &gt;&lt;b&gt;Disminuirá&lt;/b&gt;&lt;/a&gt; tu relación con {HERO_NAME}" />
+    <string id="E0lb2Z2r" text="En el {DAY_OF_YEAR} día de {YEAR}, la conspiración en contra del imperio tuvo éxito para unir a sus enemigos, ya que los ejércitos de {.l}{FACTIONS_NAMES} marcharon juntos hacia el campo." />
+    <string id="e1tZ4kEY" text="Todo" />
+    <string id="E3BsEDav" text="Ayuda financiera para los grupos" />
+    <string id="e4OPfBqt" text="Abstenerse" />
+    <string id="eAGeVRjI" text="Recibiste {GOLD_AMOUNT}{GOLD_ICON}." />
+    <string id="EAicirVE" text="{?NPC.GENDER}Intrépida{?}Intrépido{\?}" />
+    <string id="eaIQXj6O" text="Puntos de atributo gratis: {NUMBER}" />
+    <string id="ealIwlQH" text="Defendiendo {.l}{SETTLEMENT_NAME}" />
+    <string id="eavr4x8n" text="Construcción:" />
+    <string id="EbB9y2zZ" text="Declarar la guerra" />
+    <string id="eDVvDS1i" text="Aldeanos" />
+    <string id="eEmbb1MR" text="Producción(es)" />
+    <string id="eHBvuPk6" text="vigésimo sexto" />
+    <string id="EHkzaZBi" text="Torneo de {.l}{SETTLEMENT_NAME}" />
+    <string id="Ej0QNsY9" text="decimoquinto" />
+    <string id="eJgaemO5" text="Ganancias de apuestas: {BET} {GOLD_ICON}" />
+    <string id="ejhFyhyx" text="&lt;b&gt;Torre de asedio&lt;/b&gt;&lt;br&gt;{NEWLINE}Coloca a los atacantes a la misma altura del muro e iguala las probabilidades contra los defensores." />
+    <string id="ekQP9052" text="Batalla de estepa{newline}{newline}• La caballería obtiene una gran bonificación.{newline}• Los arqueros a caballo obtienen una gran bonificación." />
+    <string id="eKwhGmbI" text="Después de que esta tropa obtenga {XP_AMOUNT} de EXP, una tropa más estará disponible para mejorar." />
+    <string id="EL7lZLXN" text="Puede derribar" />
+    <string id="elhSbQfW" text="mi pariente {REFERING_HERO.LINK}" />
+    <string id="EMCISbYJ" text="Atuendo de batalla" />
+    <string id="empiremembers" text="Imperio" />
+    <string id="eMsA4Vk0" text="El tamaño de este grupo aumentará. Su tamaño objetivo actual es {TARGET_SIZE}." />
+    <string id="EMVLtu5L" text="{HERO.LINK} obtuvo {?PLURAL}{GAINED_POINTS} puntos de habilidad{?}un punto de habilidad{\?} en {SKILL_NAME} y ahora está {UPDATED_SKILL_LEVEL}." />
+    <string id="enhza8zr" text="Facción" />
+    <string id="eNQgzubm" text="Lucha a pie. Desplázate por el mapa a pie." />
+    <string id="entirestackdiscarditems" text="Mantén [{KEY_NAME}] para hacer todos" />
+    <string id="entirestackrecruitunits" text="Mantén [{KEY_NAME}] para hacer todos" />
+    <string id="entirestacktakeitems" text="Mantén [{KEY_NAME}] para hacer todos" />
+    <string id="entirestacktransfertroops" text="Mantén [{KEY_NAME}] para hacer todos" />
+    <string id="entirestackupgradeunits" text="Mantén [{KEY_NAME}] para hacer todos" />
+    <string id="ENzvOHsA" text="{ASKED_LORD.LINK} está en el campo y {?ASKED_LORD.GENDER}ella{?}él{\?} debería estar cerca de {.l}{SETTLEMENT_NAME} en este momento." />
+    <string id="EOhmOITp" text="Localizar objetos de misión relacionados" />
+    <string id="EPGDe5fG" text="Solo los lobos pueden capturar, al saltar sobre una oveja hacia una casilla disponible detrás de ella. Capturar también sigue las líneas del tablero." />
+    <string id="eqAc8AOs" text="{LEFT}:" />
+    <string id="eRqURgZY" text="los battanianos" />
+    <string id="es0Y3Bxc" text="Unirse" />
+    <string id="esxNxipn" text="Grupos con baja moral" />
+    <string id="eTyaQ1sG" text="Reanudar campaña" />
+    <string id="eu25AFfI" text="¡No puedes acceder al inventario en este momento!" />
+    <string id="EuEJ08Dg" text="Número de tropas saludables del defensor" />
+    <string id="eufhFrnC" text="Aldeanos de {VILLAGE_NAME}" />
+    <string id="EuGCNdHG" text="Abandonar reino" />
+    <string id="EUmwEtap" text="Esa pelea estuvo muy bien, {PLAYER.LINK}. Acabaste con {OPPONENT_COUNT} oponentes. Y, obviamente, te mereces un premio por esa actuación: {PRIZE}{GOLD_ICON}. Bien, ¿eh?" />
+    <string id="eURzhtb0" text="Reuniéndose alrededor de {.l}{PARTY_NAME}." />
+    <string id="EUzxzL9s" text="Armadura de cabeza: " />
+    <string id="EV0av1mc" text="Bonificación de nivel de líder" />
+    <string id="evuR5kwf" text="Dicen que {.l}{ITEM_NAME} se vende más barato aquí que en otros pueblos. Si compraras aquí y lo llevaras a {.l}{TOWN_NAME}, donde se vende a un precio más alto, es probable que puedas obtener alrededor de {PRICE_DIFF}{GOLD_ICON} de ganancia por artículo." />
+    <string id="EvvMNX3A" text="El jugador que empieza elige una de las cuatro piezas para eliminarla del tablero.{newline}Luego, el otro jugador selecciona una de sus piezas adyacentes para eliminarla. Si la pieza del jugador que empieza estaba en el centro, el otro jugador tiene que eliminar una de las piezas que están en el centro también.{newline}{newline}Ahora comienza el juego." />
+    <string id="EWa1R7bv" text="Enemigos " />
+    <string id="EWq48MmD" text="{LEFT}: {RIGHT}" />
+    <string id="EWRoIdbA" text="Bandidos" />
+    <string id="exhusbandbrotherinlaw" text="Excuñado" />
+    <string id="exhusbandfatherinlaw" text="Exsuegro" />
+    <string id="exhusbandmotherinlaw" text="Exsuegra" />
+    <string id="exhusbandsisterinlaw" text="Excuñada" />
+    <string id="exwifebrotherinlaw" text="Excuñado" />
+    <string id="exwifefatherinlaw" text="Exsuegro" />
+    <string id="exwifemotherinlaw" text="Exsuegra" />
+    <string id="exwifesisterinlaw" text="Excuñada" />
+    <string id="ey5OcaGI" text="No se puede usar con escudos" />
+    <string id="eyMU7X0e" text="Eres un señor y puedes votar. El gobernante votará al final y decidirá el resultado." />
+    <string id="EZLs7hLL" text="¡Tú! ¡Detente! Danos tu plata. No estamos jugando.[if:convo_angry]" />
+    <string id="EzrK2tnA" text="No puedes gestionar a tu ejército mientras estás en batalla" />
+    <string id="F3U9AtmF" text="noveno" />
+    <string id="F3UEOdTT" text="+{BONUS_AMOUNT_PERCENT} % de aumento a la producción de aldeas establecidas" />
+    <string id="F4RMyaR5" text="Te encontraste con {.l}{PARTY}." />
+    <string id="F5UPr9jh" text="Tomar todo" />
+    <string id="F6GhrriD" text="Crear reino" />
+    <string id="f6gSyvnC" text="Dispara a enemigos con un arco y flechas. Realiza disparos difíciles a larga distancia." />
+    <string id="f6pjlKdz" text="Ayer" />
+    <string id="f7t4saJu" text="Valor" />
+    <string id="f7vOVQb7" text="Verano" />
+    <string id="F8g1TzoX" text="Estás afuera de {.l}{SETTLEMENT_NAME}. Ves el estandarte de {LORD.LINK} ondeándose sobre la puerta del castillo." />
+    <string id="Fa16r8MN" text="Ejecutar prisionero" />
+    <string id="Fa2nKXxI" text="{?NPC.GENDER}Administradora{?}Administrador{\?}" />
+    <string id="fAEvWw8z" text="Los defensores se retiraron y están preparando una última defensa dentro de la fortaleza." />
+    <string id="fApjg2ae" text="los aserai" />
+    <string id="faYiCHXK" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están avanzando hacia el alcance del misil." />
+    <string id="FbcC2loc" text="¡Te dejaron inconsciente y tu oponente obtuvo la victoria!" />
+    <string id="FC64p6ED" text="Número de tropas saludables del atacante" />
+    <string id="fd35ahzV" text="&lt;b&gt;Balista de fuego&lt;/b&gt;{NEWLINE}Dispara virotes con puntas con brea.{NEWLINE}Infligirán daño de fuego a los artefactos de asedio y estructuras de madera enemigos además de ser letales contra soldados." />
+    <string id="FdTd3yIx" text="No se pueden aplicar los cambios que realizaste. ¿Quieres reiniciar y cambiar la pantalla?" />
+    <string id="FEFBObjR" text="{PRISONER_LORD.LINK} de {.l}{PRISONER_FACTION_LINK} ahora está en manos de {CAPTURER_LORD.LINK}." />
+    <string id="fEJQcb4U" text="Cambio de lealtad" />
+    <string id="fEqd7jXj" text="{EFFECT_NAME}: +{NUM}" />
+    <string id="fEu5S6Bd" text="Distancia" />
+    <string id="fEXuXAl1" text="Moral de ejército: {ARMY_MORALE}{newline}{ARMY_MORALE_ITEMS}" />
+    <string id="FfVdGZsj" text="+{BONUS_AMOUNT} de bonus a la producción de comida" />
+    <string id="Fg9qCGUu" text="{.FS}Uva{@Plural}{.MP}sacos de uvas{\@}" />
+    <string id="fivestackdiscarditems" text="Mantén [{KEY_NAME}] para hacer x5" />
+    <string id="fivestackrecruitunits" text="Mantén [{KEY_NAME}] para hacer x5" />
+    <string id="fivestacktakeitems" text="Mantén [{KEY_NAME}] para hacer x5" />
+    <string id="fivestacktransfertroops" text="Mantén [{KEY_NAME}] para hacer x5" />
+    <string id="fivestackupgradeunits" text="Mantén [{KEY_NAME}] para hacer x5" />
+    <string id="FjRiPhEI" text="Grupo derrotado" />
+    <string id="FLa5OuyK" text="Trotamundos" />
+    <string id="FLrzc1uk" text="Oh, pues me temo que tendremos que cortarte la garganta... por principios, naturalmente. Por invasión de terreno privado." />
+    <string id="fMh5KZfk" text="No tiene caso que nos quedemos aquí. Vámonos." />
+    <string id="FmIIQEQD" text="{HERO.NAME} murió." />
+    <string id="fMmlUHyz" text="Daño de tajo: " />
+    <string id="forgeverb" text="Forjar" />
+    <string id="FpI5JMZq" text="Se reiniciaron las transacciones" />
+    <string id="fQ2RLaOa" text="El clan no posee ningún feudo" />
+    <string id="fQAGU9GW" text="Generosidad:" />
+    <string id="FqwHAxuM" text="Arma de asta a dos manos" />
+    <string id="FRepQsmO" text="El torneo será una justa." />
+    <string id="frt7AmX0" text="Guarnición de {MAJOR_PARTY_LEADER}" />
+    <string id="fRu5Y4OT" text="Me hirieron y dejaron por muerto" />
+    <string id="FRuzuVyO" text="No se seleccionó un clan" />
+    <string id="FS78CuPs" text="Las habilidades que están vinculadas al atributo ({ATTRIBUTE_NAME}) son:" />
+    <string id="FSl1LFP6" text="{.L}{CLAN} ganó {AMOUNT_TO_ADD} de renombre. El nuevo renombre es {NEW_RENOWN}." />
+    <string id="fTyJB9wd" text="vigésimo cuarto" />
+    <string id="fUNa6FAo" text="Si mantienes {MISSION_INDICATORS_KEY} durante las batallas, aparecerán marcadores en las formaciones enemigas y aliadas." />
+    <string id="FuxkL78G" text="{YEAR} {?YEAR_IS_PLURAL}años{?}año{\?}" />
+    <string id="FuYivUV1" text="En el {DAY_OF_YEAR} día de {YEAR}, le juraste lealtad a {RULER.NAME} con la esperanza de que lidere la lucha por {?PLAYER_WANTS_RESTORE}restaurar{?}derrotar{\?} el imperio." />
+    <string id="fV2FfLWq" text="+{BONUS_AMOUNT} de bonificación a la construcción por día" />
+    <string id="FVEvjlis" text="Límite de tamaño de grupo excedido" />
+    <string id="fveVnpbZ" text="pariente" />
+    <string id="FvO5B2bJ" text="{PRISONER_LORD.LINK} ahora está libre." />
+    <string id="FwlZRESM" text="+{BONUS_AMOUNT} de bonus a la milicia" />
+    <string id="fWwYUOVs" text="Aceptaremos tu ofrenda." />
+    <string id="FxoVjLvl" text="Escudos y a distancia" />
+    <string id="FxPzcyLN" text="{SUPPORTERNAME} está apoyando a {CANDIDATENAME}" />
+    <string id="FZBqNCvd" text="nadie" />
+    <string id="g0gDsalr" text="{?NPC.GENDER}Impulsiva{?}Impulsivo{\?}" />
+    <string id="g1KLcfxT" text="La aldea es próspera. Los sacos llenos de grano, los animales sanos y las carretas cargadas dan fe de la recompensa de los campos." />
+    <string id="G4XXubLg" text="una emiresa" />
+    <string id="G5yvspkZ" text="¡No puedes retirarte, el duelo está en curso!" />
+    <string id="g6J4Oe6z" text="El nombre del clan debe tener entre {MIN} y {MAX} caracteres." />
+    <string id="g7zo28KR" text="Te encontraste con {.l}{PARTY}. No tienen oportunidad contra tu poder abrumador, se van a rendir." />
+    <string id="g8nrakuu" text="Armas cuerpo a cuerpo I" />
+    <string id="G95mB3b3" text="¡No puedes acceder a la ventana de personaje en este momento!" />
+    <string id="gA5fByM2" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están intentando recuperar {#IS_LEFT}{#}el muro derecho{#}los muros de varios lados{\#}{?IS_MIDDLE}el muro central{?}{\?}{?IS_RIGHT}el muro izquierdo{?}{\?}." />
+    <string id="gamefinance" text="Finanzas" />
+    <string id="gAX49b7b" text="Construiste una barrera contra tu oponente, pero tienes la misma cantidad de piezas restantes. ¡El juego terminó en un empate!" />
+    <string id="GAzaM1RC" text="Se puede matar para obtener carne y ocultarse" />
+    <string id="GbbGlcMZ" text="Las piezas pueden moverse hacia cualquier casilla en una dirección horizontal o vertical, pero nunca pueden saltar sobre otras piezas.{newline}Las piezas no pueden moverse hacia o sobre la casilla del centro. Cuando el rey abandone esta casilla, tampoco puede volver a pasar por ella." />
+    <string id="gCaT2BTu" text="Liberaron a {PRISONER.NAME} de su cautiverio por obra de un tratado de paz." />
+    <string id="gdi8TAMM" text="Tus hombres comienzan a saquear, pero cada vez más aldeanos se alzan en armas. Parece que están preparándose para atacar." />
+    <string id="gdraqMso" text="Estás afuera de {.l}{SETTLEMENT_NAME}. No tienes permiso para entrar." />
+    <string id="gdUE1h39" text="Considera firmar un acuerdo comercial (apoyo: {SUPPORT} %)" />
+    <string id="GDugjWao" text="Aquí tiene {MONEY}{GOLD_ICON}. Solo tómelo y déjenos ir." />
+    <string id="gE7QFy6y" text="{PRISONER.NAME} escapó de su lugar de cautiverio." />
+    <string id="geJQxzgB" text="Misión fallida: {QUEST_TITLE}." />
+    <string id="genericcharacterfirstname" text="{CHARACTER_FIRSTNAME}" />
+    <string id="genericcharactername" text="{CHARACTER_NAME}" />
+    <string id="genericclanname" text="{CLAN_NAME}" />
+    <string id="generickingdomname" text="{KINGDOM_NAME}" />
+    <string id="generickingdomshortname" text="{KINGDOM_SHORT_NAME}" />
+    <string id="gflnRhhe" text="({PRIMARY_ROLE}/{SECONDARY_ROLE})" />
+    <string id="GfpRqcWN" text="Elegir arqueros" />
+    <string id="GfR7NY0n" text="Batalla de asedio{newline}{newline}• Los arqueros obtienen una gran bonificación mientras defienden.{newline}• La caballería sufre una penalización media mientras defienden.{newline}• Los arqueros a caballo obtienen una gran bonificación mientras defienden." />
+    <string id="ggMmjk31" text="No válido" />
+    <string id="ggpRTQQl" text="Líder del grupo" />
+    <string id="ggrqoGnE" text="Gastar {AMOUNT}" />
+    <string id="ggzCiYkk" text="Se necesita {VALUE}{GOLD_ICON} para mejorar." />
+    <string id="GHdrCWpF" text="Oprime {CONSOLE_KEY_NAME} para cerrar" />
+    <string id="giftverb" text="Regalo" />
+    <string id="gj2HD7M3" text="Todavía tienes la oportunidad de ganar. ¿Quieres abandonar la partida?" />
+    <string id="Gj4R9uso" text="Sin definir" />
+    <string id="gjwlxZpg" text="{PRISONER_LORD.LINK} de {.l}{PRISONER_FACTION_LINK} murió mientras era prisionero de {.l}{CAPTURER_FACTION}." />
+    <string id="gKbGZObs" text="reserva total" />
+    <string id="GKO2ogal" text="Corrupción" />
+    <string id="GNGTllPc" text="No puedes realizar esta acción mientras estás asaltando una aldea." />
+    <string id="GNkrUdwb" text="Muchísimas gracias por tu ayuda, {?PLAYER.GENDER}forastera{?}forastero{\?}. Me llamo {CONVERSATION_CHARACTER.LINK}. ¿Y tú?" />
+    <string id="GnWy8WAW" text="Lealtad:" />
+    <string id="gNzXoCrq" text="Puedes retomar tu camino, mosquita." />
+    <string id="goJ91547" text="¡Llegaron refuerzos enemigos!" />
+    <string id="GopVkA1q" text="Criminal" />
+    <string id="gOSpzTrt" text="Detente ahí mismo. Esto es un robo.[if:convo_aggressive]" />
+    <string id="gPAkLi7l" text="({STR})" />
+    <string id="GPW3ku2Y" text="{?RULER.GENDER}princesa{?}príncipe{\?} {RULER.NAME}" />
+    <string id="gQCEJvmf" text="hija" />
+    <string id="GralaKWi" text="En el {DAY_OF_YEAR} día de {YEAR} nació la criatura de {FATHER_NAME} y {MOTHER_NAME}." />
+    <string id="Gre2v55i" text="Poder: {POWER}" />
+    <string id="GRX8NjWI" text="Tamaño" />
+    <string id="gSVaitFE" text="Asaltando {.l}{SETTLEMENT_NAME}" />
+    <string id="gT5zJaD7" text="El enemigo me dejó inconsciente" />
+    <string id="gTlW1qOB" text="Este artículo es un {PERCENTAGE} % más barato que el promedio" />
+    <string id="GtY5rdK9" text="Pagos de llamado a la guerra" />
+    <string id="GUBcQZ3J" text="Conformidad actual de prisionero" />
+    <string id="gwKPbSVE" text="{TRAIT}{newline}{TRAIT_DESCRIPTION}" />
+    <string id="gXQ7WncX" text="Gastos de guarnición y de grupo" />
+    <string id="gxsoJMb8" text="primer" />
+    <string id="gY8kkujq" text="¡La batalla terminó! Oprime [Tab] para salir... " />
+    <string id="gYATKZJp" text="{NUMBER} %" />
+    <string id="GYhHacVk" text="¡Obtuviste 1 punto por el golpe!" />
+    <string id="GZKY51fB" text="No puedes unirte a un ejército durante un paso seguro." />
+    <string id="gZmQvtxm" text="Techo de ariete" />
+    <string id="h03DZtbc" text="Caballo pesado" />
+    <string id="H0o13D7a" text="Tiendas" />
+    <string id="H4rAiNlf" text="Apostaste {BET_AMOUNT} por ti y ganaste la pelea. Aquí tienes {REWARD_AMOUNT}{GOLD_ICON} como recompensa." />
+    <string id="h6AJXR2e" text="¿De verdad quieres retirar a tu grupo?" />
+    <string id="h8Bcd7NE" text="Elección de gobernante de {.l}{FACTION}" />
+    <string id="hAgZBZP8" text="Abandonar" />
+    <string id="haRRjDmy" text="Utilizarás {TRADE_AMOUNT} {?IS_PLURAL}caballos{?}caballo{\?} para mejorar." />
+    <string id="hbeUbpEA" text="¿De verdad quieres cancelar?" />
+    <string id="hbwor8e8" text="Responder llamado a guerra" />
+    <string id="HcAV8x7p" text="Miembro del grupo" />
+    <string id="HCZ5XSEL" text="{?IS_POSITIVE}+{?}-{\?} {NUMBER}" />
+    <string id="HD2wzAxz" text="Los sturgianos son los descendientes de las tribus extranjeras de Calradia del norte. A medida que el imperio se expandía hacia sus bosques fríos, encontraron un mercado listo para las lujosas pieles de los animales de la arboleda que tradicionalmente cazaban y capturaban. Los caciques sturgianos se convirtieron en príncipes, competían por la supremacía con la ayuda de los mercenarios nord que emigraron hacia su reino. Son buenos cazadores y trotamundos, y viajan muy lejos en busca de oportunidades para comerciar y saquear." />
+    <string id="hDktLs4a" text="Actuaste de forma sabia y con respeto. Puedes irte." />
+    <string id="HdTVkcII" text="Mejora las relaciones con personas. Socializa con los nobles. Haz trueques." />
+    <string id="hdyQFP2Z" text="¡Te mató un {MOUNT_NAME} descarriado!" />
+    <string id="hE4XvvXv" text="Ordenar por:" />
+    <string id="HEQ2zEei" text="Deshacer" />
+    <string id="HEUDyfbG" text="{HERO.NAME} se unirá a {.l}{CLAN_NAME}" />
+    <string id="hEWuE0Ch" text="Tú eres {?PLAYER.GENDER}la{?}el{\?} comandante. Podrás darles órdenes a todas las formaciones durante la batalla." />
+    <string id="hfSW9FTN" text="Armas a distancia V" />
+    <string id="hJypvWMR" text="Refinar" />
+    <string id="HKrCB1Pa" text="Puede aplastar" />
+    <string id="HkZ4E94O" text="La confederación khuzait de las tribus de la estepa solía vivir una vida nómada, pero hace poco se establecieron en la frontera oriental del imperio y poco a poco están convirtiéndose en una sociedad agraria con centros de pueblo permanentes. A pesar de esto, todavía conservan muchos aspectos de la vida nómada, incluso su afinidad con los caballos. Son maestros del combate con arco a caballo, disparan y luego se alejan galopando." />
+    <string id="hL3JIQbd" text="Lidera a esta formación hacia la batalla." />
+    <string id="Hlusn1gG" text="El nombre del clan contiene caracteres no válidos." />
+    <string id="HmbvM9Na" text="¿Quieres saltarte la partida actual?" />
+    <string id="HMgrtLYa" text="Tu campeón perdió el duelo. Tu ejército está desilusionado por esta derrota. El grupo perderá moral." />
+    <string id="hMIjbLjt" text="señora" />
+    <string id="hmlUJaDa" text="Saludos, {PLAYER.LINK}. Me llamo {CONVERSATION_CHARACTER.LINK} y siempre estaré en deuda contigo. Si alguna vez hay algo con lo que pueda ayudarte, avísame..." />
+    <string id="HNBAw1uO" text="{PARTY} obtuvo {AMOUNT_TO_ADD} de renombre. El nuevo renombre de {.l}{CLAN} es {NEW_RENOWN}." />
+    <string id="HNqy4Ctc" text="No puedes expulsar a un acompañante que está solucionando una tarea." />
+    <string id="hoebgN2u" text="Si procedes, los miembros del clan seleccionado empezarán a viajar y no estarán disponibles hasta que lleguen a {.l}{SETTLEMENT_NAME}. ¿De verdad quieres continuar?" />
+    <string id="homesettlement" text="Principal" />
+    <string id="hourabbr" text="h" />
+    <string id="HP9wMk1T" text="¡No puedes acceder a la pantalla del grupo en este momento!" />
+    <string id="HQgSPtK6" text="¿De verdad quieres salir del multijugador?" />
+    <string id="hqIIEur1" text="Te encontraste con {.l}{ARMY}." />
+    <string id="hroWCoqV" text="A favor de promulgar" />
+    <string id="hSsS5xAa" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están esperando a que lleguen las otras máquinas de asedio." />
+    <string id="HuCClZqT" text="Salario" />
+    <string id="husbandbrotherinlaw" text="cuñado" />
+    <string id="husbandfatherinlaw" text="suegro" />
+    <string id="husbandmotherinlaw" text="suegra" />
+    <string id="husbandsisterinlaw" text="cuñada" />
+    <string id="hVmamTJX" text="Obtén moral de grupo de una variedad de comida (intendente). Mejora la prosperidad del asentamiento y construye proyectos (administrador)." />
+    <string id="Hvw3uSNN" text="{PRISONER.NAME} recobró su libertad luego de que sus captores fueran derrotados en batalla." />
+    <string id="Hx47TGrA" text="Difícil" />
+    <string id="HYVQKIhh" text="Ejército defensor" />
+    <string id="HZ8ws4qX" text="Servicio de mercenarios" />
+    <string id="hzflo2kJ" text="¡Otra vez nos salvas el pescuezo, {PLAYER.LINK}! En serio, eres {?PLAYER.GENDER}la mejor de las amigas{?}el mejor de los amigos{\?}." />
+    <string id="i0ELqRca" text="Rescatar" />
+    <string id="i0H8WLRx" text="No puedes expulsar a un clan gobernante." />
+    <string id="I2YhWaIt" text="Objetos" />
+    <string id="i30TCtj2" text="EN PAUSA" />
+    <string id="I3Vfk5mz" text="vigésimo" />
+    <string id="I42QtISB" text="No puedes expulsar al héroe principal del clan." />
+    <string id="I4BbOX46" text="Estás en el ejército de {ARMY_LEADER}{.o}." />
+    <string id="i4g81l3E" text="Relación: {NUM}" />
+    <string id="i5ROjI8K" text="En el {DAY_OF_YEAR} día de {YEAR} encontraste el artefacto que mencionó Tacteos." />
+    <string id="I8xMpWxO" text="Audaz" />
+    <string id="IbGNaL0H" text="{HERO.LINK} de nivel: {LEVEL}" />
+    <string id="IbkODMHV" text="Detecta rastros y escondites. Viaja a través de terrenos complicados. {?NPC.GENDER}Exploradora{?}Explorador{\?}" />
+    <string id="iBtZMoPG" text="{PRISONER_LORD.LINK} de {.l}{PRISONER_FACTION_LINK} ahora está en manos de {.l}{CAPTOR_FACTION}." />
+    <string id="ibVjcb3a" text="{PRISONER_LORD.LINK} ahora está en manos de {CAPTURER_LORD.LINK}." />
+    <string id="iBZc9RbE" text="Esperemos a todos." />
+    <string id="IcgVKFxZ" text="Gobernante" />
+    <string id="iCirZbD8" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están disparando desde los muros del castillo." />
+    <string id="icmyseoo" text="Mi señor." />
+    <string id="IcQ2doLo" text="x{QUANTITY}" />
+    <string id="ID8wnSIi" text="No tienes permitido realizar esta acción en la fase actual de la historia." />
+    <string id="IdYj8OJg" text="Pomo" />
+    <string id="If65Vm9h" text="Educación infantil" />
+    <string id="IF7zS5ia" text="Excediste el límite de prisioneros.{newline}Conservarás a tus prisioneros de momento, pero después de un tiempo escaparán rápidamente de tu grupo. También te ralentizarás.{newline}¿De verdad quieres continuar?" />
+    <string id="iffbWGBa" text="Tía" />
+    <string id="iFg5N7r3" text="Arma a una mano" />
+    <string id="ihVHfUFT" text="Formación" />
+    <string id="iIBqTcKx" text="Los ataques pueden derribar a tus oponentes" />
+    <string id="iisvVbDI" text="Comprar todo" />
+    <string id="IiyN5krb" text="{TRAIT_NAME} ({TRAIT} {TRAIT_VALUE}){newline}{TRAIT_DESCRIPTION}" />
+    <string id="ikgIt1df" text="+{BONUS_AMOUNT_PERCENT} % de ingreso de impuestos de hogares de aldeas establecidas" />
+    <string id="iKUXVaFf" text="Costo de influencia: {reg0}" />
+    <string id="iKzyJHiD" text="Lo siento, no tengo ni un consejo bueno sobre comercio por ahora." />
+    <string id="iLEhyGI8" text="El imperio calradiano se está deteriorando. Incluso antes de la sospechosa muerte del emperador Arenicos, las rivalidades políticas dividieron al reino que una vez fue unido. Hoy, esas facciones están en guerra. Sin embargo, los calradianos perduran. Su estudio metódico sobre la estrategia de defensa, donde las ciudades con guarnición ralentizan a las fuerzas invasoras hasta que los ejércitos de campo lleguen a su rescate, ayuda a mantener a sus vecinos a raya." />
+    <string id="ilhkpKfp" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están escaramuzando a caballo." />
+    <string id="ImJ4hdke" text="Proponer nueva política" />
+    <string id="iNDKwJYJ" text="Costo de EXP de mejora de tropa" />
+    <string id="iNriAkLl" text="Se usa para aumentar la velocidad" />
+    <string id="ioKVFDcQ" text="{?AND} {?}y {\?}{SENTENCE_3} " />
+    <string id="ioKwRFcj" text="Considera hacer un tratado de paz (apoyo: {SUPPORT} %)" />
+    <string id="IoLK7Lec" text="Tamaño de la base" />
+    <string id="iORENG5d" text="Los mercenarios no pueden proponer políticas." />
+    <string id="IOtAJCVw" text="Influencia total: {TOTAL_INFLUENCE}" />
+    <string id="IPjqLEdQ" text="Hace {DAY} días" />
+    <string id="IQ4bSdf5" text="Cuñada" />
+    <string id="iQao7Ct6" text="Grupos hambrientos" />
+    <string id="iRo4meJR" text="¡No puedes acceder a la enciclopedia en este momento!" />
+    <string id="Is3O8NXW" text=" ({NUMBER_OF_MEN}+{NUMBER_OF_WOUNDED_MEN}h)" />
+    <string id="ISJ8Tt8a" text="{COUNT} {.%}{?(COUNT &gt; 1)}{PLURAL(ITEM)}{?}{ITEM}{\?}{.%}" />
+    <string id="ISz5bLEO" text="duodécimo" />
+    <string id="IT5vdmak" text="{PRISONER_LORD.LINK} escapó del cautiverio." />
+    <string id="itLpRUtF" text="El clan no tiene ninguna ranura de grupo vacía." />
+    <string id="ITTGMEUJ" text="{.MP}Dátiles{@Plural}{.MP}sacos de dátiles{\@}" />
+    <string id="itvLr7dL" text="Recoger" />
+    <string id="iUTXqFmm" text=" y {?VILLAGE_COUNT}las aldeas cercanas{?}la aldea cercana{\?} de {VILLAGE_NAMES}" />
+    <string id="IUxlDj4s" text="Todo al azar" />
+    <string id="iVEZrZzs" text="cabalgue a la vanguardia" />
+    <string id="IvrBQHRp" text="Armas cuerpo a cuerpo" />
+    <string id="IwpFM2CJ" text="El torneo será una carrera de caballos." />
+    <string id="iyDOTnCS" text="¡Dales lo que quieren!" />
+    <string id="iyob7aH3" text="defienda tu posición" />
+    <string id="IzDYSckc" text="({CURRENT}) caravanas" />
+    <string id="izKWEAbY" text="El clan no tiene ningún ingreso adicional" />
+    <string id="j2OaZPQz" text="Tus tropas ganarán {XP_AMOUNT} de experiencia por donar armas o armaduras según tus ventajas. Pueden ganar un máximo de {XP_DONATION_LIMIT} de experiencia." />
+    <string id="J3ACAwbt" text="Tu oponente construyó una barrera en tu contra, pero tienes más piezas restantes. ¡Ganaste el juego!" />
+    <string id="J3L0MuEU" text="Batalla perdida. Oprime [{leave_key}] para ver los resultados." />
+    <string id="j46AltVv" text="vigésimo octavo" />
+    <string id="j4IdJPkE" text="No se puede recargar a caballo" />
+    <string id="J5961cx8" text="Se reducirá la velocidad drásticamente. Ten cuidado." />
+    <string id="J7DnK8Kv" text="Hoy no es tu día de suerte, {?PLAYER.GENDER}amiga{?}amigo{\?}. ¿Qué te parece si entregas tu plata? Sería una lástima tener que cortarle la garganta a alguien.[if:convo_mocking_revenge]" />
+    <string id="JAFIo7cM" text=":" />
+    <string id="jAISxqxR" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están defendiendo un arma de asedio." />
+    <string id="JbN0RwM2" text="Perdiste {INFLUENCE} de influencia por abandonar un asedio defensivo de tu reino." />
+    <string id="jbQ3LYBl" text="emperador" />
+    <string id="jCbYaCcg" text="Saludos, {PLAYER.LINK}. Soy {CONVERSATION_CHARACTER.LINK}. Gracias por tu ayuda, espero que nos volvamos a encontrar." />
+    <string id="jd4ULLGr" text="Misiones activas" />
+    <string id="JdNTRtpJ" text="Mantén alta la moral de tu grupo. Reúne y lidera a ejércitos. Mejora tus tropas." />
+    <string id="Jelvod71" text="Captura" />
+    <string id="jfbrvp9f" text="Batalla de río{newline}{newline}• Los barcos ligeros obtienen una bonificación mayor.{newline}• Los barcos pesados reciben una penalización mayor.{newline}" />
+    <string id="jfIbp2Hg" text="Seguimiento: " />
+    <string id="jFL2rgkP" text="¡Estás dejando tropas y/o prisioneros! ¿De verdad quieres continuar?" />
+    <string id="JflqTj4T" text="Misc." />
+    <string id="JG2bgZMM" text="escaramuce delante de la formación aliada de {CLASS} de {AI_SIDE}" />
+    <string id="jGFEbaex" text="Tirada de dados" />
+    <string id="JGk5MJkN" text="Puntos gratis" />
+    <string id="Jh7sayJB" text="Probabilidad de fracaso" />
+    <string id="JHBEwYGT" text="Comprado por un residente" />
+    <string id="jhosdZaX" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están defendiendo posiciones clave del castillo." />
+    <string id="jiKRLWD4" text="Mostrar en enciclopedia" />
+    <string id="jIZcOvMT" text="En el {DAY_OF_YEAR} día de {YEAR} ejecutaron a {NAME}." />
+    <string id="JkpSoFQ8" text="Bajas realizadas" />
+    <string id="JKQjXH9M" text="vigésimo séptimo" />
+    <string id="jL7XgaP3" text="Salarios del grupo principal" />
+    <string id="jM9KGCIa" text="{?RULER.GENDER}Emiresa{?}Emir{\?} {RULER.NAME}" />
+    <string id="JnoB0RZ4" text="{?DYING_HERO_GENDER}Ejecutarla{?}Ejecutarlo{\?}" />
+    <string id="jnTQbSsH" text="Ves a personas reuniéndose en la aldea para oponerte resistencia. ¿Qué quieres hacer?" />
+    <string id="joICaqvo" text="Sin asignar" />
+    <string id="Jp6Wa29v" text="Siguiente bonificación de categoría" />
+    <string id="JP7LTAsa" text="¡Bien! ¡Bien! ¡Ahora vete! ¡Vete de una vez![ib:aggressive][if:convo_angry]" />
+    <string id="jPwa1oOm" text="{.FS}Plata{@Plural}{.MP}montones de minerales de plata{\@}" />
+    <string id="JQarnWiz" text="No tienes suficientes materiales para esto." />
+    <string id="jQGcUobB" text="Civil" />
+    <string id="JQOUUVct" text="Pausa" />
+    <string id="JSokBXER" text="Infantería pesada" />
+    <string id="jSXE0Gbj" text="Los aldeanos de este lugar son pocos y tienen miedo, se dispersan rápidamente y huyen ante tu presencia. La aldea está a tu merced." />
+    <string id="jtN3ayKE" text="Producción primaria" />
+    <string id="JTyC3Xra" text="{?NPC.GENDER}Avara{?}Avaro{\?}" />
+    <string id="Ju9ZiFT2" text="Armas cuerpo a cuerpo V" />
+    <string id="jvexRWHX" text="{PRISONER_LORD.LINK} ahora está en manos de {CAPTURER_LORD.LINK} de {.l}{CAPTURER_FACTION_LINK}." />
+    <string id="Jw4oiIM4" text="En el {DAY_OF_YEAR} día de {YEAR}, coronaron a {KING_NAME} como {?IS_KING_MALE}emperador{?}emperatriz{\?} de Calradia." />
+    <string id="jxatfzXh" text="En el {DAY_OF_YEAR} día de {YEAR}, {NAME} murió de causas naturales." />
+    <string id="K0mlQblA" text="Consumo diario de comida del ejército" />
+    <string id="K0XVOalL" text="Apuesta actual" />
+    <string id="k2AeDE6w" text="Apoyo del rey" />
+    <string id="K2G3XJwZ" text="{?NPC.GENDER}Exaltada{?}Exaltado{\?}" />
+    <string id="k6tT1vIg" text="La justa terminó y tu oponente te superó el día de hoy..." />
+    <string id="k7ig2JvK" text="un barón" />
+    <string id="k8ocninL" text="Alto ahí, con calma. El gran cielo eterno nos otorgó estas tierras. Nadie pasa por aquí sin nuestro permiso." />
+    <string id="k8PxNh7x" text="Escudo V" />
+    <string id="k8QpbFnj" text="Capa" />
+    <string id="k9OYeP9y" text="Haz clic para cerrar" />
+    <string id="ka7vAxgo" text="ataque a la formación enemiga de {CLASS} de {AI_SIDE}" />
+    <string id="KafFddmO" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están protegiendo al general." />
+    <string id="KawqKhwh" text="Armadura pesada" />
+    <string id="KC5AZohd" text="Saludos, {?PLAYER.GENDER}viajera{?}viajero{\?}. {?PLAYER.GENDER}Bienvenida{?}Bienvenido{\?} a nuestro bosque. Vamos a tener que recolectar un pequeño peaje.[rf:convo_mocking_revenge]" />
+    <string id="KcQiDE6b" text="Se puede vender en {.l}{SETTLEMENT_NAME} por: {SELL_PRICE}" />
+    <string id="kd5mMCJJ" text="+{BONUS_AMOUNT} de bonificación a la seguridad por día" />
+    <string id="kdV0tx9K" text="Hola, {?PLAYER.GENDER}viajera{?}viajero{\?}. Espero que hayas traído tu bolsa. Verás, somos lo que conoces como bandoleros, y me temo que no podemos permitir que pases sin pagarnos con monedas.[if:convo_mocking_revenge]" />
+    <string id="kDV7wCtI" text="Se completará en: {PREPARATION_TIME}" />
+    <string id="KE9rdUhD" text="- {HERO_NAME}" />
+    <string id="kftE5nvv" text="Armadura de caballo" />
+    <string id="KGH8rjOP" text="Viajando hacia {.l}{SETTLEMENT_NAME} para asaltar." />
+    <string id="KGHlXL8H" text="Muy bien, purificaremos esta tierra con tu sangre." />
+    <string id="KGjFnVsR" text="Conceptos" />
+    <string id="kgqCVvIb" text="mi hermano {REFERING_HERO.LINK}" />
+    <string id="kHC5EjDJ" text="Bonificación de pueblo" />
+    <string id="kHC5EjEJ" text="Bonificación de facción menor" />
+    <string id="Khr5yETv" text="Los aserai son los habitantes del desierto de Nahasa, una mezcla de beduinos nómadas y granjeros del oasis establecido. Son famosos por su destreza a caballo y su saber sobre conocimientos de muchas tierras, sobre todo la medicina, que obtuvieron por permanecer en algunas de las rutas de comercio más lucrativas del continente. Cada clan está intensamente orgulloso de su linaje y, a menudo, celoso de los demás, pero cuando los une un líder carismático, se convierten en una fuerza implacable del sur." />
+    <string id="KiVCv1Bx" text="Asediando {SETTLEMENT_NAME}." />
+    <string id="KJDqOGEU" text="Nuestro plan es retirarnos en formación para luchar otro día." />
+    <string id="KkaVpLXd" text="Considera promulgar esta política (apoyo: {SUPPORT} %)" />
+    <string id="KkwLUO3o" text="sexto" />
+    <string id="klZnvb15" text="Personaje" />
+    <string id="kM1Y8XT0" text="No se decepcionará, {?PLAYER.GENDER}señora{?}señor{\?}. No encontrará a mejores guerreros en todo Calradia.[ib:convo_approving]" />
+    <string id="kMAD20Ny" text="Estás afuera de {.l}{SETTLEMENT_NAME}. No puedes entrar porque el castillo pertenece al enemigo. Por lo general, cuando te acercas a una ciudad enemiga, los caminos están vacíos. Sin embargo, esta vez ves a algunos espectadores e, incluso, escuchas una que otra aclamación. Sospechas que hay algunos entre la población que son leales a {.l}{FACTION_INFORMAL_NAME} y que es poco probable que la milicia tome las armas para defender el castillo." />
+    <string id="KOwCdwEU" text="madre" />
+    <string id="KQQaoouG" text="(Finalizado)" />
+    <string id="kRKYHQ6V" text="Cuando una acumulación cae exactamente en su casilla de inicio, todas las piezas del jugador que controla el montón regresan a la mano del jugador y pueden volver a usarse. Las piezas que pertenecen al otro jugador son eliminadas del juego." />
+    <string id="krmvzGaV" text="Cómo jugar" />
+    <string id="kROTif9h" text="Ingresos de llamado a la guerra" />
+    <string id="kRraos2Z" text="Causaste problemas en mi territorio... Eso no me importa." />
+    <string id="krtuDr9P" text="Nuevo Sandbox" />
+    <string id="KSaxvbs9" text="Mostrar en mapa" />
+    <string id="ksDGaGIi" text="decimonoveno" />
+    <string id="ktFeXrXl" text="No puedes realizar más movimientos. Salto de turno." />
+    <string id="KTGG9EgL" text="¡Que tengas un buen viaje! ¡No dejes que te robe nadie más que no seamos nosotros!" />
+    <string id="KTUcgvMZ" text="Superarás el límite de tropas. Esto puede afectar la moral de grupo negativamente." />
+    <string id="kUBvVY89" text="Batalla de cruce de río{newline}{newline}• La infantería obtiene una bonificación menor.{newline}• Los arqueros obtienen una pequeña bonificación mientras defienden.{newline}• La caballería sufre una penalización menor mientras defiende." />
+    <string id="kuKad3dj" text="{MISSION_MODE}" />
+    <string id="kuLjsNgz" text="Eminencia rural" />
+    <string id="kVuucX4o" text="decimotercero" />
+    <string id="kvykuTJS" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están atacando armas de asedio." />
+    <string id="Kw7awUCK" text="Balanceado" />
+    <string id="KWXEMsHC" text="{LORD.LINK} está en {.l}{SETTLEMENT_NAME}" />
+    <string id="kX8svveF" text="El costo de este artículo se acerca a su precio promedio" />
+    <string id="kx8ZfaST" text="Muy bien. Entonces, ¿cuánto valoras tu vida?[ib:hip][if:convo_bared_teeth]" />
+    <string id="kXno6ZuU" text="Batalla finalizada..." />
+    <string id="kyiibFu2" text="¡Ganaste la batalla!" />
+    <string id="kZ7gLqMz" text="Si el reclutamiento automático está habilitado, la guarnición reclutará tropas de las eminencias del centro del pueblo y aldeas cercanas. El dueño del asentamiento pagará los costos." />
+    <string id="KZAQHSa2" text="Sin embargo, la prosperidad no está beneficiando a todo el mundo equitativamente. La gente se ve enojada, se queja sin parar sobre los emigrantes rurales, los precios en alza y aquellos que se benefician más que otros." />
+    <string id="L1Q4AysI" text="Ganancia" />
+    <string id="L3EE8bmx" text="Nadie de tu grupo tiene suficiente habilidad {SKILL} para completar esta orden. (Necesitas {AMOUNT} más)" />
+    <string id="l4pRw7pO" text="Caravana armada de {OWNER.NAME}" />
+    <string id="l4uTnJct" text="Tienes que seleccionar un resultado y cuánto quieres apoyar ese resultado." />
+    <string id="l57Dk2DQ" text="Límite de calabozo excedido ({TROOP_NUMBER} prisioneros)" />
+    <string id="l6a3grfK" text="tu grupo" />
+    <string id="L7qKijnE" text="Se añadió {.l}{ITEM_NAME}, que obtuvo {COMPANION.NAME}, al inventario." />
+    <string id="L7teSXvq" text="Tienes que ser {?PLAYER.GENDER}la{?}el{\?} líder de un ejército para gestionarlo" />
+    <string id="l9Vve3bD" text="Otoño" />
+    <string id="lAgfGeXJ" text="Facción de reino" />
+    <string id="LApMSsnb" text="Puntos de enfoque" />
+    <string id="laV5aNhK" text="Único" />
+    <string id="LAvXPBbs" text="¡Defiende nuestras máquinas de asedio!" />
+    <string id="lb13ceVM" text="{?RULER.GENDER}Alta reina{?}Alto rey{\?} {RULER.NAME}" />
+    <string id="Lb1te6Ov" text="+{BONUS_AMOUNT_PERCENT} % de aumento al ingreso por tarifas" />
+    <string id="lbdSaDpI" text="Tiempo restante" />
+    <string id="LBy6YDMV" text="se reagrupe" />
+    <string id="Lc1vIEnM" text="Los lobos y las ovejas se mueven de la misma forma al deslizarse por las líneas del tablero, una casilla por turno." />
+    <string id="lcbzU94j" text="Acuerdo comercial con {.l}{FACTION}" />
+    <string id="LdLYZX3R" text="+{BONUS_AMOUNT_PERCENT} % de bonificación a los impuestos por día" />
+    <string id="LEC8NhCV" text="Políticas" />
+    <string id="lfMgaBiJ" text="Haz que valga la pena que no te matemos." />
+    <string id="Lg3zeoYi" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están protegiendo {#IS_LEFT}{#}el flanco izquierdo{#}varios flancos{\#}{?IS_MIDDLE}el flanco central{?}{\?}{?IS_RIGHT}el flanco derecho{?}{\?}." />
+    <string id="lh1yhgXw" text="Equipo de caballo V" />
+    <string id="lihYjOSc" text="pzas." />
+    <string id="littlebrother" text="Hermano" />
+    <string id="littlesister" text="Hermana" />
+    <string id="lj8XH6O7" text="¡No puedes acceder a la ventana de reino en este momento!" />
+    <string id="ljcHO6PW" text="Cambio de seguridad" />
+    <string id="LjUhEJxz" text="Caravana de {OWNER.NAME}" />
+    <string id="LJwKdMdw" text="Espera a que tu oponente se ponga en posición" />
+    <string id="lKIHqkAV" text="decimoséptimo" />
+    <string id="LL6GkIfg" text="Si derrotas a {OPPONENT_COUNT_1} oponentes antes de caer, obtendrás {PRIZE_1}{GOLD_ICON}. Obtendrás {PRIZE_2}{GOLD_ICON} por matar a al menos {OPPONENT_COUNT_2} oponentes, {PRIZE_3}{GOLD_ICON} si derrotas a {OPPONENT_COUNT_3} oponentes y {PRIZE_4}{GOLD_ICON} si sobrevives lo suficiente como para vencer a {OPPONENT_COUNT_4} oponentes. Si consigues ser la última persona en pie, obtendrás el gran premio de las peleas, {PRIZE_5}{GOLD_ICON}. Suena bien, ¿eh?[if:convo_nonchalant]" />
+    <string id="Ll90uaxu" text="Asedios exitosos" />
+    <string id="lNADu8JO" text="Roles" />
+    <string id="lnKAqDVM" text="defienda la posición clave" />
+    <string id="lockverb" text="Bloquear" />
+    <string id="LpAiJGeV" text="{HERO_NAME} no puede completar ninguna de las órdenes disponibles." />
+    <string id="lpbDPuuW" text="{?RULER.GENDER}la emperatriz{?}el emperador{\?} {RULER.NAME}" />
+    <string id="LpVaZbRS" text="Ya hay otro reino con este nombre." />
+    <string id="lqm9PfF1" text="{?RULER.GENDER}Knyaginya{?}Knyaz{\?} {RULER.NAME}" />
+    <string id="lqMQ6GXj" text="Comida sobrante" />
+    <string id="lQQPKo02" text="avance para protegernos de los enemigos que se mueven por la retaguardia" />
+    <string id="lRAaUTjs" text="Soltar" />
+    <string id="lrAnY7Fb" text="Misiones antiguas" />
+    <string id="LSsFOEQy" text="En menos de un día" />
+    <string id="lTTWrL1Q" text="La misión expiró: {QUEST_TITLE}." />
+    <string id="lvc1Xgf8" text="Criada de la taberna" />
+    <string id="lxLTCX5j" text="Ocupación:" />
+    <string id="LymKjMLk" text="Tus hombres se acaban de unir a tu grupo" />
+    <string id="lZ1IDnpP" text="Dar todo" />
+    <string id="LZhRP3PM" text="espere a las otras máquinas de asedio" />
+    <string id="Lzmtqif5" text="Tamaño del ejército" />
+    <string id="lznqF0oO" text="Disolviendo" />
+    <string id="M2b5mtAE" text="Acompañante de" />
+    <string id="m2YKBbdI" text="Hola, ovejita perdida. Somos los lobos de las montañas y nos gustaría que nos dieras un momento de tu tiempo...[rf:convo_mocking_revenge]" />
+    <string id="m6A7RLby" text="{?NPC.GENDER}Retorcida{?}Retorcido{\?}" />
+    <string id="M6cWtObI" text="Estos héroes pueden fabricar esta arma:" />
+    <string id="M6tfHhq7" text="Votaste y el gobernante decidió el resultado." />
+    <string id="M9p0vPad" text="Sé cómo te llamas... {COMMENT_STRING_MAIN}" />
+    <string id="m9vD3VlN" text="El tamaño de este grupo no aumentará ni disminuirá. Se intentará mantener su tamaño como está." />
+    <string id="Ma0PyWAC" text="Asaltar, atacar a grupos y asediar tienen un peso mayor en la toma de decisiones. El grupo perseguirá a los enemigos más lejos." />
+    <string id="ma49Ya6b" text="trigésimo" />
+    <string id="MacceKIX" text="{RELATION_TEXT} de {BASE_HERO.NAME}" />
+    <string id="mAEaO8jM" text="Liberaron a {PRISONER.NAME}." />
+    <string id="MaExlLD7" text="No tienes permitido realizar esta acción mientras navegas." />
+    <string id="MaIgPHXK" text="Liberaron a {PRISONER_LORD.LINK} luego de la batalla." />
+    <string id="MAkZQKp0" text="Bonificación/Penalización de habilidad" />
+    <string id="maptimeplay" text="Jugar" />
+    <string id="mbS0DkUo" text="Asalto" />
+    <string id="Mc8ojOGn" text="Hogares" />
+    <string id="mDbaNQay" text="¡Cabalga hacia adelante e intenta golpear a tu oponente!" />
+    <string id="mds0myr4" text="{HERO.NAME} perdió su rasgo {TRAIT_NAME}." />
+    <string id="MeQmoYb4" text="No tienes una relación lo suficientemente alta como para adquirir esta tropa. {newline}Tienes {REL1}. Necesitas {REL2}." />
+    <string id="MFLAvq4Z" text="Hay bandidos dentro de este lugar. ¿Quieres atacarlos?" />
+    <string id="MfnYoLdc" text="Gastos" />
+    <string id="mG4oq1vb" text="Batalla de mar abierto{newline}{newline}• Los barcos pesados obtienen una bonificación mayor.{newline}• Los barcos ligeros reciben una penalización mayor.{newline}" />
+    <string id="MGv4Uabd" text="Apostaste {BET_AMOUNT} por ti, pero te derrotaron." />
+    <string id="MgwKd3jd" text="Tarifa de {A0}" />
+    <string id="mGWrSJLE" text="No puedes disolver un ejército mientras está en un evento de mapa." />
+    <string id="mhAr3dfG" text="Misión activada: {QUEST_TITLE}." />
+    <string id="MHJCuM3N" text="¡Alto! Tus pies extranjeros sobre esta tierra sagrada ofenden a nuestros ancestros. ¿Qué vamos a hacer sobre eso?[rf:convo_mocking_revenge]" />
+    <string id="mieKgbp8" text="Índice de disparo diario" />
+    <string id="minuteabbr" text="m" />
+    <string id="mJB7knQo" text="se retire" />
+    <string id="mJE0o9Zi" text="Guarniciones" />
+    <string id="mJkJWccN" text="Si procedes, eliminarás a {GOVERNOR.NAME} de la administración de {.l}{SETTLEMENT_NAME}. ¿De verdad quieres continuar?" />
+    <string id="Ml5PFDph" text="En el {DAY_OF_YEAR} día de {YEAR} ejecutaron a {NAME}." />
+    <string id="MLmHSSg0" text="Caballería pesada" />
+    <string id="MmNF7sW7" text="Solo es posible mover piezas al capturar las piezas del oponente.{newline}Se puede capturar al saltar perpendicularmente sobre una o más piezas contrarias." />
+    <string id="Mms9bbhY" text="{DAY_NUM} {?DAY_NUM==1}día{?}días{\?}" />
+    <string id="mNr84Xm1" text="¡No puedes acceder a la ventana de clan en este momento!" />
+    <string id="mPaQzgS0" text="Me alegra verte aquí, {PLAYER.LINK}." />
+    <string id="MpDMaBE9" text="¿Te atreves a desafiarnos? ¡Usaremos tu cráneo para beber!" />
+    <string id="mPtUKcI3" text="El enemigo se está organizando. Considera una retirada táctica pronto." />
+    <string id="MPZ40lEk" text="Nombrar a recién nacido" />
+    <string id="MqsWixDp" text="¡Retirada!" />
+    <string id="mSPDO0Fe" text="El enemigo te rodeó. No estás en condiciones de pelear. Rendirte es tu única opción." />
+    <string id="MT4b8H9h" text="{?NPC.GENDER}Desconocida{?}Desconocido{\?}" />
+    <string id="MTtrk28a" text="Considera formar una alianza (apoyo: {SUPPORT} %)" />
+    <string id="MUCmJaXQ" text="Gobernante de {.l}{FACTION_INFORMAL_NAME}" />
+    <string id="MUStU7ab" text="hermano" />
+    <string id="MWatMKoP" text="En el {DAY_OF_YEAR} día de {YEAR}, el pacto secreto entre las facciones imperiales se reveló, pues los ejércitos de los antiguos rivales tomaron el campo juntos." />
+    <string id="MWByKPst" text="Generales" />
+    <string id="mwegfVKr" text="Intelectual" />
+    <string id="MWGATOoz" text="El torneo será una pelea grupal cuerpo a cuerpo." />
+    <string id="MwgcfGsr" text="Si una pieza cae en una casilla que ya tenga a una pieza contraria, capturará esa pieza. La pieza capturada se colocará debajo de la pieza invasora.{newline}También se puede volver a capturar un montón de piezas siempre y cuando la pieza superior pertenezca al oponente.{newline}En cuanto una pieza realice una captura, se moverá hacia su casilla de inicio en el siguiente turno." />
+    <string id="MxG4217V" text="Aldeano" />
+    <string id="mxuirhkW" text="¡Destruiste todos los artefactos de asedio enemigos! Es hora de retirarse al castillo." />
+    <string id="mXxVf2rb" text="Libro" />
+    <string id="Myb3WrB9" text="Roles y efectos del líder del grupo" />
+    <string id="mZR7eYHa" text="Escudo I" />
+    <string id="MzxFIyAQ" text="Mostrar barras de comparación de reino" />
+    <string id="N0MCVBXb" text="Olvidarlo" />
+    <string id="n3e3g6Rq" text="Apostar" />
+    <string id="N6O2GtTK" text="Refinar" />
+    <string id="n6Q6vv5t" text="Saqueaste {GOLD} de oro." />
+    <string id="N7w6zi0F" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están retrocediendo." />
+    <string id="N7yWipWU" text="Batalla de cruce de ríos{newline}{newline}• La infantería obtiene una bonificación menor.{newline}• La caballería sufre una penalización media al atacar.{newline}• Los arqueros a caballo sufren una penalización menor al atacar." />
+    <string id="N84HlDaV" text="{NUMBER_OF} {ITEM} ({AMOUNT}{GOLD_ICON})" />
+    <string id="n9qR84YI" text="{PRISONER.NAME} escapó de {.l}{SETTLEMENT}." />
+    <string id="NaAA5kjG" text="Considera hacer un tratado de paz y recibe {TRIBUTE_AMOUNT} de contribución por día durante {TRIBUTE_DURATION} días. (Apoyo: {SUPPORT} %)" />
+    <string id="nAaT19CC" text="{?RULER.GENDER}Arconesa{?}Arconte{\?} {RULER.NAME}" />
+    <string id="NaNMRPv4" text="Aserai" />
+    <string id="NaorUInI" text="Grupos debilitados" />
+    <string id="NarcUcZA" text="El nombre de la facción contiene caracteres no válidos." />
+    <string id="nbBgbwM2" text="En cola: {NUMBER}" />
+    <string id="NbgeKwVr" text="Talleres" />
+    <string id="NBv29XpJ" text="No puedes disolver un ejército mientras tú estás en ese ejército." />
+    <string id="nbw71MCj" text="Se completó la construcción de {.l}{BUILDING_NAME} en {.l}{SETTLEMENT_NAME}." />
+    <string id="nCDhsh8s" text="Propuesta de alianza" />
+    <string id="nDNOn5o2" text="Equipo" />
+    <string id="ndXuPWYV" text="{NUM1}x{NUM2}" />
+    <string id="Nfm5lLWv" text="¡{CHILD.NAME} necesita que le pongas atención de inmediato!" />
+    <string id="nfQhamAF" text="Velocidad de giro: " />
+    <string id="NgHSyQem" text="En el ejército" />
+    <string id="nHGm1wYg" text="Batalla finalizada. Oprime [{leave_key}] para ver los resultados." />
+    <string id="nHkQbLDc" text="No se puede usar con monturas" />
+    <string id="nHSVy0ns" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están flanqueando desde {#IS_LEFT}{#}la izquierda{#}varios lados{\#}{?IS_MIDDLE}el centro{?}{\?}{?IS_RIGHT}la derecha{?}{\?}." />
+    <string id="NiyNgXMe" text="Este grupo ya se está disolviendo" />
+    <string id="njnMk5P1" text="Rechazar una política" />
+    <string id="nk0bADtq" text="Rechazaste un desafío a un duelo. Tu ejército está desilusionado por esta demostración de cobardía. El grupo perderá moral." />
+    <string id="NkbszXv6" text="El asentamiento se está sublevando." />
+    <string id="NKYem1X0" text="Este grupo está en el ejército de {ARMY_LEADER}{.o}." />
+    <string id="nkzKgspT" text="Gestionar guarnición" />
+    <string id="NLmaID0O" text="{KILLER.NAME} ejecutó a {HERO.NAME}." />
+    <string id="nMcvafHY" text="Activa" />
+    <string id="nNDdo3I9" text="Espada a una mano" />
+    <string id="nnr8sANN" text="{PARTY_LIST_TAG}({COUNT} + {WEAK_COUNT}h)" />
+    <string id="nNRKCYpR" text="Producción interna" />
+    <string id="NnZ5w9zm" text="{NUM1} ({NUM2})" />
+    <string id="nojcK4ia" text="{?RULER.GENDER}Gran princesa{?}Gran príncipe{\?} {RULER.NAME}" />
+    <string id="NPJRmNAY" text="No se puede fabricar." />
+    <string id="NQbqtEqP" text="Costo: {COUNT}" />
+    <string id="NqSLYe6b" text="Renombre:" />
+    <string id="NqtTPVzn" text="Atributos" />
+    <string id="NRbNsJ9C" text="¡Esto cancelará tus cambios! ¿De verdad quieres continuar?" />
+    <string id="NRpwZGxI" text="Soldado" />
+    <string id="NvJru5Tz" text="Solo hombre" />
+    <string id="nVKEUvaC" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están usando aspilleras." />
+    <string id="NvqbkaFD" text="Mientras {.l}{PARTY} asaltaba {.l}{SETTLEMENT}, viniste a ayudar a la aldea. Decides..." />
+    <string id="nvswKHTZ" text="Pagaste {GOLD_AMOUNT}{GOLD_ICON}." />
+    <string id="nWbp3o3H" text="Primavera" />
+    <string id="nwqUFaU8" text="Invierno" />
+    <string id="nxQaab9d" text="({SHOPTYPE}) de {SHOPNAME}" />
+    <string id="ny32aoLJ" text="Equipo de caballo II" />
+    <string id="nyGRpJT3" text="Cola" />
+    <string id="NYHinaEh" text="¡No puedes acceder al inventario en una batalla!" />
+    <string id="NZUELfbp" text="No se puede gestionar el ejército durante un asedio" />
+    <string id="o0OQ5omY" text="Nuestro plan es permanecer a la defensiva." />
+    <string id="O10KTShQ" text="Mango" />
+    <string id="o1LEfpWD" text="Sobrina" />
+    <string id="o1MtbgEi" text="Tarea sin solucionar" />
+    <string id="o2ce7bhY" text="Qué sabio de tu parte." />
+    <string id="O37b0e8r" text="Liberaron a {PRISONER_LORD.LINK} de {.l}{PRISONER_FACTION_LINK} debido a una declaración de paz." />
+    <string id="O69Vhqxk" text="Entonces, ¿cuánto vas a darnos?[rf:convo_angry]" />
+    <string id="o7I8qayN" text="¡Ja! No hay nada como un buen puñetazo en la panza para saber que estás con vida, ¿eh? Al parecer lograste derribar a {OPPONENT_COUNT} de tus oponentes. Nada mal. Pero eso no te otorgará dinero como premio. Ahora, si yo fuera tú, volvería y les demostraría a todos lo que puedo hacer..." />
+    <string id="O9xpd5bn" text="una baronesa" />
+    <string id="oAg4dtbB" text="vigésimo quinto" />
+    <string id="ObTSCxra" text="{?NPC.GENDER}Vasalla{?}Vasallo{\?}" />
+    <string id="OBXNbvkK" text="Mientras intentas obligar a los residentes a que te entreguen objetos, algunos de ellos se reunieron para oponerte resistencia. Si te enfrentas a ellos, provocarás una guerra con {.l}{KINGDOM}." />
+    <string id="Oc85b0Bx" text="De las eminencias" />
+    <string id="OCGaTxac" text="Premio del torneo" />
+    <string id="OdFPHvtE" text="Los rebeldes están atacando este asentamiento. ¿Quieres intervenir?" />
+    <string id="OEax2Y9c" text="Asalta caravanas. Recluta y lidera tropas de bandidos. Infíltrate en pueblos enemigos. Soborna. Escapa del cautiverio." />
+    <string id="oGflu1jV" text="use una aspillera" />
+    <string id="OGjq7rpg" text="Llevamos nuestros productos al mercado en {TOWN}." />
+    <string id="OgRtdJhu" text="Batalla de la aldea{newline}{newline}• La infantería obtiene una bonificación menor.{newline}• Los arqueros sufren una penalización media al atacar.{newline}• Los arqueros a caballo obtienen una penalización media al atacar." />
+    <string id="ogtgc69b" text="Te recompensaron con el derecho a usar un estandarte. El estandarte indicará tu estatus y te traerá honor. ¿Qué estandarte quieres elegir?" />
+    <string id="OGxk0EXC" text="El torneo terminó. {TOURNAMENT_FINAL_PARTICIPANT_A} ganó al derrotar a {TOURNAMENT_FINAL_PARTICIPANT_B} en la última ronda." />
+    <string id="Ohdrbpiw" text="{?RULER.GENDER}vlandiana{?}vlandiano{\?}" />
+    <string id="OhLXo0gb" text="Administrador criminal" />
+    <string id="OIBpCGYv" text="El tamaño de este grupo disminuirá. Su tamaño objetivo actual es {TARGET_SIZE}." />
+    <string id="OiCCv0EL" text="La aldea está pasando por un momento difícil. Las herramientas para cultivar están oxidadas y rotas. La maleza y los matorrales están recuperando los campos exteriores. " />
+    <string id="oiFt5bEV" text="Bonificación de construcción" />
+    <string id="oiSW6MyB" text="Armadura de torso" />
+    <string id="OJmC1Ckc" text="Oponentes restantes: {REMAINING_OPPONENT_COUNT}" />
+    <string id="oKct1ecg" text="Hija" />
+    <string id="OLKGQGHU" text="Soy el señor de {TOWNS}." />
+    <string id="OLyjbawD" text="[Más]" />
+    <string id="OLZqZZF3" text="Si procedes, {GOVERNOR.NAME} viajará durante {TRAVEL_DURATION} para administrar {.l}{SETTLEMENT_NAME}. Mientras viaja, {GOVERNOR.NAME} no estará disponible y no podrás cambiar al administrador de {.l}{SETTLEMENT_NAME} hasta que {GOVERNOR.NAME} llegue. ¿De verdad quieres continuar?" />
+    <string id="ONGv27TH" text="¡Ahora, fuera de mi vista, animal rastrero miserable!" />
+    <string id="OnttNMRn" text="Escudo IV" />
+    <string id="Ooqyo9RB" text="Saltar ronda" />
+    <string id="OPhlqUVl" text="Hablar" />
+    <string id="OpSGWdrk" text="Pandillero" />
+    <string id="OqCodBZJ" text="¡Alto ahí! ¡Muéstranos lo que tienes!" />
+    <string id="Or9YduTA" text="hermana" />
+    <string id="oRaa1yls" text="Consumible" />
+    <string id="OSZUvWbG" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} tienen todo listo." />
+    <string id="oTGDxKW7" text="Declarar la guerra contra {.l}{FACTION}" />
+    <string id="OtP3heba" text="¡Superaste a tu oponente y ganaste el juego!" />
+    <string id="ou9asw1a" text="Daño de {SWING_DAMAGE_TYPE} de tajo: " />
+    <string id="OviaJ1tA" text="Otros" />
+    <string id="oVSS2Lp5" text="Equipo de caballo III" />
+    <string id="OWCoBElc" text="{.L}{PARTY_NAME} te capturó." />
+    <string id="owg6SqHF" text="un emir" />
+    <string id="owTlJjJc" text="Cuñado" />
+    <string id="OxiaKT0G" text="{?RULER.GENDER}sturgiana{?}sturgiano{\?}" />
+    <string id="oYUAuLO7" text="Juraste no atacar." />
+    <string id="OzazmGBi" text="los khuzait" />
+    <string id="ozYRUrum" text=" Ayuda a soldados heridos a recuperarse en asentamientos." />
+    <string id="P1VmnfsB" text="{.L}{BUILDING_NAME} de {.l}{SETTLEMENT_NAME} ganó un nivel." />
+    <string id="P2CRzfV7" text="Tiendas del asentamiento" />
+    <string id="p2WBSIa7" text="Cohesión: " />
+    <string id="P3SJla9F" text="Aldeas saqueadas" />
+    <string id="p4PIzGTP" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están manteniendo el terreno elevado." />
+    <string id="p5Rad7i2" text="Grupo de guerra" />
+    <string id="p8amfQyz" text="Los mercenarios no pueden expulsar clanes." />
+    <string id="P8BxiiKd" text="A pesar de la pobreza, escuchas algunas quejas, como si la gente estuviera demasiado desanimada como para esperar algún cambio." />
+    <string id="P8Z3zQyy" text="A salvo" />
+    <string id="p9vAIDL1" text="Puñalada por la espada" />
+    <string id="PAa618xe" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están saliendo." />
+    <string id="pAOtyE9u" text="Batalla de duna{newline}{newline}• La caballería obtiene una gran bonificación.{newline}• Los arqueros a caballo obtienen una gran bonificación." />
+    <string id="patrolPartyName" text="Patrulla de {.l}{SETTLEMENT}" />
+    <string id="pb4KfhxC" text="¡Tus capitanes están ordenando una retirada táctica!" />
+    <string id="pB5anEQq" text="Ve a la posición de inicio" />
+    <string id="pbdrFqb3" text="Disolver este ejército a la fuerza" />
+    <string id="Pc0zpaGa" text="Mira, ¿qué tenemos aquí? Hay que pagar un impuesto para pasar por estos lares, {?PLAYER.GENDER}viajera{?}viajero{\?}, ya sea en monedas o en sangre.[if:convo_bared_teeth]" />
+    <string id="PdXqoa2W" text="Viajando hacia {.l}{SETTLEMENT_NAME}." />
+    <string id="PE4nuMc7" text="Esta página explica los conceptos del juego de Bannerlord" />
+    <string id="pebUiIkT" text="Atuendo de sigilo" />
+    <string id="PEKxMxal" text="Ahora puedes escapar." />
+    <string id="pEm60xEX" text="Tu oponente capturó una pieza." />
+    <string id="PFbLgd1I" text="Rendirse" />
+    <string id="pgd7Dp78" text="Viviendas" />
+    <string id="pGEIBlLR" text="Promulgar" />
+    <string id="PGl6fYqY" text="Elegir arqueros a caballo" />
+    <string id="PGXitpMN" text="{SETTLEMENT_NAME} - ({COMMON_AREA_NAME})" />
+    <string id="PH7pkve4" text="{ISSUE_NAME}: tus tropas están solucionando este problema." />
+    <string id="PhF8wNaG" text="No puede usarse a caballo" />
+    <string id="PhoKHbhd" text="Batalla ganada. Oprime [{leave_key}] para ver los resultados." />
+    <string id="Pia30xtc" text="{?ASKED_LORD.GENDER}Ella{?}Él{\?} está en {.l}{TOWN_NAME} en este momento." />
+    <string id="pin2L6tH" text="Límite de salario excedido" />
+    <string id="PitdvCJI" text="Cambiar administrador" />
+    <string id="pJBz7hhl" text="¡Reúne a tus hombres, tenemos otro trabajo que hacer!" />
+    <string id="PJEuE208" text="Milicia:" />
+    <string id="pLZeP6L6" text="asalte los muros{?IS_GENERAL_SIDE}{?} desde el área {SIDE_STRING}{\?}" />
+    <string id="pm0yiOmv" text="Obtuviste: {DENAR_AMOUNT}{GOLD_ICON}" />
+    <string id="pMb8Pe12" text="Nuera" />
+    <string id="PMnSk81U" text="Entonces, ¿pretendes pelear, ovejita? Entonces veamos esos cuernos." />
+    <string id="PN4Edq9W" text="Armas cuerpo a cuerpo III" />
+    <string id="pn9KNMxb" text="El enemigo te rodeó, pero tus hombres no están en condiciones de pelear. Rendirte es tu única opción." />
+    <string id="policypropose" text="Proponer" />
+    <string id="PpPbWYPB" text="Elegible para ser mercenario" />
+    <string id="pPRYdrk7" text="Gestión de ejército" />
+    <string id="PpwmZ4ZN" text="Bando de defensor" />
+    <string id="pq48aN8d" text="Moral: {reg1}" />
+    <string id="pQ9Sxily" text="¡Felicidades, {?PLAYER.GENDER}campeona{?}campeón{\?}! ¡Tu pelea será algo digno de recordar! Como la última persona en pie, tú, por supuesto, obtuviste el mejor premio: {PRIZE}{GOLD_ICON}." />
+    <string id="PqfS5lgq" text="{.L}{ARMOR_AMOUNT} absorbió {ABSORBED_AMOUNT} de daño.++" />
+    <string id="pqfz386V" text="Líder de clan" />
+    <string id="PqOXjfef" text="Liberaron a {PRISONER_LORD.LINK} debido a una declaración de paz." />
+    <string id="prs0jRAy" text="total" />
+    <string id="psjAVdkH" text="Reiniciar ícono" />
+    <string id="pSjnd6PX" text="Perdiste el duelo. Tu ejército está desilusionado por tu derrota. El grupo perderá moral." />
+    <string id="pSWt8NXH" text="Asaltando {.l}{SETTLEMENT_NAME} ({RAIDING_PROCESS} %)" />
+    <string id="pSz4xSqO" text="La habilidad {SKILL_NAME} del héroe debe estar en {MIN_SKILL_AMOUNT} o superior." />
+    <string id="pT9TZehy" text="Campamento" />
+    <string id="puwXJDa9" text="Prosperidad:" />
+    <string id="pvdKMIL7" text="Arrastrar" />
+    <string id="PVidxUQ8" text="Reservas de comida" />
+    <string id="PvrRFwHM" text="{?PAY_OR_GET}Obtendrás{?}Perderás{\?} {TRADE_AMOUNT}{MORALE_ICON}" />
+    <string id="PVUeymMR" text="En curso" />
+    <string id="pwFp1A5W" text="{?NPC.GENDER}Sádica{?}Sádico{\?}" />
+    <string id="PxUrlIvL" text="Responde al llamado de {.l}{CALLING_KINGDOM} para declararle la guerra a {.l}{KINGDOM_TO_CALL_TO_WAR_AGAINST}" />
+    <string id="PYaUEZzn" text="Considera declarar la guerra (apoyo: {SUPPORT} %)" />
+    <string id="PylbJEe5" text="Nº" />
+    <string id="Q0qrw7F5" text="Añadir enfoque" />
+    <string id="Q2alNolf" text="mi pariente {REFERING_HERO.LINK}" />
+    <string id="Q2JYjFQl" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están retirándose." />
+    <string id="Q3hlcBa4" text="Parte de" />
+    <string id="Q3KrMlLd" text="¡A LA CARGA!" />
+    <string id="Q67Wys0i" text="Patrullando alrededor de {.l}{SETTLEMENT_NAME}." />
+    <string id="Q7ONA10T" text="&lt;b&gt;Fundíbulo&lt;/b&gt;{NEWLINE}Es poco preciso, pero devastador contra los muros." />
+    <string id="q7xpz1xb" text="Aldea(s) establecida(s) para el comercio" />
+    <string id="Q8mI3b4K" text="No se seleccionó una política" />
+    <string id="Q9h3y2oO" text="octavo" />
+    <string id="QA8Gm9PY" text="Es un día caluroso, ¿no es así? No te canses peleando. Danos lo que queremos y nos iremos.[rf:convo_mocking_revenge]" />
+    <string id="qaueUlAp" text="Bien. Ten cuidado ahí afuera. El mundo está lleno de ladrones, y no todos son tan amables como nosotros.[ib:closed][rf:convo_bemused]" />
+    <string id="QAv3upYr" text="Manto" />
+    <string id="qb31gnpr" text="Bonificación de líder de clan" />
+    <string id="QBbBahLv" text="Tienes nuestra autorización para continuar con tu viaje." />
+    <string id="qC4OsBt1" text="Aldeas (bajo asedio)" />
+    <string id="qDSda1OI" text="{DAY} {?DAY_IS_PLURAL}días{?}día{\?}" />
+    <string id="QE1XRyUP" text="+{BONUS_AMOUNT_PERCENT} % de bonificación a la velocidad de producción de artefactos de asedio" />
+    <string id="qe686AAn" text="Tú eres {?PLAYER.GENDER}la{?}el{\?} gobernante. Tu decisión será la definitiva y prevalecerá ante cualquier cosa." />
+    <string id="QeeK2rge" text="tú" />
+    <string id="QFMshJaj" text="Reuniéndose cerca de {.l}{SETTLEMENT_NAME}." />
+    <string id="qg0WttZb" text="Tienes que ser parte de un reino" />
+    <string id="Qg5suamT" text="Apostaste {BET_AMOUNT} por {FIGHTER_NAME}, pero {?FIGHTER_GENDER}la{?}lo{\?} derrotaron." />
+    <string id="qgHblOq4" text="Detectaste una emboscada." />
+    <string id="qgL4P2vO" text="El pueblo es próspero. La gente se ve bien alimentada y relativamente cómoda." />
+    <string id="QgUej8DP" text="No hay misiones activas" />
+    <string id="qhhLVJAC" text="&lt;b&gt;Preparaciones&lt;/b&gt;" />
+    <string id="qHkTYCy0" text="Tus tropas recibirán {XP_AMOUNT} de experiencia." />
+    <string id="qKg44yWp" text="Prioridad" />
+    <string id="QKGVAVcc" text="Ventajas de administrador" />
+    <string id="QL2t7D44" text="Límite de talleres adicionales" />
+    <string id="ql8Xr5ap" text="Batalla de asedio{newline}{newline}• Los arqueros sufren una gran penalización al atacar.{newline}• La caballería sufre una penalización media al atacar.{newline}• Los arqueros a caballo sufren una penalización severa al atacar." />
+    <string id="QlaGZAHq" text="¡Llegaron nuevos refuerzos!" />
+    <string id="QLM6DWHB" text="Misión(es) activa(s)" />
+    <string id="qlnXblKO" text="{ISSUE_NAME}: Tus tropas solucionaron el asunto y han regresado." />
+    <string id="QLRbhRKL" text="Tarea" />
+    <string id="qlw2LWgu" text="avance hacia el radio de alcance" />
+    <string id="qM8daraD" text="Puntos de habilidad totales: {CURRENT_SKILL_POINTS}" />
+    <string id="QmaVRAkx" text="Podrías optar por no pagar todos los salarios, pero tu grupo perderá {reg1} de moral." />
+    <string id="qMhCpq9k" text="Tamaño del grupo excedido" />
+    <string id="Qn3DCH3d" text="Terrateniente" />
+    <string id="qNgjr719" text="¡Las fuerzas que asedian {.l}{SETTLEMENT} comenzaron el asalto!" />
+    <string id="qpmpTdla" text="Eminencia" />
+    <string id="qQLh6S2w" text="PH {CURRENTAMOUNT}/{TARGETAMOUNT}" />
+    <string id="qR0s1VvE" text="Escuchas quejas sobre los precios, la escasez y los mercantes codiciosos, pero no más de lo normal." />
+    <string id="qSC0t1lY" text="En el {DAY_OF_YEAR} día de {YEAR}, {FIRST_HERO} se casó con {SECOND_HERO}." />
+    <string id="qsh0I4Rm" text="Tu oponente tiró un {DICE_ROLL}." />
+    <string id="qt7WSK15" text="{SETTLEMENT_NAME} (asaltado)" />
+    <string id="QTbZPyha" text="Acompañando" />
+    <string id="qtHAlJEk" text="Si apuestas 100{GOLD_ICON} y ganas, obtendrás {NORMALIZED_EXPECTED_GOLD}{GOLD_ICON}" />
+    <string id="qtmj7h2r" text="  0" />
+    <string id="QtXf82OD" text="El arma debe tener daño de {THRUST_DAMAGE_TYPE} de estocada" />
+    <string id="quantitysign" text="N.º" />
+    <string id="qUtYks66" text="El ejército de {ARMY_LEADER.LINK} se está reuniendo cerca de {.l}{SETTLEMENT_NAME}." />
+    <string id="QxdINoOA" text="pariente" />
+    <string id="QxlDIo3q" text="quinto" />
+    <string id="QY2nuTFB" text="¡Retirada!" />
+    <string id="qyahMgD3" text="Caravana ({A0})" />
+    <string id="qzRbMK8G" text="Los vasallos serán más propensos a tomar acciones defensivas en contra de este enemigo, como reaccionar a asaltos y asedios enemigos." />
+    <string id="r312jCKr" text="Proponer la paz" />
+    <string id="R4eS65oX" text="Algunos de los aldeanos enojados toman sus herramientas y se preparan para oponerte resistencia. Parece que tendrás que pelear si decides continuar." />
+    <string id="R5IOmwN1" text="Construyendo campamento de asedio" />
+    <string id="R6oKMaZ5" text="{MARRIED_HERO.LINK} se ha casado con {MARRIED_TO.LINK}." />
+    <string id="R7v2UD8b" text="Moviste una pieza." />
+    <string id="r7ZX7QAq" text="Bando de atacante" />
+    <string id="r9Wtbayx" text="Piedra de honda" />
+    <string id="RaAnj4On" text="Defensores" />
+    <string id="rangedtroop" text="A distancia" />
+    <string id="ranksign" text="N.º" />
+    <string id="rBieLPA7" text="Excediste el límite de tropas.{newline}Conservarás a tus tropas de momento, pero después de un tiempo abandonarán rápidamente tu grupo. También te ralentizarás.{newline}¿De verdad quieres continuar?" />
+    <string id="Rbn9l507" text="Bonificación de asentamiento rebelde" />
+    <string id="rdbw9TVm" text="Escudo II" />
+    <string id="rDnWQL87" text="Mostrar/ocultar vaina" />
+    <string id="RdsbyNE2" text="Considera hacer un tratado de paz y paga {TRIBUTE_AMOUNT} de contribución por día durante {TRIBUTE_DURATION} días. (Apoyo: {SUPPORT} %)" />
+    <string id="REdb7vbQ" text="{?RULER.GENDER}sultana{?}sultán{\?} {RULER.NAME}" />
+    <string id="redwEIlW" text="Intendente" />
+    <string id="rFvEZJu7" text="{ITEM_NAME} se añadió al inventario de {PLAYER.LINK}." />
+    <string id="rgmnL6sF" text="Batalla del desierto{newline}{newline}• La caballería obtiene una gran bonificación.{newline}• Los arqueros a caballo obtienen una gran bonificación." />
+    <string id="rGNrtXSx" text="Llegaste a {.l}{SETTLEMENT} para ayudar a defender el asentamiento de los atacantes." />
+    <string id="RGqPxabq" text="Poder" />
+    <string id="rhfgzKtA" text="Contribución de {A0}" />
+    <string id="rHSjMjWX" text="Proponer decisión" />
+    <string id="RiZ9lNAe" text="Nivel de muro" />
+    <string id="RjgBIYvH" text="&lt;b&gt;Ariete mejorado&lt;/b&gt;{NEWLINE}Se usa para atravesar las puertas. Es mejor que uno normal." />
+    <string id="RJJ1Pbjk" text="{?HERO.GENDER}Mercenaria{?}Mercenario{\?} luchando por {.l}{FACTION_INFORMAL_NAME}" />
+    <string id="RJKLJDdf" text="+{BONUS_AMOUNT} de aumento a la capacidad de la prisión" />
+    <string id="RKyiu5MH" text="Quizás tú y yo podamos hacer un trato." />
+    <string id="rmSkXZlp" text="El torneo terminó. {TOURNAMENT_FINAL_OPPONENT} ganó al derrotarte en la última ronda." />
+    <string id="RNQIG1DS" text="¿Escuchas ese silbido y aullido? No es el viento, son los fantasmas de aquellos que nos desafiaron. Prepárate para unirte a ellos." />
+    <string id="RO0a71EP" text="Tu oponente construyó una barrera en tu contra, pero tienes la misma cantidad de piezas restantes. ¡El juego terminó en un empate!" />
+    <string id="ROB0VcsI" text="Tu campeón ganó el duelo. Tu ejército está inspirado por esta victoria. El grupo obtendrá moral." />
+    <string id="RpfgdR45" text="mi señor" />
+    <string id="rPvzZKFk" text="Guarnición inadecuada" />
+    <string id="rQ5On2GL" text="Tamaño adicional por cada grupo en el clan" />
+    <string id="RqnEjYVe" text="+{RECRUIT_AMOUNT} recluta{?ISPLURAL}s{?} {\?}" />
+    <string id="rqWJL27J" text="Oro total" />
+    <string id="RsBO5aOq" text="El arma debe tener daño {SWING_DAMAGE_TYPE} de tajo" />
+    <string id="RTmDiT0l" text="Bonificación de tamaño de grupo actual" />
+    <string id="rTuptXLg" text="Estandarte del atacante" />
+    <string id="RU6D7hSR" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están avanzando." />
+    <string id="RUcYGbUH" text="No tienes suficientes puntos." />
+    <string id="RuHaC2Ck" text="Impuesto de escudaje" />
+    <string id="RvDxHQ73" text="Precio: " />
+    <string id="RVfkxgMm" text="{?IS_PRISONER_FOLLOWING}Quedarse{?}Seguir{\?}" />
+    <string id="rxOK6dn1" text="Elegible para ser vasallo" />
+    <string id="rxxZFVOa" text="{HERO_NAME} puede completar {NUMBER} órdenes." />
+    <string id="rY23b263" text="Tu oponente movió una pieza." />
+    <string id="rZ9aqmaq" text="Hay un mejor objetivo. Deberíamos ir allí." />
+    <string id="RzjMX0Og" text="Bien. Ahora, retoma tu camino. ¡No olvides beber mucha agua!" />
+    <string id="rzsRQkXw" text="{CHAR_NAME} ya tiene la ventaja {PERK_NAME}." />
+    <string id="s1NEbhFL" text="En cola" />
+    <string id="s2vaPUdG" text="Soporte de lanza" />
+    <string id="S3ymfdwB" text="Realizaste cambios. ¿Quieres aplicarlos?" />
+    <string id="s5h0Yarn" text="Gestiona a tu ejército" />
+    <string id="s6ofDDii" text="Barricada" />
+    <string id="S9tmCkHz" text="Este héroe está despejando una zona común." />
+    <string id="sa2TQu1G" text="Este héroe está ocupado con un problema o una misión." />
+    <string id="SBp4Ja1u" text="Puedes usar puntos de enfoque gratis para aumentar el límite de aprendizaje en habilidades individuales. Los personajes obtienen {FOCUS_PER_LEVEL} punto de enfoque cada vez que suben de nivel." />
+    <string id="sbtJb2tL" text="Puedes apostar oro para aumentar el premio que recibes. En cada ronda, las probabilidades serán diferentes y podrás apostar {MAX_AMOUNT}{GOLD_ICON} cada vez." />
+    <string id="SCAehHN6" text="hijo" />
+    <string id="SdcpdfaV" text="Oye, tú. ¿Qué tienes en las bolsas? ¿Qué llevas?[if:convo_bared_teeth]" />
+    <string id="SdXS4lxN" text="Bonificación de líder de facción" />
+    <string id="SEBZa2Lh" text="Potenciar cohesión" />
+    <string id="secondabbr" text="s" />
+    <string id="SeQ0Q7r6" text="Tarea en curso" />
+    <string id="settlementtrack" text="Rastrear" />
+    <string id="sfcbd6QS" text="Obtuviste {CURRENT_PROGRESS} punto(s) de los {TARGET_PROGRESS} necesarios para tener éxito en el intento de persuasión." />
+    <string id="SFddKpPz" text="{?NPC.GENDER}Tacaña{?}Tacaño{\?}" />
+    <string id="SFg3xgCM" text="Cerca" />
+    <string id="sFpNAqHs" text="{?NPC.GENDER}Compasiva{?}Compasivo{\?}" />
+    <string id="Sj9Ux8jS" text="Derrotados" />
+    <string id="sJLUbnLl" text="Fuerza total" />
+    <string id="slKe6Gyc" text="Comida total del ejército" />
+    <string id="SLNKWIj5" text="El rasgo {TRAIT_NAME} del héroe debe ser {MAX_TRAIT_AMOUNT} o inferior." />
+    <string id="smeltverb" text="Fundir" />
+    <string id="smithingverb" text="Forjar" />
+    <string id="SMws1ws6" text="Escudo grande" />
+    <string id="SNfvAnuV" text="+{BONUS_AMOUNT_PERCENT} % de bonificación a la velocidad de reparación de los muros" />
+    <string id="SNVrnzES" text="No se puede reunir un ejército durante un encuentro" />
+    <string id="snxLc1Wq" text="Como se muestra en la imagen, dos piezas de cada jugador empiezan en el tablero. Los jugadores toman turnos para colocar el resto en cualquier casilla disponible, excepto en la del centro." />
+    <string id="snyxby5L" text="Volver al inicio" />
+    <string id="So5yubRS" text="No puede usarse a una mano" />
+    <string id="SojzHoCa" text="Solo mujer" />
+    <string id="spIe8wd8" text="Arma de asta a una mano" />
+    <string id="spkv1rOW" text="Cambiando al líder del grupo" />
+    <string id="SqUphVOm" text="Grupos ({CURRENT} / {LIMIT})" />
+    <string id="SrfYbg3x" text="Líder" />
+    <string id="SRYuaoh1" text="El desorden civil controla esta región, pero la gente aún debe dedicarse a sus tareas. En su mayoría no permanecen mucho en los mercados ni hacen contacto visual. Pero se pueden oír susurros sobre los rebeldes del campo. Algunos parecen temerlos y otros se emocionan en secreto de que alguien haga algo, incluso por un momento, contra los ricos y poderosos." />
+    <string id="Ssbr2dYx" text="Emitir llamado a la guerra" />
+    <string id="strcharactertypelady" text="Señora" />
+    <string id="stS5PBIr" text="Predicador" />
+    <string id="Sv4tD65i" text="Pagaron el rescate de {PRISONER_LORD.LINK} de {.l}{PRISONER_FACTION_LINK} a {.l}{CAPTURER_FACTION}." />
+    <string id="svArZT0G" text="Detalles" />
+    <string id="Svem1NiV" text="¡Tu oponente está inconsciente y tú ganaste!" />
+    <string id="svnxJA0L" text="La habilidad {SKILL} de {HERO} no es suficiente para fabricar esta arma." />
+    <string id="switchToNextElement" text="Cambiar" />
+    <string id="SwY4YLMY" text="El estandarte de dragón vuelve a ondear en lo alto." />
+    <string id="SydDh9jf" text="Recibiste {COUNT} {ITEM} de {HERO.NAME}." />
+    <string id="SYm7rgCX" text="{COMPANION.LINK} abandonó tu grupo." />
+    <string id="szSjkkyl" text="Deberíamos elegir el próximo objeto." />
+    <string id="T0aULilA" text="&lt;b&gt;Ariete&lt;/b&gt;{NEWLINE}Se usa para atravesar las puertas. Es mejor que las escaleras." />
+    <string id="t1hYTrMR" text="En el {DAY_OF_YEAR} día de {YEAR} cayó un reino. El {FORMAL_NAME} ya no está." />
+    <string id="T3JJ7aIV" text="Cabalga por el mapa con la mayor velocidad posible. Lucha a caballo para obtener una bonificación de velocidad." />
+    <string id="T592iYI4" text="Tiraste un {DICE_ROLL}." />
+    <string id="T5VsEnNE" text="Número de hombres" />
+    <string id="t5X1TNBq" text="use máquinas de asedio{?IS_GENERAL_SIDE}{?} en el área {SIDE_STRING} {\?}" />
+    <string id="t6DiaDQ3" text="una begum" />
+    <string id="t6NXmyoF" text="{.a} {STR}" />
+    <string id="t6sgwieR" text="Valor de fabricación" />
+    <string id="t6xdCj43" text="Oh, claro que podemos, claro que podemos. Dado que tienes una bolsa pesada y estás {?PLAYER.GENDER}lista{?}listo{\?} para volverla más ligera, desde luego.[ib:hip][rf:convo_bemused]" />
+    <string id="T8w5VRAy" text="Las tropas enemigas retroceden hacia el castillo." />
+    <string id="taaNCsVZ" text="Ganaste el torneo al derrotar a {TOURNAMENT_FINAL_OPPONENT} en la última ronda." />
+    <string id="tAMBVG9B" text="tercer" />
+    <string id="tb6e1wjQ" text="¡El enemigo destruyó todos tus artefactos de asedio!" />
+    <string id="TBfUP7n3" text="Guarida" />
+    <string id="TcLnmzr3" text="Cuando se disuelve un grupo, su líder se convertirá en fugitivo y los miembros restantes intentarán llegar a un asentamiento aliado cercano para unir sus fuerzas de defensa o desperdigarse en la naturaleza.{?DOES_DISBANDING_PARTY_HAVE_SHIP}Sus barcos se distribuirán entre los miembros de tu clan.{?}{\?}{newline}{newline}No podrás deshacer o cancelar esta acción.{newline}{newline}¿De verdad quieres continuar?" />
+    <string id="tDA5dhn3" text="emperatriz" />
+    <string id="TDQId8c9" text="Construiste una barrera contra tu oponente y tienes más piezas restantes. ¡Ganaste el juego!" />
+    <string id="tDy1TfDq" text="Regresar a héroe" />
+    <string id="tdYB3Tzc" text="Rehacer" />
+    <string id="TeWnL9bh" text="mi esposo {REFERING_HERO.LINK}" />
+    <string id="TgtdcMGS" text="Una mosca que se agita y lucha un poco, podemos manejar eso..." />
+    <string id="thIebQAR" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están cabalgando a la vanguardia." />
+    <string id="ThZdJyVW" text="Despedir administrador" />
+    <string id="Ti2GeG0U" text="Al seleccionar, esta opción bloqueará una opción al azar." />
+    <string id="ti5FwD4t" text="Grupo desconocido" />
+    <string id="TLuaPAIO" text="{A0} impuestos" />
+    <string id="TlvM7kuQ" text="decimoctavo" />
+    <string id="tMg5AF19" text="¡No puedes acceder a las misiones en este momento!" />
+    <string id="TmKbTxQy" text="katun" />
+    <string id="TNLRC4Gf" text="Lucha con un arma corta a una mano." />
+    <string id="tnZ7BfO9" text="Propuesta de paz" />
+    <string id="toK51MD4" text="Visita" />
+    <string id="tpjGRDHP" text="El duelo terminó. Mantén {leave_key} para salir." />
+    <string id="Tqa0r78j" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están atacando y dándose a la fuga." />
+    <string id="tQDbRfMs" text="Nos separaron en plena batalla" />
+    <string id="tqSODeKW" text="¡Te asesinaste a ti {?PLAYER.GENDER}misma{?}mismo{\?}!" />
+    <string id="tributeIncome" text="Ingresos de contribución" />
+    <string id="troopclassname" text="{FORMATION_CLASS}" />
+    <string id="trRLa9pi" text="Te encontraste con {.l}{PARTY}. Si te enfrentas a ellos, provocarás una guerra con {.l}{KINGDOM}." />
+    <string id="Tsn6bCft" text="{?NPC.GENDER}Generosa{?}Generoso{\?}" />
+    <string id="TSw4tD02" text="¿En serio? Entonces supongo que tendré que ensuciarme las manos el día de hoy.[ib:aggressive][if:convo_bared_teeth]" />
+    <string id="TSWen983" text="Misión activa" />
+    <string id="Tu46dFyH" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están usando armas de asedio." />
+    <string id="TVcqGJ1r" text="¡El héroe principal está preso!" />
+    <string id="TvmDFK6o" text="{REWARD}" />
+    <string id="twinfemale" text="Gemelo" />
+    <string id="twinmale" text="Gemelo" />
+    <string id="txa5GFWE" text="Este grupo está en una batalla ahora mismo" />
+    <string id="Txbga7js" text="Te topaste con una batalla entre {ATTACKER} y {DEFENDER}" />
+    <string id="TxeKpK3Y" text="Tu relación con {HERO.NAME} aumentó en {MAGNITUDE} y quedó en {VALUE}." />
+    <string id="tXl9REtA" text="Milicia de {.l}{SETTLEMENT_NAME}" />
+    <string id="Tyc4aAdz" text="Únete a la batalla sin liderar a ningún hombre." />
+    <string id="u3c9M8vx" text="una arconesa" />
+    <string id="U3LdMEXb" text="Deudas" />
+    <string id="U7etPQA2" text="{FIRSTNAME} {?HERO.GENDER}la{?}el{\?} {._}{JOB_NAME}" />
+    <string id="U7Z7f7ZT" text="Cónyuge" />
+    <string id="U8TPlwW9" text="Saludos, {PLAYER.LINK}. Siempre estaré en deuda contigo por lo que acabas de hacer. Espero encontrar la forma de pagártelo algún día." />
+    <string id="U8VHRdwF" text="Armadura de piernas: " />
+    <string id="ua15BlYh" text="Reinicia todo" />
+    <string id="uAL3bCfN" text="Carga{newline}Peso total de armadura y arma equipadas.{newline}Los valores altos de carga ralentizarán tu velocidad de movimiento a pie." />
+    <string id="UaV0JT87" text="Este héroe no puede fabricar este artículo." />
+    <string id="Uaw5VF3D" text="Tu oponente quiere abandonar el juego. ¿Aceptas tu victoria? Si no lo haces, seguirás jugando." />
+    <string id="uawXA7zW" text="En el {DAY_OF_YEAR} día de {YEAR} asesinaron a {NAME}." />
+    <string id="UaYsPbER" text="Salarios sin pagar" />
+    <string id="uB245vWg" text="Comida:" />
+    <string id="uBxHeyxy" text="Valor:" />
+    <string id="ucHWLtIt" text="+{BONUS_AMOUNT} de aumento a los hogares de aldeas establecidas por día" />
+    <string id="uCikaIoq" text="Espléndido. Verás, mis muchachos y yo no somos hombres crueles. Aunque sí un poco codiciosos, eso no podemos negarlo, así que sé {?PLAYER.GENDER}generosa{?}generoso{\?}.[ib:hip][rf:convo_bemused]" />
+    <string id="UckVajhO" text="Renombre obtenido: + {RENOWN}" />
+    <string id="UCo8oT1Q" text="Estrategia de guerra" />
+    <string id="uEiFfbOq" text="{SEASON} {DAY}, {YEAR}" />
+    <string id="uFDiRV1Z" text="({PRIMARY_ROLE})" />
+    <string id="uFuDwaYp" text="{HOUR} {?PLURAL_HOURS}horas{?}hora{\?}" />
+    <string id="ug4LiPbb" text="Armas a distancia IV" />
+    <string id="uGahvbVP" text="Defiende armas de asedio{?IS_GENERAL_SIDE}{?} en el flanco {SIDE_STRING}{\?}" />
+    <string id="UgMbCUMO" text="mi padre {REFERING_HERO.LINK}" />
+    <string id="ugX2RRDY" text="Me capturaron y pidieron rescate" />
+    <string id="uhcIXeba" text="Vas a descartar objetos. ¿De verdad quieres continuar?" />
+    <string id="uinDitbl" text="Debemos atravesar los muros." />
+    <string id="UIqPXN62" text="Golpea a enemigos con armas arrojadizas." />
+    <string id="uixuohBp" text="Proyectos de asentamiento" />
+    <string id="UJ01br0b" text="Este héroe no tiene la habilidad {SKILL} necesaria para completar esta orden." />
+    <string id="um1Z5swc" text="la señora {REFERING_HERO.LINK}" />
+    <string id="uN5gwV05" text="{?NPC.GENDER}Fallecida{?}Fallecido{\?}" />
+    <string id="uOqdr7FM" text="¡Felicidades! ¡Venciste a tu oponente!" />
+    <string id="uOqfaqbk" text="{PARTY_LIST_TAG}({COUNT} / {MAX_COUNT})" />
+    <string id="UOr4UP47" text="Muy prudente" />
+    <string id="UP6yVQ7b" text="{?HERO.GENDER}Partidaria{?}Partidario{\?} de" />
+    <string id="uPZH31zw" text="Tío" />
+    <string id="uQbT8RwL" text="Batalla de mar{newline}{newline}• Los barcos ligeros obtienen una bonificación mayor.{newline}• Los barcos pesados reciben una penalización mayor.{newline}" />
+    <string id="UQc6zg1Q" text="Callejones en posesión" />
+    <string id="ur8kO8iM" text="Consejos del juego" />
+    <string id="UtQhRvS8" text="esposo" />
+    <string id="Uu0wzNj3" text="Categ. clan: {TIER} " />
+    <string id="uUlO8l6M" text="Oí que peleaste con algunas de las personas que trabajan para {COMMON_AREA_OWNER}. Bueno, eso no es asunto mío." />
+    <string id="uuwm0Kga" text="Puerta" />
+    <string id="uuyso3mg" text="Ingresos de los grupos" />
+    <string id="uvIL0tP9" text="Ver alcance" />
+    <string id="uwPByaQg" text="Iniciar asalto" />
+    <string id="UX7reJ3K" text="Debemos apresurarnos para defender nuestras máquinas de asedio para que el enemigo no las destruya." />
+    <string id="UxAl9iyi" text="Personal" />
+    <string id="UxD6lPXa" text="Obtuviste {INFLUENCE} de influencia. Tu nueva influencia es {NEW_INFLUENCE}." />
+    <string id="UxyIkWah" text="Los mercenarios no pueden anexar asentamientos." />
+    <string id="uYFd4meY" text="Misión otorgada por" />
+    <string id="V03gbccF" text="¡Atacaste a una tropa enemiga!" />
+    <string id="V0Kw3O7c" text="Tutorial" />
+    <string id="V0OMMQ1F" text="Una actuación magistral, {PLAYER.LINK}. ¡Zas! ¡Pam! Acabaste con {OPPONENT_COUNT} de ellos. Al público le encantó. Y obtuviste {PRIZE}{GOLD_ICON} como premio." />
+    <string id="V1FKcYyi" text="{SETTLEMENT_NAME} (saqueado)" />
+    <string id="v3cY44N1" text="No puedes anexar el asentamiento de un clan gobernante." />
+    <string id="v3MZGujs" text="{PRISONER_LORD.LINK} ahora está en manos de {.l}{CAPTOR_FACTION}." />
+    <string id="v4nltcfz" text="{PARTY_LIST_TAG}{TOTAL_COUNT}/{MAX_COUNT} ({COUNT} + {WEAK_COUNT}w)" />
+    <string id="v5bJd6mZ" text="+{BONUS_AMOUNT} al cambio de prosperidad" />
+    <string id="V7ESaOJU" text="Elige tu estandarte" />
+    <string id="Vap6ahft" text="¡Hombres! ¡{BEHAVIOUR_NAME_BEGIN}!" />
+    <string id="Vc9Mx6Jb" text="Misión" />
+    <string id="vdK5SaJN" text="Mmm. Qué pena.[ib:aggressive][if:convo_annoyed]" />
+    <string id="vdKLq8T5" text="Muros{newline}de nivel {LEVEL}" />
+    <string id="veiFupWz" text="{?RULER.GENDER}Baronesa{?}Barón{\?} {RULER.NAME}" />
+    <string id="VeJii4gg" text="Misión fallida por traición: {QUEST_TITLE}" />
+    <string id="VeOqrmx5" text="{LEFT}{FOCUS_ICON}{RIGHT}" />
+    <string id="VeqwXwYc" text="El enemigo está huyendo. Ganaste la batalla." />
+    <string id="vgXYtMrj" text="Sobrevivientes de la batalla" />
+    <string id="VHjIJGja" text="Tienes que estar en un reino" />
+    <string id="vhq22OyK" text="Prosp." />
+    <string id="Vi6ojGrk" text="{FACTION_1_NAME} contra {FACTION_2_NAME}" />
+    <string id="vIpFgbU6" text="Armadura ligera" />
+    <string id="VJNJsdif" text="{COMPANION.NAME} se unió a tu grupo." />
+    <string id="vK3PVdsN" text="{PRISONER_LORD.LINK} de {.l}{PRISONER_FACTION_LINK} escapó del cautiverio." />
+    <string id="vLU6nNwp" text="Apostaste {BET_AMOUNT} por {FIGHTER_NAME} y {?FIGHTER_GENDER}ella{?}él{\?} ganó la pelea. Aquí tienes {REWARD_AMOUNT}{GOLD_ICON} como recompensa." />
+    <string id="vn7A8aXV" text="Estás afuera de {.l}{SETTLEMENT_NAME}. Tu estandarte se ondea sobre la puerta del castillo." />
+    <string id="vnmy8Bjl" text="Gastos totales " />
+    <string id="vo867CHX" text="Misiones completadas en el último año" />
+    <string id="VOYhAyJh" text="Oprime &quot;{MODIFIER_KEY}&quot; + &quot;{CLICK_KEY}&quot; para seguir." />
+    <string id="VoZBLWay" text="{RULER.NAME} {?RULER.GENDER}katun{?}kan{\?}" />
+    <string id="VpCa9ATa" text="Bien. Vas a morir.[ib:aggressive][if:convo_insulted]" />
+    <string id="VpKIzJxz" text="Hola, {?PLAYER.GENDER}viajera{?}viajero{\?}. Acabamos de llegar a estas tierras con la esperanza de tener un poco de suerte con los asaltos y los saqueos. ¡Qué alegría verte por aquí![rf:convo_mocking_revenge]" />
+    <string id="vpx7Pa7v" text="Oferta" />
+    <string id="VPYazFVH" text="Velocidad de estocada: " />
+    <string id="VqpmXU1m" text="Dispara a enemigos con una ballesta." />
+    <string id="VrTGIQyy" text="+{BONUS_AMOUNT_PERCENT} % de aumento a la veteranía de milicia" />
+    <string id="vSr60kDj" text="En el {DAY_OF_YEAR} día de {YEAR}, nació la criatura de {MOTHER_NAME}." />
+    <string id="VSZGbSEO" text="Los artículos no coinciden." />
+    <string id="vT4MPxNt" text="Pagaron el rescate de {PRISONER_LORD.LINK} a {.l}{CAPTURER_FACTION}." />
+    <string id="Vvo92lyj" text="del imperio meridional" />
+    <string id="vvUayAoO" text="Asesinaron a {HERO.NAME}." />
+    <string id="vvXTnr8i" text="Expulsar del clan" />
+    <string id="vw1bbcww" text="escaramuce detrás de la formación aliada de {.l}{CLASS} de {AI_SIDE}" />
+    <string id="Vw7BUXvw" text="Munificente" />
+    <string id="VWahbQGh" text="mi {?HERO.GENDER}amiga{?}amigo{\?} {REFERING_HERO.LINK}" />
+    <string id="VWQbVKT4" text="Disolver grupo" />
+    <string id="vXY5wPgP" text="{BONUS_AMOUNT_PERCENT} % de {?BONUS_AMOUNT_PERCENT &gt; 0}aumento{?}reducción{\?} de consumo de comida" />
+    <string id="vXzJJtYq" text="Nuestro plan es ponernos en posición y lanzarles una lluvia de flechas." />
+    <string id="VyJMWO8a" text="{GOLD_AMOUNT}{GOLD_ICON} entregado." />
+    <string id="VyPwh1CT" text="Llevar {?HERO.GENDER}a la heroína{?}al héroe{\?} al grupo" />
+    <string id="vZRYAvYH" text="los vlandianos" />
+    <string id="vZVJNTOD" text="EXP de donación" />
+    <string id="vZzDCjDr" text="Nadie está dispuesto a ser reclutado en este pueblo por el momento." />
+    <string id="W1seGc3t" text="Cartucho" />
+    <string id="w3v2S03V" text="&lt;a style=&quot;IncreaseStyle&quot; &gt;&lt;b&gt;Aumentará&lt;/b&gt;&lt;/a&gt; tu relación con {HERO_NAME}" />
+    <string id="W5gPypVY" text="Usa la forja para crear armas, refinar materiales y fundir armas antiguas." />
+    <string id="w758X31N" text="Artículo" />
+    <string id="w7Q64T2H" text="{PRISONER_LORD.LINK} murió mientras era prisionero de {.l}{CAPTURER_FACTION}." />
+    <string id="w9beDbTI" text="Alternar modo de cámara" />
+    <string id="w9C43LhX" text="{DECISION_NAME} ¿Te gustaría sugerir un propietario?" />
+    <string id="WaQ93uXZ" text="En el {DAY_OF_YEAR} día de {YEAR}, {NAME} murió dando a luz." />
+    <string id="WDduTwIB" text="+{BONUS_AMOUNT} de aumento al reclutamiento automático" />
+    <string id="wdKJWkNQ" text="Grupos de patrullaje" />
+    <string id="wdsJRYRn" text="Apareciste justo a tiempo, {PLAYER.LINK}. No olvidaré tu ayuda." />
+    <string id="Wey28apL" text="Puede reforzarse" />
+    <string id="wFzAKWMX" text="Llamado de {.l}{CALLED_KINGDOM} para declararle la guerra a {.l}{KINGDOM_TO_CALL_TO_WAR_AGAINST}" />
+    <string id="WharCvcX" text="Debemos defender los muros e impedir que entre el enemigo." />
+    <string id="WHED64rw" text="Habrá una nueva tropa disponible aquí después de un tiempo." />
+    <string id="WHtINdhX" text="vigésimo tercero" />
+    <string id="WhuufgY5" text="Relaciones destacadas" />
+    <string id="wib91252" text="Profesión: {PROFESSION}" />
+    <string id="wifebrotherinlaw" text="cuñado" />
+    <string id="wifefatherinlaw" text="suegro" />
+    <string id="wifemotherinlaw" text="suegra" />
+    <string id="wifesisterinlaw" text="cuñada" />
+    <string id="wjb4tZDX" text="Nivel: {LEVEL}" />
+    <string id="WJGCGka2" text="{PRISONER_LORD.LINK} de {.l}{PRISONER_FACTION_LINK} ahora está en manos de {CAPTURER_LORD.LINK} de {.l}{CAPTURER_FACTION_LINK}." />
+    <string id="wjuieMsE" text="¡Tu oponente obtuvo 1 punto por el golpe!" />
+    <string id="wKbafI9r" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están disparando desde la torre de asedio." />
+    <string id="wKgpciSx" text="{AMOUNT}{INFLUENCE_ICON}" />
+    <string id="WlV9cE5E" text="Los mercenarios no pueden proponer políticas de guerra." />
+    <string id="wmpwMa8j" text="{?IS_POSITIVE}+{?}-{\?}{CHANGE}" />
+    <string id="wNHfL0x0" text="En el {DAY_OF_YEAR} día de {YEAR}, {VICTIM.LINK} cayó en la batalla." />
+    <string id="wNjhpOOM" text="Aplicar intercambio" />
+    <string id="wshehbFu" text="Los mercenarios no pueden disolver ejércitos." />
+    <string id="WsOoZCRR" text="+{BONUS_AMOUNT_PERCENT} % de aumento a la producción del taller" />
+    <string id="WSoZkkqD" text="Guardia de prisión" />
+    <string id="wtDdqXGW" text="Bueno, me alegra que respetes nuestros antiguos y sagrados privilegios." />
+    <string id="WTR5Lr8W" text="Los defensores ganan cuando pueden mover a su rey a cualquier borde del tablero.{newline}Los atacantes ganan cuando capturan al rey o si evitan que todos los defensores puedan moverse." />
+    <string id="wTT3Fyzl" text="señor" />
+    <string id="WusvipsF" text="¡Fondos insuficientes!" />
+    <string id="WVAUoXMY" text="{CURRENT_XP} / {LEVEL_MAX_XP} EXP" />
+    <string id="WvyWpbE8" text="Costo de conformidad del recluta de prisioneros" />
+    <string id="wXQUXa1P" text="No puedes otorgar más puntos de enfoque a esta habilidad." />
+    <string id="WYfjyuHj" text="Bueno... Fue un viaje largo, así que busca generosidad en tu bolsa." />
+    <string id="wZnsFoQ6" text="Creo que no nos hemos presentado como corresponde, {?PLAYER.GENDER}amiga mía{?}amigo mío{\?}. Acabas de salvar mi vida, y todavía no sé cómo te llamas..." />
+    <string id="wZovddJ9" text="{PRISONER.NAME} escapó de tu grupo." />
+    <string id="WZTRH6W9" text="Cesionarios" />
+    <string id="X1tny9v2" text="Asaltos exitosos" />
+    <string id="x2mSJAVa" text="Un jugador gana si su oponente solo se queda con una o sin ninguna pieza.{newline}{newline}Otra forma de ganar es al construir una barrera que deje a todas las piezas del oponente en un lado. Cuando se construye una barrera, el jugador que tenga la mayor cantidad de piezas gana." />
+    <string id="X4qO3jBf" text="{?RULER.GENDER}Banmormaer{?}Mormaer{\?} {RULER.NAME}" />
+    <string id="XaCbpDUv" text="Deberíamos patrullar esta zona por un tiempo." />
+    <string id="XaFXqGhz" text="Balas" />
+    <string id="xaHELVnx" text="Torre de asedio (nivel 1)" />
+    <string id="xavuhZtN" text="Si procedes, {LEADER.NAME} liderará este grupo.{?DOES_LEADER_NEED_GOLD}{newline}{newline}Te costará {PARTY_COST}{GOLD_ICON}.{newline}{newline}{?} {\?}¿De verdad quieres continuar?" />
+    <string id="xbh6Bmhf" text="Apoyo actual del reino" />
+    <string id="XBIPqxA2" text="Vacío" />
+    <string id="XbKMacMQ" text="Gastos de partidarios" />
+    <string id="XbMVn2JV" text="Montura de carga" />
+    <string id="xD3ICb06" text="Batalla en la nieve{newline}{newline}• La caballería obtiene una gran bonificación.{newline}• Los arqueros a caballo obtienen una gran bonificación." />
+    <string id="xD9xlbXt" text="príncipe" />
+    <string id="Xedhfj07" text="Habrá que esperar {TRAVEL_DURATION} para que {HERO_NAME} llegue a tu grupo. ¿Quieres continuar?" />
+    <string id="xEWwbGVK" text="Precisión: " />
+    <string id="xf4gqDml" text="No se puede reunir un ejército durante un asedio" />
+    <string id="XgioIHv6" text="Solucionar decisión existente" />
+    <string id="xGjug9Sd" text="!" />
+    <string id="xgwjHi1p" text="Rechazar" />
+    <string id="xHc1xhG8" text="elimine al enemigo que está dentro del castillo." />
+    <string id="XJ6EG3Pa" text="+{BONUS_AMOUNT} al límite de reserva de comida" />
+    <string id="xKa6TwEX" text="Permanecerá en {.l}{SETTLEMENT_NAME}" />
+    <string id="XNNvdkul" text="Gobernando en {.l}{SETTLEMENT_NAME}" />
+    <string id="XnsAbUE3" text="Descartar" />
+    <string id="xo2zvOir" text="Tu oponente no puede realizar más movimientos. Salto de turno." />
+    <string id="xq62HAIO" text="proteja{?IS_GENERAL_SIDE}{?} el flanco {SIDE_STRING}{\?} de la formación aliada de {CLASS} de {AI_SIDE}" />
+    <string id="xqeFT0cU" text="Durante {DAY} {?DAY_IS_PLURAL}días{?}día{\?}" />
+    <string id="xqN16a4k" text="Juego de tablero" />
+    <string id="xqOqriWF" text="Nieta" />
+    <string id="XqV3x4i3" text="Al seleccionar, esta opción avanzará el intento de persuasión a la siguiente fase." />
+    <string id="xsIU28Za" text="¡Bien hecho! Ya no dormiremos en rocas duras y frías ni cenaremos ardillas." />
+    <string id="xSKFr3Rs" text="espere" />
+    <string id="xT8955dO" text="Atuendo de civil" />
+    <string id="XTubeiTb" text="Escudo III" />
+    <string id="Xv6knZP8" text="-{PRISONERS_AMOUNT} prisionero{?ISPLURAL}s{?} {\?}" />
+    <string id="xv8T0Il8" text="El jugador que empieza y la cantidad de casillas que puede moverse se deciden al lanzar cuatro palitos de dos colores." />
+    <string id="xwWUDia6" text="Apuesta" />
+    <string id="xWydBJyS" text="Los rebeldes de {.l}{SETTLEMENT} se alzaron contra su gobernante, {RULER}." />
+    <string id="Xx9EbSwG" text="Bota" />
+    <string id="XxLCJb0W" text="{?NPC.GENDER}Honesta{?}Honesto{\?}" />
+    <string id="xycMiCIq" text="No he encontrado comercios rentables últimamente." />
+    <string id="XzggyCPW" text="Este héroe está ocupado." />
+    <string id="xZxbFuDI" text="Entonces, los chacales se alimentarán bien esta noche." />
+    <string id="y0MmmV8C" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están formando un círculo defensivo alrededor de las tropas a distancia." />
+    <string id="y1uH6Og1" text="Equipo de caballo IV" />
+    <string id="Y20AQIvo" text="¡{CAPTOR_NAME} capturó a {PRISONER.NAME}!" />
+    <string id="y3cP8Etv" text="Misión cancelada: {QUEST_TITLE}" />
+    <string id="y3OKIfj0" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están disparando desde la cobertura de infantería." />
+    <string id="Y4fht2kI" text="Personajes destacados" />
+    <string id="y4MiEr0H" text="Tipos de tropas" />
+    <string id="Y5byltUT" text="sultán" />
+    <string id="y8Catvvn" text="Armas a distancia III" />
+    <string id="y8tOrlnJ" text="decimoprimer" />
+    <string id="yaxwYglT" text="Enviados" />
+    <string id="YbabzW3H" text="Has estado durante {NUMBER_OF_DAYS} {?PLURAL}días{?}día{\?} en la prisión de {.l}{SETTLEMENT_NAME}." />
+    <string id="YbB2IpTR" text="Tu relación con {HERO.NAME} disminuyó en {MAGNITUDE} y quedó en {VALUE}." />
+    <string id="yBnwGiuB" text="Señor" />
+    <string id="Yc4xzip6" text="¿Quieres ejecutar a {NAME}?" />
+    <string id="YCYwPPlJ" text="Deshabilitar todos los tutoriales" />
+    <string id="YeaFZzXS" text="En el {DAY_OF_YEAR} día de {YEAR} {LEADER_NAME} declaró la creación de un nuevo reino, {KINGDOM_NAME}." />
+    <string id="yeEaBV29" text="Nos lo quedaremos. Puedes vivir. Ahora vete antes de que cambie de parecer.[ib:closed][if:convo_normal]" />
+    <string id="yenZGMzi" text="Adelantar" />
+    <string id="YevUiidU" text="Tu relación con {CLAN_LEADER} disminuyó en {MAGNITUDE} y quedó en {VALUE}." />
+    <string id="Yf6bHCeW" text="{SETTLEMENT_NAME} (tarifa)" />
+    <string id="yfNAkFgF" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están formando una línea de escaramuza." />
+    <string id="YgcirtUD" text="Batalla en las planicies{newline}{newline}• La caballería obtiene una gran bonificación.{newline}• Los arqueros a caballo obtienen una gran bonificación." />
+    <string id="ygY1oKQD" text="Estamos a su servicio, {?PLAYER.GENDER}señora{?}señor{\?}. Díganos dónde están aquellos que merecen una paliza y nosotros nos encargaremos del resto.[ib:convo_approving]" />
+    <string id="YhLweMrP" text="Armaduras" />
+    <string id="YifFZaG7" text="{?HERO.GENDER}Propietaria{?}Propietario{\?} del grupo" />
+    <string id="Yj0cQVLH" text="¡A la carga!" />
+    <string id="yjXoftYs" text="Presencia detectada por última vez {?IS_IN_SETTLEMENT}en{?}cerca de{\?} {.l}{SETTLEMENT}." />
+    <string id="YkagFP1z" text="mi madre {REFERING_HERO.LINK}" />
+    <string id="ykZLXKH3" text="Renombre: {RENOWN}" />
+    <string id="ylQJwqKH" text="¡Vas a dejar un botín que te costó obtener! ¿De verdad quieres continuar?" />
+    <string id="ymBKDAuj" text="Mostrar eventos recientes en esta guerra" />
+    <string id="YMIFqVOk" text="¿De verdad quieres rendirte? ¡Perderás todas tus tropas!" />
+    <string id="YNND0kc9" text="Lanzas con protectores torcidas" />
+    <string id="yNyQ3RFa" text="{HERO.NAME} murió en el parto." />
+    <string id="yOJAiSf4" text="Sin formación" />
+    <string id="YOSEIvyf" text="Manejo: " />
+    <string id="yQiDdDPY" text="Caballo ligero" />
+    <string id="yRQDL2ab" text="Guarnición:" />
+    <string id="yRTV90eN" text="Tienes que seleccionar un resultado." />
+    <string id="yrvH6Oa1" text="¡Espera en la posición de inicio!" />
+    <string id="ySlVPZyF" text="Mientras intentas obligar a las eminencias a que te entreguen reclutas, algunos residentes se reunieron para oponerte resistencia. Si te enfrentas a ellos, provocarás una guerra con {.l}{KINGDOM}." />
+    <string id="YSM0lxns" text="Costo" />
+    <string id="ySmxkiKH" text="Vámonos." />
+    <string id="ytlsMCCn" text="{DESERTER_COUNT} {?PLURAL}tropas desertaron{?}tropa desertó{\?} de {PARTY}." />
+    <string id="ytYPOCZ8" text="{NUMBER} % completado" />
+    <string id="yU35xy1f" text="No puedes crear un ejército mientras tu grupo está en el mar." />
+    <string id="YukbQgHJ" text="Velocidad de misil: " />
+    <string id="yUo269Us" text="Gracias por tu ayuda, {?PLAYER.GENDER}forastera{?}forastero{\?}. No nos hemos presentado como corresponde, ¿verdad? ¿Cómo te llamas?" />
+    <string id="yVLv2Q23" text="Proceder" />
+    <string id="YvwQL9aa" text="Peso: " />
+    <string id="yWD4Nwy2" text="Deberíamos ayudar a nuestros aliados." />
+    <string id="YxEcX6pS" text="En el {DAY_OF_YEAR} día de {YEAR} encontraste la segunda pieza del estandarte de dragón de Calradios." />
+    <string id="YxKHEUEX" text="El torneo terminó. {TOURNAMENT_FINAL_PARTICIPANT_A} ganó al derrotar a {TOURNAMENT_FINAL_PARTICIPANT_B} en la última ronda. Te eliminaron en la ronda {TOURNAMENT_ELIMINATED_ROUND}." />
+    <string id="YYdPfXEP" text="Tablut es un juego de atacantes (piezas negras) contra defensores (piezas blancas).{newline}Los atacantes superan en número a los defensores, pero los defensores no tienen que capturar para ganar. Su objetivo principal es asegurar a su rey (pieza central).{newline}El rey sigue las mismas reglas de movimiento y captura que las demás piezas." />
+    <string id="YYvzM5Dh" text="Descartar todo" />
+    <string id="yzIOcJoK" text="Un jugador gana si bloquea a su oponente y no puede realizar ningún movimiento." />
+    <string id="z0c2pDhZ" text="En paz" />
+    <string id="z3AvJZMt" text="Se puede comprar en {.l}{SETTLEMENT_NAME} por {BUY_PRICE}" />
+    <string id="Z3yCe1HS" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL} y {?}{\?}{TROOP_NAMES_END} están reagrupándose." />
+    <string id="Z5kGFH7k" text="pza." />
+    <string id="Z5RlxyPJ" text="{.L}{PARTY_NAME} te ha tenido durante {NUMBER_OF_DAYS} {?PLURAL}días{?}día{\?} como {?PLAYER.GENDER}prisionera{?}prisionero{\?}." />
+    <string id="Z6sDPstD" text="Granjas de la aldea" />
+    <string id="z716wRaB" text="No puedes disolver un grupo de milicia" />
+    <string id="z7vSaa7L" text="Producción de la aldea" />
+    <string id="Z8LeI4ho" text="Guardaespaldas" />
+    <string id="ZaoZKcx9" text="Habitantes" />
+    <string id="ZaseErqk" text="¡No puedes retirarte, hay enemigos cerca!" />
+    <string id="zBC5cQic" text="A favor de abolir" />
+    <string id="ZdeswYbM" text="¡El comerciante no tiene suficiente dinero! ¿De verdad quieres continuar?" />
+    <string id="ZdqbU2gw" text="Aceptar" />
+    <string id="zE6OFPRu" text="Impuesto de asentamiento" />
+    <string id="zEbvDH7V" text="No puedes apoyar a tu propio clan." />
+    <string id="zeGAw2IE" text="{?PLAYER.GENDER}Asesinada{?}Asesinado{\?} por" />
+    <string id="ZEzxHLaH" text="No puedes reclutar a héroes prisioneros" />
+    <string id="zg0q1aqD" text="No puedes disolver un grupo de guarnición" />
+    <string id="Zg5Zmgui" text="Vamos de regreso a nuestra aldea desde el mercado en {TOWN}." />
+    <string id="ZhiB1EOM" text="En la prisión en {.l}{SETTLEMENT_NAME}" />
+    <string id="zkJPFtYn" text="Misión completada: {QUEST_TITLE}." />
+    <string id="ZlJIpfWg" text="Bonificación de velocidad: {SPEED_BONUS} %." />
+    <string id="ZMdOAbTd" text="Ejército atacante" />
+    <string id="zNekjGmR" text="Reclutar prisionero" />
+    <string id="zNEvBr6R" text="Tu turno" />
+    <string id="zNHtgL0S" text="El torneo será una competencia de tiro al blanco." />
+    <string id="ZnsseELq" text="El nombre de la facción debe tener entre {MIN} y {MAX} caracteres." />
+    <string id="znxbib0f" text="Mostrar estadísticas para este uso" />
+    <string id="zo5hQfll" text="Los lobos ganan si logran eliminar a 5 ovejas del tablero.{newline}{newline}Las ovejas ganan si pueden bloquear a los lobos para que no puedan realizar más movimientos." />
+    <string id="zpaLDTI4" text="Paga y podrás pasar." />
+    <string id="ZPaw3WuO" text="Los vlandianos son los descendientes de los aventureros del oeste que vivieron bajo el control del imperio durante siglos antes de formar un reino independiente. Con el rechazo de la autoridad imperial, evolucionaron en una sociedad feudal bien organizada liderada por un grupo de nobles beligerantes que preferían pelear con lanzas y lanzas de caballería a caballo." />
+    <string id="zqihwKAs" text="&lt;b&gt;Balista&lt;/b&gt;{NEWLINE}Dispara virotes con un efecto letal. Eficaz contra soldados." />
+    <string id="ZqWOb1jM" text="Estás afuera del pueblo de {.l}{SETTLEMENT_NAME}. No puedes entrar porque {.l}{FACTION_TERM} te busca" />
+    <string id="ZR2bAa1p" text="Caballería ligera" />
+    <string id="zruLFJDG" text="Defender asentamientos tiene un peso mayor en la toma de decisiones. El grupo también perseguirá a los enemigos en una distancia más corta." />
+    <string id="ztP8UKb8" text="Elegir infantería" />
+    <string id="zTxMEKaY" text="¡No puedes acceder al menú de flota en este momento!" />
+    <string id="ZuLa12aT" text="Así me gusta... Somos una pandilla de bastardos, y no querrás meterte con nosotros.[rf:convo_bemused]" />
+    <string id="Zuq5mO5e" text="Hablar a líder del grupo" />
+    <string id="ZuRzP6kF" text="No puedes reunir a un ejército mientras estás en batalla" />
+    <string id="ZV7bt7Il" text="{newline}{PARTY_NAME}: {PARTY_MORALE}" />
+    <string id="ZvoyX6DX" text="{?RULER.GENDER}battaniana{?}battaniano{\?}" />
+    <string id="zw5IEUuD" text="{TITLE}: Registro actualizado." />
+    <string id="Zw60OTJe" text="La mayoría de las personas está contenta, aunque escuchas algunas quejas sobre los precios en alza, la distribución desigual de la riqueza y los emigrantes que provienen del campo." />
+    <string id="ZwyPnboN" text="+{BONUS_AMOUNT} de bonificación a la lealtad del asentamiento" />
+    <string id="zX4C3332" text="Entonces, morirás. Prepárate." />
+    <string id="zxckitKe" text="Partiste para atacar a {PARTY}." />
+    <string id="ZxcnmaXi" text="Llegaste a {.l}{SETTLEMENT} para asaltar. Nadie opuso resistencia. Si asaltas esta aldea, provocarás una guerra con el reino de {.l}{KINGDOM}." />
+    <string id="ZXXNrvvg" text="Un jugador gana si su oponente no tiene más piezas disponibles en la mano o en el tablero." />
+    <string id="zzUk6ZaA" text="Saliendo" />
+  </strings>
+</base>

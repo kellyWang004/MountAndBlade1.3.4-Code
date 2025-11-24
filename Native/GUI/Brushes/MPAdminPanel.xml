@@ -1,0 +1,111 @@
+<Brushes>
+  
+  <Brush Name="MPAdminMessage.Text" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#DB4040FF" TextBlur="0" TextOutlineAmount="0.2" TextOutlineColor="#000000FF" TextGlowRadius="0" FontSize="40" />
+    </Styles>
+  </Brush>
+  
+  <Brush Name="MPAdminPanel.OptionGroup.Title.Text" Font="Galahad" TextHorizontalAlignment="Left" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" TextBlur="0" TextOutlineAmount="0.2" TextOutlineColor="#000000FF" TextGlowRadius="0" FontSize="34" />
+    </Styles>
+  </Brush>
+  
+  <Brush Name="MPAdminPanel.Title.Text" Font="Galahad" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" TextBlur="0" TextOutlineAmount="0.2" TextOutlineColor="#000000FF" TextGlowRadius="0" FontSize="40" />
+    </Styles>
+  </Brush>
+  
+  <Brush Name="MPAdminPanel.Option.Title.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Left" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#FAF4DEFF" TextBlur="0" TextOutlineAmount="0.2" TextOutlineColor="#000000FF" TextGlowRadius="0" TextAlphaFactor="0.85" FontSize="20" />
+    </Styles>
+  </Brush>
+  
+  <Brush Name="MPAdminPanel.Option.Button.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#FAF4DEFF" TextBlur="0" TextOutlineAmount="0.2" TextOutlineColor="#000000FF" TextGlowRadius="0" FontSize="20" />
+    </Styles>
+  </Brush>
+  
+  <Brush Name="MPAdminPanel.Option.Value.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Left" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#FAF4DEFF" TextBlur="0" TextOutlineAmount="0.1" TextOutlineColor="#000000FF" TextGlowRadius="0" FontSize="18" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPAdminPanel.Option.Numeric.Input.Frame">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="WhiteFrame_9" Color="#FAF4DEFF" AlphaFactor="0.5"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" ColorFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.6" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.5" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="0.7" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.1" ColorFactor="0.7" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPAdminPanel.Option.Reset.Button">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\button_refresh_flat" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.7" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="MPAdminPanel.Option.Revert.Button">
+    <Layers>
+      <BrushLayer Name="Background" Sprite="rounded_frame_9" Color="#EAEAEAFF" ExtendLeft="5" ExtendRight="5" ExtendTop="5" ExtendBottom="5" AlphaFactor="0.4" />
+      <BrushLayer Name="Default" Sprite="StdAssets\bottom_cross_button" Color="#DB4040FF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Background" AlphaFactor="0.6" ExtendLeft="6" ExtendRight="6" ExtendTop="6" ExtendBottom="6" />
+        <BrushLayer Name="Default" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Background" AlphaFactor="0.3" ExtendLeft="4" ExtendRight="4" ExtendTop="4" ExtendBottom="4" />
+        <BrushLayer Name="Default" ColorFactor="0.6" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.7" />
+      </Style>
+    </Styles>
+  </Brush>
+  
+</Brushes>

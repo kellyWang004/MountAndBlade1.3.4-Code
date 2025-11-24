@@ -1,0 +1,1955 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/xmlschema-instance" xmlns:xsd="http://www.w3.org/2001/xmlschema"
+	type="face_animation_record">
+	<face_animation_records>
+		<!--FACEGEN-->
+		<face_animation_record
+			id="male_custom"
+			animation_name="male_custom">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="male_facegen"
+			animation_name="male_facegen">
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="female_facegen"
+			animation_name="female_facegen">
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="female_custom"
+			animation_name="female_custom">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="facegen_teeth"
+			animation_name="facegen_teeth">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="portraits"
+			animation_name="portraits"></face_animation_record>
+		<!--FACEGEN-->
+		<!--ORDERS-->
+		<face_animation_record
+			id="archers"
+			animation_name="archers">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="cavalry"
+			animation_name="cavalry">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="attack"
+			animation_name="attack">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="everyone"
+			animation_name="everyone">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="followme"
+			animation_name="followme">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="infantry"
+			animation_name="infantry">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="move"
+			animation_name="move">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="retreat"
+			animation_name="retreat">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<!--ORDERS-->
+		<!--GREETINGS-->
+		<face_animation_record
+			id="test"
+			animation_name="test">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="test1"
+			animation_name="test1">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="test2"
+			animation_name="test2">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="talking_happy"
+			animation_name="talking_happy">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="talking_angry"
+			animation_name="talking_angry">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="talking_sad"
+			animation_name="talking_sad">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="talking_mean"
+			animation_name="talking_mean">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="talking_normal"
+			animation_name="talking_normal">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="talking_engaged"
+			animation_name="talking_engaged">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<!--GREETINGS-->
+		<!--GAMEPLAY REACTIONS-->
+		<face_animation_record
+			id="grunt"
+			animation_name="grunt">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="death"
+			animation_name="death">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="death2"
+			animation_name="death2">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="lift"
+			animation_name="lift">
+			<flags>
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="yell"
+			animation_name="yell">
+			<flags>
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="victory"
+			animation_name="victory">
+			<flags>
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="hit"
+			animation_name="hit">
+			<flags>
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="scream"
+			animation_name="scream">
+			<flags>
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="pain"
+			animation_name="pain">
+			<flags>
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="wow"
+			animation_name="wow">
+			<flags>
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="yeah"
+			animation_name="yeah">
+			<flags>
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="hitfaceright"
+			animation_name="hitfaceright">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="hitfaceleft"
+			animation_name="hitfaceleft">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="hitfaceup"
+			animation_name="hitfaceup">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="hitfacefront"
+			animation_name="hitfacefront">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="parry"
+			animation_name="parry">
+			<flags>
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="aim"
+			animation_name="aim">
+			<flags>
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="aim_shake"
+			animation_name="aim_shake">
+			<flags>
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="release"
+			animation_name="release">
+			<flags>
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="shocked"
+			animation_name="shocked">
+			<flags>
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="rage"
+			animation_name="rage">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="shout"
+			animation_name="shout">
+			<flags>
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="cry"
+			animation_name="cry">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="scared"
+			animation_name="scared">
+			<flags>
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="sneer"
+			animation_name="sneer">
+			<flags>
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="smirk"
+			animation_name="smirk">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="happy"
+			animation_name="happy">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="smirkcon"
+			animation_name="smirkcon">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="angry"
+			animation_name="angry">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="suspicious"
+			animation_name="suspicious">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="impressed"
+			animation_name="impressed">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="terrified"
+			animation_name="terrified">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="power"
+			animation_name="power">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="confused"
+			animation_name="confused">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="hard_laugh"
+			animation_name="hard_laugh">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="laugh"
+			animation_name="laugh">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="complimented"
+			animation_name="complimented">
+			<flags></flags>
+		</face_animation_record>
+		<!--GAMEPLAY REACTIONS-->
+		<face_animation_record
+			id="arrow_death_1"
+			animation_name="arrow_death_1">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="arrow_death_2"
+			animation_name="arrow_death_2">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="arrow_death_3"
+			animation_name="arrow_death_3">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="arrow_death_4"
+			animation_name="arrow_death_4">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="arrow_death_5"
+			animation_name="arrow_death_5">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="arrow_death_6"
+			animation_name="arrow_death_6">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="arrow_death_7"
+			animation_name="arrow_death_7">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="arrow_death_8"
+			animation_name="arrow_death_8">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="arrow_death_9"
+			animation_name="arrow_death_9">
+			<flags></flags>
+		</face_animation_record>
+		<!--GAMEPLAY IDLES-->
+		<!-- These idle tags will be cloned and renamed "convo" but will ultimately be deprecated -->
+		<face_animation_record
+			id="idle_angry"
+			animation_name="idle_angry">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_furious"
+			animation_name="idle_furious">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_insulted"
+			animation_name="idle_insulted">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_nervous"
+			animation_name="idle_nervous">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_scared"
+			animation_name="idle_scared">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_terrified"
+			animation_name="idle_terrified">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_bandit"
+			animation_name="idle_bandit">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_displeased"
+			animation_name="idle_displeased">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_tired"
+			animation_name="idle_tired">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_flirty"
+			animation_name="idle_flirty">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_concentration"
+			animation_name="idle_concentration">
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_pleased"
+			animation_name="idle_pleased">
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_normal"
+			animation_name="idle_normal">
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_drunk"
+			animation_name="idle_drunk">
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_noble"
+			animation_name="idle_noble">
+			<flags>
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_guard"
+			animation_name="idle_guard">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_sick"
+			animation_name="idle_sick">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_despise"
+			animation_name="idle_despise">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_repulsed"
+			animation_name="idle_repulsed">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_condescend"
+			animation_name="idle_condescend">
+			<!-- could also be pleasant -->
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_cheering1"
+			animation_name="idle_cheering1">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_cheering2"
+			animation_name="idle_cheering2">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_survive"
+			animation_name="idle_survive">
+			<flags>
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_sleep"
+			animation_name="idle_sleep">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_lookaround"
+			animation_name="idle_lookaround">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_epicwin"
+			animation_name="idle_epicwin">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_old"
+			animation_name="idle_old">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="idle_cheering3"
+			animation_name="idle_cheering3">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="drink"
+			animation_name="drink">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="drink2"
+			animation_name="drink2">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="eat_worried"
+			animation_name="eat_worried">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="eat_pleased"
+			animation_name="eat_pleased">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="eat_weird"
+			animation_name="eat_weird">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="eat_happy"
+			animation_name="eat_happy">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="eat_all"
+			animation_name="eat_all">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="lookdown"
+			animation_name="lookdown">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="lookup"
+			animation_name="lookup">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="lookleft"
+			animation_name="lookleft">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="lookright"
+			animation_name="lookright">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="lookstupid"
+			animation_name="lookstupid">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<!-- Flat or skeptical? -->
+		<!-- Playful but malevolent? -->
+		<face_animation_record
+			id="convo_nervous2"
+			animation_name="convo_nervous2">
+			<!-- very reserved, heavy lids -->
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_innocent_smile"
+			animation_name="convo_innocent_smile">
+			<!-- very reserved, heavy lids -->
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_normal"
+			animation_name="convo_normal">
+			<!-- very reserved, heavy lids -->
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<!-- negative or angry reactions -->
+		<face_animation_record
+			id="convo_angry"
+			animation_name="convo_angry">
+			<!-- frown, open mouth -->
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_bared_teeth"
+			animation_name="convo_bared_teeth">
+			<!-- duplicate of an idle, widens eyes, hostile grin -->
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_dismayed"
+			animation_name="convo_dismayed">
+			<!-- duplicate of an idle - eyes open a bit wide -->
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_aggressive"
+			animation_name="convo_aggressive">
+			<!-- duplicate of an idle. Stern but mouth closed, aggressive -->
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_predatory"
+			animation_name="convo_predatory">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_furious"
+			animation_name="convo_furious">
+			<!-- big frown-->
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_insulted"
+			animation_name="convo_insulted">
+			<!-- pinched expression -->
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_annoyed"
+			animation_name="convo_annoyed">
+			<!-- subdued annoyance -->
+			<!-- really angry -->
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_confused_annoyed"
+			animation_name="convo_confused_annoyed">
+			<!-- looks a bit dismayed, confused and annoyed -->
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_bored"
+			animation_name="convo_bored">
+			<!-- straight face, looks sidelong -->
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_bored2"
+			animation_name="convo_bored2">
+			<!--straight face, less of a sidelong look-->
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<!-- serious expressions -->
+		<face_animation_record
+			id="convo_grave"
+			animation_name="convo_grave">
+			<!-- scowls, mouth downturned -->
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_stern"
+			animation_name="convo_stern">
+			<!-- downturned face -->
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_very_stern"
+			animation_name="convo_very_stern">
+			<!-- ??? really wicked smile, exaggerated -->
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_undecided_open"
+			animation_name="convo_undecided_open">
+			<!-- slightly twisted smile, looks nervous -->
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_undecided_closed"
+			animation_name="convo_undecided_closed">
+			<!-- slightly twisted smile, looks nervous -->
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_thinking"
+			animation_name="convo_thinking">
+			<!-- attentive, blinks a little -->
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<!-- beaten, shocked, tired-->
+		<face_animation_record
+			id="convo_astonished"
+			animation_name="convo_astonished">
+			<!-- very nervous, eyebrows lifted a lot -->
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_beaten"
+			animation_name="convo_beaten">
+			<!-- twisted smile -->
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_nervous"
+			animation_name="convo_nervous">
+			<!-- at present, July 2021, could be mistaken for happy -->
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_shocked"
+			animation_name="convo_shocked">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_confused_normal"
+			animation_name="convo_confused_normal">
+			<!-- looks sidelong -->
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_disgusted"
+			animation_name="convo_disgusted">
+			<!-- looks sidelong -->
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_uncomfortable"
+			animation_name="convo_uncomfortable">
+			<!-- looks sidelong -->
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<!-- Positive reactions -->
+		<face_animation_record
+			id="convo_huge_smile"
+			animation_name="convo_huge_smile">
+			<!-- big smile with teeth. idle_pleased does not look pleased-->
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_happy"
+			animation_name="convo_happy">
+			<!-- smile with teeth. idle_pleased does not look pleased-->
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_calm_friendly"
+			animation_name="convo_calm_friendly">
+			<!-- eyebrows raised, calm-->
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_focused_happy"
+			animation_name="convo_focused_happy">
+			<!-- similar to relaxed happy -->
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_relaxed_happy"
+			animation_name="convo_relaxed_happy">
+			<!-- pleasant half-smile -->
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_bemused"
+			animation_name="convo_bemused">
+			<!-- shows teeth. Works well as both happy and predatory, for a satisfied bandit  -->
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_delighted"
+			animation_name="convo_delighted">
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_nonchalant"
+			animation_name="convo_nonchalant">
+			<!-- small grin, looks pleased -->
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_merry"
+			animation_name="convo_merry">
+			<!--huge overbite -->
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_approving"
+			animation_name="convo_approving">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_excited"
+			animation_name="convo_excited">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<!-- mocking expressions -->
+		<face_animation_record
+			id="convo_contemptuous"
+			animation_name="convo_contemptuous">
+			<!-- between a frown and a smirk -->
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_mocking_teasing"
+			animation_name="convo_mocking_teasing">
+			<!-- mouth smiling, eyes not smiling -->
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_mocking_revenge"
+			animation_name="convo_mocking_revenge">
+			<!-- mouth slightly open, very predatory -->
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_mocking_aristocratic"
+			animation_name="convo_mocking_aristocratic">
+			<!-- arch expression -->
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<!-- DEPRECATE  -->
+		<face_animation_record
+			id="convo_irritable"
+			animation_name="convo_irritable">
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_grateful"
+			animation_name="convo_grateful">
+			<flags>
+				<flag
+					name="do_blink" />
+				<flag
+					name="look_at_player" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_evil_smile"
+			animation_name="convo_evil_smile">
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_pondering"
+			animation_name="convo_pondering">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_disbelief"
+			animation_name="convo_disbelief">
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_worried"
+			animation_name="convo_worried">
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<!--GAMEPLAY IDLES-->
+		<face_animation_record
+			id="convo_uncomfortable_voice"
+			animation_name="convo_uncomfortable_voice">
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_confused_voice"
+			animation_name="convo_confused_voice">
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_angry_voice"
+			animation_name="convo_angry_voice">
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_focused_voice"
+			animation_name="convo_focused_voice">
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_empathic_voice"
+			animation_name="convo_empathic_voice">
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="convo_snide_voice"
+			animation_name="convo_snide_voice">
+			<flags>
+				<flag
+					name="look_at_player" />
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<!--CONVERSATION IDLES-->
+		<face_animation_record
+			id="stand_ag"
+			animation_name="stand_ag">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="start_ag"
+			animation_name="start_ag">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="negative_ag"
+			animation_name="negative_ag">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="positive_ag"
+			animation_name="positive_ag">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="very_negative_ag"
+			animation_name="very_negative_ag">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="very_positive_ag"
+			animation_name="very_positive_ag">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="unsure_ag"
+			animation_name="unsure_ag">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="trivial_ag"
+			animation_name="trivial_ag">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="negative_no"
+			animation_name="negative_no">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="positive_no"
+			animation_name="positive_no">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="very_negative_no"
+			animation_name="very_negative_no">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="very_positive_no"
+			animation_name="very_positive_no">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="unsure_no"
+			animation_name="unsure_no">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="trivial_no"
+			animation_name="trivial_no">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="negative_hi"
+			animation_name="negative_hi">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="positive_hi"
+			animation_name="positive_hi">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="very_negative_hi"
+			animation_name="very_negative_hi">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="very_positive_hi"
+			animation_name="very_positive_hi">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="unsure_hi"
+			animation_name="unsure_hi">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="trivial_hi"
+			animation_name="trivial_hi">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="stand_co2"
+			animation_name="stand_co2">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="negative_co2"
+			animation_name="negative_co2">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="positive_co2"
+			animation_name="positive_co2">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="very_negative_co2"
+			animation_name="very_negative_co2">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="very_positive_co2"
+			animation_name="very_positive_co2">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="unsure_co2"
+			animation_name="unsure_co2">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="trivial_co2"
+			animation_name="trivial_co2">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="stand_we"
+			animation_name="stand_we">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="negative_we"
+			animation_name="negative_we">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="positive_we"
+			animation_name="positive_we">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="unsure_we"
+			animation_name="unsure_we">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="very_negative_we"
+			animation_name="very_negative_we">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="very_positive_we"
+			animation_name="very_positive_we">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="trivial_we"
+			animation_name="trivial_we">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="negative_co1"
+			animation_name="negative_co1">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="positive_co1"
+			animation_name="positive_co1">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="very_negative_co1"
+			animation_name="very_negative_co1">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="very_positive_co1"
+			animation_name="very_positive_co1">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="unsure_co1"
+			animation_name="unsure_co1">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="trivial_co1"
+			animation_name="trivial_co1">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="stand_ne"
+			animation_name="stand_ne">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="start_ne"
+			animation_name="start_ne">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="negative_ne"
+			animation_name="negative_ne">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="positive_ne"
+			animation_name="positive_ne">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="unsure_ne"
+			animation_name="unsure_ne">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="very_negative_ne"
+			animation_name="very_negative_ne">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="very_positive_ne"
+			animation_name="very_positive_ne">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<face_animation_record
+			id="trivial_ne"
+			animation_name="trivial_ne">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<!--CONVERSATION IDLES-->
+		<!-- POSES - start /-->
+		<face_animation_record
+			id="pose_1"
+			animation_name="pose_1">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="pose_2"
+			animation_name="pose_2">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="pose_3"
+			animation_name="pose_3">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="pose_4"
+			animation_name="pose_4">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="pose_5"
+			animation_name="pose_5">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="pose_6"
+			animation_name="pose_6">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="pose_7"
+			animation_name="pose_7">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="pose_8"
+			animation_name="pose_8">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="pose_9"
+			animation_name="pose_9">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="lookdirection_9"
+			animation_name="lookdirection_9">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="lookdirection_3"
+			animation_name="lookdirection_3">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="lookdirection_6"
+			animation_name="lookdirection_6">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="lookdirection_12"
+			animation_name="lookdirection_12">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="lookdirection_11"
+			animation_name="lookdirection_11">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="lookdirection_2"
+			animation_name="lookdirection_2">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="lookdirection_5"
+			animation_name="lookdirection_5">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="lookdirection_7"
+			animation_name="lookdirection_7">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="lookdirection_8"
+			animation_name="lookdirection_8">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="lookdirection_4"
+			animation_name="lookdirection_4">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="lookdirection_0"
+			animation_name="lookdirection_0">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="declare_dragon_banner_face_01"
+			animation_name="declare_dragon_banner_face_01">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="declare_dragon_banner_face_02"
+			animation_name="declare_dragon_banner_face_02">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="declare_dragon_banner_face_03"
+			animation_name="declare_dragon_banner_face_03">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="declare_dragon_banner_face_04"
+			animation_name="declare_dragon_banner_face_04">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="declare_dragon_banner_face_05"
+			animation_name="declare_dragon_banner_face_05">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="declare_dragon_banner_face_06"
+			animation_name="declare_dragon_banner_face_06">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="declare_dragon_banner_face_07"
+			animation_name="declare_dragon_banner_face_07">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="declare_dragon_banner_face_08"
+			animation_name="declare_dragon_banner_face_08">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="declare_dragon_banner_face_09"
+			animation_name="declare_dragon_banner_face_09">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="declare_dragon_banner_face_10"
+			animation_name="declare_dragon_banner_face_10">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="declare_dragon_banner_face_11"
+			animation_name="declare_dragon_banner_face_11">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="declare_dragon_banner_face_12"
+			animation_name="declare_dragon_banner_face_12">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="cutscene_expression_1"
+			animation_name="cutscene_expression_1">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="cutscene_expression_2"
+			animation_name="cutscene_expression_2">
+			<flags></flags>
+		</face_animation_record>
+		<face_animation_record
+			id="sad_face_cutscene"
+			animation_name="sad_face_cutscene">
+			<flags>
+				<flag
+					name="do_blink" />
+			</flags>
+		</face_animation_record>
+		<!-- POSES - END /-->
+	</face_animation_records>
+</base>

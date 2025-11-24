@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Français" />
+  </tags>
+  <strings>
+    <string id="1OZBZZCi" text="{FIRSTNAME} le sanglier" />
+    <string id="28tWEFNi" text="{FIRSTNAME} {?NPC.GENDER}la vagabonde{?}le vagabond{\?}" />
+    <string id="2U2Hy2Su" text="{FIRSTNAME} aux cheveux clairs" />
+    <string id="3wzexaA7" text="{FIRSTNAME} la louve" />
+    <string id="4GIoPUen" text="{FIRSTNAME} l&apos;épéiste" />
+    <string id="6CAbkgS4" text="{FIRSTNAME} {?NPC.GENDER}la réparatrice{?}le réparateur{\?}" />
+    <string id="7apnGFz7" text="{FIRSTNAME} {?NPC.GENDER}la noire{?}le noir{\?}" />
+    <string id="7hrmlfxh" text="de la Légion" />
+    <string id="7lg12a57" text="{FIRSTNAME} {?NPC.GENDER}la{?}le{\?} brave" />
+    <string id="8o5SDCCJ" text="{FIRSTNAME} le requin" />
+    <string id="ACqta1a5" text="{FIRSTNAME} l&apos;{?NPC.GENDER}ingénieure{?}ingénieur{\?}" />
+    <string id="aE8abvsQ" text="{FIRSTNAME} {?NPC.GENDER}la chanceuse{?}le chanceux{\?}" />
+    <string id="agS5lIg7" text="{FIRSTNAME} {?NPC.GENDER}l&apos;orpheline{?}l&apos;orphelin{\?}" />
+    <string id="akALDUs0" text="{FIRSTNAME} Long-couteau" />
+    <string id="azCSz9QH" text="de la Main" />
+    <string id="bPHbb7pc" text="Ermite" />
+    <string id="bpw8fOs5" text="des Karakhuzaïtes" />
+    <string id="bvjFhiDr" text="{FIRSTNAME} {?NPC.GENDER}l&apos;érudite{?}l&apos;érudit{\?}" />
+    <string id="cP1o8eUs" text="des Jawwal" />
+    <string id="CQOlMayc" text="{FIRSTNAME} {?NPC.GENDER}la déguenillée{?}le déguenillé{\?}" />
+    <string id="cud22JY1" text="{FIRSTNAME} {?NPC.GENDER}la chirurgienne{?}le chirurgien{\?}" />
+    <string id="e84pvBYI" text="{FIRSTNAME} {?NPC.GENDER}la dépossédée{?}le dépossédé{\?}" />
+    <string id="eobXmmLg" text="de la Compagnie" />
+    <string id="FceN76tW" text="des Rats du lac" />
+    <string id="femalethug" text="Malfrat" />
+    <string id="fJmGKlaO" text="{FIRSTNAME} {?NPC.GENDER}voleuse{?}voleur{\?} de chevaux" />
+    <string id="G8mawcBV" text="{FIRSTNAME} {?NPC.GENDER}la soigneuse{?}le soigneur{\?}" />
+    <string id="gED0ZMhi" text="Ilay" />
+    <string id="H7eELtL6" text="Troupe d&apos;emprunt" />
+    <string id="hrMatilh" text="{FIRSTNAME} {?NPC.GENDER}la forgeronne{?}le forgeron{\?}" />
+    <string id="IgOTjF4i" text="des Ghulams" />
+    <string id="IVnvHF8S" text="des Eleftheroi" />
+    <string id="Ivx4uJVp" text="{FIRSTNAME} {?NPC.GENDER}la silencieuse{?}le silencieux{\?}" />
+    <string id="j2nVPqIX" text="{FIRSTNAME} l&apos;aigle" />
+    <string id="jepZ0btT" text="{?NPC.GENDER}Concurrente confiante{?}Concurrent confiant{\?}" />
+    <string id="jG3duO7A" text="des Élus" />
+    <string id="jKAhAoVb" text="du Peuple de la forêt" />
+    <string id="JL8RBEu3" text="des Beni Zilal" />
+    <string id="KkStFl12" text="des Lupins" />
+    <string id="KnTl4ESh" text="{FIRSTNAME} {?NPC.GENDER}voleuse{?}voleur{\?} de vaches" />
+    <string id="KphYbafC" text="{?NPC.GENDER}Concurrente fière{?}Concurrent fier{\?}" />
+    <string id="KY2zbWkj" text="{FIRSTNAME} l&apos;agile" />
+    <string id="LmlL8fVu" text="{FIRSTNAME} Hache-sanglante" />
+    <string id="mcbREzPt" text="des Gardiens" />
+    <string id="mtBA7sfk" text="{?NPC.GENDER}Concurrente{?}Concurrent{\?} intrépide" />
+    <string id="muC2SGlM" text="{FIRSTNAME} des Contrées sauvages" />
+    <string id="N4taBJyx" text="{FIRSTNAME} {?NPC.GENDER}la pisteuse{?}le pisteur{\?}" />
+    <string id="nDtjEazo" text="{FIRSTNAME} {?NPC.GENDER}la beugleuse{?}le beugleur{\?}" />
+    <string id="nqE62lQW" text="{FIRSTNAME} Dent-noire" />
+    <string id="NSaetzNJ" text="{FIRSTNAME} Mord-charbon" />
+    <string id="ntkipfCV" text="{FIRSTNAME} {?NPC.GENDER}la bruyante{?}le bruyant{\?}" />
+    <string id="NWuGUi4p" text="{FIRSTNAME} la léoparde" />
+    <string id="OArAImbM" text="{FIRSTNAME} des Collines" />
+    <string id="OFWvD0xe" text="{FIRSTNAME} la hyène" />
+    <string id="OIXub6bS" text="{FIRSTNAME} {?NPC.GENDER}la{?}le{\?} solitaire" />
+    <string id="oJJPZOKf" text="Vikrum" />
+    <string id="OzjuQYGH" text="des Skolderbroda" />
+    <string id="PQkMcfAW" text="{FIRSTNAME} {?NPC.GENDER}l&apos;exilé{?}l&apos;exilée{\?}" />
+    <string id="PSwlXa0z" text="Contact" />
+    <string id="pTuZB1Hj" text="{FIRSTNAME} Ventre-fer" />
+    <string id="pZSAdyC0" text="{FIRSTNAME} {?NPC.GENDER}la bouchère{?}le boucher{\?}" />
+    <string id="q5QjQyde" text="{FIRSTNAME} {?NPC.GENDER}la folle{?}le fou{\?}" />
+    <string id="QGcgQDqK" text="de la Confrérie" />
+    <string id="Qm5cstq3" text="Ulyk" />
+    <string id="qslA0bVb" text="{FIRSTNAME} {?NPC.GENDER}la{?}le{\?} rouge" />
+    <string id="QWbgE4bw" text="{FIRSTNAME} Œil-de-fer" />
+    <string id="QyQPJJ9B" text="{FIRSTNAME} {?NPC.GENDER}la maudite{?}le maudit{\?}" />
+    <string id="R0NM6lfm" text="Raekel" />
+    <string id="rgdi5Sxa" text="{FIRSTNAME} le prince" />
+    <string id="rtsnnL2J" text="{FIRSTNAME} la skjaldmö" />
+    <string id="S9skielR" text="{?NPC.GENDER}Caravanière nerveuse{?}Caravanier nerveux{\?}" />
+    <string id="S9z09NaN" text="Troupe d&apos;emprunt vétéran" />
+    <string id="sdzaip5J" text="{FIRSTNAME} {?NPC.GENDER}la{?}le{\?} sage" />
+    <string id="seS9ZZUW" text="{FIRSTNAME} le faucon gris" />
+    <string id="sk64gxdw" text="{?NPC.GENDER}Concurrente{?}Concurrent{\?} digne" />
+    <string id="t9e34kgH" text="{FIRSTNAME} {?NPC.GENDER}la voleuse{?}le voleur{\?}" />
+    <string id="TyxXbqVw" text="{FIRSTNAME} le faucon" />
+    <string id="vmwCdada" text="Jihan" />
+    <string id="vtXRptVa" text="{FIRSTNAME} {?NPC.GENDER}la dorée{?}le doré{\?}" />
+    <string id="W7aa22Yl" text="{FIRSTNAME} Brise-crâne" />
+    <string id="w9u2RUgm" text="{FIRSTNAME} {?NPC.GENDER}l&apos;infortunée{?}l&apos;infortuné{\?}" />
+    <string id="WU5GnkvR" text="{FIRSTNAME} le poisson" />
+    <string id="WvwWX4me" text="{FIRSTNAME} Torse-baril" />
+    <string id="X2TtXlAq" text="Pericleia" />
+    <string id="XBJtv4mD" text="{FIRSTNAME} {?NPC.GENDER}la vendeuse{?}le vendeur{\?} d&apos;épices" />
+    <string id="xTQPfmS9" text="{FIRSTNAME} le taureau" />
+    <string id="XuxARPTM" text="{FIRSTNAME} Gosier-amer" />
+    <string id="ykTARD4b" text="{FIRSTNAME} {?NPC.GENDER}la{?}le{\?} paria" />
+    <string id="yr5pa0hs" text="{FIRSTNAME} Écorce-de-saule" />
+    <string id="ZCc3VFat" text="{FIRSTNAME} {?NPC.GENDER}la grisonnante{?}le grisonnant{\?}" />
+    <string id="zoaTZMm7" text="{FIRSTNAME} la chasseuse" />
+    <string id="zXjdb1zT" text="{FIRSTNAME} Barbe-froide" />
+  </strings>
+</base>

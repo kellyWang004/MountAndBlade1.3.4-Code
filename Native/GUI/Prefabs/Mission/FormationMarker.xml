@@ -1,0 +1,34 @@
+<Prefab>
+  <Window>
+    <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent">
+      <Children>
+
+        <Widget DataSource="{Targets}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent">
+          <ItemTemplate>
+
+            <FormationMarkerListPanel WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" Position="@ScreenPosition" StackLayout.LayoutMethod="VerticalBottomToTop" IsTargetingAFormation="@IsTargetingAFormation" WSign="@WSign" IsMarkerEnabled="@IsEnabled" Distance="@Distance" FarAlphaTarget="0.7" FarDistanceCutoff="500" CloseDistanceCutoff="10" ClosestFadeoutRange="5" CloseSizeTarget="70" FarSizeTarget="25" MarkerType="@FormationType" FormationTypeMarker="PlacementList\TeamTypeWidget\FormationTypeMarker" TeamType="@TeamType" TeamTypeMarker="PlacementList\TeamTypeWidget" IconBrush="Compass.Type.Icons">
+              <Children>
+
+                <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" VerticalAlignment="Center" HorizontalAlignment="Center" IntText="@Size" Brush="NameMarker.Distance.Text"/>
+
+                <ListPanel Id="PlacementList" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center">
+                  <Children>
+                    <BrushWidget Id="TeamTypeWidget" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedHeight="50" SuggestedWidth="50" Brush="FormationMarker.TeamType">
+                      <Children>
+                        <Widget Id="FormationTypeMarker" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" HorizontalAlignment="Center"/>
+                        <FormationFocusedMarkerWidget Id="FormationFocusedMarker" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" Brush="OrderOfBattle.Formation.Focus.Indicator" Brush.AlphaFactor="1.0" HorizontalAlignment="Center" VerticalAlignment="Center" NormalSize="65" FocusedSize="71" IsCenterOfFocus="@IsCenterOfFocus" IsTargetingAFormation="@IsTargetingAFormation" IsFormationTargetRelevant="@IsFormationTargetRelevant" />
+                      </Children>
+                    </BrushWidget>
+                  </Children>
+                </ListPanel>
+
+              </Children>
+            </FormationMarkerListPanel>
+
+          </ItemTemplate>
+        </Widget>
+
+      </Children>
+    </Widget>
+  </Window>
+</Prefab>

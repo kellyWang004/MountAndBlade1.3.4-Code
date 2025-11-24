@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Türkçe" />
+  </tags>
+  <strings>
+    <string id="03G5GPec" text="Sahip Olunan Konvoylar: {CARAVAN_COUNT}" />
+    <string id="05fdfc6e238429753ef282f2ce97c1f8" text="İstif Miktarı: " />
+    <string id="08abd5af7774d311cadc3ed900b47754" text="Tür: " />
+    <string id="0mqdFC2x" text="Silah Üretildi!" />
+    <string id="0Q4Xo2BQ" text="Yeni Birliğin Liderini Seç" />
+    <string id="0rmpC7jf" text="Garnizon Çok Aç" />
+    <string id="0TauthlH" text="Hiçbir zaman (%{PERCENTAGE})" />
+    <string id="13wo3QQB" text="İkincil" />
+    <string id="154a34f8caccfc833238cc89d38861e8" text="Gerektirir: " />
+    <string id="1CXlqb2U" text="Seç:" />
+    <string id="1l4kpBDK" text="Değişiklikler Uygulanamadı" />
+    <string id="1UbocG5B" text="Krallığa geri vermek suretiyle bu tımar üzerindeki haklarını ve sorumluluklarını sonlandır." />
+    <string id="1xf8rHLH" text="Birliğine alabileceğin tutsak yok." />
+    <string id="2abtb4xu" text="Bağımsız" />
+    <string id="2ckyCKR7" text="Rezerv" />
+    <string id="2Cq3tViJ" text="Birlik Büyüklük Limiti" />
+    <string id="2GWR9Cba" text="Ocak" />
+    <string id="2Hbr4TEj" text="Eşya ismi boşlukla başlayamaz ve bitemez." />
+    <string id="2lFwF07j" text="İsmini Değiştir" />
+    <string id="2maftPJP" text="Klan &amp; Grup Lideri Olarak Ata" />
+    <string id="2nN1QuxZ" text="Bu görev, bu süre içinde tamamlanmadıkça başarısız olacaktır." />
+    <string id="3025020b83b218707499f0de3135ed0a" text="Manevra: " />
+    <string id="305cf7f98458b22e9af72b60a131714f" text="At Zırhı: " />
+    <string id="345a87fcc69f626ae3916939ef2fc135" text="Savurma Hızı: " />
+    <string id="3F0y3ugx" text="Başarı!" />
+    <string id="3sxtCWPe" text="Krallıktan Ayrılmak" />
+    <string id="43HYUImy" text="{SETTLEMENT} Kuşatması" />
+    <string id="4U9EnZt5" text="Kritik Başarı!" />
+    <string id="4uMWNDoi" text="Saplama Hızı" />
+    <string id="4vPm9bFW" text="Bu ittifak teklifi artık geçerli değil." />
+    <string id="4vZLpzPi" text="Günde +1 Nam" />
+    <string id="4Y8u4JKO" text="Bir ordudayken krallıktan ayrılamazsın" />
+    <string id="5dec16fa0be433ade3c4cb0074ef366d" text="İsabet: " />
+    <string id="5dkPxmZG" text="Garnizon Ücretleri" />
+    <string id="5fa36d2798479803b4518a64beb4d732" text="Silah Uzunluğu: " />
+    <string id="63Ic1Ahe" text="Maliyet: {UPGRADE_COST} (Sahip değilsin)" />
+    <string id="68IlDbA2" text="Bir haydudu normal bir askere yükseltmek için {PERK_NAME} getirisine sahip olman gerekiyor." />
+    <string id="6adabc1f82216992571c3e22abc164d7" text="Mühimmat Limiti: " />
+    <string id="6ayEZQE1" text="Süre {DAYS} {?DAYS &gt; 1}gün{?}gün{\?} içinde dolacak." />
+    <string id="6DuCoCc2" text="Konuşma başlatmak için değişiklikleri onaylamalısın." />
+    <string id="74dc1908cb0b990e80fb977b5a0ef10d" text="Hız: " />
+    <string id="7dXs9c2b" text="Deniz Yük Kapasitesi Aşıldı" />
+    <string id="7l0LGKRk" text="Başlangıç Tarihi" />
+    <string id="7tBOCHm6" text="Mühür Rengi:" />
+    <string id="7tKjfMSb" text="Sokaklar" />
+    <string id="84oSzquz" text="Kısa Süre Önce Tutsaklıktan Kaçtı" />
+    <string id="88WPmTKH" text="Depodan Hammadde Al" />
+    <string id="8BJDQe6o" text="{FACTION} tarafından ele geçirilen tutsaklar" />
+    <string id="8BlMRMiR" text="At Kademesi" />
+    <string id="8cad4a279770f269c4bb0dc7a357ee1e" text="Sınıf: " />
+    <string id="8d23bRmv" text="Kara Ağırlığı" />
+    <string id="8fqFGxD9" text="Kıyaslamak için {KEY} tuşuna bas: {ITEM}" />
+    <string id="8Jy9DnKk" text="{PARTY_NAME}'{.e} Bağlı" />
+    <string id="8lCWWK9G" text="Demircilik Getirileri" />
+    <string id="8N1EdPB3" text="{GOLD}{GOLD_ICON} kazanacaksın" />
+    <string id="8qbkS5D2" text="Savaş Durumu" />
+    <string id="8szijlHj" text="Sipariş Zorluğu: {DIFFICULTY}" />
+    <string id="8xKky9ja" text="Bu eşya satılamaz veya atılamaz" />
+    <string id="94aHU6nD" text="İnşaat" />
+    <string id="9FJi2SaE" text="Birlikteki Rolü" />
+    <string id="9i0wnjJK" text="L-II : {BONUS}" />
+    <string id="9sxECG6e" text="Binek Türü: " />
+    <string id="9WrJP0hD" text="Tüm Birlikleri Transfer Et" />
+    <string id="a241aacb1780599430c79fd9f667b67f" text="Birlik Morali: " />
+    <string id="a4GDfSel" text="Eğitimleri Sıfırla" />
+    <string id="a4oqWgUi" text="Depoda hammadde yoksa, atölye depo tekrar dolana kadar pazardan hammadde satın alır" />
+    <string id="a8NoW1Q2" text="Yaptığın değişiklikleri iptal etmek istediğinden emin misin?" />
+    <string id="a8nRxITn" text="{PARTY_NAME}'{.nin} tutsağı" />
+    <string id="aAqMSU2d" text="Denizde Envanter Kapasitesi" />
+    <string id="aFYwbosi" text="Bu kahraman zaten bir birliğe liderlik ediyor." />
+    <string id="aGFxIvqx" text="Üye(ler)den ayrıl" />
+    <string id="aGJYQOef" text="Kahramanın haritadaki konumunu göster." />
+    <string id="ANV8UV5f" text="Bu üyeyi birliğine geri çağır." />
+    <string id="armorTier" text="Zırh Kademesi: " />
+    <string id="aTdrjrEh" text="{SWING_DAMAGE_FACTOR}" />
+    <string id="av51ur2M" text="Bu atölyenin üretim türünü değiştirmek için en az {REQUIRED_AMOUNT} dinar gerekiyor." />
+    <string id="aYm5Ehv1" text="Bir eşya seçmelisin" />
+    <string id="b7muQ9mt" text="{KINGDOM_INFORMALNAME} ile paralı asker anlaşmanı sonlandırmak istediğinden emin misin?" />
+    <string id="b8CqpGHx" text="Tutsakları Birliğe Al" />
+    <string id="bAqDnkaT" text="Fırlatma Hızı" />
+    <string id="BbLTwhsA" text="{REMAINING_TIME} Boyunca Düzensiz" />
+    <string id="Bcs9s2tC" text="Kaldırmak için Sağ Tıkla" />
+    <string id="bd7oAQq6" text="Günlük" />
+    <string id="bDwTWrru" text="Gecikme yok" />
+    <string id="BEXTcJaS" text="Kalan Süre" />
+    <string id="bfWlTVjs" text="Atananı kaldır" />
+    <string id="BgqZWbga" text="Diyarın soyluları, sadakatinden vazgeçmenden hoşlanmayacaklar. Krallıktan ayrılmak istediğinden emin misin?" />
+    <string id="BkDycbdq" text="Asker ağacı gösterilirken hata oluştu" />
+    <string id="bPFjmYCI" text="{SHOP_NAME} x {SHOP_DIFFERENCE_COUNT}" />
+    <string id="BqLsZhhr" text="Arıtmak için hammadde seç" />
+    <string id="btoiLePb" text="{HERO} ({PLACE})" />
+    <string id="BV5exuPf" text="Yer İşaretlerinden Kaldır" />
+    <string id="C2qpwFq5" text="{SETTLEMENTS}'{.nin} Sahibi" />
+    <string id="c5eYzHaM" text="{DAYS} {?DAY_IS_PLURAL}Gün{?}Gün{\?} (%{PERCENTAGE})" />
+    <string id="c7638a0869219ae845de0f660fd57a9d" text="Çarpma Hasarı: " />
+    <string id="c9c5dfed2ca6bcb7a73d905004c97b23" text="Hasar: " />
+    <string id="C9tKA0ul" text="Karakter ismi boş bırakılamaz" />
+    <string id="ca8b1e8956057b831dfc665f54bae4b0" text="Silah Hakimiyeti: " />
+    <string id="CaRbMaZY" text="Günlük Ücret" />
+    <string id="cbbUzYX3" text="Zorluk: {DIFFICULTY}" />
+    <string id="cBqjZjfJ" text="Karada Envanter Kapasitesi" />
+    <string id="cD1HTdYJ" text="Gelişim zaten aktif" />
+    <string id="cDkHJOkl" text="Yerleşkenin detaylarını görmek için görüş mesafesinde olman, yerleşkeyi krallığın ile kontrol ediyor olman ya da yerleşkede bulunan bir klan üyesine sahip olman gerekir." />
+    <string id="cedvCZ73" text="{FACTION}'{.nin} sahip olduğu bir kent yok" />
+    <string id="CExQ40Ux" text="{PARTY_1S_MEMBERS}   " />
+    <string id="cf61cce254c7dca65be9bebac7fb9bf5" text="Kol Zırhı: " />
+    <string id="CGVK6l8I" text="Şampiyonun Getirileri" />
+    <string id="CK68QXen" text="{FACTION}'{.nin} ele geçirdiği bir tutsak yok" />
+    <string id="Ck9HT8fQ" text="Özet" />
+    <string id="cnmRwV4s" text="Mühimmat Limiti" />
+    <string id="CnsIzaWo" text="Meydan Savaşı" />
+    <string id="CRi905Ao" text="Birliğinde" />
+    <string id="cUUI8u2G" text="Demirci Dayanıklılığı" />
+    <string id="cZCOa00c" text="{SUPPORTER_RANK} Destekçiler ({NUM})" />
+    <string id="d2K6gMsZ" text="Üyelerden ayrıl. En az 1 yoldaşa ihtiyacın var." />
+    <string id="d8jrv3nA" text="Yer İşaretlerine Ekle" />
+    <string id="DAmdTxuC" text="Ordu Yönetimi" />
+    <string id="DAYoD0aW" text="Birlik Oluştur" />
+    <string id="dbBAJ8yi" text="Sancağını ve klanının ismini sonradan klan ekranından değiştirebilirsin" />
+    <string id="DbXZjPdf" text="Sancak Etkisi: " />
+    <string id="dD3kRDHi" text="Bu kahraman kaçak ve kendisini tutsak alanlardan kaçıyor. Bir süre sonra müsait olacak." />
+    <string id="dEMUqz2Y" text="Bu atölye {INITIAL_CAPITAL}'{.nin} üzerindeki kârının %20'sini hazinene gönderecek" />
+    <string id="DKJIp6xG" text="Etkiler" />
+    <string id="DNq9bdvV" text="{THRUST_DAMAGE_FACTOR}" />
+    <string id="DNXD37JL" text="Yerleşkede Erzakın Tükenmesi İçin Kalan Gün Sayısı" />
+    <string id="dO95yR9b" text="Saplama Hasarı" />
+    <string id="dOa7frHR" text="Sadece açılmış olan parçaları göster" />
+    <string id="DRJOxrRF" text="Ordudaki Askerler" />
+    <string id="dVqowrRz" text=" - {STAT} {REQUIREMENT}" />
+    <string id="dWYm9GsC" text="Gerektirir" />
+    <string id="eHVq6yDa" text="Eşya Özellikleri" />
+    <string id="eIgC6YGp" text="Tarifeler" />
+    <string id="eIGFuGOx" text="Yerleşkeyi Ver" />
+    <string id="EkFDvG7z" text="Yerleşke Erzak Stoku" />
+    <string id="eoVW9z54" text="Ortalama Moral" />
+    <string id="F0a7hyp0" text="İsyan riski" />
+    <string id="f2971dc587a9777223ad2d7be236fb05" text="Ticaret Söylentileri" />
+    <string id="f4nc7FfE" text="{UPGRADE_NAME}'{.e} yükselt" />
+    <string id="f90A6PGd" text="İttifaklar" />
+    <string id="faDegful" text="Sıradan çıkar" />
+    <string id="FBYFcrWo" text="Yerleşkede bırak" />
+    <string id="fgyvzyB5" text="Kara Yük Kapasitesi Aşıldı" />
+    <string id="fI7a7RoE" text="Envanter Kapasitesi" />
+    <string id="FjJi1DJb" text="Bu kahraman zaten başka bir birliğe dahil." />
+    <string id="flxDkoMh" text="Aşama Tamamlandı" />
+    <string id="fpE7BQ7f" text="Yükseltilebilecek asker yok." />
+    <string id="fPoB2u5m" text="Karakter ismi {MIN} ila {MAX} karakter arasında olmalıdır" />
+    <string id="fRz2DJf4" text="Birlik oluşturmak {PARTY_COST}{GOLD_ICON} tutacak. Emin misin?" />
+    <string id="FYJC7cDD" text="Özellik(ler)" />
+    <string id="fz2kQjFS" text="Karakterinin medeniyetini seç:" />
+    <string id="FzbeSkBb" text="Sokaklarından biri liderini kaybetti ya da eksik sayıda askeri var. {DAYS} gün geçtikten sonra terk edilecek. Eğer sokağı elinde tutmak istiyorsan, klan ekranından yeni bir klan üyesi atayabilir ya da daha fazla asker eklemek için sokağa gidebilirsin. Sokak terk edildiğinde, orada bırakılmış olan askerlerin hepsi kaybedilir." />
+    <string id="g08mptth" text="Yeni lideri olmak için bir birliğe doğru ilerliyor" />
+    <string id="g1op0Thi" text="KARAYA ÇIKIYOR" />
+    <string id="G2h0V10w" text="Bu yerleşkeyi krallığındaki bir klana armağan et." />
+    <string id="GCaYjA5W" text="İsmini değiştirmek için klanın lideri olman gerekiyor." />
+    <string id="Gd6zuUwh" text="Serbest Tasarım" />
+    <string id="gduqxfck" text="Gerekli tüm malzemelere sahip değilsin!" />
+    <string id="Gp2vmZGZ" text="{PERKS}" />
+    <string id="GP3jpU0X" text="Nüfuz paralı asker klanları için belirli aralıklarla dinara dönüştürülür." />
+    <string id="gTbE6t9I" text="Şu gereklilikler karşılanmadı:" />
+    <string id="gu5xmV0E" text="Bu kentte başka {WORKSHOP_NAME} yok." />
+    <string id="gUUnZNGk" text="Yeni valisi olmak için {SETTLEMENT_NAME}'{.e} doğru ilerliyor" />
+    <string id="guxNZZWh" text="Gereklilikler" />
+    <string id="GwA9oUBC" text="Beceri odağı, becerinin uygulamayla artma oranını belirler" />
+    <string id="h0xoKxxo" text="Eşya ismi {MIN} ila {MAX} karakter arasında olmalıdır." />
+    <string id="heroRecovering" text="İyileşiyor" />
+    <string id="HfsUngkh" text="Asker toplama şu anda devre dışı." />
+    <string id="HFZdseH9" text="Krallığın adını sadece hükümdarı değiştirebilir." />
+    <string id="HHTQVp52" text="Kahramanların İyileşme Oranı" />
+    <string id="HiJTlBgF" text="Atölyeyi Sat" />
+    <string id="hn9TPqhK" text="Silah Kademesi" />
+    <string id="hOVPiG3z" text="Yakın zamanda isyan etti" />
+    <string id="hr4MuPnt" text="Gerekli Malzemeler" />
+    <string id="hRSezxnT" text="Askerlerinin bir kısmı yükseltilmeye hazır." />
+    <string id="HTtWslIx" text="Pazar Erzak Stoku" />
+    <string id="hwrQqWir" text="Beceri Yok" />
+    <string id="Hz8XO8wk" text="Valiler aynı anda hem valilik yapıp hem de hareket halindeki bir birliğe liderlik edemez." />
+    <string id="I2sZ7K28" text="Eğitimleri sıfırlamak istediğinden emin misin?" />
+    <string id="i9OsCshW" text="Bu krallık kararı artık geçerli değil." />
+    <string id="idRXFzQ6" text="Orduya zaten eklendi." />
+    <string id="Iefr8Fra" text="Eğitimler sıfırlandı." />
+    <string id="IgoxNz2H" text="Askerleri Yükselt" />
+    <string id="IJdjwXvn" text="Mevcut Seviye: " />
+    <string id="InqmgBiF" text="Seçilmiş Ekip" />
+    <string id="Ioiqzz4E" text="Bütünlüğü arttırmak için bir orduda olmalısın" />
+    <string id="IQY9yykn" text="Erzak Maddeleri" />
+    <string id="IRcy3pWJ" text="İsim boş bırakılamaz" />
+    <string id="iSZTOeYH" text="Dağıtılacak bir ordu yok." />
+    <string id="ITKb4cKv" text="{ITEM_NAME} kuşanılamaz." />
+    <string id="iuKvbKJ7" text="Çalışıyor" />
+    <string id="iZ3w6opW" text="Bütünlük" />
+    <string id="j12VrGKz" text="Ordu" />
+    <string id="j3iwQmoA" text="Mevcut odak miktarı: {CURRENT_AMOUNT}" />
+    <string id="j4BdjLYp" text="Bu klan üyesiyle bir sohbet başlat." />
+    <string id="J8ddrAOf" text="Vali Etkileri" />
+    <string id="j8uZBakZ" text="{PROPERTIES}" />
+    <string id="jdbT6nc9" text="Her {SUPPORTER_RANK} destekçi günde {INFLUENCE_BONUS} sağlar." />
+    <string id="JIr3Jc7b" text="Tüm mülklerden feragat et" />
+    <string id="jQdBl4hf" text="Valisi " />
+    <string id="JRKC4ed4" text="Bu atölye, kent pazarında hammadde bulunmadığı için {DAY} {?PLURAL_DAYS}gündür{?}gündür{\?} üretim yapamıyor." />
+    <string id="jVLJTuwl" text="Daha fazla bilgi edin" />
+    <string id="JYOcl7Ox" text="Etkisiz!" />
+    <string id="K87pubLc" text=" &quot;{DEPENDENT_OPTION}&quot; seçeneği, &quot;{MODULE_NAME}&quot; modülü aktive edilerek etkinleştirilebilir." />
+    <string id="kjaACKUq" text="Bu eylem {GOLD}{GOLD_ICON} tutacak" />
+    <string id="KjuxDQfn" text="Sokak lideri öldü." />
+    <string id="kMAQndom" text="Değişiklikler Sıfırlansın Mı?" />
+    <string id="knayk28P" text="Karada yavaşlayacaksın. Dikkatli ol." />
+    <string id="kqeA8rjL" text="Ordunu dağıtmak istediğine emin misin?" />
+    <string id="kQsXUvgO" text="Bir krallığa bağlı değilsin." />
+    <string id="KTKBKmvp" text="Saplama Hasarı " />
+    <string id="KTTyBbsp" text="Maksimum Can Puanı" />
+    <string id="kWVbHPtT" text="Toplam" />
+    <string id="KxLoeSEO" text="Yeniden toplanıyor" />
+    <string id="KXQ7Mvec" text="Ana Karakter Olarak Seç" />
+    <string id="la6R4xaY" text="Karşı Krallığın Savaş Durumu" />
+    <string id="laznt9ZK" text="Yerleşkenin Erzak Durumu" />
+    <string id="lc9s4rLZ" text="Ordu Kur" />
+    <string id="LEiZWuZm" text="{SKILL_NAME}: {SKILL_VALUE}" />
+    <string id="lhIpaGt9" text="Bu kentte {COUNT} tane daha {?(COUNT &gt; 1)}{PLURAL(WORKSHOP_NAME)}{?}{WORKSHOP_NAME}{\?} {?(COUNT &gt; 1)}var{?}var{\?}." />
+    <string id="lIGdkJGm" text="{NUMBER} {?NUMBER&gt;1}items{?}item{\?}{.den} daha az seçmelisin" />
+    <string id="lkJfq1ap" text="Sahip olduğun yerleşkeler hakimiyetin altında kalmaya devam edecek ama soylular bu onursuz davranıştan hoşlanmayacaklar ve krallık sana savaş ilan edecek." />
+    <string id="LlV29O9B" text="En az {TROOP_COUNT} asker seçmelisin" />
+    <string id="Lm6Mkhru" text="Sonuçlar" />
+    <string id="LpsoPtOo" text="Projeler" />
+    <string id="lr2UaD9m" text="Deniz Savaşı" />
+    <string id="lSnejlxB" text="Şu anda krallık kararlarına iştirak edemezsin." />
+    <string id="Lt0PzKHN" text="DENİZE AÇILIYOR" />
+    <string id="LuC5ZZMu" text="{CRIMINAL_RATING} ({INCREASE}){CRIME_ICON}" />
+    <string id="LVJKy6a8" text="Bu askerin bir üst seviyeye yükselmesi için {PERK_NAME} ({PERK_SKILL}) getirisi gerekiyor." />
+    <string id="LVmkE2Ow" text="Savaşa Hazır Birlikler" />
+    <string id="lVuGCYPC" text="Demircilik Becerisi" />
+    <string id="lxwGbRwu" text="x {SHOP_DIFFERENCE_COUNT}" />
+    <string id="LxWVtDF0" text="Atölyeyi Yönet" />
+    <string id="m1Yynagz" text="Sayfa {NUMBER}" />
+    <string id="MaHMOzL2" text="Medeniyet Seçimi" />
+    <string id="McJjNM50" text="Maliyet: {UPGRADE_COST}" />
+    <string id="mDFhzEMC" text="Maksimum Can Puanı" />
+    <string id="mdvnjI72" text="Askerler bu ekrandan yükseltilemez." />
+    <string id="Mfbc4rQR" text="Çarpma Hasarı" />
+    <string id="mg7id9om" text="Sarf Malzemesi Sayısı" />
+    <string id="mHVmrwRQ" text="İsmini Gir" />
+    <string id="MkVTRqAw" text="Siparişler ({ORDER_COUNT})" />
+    <string id="mountTier" text="Binek Kademesi: " />
+    <string id="MT5A04X8" text=" - Savurma Hasarı Türü uymuyor. Şu tür olmalı: {TYPE}" />
+    <string id="myMbtwXi" text="Moral Bonusu" />
+    <string id="N63XYX2r" text="Destek" />
+    <string id="NC9bbrt5" text="Gün sonu dinarları" />
+    <string id="NcYbdiyT" text="Lideri Değiştir" />
+    <string id="NHZ1jNIF" text="Gerekliliklerin Altında" />
+    <string id="NkY3Kq9l" text="Eşya ismi özel karakterler içeremez." />
+    <string id="NLFeyz7m" text="Yakın Zamanda Serbest Bırakıldı" />
+    <string id="nNZ1ZtTE" text="Orduna {BOOSTAMOUNT} ordu bütünlüğü ekle" />
+    <string id="no0chrAH" text="Bu atölye {DAY} {?PLURAL_DAYS}gündür{?}gündür{\?} çalışmıyor çünkü üretim kârlı değil" />
+    <string id="NVUi4bB9" text="Depo dolduğunda, atölye ürünleri kent pazarına satar" />
+    <string id="NxEy5Nbt" text="Yüksek isyan riski" />
+    <string id="nYYUQQm0" text="Savurma Hasarı " />
+    <string id="o5G8A8ZH" text="Dinarların" />
+    <string id="o79dIa3L" text="{FACTION}'{.nin} sahip olduğu kentler" />
+    <string id="ocSW4WA2" text="Kritik Hata!" />
+    <string id="ODEnkg0o" text="Klan Gücü" />
+    <string id="OGbskMfz" text="Açılmış Olan Parçalar:" />
+    <string id="oGgjuQav" text="Bu savaşa çağrı teklifi artık geçerli değil." />
+    <string id="OhNYkblK" text="Bu kahraman kısa bir süre önce kendisini tutsak alanlardan kaçtı ve bir süre sonra müsait olacak." />
+    <string id="OkWLI5C8" text="Boyut:" />
+    <string id="oM2Ta1di" text="Kamerayı sıfırlamak için {CONSOLE_KEY_NAME}{.n}{.e} bas" />
+    <string id="Omjlnsk3" text="{ITEM_NAME} buraya koyulamaz." />
+    <string id="OMqHwpXF" text="Birliklerinden biri liderini kaybetti. Birlik bir gün sonra dağılacak. Eğer birliği elinde tutmak istiyorsan, ona önderlik etmesi için yeni bir klan üyesi atayabilirsin.{newline}{newline}Yeni bir lider atamak istiyor musun?" />
+    <string id="Oo3fkeab" text="Zorluk: " />
+    <string id="oofSja21" text="Karakter ismi boşlukla başlayamaz ve bitemez" />
+    <string id="OpsiBFCu" text="... ve {COUNT} birim daha." />
+    <string id="opU0Nr2G" text="Yeni bir parça açmak için alınan mesafe." />
+    <string id="oSfsqBwJ" text="Getiri yok" />
+    <string id="OSsSBHKe" text="Yerleşkenin Erzakı" />
+    <string id="OTaPfaJl" text="{PARTY_2S_MEMBERS}   " />
+    <string id="otaUtXMX" text="Eşrafla gün başına +{AMOUNT} ilişki ihtimali." />
+    <string id="oUhd9YhP" text="{PARTY_LEADERS_FACTION}" />
+    <string id="OyyJSyIX" text="{FACTION_1} haraç olarak {FACTION_2}'{.e} {DENAR}{GOLD_ICON} ödüyor; {TRIBUTE_PAYMENTS_REMAINING} gün kaldı." />
+    <string id="P0To9aRW" text="Yolculuk süresi: {TRAVEL_TIME}" />
+    <string id="P1hk0m4o" text="Karakter ismi özel karakterler içeremez" />
+    <string id="P5YtNXHR" text="{LEADER.NAME}{.o}'{.nin} Birliği" />
+    <string id="p7raHA9x" text="Arıtma" />
+    <string id="p9wUyxfb" text="Asgari Gemi Mürettebatı" />
+    <string id="Pa4K0Paz" text="{FACTION1}'{.nin} {FACTION2}'{.e} Karşı Savaş Durumu" />
+    <string id="pBVbKYwo" text="Sokağın hakimiyetini ve içindeki askerleri yitireceksin. Emin misin?" />
+    <string id="PcLGc2bM" text="Aktif gelişim olarak belirle" />
+    <string id="pDAuV918" text="Bu atölye, kentte isyan olduğu için {DAY} {?PLURAL_DAYS}gündür{?}gündür{\?} üretim yapamıyor." />
+    <string id="Pdo7PpS3" text="{TASK_NAME} {CURRENT_PROGRESS}/{TARGET_PROGRESS}" />
+    <string id="pF0SqQxL" text="Değişiklikler Uygulansın Mı?" />
+    <string id="PJZ8QYgA" text="L-I : {BONUS}" />
+    <string id="pnFgwLYG" text="Mevcut Ücret" />
+    <string id="POjDNVW3" text="Dövme" />
+    <string id="PRE5RKpp" text="Bu işlemi yapmadan önce dinlenmeli ve zaman geçirmelisin." />
+    <string id="pRP2sOWP" text="L-III : {BONUS}" />
+    <string id="PS02CqPu" text=" {PARTY_MEMBER.LINK} (Sağlık: {MEMBER_HEALTH}%)" />
+    <string id="pWyRg13f" text="Ticaret Anlaşmaları" />
+    <string id="Q0j1umAt" text="Gereklilik: {REQUIREMENT_NAME}" />
+    <string id="q1DVNQS7" text="Saldırı Altında! ({RESPONSE_TIME} {?RESPONSE_TIME&gt;1}gün{?}gün{\?} kaldı.)" />
+    <string id="q1J4a8rr" text="Öğrenme Oranı" />
+    <string id="Q1KwpZYu" text="Silah kullanım şekli gerekliliklere uymuyor" />
+    <string id="Q8dhryRX" text="Birliklerin Erzakı" />
+    <string id="qaQqAYGc" text="{LEADER.NAME}{.o}'{.nin} Birliği'ne doğru ilerliyor" />
+    <string id="QBB0KQ2Z" text="Birliklerin Ortalama Morali" />
+    <string id="qBq70qDq" text="Mevcut Proje" />
+    <string id="qbqimqMb" text="{GOVERNOR.NAME}, {SETTLEMENT_NAME}'{.nin} yeni valisi olmak için yolda" />
+    <string id="qdoJOH0j" text="Birlik Ücreti" />
+    <string id="qeclv74c" text="Vergiler" />
+    <string id="QeToaiLt" text="Savurma Hasarı" />
+    <string id="QFfMd5q3" text="Sonraki Sayfa" />
+    <string id="qgK86eSo" text="Tüm Tutsakları Transfer Et" />
+    <string id="qKUjgS6r" text="Yerleşke" />
+    <string id="QlbkxoSp" text=" {TOOLTIP_TROOPS} ({PARTY_SIZE})" />
+    <string id="QmfZjCo1" text="Eder: " />
+    <string id="QMNWbmao" text="Seçimi Kaldır" />
+    <string id="QQ03J6sf" text="Eşya ismi boş bırakılamaz." />
+    <string id="QSPrSsHv" text="Eyer Yok!" />
+    <string id="Qu5clctb" text="Atölye zarar ediyor. Masraflar senin hazinenden karşılanıyor çünkü atölyenin sermayesi {LOWER_THRESHOLD} dinarın altında" />
+    <string id="qZvNIVGV" text="Klanında şu anda bir birliğe önderlik edebilecek kimse yok." />
+    <string id="r0WIRUHo" text="Suç Oranı" />
+    <string id="R2AaCaPJ" text="Beklenen Değişiklik" />
+    <string id="R4rTlKMU" text="Asker yükseltmeleri şu anda devre dışı." />
+    <string id="Ra17aK4e" text="Mevcut Sermaye" />
+    <string id="Raa4j4rF" text="Gerekli: {UPGRADE_ITEM}" />
+    <string id="RClxLG6N" text="Bekliyor" />
+    <string id="recruitVerb" text="Asker Topla" />
+    <string id="rgqA29b8" text="Bunu kuşanmak için yeterli {SKILL_NAME} becerin yok" />
+    <string id="RjBSR9iO" text="Savunan Gemi Sayısı" />
+    <string id="Rkh2k1OA" text="Tamamlanma:" />
+    <string id="rkubGa4K" text="Bu yerleşkeyi krallığına geri vermek istediğinden emin misin?" />
+    <string id="rOKAvjtT" text="Yerleşkeyi Armağan Et" />
+    <string id="rsHPaaYZ" text="Bütünlüğün arttırılması için {MINAMOUNT}'{.den} daha düşük olması gerekiyor" />
+    <string id="rThSy9ed" text="Gerekli: {UPGRADE_ITEM} (Sende Hiç Yok)" />
+    <string id="rUeWBOOi" text="Eritmek için bir parça seç" />
+    <string id="rwKBR4NE" text="Erzakın Tükenmesi İçin Kalan Ortalama Gün Sayısı" />
+    <string id="s06mScpJ" text="Eğer depoda ürün varsa, birliğine aktarılacak. Emin misin?" />
+    <string id="S1iS3OYj" text="Kimsenin atanmadığı rolleri birlik lideri üstlenir" />
+    <string id="saHYZKLt" text="Üretim geçmişinde hiçbir eşya yok" />
+    <string id="SDhQWonF" text="Günde {DENAR}{GOLD_ICON} haraç ödeniyor; {TRIBUTE_PAYMENTS_REMAINING} gün kaldı." />
+    <string id="SFB2uYHa" text="Sokak lideri sokağa gidiyor. ({LEFT_TIME} {?LEFT_TIME&gt;1}saat{?}saat{\?} kaldı.)" />
+    <string id="SFebv4hH" text="Sıraya ekle" />
+    <string id="sffGeQ1g" text="Armağan" />
+    <string id="sFiU3Ss2" text="Kamerayı Sıfırlamak İçin Tıkla" />
+    <string id="sFseX1Ka" text="Değişiklikler uygulanamadı." />
+    <string id="SK8G9QpE" text="Yükseltme Maliyeti" />
+    <string id="Sls0KQVn" text="Seçimler" />
+    <string id="slzfQzl3" text="Bu kahraman kayıp" />
+    <string id="sVZaIPoQ" text="Savurma Hızı" />
+    <string id="sWWxrafa" text="Mevcut Limit" />
+    <string id="Syha8biz" text="Sipariş Tamamlanamadı" />
+    <string id="sZu7CCsh" text="Saldıran Gemi Sayısı" />
+    <string id="SzuCFlNq" text="Herhangi bir şey seçili değil." />
+    <string id="t1lSXN9O" text="Klanının sancağı savaşa katıldı" />
+    <string id="T9bndUYP" text="{SETTLEMENT} Baskını" />
+    <string id="ta4R2RR7" text="Birincil" />
+    <string id="tAwRIPiy" text="İnşaat Maliyeti: {COST}" />
+    <string id="Tc5y7Tgd" text="Deniz Ağırlığı" />
+    <string id="TdWQM7QZ" text="{TROOP_COUNT} askerden daha az asker seçmelisin" />
+    <string id="TEkWkzbH" text="Sahip Olunan Kervanlar: {CARAVAN_COUNT}" />
+    <string id="tf7301NC" text="İyileşme Oranı" />
+    <string id="tnbCJyax" text="Tutsakların bir kısmı birliğe alınabilir." />
+    <string id="twtbH1zv" text="İstif Miktarı" />
+    <string id="Tx9Mynbt" text=" - Saplama Hasarı Türü uymuyor. Şu tür olmalı: {TYPE}" />
+    <string id="txjiykNa" text="Gözden Geçir" />
+    <string id="tYz4D8Or" text="Tutsak" />
+    <string id="TzLtVzdg" text="Yaralı Askerler" />
+    <string id="U3ksQXD3" text="Bağışla" />
+    <string id="udPWHmOm" text="Zorluk:" />
+    <string id="uGMGjUZy" text="Klan üyelerini {SETTLEMENT_NAME}'{.e} gönder" />
+    <string id="UHLcmf9A" text="Birlik Tutsağı Sınırı" />
+    <string id="uipNpzVw" text="Şu anda ordu dağıtılamaz." />
+    <string id="uJro3Bua" text="Limit Üstü" />
+    <string id="URbKirPS" text="Gemi Sayısı" />
+    <string id="US7UmBbt" text="Zırh Kademesi" />
+    <string id="UUaW0dba" text="{SETTLEMENT_NAME}'{.e} doğru ilerliyor" />
+    <string id="v3OF6vBg" text="Verim" />
+    <string id="vdKiLwaf" text="Yolculuk ediyor" />
+    <string id="Ve5jkJqf" text="Otomatik Teklif" />
+    <string id="vggt7exj" text="Set {CURINDEX}/{COUNT}" />
+    <string id="vIPrZCZ1" text="Krallık ekranından liderliği bırakabilirsin." />
+    <string id="vLaBJFGy" text=" {PARTY_MEMBER.LINK} ({PARTY_SIZE})" />
+    <string id="Voa0sinH" text="Gerekli: {NEEDED_EXP_AMOUNT} tecrübe puanı (Senin tecrübe puanın {CURRENT_EXP_AMOUNT})" />
+    <string id="vOojEcIf" text="Bir tutsağı yeni birlik lideri olarak atayamazsın" />
+    <string id="VSUqbvbE" text="Yeni bir birlik oluşturmak için yeterince altının yok." />
+    <string id="VzCoqt8D" text="Eyer yok. Binek üzerinde hız ve manevraya %-10 ceza." />
+    <string id="VZjxs5Dt" text="Mülkleri: " />
+    <string id="w0slxNAl" text="Eğer limit mevcut ücretten düşükse, birlik, ücret limite inene kadar asker alımı yapmaz. Limit mevcut ücretten yüksekse, birlik asker alımı yapmaya devam eder." />
+    <string id="w1tgTNvK" text="Gemi Asker Kapasitesi" />
+    <string id="W1tsTWZv" text=" {PARTY_MEMBER.LINK} ({MEMBER_HEALTH}%)" />
+    <string id="W3hmFcfv" text="Sokağı Terk Et" />
+    <string id="wcSSgFyK" text="Karakter ismi ardışık boşluklar içeremez" />
+    <string id="weaponTier" text="Silah Kademesi: " />
+    <string id="wGWYNYYX" text="Bu eğitim aşaması artık geçerli değil." />
+    <string id="WHRq5Dp0" text="Demircilik Getirisi Yok" />
+    <string id="Wir2xZIg" text="Seçilen bazı parçaları henüz açmadın." />
+    <string id="wMiLUTNY" text="Bu silahı eritmek istediğinden emin misin? Envanterde kilitli durumda." />
+    <string id="woD234nb" text="{NUMBER} {?NUMBER&gt;1}items{?}item{\?}{.den} daha fazla seçmelisin" />
+    <string id="WySAapWO" text="Sınırsız Ücret" />
+    <string id="wZGj3qO1" text="Ne Üreteceğini Seç" />
+    <string id="X6eG4Q5V" text="Depo Kapasitesi" />
+    <string id="xaeXEj8J" text="Demircilik için karakter seç" />
+    <string id="XgkFpSdq" text="Değişiklikler uygulanamıyor. Konuşma başlatmak için değişiklikleri sıfırlamalısın." />
+    <string id="XIioBPi0" text="Değişiklik yok" />
+    <string id="Xmw93W6a" text="Yeterli Nüfuz Yok" />
+    <string id="xtlIFKaa" text="Krallıktan ayrılmak istediğine emin misin?{newline}Eğer öyleyse, krallıktan nasıl ayrılacağını seç." />
+    <string id="xtt9Oxer" text="Üretimler" />
+    <string id="XUtiwiYP" text="Uzunluk: " />
+    <string id="xW4BPVLX" text="Üretim Geçmişi" />
+    <string id="xwRWjlar" text="Arka Plan Rengi:" />
+    <string id="y2M014jI" text="Köyde üye bırakılamaz." />
+    <string id="y6qCNFQj" text="Ürünleri Depoda Sakla" />
+    <string id="Y7qbwrWE" text="{HERO_NAME}'{.nin} Becerileri" />
+    <string id="Y8EcVL1c" text="Son Güncelleme" />
+    <string id="ybLA7ZXp" text="Zaten Maksimumda" />
+    <string id="ysireFjT" text="Bu Atölyeyi {GOLD_AMOUNT}{GOLD_ICON}'{.e} Sat" />
+    <string id="YT9giTet" text="Öğrenme Limiti" />
+    <string id="yuxBDKgM" text="Eğer depoda ürün varsa, kaybedeceksin! Emin misin?" />
+    <string id="z2Slmx4N" text="Daha fazla asker için biraz daha yer var. Devam etmek istiyor musun?" />
+    <string id="z3Xg0IaG" text="{FACTION}'{.nin} sahip olduğu kaleler" />
+    <string id="Z4GdqdgV" text="Eşya ismi ardışık boşluklar içeremez." />
+    <string id="z8h0BRAb" text="Tüm mülklerini elinde tut" />
+    <string id="zawBaxl5" text="Uzaklık: {DISTANCE}" />
+    <string id="ZcybPatO" text="Silah Uzunluğu" />
+    <string id="zduu7dpz" text="Tutsaklar bu ekrandan birliğe alınamaz." />
+    <string id="zFDoDbNj" text="Sayı" />
+    <string id="zgnEagTJ" text="Durduruldu" />
+    <string id="ZgYAGfbD" text="Kara Asker Kapasitesi" />
+    <string id="ZIn8W5ZG" text="Eder" />
+    <string id="ZjaSde0X" text="Sahip olduğun yerleşkeler krallığa iade edildi. Bu, savaş çıkmasını önleyecek ve soylular bağlılığından vazgeçmene daha az tepki gösterecekler." />
+    <string id="zlcMGAbn" text="Önceki Sayfa" />
+    <string id="zLFsnaqR" text="Vali Yok" />
+    <string id="zoX9akov" text="Denizde yavaşlayacaksın. Dikkatli ol." />
+    <string id="zrhr4rDA" text="Bu orduyu dağıtmak istediğine emin misin? Bu, ilişki kaybına neden olacaktır." />
+    <string id="ZUgoQ1Ws" text="At Türü" />
+    <string id="zWaVxD6T" text="Birlik Hızı" />
+    <string id="zZlWRZjO" text="Savaşlar" />
+    <string id="ZZmlYrgL" text="{FACTION}'{.nin} sahip olduğu bir kale yok" />
+  </strings>
+</base>

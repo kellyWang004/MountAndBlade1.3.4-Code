@@ -1,0 +1,5318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<particle_effects>
+	<effect
+		name="invalid_particle"
+		guid="{39cdecb3-046b-4a8b-8e71-533bb7f6c882}"
+		sound_code="event:/mission/ambient/detail/fire/fireplace">
+		<emitters>
+			<emitter
+				name="Emitter"
+				_index_="0">
+				<flags>
+					<flag
+						name="emit_while_moving"
+						value="false" />
+					<flag
+						name="dont_emit_while_moving"
+						value="false" />
+					<flag
+						name="emit_at_once"
+						value="false" />
+					<flag
+						name="local_emit_dir"
+						value="true" />
+					<flag
+						name="loop_sprite"
+						value="false" />
+					<flag
+						name="uses_sprite_animation"
+						value="true" />
+					<flag
+						name="scale_with_respect_to_emitter_velocity"
+						value="false" />
+					<flag
+						name="skew_with_respect_to_particle_velocity"
+						value="true" />
+					<flag
+						name="spherical_normals"
+						value="false" />
+					<flag
+						name="emit_on_terrain"
+						value="false" />
+					<flag
+						name="select_random_sample_mesh"
+						value="false" />
+					<flag
+						name="fixed_billboard_direction"
+						value="false" />
+					<flag
+						name="order_by_distance"
+						value="true" />
+					<flag
+						name="select_random_sprite"
+						value="false" />
+					<flag
+						name="create_decal_on_collision"
+						value="false" />
+					<flag
+						name="create_decal_only_once"
+						value="false" />
+					<flag
+						name="randomize_collision_decal_rotation"
+						value="false" />
+					<flag
+						name="permanent_collision_decals"
+						value="false" />
+					<flag
+						name="collide_with_objects"
+						value="false" />
+					<flag
+						name="use_color_from_terrain"
+						value="false" />
+					<flag
+						name="enable_collision"
+						value="false" />
+				</flags>
+				<parameters>
+					<parameter
+						name="emitter_life"
+						value="0.000" />
+					<parameter
+						name="activation_delay"
+						value="0.000" />
+					<parameter
+						name="skew_with_particle_velocity_coef"
+						value="200.000" />
+					<parameter
+						name="skew_with_particle_velocity_limit"
+						value="0.000" />
+					<parameter
+						name="scale_with_emitter_velocity_coef"
+						value="0.000" />
+					<parameter
+						name="inherit_emitter_velocity"
+						value="0.000" />
+					<parameter
+						name="emit_volume"
+						value="0.100, 0.100, 0.000" />
+					<parameter
+						name="emit_sphere_radius"
+						value="1.000" />
+					<parameter
+						name="gravity"
+						value="0.200, 0.000, 2.000" />
+					<parameter
+						name="fixed_billboard_direction"
+						value="0.000, 0.000, 1.000" />
+					<parameter
+						name="emission_speed_limit"
+						value="0.000" />
+					<parameter
+						name="decal_min_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="decal_max_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="skinned_decal_start_index"
+						value="-1" />
+					<parameter
+						name="skinned_decal_end_index"
+						value="-1" />
+					<parameter
+						name="max_alive_particle_count"
+						value="0" />
+					<parameter
+						name="quad_scale"
+						value="0.235, 0.235" />
+					<parameter
+						name="quad_bias"
+						value="0.000, 0.000" />
+					<parameter
+						name="texture_sprite_count"
+						value="5, 5" />
+					<parameter
+						name="texture_sprite_frame_count"
+						value="25" />
+					<parameter
+						name="texture_sprite_frame_rate"
+						value="22.000" />
+					<parameter
+						name="fixed_particle_initial_speed"
+						value="0.000" />
+					<parameter
+						name="fadeout_distance"
+						value="1.000" />
+					<parameter
+						name="fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="camera_fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="backlight_multiplier"
+						value="0.000" />
+					<parameter
+						name="diffuse_multiplier"
+						value="250.000" />
+					<parameter
+						name="emissive_multiplier"
+						value="1.000" />
+					<parameter
+						name="heatmap_multiplier"
+						value="1.000" />
+					<parameter
+						name="emission_turbulence_interval"
+						value="340282346638528859811704183484516925440.000" />
+					<parameter
+						name="emission_turbulence_strength"
+						value="0.000" />
+					<parameter
+						name="collision_damping"
+						value="0.000" />
+					<parameter
+						name="collision_angular_damping"
+						value="0.000" />
+					<parameter
+						name="cone_emit_angle"
+						value="0.000" />
+					<parameter
+						name="particle_size_curve_op"
+						value="add" />
+					<parameter
+						name="emit_volume_type"
+						value="box" />
+					<parameter
+						name="billboard_type"
+						value="turn_to_velocity_side" />
+					<parameter
+						name="collision_behaviour"
+						value="normal" />
+					<parameter
+						name="emission_velocity_model"
+						value="random_velocity_components" />
+					<parameter
+						name="initial_rotation"
+						base="0.000"
+						bias="180.000" />
+					<parameter
+						name="damping"
+						base="0.599"
+						bias="0.000" />
+					<parameter
+						name="turbulence_strength"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="angular_damping"
+						base="0.733"
+						bias="0.000" />
+					<parameter
+						name="particle_life"
+						base="1.000"
+						bias="0.000" />
+					<parameter
+						name="emission_rate"
+						base="10.000"
+						bias="0.000" />
+					<parameter
+						name="cone_emit_velocity"
+						base="1.000"
+						bias="0.000">
+						<curve
+							name="emitter_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="emit_velocity_x"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="emit_velocity_y"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="emit_velocity_z"
+						base="1.000"
+						bias="0.000" />
+					<parameter
+						name="emit_rotation_speed"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="wind_effect"
+						base="1.000"
+						bias="0.000">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="particle_size"
+						base="0.000"
+						bias="0.000">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.300">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.014, 0.000" />
+								<key
+									time="0.069"
+									value="1.000"
+									tangent="-0.062, 0.000" />
+								<key
+									time="0.069"
+									value="1.000"
+									tangent="0.062, 0.000" />
+								<key
+									time="0.690"
+									value="0.077"
+									tangent="-0.062, 0.000" />
+								<key
+									time="0.690"
+									value="0.077"
+									tangent="0.062, 0.000" />
+								<key
+									time="1.000"
+									value="0.077"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="material"
+						value="prt_shd_fire_1" />
+					<parameter
+						name="sample_mesh"
+						value="" />
+					<parameter
+						name="decal_material"
+						value="" />
+					<parameter
+						name="particle_color">
+						<color>
+							<keys>
+								<key
+									time="0.200"
+									value="0.500, 0.384, 0.284" />
+								<key
+									time="0.800"
+									value="0.046, 0.013, 0.008" />
+							</keys>
+						</color>
+						<alpha>
+							<keys>
+								<key
+									time="0.000"
+									value="0.000" />
+								<key
+									time="0.090"
+									value="0.000" />
+								<key
+									time="0.213"
+									value="1.000" />
+								<key
+									time="0.800"
+									value="1.000" />
+								<key
+									time="1.000"
+									value="0.000" />
+							</keys>
+						</alpha>
+					</parameter>
+				</parameters>
+			</emitter>
+		</emitters>
+	</effect>
+	<effect
+		name="prt_basic_fire_smoke"
+		guid="{30C2EC56-9290-4DEB-94FC-58F47F14264F}"
+		sound_code="event:/mission/ambient/detail/fire/fireplace">
+		<emitters>
+			<emitter
+				name="Emitter"
+				_index_="0">
+				<flags>
+					<flag
+						name="emit_while_moving"
+						value="false" />
+					<flag
+						name="dont_emit_while_moving"
+						value="false" />
+					<flag
+						name="emit_at_once"
+						value="false" />
+					<flag
+						name="local_emit_dir"
+						value="true" />
+					<flag
+						name="loop_sprite"
+						value="false" />
+					<flag
+						name="uses_sprite_animation"
+						value="true" />
+					<flag
+						name="scale_with_respect_to_emitter_velocity"
+						value="false" />
+					<flag
+						name="skew_with_respect_to_particle_velocity"
+						value="true" />
+					<flag
+						name="spherical_normals"
+						value="false" />
+					<flag
+						name="emit_on_terrain"
+						value="false" />
+					<flag
+						name="select_random_sample_mesh"
+						value="false" />
+					<flag
+						name="fixed_billboard_direction"
+						value="false" />
+					<flag
+						name="order_by_distance"
+						value="true" />
+					<flag
+						name="select_random_sprite"
+						value="false" />
+					<flag
+						name="create_decal_on_collision"
+						value="false" />
+					<flag
+						name="create_decal_only_once"
+						value="false" />
+					<flag
+						name="randomize_collision_decal_rotation"
+						value="false" />
+					<flag
+						name="permanent_collision_decals"
+						value="false" />
+					<flag
+						name="collide_with_objects"
+						value="false" />
+					<flag
+						name="use_color_from_terrain"
+						value="false" />
+					<flag
+						name="enable_collision"
+						value="false" />
+				</flags>
+				<parameters>
+					<parameter
+						name="emitter_life"
+						value="0.000" />
+					<parameter
+						name="activation_delay"
+						value="0.000" />
+					<parameter
+						name="skew_with_particle_velocity_coef"
+						value="200.000" />
+					<parameter
+						name="skew_with_particle_velocity_limit"
+						value="0.000" />
+					<parameter
+						name="scale_with_emitter_velocity_coef"
+						value="0.000" />
+					<parameter
+						name="inherit_emitter_velocity"
+						value="0.000" />
+					<parameter
+						name="emit_volume"
+						value="0.100, 0.100, 0.000" />
+					<parameter
+						name="emit_sphere_radius"
+						value="1.000" />
+					<parameter
+						name="gravity"
+						value="0.200, 0.000, 2.000" />
+					<parameter
+						name="fixed_billboard_direction"
+						value="0.000, 0.000, 1.000" />
+					<parameter
+						name="emission_speed_limit"
+						value="0.000" />
+					<parameter
+						name="decal_min_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="decal_max_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="skinned_decal_start_index"
+						value="-1" />
+					<parameter
+						name="skinned_decal_end_index"
+						value="-1" />
+					<parameter
+						name="max_alive_particle_count"
+						value="0" />
+					<parameter
+						name="quad_scale"
+						value="0.235, 0.235" />
+					<parameter
+						name="quad_bias"
+						value="0.000, 0.000" />
+					<parameter
+						name="texture_sprite_count"
+						value="5, 5" />
+					<parameter
+						name="texture_sprite_frame_count"
+						value="25" />
+					<parameter
+						name="texture_sprite_frame_rate"
+						value="22.000" />
+					<parameter
+						name="fixed_particle_initial_speed"
+						value="0.000" />
+					<parameter
+						name="fadeout_distance"
+						value="1.000" />
+					<parameter
+						name="fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="camera_fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="backlight_multiplier"
+						value="0.000" />
+					<parameter
+						name="diffuse_multiplier"
+						value="250.000" />
+					<parameter
+						name="emissive_multiplier"
+						value="1.000" />
+					<parameter
+						name="heatmap_multiplier"
+						value="1.000" />
+					<parameter
+						name="emission_turbulence_interval"
+						value="340282346638528859811704183484516925440.000" />
+					<parameter
+						name="emission_turbulence_strength"
+						value="0.000" />
+					<parameter
+						name="collision_damping"
+						value="0.000" />
+					<parameter
+						name="collision_angular_damping"
+						value="0.000" />
+					<parameter
+						name="cone_emit_angle"
+						value="0.000" />
+					<parameter
+						name="particle_size_curve_op"
+						value="add" />
+					<parameter
+						name="emit_volume_type"
+						value="box" />
+					<parameter
+						name="billboard_type"
+						value="turn_to_velocity_side" />
+					<parameter
+						name="collision_behaviour"
+						value="normal" />
+					<parameter
+						name="emission_velocity_model"
+						value="random_velocity_components" />
+					<parameter
+						name="initial_rotation"
+						base="0.000"
+						bias="180.000" />
+					<parameter
+						name="damping"
+						base="0.599"
+						bias="0.000" />
+					<parameter
+						name="turbulence_strength"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="angular_damping"
+						base="0.733"
+						bias="0.000" />
+					<parameter
+						name="particle_life"
+						base="1.000"
+						bias="0.000" />
+					<parameter
+						name="emission_rate"
+						base="10.000"
+						bias="0.000" />
+					<parameter
+						name="cone_emit_velocity"
+						base="1.000"
+						bias="0.000">
+						<curve
+							name="emitter_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="emit_velocity_x"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="emit_velocity_y"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="emit_velocity_z"
+						base="1.000"
+						bias="0.000" />
+					<parameter
+						name="emit_rotation_speed"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="wind_effect"
+						base="1.000"
+						bias="0.000">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="particle_size"
+						base="0.000"
+						bias="0.000">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.300">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.014, 0.000" />
+								<key
+									time="0.069"
+									value="1.000"
+									tangent="-0.062, 0.000" />
+								<key
+									time="0.069"
+									value="1.000"
+									tangent="0.062, 0.000" />
+								<key
+									time="0.690"
+									value="0.077"
+									tangent="-0.062, 0.000" />
+								<key
+									time="0.690"
+									value="0.077"
+									tangent="0.062, 0.000" />
+								<key
+									time="1.000"
+									value="0.077"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="material"
+						value="prt_shd_fire_1" />
+					<parameter
+						name="sample_mesh"
+						value="" />
+					<parameter
+						name="particle_color">
+						<color>
+							<keys>
+								<key
+									time="0.200"
+									value="0.500, 0.384, 0.284" />
+								<key
+									time="0.800"
+									value="0.046, 0.013, 0.008" />
+							</keys>
+						</color>
+						<alpha>
+							<keys>
+								<key
+									time="0.000"
+									value="0.000" />
+								<key
+									time="0.090"
+									value="0.000" />
+								<key
+									time="0.213"
+									value="1.000" />
+								<key
+									time="0.800"
+									value="1.000" />
+								<key
+									time="1.000"
+									value="0.000" />
+							</keys>
+						</alpha>
+					</parameter>
+				</parameters>
+			</emitter>
+			<emitter
+				name="New emitter"
+				_index_="1">
+				<flags>
+					<flag
+						name="emit_while_moving"
+						value="false" />
+					<flag
+						name="dont_emit_while_moving"
+						value="false" />
+					<flag
+						name="emit_at_once"
+						value="false" />
+					<flag
+						name="local_emit_dir"
+						value="true" />
+					<flag
+						name="loop_sprite"
+						value="false" />
+					<flag
+						name="uses_sprite_animation"
+						value="true" />
+					<flag
+						name="scale_with_respect_to_emitter_velocity"
+						value="false" />
+					<flag
+						name="skew_with_respect_to_particle_velocity"
+						value="false" />
+					<flag
+						name="spherical_normals"
+						value="true" />
+					<flag
+						name="emit_on_terrain"
+						value="false" />
+					<flag
+						name="select_random_sample_mesh"
+						value="false" />
+					<flag
+						name="fixed_billboard_direction"
+						value="false" />
+					<flag
+						name="order_by_distance"
+						value="true" />
+					<flag
+						name="select_random_sprite"
+						value="false" />
+					<flag
+						name="create_decal_on_collision"
+						value="false" />
+					<flag
+						name="create_decal_only_once"
+						value="false" />
+					<flag
+						name="randomize_collision_decal_rotation"
+						value="false" />
+					<flag
+						name="permanent_collision_decals"
+						value="false" />
+					<flag
+						name="collide_with_objects"
+						value="false" />
+					<flag
+						name="use_color_from_terrain"
+						value="false" />
+					<flag
+						name="enable_collision"
+						value="false" />
+				</flags>
+				<parameters>
+					<parameter
+						name="emitter_life"
+						value="0.000" />
+					<parameter
+						name="activation_delay"
+						value="0.000" />
+					<parameter
+						name="skew_with_particle_velocity_coef"
+						value="5.000" />
+					<parameter
+						name="skew_with_particle_velocity_limit"
+						value="0.000" />
+					<parameter
+						name="scale_with_emitter_velocity_coef"
+						value="0.000" />
+					<parameter
+						name="inherit_emitter_velocity"
+						value="0.000" />
+					<parameter
+						name="emit_volume"
+						value="0.000, 0.000, 0.000" />
+					<parameter
+						name="emit_sphere_radius"
+						value="1.000" />
+					<parameter
+						name="gravity"
+						value="0.000, 0.000, 5.000" />
+					<parameter
+						name="fixed_billboard_direction"
+						value="0.000, 0.000, 1.000" />
+					<parameter
+						name="emission_speed_limit"
+						value="0.000" />
+					<parameter
+						name="decal_min_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="decal_max_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="skinned_decal_start_index"
+						value="-1" />
+					<parameter
+						name="skinned_decal_end_index"
+						value="-1" />
+					<parameter
+						name="max_alive_particle_count"
+						value="0" />
+					<parameter
+						name="quad_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="quad_bias"
+						value="0.000, 0.000" />
+					<parameter
+						name="texture_sprite_count"
+						value="8, 8" />
+					<parameter
+						name="texture_sprite_frame_count"
+						value="64" />
+					<parameter
+						name="texture_sprite_frame_rate"
+						value="25.000" />
+					<parameter
+						name="fixed_particle_initial_speed"
+						value="0.000" />
+					<parameter
+						name="fadeout_distance"
+						value="0.100" />
+					<parameter
+						name="fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="camera_fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="backlight_multiplier"
+						value="0.500" />
+					<parameter
+						name="diffuse_multiplier"
+						value="0.500" />
+					<parameter
+						name="emissive_multiplier"
+						value="1.000" />
+					<parameter
+						name="heatmap_multiplier"
+						value="1.000" />
+					<parameter
+						name="emission_turbulence_interval"
+						value="340282346638528859811704183484516925440.000" />
+					<parameter
+						name="emission_turbulence_strength"
+						value="0.000" />
+					<parameter
+						name="collision_damping"
+						value="0.000" />
+					<parameter
+						name="collision_angular_damping"
+						value="0.000" />
+					<parameter
+						name="cone_emit_angle"
+						value="0.000" />
+					<parameter
+						name="particle_size_curve_op"
+						value="add" />
+					<parameter
+						name="emit_volume_type"
+						value="box" />
+					<parameter
+						name="billboard_type"
+						value="3d" />
+					<parameter
+						name="collision_behaviour"
+						value="normal" />
+					<parameter
+						name="emission_velocity_model"
+						value="random_velocity_components" />
+					<parameter
+						name="initial_rotation"
+						base="0.000"
+						bias="180.000" />
+					<parameter
+						name="damping"
+						base="0.733"
+						bias="0.000" />
+					<parameter
+						name="turbulence_strength"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="angular_damping"
+						base="0.599"
+						bias="0.000" />
+					<parameter
+						name="particle_life"
+						base="2.200"
+						bias="0.300" />
+					<parameter
+						name="emission_rate"
+						base="10.000"
+						bias="0.000" />
+					<parameter
+						name="cone_emit_velocity"
+						base="1.000"
+						bias="0.000">
+						<curve
+							name="emitter_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="emit_velocity_x"
+						base="0.000"
+						bias="1.000" />
+					<parameter
+						name="emit_velocity_y"
+						base="0.000"
+						bias="1.000" />
+					<parameter
+						name="emit_velocity_z"
+						base="2.000"
+						bias="2.000" />
+					<parameter
+						name="emit_rotation_speed"
+						base="0.000"
+						bias="85.944" />
+					<parameter
+						name="wind_effect"
+						base="1.000"
+						bias="0.000">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="particle_size"
+						base="0.150"
+						bias="0.150">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="0.200"
+									tangent="0.021, 0.000" />
+								<key
+									time="0.897"
+									value="1.000"
+									tangent="-0.021, 0.000" />
+								<key
+									time="0.897"
+									value="1.000"
+									tangent="0.021, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="0.000, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="material"
+						value="prt_shd_smoke_4" />
+					<parameter
+						name="sample_mesh"
+						value="" />
+					<parameter
+						name="particle_color">
+						<color>
+							<keys>
+								<key
+									time="0.000"
+									value="0.130, 0.142, 0.151" />
+								<key
+									time="1.000"
+									value="0.139, 0.133, 0.133" />
+							</keys>
+						</color>
+						<alpha>
+							<keys>
+								<key
+									time="0.000"
+									value="0.000" />
+								<key
+									time="0.200"
+									value="0.392" />
+								<key
+									time="0.458"
+									value="0.392" />
+								<key
+									time="1.000"
+									value="0.000" />
+							</keys>
+						</alpha>
+					</parameter>
+				</parameters>
+			</emitter>
+		</emitters>
+	</effect>
+	<effect
+		name="prt_food_smoke"
+		guid="{07129587-7C6E-4B6B-8007-A9D7950B3876}">
+		<emitters>
+			<emitter
+				name="smoke"
+				_index_="0">
+				<flags>
+					<flag
+						name="emit_while_moving"
+						value="false" />
+					<flag
+						name="dont_emit_while_moving"
+						value="false" />
+					<flag
+						name="emit_at_once"
+						value="false" />
+					<flag
+						name="local_emit_dir"
+						value="true" />
+					<flag
+						name="loop_sprite"
+						value="false" />
+					<flag
+						name="uses_sprite_animation"
+						value="true" />
+					<flag
+						name="scale_with_respect_to_emitter_velocity"
+						value="false" />
+					<flag
+						name="skew_with_respect_to_particle_velocity"
+						value="true" />
+					<flag
+						name="spherical_normals"
+						value="true" />
+					<flag
+						name="emit_on_terrain"
+						value="false" />
+					<flag
+						name="select_random_sample_mesh"
+						value="false" />
+					<flag
+						name="fixed_billboard_direction"
+						value="false" />
+					<flag
+						name="order_by_distance"
+						value="true" />
+					<flag
+						name="select_random_sprite"
+						value="false" />
+					<flag
+						name="create_decal_on_collision"
+						value="false" />
+					<flag
+						name="create_decal_only_once"
+						value="false" />
+					<flag
+						name="randomize_collision_decal_rotation"
+						value="false" />
+					<flag
+						name="permanent_collision_decals"
+						value="false" />
+					<flag
+						name="collide_with_objects"
+						value="false" />
+					<flag
+						name="use_color_from_terrain"
+						value="false" />
+					<flag
+						name="enable_collision"
+						value="false" />
+				</flags>
+				<parameters>
+					<parameter
+						name="emitter_life"
+						value="0.000" />
+					<parameter
+						name="activation_delay"
+						value="0.000" />
+					<parameter
+						name="skew_with_particle_velocity_coef"
+						value="5.000" />
+					<parameter
+						name="skew_with_particle_velocity_limit"
+						value="0.000" />
+					<parameter
+						name="scale_with_emitter_velocity_coef"
+						value="0.000" />
+					<parameter
+						name="inherit_emitter_velocity"
+						value="0.000" />
+					<parameter
+						name="emit_volume"
+						value="0.500, 0.500, 0.000" />
+					<parameter
+						name="emit_sphere_radius"
+						value="1.000" />
+					<parameter
+						name="gravity"
+						value="1.000, 0.000, 3.000" />
+					<parameter
+						name="fixed_billboard_direction"
+						value="0.000, 0.000, 1.000" />
+					<parameter
+						name="emission_speed_limit"
+						value="0.000" />
+					<parameter
+						name="decal_min_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="decal_max_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="skinned_decal_start_index"
+						value="-1" />
+					<parameter
+						name="skinned_decal_end_index"
+						value="-1" />
+					<parameter
+						name="max_alive_particle_count"
+						value="0" />
+					<parameter
+						name="quad_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="quad_bias"
+						value="0.000, 0.000" />
+					<parameter
+						name="texture_sprite_count"
+						value="8, 8" />
+					<parameter
+						name="texture_sprite_frame_count"
+						value="64" />
+					<parameter
+						name="texture_sprite_frame_rate"
+						value="25.000" />
+					<parameter
+						name="fixed_particle_initial_speed"
+						value="0.000" />
+					<parameter
+						name="fadeout_distance"
+						value="1.000" />
+					<parameter
+						name="fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="camera_fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="backlight_multiplier"
+						value="0.500" />
+					<parameter
+						name="diffuse_multiplier"
+						value="1.000" />
+					<parameter
+						name="emissive_multiplier"
+						value="1.000" />
+					<parameter
+						name="heatmap_multiplier"
+						value="1.000" />
+					<parameter
+						name="emission_turbulence_interval"
+						value="340282346638528859811704183484516925440.000" />
+					<parameter
+						name="emission_turbulence_strength"
+						value="0.000" />
+					<parameter
+						name="collision_damping"
+						value="0.000" />
+					<parameter
+						name="collision_angular_damping"
+						value="0.000" />
+					<parameter
+						name="cone_emit_angle"
+						value="0.000" />
+					<parameter
+						name="particle_size_curve_op"
+						value="multiply" />
+					<parameter
+						name="emit_volume_type"
+						value="box" />
+					<parameter
+						name="billboard_type"
+						value="3d" />
+					<parameter
+						name="collision_behaviour"
+						value="normal" />
+					<parameter
+						name="emission_velocity_model"
+						value="random_velocity_components" />
+					<parameter
+						name="initial_rotation"
+						base="0.000"
+						bias="180.000" />
+					<parameter
+						name="damping"
+						base="0.800"
+						bias="0.000" />
+					<parameter
+						name="turbulence_strength"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="angular_damping"
+						base="0.800"
+						bias="0.000" />
+					<parameter
+						name="particle_life"
+						base="2.400"
+						bias="0.100" />
+					<parameter
+						name="emission_rate"
+						base="20.000"
+						bias="0.000" />
+					<parameter
+						name="cone_emit_velocity"
+						base="1.000"
+						bias="0.000">
+						<curve
+							name="emitter_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="emit_velocity_x"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="emit_velocity_y"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="emit_velocity_z"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="emit_rotation_speed"
+						base="0.000"
+						bias="85.944" />
+					<parameter
+						name="wind_effect"
+						base="0.600"
+						bias="0.200" />
+					<parameter
+						name="particle_size"
+						base="1.000"
+						bias="0.250">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.500">
+							<keys>
+								<key
+									time="0.000"
+									value="0.436"
+									tangent="0.000, 0.000" />
+								<key
+									time="0.897"
+									value="1.000"
+									tangent="-0.021, 0.000" />
+								<key
+									time="0.897"
+									value="1.000"
+									tangent="0.021, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="0.000, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="material"
+						value="prt_shd_smoke_4" />
+					<parameter
+						name="sample_mesh"
+						value="" />
+					<parameter
+						name="particle_color">
+						<color>
+							<keys>
+								<key
+									time="0.100"
+									value="0.586, 0.625, 0.673" />
+								<key
+									time="0.900"
+									value="0.177, 0.170, 0.170" />
+							</keys>
+						</color>
+						<alpha>
+							<keys>
+								<key
+									time="0.000"
+									value="0.000" />
+								<key
+									time="0.200"
+									value="0.553" />
+								<key
+									time="0.800"
+									value="0.353" />
+								<key
+									time="1.000"
+									value="0.000" />
+							</keys>
+						</alpha>
+					</parameter>
+				</parameters>
+			</emitter>
+		</emitters>
+	</effect>
+	<effect
+		name="prt_hit_dust"
+		guid="{E76455D7-D968-4FD3-A01D-4B7D186E8A9C}">
+		<emitters>
+			<emitter
+				name="Emitter"
+				_index_="0">
+				<flags>
+					<flag
+						name="emit_while_moving"
+						value="false" />
+					<flag
+						name="dont_emit_while_moving"
+						value="false" />
+					<flag
+						name="emit_at_once"
+						value="true" />
+					<flag
+						name="local_emit_dir"
+						value="true" />
+					<flag
+						name="loop_sprite"
+						value="false" />
+					<flag
+						name="uses_sprite_animation"
+						value="false" />
+					<flag
+						name="scale_with_respect_to_emitter_velocity"
+						value="false" />
+					<flag
+						name="skew_with_respect_to_particle_velocity"
+						value="false" />
+					<flag
+						name="spherical_normals"
+						value="true" />
+					<flag
+						name="emit_on_terrain"
+						value="false" />
+					<flag
+						name="select_random_sample_mesh"
+						value="false" />
+					<flag
+						name="fixed_billboard_direction"
+						value="false" />
+					<flag
+						name="order_by_distance"
+						value="false" />
+					<flag
+						name="select_random_sprite"
+						value="true" />
+					<flag
+						name="create_decal_on_collision"
+						value="false" />
+					<flag
+						name="create_decal_only_once"
+						value="false" />
+					<flag
+						name="randomize_collision_decal_rotation"
+						value="false" />
+					<flag
+						name="permanent_collision_decals"
+						value="false" />
+					<flag
+						name="collide_with_objects"
+						value="false" />
+					<flag
+						name="use_color_from_terrain"
+						value="false" />
+					<flag
+						name="enable_collision"
+						value="false" />
+				</flags>
+				<parameters>
+					<parameter
+						name="emitter_life"
+						value="0.000" />
+					<parameter
+						name="activation_delay"
+						value="0.000" />
+					<parameter
+						name="skew_with_particle_velocity_coef"
+						value="10.000" />
+					<parameter
+						name="skew_with_particle_velocity_limit"
+						value="0.000" />
+					<parameter
+						name="scale_with_emitter_velocity_coef"
+						value="0.000" />
+					<parameter
+						name="inherit_emitter_velocity"
+						value="0.000" />
+					<parameter
+						name="emit_volume"
+						value="0.000, 0.000, 0.000" />
+					<parameter
+						name="emit_sphere_radius"
+						value="1.000" />
+					<parameter
+						name="gravity"
+						value="0.000, 0.000, -1.000" />
+					<parameter
+						name="fixed_billboard_direction"
+						value="0.000, 0.000, 1.000" />
+					<parameter
+						name="emission_speed_limit"
+						value="0.000" />
+					<parameter
+						name="decal_min_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="decal_max_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="skinned_decal_start_index"
+						value="-1" />
+					<parameter
+						name="skinned_decal_end_index"
+						value="-1" />
+					<parameter
+						name="max_alive_particle_count"
+						value="0" />
+					<parameter
+						name="quad_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="quad_bias"
+						value="0.000, 0.000" />
+					<parameter
+						name="texture_sprite_count"
+						value="2, 2" />
+					<parameter
+						name="texture_sprite_frame_count"
+						value="1" />
+					<parameter
+						name="texture_sprite_frame_rate"
+						value="1.000" />
+					<parameter
+						name="fixed_particle_initial_speed"
+						value="0.000" />
+					<parameter
+						name="fadeout_distance"
+						value="1.000" />
+					<parameter
+						name="fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="camera_fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="backlight_multiplier"
+						value="0.000" />
+					<parameter
+						name="diffuse_multiplier"
+						value="1.000" />
+					<parameter
+						name="emissive_multiplier"
+						value="1.000" />
+					<parameter
+						name="heatmap_multiplier"
+						value="1.000" />
+					<parameter
+						name="emission_turbulence_interval"
+						value="340282346638528859811704183484516925440.000" />
+					<parameter
+						name="emission_turbulence_strength"
+						value="0.000" />
+					<parameter
+						name="collision_damping"
+						value="0.000" />
+					<parameter
+						name="collision_angular_damping"
+						value="0.000" />
+					<parameter
+						name="cone_emit_angle"
+						value="0.000" />
+					<parameter
+						name="particle_size_curve_op"
+						value="add" />
+					<parameter
+						name="emit_volume_type"
+						value="box" />
+					<parameter
+						name="billboard_type"
+						value="3d" />
+					<parameter
+						name="collision_behaviour"
+						value="normal" />
+					<parameter
+						name="emission_velocity_model"
+						value="random_velocity_components" />
+					<parameter
+						name="initial_rotation"
+						base="0.000"
+						bias="180.000" />
+					<parameter
+						name="damping"
+						base="0.733"
+						bias="0.000" />
+					<parameter
+						name="turbulence_strength"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="angular_damping"
+						base="0.599"
+						bias="0.000" />
+					<parameter
+						name="particle_life"
+						base="1.300"
+						bias="0.400" />
+					<parameter
+						name="emission_rate"
+						base="5.000"
+						bias="0.000" />
+					<parameter
+						name="cone_emit_velocity"
+						base="1.000"
+						bias="0.000">
+						<curve
+							name="emitter_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="emit_velocity_x"
+						base="1.000"
+						bias="1.000" />
+					<parameter
+						name="emit_velocity_y"
+						base="0.000"
+						bias="1.000" />
+					<parameter
+						name="emit_velocity_z"
+						base="1.000"
+						bias="1.000" />
+					<parameter
+						name="emit_rotation_speed"
+						base="0.000"
+						bias="171.887" />
+					<parameter
+						name="wind_effect"
+						base="1.000"
+						bias="0.000">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="particle_size"
+						base="0.250"
+						bias="0.250">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="0.300">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.193, 0.000" />
+								<key
+									time="1.000"
+									value="0.667"
+									tangent="-0.193, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="material"
+						value="prt_shd_smoke_1" />
+					<parameter
+						name="sample_mesh"
+						value="" />
+					<parameter
+						name="particle_color">
+						<color>
+							<keys>
+								<key
+									time="0.100"
+									value="0.307, 0.255, 0.220" />
+								<key
+									time="0.900"
+									value="0.349, 0.284, 0.231" />
+							</keys>
+						</color>
+						<alpha>
+							<keys>
+								<key
+									time="0.000"
+									value="0.000" />
+								<key
+									time="0.300"
+									value="0.392" />
+								<key
+									time="0.700"
+									value="0.392" />
+								<key
+									time="1.000"
+									value="0.000" />
+							</keys>
+						</alpha>
+					</parameter>
+				</parameters>
+			</emitter>
+		</emitters>
+	</effect>
+	<effect
+		name="prt_steam"
+		guid="{08FB8881-DB6C-4A04-92F7-24BA54DF988C}">
+		<emitters>
+			<emitter
+				name="Emitter"
+				_index_="0">
+				<flags>
+					<flag
+						name="emit_while_moving"
+						value="false" />
+					<flag
+						name="dont_emit_while_moving"
+						value="false" />
+					<flag
+						name="emit_at_once"
+						value="false" />
+					<flag
+						name="local_emit_dir"
+						value="true" />
+					<flag
+						name="loop_sprite"
+						value="false" />
+					<flag
+						name="uses_sprite_animation"
+						value="true" />
+					<flag
+						name="scale_with_respect_to_emitter_velocity"
+						value="false" />
+					<flag
+						name="skew_with_respect_to_particle_velocity"
+						value="true" />
+					<flag
+						name="spherical_normals"
+						value="true" />
+					<flag
+						name="emit_on_terrain"
+						value="false" />
+					<flag
+						name="select_random_sample_mesh"
+						value="false" />
+					<flag
+						name="fixed_billboard_direction"
+						value="false" />
+					<flag
+						name="order_by_distance"
+						value="true" />
+					<flag
+						name="select_random_sprite"
+						value="false" />
+					<flag
+						name="create_decal_on_collision"
+						value="false" />
+					<flag
+						name="create_decal_only_once"
+						value="false" />
+					<flag
+						name="randomize_collision_decal_rotation"
+						value="false" />
+					<flag
+						name="permanent_collision_decals"
+						value="false" />
+					<flag
+						name="collide_with_objects"
+						value="false" />
+					<flag
+						name="use_color_from_terrain"
+						value="false" />
+					<flag
+						name="enable_collision"
+						value="false" />
+				</flags>
+				<parameters>
+					<parameter
+						name="emitter_life"
+						value="0.000" />
+					<parameter
+						name="activation_delay"
+						value="0.000" />
+					<parameter
+						name="skew_with_particle_velocity_coef"
+						value="100.000" />
+					<parameter
+						name="skew_with_particle_velocity_limit"
+						value="0.000" />
+					<parameter
+						name="scale_with_emitter_velocity_coef"
+						value="0.000" />
+					<parameter
+						name="inherit_emitter_velocity"
+						value="0.000" />
+					<parameter
+						name="emit_volume"
+						value="0.000, 0.000, 0.000" />
+					<parameter
+						name="emit_sphere_radius"
+						value="1.000" />
+					<parameter
+						name="gravity"
+						value="0.000, 0.000, 1.000" />
+					<parameter
+						name="fixed_billboard_direction"
+						value="0.000, 0.000, 1.000" />
+					<parameter
+						name="emission_speed_limit"
+						value="0.000" />
+					<parameter
+						name="decal_min_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="decal_max_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="skinned_decal_start_index"
+						value="-1" />
+					<parameter
+						name="skinned_decal_end_index"
+						value="-1" />
+					<parameter
+						name="max_alive_particle_count"
+						value="0" />
+					<parameter
+						name="quad_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="quad_bias"
+						value="0.000, 0.000" />
+					<parameter
+						name="texture_sprite_count"
+						value="5, 5" />
+					<parameter
+						name="texture_sprite_frame_count"
+						value="25" />
+					<parameter
+						name="texture_sprite_frame_rate"
+						value="20.000" />
+					<parameter
+						name="fixed_particle_initial_speed"
+						value="0.000" />
+					<parameter
+						name="fadeout_distance"
+						value="1.000" />
+					<parameter
+						name="fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="camera_fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="backlight_multiplier"
+						value="0.000" />
+					<parameter
+						name="diffuse_multiplier"
+						value="1.000" />
+					<parameter
+						name="emissive_multiplier"
+						value="1.000" />
+					<parameter
+						name="heatmap_multiplier"
+						value="1.000" />
+					<parameter
+						name="emission_turbulence_interval"
+						value="340282346638528859811704183484516925440.000" />
+					<parameter
+						name="emission_turbulence_strength"
+						value="0.000" />
+					<parameter
+						name="collision_damping"
+						value="0.000" />
+					<parameter
+						name="collision_angular_damping"
+						value="0.000" />
+					<parameter
+						name="cone_emit_angle"
+						value="0.000" />
+					<parameter
+						name="particle_size_curve_op"
+						value="add" />
+					<parameter
+						name="emit_volume_type"
+						value="box" />
+					<parameter
+						name="billboard_type"
+						value="3d" />
+					<parameter
+						name="collision_behaviour"
+						value="normal" />
+					<parameter
+						name="emission_velocity_model"
+						value="random_velocity_components" />
+					<parameter
+						name="initial_rotation"
+						base="0.000"
+						bias="180.000" />
+					<parameter
+						name="damping"
+						base="0.610"
+						bias="0.000" />
+					<parameter
+						name="turbulence_strength"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="angular_damping"
+						base="0.600"
+						bias="0.000" />
+					<parameter
+						name="particle_life"
+						base="1.500"
+						bias="0.100" />
+					<parameter
+						name="emission_rate"
+						base="10.000"
+						bias="0.000" />
+					<parameter
+						name="cone_emit_velocity"
+						base="1.000"
+						bias="0.000">
+						<curve
+							name="emitter_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="emit_velocity_x"
+						base="0.000"
+						bias="0.300" />
+					<parameter
+						name="emit_velocity_y"
+						base="0.000"
+						bias="0.300" />
+					<parameter
+						name="emit_velocity_z"
+						base="0.000"
+						bias="0.300" />
+					<parameter
+						name="emit_rotation_speed"
+						base="0.000"
+						bias="57.296" />
+					<parameter
+						name="wind_effect"
+						base="0.600"
+						bias="0.000">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="particle_size"
+						base="0.100"
+						bias="0.100">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="0.321">
+							<keys>
+								<key
+									time="0.000"
+									value="0.468"
+									tangent="0.193, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.193, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="material"
+						value="prt_shd_smoke_2" />
+					<parameter
+						name="sample_mesh"
+						value="" />
+					<parameter
+						name="particle_color">
+						<color>
+							<keys>
+								<key
+									time="0.000"
+									value="0.723, 0.715, 0.715" />
+								<key
+									time="1.000"
+									value="0.991, 0.991, 0.991" />
+							</keys>
+						</color>
+						<alpha>
+							<keys>
+								<key
+									time="0.000"
+									value="0.000" />
+								<key
+									time="0.100"
+									value="0.133" />
+								<key
+									time="0.679"
+									value="0.047" />
+								<key
+									time="1.000"
+									value="0.000" />
+							</keys>
+						</alpha>
+					</parameter>
+				</parameters>
+			</emitter>
+		</emitters>
+	</effect>
+	<effect
+		name="prt_steam_bath"
+		guid="{49715A77-FE9B-499C-AD0D-00A445AEBE00}">
+		<emitters>
+			<emitter
+				name="Emitter"
+				_index_="0">
+				<flags>
+					<flag
+						name="emit_while_moving"
+						value="false" />
+					<flag
+						name="dont_emit_while_moving"
+						value="false" />
+					<flag
+						name="emit_at_once"
+						value="false" />
+					<flag
+						name="local_emit_dir"
+						value="true" />
+					<flag
+						name="loop_sprite"
+						value="false" />
+					<flag
+						name="uses_sprite_animation"
+						value="true" />
+					<flag
+						name="scale_with_respect_to_emitter_velocity"
+						value="false" />
+					<flag
+						name="skew_with_respect_to_particle_velocity"
+						value="false" />
+					<flag
+						name="spherical_normals"
+						value="false" />
+					<flag
+						name="emit_on_terrain"
+						value="false" />
+					<flag
+						name="select_random_sample_mesh"
+						value="false" />
+					<flag
+						name="fixed_billboard_direction"
+						value="false" />
+					<flag
+						name="order_by_distance"
+						value="false" />
+					<flag
+						name="select_random_sprite"
+						value="false" />
+					<flag
+						name="create_decal_on_collision"
+						value="false" />
+					<flag
+						name="create_decal_only_once"
+						value="false" />
+					<flag
+						name="randomize_collision_decal_rotation"
+						value="false" />
+					<flag
+						name="permanent_collision_decals"
+						value="false" />
+					<flag
+						name="collide_with_objects"
+						value="false" />
+					<flag
+						name="use_color_from_terrain"
+						value="false" />
+					<flag
+						name="enable_collision"
+						value="false" />
+				</flags>
+				<parameters>
+					<parameter
+						name="emitter_life"
+						value="0.000" />
+					<parameter
+						name="activation_delay"
+						value="0.000" />
+					<parameter
+						name="skew_with_particle_velocity_coef"
+						value="10.000" />
+					<parameter
+						name="skew_with_particle_velocity_limit"
+						value="0.000" />
+					<parameter
+						name="scale_with_emitter_velocity_coef"
+						value="0.000" />
+					<parameter
+						name="inherit_emitter_velocity"
+						value="0.000" />
+					<parameter
+						name="emit_volume"
+						value="0.200, 0.200, 0.000" />
+					<parameter
+						name="emit_sphere_radius"
+						value="1.000" />
+					<parameter
+						name="gravity"
+						value="0.000, 0.000, 0.350" />
+					<parameter
+						name="fixed_billboard_direction"
+						value="0.000, 0.000, 1.000" />
+					<parameter
+						name="emission_speed_limit"
+						value="0.000" />
+					<parameter
+						name="decal_min_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="decal_max_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="skinned_decal_start_index"
+						value="-1" />
+					<parameter
+						name="skinned_decal_end_index"
+						value="-1" />
+					<parameter
+						name="max_alive_particle_count"
+						value="0" />
+					<parameter
+						name="quad_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="quad_bias"
+						value="0.000, 0.000" />
+					<parameter
+						name="texture_sprite_count"
+						value="8, 8" />
+					<parameter
+						name="texture_sprite_frame_count"
+						value="64" />
+					<parameter
+						name="texture_sprite_frame_rate"
+						value="24.000" />
+					<parameter
+						name="fixed_particle_initial_speed"
+						value="0.000" />
+					<parameter
+						name="fadeout_distance"
+						value="0.500" />
+					<parameter
+						name="fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="camera_fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="backlight_multiplier"
+						value="0.500" />
+					<parameter
+						name="diffuse_multiplier"
+						value="3.000" />
+					<parameter
+						name="emissive_multiplier"
+						value="1.000" />
+					<parameter
+						name="heatmap_multiplier"
+						value="1.000" />
+					<parameter
+						name="emission_turbulence_interval"
+						value="340282346638528859811704183484516925440.000" />
+					<parameter
+						name="emission_turbulence_strength"
+						value="0.000" />
+					<parameter
+						name="collision_damping"
+						value="0.000" />
+					<parameter
+						name="collision_angular_damping"
+						value="0.000" />
+					<parameter
+						name="cone_emit_angle"
+						value="0.000" />
+					<parameter
+						name="particle_size_curve_op"
+						value="add" />
+					<parameter
+						name="emit_volume_type"
+						value="box" />
+					<parameter
+						name="billboard_type"
+						value="3d" />
+					<parameter
+						name="collision_behaviour"
+						value="normal" />
+					<parameter
+						name="emission_velocity_model"
+						value="random_velocity_components" />
+					<parameter
+						name="initial_rotation"
+						base="0.000"
+						bias="360.000" />
+					<parameter
+						name="damping"
+						base="0.688"
+						bias="0.000" />
+					<parameter
+						name="turbulence_strength"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="angular_damping"
+						base="0.700"
+						bias="0.200" />
+					<parameter
+						name="particle_life"
+						base="3.000"
+						bias="0.100" />
+					<parameter
+						name="emission_rate"
+						base="5.000"
+						bias="0.000" />
+					<parameter
+						name="cone_emit_velocity"
+						base="1.000"
+						bias="0.000">
+						<curve
+							name="emitter_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="emit_velocity_x"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="emit_velocity_y"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="emit_velocity_z"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="emit_rotation_speed"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="wind_effect"
+						base="0.300"
+						bias="0.100">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="particle_size"
+						base="0.050"
+						bias="0.050">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="0.730">
+							<keys>
+								<key
+									time="0.000"
+									value="0.433"
+									tangent="0.193, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.193, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="material"
+						value="prt_shd_steam_2" />
+					<parameter
+						name="sample_mesh"
+						value="" />
+					<parameter
+						name="particle_color">
+						<color>
+							<keys>
+								<key
+									time="0.000"
+									value="1.000, 0.991, 0.991" />
+								<key
+									time="1.000"
+									value="1.000, 1.000, 1.000" />
+							</keys>
+						</color>
+						<alpha>
+							<keys>
+								<key
+									time="0.000"
+									value="0.000" />
+								<key
+									time="0.097"
+									value="0.000" />
+								<key
+									time="0.305"
+									value="0.506" />
+								<key
+									time="0.900"
+									value="0.118" />
+								<key
+									time="1.000"
+									value="0.000" />
+							</keys>
+						</alpha>
+					</parameter>
+				</parameters>
+			</emitter>
+		</emitters>
+	</effect>
+	<effect
+		name="prt_steam_small"
+		guid="{D199FAD2-97A0-4F9C-BC0A-5DB6F054A5C7}">
+		<emitters>
+			<emitter
+				name="Emitter"
+				_index_="0">
+				<flags>
+					<flag
+						name="emit_while_moving"
+						value="false" />
+					<flag
+						name="dont_emit_while_moving"
+						value="false" />
+					<flag
+						name="emit_at_once"
+						value="false" />
+					<flag
+						name="local_emit_dir"
+						value="true" />
+					<flag
+						name="loop_sprite"
+						value="false" />
+					<flag
+						name="uses_sprite_animation"
+						value="true" />
+					<flag
+						name="scale_with_respect_to_emitter_velocity"
+						value="false" />
+					<flag
+						name="skew_with_respect_to_particle_velocity"
+						value="false" />
+					<flag
+						name="spherical_normals"
+						value="false" />
+					<flag
+						name="emit_on_terrain"
+						value="false" />
+					<flag
+						name="select_random_sample_mesh"
+						value="false" />
+					<flag
+						name="fixed_billboard_direction"
+						value="false" />
+					<flag
+						name="order_by_distance"
+						value="false" />
+					<flag
+						name="select_random_sprite"
+						value="false" />
+					<flag
+						name="create_decal_on_collision"
+						value="false" />
+					<flag
+						name="create_decal_only_once"
+						value="false" />
+					<flag
+						name="randomize_collision_decal_rotation"
+						value="false" />
+					<flag
+						name="permanent_collision_decals"
+						value="false" />
+					<flag
+						name="collide_with_objects"
+						value="false" />
+					<flag
+						name="use_color_from_terrain"
+						value="false" />
+					<flag
+						name="enable_collision"
+						value="false" />
+				</flags>
+				<parameters>
+					<parameter
+						name="emitter_life"
+						value="0.000" />
+					<parameter
+						name="activation_delay"
+						value="0.000" />
+					<parameter
+						name="skew_with_particle_velocity_coef"
+						value="10.000" />
+					<parameter
+						name="skew_with_particle_velocity_limit"
+						value="0.000" />
+					<parameter
+						name="scale_with_emitter_velocity_coef"
+						value="0.000" />
+					<parameter
+						name="inherit_emitter_velocity"
+						value="0.000" />
+					<parameter
+						name="emit_volume"
+						value="0.000, 0.000, 0.000" />
+					<parameter
+						name="emit_sphere_radius"
+						value="1.000" />
+					<parameter
+						name="gravity"
+						value="0.000, 0.000, 0.200" />
+					<parameter
+						name="fixed_billboard_direction"
+						value="0.000, 0.000, 1.000" />
+					<parameter
+						name="emission_speed_limit"
+						value="0.000" />
+					<parameter
+						name="decal_min_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="decal_max_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="skinned_decal_start_index"
+						value="-1" />
+					<parameter
+						name="skinned_decal_end_index"
+						value="-1" />
+					<parameter
+						name="max_alive_particle_count"
+						value="0" />
+					<parameter
+						name="quad_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="quad_bias"
+						value="0.000, 0.000" />
+					<parameter
+						name="texture_sprite_count"
+						value="8, 8" />
+					<parameter
+						name="texture_sprite_frame_count"
+						value="64" />
+					<parameter
+						name="texture_sprite_frame_rate"
+						value="25.000" />
+					<parameter
+						name="fixed_particle_initial_speed"
+						value="0.000" />
+					<parameter
+						name="fadeout_distance"
+						value="0.050" />
+					<parameter
+						name="fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="camera_fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="backlight_multiplier"
+						value="0.600" />
+					<parameter
+						name="diffuse_multiplier"
+						value="1.000" />
+					<parameter
+						name="emissive_multiplier"
+						value="1.000" />
+					<parameter
+						name="heatmap_multiplier"
+						value="1.000" />
+					<parameter
+						name="emission_turbulence_interval"
+						value="340282346638528859811704183484516925440.000" />
+					<parameter
+						name="emission_turbulence_strength"
+						value="0.000" />
+					<parameter
+						name="collision_damping"
+						value="0.000" />
+					<parameter
+						name="collision_angular_damping"
+						value="0.000" />
+					<parameter
+						name="cone_emit_angle"
+						value="0.000" />
+					<parameter
+						name="particle_size_curve_op"
+						value="multiply" />
+					<parameter
+						name="emit_volume_type"
+						value="box" />
+					<parameter
+						name="billboard_type"
+						value="3d" />
+					<parameter
+						name="collision_behaviour"
+						value="normal" />
+					<parameter
+						name="emission_velocity_model"
+						value="random_velocity_components" />
+					<parameter
+						name="initial_rotation"
+						base="0.000"
+						bias="180.000" />
+					<parameter
+						name="damping"
+						base="0.620"
+						bias="0.000" />
+					<parameter
+						name="turbulence_strength"
+						base="0.200"
+						bias="0.200" />
+					<parameter
+						name="angular_damping"
+						base="0.599"
+						bias="0.000" />
+					<parameter
+						name="particle_life"
+						base="1.600"
+						bias="0.200" />
+					<parameter
+						name="emission_rate"
+						base="5.000"
+						bias="0.000" />
+					<parameter
+						name="cone_emit_velocity"
+						base="1.000"
+						bias="0.000">
+						<curve
+							name="emitter_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="emit_velocity_x"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="emit_velocity_y"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="emit_velocity_z"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="emit_rotation_speed"
+						base="0.000"
+						bias="57.296" />
+					<parameter
+						name="wind_effect"
+						base="0.100"
+						bias="0.000">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="particle_size"
+						base="1.000"
+						bias="0.050">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="0.300">
+							<keys>
+								<key
+									time="0.000"
+									value="0.043"
+									tangent="0.090, 0.000" />
+								<key
+									time="0.414"
+									value="0.336"
+									tangent="-0.110, 0.000" />
+								<key
+									time="0.414"
+									value="0.336"
+									tangent="0.110, 0.000" />
+								<key
+									time="1.000"
+									value="0.530"
+									tangent="-0.110, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="material"
+						value="prt_shd_steam_2" />
+					<parameter
+						name="sample_mesh"
+						value="" />
+					<parameter
+						name="particle_color">
+						<color>
+							<keys>
+								<key
+									time="0.100"
+									value="1.000, 0.991, 0.991" />
+								<key
+									time="0.900"
+									value="1.000, 1.000, 1.000" />
+							</keys>
+						</color>
+						<alpha>
+							<keys>
+								<key
+									time="0.000"
+									value="0.000" />
+								<key
+									time="0.100"
+									value="0.118" />
+								<key
+									time="0.288"
+									value="0.122" />
+								<key
+									time="0.900"
+									value="0.000" />
+								<key
+									time="1.000"
+									value="0.000" />
+							</keys>
+						</alpha>
+					</parameter>
+				</parameters>
+			</emitter>
+		</emitters>
+	</effect>
+	<effect
+		name="prt_torch_fire_sparks"
+		guid="{8F145B5A-5469-461F-98B6-3CDCF53DFD9D}">
+		<emitters>
+			<emitter
+				name="sparks"
+				_index_="0">
+				<flags>
+					<flag
+						name="emit_while_moving"
+						value="false" />
+					<flag
+						name="dont_emit_while_moving"
+						value="false" />
+					<flag
+						name="emit_at_once"
+						value="false" />
+					<flag
+						name="local_emit_dir"
+						value="false" />
+					<flag
+						name="loop_sprite"
+						value="false" />
+					<flag
+						name="uses_sprite_animation"
+						value="false" />
+					<flag
+						name="scale_with_respect_to_emitter_velocity"
+						value="false" />
+					<flag
+						name="skew_with_respect_to_particle_velocity"
+						value="true" />
+					<flag
+						name="spherical_normals"
+						value="false" />
+					<flag
+						name="emit_on_terrain"
+						value="false" />
+					<flag
+						name="select_random_sample_mesh"
+						value="false" />
+					<flag
+						name="fixed_billboard_direction"
+						value="false" />
+					<flag
+						name="order_by_distance"
+						value="false" />
+					<flag
+						name="select_random_sprite"
+						value="true" />
+					<flag
+						name="create_decal_on_collision"
+						value="false" />
+					<flag
+						name="create_decal_only_once"
+						value="false" />
+					<flag
+						name="randomize_collision_decal_rotation"
+						value="false" />
+					<flag
+						name="permanent_collision_decals"
+						value="false" />
+					<flag
+						name="collide_with_objects"
+						value="false" />
+					<flag
+						name="use_color_from_terrain"
+						value="false" />
+					<flag
+						name="enable_collision"
+						value="false" />
+				</flags>
+				<parameters>
+					<parameter
+						name="emitter_life"
+						value="0.000" />
+					<parameter
+						name="activation_delay"
+						value="0.000" />
+					<parameter
+						name="skew_with_particle_velocity_coef"
+						value="1000.000" />
+					<parameter
+						name="skew_with_particle_velocity_limit"
+						value="2.000" />
+					<parameter
+						name="scale_with_emitter_velocity_coef"
+						value="0.000" />
+					<parameter
+						name="inherit_emitter_velocity"
+						value="0.000" />
+					<parameter
+						name="emit_volume"
+						value="0.000, 0.000, 0.050" />
+					<parameter
+						name="emit_sphere_radius"
+						value="1.000" />
+					<parameter
+						name="gravity"
+						value="0.000, 0.000, 3.000" />
+					<parameter
+						name="fixed_billboard_direction"
+						value="0.000, 0.000, 1.000" />
+					<parameter
+						name="emission_speed_limit"
+						value="0.000" />
+					<parameter
+						name="decal_min_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="decal_max_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="skinned_decal_start_index"
+						value="-1" />
+					<parameter
+						name="skinned_decal_end_index"
+						value="-1" />
+					<parameter
+						name="max_alive_particle_count"
+						value="0" />
+					<parameter
+						name="quad_scale"
+						value="1.000, 0.500" />
+					<parameter
+						name="quad_bias"
+						value="0.000, 0.000" />
+					<parameter
+						name="texture_sprite_count"
+						value="5, 5" />
+					<parameter
+						name="texture_sprite_frame_count"
+						value="25" />
+					<parameter
+						name="texture_sprite_frame_rate"
+						value="1.000" />
+					<parameter
+						name="fixed_particle_initial_speed"
+						value="0.000" />
+					<parameter
+						name="fadeout_distance"
+						value="0.100" />
+					<parameter
+						name="fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="camera_fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="backlight_multiplier"
+						value="0.000" />
+					<parameter
+						name="diffuse_multiplier"
+						value="1000.000" />
+					<parameter
+						name="emissive_multiplier"
+						value="1.000" />
+					<parameter
+						name="heatmap_multiplier"
+						value="1.000" />
+					<parameter
+						name="emission_turbulence_interval"
+						value="340282346638528859811704183484516925440.000" />
+					<parameter
+						name="emission_turbulence_strength"
+						value="0.000" />
+					<parameter
+						name="collision_damping"
+						value="0.000" />
+					<parameter
+						name="collision_angular_damping"
+						value="0.000" />
+					<parameter
+						name="cone_emit_angle"
+						value="0.000" />
+					<parameter
+						name="particle_size_curve_op"
+						value="multiply" />
+					<parameter
+						name="emit_volume_type"
+						value="box" />
+					<parameter
+						name="billboard_type"
+						value="turn_to_velocity_side" />
+					<parameter
+						name="collision_behaviour"
+						value="normal" />
+					<parameter
+						name="emission_velocity_model"
+						value="random_velocity_components" />
+					<parameter
+						name="initial_rotation"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="damping"
+						base="0.732"
+						bias="0.000" />
+					<parameter
+						name="turbulence_strength"
+						base="20.000"
+						bias="5.000" />
+					<parameter
+						name="angular_damping"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="particle_life"
+						base="0.800"
+						bias="0.400" />
+					<parameter
+						name="emission_rate"
+						base="5.000"
+						bias="2.000" />
+					<parameter
+						name="cone_emit_velocity"
+						base="1.000"
+						bias="0.000">
+						<curve
+							name="emitter_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="emit_velocity_x"
+						base="0.000"
+						bias="2.000" />
+					<parameter
+						name="emit_velocity_y"
+						base="0.000"
+						bias="2.000" />
+					<parameter
+						name="emit_velocity_z"
+						base="2.000"
+						bias="1.000" />
+					<parameter
+						name="emit_rotation_speed"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="wind_effect"
+						base="0.400"
+						bias="0.200" />
+					<parameter
+						name="particle_size"
+						base="1.000"
+						bias="0.300">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="0.020">
+							<keys>
+								<key
+									time="0.000"
+									value="0.472"
+									tangent="0.251, 0.313" />
+								<key
+									time="1.000"
+									value="0.059"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="material"
+						value="prt_shd_fire_1" />
+					<parameter
+						name="sample_mesh"
+						value="" />
+					<parameter
+						name="particle_color">
+						<color>
+							<keys>
+								<key
+									time="0.090"
+									value="1.000, 0.875, 0.767" />
+								<key
+									time="0.621"
+									value="0.320, 0.043, 0.003" />
+								<key
+									time="1.000"
+									value="0.049, 0.003, 0.000" />
+							</keys>
+						</color>
+						<alpha>
+							<keys>
+								<key
+									time="0.000"
+									value="0.000" />
+								<key
+									time="0.072"
+									value="0.000" />
+								<key
+									time="0.118"
+									value="1.000" />
+								<key
+									time="0.900"
+									value="1.000" />
+								<key
+									time="1.000"
+									value="0.000" />
+							</keys>
+						</alpha>
+					</parameter>
+				</parameters>
+			</emitter>
+		</emitters>
+	</effect>
+	<effect
+		name="prt_torch_flame"
+		guid="{039C7319-2145-4EC3-96C6-0380037A4EDB}">
+		<emitters>
+			<emitter
+				name="torch_fire"
+				_index_="0">
+				<flags>
+					<flag
+						name="emit_while_moving"
+						value="true" />
+					<flag
+						name="dont_emit_while_moving"
+						value="false" />
+					<flag
+						name="emit_at_once"
+						value="false" />
+					<flag
+						name="local_emit_dir"
+						value="true" />
+					<flag
+						name="loop_sprite"
+						value="false" />
+					<flag
+						name="uses_sprite_animation"
+						value="true" />
+					<flag
+						name="scale_with_respect_to_emitter_velocity"
+						value="false" />
+					<flag
+						name="skew_with_respect_to_particle_velocity"
+						value="true" />
+					<flag
+						name="spherical_normals"
+						value="false" />
+					<flag
+						name="emit_on_terrain"
+						value="false" />
+					<flag
+						name="select_random_sample_mesh"
+						value="false" />
+					<flag
+						name="fixed_billboard_direction"
+						value="false" />
+					<flag
+						name="order_by_distance"
+						value="false" />
+					<flag
+						name="select_random_sprite"
+						value="false" />
+					<flag
+						name="create_decal_on_collision"
+						value="false" />
+					<flag
+						name="create_decal_only_once"
+						value="false" />
+					<flag
+						name="randomize_collision_decal_rotation"
+						value="false" />
+					<flag
+						name="permanent_collision_decals"
+						value="false" />
+					<flag
+						name="collide_with_objects"
+						value="false" />
+					<flag
+						name="use_color_from_terrain"
+						value="false" />
+					<flag
+						name="enable_collision"
+						value="false" />
+				</flags>
+				<parameters>
+					<parameter
+						name="emitter_life"
+						value="0.000" />
+					<parameter
+						name="activation_delay"
+						value="0.000" />
+					<parameter
+						name="skew_with_particle_velocity_coef"
+						value="7.000" />
+					<parameter
+						name="skew_with_particle_velocity_limit"
+						value="0.000" />
+					<parameter
+						name="scale_with_emitter_velocity_coef"
+						value="0.000" />
+					<parameter
+						name="inherit_emitter_velocity"
+						value="0.000" />
+					<parameter
+						name="emit_volume"
+						value="0.000, 0.000, 0.000" />
+					<parameter
+						name="emit_sphere_radius"
+						value="1.000" />
+					<parameter
+						name="gravity"
+						value="0.000, 0.000, 1.600" />
+					<parameter
+						name="fixed_billboard_direction"
+						value="0.000, 0.000, 1.000" />
+					<parameter
+						name="emission_speed_limit"
+						value="0.000" />
+					<parameter
+						name="decal_min_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="decal_max_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="skinned_decal_start_index"
+						value="-1" />
+					<parameter
+						name="skinned_decal_end_index"
+						value="-1" />
+					<parameter
+						name="max_alive_particle_count"
+						value="0" />
+					<parameter
+						name="quad_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="quad_bias"
+						value="0.000, 0.000" />
+					<parameter
+						name="texture_sprite_count"
+						value="5, 5" />
+					<parameter
+						name="texture_sprite_frame_count"
+						value="25" />
+					<parameter
+						name="texture_sprite_frame_rate"
+						value="100.000" />
+					<parameter
+						name="fixed_particle_initial_speed"
+						value="0.000" />
+					<parameter
+						name="fadeout_distance"
+						value="0.500" />
+					<parameter
+						name="fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="camera_fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="backlight_multiplier"
+						value="0.000" />
+					<parameter
+						name="diffuse_multiplier"
+						value="250.000" />
+					<parameter
+						name="emissive_multiplier"
+						value="1.000" />
+					<parameter
+						name="heatmap_multiplier"
+						value="1.000" />
+					<parameter
+						name="emission_turbulence_interval"
+						value="340282346638528859811704183484516925440.000" />
+					<parameter
+						name="emission_turbulence_strength"
+						value="0.000" />
+					<parameter
+						name="collision_damping"
+						value="0.000" />
+					<parameter
+						name="collision_angular_damping"
+						value="0.000" />
+					<parameter
+						name="cone_emit_angle"
+						value="0.000" />
+					<parameter
+						name="particle_size_curve_op"
+						value="add" />
+					<parameter
+						name="emit_volume_type"
+						value="box" />
+					<parameter
+						name="billboard_type"
+						value="turn_to_velocity_side" />
+					<parameter
+						name="collision_behaviour"
+						value="normal" />
+					<parameter
+						name="emission_velocity_model"
+						value="random_velocity_components" />
+					<parameter
+						name="initial_rotation"
+						base="0.000"
+						bias="180.000" />
+					<parameter
+						name="damping"
+						base="0.599"
+						bias="0.000" />
+					<parameter
+						name="turbulence_strength"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="angular_damping"
+						base="0.599"
+						bias="0.000" />
+					<parameter
+						name="particle_life"
+						base="0.200"
+						bias="0.100" />
+					<parameter
+						name="emission_rate"
+						base="5.000"
+						bias="0.000" />
+					<parameter
+						name="cone_emit_velocity"
+						base="1.000"
+						bias="0.000">
+						<curve
+							name="emitter_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="emit_velocity_x"
+						base="0.000"
+						bias="3.000" />
+					<parameter
+						name="emit_velocity_y"
+						base="0.000"
+						bias="3.000" />
+					<parameter
+						name="emit_velocity_z"
+						base="1.150"
+						bias="1.000" />
+					<parameter
+						name="emit_rotation_speed"
+						base="0.000"
+						bias="114.592" />
+					<parameter
+						name="wind_effect"
+						base="1.000"
+						bias="0.000">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="particle_size"
+						base="0.075"
+						bias="0.075">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="0.750">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.062, 0.000" />
+								<key
+									time="0.690"
+									value="0.333"
+									tangent="-0.062, 0.000" />
+								<key
+									time="0.690"
+									value="0.333"
+									tangent="0.062, 0.000" />
+								<key
+									time="1.000"
+									value="0.333"
+									tangent="0.000, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="material"
+						value="prt_shd_fire_1" />
+					<parameter
+						name="sample_mesh"
+						value="" />
+					<parameter
+						name="particle_color">
+						<color>
+							<keys>
+								<key
+									time="0.300"
+									value="0.046, 0.037, 0.028" />
+								<key
+									time="0.800"
+									value="0.957, 0.399, 0.320" />
+							</keys>
+						</color>
+						<alpha>
+							<keys>
+								<key
+									time="0.000"
+									value="0.000" />
+								<key
+									time="0.200"
+									value="0.588" />
+								<key
+									time="1.000"
+									value="0.196" />
+							</keys>
+						</alpha>
+					</parameter>
+				</parameters>
+			</emitter>
+			<emitter
+				name="sparks"
+				_index_="1">
+				<flags>
+					<flag
+						name="emit_while_moving"
+						value="true" />
+					<flag
+						name="dont_emit_while_moving"
+						value="false" />
+					<flag
+						name="emit_at_once"
+						value="false" />
+					<flag
+						name="local_emit_dir"
+						value="true" />
+					<flag
+						name="loop_sprite"
+						value="false" />
+					<flag
+						name="uses_sprite_animation"
+						value="false" />
+					<flag
+						name="scale_with_respect_to_emitter_velocity"
+						value="false" />
+					<flag
+						name="skew_with_respect_to_particle_velocity"
+						value="true" />
+					<flag
+						name="spherical_normals"
+						value="false" />
+					<flag
+						name="emit_on_terrain"
+						value="false" />
+					<flag
+						name="select_random_sample_mesh"
+						value="false" />
+					<flag
+						name="fixed_billboard_direction"
+						value="false" />
+					<flag
+						name="order_by_distance"
+						value="false" />
+					<flag
+						name="select_random_sprite"
+						value="true" />
+					<flag
+						name="create_decal_on_collision"
+						value="false" />
+					<flag
+						name="create_decal_only_once"
+						value="false" />
+					<flag
+						name="randomize_collision_decal_rotation"
+						value="false" />
+					<flag
+						name="permanent_collision_decals"
+						value="false" />
+					<flag
+						name="collide_with_objects"
+						value="false" />
+					<flag
+						name="use_color_from_terrain"
+						value="false" />
+					<flag
+						name="enable_collision"
+						value="false" />
+				</flags>
+				<parameters>
+					<parameter
+						name="emitter_life"
+						value="0.000" />
+					<parameter
+						name="activation_delay"
+						value="0.000" />
+					<parameter
+						name="skew_with_particle_velocity_coef"
+						value="15.000" />
+					<parameter
+						name="skew_with_particle_velocity_limit"
+						value="0.000" />
+					<parameter
+						name="scale_with_emitter_velocity_coef"
+						value="0.000" />
+					<parameter
+						name="inherit_emitter_velocity"
+						value="0.000" />
+					<parameter
+						name="emit_volume"
+						value="0.000, 0.000, 0.100" />
+					<parameter
+						name="emit_sphere_radius"
+						value="1.000" />
+					<parameter
+						name="gravity"
+						value="0.000, 0.000, 2.000" />
+					<parameter
+						name="fixed_billboard_direction"
+						value="0.000, 0.000, 1.000" />
+					<parameter
+						name="emission_speed_limit"
+						value="0.000" />
+					<parameter
+						name="decal_min_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="decal_max_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="skinned_decal_start_index"
+						value="-1" />
+					<parameter
+						name="skinned_decal_end_index"
+						value="-1" />
+					<parameter
+						name="max_alive_particle_count"
+						value="0" />
+					<parameter
+						name="quad_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="quad_bias"
+						value="0.000, 0.000" />
+					<parameter
+						name="texture_sprite_count"
+						value="5, 5" />
+					<parameter
+						name="texture_sprite_frame_count"
+						value="1" />
+					<parameter
+						name="texture_sprite_frame_rate"
+						value="1.000" />
+					<parameter
+						name="fixed_particle_initial_speed"
+						value="0.000" />
+					<parameter
+						name="fadeout_distance"
+						value="0.025" />
+					<parameter
+						name="fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="camera_fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="backlight_multiplier"
+						value="0.000" />
+					<parameter
+						name="diffuse_multiplier"
+						value="250.000" />
+					<parameter
+						name="emissive_multiplier"
+						value="1.000" />
+					<parameter
+						name="heatmap_multiplier"
+						value="1.000" />
+					<parameter
+						name="emission_turbulence_interval"
+						value="340282346638528859811704183484516925440.000" />
+					<parameter
+						name="emission_turbulence_strength"
+						value="0.000" />
+					<parameter
+						name="collision_damping"
+						value="0.000" />
+					<parameter
+						name="collision_angular_damping"
+						value="0.000" />
+					<parameter
+						name="cone_emit_angle"
+						value="0.000" />
+					<parameter
+						name="particle_size_curve_op"
+						value="add" />
+					<parameter
+						name="emit_volume_type"
+						value="box" />
+					<parameter
+						name="billboard_type"
+						value="turn_to_velocity_side" />
+					<parameter
+						name="collision_behaviour"
+						value="normal" />
+					<parameter
+						name="emission_velocity_model"
+						value="random_velocity_components" />
+					<parameter
+						name="initial_rotation"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="damping"
+						base="0.688"
+						bias="0.000" />
+					<parameter
+						name="turbulence_strength"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="angular_damping"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="particle_life"
+						base="1.000"
+						bias="0.000" />
+					<parameter
+						name="emission_rate"
+						base="5.000"
+						bias="0.000" />
+					<parameter
+						name="cone_emit_velocity"
+						base="1.000"
+						bias="0.000">
+						<curve
+							name="emitter_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="emit_velocity_x"
+						base="0.000"
+						bias="4.000" />
+					<parameter
+						name="emit_velocity_y"
+						base="0.000"
+						bias="4.000" />
+					<parameter
+						name="emit_velocity_z"
+						base="1.000"
+						bias="4.000" />
+					<parameter
+						name="emit_rotation_speed"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="wind_effect"
+						base="1.000"
+						bias="0.000">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="particle_size"
+						base="0.010"
+						bias="0.010">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="0.050">
+							<keys>
+								<key
+									time="0.000"
+									value="0.999"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="0.231"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="material"
+						value="prt_shd_fire_1" />
+					<parameter
+						name="sample_mesh"
+						value="" />
+					<parameter
+						name="particle_color">
+						<color>
+							<keys>
+								<key
+									time="0.500"
+									value="1.000, 0.293, 0.157" />
+								<key
+									time="0.900"
+									value="1.000, 0.223, 0.094" />
+							</keys>
+						</color>
+						<alpha>
+							<keys>
+								<key
+									time="0.000"
+									value="0.000" />
+								<key
+									time="0.500"
+									value="1.000" />
+								<key
+									time="0.900"
+									value="1.000" />
+								<key
+									time="1.000"
+									value="0.000" />
+							</keys>
+						</alpha>
+					</parameter>
+				</parameters>
+			</emitter>
+			<emitter
+				name="New emitter"
+				_index_="2">
+				<flags>
+					<flag
+						name="emit_while_moving"
+						value="true" />
+					<flag
+						name="dont_emit_while_moving"
+						value="false" />
+					<flag
+						name="emit_at_once"
+						value="false" />
+					<flag
+						name="local_emit_dir"
+						value="true" />
+					<flag
+						name="loop_sprite"
+						value="false" />
+					<flag
+						name="uses_sprite_animation"
+						value="true" />
+					<flag
+						name="scale_with_respect_to_emitter_velocity"
+						value="false" />
+					<flag
+						name="skew_with_respect_to_particle_velocity"
+						value="false" />
+					<flag
+						name="spherical_normals"
+						value="true" />
+					<flag
+						name="emit_on_terrain"
+						value="false" />
+					<flag
+						name="select_random_sample_mesh"
+						value="false" />
+					<flag
+						name="fixed_billboard_direction"
+						value="false" />
+					<flag
+						name="order_by_distance"
+						value="true" />
+					<flag
+						name="select_random_sprite"
+						value="false" />
+					<flag
+						name="create_decal_on_collision"
+						value="false" />
+					<flag
+						name="create_decal_only_once"
+						value="false" />
+					<flag
+						name="randomize_collision_decal_rotation"
+						value="false" />
+					<flag
+						name="permanent_collision_decals"
+						value="false" />
+					<flag
+						name="collide_with_objects"
+						value="false" />
+					<flag
+						name="use_color_from_terrain"
+						value="false" />
+					<flag
+						name="enable_collision"
+						value="false" />
+				</flags>
+				<parameters>
+					<parameter
+						name="emitter_life"
+						value="0.000" />
+					<parameter
+						name="activation_delay"
+						value="0.000" />
+					<parameter
+						name="skew_with_particle_velocity_coef"
+						value="5.000" />
+					<parameter
+						name="skew_with_particle_velocity_limit"
+						value="0.000" />
+					<parameter
+						name="scale_with_emitter_velocity_coef"
+						value="0.000" />
+					<parameter
+						name="inherit_emitter_velocity"
+						value="0.000" />
+					<parameter
+						name="emit_volume"
+						value="0.000, 0.000, 0.000" />
+					<parameter
+						name="emit_sphere_radius"
+						value="1.000" />
+					<parameter
+						name="gravity"
+						value="0.000, 0.000, 3.000" />
+					<parameter
+						name="fixed_billboard_direction"
+						value="0.000, 0.000, 1.000" />
+					<parameter
+						name="emission_speed_limit"
+						value="0.000" />
+					<parameter
+						name="decal_min_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="decal_max_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="skinned_decal_start_index"
+						value="-1" />
+					<parameter
+						name="skinned_decal_end_index"
+						value="-1" />
+					<parameter
+						name="max_alive_particle_count"
+						value="0" />
+					<parameter
+						name="quad_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="quad_bias"
+						value="0.000, 0.000" />
+					<parameter
+						name="texture_sprite_count"
+						value="8, 8" />
+					<parameter
+						name="texture_sprite_frame_count"
+						value="64" />
+					<parameter
+						name="texture_sprite_frame_rate"
+						value="52.000" />
+					<parameter
+						name="fixed_particle_initial_speed"
+						value="0.000" />
+					<parameter
+						name="fadeout_distance"
+						value="0.100" />
+					<parameter
+						name="fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="camera_fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="backlight_multiplier"
+						value="0.500" />
+					<parameter
+						name="diffuse_multiplier"
+						value="0.500" />
+					<parameter
+						name="emissive_multiplier"
+						value="1.000" />
+					<parameter
+						name="heatmap_multiplier"
+						value="1.000" />
+					<parameter
+						name="emission_turbulence_interval"
+						value="340282346638528859811704183484516925440.000" />
+					<parameter
+						name="emission_turbulence_strength"
+						value="0.000" />
+					<parameter
+						name="collision_damping"
+						value="0.000" />
+					<parameter
+						name="collision_angular_damping"
+						value="0.000" />
+					<parameter
+						name="cone_emit_angle"
+						value="0.000" />
+					<parameter
+						name="particle_size_curve_op"
+						value="add" />
+					<parameter
+						name="emit_volume_type"
+						value="box" />
+					<parameter
+						name="billboard_type"
+						value="3d" />
+					<parameter
+						name="collision_behaviour"
+						value="normal" />
+					<parameter
+						name="emission_velocity_model"
+						value="random_velocity_components" />
+					<parameter
+						name="initial_rotation"
+						base="0.000"
+						bias="180.000" />
+					<parameter
+						name="damping"
+						base="0.688"
+						bias="0.000" />
+					<parameter
+						name="turbulence_strength"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="angular_damping"
+						base="0.599"
+						bias="0.000" />
+					<parameter
+						name="particle_life"
+						base="1.300"
+						bias="0.600" />
+					<parameter
+						name="emission_rate"
+						base="1.000"
+						bias="0.000" />
+					<parameter
+						name="cone_emit_velocity"
+						base="1.000"
+						bias="0.000">
+						<curve
+							name="emitter_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="emit_velocity_x"
+						base="0.000"
+						bias="2.000" />
+					<parameter
+						name="emit_velocity_y"
+						base="0.000"
+						bias="2.000" />
+					<parameter
+						name="emit_velocity_z"
+						base="2.000"
+						bias="2.000" />
+					<parameter
+						name="emit_rotation_speed"
+						base="0.000"
+						bias="114.592" />
+					<parameter
+						name="wind_effect"
+						base="1.000"
+						bias="0.000">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="particle_size"
+						base="0.850"
+						bias="0.850">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="9.318">
+							<keys>
+								<key
+									time="0.000"
+									value="0.268"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="material"
+						value="prt_shd_smoke_4" />
+					<parameter
+						name="sample_mesh"
+						value="" />
+					<parameter
+						name="particle_color">
+						<color>
+							<keys>
+								<key
+									time="0.100"
+									value="0.867, 0.932, 1.000" />
+								<key
+									time="0.900"
+									value="0.812, 0.782, 0.782" />
+							</keys>
+						</color>
+						<alpha>
+							<keys>
+								<key
+									time="0.000"
+									value="0.000" />
+								<key
+									time="0.200"
+									value="0.392" />
+								<key
+									time="0.900"
+									value="0.039" />
+								<key
+									time="1.000"
+									value="0.000" />
+							</keys>
+						</alpha>
+					</parameter>
+				</parameters>
+			</emitter>
+		</emitters>
+	</effect>
+	<effect
+		name="prt_torch_flame_smoke"
+		guid="{21AB1988-A9A6-4339-B5D8-84A55DBF9571}">
+		<emitters>
+			<emitter
+				name="torch_fire"
+				_index_="0">
+				<flags>
+					<flag
+						name="emit_while_moving"
+						value="false" />
+					<flag
+						name="dont_emit_while_moving"
+						value="true" />
+					<flag
+						name="emit_at_once"
+						value="false" />
+					<flag
+						name="local_emit_dir"
+						value="true" />
+					<flag
+						name="loop_sprite"
+						value="false" />
+					<flag
+						name="uses_sprite_animation"
+						value="true" />
+					<flag
+						name="scale_with_respect_to_emitter_velocity"
+						value="false" />
+					<flag
+						name="skew_with_respect_to_particle_velocity"
+						value="true" />
+					<flag
+						name="spherical_normals"
+						value="false" />
+					<flag
+						name="emit_on_terrain"
+						value="false" />
+					<flag
+						name="select_random_sample_mesh"
+						value="false" />
+					<flag
+						name="fixed_billboard_direction"
+						value="false" />
+					<flag
+						name="order_by_distance"
+						value="false" />
+					<flag
+						name="select_random_sprite"
+						value="false" />
+					<flag
+						name="create_decal_on_collision"
+						value="false" />
+					<flag
+						name="create_decal_only_once"
+						value="false" />
+					<flag
+						name="randomize_collision_decal_rotation"
+						value="false" />
+					<flag
+						name="permanent_collision_decals"
+						value="false" />
+					<flag
+						name="collide_with_objects"
+						value="false" />
+					<flag
+						name="use_color_from_terrain"
+						value="false" />
+					<flag
+						name="enable_collision"
+						value="false" />
+				</flags>
+				<parameters>
+					<parameter
+						name="emitter_life"
+						value="0.000" />
+					<parameter
+						name="activation_delay"
+						value="0.000" />
+					<parameter
+						name="skew_with_particle_velocity_coef"
+						value="1000.000" />
+					<parameter
+						name="skew_with_particle_velocity_limit"
+						value="3.000" />
+					<parameter
+						name="scale_with_emitter_velocity_coef"
+						value="0.000" />
+					<parameter
+						name="inherit_emitter_velocity"
+						value="0.000" />
+					<parameter
+						name="emit_volume"
+						value="0.000, 0.000, 0.000" />
+					<parameter
+						name="emit_sphere_radius"
+						value="1.000" />
+					<parameter
+						name="gravity"
+						value="0.000, 0.000, 4.000" />
+					<parameter
+						name="fixed_billboard_direction"
+						value="0.000, 0.000, 1.000" />
+					<parameter
+						name="emission_speed_limit"
+						value="0.000" />
+					<parameter
+						name="decal_min_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="decal_max_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="skinned_decal_start_index"
+						value="-1" />
+					<parameter
+						name="skinned_decal_end_index"
+						value="-1" />
+					<parameter
+						name="max_alive_particle_count"
+						value="0" />
+					<parameter
+						name="quad_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="quad_bias"
+						value="0.000, 0.000" />
+					<parameter
+						name="texture_sprite_count"
+						value="5, 5" />
+					<parameter
+						name="texture_sprite_frame_count"
+						value="25" />
+					<parameter
+						name="texture_sprite_frame_rate"
+						value="35.000" />
+					<parameter
+						name="fixed_particle_initial_speed"
+						value="0.000" />
+					<parameter
+						name="fadeout_distance"
+						value="0.600" />
+					<parameter
+						name="fadeout_coef"
+						value="1.000" />
+					<parameter
+						name="camera_fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="backlight_multiplier"
+						value="0.000" />
+					<parameter
+						name="diffuse_multiplier"
+						value="8.000" />
+					<parameter
+						name="emissive_multiplier"
+						value="1.000" />
+					<parameter
+						name="heatmap_multiplier"
+						value="1.000" />
+					<parameter
+						name="emission_turbulence_interval"
+						value="340282346638528859811704183484516925440.000" />
+					<parameter
+						name="emission_turbulence_strength"
+						value="0.000" />
+					<parameter
+						name="collision_damping"
+						value="0.000" />
+					<parameter
+						name="collision_angular_damping"
+						value="0.000" />
+					<parameter
+						name="cone_emit_angle"
+						value="0.000" />
+					<parameter
+						name="particle_size_curve_op"
+						value="multiply" />
+					<parameter
+						name="emit_volume_type"
+						value="box" />
+					<parameter
+						name="billboard_type"
+						value="turn_to_velocity_side" />
+					<parameter
+						name="collision_behaviour"
+						value="normal" />
+					<parameter
+						name="emission_velocity_model"
+						value="random_velocity_components" />
+					<parameter
+						name="initial_rotation"
+						base="0.000"
+						bias="240.000" />
+					<parameter
+						name="damping"
+						base="0.780"
+						bias="0.000" />
+					<parameter
+						name="turbulence_strength"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="angular_damping"
+						base="0.600"
+						bias="0.000" />
+					<parameter
+						name="particle_life"
+						base="0.800"
+						bias="0.200" />
+					<parameter
+						name="emission_rate"
+						base="20.000"
+						bias="5.000" />
+					<parameter
+						name="cone_emit_velocity"
+						base="1.000"
+						bias="0.000">
+						<curve
+							name="emitter_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="emit_velocity_x"
+						base="0.000"
+						bias="0.100" />
+					<parameter
+						name="emit_velocity_y"
+						base="0.000"
+						bias="0.100" />
+					<parameter
+						name="emit_velocity_z"
+						base="0.700"
+						bias="0.200" />
+					<parameter
+						name="emit_rotation_speed"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="wind_effect"
+						base="0.600"
+						bias="0.200" />
+					<parameter
+						name="particle_size"
+						base="0.500"
+						bias="0.300">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="0.120">
+							<keys>
+								<key
+									time="0.000"
+									value="0.003"
+									tangent="0.061, 0.556" />
+								<key
+									time="0.138"
+									value="0.845"
+									tangent="-0.075, -0.063" />
+								<key
+									time="0.138"
+									value="0.845"
+									tangent="0.075, 0.063" />
+								<key
+									time="0.483"
+									value="0.279"
+									tangent="-0.076, 0.000" />
+								<key
+									time="0.483"
+									value="0.279"
+									tangent="0.076, 0.000" />
+								<key
+									time="1.000"
+									value="0.010"
+									tangent="-0.138, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="material"
+						value="prt_shd_fire_1" />
+					<parameter
+						name="sample_mesh"
+						value="" />
+					<parameter
+						name="particle_color">
+						<color>
+							<keys>
+								<key
+									time="0.000"
+									value="1.000, 0.619, 0.359" />
+								<key
+									time="1.000"
+									value="0.957, 0.000, 0.000" />
+							</keys>
+						</color>
+						<alpha>
+							<keys>
+								<key
+									time="0.000"
+									value="0.000" />
+								<key
+									time="0.184"
+									value="1.000" />
+								<key
+									time="0.800"
+									value="1.000" />
+								<key
+									time="1.000"
+									value="0.000" />
+							</keys>
+						</alpha>
+					</parameter>
+				</parameters>
+			</emitter>
+			<emitter
+				name="sparks"
+				_index_="1">
+				<flags>
+					<flag
+						name="emit_while_moving"
+						value="false" />
+					<flag
+						name="dont_emit_while_moving"
+						value="false" />
+					<flag
+						name="emit_at_once"
+						value="false" />
+					<flag
+						name="local_emit_dir"
+						value="false" />
+					<flag
+						name="loop_sprite"
+						value="false" />
+					<flag
+						name="uses_sprite_animation"
+						value="false" />
+					<flag
+						name="scale_with_respect_to_emitter_velocity"
+						value="false" />
+					<flag
+						name="skew_with_respect_to_particle_velocity"
+						value="true" />
+					<flag
+						name="spherical_normals"
+						value="false" />
+					<flag
+						name="emit_on_terrain"
+						value="false" />
+					<flag
+						name="select_random_sample_mesh"
+						value="false" />
+					<flag
+						name="fixed_billboard_direction"
+						value="false" />
+					<flag
+						name="order_by_distance"
+						value="false" />
+					<flag
+						name="select_random_sprite"
+						value="false" />
+					<flag
+						name="create_decal_on_collision"
+						value="false" />
+					<flag
+						name="create_decal_only_once"
+						value="false" />
+					<flag
+						name="randomize_collision_decal_rotation"
+						value="false" />
+					<flag
+						name="permanent_collision_decals"
+						value="false" />
+					<flag
+						name="collide_with_objects"
+						value="false" />
+					<flag
+						name="use_color_from_terrain"
+						value="false" />
+					<flag
+						name="enable_collision"
+						value="false" />
+				</flags>
+				<parameters>
+					<parameter
+						name="emitter_life"
+						value="0.000" />
+					<parameter
+						name="activation_delay"
+						value="0.000" />
+					<parameter
+						name="skew_with_particle_velocity_coef"
+						value="1000.000" />
+					<parameter
+						name="skew_with_particle_velocity_limit"
+						value="2.000" />
+					<parameter
+						name="scale_with_emitter_velocity_coef"
+						value="0.000" />
+					<parameter
+						name="inherit_emitter_velocity"
+						value="0.000" />
+					<parameter
+						name="emit_volume"
+						value="0.000, 0.000, 0.000" />
+					<parameter
+						name="emit_sphere_radius"
+						value="1.000" />
+					<parameter
+						name="gravity"
+						value="0.000, 0.000, 5.000" />
+					<parameter
+						name="fixed_billboard_direction"
+						value="0.000, 0.000, 1.000" />
+					<parameter
+						name="emission_speed_limit"
+						value="0.000" />
+					<parameter
+						name="decal_min_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="decal_max_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="skinned_decal_start_index"
+						value="-1" />
+					<parameter
+						name="skinned_decal_end_index"
+						value="-1" />
+					<parameter
+						name="max_alive_particle_count"
+						value="0" />
+					<parameter
+						name="quad_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="quad_bias"
+						value="0.000, 0.000" />
+					<parameter
+						name="texture_sprite_count"
+						value="1, 1" />
+					<parameter
+						name="texture_sprite_frame_count"
+						value="1" />
+					<parameter
+						name="texture_sprite_frame_rate"
+						value="1.000" />
+					<parameter
+						name="fixed_particle_initial_speed"
+						value="0.000" />
+					<parameter
+						name="fadeout_distance"
+						value="0.025" />
+					<parameter
+						name="fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="camera_fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="backlight_multiplier"
+						value="0.000" />
+					<parameter
+						name="diffuse_multiplier"
+						value="5.000" />
+					<parameter
+						name="emissive_multiplier"
+						value="1.000" />
+					<parameter
+						name="heatmap_multiplier"
+						value="1.000" />
+					<parameter
+						name="emission_turbulence_interval"
+						value="340282346638528859811704183484516925440.000" />
+					<parameter
+						name="emission_turbulence_strength"
+						value="0.000" />
+					<parameter
+						name="collision_damping"
+						value="0.000" />
+					<parameter
+						name="collision_angular_damping"
+						value="0.000" />
+					<parameter
+						name="cone_emit_angle"
+						value="0.000" />
+					<parameter
+						name="particle_size_curve_op"
+						value="multiply" />
+					<parameter
+						name="emit_volume_type"
+						value="box" />
+					<parameter
+						name="billboard_type"
+						value="3d" />
+					<parameter
+						name="collision_behaviour"
+						value="normal" />
+					<parameter
+						name="emission_velocity_model"
+						value="random_velocity_components" />
+					<parameter
+						name="initial_rotation"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="damping"
+						base="0.840"
+						bias="0.100" />
+					<parameter
+						name="turbulence_strength"
+						base="13.000"
+						bias="7.000" />
+					<parameter
+						name="angular_damping"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="particle_life"
+						base="0.600"
+						bias="0.200" />
+					<parameter
+						name="emission_rate"
+						base="5.000"
+						bias="0.000" />
+					<parameter
+						name="cone_emit_velocity"
+						base="1.000"
+						bias="0.000">
+						<curve
+							name="emitter_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="emit_velocity_x"
+						base="0.000"
+						bias="0.200" />
+					<parameter
+						name="emit_velocity_y"
+						base="0.000"
+						bias="0.200" />
+					<parameter
+						name="emit_velocity_z"
+						base="0.500"
+						bias="0.300" />
+					<parameter
+						name="emit_rotation_speed"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="wind_effect"
+						base="2.000"
+						bias="0.500" />
+					<parameter
+						name="particle_size"
+						base="0.500"
+						bias="0.000">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="0.010">
+							<keys>
+								<key
+									time="0.000"
+									value="0.990"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="0.228"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="material"
+						value="prt_shd_sparks" />
+					<parameter
+						name="sample_mesh"
+						value="" />
+					<parameter
+						name="particle_color">
+						<color>
+							<keys>
+								<key
+									time="0.157"
+									value="1.000, 0.666, 0.465" />
+								<key
+									time="0.900"
+									value="0.828, 0.170, 0.136" />
+							</keys>
+						</color>
+						<alpha>
+							<keys>
+								<key
+									time="0.000"
+									value="0.000" />
+								<key
+									time="0.040"
+									value="1.000" />
+								<key
+									time="0.691"
+									value="1.000" />
+								<key
+									time="1.000"
+									value="0.000" />
+							</keys>
+						</alpha>
+					</parameter>
+				</parameters>
+			</emitter>
+			<emitter
+				name="fire_emit_on_move"
+				_index_="2">
+				<flags>
+					<flag
+						name="emit_while_moving"
+						value="true" />
+					<flag
+						name="dont_emit_while_moving"
+						value="false" />
+					<flag
+						name="emit_at_once"
+						value="false" />
+					<flag
+						name="local_emit_dir"
+						value="true" />
+					<flag
+						name="loop_sprite"
+						value="false" />
+					<flag
+						name="uses_sprite_animation"
+						value="true" />
+					<flag
+						name="scale_with_respect_to_emitter_velocity"
+						value="false" />
+					<flag
+						name="skew_with_respect_to_particle_velocity"
+						value="true" />
+					<flag
+						name="spherical_normals"
+						value="false" />
+					<flag
+						name="emit_on_terrain"
+						value="false" />
+					<flag
+						name="select_random_sample_mesh"
+						value="false" />
+					<flag
+						name="fixed_billboard_direction"
+						value="false" />
+					<flag
+						name="order_by_distance"
+						value="false" />
+					<flag
+						name="select_random_sprite"
+						value="true" />
+					<flag
+						name="create_decal_on_collision"
+						value="false" />
+					<flag
+						name="create_decal_only_once"
+						value="false" />
+					<flag
+						name="randomize_collision_decal_rotation"
+						value="false" />
+					<flag
+						name="permanent_collision_decals"
+						value="false" />
+					<flag
+						name="collide_with_objects"
+						value="false" />
+					<flag
+						name="use_color_from_terrain"
+						value="false" />
+					<flag
+						name="enable_collision"
+						value="false" />
+				</flags>
+				<parameters>
+					<parameter
+						name="emitter_life"
+						value="0.000" />
+					<parameter
+						name="activation_delay"
+						value="0.000" />
+					<parameter
+						name="skew_with_particle_velocity_coef"
+						value="50.000" />
+					<parameter
+						name="skew_with_particle_velocity_limit"
+						value="4.000" />
+					<parameter
+						name="scale_with_emitter_velocity_coef"
+						value="0.000" />
+					<parameter
+						name="inherit_emitter_velocity"
+						value="0.100" />
+					<parameter
+						name="emit_volume"
+						value="0.000, 0.000, 0.000" />
+					<parameter
+						name="emit_sphere_radius"
+						value="1.000" />
+					<parameter
+						name="gravity"
+						value="0.000, 0.000, 3.000" />
+					<parameter
+						name="fixed_billboard_direction"
+						value="0.000, 0.000, 1.000" />
+					<parameter
+						name="emission_speed_limit"
+						value="0.000" />
+					<parameter
+						name="decal_min_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="decal_max_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="skinned_decal_start_index"
+						value="-1" />
+					<parameter
+						name="skinned_decal_end_index"
+						value="-1" />
+					<parameter
+						name="max_alive_particle_count"
+						value="0" />
+					<parameter
+						name="quad_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="quad_bias"
+						value="0.000, 0.000" />
+					<parameter
+						name="texture_sprite_count"
+						value="5, 5" />
+					<parameter
+						name="texture_sprite_frame_count"
+						value="25" />
+					<parameter
+						name="texture_sprite_frame_rate"
+						value="25.000" />
+					<parameter
+						name="fixed_particle_initial_speed"
+						value="0.000" />
+					<parameter
+						name="fadeout_distance"
+						value="0.005" />
+					<parameter
+						name="fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="camera_fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="backlight_multiplier"
+						value="0.000" />
+					<parameter
+						name="diffuse_multiplier"
+						value="0.700" />
+					<parameter
+						name="emissive_multiplier"
+						value="1.000" />
+					<parameter
+						name="heatmap_multiplier"
+						value="1.000" />
+					<parameter
+						name="emission_turbulence_interval"
+						value="340282346638528859811704183484516925440.000" />
+					<parameter
+						name="emission_turbulence_strength"
+						value="1.000" />
+					<parameter
+						name="collision_damping"
+						value="0.000" />
+					<parameter
+						name="collision_angular_damping"
+						value="0.000" />
+					<parameter
+						name="cone_emit_angle"
+						value="0.000" />
+					<parameter
+						name="particle_size_curve_op"
+						value="multiply" />
+					<parameter
+						name="emit_volume_type"
+						value="box" />
+					<parameter
+						name="billboard_type"
+						value="turn_to_velocity_side" />
+					<parameter
+						name="collision_behaviour"
+						value="normal" />
+					<parameter
+						name="emission_velocity_model"
+						value="random_velocity_components" />
+					<parameter
+						name="initial_rotation"
+						base="0.000"
+						bias="360.000" />
+					<parameter
+						name="damping"
+						base="0.688"
+						bias="0.000" />
+					<parameter
+						name="turbulence_strength"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="angular_damping"
+						base="0.688"
+						bias="0.000" />
+					<parameter
+						name="particle_life"
+						base="0.100"
+						bias="0.040" />
+					<parameter
+						name="emission_rate"
+						base="30.000"
+						bias="10.000" />
+					<parameter
+						name="cone_emit_velocity"
+						base="1.000"
+						bias="0.000">
+						<curve
+							name="emitter_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="emit_velocity_x"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="emit_velocity_y"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="emit_velocity_z"
+						base="1.000"
+						bias="0.000" />
+					<parameter
+						name="emit_rotation_speed"
+						base="0.000"
+						bias="360.000" />
+					<parameter
+						name="wind_effect"
+						base="0.800"
+						bias="0.300" />
+					<parameter
+						name="particle_size"
+						base="0.800"
+						bias="0.350">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="0.120">
+							<keys>
+								<key
+									time="0.000"
+									value="1.012"
+									tangent="0.041, 0.000" />
+								<key
+									time="0.207"
+									value="0.764"
+									tangent="-0.041, 0.000" />
+								<key
+									time="0.207"
+									value="0.764"
+									tangent="0.041, 0.000" />
+								<key
+									time="1.000"
+									value="0.102"
+									tangent="-0.172, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="material"
+						value="prt_shd_fire_1" />
+					<parameter
+						name="sample_mesh"
+						value="" />
+					<parameter
+						name="particle_color">
+						<color>
+							<keys>
+								<key
+									time="0.000"
+									value="0.384, 0.284, 0.198" />
+								<key
+									time="0.900"
+									value="0.280, 0.032, 0.005" />
+							</keys>
+						</color>
+						<alpha>
+							<keys>
+								<key
+									time="0.000"
+									value="1.000" />
+								<key
+									time="0.251"
+									value="1.000" />
+								<key
+									time="0.810"
+									value="0.000" />
+								<key
+									time="1.000"
+									value="0.000" />
+							</keys>
+						</alpha>
+					</parameter>
+				</parameters>
+			</emitter>
+			<emitter
+				name="static_smoke"
+				_index_="3">
+				<flags>
+					<flag
+						name="emit_while_moving"
+						value="false" />
+					<flag
+						name="dont_emit_while_moving"
+						value="false" />
+					<flag
+						name="emit_at_once"
+						value="false" />
+					<flag
+						name="local_emit_dir"
+						value="true" />
+					<flag
+						name="loop_sprite"
+						value="false" />
+					<flag
+						name="uses_sprite_animation"
+						value="true" />
+					<flag
+						name="scale_with_respect_to_emitter_velocity"
+						value="false" />
+					<flag
+						name="skew_with_respect_to_particle_velocity"
+						value="true" />
+					<flag
+						name="spherical_normals"
+						value="true" />
+					<flag
+						name="emit_on_terrain"
+						value="false" />
+					<flag
+						name="select_random_sample_mesh"
+						value="false" />
+					<flag
+						name="fixed_billboard_direction"
+						value="false" />
+					<flag
+						name="order_by_distance"
+						value="true" />
+					<flag
+						name="select_random_sprite"
+						value="false" />
+					<flag
+						name="create_decal_on_collision"
+						value="false" />
+					<flag
+						name="create_decal_only_once"
+						value="false" />
+					<flag
+						name="randomize_collision_decal_rotation"
+						value="false" />
+					<flag
+						name="permanent_collision_decals"
+						value="false" />
+					<flag
+						name="collide_with_objects"
+						value="false" />
+					<flag
+						name="use_color_from_terrain"
+						value="false" />
+					<flag
+						name="enable_collision"
+						value="false" />
+				</flags>
+				<parameters>
+					<parameter
+						name="emitter_life"
+						value="0.000" />
+					<parameter
+						name="activation_delay"
+						value="0.000" />
+					<parameter
+						name="skew_with_particle_velocity_coef"
+						value="500.000" />
+					<parameter
+						name="skew_with_particle_velocity_limit"
+						value="1.000" />
+					<parameter
+						name="scale_with_emitter_velocity_coef"
+						value="0.000" />
+					<parameter
+						name="inherit_emitter_velocity"
+						value="0.000" />
+					<parameter
+						name="emit_volume"
+						value="0.000, 0.000, 0.000" />
+					<parameter
+						name="emit_sphere_radius"
+						value="1.000" />
+					<parameter
+						name="gravity"
+						value="0.000, 0.000, 0.500" />
+					<parameter
+						name="fixed_billboard_direction"
+						value="0.000, 0.000, 1.000" />
+					<parameter
+						name="emission_speed_limit"
+						value="0.000" />
+					<parameter
+						name="decal_min_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="decal_max_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="skinned_decal_start_index"
+						value="-1" />
+					<parameter
+						name="skinned_decal_end_index"
+						value="-1" />
+					<parameter
+						name="max_alive_particle_count"
+						value="0" />
+					<parameter
+						name="quad_scale"
+						value="1.000, 1.000" />
+					<parameter
+						name="quad_bias"
+						value="0.000, 0.000" />
+					<parameter
+						name="texture_sprite_count"
+						value="8, 8" />
+					<parameter
+						name="texture_sprite_frame_count"
+						value="64" />
+					<parameter
+						name="texture_sprite_frame_rate"
+						value="30.000" />
+					<parameter
+						name="fixed_particle_initial_speed"
+						value="0.000" />
+					<parameter
+						name="fadeout_distance"
+						value="0.000" />
+					<parameter
+						name="fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="camera_fadeout_coef"
+						value="0.000" />
+					<parameter
+						name="backlight_multiplier"
+						value="0.500" />
+					<parameter
+						name="diffuse_multiplier"
+						value="1.000" />
+					<parameter
+						name="emissive_multiplier"
+						value="1.000" />
+					<parameter
+						name="heatmap_multiplier"
+						value="1.000" />
+					<parameter
+						name="emission_turbulence_interval"
+						value="340282346638528859811704183484516925440.000" />
+					<parameter
+						name="emission_turbulence_strength"
+						value="0.000" />
+					<parameter
+						name="collision_damping"
+						value="0.000" />
+					<parameter
+						name="collision_angular_damping"
+						value="0.000" />
+					<parameter
+						name="cone_emit_angle"
+						value="0.000" />
+					<parameter
+						name="particle_size_curve_op"
+						value="multiply" />
+					<parameter
+						name="emit_volume_type"
+						value="box" />
+					<parameter
+						name="billboard_type"
+						value="3d" />
+					<parameter
+						name="collision_behaviour"
+						value="normal" />
+					<parameter
+						name="emission_velocity_model"
+						value="random_velocity_components" />
+					<parameter
+						name="initial_rotation"
+						base="0.000"
+						bias="180.000" />
+					<parameter
+						name="damping"
+						base="0.620"
+						bias="0.000" />
+					<parameter
+						name="turbulence_strength"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="angular_damping"
+						base="0.599"
+						bias="0.000" />
+					<parameter
+						name="particle_life"
+						base="2.500"
+						bias="0.300" />
+					<parameter
+						name="emission_rate"
+						base="5.000"
+						bias="0.000" />
+					<parameter
+						name="cone_emit_velocity"
+						base="1.000"
+						bias="0.000">
+						<curve
+							name="emitter_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="emit_velocity_x"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="emit_velocity_y"
+						base="0.000"
+						bias="0.000" />
+					<parameter
+						name="emit_velocity_z"
+						base="0.500"
+						bias="0.200" />
+					<parameter
+						name="emit_rotation_speed"
+						base="0.000"
+						bias="114.592" />
+					<parameter
+						name="wind_effect"
+						base="0.300"
+						bias="0.000">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="1.000">
+							<keys>
+								<key
+									time="0.000"
+									value="1.000"
+									tangent="0.200, 0.000" />
+								<key
+									time="1.000"
+									value="1.000"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="particle_size"
+						base="1.000"
+						bias="0.100">
+						<curve
+							name="particle_life"
+							version="1"
+							default="1.000"
+							curve_multiplier="0.600">
+							<keys>
+								<key
+									time="0.000"
+									value="0.216"
+									tangent="0.090, 0.000" />
+								<key
+									time="0.345"
+									value="0.800"
+									tangent="-0.139, -0.195" />
+								<key
+									time="0.345"
+									value="0.800"
+									tangent="0.139, 0.195" />
+								<key
+									time="1.000"
+									value="1.040"
+									tangent="-0.200, 0.000" />
+							</keys>
+						</curve>
+					</parameter>
+					<parameter
+						name="material"
+						value="prt_shd_smoke_4" />
+					<parameter
+						name="sample_mesh"
+						value="" />
+					<parameter
+						name="particle_color">
+						<color>
+							<keys>
+								<key
+									time="0.225"
+									value="0.767, 0.517, 0.349" />
+								<key
+									time="0.561"
+									value="0.530, 0.530, 0.530" />
+							</keys>
+						</color>
+						<alpha>
+							<keys>
+								<key
+									time="0.000"
+									value="0.000" />
+								<key
+									time="0.227"
+									value="0.043" />
+								<key
+									time="0.459"
+									value="0.043" />
+								<key
+									time="0.748"
+									value="0.016" />
+								<key
+									time="1.000"
+									value="0.000" />
+							</keys>
+						</alpha>
+					</parameter>
+				</parameters>
+			</emitter>
+		</emitters>
+	</effect>
+	<effect
+		name="prt_wm_exponential_dust_swamp"
+		guid="{F9AFA967-248D-40B3-B298-1E0FECA41C58}">
+		<emitters />
+	</effect>
+</particle_effects>

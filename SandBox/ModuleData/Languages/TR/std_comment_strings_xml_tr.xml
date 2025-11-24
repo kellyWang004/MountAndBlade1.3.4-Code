@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Türkçe" />
+  </tags>
+  <strings>
+    <string id="02FaqhzI" text="Adını duydum. Hakkında iyi şeyler söylüyorlar. Ara sıra konuşalım. Benim gibi biriyle arkadaşlık etmek senin için çok faydalı olabilir." />
+    <string id="0etg1Q9l" text="{FIRST_NAME}'{.e} hizmet ederken adamlarımdan çok fedakarlık istedim. Sadakatlerinin yanlış olduğunun söylenmesini kabul edemem." />
+    <string id="1bxTLLAk" text="{SETTLEMENT_NAME}'{.de} köyümü yağmaladın. Zayıf olduğumu mu sanıyorsun? Köylülerimi soyabileceğini ve bedelini kanla ödemeyeceğini mi sanıyorsun?" />
+    <string id="1JgKFOw8" text="Benim sadakatime sahipsin." />
+    <string id="1jUa8olQ" text="Teslim olmanı beklemiyorum ama yine de sana teslim olman için bir şans vereceğim.[ib:warrior][if:convo_stern]" />
+    <string id="1MPxKtue" text="Bu önemli mi? Şu anda biraz meşgulüm." />
+    <string id="1Rht7WZI" text="Adını duydum sanırım. Galiba bize sorun çıkarmıştın." />
+    <string id="267ch9fZ" text="{VILLAGE_NAME}'{.e} düzenlenen baskın... Oradaki çiftçileri kötü etkiledi. Her neyse, eminim {ENEMY_NAME} de bize aynısını yapardı." />
+    <string id="27KUtWGA" text="Sana verdiğim görevi yerine getirdin. Teşekkür ederim." />
+    <string id="2FWBCCw0" text="Kız kardeş" />
+    <string id="2VkCAuiu" text="Evet... Adını duymuştum sanırım." />
+    <string id="2vMNJl7F" text="Pekala. Karar verildi öyleyse." />
+    <string id="3L7Rkswm" text="Teslim olabilirsin ama umarım olmazsın. Kılıcımı sana saplamak ve acıdan haykırdığını duymak hoşuma gider.[ib:warrior][if:convo_mocking_revenge]" />
+    <string id="3PsQTf0z" text="Seni köşeye sıkıştırdım. Teslim ol yoksa saldıracağız.[ib:warrior][if:convo_aggressive]" />
+    <string id="3TGug4Vb" text="Adını duydum. Çok cesur bir savaşçı olduğunu söylüyorlar. Umarım cesur olduğun kadar onurlu ve merhametlisindir de." />
+    <string id="3UucAOBW" text="Ben {CLAN_NAME}'{.den} {CONVERSATION_CHARACTER.LINK}." />
+    <string id="48g7K7Zi" text="Bu yollarda yürürken, hiçbir şeyin Gizli El'in dikkatinden kaçmadığını unutma dostum. Lordlar ve imparatorlar gelip geçer ama biz kalırız." />
+    <string id="49sxmwcX" text="Dilini tut! Birazdan merhamet dilenmek için ona ihtiyacın olacak." />
+    <string id="4Jo8JMZm" text="Leydim" />
+    <string id="4Uagj1LN" text="Aslına bakarsan, seni tutsak olarak tutmaya devam edeceğim sanırım." />
+    <string id="5DCMLfp8" text="Adını duydum. Sohbet havasında değilim, dolayısıyla nezaketi bir kenara bırakalım." />
+    <string id="5Fa0uDJn" text="Aseray Sultanı" />
+    <string id="5ZfjV7hS" text="Yeter! Bugün sen kazandın, köpek! Ne büyük bir utanç![if:convo_angry]" />
+    <string id="62vceTar" text="Ben {CLAN_NAME}'{.den} {CONVERSATION_CHARACTER.LINK}." />
+    <string id="6acfbHiE" text="Adını bir kenara yazacağım. Ancak, güvenimi kazanman gerekecek yabancı, çünkü dünya tehlikeli bir yer ve bunlar tehlikeli zamanlar." />
+    <string id="6l8ty6Dr" text="Tanıştığımıza memnun oldum." />
+    <string id="6LlDlGSb" text="Yüce Batanya Kraliçesi" />
+    <string id="6UBdsXlo" text="Belki bir gün savaş meydanında karşılaşırız. Gulamları atlarının ihtişamından ve kılıçlarının ışıltısından tanıyabilirsin. Eğer senin tarafındaysak, sevinebilirsin. Eğer karşı taraftaysak, savaş başlamadan önce kaçarak kendini büyük sıkıntılardan kurtarabilirsin." />
+    <string id="6YUFDgGb" text="Çok büyük bir adım atmak üzereyim ve bu bunu kolaylaştırıyor." />
+    <string id="7ErxFkCB" text="{VILLAGE_NAME}'{.de} yaptıklarımızın {VILLAGE_FACTION}'{.nin} hoşuna gideceğini sanmıyorum..." />
+    <string id="7lWtkqHv" text="Adını hatırlayacağım." />
+    <string id="7pQ3y21E" text="Yardımların için tekrar teşekkür ederim." />
+    <string id="80C0gWJ4" text="Vlandiya Kralı" />
+    <string id="86aQkXpV" text="Pekala - Cesaretini sınayacağım!" />
+    <string id="8eLXNZ7U" text="İnsanın kiminle dövüştüğünü bilmesi güzel." />
+    <string id="8GDgJCB4" text="Eğer sağlam savaşçılar arıyorsan, Altın Domuz Kumpanyası ile çalışmayı düşünmelisin dostum. Vlandiya'nın en sağlam delikanlıları bizim sancağımız altında toplanır. Eğer sen bizi işe almazsan, düşmanların alabilir." />
+    <string id="8WLSZRZc" text="Pekala. Ne teklif ediyorsun?" />
+    <string id="8x8kVUGX" text="Yoksulların ve mazlumların, dulların ve yetimlerin haklarını savunman, Göklerin dikkatinden kaçmayacaktır." />
+    <string id="99gE1ZoY" text="Ben {FACTION}'{.den} {CONVERSATION_CHARACTER.LINK}." />
+    <string id="9LwkLxo7" text="Mütevazı bir aileden olabilirsin ama iyi yerlere gelecek birine benziyorsun. Diyelim ki güçlü bir konum elde ettin. Bunu nasıl kullanırsın?" />
+    <string id="9uH1NdsT" text="Sen yakışıklı bir şeytansın, değil mi? Ama başa bela olduğuna bahse girerim." />
+    <string id="9ZHhYooG" text="Seni teke tekte nasıl dövdüğümü unuttun mu? Daha fazlasını mı istiyorsun?" />
+    <string id="A40Z3egp" text="Benim için yaptığın o iş... İyi iş çıkardın." />
+    <string id="a55SAS18" text="Sana karşı avantajlıyız. Teslim olursan, kötü muamele görmezsin.[ib:warrior][if:convo_stern]" />
+    <string id="a5LChqbr" text="Birilerinin bu toprakların sıradan halkına göz kulak olması gerekiyor. Bizim Kardeşliğimiz de burada devreye giriyor. Bize haydut veya soyguncu dendiğini duyacaksın. Tek kelimesine bile inanma." />
+    <string id="a6EBXT6C" text="Evet... İkimiz de buradaki turnuvaya katılmıştık, değil mi? Büyük bir hayal kırıklığıydı... Umarım o alçak {WINNER_NAME} ödülü bir zar oyununda kaybeder." />
+    <string id="a8584KD0" text="Ben {CLAN_NAME}'{.den} {CONVERSATION_CHARACTER.LINK}. Eminim bozkır destanlarında klanımızın adını duymuşsundur. Kuzaitlerin anası olan ulu dişi kurdun 12 oğlundan birinin adını taşıyoruz." />
+    <string id="aaadHoIb" text="Bütün düşmanlarını ezip geçsin!" />
+    <string id="aagGt8pX" text="Lord hazretleri" />
+    <string id="aFbkjgVe" text="Demek o görevi tamamlayamadın... Böyle şeyler bazen elimizdedir... bazen de değildir. Bunun üzerinde durmayalım." />
+    <string id="agKiYTCE" text="Ah evet. Adını duydum sanırım. Yüz yüze tanıştığımıza memnun oldum." />
+    <string id="aIimfZZe" text="Adını duydum. Senden etkileyici bir savaşçı olarak bahsediyorlar. Ancak bu kadar, şey, hoş olduğunu söylememişlerdi." />
+    <string id="aKD9kfTI" text="Eminim {TOURNAMENT_WINNER}'{.nin} {TOURNAMENT_TOWN}'{.de} düzenlenen o turnuvayı nasıl kazandığını hatırlıyorsundur... Hayatımda hiç bu kadar haksız bir galibiyet görmedim..." />
+    <string id="atHFPCcK" text="Tanıştığımıza memnun oldum. Unutma, bu dünyada sözünün ağırlığından daha değerli hiçbir şey yoktur, dolayısıyla bana karşı dürüst ol ki ben de sana karşı dürüst olayım." />
+    <string id="auVAWUJ3" text="Eğer bana karşı gelirsen, kuzgunlara yem olacağını bil." />
+    <string id="AZf7kPgr" text="Bugün galip gelemeyeceksin. Kendi iyiliğin için değilse, adamların için pes et![ib:warrior][if:convo_thinking]" />
+    <string id="bAir72Sf" text="Dur! Teslim oluyorum![if:convo_beaten]" />
+    <string id="bbjLFWhP" text="Son düellomuzu ben kazandım ama iyi dövüştün. Eğer rövanş istersen, seni suçlamam." />
+    <string id="BbVpiTdi" text="Duyduğum kadarıyla görüp geçirmiş bir insansın. Bana biraz yolculuklarından bahset." />
+    <string id="BCfeuAX5" text="Öyle mi? O kadar zalimsin ki beni zincirler içinde görmektense özgür ve küçük düşmüş görmeyi tercih edersin. Zaferinin tadını çıkar![if:convo_contemptuous]" />
+    <string id="bDarsOFR" text="Ben {CLAN_NAME} hanesinden {CONVERSATION_CHARACTER.LINK}." />
+    <string id="bdiuV4qb" text="Adını duydum. Çok cesur biri olduğunu söylüyorlar. Eğer kader bir gün dövüşmemizi gerektirirse, bu benim için bir onur olur." />
+    <string id="BMc3VJcf" text="Adını bilmiyorum. Ama önemli değil. Bazıları büyük bir soydan gelmektense büyük bir soy yaratmanın daha onurlu olduğunu söyler." />
+    <string id="bNReoRmt" text="Eğer bir gün savaşçılarla çalışman gerekirse, İhanete Uğrayanların Lejyonu'nu düşünmelisin. Biz sözüne ve sözleşmene bağlı kalmanın ne demek olduğunu biliriz, çünkü sözünde durmamanın bedelini gördük." />
+    <string id="brGfaXyo" text="Hakkında ne düşünmem gerektiğinden emin olamıyorum, ya çok cesursun ya da çok ihtiyatsız veya belki her ikisi de." />
+    <string id="BRMngn5i" text="Yeter! Ben senin tutsağınım. Fidye verebilirim. Canlıyken senin için daha değerliyim.[if:convo_thinking]" />
+    <string id="C5JaFsDZ" text="{FIRST_NAME} benim lordumdur. Söylenecek başka bir şey yok." />
+    <string id="c7hrnOUE" text="Sana verdiğim görev yolunda gitmedi sanırım." />
+    <string id="caKCwoPM" text="Beni Zilal sırrın koruyucularıdır. Biz gölgelerden izleriz. Bizi düşman edinmek senin için iyi olmaz." />
+    <string id="cFiSjbf4" text="Hah! Seninle dövüşmek istiyorum." />
+    <string id="cGuzIVlk" text="Çok yer gezip gördüğünü söylüyorlar. Bana biraz yolculuklarından bahset..." />
+    <string id="cMO9JXvk" text="Ben {CLAN_NAME}'{.den} {CONVERSATION_CHARACTER.LINK}. Topraklarımızı bize {LIEGE_TITLE} verdi ve sadakat yeminimize bağlıyız." />
+    <string id="CN20EFDE" text="Ne yazık ki bu koşullarda sana saldırmamam aptallık olur." />
+    <string id="CPWbB47d" text="Adını duydum! Uzun zamandır seninle tanışmak istiyordum." />
+    <string id="csxzwd17" text="O turnuvayı kazandın... Tabi böyle şeylerde şans da daima önemli bir rol oynar." />
+    <string id="CUfZXlOd" text="Adını hatırlayacağım." />
+    <string id="d2QGFdRJ" text="Hiç şansın yok. Teslim ol yoksa seni balık gibi deşerim.[ib:warrior][if:convo_angry]" />
+    <string id="D5SIBhjl" text="Eminim {TOURNAMENT_WINNER}'{.nin} buradaki turnuvayı nasıl kazandığını hatırlıyorsundur... Hayatımda hiç bu kadar haksız bir galibiyet görmedim..." />
+    <string id="dC8acIya" text="Ben {CLAN_NAME}'{.den} {CONVERSATION_CHARACTER.LINK}." />
+    <string id="dD6hNymL" text="Çocuklar ve ben... Her ne duymuş olursan ol, otoriteye saygı duyarız. Umarım faydalı olabiliriz." />
+    <string id="dD93WVhO" text="Hakkımda bilmen gereken şu ki ben çok iyi bir arkadaşımdır ama düşmanın olmamı kesinlikle istemezsin." />
+    <string id="dhwnbgoz" text="Hayır. Bunu kabul edemem." />
+    <string id="DIjtFVu8" text="Kanının son damlası mı? Bu durumda onu dökmem gerekecek sanırım." />
+    <string id="dKmAktt7" text="Beni yenemezsin ve eğer buna yeltenirsen acı bir ders alırsın. Teslim ol![ib:warrior][if:convo_angry]" />
+    <string id="dLHsoh3f" text="Senden bahsedildiğini duydum. Adın adamların yüreklerine korku salıyor. İnsanın sahip olabileceği en iyi itibar budur. Belki ortak çıkarlarımız olabilir." />
+    <string id="dlkg2jQf" text="Ben Sturgiyalıların en eski soylarından biri olan {CLAN_NAME}'{.den} {CONVERSATION_CHARACTER.LINK}." />
+    <string id="DLV6F3ob" text="Belki Karakergitleri duymamışsındır. Biz yozlaşmış topraklara pek girmeyiz. Hiçbir Kağan'a boyun eğmeyiz. Tahıl ekmeyiz. Büyük çayırlarda eski gelenekleri sürdürürüz." />
+    <string id="dniQq29H" text="Açık konuşacağım. İyi bir aileden gelmiyorsun. Bazıları gözünü çok yükseklere diktiğini söyleyebilir. Ama diyelim ki güçlü bir konum elde ettin. Ne yaparsın?" />
+    <string id="DRzsgjsD" text="Ben İmparatorluk tarihindeki en tanınmış ailelerden biri olan {CLAN_NAME} hanesinden {CONVERSATION_CHARACTER.LINK}." />
+    <string id="dvpbyoAQ" text="Adını duydum. Nihayet tanışabildik. İyi birine benziyorsun. Ara sıra konuşalım." />
+    <string id="DxuuarNT" text="Adını biliyorum - söylenenlere bakılırsa gözü yaşlı pek çok dul da biliyor. Ancak, bu beni ilgilendirmez." />
+    <string id="E9B7Vrbx" text="{SETTLEMENT_NAME}'{.de} köyümü yağmaladın. Savaşacağız. Kendini savun!" />
+    <string id="eHuiRxC4" text="Buradaki turnuva nasıldı ama? Düşünsene, bütün o katılımcılar bana karşı bir şansları olduğunu zannediyorlardı." />
+    <string id="EIThhVgG" text="Adını duydum. Tanıştığımıza memnun oldum." />
+    <string id="ELtT9ctL" text="Skolderbroda'yı biliyor olabilirsin. Savaş meydanında rakibimiz yoktur. Hak ettiğimiz parayı almayı bekleriz ve ucuza gelmeyiz ama eğer paranı alırsak, sözleşmenin şartlarını gerekirse ölüm pahasına yerine getireceğimize yemin ederiz." />
+    <string id="ETxtYU6C" text="Pekala... Adını bayağı duyurdun..." />
+    <string id="eu6O20oJ" text="Bak şimdi, davan için seve seve kanımı akıtırım. Ama soydaşlarımı ve bana sığınanları kollamak zorundayım. Bundan daha fazlasına ihtiyacım var." />
+    <string id="EXgm5Utx" text="Ömrü uzun olsun!" />
+    <string id="eyxfHmCU" text="Ben {CLAN_NAME}'{.den} {CONVERSATION_CHARACTER.LINK}. Ailemiz nesiller boyu Vlandiya krallarına hizmet etti." />
+    <string id="eZh2qzeR" text="{TOURNAMENT_TOWN}'{.de} düzenlenen turnuva nasıldı ama? Düşünsene, bütün o katılımcılar bana karşı bir şansları olduğunu zannediyorlardı." />
+    <string id="f2eZL7w5" text="Sanırım sana canını bağışlamam için ayaklarıma kapanma fırsatı vermek zorundayım. Teslim olacak mısın?[ib:warrior][if:convo_mocking_revenge]" />
+    <string id="f3X79aDs" text="Pekala... Çok seyahat ettiğini duydum. Şüphesiz birçok tuhaf ve korkunç şey görmüşsündür. Belki birkaç tuhaf ve korkunç şey yapmışsındır da. Durma, bana biraz yolculuklarından bahset. Afallamayacağıma söz veriyorum." />
+    <string id="Fb7JxGKM" text="Evet... Adını duydum. Pekala. Ben boş sohbeti pek sevmem, o yüzden çorbayı atlayıp doğrudan ete geçelim." />
+    <string id="fbArcLAA" text="Leydim, eğer güzel olduğunuz kadar yetenekliyseniz, düşmanlarınız sizden gerçekten korkmalı!" />
+    <string id="FbstpIYj" text="Sana bir şans vermediğimi söyleme." />
+    <string id="FFXqPFwl" text="Ben Vlandiya Krallığı tarihindeki en tanınmış ailelerden biri olan {CLAN_NAME}'{.den} {CONVERSATION_CHARACTER.LINK}." />
+    <string id="fHFpgitO" text="Tanıştığımıza memnun oldum. Cesaret övgüye değerdir ama merhametten daha büyük bir erdem olmadığını asla unutma." />
+    <string id="FpD4Y9cX" text="Teşekkür ederim. Düşmanın olmaya devam edeceğim, ama yine de sana minnettarım.[if:convo_relaxed_happy]" />
+    <string id="FYLmd2ch" text="{SETTLEMENT_NAME}'{.de} kiracılarımı yağmaladın. Bunun hoşuma gitmediğini söylememe gerek yoktur herhalde." />
+    <string id="g3oFsCtd" text="Müzakere talep ettin. Savaş geleneklerine uyacağına ve herhangi bir hileye kalkışmayacağına güveniyorum." />
+    <string id="G8ol9sG3" text="Seninle dövüşmek bana büyük bir üzüntü veriyor ama buna mecburum. Eğer teslim olmak istemezsen elbette.[ib:warrior][if:convo_stern]" />
+    <string id="gBRBdsIe" text="Senin itibarına sahip biri, dünyada sözünün ağırlığı kadar değerli hiçbir şey olmadığını biliyordur eminim. Bana karşı dürüst ol ki ben de sana karşı dürüst olayım." />
+    <string id="gggmhjd7" text="Bana kendi başıma elde edemeyeceğim bir şey önerebileceğinden emin değilim." />
+    <string id="ghawrJRK" text="{SETTLEMENT_NAME}'{.i} yağmaladığını duydum. Orası benim mülküm, seni ahmak. Beni zayıf gösterebileceğini mi sanıyorsun? Bunun bedelini canınla ödeyeceksin." />
+    <string id="GO47mubj" text="Tam olarak ne öneriyorsun?" />
+    <string id="Gp3l5fjI" text="Sana verdiğim görev konusunda... Elinden geleni yaptığını ummaktan başka çarem yok ki yapacağını söylemiştin." />
+    <string id="gxV3M6HH" text="Elbette ona uzun bir ömür ve bütün düşmanlarının karşısında zafer diliyorum. Başka bir şey söylemek, senin de hiç kuşkusuz bildiğin gibi, vatan hainliği olur." />
+    <string id="gyCA2mZP" text="Bana kalırsa, konuşacak hiçbir şeyimiz yok." />
+    <string id="HaHZss32" text="Ben {CONVERSATION_CHARACTER.LINK}, {LIEGE_TITLE}'{.nin} sadık hizmetkarı." />
+    <string id="HbVsATfi" text="Adını duydum. Adamlar cesaretini övüyor. Ancak, onur ve merhametin de önemli olduğunu unutma." />
+    <string id="heKSWVJk" text="Sanırım sana teslim olman için bir şans vermek zorundayım ama umarım olmazsın. Kafanın boynunda ne kadar sağlam durduğunu görmek için can atıyorum.[ib:warrior][if:convo_mocking_aristocratic]" />
+    <string id="hfftfRcq" text="Çok yazık, sanırım bu konuda mutabakata varamayacağız." />
+    <string id="hP35jSyk" text="Ben {CLAN_NAME} hanesinden {CONVERSATION_CHARACTER.LINK}." />
+    <string id="hQlpbksp" text="Evet... İkimiz de {TOURNAMENT_TOWN}'{.de} düzenlenen turnuvaya katılmıştık, değil mi? Büyük bir hayal kırıklığıydı... Umarım o alçak {WINNER_NAME} ödülü bir zar oyununda kaybeder." />
+    <string id="hQsjeTix" text="Teslim oluyorum! Bana savaşın onurunu bahşet ki ismin yücelsin![if:convo_thinking]" />
+    <string id="HwhUEZPE" text="Evet... Adını duydum. Seninle bir alıp veremediğim yok dostum. Sen benim işime karışmadığın sürece, ben de senin işine karışmam." />
+    <string id="HwsshsMz" text="O son mesele konusunda fikir birliğine varabildiğimize sevindim." />
+    <string id="i1RXpQxR" text="Düellomuzu hatırlıyor musun? İyi bir mücadeleydi. Ancak, şimdi sahip olduğum avantajla, o kadar adil olamayacağım korkarım." />
+    <string id="I67MlgYp" text="Hayır... Daha fazlasını veremeyeceksen, bunu yapamam." />
+    <string id="iAKHTPlP" text="Buradaki turnuvada sana karşı yarışmak bir onurdu." />
+    <string id="iepWkkfA" text="Leydi hazretleri" />
+    <string id="ieVRr359" text="Adını bir kenara yazacağım." />
+    <string id="iM76GPzK" text="Dürüst bir insanı her zaman dinlerim. Ancak, eğer dürüst olamayacaksan, lütfen varlığınla beni rahatsız etme." />
+    <string id="iOnsulPb" text="Bizi duymuş olabilirsin. Bize Alevin Közleri derler. Gökler nesiller önce büyük bir arınmaya hazırlanmamızı buyurdu. O gün gelene kadar sessizce için için yanıyoruz. Ancak o gün geldiğinde, haklı gazabımız alev alacak." />
+    <string id="itfE84jd" text="Sayıca üstünüz. Teslim ol. Ya da olma. Savaşta ölmek iyi bir şeydir.[ib:warrior][if:convo_bored]" />
+    <string id="IuSH0tcp" text="{FIRST_NAME} bana karşı görevini her zaman yerine getirdi ve ben de aynısını yapmaya niyetliyim." />
+    <string id="J0wLOV3u" text="Sana verdiğim görevin kolay olmadığını biliyorum... Artık bundan bahsetmeyelim." />
+    <string id="JBZcBg9h" text="Tanıştığımıza memnun oldum." />
+    <string id="JcdmntiC" text="Ah, evet. Duyduklarımdan, bu kadar hoş ve zarif birini değil, kılıcından düşmanlarının kanı akan birini bekliyordum." />
+    <string id="JJAWbuNT" text="Ben {CLAN_NAME}'{.den} {CONVERSATION_CHARACTER.LINK}. Atamızın Kahramanlar Çağı'nda Batı'dan altın gemilerle bu topraklara gelenlerden olduğunu söylerler. Tabii eğer o gemilerde olduğu söylenen herkes gerçekten o gemilerde olsaydı, ağırlıktan alabora olurlardı." />
+    <string id="JkHvOVlo" text="Adını bir kenara yazacağım. Sana hemen dostluk eli uzatamadığım için kusura bakma ama dünya tehlikeli bir yer ve ben ihtiyatlı olmayı öğrendim." />
+    <string id="JNb6l91E" text="Eğer zafer kazanmak istiyorsan, benim için savaşmayı düşünmelisin. Bir gün torunlarına benim komutam altında savaştığını söylersin." />
+    <string id="jr0XszmA" text="Adını duyduğumu söyleyemem ama tanıştığımıza memnun oldum." />
+    <string id="jrG4UPBr" text="{SETTLEMENT_NAME}'{.i} yağmalarken yaktığın her eve karşılık, bedeninin ayrı bir parçasını söküp koparacağım." />
+    <string id="JS5hKW6p" text="Ben savaşmak için savaşmayı sevenlerden değilim. Ancak yine de sözüne sadık güvenilir savaşçılara ihtiyacım var. Bana sadık olanlara ben de sadığımdır." />
+    <string id="jxduaTUc" text="Senden bahsedildiğini duydum - erkek gibi savaşmayı bilen bir kadın." />
+    <string id="k50ZjzZ7" text="{TOURNAMENT_TOWN}'{.de} düzenlenen turnuvadan beri karşılaşmamıştık. Belki bir dahaki sefere ikimizden birinin şansı yaver gider." />
+    <string id="K5Fvv504" text="Ben {CLAN_NAME} hanesinden {CONVERSATION_CHARACTER.LINK} {?PLAYER.GENDER}leydim{?}lordum{\?}, size hizmet etmekten onur duyarım." />
+    <string id="k6TABWrF" text="{SETTLEMENT_NAME}'{.de} köyümü yağmalarken ne kadar zalim davrandığını duyduk. Kiracılarımı korumak ve koruyamadığım takdirde intikamlarını almak benim görevim." />
+    <string id="kaEUZ8NA" text="Oğlum" />
+    <string id="kBcfMYzE" text="{TOURNAMENT_TOWN}'{.de} düzenlenen turnuvada sana karşı yarışmak bir onurdu." />
+    <string id="KC7PxI8c" text="Sen benim düşmanımsın, dolayısıyla tutsak kalmaya devam edeceksin." />
+    <string id="kil3bT75" text="Bilmen gereken bir şey var: Eğer beni kızdırırsan, pişman olursun." />
+    <string id="kkOYSCSz" text="Atıp tutmak kolay. Neler olacağını göreceğiz." />
+    <string id="KkWNSw9p" text="Adını duydum. Adamların yüreklerine korku salıyor. Bu iyi bir şey. Belki bir ara konuşmalıyız." />
+    <string id="KlQlzYdS" text="Eski dostları karşı karşıya getirmek kaderin bir cilvesi. Onun suyuna mı gidelim yoksa teslim olmak mı istersin?[ib:warrior][if:convo_nonchalant]" />
+    <string id="KMygMFj2" text="Seninle dövüşmek benim görevim." />
+    <string id="L2GbDVja" text="Ben {CLAN_NAME}'{.den} {CONVERSATION_CHARACTER.LINK} {?PLAYER.GENDER}leydim{?}lordum{\?}, size hizmet etmekten onur duyarım." />
+    <string id="l2nEIZV5" text="Ben {CLAN_NAME}'{.den} {CONVERSATION_CHARACTER.LINK}." />
+    <string id="L2PFxbD3" text="Pekala... Kısa bir süre önce güvenime ihanet ettin. Konuşacağımız bir şey var mı gerçekten?" />
+    <string id="L6FSmeIv" text="Çok seyahat ettiğini söylüyorlar. Sıkıntılarla dolu korkunç günler yaşıyoruz. Gördüklerin hakkında ne düşünüyorsun?" />
+    <string id="l9CJa1Do" text="Hayır. Bu benden istediğin şey için yeterli değil." />
+    <string id="LBb7YgXU" text="Kalradyalıların Meşru İmparatoru" />
+    <string id="LbpdzoRd" text="Ben {CLAN_NAME} hanesinden {CONVERSATION_CHARACTER.LINK}. Ailemiz İmparatorluğun ilk günlerinden beri Senato'da yer almış ve görevlerini onurlu bir şekilde yerine getirmiştir." />
+    <string id="lcPeNFTN" text="Tanıştığımıza sevindim." />
+    <string id="LEZKgNEm" text="Adını hiç duymadım. Savaşın ardında bıraktıklarıyla palazlanmak için bu topraklara gelen bir akbaba daha kuşkusuz." />
+    <string id="lI8rPjEd" text="Sen beni ne sanıyorsun? Komplocu mu? Her ne önereceksen, onurlu bir şey olsa iyi olur." />
+    <string id="LkVCTVMx" text="Benim için yaptıklarından dolayı teşekkür ederim. Sözünü tuttun. Bugünlerde herkes bu kadar güvenilir değil." />
+    <string id="LYUqmf6P" text="Seni dinleyeceğim. Onursuz bir şey önermeyeceğini farz ediyorum." />
+    <string id="mHP7PtrJ" text="Eh. İdare eder." />
+    <string id="Mlpy0SQo" text="Pes ediyorum! İyi dövüştün. Daha fazla kan dökülmesine gerek yok.[if:convo_thinking]" />
+    <string id="MSiuWF7V" text="Artık dayanamıyoruz! İsyan bayrağını çektik ve adil taleplerimiz karşılanana kadar halk düşmanlarıyla savaşacağız." />
+    <string id="mUa4sDgF" text="{SETTLEMENT_NAME}'{.de} köyümü yağmaladın. Şimdi sana olan borcumu ödeyeceğim." />
+    <string id="MUHdZHFw" text="Hakkında çok şey duydum. Dövüş becerilerinin en cesur adamlarımıza bile denk olduğunu söylüyorlar. Belki bir gün turnuvada veya savaş meydanında cesaretimi seninkine karşı sınarım!" />
+    <string id="MUuNmr6C" text="Bugün şans senden yana değil. Bizimle savaşabilirsin ama teslim olmanın da utanılacak bir tarafı yok.[ib:warrior][if:convo_thinking]" />
+    <string id="MzKWlFTv" text="Dövüşmek zorunda olmamız çok yazık. Teslim olmak ister misin?[ib:warrior][if:convo_stern]" />
+    <string id="N5pglyyU" text="İstediğin gibi olsun." />
+    <string id="NeUilOqh" text="Topraklarımız yabancılara açıktır. Orman geniş; herkese yetecek kadar av hayvanı ve yiyecek var. Ancak buraya bizi soymak, köleleştirmek veya vergiye bağlamak için gelenler de oluyor. Her bahar buzların erimesiyle o hırsızların cesetleri meydana çıkıyor." />
+    <string id="nJgp2MoR" text="Adını biliyorum - söylenenlere bakılırsa gözü yaşlı pek çok dul da biliyor. Ancak, bu beni ilgilendirmez." />
+    <string id="nLbQ8rpF" text="Teklifin gayet makul." />
+    <string id="NmlauVxB" text="Mm. Devam et." />
+    <string id="Nq2dyiO1" text="Ben {CLAN_NAME}'{.den} {CONVERSATION_CHARACTER.LINK}, Sturgiya destanlarında bu ismi çok sık duyarsın." />
+    <string id="nRnbBnFq" text="Öyle mi? Pekala... Sana minnettarım.[if:convo_relaxed_happy]" />
+    <string id="NW1n9k45" text="Kuzen" />
+    <string id="o2aKr8JD" text="Adını duydum." />
+    <string id="o4talwN5" text="O meseleyle ilgilenmeyi kabul ettiğin için tekrar teşekkürler." />
+    <string id="O8wTipT2" text="Teşekkür ederim. Sonunda yenildiğinde, ölümünün hızlı ve merhametli olmasını talep edeceğim. Eğer bize katılmak istemezsen elbette... Şimdilik hoşça kal.[if:convo_nonchalant]" />
+    <string id="ODa9Eikp" text="{VILLAGE_NAME}'{.e} düzenlenen baskın... Ne diyebilirim ki... yoksulların, efendilerinin hatalarının cezasını çektiğini söylerler." />
+    <string id="OgzAlCkk" text="Açtığın yaralar daha tam iyileşmedi." />
+    <string id="oIrz5050" text="Majesteleri" />
+    <string id="oW51mkNE" text="Bizimle savaşabilirsin ama adamlarının çoğu ölür ve muhtemelen yenilirsin. Teslim ol ki gereksiz yere kan dökülmesin.[ib:warrior][if:convo_stern]" />
+    <string id="oxMlxVqd" text="{SETTLEMENT_NAME}'{.de} köyümü yağmaladın. Bunun bedelini canınla ödeyeceksin!" />
+    <string id="oZnVxkp0" text="{VILLAGE_NAME}'{.de} olanlar... O şekilde masum köylülere saldırmak hoşuma gitmiyor. Keşke böyle şeylere gerek olmasaydı." />
+    <string id="PBgLvyOa" text="Ben {CLAN_NAME}'{.den} {CONVERSATION_CHARACTER.LINK}. Atalarımız kuzeyden gelip prenslerin paralarını alarak bu toprakları korumaya yemin edenler arasındaydı ve biz bu yemine sadık kaldık." />
+    <string id="pDN7Wafo" text="Kuzait Kağanı" />
+    <string id="PFgGnk7z" text="Benim sadakatime sahip olduğunu söylememe bile gerek yok." />
+    <string id="Pg8vccKF" text="Adını hiç duymadım. Bana fazla sorun çıkaracağını zannetmiyorum." />
+    <string id="pgIaAnBt" text="İlgilenmeni istediğim o sorun... İşler pek iyi gitmemiş duyduğum kadarıyla." />
+    <string id="PhTv43ve" text="Ah, evet. Nihayet tanışabildik. İyi birine benziyorsun. Ara sıra konuşalım." />
+    <string id="PKzNW9do" text="{SETTLEMENT_NAME}'{.de} köyümü yağmalarken yaptıkların zalimlikti. Savaş acımasızdır ama gereğinden daha acımasız hale getirme." />
+    <string id="pn79h0aj" text="Ben {CLAN_NAME}'{.den} {CONVERSATION_CHARACTER.LINK}. Unvanımızı İmparator Vortios'un kendisinden aldık. Gerçi bu konuda pek bir seçeneği yoktu, çünkü o sırada gemilerimizden birinde tutsaktı ama kanımızın ne kadar soylu olduğunu fark etmiştir eminim." />
+    <string id="pQkiu5qf" text="Bana tekrar ihanet etmen için sana başka bir görev daha vermemi mi istiyorsun?" />
+    <string id="PQZfXcU1" text="Adını duydum. İnsanlar kahramanlıklarından bahsediyor. Nihayet tanıştığımıza sevindim." />
+    <string id="pXULuzaq" text="Teslim oluyorum! Sen kazandın. Bu güne lanet olsun![if:convo_angry]" />
+    <string id="pZj9C1yA" text="Göklerin dileği yerine gelecektir. Ancak, yolu açanlar ödüllendirilecektir." />
+    <string id="q5nQGimE" text="Ben {CLAN_NAME} hanesinden {CONVERSATION_CHARACTER.LINK}. İnsan, soyuyla fazla gurur duymamalıdır ama İmparatorluğun sıradan halkını koruma görevimizi her zaman ciddiye aldığımızı gururla söyleyebilirim." />
+    <string id="qa2xUjcT" text="Adını duydum. Hakkında duyduklarım doğru değildir umarım." />
+    <string id="qB3wfM1f" text="Daha önce anlaşmaya varabildiğimiz için mutluyum." />
+    <string id="Qb4tlTEj" text="Ancak, bu kadar konuşmak yeter. Ya teslim ol ya da savaş![ib:warrior][if:convo_angry]" />
+    <string id="QhkM71ap" text="Sizinle tanışmak bir onur efendim." />
+    <string id="QpBmbygb" text="Bizi duymuş olabilirsiniz - bize Eleftheroi derler. Babalarımız hırsızlar, kaçaklar ve baş belalarıydı - bunu inkar etmiyoruz. Buraya geldik çünkü bizi başka hiçbir yerde istemediler. Ancak şunu söyleyebilirim ki İmparatorluk ayakta kalırsa, yataklarında rahat rahat uyuyanların sayesinde değil, bizim gibi açık meydanlarda kan ve ter dökenlerin sayesinde ayakta kalacak." />
+    <string id="qRW6JkXM" text="{SETTLEMENT_NAME} köyünü yağmalayan, mahsulleri ve hayvanları araklayan kişinin sen olduğunu duydum. Adamların açtı herhalde ama benim kiracılarım da aç. Geriye kalanlar için savaşalım mı?" />
+    <string id="qSF2z6Wa" text="Adını duymadım ama günün birinde kendine yer edinecek birine benziyorsun." />
+    <string id="qvwfev22" text="Seni köşeye sıkıştırdım. Teslim ol ya da öl.[ib:warrior][if:convo_aggressive]" />
+    <string id="R6sTYEaz" text="Bundan konuşarak kurtulamazsın." />
+    <string id="ra7YMN8S" text="Benim sadakatime sahipsin. Eğer birinin sana dil uzattığını duyarsam, onun dilini keserim." />
+    <string id="RajD4RC1" text="Adını hiç duymadım." />
+    <string id="rCNUXFTN" text="Teslim oluyorum! Zaferin için tebrikler.[if:convo_beaten]" />
+    <string id="reg1AUxr" text="Çocuğum" />
+    <string id="rhTUDKhJ" text="Ben {CLAN_NAME}'{.den} {CONVERSATION_CHARACTER.LINK}. Kahramanlarından birinin kafatasını kadeh koleksiyonumuza bağışlamamış tek bir Batanya klanı bile yoktur." />
+    <string id="rK2dayAa" text="Pekala. Bunu yapmaya hazırım." />
+    <string id="rndbZI9I" text="Yanlış anlama ama gözünü fazla yükseklere diktiğini söyleyenler çıkabilir. Ama diyelim ki yüksek bir konuma geldin. Ne yaparsın?" />
+    <string id="RNZ9LOxc" text="Dostum" />
+    <string id="rPrBa7gK" text="Kocam" />
+    <string id="Rs0aUNlQ" text="{VILLAGE_NAME} köylüleri bizi uzun süre unutmayacak." />
+    <string id="rUzbs0Zr" text="Kuzait Hatunu" />
+    <string id="ry1ycxNY" text="Keşke iş buraya varmasaydı." />
+    <string id="s1FVPS5D" text="Ben {CLAN_NAME} hanesinden {CONVERSATION_CHARACTER.LINK}. Ailemiz nesiller boyu İmparatorluğa hizmet etti." />
+    <string id="S1vGzr8z" text="Ben Aseray klanlarından biri olan {CLAN_NAME}'{.den} {CONVERSATION_CHARACTER.LINK}." />
+    <string id="s6xlGuTH" text="Müzakere koşullarını yerine getirirsen, ben de getiririm." />
+    <string id="sax2tF9L" text="Gerçekten onurlu birisiniz {?PLAYER.GENDER}hanımefendi{?}beyefendi{\?}. Bunu unutmayacağım.[if:convo_relaxed_happy]" />
+    <string id="sEfAuErj" text="Bazı insanlar senin iyi yerlere geleceğini söylüyor... Diyelim ki güçlü bir konum elde ettin. Ne yaparsın?" />
+    <string id="SJ3bpDxC" text="Sancağınızı tanımıyorum ama yüksek konumlu biri olduğunuz belli. Lütfen beni hürmetkar hizmetkarınız olarak görün." />
+    <string id="sJNrVlXa" text="Çok yer gezip gördüğünü duydum... Pekala... Bana biraz yolculuklarından bahset öyleyse." />
+    <string id="SSuL62NZ" text="{FIRST_NAME}'{.e} sadığım. Hiç kimse aksini söylemese iyi olur." />
+    <string id="sswCmQZ2" text="Bize Göl Sıçanları derler ama bataklıkların özgür halkı olarak tanınmayı tercih ederiz. Hiçbir prensin ya da boyarın karşısında başımızı eğmeyiz ve diz çökmeyiz. Bunu bildiğin sürece muhtemelen iyi geçiniriz." />
+    <string id="T0Cdfsx2" text="Müzakere talep ettin. Eğer herhangi bir hileye yeltenme dürtüsüne kapılırsan, doğru yoldan sapmaman için okçularımın hazırda beklediğini bilmelisin." />
+    <string id="t3FQbYU6" text="{TOURNAMENT_TOWN}'{.de} düzenlenen turnuvada elde ettiğin zafer... Böyle şeylerde şans da daima önemli bir rol oynar." />
+    <string id="t6sRVI5C" text="Karım" />
+    <string id="T8kAgaPd" text="Hayır - adamlarımı ölüme götürmediğimden emin olmak için bundan daha fazlasına ihtiyacım var." />
+    <string id="tA4wDLt2" text="Katiplerime ismini not etmelerini söyleyeceğim." />
+    <string id="te2DSMtg" text="Artık buna katlanmayacağız. Zalimlerin ve haklı gazabımızın karşısında duran herkesin kanını dökeceğiz." />
+    <string id="tOanKs9o" text="Ben {LIEGE_TITLE}." />
+    <string id="tRSD2C3k" text="Benim için üstlendiğin o görev. Çok iyi iş başardın." />
+    <string id="tUa5WBpp" text="Kalradyalıların Meşru İmparatoriçesi" />
+    <string id="TUwY7IKc" text="Pekala... Beni gerçekten fena benzettin. Bundan sonra konuşacak pek bir şeyimiz olduğunu sanmıyorum." />
+    <string id="TvqjhDaQ" text="Genç aslanım. Eğer ölüp gitmezsen, iyi yerlere gelecek birine benziyorsun." />
+    <string id="Tvy4UvJC" text="Vlandiya Kraliçesi" />
+    <string id="tXnSN2ey" text="Anlaşmaya varamayacağız sanırım." />
+    <string id="TzPC5L5X" text="İyi dövüşçülere kapım her zaman açıktır. Beni etrafta soruşturursan, adamlarıma iyi baktığımı söyleyeceklerdir." />
+    <string id="U4p70l9B" text="Ben {CLAN_NAME}'{.den} {CONVERSATION_CHARACTER.LINK}." />
+    <string id="u5b8UKaa" text="{VILLAGE_NAME}'{.e} düzenlenen baskın... Bence acımasızdı ama savaşı daha hızlı bitirmesini umalım." />
+    <string id="U770Bvy8" text="Ben {CLAN_NAME}'{.den} {CONVERSATION_CHARACTER.LINK}. Batanya şarkılarında adı bizim kadar sık geçen bir aile daha yoktur." />
+    <string id="U9u8Qeu4" text="Kurtpostluları duymuş olabilirsin yolcu. Biz vahşi hayvanlarız. Pişmiş et yemediğimiz, dokunmuş kumaş giymediğimiz ve çatı altında uyumadığımız sürece insanların kanunları bize işlemez. Bu yüzden bize karşı dikkatli ol." />
+    <string id="Ua0T0A7t" text="Ben Batanyalıların en eski soylarından biri olan {CLAN_NAME}'{.den} {CONVERSATION_CHARACTER.LINK}." />
+    <string id="UBtWqLDS" text="Adamlarının {SETTLEMENT_NAME}'{.nin} zavallı köylülerine baskın düzenlediğini duydum. Onların benim korumam altında olduğunu bilmelisin. Bir daha bir köye baskın düzenlediğinde, köyün sahibine yakalanmamaya çalış... " />
+    <string id="UehvSvLD" text="Sana verdiğim o iş... Beni hayal kırıklığına uğrattığını söyleyebilirim." />
+    <string id="ufa20b2l" text="Ben yeminine sadık kişilerle iş yaparım. Eğer sözüne değer vermeyen kişilerdensen, zamanımı boşa harcama." />
+    <string id="Ufn3916B" text="Adını duydum. İşte artık tanıştık. Konuşmayı pek sevmem, dolayısıyla bana söyleyeceğin bir şey varsa söyle." />
+    <string id="UyIuz9dt" text="{VILLAGE_NAME}'{.de} olanlar... Ne diyebilirim ki... savaş acımasızdır." />
+    <string id="v4nyY62z" text="Sturgiya Kraliçesi" />
+    <string id="VB5R2lAb" text="Pekala. Anlaşmaya vardık öyleyse." />
+    <string id="ve7pKxrc" text="{VILLAGE_NAME}'{.nin} köylüleri... Onların yerinde benim halkım da olabilirdi..." />
+    <string id="vN4spwD1" text="Eğer bana karşı gelirsen, çakallara yem olacağını bil." />
+    <string id="vNnMHR84" text="İtibarınızın hakkını veriyorsunuz {?PLAYER.GENDER}hanımefendi{?}beyefendi{\?}. Bunu unutmayacağım.[if:convo_relaxed_happy]" />
+    <string id="VOExVZtX" text="Üzgünüm. Kan dökmekten hoşlanmıyorum ama atına binip uzaklaşmana ve bir gün tekrar karşıma çıkmana göz yumamam." />
+    <string id="VUn8mQ5n" text="Yüce Batanya Kralı" />
+    <string id="w1BKhf5F" text="{VILLAGE_NAME}'{.de} yağmaladıkların benim mülklerimdi, dolayısıyla ben de senin kelleni alacağım ve yeniden inşa ettiğimiz ilk binanın tepesine dikeceğim." />
+    <string id="w6CzYbRH" text="Buradaki turnuvadan beri karşılaşmamıştık. Belki bir dahaki sefere ikimizden birinin şansı yaver gider." />
+    <string id="w7EY8rbd" text="Konuyu değiştirelim." />
+    <string id="WbAAkcbw" text="Sizinle tanışmak bir onurdur leydim." />
+    <string id="Wec8VlAQ" text="{TOURNAMENT_TOWN}'{.de} düzenlenen turnuvadaki galibiyetini kutlarım." />
+    <string id="WFwoWAic" text="Pes ediyorum! Pes ediyorum! Köpeklerini geri çek![if:convo_angry]" />
+    <string id="WH8P3Y5F" text="Ben {CLAN_NAME}'{.den} {CONVERSATION_CHARACTER.LINK}." />
+    <string id="wkZzavDk" text="Görünen o ki anlaşmaya varamadık ama ileride daha iyi bir teklifle gelirsen sana kulak veririm." />
+    <string id="WnxA6JQl" text="Tanıştığımıza memnun oldum. Benim en değer verdiğim şey insanların sözünü tutmasıdır, dolayısıyla bana karşı dürüst ol ki ben de sana karşı dürüst olayım." />
+    <string id="wrIYDx9V" text="Özgür müyüm? Pekala... Hoşça kal öyleyse.[if:convo_nonchalant]" />
+    <string id="Wt4iJPcd" text="Adını duydum! Nihayet tanıştığımıza çok sevindim." />
+    <string id="WVeS3Lsb" text="Dünya nimetlerinin değil, ilahi gerçeğin peşinden git." />
+    <string id="wWwoTzpG" text="Erkek kardeş" />
+    <string id="x3EZDo5k" text="{VILLAGE_NAME}'{.de} yaşayan kiracılarım gibi çaresiz köylülere saldırma alışkanlığın olduğunu duydum. Adamlarımın o kadar kolay lokma olmadığını göreceksin." />
+    <string id="xb5RGe0W" text="Benim adıma o küçük meseleyle ilgilenmeyi kabul ettiğin için tekrar teşekkürler. İyi şanslar." />
+    <string id="XBbdhx4M" text="Yardımların için tekrar teşekkür ederim." />
+    <string id="xH4KJEBP" text="Ona hizmet edeceğime yemin ettim. Söylenecek başka bir şey yok." />
+    <string id="xHjVl9gR" text="Adını duydum. Nihayet tanışabildik. İyi birine benziyorsun. Ara sıra konuşalım. İkimize de fayda sağlayacak ayarlamalar yapabiliriz." />
+    <string id="xJ1LJ3mH" text="İnsafına sığınıyoruz.[if:convo_beaten]" />
+    <string id="Xk2rNuxQ" text="Aseray Sultanı" />
+    <string id="Xl25HtPL" text="Adını bilmek güzel. Artık seni bir ziyafette görürsem nasıl selamlayacağımı ve eğer bir kalkan duvarında görürsem de kimi öldürdüğümü bileceğim." />
+    <string id="xsaOxeHV" text="Hakkında çok şey duydum. Bazı erkekler savaş sanatında ustalaşmış bir kadından korkabilir ama ben cesur ve sadık olduğu sürece, eli kılıç tutan hiç kimseye sırt çevirmem." />
+    <string id="xUOhJEJS" text="Tanıştığımıza memnun oldum. Cesarete, şanına ve şerefine değer veren savaşçılara kapım her zaman açıktır." />
+    <string id="Y8rYJaOa" text="Ben İmparatorluk tarihindeki en tanınmış ailelerden biri olan {CLAN_NAME} hanesinden {CONVERSATION_CHARACTER.LINK}. Öldürdüğümüz barbarlar ve kazandığımız zaferler konusunda hiç kimseden aşağı kalır yanımız yoktur." />
+    <string id="y9bafYom" text="O turnuvadaki galibiyetini kutlarım." />
+    <string id="YayEAKaI" text="Belki Jawwal'ı duymamışsındır. Başkalarının hor gördüğü topraklarda, vahalardan ve pınarlardan uzak, sadece keçilere ve develere uygun dikenlerle kaplı çölden geçerken bizim bölgemizdesindir." />
+    <string id="YDjLPgi3" text="Hım. Merakımı uyandırdın. Ne söyleyeceksin?" />
+    <string id="ygP56lXC" text="Gökler bizi uymamız ve başkalarının da uymasını sağlamamız gereken buyruklarla kutsadı." />
+    <string id="yRlINUML" text="Hah! Sana merhamet etmem için yalvaracaksın." />
+    <string id="yUkG588C" text="Güzel. Anlaşabildiğimize sevindim." />
+    <string id="YWOSDu1W" text="Yeter! Bir başka gün savaşmak için hayatta kalmayı seçiyorum. Savaş geleneklerine saygı göstereceğine ve adil bir fidye ödememe izin vereceğine inanıyorum.[if:convo_thinking]" />
+    <string id="z1s1qOma" text="Sanırım ne dediğini anladım. Onurum bunu aklımdan geçirmeme bile izin vermez." />
+    <string id="z2yr4mc6" text="Ben {CLAN_NAME}'{.den} {CONVERSATION_CHARACTER.LINK}. Klanımız Kuzait Kağanlığı'na nesiller boyunca sadakatle hizmet etmiştir." />
+    <string id="Z3E8MDaB" text="{SETTLEMENT_NAME}'{.de} köyüme saldırdın. Eğer ben senin köyünü ziyaret etseydim, benim adamlarım da biraz eğlenirdi kuşkusuz. Ne var ki kiracılarımın koruyucusu olarak, onların intikamını almak benim görevim. Lütfen üzerine alınma." />
+    <string id="ZH04pkV6" text="Sturgiya Kralı" />
+    <string id="ZlA0uc8z" text="O sorunumla ilgilenmeyi kabul ettiğin için tekrar teşekkürler. İyi şanslar." />
+    <string id="zPbQs8Zt" text="Sana savaşta şanlı bir ölüm ya da zindanlarımın misafirperverliğini teklif edebilirim.[ib:warrior][if:convo_mocking_teasing]" />
+    <string id="zwRbpQJ0" text="Adını duydum! Böyle tanışmamız yazık oldu." />
+    <string id="zZ9FQJRI" text="Ben Aseray soylarının en eskisi ve soylusu olan {CLAN_NAME}'{.den} {CONVERSATION_CHARACTER.LINK}." />
+  </strings>
+</base>

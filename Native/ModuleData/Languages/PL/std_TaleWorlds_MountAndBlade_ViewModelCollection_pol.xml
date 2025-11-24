@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Polski" />
+  </tags>
+  <strings>
+    <string id="0Itt3bZM" text="Aktualna wersja dokumentu przypisania klawiszy jest przestarzała. Przypisanie zostało przywrócone do wartości domyślnych." />
+    <string id="1hlaGzGI" text="Patrz" />
+    <string id="1hnq3Kb1" text="Czy na pewno chcesz zresetować wszystkie ustawienia? Zmiany zostaną utracone." />
+    <string id="2AGvFYk9" text="Aby rozpocząć misję, musisz mieć co najmniej jedną formację {FORMATION_CLASS}{.g}." />
+    <string id="4gCU2ykB" text="Przywróć domyślne funkcje przycisków" />
+    <string id="5Ixsvn3s" text="Włącz/wyłącz tablicę wyników" />
+    <string id="61isYVW0" text="Nie znaleziono gracza {USER_NAME}" />
+    <string id="6syoutpV" text="Od: {WHISPER_TARGET}" />
+    <string id="74PKmRWJ" text="Obróć włosy" />
+    <string id="76VR5o8h" text="Musisz odczekać {SECONDS} sek. przed wysłaniem kolejnej wiadomości." />
+    <string id="7jhe9cT9" text="Musisz posiadać co najmniej jedną formację tego typu więcej, by zmienić typ tej formacji." />
+    <string id="7XtICVeZ" text="Pole widzenia" />
+    <string id="82LuSDnd" text="Szybki ruch kursora w lewo" />
+    <string id="9pCzjSTa" text="{PERCENTAGE}% żołnierzy tego typu" />
+    <string id="ADKHovtz" text="Resetuj rozmieszczenie" />
+    <string id="atUHbDeM" text="Obracanie kamery na mapie" />
+    <string id="b1DHZsaH" text="Nie można teraz wydawać rozkazów." />
+    <string id="bIcFZT6L" text="Rodzaj brwi" />
+    <string id="bLPSaLNv" text="Szybki ruch kursora w prawo" />
+    <string id="bsiRNJtk" text="{NAME}:" />
+    <string id="CCBcdzGa" text="To spowoduje przywrócenie WSZYSTKICH opcji tej kategorii do wartości domyślnych. Tej akcji nie można cofnąć. {newline} {newline}Na pewno chcesz to zrobić?" />
+    <string id="cDzWYQrz" text="Przywrócić ustawienia domyślne?" />
+    <string id="cLJdeUWz" text="Wzrost:" />
+    <string id="D0TbQm4r" text="WYŁOM" />
+    <string id="d1tCz15N" text="Przytrzymaj, by upuścić" />
+    <string id="d5SNB0HV" text="Podnieś {._}{ITEM_NAME}{.a}" />
+    <string id="Dhb2N5JD" text="Naciśnij {KEY}, by przełączyć kanał" />
+    <string id="DmaP2qaR" text="Typ skóry" />
+    <string id="DQvGNQ0g" text="Nie ma oddziału, którym można by dowodzić." />
+    <string id="DvnRkWQg" text="Przenieś żołnierzy do: {FORMATION_INDEX}" />
+    <string id="eeJcVeQG" text="{.MI}Koniec{.nn} skupienia" />
+    <string id="eGuQKRhb" text="Opuszczasz obszar gry!" />
+    <string id="EUAKPHek" text="Budowa:" />
+    <string id="f64QfbTO" text="Naciśnij {KEY}, aby wysłać" />
+    <string id="FRSGOfUJ" text="Wł./wył. dziennik bitewny" />
+    <string id="FTXx0aRp" text="Graj jako" />
+    <string id="G6hYIR5k" text="Barwa głosu:" />
+    <string id="gamepadActionKeybind" text="Akcja" />
+    <string id="gamepadMapKeybind" text="{.F}Mapa" />
+    <string id="gamevideo" text="Grafika" />
+    <string id="GMhOZGnb" text="Nie możesz wydawać rozkazów, gdy nie żyjesz." />
+    <string id="hdGay8xc" text="Ruch kursora na mapie" />
+    <string id="HEEZhL90" text="Wciśnij, by dodać do wyposażenia" />
+    <string id="hiKTvBgF" text="Czy na pewno chcesz zresetować wprowadzone w tej zakładce zmiany? Zostaną wtedy utracone." />
+    <string id="i28Kjuay" text="Porusz postać" />
+    <string id="i4Oo6aoM" text="Pobieranie zawartości..." />
+    <string id="j5pLIV91" text="{.MI}Początek{.nn} skupienia" />
+    <string id="J9V9YhkY" text="Kapitan jedzie wierzchem!" />
+    <string id="jS5rrX8M" text="Nie ma zmian do zastosowania." />
+    <string id="l2CNxPXG" text="Rodzaj uzębienia" />
+    <string id="lCZMJt2k" text="Zmieniono ustawienia grafiki" />
+    <string id="LlrlE199" text="Nadal możesz wysyłać machiny oblężnicze.{newline}Rozpocząć mimo to?" />
+    <string id="macpKFaG" text="Głos" />
+    <string id="meFS5F4V" text="-{DAMAGE}" />
+    <string id="mPCrz4rs" text="Zablokuj strukturę formacji." />
+    <string id="nEpZvaEl" text="Szybki ruch kursora w dół" />
+    <string id="ngyMTaqr" text="Przydziel jako żołnierza-bohatera" />
+    <string id="Npqlj5Ln" text="Cofnij zmiany" />
+    <string id="NuMQvQxg" text="{.MI}Okrzyk{.nnp}" />
+    <string id="ou5KJERr" text="Naciśnij {KEY}, aby się ukryć" />
+    <string id="oZc8oEAP" text="Zresetuj kategorię do wartości domyślnych" />
+    <string id="peUP9ZZj" text="Na pewno? Dokonane przez ciebie zmiany nie zostaną zapisane." />
+    <string id="photomodefocus" text="{.N}Skupienie" />
+    <string id="pK4EyTZC" text="Czy chcesz zachować te ustawienia?" />
+    <string id="qmNeO8FG" text="{.F}Funkcja{.nnp} przycisków" />
+    <string id="qXxpITdc" text="Kolor oczu:" />
+    <string id="RVIKFCno" text="Przywróć domyślne" />
+    <string id="rx18kyZb" text="Dziennik bitewny" />
+    <string id="Sbb8YcJM" text="Usuń wybór wszystkich wybranych bohaterów" />
+    <string id="scnSXrYC" text="{.MP}Chorąży{.nnp}" />
+    <string id="SfsnlbyK" text="Zmiany zostały zastosowane." />
+    <string id="SLY8z9fP" text="Wszystkie formacje są wybrane!" />
+    <string id="SQpGQzTI" text="{.MI}Kontroler" />
+    <string id="suyl7WWa" text="Brak sztandaru w użyciu" />
+    <string id="trPyg7mr" text="Morale w bitwie" />
+    <string id="TxphX8Uk" text="Rozmieszczenie" />
+    <string id="U1rHNqOk" text="Naciśnij {KEY}, aby anulować" />
+    <string id="u78WUP9W" text="Szybki ruch kursora w górę" />
+    <string id="ufjypmaX" text="Kapitan nie jedzie wierzchem!" />
+    <string id="VyMD4iRV" text="Żołnierze bohaterowie" />
+    <string id="YjbNtFcw" text="To spowoduje przywrócenie domyślnych funkcji WSZYSTKICH przycisków. {newline} {newline}Na pewno?" />
+    <string id="YwbymaBc" text="Wybierz wszystkich bohaterów" />
+    <string id="zBld61ck" text="Waga:" />
+    <string id="zjcZZgUY" text="{.MI}Efekt{.nn} sztandaru" />
+  </strings>
+</base>

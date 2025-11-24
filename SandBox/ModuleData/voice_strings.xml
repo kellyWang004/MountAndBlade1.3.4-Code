@@ -1,0 +1,2425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<!--
+  The voiced lines are divided into 12 voicegroups. This is down from 32, to make things manageable. There may, however, be 32 different voices
+  There are four personas (curt, earnest, ironic, and softspoken) and three social registers (upper, lower, and tribal.)
+  
+  Each voice group is divided into two, male and female, except tribal, which also has two subdivisions = eastern and northern
+  
+  ACCENTS:
+  "Western_upper" - Used in the Empire and Vlandia, an upper class British accent, as one frequently finds in historical films
+  "Western_lower" - Used in the Empire and Vlandia, a working class British accent, as one frequently finds in historical films
+  "Northern" - Used in Sturgia and Battania, a Scandinavian accent, as close to old Norse as we can
+  "Eastern" - Used by the Aserai and the Khuzaits. For the sake of having a single model, let's base it on a Syrian/Iraqi Arabic accent, but I doubt many will notice if it varies from that a bit.		n
+  
+  
+  We are using 32 voices to represent everyone in the game world - lords, peasants, robbers, stiff stoics, warm matriarchs, sinister plotters, gallant young knights. So, it's important that each voice can be used somewhat modularly.
+  The lines should not be written for individual characters, thus, but a range of characters. The same set of lines may include phrases that would probably be never used by the same character - ie, depending on the values of the NPCs, they may gloat over the imminent defeat of an enemy express sadness at the tragedy of war; depending on the context they may be boastful or UnderCommand.
+  
+  
+  There are four basic voice types, might be used for simpler more unified system.
+  
+  
+  Agreeable means the tone of the voice conveys a desire to avoid conflict
+  The words might however invite conflict - ie, a threat conveyed in a softspoken, matter-of-fact voice
+  Not agreeable suggests that the tone, while not combatative, has no desire to avoid conflict
+  
+  
+  
+  
+  Earnest - extrovert, agreeable - These characters present themselves or herself enthusiastically. They are friendly, perhaps overfriendly. Enthusiastic, can be bombastic or boastful. An upperwest_male_earnest could be a gallant knight, or a Colonel Blimp type, depending on how he chooses his words. Some, males in particular, may choose only to be agreeable to social equals and superiors. In women from traditional cultures, this is usually someone acting maternal
+  
+  
+  Ironic - extrovert, not agreeable - Likes to talk, but can enjoy being provocative, abrasive, or offensive. Voice suggests that the character is always on the edge of cracking a quip.
+  Marc Anthony in "Rome"
+  Wellington in "Napoleon"
+  
+  Softspoken - introvert, agreeable - Calm, friendly, does not use too many words. Can be friendly, shy, or sinister. In women, represents someone coming across as shy and maidenlike. In commoners, comes across as UnderCommand
+  
+  
+  curt - introvert, not agreeable - Gruff. Words may be nice, but the voice usually suggests disinterest in other people. Suggests the person is easily angered. Male aristocrats, having their own natural authority, can get away with being unexpressive. curt women and commoners often give the impression of being on the edge of an angry outburst.
+  Hind, wife of Sufyan
+  Stoic (?)
+  Main centurion in Rome
+  
+  
+  
+  (Unreliable/Unctuous/Ingratiating - can be function of the other voices)
+  
+  Accents might be restricted to British upper class, British working class, Mideastern, northern
+  
+  4 accents * 4 personalities * 2 Male/Female = 32 voices
+  
+  first_meeting (common variations - in tavern)
+  first_meeting_wary
+  first_meeting_attacking (common variations - attacking)
+  
+  metbefore (common variations - impolite)
+  friends
+  dislike (common variations - dislike nasty, dislike threatening)
+  under_command (common variations - chivalrous)
+  flirting_with_male
+  flirting_with_female
+  
+  attacking (common variations - attacking_gloating) -->
+	<!--DEFAULT WITHOUT VOICE TYPES -->
+	<!--I need to add defaults since there is no proper context line for some voice types. You can remove these after add all strings for each voice type. - Ceren. Keeping the defaults is fine, as they'll alert us if for any reason we forget a voice type. Steve-->
+	<string
+		id="str_context_line.first_meeting"
+		text="{=!}Yes? Do I know you? (Default - should not appear)">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+			<tag
+				tag_name="FirstMeetingTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.met_before"
+		text="{=!}{STR_SALUTATION}... It's been a while. (Default - should not appear)">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+			<tag
+				tag_name="MetBeforeTag" />
+		</tags>
+	</string>
+	<!-- CURT UPPER CLASS -->
+	<string
+		id="str_context_line.first_meeting_cu"
+		text="{=B05S6Fw4}Who are you, and what do you want?">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_wary_cu"
+		text="{=IU3KjVbT}That's close enough. Who are you?">
+		<!-- irritable fills in for watchful -->
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="WaryTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_under_command_cu"
+		text="{=pbQjBNT3}{STR_SALUTATION}... May I introduce myself...">
+		<tags>
+			<tag
+				tag_name="UnderCommandTag"
+				weight="15" />
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_attacking_cu"
+		text="{=a67lBQad}Who are you? Answer quickly, before I give the order to attack.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="AttackingTag"
+				weight="+4" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.metbefore_cu"
+		text="{=q3WvWFD1}{STR_SALUTATION}. It's been a while.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtUpperTag" />
+		</tags>
+	</string>
+	<!-- Also friendly-->
+	<string
+		id="str_context_line.friends_cu"
+		text="{=y41EYSBI}{STR_SALUTATION}. It's good to see you.">
+		<tags>
+			<tag
+				tag_name="FriendlyRelationshipTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.under_command_cu"
+		text="{=KnJoVOEk}{STR_SALUTATION}... I'm at your command.">
+		<tags>
+			<tag
+				tag_name="UnderCommandTag"
+				weight="+2" />
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.under_command_notable_cu"
+		text="{=9emUaMsx}{STR_SALUTATION}... I'm at your service.">
+		<tags>
+			<tag
+				tag_name="UnderCommandTag"
+				weight="+2" />
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="AnyNotableTypeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.flirtatious_cu"
+		text="{=nOMhLR63}{STR_SALUTATION}... You are lovely as ever.">
+		<tags>
+			<tag
+				tag_name="RomanticallyInvolvedTag"
+				weight="+5" />
+			<tag
+				tag_name="PlayerIsFemaleTag"
+				weight="+1" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.flirtatious_female_cu"
+		text="{=qSVbfakb}{STR_SALUTATION}... Such a delight to see you.">
+		<tags>
+			<tag
+				tag_name="RomanticallyInvolvedTag"
+				weight="+5" />
+			<tag
+				tag_name="PlayerIsMaleTag"
+				weight="1" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.impolite_cu"
+		text="{=lvScVM9T}Please be brief. I am pressed for time.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="ImpoliteTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.dislike_cu"
+		text="{=A3eeOUZH}You know what I think of you. This better be important.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.dislike_nasty_cu"
+		text="{=YubrUiab}{STR_SALUTATION}... You still live, I see. Pity.">
+		<tags>
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.dislike_threatening_cu"
+		text="{=SCGyic5H}{STR_SALUTATION}... Try my patience, and you'll regret it.">
+		<tags>
+			<tag
+				tag_name="ImpoliteTag" />
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="FriendlyRelationshipTag"
+				weight="-1" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.old_friends_fighting_cu"
+		text="{=8kCCsahd}{STR_SALUTATION}... I know your tricks, and you know mine. So, fight or parley, let's just get to it...">
+		<tags>
+			<tag
+				tag_name="CombatantTag" />
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+			<tag
+				tag_name="FriendlyRelationshipTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_cu"
+		text="{=xtCrabo9}Don't know you. Want to tell me your name, before we fight?">
+		<tags>
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_firstmeeting_cu"
+		text="{=U2Kr8vTy}I've caught you. Don't try any tricks. Anything to say?">
+		<tags>
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_friends_cu"
+		text="{=dHxX40H0}Well. So I guess you and me are fighting. That's how fate goes. Anything to say?">
+		<tags>
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="FriendlyRelationshipTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_v1_gloat_cu"
+		text="{=d6LHL0Fj}Looks like you're caught, and I'm glad I'm the one who caught you.">
+		<tags>
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtUpperTag" />
+		</tags>
+	</string>
+	<!-- IRONIC UPPER CLASS. -->
+	<string
+		id="str_context_line.first_meeting_iu_default"
+		text="{=zfWpSLfd}Well... And who do we have here? Would you care to tell me your good name?">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_under_command_iu"
+		text="{=imbZKZIZ}{STR_SALUTATION}... It is my great honor to introduce myself to you.">
+		<tags>
+			<tag
+				tag_name="UnderCommandTag"
+				weight="15" />
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_wary_iu"
+		text="{=p1CHHIFb}Forgive me for what may seem an abundance of caution, but please keep your distance. Just beyond sword-length is fine. So, who might you be?">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="AttackingTag"
+				weight="-1" />
+			<tag
+				tag_name="WaryTag" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_v1_weary_iu"
+		text="{=CdHlFmue}Tell me your name. Forgive me if I have met you before and do not remember the occasion, for I have seen many warriors come to this land and pass swiftly into shallow graves.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="AttackingTag"
+				weight="-1" />
+			<tag
+				tag_name="OldTag" />
+			<tag
+				tag_name="GenerosityTag"
+				weight="+1" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicUpperTag" />
+		</tags>
+	</string>
+	<!-- VOICE: ironic upperwest male: First meeting, attacking-->
+	<string
+		id="str_context_line.attacking_unmet_iu"
+		text="{=tJVlv0TN}Since you're not going anywhere, we might as well have a little chat. Perhaps you'd like to introduce yourself?">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="AttackingTag"
+				weight="+4" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_unmet_v1_cruel_iu"
+		text="{=03Q47XnC}Well now. I always like to know a bit about people before I kill them. Do you care to tell me your good name?">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="AttackingTag"
+				weight="+4" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicUpperTag" />
+		</tags>
+	</string>
+	<!-- IRONIC UPPERCLASS MALE: Met before, not attacking, min score 3-->
+	<string
+		id="str_context_line.metbefore_iu"
+		text="{=gMyAYyEX}{STR_SALUTATION}... It's been a while.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="AttackingTag"
+				weight="-1" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.metbefore_v1_impolite_iu"
+		text="{=F1KEe2XG}Please be brief. I am pressed for time.">
+		<tags>
+			<tag
+				tag_name="ImpoliteTag" />
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="AttackingTag"
+				weight="-1" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.dislike_iu"
+		text="{=AoBIFXZH}{STR_SALUTATION}... Well, well. I am most curious to hear whatever it is you have to say.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="AttackingTag"
+				weight="-1" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.friendly_iu"
+		text="{=lK32NXY8}I trust you have been keeping well, doing honor to your name and cutting bloody swathes through your enemies.">
+		<!-- change as is northern -->
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="AttackingTag"
+				weight="-1" />
+			<tag
+				tag_name="FriendlyRelationshipTag" />
+			<tag
+				tag_name="AmoralTag"
+				weight="+1" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicUpperTag" />
+		</tags>
+	</string>
+	<!-- voice ironic upperwest male: Met before, prior relationship or command-->
+	<string
+		id="str_context_line.flirtatious_to_female_iu"
+		text="{=TmQpdK7M}{STR_SALUTATION}... Your beauty is a balm to my troubles.">
+		<tags>
+			<tag
+				tag_name="RomanticallyInvolvedTag"
+				weight="+5" />
+			<tag
+				tag_name="AttackingTag"
+				weight="-1" />
+			<tag
+				tag_name="PlayerIsFemaleTag"
+				weight="+1" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.flirtatious_to_male_iu"
+		text="{=KJsVOyUE}{STR_SALUTATION}... Such a delight to see you.">
+		<tags>
+			<tag
+				tag_name="RomanticallyInvolvedTag"
+				weight="+5" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicUpperTag" />
+		</tags>
+	</string>
+	<!-- voice ironic upperwest male: under command tags -->
+	<string
+		id="str_context_line.under_command_iu"
+		text="{=j6p0K0s6}{STR_SALUTATION}. I'm yours to command.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="UnderCommandTag"
+				weight="+4" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.under_command_notable_iu"
+		text="{=9emUaMsx}{STR_SALUTATION}... I'm at your service.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="UnderCommandTag" />
+			<tag
+				tag_name="AnyNotableTypeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.under_command_v1_flowery_iu"
+		text="{=UW9Pexaq}{STR_SALUTATION}. I'm yours to command. Allow me to inscribe your command in the pages of history in letters of blood. Or whatever else you may need...">
+		<!-- change as is northern -->
+		<tags>
+			<tag
+				tag_name="UnderCommandTag"
+				weight="+4" />
+			<tag
+				tag_name="AmoralTag"
+				weight="+1" />
+			<tag
+				tag_name="AnyNotableTypeTag"
+				weight="-1" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicUpperTag" />
+		</tags>
+	</string>
+	<!-- voice ironic upperwest male: enemy/attacking tags -->
+	<string
+		id="str_context_line.old_friends_fighting_iu"
+		text="{=uLkQmlad}{STR_SALUTATION}... Fate clearly loves to watch old friends fight... Still, don't think I won't do my duty.">
+		<tags>
+			<tag
+				tag_name="CombatantTag" />
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+			<tag
+				tag_name="FriendlyRelationshipTag" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_default_iu"
+		text="{=5C1seeEM}Halt! Do you have anything to say, before I give the order to attack?">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="AttackingTag"
+				weight="+2" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_v1_gloat_iu"
+		text="{=wIXmtKa5}What a pleasant surprise! I believe I'm going to enjoy this. Do you have anything to say, before I give the order to attack?">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="HostileRelationshipTag"
+				weight="+1" />
+			<tag
+				tag_name="AmoralTag"
+				weight="+1" />
+			<tag
+				tag_name="AttackingTag"
+				weight="+4" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicUpperTag" />
+		</tags>
+	</string>
+	<!-- EARNEST UPPER CLASS-->
+	<string
+		id="str_context_line.first_meeting_earnest_eu"
+		text="{=k8gI5Ix3}Your pardon - I did not catch your name.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_wary_eu"
+		text="{=AYeRBAxA}Now then. Come no closer. Forgive me, but one cannot be too cautious. I would ask you for your name.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="WaryTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_under_command_eu"
+		text="{=1VBiVUBz}{STR_SALUTATION}... Allow me to introduce myself.">
+		<tags>
+			<tag
+				tag_name="UnderCommandTag"
+				weight="15" />
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_unmet_eu"
+		text="{=h6g4OQqT}Halt right there. Now then... Tell me your name, before we cross swords.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="AttackingTag"
+				weight="+4" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_unmet_v1_kind_eu"
+		text="{=l0Bmbgqg}Come no closer. Before we come to blows, I would ask you your name.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="AttackingTag"
+				weight="+3" />
+			<tag
+				tag_name="MercyTag"
+				weight="1" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_unmet_v2_honorable_eu"
+		text="{=SdXCOffd}Respect the terms of the parley, and I will do likewise. Now, who are you?">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="AttackingTag"
+				weight="+4" />
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.metbefore_eu"
+		text="{=gMyAYyEX}{STR_SALUTATION}... It's been a while.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.metbefore_v1_impolite_eu"
+		text="{=F1KEe2XG}Please be brief. I am pressed for time.">
+		<tags>
+			<tag
+				tag_name="ImpoliteTag" />
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.friendly_eu"
+		text="{=xAaxpdb3}{STR_SALUTATION}... It's very, very good to see you.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="FriendlyRelationshipTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.dislike_nasty_eu"
+		text="{=ZRUCzgxQ}{STR_SALUTATION}... Unless you have something worthwhile to say, go pour your poison into someone else's ear.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="UncharitableTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.dislike_honorable_eu"
+		text="{=3bW5jWJ1}{STR_SALUTATION}... However much one may show oneself unworthy of trust, one should always have another chance to make amends. In this spirit, I shall listen to whatever you have to say.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="ChivalrousTag" />
+			<tag
+				tag_name="AmoralTag"
+				weight="-1" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.dislike_eu"
+		text="{=XmwqrCLY}{STR_SALUTATION}... You know, puffed-up bandits such as yourself always get what they deserve, in the end.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="UncharitableTag" />
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.under_command_eu"
+		text="{=9emUaMsx}{STR_SALUTATION}... I'm at your service.">
+		<tags>
+			<tag
+				tag_name="UnderCommandTag" />
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.under_command_chivalrous_eu"
+		text="{=5RpfV389}{STR_SALUTATION}... My sword is yours to command.">
+		<tags>
+			<tag
+				tag_name="UnderCommandTag" />
+			<tag
+				tag_name="CombatantTag" />
+			<tag
+				tag_name="ChivalrousTag" />
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="AnyNotableTypeTag"
+				weight="-1" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.flirtatious_to_female_eu"
+		text="{=nESnaBbx}My lady... You are lovely as ever.">
+		<tags>
+			<tag
+				tag_name="RomanticallyInvolvedTag"
+				weight="+5" />
+			<tag
+				tag_name="PlayerIsFemaleTag"
+				weight="+1" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.flirtatious_to_male_eu"
+		text="{=2V0eF42T}{STR_SALUTATION}... So good to see you. It's been too long.">
+		<tags>
+			<tag
+				tag_name="RomanticallyInvolvedTag"
+				weight="+5" />
+			<tag
+				tag_name="PlayerIsMaleTag"
+				weight="1" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.old_friends_fighting_eu"
+		text="{=PihQGbui}{STR_SALUTATION}... I take no joy in fighting you, but believe me I will do it if I need to.">
+		<tags>
+			<tag
+				tag_name="CombatantTag" />
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+			<tag
+				tag_name="FriendlyRelationshipTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_eu"
+		text="{=laroTh3e}Do you have anything to say, before I give the order to attack?">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_gloat_eu"
+		text="{=n5Va4JVo}Ah, good. Justice seems to have appointed me her executioner today. Are you partial to the sword, or the noose?">
+		<tags>
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="UncharitableTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_gloat_v2_eu"
+		text="{=nzSUfX5b}Prepare to reap a villain's reward, villain!">
+		<tags>
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestUpperTag" />
+		</tags>
+	</string>
+	<!-- SOFTSPOKEN UPPER -->
+	<string
+		id="str_context_line.first_meeting_su"
+		text="{=vvkBHcAL}I don't know you. I suppose you should tell me your name.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_wary_su"
+		text="{=axO6JCWt}If you please... Stop there. I would ask you for your name.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="WaryTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_under_command_su"
+		text="{=1VBiVUBz}{STR_SALUTATION}... Allow me to introduce myself.">
+		<tags>
+			<tag
+				tag_name="UnderCommandTag"
+				weight="15" />
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_wary_v1_su"
+		text="{=pf3LDFVp}Leave your sword in its scabbard for a moment longer, stranger. Who might you be?">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_unmet_su"
+		text="{=l03Kxell}Halt... Before we fight, I would know your name.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="AttackingTag"
+				weight="+3" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_unmet_cruel_su"
+		text="{=Ny7o14yZ}Tell me your name. I always prefer to know whom I slay.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="AttackingTag"
+				weight="+3" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.default_su"
+		text="{=gMyAYyEX}{STR_SALUTATION}... It's been a while.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.under_command_su"
+		text="{=aCFQOGye}{STR_SALUTATION}... I await your orders.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="UnderCommandTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.under_command_notable_su"
+		text="{=9emUaMsx}{STR_SALUTATION}... I'm at your service.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="UnderCommandTag" />
+			<tag
+				tag_name="AnyNotableTypeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.warm_su"
+		text="{=PiaaXapn}{STR_SALUTATION}... It's very good to see you.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.flirtatious_su"
+		text="{=nOMhLR63}{STR_SALUTATION}... You are lovely as ever.">
+		<tags>
+			<tag
+				tag_name="RomanticallyInvolvedTag"
+				weight="+5" />
+			<tag
+				tag_name="PlayerIsFemaleTag"
+				weight="1" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.flirtatious_su_2"
+		text="{=KJsVOyUE}{STR_SALUTATION}... Such a delight to see you.">
+		<tags>
+			<tag
+				tag_name="RomanticallyInvolvedTag"
+				weight="+5" />
+			<tag
+				tag_name="PlayerIsMaleTag"
+				weight="1" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.impolite_su"
+		text="{=jljaKTRo}{STR_SALUTATION}... I am a bit pressed for time right now. What is it?">
+		<tags>
+			<tag
+				tag_name="ImpoliteTag" />
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.dislike_su_su"
+		text="{=wzhYA3XN}{STR_SALUTATION}... I don't know what we have to say to each other.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.dislike_v2_su"
+		text="{=g9Gav4yj}{STR_SALUTATION}... So... A serpent has come to hiss in my ear.">
+		<tags>
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenUpperTag" />
+			<tag
+				tag_name="UncharitableTag" />
+			<tag
+				tag_name="AmoralTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.old_friends_fighting_su"
+		text="{=G0qCtfK2}{STR_SALUTATION}... Such a pity we meet like this.">
+		<tags>
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+			<tag
+				tag_name="FriendlyRelationshipTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_su"
+		text="{=cXQm4Wba}Halt... If you respect the terms of the parley, I will listen.">
+		<tags>
+			<tag
+				tag_name="AttackingTag"
+				weight="+3" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenUpperTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_gloat_v1_su"
+		text="{=YJvvaeDq}{STR_SALUTATION}... You'd best pray to the Heavens for mercy, because I intend to show none to you.">
+		<tags>
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="UncharitableTag" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenUpperTag" />
+		</tags>
+	</string>
+	<!-- CURT LOWER CLASS-->
+	<string
+		id="str_context_line.first_meeting_default_cl"
+		text="{=ay0tHozl}Aye? So who're you, then?">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_attracted_male_cl"
+		text="{=RNfnK0Vv}Em.... Greetings, my lady. I do not believe that we've met.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtLowerTag" />
+			<tag
+				tag_name="AttractedToPlayerTag"
+				weight="1" />
+			<tag
+				tag_name="PlayerIsFemaleTag"
+				weight="1" />
+			<tag
+				tag_name="AttackingTag"
+				weight="-1" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_wary_cl"
+		text="{=mkFfE4Pm}That's close enough, now. Who are you?">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="WaryTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_under_command_cl"
+		text="{=2Uuwrvmw}{STR_SALUTATION}... Let me introduce myself.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="UnderCommandTag"
+				weight="15" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_tavern_cl"
+		text="{=97bAooa5}God.. Wine here tastes like piss. Right... So who're you?">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtLowerTag" />
+			<tag
+				tag_name="UncharitableTag" />
+			<tag
+				tag_name="DrinkingInTavernTag"
+				weight="+3" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_gang_leader_cl"
+		text="{=aZeMzNXf}Yeah? You want something from me? Who're you?">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtLowerTag" />
+			<tag
+				tag_name="GangLeaderNotableTypeTag" />
+			<tag
+				tag_name="InHomeSettlementTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_unmet_cl"
+		text="{=Kp0Mc35d}Halt. Who're you?">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="AttackingTag"
+				weight="+4" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_unmet_cruel_cl"
+		text="{=7dqD89gR}Stop there. You can tell me who you are, or save your breath for what comes next.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="AttackingTag"
+				weight="+4" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.default_cl"
+		text="{=q3WvWFD1}{STR_SALUTATION}. It's been a while.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtLowerTag" />
+		</tags>
+	</string>
+	<!-- Also friendly-->
+	<string
+		id="str_context_line.friendly_cl"
+		text="{=y41EYSBI}{STR_SALUTATION}. It's good to see you.">
+		<tags>
+			<tag
+				tag_name="FriendlyRelationshipTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.under_command_cl"
+		text="{=KnJoVOEk}{STR_SALUTATION}... I'm at your command.">
+		<tags>
+			<tag
+				tag_name="UnderCommandTag"
+				weight="+2" />
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.under_command_notable_cl"
+		text="{=9emUaMsx}{STR_SALUTATION}... I'm at your service.">
+		<tags>
+			<tag
+				tag_name="UnderCommandTag" />
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="AnyNotableTypeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.flirtatious_cl"
+		text="{=GgERkyDL}My lady...">
+		<tags>
+			<tag
+				tag_name="RomanticallyInvolvedTag"
+				weight="+5" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.hostile_cl"
+		text="{=NZ9E0KVb}You know I don't care for you. What's it you want to say?">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_cl"
+		text="{=7eDCl1nd}{STR_SALUTATION}... I've got you. You're not going anywhere.">
+		<tags>
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_v2_moralist_cl"
+		text="{=3GLbI63F}{STR_SALUTATION}... I've caught you, finally. Anything to say?">
+		<tags>
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtLowerTag" />
+		</tags>
+	</string>
+	<!-- Also attacking cruel-->
+	<!-- Also attacking unmet cruel-->
+	<string
+		id="str_context_line.old_friends_fighting_cl"
+		text="{=vyeEx182}{STR_SALUTATION}... I don't want to have to fight you. But I will, friend, I will.">
+		<tags>
+			<tag
+				tag_name="CombatantTag" />
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+			<tag
+				tag_name="FriendlyRelationshipTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtLowerTag" />
+		</tags>
+	</string>
+	<!-- IRONIC LOWER CLASS-->
+	<string
+		id="str_context_line.first_meeting_il"
+		text="{=aOkilS3H}Right. So who might you be, then?">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_tavern_il"
+		text="{=z3zTyNru}Come any closer, stranger, and I'll stick a knife in your belly. But if you stay where you are, we may have a pleasant enough chat.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="CombatantTag" />
+			<tag
+				tag_name="AmoralTag" />
+			<tag
+				tag_name="DrinkingInTavernTag"
+				weight="+3" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_gang_leader_il"
+		text="{=hW0ce7Nd}Welcome, stranger, to my little kingdom here. Who might you be?">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicLowerTag" />
+			<tag
+				tag_name="GangLeaderNotableTypeTag" />
+			<tag
+				tag_name="InHomeSettlementTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_attacking_il"
+		text="{=b9DEXqta}Halt there. Right... So we can parley a bit. But try anything tricky, my boys will cut you down.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_under_command_cl_2"
+		text="{=Es1MRkbS}{STR_SALUTATION}... This is truly an honor. Let me introduce myself.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="UnderCommandTag"
+				weight="15" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.metbefore_il"
+		text="{=bNfX5VAX}{STR_SALUTATION}... It's been a while. Keeping busy, I assume.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.under_command_il"
+		text="{=mru1p8Fz}{STR_SALUTATION}... Awaiting your orders, as always.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="UnderCommandTag" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.under_command_notable_il"
+		text="{=AFsNtnd8}{STR_SALUTATION}... At your service, as always.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="UnderCommandTag" />
+			<tag
+				tag_name="AnyNotableTypeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.dislike_il"
+		text="{=bI4IbX25}{STR_SALUTATION}... Well... Been a while since I last laid eyes on you. Can't say I minded much.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_il"
+		text="{=1BZmK6EP}Well, now... Guess we'll be spilling each other's blood shortly. Anything on your mind, before we set to it?">
+		<tags>
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_v2_cruel_il"
+		text="{=mHjnRrLk}Well, I'll not deny it. It'll be a real pleasure to watch you writhing and bleeding in the dust.">
+		<tags>
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicLowerTag" />
+		</tags>
+	</string>
+	<!-- EARNEST LOWER CLASS-->
+	<string
+		id="str_context_line.first_meeting_el"
+		text="{=WAK8lSaW}Well, good day to you. So who might you be?">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.tavern_el"
+		text="{=TCJIGLaL}Your health, stranger! So who might you be?">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="DrinkingInTavernTag"
+				weight="+3" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_gang_leader_el"
+		text="{=YzBDQ8J3}So... Just so you know, this here is my turf. Now, who might you be?">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="GangLeaderNotableTypeTag" />
+			<tag
+				tag_name="InHomeSettlementTag"
+				weight="1" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_under_command_el"
+		text="{=Ia4zfagK}{STR_SALUTATION}... It's an honor to meet you.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="UnderCommandTag"
+				weight="15" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_unmet_el"
+		text="{=CcPZbyiv}Stop there, mate. So, you might want to tell me your name, before we cross swords.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.metbefore_el"
+		text="{=gMyAYyEX}{STR_SALUTATION}... It's been a while.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.under_command_el"
+		text="{=9uQibOo8}I'm at your service, {STR_SALUTATION}.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="UnderCommandTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.dislike_el"
+		text="{=rWuWrr2s}{STR_SALUTATION}... I won't pretend I like you, but I'll hear you out.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_el"
+		text="{=DXYVZbcz}{STR_SALUTATION}... Ready to give me a good fight?">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_dislike_el"
+		text="{=LNhUaIoB}Right, you. Prepare to get what's coming to you.">
+		<tags>
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.old_friends_fighting_el"
+		text="{=43KLZl7D}{STR_SALUTATION}... If it comes down to a fight between you and me, well... I'll take no joy in it.">
+		<tags>
+			<tag
+				tag_name="CombatantTag" />
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+			<tag
+				tag_name="FriendlyRelationshipTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestLowerTag" />
+		</tags>
+	</string>
+	<!-- SOFTSPOKEN LOWER CLASS-->
+	<string
+		id="str_context_line.first_meeting_sl"
+		text="{=YGAYp0pO}Aye? Sorry, I don't think I know you.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_sl"
+		text="{=4RbOYBQb}Halt. You want to tell me who you are, or shall we just have at it?">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.in_tavern_sl"
+		text="{=gGjqzb5j}What is it, stranger? Who're you?">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="DrinkingInTavernTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_gang_leader_sl"
+		text="{=B0YYHX47}Yes? You need something from me? Who are you?">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenLowerTag" />
+			<tag
+				tag_name="GangLeaderNotableTypeTag" />
+			<tag
+				tag_name="InHomeSettlementTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_under_command_sl"
+		text="{=2Uuwrvmw}{STR_SALUTATION}... Let me introduce myself.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="UnderCommandTag"
+				weight="15" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.metbefore_sl"
+		text="{=gMyAYyEX}{STR_SALUTATION}... It's been a while.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.under_command_sl"
+		text="{=KnJoVOEk}{STR_SALUTATION}... I'm at your command.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="UnderCommandTag"
+				weight="+2" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.under_command_sl_2"
+		text="{=9emUaMsx}{STR_SALUTATION}... I'm at your service.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="UnderCommandTag" />
+			<tag
+				tag_name="AnyNotableTypeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.metbefore_dislike_sl"
+		text="{=GCTtfyGS}I don't know what we have to say to each other.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.metbefore_friendly_sl"
+		text="{=LRpsEe3F}{STR_SALUTATION}... Good to see you.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="FriendlyRelationshipTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenLowerTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_sl_2"
+		text="{=s27yxVHY}Do you have anything to say?">
+		<tags>
+			<tag
+				tag_name="CombatantTag" />
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenLowerTag" />
+		</tags>
+	</string>
+	<!-- CURT TRIBAL -->
+	<string
+		id="str_context_line.first_meeting_ct"
+		text="{=PvxtpJaY}Yours is not a face I know. What is your name, stranger?">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_attracted_male_ct"
+		text="{=RNfnK0Vv}Em.... Greetings, my lady. I do not believe that we've met.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtTribalTag" />
+			<tag
+				tag_name="AttractedToPlayerTag"
+				weight="1" />
+			<tag
+				tag_name="PlayerIsFemaleTag"
+				weight="1" />
+			<tag
+				tag_name="AttackingTag"
+				weight="-1" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_drinking_dour_ct"
+		text="{=nFPrHMdU}Eh. Wine here tastes like piss. Anyway, what do you want?">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtTribalTag" />
+			<tag
+				tag_name="UncharitableTag" />
+			<tag
+				tag_name="DrinkingInTavernTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_gang_leader_ct"
+		text="{=cOEodlOB}You wanted to see me for something?">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtTribalTag" />
+			<tag
+				tag_name="GangLeaderNotableTypeTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_under_command_ct"
+		text="{=aGP9qTGp}{STR_SALUTATION}... I offer you my loyalty.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="UnderCommandTag"
+				weight="15" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_ct"
+		text="{=8i2Z7jJa}Halt there. So, tell me who I fight?">
+		<!-- duplicate -->
+		<tags>
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_cruel_ct"
+		text="{=yd0sShGW}Halt there. Who are you? I would know whom I slay.">
+		<tags>
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.metbefore_ct"
+		text="{=gMyAYyEX}{STR_SALUTATION}... It's been a while.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.under_command_ct"
+		text="{=LvafEVjz}{STR_SALUTATION}... I'm yours to command.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="UnderCommandTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.under_command_notable_ct"
+		text="{=4j7uEWlA}{STR_SALUTATION}... I am at your service.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="UnderCommandTag" />
+			<tag
+				tag_name="AnyNotableTypeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.metbefore_ct_2"
+		text="{=oYskGouF}{STR_SALUTATION}... My heart is glad to see you.">
+		<!-- Stiff but sincere -->
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="FriendlyRelationshipTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_ct_2"
+		text="{=Z2bRJhTh}{STR_SALUTATION}... If you die well today, I'll be sure your courage is remembered.">
+		<tags>
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_cruel_ct_2"
+		text="{=uhSeQI7D}Say whatever you have to say. After that, you die.">
+		<tags>
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.old_friends_fighting_ct"
+		text="{=CEKlT71P}Well. Here we are. Give me a decent funeral if I fall to your sword, and I'll do the same for you. Do you have anything to say?">
+		<tags>
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+			<tag
+				tag_name="FriendlyRelationshipTag" />
+			<tag
+				tag_name="VoiceGroupPersonaCurtTribalTag" />
+		</tags>
+	</string>
+	<!-- EARNEST TRIBAL -->
+	<string
+		id="str_context_line.first_meeting_et"
+		text="{=TjrwrSH9}Peace to you, stranger. What is your name?">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_enemy_et"
+		text="{=P3o4r7cB}What do you want, stranger? Who are you?">
+		<tags>
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_unmet_et"
+		text="{=8i2Z7jJa}Halt there. So, tell me who I fight?">
+		<tags>
+			<tag
+				tag_name="AttackingTag"
+				weight="2" />
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_under_command_et"
+		text="{=aGP9qTGp}{STR_SALUTATION}... I offer you my loyalty.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="UnderCommandTag"
+				weight="15" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.metbefore_et"
+		text="{=gMyAYyEX}{STR_SALUTATION}... It's been a while.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.under_command_et"
+		text="{=LvafEVjz}{STR_SALUTATION}... I'm yours to command.">
+		<tags>
+			<tag
+				tag_name="UnderCommandTag"
+				weight="1" />
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.under_command_notable_et"
+		text="{=4j7uEWlA}{STR_SALUTATION}... I am at your service.">
+		<tags>
+			<tag
+				tag_name="UnderCommandTag"
+				weight="1" />
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="AnyNotableTypeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.metbefore_et_2"
+		text="{=uVm44ScK}{STR_SALUTATION}... Peace to you.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="PlayerIsEnemyTag"
+				weight="-1" />
+			<tag
+				tag_name="HostileRelationshipTag"
+				weight="-1" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.friendly_et"
+		text="{=4RMGcBuj}{STR_SALUTATION}... Peace to you... I am glad to see you.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="PlayerIsEnemyTag"
+				weight="-1" />
+			<tag
+				tag_name="HostileRelationshipTag"
+				weight="-1" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.flirtatious_et"
+		text="{=iNYLG9P1}I am very angry with you. Too much time has gone by since last you visited.">
+		<!-- Obviously not really angry -->
+		<tags>
+			<tag
+				tag_name="RomanticallyInvolvedTag"
+				weight="2" />
+			<tag
+				tag_name="PlayerIsEnemyTag"
+				weight="-1" />
+			<tag
+				tag_name="HostileRelationshipTag"
+				weight="-1" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.dislike_et"
+		text="{=CiquaIVy}It looks like your sins have yet to catch up with you. But they will, believe me they will..">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="UnderCommandTag"
+				weight="-1" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_cruel_et"
+		text="{=gLWgcDUN}Ah, the Heavens are kind. What kind of death do you want, dog?">
+		<tags>
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.old_friends_fighting_et"
+		text="{=fQRGVkTL}Well, if it comes down to you and me, let's make it a fight that the bards will sing about, hey?">
+		<tags>
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+			<tag
+				tag_name="FriendlyRelationshipTag" />
+			<tag
+				tag_name="VoiceGroupPersonaEarnestTribalTag" />
+		</tags>
+	</string>
+	<!-- IRONIC TRIBAL -->
+	<string
+		id="str_context_line.first_meeting_it"
+		text="{=oqSF8Ueu}Well now, stranger. Peace to you. What is your name?">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_it_2"
+		text="{=ZBjXh6cA}Stop there, stranger. I bid you peace. At least until I find out who you are, anyway.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="WaryTag" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_tavern_it"
+		text="{=wAAdnzKD}Peace to you, stranger, though if you come any closer I may stick a knife in your belly, as one cannot be too careful these days.">
+		<tags>
+			<tag
+				tag_name="CombatantTag" />
+			<tag
+				tag_name="AmoralTag" />
+			<tag
+				tag_name="DrinkingInTavernTag"
+				weight="+1" />
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_under_command_it"
+		text="{=WACwhm8r}{STR_SALUTATION}! I am honored to meet you. Let me introduce myself.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="UnderCommandTag"
+				weight="15" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.metbefore_it"
+		text="{=z1zS6cQD}{STR_SALUTATION}... My greetings to you.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.under_command_it"
+		text="{=aCFQOGye}{STR_SALUTATION}... I await your orders.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="UnderCommandTag" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.under_command_notable_it"
+		text="{=9emUaMsx}{STR_SALUTATION}... I'm at your service.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="UnderCommandTag" />
+			<tag
+				tag_name="AnyNotableTypeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.metbefore_enemy_it"
+		text="{=PCLD3G3s}{STR_SALUTATION}... I'd wish you peace and prosperity, but of course I don't want that.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="AttackingTag"
+				weight="-1" />
+			<!-- not attacking -->
+			<tag
+				tag_name="PlayerIsEnemyTag"
+				weight="+1" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_it"
+		text="{=pm786w3d}Such a pleasant surprise to see you. I hope my men can find some fetters of silver or gold, worthy of your rank, as it appears you may be gracing us with your presence tonight.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="GenerosityTag"
+				weight="-1" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_1_it"
+		text="{=DwqTbXhg}Well... Unless I reckon the odds falsely, I'd say you have a very good chance of feasting with your ancestors before this day is through.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="AttackingTag"
+				weight="1" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_cruel_it"
+		text="{=xiFrtNGH}Ah... Fate smiles on me today. I can think of no sweeter music than your death-rattle.">
+		<tags>
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="CruelTag"
+				weight="3" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.old_friends_fighting_it"
+		text="{=hbvuSLB0}Well. Here we are. I once thought friendship was sacred, but all sacred things are profaned in the end. Don't think I won't kill you if I need to.">
+		<tags>
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+			<tag
+				tag_name="FriendlyRelationshipTag"
+				weight="4" />
+			<tag
+				tag_name="VoiceGroupPersonaIronicTribalTag" />
+		</tags>
+	</string>
+	<!-- SOFTSPOKEN TRIBAL -->
+	<string
+		id="str_context_line.firstmeeting_st"
+		text="{=mcNlccCF}Aye? I don't think I know you. Peace to you, stranger.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.firstmeeting_enemy_st"
+		text="{=Q3kWez4P}Stop there. Who are you? It is better we know each other's names, even if we fight.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.firstmeeting_attacking_cruel_st"
+		text="{=3WtZ4AKa}I don't know you... If you have anything to say, say it quickly. The ravens are hungry and I would not keep them waiting.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenTribalTag" />
+			<tag
+				tag_name="AmoralTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.first_meeting_under_command_st"
+		text="{=pff33rZl}{STR_SALUTATION}. I am at your service.">
+		<tags>
+			<tag
+				tag_name="FirstMeetingTag" />
+			<tag
+				tag_name="UnderCommandTag"
+				weight="15" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.metbefore_st"
+		text="{=gMyAYyEX}{STR_SALUTATION}... It's been a while.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.under_command_st"
+		text="{=LvafEVjz}{STR_SALUTATION}... I'm yours to command.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="UnderCommandTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.under_command_notable_st"
+		text="{=4j7uEWlA}{STR_SALUTATION}... I am at your service.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="UnderCommandTag" />
+			<tag
+				tag_name="AnyNotableTypeTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.hatred_st"
+		text="{=uGuu5JPx}{STR_SALUTATION}...You'd best pray someone gives you a quick death in battle one of these days, because if you ever fall into my hands, you'll find I have a long memory, and do not forgive.">
+		<tags>
+			<tag
+				tag_name="MetBeforeTag" />
+			<tag
+				tag_name="UnderCommandTag"
+				weight="-1" />
+			<tag
+				tag_name="AttackingTag"
+				weight="-1" />
+			<!-- not attacking -->
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_st"
+		text="{=hAbpAkIw}{STR_SALUTATION}... I think your luck has run out.">
+		<tags>
+			<tag
+				tag_name="AttackingTag"
+				weight="2" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenTribalTag" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.attacking_hate_st"
+		text="{=lbH0Fw9s}I've waited a long time for this day. Have a good look around you, for soon your eyes will have little to see but the inside of a raven's belly.">
+		<tags>
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenTribalTag" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_context_line.old_friends_fighting_st"
+		text="{=BXpMYumQ}Well... Forgive me if I cannot wish you 'peace,' old friend. Fate does what it will.">
+		<tags>
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+			<tag
+				tag_name="FriendlyRelationshipTag"
+				weight="2" />
+			<tag
+				tag_name="VoiceGroupPersonaSoftspokenTribalTag" />
+		</tags>
+	</string>
+</strings>

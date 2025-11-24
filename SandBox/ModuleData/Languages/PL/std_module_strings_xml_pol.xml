@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Polski" />
+  </tags>
+  <strings>
+    <string id="0yCa27tK" text="Możesz przytrzymać {LEAVE_AREA_KEY}, by opuścić bieżący obszar." />
+    <string id="1xtmifKD" text="{.MI}Zebrany{.aj} {.MI}trybut{.nn}" />
+    <string id="2wiUtuu5" text="Wykonane zlecenia rzemieślnicze" />
+    <string id="3Dhbg955" text="Łączny osiągnięty poziom przestępczości" />
+    <string id="3GDgVYim" text="Przeciągnięte na twoją stronę wrogie klany" />
+    <string id="3o6FDRsq" text="{.N}Przejęte{.ajp} {.N}miasto{.nnp}" />
+    <string id="4IZnbvlD" text="{.MP}Baudein" />
+    <string id="4v3Lb6BU" text="Gotowe ustawienia trudności" />
+    <string id="57QbB8cu" text="Denary otrzymane jako podatek" />
+    <string id="584IPqj2" text="Najdroższa wytworzona broń (nazwa/wartość)" />
+    <string id="5gLojbx4" text="Wygrane turnieje" />
+    <string id="6o10SHat" text="Łatwy (+5% szansy powodzenia)" />
+    <string id="6SRPa65F" text="Bardzo łatwy (+10% szansy powodzenia)" />
+    <string id="776J8Fng" text="{.MP}Baldimos" />
+    <string id="7ZhNilg8" text="Łatwy (+5% prędkości)" />
+    <string id="7ZOp7cg5" text="Zdobyte zamki" />
+    <string id="8byRf9zO" text="{.MP}Generał{.nn}" />
+    <string id="8eYtra7T" text="Określ poziom trudności gry" />
+    <string id="9a6ZBSGw" text="Największa sformowana przez gracza armia" />
+    <string id="9jSxo790" text="Realistyczny" />
+    <string id="9l5RgXiU" text="Wybierz, czy po prawej stronie mapy kampanii pojawiać się będą okrągłe powiadomienia." />
+    <string id="9WimyleE" text="Bitwy" />
+    <string id="aaEgGfCX" text="Brak towarzyszy z zabójstwami na koncie" />
+    <string id="ap9OK7Zl" text="Twoje jednostki będą tu czekały" />
+    <string id="APt3biyJ" text="Dni spędzone w niewoli" />
+    <string id="AQfVclN8" text="{.F}Nagroda" />
+    <string id="aWeYcDKm" text="Otwórz menu oszustw" />
+    <string id="ax9PEsfp" text="Trudność przekonywania" />
+    <string id="b1h7b7oj" text="{BATTLES_WON}/{BATTLES_LOST}/{ALL_BATTLES}" />
+    <string id="B8qJSb66" text="Pojmani żołnierze wroga" />
+    <string id="bfiDLULr" text="Obniżenie o 50%" />
+    <string id="bLwIgxXa" text="Trudność werbunku" />
+    <string id="BNynfsuy" text="Zniszczone wrogie klany" />
+    <string id="BqImNuSm" text="Określa, czy twoja postać lub inni bohaterowie mogą zginąć w bitwie." />
+    <string id="BskZLZRb" text="Wybranie tej opcji spowoduje, że bohaterowie będą mogli się starzeć i rozmnażać." />
+    <string id="btC3Y3hb" text="Nie można tego później zmienić." />
+    <string id="CCFwzq24" text="Największa bitwa wygrana w roli przywódczej" />
+    <string id="CH9ZYhWk" text="Bardzo łatwy (-50% obrażeń)" />
+    <string id="cKOZjVU0" text="Brak wytworzonych przedmiotów" />
+    <string id="cLHMjwb5" text="Żołnierze zabici lub znokautowani jako grupa" />
+    <string id="cpWFA3dl" text="Wyłącz śmierć w bitwie dla postaci gracza" />
+    <string id="CQZJLWfw" text="Możesz zresetować swoje talenty u zarządcy turnieju... za odpowiednią opłatą. " />
+    <string id="czU1QREp" text="Towarzysz, który rozwiązał najwięcej problemów" />
+    <string id="d4O49oLs" text="Bitwy (W/P/WSZYSTKIE)" />
+    <string id="D9GkBqyW" text="Możesz opuścić pole szkoleniowe, przytrzymując {LEAVE_KEY}{newline}Możesz powrócić w dowolnym momencie poprzez mapę kampanii." />
+    <string id="debaZA1j" text="Tę opcję można zmienić tylko w oknie tworzenia postaci." />
+    <string id="DEH8AvZt" text="Określa poziom trudności skradania się i ukrywania." />
+    <string id="DELVwiEM" text="{.F}Tira" />
+    <string id="DFMhzFGV" text="Trzymanie kilku koni na podorędziu może znacznie przyspieszyć twoją grupę, gdyż zwiększą pojemność twojego ekwipunku, a piechurzy będą mogli jechać na zapasowych wierzchowcach. Konie i muły juczne są jednak przydatne tylko do transportu ładunków." />
+    <string id="DV7u7B6A" text="Pojmani żołnierze postaci" />
+    <string id="ehdBvNmN" text="Wyłącz śmierć w bitwie dla wszystkich bohaterów" />
+    <string id="EhELIf65" text="{.F}Teruin" />
+    <string id="fbaQp3ox" text="Włącz automatyczne przydzielanie talentów dla członków twojego klanu." />
+    <string id="fDQuQ8Ph" text="Zrekrutowani więźniowie" />
+    <string id="FiRWs5vF" text="Tryb „Żelazny człowiek” ogranicza liczbę plików zapisu gry do jednego i automatycznie zapisuje grę, gdy ją zamykasz." />
+    <string id="FlhW2QWY" text="Obszar patrolu" />
+    <string id="freebooterdifficulty" text="{.MP}Rabuś" />
+    <string id="GbSZ3ZXh" text="Denary zarobione dzięki karawanom" />
+    <string id="GCqWwDWg" text="{.MP}Baladir" />
+    <string id="ggMFUCVT" text="Bohaterowie zabici w bitwach" />
+    <string id="GkTR3n2o" text="Twoja kariera dobiegła końca." />
+    <string id="gRVHCPak" text="Resetuj wszystkie samouczki" />
+    <string id="H9X6MFgL" text="Najwyższa pozycja na turniejowej tablicy wyników" />
+    <string id="HHaRDiuO" text="Żołnierze zabici lub znokautowani osobiście" />
+    <string id="hLijkSTy" text="Menu oszustw można również wywołać, przytrzymując &quot;lewy bumper + prawy spust + pad kierunkowy w dół&quot; na otwartej mapie." />
+    <string id="HVrobtL5" text="Nazwa nowego królestwa:{newline} – Nie może zawierać cyfr.{newline} – Nie może być dłuższa niż {MAX_LETTER_COUNT} znaków.{newline} – Nie może być krótsza niż {MIN_LETTER_COUNT} znaków." />
+    <string id="HWNEo6pa" text="Nie znacie się jeszcze z tą postacią." />
+    <string id="irBV6UE4" text="{MINUTE} min" />
+    <string id="IWD56KMc" text="{.F}Prędkość{.nn} ruchu na mapie" />
+    <string id="izbANsTI" text="Określa poziom trudności SI w walce." />
+    <string id="JbFRrjqM" text="Kiedy obserwujesz scenę w mieście lub wsi, możesz przytrzymać {MISSION_INDICATORS_KEY}, by zobaczyć znaczniki ważnych osób i ciekawych miejsc." />
+    <string id="jKn9B0bh" text="Udało ci się podbić Kalradię!" />
+    <string id="JMhKt2W1" text="Wyzwanie" />
+    <string id="JR6UgiT1" text="Łatwy (-50% obrażeń)" />
+    <string id="k4CF68S6" text="Wstrzymujemy się od głosu" />
+    <string id="k71J6bVH" text="{.N}Zwycięstwo{.nnp}" />
+    <string id="khb5YDgN" text="Wybierz gotowe ustawienia trudności." />
+    <string id="KM7uAbL8" text="Obrażenia otrzymane przez gracza" />
+    <string id="Kqkf6HBN" text="Brak towarzyszy, którzy rozwiązali jakieś problemy" />
+    <string id="lCHii7V0" text="Określa szansę na powodzenie przekonywania." />
+    <string id="lF6dauOB" text="Określa szansę na śmierć członków twojego klanu w bitwie." />
+    <string id="lfDzgLTa" text="{PROFESSION} w {LOCATION}{.l}" />
+    <string id="lJ28AH1a" text="Tę opcję można zmienić tylko poprzez aktywację/dezaktywację moda trybu szybkiego w programie uruchamiającym przy nowej grze." />
+    <string id="LQAb6X5j" text="Określa liczbę żołnierzy dostępnych u ważnych postaci." />
+    <string id="ltfL5OSA" text="Określa obrażenia otrzymywane przez twoich żołnierzy." />
+    <string id="m0907jTh" text="Gdy widzisz wskazówkę, możesz nacisnąć {EXTEND_KEY}, by ją rozszerzyć." />
+    <string id="M7HGkj18" text="Narodzone dzieci" />
+    <string id="m7RFdwFt" text="Łączna liczba zdobytych denarów" />
+    <string id="mD89ih8N" text="Zmień nazwę klanu" />
+    <string id="MI2007pj" text="Łatwy (-25% obrażeń)" />
+    <string id="MMv0U5Yr" text="{.MP}Władca{.nn} sztandaru" />
+    <string id="mY4hNpbk" text="Szansa na śmierć bohatera w bitwie" />
+    <string id="N6fz1efb" text="Pomija samouczki na początku gry." />
+    <string id="nJefkQ3Z" text="Finanse" />
+    <string id="npLZ741I" text="Wyłącz śmierć w bitwie dla członków klanu" />
+    <string id="NQfjuHcs" text="Zdobyte wpływy" />
+    <string id="o81neN4A" text="Włącz tryb narodzin i starzenia się" />
+    <string id="ob84Szvh" text="Bardzo łatwy (-75% obrażeń)" />
+    <string id="Oea9a5nY" text="Obrażenia otrzymane przez sojusznicze oddziały" />
+    <string id="OKjjmsPq" text="Możliwość włączenia tej opcji zależy od opcji &quot;{OPTION}&quot;." />
+    <string id="OPPcXXSJ" text="Włącz śmierć w bitwie dla wszystkich bohaterów" />
+    <string id="opUBnFym" text="{.F}Terte" />
+    <string id="OXVO6LUN" text="Denary zarobione w warsztatach" />
+    <string id="QBbSD4fG" text="Otwórz {KEY}" />
+    <string id="qc9Llr3x" text="{.MP}Bohater" />
+    <string id="QEjoqEe0" text="Czas rozgrywki w kampanii (czas kampanii)" />
+    <string id="QZHSvGrD" text="{.MP}Baldrim" />
+    <string id="QzmJL5I7" text="Łatwy (+1 żołnierz)" />
+    <string id="ReNnVfEn" text="Zmień nazwę królestwa" />
+    <string id="rRhypEZV" text="Określa obrażenia otrzymywane przez twoją postać." />
+    <string id="rweyNfS3" text="Oczyszczone kryjówki" />
+    <string id="Rx13jX4M" text="Towarzysz z największą liczbą zabójstw" />
+    <string id="RZFAxCMp" text="Bardzo łatwy (+10% prędkości)" />
+    <string id="S2NCdsTo" text="Tryb szybki jest włączony" />
+    <string id="Sfd3aqia" text="{.MP}Bandan" />
+    <string id="SFGwg8op" text="Liczba odblokowanych elementów" />
+    <string id="sp8Kred0" text="Aby wykonać tę akcję, członkowie muszą być w grupie gracza." />
+    <string id="SrkDqNdb" text="Włącz okienka samouczka" />
+    <string id="SrP38hbU" text="Liczba zatrudnionych towarzyszy" />
+    <string id="sYVFg9ai" text="{.MI}Poziom{.nn} trudności SI w walce" />
+    <string id="t47EzcbW" text="Włącz samouczek" />
+    <string id="TAgQrIxj" text="Stworzona broń" />
+    <string id="taU38mMa" text="Czas rozgrywki w kampanii (czas rzeczywisty)" />
+    <string id="Tv35SPaB" text="Denary otrzymane jako okup" />
+    <string id="Tz0aWGfB" text="Wezwij żołnierzy {KEY}" />
+    <string id="TZ9ugd1p" text="Automatyczne przydzielanie talentów członkom klanu" />
+    <string id="uBajEuVL" text="W oknach interfejsu możesz nacisnąć {ENCYCLOPEDIA_SHORTCUT}, by otworzyć odpowiadający przedmiotowi wpis w encyklopedii. Działa to w przypadku portretów żołnierzy, ikon miast i większości pozostałych elementów." />
+    <string id="UcgNVM0P" text="Bardzo łatwy (+2 żołnierzy)" />
+    <string id="UfQotsfo" text="Ranga #" />
+    <string id="uG2Alcat" text="{.MI}Poziom{.nn} trudności gry" />
+    <string id="V4PXAgJB" text="Przyspieszona rozgrywka." />
+    <string id="veterandifficulty" text="{.MP}Wiarus" />
+    <string id="vNLVkLT5" text="Tryb „Żelazny człowiek”" />
+    <string id="VRSsxx1g" text="Rozwiązane problemy" />
+    <string id="VtEF7wle" text="Szansa na śmierć członków klanu w bitwie" />
+    <string id="WBkmgu69" text="Żołnierze rekrutowani z miast i wsi" />
+    <string id="Wgu9EK8b" text="Poziom trudności skradania i ukrywania się" />
+    <string id="wZrW5FEB" text="Określa prędkość podróżowania twojej grupy." />
+    <string id="XsIq2RFs" text="{.MP}Baldim" />
+    <string id="Y0GDVFiN" text="Złupione wsie" />
+    <string id="YhwN5u7f" text="Twój klan przestał istnieć!" />
+    <string id="yKJ9c8IV" text="Włącz okrągłe powiadomienia po prawej stronie mapy" />
+    <string id="yLa9ftit" text="Ustawia przerwę między automatycznymi zapisami w chmurze" />
+    <string id="YuNsJ7bD" text="{.N}Rzemiosło" />
+    <string id="yvdQ9MD6" text="{.F}Terea" />
+    <string id="Z33uQl2f" text="{.F}Taria" />
+    <string id="ZWiFWA2W" text="Pomiń samouczek głównego wątku fabularnego" />
+  </strings>
+</base>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Deutsch" />
+  </tags>
+  <strings>
+    <string id="1B57e3WC" text="{HERO} hat sich dem Willen des Rats {articleHelper(FACTION,1)}{FACTION}{.g} widersetzt." />
+    <string id="3aYSoETE" text="{MOTHER.LINK} hat ein gesundes Kind zur Welt gebracht." />
+    <string id="6q9sb18u" text="{HERO_2.LINK} wurde getötet." />
+    <string id="7SHqWNzE" text="{COMMON_AREA}{.pn} von {SETTLEMENT} ist jetzt frei von Gesindel." />
+    <string id="7tx9sch3" text="Versteck gesichtet." />
+    <string id="8Klpa7Xa" text="{INSULTER.LINK} hat Rache gegenüber {INSULTEE.LINK} geschworen." />
+    <string id="8wlvxzuP" text="{HERO_1.LINK} hat {HERO_2.LINK} getroffen." />
+    <string id="a0qduLNq" text="{SETTLEMENT} ist jetzt sicher." />
+    <string id="aheVbtmm" text="{.^}{ITEM} bei {articleHelper(FACTION,2)}{FACTION}{.d}." />
+    <string id="aowJMil0" text="{KINGDOM} wurde zerstört." />
+    <string id="AQK4ADS5" text="{HERO_1.LINK} hat {HERO_2.LINK} getötet." />
+    <string id="AxMrFoea" text="{TOWN_NAME} wird durch die Streitkräfte {LORD.LINK}{.o} {#TYPE(FACTION_NAME)}vom {WEAK(FACTION_NAME)}{.d}{#}von den {FACTION_NAME}{#}von den {FACTION_NAME}{.dp}{\#} belagert!" />
+    <string id="bNAxWneP" text="{INSULTER.LINK} behauptet, dass {INSULTEE.LINK} Geschäfte erpresst." />
+    <string id="bNDUtygL" text="{INSULTER.LINK} behauptet, dass {INSULTEE.LINK} Güter hortet, um die Preise hochzutreiben." />
+    <string id="Bovy7D7s" text="{MOTHER.LINK} ist niedergekommen, doch leider war das Kind bei der Geburt tot." />
+    <string id="bZvmjYPE" text="{PARTY} verteidigt {SETTLEMENT}." />
+    <string id="Cae69FRp" text="{SETTLEMENT} wird verteidigt von {PARTY}." />
+    <string id="cOnCiZeH" text="{HERO1} hat das Gemeingebiet von {HERO2} in {SETTLEMENT} angegriffen{ADDITIONAL_INFO}" />
+    <string id="dfAE3liA" text="Der {CLAN_NAME}-&#x200b;Clan gehört jetzt {#TYPE(FACTION)}zum {WEAK(FACTION)}{.d}{#}zu den {FACTION}{#}zu den {FACTION}{.dp}{\#}." />
+    <string id="dmqy8OyY" text="{INSULTER.LINK} behauptet, dass {INSULTEE.LINK} unlautere Geschäfte treibt." />
+    <string id="dzJOruIi" text="{COMMON_AREA} in {SETTLEMENT} wurde an {HERO.LINK} verloren." />
+    <string id="EHFibjkM" text="{TOWN_NAME} wird durch die Armee {LORD.LINK} {#TYPE(FACTION_NAME)}vom {WEAK(FACTION_NAME)}{.d}{#}von den {FACTION_NAME}{#}von den {FACTION_NAME}{.dp}{\#} belagert!" />
+    <string id="ELFgdGJZ" text="{MOTHER.LINK} ist jetzt schwanger." />
+    <string id="eMRMptST" text="{MOTHER.LINK} ist niedergekommen." />
+    <string id="ExbVzTZA" text="Der {CLAN}-&#x200b;Clan hat sich zum Kampf an der Seite {#TYPE(KINGDOM)}vom {WEAK(KINGDOM)}{.d}{#}von den {KINGDOM}{#}von den {KINGDOM}{.dp}{\#} verpflichtet." />
+    <string id="F3MPgmhR" text="{CLAIMANT.LINK} fordert, dass {SETTLEMENT_NAME} dem Clan &quot;{CLAIMANT_CLAN}&quot; gehören sollte und nicht dem Clan &quot;{CURRENT_OWNER_CLAN}&quot;." />
+    <string id="FZdiWaBs" text="Das Gemeingebiet von {HERO} wurde erobert." />
+    <string id="h5rkbVu3" text="{SETTLEMENT} ist jetzt unter der Herrschaft von {LORD.LINK}." />
+    <string id="h78oPYTs" text="{INSULTER.LINK} bezichtigt {INSULTEE.LINK} der Ketzerei." />
+    <string id="hbWhfoWH" text="{SETTLEMENT} wird von {LORD.LINK} {#TYPE(FACTION_NAME)}vom {WEAK(FACTION_NAME)}{.d}{#}von den {FACTION_NAME}{#}von den {FACTION_NAME}{.dp}{\#} ausgeraubt!" />
+    <string id="hJFCi1zu" text="{#TYPE(FACTION1)}{genderCreator(FACTION1)}Der{.pn}{#}{genderCreator(FACTION1)}Der{.pnp}{#}{genderCreator(FACTION1)}Der{.pnp}{\#} {WEAK(FACTION1)} und {#TYPE(FACTION2)}{genderCreator(FACTION2)}der{.pn}{#}{genderCreator(FACTION2)}der{.pnp}{#}{genderCreator(FACTION2)}der{.pnp}{\#} {WEAK(FACTION2)} haben Frieden geschlossen." />
+    <string id="hopvV6Ch" text="{RULER_NAME} {#TYPE(FACTION1_NAME)}vom {WEAK(FACTION1_NAME)}{.d}{#}von den {FACTION1_NAME}{#}von den {FACTION1_NAME}{.dp}{\#} erklärt {#TYPE(FACTION2_NAME)}dem {WEAK(FACTION2_NAME)}{.d}{#}den {FACTION2_NAME}{#}den {FACTION2_NAME}{.dp}{\#} den Krieg." />
+    <string id="hP57Caab" text="{VICTOR_PARTY} von {articleHelper(VICTOR_FACTION,2)}{VICTOR_FACTION} hat {DEFEATED_PARTY} von {articleHelper(DEFEATED_FACTION,2)}{DEFEATED_FACTION} besiegt." />
+    <string id="Jo3Lux3w" text="{HERO_1.LINK} ist verantwortlich für den Tod von {HERO_2.LINK}." />
+    <string id="jZcV4gI7" text="{INSULTER.LINK} behauptet, dass sich {INSULTEE.LINK} feige verhalten und damit einen Rückschlag auf dem Schlachtfeld verursacht hat." />
+    <string id="KbakhGqB" text="{HERO_1.LINK} hat den Trupp von {HERO_2.LINK} besiegt." />
+    <string id="kMwv4QJK" text="{INSULTER.LINK} ist mit {INSULTEE.LINK} über eine Hofiererei in Streit geraten." />
+    <string id="kqwNCCbZ" text="{TOWN_NAME} wird durch die Armee {LORD.LINK} {#TYPE(FACTION_NAME)}vom {WEAK(FACTION_NAME)}{.d}{#}von den {FACTION_NAME}{#}von den {FACTION_NAME}{.dp}{\#} belagert!" />
+    <string id="ksr1bSTC" text="{SETTLEMENT} wird angegriffen von {PARTY}." />
+    <string id="MoYYusXJ" text="{INSULTER.LINK} behauptet, dass sich {INSULTEE.LINK} nicht an Befehle gehalten und damit einen Rückschlag auf dem Schlachtfeld verursacht hat." />
+    <string id="nbVW2cJ8" text="{SETTLEMENT} wird von der Armee {LORD.LINK} {#TYPE(FACTION_NAME)}vom {WEAK(FACTION_NAME)}{.d}{#}von den {FACTION_NAME}{#}von den {FACTION_NAME}{.dp}{\#} ausgeraubt!" />
+    <string id="nPF738Cb" text="{INSULTER.LINK} behauptet, dass {INSULTEE.LINK} für Unruhe unter den Menschen sorgt." />
+    <string id="orDGbYZE" text="{INSULTER.LINK} ist mit {INSULTEE.LINK} in Streit geraten." />
+    <string id="P9RGAGFC" text="{MOTHER.LINK} ist bei der Niederkunft gestorben." />
+    <string id="pBMMXwVa" text="{INSULTER.LINK} behauptet, dass {INSULTEE.LINK} versucht hat, auf betrügerische Weise an Grundstücke zu gelangen." />
+    <string id="pHyqL3bw" text="{HERO.LINK} wurde als Kind von {MOTHER.LINK} und {FATHER.LINK} geboren." />
+    <string id="PLiydbpQ" text="{PARTY} hat mit dem Überfall auf {SETTLEMENT} begonnen." />
+    <string id="PsU1ri42" text="{PARTY1} befindet sich im Kampf gegen {PARTY2}." />
+    <string id="RpVrqXOU" text="{INSULTER.LINK} ist mit {INSULTEE.LINK} über ein Lehen in Streit geraten." />
+    <string id="S0oFKYfB" text="Der {CLAN}-&#x200b;Clan steht nicht mehr in Diensten {#TYPE(KINGDOM)}vom {WEAK(KINGDOM)}{.d}{#}von den {KINGDOM}{#}von den {KINGDOM}{.dp}{\#}." />
+    <string id="SLAkSrb5" text="{FACTION1_NAME} erklärt {FACTION2_NAME} den Krieg." />
+    <string id="TsYCa2fZ" text="{#TYPE(FACTION1)}{genderCreator(FACTION1)}Der{.pn} {WEAK(FACTION1)}{#}Die {FACTION1}{#}Die {FACTION1}{\#} und {#TYPE(FACTION2)}{genderCreator(FACTION2)}der{.pn} {WEAK(FACTION2)}{#}die {FACTION2}{#}die {FACTION2}{\#} haben Frieden geschlossen." />
+    <string id="WiiRaLyK" text="{INSULTER.LINK} behauptet, dass {INSULTEE.LINK} überstürzt gehandelt und damit einen Rückschlag auf dem Schlachtfeld verursacht hat." />
+    <string id="WYHqMwwo" text="{CLAN} wurde eliminiert." />
+    <string id="XRTcnnR2" text="{HERO.LINK} befindet sich auf der Flucht." />
+    <string id="yUaE3eeX" text="{SETTLEMENT} wurde gesäubert." />
+    <string id="ZQ0bn7l7" text="{HERO_1} ist verantwortlich für den Tod von {HERO_2}." />
+  </strings>
+</base>

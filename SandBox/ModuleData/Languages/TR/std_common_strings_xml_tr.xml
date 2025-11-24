@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Türkçe" />
+  </tags>
+  <strings>
+    <string id="18NtjryL" text="Henüz değil, ama yakında yapacağım." />
+    <string id="1ELK1UbN" text="{HERO.NAME} şu anda deniz yolculuğunda." />
+    <string id="6P1ruzsC" text="Belki..." />
+    <string id="6QoSHiWC" text="Lidersiz bir sokak" />
+    <string id="9ACJsI6S" text="Kapalı" />
+    <string id="9NuttOBC" text="Yükle" />
+    <string id="9y0zpKUF" text="Bu yerleşkenin sahibi olmalısın!" />
+    <string id="akHsjtPh" text="Henüz bu kahraman ile tanışmadın." />
+    <string id="aN85Kfnq" text="{SETTLEMENT} yağmalandı. {QUEST_GIVER.LINK} ile anlaşman iptal oldu." />
+    <string id="averageWealthStatus" text="Ortalama" />
+    <string id="awjomtnJ" text="Emin misin?" />
+    <string id="bqeWVVEE" text="Eylemlerin {QUEST_GIVER.LINK}'{.nin} grubu ile bir savaş başlattı. Kendisi anlaşmanızı iptal etti ve görev başarısız oldu." />
+    <string id="bSo9hKwr" text="{PERSUASION_OPTION_LINE} {SUCCESS_CHANCE}" />
+    <string id="cc1d7mkq" text="Kademe" />
+    <string id="CDXUehf0" text="Güzel, güzel." />
+    <string id="CH7b5LaX" text="Fikrimi değiştirdim." />
+    <string id="cKz1cyuM" text="Klanın artık {QUEST_GIVER_SETTLEMENT_FACTION} ile savaşta. Görev iptal oldu." />
+    <string id="D0xDRqvm" text="{PERSUASION_REACTION}" />
+    <string id="ddEu5IFQ" text="Umarım." />
+    <string id="dQBArrqh" text="Sokağı Yönet" />
+    <string id="ds294zxi" text="Başka bir şey var mı?" />
+    <string id="dzXaXKaC" text="Pekala." />
+    <string id="FdzsOvDq" text="Görev sırasında bu eylem gerçekleştirilemez" />
+    <string id="g8qb3Ame" text="Teşekkürler." />
+    <string id="GEvP9i5f" text="{HEIR.NAME} olarak oynamaya devam edeceksin." />
+    <string id="gJG0xmAq" text="{QUEST_GIVER.LINK}'{.nin} köyü {QUEST_SETTLEMENT} yağmalandı. {QUEST_GIVER.LINK} ile anlaşman iptal oldu." />
+    <string id="hCavIm4G" text="{AMOUNT}{GOLD_ICON} dinar ödeyeceksin." />
+    <string id="Hxf6bzmR" text="Mevcut Dinar" />
+    <string id="I1CMeL9R" text="Atlı Okçular" />
+    <string id="I8raOMRH" text="Üzgünüm. Henüz bir gelişme yok." />
+    <string id="iW9iKbb8" text="Bir şey yok." />
+    <string id="jcEoUPCB" text="Kılık değiştirmiş durumdasın." />
+    <string id="k7ebznzr" text="Evet?" />
+    <string id="LZbHWkCB" text="{PARTY_NAME} ile Müzakere Ediyor" />
+    <string id="mapbardenarvalue" text="{DENAR_AMOUNT}{VALUE_ABBREVIATION}" />
+    <string id="maptrack" text="İz" />
+    <string id="MIylzRc5" text="Harita etkinliğindeyken bu eylemi gerçekleştiremezsin." />
+    <string id="mp68RYnD" text="Birlik Büyüklük Limiti" />
+    <string id="nFl0ufe3" text="Lidersiz bir birlik" />
+    <string id="oJmRg2ms" text="Çok Zengin" />
+    <string id="OlOhuO7X" text="Hayır, teşekkür ederim. İyi günler." />
+    <string id="pdqi2qz1" text="Sokağın saldırı altındayken bu eylemi gerçekleştiremezsin." />
+    <string id="poorWealthStatus" text="Fakir" />
+    <string id="ppi6eVos" text="Nasıl istersen." />
+    <string id="PXT6aA4J" text="Sefer Ayarları" />
+    <string id="qGIFpahv" text="Sana verebilecek param yok. Kusura bakma. Gökler seni korusun." />
+    <string id="rkQ7D36f" text="Görev iptal edildi çünkü birliğinde idare edebileceğinden daha fazla yoldaş vardı." />
+    <string id="RzFyGnWJ" text="Destekçiler" />
+    <string id="SixPXaNh" text="Çok Fakir" />
+    <string id="SlubkZ1A" text="Elendi" />
+    <string id="UbRqC0Yz" text="Zengin" />
+    <string id="uYjEknNX" text="{VICTIM.NAME}'{.nin} {EXECUTER.NAME} tarafından infazı" />
+    <string id="uZhHh7pm" text="Üretilmiş {CURR_TEMPLATE_NAME}" />
+    <string id="vaUlAZba" text="Klanın artık {QUEST_GIVER.LINK} ile savaşta. {QUEST_GIVER.LINK} ile anlaşman iptal oldu." />
+    <string id="VLLAOXve" text="Pusuya düşürmek için akşam karanlığı bekleniyor" />
+    <string id="vW6kBki9" text="Klanın artık {QUEST_GIVER.LINK}'{.nin} krallığı ile savaşta. {QUEST_GIVER.LINK} ile anlaşman iptal oldu." />
+    <string id="wlKtDR2z" text="Teşekkür ederim {?PLAYER.GENDER}leydim{?}beyim{\?}." />
+    <string id="xpCdwmlX" text="{HERO.NAME}'{.i} birlik lideri yapmak için yeterince altının yok." />
+    <string id="YuLLsAUb" text="{GOLD_AMOUNT}{GOLD_ICON}'{.e} sahip değilsin." />
+    <string id="zpqP5LsC" text="Hemen gideceğim." />
+  </strings>
+</base>

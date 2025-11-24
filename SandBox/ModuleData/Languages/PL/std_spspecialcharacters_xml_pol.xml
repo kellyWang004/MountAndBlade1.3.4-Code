@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Polski" />
+  </tags>
+  <strings>
+    <string id="1OZBZZCi" text="{FIRSTNAME}{.nn} {.MA}Dzik{.nn}" />
+    <string id="28tWEFNi" text="{FIRSTNAME}{.nn} z Wędrowców" />
+    <string id="2U2Hy2Su" text="{FIRSTNAME}{.nn} {?FEMALE}{.F}Jasnowłosa{.aj}{?}{.MP}Jasnowłosy{.aj}{\?}" />
+    <string id="3wzexaA7" text="{FIRSTNAME}{.nn} {.F}Wilczyca{.nn}" />
+    <string id="4GIoPUen" text="{FIRSTNAME}{.nn} {.MP}Szermierz{.nn}" />
+    <string id="6CAbkgS4" text="{FIRSTNAME}{.nn} ze Stelmachów" />
+    <string id="7apnGFz7" text="{FIRSTNAME} {?FEMALE}{.F}Czarna{.aj}{?}{.MP}Czarny{.aj}{\?}" />
+    <string id="7hrmlfxh" text="z Legionu" />
+    <string id="7lg12a57" text="{FIRSTNAME}{.nn} {?FEMALE}{.F}Mężna{.aj}{?}{.MP}Mężny{.aj}{\?}" />
+    <string id="8o5SDCCJ" text="{FIRSTNAME}{.nn} {.MP}Rekin{.nn}" />
+    <string id="ACqta1a5" text="{FIRSTNAME} z Inżynierów" />
+    <string id="aE8abvsQ" text="{FIRSTNAME}{.nn} {?FEMALE}{.F}Szczęściara{.nn}{?}{.MP}Szczęściarz{.nn}{\?}" />
+    <string id="agS5lIg7" text="{FIRSTNAME}{.nn} bez Ojca" />
+    <string id="akALDUs0" text="{FIRSTNAME}{.nn} {.MP}Długi{.aj} {.MP}Nóż{.nn}" />
+    <string id="azCSz9QH" text="z Ręki" />
+    <string id="bPHbb7pc" text="{?FEMALE}{.F}Pustelniczka{.nn}{?}{.MP}Pustelnik{.nn}{\?}" />
+    <string id="bpw8fOs5" text="z Karahuzajczyków" />
+    <string id="bvjFhiDr" text="{FIRSTNAME}{.nn} {?FEMALE}{.F}Uczona{.nn}{?}{.MP}Uczony{.nn}{\?}" />
+    <string id="cP1o8eUs" text="z Jawalów" />
+    <string id="CQOlMayc" text="{FIRSTNAME}{.nn} {?FEMALE}{.F}Niechlujna{.aj}{?}{.MP}Niechlujny{.aj}{\?}" />
+    <string id="cud22JY1" text="{FIRSTNAME}{.nn} z Chirurgów" />
+    <string id="e84pvBYI" text="{FIRSTNAME}{.nn} {?FEMALE}{.F}Wywłaszczona{.aj}{?}{.MP}Wywłaszczony{.aj}{\?}" />
+    <string id="eobXmmLg" text="z Kompanii" />
+    <string id="FceN76tW" text="z Jeziornych Szczurów" />
+    <string id="femalethug" text="{.MP}Zbir{.nn}" />
+    <string id="fJmGKlaO" text="{FIRSTNAME}{.nn} {?FEMALE}{.F}Koniokradka{.nn}{?}{.MP}Koniokrad{.nn}{\?}" />
+    <string id="G8mawcBV" text="{FIRSTNAME}{.nn} {?FEMALE}{.F}Uzdrowicielka{.nn}{?}{.MP}Uzdrowiciel{.nn}{\?}" />
+    <string id="gED0ZMhi" text="Ilay" />
+    <string id="H7eELtL6" text="{.MP}Wynajęty{.aj} {.MP}żołnierz{.nn}" />
+    <string id="hrMatilh" text="{FIRSTNAME}{.nn} z Kowali" />
+    <string id="IgOTjF4i" text="z Ghilmanów" />
+    <string id="IVnvHF8S" text="z Elefterów" />
+    <string id="Ivx4uJVp" text="{FIRSTNAME}{.nn} {?FEMALE}{.F}Milcząca{.aj}{?}{.MP}Milczący{.aj}{\?}" />
+    <string id="j2nVPqIX" text="{FIRSTNAME}{.nn} {.MA}Jastrząb{.nn}" />
+    <string id="jepZ0btT" text="{?HERO.GENDER}{.F}Pewna{.aj} Konkurentka{.nn}{?}{.MP}Pewny{.aj} Konkurent{.nn}{\?}" />
+    <string id="jG3duO7A" text="z Wybranych" />
+    <string id="jKAhAoVb" text="z Ludzi Kniej" />
+    <string id="JL8RBEu3" text="z Beni Zilal" />
+    <string id="KkStFl12" text="z Wilczoskórych" />
+    <string id="KnTl4ESh" text="{FIRSTNAME}{.nn} {?FEMALE}{.F}Złodziejka Krów{.nn}{?}{.MP}Złodziej Krów{.nn}{\?}" />
+    <string id="KphYbafC" text="{?HERO.GENDER}{.F}Śmiała{.aj} Konkurentka{.nn}{?}{.MP}Śmiały{.aj} Konkurent{.nn}{\?}" />
+    <string id="KY2zbWkj" text="{FIRSTNAME}{.nn} {?FEMALE}{.F}Zwinna{.aj}{?}{.MP}Zwinny{.aj}{\?}" />
+    <string id="LmlL8fVu" text="{FIRSTNAME}{.nn} {.MI}Krwawy{.aj} {.MI}Topór{.nn}" />
+    <string id="mcbREzPt" text="spośród Strażników" />
+    <string id="mtBA7sfk" text="{?HERO.GENDER}{.F}Zaciekła{.aj} Konkurentka{.nn}{?}{.MP}Zaciekły{.aj} Konkurent{.nn}{\?}" />
+    <string id="muC2SGlM" text="{FIRSTNAME}{.nn} z Pustkowi" />
+    <string id="N4taBJyx" text="{FIRSTNAME}{.nn} {?FEMALE}{.F}Tropicielka{.nn}{?}{.MP}Tropiciel{.nn}{\?}" />
+    <string id="nDtjEazo" text="{FIRSTNAME}{.nn} Miechowy Oddech" />
+    <string id="nqE62lQW" text="{FIRSTNAME}{.nn} {.MA}Czarny{.aj} {.MA}Ząb{.nn}" />
+    <string id="NSaetzNJ" text="{FIRSTNAME}{.nn} {.MP}Gryziwęgiel{.nn}" />
+    <string id="ntkipfCV" text="{FIRSTNAME}{.nn} {?FEMALE}{.F}Głośna{.aj}{?}{.MP}Głośny{.aj}{\?}" />
+    <string id="NWuGUi4p" text="{FIRSTNAME}{.nn} {.F}Lamparcica{.nn}" />
+    <string id="OArAImbM" text="{FIRSTNAME}{.nn} ze Wzgórz" />
+    <string id="OFWvD0xe" text="{FIRSTNAME}{.nn} {.F}Hiena{.nn}" />
+    <string id="OIXub6bS" text="{FIRSTNAME}{.nn} {?FEMALE}{.F}Samotniczka{.nn}{?}{.MP}Samotnik{.nn}{\?}" />
+    <string id="oJJPZOKf" text="{.MP}Wikrum" />
+    <string id="OzjuQYGH" text="ze Skolderbrodów" />
+    <string id="PQkMcfAW" text="{FIRSTNAME}{.nn} {?FEMALE}{.F}Wygnanka{.nn}{?}{.MP}Wygnaniec{.nn}{\?}" />
+    <string id="PSwlXa0z" text="Kontakt" />
+    <string id="pTuZB1Hj" text="{FIRSTNAME}{.nn} {.MI}Żelazny{.aj} {.MP}Brzuch{.nn}" />
+    <string id="pZSAdyC0" text="{FIRSTNAME}{.nn} {?FEMALE}{.F}Rzeźniczka{.nn}{?}{.MP}Rzeźnik{.nn}{\?}" />
+    <string id="q5QjQyde" text="{FIRSTNAME}{.nn} {?FEMALE}{.F}Szalona{.aj}{?}{.MP}Szalony{.aj}{\?}" />
+    <string id="QGcgQDqK" text="z Bractwa" />
+    <string id="Qm5cstq3" text="Ulik" />
+    <string id="qslA0bVb" text="{FIRSTNAME}{.nn} {?FEMALE}{.F}Czerwona{.aj}{?}{.MP}Czerwony{.aj}{\?}" />
+    <string id="QWbgE4bw" text="{FIRSTNAME}{.nn} o Żelaznym Spojrzeniu" />
+    <string id="QyQPJJ9B" text="{FIRSTNAME}{.nn} {?FEMALE}{.F}Przeklęta{.aj}{?}{.MP}Przeklęty{.aj}{\?}" />
+    <string id="R0NM6lfm" text="Raekel" />
+    <string id="rgdi5Sxa" text="{FIRSTNAME}{.nn} {.MP}Książę{.nn}" />
+    <string id="rtsnnL2J" text="{FIRSTNAME}{.nn} {.F}Tarczowniczka{.nn}" />
+    <string id="S9skielR" text="{.MP}Nerwowy{.aj} {.MP}właściciel{.nn} karawany" />
+    <string id="S9z09NaN" text="{.MP}Wynajęty{.aj} {.MP}weteran{.nn}" />
+    <string id="sdzaip5J" text="{FIRSTNAME}{.nn} o Wielkiej Wiedzy" />
+    <string id="seS9ZZUW" text="{FIRSTNAME}{.nn} {?FEMALE}{.F}Szara{.aj} {.F}Sokolica{.nn}{?}{.MA}Szary{.aj} {.MA}Sokół{.nn}{\?}" />
+    <string id="sk64gxdw" text="{?HERO.GENDER}{.F}Dumna{.aj} Konkurentka{.nn}{?}{.MP}Dumny{.aj} Konkurent{.nn}{\?}" />
+    <string id="t9e34kgH" text="{FIRSTNAME}{.nn} ze Złodziei" />
+    <string id="TyxXbqVw" text="{FIRSTNAME}{.nn} {?FEMALE}{.F}Sokolica{.nn}{?}{.MA}Sokół{.nn}{\?}" />
+    <string id="vmwCdada" text="Jihan" />
+    <string id="vtXRptVa" text="{FIRSTNAME}{.nn} {?FEMALE}{.F}Mieniąca{.aj} się Złotem{?}{.MP}Mieniący{.aj} się Złotem{\?}" />
+    <string id="W7aa22Yl" text="{FIRSTNAME}{.nn} {.MP}Czaszkołom{.nn}" />
+    <string id="w9u2RUgm" text="{FIRSTNAME} o Dziwacznym Spojrzeniu" />
+    <string id="WU5GnkvR" text="{FIRSTNAME}{.nn} {.F}Ryba{.nn}" />
+    <string id="WvwWX4me" text="{FIRSTNAME}{.nn} o Szerokiej Piersi" />
+    <string id="X2TtXlAq" text="{.F}Perykleja" />
+    <string id="XBJtv4mD" text="{FIRSTNAME}{.nn} {?FEMALE}{.F}Handlarka{.nn} przyprawami{?}{.MP}Handlarz{.nn} przyprawami{\?}" />
+    <string id="xTQPfmS9" text="{FIRSTNAME}{.nn} {.MA}Byk{.nn}" />
+    <string id="XuxARPTM" text="{FIRSTNAME}{.nn} {.MI}Powiew{.nn} Goryczy" />
+    <string id="ykTARD4b" text="{FIRSTNAME}{.nn} {.MP}Wyrzutek{.nn}" />
+    <string id="yr5pa0hs" text="{FIRSTNAME}{.nn} {.F}Wierzbowa{.aj} {.F}Kora{.nn}" />
+    <string id="ZCc3VFat" text="{FIRSTNAME}{.nn} {?FEMALE}{.F}Siwa{.aj}{?}{.MP}Siwy{.aj}{\?}" />
+    <string id="zoaTZMm7" text="{FIRSTNAME}{.nn} {.F}Łowczyni{.nn}" />
+    <string id="zXjdb1zT" text="{FIRSTNAME}{.nn} {?FEMALE}{.F}Mroźnobroda{.aj}{?}{.MP}Mroźnobrody{.nn}{\?}" />
+  </strings>
+</base>

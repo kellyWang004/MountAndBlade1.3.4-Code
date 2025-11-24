@@ -1,0 +1,223 @@
+<Brushes>
+  <Brush Name="Popup.Button.Base">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\Popup\button_default" IsHidden="true" />
+      <BrushLayer Name="Hovered" Sprite="StdAssets\Popup\button_default_hover" IsHidden="true" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="1.1" IsHidden="false" HorizontalFlip="true" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Hovered" ColorFactor="1.1" IsHidden="false" HorizontalFlip="true" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Hovered" ColorFactor="0.8" IsHidden="false" HorizontalFlip="true" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" ColorFactor="1.2" IsHidden="false" HorizontalFlip="true" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.5" IsHidden="false" HorizontalFlip="true" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Popup.Done.Button" BaseBrush="Popup.Button.Base">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\Popup\done_button" IsHidden="true" />
+      <BrushLayer Name="Hovered" Sprite="StdAssets\Popup\done_button_hover" IsHidden="true" />
+    </Layers>
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="panels/next" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="Popup.Done.Button.NineGrid" BaseBrush="Popup.Button.Base">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="done_button_9" IsHidden="true" />
+      <BrushLayer Name="Hovered" Sprite="done_button_hover_9" IsHidden="true" />
+    </Layers>
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="panels/next" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="Popup.Cancel.Button" BaseBrush="Popup.Button.Base">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\Popup\button_default" IsHidden="true" />
+      <BrushLayer Name="Hovered" Sprite="StdAssets\Popup\button_default_hover" IsHidden="true" />
+    </Layers>
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="panels/next" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="Popup.Delete.Button" BaseBrush="Popup.Button.Base">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\delete_button_regular" IsHidden="true" />
+      <BrushLayer Name="Hovered" Sprite="StdAssets\delete_button_hovered" IsHidden="true" />
+    </Layers>
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="panels/next" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="Popup.UpdateSave.Button" BaseBrush="Popup.Button.Base">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\update_save_button" IsHidden="true" />
+      <BrushLayer Name="Hovered" Sprite="StdAssets\update_button_hovered" IsHidden="true" />
+    </Layers>
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="panels/next" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="Popup.Cancel.Button.NineGrid" BaseBrush="Popup.Button.Base">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="button_default_9" IsHidden="true" />
+      <BrushLayer Name="Hovered" Sprite="button_default_hover_9" IsHidden="true" />
+    </Layers>
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="panels/next" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="Popup.SelectionElement.Tuple">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\Popup\tuple" IsHidden="true" />
+      <BrushLayer Name="Selected" Sprite="StdAssets\Popup\tuple_selected" IsHidden="true" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="1" IsHidden="false" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1.3" IsHidden="false" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.8" IsHidden="false" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Selected" ColorFactor="1" IsHidden="false" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.5" ColorFactor="0.2" IsHidden="false" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Popup.SceneNotificaton.Selection.Item" TransitionDuration="0.05">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="scene_popup_selection_card_9" ExtendLeft="19" ExtendTop="19" ExtendRight="19" ExtendBottom="19"/>
+      <BrushLayer Name="Hovered" Sprite="scene_popup_selection_card_hover_9" ExtendLeft="19" ExtendTop="19" ExtendRight="19" ExtendBottom="19"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="1" />
+        <BrushLayer Name="Hovered" ColorFactor="1" AlphaFactor="0" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0" />
+        <BrushLayer Name="Hovered" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0" />
+        <BrushLayer Name="Hovered" ColorFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="0" />
+        <BrushLayer Name="Hovered" ColorFactor="1.3" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="1" ColorFactor="0.6" />
+        <BrushLayer Name="Hovered" AlphaFactor="0" />
+      </Style>
+    </Styles>
+    <SoundProperties>
+      <StateSounds>
+      </StateSounds>
+      <EventSounds>
+        <EventSound EventName="HoverBegin" Audio="tab" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="Popup.Frame">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="frame_9" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ExtendLeft="18" ExtendTop="18" ExtendRight="18" ExtendBottom="18" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Popup.Title.Text" Font="Galahad" TextHorizontalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#E4C59BFF" TextGlowColor="#000000FF" TextOutlineColor="#000000FF" TextOutlineAmount="0.01" TextGlowRadius="0" TextBlur="0" FontSize="36" />
+      <Style Name="Disabled" FontColor="#E4C59BFF" TextColorFactor="0.5" TextOutlineColor="#000000FF" TextOutlineAmount="0.01" TextGlowRadius="0" TextBlur="0" FontSize="36" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Popup.Timer.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#E4C59BFF" TextGlowColor="#000000FF" TextOutlineColor="#000000FF" TextOutlineAmount="0.01" TextGlowRadius="0" TextBlur="0" FontSize="38" TextColorFactor="1.2" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="SceneNotification.Title.Text" Font="Galahad" TextHorizontalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#E4C59BFF" TextOutlineColor="#000000FF" TextOutlineAmount="0.01" TextGlowRadius="0.1" TextBlur="0.5" TextShadowOffset="1" TextShadowAngle="60" FontSize="36"/>
+      <Style Name="Disabled" FontColor="#E4C59BFF" TextOutlineColor="#000000FF" TextOutlineAmount="0.01" TextGlowRadius="0.1" TextBlur="0.5" TextShadowOffset="1" TextShadowAngle="60" FontSize="36" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Popup.Description.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Left">
+    <Styles>
+      <Style Name="Default" FontColor="#F1E9DAFF" TextGlowColor="#000000FF" TextOutlineColor="#000000FF" TextOutlineAmount="0" TextGlowRadius="0" TextBlur="0" FontSize="20" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Popup.Button.Text" Font="Galahad" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#F8E3BEFF" TextGlowColor="#000000FF" TextOutlineColor="#000000FF" TextOutlineAmount="0" TextGlowRadius="0" TextBlur="0" FontSize="24" />
+      <Style Name="Disabled" TextAlphaFactor="0.5" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Popup.Tuple.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Left">
+    <Styles>
+      <Style Name="Default" FontColor="#D4B071FF" TextGlowColor="#000000FF" TextOutlineColor="#000000FF" TextOutlineAmount="0.01" TextGlowRadius="0" TextBlur="0" FontSize="25" />
+      <Style Name="Disabled" FontColor="#D4B071FF" TextGlowColor="#000000FF" TextColorFactor="0.7" TextOutlineColor="#000000FF" TextOutlineAmount="0.01" TextGlowRadius="0" TextBlur="0" FontSize="25" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Popup.Scene.ClickToContinue.Text" Font="Galahad" TextHorizontalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#D7AC6FFF" TextOutlineColor="#000000FF" TextOutlineAmount="0.01" TextGlowRadius="0.1" TextBlur="0.5" TextShadowOffset="1" TextShadowAngle="60" FontSize="35" AnimationToPlayOnBegin="Anim"/>
+    </Styles>
+    <Animations>
+      <Animation Name="Anim" Duration="0.5" Loop="true">
+        <AnimationProperty PropertyName="TextAlphaFactor">
+          <KeyFrame Time="0.0" Value="1" />
+          <KeyFrame Time="0.25" Value="0.5" />
+        </AnimationProperty>
+      </Animation>
+    </Animations>
+  </Brush>
+
+</Brushes>

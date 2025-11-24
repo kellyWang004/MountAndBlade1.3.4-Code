@@ -1,0 +1,1064 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="日本語" />
+  </tags>
+  <strings>
+    <string id="04gFKwY1" text="まあ、もしそのような者を見かけたら教えてくれ。" />
+    <string id="07qBenIW" text="エールの瓶" />
+    <string id="07QlFlXK" text="ニシン料理" />
+    <string id="09PJ02x6" text="やあ。あんたはこの地を馬で駆け巡って、必死で富と権力を得ようとしている連中の一人だろう。そんなことをして何になるというのか…" />
+    <string id="0aGYre5B" text="{LEADER.LINK}が{ARMY_NAME}のもとに到着しました。" />
+    <string id="0dlDkkJV" text="密偵を発見できませんでした。{QUEST_GIVER.LINK}は落胆しています。" />
+    <string id="0enbhess" text="ありがとう。[ib:normal][if:convo_approving]報酬に見合った働きをしてくれると、信じているよ…" />
+    <string id="0fp67gxl" text="良い一日を。" />
+    <string id="0hXofVLx" text="心配無用です、私が彼女を連れてきます。" />
+    <string id="0NxiTi8b" text="戦利品を分けたくなかったから、あんたは商人と徒党集団のリーダーを両方裏切ったんだ。" />
+    <string id="0qc11kmz" text="羊肉のダンプリング" />
+    <string id="0RCdPKj2" text="はい、{?QUEST_GIVER.GENDER}彼女{?}彼{\?}は悲しむでしょう。でも、あなたが思っているような理由ではありません。{QUEST_GIVER.LINK}は{?QUEST_GIVER.GENDER}彼女{?}彼{\?}の味方の息子たちに、私を嫁がせるつもりでした。その事が{?QUEST_GIVER.GENDER}彼女{?}彼{\?}の計画を、破綻させることになるのです。事実、そうなります。" />
+    <string id="0RTwaPBJ" text="私はたくさんの人間と話をする。もちろん私は{QUEST_GIVER.NAME}に忠実だし、[if:convo_pondering]常に密偵がいないか目を光らせている。だがそのような者を、一人も見たことがない。" />
+    <string id="0UUCTaEj" text="最近、君に対する不満をよく耳にする。そろそろ態度を改めないと、ムチ打ちに処されるぞ。[if:convo_mocking_revenge]" />
+    <string id="0Wg00sfN" text="ありがとうございます、{?PLAYER.GENDER}ご婦人{?}旦那様{\?}。すぐに出発します。" />
+    <string id="0YJGvJ7o" text="すぐにここを去れ。" />
+    <string id="108Dchvt" text="やめろ！これ以上、戦い続ける必要はない。法の裁きが下された今、君とはもう争わない。" />
+    <string id="15UCTrNA" text="選択肢はないんだろう？ まあ、裏切り者よりも正直な泥棒の方がマシか！[if:convo_aggressive] {?PLAYER.GENDER}あの女{?}あの男{\?}をやってしまおう。" />
+    <string id="1auLEn9y" text="なあ、{?PLAYER.GENDER}あんた{?}あんた{\?}。確かに今は厳しい時代だよ。だけど、とにかくそこをどいちゃくれないか。客が怖がって逃げてしまう。" />
+    <string id="1bzdDYoO" text="全てのAIポーンがブロックされました。移動するためにプレイヤーのポーンを1体撤去します" />
+    <string id="1esi62Zb" text="そうだな…競技会は記憶に残るものだ。だから後援者たちは金を出し合い、市場で話題になるような賞品を何週間もかけて仕入れる。例えば、宝石がはめ込まれた剣や、良い血統の軍馬など。勝者が持つにふさわしい誇りあるものだ。" />
+    <string id="1FbydhBb" text="富と権力を楽しんでいるんだ。" />
+    <string id="1ieLd5qq" text="町民の話では、その密偵には目立つような傷や、顔のアザはないとのことです。" />
+    <string id="1jExD58d" text="{SETTLEMENT_NAME}の商人{QUEST_GIVER.LINK}は、{?QUEST_GIVER.GENDER}彼女{?}彼{\?}の娘{TARGET_HERO.NAME}が誘拐されたか、地元の不良と逃げたとあなたに伝えました。あなたは彼女を捜索し、{SETTLEMENT_NAME}に連れ戻すことに同意しました。この集落を出るまでの間に彼らの足取りが掴めなければ、{SETTLEMENT_NAME}の近隣の村にも立ち寄り、誘拐犯に関するヒントを探しましょう。" />
+    <string id="1MaECke2" text="善いことをするために権力が欲しいんだと自分に言い聞かせてるやつはたくさんいるが、結局は自分のために権力が欲しいんだ。自分が権力を欲してないということを確かめる唯一の方法は、権力を手放すことだよ。" />
+    <string id="1NSRPYZt" text="ただの通りすがりだ。何かあったのか？" />
+    <string id="1Pc0SXXL" text="製作スタミナを満タンにする" />
+    <string id="1rCk6xRa" text="では… 君が望むなら、[if:convo_normal][ib:normal]" />
+    <string id="1yEyUHJe" text="あなたの部下たちが私の権利証を取り戻せるよう、祈っている。[if:convo_excited]父の名に懸けて、二度と賭け事はするまい。" />
+    <string id="1YGgXOB7" text="ほう… 街の通りが、そんな簡単に支配できるものだと思ってるのか？舐めるなよ。さて、金の話をしよう。[ib:closed2][if:convo_nonchalant]" />
+    <string id="22nahm29" text="あなたは商人の隊商との戦いに負け、{QUEST_GIVER.LINK}を助けることができませんでした。" />
+    <string id="28lLrXOe" text="{ISSUE_GIVER.LINK}は{TARGET_MERCHANT.LINK}に対する強盗の計画を話しました。あなたは待ち伏せのために仲間と部下{TROOP_COUNT}人を送り込むことに同意しました。彼らは{RETURN_DAYS}に戻ってきます。" />
+    <string id="2AGIxoUN" text="あなたのクランの一員・{MOTHER}が、子を宿していることを知りました。" />
+    <string id="2aXYYNBG" text="髪を切りに来たんですか、{?PLAYER.GENDER}ご婦人{?}旦那様{\?}？新しい日に向けて新しい髪型を？" />
+    <string id="2dL6j8Hp" text="死体と結婚したいか？話を聞かなければ、お前の恋人を殺すぞ。" />
+    <string id="2eydhtcz" text="現在、{PRISONER_NAMES} {?IS_PLURAL}が{?}が{\?}ここに投獄されています。" />
+    <string id="2fbLBXtT" text="「彼女は鯨の道を進んだ{newline}彼女に従うのは死者{newline}彼女が通った跡には暗雲が立ち込めた」" />
+    <string id="2Fxva3RY" text="お前のような奴に命令されるいわれはない。" />
+    <string id="2haJj9mp" text="隊商を率いる前に、まず他の問題を片付けなくてはいけない。" />
+    <string id="2ihQeId5" text="{CALLING_KINGDOM}はあなたの領地に対して{KINGDOM_TO_CALL_TO_WAR_AGAINST}と戦争するように呼びかけました。" />
+    <string id="2iVytG2y" text="私はまだ納得していない。お前が道理をわきまえるまで、容疑者を守り続ける。" />
+    <string id="2lgkL9db" text="もちろん。私も密偵を雇ったことはある。だが駐屯地や壁の状態について、[if:convo_pondering][ib:confident3]色々と質問してくる競技会の参加者など、到底ただの旅人ではあるまい。その事と私が個人的に集めた情報をもとに、その人物を探し当てられるだろう。その密偵は恐らく、{SELECTED_SETTLEMENT}に隠れている。そこで町人に聞き込みをするといい。" />
+    <string id="2Lj0WkSF" text="{COMPANION.NAME}は{KINGDOM}の{?COMPANION.GENDER}貴族{?}貴族{\?}になりました。" />
+    <string id="2luygc8o" text="ふむ、いいだろう。私も抱えている問題を、少し忘れることができる。" />
+    <string id="2LW2jWuG" text="これで密偵を割り出すのに十分な証拠が揃った。競技会の参加者たちが地元のゴロツキ共と、裏通りでたむろしているかもしれない。彼らを見つけて話をしてくるんだ。" />
+    <string id="2nFBTmao" text="聞き込みの他に解決する方法はあるか？" />
+    <string id="2OmrHVjp" text="{QUEST_GIVER.LINK}は{QUEST_SETTLEMENT}の所有権をなくしました。{?QUEST_GIVER.GENDER}彼女{?}彼{\?}との契約は解除されました。" />
+    <string id="2P3UJ8be" text="あなたは村人たちに{TARGET_HERO.NAME}か、若い娘を連れた怪しい人物を見かけなかったか聞いてまわりました。{newline}{newline}村人たちによると、若い男女が明け方に馬に乗ってやってきたようです。そして彼らは備品をいくらか購入し、{TARGET_VILLAGE}の方へと去っていったようです。" />
+    <string id="2PEKd3Sz" text="やはり、気が変わった。命令は撤回する…" />
+    <string id="2VRTPyZY" text="{SETTLEMENT}はあなたのものです。" />
+    <string id="2WI066bI" text="トラは殺された。バヌ・キルドの檻の中で死んだ。{newline}女たちは悲しんで涙を流し、夫たちは安堵のため息をついた。" />
+    <string id="2WnruiBw" text="{CLOSEST_TOURNAMENT}で開催されるものがあるはずだ。急げば間に合うだろう。" />
+    <string id="2ynnnR4c" text="難易度は今のままにしておきたい。" />
+    <string id="31oG5njl" text="君はするいどな。重要な案件について君の考えを聞けば、我々の王国はより良い国になるだろう。" />
+    <string id="349mwgWC" text="もちろん。いいゲームはいつでも、精神を冴えわたらせてくれる。" />
+    <string id="35w6g8gM" text="もっと話してくれ。あの男に何があった？ " />
+    <string id="3buSOoHl" text="失せろ！" />
+    <string id="3BvfOe1y" text="いいだろう。もっと捕まえるといい。そしてそいつらをウチに預けたくなったら、いつでも訪ねて来い…" />
+    <string id="3E1XVyGM" text="路地の所有権を失います。" />
+    <string id="3FvGk8k6" text="あなたの集落{SETTLEMENT}が、{FACTION}の{PARTY}により包囲されました！" />
+    <string id="3FzBTb3w" text="情報、感謝する。{COMPANION_INQUIRY_COST}{GOLD_ICON}払ったかいがあった。" />
+    <string id="3hv4P5OO" text="{GAME_NAME}で時間を潰しませんか？" />
+    <string id="3kHmtbVZ" text="彼がやったことは間違っていたが、否定はしない。しかし、絞首刑にされた今、私は一体どうすれば？彼の子供は彼の罪を負わなければならないのか？" />
+    <string id="3n1KRLpZ" text="「私の愛する人は遠い場所にいる{newline}どこかはわからない{newline}風が教えてくれるかもしれない」" />
+    <string id="3oaVUNdr" text="あなたがその決断を[if:convo_disbelief]後悔しないと良いのですが、{?PLAYER.GENDER}お嬢様{?}我が君{\?}。" />
+    <string id="3sfjBnaJ" text="静かだ。静かすぎる。こんなに長い時間、静寂が続いたことは過去にない。" />
+    <string id="3tmXBpRH" text="君の言う通りだ。私にはできない。家族のところへ戻るよ。 " />
+    <string id="3UX334MB" text="ふむ… わかった。邪魔をしてすまなかった。" />
+    <string id="3wb2dCfz" text="すぐそのように致します、{?PLAYER.GENDER}ご婦人{?}ご主人{\?}" />
+    <string id="3wzCrzEq" text="{HERO.NAME}はレベルが1上がりました。" />
+    <string id="3XimdHOn" text="彼が君にそう言うよう、強制していないという証拠は？" />
+    <string id="3zZ8ZIca" text="夏は嫌いだ。暑さで寝れやしない。井戸の水も減っているらしい…" />
+    <string id="45llLiYG" text="どう助けてくれる？私を守ってくれるのか？[ib:normal][if:convo_astonished]" />
+    <string id="46Q5MQHK" text="今年は不作だった。余裕のない冬と、過酷な春が待っているだろう。私の言葉を覚えておくといい。[rf:convo_grave]" />
+    <string id="4aiabOd4" text="思っていた通り、あなたは分別のある{?PLAYER.GENDER}女性{?}男性{\?}です。" />
+    <string id="4CFOH0kB" text="まだ疑問は残るが、君の言う通り、確かに私に与えられた選択肢はそう多くない。早く片づけてしまおうか。[ib:closed][if:convo_pondering]" />
+    <string id="4hDu8rDF" text="私は別の人を考えています。" />
+    <string id="4HokUcma" text="関係ないことに首を突っ込むと[if:convo_very_stern]後悔するぞ！" />
+    <string id="4IHRAmnA" text="わかった。君の密売人を待とう。" />
+    <string id="4KvAwfEZ" text="軍馬を10頭増やす" />
+    <string id="4mwSvCgG" text="ああ。私と来い。この件を平和的に解決するため、共に{TARGET_NOTABLE.NAME}の所に行こう。" />
+    <string id="4QfQBi2k" text="路地での戦闘に勝利" />
+    <string id="4QNycK7T" text="戻る" />
+    <string id="4Slck7UB" text="私の{RANDOM_RELATIVE}から聞いたのだが、彼はいくつかの{._}{PLURAL(ITEM_NAME)}を{TOWN_NAME}に持ち込み、{PRICE_DIFF}{GOLD_ICON}を稼いだらしい。" />
+    <string id="4tY23HWb" text="もちろん。私はカルラディアのすべての王宮で歓迎される身だ。こんなことを言える人間は、そう多くない！だから常に大量のデナールを、どこかに隠し持っておくといい。すぐにそいつを掘り出してくれる忠実な使用人も必要だ。" />
+    <string id="4upBpsnb" text="わかった。乗ろう。" />
+    <string id="4vAbAIqi" text="なるほど。わかった気がする。" />
+    <string id="4xtBNkjN" text="残念ながら賭けは、私が本気の時だけ許可している。難易度を上げてもらうしかないな。" />
+    <string id="4zdyeTGn" text="{COMPANION}があなたのクランを離脱しました。" />
+    <string id="4zf1lg6L" text="私が行ってもいいし、仲間を送ることもできる。" />
+    <string id="56ynu2bW" text="はい、{?PLAYER.GENDER}ご婦人{?}ご主人{\?}。" />
+    <string id="5a6KlSXt" text="困った。[ib:normal2][if:convo_pondering]我が一族の{PRODIGAL_SON.LINK}という若い男が、酒を飲んだり、女を買ったり、博打をうったりするために町へと行ったんだ。多くの若者が同じことをするが、奴は少々無謀なことをしでかしたようだ。なんと、{SETTLEMENT_LINK}の徒党集団の頭の一人である、{TARGET_HERO.LINK}に多額の借金をしているとの知らせをよこしてきたのだ。それを誰かが代わりに払うまで、あの悪党どもの屋敷に「客」として囚われるはめになった。" />
+    <string id="5aDlmdmb" text="いや… おかしい。理屈が通らない。" />
+    <string id="5bIpeW9X" text="{SETTLEMENT}にあるあなたの路地が徒党集団に攻撃されています。助けに行かなければ、{RESPONSE_TIME}日後に路地を失うことになります。" />
+    <string id="5bRQ0gt7" text="兵は何人必要なんだ？兵士一人につき、100{GOLD_ICON}もらうぞ。" />
+    <string id="5EXL1MiE" text="時々、エリスリス山にいる隠者たちのところに逃げ込んで、心配事を忘れてしまいたいと思う。偉大なる領主どもが何人かあそこに行ってくれればなお良いな。引退して陽の光を浴びながら過ごせるし、頭をはねられる心配をしなくてよくなるし、私たちに税を課す必要もなくなる。皆が幸せになるんだ。" />
+    <string id="5hbSkbQg" text="このセーブファイルは、e1.7.0より古いバージョンで作成されたものです。ゲームのバージョンをe1.7.0に切り替えて本セーブファイルをロードした後、改めてゲームをセーブしてください。この手順をおこなうことで、e1.7.0以降の新しいバージョンでも使用可能となります。" />
+    <string id="5jW4FVDc" text="では、我々の隊にようこそ。[ib:warrior][if:convo_evil_smile]あの野郎共を殺しに行こう！" />
+    <string id="5NljlbLA" text="ありがとうございます、心優しい{?PLAYER.GENDER}お方{?}お方{\?}。感謝します。" />
+    <string id="5om6Wv1n" text="数人の町人に聞き込みをし、密偵にはヒゲがあることがわかりました。" />
+    <string id="5puy0Jle" text="{ISSUE_OWNER.NAME}はプレイヤーに、一族の若者を助け出すよう頼んできた。若者は博打で多額の借金を作ったらしく、徒党集団の頭たちに身柄を拘束されているようだ。どんな手を使っても若者を取り戻してほしいとの依頼だ。" />
+    <string id="5R0TauYV" text="敵に気付かれました。" />
+    <string id="5RDF3aZN" text="{SALUTATION}… 私のところに来たのだな！" />
+    <string id="5uXs8pS9" text="{SETTLEMENT_NAME}の建設プロジェクトを全て完了する" />
+    <string id="5W7Kxfq9" text="わかった。そのような事情なら、君を解放してやろう。" />
+    <string id="5ZbsASDx" text="アレニコス皇帝いい気分、{newline}ワインと共にベッド入り。{newline}朝になると、死んでいた。{newline}代わりに奥さん玉座入り！" />
+    <string id="63jJ3GGY" text="各製作素材を10個ずつ追加" />
+    <string id="64p9ULVu" text="一番向こうにある畑のすぐ外で、山賊どもがうろついているそうじゃないか。私たちの税金はどう使われているんだ？{?OWNER.GENDER}領主{?}領主{\?} {OWNER.LINK}の部下達は、一体何をしているのだ？" />
+    <string id="6dDXb4iI" text="本当か？ もしそうなら、荷物をまとめて加われるぞ。" />
+    <string id="6eHPy57Z" text="{CALLED_KINGDOM}があなたの領地に対して発した{KINGDOM_TO_CALL_TO_WAR_AGAINST}との戦争への呼びかけは終了しました。" />
+    <string id="6f9Hs5zp" text="{CLAN_NAME}は傭兵の契約を終了させ、{NEW_FACTION_NAME}の家臣となった" />
+    <string id="6g8qvD2M" text="いつまでも待てないぞ。早く決めるんだ。" />
+    <string id="6JL4GyKC" text="今は話せない。この辺りを見張ってないといけないんだ。" />
+    <string id="6nIC6i2V" text="時折私のことを探し出そうとする従者が何人もいてね。そのうちの1人に言って、あなたの親族へと伝言を送らせよう。ひょっとすると、跡継ぎの指名をお望みかな？" />
+    <string id="6OmbzoBs" text="{ISSUE_GIVER_SETTLEMENT}の商人、{ISSUE_GIVER.LINK}から、{?ISSUE_GIVER.GENDER}彼女{?}彼{\?}の娘がいなくなったことを聞かされました。あなたは{COMPANION.LINK}と{REQUIRED_TROOP_AMOUNT}の兵士に、彼女を探し連れ戻すよう命じました。彼らは{ALTERNATIVE_SOLUTION_DAYS}日後に任務を完了させ、帰還する予定です。" />
+    <string id="6Q4cPOSG" text="はい、そうします。" />
+    <string id="6SppoTum" text="はい？何のご用ですか？" />
+    <string id="6TgRwB2Q" text="影響力を100追加" />
+    <string id="6zcG8eng" text="あなたは{CULPRIT.LINK}を守ろうとしましたが圧倒されてしまいました。{NOTABLE.LINK}は報復を果たしました。あなたは{QUEST_GIVER.LINK}と約束をしたにも関わらず、{CULPRIT.LINK}を守ることができませんでした。{?QUEST_GIVER.GENDER}彼女{?}彼{\?}は激怒しています。" />
+    <string id="6zxo4AU9" text="とても光栄なことです、{?PLAYER.GENDER}ご婦人{?}閣下{\?}。少しだけお時間をいだたけませんか？あなたのお役に立てるかもしれません。" />
+    <string id="79XElnsg" text="{ISSUE_GIVER_1.LINK}が何らかの仕事を頼みたがっていたな。それと{ISSUE_GIVER_2.LINK}も誰かを探してる様子だった。" />
+    <string id="7AiP4BwY" text="何を話すことがあると言うのか？[if:convo_confused_annoyed]こいつは私の親族の一人を殺した。私たちには報復する権利がある！" />
+    <string id="7B7BhVhV" text="さあ、どう出る…[if:convo_confused_annoyed]" />
+    <string id="7hlGVkbq" text="{PLAYER.NAME}… あんたがなぜそんな格好をしているのかわからないし、知りたいとも思わない。だが、周りを見渡せば、あんたを助けてくれる人が見つかるはずだ。" />
+    <string id="7IxFrati" text="こんにちは、{?PLAYER.GENDER}お嬢様{?}領主様{\?}。何かお力になれることでも？" />
+    <string id="7k03GxZ1" text="いい取引をさせてもらった。部下たちには、すぐにあの小僧を解放するよう伝えておく。[if:convo_mocking_teasing]" />
+    <string id="7kn4Jmdl" text="上手だね！自分の子供の頃を思い出すよ。" />
+    <string id="7pH9MzS1" text="我々が戦えば、金を払うと言うのか？お前にとって何の得があるんだ？" />
+    <string id="7qPda0SA" text="ああ… 確かに問題を抱えている。私の親戚の一人が短気な性格のために、口論の末、{TARGET_VILLAGE}の男を殺してしまった。[ib:normal2][if:convo_dismayed]私たちは亡くなった男の家族に賠償金を支払う申し出をしたが、頑なに拒否されてしまった。亡くなったのは{TARGET_NOTABLE}の親族で、この地方の長老であることが判明した。それで{TARGET_VILLAGE}の男達が私の親戚を殺す誓いを立てたのだ。" />
+    <string id="7RyXSkEE" text="{QUEST_GIVER.NAME}の娘と駆け落ちした、恋煩いの哀れな愚か者にはなりたくないだろう。" />
+    <string id="7tuyySmq" text="私から始めよう。" />
+    <string id="7uFFaSHv" text="一部の人々が言うには、私たちの{?OWNER.GENDER}領主{?}領主{\?} {OWNER.LINK}は大変意地が悪いらしい。だが私はほとんどの人間は悪党だと思っているし、人々が多少の恐怖感を持つのは良いことだと思う。なんだかんだで、最近は食卓に肉を出すことができるんだ。その事実は誰にも否定できまい。" />
+    <string id="7v2dMsW5" text="あなたの妻・{MOTHER}が、子を宿していることを知りました。" />
+    <string id="7wkHMnNM" text="{AMOUNT}{GOLD_ICON}をやれば、私の顔を覚えておいてもらえるかな。" />
+    <string id="7WlQ0Twr" text="{SETTLEMENT}の{WEAPON}が、{BESIEGER}の兵士数名に命中した！" />
+    <string id="88Fk9keT" text="優秀な補給官さえいればより少ない物資でも、もっとやれることがあるはずだ。" />
+    <string id="89b5ao7P" text="今は賭け事に使えるような1000デナールなんてない。その額が手に入ったらまた来る。" />
+    <string id="8bfzW0np" text="多くの捕虜たちは未だに捕らえられたままだ。彼らを取り戻せるなら、家族は金を払う。私のような男たちが帝国と外部の王国を行き来し、囚人を確保しては、彼らの家族に連絡を取って身代金を要求するのだ。" />
+    <string id="8bnlS0IV" text="畑を耕したり、種を巻いたり… まだこれから何週間もその繰り返しだ。" />
+    <string id="8CW2y0p3" text="兵士があなたの部隊に加わりました" />
+    <string id="8EaCJ2uw" text="他にできることはありますか？" />
+    <string id="8gmne3b9" text="私に対してではありません、{?PLAYER.GENDER}マダム{?}サー{\?}。誰かが別の商人にそう話しているのは、耳に入りました。男が嫌な感じの剣を持っていたので覚えていたのです。[if:convo_disbelief]" />
+    <string id="8hNYr2VX" text="通りかかっただけです。" />
+    <string id="8LghFfQO" text="{ISSUE_GIVER.NAME}が{TARGET_MERCHANT.NAME}を襲えるよう、護衛のフリをしよう。" />
+    <string id="8N3cs42a" text="で… 噂によると{NOTABLE.LINK}は、{?NOTABLE.GENDER}自分{?}自分{\?}の持ってる{.%}{SHOP_TYPE}{.%}にかける費用を削減するらしい。なんでも{?NOTABLE.GENDER}奴{?}奴{\?}は雇い人たちの賃金を、片っぱしから切り詰めてたって話だ。" />
+    <string id="8NDuezga" text="私の{RANDOM_RELATIVE}と話していたのだが、彼はこの辺で{._}{PLURAL(ITEM_NAME)}をいくつか安く購入し、{TOWN_NAME}へ持ちこんだそうなんだ。それで1つにつき{PRICE_DIFF}{GOLD_ICON}を稼いだらしい。" />
+    <string id="8SK2BZum" text="あなたは徒党集団のリーダーが支配していた路地を一掃しました。自分のために利用することもできますし、町のために空けておくこともできます。路地を所有するには、監視のために適切なクランの一員と兵士をいくつか配置しなければなりません。これによってあなたのクランはデナールを得ることができますが、犯罪者ランクも上昇します。" />
+    <string id="8Wy1OCsr" text="{BESIEGER}の{WEAPON}が{SETTLEMENT}の壁に命中した！" />
+    <string id="8XM8CHIm" text="義兄弟" />
+    <string id="91x5mjXa" text="おい！こんな馬鹿げた服で俺たちを騙せるとでも思ったのか？お前をどうするか決めるまで、地下牢に入ってもらおう！" />
+    <string id="92sbq1YY" text="私は子供ではない、{?PLAYER.GENDER}この女め{?}この野郎{\?}！武器を抜け！決闘だ！[ib:warrior2][if:convo_excited]" />
+    <string id="94WRYoQp" text="{QUEST_SETTLEMENT}の{?QUEST_GIVER.GENDER}領主{?}領主{\?} {QUEST_GIVER.LINK}が、競技会の参加者の中に、密偵がいるという噂をあなたに伝えました。あなたは単身で、この事態を収束させることを約束しました。{QUEST_GIVER.LINK}によるとその密偵は、{QUEST_SETTLEMENT}の街で競技会の参加者を装っているようです。" />
+    <string id="99OsuHGa" text="あなたが探している人物を見つけます。" />
+    <string id="9ACSEvzD" text="なら続けるとしよう。" />
+    <string id="9b2BETct" text="すでに決断した。それを変えるつもりはない。" />
+    <string id="9Box0Yj7" text="{?NOTABLE.GENDER}領主{?}領主{\?}{NOTABLE.LINK}様… 私たちは恵まれています。" />
+    <string id="9DDWjL9Y" text="ふむ… そうかもしれない。だが、誰だったか思い出せない。怪しいとは思わなかった。" />
+    <string id="9FMvBKrV" text="兵士を5個渡す" />
+    <string id="9Kr9pjGs" text="{QUEST_GIVER.LINK}は{?QUEST_GIVER.GENDER}彼女{?}彼{\?}の部下の準備を整え、あなたを待っています。" />
+    <string id="9O8a1Yz8" text="{NOTABLE.LINK}が{?NOTABLE.GENDER}彼女の{?}彼の{\?}持つ{.%}{SHOP_TYPE}{.%}で、人材を募集していると市場で耳にした。{?NOTABLE.GENDER}彼女{?}彼{\?}は雇用者に対して親切だと聞く。" />
+    <string id="9PBA2OJz" text="着いたよ、{?HERO.GENDER}彼女{?}彼{\?}だ。" />
+    <string id="9pg3qc6N" text="戦闘訓練" />
+    <string id="9pTkQ5o2" text="この若き貴族を解放してやった方が、自分のためになるぞ…" />
+    <string id="9PUvbZzD" text="{GAME_NAME}は{CULTURE_NAME}の伝統的なゲームで、冷静な戦略を要するものです。ボード上にピースを置いていき、罠を作って敵を陥れます。その後はボード全面を使用した戦いとなり、対戦相手を捕らえて排除する流れになっています。" />
+    <string id="9svpUWeo" text="セーブデータのバージョン（{SAVE_VERSION}）が、現在プレイしているバージョン（{CURRENT_VERSION}）より新しいようです。" />
+    <string id="9t1LGNz6" text="残り{RESPONSE_TIME} {?RESPONSE_TIME&gt;1}日{?}日{\?}" />
+    <string id="9VR0VeNT" text="はい、どのようにお役に立ちましょうか？" />
+    <string id="9w6zmKQ1" text="怪しまれている間に抜け出すなんて無理だ！" />
+    <string id="9XijWk1o" text="誰に尋ねられても、私は必ずこう答えています。{NOTABLE.LINK}は高潔な{?NOTABLE.GENDER}女性{?}男性{\?}であり、天の御言葉が{?NOTABLE.GENDER}彼女{?}彼{\?}を通して届けられていると。この土地の領主たちは、{?NOTABLE.GENDER}彼女{?}彼{\?}の言葉に耳を傾けなければなりません。さもなければ、私たちに不幸が降りかかるでしょう。" />
+    <string id="9z0Yz8za" text="私の右腕となれる副官を探している。戦いにおいて、兵士を指揮するのを手伝ってほしいのだ。" />
+    <string id="9ZngZ6W7" text="あなたの血族を、私の仲間の一人と{REQUIRED_TROOP_AMOUNT}の兵士たちに、{RETURN_DAYS}日間守らせましょう。 " />
+    <string id="a1FeLSbH" text="{?HERO.GENDER}彼女{?}彼{\?}の元に連れて行ってくれますか？" />
+    <string id="a2AO5T1Q" text="{CLAN_NAME}と{KINGDOM_NAME}は傭兵契約を終了した。" />
+    <string id="A2oos2Uo" text="聞いてくれ。私は{QUEST_GIVER.NAME}から与えられた任務に就いている。この辺でよそ者が駐屯地について、おかしな質問をしていなかったか？" />
+    <string id="a3AFjfsU" text="様子をみよう。 " />
+    <string id="A3GfCPUb" text="自分の権力を、このような形で利用するのは気が引ける。他に解決法はないだろうか？" />
+    <string id="A61ppTa6" text="私のような者に仕事をくれる人を知りませんか？" />
+    <string id="a6hwSEAK" text="あなたの馬はひどい怪我を負ったため、{MODIFIED_NAME}となった。" />
+    <string id="A9uSikTY" text="ありがとうございます、 {?PLAYER.GENDER}ご婦人{?}ご主人{\?}。" />
+    <string id="aB1EZssb" text="素晴らしい。では始めよう！" />
+    <string id="abpzOR0D" text="脱獄させる囚人を選択" />
+    <string id="abux36nq" text="{HERO.NAME} があなたの部隊に加入しました。" />
+    <string id="aC0Fq6IE" text="時間を無駄にするな、{PLAYER.NAME}。密偵ならば、その男も必要以上の長居はするまい。[if:convo_thinking]あるいは、女かもしれないが。" />
+    <string id="aD1BoB3c" text="ああ、もう一戦やろう。" />
+    <string id="AdbiUqtT" text="私は忙しいので、仲間といくらかの兵を置いていこう。" />
+    <string id="adbQR9j0" text="俺は金を、あんたは少年を手に入れた。[if:convo_bored2]さあ、出ていってくれ…" />
+    <string id="advPT3WY" text="急いだほうがいいぞ！[ib:closed][if:convo_astonished]" />
+    <string id="AeJqCMJc" text="ああ、今に分かる。それでは。 " />
+    <string id="aEL2S1PZ" text="天よ、我らを{?NOTABLE.GENDER}領主{?}領主{\?} {NOTABLE.LINK}から守りたまえ…" />
+    <string id="agL4RTbB" text="彼と私は、きちんと結婚はしなかった。だから彼は戦争で少し金を稼いで、金持ちの娘と結婚したいと考えた。「彼女を追い出しなさい」と彼女は彼に言い、彼はその通りにした。" />
+    <string id="AGnd7nDb" text="心配は要らない。その辺りの悪党どもは私の名前を知っているし、恐れている。" />
+    <string id="ah3WKIc8" text="部隊にもう少し兵士が欲しいところだ。志願者は見つかったか？" />
+    <string id="AHg5k9q2" text="{SETTLEMENT_NAME}にようこそ。ここには善良で、法に従って生きている人々が住んでいます。大体は。" />
+    <string id="aHGbTpLp" text="競技会がどういう仕組みなのか教えて欲しい。" />
+    <string id="ahydRFKe" text="{?INQUIRY_COMPANION.GENDER}自ら{?}自ら{\?}を{INQUIRY_COMPANION.LINK}と名乗っている者がいた。あなたが興味ありそうな人物だと思わないか？{?INQUIRY_COMPANION.GENDER}彼女{?}彼{\?}なら{COMPANION_SETTLEMENT}に向かったよ。[rb:positive]" />
+    <string id="AjBYneFr" text="{CLAN_MEMBER.NAME}が路地の管理者となりました。{?CLAN_MEMBER.GENDER}彼女{?}彼{\?}は現在路地に向かっており、{HOURS}{?HOURS &gt; 1}時間{?}時間{\?}後に到着します。" />
+    <string id="ajSm2FEU" text="密偵を捕らえるのは、容易ではないことは承知している。だがこちらも理由があって、君にこの任務を与えたのだ。[if:convo_stern]私を失望させないでくれよ、{PLAYER.NAME}。" />
+    <string id="ak2EMWWR" text="{QUEST_GIVER.LINK}と約束したにも関わらず、娘をその{?QUEST_GIVER.GENDER}母親{?}父親{\?}の元に連れ戻すことに失敗しました。{QUEST_GIVER.LINK}は激怒しています。" />
+    <string id="aka03VdU" text="{?QUEST_GIVER.GENDER}彼女{?}彼{\?}に会う" />
+    <string id="aKbyJsho" text="私の手であなたの仲間を解放します。" />
+    <string id="akqJbZpH" text="素晴らしい！実に良い格好ですよ、{?PLAYER.GENDER}ご婦人{?}旦那様{\?}。私めに言わせていただくならですがね。実に素晴らしいですよ。" />
+    <string id="aLAyJPrI" text="ガリオス、ガリオス、力強き勇者よ… 常に正しく、間違いを犯さない…{newline}男たちは命を懸けて彼を信じる。 だがその娘や妻たちは違った。" />
+    <string id="aLrK7Si7" text="はい。{TROOPS_TO_RECRUIT}人が参加できます。" />
+    <string id="alruamIW" text="ふーむ… あんたの言う通りかもな。そこまでする価値はない。小僧を今すぐ解放してやる。[ib:hip][if:convo_pondering]" />
+    <string id="AMlaYbJv" text="1000デナールがありません。" />
+    <string id="aNZKqAAS" text="それで何があった？" />
+    <string id="aoJHP3Ud" text="再び加わる準備はできている。君には借りができたな。" />
+    <string id="AozaGCru" text="{CLAN_NAME}と{KINGDOM_NAME}は傭兵契約を結んだ。" />
+    <string id="ap5pYDR7" text="ここから出よう！" />
+    <string id="ApG1xg7O" text="{PARTY_NAME}が{ARMY_NAME}から離脱しました。" />
+    <string id="AQi1arUp" text="とにかく囚人がいるなら、買い取らせてもらえると嬉しいよ。" />
+    <string id="aRDcoLX0" text="{PLAYER.NAME}か、今は都合が悪い。 " />
+    <string id="arena_master_24" text="で、どうするかね？" />
+    <string id="arena_master_25" text="競技会に参加したい。" />
+    <string id="arena_master_26" text="戦闘訓練に参加したい" />
+    <string id="arena_master_27" text="近隣の町で競技会が行われていないだろうか？" />
+    <string id="arena_master_30" text="もう行かなくては。さようなら。" />
+    <string id="arena_master_31" text="{NEARBY_TOURNAMENT_STRING}" />
+    <string id="arena_master_32" text="近々で競技会が行われる予定はない。" />
+    <string id="arena_master_33" text="ご武運を！訓練用武器を忘れないように。[if:convo_approving]" />
+    <string id="arena_master_34" text="よろしい。君の名前をくじに追加しておく。出番が回ってきたら、すぐ出場して武器を振るえるよう、準備をしておいてくれ！[if:convo_merry]" />
+    <string id="arena_master_35" text="そうしよう。" />
+    <string id="arena_master_36" text="気が変わった、今回は見合わせよう。" />
+    <string id="arena_master_37" text="準備しておこう。" />
+    <string id="arena_master_38" text="やっぱりいい、気にするな。" />
+    <string id="aRPLW15x" text="ありがとうございます。思っていた通り、[ib:aggressive][if:convo_evil_smile]あなたは分別のある{?PLAYER.GENDER}女性{?}男性{\?}です。" />
+    <string id="ArseaKsm" text="いいだろう。時間を割いてくれて感謝する。" />
+    <string id="ASOW1MuQ" text="あなたの集落{SETTLEMENT}は、{FACTION}の{PARTY}により攻撃されています！" />
+    <string id="asVE53ac" text="娘は{QUEST_GIVER.LINK}の元に戻りました。{?QUEST_GIVER.GENDER}彼女{?}彼{\?}は喜んでおり、{?QUEST_GIVER.GENDER}彼女{?}彼{\?}の感謝の気持ちと共に、{BASE_REWARD}{GOLD_ICON}が入った大袋が贈られてきた。" />
+    <string id="ASVkuYHG" text="何人か心当たりがある。どんな奴を探してるんだ？" />
+    <string id="aSZvZRYC" text="{QUEST_GIVER.NAME} の親戚が、{TARGET_NOTABLE.NAME}の親戚を殺しました。{QUEST_GIVER.NAME}はその罪に対する賠償金の支払いを申し出ましたが、{TARGET_NOTABLE.NAME}は報復を望んでいます。" />
+    <string id="AULqrp7D" text="一杯のカルラディア・ワイン" />
+    <string id="av0bRae8" text="ここには誰が投獄されているんだ？" />
+    <string id="avk9kNn1" text="おかしなことに{NOTABLE.FIRSTNAME}の土地の境界石が、見る度に近づいているように見える。" />
+    <string id="avVno3H8" text="この種のゲームのコツを知っていて、[if:convo_thinking]十分な腕力も兼ね備えている仲間を任命すればいい。私が聞いた話から推測するに、{NEEDED_MEN_COUNT}名もいる集団なら十分なはずだ。" />
+    <string id="awYMellZ" text="その密偵は剣を持ち歩いていることがわかった。" />
+    <string id="AwZhx2tT" text="また戻ってくる。" />
+    <string id="axLR9bQo" text="あなたは{QUEST_GIVER.LINK}に依頼された通り、{PRODIGAL_SON.LINK}を捕らえていたゴロツキたちを倒した。程なくして{QUEST_GIVER.LINK}{?QUEST_GIVER.GENDER}婦人{?}卿{\?}から、礼の言葉と報酬の{REWARD}{GOLD_ICON}が送られてきた。" />
+    <string id="aXMg9M7t" text="あなたはこの争いに関わらないことにしました。あなたの協力がなければ{?QUEST_GIVER.GENDER}彼女{?}彼{\?}は、間違いなく敵対組織に敗北するでしょう。" />
+    <string id="aYMW8bWi" text="彼女と話す" />
+    <string id="aZaujaHb" text="衛兵はあなたの申し出を受けました。支払いさえすれば、{PRISONER.NAME}を脱獄させる手助けをしてくれます。" />
+    <string id="azVhRGik" text="適切な時期を待とう。" />
+    <string id="B0eBWPoO" text=" あなたは飢餓状態にある自軍の兵士に食料を分け与えました。{INFLUENCE}{INFLUENCE_ICON}を獲得しました。" />
+    <string id="B2Donbwz" text="もっと時間が必要だ。" />
+    <string id="b2h3r1kL" text="領主の館を訪れたい。" />
+    <string id="b3KFoJJ8" text="では、拘置所を見てみよう。" />
+    <string id="b3MBZKuQ" text="ここには仕事を探しに来ました。村には何もないので。しかし主人は腕の立つ者しか求めていません。少しのお金があれば、家に帰れるんです。" />
+    <string id="b5LdBYpF" text="{SETTLEMENT}は包囲されています。あなたが{QUEST_GIVER.LINK}と結んだ契約は解除されました。" />
+    <string id="B8bHpJRP" text="あなたのおっしゃる通りです、{?PLAYER.GENDER}お嬢様{?}旦那様{\?}。すぐに向かいます。" />
+    <string id="Ba9nsfHc" text="{ISSUE_GIVER.LINK}は{TARGET_MERCHANT.LINK}に対する強盗の計画を話しました。{TARGET_SETTLEMENT}の近くで待ち伏せできるよう、あなたは{TARGET_MERCHANT.LINK}と話して、隊商を護衛し先導させてくれるよう{?TARGET_MERCHANT.GENDER}彼女{?}彼{\?}を説得すると同意しました。" />
+    <string id="bAy9PdrF" text="では始めよう。" />
+    <string id="bb6e8DoM" text="村を捜索する" />
+    <string id="bblwaDi1" text="無事に{QUEST_GIVER.LINK}と共に{TARGET_MERCHANT.LINK}の隊商を襲いました。" />
+    <string id="bbroVUrD" text="もちろんです、{?PLAYER.GENDER}お嬢様{?}旦那様{\?}。" />
+    <string id="bBVLVT7L" text="もちろんだ！ウチのヤツらが何人か、すでに競技会のための準備を始めているようだ。混ざりたければ、行ってきても構わないぞ。訓練したいだけなら、また後で戻ってくるといい。[ib:warrior]" />
+    <string id="bbwNIIKI" text="あなたは村人たちに{TARGET_HERO.NAME}か、若い娘を連れた怪しい人物を見かけなかったか聞いてまわりました。{newline}{newline}村人たちによると、ひどく疲れた様子の若い男女がここを訪れたそうです。村人たちはしばしの間滞在できる場所を、彼らに提供したと言います。{newline}周辺を捜索することで、彼らがまだ隠れているか確認することができます。" />
+    <string id="BdpW8gUM" text="それでいい、始めよう！" />
+    <string id="bEipgE5E" text="いいぞ、これほど面白いゲームはない。[if:convo_excited]私なら快楽を自制したりしないが、奴にとってあの証書は土地の価値よりも大事らしい。証書を賭けてやってもいい。ただし、掛け金の1000デナールを用意すればな。" />
+    <string id="bFjtk0Op" text="そうだな… 新しいスキルを習得した時、人はなんらかの形でそれを実践するようになる。それが自分の有利に働くこともあれば、逆に痛い目を見たりもするわけだ。違うやり方を試すことで自分か仲間、もしくはクランの人員を鍛え直したいなら、競技会の主催者を訪ねてみるといい。きっと力になってくれるはずだ。当然、それなりの見返りは求められるがな。" />
+    <string id="bhkC3kcQ" text="目上の人間には敬意を込めて話さんか、下品な浮浪児め！" />
+    <string id="bHRZhYzd" text="いやだ！あいつらには絶対に近寄らないぞ！殺される！[ib:closed2][if:convo_stern]" />
+    <string id="biqYiCnr" text="私の仲間が対処できるだろう。心配は要らない。" />
+    <string id="bjNuUqTx" text="喜んで、{?PLAYER.GENDER}ご婦人{?}ご主人{\?}。代金は{COST}{GOLD_ICON}です。" />
+    <string id="bl2aRW8f" text="{KEY} 座る" />
+    <string id="bLigh8Sd" text="そうだな、ずっと温めていた考えがあるとだけ言っておこうか。[ib:confident2][if:convo_bemused]あんたなら役に立つかもしれない。{TARGET_MERCHANT.NAME}に会ったことはあるか？{?TARGET_MERCHANT.GENDER}彼女{?}彼{\?}はとても裕福な商人なんだ。かなりの金持ちさ。だが誠実ではない… 道徳心のないやつがあれだけの富を持つべきではないと思わないか？その富をちょっとばかし再分配してやる計画があるんだ。" />
+    <string id="blqTMwQT" text="ついてこい。" />
+    <string id="BnoSOi3r" text="実は…" />
+    <string id="bNRfxIy7" text="素晴らしい。短時間なら仕事に行っても大丈夫だろう。一緒に話す時間が短いほどいい。だからもう会うことはないだろう。" />
+    <string id="BNz4ZA6S" text="よし。今すぐ参加させるんだ。" />
+    <string id="boAcQxVV" text="お前は法を犯している。" />
+    <string id="bPqwLopK" text="ん、あんた奴隷商人か？" />
+    <string id="bQnVtegC" text="そうか、一層頼もしい。[ib:confident][if:convo_astonished]屋敷は{SETTLEMENT}の町の広場を歩いていれば、すぐに分かる。それか頭である{TARGET_HERO.LINK}本人と直接話をして、うちの息子を解放するよう説得してもらってもいい。幸運を祈る。良い知らせを待っているぞ。" />
+    <string id="bRMLn0jj" text="その男が他の町に迷い込むか、喉を切り裂かれるか、[if:convo_pondering]あるいは証書を失いでもすれば、それはマズイことになるだろう？" />
+    <string id="bs8ayCGX" text="「剣と兜と猛々しい馬を持つ{newline}さぞ勇敢なる戦士よ{newline}一つ心に留めておいてほしい{newline}{RANDOM_TOWN}の魚売りには無暗に手を出してはならぬ」" />
+    <string id="bSDIHQzO" text="どうぞそうしてくれ。情報が漏れるのは嫌だからな。[if:convo_nervous]" />
+    <string id="BSeplVwe" text="多すぎる。また戻ってくるよ。" />
+    <string id="btA10FML" text="囚人と引き換えに何を得られる？" />
+    <string id="btJkBTSF" text="あなたなら解決できるはずです。" />
+    <string id="bTnmpqU4" text="残念ながら、もう一度ゲームをする時間はありません。" />
+    <string id="btynhBAn" text="{SETTLEMENT}の新しい統治者、{HERO.NAME}が到着し、政務を執り始めました。" />
+    <string id="bUmacxw7" text="戦闘訓練の結果にさえ、賭けたがる者がいる。それが競技会ともなれば…！何マイルの先からも群衆を引き寄せる。商人たちは競技会が大好きでね。実際に痛い思いをする勇敢な君たちに支払う私たちの銀も、彼らが出してくれてるのさ。" />
+    <string id="BusYGTrN" text="素晴らしい！それでは良い一日を、{?PLAYER.GENDER}ご婦人{?}旦那様{\?}。" />
+    <string id="bUweVtkk" text="なぜ{OWNER.LINK}は町中で堂々と活動する盗人たちを、野放しにしているんだ？もしや{?OWNER.GENDER}彼女{?}彼{\?}は奴らの儲けの一部を受け取っているのか？" />
+    <string id="bvhWLb4C" text="あなたはゲームホストに勝ち、大事な証書を取り戻しました。{QUEST_GIVER.LINK}{newline}「問題を見事解決してくれてありがとう。お礼に{GOLD}{GOLD_ICON}デナールを受け取ってくれ」" />
+    <string id="BYpoxUEB" text="そういうスキルのある人物が仕事を探しているという話は、もうずっと聞いていないな。" />
+    <string id="bZ5rXBY5" text="{ALLEY_ACTIVITY_STRING}" />
+    <string id="bZbFrIUr" text="一杯のクワス" />
+    <string id="c452Kevh" text="不安ではありますが、私はもはやあなたの手中にあります。あなたが私を守ってくださることを信じています、{?PLAYER.GENDER}領主{?}領主{\?}様。" />
+    <string id="C6EOT3yY" text="いいえ、すみません。そのようなものは見たことがありません。" />
+    <string id="c6GbRQlg" text="やめろ。これ以上戦う必要はない。[ib:closed][if:convo_insulted]君の主張は通った。賠償金を受け取ろう。" />
+    <string id="C6rbcpbi" text="{QUEST_GIVER.LINK}は、密偵が問題を引き起こす前に捕まえてほしいようだ…" />
+    <string id="C9feTaca" text="{QUEST_GIVER.LINK}が{RIVAL_GANG_LEADER.LINK}と長年の決着をつけるらしい。" />
+    <string id="cAVxYAdw" text="ならば金を持ってくるといい。売りたい囚人を抱えている。" />
+    <string id="cc4EEDMg" text="素晴らしい。{TARGET_MERCHANT.LINK}と話してきてくれ。[if:convo_focused_happy]隊商を先導させてくれるよう{?TARGET_MERCHANT.GENDER}彼女{?}彼{\?}を説得できたら、こっちは経路上で待ち伏せしておく。" />
+    <string id="CdRtnwwX" text="景気は良い。{?OWNER.GENDER}領主{?}領主{\?}の{OWNER.LINK}の知恵のおかげだと、{NOTABLE.LINK}は言っている。" />
+    <string id="cDYz49kZ" text="報復の呼び声が収まるまで、私の親戚を君の保護下においてもいい。[ib:closed][if:convo_pondering]彼の護衛に君の仲間の戦士を一人と、{ALTERNATIVE_TROOP_COUNT}の兵士をつけてくれるのでもかまわん。" />
+    <string id="cGSXFJ3N" text="この集落で最近起きた脱獄の試みにより、厳戒態勢に入っています。衛兵があなたと話をすることはないでしょう。" />
+    <string id="ciXBiMMa" text="ありがとうございます、{PLAYER.NAME}。あなたの民に繁栄が訪れますよう。[if:convo_focused_happy]" />
+    <string id="ck36TZFP" text="400{GOLD_ICON}" />
+    <string id="CkaSSJz1" text="{NOTABLE.LINK}..." />
+    <string id="Ckou6bfg" text="あのケチな老いぼれの{NOTABLE.FIRSTNAME}は、私の大叔父の息子だ。私がどんな苦境にあっても、{?NOTABLE.GENDER}奴{?}奴{\?}は私に一銭も与えてくれなかった。" />
+    <string id="ClyaDhGU" text="路地のリーダーを変更" />
+    <string id="CM8Tr3lL" text="「ああ、スリにあってしまった{newline}シャツはびしょぬれだ{newline}そして頭は割れそうなほどに痛い」" />
+    <string id="CMu4B9fZ" text="ミッション失敗" />
+    <string id="cPmV8S4e" text="訓練したい者たちがいつでも出入りできるよう、競技場を開放している。ルールもチームもない。最後の一人になるまで、お互いに攻撃を手をやめないのさ。どうだい、ご機嫌だろう？[ib:confident2]" />
+    <string id="cpTMttNb" text="そうなのか？おい、名前は知らんが、隊商の隊長さんよ。[if:convo_contemptuous]敵だとか味方だとかは一旦忘れて、協力して俺たち両方を裏切ったこの悪党を倒すってのはどうだ？ その後にもっと多くの兵が残ってた方が商品をいただくんだ。" />
+    <string id="cqe8FU8M" text="{?QUEST_GIVER.GENDER}彼女{?}彼{\?}は私のことなんてどうでもいいんだ！この地区での{?QUEST_GIVER.GENDER}自分{?}自分{\?}の評判だけが大事なんだ。" />
+    <string id="cqlV1YLO" text="どのようなお方で？" />
+    <string id="CQMkh88h" text="私には売れる囚人はいないが、知れてよかったよ。" />
+    <string id="CqnAGehj" text="商品の購入を望んでいる者が、関税の支払いを拒んでいるとする。私たちはそうした人物の、手助けが出来るかもしれない。" />
+    <string id="CSqHz4EG" text="そろそろ収穫の季節だ。" />
+    <string id="CWbAoGRu" text="ああ、どんな方法で解決してもらってもかまわない。[if:convo_normal]好きにやってくれ。ゴロツキの扱いに長けた者が{NEEDED_MEN_COUNT}人ほどの兵を率いれば、おそらく{ALTERNATIVE_SOLUTION_DURATION}日ほどで解決できるだろう。私の部下を送り込みたいところだが、別の領主が支配する地に一族の旗をはためかせて乗り込めば、厄介な事態を引き起こしかねんからな。" />
+    <string id="cwqR0pp1" text="ごきげんよう{?PLAYER.GENDER}領主様{?}領主様{\?}。お会いできて嬉しいです。何か用でしょうか？" />
+    <string id="CXw9a1i5" text="{QUEST_GIVER_CLAN}一族の{?QUEST_GIVER.GENDER}領主{?}領主{\?}である{QUEST_GIVER.LINK}から、{SETTLEMENT}へ行って{?QUEST_GIVER.GENDER}彼女の{?}彼の{\?}親族を解放するよう頼まれた。若者は現在借金を理由に、地元の徒党集団の頭である{TARGET_HERO.LINK}に囚われている。{?QUEST_GIVER.GENDER}領主{?}領主{\?}{QUEST_GIVER.LINK}は、犯罪者が貴族を捕虜にすることが二度とないよう、見せしめとすることを暗に伝えてきた。 {?QUEST_GIVER.GENDER}彼女{?}彼{\?}によれば、その若い貴族が囚われている屋敷は、町の広場に出ればすぐわかる位置にあるようだ。" />
+    <string id="d18Ul2Zl" text="イワシ料理" />
+    <string id="D25oY3j1" text="あなたの優しさと理解に感謝いたします、{?PLAYER.GENDER}ご婦人{?}ご主人{\?}。このことは決して忘れません。[ib:demure][if:convo_happy]" />
+    <string id="d5a8xQos" text="あなたは、{QUEST_GIVER.LINK}の親族を捕らえているゴロツキたちの退治に失敗した。今回の襲撃を受けて、若者はより守りが強固な場所に移送されたようだ。もはや彼を見つけ出すのは不可能となり、{QUEST_GIVER.LINK}自ら{TARGET_HERO.LINK}の対処にあたるしかなくなった。{?QUEST_GIVER.GENDER}彼女{?}彼{\?}にはあまり好ましくない知らせとなるだろう。" />
+    <string id="dav5rmDd" text="{SETTLEMENT}から来た組織のリーダー、{QUEST_GIVER.LINK}が{?QUEST_GIVER.GENDER}彼女{?}彼{\?}の町に侵入する足掛かりを得ようとしている、敵対者について話しました。あなたは{?QUEST_GIVER.GENDER}彼女{?}彼{\?}から、向こうの組織の警戒を解くために{DAY_COUNT}日間、待機しているように頼まれました。" />
+    <string id="dC6YhgPP" text="ああ、いい試合だった。" />
+    <string id="ddYWbO8b" text="いつものか？" />
+    <string id="DeoalRXY" text="{NOTABLE.FIRSTNAME}の狩猟犬の一匹が私のいとこの羊を殺してしまったのだが、{NOTABLE.FIRSTNAME}はその羊の価値の二倍に相当する金を支払った。まったくもって、実に公平な処置だった。" />
+    <string id="DFkzQHRQ" text="「パディーシャ中の絹のために{newline}帝国中の金のために{newline}極東中のスパイスのために…」" />
+    <string id="dgNCuuUL" text="こんにちは、{PLAYER.NAME}。また会えて嬉しいよ。" />
+    <string id="DgxVa0OP" text="{?NOTABLE.GENDER}領主{?}領主{\?} {NOTABLE.LINK}様…" />
+    <string id="DK3QwC68" text="下の斜面にいた部下たちがあなたが倒れるのを見て、慌てて助けに来てくれた。彼らができる限りあなたの傷を手当てしてくれたおかげで、あなたは生き延びることができるだろう。彼らは今、あなたの次の決断を待っている。" />
+    <string id="DLesz9jI" text="{QUEST_GIVER.LINK}の村が襲撃されました。{?QUEST_GIVER.GENDER}彼女{?}彼{\?}は田舎に逃亡したため、契約は無かったものになりました。" />
+    <string id="dlOCK6Ro" text="あの冬の後、耕うん機を引くには牛が痩せすぎてしまった。一頭借りるための金を、一体どこで手に入れればいいのか。[rf:convo_grave]" />
+    <string id="dmaCQda0" text="ああ、あの{NOTABLE.LINK}についてだな。あの{?NOTABLE.GENDER}人{?}人{\?}に仕えるのはきついと聞いている。ひとつ間違いを起こしたら即解雇らしい。" />
+    <string id="dmijPqWn" text="あなたは期間内に、{QUEST_GIVER.LINK}の囚われの親族を救出することができなかった。若者はより守りが強固な場所に移送されたようだ。もはや彼を見つけ出すのは不可能となり、{QUEST_GIVER.LINK}自ら{TARGET_HERO.LINK}の対処にあたるしかなくなった。{?QUEST_GIVER.GENDER}彼女{?}彼{\?}にはあまり好ましくない知らせとなるだろう。" />
+    <string id="DMUsPekF" text="世の中の汚い部分を知っている者が必要だ。悪党や盗人に対処できるような者が。" />
+    <string id="dNjepcKu" text="よし、終わらせよう！[ib:hip][if:convo_mocking_revenge]" />
+    <string id="dOdp1aKA" text="あなたは密偵を発見できず、関係ない戦士と決闘しました。{QUEST_GIVER.LINK}は失望しています。" />
+    <string id="dPE4A7fO" text="{ENEMY_PARTY_NAME}が港から{MAN_COUNT}人の部下を連れて町に入りました。" />
+    <string id="dpTHWqwv" text="我が一族が流した血を軽んじている{?PLAYER.GENDER}女{?}男{\?}というのはお前か？我々の血族の命を、銀に交換できると考えているそうだな？" />
+    <string id="DqZtRBXR" text="あなたは負傷していて、変装しています。" />
+    <string id="DRpcqEMI" text="隊商のリーダーは、あなたの決断は時間の無駄だと言い、自分の道を行くことにしました。あなたは自分の役割を果たすことができませんでした。" />
+    <string id="dt00CQCM" text="バージョンがダウングレードされたため、功績が無効となっています。" />
+    <string id="Du31GKSb" text="この地区の判事として、賠償金を受け取るよう命じる。この犯罪は激情に駆られて起きたもので、悪意のあるものではなかった。銀を受け取らなければ、私の怒りを買うことになると、{TARGET_NOTABLE.LINK}に伝えよ！" />
+    <string id="du3dpMaV" text="あなたは{RIVAL_GANG_LEADER.LINK}の一味を倒すことができず、{QUEST_GIVER.LINK}との約束を果たせませんでした。" />
+    <string id="DUKbtlNb" text="{QUEST_GIVER.LINK}はとうとうあなたに使者を送り、{?QUEST_GIVER.GENDER}彼女{?}彼{\?}と合流し戦いに参加するよう伝えてきた。" />
+    <string id="dUSfRYYH" text="ちょっと待ってくれ…" />
+    <string id="DUVqJifX" text="ああ、そんな奴を競技場の近くで見かけたな。おかしな質問を色々していた。中年で髪は普通にあって、でも、それくらいしか思い出せない。[if:convo_thinking]" />
+    <string id="dWf6ztYu" text="あなたは{ALLEY_TYPE}、{FURTHER_INFO}の路地にいます" />
+    <string id="dwNquUNr" text="私の父が？ああ、ありがたい！悲惨な光景を目の当たりにしたんだ。[ib:nervous2][if:convo_shocked]私の愛する人は連れ去られ、罪もない人間が何人もためらいなく斬り殺された。" />
+    <string id="dY3Vazug" text="少し先の方で{AMOUNT}{GOLD_ICON}が入った財布を見つけました。あなたの物ではないでしょうか。" />
+    <string id="dyhZUHao" text="羊が刈られに来たのかと思ったけど、[if:convo_shocked]どうやら逆に噛まれてしまったようだな。なかなかの腕だった。ほら、雇い主の土地は返そう。" />
+    <string id="DYq30shK" text="ありがとうございます、{?PLAYER.GENDER}ご婦人{?}ご主人{\?}。" />
+    <string id="dzWioKRa" text="どうも。友好的な勝負はどうだい？例えば、賭けるとか。[if:convo_mocking_aristocratic]" />
+    <string id="E57VFXqU" text="これをもらおう。" />
+    <string id="e9bLGCQu" text="{NOTABLE.LINK}が{?NOTABLE.GENDER}自分{?}自分{\?}の{.%}{SHOP_TYPE}{.%}で人を募集しているらしい。あれは信用できない{?NOTABLE.GENDER}女{?}男{\?}だ。" />
+    <string id="EA2JcVcb" text="その方がいい！これは今やカルラディア全域に広がった、非常に古い帝国の慣習なんだ。かつての時代には100人の死刑囚に剣を与え、砂が血に染まるまでお互いに斬り合いをさせたと言う！[if:convo_merry]" />
+    <string id="EAPYyktd" text="あなたの路地の1つがリーダーを失ったか、あるいは兵が不足しています" />
+    <string id="Eb7KG1bi" text="{HERO.LINK}はこの角を曲がったところにいるはずだ…[ib:normal]" />
+    <string id="edoXFdmg" text="あなたは{QUEST_GIVER.NAME}の娘を発見した。" />
+    <string id="eeIX6loR" text="他に誰も思い当らない。" />
+    <string id="efdCZPw4" text="仕事に戻るよ。助けてくれたことは決して忘れない…" />
+    <string id="EFjas6hI" text="最後の最後で、あなたは隊商の護衛に味方し、守ることにしました。" />
+    <string id="EFKxbLaO" text="もちろん、今では状況が少し違う。皇帝たちは人々の道徳心に不安を覚え、戦争のような、より高潔な殺し合いへと民衆を誘導した。だが競技はそのまま受け継がれていった。切れ味の鈍い武器を使うようになっただけなのさ。" />
+    <string id="EGC4BA4h" text="{PLAYER.NAME}！本当なのか？聞いてくれ、あんたは賢い{?PLAYER.GENDER}人{?}人{\?}だ。[if:convo_shocked]{TARGET_MERCHANT.LINK}ならあのクズどもよりももっと金を払ってくれるというのはわかるだろう。金を受け取れ。自分の評判に傷をつけるな。" />
+    <string id="EGI6ztlH" text="捕虜と話がしたい。" />
+    <string id="EiiHoraV" text="ああ…確かに大変な時代だ。" />
+    <string id="EIsQnfLP" text="俺にどんな得があるのか、聞かせてもらおうか…[ib:closed][if:convo_nonchalant]" />
+    <string id="eKLH9fOb" text="{?PLAYER.GENDER}ご婦人{?}ご主人{\?}、あなたにお仕えしてもよろしいでしょうか？" />
+    <string id="eKy1II3h" text="脱出はできたが、{PRISONER.NAME}が逃走の際にひどい怪我を負った。{?PRISONER.GENDER}彼女{?}彼{\?}を置いていく以外の選択肢はなく、あなたは裏通りへと姿をくらまし、門をこっそりと通り抜けた。{INFORMATION_IF_PRISONER_DEAD}" />
+    <string id="ELfguvYD" text="路地を放棄する" />
+    <string id="Emw9ut4A" text="厳しいご時世だ… 近頃いい人材が見つからない。半数の者は飢えすぎて働けず、あとの半分は盗っ人だ。賢明な者たちは何週間も前に去ってしまった。[rf:confused_annoyed]" />
+    <string id="EN3Zqyx5" text="口の減らない奴だな？お前ら、かかれ！[ib:aggressive][if:convo_angry]" />
+    <string id="EnOOqaqf" text="俺は羊になる。" />
+    <string id="eO7p1Q3C" text="検問所" />
+    <string id="eOle8pYT" text="あなたが私の同僚から勝ち取った土地の権利証書を取り戻しに来た。" />
+    <string id="EPbHr2DX" text="二人の健康な赤ん坊" />
+    <string id="epepvysB" text="他に考えている人がいる。" />
+    <string id="eQfL2UmE" text="お前には関係ない。" />
+    <string id="ETiAbgHa" text="すぐに彼らと話をします" />
+    <string id="evIohG6b" text="ありがたいが、その必要はない。ここから出られさえすれば、後は一人で大丈夫だ。[if:convo_happy]ご尽力に感謝する。一族の者たちに、あなたの武勇伝を聞かせて回るよ。" />
+    <string id="ExltvaKo" text="あなたの商品を見せていただこうか…" />
+    <string id="EYT7b2J5" text="敵に旅先の偵察を頼まれている旅人など、いくらでもいる。今回の目標をどう割り出したものか？" />
+    <string id="eZq11NVD" text="ちなみに、我々は{ALLEY_BOSS.NAME}の命令に従う。その他の者には従わない。" />
+    <string id="F44s8kPB" text="隊商はどこだ？ 部下をずっと待たせてはおけないぞ。[if:convo_undecided_open]" />
+    <string id="F9Xjbchh" text="ありがとう。" />
+    <string id="fa8sla4i" text="{BESIEGER_PARTY}の{SIEGE_ENGINE}が破壊されました。" />
+    <string id="fasAZDvM" text="我々は{HERO.LINK}のもとに向かっています…[ib:demure]" />
+    <string id="fcqdfY09" text="{CLAN_MEMBER.NAME}が路地の管理者です。" />
+    <string id="fCrVeHP3" text="ああ！これを一日中探していたんです。{?PLAYER.GENDER}ご婦人{?}ご主人{\?}、お届けいただきありがとうございます。親切なあなたさまのお願いです、見学いただいても差し支えありません。ですが、万が一あなたが誰かを脱獄させようとした場合に備え、鍵は私が持っていることにします。" />
+    <string id="FdwZlCCM" text="君たち全員、私について回るのはやめて、自分の持ち場に戻るんだ。" />
+    <string id="FEcAwSfk" text="{NEEDED_MEN_COUNT}名の優秀な兵と共に、仲間を{ALTERNATIVE_SOLUTION_DURATION}日間配属しよう。" />
+    <string id="fF2BdOy9" text="いま必要な物は特にない。" />
+    <string id="ff5XEKPB" text="{?PLAYER.GENDER}ご婦人{?}ご主人{\?}、残念ながらそのような人物は存じておりません。" />
+    <string id="fgRq7kF2" text="あなたはまず{QUEST_GIVER_SETTLEMENT}にいる{CULPRIT.LINK}と話し、{TARGET_SETTLEMENT}にいる{TARGET_NOTABLE.LINK}のもとを、共に訪れるよう説得することに同意しました。そこであなたは彼らの問題を仲裁し、無益な血がこれ以上流れないよう穏便に事を済ませるつもりです。少年の安全が取り戻せたあかつきには、{QUEST_GIVER.LINK}から{REWARD_GOLD}が支払われます。" />
+    <string id="FgSIsasF" text="ああ、君が正しい。先を急ぐことにするよ…" />
+    <string id="FguHzavX" text="現在競技会が行われているため、競技場での訓練はできません。" />
+    <string id="fHc6fwrb" text="よし、終わらせよう。" />
+    <string id="fiMZ696A" text="ああ、また受けて立とう。" />
+    <string id="FJ93PXVa" text="全ての敵を負傷状態にする" />
+    <string id="fkkYatnM" text="やはり、気が変わった。{?HERO.GENDER}彼女{?}彼{\?}とは後で話そう" />
+    <string id="fkOYvnVG" text="ラウンドが終了し、あなたのチームは競技会の次のステージへ進む権利を得ました。" />
+    <string id="FnkYfyGa" text="{BESIEGER}の{WEAPON}が{SETTLEMENT}の遠隔兵器に命中しました！" />
+    <string id="FNLtDFbn" text="冬に向けて、肉の処理と塩漬けをしなくては。" />
+    <string id="Fo47BuSY" text="そうか。{ALLEY_BOSS.NAME}を知ってるなら、ここにいてもかまわない。ただし問題は起こすな。わかったか？" />
+    <string id="Fpk3BUBs" text="あなたの戦いはまだ終わっていません！" />
+    <string id="FpNWdIaT" text="はい、もちろんです。なにか必要なものがあれば言ってください。" />
+    <string id="fQaPv0Xl" text="私はここに数日滞在する予定です。私が必要な時はお声がけください。" />
+    <string id="fqKVojaV" text="いや、今じゃない。" />
+    <string id="fT57TeqJ" text="お前はもう自分の仕事に戻るのだ。俺たちは二度と会う必要はない。" />
+    <string id="ftyp2ul1" text="あの厄介者共め。あいつらはこの辺の人間じゃない。あんな奴らがこの辺りの人間であるものか。このところ、外国語を耳にする機会がどんどん増えている－あいつらに違いない。" />
+    <string id="Fu47uNh4" text="私の妹の夫は怠け者たちと共に、酒場に入り浸っている。稼いだ金を酒と賭け事に使い込み、家族を泣かせているんだ。{NOTABLE.LINK}に道理のわかる人々を集めて、火をつけてほしいものだ！その時は私もこの手にたいまつを持つ。" />
+    <string id="FUL8TcYa" text="私の命をかけて少年を守ると約束した。彼を傷つければ、お前は血を流すことになるだろう。" />
+    <string id="FvtAJE2Q" text="{QUEST_GIVER.LINK}の娘を見つけるために、あなたは近隣の村を訪れることにしました。" />
+    <string id="Fwm0PwVb" text="よし。前にも言った通り、[ib:normal][if:convo_mocking_revenge]奴らが警戒を解くまでには最低でも、{NUMBER}日は必要になる。時が来たら、私のほうから知らせてやる。忘れるなよ、我々が動くのは夜が更けてからだ。" />
+    <string id="FxKgQECI" text="ルーコン、ルーコン。聞きましたよ、旦那様。産まれた時から老いていて、成長するにつれさらに老いた者。{newline}黄金の宮殿に住んでいる。そこは常に暗くて、常に寒い場所。" />
+    <string id="G2IaEr2Z" text="使う" />
+    <string id="G3sImCKI" text="何でもない… 君の好意は、いつものサービス料として請求するいくらかの銅貨よりも価値があると思う。" />
+    <string id="g5ofoKa8" text="ああ… やっと君のことを思い出した。" />
+    <string id="g7qhnsnJ" text="{CLAN_NAME}の一族が、{KINGDOM_NAME}を去りました。" />
+    <string id="GAq7KAf0" text="もちろん！見たところ、君は戦士のようだな。参加してみたらどうだ。昔は死刑囚が死ぬまで戦ったものだが、今は刃を鈍らせた武器を使っているんだ。" />
+    <string id="GAsVO8cZ" text="ごきげんよう、友よ。試合をするために来たんだろう。最近の言い方だと競技会か！" />
+    <string id="gcB54MUl" text="ハードフィッシュのバター焼き" />
+    <string id="GeJuBar0" text="さて。{NOTABLE.LINK}をその辺の泥棒と大差ない人物だとして、絞首刑に値するという者たちがいる一方で、私のいとこは{NOTABLE.FIRSTNAME}に親切にされたと言っていたんだ。どちらを信じればいいのかわからない…" />
+    <string id="GfHssUYV" text="さて、自由に賭けてくれ。" />
+    <string id="gfmU4wiM" text="{INQUIRY_COMPANION.LINK}という名の{?INQUIRY_COMPANION.GENDER}女{?}男{\?}が、うちの酒場にいる。話してみたらどうだ？" />
+    <string id="GFt9KiHP" text="君の言う通りだ。{QUEST_GIVER.NAME}を説得する必要があるかもしれない。" />
+    <string id="gHnMYU9n" text="そうだ… 昨日酒場で… 酔っ払いを追い詰めて、守衛詰所に関する情報を聞き出そうとしていた。そいつにはヒゲがあったな。[if:convo_pondering]" />
+    <string id="GhPGpR90" text="一皿のデーツ" />
+    <string id="gJNdkwHV" text="徒党集団の部隊" />
+    <string id="GKl8U04i" text="足に矢を受け、今では畑仕事もできず、役立たずだと彼らに言われているんだ。" />
+    <string id="GkwOyJn9" text="{newline}あなたはのちに、{?PRISONER.GENDER}彼女{?}彼{\?}が怪我により命を落としたと知ることになる。" />
+    <string id="GLRrAj61" text="お前らのような連中と駆け引きしたくはない。" />
+    <string id="gm3wqjvi" text="ご先導を。" />
+    <string id="GmIluR4H" text="いいだろう、そうしよう。" />
+    <string id="GMsZZQzI" text="かかってこい。" />
+    <string id="gOWebWiK" text="キャンペーンマップの矢印が方向を表しています。" />
+    <string id="GPBja02V" text="私は{QUEST_GIVER.LINK}に誓った。買収はされない。" />
+    <string id="gPFfHluf" text="あなたのクランは、集落を占領しました。集落の領主であるあなたは、もはや犯罪行為に関わることができません。クエストの依頼人との契約は解除されました。" />
+    <string id="gqdsXVNi" text="{SETTLEMENT}の{WEAPON}が、{BESIEGER}の遠隔兵器に命中した！" />
+    <string id="GrHJYz7O" text="いいだろう。で、どちらを選ぶんだ？" />
+    <string id="grhRXqen" text="あなたの路地に対する{HOSTILE_GANG_LEADER.NAME}の攻撃について、{?HOSTILE_GANG_LEADER.GENDER}彼女{?}彼{\?}を問いただす。" />
+    <string id="GtgGnMe1" text="{PLAYER_OPTION}" />
+    <string id="GvLZKQ1U" text="ソファ" />
+    <string id="GvpvZEba" text="いいだろう、それでは。" />
+    <string id="GW8ITTMb" text="{PRODUCTS}を略奪しました。" />
+    <string id="GwHPEgsv" text="動けません。対戦相手のポーンを1体排除して、移動してください" />
+    <string id="GXk6f9ah" text="問題がある… [ib:confident][if:convo_undecided_closed]そして{?TARGET_NOTABLE.GENDER}そいつ{?}そいつ{\?}の名は{TARGET_NOTABLE.LINK}と言う。{?TARGET_NOTABLE.GENDER}こいつ{?}こいつ{\?}の手下共が壁の向こうからやって来て、博打や酒で楽しく過ごしている人々に強奪を働いているんだ。被害にあっているのは我々の庇護下においている人々なので、私と部下たちとで奴らをこらしめてやりたい。そのために余分な人手を借りるのも悪くないと思っている。" />
+    <string id="gYCSwLB2" text="ええと、どういう意味だ？[ib:closed][if:convo_confused_normal]" />
+    <string id="H2aaMAe5" text="戦闘訓練の仕組みについて教えてくれ。" />
+    <string id="h2tMadtI" text="その話なら聞いたことがあります。何を失ったんです？" />
+    <string id="H3fobmyO" text="接近" />
+    <string id="H4EVfKAh" text="組織のリーダーが、敵対する組織を倒すための援助を求めている。" />
+    <string id="HCmQmZbe" text="見ているだけだ。ほっといてくれるか？" />
+    <string id="HDCmeGhG" text="申し訳ないのですが、私は誓いを立てました。誓いを破ることはしません。" />
+    <string id="HDhLMbt7" text="やあ、旅人よ。{GAME_NAME}は遊べるか？私はこのゲームの達人として一目置かれている。{CULTURE_NAME}の伝統的な娯楽だ。興味があるならば、席に着いてさっそく始めよう。" />
+    <string id="HdT5YyAb" text="俺は白になる。" />
+    <string id="HeIIW3EH" text="良い知らせを待っています、{?PLAYER.GENDER}ご婦人{?}ご主人{\?}。" />
+    <string id="HF2GIpbI" text="聞いてくれ。市場や酒場に長居した競技会の参加者はいなかったか？不自然に長居した者がいれば教えてくれ。" />
+    <string id="HGRWs0zE" text="私の証書を奪った男に会ったか？証書は取り戻したか？[if:convo_astonished]" />
+    <string id="Hhd3KaKu" text="ありがとうございます、{?PLAYER.GENDER}領主様{?}領主様{\?}。あなたの部下が私の娘を見つけ、連れ戻してくれたら心から感謝します。[if:convo_happy]世話になったお礼として、{BASE_REWARD_GOLD}{GOLD_ICON}をお支払いしましょう。" />
+    <string id="hi6L6kTM" text="このセーブファイルは「{MODULE_NAME} 」モジュールなしで作成されたものですが、現在はゲームに追加されています。こちらを読み込むには、そのモジュールを無効にする必要があります。" />
+    <string id="HidEvGr4" text="プレイヤーの部隊を回復させる" />
+    <string id="hJ1SFkmq" text="あなたは密偵を発見しましたが、決闘に負けました。{QUEST_GIVER.LINK}は落胆しています。" />
+    <string id="hkNrC5d3" text="楽しませてもらった。だが剣を持つ相手にはあまり大恥をかかせないようにすることがモットーでね。[if:convo_merry]今は勝利を堪能させてもらうよ。じゃあな！" />
+    <string id="HlrGpPkV" text="{CLAN_NAME}は{OLD_FACTION_NAME}から{NEW_FACTION_NAME}に変わりました。" />
+    <string id="hM7LSuB1" text="会えて嬉しいぞ。だが、日が沈むまでは待機していなくては。{HERO.LINK}の手下どもが、見張っているかもしれないからな。そういうわけで夜が来るまでは、互いにむやみな接触は避けよう。" />
+    <string id="hnhKJYbx" text="この路地に割り当てられるクランのメンバーがいません。（{ROGUERY_SKILL}が{NEEDED_SKILL_LEVEL}以上、{TRAIT_NAME}の特性が{MAX_TRAIT_AMOUNT}以下）" />
+    <string id="HtAr22re" text="何もかも忘れる努力をするんだ。父親の家に戻りなさい。" />
+    <string id="htfLEQlf" text="牢獄の鍵を渡せ！今すぐだ！" />
+    <string id="hymvJALX" text="{KINGDOM_1}と{KINGDOM_2}は同盟を結びました。" />
+    <string id="HzabMi4t" text="楽しいゲームだった。ありがとう。" />
+    <string id="i1sgAm0F" text="路地を攻撃から守ることができました。戦いでの損失を補うため、兵士をいくつか残していくとよいでしょう。" />
+    <string id="i1sth9Ls" text="あなたはごろつきに倒されました。あなたが気を失っている間に、彼と{TARGET_HERO.NAME}は逃走してしまいました。{QUEST_GIVER.LINK}と約束したにも関わらず、娘をその{?QUEST_GIVER.GENDER}母親{?}父親{\?}の元に連れ戻すことに失敗しました。{?QUEST_GIVER.GENDER}彼女{?}彼{\?}は激怒しています。" />
+    <string id="I4SjNT6Y" text="{BRIBE_COST}{GOLD_ICON}が消費されます。{?ENOUGH_GOLD}{?} 所持金が足りません。{\?}" />
+    <string id="i4xzuOJE" text="いいだろう、最高難易度で遊ぼう。" />
+    <string id="i5fNZrhh" text="お願いです、{?PLAYER.GENDER}お嬢様{?}旦那様{\?}。私は彼の事を本当に愛していて、一生を彼と添い遂げたいと思っています。[ib:demure][if:convo_worried]後生ですから、私たちの邪魔をしないでください。" />
+    <string id="I6amLvVE" text="よろしい。それが最善のやり方だ。[if:convo_normal]{TARGET_SETTLEMENT}へ行ってそのゲームホストを見つけ出し、ニヤケ顔を青ざめさせてやれ。" />
+    <string id="i8HysulS" text="俺は黒になる。" />
+    <string id="I8o7oarw" text="この場所を放棄したい。" />
+    <string id="i96KTeph" text="{PRICE}{GOLD_ICON}払うなら、私たちの住む{SETTLEMENT}の町を統治する{OWNER_CLAN}の情報を売ってやるぞ。" />
+    <string id="I979VDEn" text="ああ、{GOLD_AMOUNT}{GOLD_ICON}は用意できたか？[ib:hip][if:convo_stern]それがコイツの借金の額だ… 当然利子つきでな。" />
+    <string id="IBhZGxxm" text="オリーブ料理" />
+    <string id="IboStvbL" text="これがその金だ、彼を解放しろ！" />
+    <string id="IdKG3IaS" text="それはよかった。" />
+    <string id="idPV1Csj" text="ああ… いいとも。今は緊急の用事もないことだし。" />
+    <string id="IeihUvCD" text="金持ちを罠に" />
+    <string id="IfeN8lYd" text="俺たちと戦いに来たのか？お前をよこしたのは{QUEST_GIVER.LINK}か？[ib:aggressive2][if:convo_confused_annoyed]聞け、血を流す必要はない。ここは大きな町だ。俺たちが活動したところで、奴らが食いっぱぐれる事もない。だが… それでももし血が見たいと言うのなら、喜んでお相手しよう。" />
+    <string id="IKeZLbIK" text="悪気はないが、隊長、そういうことならもっと外に出た方がいい。[if:convo_mocking_teasing]それはさておき、行こうか？" />
+    <string id="ILrYPvTV" text="いや、戦利品を独り占めする方がいい。" />
+    <string id="iLuezAbk" text="競技会がない日でも、ここに来る価値はある。腕がなまらないようにたくさんの戦士たちが、ここで訓練を行っているんだ。そして勝者にはその苦労をねぎらうために、少額の金を出している。" />
+    <string id="IqhGJ8Dy" text="こんにちは、友よ。競技会のためにここに来たんだろう。[ib:confident3][if:convo_relaxed_happy]" />
+    <string id="IrsaIJ4u" text="ああ、今は厳しい時代だ…" />
+    <string id="iRupMGI0" text="落ち着け！君の父親が捜索に寄越したんだ。" />
+    <string id="iSNrQKEN" text="君が先ほど言及していた件に戻りたい…" />
+    <string id="iVJlUlOg" text="なあ、悪いがあんたさえ別のところに行ってくれれば、お互いうまい晩飯にありつけるんだ。人が多すぎるし、やんごとないお方ってのは男女問わず場所を取りすぎる。" />
+    <string id="ivNVRP69" text="あんたが直接やってくれる方がいいが、剣の腕が良くて、[if:convo_evil_smile]待ち伏せを仕掛けられるだけの頭があって、信頼のおける仲間なら、{TROOP_COUNT}人の戦士がいれば仕事をこなせるだろう。戦利品は山分けで、さらに少し上乗せしてやろう。" />
+    <string id="IXnvQ8kG" text="{COMPANION.LINK}と派遣した部下たちが、成功の知らせを持って無事帰還しました。{QUEST_GIVER.LINK}は喜び、礼の言葉と共に約束の{REWARD_GOLD}{GOLD_ICON}をあなたに贈りました。" />
+    <string id="IY5b9vZV" text="すべて間違っている。[if:convo_annoyed]奴は下等な家の出だ。常に何らかの土地に関する詐欺の陰謀に関わっていたり、名の知れた盗賊共と取引をしているような一族の者なんだぞ。そのような面汚しはどんな村にも一人はいるものだが、まさか私の娘に手をかけるとは思ってもいなかった！" />
+    <string id="J1TykdEn" text="森の中で秘密の会合が行われていたと聞いている。厳粛な誓約に血の署名がなされていた。近々強い風が吹き荒れるだろう。覚えておくといい。" />
+    <string id="J5cQPqGQ" text="君が正しい。君が必要と思う場面で公正な裁きを行えばいい。" />
+    <string id="J9fJlz2Y" text="いつでも始めてくれ。" />
+    <string id="j9RrkCvM" text="競技会が行われているのか？" />
+    <string id="JaAltoKP" text="えっと… あんた、なんの話をしてるんだ？" />
+    <string id="jaFWM6sN" text="よく来てくれました、{?PLAYER.GENDER}領主様{?}領主様{\?}。今すぐ壊滅させてやりましょう。" />
+    <string id="Jc8OiSZg" text="オレクは熊と戦って～、正々堂々、勝利した～。{newline}剣も槍も使わずーにー、酒とニンニクの口臭で～。" />
+    <string id="Jdc2aaYo" text="穀物を10袋渡す" />
+    <string id="jfzErupx" text="彼の言うことは本当です！私は進んで彼と家出したのです。{?QUEST_GIVER.GENDER}母{?}父{\?}のことは愛していますが、[ib:closed][if:convo_grave] {?QUEST_GIVER.GENDER}あの人{?}あの人{\?}は勝手が過ぎることがあります。お願いです、{?PLAYER.GENDER}お嬢様{?}旦那様{\?}。あなたが自由と愛を信じるならば、私たちを見逃してください。" />
+    <string id="Jgkz4uo6" text="くじでは各々が使用する武器も抽選するんだ。各試合の勝者が次の試合に進み、最後まで残った者が優勝だよ。" />
+    <string id="JgrG0uoO" text="{TARGET_MERCHANT.LINK}を味方につけ、隊商を守ることに成功しました。" />
+    <string id="jGxotDqF" text="坊や、町中で歌う時は気をつけてね。" />
+    <string id="JhbbB2dp" text="{?PLAYER.GENDER}お嬢様{?}旦那様{\?}、お時間を少しよろしいですか？" />
+    <string id="jjEzdO0Y" text="空けておく" />
+    <string id="jjkOBPkY" text="この辺では常に警戒を怠るな。良からぬことを企んでいる、ろくでなしだらけだ。" />
+    <string id="JjtmptiD" text="髪のある男はない男より多いが、これでまた一つ犯人の手がかりを得た。" />
+    <string id="JjXETjYb" text="ありがとうございます。[ib:demure][if:convo_thinking]言い忘れていましたが、お手を煩わせた代金として{REWARD_GOLD}{GOLD_ICON}デナールを用意しています。彼はこの辺りに隠れています。あなたがこうして、問題を解決しに来ていることを伝えてやってください。" />
+    <string id="Jn0k20c3" text="ラウンドが終了し、あなたは競技会の最終ラウンドを生き延びました。" />
+    <string id="joCSXAQQ" text="優れた斥候がそばで仕えてくれれば、移動速度も速まるのだが。" />
+    <string id="JPiId1fb" text="特定のスキルを持った人材を雇いたいと考えている。近くの町で仕事を探している者はいないだろうか？ " />
+    <string id="jPtG0Pu1" text="戦雲をアンロック" />
+    <string id="jqahxjWD" text="天よ、我を守りたまえ！[ib:aggressive][if:convo_astonished]" />
+    <string id="JqN5BSjN" text="あなたはその地の正義の執行者として、{TARGET_NOTABLE.LINK}が{?TARGET_NOTABLE.GENDER}彼女{?}彼{\?}の血縁者に復讐するのを許可することにした。あなたは約束に反して罪人を守ることができませんでした。{QUEST_GIVER.LINK}は激怒しています。" />
+    <string id="JQuCuaVv" text="{ENEMY_NAME}が国境を越えて襲撃を行っていると聞いた… この辺の住民は気を引き締めたほうがいい。" />
+    <string id="Jss9UqZC" text="すぐに出発する。" />
+    <string id="JUjvu4XL" text="とうとう見つけてやったぞ。法の裁きを受けろ！[if:convo_evil_smile]" />
+    <string id="jVjIkODa" text="{ALLEY_ACTIVITY_STRING} {ALLEY_ACTIVITY_ADDITION}" />
+    <string id="JxNlB547" text="戦いの準備は整ったか？[ib:normal][if:convo_undecided_open]" />
+    <string id="jxw54Ijt" text="わかりました、他に何か手伝えることはありませんか？" />
+    <string id="jy1o5cNT" text="君は戦士だろう？試合に出れば名を上げることができるぞ。地元の商人たちが有能な戦士を惹きつけるために、金を大量にかき集めて出し合っているからな。" />
+    <string id="jZF4l0jY" text="ああ、失礼しました。{newline}{?PLAYER.GENDER}ご婦人{?}ご主人{\?}、何かご用でしょうか？" />
+    <string id="k18dhQA1" text="疫病で両親を失い、叔父が土地を奪いました。でも、お金持ちの家で使用人になるくらいなら、物乞いをしたほうがましよ！" />
+    <string id="k1b5crrx" text="君は熟達した選手だな。覚えておこう。" />
+    <string id="K1ICRis9" text="隊商の護衛を探していると聞いたのですが。力になりましょう。" />
+    <string id="k3b5KqSc" text="頼むよ。ここを仕切ってるのは君だろう。" />
+    <string id="K5DgDU2a" text="{PRODIGAL_SON.LINK}という名の若者を助けにきた。誰のことかはわかっているだろう。" />
+    <string id="K5mG9nDv" text="喜んで。" />
+    <string id="k5R4qGtL" text="なに？私をここに[ib:nervous][if:convo_nervous2]置き去りにして殺させるつもりか？我が親族が黙ってはいないぞ！" />
+    <string id="K8TSoRSD" text="私を助けるよう、{?QUEST_GIVER.GENDER}婦人{?}卿{\?} {QUEST_GIVER.LINK} に遣わされたのか？" />
+    <string id="K9i5SaDc" text="賠償金は激情による犯罪に対する適切な処置だ。だが冷酷にもこの少年を殺すと言うならば、君は法のもと、真の殺人者となる。必ず死刑に処されるぞ。" />
+    <string id="KAvwytDK" text="{QUEST_GIVER.LINK}の元に{DAUGHTER.NAME}を連れて行きませんでした。{?QUEST_GIVER.GENDER}彼女{?}彼{\?}は激怒しているでしょう。" />
+    <string id="KbMew14D" text="徒党集団のリーダーと隊商人が力を組んだものの、あなたは彼らを倒し商品を独り占めすることができました。" />
+    <string id="kc6vCycY" text="私は具体的に何をすればいいでしょうか？" />
+    <string id="KC8CqquX" text="{KINGDOM_1}と{KINGDOM_2}の同盟は解消されました。" />
+    <string id="kDItfaaN" text="家に帰る途中で体が冷えないよう、もう一杯いただいておこう。" />
+    <string id="ke0IvBXb" text="他にも何か説明しますか？" />
+    <string id="KeIGtpxb" text="今年は家族の皆が腹を満たすことができて嬉しい。毎年こうはいかない。" />
+    <string id="keKEFagm" text="で、計画とは？" />
+    <string id="kePH44eg" text="自分専用の隊商を作るために出資しようと考えている。それをうまく運用できる人材がいれば完璧なのだが。" />
+    <string id="KfrybSrr" text="脱出はできたが、{PRISONER.NAME}が逃走の際にひどい怪我を負ったため、{?PRISONER.GENDER}彼女{?}彼{\?}を置いていく以外の選択肢はなかった。" />
+    <string id="kFWmcRpV" text="天は親切には親切で報いるのです、{?PLAYER.GENDER}お嬢様{?}我が君{\?}。" />
+    <string id="kG92fjCY" text="あなたは{CULPRIT.LINK}を守っている最中に意識を失い、{TARGET_NOTABLE.LINK}は報復を果たしました。あなたは{QUEST_GIVER.LINK}と約束をしたにも関わらず、{CULPRIT.LINK}を守ることができませんでした。{?QUEST_GIVER.GENDER}彼女{?}彼{\?}は激怒しています。" />
+    <string id="kiaN39yb" text="ありがとう、{PLAYER.NAME}。説得力のある仲間だと信じている。[if:convo_relaxed_happy]" />
+    <string id="KJ61SXEU" text="あなたは約束通り、{CULPRIT.LINK}を脅威から守り抜きました。{QUEST_GIVER.LINK}はあなたの務めに感謝し、手を煩わせた代金として{REWARD_GOLD}{GOLD_ICON}デナールが詰まった財布を贈りました。" />
+    <string id="KKvOQAVa" text="{TRAVELING_ALLEY_LEADER.NAME}が来るのを待ってる。{?TRAVELING_ALLEY_LEADER.GENDER}彼女{?}彼{\?}が到着するまでは、より警戒を強めておこう。" />
+    <string id="KL8tVq8P" text="そうしよう。" />
+    <string id="KLbeF6gf" text="1000ゴールドを追加" />
+    <string id="KMThnMbt" text="酒場に行って、証書が失われたのと同じ方法で取り戻してきます。" />
+    <string id="ko2Nb5im" text="辛い時期だが{NOTABLE.LINK}が言うには、{?OWNER.GENDER}領主{?}領主{\?}の{OWNER.LINK}は{?OWNER.GENDER}彼女{?}彼{\?}の出来る限りを尽くしているそうだ。私は{NOTABLE.FIRSTNAME}を信じている。" />
+    <string id="KPfs7L7B" text="これは失礼。{?PLAYER.GENDER}ご婦人{?}ご主人{\?}、なにかお困りですか？" />
+    <string id="kPTp6TPT" text="({AGENT_ROLE})" />
+    <string id="KQ3aYvp3" text="いずれ、これで良かったと思える日がくるだろうさ。荷造りして、さっさと行くんだ。" />
+    <string id="kqXxvtwQ" text="心配するな、必ず彼を解放する。" />
+    <string id="kr68V5pm" text="{ISSUE_GIVER.NAME}は{?ISSUE_GIVER.GENDER}彼女{?}彼{\?}の娘を探し出してほしいようだ" />
+    <string id="Kto7RWKE" text="手を貸してくれ！脱獄だ！" />
+    <string id="KtrZs3yA" text="もちろんだ！この闘技場では手痛い打撃をものともしない者なら、誰にでも開かれている。何人かの若者が準備運動を始めているようだ。混ざりたければ行っても構わないよ。競技会が開かれてるときにまた来てくれても結構だ。[ib:warrior]" />
+    <string id="Ku49Ipkf" text="誰に尋ねられても、私は必ずこう答えています。{NOTABLE.LINK}は高潔な{?NOTABLE.GENDER}女性{?}男性{\?}であり、貧しき者の代弁者であると。この土地の領主たちは、{?NOTABLE.GENDER}彼女{?}彼{\?}の言葉に耳を傾けなければなりません。さもなければ、私たちに不幸が降りかかるでしょう。" />
+    <string id="kUReBc04" text="いいですね。" />
+    <string id="KxEnNEoD" text="あなたのクランは、集落を占領しました。集落の{?PLAYER.GENDER}領主{?}領主{\?}であるあなたは、戦争に関わることができません。あなたの{QUEST_GIVER.LINK}との契約は解除されました。" />
+    <string id="L5vAhxhO" text="私にはもっと他に、やらねばならないことがある。" />
+    <string id="L7ZQtIuM" text="地面" />
+    <string id="LaBQQ7ue" text="{NOTABLE.LINK}は、魚は頭から腐るものだと言っていた。なるほど、辺りを見回してみろ。彼の言わんとしている事がわかる。" />
+    <string id="LaHWB3r0" text="ああ… 誤解があったようだ。{PLAYER.NAME}は俺たちの仲間なんだよ。[if:convo_evil_smile]{TARGET_MERCHANT.LINK}に嘘を吹き込まれ、死地へと送り出されたのか？ああ、なんと不面目なことか。残念ながら、{?TARGET_MERCHANT.GENDER}彼女{?}彼{\?}はよくそういうことをするんだよ。" />
+    <string id="LBiZ9Rie" text="この情報はすでに持っています。" />
+    <string id="lbNl0a8t" text="また、" />
+    <string id="lbRMmZym" text="健康な赤ん坊" />
+    <string id="lc0YIqby" text="脱獄を計画する" />
+    <string id="lcVauEKV" text="ラウンドが終了し、あなたは競技会から失格となりました。" />
+    <string id="LD4tGYCA" text="農地の権利証だ。言っておくが、大きくもなければ価値のある土地でもないぞ。[ib:normal][if:convo_disbelief]だが、うちのヤツらに今年に限って種まきをしない理由を説明しづらい。権利証を奪った男は、{TARGET_SETTLEMENT}の酒場にいるはずだ。「ゲームホスト」とか呼ばれているらしい。そいつにあんたの目的を、はっきり伝えてやってくれ。あいつには、あの土地を管理する権利などない。奴は土地をネタに、さらなる金儲けができるチャンスをみすみす逃すことはしないだろう。取り返してきてくれたら、{REWARD}{GOLD_ICON}がそのままあんたのものだ。" />
+    <string id="LdCte9H0" text="私はあなたと共に他の悪党どもと戦おう。" />
+    <string id="Ldp6ckgj" text="心配しないでください。私か仲間の誰かが彼女を見つけて、何が起こっているかを確認できるはずです。" />
+    <string id="lF5HkBDy" text="望みどおりに。" />
+    <string id="LGrzKlET" text="あなたがどれほどの挑戦に耐えられるか、それさえわかれば始められます。あなたには{DIFFICULTY}チャレンジと、{?IS_BETTING}賭け金{BET_AMOUNT}{GOLD_ICON}を提案する用意があります。{?}親善試合{\?}" />
+    <string id="lh0so0uX" text="異なるモジュールでセーブしたデータをロードしますか？" />
+    <string id="LJ2AoQyS" text="おやおや。これはこれは。今日はツイてるらしい。[if:convo_huge_smile]持ってる貴重品を全部渡せ。そうすれば誰も傷付けはしない。" />
+    <string id="LKGivHYp" text="最近では賃金もごくわずかだ… 家族をおいていきたくはないが、どこか別の町で、一か八かの勝負に出ないといけないかもしれない。" />
+    <string id="Ll2wN2Gm" text="教えておいてやる。ここは俺たちの縄張りだ。俺たちは{ALLEY_BOSS.NAME}の部下で、{?ALLEY_BOSS.GENDER}彼女は{?}彼は{\?}ここの{?ALLEY_BOSS.GENDER}女王{?}王{\?}みたいなものだ。特に用がないんなら、失せろ。" />
+    <string id="Ll8q45h5" text="ふん… いいだろう。お前の血をもって、この侮辱を晴らしてくれる。[ib:warrior][if:convo_furious]" />
+    <string id="LM1yg5tI" text="{NOTABLE.LINK}が{?NOTABLE.GENDER}彼女の{?}彼の{\?}{.%}{SHOP_TYPE}{.%}の職人の一人が、明け方に出勤していなかったという理由で、そいつをクビにしたらしい。なんとも大変な時代だよ。" />
+    <string id="lM7AscLo" text="可能な限り早くまとめようとしています。[ib:closed][if:convo_nervous]" />
+    <string id="LmoyzsTE" text="{PLAYER.NAME}は引退します。 {HEIR_PART} 続行しますか？" />
+    <string id="lmVCRD4Q" text="{QUEST_GIVER.LINK}が[if:convo_disbelief]{?QUEST_GIVER.GENDER}彼女{?}彼{\?}の親族とのいざこざを、解決できるよう願っている。" />
+    <string id="ln3bGyIO" text="ああ、あなたを取り戻しにきた。" />
+    <string id="LnbzQIz6" text="300{GOLD_ICON}" />
+    <string id="lOFR5sq6" text="{TARGET_MERCHANT.NAME}とはもう話したか？待ち過ぎたせいで計画が漏れるなんて勘弁だぞ。" />
+    <string id="Lol4clzR" text="聞くんだ。悪い手じゃないが、彼らに払う気はない。若者を解放しないと、ろくなことにならないぞ。" />
+    <string id="LPBVTiV6" text="一切れのベーコン" />
+    <string id="LPtWLajd" text="悪いが、しばらく一人にさせてほしい。" />
+    <string id="LqkxF5Op" text="試合では、この辺りで一番の戦士たちが集まってチームを作り、互いに殴り合う。観客たちにしてみれば、剣闘士たちが内臓をぶちまけてた方が楽しめるんだろうが、参加者たちにとっては当然、この方が健全だろうな。[if:convo_approving]" />
+    <string id="LsDRCPp0" text="あなたのクランの一員、{MOTHER.NAME}が{DELIVERED_CHILDREN}を出産しました。" />
+    <string id="ltbu3S63" text="ああ、その通りだ。それなりの数の部下を従えた、[if:convo_astonished]有能なリーダーを探している。{TARGET_SETTLEMENT}まで隊商を護衛すればいいだけだ。単純な仕事ではあるが、荷物はとても重要な物なんだ。{MERCHANT_REWARD}デナールを支払おう。そしてもちろん、私を裏切るようなことがあれば…" />
+    <string id="lustkZ7s" text="{?QUEST_GIVER.GENDER}彼女が{?}彼が{\?}この計画を立てたのは恐らく、{?QUEST_GIVER.GENDER}彼女が{?}彼が{\?}あなたを愛しているからでしょう。" />
+    <string id="lVx35dWp" text="気が変わった、今回は友好的な試合にしよう。" />
+    <string id="LWjIbTBi" text="あなたは{QUEST_GIVER.LINK}と約束したにも関わらず、{CULPRIT.LINK}を守ることができなかった。{QUEST_GIVER.LINK}は激怒している。" />
+    <string id="lZjj3MZg" text="{QUEST_GIVER.LINK}が現れたとき、あなたは約束通り隊商を攻撃しました" />
+    <string id="LztDzy8W" text="いいだろう。どこへ行くわけでもない。もう一杯飲むくらいかまわんさ。" />
+    <string id="M0vxXQGB" text="なんだ？何か言うことがあるのか？[ib:closed][if:convo_nonchalant]" />
+    <string id="M3K8wUOO" text="それで… お気に召しましたでしょうか、{?PLAYER.GENDER}ご婦人{?}旦那様{\?}？" />
+    <string id="MaGPKGHA" text="ありがとうございます、我が{?PLAYER.GENDER}君{?}君{\?}。[if:convo_pondering]あなたの部下たちがきっと、あの少年を守ってくださると信じています。{TARGET_NOTABLE.LINK}も賠償金を受け取るより他ありますまい。それからご迷惑をおかけしたお詫びに、{REWARD_GOLD}{GOLD_ICON}デナールをお支払いする準備がございます。" />
+    <string id="MaXA5HJi" text="仲間から{ISSUE_GIVER.LINK}の娘が無事、{?ISSUE_GIVER.GENDER}彼女{?}彼{\?}の元に戻ったとの報告が入りました。{ISSUE_GIVER.LINK}は満足しており、感謝の言葉と共に、{BASE_REWARD_GOLD}{GOLD_ICON}の入った大きな袋を贈ってきました。" />
+    <string id="mBPcZddA" text="{?PLAYER.GENDER}マダム{?}サー{\?}。我々はまだ、[ib:demure][if:convo_undecided_open]あなたの部下が娘を連れ戻してくれるのを待っている状態です。彼らの成功を祈っています。" />
+    <string id="MbwG7Gy8" text="難易度を変えることはできるか？" />
+    <string id="mdJapWRd" text="わかった… 君はただの乞食じゃないような気がする。ほら、もし君が必要とするなら、しばらく身を隠して人目につかないように手伝ってあげるよ。" />
+    <string id="mDXzDXKY" text="素晴らしい。[if:convo_relaxed_happy]あなたならきっと、若者を連れ戻すのに相応しい者たちを選んでくださるだろう。" />
+    <string id="mEsaiLOR" text="いいだろう。他にも囚人を捕らえているならば、いつでも訪ねてくるといい。" />
+    <string id="Mf3vLIQp" text="叔父" />
+    <string id="MFDb5duu" text="すばらしい！職業上、捕虜を獲得することもあるだろう。良ければ私のほうで、そいつらを預かれるぞ。もちろん、代金は支払う。" />
+    <string id="mfVJBFUD" text="これも課税、あれも課税… はて。敬愛する{?OWNER.GENDER}我が君{?}我が君{\?} {OWNER.LINK}は、それらの税金を使って、一体何をしているのか？" />
+    <string id="mgUoXwZt" text="私の一族は、その少年の身を案じている。彼は身を隠すため、村の庶民たちに紛れているはずだ。{TARGET_NOTABLE.LINK}が道理を弁えて賠償金を受け取り、[ib:normal][if:convo_normal]この抗争が終わるまで、彼を守ってくれる者が必要になる。我が親族に救いの手を差し伸べ、しばし匿ってくれたなら、私たちは永遠にその恩を忘れないだろう。" />
+    <string id="mhgUwwZb" text="いいぞ。ついてこい。" />
+    <string id="mHm5SLhb" text="200{GOLD_ICON}" />
+    <string id="mimt3Qph" text="毎日… 市場に来る人が増えている… 井戸に来る人も増えている… 彼らは一体どこから来ているのか？" />
+    <string id="MIxzaqzi" text="{QUEST_GIVER.LINK}が、{TARGET_CITY}で土地の権利証書を賭け事をして失ったと話しました。証書を買い戻したがっています。そこであなたに、仲間を送り込み、売り手に手頃な額で売るよう脅してほしいと頼んできました。あなたは{COMPANION.LINK}に、兵士{TROOP_COUNT}名を連れて対処するよう伝えました。彼らは{RETURN_DAYS}日後に帰還する予定です。" />
+    <string id="Mk3Qfb4D" text="面倒はごめんなんだ。あとでな。" />
+    <string id="MLyBN51z" text="ラウンドが終了し、あなたのチームは競技会から失格となりました。" />
+    <string id="MN2v1AZQ" text="よくも彼を殺しましたね！こんなのひどすぎる！死ぬまであなたのことを、憎んで憎んで、憎みつづけてやるわ！[if:convo_angry]" />
+    <string id="mo4rbYvm" text="二匹の強力な狼に対するのは、無力な羊の群れ。{GAME_NAME}は不均等な勝率のもと、一見すると全能な敵対者に挑むゲームです。しかし戦略を駆使し、犠牲を払うことで、羊でさえ狼に勝つことができるのです。" />
+    <string id="MOmePlJQ" text="急いでくれないか？他の買い手が現れたら困る。[if:convo_pondering]よろしく頼んだぞ。" />
+    <string id="Mr2rt8g8" text="{CLAN_NAME}のどら息子" />
+    <string id="mrtdsccq" text="自分の仲間が私を村から追い出した。私に関して彼らの言っていたことは、真実ではない。私の土地を欲しがっていたことは事実だ。" />
+    <string id="MU8nbzwJ" text="お前は何の証拠も持っていない。俺をどこかへ連れて行こうとしてみろ、正当防衛で殺してやる。[if:convo_grave]" />
+    <string id="MuzS4Et1" text="天よ、我らを救いたまえ。家賃が払えなければ、土地を持たない者たちと共に、路頭に迷うより他ありません。仕事にもありつけなくなってしまう。[rf:confused_annoyed]" />
+    <string id="MzHbdTYe" text="おやおやおや、ここで会うとは思ってなかったな。計画のことをあんたに知らせた小鳥がいるに違いない。まあ、お前が叩きつぶされることには変わりないがな。" />
+    <string id="MZJhzaUJ" text="この町に知人ができました。" />
+    <string id="n1qrbQVa" text="今は必要ない。" />
+    <string id="N1ZiaLRL" text="{QUEST_GIVER.LINK}の依頼通り、{TARGET_MERCHANT.LINK}と話しました。{TARGET_SETTLEMENT}に向かう隊商が門の外で待機しています。" />
+    <string id="N6UeziT8" text="開始 ({COST}{GOLD_ICON})" />
+    <string id="N7BFbQmT" text="興味がないね。" />
+    <string id="n9QRnxbC" text="あれだけの武装した兵たちを引き連れた少年を目の当たりにしたら、[ib:closed][if:convo_grateful]{TARGET_NOTABLE.LINK}とて提案を飲むより他ありますまい。ありがとうございます、{?PLAYER.GENDER}マダム{?}サー{\?}。おかげさまでさらなる血を流すことなく、事を収束させられそうです。" />
+    <string id="nAM821Fb" text="どうぞ。" />
+    <string id="NazK9rwF" text="{NOTABLE.FIRSTNAME}は立派な{?NOTABLE.GENDER}女性{?}男性{\?}だ。金持ちの連中にだって負けない。冬の間に種まで食べてしまわざるを得なかった人たちのために、いつも少しばかりの穀物を取っておいてくれる。{?NOTABLE.GENDER}彼女{?}彼{\?}は名前について回る印象の価値をよく心得ているのだ。" />
+    <string id="ncvB4XRL" text="私に加わってもいい。" />
+    <string id="ndDpjT8s" text="息子とはもう話せたか？[if:convo_innocent_smile]" />
+    <string id="NESB0CVc" text="競技会があるから、訓練は中止だ。" />
+    <string id="never_mind" text="まあいい。" />
+    <string id="Ng6Rrlr6" text="それだったら他の事をするよ。" />
+    <string id="NGcKLV88" text="腕のいい技術者は、攻城兵器の作成や新しい建物を町に建設するのに役立ちます。" />
+    <string id="nh7a3Nog" text="おやおや。誰を連れてきたのかと思えば。[ib:confident][if:convo_irritable]埋葬布は持参しているんだろうな？頼むぞ。そいつがここから生きて帰ることはないんだからな。" />
+    <string id="Nhfl6tcM" text="そうかもしれないが、それはあなたの一族に対する義務だ。" />
+    <string id="NIzQb6nT" text="ここを去り、後で{?QUEST_GIVER.GENDER}彼女{?}彼{\?}に会う" />
+    <string id="nMFY2Pb0" text="私たちは絶望的な状況にあると言っていいでしょう。{?RULER.GENDER}おのれの{?}おのれの{\?}情熱を制御できぬ支配者は、国を破滅に導くのです。" />
+    <string id="nMn63bV1" text="私は{PLAYER.NAME}。君にはその名前と、私がしたことを覚えていてほしい。{newline}教えてくれ、君は今から何をする？" />
+    <string id="nmPaCLHp" text="{FIGHT_DEBRIEF}再戦します？" />
+    <string id="NMrzr7Me" text="さあ、静かに立ち去るがいい…" />
+    <string id="nMzfnOFG" text="{GAME_NAME}は信じられないほど、不均等な勝率のゲームです。弱って閉じ込められた王は、あらゆる方向から襲い来る襲撃者の群れから逃れなければならない。皮肉なことに、かつては強大な勢力であった{CULTURE_NAME}が、今では同じ立場に陥っている。" />
+    <string id="No04urXt" text="{CLAN}のTierが{TIER_LEVEL}に上昇" />
+    <string id="NOb4GcOT" text="{NOTABLE.LINK}曰く、彼らが天の法に従う限り、権力者たちの叡智は信頼せねばならぬ。" />
+    <string id="NoxFbtEa" text="ここで待っていろ。{?ALLEY_BOSS.GENDER}彼女{?}彼{\?}がお前と話すつもりがあるかどうか確かめよう。（未実装）" />
+    <string id="NPhnQgQS" text="最近は壁の向こうに、山賊たちがうろついている。私たちの税金はどう使われているんだ？{?OWNER.GENDER}領主{?}領主{\?} {OWNER.LINK}の部下達は、一体何をしているのだ？" />
+    <string id="NPuHiggC" text="いとこ" />
+    <string id="NQOQb0C9" text="「そして幾千もの腐敗した死体が太陽の下で横たわっていた。{newline}だがそれも王国が勝利するために必要なことだ」" />
+    <string id="nRVrXSbv" text="まだです、{?PLAYER.GENDER}ご婦人{?}我が君{\?}。今取り組んでいます。来週にまた戻ってきてください。" />
+    <string id="Ns6Svjsn" text="こいつが長年に渡って、忠義を果たすと思いますか？肝物というのは、直感で見抜けるものです。" />
+    <string id="NVvfxdIc" text="頭と話をした方が早いぞ。" />
+    <string id="nwJPPIvn" text="私が捕虜にされた時、身代金は払えるか？" />
+    <string id="nxpyHb77" text="そうですね、私はこのゲームではまだ素人ですが、あなたと遊んで多くを学びました。" />
+    <string id="nxs2U0Yk" text="今すぐ消えろ！そして二度と戻ってくるな！ [if:convo_furious]またここで会うようなことがあれば、殺してやる。" />
+    <string id="nYCXzAYH" text="貴様！俺の部下を傷つけやがったな。一対一でケリをつけようじゃないか。" />
+    <string id="nZhPS83J" text="あなたは馬を失った。" />
+    <string id="O0Cjam62" text="あなたの部下が慎重に事を運んでくれるよう願っている。[if:convo_focused_happy]あの斥候を取り逃がすようなことになったら、惜しいからな。" />
+    <string id="o0H8Qs0D" text="競技会のルールは、カルラディア全土で通用する。帝国の外であっても例外ではない。戦士たちが誰と戦うかは、くじ引きで決めるんだ。チームの一員となることもあるが、単独で戦いに臨むこともある。" />
+    <string id="O15PyNUK" text="あなたの偵察スキルが役立ち、彼らの足取りを掴むことができました。" />
+    <string id="o1KOn4WZ" text="若者を解放すれば、彼の家族はお前が要求に応じてくれたことを忘れないだろう。勝ち目のない戦いに挑むよりかは、その方がいいはずだ。" />
+    <string id="o3MDpesZ" text="{NOTABLE.FIRSTNAME}が、{?NOTABLE.GENDER}彼女の{?}彼の{\?}穀潰しの親類を助けてやったことで、{?NOTABLE.GENDER}彼女は{?}彼は{\?}次の種まきのための種籾もなくなってしまった。私は笑ってやるのさ。" />
+    <string id="O5PDH9Bc" text="何でもない、何でもないさ。さっさと行くがいい。" />
+    <string id="O7j0uzcH" text="先を急ぐことにするよ。" />
+    <string id="oAaKaXEy" text="この料理がとても気に入った。私の部下全員に出してやってくれ。" />
+    <string id="oaFFW2bo" text="悪魔が夜にやって来て、夜明けまで私を馬鹿にするんだ。一体どうすればいい？" />
+    <string id="ob5SejgJ" text="私がこの愛を手放すことはないでしょう、{?PLAYER.GENDER}レディ{?}サー{\?}！" />
+    <string id="obY78MnQ" text="{HERO.LINK}" />
+    <string id="ocNWAQsu" text="あなたの領地が{CALLED_KINGDOM}に対して発した{KINGDOM_TO_CALL_TO_WAR_AGAINST}との戦争への呼びかけは終了しました。" />
+    <string id="ocoHNhNk" text="うーん… 私は自分の商売だけで、わりと手一杯でね。そんな話は聞いたことがないね。[if:convo_pondering]" />
+    <string id="OCRafO5h" text="ふいご" />
+    <string id="oddzOnad" text="密偵を探している。そして今、そいつを見つけた。" />
+    <string id="OeKgpuAv" text="あなたが敵対する徒党集団がいる路地に攻撃を仕掛けたあと、{QUEST_GIVER.LINK}が計画を変更したため、あなたの助けはもはや不要となりました。クエストは中止されます。" />
+    <string id="OgTUrRlR" text="椅子" />
+    <string id="oIA9lkpc" text="あなたは{DELIVERED_CHILDREN}を産みました。" />
+    <string id="OIBiRTRP" text="{QUEST_GIVER.LINK}が{SETTLEMENT}であなたを待っています。" />
+    <string id="OiCCfAeC" text="{SETTLEMENT}が奪われました。投票が始まります。" />
+    <string id="ojpW4WRD" text="あなたのクランは{QUEST_GIVER.LINK}の領主と戦争状態になりました。{QUEST_GIVER.LINK}との契約は解除されました。" />
+    <string id="oJt4bemH" text="{QUEST_SETTLEMENT}の地主である{QUEST_GIVER.LINK}が、厄介な争いに発展しそうな事件についてあなたに話した。ある若者が喧嘩で別の若者を殺してしまい、その被害者の家族が賠償金を拒否して、代わりに復讐を要求しているらしい。" />
+    <string id="OJtUNAbN" text="いいだろう。隊商は[if:convo_calm_friendly]門の外で準備している。支払いは仕事が終わった後だ。幸運を祈るぞ、友よ。" />
+    <string id="oL3amiu1" text="さあ、{DAUGHTER_NAME.NAME}。他のイヌたちが勘づく前に、行くとしよう… すまない… 悪気はなかったんだ、{?PLAYER.GENDER}マダム{?}サー{\?}" />
+    <string id="olKsdJmv" text="私は結婚を失敗したの。不幸になってしまったわ。彼は稼いだお金で酒を飲んで、私が一言でも口答えをすると殴った。だから、子供たちのためにパンを乞わなければならないの。 " />
+    <string id="OMKgidoP" text="期限までに商人の隊商を護衛させてくれるよう説得することができませんでした。{QUEST_GIVER.LINK}は憤慨しているでしょう。" />
+    <string id="OnaJowBF" text="ハードだ。出し惜しみすると、後悔することになるぞ。" />
+    <string id="onLDP7mP" text="保存したゲームをロードしようとした際に、問題が発生しました。" />
+    <string id="oPUVNuhN" text="あなたのことは覚えておこう" />
+    <string id="OPwO5RXC" text="ようこそ、ボス。迎え入れられて光栄です。あらゆることに目を光らせておきますのでご安心を。" />
+    <string id="OQgBim7l" text="悪いが他にやるべきことがある。" />
+    <string id="oQjsShmH" text="囚人" />
+    <string id="Osaupw6M" text="失礼、{?PLAYER.GENDER}マダム{?}サー{\?}。両親のもとに戻らねばなりません。なにか必要なものはありますか？" />
+    <string id="OSgBicif" text="その決断をきっと後悔するだろう！[ib:warrior][if:convo_furious]" />
+    <string id="oulvvl52" text="あなたは{SETTLEMENT}で罪に問われており、{QUEST_GIVER.LINK}はこの件に関してあなたを信用しなくなりました。" />
+    <string id="ovFbMMTJ" text="あなたは誰だ？私たちを追跡するために、{QUEST_GIVER.LINK}から送られてきた、賞金稼ぎの一人か？まるで私たちを、動物か何かのように扱うのだな。聞いてくれ、私たちは何も悪いことをしていない。すでに気づいているだろうが、この女性と私は愛し合っている。私は彼女に何も強制していない。[ib:closed][if:convo_innocent_smile]" />
+    <string id="OwnoJUkn" text="{OWNER.LINK}は誠実な{?OWNER.GENDER}女性{?}男性{\?}であると皆が言う。だがそんな{?OWNER.GENDER}彼女{?}彼{\?}にも、この辺りで起きている窃盗や退廃を、止めることはできないのだ。" />
+    <string id="oxb2FVz5" text="クランが壊滅" />
+    <string id="OybG76Kf" text="助けてくださり、ありがとうございます。[ib:normal][if:convo_astonished]ここで今日行ってくださったこと、決して忘れません。" />
+    <string id="p1ETQbzg" text="様子を見に来ただけだ。" />
+    <string id="P5UbgK4c" text="{CLAN_MEMBER.NAME}は路地の管理者でしたが、{?CLAN_MEMBER.GENDER}彼女{?}彼{\?}は死んでしまいました。新しい管理者を割り当てなければ、路地は{REMAINING_DAYS} {?REMAINING_DAYS&gt;1}日{?}日{\?}後に放棄されます。" />
+    <string id="P7aRBg2h" text="ありがたいことに、私たちにはこの困難な時代にあって、貧しい人々を助ける{NOTABLE.LINK}のような{?NOTABLE.GENDER}女性{?}男性{\?}がいるのです。" />
+    <string id="P98iCLjl" text="私の前から消えろ、この薄汚い物乞いめ。[if:convo_angry]" />
+    <string id="P99OLPWU" text="すみません、{?PLAYER.GENDER}ご婦人{?}ご主人{\?}。まもなく仕事に取り掛からねばならないのです。なにか必要なものはありますか？" />
+    <string id="pa3RY39w" text="ああ。喜んで紙切れを銀に変えよう…1000デナールだな。[if:convo_evil_smile]" />
+    <string id="PbDK3PIi" text="賭け金を変えることはできるか？" />
+    <string id="PBq1FyrJ" text="{CLAN_NAME}のクランは壊滅しました。" />
+    <string id="PDf52VCf" text="時間を取らせてすまなかった、ありがとう。" />
+    <string id="pf4EIcBQ" text="他に何か？特に何もないのなら、さっさと行ったらどうだ。[if:convo_confused_annoyed][ib:closed]" />
+    <string id="pGfDkbBE" text="全ての製作レシピをアンロック" />
+    <string id="pGu2mcar" text="{QUEST_GIVER.LINK}と隊商を相手にした戦いに負けてしまいました。" />
+    <string id="phavdGYA" text="確かなのか？" />
+    <string id="pinSMuMe" text="一つは{CLOSEST_TOURNAMENT}でまもなく開催され、その次が{NEXT_CLOSEST_TOURNAMENT}だな。早い内に動いておけば、いずれかに参加できるはずだ。[ib:hip]" />
+    <string id="Piq3oYmG" text="大丈夫だ、ありがとう。" />
+    <string id="PJ7BhyOy" text="私はその穀潰しに言ってやった… 「私の娘に構うな、さもなければ{NOTABLE.LINK}の耳に入ることになるぞ」と。ハッ！奴め。それ以来、私の家の近くでふらふらしているのを見なくなった。" />
+    <string id="PLbxHyPu" text="場合によりけりだ。私は身代金を見極める目があると、自分で思っている。空腹のままベッドに入る性質なのか、はたまた肉に東から入ってきたコショウやクローブをかける性質なのか、そうしたことがその相手のちょっとした癖からわかるものなんだ。もちろん実際の金は貴族の手のなかにある。もし私と同じ仕事をしたいと考えているなら、カルラディア全土の土地所有者の一族と、部族の長の名前を覚えなくてはならない。さらに彼らの領地、嫡出子と庶子、そしてもちろん、商人からの評価についても知っておくべきだ。" />
+    <string id="PLgOm8tV" text="町民の話では、その密偵は禿げてはいないそうだ。" />
+    <string id="PlIYRSIz" text="わかりました、{?PLAYER.GENDER}領主様{?}領主様{\?}。準備させます。" />
+    <string id="pmuEeFV8" text="まだあんたの部下と待ち伏せの方法を手配している最中だ。心配は要らない。全て順調にいくさ。" />
+    <string id="po79q14T" text="路地を攻撃から守ることができず、所有権を失いました。" />
+    <string id="PRadDFN5" text="{SALUTATION}… ふむ、これは予想外ではあるが、感謝はしている。" />
+    <string id="prJBRboS" text="私たちはここで、誠実な人々の世話をしているのさ。誰も彼らの店を壊したりしないようにね。それに対して彼らが私たちに感謝の印として、硬貨の一枚や二枚を渡したとして何の問題がある？" />
+    <string id="pS0bBRjt" text="貴様！家族の元へ行って、[if:convo_angry]私たちに賠償金を送るように伝えろ。" />
+    <string id="PsmnVIcb" text="主人公を回復" />
+    <string id="PUtbpIFI" text="集落中の私の仲間をすべて集めて、私に会いに来てください。" />
+    <string id="PuuVGOyM" text="{ALTERNATIVE_SOLUTION_DURATION}日間、私の副官を一人と{NEEDED_MEN_COUNT}人の兵を派遣することで、あなたに協力しよう。" />
+    <string id="PV56VAFg" text="あっちに行っといで、坊や。" />
+    <string id="pW69nUp8" text="手遅れになる前に、この仕事を終わらせるんだ。[if:convo_stern]" />
+    <string id="pWzdxd7O" text="なんと哀れな。{?PLAYER.GENDER}あなたさま{?}あなたさま{\?}に天のご加護がありますように。ですが、今は硬貨一枚差し上げるのもままなりません。" />
+    <string id="py6Y46sa" text="いや、私は何も聞いていない…" />
+    <string id="PZq1EMcx" text="力を貸してくれて感謝する。娘の{TARGET_HERO.FIRSTNAME}のことがとても心配だ。できるだけ早くあの子を見つけて、連れてきてもらえないだろうか。[if:convo_worried]" />
+    <string id="Q2RKkISe" text="洞窟の中には仲間が何人もいる。イナゴと蜂蜜が取れるから食事には困ってない。仲間の中にはかつて富と権力を持っていたやつもいるが、今はこの解放された生活を楽しんでる。貯め込んだ物を失うんじゃないかっていう心配からの解放。自分の行為が天の怒りを買うのではないかという恐怖からの解放。これこそが唯一かつ真の自由だ。私たちは君のような新参者を歓迎するよ。" />
+    <string id="Q7B68CVK" text="よくやった！賢明な判断だ。[ib:normal]" />
+    <string id="Q7wBRXtR" text="ああ、手持ちならある。（ {GOLD_COST} {GOLD_ICON}）" />
+    <string id="QaAzicqA" text="ヒゲは多くの男性が生やしているものだ。だがその中でも、あれはすごいな。" />
+    <string id="QaN26CZ5" text="傷がまだ完全に塞がっていない。治るまで少し時間がかかりそうだ。" />
+    <string id="Qbp2AiRZ" text="私は誰の名も挙げない。世俗的なことを考えるのはもう終わりだ。（ゲーム終了）" />
+    <string id="QbzsgawM" text="よし、目を開けたままでいてくれ。" />
+    <string id="QCuxL92I" text="ごきげんよう、{?PLAYER.GENDER}ご婦人{?}ご主人{\?}。なにかお手伝いしましょうか？" />
+    <string id="qdDRe8QC" text="消えろ、乞食め。お前みたいなのを相手してくれる奴を探せ。" />
+    <string id="QdEGu0CW" text="{INQUIRY_COMPANION.LINK}という名の{?INQUIRY_COMPANION.GENDER}女{?}男{\?}が、{COMPANION_SETTLEMENT}への道中、ここに立ち寄った。急げば{?INQUIRY_COMPANION.GENDER}彼女{?}彼{\?}に追いつけるかもしれないぞ。[rb:positive]" />
+    <string id="QdKWaabR" text="ご安心を、{ISSUE_OWNER.NAME}。部下がすぐに証書を持って戻ります。" />
+    <string id="QEgzLRnC" text="あなたは{QUEST_GIVER.LINK}との戦いに負け、約束通り商人を助けることができませんでした。" />
+    <string id="qeiVFn9s" text="{CLAN_NAME}は{NEW_FACTION_NAME}に加わりました。" />
+    <string id="qFoMsPIf" text="無事に出られてよかった。これからどうする？" />
+    <string id="QGdaakYW" text="{KEY} 起きる" />
+    <string id="QHoCsSZX" text="家族が支払えない場合はどうなる？" />
+    <string id="qIQbIjVS" text="いいだろう！少年の命は取らないでおいてやる。さあ、早く消えろ。[ib:closed][if:convo_nonchalant]" />
+    <string id="QjtOAyKE" text="俺は狼になる。" />
+    <string id="QkbkesNJ" text="{TARGET_SETTLEMENT}が襲撃され、{QUEST_GIVER.LINK}は待ち伏せを取りやめました。" />
+    <string id="QMaYa25R" text="{TARGET_NOTABLE.LINK}に、一言でも話しかけたらどうなるかわかっているのだろうな。[ib:aggressive2][if:convo_furious]そこで人生が終わるぞ。わかったか、クズめ。" />
+    <string id="qmqTLZ9R" text="ありがとうございます、{?PLAYER.GENDER}マダム{?}サー{\?}。あなたは救世主です。" />
+    <string id="qN2LYVIO" text="ああ、{HERO.LINK}なら知っている。" />
+    <string id="QNpuyzc4" text="落ち着け。もうこの場所には興味がないんだ。好きにするといい。" />
+    <string id="QP7L2YLG" text="面白そうだ。" />
+    <string id="qPRl07mD" text="いいだろう。私も試してみよう。" />
+    <string id="qQ71Ux7D" text=" あなたの軍隊は飢餓状態の兵士と食料を分け合った。{INFLUENCE}{INFLUENCE_ICON}消費した。" />
+    <string id="QR0V8Ae5" text="近くに、うちの連中がうまく紛れ込んでいる。[ib:normal][if:convo_excited]みんな、あのろくでなし共に襲いかかる合図を待っているのさ。お前がこうして手を貸してくれた恩は忘れない。" />
+    <string id="QrBCe41Z" text="路地の兵士を管理する" />
+    <string id="qsavxffL" text="私は襲撃者となろう。" />
+    <string id="qsg7pZOs" text="ありがとう。だが、傷をゆっくり癒やすことにするよ。" />
+    <string id="qsJxhNGZ" text="安全な旅を、{?PLAYER.GENDER}ご婦人{?}ご主人{\?}。" />
+    <string id="qSy4Ns1N" text="あなたの求めている条件に見合うかもしれない人物が、今この中で酒を飲んでいる。そいつは{INQUIRY_COMPANION.LINK}を名乗っている。" />
+    <string id="qT4nbaAY" text="おい、あんた、ここで何をしてる？" />
+    <string id="QTfliM5b" text="楽しい試合だった。今度またやろう。" />
+    <string id="QTZjjOXb" text="引き続き、頼む。" />
+    <string id="qWLq2y84" text="死産児" />
+    <string id="qxhMagyZ" text="誰かが対応してくれているなら良かった。[if:convo_relaxed_happy]とにかく早く終わるように取り計らってくれ。" />
+    <string id="QxIXbHai" text="捕虜と話がしたい（不正）" />
+    <string id="qxY2ASqp" text="路地を奪う" />
+    <string id="QYFuj7H7" text="{PRISONER_NAME}を見つけて話そう。衛兵に気付かれないように！" />
+    <string id="QyGQanO7" text="{NOTABLE.FIRSTNAME}は頑固で高慢な、好色の老いぼれであることは間違いないが、{?NOTABLE.GENDER}彼女{?}彼{\?}がそこまで不誠実であるとは言えないはずだ。" />
+    <string id="R0AbAxqX" text="非公式のモジュールが使用されているため、功績が無効となっています。" />
+    <string id="R2HP4EiX" text="これ以上質問はないよ。" />
+    <string id="r7xdYj4q" text="モジュールの不一致" />
+    <string id="RAA6bEw8" text="この町で君がよそ者なら、何枚かの銅貨で藁の山や橋の下に泊めてくれる人が見つかるはずだ。" />
+    <string id="RB4uQpPV" text="あなたは私に大金を払うことになる。正確には{REWARD}{GOLD_ICON}だ。だがその価格なら、同意しよう。" />
+    <string id="Rb7g1U2s" text="あなたは{TARGET_HERO.LINK}を説得し、{PRODIGAL_SON.LINK}を解放した。程なくして{QUEST_GIVER.LINK}{?QUEST_GIVER.GENDER}婦人{?}卿{\?}から、礼の言葉と報酬の{REWARD}{GOLD_ICON}が送られてきた。" />
+    <string id="rcoESVVz" text="すまないが、私たちは君を知らない。誰彼かまわず入れるわけにはいかないのだ。（名声が不十分）" />
+    <string id="RCsbpizl" text="デナールがあるならやろう。" />
+    <string id="RcY8uZA1" text="標的を見失いました。" />
+    <string id="Rf0QqRIX" text="あなたは敵対する一味のリーダー、{RIVAL_GANG_LEADER.LINK}につくことを選んだ。{QUEST_GIVER.LINK}は激怒するでしょう。" />
+    <string id="rGaaVBBT" text="ああ、いいでしょう。あなたの勇気を試してみるとしよう。" />
+    <string id="rgTGzfzI" text="ああ、問題ならあるとも。[ib:confident][if:convo_undecided_closed]{?TARGET_NOTABLE.GENDER}奴の{?}奴の{\?}名前は{TARGET_NOTABLE.LINK}だ。{?TARGET_NOTABLE.GENDER}こいつの{?}こいつの{\?}部下どもが、俺たちの保護下にある店主たちに金を要求したり、脅したりして困らせている。いいか、この店主どもは俺のカモなんだ。俺以外の奴が搾取することは許されない。この無作法者どもをこらしめる用意はすでに出来てるが、可能なら力を借りたい。" />
+    <string id="ribkM9dl" text="既に集落内で他の路地を所有しています。" />
+    <string id="rjHQpVDZ" text="{QUEST_GIVER_SETTLEMENT}の地主である{QUEST_GIVER.LINK}が、厄介な争いに発展しそうな事件についてあなたに話した。ある若者が喧嘩で別の若者を殺してしまい、その被害者の一族が賠償金を拒否して、代わりに復讐を要求しているらしい。" />
+    <string id="RJtCakaG" text="今あなたを出迎えられる人間は、中にいません。" />
+    <string id="rlAec9CM" text="いいだろう。どうか元気で。" />
+    <string id="rLcRwkqK" text="この辺りで{INQUIRY_COMPANION.LINK}という名前の{?INQUIRY_COMPANION.GENDER}奴{?}奴{\?}がいないか探してみたらどうだ？{?INQUIRY_COMPANION.GENDER}彼女{?}彼{\?}なら、そういうスキルを持っているかもしれない。" />
+    <string id="rLlIVqmY" text="なのでもし、勝利を収めた戦いにおいて捕虜を何人か獲得した際、その世話や食事の面倒から解放されたいのなら、私か同業の誰かが喜んで金を払うぞ。一種の投機的投資というやつだ。" />
+    <string id="RlP8aYVJ" text="今すぐ助けが要る者はいないようだ。" />
+    <string id="roTCX8S8" text="{ISSUE_GIVER_1.LINK}が何らかの仕事を頼みたがっていたな。" />
+    <string id="RPgzaZeR" text="ゲームが終了します。" />
+    <string id="rqFKxm24" text="ごきげんよう。試合や大きな戦いを求めて来たのなら、運がなかったね。今のところ試合も、いわゆる「競技会」の類も開かれる予定はないよ。" />
+    <string id="rshplAOt" text="ふむ。" />
+    <string id="RsOmvdmU" text="私たちは話をしに来ただけだ！頼むから聞いてくれ！[if:convo_shocked]" />
+    <string id="rTrGXB1o" text="ああ… 噂によれば、{._}{ITEM_NAME}は{TOWN_NAME}でよく売れるそうだ。積み荷ひとつで {PRICE_DIFF}{GOLD_ICON}くらいの利益が出るんだとか。" />
+    <string id="ruHt0Ub5" text="あなたはエリスリス山の麓にいる。この古代の火山は、古くから神官や予言者、神秘主義者の避難所としてなっている。険しい谷を登ると、柔らかい火山岩に形作られた数多くの洞窟が見えた。近づいてみると、人が住んでいた形跡が見つかった。そのうちの洞窟の一つには、擦り切れてボロボロになったローブを着て入口に座り、山の冷たい空気の中で瞑想している老人がいた。" />
+    <string id="RUZKiW0u" text="景気は上々だ。それは否定できない。だが物価はどんどん高くなっている。" />
+    <string id="rVHbbrCQ" text="今は誰もここに拘束していない。あなたが中に立ち入る理由はない。" />
+    <string id="Rvt11UBE" text="{BASIC_EVAL} {REPUTATION}" />
+    <string id="RXhBl8e1" text="普段通りに振るまえ。競技会の参加者で、やたら奇妙な質問をしてくる者はいなかったか？" />
+    <string id="RyAH9Zvk" text="市場にいた男がこう言った。「この災難は天が玉座にある者を、好ましく思っていないことを意味する」と。私は「なんと不敬な発言だ！」と言った。ああ、言ってやったさ。" />
+    <string id="rzGqa5oD" text="復讐は成される。戦いの前に余計な言葉は不要だ…" />
+    <string id="s0jKaYo0" text="連中が俺たちの計画を知る前に襲撃をかけなければ。急げ！[if:convo_astonished]" />
+    <string id="s1GWSE9Y" text="{SETTLEMENT}での攻城戦が起きたため、{QUEST_GIVER.LINK}はあなたの計画を取り消しました。{?QUEST_GIVER.GENDER}彼女{?}彼{\?}は、敵対する組織とのもめ事よりも、もっと厄介な事態に巻き込まれています。" />
+    <string id="S3MaaRQH" text="衛兵が何かおかしいことに気付いている。戦いの準備をするんだ！" />
+    <string id="s5fXZf2f" text="この問題を平和的に解決するため{CULPRIT.LINK}に、{TARGET_SETTLEMENT}に行き {TARGET_NOTABLE.LINK}と会うように説得しました。彼はあなたが怒り狂った犠牲者の親族から、彼を守ることを条件にこれに同意しました。" />
+    <string id="s5qs0bPs" text="あなたは{QUEST_SETTLEMENT}の{?ISSUE_GIVER.GENDER}領主{?}領主{\?}である{ISSUE_GIVER.LINK}から、密偵が競技会の参加者に紛れていることを聞いた。あなたはその密偵の正体を暴き、処理するように頼まれた。あなたは{COMPANION.LINK}に頼み、部下の中でも最高の兵である{NEEDED_MEN_COUNT}人を連れて、事に当たってもらうことにした。彼らは{ALTERNATIVE_SOLUTION_DURATION}日以内に報告をよこすはずだ。" />
+    <string id="s8dsW6m0" text="新しい路地" />
+    <string id="sakSp6H8" text="いつまでも隠れているわけにも行かないだろう。状況が悪化した場合は、我が名誉にかけて君を守ることを誓う。" />
+    <string id="sbczu2VI" text="どうぞ、つづけてくれ。" />
+    <string id="SbYlYGFA" text="悪いが、ここ最近でそういう人物が立ち寄った記憶はないな。" />
+    <string id="SdgDF4OZ" text="ハッ！ お前は大きな間違いを犯してる。あそこにいる集団が見えるか？ [if:convo_excited]戦士の{PLAYER.NAME}が率いる連中だ。あいつらは仲間なんだ。お前らを八つ裂きにするだろう。" />
+    <string id="SdKTUIVJ" text="{?PLAYER.GENDER}ご婦人{?}旦那様{\?}、お悔やみ申し上げます。通りの連中は{DEAD_ALLEY_LEADER.NAME}のことを悲しむでしょうね。準備ができたら、新しいボスを指名してください。" />
+    <string id="se2EXQu8" text="こんなにも暑いと、喉もよく渇くものだ。" />
+    <string id="seyti8xR" text="勝利！" />
+    <string id="SFn4UFd4" text="スキルを強化" />
+    <string id="sfxfiWxl" text="{?PLAYER.GENDER}マダム{?}サー{\?}、皆の噂の種です。この辺りの誰もが、あなたが同じ質問をして回っていることを知っていますよ。急がないと獲物も逃げてしまいましょう。" />
+    <string id="sglD6abb" text="頼む！娘を連れ戻してくれ！" />
+    <string id="SGoz7xvk" text="私は{CRUEL_LANDOWNER.NAME}の土地を耕し、家賃を払い、彼のためにかなりのお金を稼いだわ。でも時代は変わり、物価は変わった。彼は私の土地を奪って、代わりに羊を飼うと言ったの。私はどこに行けばいいの？それに何をすればいいの？" />
+    <string id="SHwlcdp3" text="あなたはここらの交易商ですね。ならばお尋ねしますが、競技会に参加している戦士がこのあたりを歩き回って、何か不審な質問をしているのを見かけたことはありませんか？" />
+    <string id="shXdvd5p" text="この町を統治する者に関する情報を集めている。" />
+    <string id="sIfL5Vnx" text="何も報告することはありません、{PLAYER.NAME}。" />
+    <string id="SIxE2LGn" text="{ISSUE_GIVER_1.LINK}が何らかの仕事を頼みたがっていたな。{ISSUE_GIVER_2.LINK}と{ISSUE_GIVER_3.LINK}も誰かを探している様子だった。" />
+    <string id="SJHtVaNa" text="密偵は我々の中に" />
+    <string id="skMoB7c6" text="あなたが{PRODIGAL_SON.LINK}の借金を支払うと、{TARGET_HERO.LINK}は約束通り、すぐに若者を解放した。程なくして{QUEST_GIVER.LINK}{?QUEST_GIVER.GENDER}婦人{?}卿{\?}から、礼の言葉と合計{REWARD}{GOLD_ICON}の報酬が送られてきた。" />
+    <string id="SkzM5eSv" text="{ISSUE_GIVER.LINK}の娘が失踪した。{?ISSUE_GIVER.GENDER}彼女は{?}彼は{\?}娘を見つけ無事に連れ戻すために、多額の報奨金を提示している。" />
+    <string id="SliFGAX4" text="{TARGET_MERCHANT.NAME}はいつも[if:convo_evil_smile]{?TARGET_MERCHANT.GENDER}彼女{?}彼{\?}の隊商を守る護衛を募集してる。悪人こそ悪いことが起きるのを恐れるってやつか。だが、その護衛が実は強盗だったら？{TARGET_MERCHANT.NAME}は誰も信用しないが、あんたみたいに有名な戦士なら雇うかもしれない。そしてその戦士が隊商を待ち伏せ場所に行くよう仕向けたなら… 少々卑劣かもしれんが、あんたの評判に傷がつくことはないだろう。{TARGET_MERCHANT.NAME}は商売仲間を騙すことで有名なんだ。もし{?TARGET_MERCHANT.GENDER}彼女{?}彼{\?}の隊商に何か起きたとしても、ほとんどのやつは信じないか、気にしないだろうさ。" />
+    <string id="sm6ckPnp" text="春だな、友よ。風の季節だ。狂気の季節だ。それでは、もう一杯いただくとしようか。" />
+    <string id="Sn9a1Aba" text="二人の死産児" />
+    <string id="Sph9Nliz" text="闘技場の主と話して、闘技場についてより多くのことを知る必要があります。" />
+    <string id="SqrRaIU5" text="異なる見解を持っている人物がいれば教えてほしい。" />
+    <string id="SRa9NyP1" text="いいや。狩りの途中なんだ。" />
+    <string id="sSIjPCPO" text="争いに直接介入したくなければ、[if:convo_mocking_aristocratic]{TROOP_COUNT}ほどの優秀な部下と一緒に、仲間を一人置いていってくれ。彼らが{RETURN_DAYS}日ほどついていてくれれば、私に大きな貸しを作れるぞ。" />
+    <string id="SV0IEWD2" text="{GAME_NAME}は先読みをするゲームです。捕獲されることのないゲームなので、相手の行動を読み、その先を行く計画を立てることに全力を注ぎます。" />
+    <string id="sVcJTu7K" text="{GAME_NAME}は戦争のごとく流れが速く、厳しいものです。相手を弱体化させ、士気をくじくために、できるだけ多くの捕獲をおこないましょう。しかし絶え間ない攻撃を仕掛ける一方で、堅牢な防御体制も敷かなければなりません。主導権を取り戻そうとする敵の目論見を、確実に潰しましょう。" />
+    <string id="svuD2vBo" text="{PRISONER.NAME}を地下牢から出そうとしているその時、あなたは殴られて気を失った。{newline}衛兵はあなたたち二人を捕らえ、牢屋へと放り込んだ。" />
+    <string id="swamqBRq" text="{ISSUE_OWNER.NAME}がゲームホストを倒してほしがっています" />
+    <string id="sytYViXb" text="お前の決闘を受けよう。" />
+    <string id="T0zupcGB" text="恥をしのんで話すと… [ib:nervous][if:convo_nervous]町に出た時にはよく宿屋で酒を飲み、{GAME_TYPE}を1、2ゲーム嗜むことがある。大抵は少額しか掛けない。ただ、前回はワインの酔が頭に回ってしまって、失ってはいけないものを失ってしまった。" />
+    <string id="T29epQk3" text="100{GOLD_ICON}" />
+    <string id="T2GbF6lK" text="相応しい後継者がいないため、{CLAN_NAME}クランは終焉を迎えました。あなたの旅はここで終わりです。" />
+    <string id="t4KwQOB7" text="{HERO.NAME}が成人を迎えました。" />
+    <string id="T5jd4m69" text="そうなったらさらに楽しめそうだ。いくらくらいを考えていたんだ？" />
+    <string id="t6W3UjG0" text="保存したゲームのファイルが破損しているようです。新たなキャンペーンを始めるか、保存したゲームのメニューから別のファイルをロードしてください。" />
+    <string id="TazumJGN" text="あなたは通りへと姿を現す。地下牢で起きたことにはまだ誰も気づいておらず、あなたは{PRISONER.NAME}を門へと急がせる。{newline}今のあなたには、この{?SETTLEMENT_TYPE}集落{?}城{\?}を去る選択肢がある。" />
+    <string id="TCIaDC9X" text="ヴランディアの敵が略奪に現れた。ダートハート王は要塞に部下を召集した！{newline}彼らは稲妻のごとき速さで馳せ参じた。だが、ダートハートはすでに眠りについていたのだ。" />
+    <string id="TD8Jxn7U" text="ごきげんよう、{?PLAYER.GENDER}我が君{?}我が君{\?}。" />
+    <string id="TDgoyFBi" text="あまりやることがない… 縫って、直して。他に何かあっただろうか。" />
+    <string id="TdnD29Ax" text="おっと！惜しかったな！注意が足りなかったようだ。[if:convo_mocking_teasing]もう1000デナールを追加してもう1ゲームと行くかい？" />
+    <string id="tdvnKIyS" text="やっぱりいい。" />
+    <string id="Te4pxfWF" text="それで、参加してもいいのか？" />
+    <string id="TfDomerj" text="私と部下であれば、隊商は十分に守れるでしょう、{?PLAYER.GENDER}マダム{?}サー{\?}。" />
+    <string id="tFPJySG7" text="私は{SELECTED_SETTLEMENT}で競技会を主催することにしました。[ib:convo_undecided_open][if:convo_pondering]領土中から参加者が集まることを期待しています。参加する戦士たちの中に一人、防備に関する情報収集のために送られた、密偵が紛れ込んでくるはずです。私にはそう確信できるだけの根拠があります。" />
+    <string id="tGI135jv" text="あー。私の知る限りでは、やってないな。通常ならあり得ないことだが。きっと、戦争のせいだろう。[ib:closed]" />
+    <string id="tgUUxK7Z" text="いいかい。今は君を助けることはできないが、周りを見渡せば君に必要なものをくれる人が誰か見つかるはずだ。" />
+    <string id="tHUHfe6C" text="あいつらの仲間なのか？ これは今まで目撃した中で最も卑しい裏切りだ！[if:convo_furious]" />
+    <string id="TIPxWsYW" text="あなたはゲームホストから権利証を買い取りました。{QUEST_GIVER.LINK}。{newline}「土地が取り返せて嬉しいよ。私が自分で買い戻すべきだったことを、皆に知られているのは痛いが… 何はともあれ私の謝意とともに、この{GOLD}{GOLD_ICON}デナールを受け取ってくれ」" />
+    <string id="tirG1BB2" text="{QUEST_GIVER.LINK}から、{TARGET_SETTLEMENT}の酒場で賭け事をしていて権利証書を失ったと聞きました。ゲームホストを見つけ出し、証書を取り戻してほしいと頼んでいます。あなたは自分で対処すると彼に伝えました。" />
+    <string id="TIVHLAjy" text="君の言うことに一理あるかもしれない。先の決定は取り消すことにしよう。" />
+    <string id="TkYk5yxn" text="どうした？早く行け。若者を連れ戻してくれ。[if:convo_excited]" />
+    <string id="TMhUM4tz" text="{NOTABLE.LINK}は{?NOTABLE.GENDER}彼女の{?}彼の{\?}{.%}{SHOP_TYPE}{.%}で、どんどん金を稼いでいるそうだ。{?NOTABLE.GENDER}彼女は{?}彼は{\?}ずる賢いやつだよ。" />
+    <string id="Tn9g83ry" text="{?PLAYER.GENDER}ご婦人{?}ご主人{\?}、お飲み物はお気に召しましたか？" />
+    <string id="toHJ01dX" text="代わりに何が望みだ？" />
+    <string id="Tol5zRgG" text="今年の冬… 子供たちはみんな咳と喘鳴がある。老いた母はもう一ヶ月寝たきりだ。夜、窯にくべる石炭を買う余裕もない。春の雪解けは私には遠すぎる。" />
+    <string id="TOpysYqG" text="力っていうのは、善いことをする力を意味することもあるんだ。" />
+    <string id="TP7rZTKs" text="{DENAR_AMOUNT}{GOLD_ICON}デナールの手持ちがありません。" />
+    <string id="TsbjAsxs" text="あなたの妻、{MOTHER.NAME}が{DELIVERED_CHILDREN}を出産しました。" />
+    <string id="tsjwrZCZ" text="あなたはこの地の{?PLAYER.GENDER}領主{?}領主{\?}だ。こんな不道徳な行為を処罰しないまま、捨て置くはずがない。領主として{TARGET_NOTABLE.LINK}と話をし、賠償金を受け取ってもらう流れに持ちこめるはずだ。" />
+    <string id="tTKpOFRK" text="あなたは決闘に勝利しましたが、相手は潔白でした。{QUEST_GIVER.LINK}は失望しています。" />
+    <string id="TTkVcObg" text="この冷血漢め！他にどうしろと言うのだ！[if:convo_furious]" />
+    <string id="tuaQ5uU3" text="このかわいらしい坊やの術からあなたを解放するには、彼を殺すしかないようだ。" />
+    <string id="tVb0nWxm" text="戦争は犠牲が全てです。{GAME_NAME}では確実に対戦相手のほうが、自分よりも多くの犠牲を払うようにしなくはなりません。一手ごとに自分や相手の手の内が明かされる可能性があるので、慎重に考えて動く必要があります。" />
+    <string id="TWZ4abt5" text="今までのように、放浪を続けるよ。生計は立てられる。心配する必要はない。" />
+    <string id="tWzLqegB" text="競技会は終了しました。" />
+    <string id="tXpmCzoZ" text="そうだな。一人、若くてハンサムな戦士がいたっけな。戦士っていったら、戦いの中で何かしらの傷ができるものだが、そういうのが一切なかった。アザとかタトゥーとか、[if:convo_pondering]強面の連中がやたら見せびらかしたがる類のものもなかったと思う。" />
+    <string id="TyultuzK" text="それだけわかれば十分だ。ありがとう。" />
+    <string id="tyyAfWRR" text="奴らとは最近も、規模こそ小さいが乱闘をしたばかりだ。[if:convo_mocking_revenge]あっちは、我々が強硬姿勢に出るのを待っていることだろう。だから逆に、{NUMBER}日間動かないでいようと思っている。そうやって、我々が怖気づいたと思い込ませるのさ… そうして{NUMBER}日経ったら、あんたの部下とうちのヤツらで、あいつらがもっとも油断しきっている夜中に仕掛けるんだ。その時が来たら遣いの者をやるから、一緒に奴らを叩こう。" />
+    <string id="U342eACh" text="もう一度{GAME_NAME}で勝負しようか？" />
+    <string id="u4jhIFwG" text="{GANG_LEADER}の部隊" />
+    <string id="U79CXBbj" text="天よ、我らを見守りたまえ。天よ、我らに力を与えたまえ。" />
+    <string id="U8iyCXmF" text="運に見放された人たちを助けてるのさ。彼らを立ち上がらせるために、少しばかりの銀を渡してやるんだ。もちろん、少しばかり投資的な意味合いもあるがね。" />
+    <string id="U9zFz8Et" text="{SIEGED_SETTLEMENT_NAME}の{SIEGE_ENGINE}が破損しました。" />
+    <string id="UBd0dEPp" text="試合は終了しました。" />
+    <string id="UBFS1JLj" text="あの小僧とはもう関わりがない、[ib:closed][if:convo_annoyed]わかったな？さあ、出ていってくれ。" />
+    <string id="ubnVca4L" text="まあ、そうだな… 私の{RANDOM_RELATIVE}が言うには、いくつかの{._}{PLURAL(ITEM_NAME)}を{TOWN_NAME}に持っていって、{PRICE_DIFF}{GOLD_ICON}の利益を上げたそうなんだ。くだらない冗談かもしれないがね。" />
+    <string id="udD7Y7mO" text="守っていただきありがとうございます、{?PLAYER.GENDER}お嬢様{?}旦那様{\?}。{ISSUE_GIVER.LINK}にここでのあなたの功績をお伝えしてきます。" />
+    <string id="UEY5aQ2l" text="目的は{TARGET_MERCHANT.NAME}の品を奪うことだけだ。{?TARGET_MERCHANT.GENDER}彼女{?}彼の{\?}子分を相手にすることじゃない。さあ、商品を渡すか戦うか選べ。" />
+    <string id="UGTCe2qP" text="落ち着け。君の親族の{QUEST_GIVER.NAME}と話をした。状況は全て把握している。君を助けに来たのだ。" />
+    <string id="uhwoWUyR" text="まだあなたを、{HERO.LINK}のところへ連れて行っていない…[ib:demure]" />
+    <string id="uJceH1Dv" text="スノールソーセージ" />
+    <string id="uJNvbag5" text="{SETTLEMENT}の壁が壊れました。" />
+    <string id="uJPAYUU7" text="すぐに先を急ぐことにするよ。" />
+    <string id="ukRZd2AA" text="賊と決闘をするつもりはない。" />
+    <string id="UQyCoQCY" text="待て！この若者は今、私の庇護下にある。落ち着いて話すとしようじゃないか…" />
+    <string id="urCXu9Fc" text="そうだな、あいつから直接買い戻すのも一つの手だとは思うが、あまり気が進まない。[if:convo_innocent_smile]この先何ヵ月も、酒場の笑い者にされてしまう… あんたが買い取りでの解決を選んだ場合は、支払った額の内、{REWARD}{GOLD_ICON}までの補償しかできない。あんたの仲間に、ああいうゲームに長けているヤツがいるなら、あるいはうまく事が運ぶかもしれない。" />
+    <string id="urieibC4" text="ある人を探しているんだ。" />
+    <string id="usMQ64pf" text="収穫の人手が足りればいいんだが。" />
+    <string id="ut26sd6p" text="誰か他の者にこの場所を任せたい。" />
+    <string id="uTycGRdI" text="もう行ってくれ。今は仕事中だし、あんたにやれる金は硬貨一枚もない。天の恵みがあることを祈っている。" />
+    <string id="uUhtKnfA" text="酒場への出入り" />
+    <string id="uUkCLZEo" text="どれどれ…{ISSUE_GIVER_LIST}。" />
+    <string id="UURamhdC" text="感謝する。これで二人とも大儲けできるだろう。[if:convo_delighted]" />
+    <string id="uVigJ3LP" text="{QUEST_GIVER.LINK}が{SETTLEMENT}の支配権を失い、契約が無効になりました。" />
+    <string id="UxrXNSW7" text="あなたは支配者として、{TARGET_NOTABLE.LINK}に{?TARGET_NOTABLE.GENDER}彼女の{?}彼の{\?}親族の復讐を果たさせ、{QUEST_GIVER.LINK}と約束した少年の保護に失敗した。{QUEST_GIVER.LINK}は激怒している。" />
+    <string id="uXXH5GIU" text="そういうことなら、戦争や心配事の待つ世界に帰るんだ。望まないものを得る手助けはできない。だが、私はここを離れるつもりはないから、もし私の助けが必要になったら、いつでも戻ってくるといい。" />
+    <string id="uYrxCtDa" text="私が彼女を見つけて、何が起こっているかを確認します。" />
+    <string id="uytwdSVH" text="ラウンドが終了し、あなたは競技会の次のステージへ進む権利を得ました。" />
+    <string id="v0XsM7Zz" text="追跡の得意な部下に、数人の兵をつけて派遣してくれれば、きっと娘を見つけてくれるはずだ。[if:convo_pondering]{ALTERNATIVE_SOLUTION_WAIT_DAYS}日以内に彼らをあなたの元に返せるだろう。" />
+    <string id="v7pJerga" text="ああ、だが富と権力というものはな、いつも誰かが奪おうとしているんだよ。自らの子さえもだ。力を持つ者に安息はない。" />
+    <string id="vAjgn7yx" text="{SETTLEMENT}に進出する敵対組織" />
+    <string id="VaxbQby7" text="大変良い取引ができそうだ。" />
+    <string id="VcfZdKcp" text="心配するな、私が君の親族を守る。" />
+    <string id="Vd22iVGE" text="{?PLAYER.GENDER}お嬢様{?}旦那様{\?}。失望させてしまって申し訳ございませんが、我らの一族とて自尊心はあるのです。" />
+    <string id="VDfyzs5v" text="甥" />
+    <string id="vEHaOSIT" text="一杯のサワービール" />
+    <string id="VEHPTzhO" text="{LEADER.NAME}が{SETTLEMENT}近辺で軍隊を招集しています。" />
+    <string id="vGnY4KBO" text="あまり意味のない脅しだな。私は{TARGET_NOTABLE.LINK}と仕事をしている。" />
+    <string id="VGrHWxzf" text="これは決闘ではなく虐殺になる。まあ、構わないがね。" />
+    <string id="VH27tpkT" text="これはお前の名をあげる絶好の機会だ。せいぜい歯が折れる程度の覚悟をしておけばいい。なあに、30本ほどあるんだ。ここで何本か失くしたところで大したことはあるまい。" />
+    <string id="vjk2q3OT" text="{?PLAYER.GENDER}マダム{?}サー{\?}、{TARGET_NOTABLE.LINK}の甥が、私の親族の一人を殺しました。[ib:aggressive][if:convo_bared_teeth]我々には、この殺人に報復する権利があります。慣習に則った正当な権利です。一族の息子らの仇を討たんとする我らの意思を、あらゆる者たちに知らしめねばなりません。でなければ息子らを手にかけることが、些細な事だという印象を与えてしまう。溢れんばかりの銀があったとして、一族の者たちが年老いた時、息子たちがみな殺されていたら、何の意味がありましょうか。どうか報復のご許可を。無差別な血の復讐とならないことをお約束します。" />
+    <string id="vjOkDM6C" text="殺人者を擁護すれば、[ib:warrior][if:convo_furious]殺人者と同様の最期を迎えるのみだ。皆殺しにしろ！" />
+    <string id="VkOtMe5a" text="路地裏に向かう" />
+    <string id="VM1SGrla" text="あなたの敵は{HERO.NAME}。" />
+    <string id="vn13OyFV" text="一人の健康な赤ん坊と、一人の死産児" />
+    <string id="VP6s1YFW" text="挑戦者の多くが剣を背負っている。だが、それでもこの情報は役に立つかもしれない。" />
+    <string id="VPGkIqlh" text="あなたが{QUEST_GIVER.LINK}の徒党集団に攻撃したことで{?QUEST_GIVER.GENDER}彼女{?}彼{\?}を怒らせてしまい、{?QUEST_GIVER.GENDER}彼女{?}彼{\?}と結んだ契約は解除されました。" />
+    <string id="vpUl7xcy" text="あなたは敵対する一味を破り、{SETTLEMENT}の{QUEST_GIVER.LINK}の利益を守りました。" />
+    <string id="vS6oZJPA" text="仲間の{COMPANION.LINK}と部下が成功の知らせと共に帰還した。どうやら{TARGET_NOTABLE.LINK}と{?TARGET_NOTABLE.GENDER}彼女{?}彼{\?}のゴロツキ共が犯人を見つけ、彼を殺そうとしたようだが、あなたの部下がゴロツキを追い払うことができた。{COMPANION.LINK}によると、ゴロツキは酷い鼻血を出していたため、二度と同じ真似はしないだろうとのことだった。{QUEST_GIVER.LINK}は感謝の証として、{?QUEST_GIVER.GENDER}彼女{?}彼{\?}に{REWARD}{GOLD_ICON}デナールが詰まった財布を贈ることにした。" />
+    <string id="Vs9DfZmJ" text="いいや、私の言葉が最終決定だ。お前は賠償金を受け取らねばならない。" />
+    <string id="VuqZuSe2" text="あなたのクランは{QUEST_GIVER.LINK}の勢力と戦争状態になりました。契約は解除されます。" />
+    <string id="vVH7wT07" text="あいつらは誰だ？用心しろ、{PLAYER.NAME}。厄介ごとの予感がする！[if:convo_confused_annoyed]" />
+    <string id="VWaNqkqJ" text="そんな人はこの辺りで見かけたことがないですね、{?PLAYER.GENDER}マダム{?}サー{\?}。" />
+    <string id="vx4ML2gX" text="{INQUIRY_COMPANION.LINK}の他にも誰かいるのか？" />
+    <string id="VXp0R7da" text="神々の加護があらんことを！そのような不誠実な提案に誘惑されることはないと思っていたぞ。[if:convo_huge_smile]" />
+    <string id="w0HPC53e" text="君は誰だ？私に何の用だ？[ib:nervous][if:convo_bared_teeth]" />
+    <string id="w1vzpCNi" text="私のために武器を作ってもらいたい" />
+    <string id="W1wVPNpy" text="このゲームのことは聞いたことがある…" />
+    <string id="W2vV5jzj" text="家族の元に戻るよ。助けてくれたことは決して忘れない…" />
+    <string id="w4yxgY3F" text="やあ。囚人がいるなら、喜んで買い取らせてもらうよ。" />
+    <string id="W7TD4yTc" text="ふむ、{TARGET_MERCHANT.NAME}の部下が言うことには一理ある。この隊商を守ることにしよう。" />
+    <string id="wAgfOHio" text="{SETTLEMENT}の路地の所有権を失いました。" />
+    <string id="wD1YDmmg" text="{PARTY_NAME}が{ARMY_NAME}に入隊しました。" />
+    <string id="WD7vOalb" text="私は守護者となろう。" />
+    <string id="WDdlPUHw" text="決闘ならば話は別だ。あなたに挑戦しよう。本当の競技者ならば、断りはしないはずだ。" />
+    <string id="WGi3Zuv7" text="あなたは{CURRENT_SETTLEMENT}周辺の村人たちに、{QUEST_GIVER.LINK}の娘「{TARGET_HERO.NAME}」と思わしき若い女性を見かけなかったか尋ねました。{newline}{newline}彼らが言うには早朝、若い男女が物資を買いに立ち寄り、{TARGET_VILLAGE}に向かったとのことです。" />
+    <string id="wJCVlVF7" text="貴族っていう連中は、私やあんたとは違う。あいつらは何世代にも渡って、あんたのような人間を踏み台にして、今の富を築いてるんだ。下手に関わらない方がいい。" />
+    <string id="WNKkdpN3" text="{CLAN_NAME}は{OLD_FACTION_NAME}から去りました。" />
+    <string id="woMdU4Xl" text="{?HERO.GENDER}彼女が{?}彼が{\?}どこにいるかは知らない。" />
+    <string id="wOqOQuJl" text="ラウンドが終了し、あなたのチームは競技会の最終ラウンドを生き延びました。" />
+    <string id="wql79Eta" text="よし！密偵が{TARGET_SETTLEMENT}に向かっていることがわかった。情報を集めるのが目的なら、[ib:aggressive2][if:convo_undecided_open]市場をうろつきながら世間話をよそおって、色々質問をするはずだ。町民と話して回るだけで、そいつが誰なのか分かるだろう。" />
+    <string id="WqY4nvHc" text="{TARGET_NOTABLE.LINK}の村、{TARGET_SETTLEMENT}が襲撃されました。あなたが{QUEST_GIVER.LINK}と結んだ契約は解除されました。" />
+    <string id="wqzyHirl" text="まわりを見てみろ。人々は金を儲け、絹を身にまとい、ワインと香水の匂いをさせている。だが果たして彼らは、誠実なのだろうか？私はそうは思わない。" />
+    <string id="wrEKw6ip" text="カッコウ、カッコウ、嘘をつかないで。「私は他の鳥の木に忍び込んだ」{newline}カッコウ、カッコウ、知らないことを教えて。「バッタニアには私と同じような王がいる」" />
+    <string id="WrnvRayQ" text="手間を省こう。その額を払うよ。" />
+    <string id="WSAS3XLC" text="少し前にここに立ち寄った人物がいる。{INQUIRY_COMPANION.LINK}と名乗っていたな。{?INQUIRY_COMPANION.GENDER}彼女{?}彼{\?}なら{COMPANION_SETTLEMENT}に向かったよ。そこへ行けば会えるんじゃないか？もしくは、行くまでの道中で捕まえられるかもしれない。[rb:positive]" />
+    <string id="WSJxl2Hu" text="私が言いたいのは… [if:convo_mocking_teasing]あなたが自分を巻き込む必要はないということだ。あなたが私たちの仲間になるなら、{?QUEST_GIVER.GENDER}彼女が{?}彼が{\?}あなたに払った額の倍を出しましょう。" />
+    <string id="WSrGHkal" text="私はあなたの娘を探すために、追跡者を一人と{REQUIRED_TROOP_AMOUNT}の部下をつけるつもりです。" />
+    <string id="wvbiyZfp" text="他に言いたいことはあるか？[if:convo_confused_annoyed]" />
+    <string id="WwbDoZXg" text="競技会の賞品はなんだ？" />
+    <string id="wWrEvkuj" text="{CULPRIT.LINK}はもうあなたのクランの一員ではありません。{QUEST_GIVER.LINK}との契約は解除されました。" />
+    <string id="WZbrxhYm" text="一杯のケフィア" />
+    <string id="X18yfvX7" text="ただの通りすがりだ。" />
+    <string id="X1A4r7wY" text="ごきげんよう、{?PLAYER.GENDER}マダム{?}サー{\?}。何かご用ですか？" />
+    <string id="x4wnaovC" text="あんたの言う自由には共感できないな。" />
+    <string id="x7k87vj3" text="{?PLAYER.GENDER}ご婦人{?}ご主人{\?}、何をお持ちしましょうか？{newline}ここの名産品である{FOOD}と{DRINK}はいかがでしょう？" />
+    <string id="x9VgLEzi" text="ええ... 大変な不幸に見舞われました。[ib:demure][if:convo_shocked]私には頑固者の娘がいるのですが、とあるろくでなしに魅せられてしまったのです。私は娘に奴と会うのをやめるように言ったのですが聞こうともしませんでした！そして今、行方不明です。きっと、あの男に誘拐されたに違いありません！娘を連れ戻した者には、{BASE_REWARD_GOLD}{GOLD_ICON}の懸賞金を贈るつもりです。{?PLAYER.GENDER}ご婦人{?}ご主人{\?}！この哀れな父親に、どうか救いの手を差し伸べてください。" />
+    <string id="xADZi2bK" text="部下を探しに行くよ。助けてくれたことは決して忘れない…" />
+    <string id="xatWDriV" text="それなら気にするな。" />
+    <string id="xb1Ps6ZC" text="すぐに失せろ…" />
+    <string id="xEs830bT" text="準備が完了したらすぐに知らせます。[ib:closed][if:convo_mocking_teasing]ただ、町から出ないでくださいね。" />
+    <string id="xFmYRCHs" text="見せていただこうか…" />
+    <string id="xizHRti3" text="何も報告することはありません、{PLAYER.NAME}" />
+    <string id="xJJeXW6j" text="あなたの兵たちを調査させてください。" />
+    <string id="XJOqws2b" text="ふむ。おかしな道徳観を持ってるんだな… まあいい、手ぶらで帰るつもりはないんだ、やろうか。[if:convo_furious]" />
+    <string id="XLy8anVr" text="{QUEST_GIVER.LINK}からの伝言を受け取りました。「重大なタスクに思えないかもしれないが、君には信頼を置いていた。それは間違いだったようだ」" />
+    <string id="XN0XZAkI" text="あんたを中に入れることはできない。{SETTLEMENT_OWNER.NAME}{?SETTLEMENT_OWNER.GENDER}領主{?}領主{\?}を激怒させてしまう。" />
+    <string id="xNyLPMnx" text="ありがとうございます、 {?PLAYER.GENDER}ご婦人{?}ご主人{\?}。ありがとうございます…！" />
+    <string id="Xo5lc6sz" text="持っている土地でまかなえる以上の人数を養う必要があるのなら、{NOTABLE.FIRSTNAME}が{?NOTABLE.GENDER}所有している{?}所有している{\?}土地で少し働かせてもらえるぞ。ただし、例え君が親族であっても、収穫の三分の一を持っていかれるがね。" />
+    <string id="xP8cKZFE" text="商人の{NOTABLE.LINK}が{?NOTABLE.GENDER}自分{?}自分{\?}の{.%}{SHOP_TYPE}{.%}で人を募集しているらしい。{?NOTABLE.GENDER}やつは{?}やつは{\?}厳しくも公平な主人だと言われている。" />
+    <string id="xPAAZAaI" text="髪は今のままで構わない。ありがとう。" />
+    <string id="xPTxkzVM" text="密偵を探している。競技会に参加している戦士で、やたらと怪しい質問ばかりする者を、近くで見なかったか？" />
+    <string id="XqsrsjiL" text="私はするべき事をしたまでだ。荷造りして、さっさと行くんだ。" />
+    <string id="XqTa0iQZ" text="何を堕落させたいんだ？[if:convo_stern]" />
+    <string id="Xqx0uZva" text="私の愚かな{RANDOM_RELATIVE}に言ってやったのさ。「{NOTABLE.LINK}から金を受け取ったら、{?NOTABLE.GENDER}奴は{?}奴は{\?}いずれ倍にして返すよう要求するだろう。両手を叩き潰されたくなければ、あんたは払うしかないんだ」ってね。" />
+    <string id="Xs7Qweuw" text="先導を、{PLAYER.NAME}。" />
+    <string id="XvkSbY6N" text="掛け金は用意したんだな。さあ勝負だ。" />
+    <string id="xVZVYNan" text="{GOLD_ICON}が足りません。" />
+    <string id="XWpEpaQ4" text="もちろんです、{?PLAYER.GENDER}マダム{?}サー{\?}。中へ。" />
+    <string id="XWVW0oTB" text="このクソ野郎が！[ib:aggressive][if:convo_furious]" />
+    <string id="XX3sWsVX" text="かなり深刻そうだな。続けてくれ。" />
+    <string id="xxSlIDCW" text="{HERO.NAME}は{?HERO.GENDER}彼女{?}彼{\?}の部隊に加わり、指揮を執りました。" />
+    <string id="Y1O5bPpJ" text="ちょっと見てるだけさ。何か問題でも？" />
+    <string id="Y5ztM8zq" text="必要な時に腕のいい軍医が手を差し伸べてくれたほうが、兵たちも安心できる。" />
+    <string id="Y7tozytM" text="こんにちは、{?PLAYER.GENDER}奥様{?}旦那様{\?}。戦士とお見受けしますが、少しお時間よろしいでしょうか？もしかしたら私たちには、共通の関心事があるかもしれません。" />
+    <string id="Yac7bSU3" text="君の仕事についてもう一度教えてくれ。" />
+    <string id="ybXgaKEv" text="一杯の地元産のワイン" />
+    <string id="YCC0hPuC" text="ああ、違う。奴隷商人をやってる奴なんて、最近はめったにいやしないよ。昔、帝国と周辺の地域が互いに争っていた頃は、敗北した方が奴隷となるのが常だった。それで戦争の費用をまかなっていたようなものだからな！だが今では、好むと好まざるとにかかわらず、奴隷を売るのは実用的じゃない。国境が崩れて、略奪者たちがあちこちを徘徊しているものだから、捕虜が脱走する隙があり過ぎるんだ。しかし、だからと言って戦争が儲からなくなったわけじゃない！こいつはまだまだ、金のなる木だ！" />
+    <string id="YDMlCaaz" text="偉大なるハン・モンチャグが手をかかげた。我らは彼の指示に耳を傾けた！{newline}偉大なるハン・モンチャグは彼方へと駆けていった。我らは昼寝と遊興に戻った。" />
+    <string id="YdwLnWa1" text="娘とゴロツキのいる方向" />
+    <string id="ye4oqBFB" text="あなたはボードゲームで負けて{QUEST_GIVER.LINK}を助けるのに失敗しました。「努力には感謝する、{PLAYER.NAME}。だが頼む相手を間違ったようだ」" />
+    <string id="YequZz6U" text="「{RANDOM_TOWN}の乙女たちは陽気で美しい{newline}髪に花を飾り、悪戯をたくらんでいる{newline}私が青年だったらその場へ行くだろう{newline}だが今は面倒よりも温もりを選ぶ」" />
+    <string id="Yh0danUf" text="{?PLAYER.GENDER}ご婦人{?}ご主人{\?}、ありがとうございます。{newline}そして、ごきげんよう。" />
+    <string id="YHTTPKMb" text="500{GOLD_ICON}" />
+    <string id="YIxpNP4k" text="{ISSUE_GIVER.LINK}から手紙を受け取りました。「密偵を始末してくれて感謝する。その証として{REWARD_GOLD}{GOLD_ICON}デナールを受け取ってくれ。」" />
+    <string id="yj0VZ8IZ" text="商品を積んだラバが川に落ちると死んでしまった。それで{HARSH_MERCHANT.NAME}は、来年の賃金から差し引く、私が飢えても知らないと言ったの。それが嫌なら物乞いしろとも。だから私を見て。私が彼に立ち向かうのを、しっかりと見るのよ。" />
+    <string id="YJkiQ6nM" text="いや、気が変わった。ここに留まる。" />
+    <string id="yLIZlaS1" text="いいでしょう。必要でしたらまたいらしてください、{?PLAYER.GENDER}ご婦人{?}旦那様{\?}。" />
+    <string id="yLRfb5zb" text="何か報せは？まだ見つからないのか？[if:convo_astonished]" />
+    <string id="ym6bSrNo" text="{STILL_ESCORTING_ANSWER}" />
+    <string id="YM7etEzu" text="{GAME_NAME}とは何だ？" />
+    <string id="ymbVPod1" text="{SETTLEMENT}の組織のリーダーである{ISSUE_GIVER.LINK}から、町に入り込もうとしている新しい組織の話を聞かされた。あなたは{COMPANION.LINK}に、あなたの最高の部下を{TROOP_COUNT}連れて{ISSUE_GIVER.LINK}と共に待機し、来たる組織間の抗争で{?ISSUE_GIVER.GENDER}彼女を{?}彼を{\?}助けるよう頼んだ。彼らは{RETURN_DAYS}日で戻ってくるだろう。" />
+    <string id="YmNT7HJ3" text="決心はついたか？世の重荷を手放し、もっと素朴な人生を楽しむ覚悟はできたか？" />
+    <string id="yN4imaGo" text="{?PLAYER.GENDER}ご婦人{?}ご主人{\?}… 光栄でございます。{GAME_NAME}はなさいますか？これは{CULTURE_NAME}での伝統的な遊びで、私は達人として知られております。もしゲームを遊びたいのでしたら、どうぞ、お座りください。さっそく始めましょう。" />
+    <string id="Yqv1jk7D" text="心配するな、奴らは罠に向かってきてる。" />
+    <string id="ySk7bD8P" text="悪いが他にやるべきことがある。また後でな。" />
+    <string id="YTaM6G1E" text="この村は少し前に襲撃されたようだ。煙、炎、泣き叫ぶ人々しか見つけられなかった。" />
+    <string id="YtS3cgto" text="どうするつもりだ？" />
+    <string id="Ytws5O9S" text="いつかあなたも賠償金によって、一族の子の命を救いたいと思う日が来るかもしれない。今あなたが慈悲を見せることを拒否すれば、今度は逆に自分が慈悲をかけてもらえない事になるかもしれないぞ。" />
+    <string id="YuabHAbV" text="すぐに対処しよう。" />
+    <string id="z2duf82b" text="そうだな、しばらくは平穏な生活を味わうのもいいかもしれない。だが、クランの将来のことを考えなければ…" />
+    <string id="z43j3Tzq" text="私はまだ戦いのために部下を集めている。その時が来たら、君に伝令を送ろう。" />
+    <string id="z47FuQ3f" text="角杯一杯の大麦ビール" />
+    <string id="z4arML8E" text="一切れの鹿の干し肉" />
+    <string id="Z4MreMZz" text="戦闘訓練の賞金はいくらだ？" />
+    <string id="Z9sp21rl" text="{QUEST_GIVER_CLAN}一族の領主である{QUEST_GIVER.LINK}から、{?QUEST_GIVER.GENDER}彼女の{?}彼の{\?}親族を解放するよう頼まれた。若者は現在借金を理由に、地元の徒党集団の頭である{TARGET_HERO.LINK}に囚われている。{?QUEST_GIVER.GENDER}領主{?}領主{\?}{QUEST_GIVER.LINK}からは、借金を返すのに十分な額の金を預かったものの、{?QUEST_GIVER.GENDER}彼女{?}彼{\?}はそれを使うことなく、取っておいてほしいと言う。その上でこの犯罪者たちが、貴族を捕虜にしようなどと二度と考えないように、見せしめとすることを望んでいる。あなたは本件解決のため、{COMPANION.LINK}と{NEEDED_MEN_COUNT}人の部下たちを派遣した。彼らは{ALTERNATIVE_SOLUTION_DURATION}日で戻ってくるだろう。" />
+    <string id="zbPRul7h" text="ふむ… 君のことは知らないが、感謝はしている。" />
+    <string id="ZC1slXw1" text="私としては、借金を支払うつもりはない。[ib:closed][if:convo_worried]このような不法行為に対して、褒美を与えてやるような真似をするつもりはないからな。貴族でさえ安全を保障されない時代なら、なおさらだ。一応{SETTLEMENT_NAME}の領主に便りは出したが、戦争やら何やらで返事は期待できそうにない。誰かにあちらまで赴いてもらい、若者を解放してやってほしいと思っている。君が借金を代わりに払うこともできるだろうが、私としては、あの連中に灸を据えてやってほしいところだな。君がどちらを選んでも報酬は支払うつもりでいるが、当然武力を行使したほうが多くの金が手元に残るだろう。" />
+    <string id="ZCbQvqqv" text="傷や痕のない顔となると農民や商人なら普通だが、戦士にはそう多くあるまい。これは役に立つかもしれない。" />
+    <string id="ZGMfmNe0" text="なんて寛容な{?PLAYER.GENDER}お方{?}お方{\?}でしょうか。皆様の健康と幸運をお祈りいたします。" />
+    <string id="ZhCRL9mY" text="あのろくでなし共、酔っ払ってはみんなを困らせている… だが奴らは{NOTABLE.LINK}の部下だ。命が惜しかったら下手なことは言えないのさ。" />
+    <string id="ZhpT2qVh" text="あなたはたった今、身ごもっていることを知りました。" />
+    <string id="ZidO5gkC" text="このセーブファイルは「{MODULE_NAME} 」モジュールありで作成されたものですが、現在はゲームから削除されています。こちらを読み込むには、そのモジュールを有効にする必要があります。" />
+    <string id="zJqEdDiq" text="{GANG_LEADER}の取り巻き" />
+    <string id="zJReEB8Z" text="市場に一日中座って耳をすますとたくさんのことが分かる…しかし残念だが、あなたが崇拝する人が興味を持ちそうなことは何も聞いていない。" />
+    <string id="zlFSIvD5" text="いいや。罠なら見ればわかる。君の勝ちだ。じゃあな。" />
+    <string id="zLnqZdIK" text="兵士の数が足りず、この路地に割り当てることができません。（{NEEDED_TROOP_NUMBER}以上必要）" />
+    <string id="zNPzh5jO" text="ああ！私がこれまでに経験した、どの戦いにも劣らない勝負だった。ほら、この金を持っていくといい。{QUEST_GIVER.LINK}が約束した通り、これは全てあなたのものだ。[ib:hip2][if:convo_huge_smile]" />
+    <string id="zNqDEuAw" text="だが私は君を見つけて、{?QUEST_GIVER.GENDER}お母上{?}お父上{\?}のもとに連れ帰ると約束したのだ。{?QUEST_GIVER.GENDER}彼女は{?}彼は{\?}打ちのめされるだろう。" />
+    <string id="ZO5RaXMW" text="{OWNER.LINK}のような{?OWNER.GENDER}領主{?}領主{\?}たちから、私たちをお助けください。ああいう手合いは正直な人々を恐怖に陥れる、泥棒や悪党を罰することもできない臆病者だ。" />
+    <string id="ZpDQxmzJ" text="家族の確執" />
+    <string id="zRJ1bQFO" text="{ISSUE_GIVER_SETTLEMENT}の地主である{ISSUE_GIVER.LINK}が、厄介な争いに発展しそうな事件についてあなたに話した。ある若者が喧嘩で別の若者を殺してしまい、被害者の一族が賠償金を拒否して、代わりに復讐を要求しているらしい。あなたは事態を収拾するために、{COMPANION.LINK}を何人かの部下と共に{RETURN_DAYS}日ほど派遣することにした。彼らは{RETURN_DAYS}日後に{ISSUE_GIVER.LINK}によって約束された、{REWARD_GOLD}{GOLD_ICON}デナールの報酬とともに戻ってきます。" />
+    <string id="ZrMeSyPu" text="{BESIEGER}の{WEAPON}が{SETTLEMENT}にいる兵士数名に命中した！" />
+    <string id="zTF4bJm0" text="これで構わない。" />
+    <string id="ztiax0Sn" text="{OWNER.LINK}{?OWNER.GENDER}様{?}様{\?}については何とでも言うがいい… {?OWNER.GENDER}あの方は{?}あの方は{\?}この領地で最も惨めな者の言い分にも、{?OWNER.GENDER}その{?}その{\?}法廷で公正に耳を傾けてくださる。その事実を否定することはできない。" />
+    <string id="zUKqWeUa" text="頼むよ、{PLAYER.NAME}。このやり取りで不安になってきたぞ。終わらせよう。[if:convo_nervous]" />
+    <string id="zv49qE35" text="戦闘訓練" />
+    <string id="ZVbQemrz" text="私の夫は戦争で負傷したので、畑を耕すこともできません。だから土地を奪われてしまったので、私は市場で物乞いをするしかないのです。" />
+    <string id="ZVItXrnG" text="この秋は収穫が少ない。天よ。どうか冬が来る前に、十分な薪を蓄えさせてください。" />
+    <string id="zVmDmLCW" text="あなたの領地は{CALLED_KINGDOM}に対して{KINGDOM_TO_CALL_TO_WAR_AGAINST}と戦争するように呼びかけました。" />
+    <string id="ZvzxcRbc" text="ごきげんよう、友よ。闘技場の勝手をよく知っている様子だが、何かお困りかな？" />
+    <string id="zxonBgY2" text="ああ。ジェロイア共和国になら、こいつらを売れるかもしれない。ガレー船の漕ぎ手に使えるはずだ。だが最近ではジェロイアでさえ、自由民の漕ぎ手が望まれる… めったにない事だが。農夫が牛小屋から掘り出す物や、従兄から巻き上げる物にどんなお宝が隠れているか、知ったらきっと驚くぞ！" />
+    <string id="zXQwb3lj" text="名声を100追加" />
+  </strings>
+</base>

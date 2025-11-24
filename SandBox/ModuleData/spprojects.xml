@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Projects>
+	<Project
+		id="none"
+		name="{=koX9okuG}None"
+		on_condition="none_on_condition"
+		needed_work_days="1000" />
+	<!--Project id="castle_light" name="Castle" on_condition="castle_on_condition" is_center_building="false" needed_work_days="20" on_project_start="castle_on_project_start" on_project_finish="castle_on_project_finish"/>
+  <Project id="castle_light_to_medium" on_condition="upgrade_to_medium_on_condition" name="Upgrade to Medium" is_center_building="false" needed_work_days="20" on_project_start="castle_upgrade_on_project_start" on_project_finish="castle_upgrade_on_project_finish"/>
+  <Project id="castle_medium_to_heavy" on_condition="upgrade_to_heavy_on_condition" name="Upgrade to Large" needed_work_days="20" is_center_building="false" on_project_start="castle_upgrade_on_project_start" on_project_finish="castle_upgrade_on_project_finish"/-->
+	<Project
+		id="wheat_farm"
+		converted_to="VillageType.wheat_farm"
+		on_condition="wheat_farm_on_condition"
+		name="{=BPPG2XF7}Wheat Farm"
+		needed_work_days="10"
+		is_center_building="false"
+		on_project_start="wheat_farm_on_project_start"
+		on_project_finish="wheat_farm_on_project_finish" />
+	<Project
+		id="fisherman"
+		converted_to="VillageType.fisherman"
+		on_condition="fisherman_on_condition"
+		name="{=OSron4OZ}Fishery"
+		needed_work_days="25"
+		is_center_building="false"
+		on_project_start="fisherman_on_project_start"
+		on_project_finish="fisherman_on_project_finish" />
+	<Project
+		id="vineyard"
+		converted_to="VillageType.vineyard"
+		on_condition="vineyard_on_condition"
+		name="{=ZtxWTS9V}Vineyard"
+		needed_work_days="30"
+		is_center_building="false"
+		on_project_start="vineyard_on_project_start"
+		on_project_finish="vineyard_on_project_finish" />
+	<Project
+		id="clay_mine"
+		converted_to="VillageType.clay_mine"
+		on_condition="clay_mine_on_condition"
+		name="{=pYY1UNgS}Clay Pit"
+		needed_work_days="20"
+		is_center_building="false"
+		on_project_start="clay_mine_on_project_start"
+		on_project_finish="clay_mine_on_project_finish" />
+	<Project
+		id="salt_mine"
+		converted_to="VillageType.salt_mine"
+		on_condition="salt_mine_on_condition"
+		name="{=3aOIY6wl}Salt Mine"
+		needed_work_days="30"
+		is_center_building="false"
+		on_project_start="salt_mine_on_project_start"
+		on_project_finish="salt_mine_on_project_finish" />
+	<Project
+		id="iron_mine"
+		converted_to="VillageType.iron_mine"
+		on_condition="iron_mine_on_condition"
+		name="{=rHcVKSbA}Iron Mine"
+		needed_work_days="40"
+		is_center_building="false"
+		on_project_start="iron_mine_on_project_start"
+		on_project_finish="iron_mine_on_project_finish" />
+	<Project
+		id="date_farm"
+		converted_to="VillageType.date_farm"
+		on_condition="date_farm_on_condition"
+		name="{=2NR2E663}Palm Orchard"
+		needed_work_days="25"
+		is_center_building="false"
+		on_project_start="date_farm_on_project_start"
+		on_project_finish="date_farm_on_project_finish" />
+	<Project
+		id="olive_trees"
+		converted_to="VillageType.olive_trees"
+		on_condition="olive_trees_on_condition"
+		name="{=ewrkbwI9}Olive Trees"
+		needed_work_days="25"
+		is_center_building="false"
+		on_project_start="olive_trees_on_project_start"
+		on_project_finish="olive_trees_on_project_finish" />
+	<Project
+		id="silk_plant"
+		converted_to="VillageType.silk_plant"
+		on_condition="silk_plant_on_condition"
+		name="{=Xj8gsFrW}Silk Plant"
+		needed_work_days="40"
+		is_center_building="false"
+		on_project_start="silk_plant_on_project_start"
+		on_project_finish="silk_plant_on_project_finish" />
+	<Project
+		id="flax_plant"
+		converted_to="VillageType.flax_plant"
+		on_condition="flax_plant_on_condition"
+		name="{=Z8ntYx0Y}Flax Field"
+		needed_work_days="25"
+		is_center_building="false"
+		on_project_start="flax_plant_on_project_start"
+		on_project_finish="flax_plant_on_project_finish" />
+	<Project
+		id="spice_plant"
+		converted_to="VillageType.spice_plant"
+		on_condition="spice_plant_on_condition"
+		name="{=dIBuwAhe}Spice Plant"
+		needed_work_days="40"
+		is_center_building="false"
+		on_project_start="spice_plant_on_project_start"
+		on_project_finish="spice_plant_on_project_finish" />
+	<Project
+		id="sheep_farm"
+		converted_to="VillageType.sheep_farm"
+		on_condition="sheep_farm_on_condition"
+		name="{=EBO1FIC9}Sheep Farm"
+		needed_work_days="20"
+		is_center_building="false"
+		on_project_start="sheep_farm_on_project_start"
+		on_project_finish="sheep_farm_on_project_finish" />
+	<Project
+		id="lumberjack"
+		converted_to="VillageType.lumberjack"
+		on_condition="lumberjack_on_condition"
+		name="{=6WbkldyD}Lumberjack"
+		needed_work_days="20"
+		is_center_building="false"
+		on_project_start="lumberjack_on_project_start"
+		on_project_finish="lumberjack_on_project_finish" />
+	<Project
+		id="cattle_ranch"
+		converted_to="VillageType.cattle_farm"
+		on_condition="cattle_ranch_on_condition"
+		name="{=7dW5m6Xa}Cattle Ranch"
+		needed_work_days="20"
+		is_center_building="false"
+		on_project_start="cattle_ranch_on_project_start"
+		on_project_finish="cattle_ranch_on_project_finish" />
+	<Project
+		id="europe_horse_ranch"
+		converted_to="VillageType.europe_horse_ranch"
+		on_condition="europe_horse_ranch_on_condition"
+		name="{=zzQdNpXw}Stable"
+		needed_work_days="25"
+		is_center_building="false"
+		on_project_start="europe_horse_ranch_on_project_start"
+		on_project_finish="europe_horse_ranch_on_project_finish" />
+	<Project
+		id="steppe_horse_ranch"
+		converted_to="VillageType.steppe_horse_ranch"
+		on_condition="steppe_horse_ranch_on_condition"
+		name="{=hopZmzBi}Steppe Stable"
+		needed_work_days="25"
+		is_center_building="false"
+		on_project_start="steppe_horse_ranch_on_project_start"
+		on_project_finish="steppe_horse_ranch_on_project_finish" />
+	<Project
+		id="desert_horse_ranch"
+		converted_to="VillageType.desert_horse_ranch"
+		on_condition="desert_horse_ranch_on_condition"
+		name="{=vPt1OF30}Desert Stable"
+		needed_work_days="25"
+		is_center_building="false"
+		on_project_start="desert_horse_ranch_on_project_start"
+		on_project_finish="desert_horse_ranch_on_project_finish" />
+	<Project
+		id="temple"
+		on_condition="temple_on_condition"
+		name="{=NWUTYDQ0}Temple"
+		is_center_building="true"
+		on_project_start="temple_on_project_start"
+		on_project_finish="temple_on_project_finish"
+		needed_work_days="50" />
+	<Project
+		id="stop_project"
+		on_condition="stop_current_project_on_condition"
+		name="{=hPq4vD4Z}Stop Project"
+		is_general_action="true"
+		on_project_start="stop_current_project_on_start"
+		needed_work_days="1" />
+</Projects>

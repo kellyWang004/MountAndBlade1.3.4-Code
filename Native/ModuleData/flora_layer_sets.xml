@@ -1,0 +1,4469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layer_flora_sets>
+	<layer_flora_set
+		name="G_forest_foliage">
+		<layer_flora>
+			<mesh
+				name="flora_fern_a"
+				index="0"
+				density="20.000"
+				seed_index="5"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="1.000, 1.000, 1.000"
+				size_max="2.000, 2.000, 2.000"
+				albedo_multiplier="0.694, 0.548, 0.505"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green_b"
+				index="1"
+				density="10.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="3.000, 3.000, 3.000"
+				size_max="3.000, 3.000, 3.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green_b"
+				index="2"
+				density="11.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="2.000, 2.000, 2.000"
+				size_max="2.000, 2.000, 2.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green_j"
+				index="3"
+				density="50.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="2.000, 2.000, 2.000"
+				size_max="2.000, 2.000, 2.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_plant_g"
+				index="4"
+				density="5.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.700, 0.700, 0.700"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="shrub__mix"
+				index="5"
+				density="15.000"
+				seed_index="20"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="0.700, 0.700, 0.700"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_plant_f"
+				index="6"
+				density="30.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="1.000, 1.000, 1.000"
+				size_max="1.500, 1.500, 1.500"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_a_non_shadow"
+				index="7"
+				density="50.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="1.000, 1.000, 1.000"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="battania_town_a_flora">
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="0"
+				density="50.000"
+				seed_index="0"
+				colony_radius="-1.000"
+				colony_threshold="-1.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="0.619, 1.000, 0.632"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green_b"
+				index="1"
+				density="22.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="-1.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green_k"
+				index="2"
+				density="25.000"
+				seed_index="12"
+				colony_radius="24.000"
+				colony_threshold="-1.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green_i"
+				index="3"
+				density="24.000"
+				seed_index="4"
+				colony_radius="19.000"
+				colony_threshold="-1.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green_j"
+				index="4"
+				density="45.000"
+				seed_index="5"
+				colony_radius="-1.000"
+				colony_threshold="-1.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="artemis_yellow"
+				index="5"
+				density="22.000"
+				seed_index="6"
+				colony_radius="15.000"
+				colony_threshold="-1.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="rocks_small"
+				index="6"
+				density="50.000"
+				seed_index="7"
+				colony_radius="-1.000"
+				colony_threshold="-1.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="artemis_white"
+				index="7"
+				density="17.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_sturgiaGreen_mix"
+				index="8"
+				density="11.000"
+				seed_index="44"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="rock_new_green"
+				index="9"
+				density="15.000"
+				seed_index="45"
+				colony_radius="12.000"
+				colony_threshold="0.000"
+				size_min="0.350, 0.350, 0.350"
+				size_max="0.450, 0.450, 0.450"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="10"
+				density="16.000"
+				seed_index="0"
+				colony_radius="15.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="0.666, 0.899, 0.632"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="battania_town_a_forest">
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_pine"
+				index="0"
+				density="15.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.400, 1.400, 1.400"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="shrub__mix"
+				index="1"
+				density="15.000"
+				seed_index="0"
+				colony_radius="14.500"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="0.800, 0.800, 0.800"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="wheat_group_summer"
+				index="2"
+				density="24.000"
+				seed_index="0"
+				colony_radius="20.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="0.573, 0.767, 0.494"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="3"
+				density="35.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="0.715, 1.000, 0.632"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="free_valley_flower__mix"
+				index="4"
+				density="24.000"
+				seed_index="20"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="rock_new_green"
+				index="5"
+				density="11.000"
+				seed_index="0"
+				colony_radius="4.000"
+				colony_threshold="0.000"
+				size_min="0.300, 0.300, 0.300"
+				size_max="0.400, 0.400, 0.400"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_pine_sprout"
+				index="6"
+				density="11.000"
+				seed_index="12"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_forest_beech___mix_broken"
+				index="7"
+				density="2.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green__mix_big_leafs"
+				index="8"
+				density="22.000"
+				seed_index="24"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="2.000, 2.000, 2.000"
+				size_max="2.000, 2.000, 2.000"
+				albedo_multiplier="1.000, 0.974, 0.580"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="ground_rocks_group"
+				index="9"
+				density="11.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="battania_town_d_flora">
+		<layer_flora>
+			<mesh
+				name="flora_green__mix"
+				index="0"
+				density="50.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.700, 0.700, 0.700"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="0.730, 0.659, 0.431"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b"
+				index="1"
+				density="30.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.350, 0.350, 0.350"
+				size_max="1.200, 1.200, 1.200"
+				albedo_multiplier="0.442, 0.625, 0.405"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_a_non_shadow"
+				index="2"
+				density="0.000"
+				seed_index="1"
+				colony_radius="1.000"
+				colony_threshold="0.000"
+				size_min="0.200, 0.200, 0.200"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="0.599, 0.646, 0.745"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="grass_terrain_a"
+				index="3"
+				density="40.000"
+				seed_index="0"
+				colony_radius="0.100"
+				colony_threshold="0.000"
+				size_min="0.500, 0.500, 0.500"
+				size_max="0.700, 0.700, 0.700"
+				albedo_multiplier="0.957, 0.666, 0.859"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="bozkir_fall">
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant_j"
+				index="0"
+				density="25.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant_n"
+				index="1"
+				density="17.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.300, 1.300, 1.300"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant_f"
+				index="2"
+				density="16.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.300, 1.300, 1.300"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="desert_rubble_stone_01"
+				index="3"
+				density="20.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.300, 0.300, 0.300"
+				size_max="0.800, 0.800, 0.800"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="desert_rubble_stone_01"
+				index="4"
+				density="25.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="bozkir_spring">
+		<layer_flora>
+			<mesh
+				name="flora_green__mix"
+				index="0"
+				density="35.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_a_non_shadow"
+				index="1"
+				density="25.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.500, 1.500, 1.500"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_plant__mix"
+				index="2"
+				density="25.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_plant_l"
+				index="3"
+				density="25.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.300, 1.300, 1.300"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="desert_rubble_stone_01"
+				index="4"
+				density="20.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.300, 0.300, 0.300"
+				size_max="0.800, 0.800, 0.800"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="desert_rubble_stone_01"
+				index="5"
+				density="25.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="bozkir_summer">
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant_j"
+				index="0"
+				density="25.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant_m"
+				index="1"
+				density="22.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant_n"
+				index="2"
+				density="17.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant_f"
+				index="3"
+				density="16.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="bozkir_wintyer">
+		<layer_flora>
+			<mesh
+				name="flora_snow_a"
+				index="0"
+				density="10.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_snow_b"
+				index="1"
+				density="22.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.500, 1.500, 1.500"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_snow_c"
+				index="2"
+				density="30.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.300, 1.300, 1.300"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_snow_e"
+				index="3"
+				density="25.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_snow_m"
+				index="4"
+				density="80.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="debug_forest">
+		<layer_flora>
+			<mesh
+				name="flora_grass_a_non_shadow"
+				index="0"
+				density="55.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.400, 0.400, 0.400"
+				size_max="1.200, 1.200, 1.200"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant__mix_grass"
+				index="1"
+				density="25.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green__mix"
+				index="2"
+				density="35.000"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_plant__mix"
+				index="3"
+				density="35.000"
+				seed_index="5"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix"
+				index="4"
+				density="8.000"
+				seed_index="6"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="shrub__mix"
+				index="5"
+				density="9.000"
+				seed_index="7"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.300, 0.300, 0.300"
+				size_max="1.300, 1.300, 1.300"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_poplar"
+				index="6"
+				density="3.000"
+				seed_index="8"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.500, 0.500, 0.500"
+				size_max="2.000, 2.000, 2.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_poplar_sprout"
+				index="7"
+				density="10.000"
+				seed_index="9"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.400, 0.400, 0.400"
+				size_max="1.200, 1.200, 1.200"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="rock_new_green"
+				index="8"
+				density="12.000"
+				seed_index="17"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.300, 0.300, 0.300"
+				size_max="0.700, 0.700, 0.700"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="free_flora_green__mix_flower"
+				index="9"
+				density="35.000"
+				seed_index="18"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="desert_plants">
+		<layer_flora>
+			<mesh
+				name="plant_desert_bush_a"
+				index="0"
+				density="55.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.500, 0.500, 0.500"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="plant_desert_bush_b"
+				index="1"
+				density="45.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.500, 0.500, 0.500"
+				size_max="1.400, 1.400, 1.400"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="plant_desert_bush_c"
+				index="2"
+				density="25.000"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="plant_desert_bush_d"
+				index="3"
+				density="35.000"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="plant_desert_bush_e"
+				index="4"
+				density="25.000"
+				seed_index="5"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="desert_rubble_stone_01"
+				index="5"
+				density="45.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.400, 1.400, 1.400"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="rock_new_yellow"
+				index="6"
+				density="35.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.400, 0.400, 0.400"
+				size_max="0.650, 0.650, 0.650"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="destert_hideout_oasis_flora">
+		<layer_flora>
+			<mesh
+				name="tree_high_v_palm_date_g"
+				index="0"
+				density="10.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.500, 0.500, 0.500"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_sturgiaGreen_mix"
+				index="1"
+				density="11.000"
+				seed_index="12"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high_v_palm_date_forest"
+				index="2"
+				density="11.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="wheat_group_summer"
+				index="3"
+				density="25.000"
+				seed_index="0"
+				colony_radius="21.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="0.599, 1.000, 0.875"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="shrub__mix"
+				index="4"
+				density="14.000"
+				seed_index="25"
+				colony_radius="12.000"
+				colony_threshold="0.000"
+				size_min="0.300, 0.300, 0.300"
+				size_max="0.400, 0.400, 0.400"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b"
+				index="5"
+				density="18.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.700, 0.700, 0.700"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="0.646, 1.000, 0.619"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="6"
+				density="39.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="0.708, 1.000, 0.701"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="empire_castle_004_forest">
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_poplar_forest"
+				index="0"
+				density="13.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_poplar_sprout"
+				index="1"
+				density="24.000"
+				seed_index="14"
+				colony_radius="15.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_forest_beech___mix"
+				index="2"
+				density="5.000"
+				seed_index="23"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix"
+				index="3"
+				density="7.000"
+				seed_index="12"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="wheats_aa"
+				index="4"
+				density="31.000"
+				seed_index="0"
+				colony_radius="22.000"
+				colony_threshold="0.000"
+				size_min="1.000, 1.000, 1.000"
+				size_max="2.000, 2.000, 2.000"
+				albedo_multiplier="0.932, 1.000, 0.759"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="shrub__mix"
+				index="5"
+				density="15.000"
+				seed_index="34"
+				colony_radius="16.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="empire_castle_005_flora1">
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="0"
+				density="47.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.750, 0.750, 0.750"
+				size_max="1.150, 1.150, 1.150"
+				albedo_multiplier="0.812, 0.949, 0.659"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="wheats_bb"
+				index="1"
+				density="17.000"
+				seed_index="30"
+				colony_radius="7.000"
+				colony_threshold="0.000"
+				size_min="0.750, 0.750, 0.750"
+				size_max="1.650, 1.650, 1.650"
+				albedo_multiplier="0.983, 0.730, 0.511"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="2"
+				density="27.000"
+				seed_index="60"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.950, 0.950, 0.950"
+				size_max="1.350, 1.350, 1.350"
+				albedo_multiplier="0.652, 0.859, 0.592"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="papaver"
+				index="3"
+				density="18.000"
+				seed_index="20"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="wheats_bb"
+				index="4"
+				density="18.000"
+				seed_index="35"
+				colony_radius="14.000"
+				colony_threshold="1.550"
+				size_min="1.250, 1.250, 1.250"
+				size_max="3.100, 3.100, 3.100"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="artemis_white"
+				index="5"
+				density="19.000"
+				seed_index="35"
+				colony_radius="12.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="artemis_yellow"
+				index="6"
+				density="21.000"
+				seed_index="0"
+				colony_radius="15.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="empire_castle_005_flora2">
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="0"
+				density="42.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="0.774, 1.000, 0.632"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="papaver"
+				index="1"
+				density="24.000"
+				seed_index="0"
+				colony_radius="12.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green__mix_flower"
+				index="2"
+				density="11.000"
+				seed_index="44"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="empire_castle_005_forest">
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_poplar_forest"
+				index="0"
+				density="7.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_poplar_sprout"
+				index="1"
+				density="13.000"
+				seed_index="14"
+				colony_radius="15.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_forest_beech___mix"
+				index="2"
+				density="6.000"
+				seed_index="23"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.300, 1.300, 1.300"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix"
+				index="3"
+				density="13.000"
+				seed_index="12"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="wheats_aa"
+				index="4"
+				density="31.000"
+				seed_index="0"
+				colony_radius="22.000"
+				colony_threshold="0.000"
+				size_min="1.000, 1.000, 1.000"
+				size_max="2.000, 2.000, 2.000"
+				albedo_multiplier="0.932, 1.000, 0.759"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="shrub__mix"
+				index="5"
+				density="15.000"
+				seed_index="34"
+				colony_radius="16.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="empire_grass_village">
+		<layer_flora>
+			<mesh
+				name="flora_grass_a"
+				index="0"
+				density="120.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.350, 0.350, 0.350"
+				size_max="0.550, 0.550, 0.550"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b"
+				index="1"
+				density="110.000"
+				seed_index="1"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.450, 0.450, 0.450"
+				size_max="0.550, 0.550, 0.550"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green_a"
+				index="2"
+				density="14.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.950, 0.950, 0.950"
+				size_max="1.350, 1.350, 1.350"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green_b"
+				index="3"
+				density="22.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="artemis_white"
+				index="4"
+				density="10.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.400"
+				size_min="1.050, 1.050, 1.050"
+				size_max="1.150, 1.150, 1.150"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="artemis_yellow"
+				index="5"
+				density="12.000"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.950, 0.950, 0.950"
+				size_max="1.350, 1.350, 1.350"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant_b"
+				index="6"
+				density="11.000"
+				seed_index="5"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.450, 0.450, 0.450"
+				size_max="0.750, 0.750, 0.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant_c"
+				index="7"
+				density="11.000"
+				seed_index="6"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.450, 0.450, 0.450"
+				size_max="0.850, 0.850, 0.850"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant_f"
+				index="8"
+				density="16.000"
+				seed_index="7"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.550, 0.550, 0.550"
+				size_max="1.050, 1.050, 1.050"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="empire_grass_winter">
+		<layer_flora>
+			<mesh
+				name="flora_snow_e"
+				index="0"
+				density="30.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.550, 0.550, 0.550"
+				size_max="0.750, 0.750, 0.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_snow_m"
+				index="1"
+				density="60.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_snow_o"
+				index="2"
+				density="40.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="1.050, 1.050, 1.050"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant_f"
+				index="3"
+				density="50.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.350, 0.350, 0.350"
+				size_max="0.650, 0.650, 0.650"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="empire_village">
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="0"
+				density="31.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.150, 1.150, 1.150"
+				albedo_multiplier="0.687, 1.000, 0.737"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green_a"
+				index="1"
+				density="14.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.950, 0.950, 0.950"
+				size_max="1.350, 1.350, 1.350"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green_b"
+				index="2"
+				density="22.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="artemis_white"
+				index="3"
+				density="11.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.400"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.050, 1.050, 1.050"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="artemis_yellow"
+				index="4"
+				density="7.000"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.950, 0.950, 0.950"
+				size_max="1.350, 1.350, 1.350"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant_b"
+				index="5"
+				density="11.000"
+				seed_index="5"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.450, 0.450, 0.450"
+				size_max="0.750, 0.750, 0.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant_c"
+				index="6"
+				density="11.000"
+				seed_index="6"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.450, 0.450, 0.450"
+				size_max="0.850, 0.850, 0.850"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant_f"
+				index="7"
+				density="16.000"
+				seed_index="7"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="0.750, 0.750, 0.750"
+				albedo_multiplier="1.000, 0.805, 0.632"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="8"
+				density="32.000"
+				seed_index="1"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.050, 1.050, 1.050"
+				albedo_multiplier="0.916, 1.000, 0.730"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="9"
+				density="30.000"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.050, 1.050, 1.050"
+				albedo_multiplier="0.723, 0.723, 0.586"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="empire_village_grass">
+		<layer_flora>
+			<mesh
+				name="flora_grass_a"
+				index="0"
+				density="120.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.350, 0.350, 0.350"
+				size_max="0.550, 0.550, 0.550"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b"
+				index="1"
+				density="110.000"
+				seed_index="1"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.450, 0.450, 0.450"
+				size_max="0.550, 0.550, 0.550"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green_a"
+				index="2"
+				density="11.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.950, 0.950, 0.950"
+				size_max="1.350, 1.350, 1.350"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green_b"
+				index="3"
+				density="22.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="artemis_white"
+				index="4"
+				density="10.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="1.050, 1.050, 1.050"
+				size_max="1.150, 1.150, 1.150"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="artemis_yellow"
+				index="5"
+				density="12.000"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.950, 0.950, 0.950"
+				size_max="1.350, 1.350, 1.350"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="empire_village_road">
+		<layer_flora>
+			<mesh
+				name="ground_rock"
+				index="0"
+				density="44.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.400, 0.400, 0.400"
+				size_max="1.250, 1.250, 1.250"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="stone_yellow"
+				index="1"
+				density="54.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.850, 0.850, 0.850"
+				size_max="2.000, 2.000, 2.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="empty" />
+	<layer_flora_set
+		name="flora_empire_a">
+		<layer_flora>
+			<mesh
+				name="flora_grass_a_non_shadow"
+				index="0"
+				density="55.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.400, 1.400, 1.400"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green__mix"
+				index="1"
+				density="25.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_plant__mix"
+				index="2"
+				density="25.000"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.500, 0.500, 0.500"
+				size_max="1.500, 1.500, 1.500"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="3"
+				density="30.000"
+				seed_index="6"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.300, 1.300, 1.300"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="shrub__mix"
+				index="4"
+				density="6.000"
+				seed_index="7"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="rock_new_green"
+				index="5"
+				density="14.000"
+				seed_index="9"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.300, 0.300, 0.300"
+				size_max="0.700, 0.700, 0.700"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="flora_fall_set">
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="0"
+				density="55.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.100, 1.100, 1.100"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green__mix"
+				index="1"
+				density="25.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.500, 1.500, 1.500"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green_k"
+				index="2"
+				density="15.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="1.000, 1.000, 1.000"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant__mix_big_volume"
+				index="3"
+				density="35.000"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="1.000, 1.000, 1.000"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="brushwood"
+				index="4"
+				density="25.000"
+				seed_index="5"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.700, 0.700, 0.700"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="flora_khuzait_a">
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant__mix_big_volume"
+				index="0"
+				density="25.000"
+				seed_index="1"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant__mix_grass"
+				index="1"
+				density="45.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant__mix_long"
+				index="2"
+				density="35.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.200, 1.200, 1.200"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="plant_desert_bush_a"
+				index="3"
+				density="25.000"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.500, 1.500, 1.500"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="plant_desert_bush_b"
+				index="4"
+				density="7.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.780, 0.780, 0.780"
+				size_max="1.500, 1.500, 1.500"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="rock_new_yellow"
+				index="5"
+				density="11.000"
+				seed_index="5"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.200, 0.200, 0.200"
+				size_max="0.600, 0.600, 0.600"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="6"
+				density="55.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.600, 0.600, 0.600"
+				size_max="0.800, 0.800, 0.800"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="flora_spring_set">
+		<layer_flora>
+			<mesh
+				name="flora_grass_a_non_shadow"
+				index="0"
+				density="55.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.300, 1.300, 1.300"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green__mix"
+				index="1"
+				density="35.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.500, 1.500, 1.500"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green_k"
+				index="2"
+				density="20.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="1.000, 1.000, 1.000"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green_g"
+				index="3"
+				density="50.000"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="1.000, 1.000, 1.000"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="brushwood"
+				index="4"
+				density="25.000"
+				seed_index="5"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.700, 0.700, 0.700"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="free_valley_flower__mix"
+				index="5"
+				density="35.000"
+				seed_index="8"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="flora_sturgia_a">
+		<layer_flora>
+			<mesh
+				name="flora_grass_a_non_shadow"
+				index="0"
+				density="55.000"
+				seed_index="1"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green__mix"
+				index="1"
+				density="45.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_plant__mix"
+				index="2"
+				density="25.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.500, 0.500, 0.500"
+				size_max="1.200, 1.200, 1.200"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green__mix_flower"
+				index="3"
+				density="35.000"
+				seed_index="6"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="shrub__mix"
+				index="4"
+				density="8.000"
+				seed_index="7"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.200, 1.200, 1.200"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="rock_new_green"
+				index="5"
+				density="12.000"
+				seed_index="8"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.200, 0.200, 0.200"
+				size_max="0.500, 0.500, 0.500"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="flora_summer_set">
+		<layer_flora>
+			<mesh
+				name="flora_grass_a_non_shadow"
+				index="0"
+				density="65.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.400, 1.400, 1.400"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green__mix"
+				index="1"
+				density="50.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.500, 1.500, 1.500"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green_k"
+				index="2"
+				density="20.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="1.000, 1.000, 1.000"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green_g"
+				index="3"
+				density="50.000"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="1.000, 1.000, 1.000"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="brushwood"
+				index="4"
+				density="25.000"
+				seed_index="5"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.700, 0.700, 0.700"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant__mix_grass"
+				index="5"
+				density="35.000"
+				seed_index="6"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="flora_winter_set">
+		<layer_flora>
+			<mesh
+				name="flora_snow__mix"
+				index="0"
+				density="55.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.100, 1.100, 1.100"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_snow_c"
+				index="1"
+				density="35.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_snow_f"
+				index="2"
+				density="40.000"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="forest_test">
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant__mix_long"
+				index="0"
+				density="75.000"
+				seed_index="1"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_a_non_shadow"
+				index="1"
+				density="55.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="0.000, 0.000, 0.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant__mix_big_volume"
+				index="2"
+				density="25.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_forest_beech___mix"
+				index="3"
+				density="20.000"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_aspen"
+				index="4"
+				density="15.000"
+				seed_index="5"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="rock_new_green"
+				index="5"
+				density="15.000"
+				seed_index="16"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.000, 0.000, 0.000"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="habitat_flora_a">
+		<layer_flora>
+			<mesh
+				name="flora_grass_a_non_shadow"
+				index="0"
+				density="55.000"
+				seed_index="1"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green__mix"
+				index="1"
+				density="45.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_plant__mix"
+				index="2"
+				density="25.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.500, 0.500, 0.500"
+				size_max="1.200, 1.200, 1.200"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix"
+				index="3"
+				density="12.000"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green__mix_flower"
+				index="4"
+				density="35.000"
+				seed_index="6"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="habitat_flora_b">
+		<layer_flora>
+			<mesh
+				name="flora_grass_a_non_shadow"
+				index="0"
+				density="45.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.700, 0.700, 0.700"
+				size_max="1.200, 1.200, 1.200"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="1"
+				density="55.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green__mix"
+				index="2"
+				density="35.000"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.700, 0.700, 0.700"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_plant__mix"
+				index="3"
+				density="45.000"
+				seed_index="5"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix"
+				index="4"
+				density="18.000"
+				seed_index="6"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.950, 0.950, 0.950"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_poplar"
+				index="5"
+				density="18.000"
+				seed_index="7"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.900, 0.900, 0.900"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="shrub__mix"
+				index="6"
+				density="22.000"
+				seed_index="8"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.200, 1.200, 1.200"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="khuzait_steppe_dry">
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant_f"
+				index="0"
+				density="86.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.550, 0.550, 0.550"
+				size_max="0.750, 0.750, 0.750"
+				albedo_multiplier="0.494, 0.410, 0.364"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="khuzait_steppe_green">
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant_f"
+				index="0"
+				density="60.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.550, 0.550, 0.550"
+				size_max="0.950, 0.950, 0.950"
+				albedo_multiplier="0.426, 0.459, 0.344"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant_i"
+				index="1"
+				density="12.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 0.983, 0.701"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="2"
+				density="0.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.850, 0.850, 0.850"
+				size_max="1.350, 1.350, 1.350"
+				albedo_multiplier="0.715, 0.867, 0.536"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="khuzait_summer">
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant__mix_big_volume"
+				index="0"
+				density="25.000"
+				seed_index="1"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.300, 0.300, 0.300"
+				size_max="0.800, 0.800, 0.800"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant__mix_grass"
+				index="1"
+				density="35.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="0.800, 0.800, 0.800"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant__mix_long"
+				index="2"
+				density="35.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.600, 0.600, 0.600"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="plant_desert_bush_a"
+				index="3"
+				density="25.000"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="plant_desert_bush_b"
+				index="4"
+				density="7.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.500, 0.500, 0.500"
+				size_max="0.800, 0.800, 0.800"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="rock_new_yellow"
+				index="5"
+				density="11.000"
+				seed_index="5"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.200, 0.200, 0.200"
+				size_max="0.600, 0.600, 0.600"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="6"
+				density="55.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.600, 0.600, 0.600"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_a_non_shadow"
+				index="7"
+				density="15.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="desert_rubble_stone_01"
+				index="8"
+				density="45.000"
+				seed_index="22"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.300, 0.300, 0.300"
+				size_max="0.800, 0.800, 0.800"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="khuzait_village_flora_bora">
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant__mix_big_volume"
+				index="0"
+				density="22.000"
+				seed_index="1"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.100, 1.100, 1.100"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant__mix_grass"
+				index="1"
+				density="33.000"
+				seed_index="1"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.200, 1.200, 1.200"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant__mix_long"
+				index="2"
+				density="33.000"
+				seed_index="1"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.200, 1.200, 1.200"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_plant__mix"
+				index="3"
+				density="8.000"
+				seed_index="1"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.100, 1.100, 1.100"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green__mix"
+				index="4"
+				density="14.000"
+				seed_index="1"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="5"
+				density="40.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.300, 1.300, 1.300"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="rock_new_yellow"
+				index="6"
+				density="21.000"
+				seed_index="1"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.200, 0.200, 0.200"
+				size_max="0.300, 0.300, 0.300"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant_e"
+				index="7"
+				density="22.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant_p"
+				index="8"
+				density="12.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="0.991, 1.000, 0.941"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="dry_tree_mix"
+				index="9"
+				density="3.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="khuzait_village_tree_bora">
+		<layer_flora>
+			<mesh
+				name="tree_acacia"
+				index="0"
+				density="11.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant__mix_grass"
+				index="1"
+				density="11.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant__mix_grass"
+				index="2"
+				density="77.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="layer_copy_set">
+		<layer_flora>
+			<mesh
+				name="tree_high__mix"
+				index="0"
+				density="6.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_pine"
+				index="1"
+				density="16.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="shrub__mix"
+				index="2"
+				density="12.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.950, 0.950, 0.950"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="mountain_hideout_001">
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="0"
+				density="34.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="0.687, 1.000, 0.723"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="1"
+				density="18.000"
+				seed_index="6"
+				colony_radius="17.000"
+				colony_threshold="0.000"
+				size_min="0.750, 0.750, 0.750"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="0.586, 0.767, 0.389"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green__mix_big_leafs"
+				index="2"
+				density="15.000"
+				seed_index="15"
+				colony_radius="14.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green__mix_flower"
+				index="3"
+				density="14.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="rock_new_green"
+				index="4"
+				density="11.000"
+				seed_index="2"
+				colony_radius="5.000"
+				colony_threshold="0.000"
+				size_min="0.200, 0.200, 0.200"
+				size_max="0.320, 0.320, 0.320"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="mountain_hideout_001_forest_flora">
+		<layer_flora>
+			<mesh
+				name="tree_high__mix"
+				index="0"
+				density="11.000"
+				seed_index="10"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.800, 0.800, 0.800"
+				size_max="1.250, 1.250, 1.250"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_forest_beech___mix_young"
+				index="1"
+				density="11.000"
+				seed_index="12"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_forest_beech___mix"
+				index="2"
+				density="7.000"
+				seed_index="20"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_forest_beech___mix_young"
+				index="3"
+				density="16.000"
+				seed_index="22"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="4"
+				density="32.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="1.000, 1.000, 1.000"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="0.737, 1.000, 0.715"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="wheats_aa"
+				index="5"
+				density="21.000"
+				seed_index="0"
+				colony_radius="14.000"
+				colony_threshold="0.000"
+				size_min="1.000, 1.000, 1.000"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="0.752, 1.000, 0.580"
+				weight_offset="0.600" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_forest_beech___mix_broken"
+				index="6"
+				density="4.000"
+				seed_index="30"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="shrub__mix"
+				index="7"
+				density="18.000"
+				seed_index="0"
+				colony_radius="15.200"
+				colony_threshold="0.000"
+				size_min="0.450, 0.450, 0.450"
+				size_max="0.700, 0.700, 0.700"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="free_valley_flower__mix"
+				index="8"
+				density="17.000"
+				seed_index="21"
+				colony_radius="15.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.700" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="mushroom_mix_b"
+				index="9"
+				density="20.000"
+				seed_index="0"
+				colony_radius="17.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="mountain_hideout_001_pine_forest">
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_pine"
+				index="0"
+				density="15.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.250, 1.250, 1.250"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_pine_sprout"
+				index="1"
+				density="17.000"
+				seed_index="14"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.250, 1.250, 1.250"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="2"
+				density="32.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="1.000, 1.000, 1.000"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="0.737, 1.000, 0.715"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="wheats_aa"
+				index="3"
+				density="21.000"
+				seed_index="0"
+				colony_radius="14.000"
+				colony_threshold="0.000"
+				size_min="1.000, 1.000, 1.000"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="0.752, 1.000, 0.580"
+				weight_offset="0.600" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="shrub__mix"
+				index="4"
+				density="17.000"
+				seed_index="2"
+				colony_radius="15.200"
+				colony_threshold="0.000"
+				size_min="0.450, 0.450, 0.450"
+				size_max="0.650, 0.650, 0.650"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green__mix_flower"
+				index="5"
+				density="18.000"
+				seed_index="21"
+				colony_radius="15.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="mushroom_mix_a"
+				index="6"
+				density="20.000"
+				seed_index="1"
+				colony_radius="17.000"
+				colony_threshold="0.000"
+				size_min="0.750, 0.750, 0.750"
+				size_max="1.450, 1.450, 1.450"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="otgiller_vlandia_city_a">
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="0"
+				density="40.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.200, 1.200, 1.200"
+				albedo_multiplier="0.759, 1.000, 0.580"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_reed_d"
+				index="1"
+				density="24.000"
+				seed_index="55"
+				colony_radius="7.000"
+				colony_threshold="0.000"
+				size_min="0.950, 0.950, 0.950"
+				size_max="1.550, 1.550, 1.550"
+				albedo_multiplier="1.000, 0.891, 0.548"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="shrub__mix"
+				index="2"
+				density="7.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.350, 0.350, 0.350"
+				size_max="0.700, 0.700, 0.700"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_reed_b"
+				index="3"
+				density="24.000"
+				seed_index="50"
+				colony_radius="7.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="0.750, 0.750, 0.750"
+				albedo_multiplier="1.000, 0.908, 0.580"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b"
+				index="4"
+				density="15.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.200, 1.200, 1.200"
+				albedo_multiplier="0.530, 0.843, 0.410"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="shrub__mix"
+				index="5"
+				density="17.000"
+				seed_index="25"
+				colony_radius="20.000"
+				colony_threshold="0.000"
+				size_min="0.450, 0.450, 0.450"
+				size_max="0.650, 0.650, 0.650"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="artemis_white"
+				index="6"
+				density="17.000"
+				seed_index="3"
+				colony_radius="17.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.550"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="artemis_yellow"
+				index="7"
+				density="14.000"
+				seed_index="0"
+				colony_radius="2.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="rocks">
+		<layer_flora>
+			<mesh
+				name="rock_new_green"
+				index="0"
+				density="25.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="desert_rubble_stone_01"
+				index="1"
+				density="22.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="siege_003_forest">
+		<layer_flora>
+			<mesh
+				name="flora_tree_beech_mix"
+				index="0"
+				density="20.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.400, 0.400, 0.400"
+				size_max="0.700, 0.700, 0.700"
+				albedo_multiplier="0.530, 0.453, 0.344"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_tree_plane_hero_mix"
+				index="1"
+				density="1.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="1.100, 1.100, 1.100"
+				size_max="1.600, 1.600, 1.600"
+				albedo_multiplier="0.632, 0.405, 0.247"
+				weight_offset="0.240" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="siege_003_grass">
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant_f"
+				index="0"
+				density="90.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.450, 0.450, 0.450"
+				size_max="0.550, 0.550, 0.550"
+				albedo_multiplier="0.426, 0.405, 0.325"
+				weight_offset="0.800" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant_f"
+				index="1"
+				density="80.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.550, 0.550, 0.550"
+				size_max="0.550, 0.550, 0.550"
+				albedo_multiplier="0.374, 0.374, 0.374"
+				weight_offset="0.620" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant_i"
+				index="2"
+				density="18.000"
+				seed_index="0"
+				colony_radius="15.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="0.542, 0.517, 0.567"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant_i"
+				index="3"
+				density="18.000"
+				seed_index="20"
+				colony_radius="20.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="0.797, 0.737, 0.605"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="sturgia_town">
+		<layer_flora>
+			<mesh
+				name="flora_grass_a_non_shadow"
+				index="0"
+				density="35.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.850, 0.850, 0.850"
+				size_max="0.950, 0.950, 0.950"
+				albedo_multiplier="0.573, 0.530, 0.431"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green__mix"
+				index="1"
+				density="35.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="1.350, 1.350, 1.350"
+				size_max="1.650, 1.650, 1.650"
+				albedo_multiplier="0.421, 0.421, 0.421"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="rocks_small_no_batch"
+				index="2"
+				density="15.000"
+				seed_index="0"
+				colony_radius="1.000"
+				colony_threshold="0.000"
+				size_min="1.450, 1.450, 1.450"
+				size_max="2.250, 2.250, 2.250"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_a_non_shadow"
+				index="3"
+				density="40.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.750, 0.750, 0.750"
+				size_max="0.950, 0.950, 0.950"
+				albedo_multiplier="0.442, 0.459, 0.267"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green__mix_big_leafs"
+				index="4"
+				density="30.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.850, 0.850, 0.850"
+				size_max="1.250, 1.250, 1.250"
+				albedo_multiplier="0.421, 0.421, 0.421"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="sturgia_town_c_clearing">
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="0"
+				density="47.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.750, 0.750, 0.750"
+				size_max="1.150, 1.150, 1.150"
+				albedo_multiplier="0.399, 0.632, 0.415"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="free_grass_terrain_a"
+				index="1"
+				density="17.000"
+				seed_index="30"
+				colony_radius="7.000"
+				colony_threshold="0.000"
+				size_min="0.750, 0.750, 0.750"
+				size_max="1.650, 1.650, 1.650"
+				albedo_multiplier="0.983, 0.730, 0.511"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="2"
+				density="27.000"
+				seed_index="60"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.950, 0.950, 0.950"
+				size_max="1.350, 1.350, 1.350"
+				albedo_multiplier="0.560, 0.859, 0.580"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="papaver"
+				index="3"
+				density="18.000"
+				seed_index="20"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="wheats_bb"
+				index="4"
+				density="18.000"
+				seed_index="35"
+				colony_radius="14.000"
+				colony_threshold="1.550"
+				size_min="1.250, 1.250, 1.250"
+				size_max="3.100, 3.100, 3.100"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="artemis_white"
+				index="5"
+				density="19.000"
+				seed_index="35"
+				colony_radius="12.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="artemis_yellow"
+				index="6"
+				density="21.000"
+				seed_index="0"
+				colony_radius="15.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="sturgia_town_c_forest">
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="0"
+				density="55.000"
+				seed_index="1"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="0.745, 1.000, 0.694"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green__mix"
+				index="1"
+				density="45.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_sturgiaGreen_mix"
+				index="2"
+				density="25.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.800, 0.800, 0.800"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_pine"
+				index="3"
+				density="17.000"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green__mix_flower"
+				index="4"
+				density="35.000"
+				seed_index="6"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_pine_sprout"
+				index="5"
+				density="17.000"
+				seed_index="15"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="1.000" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="shrub__mix"
+				index="6"
+				density="7.000"
+				seed_index="80"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.550, 0.550, 0.550"
+				size_max="0.950, 0.950, 0.950"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="wheats_bb"
+				index="7"
+				density="18.000"
+				seed_index="72"
+				colony_radius="14.000"
+				colony_threshold="0.000"
+				size_min="1.550, 1.550, 1.550"
+				size_max="3.000, 3.000, 3.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="mushroom_mix_a"
+				index="8"
+				density="16.000"
+				seed_index="10"
+				colony_radius="7.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="rock_new_green"
+				index="9"
+				density="4.000"
+				seed_index="73"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.350, 0.350, 0.350"
+				size_max="0.600, 0.600, 0.600"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b"
+				index="10"
+				density="27.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="0.554, 0.730, 0.554"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="artemis_white"
+				index="11"
+				density="21.000"
+				seed_index="42"
+				colony_radius="8.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="sturgia_town_c_sparegrass">
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="0"
+				density="42.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="0.442, 0.542, 0.263"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="papaver"
+				index="1"
+				density="24.000"
+				seed_index="0"
+				colony_radius="12.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green__mix_flower"
+				index="2"
+				density="11.000"
+				seed_index="44"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="temp">
+		<layer_flora>
+			<mesh
+				name="flora_green__mix"
+				index="0"
+				density="22.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.750, 0.750, 0.750"
+				size_max="3.000, 3.000, 3.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="grass_terrain_a"
+				index="1"
+				density="55.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="shrub__mix"
+				index="2"
+				density="11.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="0.650, 0.650, 0.650"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix"
+				index="3"
+				density="11.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="ground_rock"
+				index="4"
+				density="22.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="2.600, 2.600, 2.600"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="training_field_flora">
+		<layer_flora>
+			<mesh
+				name="wheats_aa"
+				index="0"
+				density="19.000"
+				seed_index="0"
+				colony_radius="14.000"
+				colony_threshold="0.000"
+				size_min="1.000, 1.000, 1.000"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 0.701"
+				weight_offset="0.600" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="shrub__mix"
+				index="1"
+				density="18.000"
+				seed_index="0"
+				colony_radius="15.200"
+				colony_threshold="0.000"
+				size_min="0.450, 0.450, 0.450"
+				size_max="0.600, 0.600, 0.600"
+				albedo_multiplier="0.916, 0.470, 0.470"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="free_valley_flower__mix"
+				index="2"
+				density="17.000"
+				seed_index="21"
+				colony_radius="15.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.700" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="3"
+				density="27.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="1.050, 1.050, 1.050"
+				size_max="1.650, 1.650, 1.650"
+				albedo_multiplier="0.708, 0.767, 0.567"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="training_field_green_flora">
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_poplar"
+				index="0"
+				density="27.000"
+				seed_index="0"
+				colony_radius="15.000"
+				colony_threshold="0.000"
+				size_min="0.100, 0.100, 0.100"
+				size_max="0.400, 0.400, 0.400"
+				albedo_multiplier="1.000, 0.652, 0.599"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix"
+				index="1"
+				density="14.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.350, 0.350, 0.350"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 0.639, 0.639"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="shrub__mix"
+				index="2"
+				density="11.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 0.599, 0.573"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="3"
+				density="35.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="0.916, 1.000, 0.723"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_plant__mix"
+				index="4"
+				density="20.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 0.673, 0.542"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="free_valley_flower__mix"
+				index="5"
+				density="37.000"
+				seed_index="9"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="training_field_sparse">
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant__mix_grass"
+				index="0"
+				density="11.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="0.843, 1.000, 0.797"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_dry_plant__mix_long"
+				index="1"
+				density="11.000"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 0.891"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="ground_rocks_group"
+				index="2"
+				density="16.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="3"
+				density="11.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="0.932, 1.000, 0.941"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="trees_01">
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_pine"
+				index="0"
+				density="22.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix"
+				index="1"
+				density="15.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_pine_sprout"
+				index="2"
+				density="15.000"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_acacia"
+				index="3"
+				density="16.000"
+				seed_index="5"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.300, 1.300, 1.300"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="trees_02">
+		<layer_flora>
+			<mesh
+				name="tree_high__mix"
+				index="0"
+				density="12.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.500, 0.500, 0.500"
+				size_max="1.500, 1.500, 1.500"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_poplar"
+				index="1"
+				density="13.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_poplar_forest"
+				index="2"
+				density="13.000"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.300, 1.300, 1.300"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_poplar_sprout"
+				index="3"
+				density="15.000"
+				seed_index="5"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_forest_beech___mix"
+				index="4"
+				density="15.000"
+				seed_index="6"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="trees_03">
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_pine"
+				index="0"
+				density="22.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix"
+				index="1"
+				density="15.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_pine_sprout"
+				index="2"
+				density="15.000"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_poplar_forest"
+				index="3"
+				density="12.000"
+				seed_index="5"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.300, 1.300, 1.300"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="trees_04">
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_aspen"
+				index="0"
+				density="11.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix"
+				index="1"
+				density="11.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_pine_sprout"
+				index="2"
+				density="11.000"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_acacia"
+				index="3"
+				density="11.000"
+				seed_index="6"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.300, 1.300, 1.300"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_poplar"
+				index="4"
+				density="11.000"
+				seed_index="5"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="trees_05">
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_pine"
+				index="0"
+				density="22.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix"
+				index="1"
+				density="15.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_pine_sprout"
+				index="2"
+				density="15.000"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_poplar_forest"
+				index="3"
+				density="12.000"
+				seed_index="5"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.300, 1.300, 1.300"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="trees_empire_a">
+		<layer_flora>
+			<mesh
+				name="tree_high__mix"
+				index="0"
+				density="17.000"
+				seed_index="3"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.500, 0.500, 0.500"
+				size_max="1.000, 1.000, 1.000"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_poplar"
+				index="1"
+				density="16.000"
+				seed_index="2"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.200, 1.200, 1.200"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_poplar_forest"
+				index="2"
+				density="16.000"
+				seed_index="4"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.200, 1.200, 1.200"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="tree_high__mix_poplar_sprout"
+				index="3"
+				density="16.000"
+				seed_index="5"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.200, 1.200, 1.200"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+	<layer_flora_set
+		name="vlandia_castle_005">
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="0"
+				density="35.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="1.050, 1.050, 1.050"
+				size_max="1.250, 1.250, 1.250"
+				albedo_multiplier="0.592, 0.805, 0.530"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_grass_b_non_shadow"
+				index="1"
+				density="40.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.850, 0.850, 0.850"
+				size_max="1.050, 1.050, 1.050"
+				albedo_multiplier="0.625, 0.666, 0.465"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="flora_green__mix"
+				index="2"
+				density="20.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="1.050, 1.050, 1.050"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="0.517, 0.426, 0.354"
+				weight_offset="0.500" />
+		</layer_flora>
+		<layer_flora>
+			<mesh
+				name="artemis_white"
+				index="3"
+				density="25.000"
+				seed_index="0"
+				colony_radius="0.000"
+				colony_threshold="0.000"
+				size_min="0.650, 0.650, 0.650"
+				size_max="1.550, 1.550, 1.750"
+				albedo_multiplier="1.000, 1.000, 1.000"
+				weight_offset="0.500" />
+		</layer_flora>
+	</layer_flora_set>
+</layer_flora_sets>

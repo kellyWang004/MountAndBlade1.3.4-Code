@@ -1,0 +1,190 @@
+<Brushes>
+  <Brush Name="MPIntermission.Leave.Button">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPIntermission\leave_button" Color="#CD7B3AFF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.7" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="1" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.5" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="MPIntermission.Voting.Title.Text" Font="Galahad">
+    <Styles>
+      <Style Name="Default" FontColor="#CD7B38FF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="35" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPIntermission.Voted.Count.Text" Font="Galahad_Numbers_Bold">
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="35" />
+    </Styles>
+  </Brush>
+  
+  <Brush Name="MPIntermission.Leave.Text" Font="FiraSansExtraCondensed-Regular">
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="36" />
+    </Styles>
+  </Brush>
+  
+  <Brush Name="MPIntermission.Players.Label.Text" Font="FiraSansExtraCondensed-Regular">
+    <Styles>
+      <Style Name="Default" FontColor="#CD7B3AFF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="60" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPIntermission.Players.Separator.Text" Font="FiraSansExtraCondensed-Regular">
+    <Styles>
+      <Style Name="Default" FontColor="#F0A569FF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="60" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPIntermission.Players.Value.Text" Font="FiraSansExtraCondensed-Regular">
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="60" />
+    </Styles>
+  </Brush>
+  
+  <Brush Name="MPIntermission.Label.Text" Font="Galahad">
+    <Styles>
+      <Style Name="Default" FontColor="#CD7B3AFF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="42" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPIntermission.Value.Text" Font="FiraSansExtraCondensed-Regular">
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="26" />
+    </Styles>
+  </Brush>
+  <Brush Name="MPIntermission.Banner.Left">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPIntermission\banner_left" Color="#FFFFFFFF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+  
+  <Brush Name="MPIntermission.Banner.Right">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPIntermission\banner_right"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="MPIntermission.Map.Button">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="intermission_card_frame_9" Color="#CD7B3AFF" ExtendRight="18" ExtendLeft="18" ExtendTop="18" ExtendBottom="18" IsHidden="true"/>
+      <BrushLayer Name="Selected" Sprite="intermission_card_frame_selected_9" Color="#CD7B3AFF" ExtendRight="18" ExtendLeft="18" ExtendTop="18" ExtendBottom="18" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" IsHidden="false" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.8" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.3" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Selected" AlphaFactor="1.0" IsHidden="false"/>
+      </Style>      
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.3" IsHidden="false"/>
+      </Style>      
+    </Styles>
+  </Brush>
+  <Brush Name="MPIntermission.CultureButton">
+    <Layers>
+      <BrushLayer Name="Default" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.6" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.8" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.5" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1.0" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.4" ColorFactor="0.5" SaturationFactor="-10" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="MPIntermission.CultureButton.Aserai" BaseBrush="MPIntermission.CultureButton">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPIntermission\ase" />
+    </Layers>
+  </Brush>
+  <Brush Name="MPIntermission.CultureButton.Battania" BaseBrush="MPIntermission.CultureButton">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPIntermission\bat" />
+    </Layers>
+  </Brush>
+  <Brush Name="MPIntermission.CultureButton.Empire" BaseBrush="MPIntermission.CultureButton">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPIntermission\emp" />
+    </Layers>
+  </Brush>
+  <Brush Name="MPIntermission.CultureButton.Khuzait" BaseBrush="MPIntermission.CultureButton">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPIntermission\khu" />
+    </Layers>
+  </Brush>
+  <Brush Name="MPIntermission.CultureButton.Sturgia" BaseBrush="MPIntermission.CultureButton">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPIntermission\stu" />
+    </Layers>
+  </Brush>
+  <Brush Name="MPIntermission.CultureButton.Vlandia" BaseBrush="MPIntermission.CultureButton">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="MPIntermission\vla" />
+    </Layers>
+  </Brush>
+  <Brush Name="MPIntermission.Scrollbar.Handle">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BlankWhiteSquare_9" Color="#5e4424ff" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.5" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="MPIntermission.Scrollbar.Bed">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BlankWhiteSquare_9" Color="#5e4424ff" ColorFactor="0.6" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+
+</Brushes>

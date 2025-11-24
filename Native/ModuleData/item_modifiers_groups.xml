@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemModifierGroups>
+	<ItemModifierGroup
+		id="sword"
+		no_modifier_loot_score="45"
+		no_modifier_production_score="75" />
+	<ItemModifierGroup
+		id="bow"
+		no_modifier_loot_score="45"
+		no_modifier_production_score="75" />
+	<ItemModifierGroup
+		id="crossbow"
+		no_modifier_loot_score="45"
+		no_modifier_production_score="75" />
+	<ItemModifierGroup
+		id="arrow"
+		no_modifier_loot_score="45"
+		no_modifier_production_score="75" />
+	<ItemModifierGroup
+		id="bolt"
+		no_modifier_loot_score="45"
+		no_modifier_production_score="75" />
+	<ItemModifierGroup
+		id="cheap_weapon"
+		no_modifier_loot_score="45"
+		no_modifier_production_score="75" />
+	<ItemModifierGroup
+		id="polearm"
+		no_modifier_loot_score="45"
+		no_modifier_production_score="75" />
+	<ItemModifierGroup
+		id="mace"
+		no_modifier_loot_score="45"
+		no_modifier_production_score="75" />
+	<ItemModifierGroup
+		id="axe"
+		no_modifier_loot_score="45"
+		no_modifier_production_score="75" />
+	<ItemModifierGroup
+		id="axe_throwing"
+		no_modifier_loot_score="45"
+		no_modifier_production_score="75" />
+	<ItemModifierGroup
+		id="knife_throwing"
+		no_modifier_loot_score="45"
+		no_modifier_production_score="75" />
+	<ItemModifierGroup
+		id="spear_dart_throwing"
+		no_modifier_loot_score="45"
+		no_modifier_production_score="75" />
+	<ItemModifierGroup
+		id="shield"
+		no_modifier_loot_score="45"
+		no_modifier_production_score="75" />
+	<ItemModifierGroup
+		id="plate"
+		no_modifier_loot_score="45"
+		no_modifier_production_score="75" />
+	<ItemModifierGroup
+		id="chain"
+		no_modifier_loot_score="45"
+		no_modifier_production_score="75" />
+	<ItemModifierGroup
+		id="leather"
+		no_modifier_loot_score="45"
+		no_modifier_production_score="75" />
+	<ItemModifierGroup
+		id="cloth"
+		no_modifier_loot_score="45"
+		no_modifier_production_score="75" />
+	<ItemModifierGroup
+		id="cloth_unarmoured"
+		no_modifier_loot_score="45"
+		no_modifier_production_score="75" />
+	<ItemModifierGroup
+		id="horse"
+		no_modifier_loot_score="1"
+		no_modifier_production_score="1" />
+	<ItemModifierGroup
+		id="companion"
+		no_modifier_loot_score="1"
+		no_modifier_production_score="1" />
+</ItemModifierGroups>

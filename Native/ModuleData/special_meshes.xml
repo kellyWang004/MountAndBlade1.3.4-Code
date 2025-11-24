@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	type="special_meshes">
+	<meshes>
+		<mesh
+			name="outer_mesh_forest">
+			<types>
+				<type
+					name="outer_mesh" />
+			</types>
+		</mesh>
+		<mesh
+			name="main_map_outer">
+			<types>
+				<type
+					name="outer_mesh" />
+			</types>
+		</mesh>
+		<!-- <mesh name="dense_grass_terrain_a.lod0">
+			<types>
+				<type name="dense_flora" />
+			</types>
+		</mesh>	
+		<mesh name="dense_wheat_terrain_a.lod0">
+			<types>
+				<type name="dense_flora" />
+			</types>
+		</mesh>	
+		<mesh name="dense_grass_billboard_a">
+			<types>
+				<type name="dense_flora_billboard" />
+			</types>
+		</mesh>	
+		<mesh name="dense_wheat_billboard">
+			<types>
+				<type name="dense_flora_billboard" />
+			</types>
+		</mesh>	-->
+	</meshes>
+</base>

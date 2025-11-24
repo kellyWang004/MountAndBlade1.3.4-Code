@@ -1,0 +1,60 @@
+<Brushes>
+  <Brush Name="OverlayPopup.Background">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\Popup\canvas" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="OverlayPopup.TableauBackground">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="SPGeneral\OverlayPopup\portrait_slot" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="Overlay.Popup.Canvas">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BlankWhiteSquare_9" Color="#392112FF" OverlayMethod="CoverWithTexture" OverlaySprite="popup_canvas_texture" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="OverlayPopup.CharacterName" Font="Galahad" TextHorizontalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#E0BA69FF" TextGlowRadius="0" TextBlur="0.5" TextShadowOffset="0" TextOutlineAmount="0.6" TextGlowColor="#00000055" FontSize="26" />
+    </Styles>
+  </Brush>
+  <Brush Name="OverlayPopup.InfoText" Font="Galahad" TextHorizontalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="24" />
+    </Styles>
+  </Brush>
+  <Brush Name="OverlayPopup.DescriptionText" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Top">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="18" />
+    </Styles>
+  </Brush>
+  <Brush Name="OverlayPopup.ActionButtonText" Font="Galahad" TextHorizontalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="20" />
+    </Styles>
+  </Brush>
+</Brushes>

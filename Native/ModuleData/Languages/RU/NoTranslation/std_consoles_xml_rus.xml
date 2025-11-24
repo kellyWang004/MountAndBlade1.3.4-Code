@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Русский" />
+  </tags>
+  <strings>
+    <string id="ovqtG4LS" text="Показать профиль PlayStation™Network" />
+    <string id="zZeDwVbv" text="Установить чувствительность датчика перемещения для режима прицеливания с оружием дальнего боя. 0 отключит функцию датчика перемещения в этом режиме." />
+    <string id="xboxStartButton" text="Кнопка «Меню»" />
+    <string id="xboxRightTrigger" text="правый триггер" />
+    <string id="xboxRightStickUp" text="Правый мини-джойстик вверх" />
+    <string id="xboxRightStickRight" text="Правый мини-джойстик вправо" />
+    <string id="xboxRightStickLeft" text="Правый мини-джойстик влево" />
+    <string id="xboxRightStickDown" text="Правый мини-джойстик вниз" />
+    <string id="xboxRightStick" text="Правый мини-джойстик" />
+    <string id="xboxRightBumper" text="правый бампер" />
+    <string id="xboxLeftTrigger" text="левый триггер" />
+    <string id="xboxLeftStickUp" text="Левый мини-джойстик вверх" />
+    <string id="xboxLeftStickRight" text="Левый мини-джойстик вправо" />
+    <string id="xboxLeftStickLeft" text="Левый мини-джойстик влево" />
+    <string id="xboxLeftStickDown" text="Левый мини-джойстик вниз" />
+    <string id="xboxLeftStick" text="Левый мини-джойстик" />
+    <string id="xboxLeftBumper" text="левый бампер" />
+    <string id="xboxDpadUp" text="D-pad вверх" />
+    <string id="xboxDpadRight" text="D-pad вправо" />
+    <string id="xboxDpadLeft" text="D-pad влево" />
+    <string id="xboxDpadDown" text="D-pad вниз" />
+    <string id="xboxBackButton" text="Кнопка «Просмотр»" />
+    <string id="wXuZKLkk" text="Изменить способ стрельбы из оружия дальнего боя. Активация этого параметра позволит прицеливаться {?IS_PLAYSTATION}кнопкой L2{?}левым триггером{\?}, а стрелять - {?IS_PLAYSTATION}кнопкой R2{?}правым{\?}." />
+    <string id="pvit1VDX" text="Курсором можно будет управлять с помощью сенсорной панели." />
+    <string id="psXButton" text="кнопка «крест»" />
+    <string id="psTriangleButton" text="кнопка «треугольник»" />
+    <string id="psTouchpadButton" text="кнопка сенсорной панели" />
+    <string id="psSquareButton" text="кнопка «квадрат»" />
+    <string id="psR2Button" text="кнопка R2" />
+    <string id="psR1Button" text="кнопка R1" />
+    <string id="psOptionsButton" text="кнопка OPTIONS" />
+    <string id="psL2Button" text="кнопка L2" />
+    <string id="psL1Button" text="кнопка L1" />
+    <string id="psCircleButton" text="кнопка «круг»" />
+    <string id="NbiZd9up" text="Включить помощь в прицеливании с функцией датчика перемещения" />
+    <string id="m0NJf3BU" text="Использовать функцию датчика перемещения для выбора направления атаки и блокирования в ближнем бою." />
+    <string id="jA2D1Rgt" text="Этот параметр отключен, потому что функция датчика перемещения отключена." />
+    <string id="gLlM7pQw" text="Включить курсор на сенсорной панели" />
+    <string id="bIuDbdVB" text="Включить альтернативное управление {?IS_PLAYSTATION}беспроводного контроллера {?}геймпада{\?}" />
+    <string id="aLAtopse" text="Использовать функцию датчика перемещения для помощи в прицеливании из оружия дальнего боя." />
+    <string id="aCVTu5AJ" text="Использовать функцию датчика перемещения для направления атаки/блокирования в ближнем бою" />
+    <string id="7UqxMUHr" text="Этот параметр отключен, потому что включен режим &quot;Использовать функцию датчика перемещения для направления атаки/блокирования в ближнем бою&quot;." />
+    <string id="5mBbS0mb" text="Использовать функцию датчика перемещения для выбора направления атаки и блокирования в ближнем бою." />
+    <string id="136P0uC5" text="Чувствительность для функции датчика перемещения" />
+    <string id="UhUvwvkh" text="Соединение с PlayStation™Network отсутствует. Сетевые функции недоступны." />
+    <string id="8yk50Ba5" text="Для доступа к сетевой игре требуется подписка PlayStation®Plus." />
+    <string id="3rcPHq9a" text="Вы не вошли в PlayStation™Network. Для доступа к сетевым функциям необходимо выполнить вход." />
+    <string id="controllerDisconnectedTitlePS" text="Беспроводной контроллер отключен" />
+    <string id="controllerDisconnectedDescriptionPS" text="Для продолжения подключите беспроводной контроллер заново" />
+    <string id="MceLT3Zg" text="Беспроводной контроллер" />
+    <string id="NyA57ke1" text="Вход в PlayStation™Network не выполнен" />
+    <string id="i6x93YjL" text="Окно читов можно также включить удержанием кнопок &quot;L1 + R2 + кнопка вниз&quot; в режиме кампании." />
+    <string id="tHGHDaFH" text="Успешно перенесены сохраненные данные консоли PS4™" />
+    <string id="PJK980ka" text="Выбрать сохраненные данные на консоли PS4™ для переноса." />
+    <string id="ifkdZmxr" text="Сохраненные данные на консоли PS4™ не найдены" />
+    <string id="6WHz63af" text="Перенести сохраненные данные с консоли PS4™" />
+    <string id="dlcInstallComplete" text="Загружаемый контент установлен" />
+    <string id="psDlcInstallComplete" text="Дополнение установлено" />
+    <string id="dlcInstalledDescription" text="Загружаемый контент успешно установлен. Для доступа к нему вам нужно выйти в главное меню." />
+    <string id="psDlcInstalledDescription" text="Данные дополнения успешно установлены. Для доступа к ним вам нужно выйти в главное меню." />
+	<string id="c3I1AjcF" text="Включить вибрацию {?IS_PLAYSTATION}беспроводного контроллера {?}геймпада{\?}" />
+	<string id="rightstickabbreviated" text="RS" />
+    <string id="rightstickabbreviatedps" text="R" />
+  </strings>
+</base>

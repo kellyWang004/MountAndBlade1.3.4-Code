@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="日本語" />
+  </tags>
+  <strings>
+    <string id="03G5GPec" text="所有中の隊商：{CARAVAN_COUNT}" />
+    <string id="05fdfc6e238429753ef282f2ce97c1f8" text="積載量： " />
+    <string id="08abd5af7774d311cadc3ed900b47754" text="種類： " />
+    <string id="0mqdFC2x" text="武器を作成した！" />
+    <string id="0Q4Xo2BQ" text="新しい指揮官を選んでください" />
+    <string id="0rmpC7jf" text="駐屯地が飢餓状態にあります" />
+    <string id="0TauthlH" text="なし ({PERCENTAGE}%)" />
+    <string id="13wo3QQB" text="副武器" />
+    <string id="154a34f8caccfc833238cc89d38861e8" text="必要なもの： " />
+    <string id="1CXlqb2U" text="選ぶ：" />
+    <string id="1l4kpBDK" text="変更を適用できませんでした" />
+    <string id="1UbocG5B" text="この領地を王国に返還することにより、領土における権利と責任を放棄します。" />
+    <string id="1xf8rHLH" text="採用できる囚人がいません。" />
+    <string id="2abtb4xu" text="独立" />
+    <string id="2ckyCKR7" text="予備" />
+    <string id="2Cq3tViJ" text="部隊の兵士規模上限" />
+    <string id="2GWR9Cba" text="暖炉（世帯数）" />
+    <string id="2Hbr4TEj" text="アイテム名の最初や最後に空白を入れることはできません。" />
+    <string id="2lFwF07j" text="名前変更" />
+    <string id="2maftPJP" text="クランと勢力のリーダーに任命" />
+    <string id="2nN1QuxZ" text="今回完了できないとこのクエストは失敗します。" />
+    <string id="3025020b83b218707499f0de3135ed0a" text="機動性： " />
+    <string id="305cf7f98458b22e9af72b60a131714f" text="馬鎧： " />
+    <string id="345a87fcc69f626ae3916939ef2fc135" text="振りスピード： " />
+    <string id="3F0y3ugx" text="成功！" />
+    <string id="3sxtCWPe" text="王国を離れる" />
+    <string id="43HYUImy" text="{SETTLEMENT}の包囲" />
+    <string id="4U9EnZt5" text="クリティカル成功！" />
+    <string id="4uMWNDoi" text="突きスピード" />
+    <string id="4vPm9bFW" text="この同盟の申し出はすでに無効です。" />
+    <string id="4vZLpzPi" text="+1名声/日" />
+    <string id="4Y8u4JKO" text="軍隊にいる間は王国を出ることができません" />
+    <string id="5dec16fa0be433ade3c4cb0074ef366d" text="精度: " />
+    <string id="5dkPxmZG" text="駐屯地の賃金" />
+    <string id="5fa36d2798479803b4518a64beb4d732" text="武器の長さ： " />
+    <string id="63Ic1Ahe" text="コスト：{UPGRADE_COST} （足りません）" />
+    <string id="68IlDbA2" text="盗賊の兵士を通常の兵士にアップグレードするには{PERK_NAME}が必要です。" />
+    <string id="6adabc1f82216992571c3e22abc164d7" text="弾数上限：  " />
+    <string id="6ayEZQE1" text="{DAYS}{?DAYS &gt; 1}日{?}日{\?}後に期限切れとなります。" />
+    <string id="6DuCoCc2" text="会話に参加するには、変更を確定させる必要があります。" />
+    <string id="74dc1908cb0b990e80fb977b5a0ef10d" text="スピード： " />
+    <string id="7dXs9c2b" text="海上での容量を超えました" />
+    <string id="7l0LGKRk" text="開始日" />
+    <string id="7tBOCHm6" text="紋章の色:" />
+    <string id="7tKjfMSb" text="路地" />
+    <string id="84oSzquz" text="最近逃走した捕虜" />
+    <string id="88WPmTKH" text="材料を倉庫から取ってくる" />
+    <string id="8BJDQe6o" text="{FACTION}により捕らえられた囚人" />
+    <string id="8BlMRMiR" text="馬のTier" />
+    <string id="8cad4a279770f269c4bb0dc7a357ee1e" text="クラス： " />
+    <string id="8d23bRmv" text="陸上での重量" />
+    <string id="8fqFGxD9" text="{KEY}を押して{ITEM}と比較" />
+    <string id="8Jy9DnKk" text="{PARTY_NAME}に合流" />
+    <string id="8lCWWK9G" text="鍛冶の恩恵" />
+    <string id="8N1EdPB3" text="{GOLD}{GOLD_ICON}獲得できます" />
+    <string id="8qbkS5D2" text="戦況" />
+    <string id="8szijlHj" text="注文の難易度：{DIFFICULTY}" />
+    <string id="8xKky9ja" text="このアイテムは取引または廃棄できません" />
+    <string id="94aHU6nD" text="建設" />
+    <string id="9FJi2SaE" text="部隊の役割" />
+    <string id="9i0wnjJK" text="L-II : {BONUS}" />
+    <string id="9sxECG6e" text="乗騎の種類: " />
+    <string id="9WrJP0hD" text="兵士をすべて移動" />
+    <string id="a241aacb1780599430c79fd9f667b67f" text="部隊の士気： " />
+    <string id="a4GDfSel" text="チュートリアルをリセットします" />
+    <string id="a4oqWgUi" text="倉庫に原材料がない場合、在庫が補充されるまで、作業場のほうで市場から原材料を買うことになります" />
+    <string id="a8NoW1Q2" text="本当に変更をキャンセルしてよろしいですか？" />
+    <string id="a8nRxITn" text="{PARTY_NAME}の囚人" />
+    <string id="aAqMSU2d" text="海上におけるインベントリ容量" />
+    <string id="aFYwbosi" text="この英雄はすでに部隊を率いています。" />
+    <string id="aGFxIvqx" text="メンバーを残す" />
+    <string id="aGJYQOef" text="マップ上に、英雄の現在地を表示する。" />
+    <string id="ANV8UV5f" text="このメンバーを部隊に呼び戻す。" />
+    <string id="armorTier" text="鎧のTier：  " />
+    <string id="aTdrjrEh" text="{SWING_DAMAGE_FACTOR}" />
+    <string id="av51ur2M" text="この作業場の生産タイプを変更するには、最低{REQUIRED_AMOUNT}デナール必要です。" />
+    <string id="aYm5Ehv1" text="アイテムを1つ選ぶ必要があります。" />
+    <string id="b7muQ9mt" text="{KINGDOM_INFORMALNAME}との傭兵契約を終了してもよろしいですか？" />
+    <string id="b8CqpGHx" text="囚人を採用する" />
+    <string id="bAqDnkaT" text="飛び道具の速度" />
+    <string id="BbLTwhsA" text="陣形整列の完了まで{REMAINING_TIME}" />
+    <string id="Bcs9s2tC" text="右クリックで削除" />
+    <string id="bd7oAQq6" text="日次" />
+    <string id="bDwTWrru" text="遅延なし" />
+    <string id="BEXTcJaS" text="指定時間" />
+    <string id="bfWlTVjs" text="割り当てを削除" />
+    <string id="BgqZWbga" text="忠誠の誓いを破棄すれば、王国の貴族たちから反感を買うことになります。本当にこの王国を去りますか？" />
+    <string id="BkDycbdq" text="兵士ツリーの表示中にエラーが発生しました" />
+    <string id="bPFjmYCI" text="{SHOP_NAME} x {SHOP_DIFFERENCE_COUNT}" />
+    <string id="BqLsZhhr" text="精製するアイテムを選択" />
+    <string id="btoiLePb" text="{HERO} ({PLACE})" />
+    <string id="BV5exuPf" text="ブックマークから削除" />
+    <string id="C2qpwFq5" text="{SETTLEMENTS}の所有者" />
+    <string id="c5eYzHaM" text="{DAYS} {?DAY_IS_PLURAL}日{?}日{\?}({PERCENTAGE}%)" />
+    <string id="c7638a0869219ae845de0f660fd57a9d" text="衝突ダメージ：  " />
+    <string id="c9c5dfed2ca6bcb7a73d905004c97b23" text="ダメージ： " />
+    <string id="C9tKA0ul" text="キャラクター名は空欄にできません" />
+    <string id="ca8b1e8956057b831dfc665f54bae4b0" text="操作性: " />
+    <string id="CaRbMaZY" text="一日あたりの賃金" />
+    <string id="cbbUzYX3" text="難易度：{DIFFICULTY}" />
+    <string id="cBqjZjfJ" text="陸上におけるインベントリ容量" />
+    <string id="cD1HTdYJ" text="既に積極開発中" />
+    <string id="cDkHJOkl" text="視界内にいて、自分の王国がこの集落を支配するか、集落にクランメンバーがいると、詳細を確認できます。" />
+    <string id="cedvCZ73" text="{FACTION}が所有する町はありません" />
+    <string id="CExQ40Ux" text="{PARTY_1S_MEMBERS}   " />
+    <string id="cf61cce254c7dca65be9bebac7fb9bf5" text="腕の防具： " />
+    <string id="CGVK6l8I" text="チャンピオンの恩恵" />
+    <string id="CK68QXen" text="{FACTION}により捕らえられた囚人はいません" />
+    <string id="Ck9HT8fQ" text="概要" />
+    <string id="cnmRwV4s" text="弾数上限" />
+    <string id="CnsIzaWo" text="屋外戦闘" />
+    <string id="CRi905Ao" text="あなたの部隊に所属" />
+    <string id="cUUI8u2G" text="鍛冶屋のスタミナ" />
+    <string id="cZCOa00c" text="{SUPPORTER_RANK}支持者({NUM})" />
+    <string id="d2K6gMsZ" text="メンバーを残す。最低1人の仲間が必要。" />
+    <string id="d8jrv3nA" text="ブックマークに追加" />
+    <string id="DAmdTxuC" text="軍隊の管理" />
+    <string id="DAYoD0aW" text="部隊を編成" />
+    <string id="dbBAJ8yi" text="後にクラン画面から旗とクラン名を変更することができます。" />
+    <string id="DbXZjPdf" text="軍旗の効果： " />
+    <string id="dD3kRDHi" text="この英雄は逃亡者で、追手から逃げています。しばらく後で利用可能になります。" />
+    <string id="dEMUqz2Y" text="この作業場は収益の内、{INITIAL_CAPITAL}を超えた分の20%を、あなたの宝庫に献上します" />
+    <string id="DKJIp6xG" text="効果" />
+    <string id="DNq9bdvV" text="{THRUST_DAMAGE_FACTOR}" />
+    <string id="DNXD37JL" text="食料が無くなるまでの集落の日数" />
+    <string id="dO95yR9b" text="突きダメージ" />
+    <string id="dOa7frHR" text="アンロックした欠片のみ表示" />
+    <string id="DRJOxrRF" text="軍隊内の兵士" />
+    <string id="dVqowrRz" text=" - {STAT} {REQUIREMENT}" />
+    <string id="dWYm9GsC" text="必要なもの" />
+    <string id="eHVq6yDa" text="アイテムの性質" />
+    <string id="eIgC6YGp" text="関税" />
+    <string id="eIGFuGOx" text="集落を譲与する" />
+    <string id="EkFDvG7z" text="集落の食料在庫" />
+    <string id="eoVW9z54" text="平均士気" />
+    <string id="F0a7hyp0" text="反乱の危険性" />
+    <string id="f2971dc587a9777223ad2d7be236fb05" text="相場の噂" />
+    <string id="f4nc7FfE" text="{UPGRADE_NAME}にアップグレード" />
+    <string id="f90A6PGd" text="同盟" />
+    <string id="faDegful" text="待機列から削除" />
+    <string id="FBYFcrWo" text="集落に残す" />
+    <string id="fgyvzyB5" text="陸上での容量を超えました" />
+    <string id="fI7a7RoE" text="インベントリ容量" />
+    <string id="FjJi1DJb" text="この英雄はすでに他の部隊に参加しています。" />
+    <string id="flxDkoMh" text="ステージ完了" />
+    <string id="fpE7BQ7f" text="アップグレード可能な兵士がいません。" />
+    <string id="fPoB2u5m" text="キャラクター名は、{MIN}から{MAX}文字である必要があります" />
+    <string id="fRz2DJf4" text="部隊の編成には{PARTY_COST}{GOLD_ICON}かかります。よろしいですか？" />
+    <string id="FYJC7cDD" text="特性" />
+    <string id="fz2kQjFS" text="あなたのキャラクターの文化を選んでください：" />
+    <string id="FzbeSkBb" text="あなたの路地の1つがリーダーを失ったか、あるいは兵が不足しています。{DAYS}日経過すると、この路地は放棄されます。路地を保持したいのであれば、クラン画面から新しいクランのメンバーを割り当てるか、路地に行って兵士を追加しましょう。放棄時に残されていた兵士は全て失われます。" />
+    <string id="g08mptth" text="新しいリーダーになるために、別の部隊に移動" />
+    <string id="g1op0Thi" text="下船中" />
+    <string id="G2h0V10w" text="この集落を王国のクランに贈ります。" />
+    <string id="GCaYjA5W" text="クランの名前を変更するには、そのリーダーになる必要があります。" />
+    <string id="Gd6zuUwh" text="フリービルド" />
+    <string id="gduqxfck" text="必要な素材が揃っていません！" />
+    <string id="Gp2vmZGZ" text="{PERKS}" />
+    <string id="GP3jpU0X" text="傭兵クランでは影響力は、定期的にデナールに換金されます。" />
+    <string id="gTbE6t9I" text="以下の条件が満たされていません：" />
+    <string id="gu5xmV0E" text="この町には、他の{WORKSHOP_NAME}は存在しません。" />
+    <string id="gUUnZNGk" text="新しい統治者になるために、{SETTLEMENT_NAME}に移動" />
+    <string id="guxNZZWh" text="条件" />
+    <string id="GwA9oUBC" text="スキルフォーカスによって訓練でスキルが増加する速度が決まります" />
+    <string id="h0xoKxxo" text="アイテム名は、{MIN}から{MAX}文字である必要があります。" />
+    <string id="heroRecovering" text="回復中" />
+    <string id="HfsUngkh" text="今は人材を雇用することができません。" />
+    <string id="HFZdseH9" text="王国の名前を変更できるのは、その支配者だけです。" />
+    <string id="HHTQVp52" text="英雄の回復率" />
+    <string id="HiJTlBgF" text="作業場を売却する" />
+    <string id="hn9TPqhK" text="武器のTier" />
+    <string id="hOVPiG3z" text="最近の反乱" />
+    <string id="hr4MuPnt" text="必要な素材" />
+    <string id="hRSezxnT" text="アップグレード可能な兵士がいます。" />
+    <string id="HTtWslIx" text="市場の食料の在庫" />
+    <string id="hwrQqWir" text="スキルなし" />
+    <string id="Hz8XO8wk" text="統治者の任にあたりながら、機動部隊を率いることはできません。" />
+    <string id="I2sZ7K28" text="本当にチュートリアルのリセットをおこないますか？" />
+    <string id="i9OsCshW" text="この王国の決定には、もう影響力がありません。" />
+    <string id="idRXFzQ6" text="すでに軍隊に追加されています。" />
+    <string id="Iefr8Fra" text="チュートリアルがリセットされました。" />
+    <string id="IgoxNz2H" text="兵士のアップグレード" />
+    <string id="IJdjwXvn" text="現在のレベル： " />
+    <string id="InqmgBiF" text="選ばれたメンバー" />
+    <string id="Ioiqzz4E" text="結束力を強化するには軍隊にいる必要があります" />
+    <string id="IQY9yykn" text="食料アイテム" />
+    <string id="IRcy3pWJ" text="名前は空欄にできません" />
+    <string id="iSZTOeYH" text="解散できる軍隊がありません。" />
+    <string id="ITKb4cKv" text="{ITEM_NAME}は装備できません。" />
+    <string id="iuKvbKJ7" text="稼働中" />
+    <string id="iZ3w6opW" text="結束力" />
+    <string id="j12VrGKz" text="軍隊" />
+    <string id="j3iwQmoA" text="現在のフォーカス量：{CURRENT_AMOUNT}" />
+    <string id="j4BdjLYp" text="このクランメンバーに話しかけてみましょう。" />
+    <string id="J8ddrAOf" text="統治者効果" />
+    <string id="j8uZBakZ" text="{PROPERTIES}" />
+    <string id="jdbT6nc9" text="それぞれの{SUPPORTER_RANK}支援者が、1日あたり{INFLUENCE_BONUS}を与える。" />
+    <string id="JIr3Jc7b" text="すべての所有財産を放棄する" />
+    <string id="jQdBl4hf" text="の統治者 " />
+    <string id="JRKC4ed4" text="町の市場で必要な原材料が入手できないため、この作業場は{DAY} {?PLURAL_DAYS}日間{?}日間{\?}何も生産できていません。" />
+    <string id="jVLJTuwl" text="詳細を確認" />
+    <string id="JYOcl7Ox" text="無効！" />
+    <string id="K87pubLc" text="「{DEPENDENT_OPTION}」オプションは、「{MODULE_NAME}」モジュールを起動させることで有効にできます。" />
+    <string id="kjaACKUq" text="このアクションには{GOLD}{GOLD_ICON}かかります" />
+    <string id="KjuxDQfn" text="路地のリーダーが死亡しました。" />
+    <string id="kMAQndom" text="変更をリセットしますか？" />
+    <string id="knayk28P" text="陸上での速度が劇的に落ちます。気をつけてください。" />
+    <string id="kqeA8rjL" text="本当に軍隊を解散させますか？" />
+    <string id="kQsXUvgO" text="あなたは王国に仕えていません。" />
+    <string id="KTKBKmvp" text="突きダメージ係数 " />
+    <string id="KTTyBbsp" text="最大HP" />
+    <string id="kWVbHPtT" text="合計" />
+    <string id="KxLoeSEO" text="再編成中" />
+    <string id="KXQ7Mvec" text="メインキャラクターとして選択" />
+    <string id="la6R4xaY" text="敵対勢力の戦況" />
+    <string id="laznt9ZK" text="集落の食料を変更" />
+    <string id="lc9s4rLZ" text="軍隊を編成" />
+    <string id="LEiZWuZm" text="{SKILL_NAME}: {SKILL_VALUE}" />
+    <string id="lhIpaGt9" text="この町には{?(COUNT &gt; 1)}他に{?}他に{\?}、{COUNT}軒の{?(COUNT &gt; 1)}{PLURAL(WORKSHOP_NAME)}{?}{WORKSHOP_NAME}{\?}があります。" />
+    <string id="lIGdkJGm" text="アイテムの選択数は{NUMBER}個未満でなければなりません" />
+    <string id="lkJfq1ap" text="所有する集落は管理下に残りますが、貴族はこの恥ずべき行為を嫌い、王国は宣戦布告してくるでしょう。" />
+    <string id="LlV29O9B" text="{TROOP_COUNT}人以上の兵士を選択しなければなりません" />
+    <string id="Lm6Mkhru" text="因果" />
+    <string id="LpsoPtOo" text="プロジェクト" />
+    <string id="lr2UaD9m" text="海戦" />
+    <string id="lSnejlxB" text="現在は王国の決定に参加できません。" />
+    <string id="Lt0PzKHN" text="乗船中" />
+    <string id="LuC5ZZMu" text="{CRIMINAL_RATING} ({INCREASE}){CRIME_ICON}" />
+    <string id="LVJKy6a8" text="この兵士をアップグレードするには、パーク「{PERK_NAME}」（{PERK_SKILL}）が必要です。" />
+    <string id="LVmkE2Ow" text="戦闘可能な兵士" />
+    <string id="lVuGCYPC" text="鍛冶スキル" />
+    <string id="lxwGbRwu" text="x {SHOP_DIFFERENCE_COUNT}" />
+    <string id="LxWVtDF0" text="作業場を管理する" />
+    <string id="m1Yynagz" text="ページ{NUMBER}" />
+    <string id="MaHMOzL2" text="キャラクターの文化" />
+    <string id="McJjNM50" text="コスト：{UPGRADE_COST}" />
+    <string id="mDFhzEMC" text="最大ヒットポイント" />
+    <string id="mdvnjI72" text="この画面では兵士のアップグレードができません。" />
+    <string id="Mfbc4rQR" text="衝突ダメージ" />
+    <string id="mg7id9om" text="消耗品の数" />
+    <string id="mHVmrwRQ" text="名前を入力してください" />
+    <string id="MkVTRqAw" text="指令（{ORDER_COUNT}）" />
+    <string id="mountTier" text="乗騎のティア: " />
+    <string id="MT5A04X8" text=" - 振りダメージタイプが一致しません。こちらは本来、{TYPE}であるべきです。" />
+    <string id="myMbtwXi" text="士気ボーナス" />
+    <string id="N63XYX2r" text="支援" />
+    <string id="NC9bbrt5" text="最終的に獲得したデナール" />
+    <string id="NcYbdiyT" text="リーダーを変更" />
+    <string id="NHZ1jNIF" text="条件を下回っています" />
+    <string id="NkY3Kq9l" text="アイテム名に特殊文字を使うことはできません。" />
+    <string id="NLFeyz7m" text="最近解放された捕虜" />
+    <string id="nNZ1ZtTE" text="あなたの軍隊に結束力を{BOOSTAMOUNT}追加します" />
+    <string id="no0chrAH" text="生産物で利益が上がっていないため、この作業場は{DAY} {?PLURAL_DAYS}日間{?}日間{\?}稼働できていません" />
+    <string id="NVUi4bB9" text="倉庫がいっぱいの場合、作業場が町の市場で製品を売るようになります" />
+    <string id="NxEy5Nbt" text="反乱の高い危険性" />
+    <string id="nYYUQQm0" text="振りダメージ係数 " />
+    <string id="o5G8A8ZH" text="あなたのデナール" />
+    <string id="o79dIa3L" text="{FACTION}が所有する町" />
+    <string id="ocSW4WA2" text="クリティカル失敗！" />
+    <string id="ODEnkg0o" text="クランの強さ" />
+    <string id="OGbskMfz" text="アンロックされたパーツ：" />
+    <string id="oGgjuQav" text="この戦争への呼びかけはすでに無効です。" />
+    <string id="OhNYkblK" text="この英雄は、囚われの身から抜け出したばかりです。しばらく後で利用可能になります。" />
+    <string id="OkWLI5C8" text="サイズ:" />
+    <string id="oM2Ta1di" text="{CONSOLE_KEY_NAME}を押してカメラをリセット" />
+    <string id="Omjlnsk3" text="{ITEM_NAME}はこのスロットに装備できません。" />
+    <string id="OMqHwpXF" text="配下の部隊が、リーダーを失いました。一日経過すると解散となります。この部隊を存続させたい場合、新しいクランメンバーを指名して、代わりに率いてもらうこともできます。{newline}{newline}新しいリーダーを任命しますか？" />
+    <string id="Oo3fkeab" text="難易度： " />
+    <string id="oofSja21" text="キャラクター名の最初や最後に空白を入れることはできません" />
+    <string id="OpsiBFCu" text="…さらに{COUNT}個のアイテムがあります。" />
+    <string id="opU0Nr2G" text="新たな部品のアンロックに関する進捗。" />
+    <string id="oSfsqBwJ" text="パークなし" />
+    <string id="OSsSBHKe" text="集落の食料" />
+    <string id="OTaPfaJl" text="{PARTY_2S_MEMBERS}   " />
+    <string id="otaUtXMX" text="一定確率で名士たちとの関係性が、一日の内に{AMOUNT}増加する" />
+    <string id="oUhd9YhP" text="{PARTY_LEADERS_FACTION}" />
+    <string id="OyyJSyIX" text="{FACTION_1}は{DENAR}{GOLD_ICON}を{FACTION_2}への賛辞として支払います。残り{TRIBUTE_PAYMENTS_REMAINING}日。" />
+    <string id="P0To9aRW" text="移動時間：{TRAVEL_TIME}" />
+    <string id="P1hk0m4o" text="キャラクター名に特殊文字を使うことはできません" />
+    <string id="P5YtNXHR" text="{LEADER.NAME}の部隊" />
+    <string id="p7raHA9x" text="精製" />
+    <string id="p9wUyxfb" text="船の最低船員数" />
+    <string id="Pa4K0Paz" text="{FACTION2}に対する{FACTION1}の戦況" />
+    <string id="pBVbKYwo" text="路地の所有権と、そこに配置された兵士を失います。よろしいですか？" />
+    <string id="PcLGc2bM" text="積極開発の対象として設定" />
+    <string id="pDAuV918" text="町で反乱軍が活動しているため、この作業場は{DAY} {?PLURAL_DAYS}日間{?}日間{\?}何も生産できていません。" />
+    <string id="Pdo7PpS3" text="{TASK_NAME} {CURRENT_PROGRESS}/{TARGET_PROGRESS}" />
+    <string id="pF0SqQxL" text="変更を適用しますか？" />
+    <string id="PJZ8QYgA" text="L-I : {BONUS}" />
+    <string id="pnFgwLYG" text="現在の賃金" />
+    <string id="POjDNVW3" text="鍛造中" />
+    <string id="PRE5RKpp" text="この行動を取るには休憩して時間を経過させる必要があります。" />
+    <string id="pRP2sOWP" text="L-III : {BONUS}" />
+    <string id="PS02CqPu" text=" {PARTY_MEMBER.LINK} （体力: {MEMBER_HEALTH}%）" />
+    <string id="pWyRg13f" text="貿易協定" />
+    <string id="Q0j1umAt" text="条件：{REQUIREMENT_NAME}" />
+    <string id="q1DVNQS7" text="攻撃を受けています！（残り{RESPONSE_TIME} {?RESPONSE_TIME&gt;1}日{?}日{\?}）" />
+    <string id="q1J4a8rr" text="学習率" />
+    <string id="Q1KwpZYu" text="武器の使用が条件と一致しません" />
+    <string id="Q8dhryRX" text="部隊の食料" />
+    <string id="qaQqAYGc" text="{LEADER.NAME}の部隊に移動中" />
+    <string id="QBB0KQ2Z" text="部隊の平均士気" />
+    <string id="qBq70qDq" text="現在のプロジェクト" />
+    <string id="qbqimqMb" text="新しい統治者になるために、{GOVERNOR.NAME}が{SETTLEMENT_NAME}に移動中" />
+    <string id="qdoJOH0j" text="部隊賃金" />
+    <string id="qeclv74c" text="税金" />
+    <string id="QeToaiLt" text="振りダメージ" />
+    <string id="QFfMd5q3" text="次のページ" />
+    <string id="qgK86eSo" text="囚人をすべて移動" />
+    <string id="qKUjgS6r" text="集落" />
+    <string id="QlbkxoSp" text=" {TOOLTIP_TROOPS} ({PARTY_SIZE})" />
+    <string id="QmfZjCo1" text="値打ち: " />
+    <string id="QMNWbmao" text="選択をクリアする" />
+    <string id="QQ03J6sf" text="アイテム名を入力する必要があります。" />
+    <string id="QSPrSsHv" text="鞍がありません！" />
+    <string id="Qu5clctb" text="作業場で損失が出始めています。作業場の資本が{LOWER_THRESHOLD}デナールを下回っているため、あなたの宝庫から費用が捻出されます" />
+    <string id="qZvNIVGV" text="あなたのクランには現在、部隊を率いることのできる者がいません。" />
+    <string id="r0WIRUHo" text="犯罪者ランク" />
+    <string id="R2AaCaPJ" text="予想される増減" />
+    <string id="R4rTlKMU" text="今は兵士のアップグレードができません。" />
+    <string id="Ra17aK4e" text="現在の資本" />
+    <string id="Raa4j4rF" text="必要なもの：{UPGRADE_ITEM}" />
+    <string id="RClxLG6N" text="待機中" />
+    <string id="recruitVerb" text="採用する" />
+    <string id="rgqA29b8" text="このアイテムを装備するための{SKILL_NAME}スキルが足りません" />
+    <string id="RjBSR9iO" text="防衛船の数" />
+    <string id="Rkh2k1OA" text="完了：" />
+    <string id="rkubGa4K" text="この集落を王国に返還してよろしいですか？" />
+    <string id="rOKAvjtT" text="集落を贈る" />
+    <string id="rsHPaaYZ" text="結束力を強化するには{MINAMOUNT}より低い必要があります" />
+    <string id="rThSy9ed" text="必要なもの：{UPGRADE_ITEM}（足りません）" />
+    <string id="rUeWBOOi" text="精錬するアイテムを選択" />
+    <string id="rwKBR4NE" text="食料が無くなるまでの平均日数" />
+    <string id="s06mScpJ" text="倉庫に品物がある場合は、部隊に移行されます。本当によろしいですか？" />
+    <string id="S1iS3OYj" text="部隊リーダーはデフォルトで割り当てのない役割に設定されています" />
+    <string id="saHYZKLt" text="履歴は利用可能なアイテムはありません。" />
+    <string id="SDhQWonF" text="一日に{DENAR}{GOLD_ICON}を賛辞として支払います。残り{TRIBUTE_PAYMENTS_REMAINING}日。" />
+    <string id="SFB2uYHa" text="路地のリーダーが路地に向かっています。（{LEFT_TIME}{?LEFT_TIME&gt;1}時間{?}時間{\?}で到着）" />
+    <string id="SFebv4hH" text="待機列に追加" />
+    <string id="sffGeQ1g" text="贈り物" />
+    <string id="sFiU3Ss2" text="クリックしてカメラをリセット" />
+    <string id="sFseX1Ka" text="変更を適用できませんでした。" />
+    <string id="SK8G9QpE" text="アップグレード・コスト" />
+    <string id="Sls0KQVn" text="選挙" />
+    <string id="slzfQzl3" text="この英雄は失われました" />
+    <string id="sVZaIPoQ" text="振りスピード" />
+    <string id="sWWxrafa" text="現在の上限" />
+    <string id="Syha8biz" text="指令を完遂できません" />
+    <string id="sZu7CCsh" text="攻撃船の数" />
+    <string id="SzuCFlNq" text="アイテムが選択されていません。" />
+    <string id="t1lSXN9O" text="あなたのクランの旗を戦闘に持ち込みました" />
+    <string id="T9bndUYP" text="{SETTLEMENT}の襲撃" />
+    <string id="ta4R2RR7" text="主武器" />
+    <string id="tAwRIPiy" text="建設コスト：{COST}" />
+    <string id="Tc5y7Tgd" text="海上での重量" />
+    <string id="TdWQM7QZ" text="{TROOP_COUNT}人以下の兵士を選択しなければなりません" />
+    <string id="TEkWkzbH" text="所有済み隊商：{CARAVAN_COUNT}" />
+    <string id="tf7301NC" text="回復率" />
+    <string id="tnbCJyax" text="囚人の一部が採用可能です。" />
+    <string id="twtbH1zv" text="積載量" />
+    <string id="Tx9Mynbt" text=" - 突きダメージタイプが一致しません。こちらは本来、{TYPE}であるべきです。" />
+    <string id="txjiykNa" text="確認" />
+    <string id="tYz4D8Or" text="囚人" />
+    <string id="TzLtVzdg" text="負傷した兵士" />
+    <string id="U3ksQXD3" text="手放す" />
+    <string id="udPWHmOm" text="難易度：" />
+    <string id="uGMGjUZy" text="{SETTLEMENT_NAME}にクランメンバーを派遣する" />
+    <string id="UHLcmf9A" text="部隊の囚人規模上限" />
+    <string id="uipNpzVw" text="今は軍隊を解散させることはできません。" />
+    <string id="uJro3Bua" text="上限超過" />
+    <string id="URbKirPS" text="船の数" />
+    <string id="US7UmBbt" text="鎧のTier" />
+    <string id="UUaW0dba" text="{SETTLEMENT_NAME}に移動中" />
+    <string id="v3OF6vBg" text="生産量" />
+    <string id="vdKiLwaf" text="移動中" />
+    <string id="Ve5jkJqf" text="自動提供" />
+    <string id="vggt7exj" text="{CURINDEX}/{COUNT}を装備" />
+    <string id="vIPrZCZ1" text="王国画面から王位を放棄することができます。" />
+    <string id="vLaBJFGy" text=" {PARTY_MEMBER.LINK} ({PARTY_SIZE})" />
+    <string id="Voa0sinH" text="必要量：{NEEDED_EXP_AMOUNT}xp （現在のxp：{CURRENT_EXP_AMOUNT}）" />
+    <string id="vOojEcIf" text="囚人を新しい部隊リーダーに割り当てることはできません" />
+    <string id="VSUqbvbE" text="新しい部隊を編成するにはゴールドが足りません。" />
+    <string id="VzCoqt8D" text="鞍が装備されていません。騎乗速度と機動力に-10%のペナルティが発生します。" />
+    <string id="VZjxs5Dt" text="オーナー " />
+    <string id="w0slxNAl" text="現在の賃金が上限を超えている場合、賃金を上限以下に減らすまで部隊は兵士を雇用しません。現在の賃金よりも上限の方が高い場合、部隊は雇用を続けます。" />
+    <string id="w1tgTNvK" text="船上兵士の定員" />
+    <string id="W1tsTWZv" text=" {PARTY_MEMBER.LINK} （{MEMBER_HEALTH}%）" />
+    <string id="W3hmFcfv" text="路地を放棄する" />
+    <string id="wcSSgFyK" text="キャラクター名に連続した空白を入れることはできません" />
+    <string id="weaponTier" text="武器のTier：  " />
+    <string id="wGWYNYYX" text="この教育ステージにはもう関係ありません。" />
+    <string id="WHRq5Dp0" text="鍛冶の恩恵がありません" />
+    <string id="Wir2xZIg" text="選択したピースの一部をアンロックしていません" />
+    <string id="wMiLUTNY" text="この武器を精錬しますか？インベントリでロックされています。" />
+    <string id="woD234nb" text="アイテムの選択数は{NUMBER}個を超える数でなければなりません" />
+    <string id="WySAapWO" text="無制限の賃金" />
+    <string id="wZGj3qO1" text="製作する物を選択してください" />
+    <string id="X6eG4Q5V" text="倉庫の容量" />
+    <string id="xaeXEj8J" text="鍛造を担当するキャラクターを選択してください" />
+    <string id="XgkFpSdq" text="変更を適用できません。会話に参加するには、変更をリセットする必要があります。" />
+    <string id="XIioBPi0" text="変更なし" />
+    <string id="Xmw93W6a" text="影響力が足りません" />
+    <string id="xtlIFKaa" text="本当に王国を離れますか？{newline}その場合、どのようにして王国を離れるかを選んでください。" />
+    <string id="xtt9Oxer" text="生産物" />
+    <string id="XUtiwiYP" text="長さ： " />
+    <string id="xW4BPVLX" text="製作履歴" />
+    <string id="xwRWjlar" text="背景色:" />
+    <string id="y2M014jI" text="村に仲間を置いていくことはできません。" />
+    <string id="y6qCNFQj" text="倉庫に成果物を保管する" />
+    <string id="Y7qbwrWE" text="{HERO_NAME}のスキル" />
+    <string id="Y8EcVL1c" text="最終アップデート" />
+    <string id="ybLA7ZXp" text="すでに最大値です" />
+    <string id="ysireFjT" text="{GOLD_AMOUNT}{GOLD_ICON}でこの作業場を売却" />
+    <string id="YT9giTet" text="学習上限" />
+    <string id="yuxBDKgM" text="倉庫に品物がある場合、それらが失われることになります！ 本当によろしいですか？" />
+    <string id="z2Slmx4N" text="兵士を割り当てられるスペースがまだ残っています。続行しますか？" />
+    <string id="z3Xg0IaG" text="{FACTION}が所有する城" />
+    <string id="Z4GdqdgV" text="アイテム名に連続した空白を入れることはできません。" />
+    <string id="z8h0BRAb" text="すべての所有財産を保持する" />
+    <string id="zawBaxl5" text="距離: {DISTANCE}" />
+    <string id="ZcybPatO" text="武器の長さ" />
+    <string id="zduu7dpz" text="この画面では囚人の採用ができません。" />
+    <string id="zFDoDbNj" text="個数" />
+    <string id="zgnEagTJ" text="休止中" />
+    <string id="ZgYAGfbD" text="陸上兵士の定員" />
+    <string id="ZIn8W5ZG" text="値打ち" />
+    <string id="ZjaSde0X" text="所有する集落は王国に返還されます。これにより戦争は回避され、忠誠を捨てたことによる貴族の嫌悪は軽減されます。" />
+    <string id="zlcMGAbn" text="前のページ" />
+    <string id="zLFsnaqR" text="統治者なし" />
+    <string id="zoX9akov" text="海上での速度が劇的に落ちます。気をつけてください。" />
+    <string id="zrhr4rDA" text="この軍隊を本当に解散させますか？解散させると、関係が失われることになります。" />
+    <string id="ZUgoQ1Ws" text="馬タイプ" />
+    <string id="zWaVxD6T" text="部隊の移動速度" />
+    <string id="zZlWRZjO" text="戦争" />
+    <string id="ZZmlYrgL" text="{FACTION}が所有する城はありません" />
+  </strings>
+</base>

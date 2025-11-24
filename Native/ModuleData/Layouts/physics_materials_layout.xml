@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	type="string">
+	<layouts>
+		<layout
+			class="physics_material"
+			version="0.1"
+			xml_tag="physics_materials.physics_material"
+			name_attribute="id"
+			use_in_treeview="true">
+			<columns>
+				<column
+					id="0"
+					width="200" />
+			</columns>
+			<items>
+				<item
+					name="id"
+					label="ID"
+					type="text"
+					column="0"
+					xml_path="id" />
+				<item
+					name="static_friction"
+					label="Static Friction"
+					type="float"
+					column="0"
+					xml_path="static_friction">
+					<properties>
+						<property
+							name="step_amount"
+							value="0.05" />
+					</properties>
+				</item>
+				<item
+					name="dynamic_friction"
+					label="Dynamic Friction"
+					type="float"
+					column="0"
+					xml_path="dynamic_friction">
+					<properties>
+						<property
+							name="step_amount"
+							value="0.05" />
+					</properties>
+				</item>
+				<item
+					name="restitution"
+					label="Restitution"
+					type="float"
+					column="0"
+					xml_path="restitution">
+					<properties>
+						<property
+							name="step_amount"
+							value="0.05" />
+					</properties>
+				</item>
+				<item
+					name="softness"
+					label="Softness"
+					type="float"
+					column="0"
+					xml_path="softness">
+					<properties>
+						<property
+							name="step_amount"
+							value="0.05" />
+					</properties>
+				</item>
+				<item
+					name="linear_damping"
+					label="Linear Damping"
+					type="float"
+					column="0"
+					xml_path="linear_damping">
+					<properties>
+						<property
+							name="step_amount"
+							value="0.05" />
+					</properties>
+				</item>
+				<item
+					name="angular_damping"
+					label="Angular Damping"
+					type="float"
+					column="0"
+					xml_path="angular_damping">
+					<properties>
+						<property
+							name="step_amount"
+							value="0.05" />
+					</properties>
+				</item>
+				<item
+					name="dont_stick_missiles"
+					label="Dont Stick Missiles"
+					type="checkbox"
+					column="0"
+					xml_path="dont_stick_missiles" />
+				<item
+					name="flammable"
+					label="Flammable"
+					type="checkbox"
+					column="0"
+					xml_path="flammable" />
+			</items>
+		</layout>
+	</layouts>
+</base>

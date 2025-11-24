@@ -1,0 +1,1067 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<!--
+  Combos
+  10 x 1 trait + 88 x 2 traits + 498
+  -->
+	<string
+		id="reputation.honorable"
+		text="{=1CCSLaXG}honorable">
+		<tags>
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="informal_reputation.rigid"
+		text="{=aLO7V5ZZ}{?NOTABLE.GENDER}She{?}He{\?}'s honest, there's no denying that, but a heart of stone">
+		<tags>
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="informal_reputation.honorable"
+		text="{=isnEHNXl}Stands up for what {?NOTABLE.GENDER}she{?}he{\?} believes in">
+		<tags>
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.devious"
+		text="{=etdkWOLn}devious">
+		<tags>
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="informal_reputation.devious"
+		text="{=Dkmja15D}Can't be trusted.">
+		<tags>
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.generosity"
+		text="{=HTBQ3E3Q}generous to friends">
+		<tags>
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="informal_reputation.generosity"
+		text="{=6tOrCXWu}Looks out for those who've served {?NOTABLE.GENDER}her{?}him{\?} well">
+		<tags>
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.aloof"
+		text="{=2LhoHBb4}aloof and distant">
+		<tags>
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="informal_reputation.aloof"
+		text="{=WbyybDP6}Doesn't always remember those who've done {?NOTABLE.GENDER}her{?}him{\?} a good service">
+		<tags>
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.valor"
+		text="{=A27HuUiz}daring">
+		<tags>
+			<tag
+				tag_name="ValorTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="informal_reputation.valor"
+		text="{=5L4ox55u}Always the first to put {?NOTABLE.GENDER}her{?}his{\?} neck on the line for the cause">
+		<tags>
+			<tag
+				tag_name="ValorTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.cautious"
+		text="{=6okDQlyn}cautious">
+		<tags>
+			<tag
+				tag_name="CautiousTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="informal_reputation.cautious"
+		text="{=LCs7NMyz}You won't find that one rushing into danger">
+		<tags>
+			<tag
+				tag_name="CautiousTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.kind"
+		text="{=VnaT2Ipq}kind">
+		<tags>
+			<tag
+				tag_name="MercyTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="informal_reputation.mercy"
+		text="{=VujjcI1C}That one's got a good heart, there's no denying">
+		<tags>
+			<tag
+				tag_name="MercyTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.cruel"
+		text="{=YeK2rAWJ}cruel">
+		<tags>
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="informal_reputation.cruel"
+		text="{=Vis2eo0Y}Got a cruel streak, there's no denying">
+		<tags>
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.calculating"
+		text="{=bSQF8nac}ambitious">
+		<tags>
+			<tag
+				tag_name="CalculatingTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="informal_reputation.calculating"
+		text="{=gZMm5J4u}Never acts in haste... Always got a plan">
+		<tags>
+			<tag
+				tag_name="CalculatingTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.impulsive"
+		text="{=aDkmS7iN}the type who acts without thinking">
+		<!-- formerly impulsive -->
+		<tags>
+			<tag
+				tag_name="ImpulsiveTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="informal_reputation.impulsive"
+		text="{=OwOdbwc5}Rushes in without thinking, sometimes">
+		<tags>
+			<tag
+				tag_name="ImpulsiveTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.default"
+		text="{=hFtm7jZT}thoroughly conventional">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="informal_reputation.default"
+		text="{=peI78GmJ}Not sure what to think about that one...">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="reputation.h1m0"
+		text="{=NOEYSbeR}honorable, but stiff-necked and cruel">
+		<!-- formerly rigid and harsh -->
+		<tags>
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.h1m1"
+		text="{=qXwYcJHa}decent and kind">
+		<tags>
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="MercyTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.h0m0"
+		text="{=MoQbaOOk}cruel and devious">
+		<tags>
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.h0m1"
+		text="{=jqiKsw34}devious but soft-hearted">
+		<tags>
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="MercyTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.m0v1"
+		text="{=9bUlUrVI}fierce and cruel">
+		<tags>
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+			<tag
+				tag_name="ValorTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.m1v1"
+		text="{=nYHM3bmc}brave but merciful">
+		<tags>
+			<tag
+				tag_name="MercyTag"
+				weight="1" />
+			<tag
+				tag_name="ValorTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.m0v0"
+		text="{=mH8FHX9r}cautious but dangerous">
+		<tags>
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+			<tag
+				tag_name="CautiousTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.m1v0"
+		text="{=mWkCWB6j}kind but cautious">
+		<tags>
+			<tag
+				tag_name="MercyTag"
+				weight="1" />
+			<tag
+				tag_name="CautiousTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.goodfriendbadenemy"
+		text="{=AgE2Wffg}a good friend but a dangerous enemy">
+		<tags>
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.icy"
+		text="{=3ojhI49j}icy">
+		<tags>
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.m1g1"
+		text="{=Raq3TcUa}considerate of others">
+		<tags>
+			<tag
+				tag_name="MercyTag"
+				weight="1" />
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.m1g0"
+		text="{=raQIsPly}sparing of enemies but thoughtless of friends">
+		<tags>
+			<tag
+				tag_name="MercyTag"
+				weight="1" />
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.m1c1"
+		text="{=rarG5Bqa}helpful">
+		<tags>
+			<tag
+				tag_name="MercyTag"
+				weight="1" />
+			<tag
+				tag_name="CalculatingTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.ruthless"
+		text="{=yl2q8dL8}ruthless">
+		<tags>
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+			<tag
+				tag_name="CalculatingTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.m1c0"
+		text="{=8D5Lx2LY}softhearted">
+		<tags>
+			<tag
+				tag_name="MercyTag"
+				weight="1" />
+			<tag
+				tag_name="ImpulsiveTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.m0c0"
+		text="{=FNzGHbvb}prone to dangerous rages">
+		<tags>
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+			<tag
+				tag_name="ImpulsiveTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.dishonorable"
+		text="{=CaSahkj4}dishonorable in every way">
+		<tags>
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.roguish"
+		text="{=WAzdB4DL}clever and roguish">
+		<tags>
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.noble"
+		text="{=5ogR7oUW}noble and generous">
+		<tags>
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.inflexible"
+		text="{=ppTLY8tm}just and honest, but ungrateful">
+		<!-- formerly impartial -->
+		<tags>
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.h1v1"
+		text="{=jFLPNGdH}brave and honorable">
+		<tags>
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="ValorTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.h1v0"
+		text="{=dZ7OtsDv}cautious but trustworthy">
+		<tags>
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="CautiousTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.h0v0"
+		text="{=85SsQ1xA}untrustworthy">
+		<tags>
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="CautiousTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.manipulative_3"
+		text="{=XPU5mqSi}cunning">
+		<tags>
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="CalculatingTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.loyal"
+		text="{=4Kb43rdf}loyal">
+		<tags>
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="ImpulsiveTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.unreliable"
+		text="{=xSbcea2l}unreliable">
+		<tags>
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="ImpulsiveTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.stoic"
+		text="{=Q3TaYO39}the type who tries hard to be just and fair">
+		<!-- formerly stoic -->
+		<tags>
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="CalculatingTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.h0v1"
+		text="{=KxjSILpL}the type who takes every advantage">
+		<tags>
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="ValorTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.schemer"
+		text="{=znOeRtlb}a schemer">
+		<tags>
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="CalculatingTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.v1g0"
+		text="{=2oLzxPGu}aggressive and asks much of people">
+		<tags>
+			<tag
+				tag_name="ValorTag"
+				weight="1" />
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.brave_and_generous"
+		text="{=RaecCLdK}brave and generous, a good friend to have">
+		<tags>
+			<tag
+				tag_name="ValorTag"
+				weight="1" />
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.v0g0"
+		text="{=8aAbnMIo}aloof">
+		<tags>
+			<tag
+				tag_name="CautiousTag"
+				weight="1" />
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.v0g1"
+		text="{=6okDQlyn}cautious">
+		<tags>
+			<tag
+				tag_name="CautiousTag"
+				weight="1" />
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.timid"
+		text="{=euinlzab}timid">
+		<tags>
+			<tag
+				tag_name="CautiousTag"
+				weight="1" />
+			<tag
+				tag_name="ImpulsiveTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.ambitious"
+		text="{=QtcN7aEk}daring and ambitious">
+		<tags>
+			<tag
+				tag_name="ValorTag"
+				weight="1" />
+			<tag
+				tag_name="CalculatingTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.headstrong"
+		text="{=nnDG8Ryc}brave but headstrong">
+		<tags>
+			<tag
+				tag_name="ValorTag"
+				weight="1" />
+			<tag
+				tag_name="ImpulsiveTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.risktaker"
+		text="{=KFvms0sR}a man who enjoys taking calculated risks">
+		<tags>
+			<tag
+				tag_name="ValorTag"
+				weight="1" />
+			<tag
+				tag_name="CalculatingTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.foultempered"
+		text="{=PW3Ya1AQ}foul-tempered">
+		<tags>
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+			<tag
+				tag_name="ImpulsiveTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.g1c1"
+		text="{=OuXZbyeS}attentive, careful to reward loyal followers">
+		<tags>
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+			<tag
+				tag_name="CalculatingTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.g1c0"
+		text="{=L3b9ZsLs}profligate">
+		<tags>
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+			<tag
+				tag_name="ImpulsiveTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.g0c1"
+		text="{=JWTKNySw}tight-fisted">
+		<tags>
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+			<tag
+				tag_name="CalculatingTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.conventional1"
+		text="{=LfmWyPEk}conventional">
+		<tags>
+			<tag
+				tag_name="CombatantTag"
+				weight="-1" />
+			<tag
+				tag_name="ImpulsiveTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.conventional2"
+		text="{=LfmWyPEk}conventional">
+		<tags>
+			<tag
+				tag_name="CombatantTag"
+				weight="-1" />
+			<tag
+				tag_name="CautiousTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.pitiless"
+		text="{=GMMg8AwD}pitiless">
+		<tags>
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.despicable"
+		text="{=URWSOAfG}sadistic">
+		<tags>
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.despicable_2"
+		text="{=UoYPTOPV}treacherous, but at least not cruel">
+		<tags>
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="MercyTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.rogue"
+		text="{=fgkQSbUE}a bit of a rogue, but with a heart of gold">
+		<tags>
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="MercyTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.ambitious_plus"
+		text="{=52I465OW}ambitious and manipulative">
+		<tags>
+			<tag
+				tag_name="ValorTag"
+				weight="1" />
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.manipulative"
+		text="{=Yyw81AGG}friendly but manipulative">
+		<tags>
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="CalculatingTag"
+				weight="1" />
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+			<tag
+				tag_name="CruelTag"
+				weight="-1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.manipulative_2"
+		text="{=tc1PuNa8}loyal to friends, but also cruel and manipulative">
+		<tags>
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="CalculatingTag"
+				weight="1" />
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.ferocious1"
+		text="{=HNoD0Xcw}brave, but easily enraged and unforgiving">
+		<tags>
+			<tag
+				tag_name="ValorTag"
+				weight="1" />
+			<tag
+				tag_name="ImpulsiveTag"
+				weight="1" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.honorable_cruel"
+		text="{=MVnA7tkN}honorable, angry and cruel, incapable of either breaking an oath or forgiving a slight">
+		<tags>
+			<tag
+				tag_name="ValorTag"
+				weight="1" />
+			<tag
+				tag_name="ImpulsiveTag"
+				weight="1" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.passionate"
+		text="{=QzNHs8Ch}passionate and brave, though sometimes without thinking things through">
+		<tags>
+			<tag
+				tag_name="ValorTag"
+				weight="1" />
+			<tag
+				tag_name="ImpulsiveTag"
+				weight="1" />
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.gallant"
+		text="{=TGQD4r5Z}gallant">
+		<tags>
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="ValorTag"
+				weight="1" />
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.moralistic"
+		text="{=kKFLfWbJ}moralistic">
+		<tags>
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="MercyTag"
+				weight="1" />
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.weary"
+		text="{=Y8WpovVO}decent but cautious">
+		<tags>
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+			<tag
+				tag_name="CalculatingTag"
+				weight="1" />
+			<tag
+				tag_name="CautiousTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.incorruptible"
+		text="{=CUR5ZZtd}just but pitiless">
+		<tags>
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.too_kind"
+		text="{=LtBwSe0J}kind and considerate - though some might say soft-hearted">
+		<tags>
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+			<tag
+				tag_name="MercyTag"
+				weight="1" />
+			<tag
+				tag_name="ImpulsiveTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.temper"
+		text="{=wVfZh5eN}possessed of a fierce and dangerous temper">
+		<tags>
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+			<tag
+				tag_name="ImpulsiveTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.madbaddangerous"
+		text="{=Dz3kGpkM}mad, bad, and dangerous to know">
+		<tags>
+			<tag
+				tag_name="ValorTag"
+				weight="1" />
+			<tag
+				tag_name="ImpulsiveTag"
+				weight="1" />
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.madbaddangerous_2"
+		text="{=S6XcP7Wz}no better friend, no worse enemy">
+		<tags>
+			<tag
+				tag_name="ValorTag"
+				weight="1" />
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="reputation.aggressive"
+		text="{=bYa051Bs}devious, aggressive and ambitious">
+		<tags>
+			<tag
+				tag_name="ValorTag"
+				weight="1" />
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="CalculatingTag"
+				weight="1" />
+		</tags>
+	</string>
+	<!--
+  Player reputation
+  
+  Valor:
+  You are known for your daring, your willingness to face a fight against tough odds, and your reluctance to back down from a challenge. Generally you are admired for this, also some think caution might be the better part of valor."
+  
+  Valor:
+  Some call you 'cautious,' others 'timid' or 'cowardly.' You are known for backing out of fights. Some despise you for it, some think it makes you easy to intimidate, but some lords will trust you more with men and resources.
+  
+  Mercy:
+  You are known for being kind and merciful, particularly to the poor and defeated foes. Most admire this, although some consider it to be weakness."
+  
+  Mercy, neg:
+  You are known for being ruthless, for punishing your foes with an iron fist even if innocents are hurt as well. This has its upside, in that many fear to cross you, but they would also turn on you like wolves if you ever show weakness. "
+  
+  Honor:
+  You are known for sticking to your word and to the unspoken code of your occupation. Both friends and enemies appreciate this reliability, although some may find your inflexility to be infuriating.
+  
+  Honor:
+  You routinely break promises and your unspoken code if it serves a greater purpose.
+  
+  
+  
+  Generosity:
+  You're loyal to your friends, your kin, and anyone who does you a favor
+  
+  Calc neg:
+  You act first with your heart, not your head. But in these days, many admire that.
+  -->
+</strings>

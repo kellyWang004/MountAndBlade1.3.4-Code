@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Polski" />
+  </tags>
+  <strings>
+    <string id="07OrsbVH" text="{.MI}Ciężki{.aj} {.MI}bełt{.nn}" />
+    <string id="0h7l0uK3" text="{.MI}Wyśmienity{.aj} {.MI}stepowy{.aj} {.MI}łuk{.nn}" />
+    <string id="0LoGEHxz" text="{.MI}Pustynny{.aj} {.MI}czepiec{.nn} {.MI}kolczy{.aj}" />
+    <string id="0PSC0Vkf" text="{.MI}Hełm{.nn} z otworami na oczy i dodatkiem skóry" />
+    <string id="0Pxq8UqX" text="{.MI}Góralski{.aj} {.MI}płaszcz{.nn}" />
+    <string id="0rzKQbWy" text="{.F}Stepowa{.aj} {.F}częściowa{.aj} {.F}zbroja{.nn} {.F}konna{.aj}" />
+    <string id="1A57qBlx" text="{.F}Batańska{.aj} {.F}długa{.aj} {.F}włócznia{.nn}" />
+    <string id="1aotLA6v" text="{.F}Góralska{.aj} {.F}pika{.nn}" />
+    <string id="1iS91QJH" text="{.MI}Batański{.aj} {.MI}miecz{.nn} {.MI}dwuręczny{.aj}" />
+    <string id="1LHNLYqc" text="{.MI}Ciężki{.aj} {.MI}bułat{.nn}" />
+    <string id="1pjTjmHR" text="{.F}Testowa{.aj} {.F}broń{.nn} {.F}drzewcowa{.aj}" />
+    <string id="1tABvwsL" text="{.MI}Długi{.aj} {.MI}paramerion{.nn}" />
+    <string id="1X2X0Qe4" text="{.MA}Koń{.nn} {.MA}berberyjski{.aj}" />
+    <string id="1yvsiaZ6" text="{.F}Batańska{.aj} {.F}ciężka{.aj} {.F}buława{.nn}" />
+    <string id="1yzNGUJH" text="{.MI}Cesarski{.aj} {.MI}topór{.nn}" />
+    <string id="2BlJHSeu" text="{.MI}Cesarski{.aj} {.MI}skórzany{.aj} {.MI}pancerz{.nn}" />
+    <string id="2FwUtU6h" text="{.MI}Sturgijski{.aj} {.MI}topór{.nn} do rzucania" />
+    <string id="2iaLi16f" text="{.MI}Góralski{.aj} {.MI}skórzany{.aj} {.MI}hełm{.nn}" />
+    <string id="2KHcAWiq" text="{.F}Kefija{.nn} z opaską z tkaniny" />
+    <string id="2PN7ddKx" text="{.F}Wielka{.aj} {.F}włócznia{.nn}" />
+    <string id="2Q0m5CG0" text="{.F}Pustynna{.aj} {.F}uprząż{.nn} z tkaniny" />
+    <string id="2u4RneKh" text="{.F}Tunika{.nn} z pasem ludzi północy" />
+    <string id="2w09rN4S" text="{.F}Ciężka{.aj} {.F}blaszka{.nn} z brązu z kolczugą" />
+    <string id="2xvB6XQP" text="{.MA}Wytrzymały{.aj} {.Ma}koń{.nn} {.MA}stepowy{.aj}" />
+    <string id="3aPKkyd2" text="{.MI}Wlandyjski{.aj} {.MI}krótki{.aj} {.MI}miecz{.nn}" />
+    <string id="3c3uqW3d" text="{.MI}Batański{.aj} {.MI}krótki{.aj} {.MI}miecz{.nn}" />
+    <string id="3qF14kaR" text="{.F}Imperialna{.aj} {.F}szata{.nn} z ochraniaczami na ramiona" />
+    <string id="3WdXljdt" text="{.MA}Wytrzymały{.aj} {.MA}Nahasan{.nn}" />
+    <string id="3Wzhxkn1" text="{.MI}Garnek" />
+    <string id="3XSuOAYT" text="{.MI}Długi{.aj} {.MI}łuk{.nn} z cisu" />
+    <string id="42KNket2" text="{.MI}Góralski{.ajp} {.MI}but{.nnp}" />
+    <string id="4a99jSHC" text="{.MI}Stepowy{.ajp} {.MI}naramiennik{.nnp} {.MI}skórzany{.ajp}" />
+    <string id="4aFPp5hj" text="{.F}Lekka{.aj} {.F}owalna{.aj} {.F}tarcza{.nn}" />
+    <string id="4iqTIpAs" text="{.MI}Szlachecki{.aj} {.MI}hełm{.nn} z futra" />
+    <string id="4OT8Re4a" text="{.F}Pustynna{.aj} {.F}zwykła{.aj} {.F}uprząż{.nn}" />
+    <string id="4Q4JVfuT" text="{.F}Niedźwiedzia{.aj} {.F}skóra{.nn}" />
+    <string id="4xUR2kAj" text="{.F}Cesarska{.aj} {.F}ciężka{.aj} {.F}buława{.nn}" />
+    <string id="5bEHZ2z1" text="{.MI}Cesarski{.aj} {.MI}hełm{.nn} z otworami na oczy" />
+    <string id="5DVBFbLV" text="{.MI}Wielki{.aj} {.MI}szlachecki{.aj} {.MI}miecz{.nn}" />
+    <string id="5YGP047h" text="{.MI}Paramerion" />
+    <string id="607BAdXw" text="{.F}Zachodnia{.aj} {.F}długa{.aj} {.F}włócznia{.nn}" />
+    <string id="6eO6QDoE" text="{.F}Sturgijska{.aj} {.F}ciężka{.aj} {.F}lanca{.nn}" />
+    <string id="73U5RElj" text="{.MI}Futrzany{.aj} {.MI}hełm{.nn}" />
+    <string id="7566s7pt" text="{.F}Kolczuga{.nn} piechoty z dodatkiem prostej skóry" />
+    <string id="7jemQg2V" text="{.F}Ciężka{.aj} {.F}strzała{.nn} z zadziorami" />
+    <string id="7R8r1WvR" text="{.MI}Testowy{.aj} {.MI}topór{.nn} {.MI}dwuręczny{.aj}" />
+    <string id="7rhZlXdO" text="{.MI}Długi{.aj} {.MI}łuk{.nn} {.MI}myśliwski{.aj}" />
+    <string id="7zIWNagP" text="{.MI}Ciężki{.aj} {.MI}ild{.nn}" />
+    <string id="84gnexLb" text="{.MA}Pustynny{.aj} {.MA}koń{.nn}" />
+    <string id="8bH8n3Aq" text="{.F}Lekka{.aj} {.F}wysoka{.aj} {.F}trójkątna{.aj} {.F}tarcza{.nn}" />
+    <string id="8DnJls9z" text="{.N}Stepowe{.ajp} {.N}skórzane{.ajp} {.N}zarękawie{.nnp}" />
+    <string id="8dvj7xik" text="{.MI}Sturgijski{.aj} {.MI}miecz{.nn}" />
+    <string id="8frVbv2b" text="{.MI}Blaszkowy{.ajp} {.MI}naramiennik{.nnp} ludzi północy" />
+    <string id="8nuXQ9F9" text="{.MI}Futrzany{.aj} {.MI}płaszcz{.nn}" />
+    <string id="8oKVhtth" text="{.MI}Spięty{.aj} {.MI}pancerz{.nn} z brygandyną" />
+    <string id="8qwg1gr3" text="{.F}Stara{.aj} {.F}pawęż{.nn} jazdy" />
+    <string id="8Sy6nZPs" text="{.MA}Stepowy{.aj} {.MA}koń{.nn} {.MA}bitewny{.aj}" />
+    <string id="9aVMFixc" text="{.F}Sturgijska{.aj} {.F}długa{.aj} {.F}lanca{.nn}" />
+    <string id="9GCPcCss" text="{.MI}Szybki{.aj} {.MI}łuk{.nn} {.MI}myśliwski{.aj}" />
+    <string id="9NW9y1ll" text="{.F}Maczuga{.nn} {.F}testowa{.aj}" />
+    <string id="9rXUVscR" text="{.MI}Tuareg" />
+    <string id="9XhksMzN" text="{.F}Zachodnia{.aj} {.F}włócznia{.nn}" />
+    <string id="a3vHlztg" text="{.F}Paskowa{.ajp} {.F}rękawica{.nnp} {.F}płytowa{.ajp}" />
+    <string id="a4hyzv3f" text="{.MA}Dziki{.ajp} {.MA}koń{.nnp}" />
+    <string id="abGJeb3q" text="{.F}Sturgijska{.aj} {.F}zbroja{.nn} {.F}blaszkowa{.aj}" />
+    <string id="acufJvyn" text="{.MI}Długi{.aj} {.MI}menaulion{.nn}" />
+    <string id="aDEjwU8L" text="{.MI}Topór{.nn} drwala" />
+    <string id="aDeVl2EL" text="{.MI}Sturgijski{.aj} {.MI}oszczep{.nn}" />
+    <string id="Ae9L1a9g" text="{.MI}Młot" />
+    <string id="aGvBKCG8" text="{.F}Wilcza{.aj} {.F}głowa{.nn}" />
+    <string id="aGxtOTB8" text="{.MI}Góralski{.aj} {.MI}topór{.nn}" />
+    <string id="AHel76R6" text="{.F}Huzajska{.aj} {.F}ciężka{.aj} {.F}buława{.nn}" />
+    <string id="aHQCG5Tn" text="{.F}Kolcza{.aj} {.F}zbroja{.nn} {.F}konna{.aj}" />
+    <string id="AIu3kKvz" text="{.MA}Koń{.nn} pod siodło" />
+    <string id="ajifXc8I" text="{.F}Ciężka{.aj} {.F}rzutka{.nn}" />
+    <string id="AJjEnCGN" text="{.F}Kolczuga{.nn} {.F}łuskowa{.aj}" />
+    <string id="aKIqpIf0" text="{.MI}Szybki{.aj} {.MI}krótki{.aj} {.MI}stepowy{.aj} {.MI}łuk{.nn}" />
+    <string id="aMB36bbl" text="{.F}Sturgijska{.aj} {.F}długa{.aj} {.F}włócznia{.nn} piechoty" />
+    <string id="AO5LPmQf" text="{.MI}Ciężki{.aj} {.MI}kontos{.nn}" />
+    <string id="aR1Tl119" text="{.MI}Myśliwski{.ajp} {.MI}but{.nnp}" />
+    <string id="arabgbEK" text="{.MI}Batański{.aj} {.MI}miecz{.nn} jazdy" />
+    <string id="aT7w4Npp" text="{.F}Batańska{.aj} {.F}buława{.nn} z kolcami" />
+    <string id="AWlrtbep" text="{.MI}Północny{.aj} {.MI}harpun{.nn} {.MI}rybacki{.aj}" />
+    <string id="b0pyML1S" text="{.F}Sturgijska{.aj} {.F}włócznia{.nn}" />
+    <string id="b5dkMbBp" text="{.F}Sturgijska{.aj} {.F}krótka{.aj} {.F}włócznia{.nn}" />
+    <string id="B8p6E8GJ" text="{.MI}Tabar" />
+    <string id="bAXuK5eG" text="{.F}Aserajska{.aj} {.F}zbroja{.nn} {.F}blaszkowa{.aj}" />
+    <string id="bcnknjPD" text="{.F}Batańska{.aj} {.F}buława{.nn}" />
+    <string id="BDGbu59Q" text="{.MA}Koń{.nn} {.MA}jakulański{.aj}" />
+    <string id="bdgTtBDq" text="{.F}Dwuręczna{.aj} {.F}żelazna{.aj} {.F}buława{.nn}" />
+    <string id="bkg0kWHH" text="{.F}Pałka{.nn} huzajskiej piechoty" />
+    <string id="BLeQnEKZ" text="{.MI}Skórzany{.ajp} {.MI}but{.nnp}" />
+    <string id="BlTREYCY" text="{.MI}Hełm{.nn} władcy z osłoną" />
+    <string id="bOPllY2F" text="{.MI}Sturgijski{.aj} {.MI}miecz{.nn} jazdy" />
+    <string id="brmba4ca" text="{.MI}Lekki{.aj} {.MI}oszczep{.nn}" />
+    <string id="Bruzcqbm" text="{.F}Ciężka{.aj} {.F}glewia{.nn}" />
+    <string id="BwOZwFxm" text="{.F}Aserajska{.aj} {.F}pika{.nn}" />
+    <string id="bYmKOh4p" text="{.F}Włócznia{.nn} {.F}testowa{.aj}" />
+    <string id="bYxnCJjq" text="{.MI}Kubrak{.nn} piechura" />
+    <string id="bZ0aUz2b" text="{.F}Aserajska{.aj} {.F}ciężka{.aj} {.F}buława{.nn}" />
+    <string id="bzCoIgk7" text="{.F}Wojskowa{.aj} {.F}halabarda{.nn} z krzywym ostrzem" />
+    <string id="bzrVXGAl" text="{.MI}Spangenhelm{.nn} z brązu z piórami i dodatkiem skóry" />
+    <string id="bZSQpada" text="{.MI}Cesarski{.aj} {.MI}ciężki{.aj} {.MI}topór{.nn}" />
+    <string id="C077yplu" text="{.F}Zdobiona{.aj} {.F}huzajska{.aj} {.F}tarcza{.nn}" />
+    <string id="c1a5Pt8j" text="{.MI}Hełm{.nn} {.MI}normandzki{.aj} z brązu z kolczugą" />
+    <string id="c6dK068V" text="{.F}Huzajska{.aj} {.F}długa{.aj} {.F}lanca{.nn}" />
+    <string id="cCaHNMwf" text="{.F}Góralska{.ajp} {.F}owijka{.nnp} na nogi" />
+    <string id="CEk1LX84" text="{.F}Sturgijska{.aj} {.F}długa{.aj} {.F}włócznia{.nn}" />
+    <string id="cEUqPott" text="{.F}Aserajska{.aj} {.F}długa{.aj} {.F}włócznia{.nn}" />
+    <string id="CgG2aRyh" text="{.F}Częściowa{.aj} {.F}łuskowa{.aj} {.F}zbroja{.nn} {.F}konna{.aj}" />
+    <string id="CJCatm7j" text="{.F}Lekka{.aj} {.F}dębowa{.aj} {.F}pawęż{.nn}" />
+    <string id="cjHygHb0" text="{.MI}Kapalin{.nn} z kolcami i podszyciem" />
+    <string id="courserhorse" text="{.MA}Koń{.nn} półkrwi" />
+    <string id="cQMDVJnE" text="{.MI}Cesarski{.aj} {.MI}topór{.nn} {.MI}bojowy{.aj}" />
+    <string id="Csfcw8G7" text="{.F}Brudna{.aj} {.F}skóra{.nn}" />
+    <string id="CtzzoSBc" text="{.MI}Krótki{.aj} {.MI}skolderski{.aj} {.MI}topór{.nn} {.MI}dwuręczny{.aj}" />
+    <string id="CuZ2eWxn" text="{.MI}Batański{.aj} {.MI}miecz{.nn} {.MI}półtoraręczny{.aj}" />
+    <string id="cVYVpeBS" text="{.MI}Hełm{.nn} łupieżcy z kolczugą" />
+    <string id="Cw5N7rK6" text="{.MI}Bojowy{.aj} {.MI}pies{.nn} {.MI}myśliwski{.aj}" />
+    <string id="cwC8Jp99" text="{.MI}Góralski{.ajp} {.MI}futrzany{.ajp} {.MI}naramiennik{.nnp}" />
+    <string id="CXnhFf1t" text="{.N}Wzmocnione{.ajp} {.N}skórzane{.ajp} {.N}zarękawie{.nnp}" />
+    <string id="CyJiWngO" text="{.MI}Łuskowy{.ajp} {.MI}naramiennik{.nnp} z brązu" />
+    <string id="dK4f8ArH" text="{.F}Cesarska{.aj} {.F}broń{.nn} {.F}drzewcowa{.aj}" />
+    <string id="DnhVJl4d" text="{.F}Długa{.aj} {.F}pustynna{.aj} {.F}szata{.nn}" />
+    <string id="DScCbmoS" text="{.MI}Batański{.ajp} {.MI}szlachecki{.ajp} {.MI}karwasz{.nnp}" />
+    <string id="DxRrAuRo" text="{.F}Batańska{.aj} {.F}włócznia{.nn}" />
+    <string id="DyXDcO36" text="{.F}Aserajska{.aj} {.F}zdobiona{.aj} {.F}kolczuga{.nn}" />
+    <string id="e0SDWwmU" text="{.F}Mocna{.aj} {.F}zbroja{.nn} {.F}stepowa{.aj}" />
+    <string id="Eb106Xg8" text="{.MI}Sturgijski{.aj} {.MI}krótki{.aj} {.MI}miecz{.nn}" />
+    <string id="eDMDUUfw" text="{.F}Aserajska{.aj} {.F}kolczuga{.nn}" />
+    <string id="eEMgc7yU" text="{.F}Wzmocniona{.aj} {.F}duża{.aj} {.F}batańska{.aj} {.F}tarcza{.nn}" />
+    <string id="Ejx5lXjk" text="{.MA}Sturgijski{.aj} {.MA}koń{.nn} {.MA}wyścigowy{.aj}" />
+    <string id="EOz0edW4" text="{.MI}Stepowy{.aj} {.MI}hełm{.nn}" />
+    <string id="EPehLvzV" text="{.MI}Cesarski{.aj} {.MI}oszczep{.nn}" />
+    <string id="EpkGO9qE" text="{.F}Metalowa{.ajp} {.F}widła{.nnp}" />
+    <string id="eQBDt5Wk" text="{.MI}Kuc{.nn} rasy Fell" />
+    <string id="eso5zk60" text="{.MI}Aserajski{.aj} {.MI}hełm{.nn} władcy" />
+    <string id="eTKxlDl1" text="{.MI}Góralski{.ajp} {.MI}but{.nnp} watażki" />
+    <string id="FexNLsO5" text="{.MI}Cesarski{.ajp} {.MI}oszczep{.nnp}" />
+    <string id="FHakBPXw" text="{.F}Długa{.aj} {.F}kolczuga{.nn}" />
+    <string id="FmN4ryxu" text="{.MI}Wielki{.aj} {.MI}miecz{.nn}" />
+    <string id="FyXM8Iob" text="{.N}Pustynne{.aj} {.N}usztywnienie{.nn} ramion z tkaniny" />
+    <string id="Gbfot0SN" text="{.F}Aserajska{.aj} {.F}buława{.nn} jazdy" />
+    <string id="GEHTam8H" text="{.F}Batańska{.aj} {.F}tarcza{.nn} zwiadowcy" />
+    <string id="GFKPrrb8" text="{.MI}Aserajski{.aj} {.MI}hełm{.nn} szlachecki" />
+    <string id="gfvG04SP" text="{.N}Pustynne{.aj} {.N}skórzane{.aj} {.N}usztywnienie{.nn} ramion" />
+    <string id="gKhpLiyg" text="{.F}Płytowa{.aj} {.F}zbroja{.nn} {.F}konna{.aj} z kolczugą" />
+    <string id="Goloz0Vm" text="{.MA}Wielbłąd{.nn} rasy Husnphree" />
+    <string id="gTptIfxY" text="{.F}Pustynna{.aj} {.F}czapka{.nn}" />
+    <string id="GTWUtUFj" text="{.F}Kolcza{.aj} {.F}uprząż{.nn} dla konia" />
+    <string id="gXbmGrGL" text="{.MI}Zdobiony{.ajp} {.MI}cesarski{.ajp} {.MI}but{.nnp}" />
+    <string id="gXu0brD7" text="{.MI}Wlandyjski{.aj} {.MI}topór{.nn}" />
+    <string id="H41qKfaL" text="{.MI}Góralski{.aj} {.MI}szlachecki{.aj} {.MI}hełm{.nn} z piórem" />
+    <string id="h5IlkYck" text="{.MI}Ciężki{.aj} {.MI}płaszcz{.nn}" />
+    <string id="h5kfaD4v" text="{.MA}Rumak" />
+    <string id="hCBCLp0e" text="{.F}Częściowa{.aj} {.F}płytowa{.aj} {.F}zbroja{.nn} {.F}konna{.aj} z kolczugą" />
+    <string id="HEsETRqw" text="{.F}Wzmocniona{.aj} {.F}pawęż{.nn} jazdy" />
+    <string id="hF11nBki" text="{.MI}Miecz{.nn} wlandyjskiej jazdy" />
+    <string id="HFIsOSHl" text="{.MI}Topór{.nn} {.MI}dwuręczny{.aj} łupieżców" />
+    <string id="hj563EZr" text="{.F}Ćwiekowana{.aj} {.F}okrągła{.aj} {.F}tarcza{.nn}" />
+    <string id="HKPCngu0" text="{.MI}Łupieski{.aj} {.MI}topór{.nn} jazdy" />
+    <string id="Hm7D4Z6v" text="{.F}Kolcza{.aj} {.F}zbroja{.nn} {.F}konna{.aj} ludzi północy" />
+    <string id="hTRaPvRa" text="{.MI}Góralski{.ajp} {.MI}but{.nnp} {.MI}skórzany{.ajp}" />
+    <string id="Hy4uQ7d5" text="{.F}Wlandyjska{.aj} {.F}buława{.nn} jazdy" />
+    <string id="I1faIdpc" text="{.MI}Bujan" />
+    <string id="I1ZBVhON" text="{.MI}Stepowy{.ajp} {.MI}ćwiekowany{.ajp} {.MI}naramiennik{.nnp}" />
+    <string id="I2yl5DWj" text="{.F}Ciężka{.aj} {.F}huzajska{.aj} {.F}strzała{.nn}" />
+    <string id="I8zNQS7i" text="{.MI}Skolderski{.aj} {.MI}topór{.nn} {.MI}dwuręczny{.aj}" />
+    <string id="Ia7K4egV" text="{.MI}Hełm{.nn} władcy" />
+    <string id="iauvbwL3" text="{.MI}Łuk{.nn} straży" />
+    <string id="IbrLksih" text="{.MI}Wschodni{.aj} {.MI}lekki{.aj} {.MI}topór{.nn}" />
+    <string id="igAT9Eqb" text="{.MA}Rumak{.nn} {.MA}stepowy{.aj}" />
+    <string id="IH9GsYzv" text="{.N}Workowate{.ajp} {.N}spodnie{.nnp}" />
+    <string id="ihN5JZ9h" text="{.MI}Hełm{.nn} {.MI}normandzki{.aj} z dodatkiem skóry" />
+    <string id="IKhu13vZ" text="{.F}Lekka{.aj} {.F}okrągła{.aj} {.F}tarcza{.nn}" />
+    <string id="ilLE877K" text="{.N}Futrzane{.aj} {.N}siodło{.nn} {.N}stepowe{.aj} " />
+    <string id="iNJr5HOM" text="{.N}Szydło" />
+    <string id="inquCxkd" text="{.F}Aserajska{.aj} {.F}włócznia{.nn}" />
+    <string id="inr9Mt1i" text="{.F}Huzajska{.aj} {.F}lanca{.nn}" />
+    <string id="INWSxn7C" text="{.MI}Blaszkowy{.ajp} {.MI}naramiennik{.nnp} z brązu" />
+    <string id="inYBaDwu" text="{.MI}Spangenhelm{.nn} z żelaza z piórami i kolczugą" />
+    <string id="IOt4KTHs" text="{.MA}Nizinny{.aj} {.MA}stępak{.nn}" />
+    <string id="iPfZpGHK" text="{.F}Ciężka{.aj} {.F}owalna{.aj} {.F}tarcza{.nn}" />
+    <string id="IPp2QGwE" text="{.MI}Sierp{.nn} do słomy" />
+    <string id="Is7j0Ir8" text="{.MI}Batański{.aj} {.MI}szlachecki{.aj} {.MI}miecz{.nn} {.MI}dwuręczny{.aj}" />
+    <string id="isuBaIqQ" text="{.F}Pawęż{.nn} {.F}obramowana{.aj} żelazem" />
+    <string id="it3sDnGw" text="{.F}Sturgijska{.aj} {.F}okrągła{.aj} {.F}tarcza{.nn}" />
+    <string id="ITKKkoXI" text="{.MI}Ciężki{.aj} {.MI}topór{.nn} łupieżców" />
+    <string id="IWv37ncp" text="{.F}Lekka{.aj} {.F}uprząż{.nn} ludzi północy" />
+    <string id="J4fgemze" text="{.F}Sturgijska{.aj} {.F}lanca{.nn}" />
+    <string id="ja2rER65" text="{.F}Lanca{.nn} {.F}testowa{.aj}" />
+    <string id="jEHLd5gm" text="{.MI}Kiliż" />
+    <string id="JfPqJbK6" text="{.MA}Szybszy{.aj} {.MA}rumak{.nn}" />
+    <string id="jhgVsWKr" text="{.MA}Koń{.nn} {.MA}tyjalski{.aj}" />
+    <string id="jjHpXY4d" text="{.MI}Futrzany{.aj} {.MI}kaptur{.nn}" />
+    <string id="JkLoAelJ" text="{.MI}Naramiennik{.nnp} {.MI}kolczy{.ajp}" />
+    <string id="jm9CnURw" text="{.F}Ciężka{.aj} {.F}strzała{.nn} ze szpikulcem" />
+    <string id="joroqAbR" text="{.F}Flisa" />
+    <string id="Jt0Mcn4D" text="{.F}Zbroja{.nn} dzikusa" />
+    <string id="JW1mE68R" text="{.F}Warstwowa{.aj} {.F}pustynna{.aj} {.F}szata{.nn}" />
+    <string id="jy1VQ7Yg" text="{.F}Huzajska{.aj} {.F}buława{.nn} jazdy" />
+    <string id="KD4pxN2C" text="{.MI}Aserajski{.aj} {.MI}szlachecki{.aj} {.MI}miecz{.nn}" />
+    <string id="KIxX6dH2" text="{.F}Kolczuga{.nn} z szorstkim futrem" />
+    <string id="kOV5t7Yx" text="{.MA}Koń{.nn} {.MA}danustyjski{.aj}" />
+    <string id="KpyTaAwL" text="{.MI}Góralski{.aj} {.MI}płytowy{.aj} {.MI}hełm{.nn} {.MI}szlachecki{.aj}" />
+    <string id="L0aYVd65" text="{.F}Tunika{.nn} pospólstwa" />
+    <string id="l2j9CAQn" text="{.MI}Miecz{.nn} {.MI}półtoraręczny{.aj}" />
+    <string id="l2pEOHk6" text="{.MI}Aserajski{.aj} {.MI}topór{.nn}" />
+    <string id="Ldqb9oAF" text="{.MI}Góralski{.ajp} {.MI}ochraniacz{.nnp} na ramiona watażki" />
+    <string id="LI3rc6S2" text="{.MI}Aserajski{.aj} {.MI}topór{.nn} do rzucania" />
+    <string id="lPeLZge5" text="{.N}Opancerzone{.ajp} {.N}workowate{.ajp} {.N}spodnie{.nnp}" />
+    <string id="lspv3mUE" text="{.F}Ćwiekowana{.aj} {.F}stepowa{.aj} {.F}zbroja{.nn} {.F}konna{.aj}" />
+    <string id="Lt8nT1hb" text="{.MI}Blaszkowy{.ajp} {.MI}naramiennik{.nnp}" />
+    <string id="LwxELoZL" text="{.F}Góralska{.aj} częściowo {.F}łuskowana{.aj} {.F}uprząż{.nn} dla konia" />
+    <string id="lxDZyKbU" text="{.F}Aserajska{.aj} {.F}ciężka{.aj} {.F}lanca{.nn}" />
+    <string id="LyaWykYa" text="{.MI}Szlachecki{.aj} {.MI}hełm{.nn} z kołnierzem" />
+    <string id="Mbf8qAxs" text="{.MI}Długi{.aj} {.MI}topór{.nn} {.MI}dwuręczny{.aj}" />
+    <string id="mDHMOUdx" text="{.F}Wiklinowa{.aj} {.F}tarcza{.nn} piechoty" />
+    <string id="mFM5jUuF" text="{.F}Huzajska{.aj} {.F}długa{.aj} {.F}włócznia{.nn} piechoty" />
+    <string id="MS1gaKXk" text="{.MI}Batański{.aj} {.MI}topór{.nn} do rzucania" />
+    <string id="ms4AKynl" text="{.MI}Płytowy{.ajp} {.MI}but{.nnp}" />
+    <string id="mStaaxFF" text="{.MI}Naramiennik{.nn} pustynnego pancerza kolczego" />
+    <string id="MUdwS6jH" text="{.MA}Wytrzymalszy{.aj} {.MA}koń{.nn} {.MA}tyjalski{.aj}" />
+    <string id="mVAaWp5U" text="{.MA}Cesarski{.aj} {.MA}rumak{.nn}" />
+    <string id="mXQsNAmZ" text="{.F}Strzała{.nn} ze szpikulcem" />
+    <string id="n21mBbbR" text="{.MI}Tasak{.nn} na drzewcu" />
+    <string id="nbjUGjaZ" text="{.F}Sturgijska{.aj} {.F}tarcza{.nn} jazdy" />
+    <string id="newiAaR9" text="{.MI}Zdobiony{.aj} {.MI}hełm{.nn} z otworami na oczy" />
+    <string id="nhoDWrVf" text="{.MI}Testowy{.aj} {.MI}miecz{.nn} {.MI}dwuręczny{.aj}" />
+    <string id="Nk7bQUWJ" text="{.MI}Aserajski{.aj} {.MI}miecz{.nn} {.MI}dwuręczny{.aj}" />
+    <string id="NKZ0P4aU" text="{.F}Wlandyjska{.aj} {.F}długa{.aj} {.F}lanca{.nn}" />
+    <string id="nmLZEjYg" text="{.F}Testowa{.aj} {.F}długa{.aj} {.F}buława{.nn}" />
+    <string id="Np2OoVNd" text="{.F}Sturgijska{.aj} {.F}lekka{.aj} {.F}buława{.nn}" />
+    <string id="nPSYRs2Q" text="{.F}Testowa{.aj} {.F}pika{.nn}" />
+    <string id="NSo8tGhT" text="{.F}Batańska{.aj} {.F}lanca{.nn}" />
+    <string id="nTjEUF9z" text="{.F}Prymitywna{.aj} {.F}duża{.aj} {.F}okrągła{.aj} {.F}tarcza{.nn}" />
+    <string id="NTPmtaaN" text="{.MI}Czerwony{.aj} {.MI}płaszcz{.nn} z kolczugą" />
+    <string id="O4agNHhn" text="{.MA}Zwinny{.aj} {.MA}koń{.nn} {.MA}berberyjski{.aj}" />
+    <string id="OdsXaOjG" text="{.F}Huzajska{.aj} {.F}strzała{.nn}" />
+    <string id="OEbGMbG2" text="{.F}Góralska{.aj} {.F}łuskowana{.aj} {.F}uprząż{.nn} dla konia" />
+    <string id="oeE1E3FJ" text="{.MI}Wlandyjski{.aj} {.MI}miecz{.nn} {.MI}półtoraręczny{.aj}" />
+    <string id="OeKwbpM7" text="{.MA}Osiodłany{.aj} {.MA}koń{.nn} {.MA}stepowy{.aj}" />
+    <string id="OGqTKRVm" text="{.F}Bambusowa{.aj} {.F}lanca{.nn}" />
+    <string id="OL1oJ9j5" text="{.MA}Kuc{.nn} rasy Dales" />
+    <string id="OnpIGPEG" text="{.F}Batańska{.aj} {.F}duża{.aj} {.F}brązowa{.aj} {.F}tarcza{.nn}" />
+    <string id="oppGd4nH" text="{.F}Okrągła{.aj} {.F}huzajska{.aj} {.F}tarcza{.nn}" />
+    <string id="OuD7PfvY" text="{.MI}Cesarski{.aj} {.MI}łuk{.nn} {.MI}klasyczny{.aj}" />
+    <string id="Oyeu738O" text="{.MI}Hełm{.nn} władcy ludzi północy" />
+    <string id="p2gPB04v" text="{.MI}Stepowy{.aj} {.MI}naramiennik{.nn} {.MI}skórzany{.aj}" />
+    <string id="PF7sPCYq" text="{.MI}Oszczep{.nnp}" />
+    <string id="PPpvY6BZ" text="{.F}Huzajska{.aj} {.F}tarcza{.nn} jazdy" />
+    <string id="pTtFr5Iw" text="{.MI}Wlandyjski{.aj} {.MI}sierp{.nn} żołnierski" />
+    <string id="PxVFJaEM" text="{.MI}Płytowy{.aj} {.MI}hełm{.nn} z koroną" />
+    <string id="pyupZxJK" text="{.MI}Kontos" />
+    <string id="PZPphq6H" text="{.MA}Stepowy{.aj} {.MA}koń{.nn} {.MA}bojowy{.aj}" />
+    <string id="Q2F2uqRE" text="{.F}Wlandyjska{.aj} {.F}szata{.nn} z ochraniaczami na ramiona" />
+    <string id="QcCC59DA" text="{.MI}Ćwiekowany{.ajp} {.MI}naramiennik{.nnp} {.MI}paskowy{.ajp}" />
+    <string id="QCOWP3E9" text="{.MI}Stepowy{.aj} {.MI}hełm{.nn} łupieżców" />
+    <string id="qEcDWNci" text="{.F}Strzała{.nn} z zadziorami" />
+    <string id="qFV7uqVW" text="{.F}Krótka{.aj} {.F}włócznia{.nn}" />
+    <string id="QtuZSbG9" text="{.MI}Spangenhelm{.nn} z piórami i czepcem" />
+    <string id="QUGDr6Te" text="{.MI}Bułat" />
+    <string id="QVGL3eB0" text="{.MI}Otwarty{.aj} {.MI}hełm{.nn} pustynny" />
+    <string id="radJHwRW" text="{.F}Ciężka{.aj} {.F}pawęż{.nn} jazdy" />
+    <string id="RGwcnlmQ" text="{.MI}Dwuręczny{.aj} {.MI}topór{.nn} drwala" />
+    <string id="RIswqnuJ" text="{.MI}Hełm{.nn} z otworami na oczy" />
+    <string id="RJ8CcdJn" text="{.MI}Krótki{.aj} {.MI}stepowy{.aj} {.MI}łuk{.nn}" />
+    <string id="rLFdje27" text="{.F}Huzajska{.aj} {.F}krótka{.aj} {.F}włócznia{.nn}" />
+    <string id="RmUJJelp" text="{.F}Długa{.aj} {.F}kolczuga{.nn} huskarla" />
+    <string id="rq5FMLVI" text="{.MI}Krótki{.aj} {.MI}łuk{.nn} koczownika" />
+    <string id="RTIzskq1" text="{.MI}Północny{.aj} {.MI}hełm{.nn} watażki na pełnej kolczudze" />
+    <string id="RtlqkbZ9" text="{.MI}Topór{.nn} {.MI}testowy{.aj}" />
+    <string id="RVkS0Mt3" text="{.MI}Batański{.aj} {.MI}szlachecki{.aj} {.MI}miecz{.nn}" />
+    <string id="rysPCUOp" text="{.MI}Hełm{.nn} ludzi północy" />
+    <string id="rzhIJ8Yh" text="{.MI}Kaptur{.nn} pielgrzyma" />
+    <string id="s03kaATW" text="{.F}Huzajska{.aj} {.F}włócznia{.nn}" />
+    <string id="SGa04hNj" text="{.F}Wlandyjska{.aj} {.F}ciężka{.aj} {.F}lanca{.nn}" />
+    <string id="SIdCIRfG" text="{.MI}Mosiężny{.ajp} {.MI}łuskowy{.ajp} {.MI}ochraniacz{.nnp} na ramiona" />
+    <string id="spcj3XIw" text="{.F}Owinięta{.aj} {.F}kefija{.nn}" />
+    <string id="SRZzySbP" text="{.MI}Góralski{.ajp} {.MI}leśny{.ajp} {.MI}but{.nnp}" />
+    <string id="SUKemgo6" text="{.F}Batańska{.aj} {.F}włócznia{.nn} jazdy" />
+    <string id="SZmyhMO2" text="{.F}Batańska{.aj} {.F}tarcza{.nn} jazdy" />
+    <string id="sZsOeSQ4" text="{.MI}Menaulion{.nn} jazdy" />
+    <string id="t1HEYuSD" text="{.F}Oprawiona{.aj} {.F}adarga{.nn}" />
+    <string id="TB6NGI82" text="{.F}Plemienna{.aj} {.F}huzajska{.aj} {.F}tarcza{.nn}" />
+    <string id="tEimkEsU" text="{.MI}Nordycki{.aj} {.MI}krótki{.aj} {.MI}łuk{.nn}" />
+    <string id="TfDFlmpb" text="{.MI}Odrażający{.aj} {.MI}futrzany{.aj} {.MI}pancerz{.nn}" />
+    <string id="TGpFbISX" text="{.MI}Skórzany{.aj} {.MI}ćwiekowany{.aj} {.MI}hełm{.nn}" />
+    <string id="tiSffNik" text="{.MI}Spangenhelm{.nn} z żelaznych płyt z piórami i dodatkiem skóry" />
+    <string id="Tj1Zb47Q" text="{.MI}Stepowy{.ajp} {.MI}skórzany{.ajp} {.MI}but{.nnp}" />
+    <string id="TjoKgbV6" text="{.MI}Zamknięty{.aj} {.MI}hełm{.nn} z otworami na oczy" />
+    <string id="tKODIU0F" text="{.MI}Skórzany{.ajp} {.MI}blaszkowy{.ajp} {.MI}naramiennik{.nnp}" />
+    <string id="TmJubG8W" text="{.MI}Batański{.aj} {.MI}płaszcz{.nn} {.MI}przypinany{.aj} do naramienników" />
+    <string id="TV02bZ4t" text="{.F}Podniszczona{.aj} {.F}pawęż{.nn} jazdy" />
+    <string id="TziEtAIK" text="{.F}Wlandyjska{.aj} {.F}kolczuga{.nn}" />
+    <string id="u2QRZy2x" text="{.MI}Miecz{.nn} {.MI}testowy{.aj}" />
+    <string id="UCvfcokJ" text="{.F}Łopata" />
+    <string id="uF4IqQIK" text="{.F}Kaskara" />
+    <string id="UG8aeEQH" text="{.MA}Cesarski{.aj} {.MA}koń{.nn} {.MA}bojowy{.aj}" />
+    <string id="UHcXARc6" text="{.MI}Ild" />
+    <string id="UHItyOQY" text="{.F}Stepowa{.aj} {.F}ćwiekowana{.aj} {.F}skóra{.nn}" />
+    <string id="ujB7Eq9S" text="{.F}Aserajska{.aj} {.F}buława{.nn}" />
+    <string id="UkR3F9lV" text="{.MI}Wlandyjski{.aj} {.MI}szlachecki{.aj} {.MI}miecz{.nn}" />
+    <string id="Ur3Q4U5x" text="{.F}Ciężka{.aj} {.F}peleryna{.nn} z tartanem" />
+    <string id="uvmmBd41" text="{.F}Oprawiona{.aj} {.F}okrągła{.aj} {.F}pustynna{.aj} {.F}tarcza{.nn}" />
+    <string id="uwkGsgxJ" text="{.F}Huzajska{.aj} {.F}włócznia{.nn} do rzucania" />
+    <string id="UxTD6XGA" text="{.MI}Owinięty{.aj} {.MI}szal{.nn}" />
+    <string id="uxVG86DF" text="{.F}Huzajska{.aj} {.F}długa{.aj} {.F}włócznia{.nn}" />
+    <string id="v1CIJWs1" text="{.MI}Góralski{.aj} {.MI}oszczep{.nn}" />
+    <string id="v23z53yg" text="{.MI}Normandzki{.aj} {.MI}hełm{.nn}" />
+    <string id="v3lIxLvX" text="{.F}Pila" />
+    <string id="vAQJvloo" text="{.F}Długa{.aj} {.F}spatha{.nn}" />
+    <string id="Vdi0vZV7" text="{.F}Góralska{.aj} {.F}peleryna{.nn}" />
+    <string id="veB9S1OI" text="{.MA}Zwinny{.aj} {.MA}kuc{.nn} rasy Dales" />
+    <string id="VEufDIXI" text="{.F}Zachodnia{.aj} {.F}lanca{.nn}" />
+    <string id="vh1x8VWw" text="{.F}Cesarska{.aj} {.F}buława{.nn}" />
+    <string id="VIVfoHRj" text="{.F}Jesionowa{.aj} {.F}włócznia{.nn} do rzucania" />
+    <string id="vmJLhccb" text="{.MI}Zdobiony{.aj} {.MI}hełm{.nn}" />
+    <string id="VTMc9pMS" text="{.MI}Batański{.aj} {.MI}długi{.aj} {.MI}miecz{.nn}" />
+    <string id="vw9qbiER" text="{.F}Stepowa{.aj} {.F}uprząż{.nn}" />
+    <string id="vwVFF1XJ" text="{.MI}Góralski{.ajp} {.MI}futrzany{.ajp} {.MI}but{.nnp}" />
+    <string id="WbjNNE8Z" text="{.F}Góralska{.aj} {.F}wzmocniona{.aj} {.F}kolczuga{.nn} fianny" />
+    <string id="wD3Yuvfc" text="{.F}Stepowa{.aj} {.F}zszywana{.aj} {.F}skóra{.nn}" />
+    <string id="wg8wXRLp" text="{.F}Batańska{.aj} {.F}długa{.aj} {.F}włócznia{.nn} piechoty" />
+    <string id="WiPJqTXv" text="{.MI}Zamknięty{.aj} {.MI}hełm{.nn} {.MI}pustynny{.aj}" />
+    <string id="Wo5RbJia" text="{.F}Góralska{.aj} {.F}leśna{.aj} {.F}peleryna{.nn}" />
+    <string id="WOzcBg62" text="{.MI}Północny{.aj} {.MI}wzmocniony{.aj} {.MI}harpun{.nn} {.MI}rybacki{.aj}" />
+    <string id="wrM9Km0n" text="{.F}Góralska{.aj} {.F}uprząż{.nn} dla konia" />
+    <string id="WsUvpBwM" text="{.MI}Szybki{.aj} {.MI}krótki{.aj} {.MI}łuk{.nn}" />
+    <string id="wwAFqJE3" text="{.MI}Miecz{.nn} {.MI}rycerski{.aj}" />
+    <string id="WXjQNIJW" text="Luźno {.MI}owinięty{.aj} {.MI}hełm{.nn} {.MI}pustynny{.aj}" />
+    <string id="WyxIVvhe" text="{.F}Aserajska{.aj} {.F}owalna{.aj} {.F}tarcza{.nn}" />
+    <string id="xb2tMFSz" text="{.MI}Krótki{.aj} {.MI}łuk{.nn}" />
+    <string id="XcWJyWlF" text="{.F}Wlandyjska{.aj} {.F}buława{.nn}" />
+    <string id="XiI81DUa" text="{.MI}Łuk{.nn} {.MI}plemienny{.aj}" />
+    <string id="xl5MgK49" text="{.MI}Sturgijski{.aj} {.MI}ciężki{.aj} {.MI}hełm{.nn} jazdy" />
+    <string id="xn5CfwON" text="{.MI}Usztywniany{.ajp} {.MI}naramiennik{.nnp} wojownika" />
+    <string id="XOC81pVz" text="{.MI}Zamknięty{.aj} {.MI}pustynny{.aj} {.MI}hełm{.nn} {.MI}kolczy{.aj}" />
+    <string id="xS7m37o7" text="{.MI}Szpiczasty{.aj} {.MI}basinet{.nn} z kolczugą" />
+    <string id="xW2NPgay" text="{.MI}Wschodni{.aj} {.MI}sierp{.nn}" />
+    <string id="xYC1bkr7" text="{.F}Sturgijska{.aj} {.F}pawęż{.nn}" />
+    <string id="XzoyPCvS" text="{.F}Huzajska{.aj} {.F}pika{.nn}" />
+    <string id="y3RNBGtv" text="{.F}Cesarska{.aj} {.F}buława{.nn} jazdy" />
+    <string id="Y7wtGUKA" text="{.MI}Sturgijski{.aj} {.MI}ciężki{.aj} {.MI}oszczep{.nn}" />
+    <string id="y9uMjAKT" text="{.MI}Wzmocniony{.ajp} {.MI}zamszowy{.ajp} {.MI}naramiennik{.nnp}" />
+    <string id="y9uZrJv2" text="{.MI}Sturgijski{.aj} {.MI}hełm{.nn} watażki" />
+    <string id="YAYhozbN" text="{.MA}Koń{.nn} {.MA}stepowy{.aj}" />
+    <string id="YEUFtX4G" text="{.MI}Naramiennik{.nnp} wilka" />
+    <string id="yf3zokFF" text="{.F}Włócznia{.nn} zachodniej jazdy" />
+    <string id="YHWqNIYu" text="{.MI}Batański{.aj} {.MI}oszczep{.nn}" />
+    <string id="ykCJ3hDB" text="{.MI}Ćwiekowany{.aj} {.MI}kołnierz{.nn}" />
+    <string id="Yms2FQ7g" text="{.F}Lekka{.aj} {.F}kolcza{.aj} {.F}zbroja{.nn} {.F}konna{.aj}" />
+    <string id="yPeC0Vgs" text="{.MA}Nahasan" />
+    <string id="yQqsd0bh" text="{.MI}Cesarski{.aj} {.MI}bełt{.nn}" />
+    <string id="ys3kQM0R" text="{.MI}Cesarski{.aj} {.MI}pancerz{.nn} {.MI}blaszkowy{.aj}" />
+    <string id="YUWhHQmz" text="{.MI}Spangenhelm{.nn} z żelaznych płyt z piórami" />
+    <string id="z8d2uyY1" text="{.F}Podzielona{.aj} {.F}łebka{.nn} ze sznurowanym czepcem" />
+    <string id="ZFde57gC" text="{.N}Solidne{.aj} {.N}góralskie{.aj} {.N}siodło{.nn}" />
+    <string id="ZJweh5Oh" text="{.MI}Topór{.nn} {.MI}półtoraręczny{.aj}" />
+    <string id="zKJtr0MV" text="{.MA}Koń{.nn} {.MA}makebiański{.aj}" />
+    <string id="zmEnxUpL" text="{.F}Cesarska{.aj} {.F}łuskowa{.aj} {.F}zbroja{.nn} {.F}konna{.aj}" />
+    <string id="zNoDVcHg" text="{.MA}Kłusak" />
+    <string id="Zo7jJbQj" text="{.MI}Pustynny{.aj} {.MI}hełm{.nn} {.MI}kolczy{.aj}" />
+    <string id="ZOa7p47T" text="{.MI}Wiązany{.ajp} {.MI}zakrzywiony{.ajp} {.MI}but{.nnp}" />
+    <string id="ztgczd7L" text="{.F}Włócznia{.nn} huzajskiej jazdy" />
+    <string id="ZzzUQjna" text="{.MI}Szlachecki{aj} {.MI}topór{.nn}" />
+  </strings>
+</base>

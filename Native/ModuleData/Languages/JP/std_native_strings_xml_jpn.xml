@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="日本語" />
+  </tags>
+  <strings>
+    <string id="01zQKaF3" text="目の形" />
+    <string id="05loYcST" text="後ろの盾に攻撃しろ" />
+    <string id="0cpbEvsG" text="老人の顔" />
+    <string id="0DBQGaka" text="突撃の勢いを乗せた槍が敵を貫く！" />
+    <string id="0ezfbORI" text="準備されたゲームタイプ" />
+    <string id="0P89VyAQ" text="顔の非対称性" />
+    <string id="0W4dgUho" text="{BANNEDUNTIL} までゲームからBANされます。理由: {BANREASON}" />
+    <string id="0WHQKap4" text="装備選択の残り時間 (秒)" />
+    <string id="0xJ3qIlJ" text="顎のライン" />
+    <string id="180DfbQU" text="性能試験場" />
+    <string id="1b2dfc0n" text="部隊への参加リクエストが拒否されました。" />
+    <string id="1fFnE9Vk" text="ヨーロッパ" />
+    <string id="1GFrsDRm" text="投票承認のしきい値" />
+    <string id="1gU5rDws" text="プレイヤーをBANするための投票を許可する" />
+    <string id="1kCkzrpc" text="チームメンバーの視点にロックする" />
+    <string id="1LVlILek" text="{DAMAGE}の激突ダメージを与えた。" />
+    <string id="1Ndyb5I1" text="旗の撤去時間 (秒)" />
+    <string id="1r0tDsrR" text="攻撃！" />
+    <string id="1siBGYlP" text="頬骨の幅" />
+    <string id="1zveWQFg" text="バトルをキューに追加するには、「マッチメイク」タブ内で地域を選択してください" />
+    <string id="21m0Bo08" text="声のミュートを解除" />
+    <string id="22MOa4Fc" text="目の外側の高さ" />
+    <string id="23INS6nf" text="パスワードが必要です" />
+    <string id="26SJhCRD" text="に置き換える" />
+    <string id="2blpQ3OQ" text="印" />
+    <string id="2d0H47C8" text="目の間の距離" />
+    <string id="2G3QpSDk" text="唇の凹凸" />
+    <string id="2KrDfHI8" text="プラットフォームの許可設定によって、部隊への参加に失敗しました。" />
+    <string id="2QzgefNF" text="顔の重さ" />
+    <string id="2Rf2ChRD" text="眉の濃さ" />
+    <string id="2uynGJbP" text="軍隊を移動中" />
+    <string id="39f0eu3Y" text="提供された認証トークンが失効しました。" />
+    <string id="3AInGztr" text="胴体" />
+    <string id="3APdsKEi" text="投げナイフ" />
+    <string id="3aX5gXmJ" text="肌の色" />
+    <string id="3EbTklMi" text="新たなバッジを獲得: {BADGE_NAME}" />
+    <string id="3Kkya96j" text="脚" />
+    <string id="3kqFHkZz" text="唇の厚さ" />
+    <string id="3ydKbDmI" text="{PLAY_TIME} 分" />
+    <string id="3ZzxddkE" text="ゲームのパスワード" />
+    <string id="43L45sjx" text="各編隊のボット数" />
+    <string id="4b2hRWiI" text="ドモグトゥル城" />
+    <string id="4daqsVWG" text="味方をアシストして敵の兵士を倒し、獲得したゴールドで高いティアのリスポーンを購入しましょう。" />
+    <string id="4DcNDein" text="マップの制限時間 (分)" />
+    <string id="4Dd2xgPm" text="重さ" />
+    <string id="4jv2sW4U" text="交易所" />
+    <string id="4ompPd8W" text="クランが新たな声明を公表しました。" />
+    <string id="4SWcDUJC" text="アイザル要塞" />
+    <string id="4wLU6s4S" text="腹部" />
+    <string id="4yiB8CRO" text="いいえ！" />
+    <string id="52YN6m2B" text="留め具付き長柄武器でダメージを与えた！" />
+    <string id="5IR8g3YL" text="部隊戦の戦績" />
+    <string id="5mSKBidd" text="鼻の形" />
+    <string id="5odwu8qB" text="ランクド" />
+    <string id="5tbWdY1j" text="アバター" />
+    <string id="5vZW8IJ5" text="{ITEM_NAME}と交換" />
+    <string id="621DbiOw" text="鼻の非対称性" />
+    <string id="64n3piBf" text="総ゲーム数" />
+    <string id="66aByatH" text="テキストのミュートを解除" />
+    <string id="6DBVzw9r" text="体型" />
+    <string id="6kQxshlw" text="チームキル/味方への攻撃" />
+    <string id="6usZYAVm" text="暴言" />
+    <string id="6yZnboe6" text="眼窩の大きさ" />
+    <string id="74tYdiOb" text="自分のチームに必要な部隊を賢く選択しましょう。兵士数は部隊の強さによって決定されます。" />
+    <string id="77arWi0m" text="目の内側の高さ" />
+    <string id="7BlOJvyo" text="口の横幅" />
+    <string id="7lvexPjZ" text="平原" />
+    <string id="7nLM1z2V" text="デュエルに勝利するための最低スコア" />
+    <string id="880uOrte" text="地形" />
+    <string id="8bnYsGu6" text="オブスクの港（冬）" />
+    <string id="8EsaVlSX" text="デリアドの島" />
+    <string id="8K0DR83v" text="チームメートと肩を並べてプレイする、テンポの速い戦術重視のPvPモードです。敵を倒してゴールドを稼ぎ、敵の士気をくじくか完全敗北に追い込もう。" />
+    <string id="8o1lZcjR" text="眉の外側の高さ" />
+    <string id="8sG5bTtK" text="リスポーン時間" />
+    <string id="8vXHhxPr" text="AIを切り替え" />
+    <string id="9kEUK9iY" text="・選択可能な兵士タイプの中から、好きなクラスを選択してください{newline}・一騎打ちで敵と戦います{newline}・敵に三回勝つとデュエルで勝利したことになり、かけられている賞金も獲得できます" />
+    <string id="9S7liri5" text="セーブの上限に達したため、このオプションを使用できません。" />
+    <string id="9Ts5zKIj" text="目" />
+    <string id="a2xfNmqa" text="ロビー内" />
+    <string id="a8nb5HVc" text="眉の中間の高さ" />
+    <string id="aAD1iOuH" text="口の上の幅" />
+    <string id="aALNy4Es" text="シリアノンの路地" />
+    <string id="aDabgVpn" text="キャラクターカスタマイズ" />
+    <string id="adyGICWc" text="部屋が封鎖されている！" />
+    <string id="AEcTBnkz" text="服装を変更" />
+    <string id="aGTgzoqW" text="プレイヤーをキックするための投票を許可する" />
+    <string id="ahobSLlo" text="ログインリクエストに失敗しました。" />
+    <string id="AoNh2ihL" text="敵を発見！" />
+    <string id="auDOtbza" text="文化チーム1" />
+    <string id="averageConnection" text="平均" />
+    <string id="aZVxHbwH" text="{TROOP_NAME} に倒された" />
+    <string id="b0L0jbIa" text="目の位置" />
+    <string id="b74zosgq" text="鼻の大きさ" />
+    <string id="bAPQFzcW" text="飛び道具ダメージ" />
+    <string id="BBKp1Ajq" text="ミッション録画を有効にする" />
+    <string id="bbYwqrvo" text="顎の形" />
+    <string id="bdljU1ig" text="チームデスマッチの戦績" />
+    <string id="BFWD0pCE" text="味方から遠隔攻撃された時のダメージ(フレンド)" />
+    <string id="bgwo3QpS" text="攻撃的なコンテンツ" />
+    <string id="bH0wXnXr" text="アイアンマン・モードのため、このオプションを使用できません。" />
+    <string id="bjcixGIE" text="チーム" />
+    <string id="BJMPBcDn" text="2度目の支援" />
+    <string id="BMPrnHpK" text="鼻孔の大きさ" />
+    <string id="bnfUdx3O" text="中央の高さ" />
+    <string id="BQzP1ivS" text="顔の比率" />
+    <string id="brk0f05B" text="頭の大きさ" />
+    <string id="bTpn4bZ8" text="眉の内側の高さ" />
+    <string id="bV75iwKa" text="保存" />
+    <string id="bwmlWKa2" text="{LIMIT_VALUE}に制限" />
+    <string id="bXIrqxKc" text="ゲーム開始に必要なプレイヤーの最低人数" />
+    <string id="bYCfMbYk" text="チームを変更する" />
+    <string id="bzu60bhP" text="すまない！" />
+    <string id="c1zu1b3M" text="あなたは部隊から外されました" />
+    <string id="c2tGH5II" text="準備時間制限 (分)" />
+    <string id="captainasgame" text="部隊戦" />
+    <string id="ccROnOY3" text="突撃槍による突進を受けてしまった…！" />
+    <string id="CFI2aDtg" text="馬鎧" />
+    <string id="cJ5emwNF" text="支援" />
+    <string id="CjPiabbn" text="射撃指示" />
+    <string id="CJr1T7jh" text="管理パスワード" />
+    <string id="Cl3TziQE" text="乗騎が{DAMAGE}の落下ダメージを受けた。" />
+    <string id="CoxEyDa8" text="籠手" />
+    <string id="cSui4APH" text="目標破壊" />
+    <string id="d1ogH1v1" text="ツァガン城" />
+    <string id="d3RJm2zW" text="顎の高さ" />
+    <string id="dbLB0tuT" text="家族共有は利用できません。" />
+    <string id="DHlVSaZW" text="相対的な移動速度: {SPEED} m/s" />
+    <string id="DLKRQOuM" text="お使いのプラットフォームサービスからアクセスを取得できませんでした（エラー: {ACCESSERROR}）" />
+    <string id="dojUqbv8" text="鼻の長さ" />
+    <string id="dRlTmdKR" text="システム" />
+    <string id="DuJfaNx5" text="{DAMAGE}の激突ダメージを受けた。" />
+    <string id="dZ4xp6Lu" text="こめかみの幅" />
+    <string id="eGcXbXPy" text="不適切な振る舞い" />
+    <string id="Ej6Gjmkc" text="オフ" />
+    <string id="EUHaR98k" text="報告" />
+    <string id="EX4bKRbV" text="死亡数" />
+    <string id="EZRnvPJS" text="指示方向を向く" />
+    <string id="f4ZeGAJi" text="飛び道具の相対速度: {SPEED} m/s" />
+    <string id="f5y9qyDb" text="腕" />
+    <string id="F6l8hFEA" text="アッカラトの崖" />
+    <string id="F6WH1JaM" text="チームメンバーにロックする" />
+    <string id="fFLBT9wb" text="胸" />
+    <string id="FFNJTsDL" text="プレイヤー強制退出" />
+    <string id="FgJpTBp1" text="味方を遠隔攻撃した時のダメージ(自分)" />
+    <string id="fjD2tRXW" text="顎を前に出す" />
+    <string id="fJHsYtKu" text="エケリオン" />
+    <string id="fJqJiJvl" text="リアルな防御を適用" />
+    <string id="fnJQO5Os" text="鼻の先の高さ" />
+    <string id="FzaoDwLA" text="隠密攻撃！" />
+    <string id="FzJnNNam" text="鼻の非対称性" />
+    <string id="G1HobbjU" text="隊長バトル" />
+    <string id="g6cHDWJF" text="頭" />
+    <string id="GaF4CvmX" text="顔の鋭さ" />
+    <string id="GcosVDAt" text="支援回数" />
+    <string id="GnKCsV44" text="顎の長さ" />
+    <string id="GoEo27il" text="攻撃側のリスポーン時間" />
+    <string id="goodConnection" text="良好" />
+    <string id="gQLDkSrf" text="現在会話が進行中のため、このオプションを使用できません。" />
+    <string id="GQOS4d9g" text="向きを切り替え" />
+    <string id="Gr994CTR" text="遠隔武器を許可しない" />
+    <string id="gUQI0PLa" text="北アメリカ西部" />
+    <string id="GY4NaieE" text="純粋" />
+    <string id="GYc0Dcbn" text="北アメリカ東部" />
+    <string id="h3obZWO0" text="崖" />
+    <string id="H4PrQzvN" text="クランメンバーの教育が修了していないため、このオプションを使用できません。" />
+    <string id="h5OsTOFM" text="唇の凹凸" />
+    <string id="H7YWqwq6" text="ラウンド開始時のスポーン時間" />
+    <string id="HgpdpYuK" text="体" />
+    <string id="HL3EONMe" text="カスタムゲーム" />
+    <string id="HLhT64IP" text="非公開" />
+    <string id="htW15Gmn" text="海辺" />
+    <string id="HyV2D9qZ" text="サイペゴスの封鎖" />
+    <string id="I4wnvBGd" text="防衛側あるいは攻撃側として、中世の熾烈な攻城戦を追体験できる大規模なPvPモードです。防衛側なら敵を退散させて城を守り抜くため、攻撃側なら外壁の向こうに侵入する足がかりを得て敵の旗を奪うために、様々な攻城兵器を駆使しましょう。" />
+    <string id="IaaVNwwb" text="BattlEyeを有効化" />
+    <string id="IBAaKSbp" text="オモールに出航" />
+    <string id="iDMBz55E" text="マルチプレイゲーム中" />
+    <string id="ig0lsiwY" text="兵士" />
+    <string id="IKn1YxU2" text="獲得ゴールドの割合(攻撃側)" />
+    <string id="ImWyFyld" text="口の位置" />
+    <string id="irGCyJaY" text="キル数" />
+    <string id="ItmPmlWH" text="· ゴールドを使うと、1回復活できます{newline}· マップの要所を押さえ、敵の士気を削りましょう{newline}· 敵チームを全滅させるか、士気が尽きた状態に追い込めば勝ちです" />
+    <string id="iWLq9hMg" text="認証トークンが提供されていません。" />
+    <string id="JCcbydcJ" text="{KEY} {ACTION}" />
+    <string id="jEh6EdF9" text="{ROUND_COUNT} のベスト" />
+    <string id="JetpbYv9" text="汚れ" />
+    <string id="jpeq1gF0" text="ノルドの町" />
+    <string id="JPimShCw" text="ゲームタイプ" />
+    <string id="jsqyGWGu" text="獲得ゴールドの割合(防衛側)" />
+    <string id="jtLGvCac" text="テキストをミュート" />
+    <string id="jukzZmBb" text="敵を倒してゴールドやポイントを稼ぎ、チームメイトの支援をしながら、勝利を掴みましょう。" />
+    <string id="jUsEkEBt" text="顎の非対称性" />
+    <string id="JW2nEe4X" text="味方から近接攻撃された時のダメージ(フレンド)" />
+    <string id="JwnoxhKI" text="彫りの深さ" />
+    <string id="k4cMrbVf" text="最初の近接攻撃によるキル" />
+    <string id="Ke7eAS5B" text="恩恵ボーナス" />
+    <string id="KHx75GnA" text="水" />
+    <string id="Kl9aqIuX" text="人種" />
+    <string id="kQh0O7gn" text="ラウンド開始時にゴールドを使用してお好きな兵士を選択してください。" />
+    <string id="KtRCqiVO" text="ペンダリック" />
+    <string id="kVwwG63i" text="マップを変更するための投票を許可する" />
+    <string id="kW4c2liv" text="アニメーション依存の防御を適用" />
+    <string id="KwrSLa0H" text="チャットでの暴言" />
+    <string id="kY2oXMng" text="ログインできませんでした。" />
+    <string id="L0lGQWt5" text="ボットの数　チーム2" />
+    <string id="L3tY2kTE" text="味方の攻撃によるダメージ！" />
+    <string id="L9xEQ5b2" text="置き換えるアイテムを選択" />
+    <string id="LaaA8U4W" text="鼻の角度" />
+    <string id="laIfauZH" text="目の彫りの深さ" />
+    <string id="lauXoy6d" text="各編隊のボット数" />
+    <string id="lclQSt39" text="ラウンドの制限時間 (秒)" />
+    <string id="ldIXGrVi" text="ウリクスカラール" />
+    <string id="lDPQa5gc" text="自動チームバランスのしきい値" />
+    <string id="likop0am" text="投票を始める" />
+    <string id="LkiQDpi5" text="耳の大きさ" />
+    <string id="LmkYgWnF" text="目の大きさ" />
+    <string id="LthEtGxp" text="当たった対象：{OBJECT_NAME}" />
+    <string id="Lz6ggWch" text="パークや効果でのダメージ軽減: {MODIFIED_DAMAGE}" />
+    <string id="LZmOy39a" text="攻城戦の戦績" />
+    <string id="M1RCJ9DM" text="3度目の支援" />
+    <string id="m3zVR2UH" text="マウスを表示: [{KEY_NAME}]" />
+    <string id="m5UdbzHr" text="地域が選択されていません" />
+    <string id="M97xvRgO" text="部隊は解散しました。" />
+    <string id="MaOht6ky" text="防衛者逃亡！" />
+    <string id="mEHIBbBy" text="攻撃者逃亡！" />
+    <string id="mjhOYJWg" text="矢筒が空です。" />
+    <string id="MnM0L4AV" text="マルチプレイヤーに参加していません" />
+    <string id="MnvK3eK2" text="目標達成" />
+    <string id="mountverb" text="乗馬" />
+    <string id="mpparty" text="部隊" />
+    <string id="MS795wWa" text="最初の支援" />
+    <string id="mtlNshCB" text="性能試験場（夜）" />
+    <string id="mwetB4R6" text="無限ゴールド" />
+    <string id="MyrHcDkP" text="要塞に撤退せよ！" />
+    <string id="n6N21Shz" text="味方をアシストして敵の兵士を倒し、攻城兵器を破壊して、獲得したゴールドで高いティアのリスポーンを購入しましょう。" />
+    <string id="NdQZWHIy" text="· 自分の担当分の兵士を率いましょう{newline}· マップの要所を押さえ、敵の士気を削りましょう{newline}· 敵チームを全滅させるか、士気が尽きた状態に追い込めば勝ちです" />
+    <string id="NE7PmH7n" text="状況" />
+    <string id="NecHOOXR" text="1番" />
+    <string id="NRa52uaF" text="お使いのプラットフォームサービスからアクセスを取得できませんでした。" />
+    <string id="nt5MOuwo" text="砂丘" />
+    <string id="nUR7rs6y" text="中世の世界に飛び込み、王道的なPvPモードに挑めます。 " />
+    <string id="nx5W7jN0" text="留め具付き長柄武器でダメージを受けた！" />
+    <string id="nXE6eV8W" text="湖" />
+    <string id="o5Ead68n" text="保存せずに終了" />
+    <string id="O5uDFhwu" text="フェン・アルタイの城" />
+    <string id="O9F9q1zx" text="頬骨の凹凸" />
+    <string id="obB483C5" text="負傷した部位: {BODY_PART}" />
+    <string id="oBbiVeKE" text="ヒットポイント" />
+    <string id="oGAzC0Ob" text="ゲームモード" />
+    <string id="Ok03egKG" text="指定位置に移動" />
+    <string id="Oud3W58w" text="{KEY} {ACTION}を長押し" />
+    <string id="ox8XcxfR" text="耳の形" />
+    <string id="OZHFucP5" text="しかめ面/笑顔" />
+    <string id="P3blWoZh" text="最後" />
+    <string id="p5K0ATtZ" text="古いセッションを削除できませんでした。" />
+    <string id="pa4yXyDa" text="{PLAYER_COUNT} 対 {PLAYER_COUNT}" />
+    <string id="pagmdsCK" text="まぶたの高さ" />
+    <string id="PbLuHcJg" text="緩和ダメージ: {ABSORBED_DAMAGE}" />
+    <string id="pCRwBpzd" text="鼻" />
+    <string id="Ph6PhUwX" text="距離: {DISTANCE} m" />
+    <string id="pHaRIFa8" text="最初の遠隔攻撃によるキル" />
+    <string id="PiLml6Nl" text="攻撃側は士気がなくなるか、90秒が経って時間切れになるまで戦い続けます。旗を獲得すると士気が上がります。{newline}防御側は敵の士気が無くなるまで城を守ります。" />
+    <string id="pMmmfvkN" text="不適切なプレイ" />
+    <string id="pnUSAxzf" text="公式ゲームサーバーのリストを追加する" />
+    <string id="poiKV9sJ" text="はい！" />
+    <string id="poorConnection" text="不良" />
+    <string id="pPoySQPy" text="自分に反射したダメージ: {REFLECTED_DAMAGE}" />
+    <string id="pQibMlbA" text="鼻筋の高さ" />
+    <string id="PuX1G0h3" text="騎乗スキルが不足しています" />
+    <string id="PY6VznGu" text="顔の幅" />
+    <string id="Pzvtcbk6" text="ザウナ" />
+    <string id="Q2EmU0TA" text="チームポイントの上限" />
+    <string id="Q2yjFlC9" text="射撃停止" />
+    <string id="q8lsn0U6" text="自分に割り当てられた部隊を率いて戦闘をおこなう、チームベースのPvPモードです。戦場の空気を制圧して敵チームの士気をくじくか、全滅に追い込んで勝利を掴もう。" />
+    <string id="QDU03vOW" text="対象に {DAMAGE} {DAMAGE_TYPE}ダメージを与えた。" />
+    <string id="qeSbaPWi" text="ボットの数　チーム1" />
+    <string id="qF5pJt7e" text="目の非対称性" />
+    <string id="Qhl77Oki" text="{TROOP_NAME} を倒すために支援した" />
+    <string id="QIDj0u8w" text="任意のプレイヤーにロックする" />
+    <string id="qNga6uPw" text="ダメージを与えた" />
+    <string id="qNRc3pXu" text="充填する" />
+    <string id="QQX6oNbn" text="部隊に参加" />
+    <string id="R3BwLVmT" text="{DAMAGE} {DAMAGE_TYPE}ダメージを与えた。" />
+    <string id="rbYITcao" text="口" />
+    <string id="RDsOaEtS" text="スキル、恩恵、効果での追加ダメージ: {MODIFIED_DAMAGE}" />
+    <string id="Ri6KKhfy" text="ゼンデャール" />
+    <string id="Rj8RhD7F" text="失敗しました" />
+    <string id="RJEHDWmu" text="· ゴールドを使って復活回数（限りがあります）を確保しましょう{newline}· マップの要所を押さえ、敵の士気を削りましょう{newline}· 敵チームを全滅させるか、士気が尽きた状態に追い込めば勝ちです" />
+    <string id="RlDVtPpB" text="目の深さ" />
+    <string id="rLozutts" text="フレンド申請" />
+    <string id="rnP6wzwy" text="開放水域" />
+    <string id="Rvr1bcu8" text="次へ" />
+    <string id="satFJMMu" text="カスタムバトルのサーバーが、互換性のないバージョンとなっています。" />
+    <string id="Sbna6UGb" text="子供の顔" />
+    <string id="sbSdIIXR" text="沿岸水域" />
+    <string id="sBU9vyF1" text="ヘッドショット！" />
+    <string id="scoreboardkick" text="キック" />
+    <string id="SdxEH6b1" text="下唇の形" />
+    <string id="siegemultiplayergametype" text="攻城戦" />
+    <string id="sisK3HPI" text="ミュートされています。" />
+    <string id="SN2ojCFr" text="肌全体" />
+    <string id="SNLShTzq" text="スコア" />
+    <string id="SqR917CO" text="無操作キックを無効にする" />
+    <string id="Suma3RVA" text="1回出現" />
+    <string id="SVAmzGRM" text="プレイヤーをBANする" />
+    <string id="SVeIOaab" text="マッチに勝利するための最低スコア" />
+    <string id="SVnbZdJq" text="耳を隠す" />
+    <string id="sXAATSgd" text="オブスクの港" />
+    <string id="sZxSeeXp" text="準備を終了するために必要なプレイヤー数" />
+    <string id="t1bNrw95" text="小戦の戦績" />
+    <string id="T1JTpYXL" text="声をミュート" />
+    <string id="t8lAbdCk" text="デリアドの島（冬）" />
+    <string id="tAb8KAQb" text="部隊から離脱しました。" />
+    <string id="tAeflOpj" text="{DAMAGE} {DAMAGE_TYPE}ダメージを受けた。" />
+    <string id="Tauk2JzA" text="バージョンが合いません。サーバーバージョン: {SERVERVERSION} - あなたのバージョン: {CLIENTVERSION}" />
+    <string id="tAyw51tM" text="個々の軍旗を許可する" />
+    <string id="TDy1GZHv" text="小戦" />
+    <string id="tFLVZdBz" text="キャラクター作成が終わっていないため、このオプションを使用できません。" />
+    <string id="TGaU0hQi" text="山" />
+    <string id="tnCNPJMO" text="沼地" />
+    <string id="TOfBGa0Z" text="勝利ストリーク" />
+    <string id="tp6B2QGw" text="東アジア" />
+    <string id="tqESV37j" text="守れ！" />
+    <string id="TSoS5HJZ" text="スコルダーの隠れ家" />
+    <string id="TuAP5xXV" text="小鼻の高さ" />
+    <string id="tUETZiIp" text="兜" />
+    <string id="tvDuF1vU" text="攻城塔の早さ (％)" />
+    <string id="tvHQcaC1" text="頬骨の高さ" />
+    <string id="tYuSNFuD" text="バッジ" />
+    <string id="U1em3vrJ" text="肩" />
+    <string id="U3LxBtL0" text="パスワードを入力してください" />
+    <string id="U4xlUBHg" text="鼻の幅" />
+    <string id="U6h8eatq" text="チームデスマッチ" />
+    <string id="UbMCCh8L" text="鼻筋" />
+    <string id="uCrIJ8D4" text="シャリス" />
+    <string id="UEmw71kN" text="{REQUESTER}があなたにフレンド依頼を送信しました。" />
+    <string id="UHIZLFBn" text="{TROOP_NAME} を倒した" />
+    <string id="UJaQuEpD" text="乗騎切替" />
+    <string id="UPH3hI5P" text="マッチメイキング" />
+    <string id="UQabkhbG" text="乗騎の衝突で{DAMAGE} {DAMAGE_TYPE}ダメージ。" />
+    <string id="uqzA4Q4a" text="帝国の別荘" />
+    <string id="UrZvjCfE" text="乗騎に{DAMAGE} {DAMAGE_TYPE}ダメージ。" />
+    <string id="UUKzc88q" text="観客カメラ" />
+    <string id="UvIsHvrt" text="川" />
+    <string id="V1kxYbRp" text="攻撃を切り替え" />
+    <string id="V4iU0wRv" text="ゴールド" />
+    <string id="V6BAHTnv" text="文化チーム2" />
+    <string id="VecPWliR" text="プレイヤーを過剰に報告する行為はBANにつながります。" />
+    <string id="VIgZNfvL" text="VACによりBAN" />
+    <string id="vkEzdL3k" text="ゲームタイプや景色を変更する" />
+    <string id="vM7CssWE" text="ジャワーリの廃墟" />
+    <string id="vo5NpcUS" text="上唇の形" />
+    <string id="vqao3Z2N" text="破城槌の早さ (％)" />
+    <string id="VwyBNTs3" text="顔" />
+    <string id="vZ4mRbfo" text="決闘サーバーのルールに従わない" />
+    <string id="W1nzgCTY" text="口を前に出す" />
+    <string id="W3OXv9Tx" text="最低限の防具着用を強制" />
+    <string id="w9Jf0FeQ" text="任意のエージェントにロックする" />
+    <string id="WfwkVjTA" text="チームメートと肩を並べてプレイする、テンポの速い戦術重視のPvPモードです。ゴールドを賢く管理して、クラスやリスポーンの購入にあてつつ、敵の士気をくじくか完全敗北に追い込もう。" />
+    <string id="wIgbfqQR" text="髪" />
+    <string id="wk4bgkCt" text="乗騎を降りる" />
+    <string id="Wl5xazIU" text="情報バー展開の切替" />
+    <string id="WlVa7XwJ" text="{DAMAGE}の落下ダメージを受けた。" />
+    <string id="WLztEbPL" text="身長" />
+    <string id="WnN8Ul7A" text="ラウンド数" />
+    <string id="WsbShtMt" text="10回目のキル" />
+    <string id="WXAaWZVf" text="前へ" />
+    <string id="Wxlhg1f1" text="ブーツ" />
+    <string id="WxM16s2Y" text="ドルイモアの森" />
+    <string id="wxzhtvZR" text="防御側のリスポーン時間" />
+    <string id="X6N9nSn0" text="あなたはこのサーバーへログインすることが許可されていません。公式パブリックサーバーの利用をお試しください。" />
+    <string id="xgr9rlx3" text="オスラクの暴動" />
+    <string id="xhnV76OL" text="スカラ上陸" />
+    <string id="Xj2FCkQl" text="カスタムサーバー一覧" />
+    <string id="xO8l2Lg1" text="認証に失敗しました" />
+    <string id="xoXWGYVI" text="· 要所に攻め込んだり、防衛する際に多彩な攻城兵器を使いましょう{newline}· 要所を確保されると、復活地点が前倒しされます{newline}· 襲撃の成功、要塞の旗の維持、あるいは敵の撃退が勝利の条件です" />
+    <string id="xq9Vxpyc" text="&lt;a style=&quot;HeadshotTitle.Text&quot; &gt;&lt;b&gt;{TITLE}&lt;/b&gt;&lt;/a&gt;" />
+    <string id="XQndveFG" text="味方を近接攻撃した時のダメージ(自分)" />
+    <string id="xriaEwgN" text="{BAN_EXPIRATION_TIME}まで、ホスティング・サーバーからBANされた状態となります。理由：{BAN_REASON}。" />
+    <string id="XUKRrgOr" text="乗騎に{DAMAGE} {DAMAGE_TYPE}ダメージを与えた。" />
+    <string id="xuo8gmaL" text="· ゴールドを使って復活回数を確保しましょう{newline}· 敵をキルしたり、チームメイトのアシストをすることで、ゴールドを獲得できます{newline}· 相手よりキル数が多ければ勝ちです" />
+    <string id="xXQN7Go6" text="一重まぶた" />
+    <string id="ycCmfxhJ" text="5回目のキル" />
+    <string id="yClOSxT8" text="鼻の輪郭" />
+    <string id="yekjRMT1" text="デュエルの戦績" />
+    <string id="YhDDXj0I" text="渓谷" />
+    <string id="YmPyx3qi" text="プレイヤーのカスタムバトルサーバー数が上限に達しました。" />
+    <string id="YntJTd09" text="エベレスのヒルフォート" />
+    <string id="YoNYyLba" text="槍" />
+    <string id="yQtzabbe" text="閉じる" />
+    <string id="yQu6aBw4" text="再編成！" />
+    <string id="YRabuUqx" text="バラヴェノスの包囲網" />
+    <string id="yRSjcxBv" text="新たなパッチがリリースされました。クライアントをアップデートしてください。" />
+    <string id="YRymCbaa" text="突破された！" />
+    <string id="YSKoiyjt" text="MVP" />
+    <string id="YtSQB7rg" text="ラウンド開始時に必要なクラスを選択します。ゴールドを使用すれば追加のリスポーンが可能です。" />
+    <string id="Yvjap05b" text="移動速度" />
+    <string id="YvK6gI6q" text="町のはずれ" />
+    <string id="yyJejJbO" text="下顎の形" />
+    <string id="Z27nSqNt" text="助けてくれ！" />
+    <string id="Zc2f5bhh" text="全ての敵を倒すか、敵チームの士気を枯渇させるか、ラウンド終了時に最も高い士気を保っていれば勝利です。" />
+    <string id="zHKHwHMr" text="農村地帯" />
+    <string id="zmlCRb1M" text="プレイヤーの最大数" />
+    <string id="ZMmrpMPk" text="首" />
+    <string id="ztGHtRNf" text="不正行為" />
+    <string id="zU7hCYwT" text="パブリッシャーによりBAN" />
+    <string id="ZYChhMrO" text="引き分け" />
+    <string id="ZZMbAjSU" text="突破に成功した！" />
+  </strings>
+</base>

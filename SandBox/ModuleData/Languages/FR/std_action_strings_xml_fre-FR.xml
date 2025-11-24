@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Français" />
+  </tags>
+  <strings>
+    <string id="1B57e3WC" text="{HERO} a rejeté la proposition du conseil {.dl}{FACTION}" />
+    <string id="3aYSoETE" text="{MOTHER.LINK} a donné naissance à un bébé en parfaite santé." />
+    <string id="6q9sb18u" text="{HERO_2.LINK} a été {?HERO_2.GENDER}tuée{?}tué{\?}." />
+    <string id="7SHqWNzE" text="{COMMON_AREA} {?settlementNeedsArticle(SETTLEMENT)}{.dl}{?}{.d}{\?}{SETTLEMENT} {?IS_PLURAL(COMMON_AREA)}ne comptent{?}ne compte{\?} désormais plus aucun malfrat." />
+    <string id="7tx9sch3" text="Repaire détecté" />
+    <string id="8Klpa7Xa" text="{INSULTER.LINK} a juré de prendre sa revanche contre {INSULTEE.LINK}." />
+    <string id="8wlvxzuP" text="{HERO_1.LINK} a rencontré {HERO_2.LINK}." />
+    <string id="a0qduLNq" text="{?settlementNeedsArticle(SETTLEMENT)}{.L}{?}{\?}{SETTLEMENT} est désormais hors de danger." />
+    <string id="aheVbtmm" text="{.A}{ITEM} auprès {.dl}{FACTION}" />
+    <string id="aowJMil0" text="{.L}{KINGDOM} {?IS_PLURAL(KINGDOM)}sont{?}est{\?} en ruines." />
+    <string id="AQK4ADS5" text="{HERO_1.LINK} a tué {HERO_2.LINK}" />
+    <string id="AxMrFoea" text="Les troupes menées par {LORD.LINK} {.dl}{FACTION_NAME} ont assiégé {?settlementNeedsArticle(TOWN_NAME)}{.l}{?}{\?}{TOWN_NAME} !" />
+    <string id="bNAxWneP" text="Selon {INSULTER.LINK}, {INSULTEE.LINK} extorque de l&apos;argent aux compagnies." />
+    <string id="bNDUtygL" text="Selon {INSULTER.LINK}, {INSULTEE.LINK} entrepose des marchandises pour faire grimper les prix." />
+    <string id="Bovy7D7s" text="{MOTHER.LINK} a donné naissance à un enfant mort-né." />
+    <string id="bZvmjYPE" text="{.L}{PARTY} {?IS_PLURAL(PARTY)}défendent{?}défend{\?} {?settlementNeedsArticle(SETTLEMENT)}{.l}{?}{\?}{SETTLEMENT}." />
+    <string id="Cae69FRp" text="{?settlementNeedsArticle(SETTLEMENT)}{.L}{?}{\?}{SETTLEMENT} est {#GENDER(SETTLEMENT)}défendus{#}défendu{#}défendues{#}défendue{\#} par {.l}{PARTY}." />
+    <string id="cOnCiZeH" text="{HERO1} a attaqué la zone commune {.d}{HERO2} {?settlementNeedsArticle(SETTLEMENT)}{.cl}{?}{.c}{\?}{SETTLEMENT}{ADDITIONAL_INFO}" />
+    <string id="dfAE3liA" text="{.L}{CLAN_NAME} {?IS_PLURAL(CLAN_NAME)}ont rejoint{?}a rejoint{\?} {.l}{FACTION}." />
+    <string id="dmqy8OyY" text="Selon {INSULTER.LINK}, {INSULTEE.LINK} est malhonnête en affaires." />
+    <string id="dzJOruIi" text="{HERO.LINK} a pris {COMMON_AREA} {?settlementNeedsArticle(SETTLEMENT)}{.dl}{?}{.d}{\?}{SETTLEMENT}." />
+    <string id="EHFibjkM" text="L&apos;arme menée par {LORD.LINK} {.dl}{FACTION_NAME} a assiégé {?settlementNeedsArticle(TOWN_NAME)}{.l}{?}{\?}{TOWN_NAME} !" />
+    <string id="ELFgdGJZ" text="{MOTHER.LINK} est désormais enceinte." />
+    <string id="eMRMptST" text="{MOTHER.LINK} a donné naissance." />
+    <string id="ExbVzTZA" text="{.L}{CLAN} {?IS_PLURAL(CLAN)}ont conclu{?}a conclu{\?} une alliance militaire avec {.l}{KINGDOM}." />
+    <string id="F3MPgmhR" text="{CLAIMANT.LINK} raconte que {?settlementNeedsArticle(SETTLEMENT_NAME)}{.l}{?}{\?}{SETTLEMENT_NAME} devrait appartenir {.cl}{CLAIMANT_CLAN} et non {.cl}{CURRENT_OWNER_CLAN}." />
+    <string id="FZdiWaBs" text="La zone commune {.d}{HERO} a été capturée." />
+    <string id="h5rkbVu3" text="{LORD.LINK} possède désormais {?settlementNeedsArticle(SETTLEMENT)}{.l}{?}{\?}{SETTLEMENT}." />
+    <string id="h78oPYTs" text="Selon {INSULTER.LINK}, {INSULTEE.LINK} est hérétique." />
+    <string id="hbWhfoWH" text="{LORD.LINK} {.dl}{FACTION_NAME} a pris d&apos;assaut {?settlementNeedsArticle(SETTLEMENT)}{.l}{?}{\?}{SETTLEMENT}." />
+    <string id="hJFCi1zu" text="{.L}{FACTION1} et {.l}{FACTION2} ont fait la paix." />
+    <string id="hopvV6Ch" text="{RULER_NAME} {.dl}{FACTION1_NAME} déclare la guerre {.cl}{FACTION2_NAME}." />
+    <string id="hP57Caab" text="{.L}{VICTOR_PARTY} {.dl}{VICTOR_FACTION} {?IS_PLURAL(VICTOR_PARTY)}ont vaincu{?}a vaincu{\?} {.l}{DEFEATED_PARTY} {.dl}{DEFEATED_FACTION}." />
+    <string id="Jo3Lux3w" text="{HERO_1.LINK} est responsable de la mort {.d}{HERO_2.LINK}." />
+    <string id="jZcV4gI7" text="Selon {INSULTER.LINK}, {INSULTEE.LINK} a essuyé un revers sur le champ de bataille en agissant avec couardise." />
+    <string id="KbakhGqB" text="{HERO_1.LINK} a vaincu le groupe {.d}{HERO_2.LINK}." />
+    <string id="kMwv4QJK" text="{INSULTER.LINK} et {INSULTEE.LINK} ont disputé une cour." />
+    <string id="kqwNCCbZ" text="L&apos;arme menée par {LORD.LINK} {.dl}{FACTION_NAME} a assiégé {?settlementNeedsArticle(TOWN_NAME)}{.l}{?}{\?}{TOWN_NAME} !" />
+    <string id="ksr1bSTC" text="{?settlementNeedsArticle(SETTLEMENT)}{.L}{?}{\?}{SETTLEMENT} subit un assaut {.dl}{PARTY}." />
+    <string id="MoYYusXJ" text="Selon {INSULTER.LINK}, {INSULTEE.LINK} a essuyé un revers sur le champ de bataille en ne suivant pas les ordres." />
+    <string id="nbVW2cJ8" text="L&apos;armée menée par {LORD.LINK} {.dl}{FACTION_NAME} a pris d&apos;assaut {?settlementNeedsArticle(SETTLEMENT)}{.l}{?}{\?}{SETTLEMENT}." />
+    <string id="nPF738Cb" text="{INSULTER.LINK} accuse {INSULTEE.LINK} de semer la discorde entre tout le monde." />
+    <string id="orDGbYZE" text="{INSULTER.LINK} a combattu {INSULTEE.LINK}." />
+    <string id="P9RGAGFC" text="{MOTHER.LINK} est morte pendant l&apos;accouchement." />
+    <string id="pBMMXwVa" text="Selon {INSULTER.LINK}, {INSULTEE.LINK} a essayé d&apos;acquérir des terres de manière frauduleuse." />
+    <string id="pHyqL3bw" text="{MOTHER.LINK} et {FATHER.LINK} ont eu un enfant du nom {.d}{HERO.LINK}." />
+    <string id="PLiydbpQ" text="{.L}{PARTY} {?IS_PLURAL(PARTY)}ont lancé{?}a lancé{\?} l&apos;assaut contre {?settlementNeedsArticle(SETTLEMENT)}{.l}{?}{\?}{SETTLEMENT}." />
+    <string id="PsU1ri42" text="{.L}{PARTY1} {?IS_PLURAL(PARTY1)}ont combattu{?}a combattu{\?} avec {.l}{PARTY2}." />
+    <string id="RpVrqXOU" text="{INSULTER.LINK} et {INSULTEE.LINK} ont disputé un fief." />
+    <string id="S0oFKYfB" text="{.L}{CLAN} ne sert plus {.l}{KINGDOM}." />
+    <string id="SLAkSrb5" text="{.L}{FACTION1_NAME} déclare la guerre {.cl}{FACTION2_NAME}." />
+    <string id="TsYCa2fZ" text="{.L}{FACTION1} et {.l}{FACTION2} ont fait la paix." />
+    <string id="WiiRaLyK" text="Selon {INSULTER.LINK}, {INSULTEE.LINK} a essuyé un revers sur le champ de bataille en agissant précipitamment." />
+    <string id="WYHqMwwo" text="{.L}{CLAN} a été éliminé." />
+    <string id="XRTcnnR2" text="{HERO.LINK} est en fuite." />
+    <string id="yUaE3eeX" text="Plus aucun ennemi dans {?settlementNeedsArticle(SETTLEMENT)}{.l}{?}{\?}{SETTLEMENT}." />
+    <string id="ZQ0bn7l7" text="{HERO_1} a causé la mort {.d}{HERO_2}" />
+  </strings>
+</base>

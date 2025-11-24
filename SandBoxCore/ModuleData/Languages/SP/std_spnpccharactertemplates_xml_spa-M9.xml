@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Español (LA)" />
+  </tags>
+  <strings>
+    <string id="ansW4mx2" text="Habitante de Aserai" />
+    <string id="aseraipeasantman" text="{?NPC.GENDER}Campesina{?}Campesino{\?} aserai" />
+    <string id="baAQDdE5" text="Habitante de Vlandia" />
+    <string id="battaniapeasantman" text="{?NPC.GENDER}Campesina{?}Campesino{\?} battaniano" />
+    <string id="empirepeasantman" text="{?NPC.GENDER}Campesina{?}Campesino{\?} del imperio" />
+    <string id="khuzaitpeasantman" text="{?NPC.GENDER}Campesina{?}Campesino{\?} khuzait" />
+    <string id="Q7wFotYV" text="Habitante de Battania" />
+    <string id="qMqRkvWu" text="Habitante de Sturgia" />
+    <string id="sturgiapeasantman" text="{?NPC.GENDER}Campesina{?}Campesino{\?} de Sturgia" />
+    <string id="V8GrFH4B" text="Habitante de Khuzait" />
+    <string id="vlandiapeasantman" text="{?NPC.GENDER}Campesina{?}Campesino{\?} de Vlandia" />
+    <string id="WbH2HS8j" text="Habitante del imperio" />
+  </strings>
+</base>

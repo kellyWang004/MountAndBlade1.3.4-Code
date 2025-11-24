@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="日本語" />
+  </tags>
+  <strings>
+    <string id="0Itt3bZM" text="現在のキーバインド記録のバージョンは最新ではありません。キーバインドは初期設定にリセットされました。" />
+    <string id="1hlaGzGI" text="見る" />
+    <string id="1hnq3Kb1" text="すべての属性をリセットしますか？リセットすると変更内容は失われます。" />
+    <string id="2AGvFYk9" text="ミッションを開始するには、{FORMATION_CLASS}クラスの編隊が最低でも1つ必要です。" />
+    <string id="4gCU2ykB" text="キーをすべてリセット" />
+    <string id="5Ixsvn3s" text="スコアボードを切り替え" />
+    <string id="61isYVW0" text="プレイヤー {USER_NAME} は見つかりませんでした" />
+    <string id="6syoutpV" text="{WHISPER_TARGET} より" />
+    <string id="74PKmRWJ" text="髪を後ろに流す" />
+    <string id="76VR5o8h" text="次のメッセージを送るには、{SECONDS}秒待つ必要があります。" />
+    <string id="7jhe9cT9" text="この編隊の種類を変更するには、この種類の編隊が最低でも1つ以上は必要です。" />
+    <string id="7XtICVeZ" text="FOV" />
+    <string id="82LuSDnd" text="高速カーソル移動（左）" />
+    <string id="9pCzjSTa" text="兵士タイプの{PERCENTAGE}%" />
+    <string id="ADKHovtz" text="配備をリセット" />
+    <string id="atUHbDeM" text="マップカメラの回転" />
+    <string id="b1DHZsaH" text="今は指令を出すことができません。" />
+    <string id="bIcFZT6L" text="眉の種類" />
+    <string id="bLPSaLNv" text="高速カーソル移動（右）" />
+    <string id="bsiRNJtk" text="{NAME}:" />
+    <string id="CCBcdzGa" text="このカテゴリにおける、全てのオプションがデフォルトの状態に戻ります。この行動を取り消すことはできません。{newline} {newline}本当によろしいですか？" />
+    <string id="cDzWYQrz" text="設定をデフォルトに戻しますか？" />
+    <string id="cLJdeUWz" text="身長:" />
+    <string id="D0TbQm4r" text="城壁が破られました" />
+    <string id="d1tCz15N" text="長押しして落とす" />
+    <string id="d5SNB0HV" text="{ITEM_NAME} を選択してください" />
+    <string id="Dhb2N5JD" text="{KEY}でチャンネルを切り替える" />
+    <string id="DmaP2qaR" text="肌の色の種類" />
+    <string id="DQvGNQ0g" text="指揮できるユニットがいません。" />
+    <string id="DvnRkWQg" text="兵士を{FORMATION_INDEX}へ移動する" />
+    <string id="eeJcVeQG" text="フォーカスエンド" />
+    <string id="eGuQKRhb" text="撤退しようとしています！" />
+    <string id="EUAKPHek" text="体格:" />
+    <string id="f64QfbTO" text="{KEY}で送信" />
+    <string id="FRSGOfUJ" text="切替に戦闘履歴を含む" />
+    <string id="FTXx0aRp" text="としてプレイ" />
+    <string id="G6hYIR5k" text="声の高さ:" />
+    <string id="gamepadActionKeybind" text="アクション" />
+    <string id="gamepadMapKeybind" text="マップ" />
+    <string id="gamevideo" text="ビデオ" />
+    <string id="GMhOZGnb" text="死亡している間は指令を出すことができません。" />
+    <string id="hdGay8xc" text="マップカーソル移動" />
+    <string id="HEEZhL90" text="押して装備する" />
+    <string id="hiKTvBgF" text="このタブで行った変更をリセットしますか？リセットすると変更内容は失われます。" />
+    <string id="i28Kjuay" text="キャラクターの移動" />
+    <string id="i4Oo6aoM" text="コンテンツをダウンロード中…" />
+    <string id="j5pLIV91" text="フォーカススタート" />
+    <string id="J9V9YhkY" text="隊長が騎乗しました！" />
+    <string id="jS5rrX8M" text="特に変更はおこなわれませんでした。" />
+    <string id="l2CNxPXG" text="歯の種類" />
+    <string id="lCZMJt2k" text="ビデオオプションが変更されました" />
+    <string id="LlrlE199" text="まだ攻城兵器の配備が可能です。{newline}このまま始めますか？" />
+    <string id="LW8QCm22" text="お知らせ" />
+    <string id="macpKFaG" text="声" />
+    <string id="meFS5F4V" text="-{DAMAGE}" />
+    <string id="mPCrz4rs" text="相対的な変動において兵士の割合をロックする" />
+    <string id="nEpZvaEl" text="高速カーソル移動（下）" />
+    <string id="ngyMTaqr" text="英雄兵士として割り当て" />
+    <string id="Npqlj5Ln" text="変更を元に戻す" />
+    <string id="NuMQvQxg" text="シャウト" />
+    <string id="ou5KJERr" text="{KEY}で隠れる" />
+    <string id="oZc8oEAP" text="カテゴリをデフォルトにリセット" />
+    <string id="peUP9ZZj" text="実行しますか？変更すると元には戻せません。" />
+    <string id="photomodefocus" text="フォーカス" />
+    <string id="pK4EyTZC" text="こちらの設定を保存しますか？" />
+    <string id="qmNeO8FG" text="キー割り当て" />
+    <string id="qXxpITdc" text="目の色:" />
+    <string id="QZd3VSmO" text="当社は『War Sails』拡張パックをリリースしました。本作には、船、海戦、およびその他にも多くのコンテンツが含まれ、最新世代のプラットフォームでご利用いただけます。また、一部のプラットフォームでの製品ページリンクの追加により、ESRBのレーティング情報を次のとおり更新する必要があります。" />
+    <string id="RVIKFCno" text="デフォルトにリセット" />
+    <string id="rx18kyZb" text="戦闘記録" />
+    <string id="Sbb8YcJM" text="選択中の英雄を全て選択解除" />
+    <string id="scnSXrYC" text="軍旗の担い手" />
+    <string id="SfsnlbyK" text="変更が反映されました。" />
+    <string id="SLY8z9fP" text="全ての編隊を選択済みです！" />
+    <string id="SQpGQzTI" text="コントローラー" />
+    <string id="suyl7WWa" text="旗が装備されていません" />
+    <string id="trPyg7mr" text="戦闘士気" />
+    <string id="TxphX8Uk" text="配備" />
+    <string id="U1rHNqOk" text="{KEY}でキャンセル" />
+    <string id="u78WUP9W" text="高速カーソル移動（上）" />
+    <string id="ufjypmaX" text="隊長が騎乗していません！" />
+    <string id="UhB1jlua" text="当社は『War Sails』拡張パックをリリースしました。本作には、船、海戦、およびその他にも多くのコンテンツが含まれています。また、一部のプラットフォームでの製品ページリンクの追加により、ESRBのレーティング情報を次のとおり更新する必要があります。" />
+    <string id="Uma907CV" text="当社は『War Sails』拡張パックをリリースしました。本作には、船、海戦、およびその他にも多くのコンテンツが含まれています。メインメニューのリンクを使用してストアページに移動すると、詳細情報や拡張パックの入手方法をご覧いただけます。また、製品ページリンクの追加により、ESRBのレーティング情報を次のとおり更新する必要があります。" />
+    <string id="VIdtkghu" text="ESRBレーティング情報が更新され、インタラクティブ要素が含まれるようになりました：\{newline}ゲーム内購入" />
+    <string id="VyMD4iRV" text="英雄兵士" />
+    <string id="YjbNtFcw" text="全てのキーがデフォルトの状態に戻ります。この行動を取り消すことはできません。{newline} {newline}本当によろしいですか？" />
+    <string id="YwbymaBc" text="全ての英雄を選択" />
+    <string id="zBld61ck" text="重さ:" />
+    <string id="zjcZZgUY" text="旗の効果" />
+  </strings>
+</base>

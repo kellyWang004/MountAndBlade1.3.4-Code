@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Polski" />
+  </tags>
+  <strings>
+    <string id="1B57e3WC" text="{?HERO.GENDER}unieważniła{?}unieważnił{\?} wolę rady {FACTION}{.g}." />
+    <string id="3aYSoETE" text="{MOTHER.LINK} urodziła zdrowe dziecko." />
+    <string id="6q9sb18u" text="{?HERO_2.GENDER}została zabita{?}został zabity{\?}." />
+    <string id="7SHqWNzE" text="Okolica w {SETTLEMENT}{.l} ({COMMON_AREA}) jest wolna od zbirów." />
+    <string id="7tx9sch3" text="Odkryto kryjówkę" />
+    <string id="8Klpa7Xa" text="{?INSULTER.GENDER}poprzysięgła{?}poprzysiągł{\?} zemstę przeciw {INSULTEE.LINK}{.d}." />
+    <string id="8wlvxzuP" text="{HERO_1.LINK} poznaje {HERO_2.LINK}{.a}." />
+    <string id="a0qduLNq" text="W {SETTLEMENT}{.l} jest już bezpiecznie." />
+    <string id="aheVbtmm" text="{ITEM} ({FACTION})" />
+    <string id="aowJMil0" text="Zniszczono {KINGDOM}{.a}." />
+    <string id="AQK4ADS5" text="{?HERO_1.GENDER}zamordowała{?}zamordował{\?} {HERO_2.LINK}{.a}." />
+    <string id="AxMrFoea" text="{LORD.LINK} ({FACTION_NAME}) oblega ze swoimi wojskami {TOWN_NAME}{.a}!" />
+    <string id="bNAxWneP" text="{INSULTER.LINK} twierdzi, że {INSULTEE.LINK} wymusza pieniądze od przedsiębiorców." />
+    <string id="bNDUtygL" text="{INSULTER.LINK} twierdzi, że {INSULTEE.LINK} gromadzi dobra, by doprowadzić do wzrostu cen." />
+    <string id="Bovy7D7s" text="{MOTHER.LINK} urodziła, lecz dziecko przyszło na świat martwe." />
+    <string id="bZvmjYPE" text="{PARTY} broni {SETTLEMENT}{.g}." />
+    <string id="Cae69FRp" text="{PARTY} broni {SETTLEMENT}{.g}." />
+    <string id="cOnCiZeH" text="{?HERO1.GENDER}zaatakowała{?}zaatakował{\?} wspólny obszar {HERO2}{.g} w {SETTLEMENT}{.l}({ADDITIONAL_INFO})." />
+    <string id="dfAE3liA" text="Klan {CLAN_NAME} dołączył do {FACTION}{.g}." />
+    <string id="dmqy8OyY" text="{INSULTER.LINK} twierdzi, że {INSULTEE.LINK} uprawia nieuczciwe interesy." />
+    <string id="dzJOruIi" text="{HERO.LINK} zdobywa {COMMON_AREA}{.a} w {SETTLEMENT}{.l}." />
+    <string id="EHFibjkM" text="{LORD.LINK} ({FACTION_NAME}) oblega ze swoją armią {TOWN_NAME}{.a}!" />
+    <string id="ELFgdGJZ" text="{MOTHER.LINK} jest teraz w ciąży." />
+    <string id="eMRMptST" text="{MOTHER.LINK} urodziła." />
+    <string id="ExbVzTZA" text="{CLAN} zobowiązuje się do walki po stronie {KINGDOM}{.g}." />
+    <string id="F3MPgmhR" text="{CLAIMANT.LINK} twierdzi, że to {CLAIMANT_CLAN}{.d}, a nie {CURRENT_OWNER.CLAN}{.d}, należy się władza w {SETTLEMENT_NAME}{.l}." />
+    <string id="FZdiWaBs" text="Obszar wspólny należący do {HERO}{.g} został zajęty." />
+    <string id="h5rkbVu3" text="{LORD.LINK} jest {?LORD.GENDER}nową panią{?}nowym panem{\?} {SETTLEMENT}{.g}." />
+    <string id="h78oPYTs" text="{INSULTER.LINK} twierdzi, że {INSULTEE.LINK} to {?INSULTEE.GENDER}heretyczka{?}heretyk{\?}." />
+    <string id="hbWhfoWH" text="{LORD.LINK} ({FACTION_NAME}) łupi {SETTLEMENT}{.a}" />
+    <string id="hJFCi1zu" text="{FACTION1} i {FACTION2} są w stanie pokoju." />
+    <string id="hopvV6Ch" text="{RULER_NAME}, {?RULER.GENDER}przedstawicielka{?}przedstawiciel{\?} {FACTION1_NAME}{.g}, wypowiada wojnę {FACTION2_NAME}{.d}." />
+    <string id="hP57Caab" text="{VICTOR_PARTY} ({VICTOR_FACTION}) pokonuje {DEFEATED_PARTY}{.a} ({DEFEATED_FACTION})." />
+    <string id="Jo3Lux3w" text="{HERO_1.LINK} odpowiada za śmierć {HERO_2.LINK}{.g}" />
+    <string id="jZcV4gI7" text="{INSULTER.LINK} twierdzi, że {INSULTEE.LINK} swoim tchórzliwym zachowaniem {?INSULTEE.GENDER}stworzyła{?}stworzył{\?} zagrożenie na polu bitwy." />
+    <string id="KbakhGqB" text="{HERO_1.LINK} pokonuje drużynę {HERO_2.LINK}{.g}." />
+    <string id="kMwv4QJK" text="{INSULTER.LINK} spiera się z {INSULTEE.LINK}{.i} z powodu zalotów." />
+    <string id="kqwNCCbZ" text="{LORD.LINK} ({FACTION_NAME}) oblega ze swoją armią {TOWN_NAME}{.a}!" />
+    <string id="ksr1bSTC" text="{PARTY} atakuje {SETTLEMENT}{.a}." />
+    <string id="MoYYusXJ" text="{INSULTER.LINK} twierdzi, że {INSULTEE.LINK} {?INSULTEE.GENDER}stworzyła{?}stworzył{\?} zagrożenie na polu bitwy, nie wykonując rozkazów." />
+    <string id="nbVW2cJ8" text="{LORD.LINK} ({FACTION_NAME}) łupi ze swoją armią {SETTLEMENT}{.a}" />
+    <string id="nPF738Cb" text="{INSULTER.LINK} oskarża {INSULTEE.LINK}{.a} o podburzanie ludu." />
+    <string id="orDGbYZE" text="{INSULTER.LINK} spiera się z {INSULTEE.LINK}{.i}." />
+    <string id="P9RGAGFC" text="{MOTHER.LINK} umarła w trakcie porodu." />
+    <string id="pBMMXwVa" text="{INSULTER.LINK} twierdzi, że {INSULTEE.LINK} próbuje w nieuczciwy sposób pozyskiwać ziemie." />
+    <string id="pHyqL3bw" text="{?HERO.GENDER}Urodziła{?}Urodził{\?} się {HERO.LINK}, {?HERO.GENDER}córka{?}syn{\?} {MOTHER.LINK}{.g} i {FATHER.LINK}{.g}." />
+    <string id="PLiydbpQ" text="{PARTY} rozpoczyna łupienie {SETTLEMENT}{.g}." />
+    <string id="PsU1ri42" text="{PARTY1} toczy bitwę z {PARTY2}{.i}." />
+    <string id="RpVrqXOU" text="{INSULTER.LINK} spiera się o lenno z {INSULTEE.LINK}{.i}." />
+    <string id="S0oFKYfB" text="Członkowie klanu {CLAN}{.g} nie służą już {KINGDOM}{.d}." />
+    <string id="SLAkSrb5" text="Frakcja {FACTION1_NAME}{.g} wypowiada wojnę {FACTION2_NAME}{.d}." />
+    <string id="TsYCa2fZ" text="{FACTION1} i {FACTION2} są w stanie pokoju." />
+    <string id="WiiRaLyK" text="{INSULTER.LINK} twierdzi, że {INSULTEE.LINK} swoją nieostrożnością {?INSULTEE.GENDER}stworzyła{?}stworzył{\?} zagrożenie na polu bitwy." />
+    <string id="WYHqMwwo" text="Klan {CLAN}{.g} został wyeliminowany." />
+    <string id="XRTcnnR2" text="{HERO.LINK} jest {?HERO.GENDER}ścigana{?}ścigany{\?}." />
+    <string id="yUaE3eeX" text="Oczyszczono {SETTLEMENT}{.a}." />
+    <string id="ZQ0bn7l7" text="{HERO_1} odpowiada za śmierć {HERO_2}{.g}" />
+  </strings>
+</base>

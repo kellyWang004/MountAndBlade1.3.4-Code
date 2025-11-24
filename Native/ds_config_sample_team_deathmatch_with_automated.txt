@@ -1,0 +1,15 @@
+ServerName Team Deathmatch Auto
+GameType TeamDeathmatch
+add_map_to_automated_battle_pool mp_tdm_map_004a
+add_map_to_automated_battle_pool mp_tdm_map_003
+add_map_to_automated_battle_pool mp_tdm_map_001_spring
+AllowPollsToKickPlayers False
+AllowPollsToBanPlayers False
+AllowPollsToChangeMaps False
+MapTimeLimit 30
+RespawnPeriodTeam1 5
+RespawnPeriodTeam1 5
+MinNumberOfPlayersForMatchStart 0
+MaxNumberOfPlayers 100
+start_game
+enable_automated_battle_switching

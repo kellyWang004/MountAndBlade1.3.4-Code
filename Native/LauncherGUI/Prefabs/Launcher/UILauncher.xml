@@ -1,0 +1,245 @@
+<Prefab>
+  <Constants>
+    <Constant Name="Background.Width" BrushLayer="Default" BrushName="Launcher.Background" BrushValueType="Width" />
+    <Constant Name="Background.Height" BrushLayer="Default" BrushName="Launcher.Background" BrushValueType="Height" />
+
+    <Constant Name="GameLogo.Width" BrushLayer="Default" BrushName="Launcher.GameLogo" BrushValueType="Width" />
+    <Constant Name="GameLogo.Height" BrushLayer="Default" BrushName="Launcher.GameLogo" BrushValueType="Height" />
+
+    <Constant Name="CloseButton.Icon.Width" BrushLayer="Default" BrushName="Launcher.CloseButton" BrushValueType="Width" />
+    <Constant Name="CloseButton.Icon.Height" BrushLayer="Default" BrushName="Launcher.CloseButton" BrushValueType="Height" />
+
+    <Constant Name="MinimizeButton.Icon.Width" BrushLayer="Default" BrushName="Launcher.MinimizeButton" BrushValueType="Width" />
+    <Constant Name="MinimizeButton.Icon.Height" BrushLayer="Default" BrushName="Launcher.MinimizeButton" BrushValueType="Height" />
+
+    <Constant Name="PlayButton.Inner.Singleplayer.Width" BrushLayer="Default" BrushName="Launcher.PlayButton.Inner.Singleplayer" BrushValueType="Width" />
+    <Constant Name="PlayButton.Inner.Singleplayer.Height" BrushLayer="Default" BrushName="Launcher.PlayButton.Inner.Singleplayer" BrushValueType="Height" />
+
+    <Constant Name="PlayButton.Inner.Multiplayer.Width" BrushLayer="Default" BrushName="Launcher.PlayButton.Inner.Multiplayer" BrushValueType="Width" />
+    <Constant Name="PlayButton.Inner.Multiplayer.Height" BrushLayer="Default" BrushName="Launcher.PlayButton.Inner.Multiplayer" BrushValueType="Height" />
+    
+    <Constant Name="PlayButton.Inner.DigitalCompanion.Width" BrushLayer="Default" BrushName="Launcher.PlayButton.Inner.DigitalCompanion" BrushValueType="Width" />
+    <Constant Name="PlayButton.Inner.DigitalCompanion.Height" BrushLayer="Default" BrushName="Launcher.PlayButton.Inner.DigitalCompanion" BrushValueType="Height" />
+
+    <Constant Name="PlayButton.Particles.Singleplayer.Width" BrushLayer="Default" BrushName="Launcher.PlayButton.Particles.Singleplayer" BrushValueType="Width" />
+    <Constant Name="PlayButton.Particles.Singleplayer.Height" BrushLayer="Default" BrushName="Launcher.PlayButton.Particles.Singleplayer" BrushValueType="Height" />
+
+    <Constant Name="PlayButton.Particles.Multiplayer.Width" BrushLayer="Default" BrushName="Launcher.PlayButton.Particles.Multiplayer" BrushValueType="Width" />
+    <Constant Name="PlayButton.Particles.Multiplayer.Height" BrushLayer="Default" BrushName="Launcher.PlayButton.Particles.Multiplayer" BrushValueType="Height" />
+
+    <Constant Name="PlayButton.Particles.DigitalCompanion.Width" BrushLayer="Default" BrushName="Launcher.PlayButton.Particles.DigitalCompanion" BrushValueType="Width" />
+    <Constant Name="PlayButton.Particles.DigitalCompanion.Height" BrushLayer="Default" BrushName="Launcher.PlayButton.Particles.DigitalCompanion" BrushValueType="Height" />
+
+    <Constant Name="PlayButton.Sparks.Singleplayer.Width" BrushLayer="Default" BrushName="Launcher.PlayButton.Sparks.Singleplayer" BrushValueType="Width" />
+    <Constant Name="PlayButton.Sparks.Singleplayer.Height" BrushLayer="Default" BrushName="Launcher.PlayButton.Sparks.Singleplayer" BrushValueType="Height" />
+
+    <Constant Name="PlayButton.Sparks.Multiplayer.Width" BrushLayer="Default" BrushName="Launcher.PlayButton.Sparks.Multiplayer" BrushValueType="Width" />
+    <Constant Name="PlayButton.Sparks.Multiplayer.Height" BrushLayer="Default" BrushName="Launcher.PlayButton.Sparks.Multiplayer" BrushValueType="Height" />
+    
+    <Constant Name="PlayButton.Sparks.DigitalCompanion.Width" BrushLayer="Default" BrushName="Launcher.PlayButton.Sparks.DigitalCompanion" BrushValueType="Width" />
+    <Constant Name="PlayButton.Sparks.DigitalCompanion.Height" BrushLayer="Default" BrushName="Launcher.PlayButton.Sparks.DigitalCompanion" BrushValueType="Height" />
+
+    <Constant Name="PlayButton.Frame.Singleplayer.Width" Value="!PlayButton.Inner.Singleplayer.Width" Additive="20" />
+    <Constant Name="PlayButton.Frame.Singleplayer.Height" Value="!PlayButton.Inner.Singleplayer.Height" Additive="25" />
+
+    <Constant Name="PlayButton.Frame.Multiplayer.Width" Value="!PlayButton.Inner.Multiplayer.Width" Additive="25" />
+    <Constant Name="PlayButton.Frame.Multiplayer.Height" Value="!PlayButton.Inner.Multiplayer.Height" Additive="25" />
+
+    <Constant Name="ConceptArt.Width" Value="476" />
+    <Constant Name="ConceptArt.Height" Value="701" />
+
+    <Constant Name="ContentMargin.Right" Value="140" />
+
+    <Constant Name="Tooltip.Text.Margin" Value="13" />
+
+    <Constant Name="Button.Text.Vertical.Offset" Value="4" />
+  </Constants>
+  <Window>
+    <LauncherDragWindowAreaWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren">
+      <Children>
+
+        <Widget DoNotAcceptEvents="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="Fixed" SuggestedHeight="!ConceptArt.Height">
+          <Children>
+            <Widget DoNotAcceptEvents="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!Background.Width" SuggestedHeight="!Background.Height" VerticalAlignment="Bottom" MarginRight="216" Sprite="launcher_canvas" >
+              <Children>
+                <Widget DoNotAcceptEvents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="2" MarginRight="2" MarginTop="2" MarginBottom="2" Sprite="launcher_canvas_texture" />
+
+                <Widget Id="TopMenu" DoNotAcceptEvents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="86" MarginLeft="1" MarginRight="!ContentMargin.Right" MarginTop="1">
+                  <Children>
+                    <Widget DoNotAcceptEvents="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!GameLogo.Width" SuggestedHeight="!GameLogo.Height" VerticalAlignment="Center" PositionYOffset="-2" MarginLeft="20" Sprite="mb_logo_launcher" />
+
+                    <Widget DoNotAcceptEvents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="260" MarginRight="100" >
+                      <Children>
+
+                        <!--SP, MP, DC-->
+                        <Widget DoNotAcceptEvents="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="Fixed" SuggestedHeight="30" MarginTop="10">
+                          <Children>
+                            <ListPanel DoNotAcceptEvents="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="Fixed" SuggestedHeight="30">
+                              <Children>
+
+                                <ButtonWidget DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="140" ButtonType="Radio" IsEnabled="@IsSingleplayerAvailable" IsSelected="@IsSingleplayer" UpdateChildrenStates="true">
+                                  <Children>
+                                    <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Launcher.GameTypeButton.SingleplayerText" Text="@SingleplayerText" />
+                                  </Children>
+                                </ButtonWidget>
+
+                                <!--<Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="2" SuggestedHeight="30" HorizontalAlignment="Center" Sprite="top_header_divider" />-->
+
+                                <ButtonWidget DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="140" ButtonType="Radio" IsSelected="@IsMultiplayer" UpdateChildrenStates="true">
+                                  <Children>
+                                    <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Launcher.GameTypeButton.MultiplayerText" Text="@MultiplayerText" />
+                                  </Children>
+                                </ButtonWidget>
+
+                                <!--<Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="2" SuggestedHeight="30" HorizontalAlignment="Center" Sprite="top_header_divider" IsVisible="@IsDigitalCompanionAvailable"/>-->
+
+                                <ButtonWidget DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="200" ButtonType="Radio" IsVisible="@IsDigitalCompanionAvailable" IsSelected="@IsDigitalCompanion" UpdateChildrenStates="true">
+                                  <Children>
+                                    <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Launcher.GameTypeButton.DigitalCompanionText" Text="@DigitalCompanionText" />
+                                  </Children>
+                                </ButtonWidget>
+                              </Children>
+                            </ListPanel>
+
+                          </Children>
+                        </Widget>
+
+                        <Widget DoNotAcceptEvents="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="523" SuggestedHeight="2" HorizontalAlignment="Center" MarginTop="50" Sprite="submenu_divider" />
+
+                        <!--Mods, News-->
+                        <ListPanel DoNotAcceptEvents="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="Fixed" SuggestedHeight="30" MarginTop="52">
+                          <Children>
+                            <TabToggleWidget DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="80" IsSelected="true" TabControlWidget="..\..\..\..\ContentPanel" TabName="NewsPage" UpdateChildrenStates="true">
+                              <Children>
+                                <!--<LauncherBoolBrushWidget BoolVariable="@IsMultiplayer" OnFalseBrush="Launcher.SubMenuButton.SingleplayerText" OnTrueBrush="Launcher.SubMenuButton.MultiplayerText" TargetWidget="..\SubMenuText" />-->
+                                <TextWidget Id="SubMenuText" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Launcher.SubMenuButton.SingleplayerText" Text="@NewsText" />
+                              </Children>
+                            </TabToggleWidget>
+                            <TabToggleWidget DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="80" TabControlWidget="..\..\..\..\ContentPanel" TabName="ModsPage" UpdateChildrenStates="true" IsHidden="@IsDigitalCompanion">
+                              <Children>
+                                <!--<LauncherBoolBrushWidget BoolVariable="@IsMultiplayer" OnFalseBrush="Launcher.SubMenuButton.SingleplayerText" OnTrueBrush="Launcher.SubMenuButton.MultiplayerText" TargetWidget="..\SubMenuText" />-->
+                                <TextWidget Id="SubMenuText" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Launcher.SubMenuButton.SingleplayerText" Text="@ModsText" />
+                              </Children>
+                            </TabToggleWidget>
+                          </Children>
+                        </ListPanel>
+
+                      </Children>
+                    </Widget>
+
+                    <!--Close, Minimize-->
+                    <Widget DoNotAcceptEvents="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Right" MarginTop="10">
+                      <Children>
+                        <ButtonWidget DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="32" SuggestedHeight="32" HorizontalAlignment="Right" Command.Click="ExecuteClose" UpdateChildrenStates="true">
+                          <Children>
+                            <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!CloseButton.Icon.Width" SuggestedHeight="!CloseButton.Icon.Height" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Launcher.CloseButton" />
+                          </Children>
+                        </ButtonWidget>
+                        <ButtonWidget DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="32" SuggestedHeight="32" HorizontalAlignment="Right" MarginRight="40" Command.Click="ExecuteMinimize" UpdateChildrenStates="true">
+                          <Children>
+                            <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!MinimizeButton.Icon.Width" SuggestedHeight="!MinimizeButton.Icon.Height" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Launcher.MinimizeButton" />
+                          </Children>
+                        </ButtonWidget>
+                      </Children>
+                    </Widget>
+
+                  </Children>
+                </Widget>
+
+                <Widget DoNotAcceptEvents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="2" MarginLeft="2" MarginRight="2" MarginTop="87" Sprite="launcher_divider" AlphaFactor="0.7" />
+
+                <TabControl Id="ContentPanel" DoNotAcceptEvents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="1" MarginRight="!ContentMargin.Right" MarginTop="90" MarginBottom="114">
+                  <Children>
+                    <Launcher.News Id="NewsPage" DataSource="{News}"/>
+                    <Launcher.Mods Id="ModsPage" DataSource="{ModsData}" />
+                  </Children>
+                </TabControl>
+
+                <Widget DoNotAcceptEvents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="2" VerticalAlignment="Bottom" MarginLeft="2" MarginRight="2" MarginBottom="113" Sprite="launcher_divider" AlphaFactor="0.5" />
+
+                <ListPanel WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="HorizontalLeftToRight" HorizontalAlignment="Center" VerticalAlignment="Bottom" MarginBottom="18" MarginRight="155">
+                  <Children>
+
+                    <ButtonWidget Id="PlaySingleplayerButton" DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!PlayButton.Frame.Singleplayer.Width" SuggestedHeight="!PlayButton.Frame.Singleplayer.Height" Command.Click="ExecuteStartGame" CommandParameter.Click="0" UpdateChildrenStates="true" MarginLeft="5" MarginRight="5" IsVisible="@IsSingleplayer">
+                      <Children>
+                        <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!PlayButton.Inner.Singleplayer.Width" SuggestedHeight="!PlayButton.Inner.Singleplayer.Height" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Launcher.PlayButton.Inner.Singleplayer" />
+                        <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="11" MarginRight="11" MarginTop="11" MarginBottom="11" ClipContents="true">
+                          <Children>
+                            <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!PlayButton.Particles.Singleplayer.Width" SuggestedHeight="!PlayButton.Particles.Singleplayer.Height" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Launcher.PlayButton.Particles.Singleplayer"  />
+                            <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!PlayButton.Sparks.Singleplayer.Width" SuggestedHeight="!PlayButton.Sparks.Singleplayer.Height" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Launcher.PlayButton.Sparks.Singleplayer" />
+                          </Children>
+                        </Widget>
+                        <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Launcher.PlayButton.Text" Text="@PlayText" />
+                        <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!PlayButton.Frame.Singleplayer.Width" SuggestedHeight="!PlayButton.Frame.Singleplayer.Height" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Launcher.PlayButton.Frame" />
+                      </Children>
+                    </ButtonWidget>
+
+                    <ButtonWidget Id="ContinueSingleplayerButton" DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!PlayButton.Frame.Singleplayer.Width" SuggestedHeight="!PlayButton.Frame.Singleplayer.Height" HorizontalAlignment="Center" VerticalAlignment="Center" MarginLeft="5" MarginRight="5" Command.Click="ExecuteStartGame" CommandParameter.Click="1" UpdateChildrenStates="true" IsVisible="@IsSingleplayer">
+                      <Children>
+                        <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!PlayButton.Inner.Singleplayer.Width" SuggestedHeight="!PlayButton.Inner.Singleplayer.Height" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Launcher.PlayButton.Inner.Continue" />
+                        <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="11" MarginRight="11" MarginTop="11" MarginBottom="11" ClipContents="true">
+                          <Children>
+                            <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!PlayButton.Particles.Singleplayer.Width" SuggestedHeight="!PlayButton.Particles.Singleplayer.Height" HorizontalAlignment="Center" VerticalAlignment="Center"  Brush="Launcher.PlayButton.Particles.Singleplayer" />
+                            <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!PlayButton.Sparks.Singleplayer.Width" SuggestedHeight="!PlayButton.Sparks.Singleplayer.Height" HorizontalAlignment="Center" VerticalAlignment="Center"  Brush="Launcher.PlayButton.Sparks.Singleplayer" />
+                          </Children>
+                        </Widget>
+                        <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Launcher.PlayButton.Text" Text="@ContinueText" />
+                        <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!PlayButton.Frame.Singleplayer.Width" SuggestedHeight="!PlayButton.Frame.Singleplayer.Height" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Launcher.PlayButton.Frame" />
+                      </Children>
+                    </ButtonWidget>
+
+                    <ButtonWidget Id="PlayMultiplayerButton" DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!PlayButton.Frame.Multiplayer.Width" SuggestedHeight="!PlayButton.Frame.Multiplayer.Height" HorizontalAlignment="Center" VerticalAlignment="Center" MarginLeft="5" MarginRight="5" Command.Click="ExecuteStartGame" CommandParameter.Click="0" UpdateChildrenStates="true" IsVisible="@IsMultiplayer">
+                      <Children>
+                        <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!PlayButton.Inner.Multiplayer.Width" SuggestedHeight="!PlayButton.Inner.Multiplayer.Height" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Launcher.PlayButton.Inner.Multiplayer" />
+                        <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="11" MarginRight="11" MarginTop="11" MarginBottom="11" ClipContents="true">
+                          <Children>
+                            <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!PlayButton.Particles.Multiplayer.Width" SuggestedHeight="!PlayButton.Particles.Multiplayer.Height" HorizontalAlignment="Center" VerticalAlignment="Center"  Brush="Launcher.PlayButton.Particles.Multiplayer" />
+                            <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!PlayButton.Sparks.Multiplayer.Width" SuggestedHeight="!PlayButton.Sparks.Multiplayer.Height" HorizontalAlignment="Center" VerticalAlignment="Center"  Brush="Launcher.PlayButton.Sparks.Multiplayer" />
+                          </Children>
+                        </Widget>
+                        <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Launcher.PlayButton.Text" Text="@PlayText" />
+                        <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!PlayButton.Frame.Multiplayer.Width" SuggestedHeight="!PlayButton.Frame.Multiplayer.Height" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Launcher.PlayButton.Frame" />
+                      </Children>
+                    </ButtonWidget>
+
+                    <ButtonWidget Id="PlayDigitalCompanionButton" DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!PlayButton.Frame.Multiplayer.Width" SuggestedHeight="!PlayButton.Frame.Multiplayer.Height" HorizontalAlignment="Center" VerticalAlignment="Center" MarginLeft="5" MarginRight="5" Command.Click="ExecuteStartGame" CommandParameter.Click="0" UpdateChildrenStates="true" IsVisible="@IsDigitalCompanion">
+                      <Children>
+                        <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!PlayButton.Inner.DigitalCompanion.Width" SuggestedHeight="!PlayButton.Inner.DigitalCompanion.Height" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Launcher.PlayButton.Inner.DigitalCompanion" />
+                        <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="11" MarginRight="11" MarginTop="11" MarginBottom="11" ClipContents="true">
+                          <Children>
+                            <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!PlayButton.Particles.DigitalCompanion.Width" SuggestedHeight="!PlayButton.Particles.DigitalCompanion.Height" HorizontalAlignment="Center" VerticalAlignment="Center"  Brush="Launcher.PlayButton.Particles.DigitalCompanion" />
+                            <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!PlayButton.Sparks.DigitalCompanion.Width" SuggestedHeight="!PlayButton.Sparks.DigitalCompanion.Height" HorizontalAlignment="Center" VerticalAlignment="Center"  Brush="Launcher.PlayButton.Sparks.DigitalCompanion" />
+                          </Children>
+                        </Widget>
+                        <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Launcher.PlayButton.Text" Text="@LaunchText" />
+                        <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!PlayButton.Frame.Multiplayer.Width" SuggestedHeight="!PlayButton.Frame.Multiplayer.Height" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Launcher.PlayButton.Frame" />
+                      </Children>
+                    </ButtonWidget>
+
+                  </Children>
+                </ListPanel>
+
+
+                <TextWidget DoNotAcceptEvents="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" VerticalAlignment="Bottom" Brush="Launcher.Version.Text" MarginLeft="7" MarginBottom="5" Text="@VersionText"/>
+
+              </Children>
+            </Widget>
+
+            <!--Concept Art-->
+            <LauncherRandomImageWidget DoNotAcceptEvents="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!ConceptArt.Width" SuggestedHeight="!ConceptArt.Height" HorizontalAlignment="Right" MarginTop="1" ChangeTrigger="@IsMultiplayer" ImageCount="6" />
+
+            <!--Start Buttons-->
+            <Launcher.ConfirmStart DataSource="{ConfirmStart}"/>
+          </Children>
+        </Widget>
+
+        <LauncherHintWidget DataSource="{Hint}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" IsActive="@IsEnabled" Sprite="launcher_tooltip_9" IsEnabled="false">
+          <Children>
+            <RichTextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" MaxWidth="300" MarginLeft="!Tooltip.Text.Margin" MarginRight="!Tooltip.Text.Margin" MarginTop="!Tooltip.Text.Margin" MarginBottom="!Tooltip.Text.Margin" Text="@Text" Brush="Launcher.Hint.Text" />
+          </Children>
+        </LauncherHintWidget>
+
+      </Children>
+    </LauncherDragWindowAreaWidget>
+  </Window>
+</Prefab>

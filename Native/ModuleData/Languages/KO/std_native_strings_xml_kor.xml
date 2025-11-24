@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+    <string id="01zQKaF3" text="눈 모양" />
+    <string id="05loYcST" text="등의 방패 가격" />
+    <string id="0cpbEvsG" text="늙은 얼굴" />
+    <string id="0DBQGaka" text="카우치드 랜스 피해를 입혔습니다!" />
+    <string id="0ezfbORI" text="사전 설정 게임 유형" />
+    <string id="0P89VyAQ" text="얼굴 비대칭" />
+    <string id="0W4dgUho" text="{BANNEDUNTIL}까지 게임에서 차단됨, 사유: {BANREASON}" />
+    <string id="0WHQKap4" text="장비 선택 시간 제한(초)" />
+    <string id="0xJ3qIlJ" text="턱선" />
+    <string id="180DfbQU" text="시험장" />
+    <string id="1b2dfc0n" text="부대 참여 요청을 거절했습니다." />
+    <string id="1fFnE9Vk" text="유럽" />
+    <string id="1GFrsDRm" text="투표 수락 기준" />
+    <string id="1gU5rDws" text="플레이어 차단 투표 허용" />
+    <string id="1kCkzrpc" text="팀원 시점에 고정" />
+    <string id="1LVlILek" text="{DAMAGE} 충각 피해를 주었습니다." />
+    <string id="1Ndyb5I1" text="깃발 제거 시간(초)" />
+    <string id="1r0tDsrR" text="공격!" />
+    <string id="1siBGYlP" text="광대뼈 너비" />
+    <string id="1zveWQFg" text="전투 대기열에 등록하려면 왼쪽 메뉴의 지구 모양을 클릭하여 지역을 선택하세요." />
+    <string id="21m0Bo08" text="음성 음소거 해제" />
+    <string id="22MOa4Fc" text="눈꼬리 높이" />
+    <string id="23INS6nf" text="비밀번호 필요" />
+    <string id="26SJhCRD" text="다음으로 교체:" />
+    <string id="2blpQ3OQ" text="표식" />
+    <string id="2d0H47C8" text="눈 사이의 거리" />
+    <string id="2G3QpSDk" text="입술 오목/볼록" />
+    <string id="2KrDfHI8" text="플랫폼 권한 설정으로 인해 부대 참여에 실패했습니다." />
+    <string id="2QzgefNF" text="얼굴 비중" />
+    <string id="2Rf2ChRD" text="눈썹 깊이" />
+    <string id="2uynGJbP" text="소대 이양" />
+    <string id="39f0eu3Y" text="제공된 AuthToken이 만료되었습니다." />
+    <string id="3AInGztr" text="몸통" />
+    <string id="3APdsKEi" text="투척 나이프" />
+    <string id="3aX5gXmJ" text="피부색" />
+    <string id="3EbTklMi" text="새 배지({BADGE_NAME})를 획득했습니다." />
+    <string id="3Kkya96j" text="다리" />
+    <string id="3kqFHkZz" text="입술 두께" />
+    <string id="3ydKbDmI" text="{PLAY_TIME}분" />
+    <string id="3ZzxddkE" text="게임 비밀번호" />
+    <string id="43L45sjx" text="대형당 봇 수" />
+    <string id="4b2hRWiI" text="도모그툴 성" />
+    <string id="4daqsVWG" text="아군을 돕고 적 소대를 처치해 골드를 벌어 높은 티어 재생성권을 구매하세요." />
+    <string id="4DcNDein" text="지도 시간 제한(분)" />
+    <string id="4Dd2xgPm" text="무게" />
+    <string id="4jv2sW4U" text="교역소" />
+    <string id="4ompPd8W" text="클랜에서 새로운 공지를 발표했습니다." />
+    <string id="4SWcDUJC" text="아이자르 요새" />
+    <string id="4wLU6s4S" text="복부" />
+    <string id="4yiB8CRO" text="그럴 수 없다!" />
+    <string id="52YN6m2B" text="보강된 폴암 피해를 입혔습니다!" />
+    <string id="5IR8g3YL" text="대장전 통계" />
+    <string id="5mSKBidd" text="코 모양" />
+    <string id="5odwu8qB" text="등급전" />
+    <string id="5tbWdY1j" text="아바타" />
+    <string id="5vZW8IJ5" text="{ITEM_NAME}(으)로 교체" />
+    <string id="621DbiOw" text="코 비대칭" />
+    <string id="64n3piBf" text="총 게임 수" />
+    <string id="66aByatH" text="텍스트 음소거 해제" />
+    <string id="6DBVzw9r" text="빌드" />
+    <string id="6kQxshlw" text="팀킬/아군 공격" />
+    <string id="6usZYAVm" text="언어 폭력" />
+    <string id="6yZnboe6" text="눈두덩 크기" />
+    <string id="74tYdiOb" text="아군의 필요에 따라 현명하게 소대를 선택하세요. 소대 수는 소대 공격력에 따라 결정됩니다." />
+    <string id="77arWi0m" text="눈 안쪽 높이" />
+    <string id="7BlOJvyo" text="입 너비" />
+    <string id="7lvexPjZ" text="평원" />
+    <string id="7nLM1z2V" text="결투 승리를 위한 최소 점수" />
+    <string id="880uOrte" text="지형" />
+    <string id="8bnYsGu6" text="오브스크 항구(겨울)" />
+    <string id="8EsaVlSX" text="데리아드섬" />
+    <string id="8K0DR83v" text="빠르게 전개되는 이 전략적 PvP 게임 모드에서는 아군들과 협력해야 합니다. 적군의 사기를 꺾거나 적 병력 전멸을 시도하면서 적을 처치하여 금을 획득하세요." />
+    <string id="8o1lZcjR" text="눈썹 외부 높이" />
+    <string id="8sG5bTtK" text="재생성 시간" />
+    <string id="8vXHhxPr" text="AI 전환" />
+    <string id="9kEUK9iY" text="·   이용할 수 있는 소대 유형에서 원하는 병과를 선택하세요.{newline}·   상대와 한 번의 전투에서 싸우세요{newline}·   상대를 세 번 물리쳐 결투에서 승리하고 현상금을 획득하세요" />
+    <string id="9S7liri5" text="저장 한계에 도달하여 이 옵션이 비활성화되었습니다." />
+    <string id="9Ts5zKIj" text="눈" />
+    <string id="a2xfNmqa" text="로비에서" />
+    <string id="a8nb5HVc" text="눈썹 중간 높이" />
+    <string id="aAD1iOuH" text="입 윗부분 크기" />
+    <string id="aALNy4Es" text="실리아논 거리" />
+    <string id="aDabgVpn" text="캐릭터 꾸미기" />
+    <string id="adyGICWc" text="공격이 막혔습니다!" />
+    <string id="AEcTBnkz" text="옷 갈아입기" />
+    <string id="aGTgzoqW" text="플레이어 추방 투표 허용" />
+    <string id="ahobSLlo" text="로그인 요청 실패." />
+    <string id="AoNh2ihL" text="적 발견!" />
+    <string id="auDOtbza" text="문화 팀 1" />
+    <string id="averageConnection" text="평균" />
+    <string id="aZVxHbwH" text="{TROOP_NAME}에 의해 사망" />
+    <string id="b0L0jbIa" text="눈 위치" />
+    <string id="b74zosgq" text="코 크기" />
+    <string id="bAPQFzcW" text="투사체 피해" />
+    <string id="BBKp1Ajq" text="임무 녹화 활성화" />
+    <string id="bbYwqrvo" text="턱 모양" />
+    <string id="bdljU1ig" text="팀 데스매치 통계" />
+    <string id="BFWD0pCE" text="아군 공격 원거리 피해(아군)" />
+    <string id="bgwo3QpS" text="불쾌한 내용" />
+    <string id="bH0wXnXr" text="철인 모드에서는 이 옵션을 이용할 수 없습니다." />
+    <string id="bjcixGIE" text="팀" />
+    <string id="BJMPBcDn" text="2차 어시스트" />
+    <string id="BMPrnHpK" text="콧구멍 크기" />
+    <string id="bnfUdx3O" text="중심 높이" />
+    <string id="BQzP1ivS" text="얼굴 비율" />
+    <string id="brk0f05B" text="머리 크기 조정" />
+    <string id="bTpn4bZ8" text="눈썹 내부 높이" />
+    <string id="bV75iwKa" text="저장" />
+    <string id="bwmlWKa2" text="{LIMIT_VALUE}으로 제한" />
+    <string id="bXIrqxKc" text="게임 시작을 위한 최소 플레이어 수" />
+    <string id="bYCfMbYk" text="팀 변경" />
+    <string id="bzu60bhP" text="죄송합니다!" />
+    <string id="c1zu1b3M" text="부대에서 제외되었습니다." />
+    <string id="c2tGH5II" text="준비 단계 시간 제한(분)" />
+    <string id="captainasgame" text="대장" />
+    <string id="ccROnOY3" text="카우치드 랜스 피해를 입었습니다!" />
+    <string id="CFI2aDtg" text="탈것 방어구" />
+    <string id="cJ5emwNF" text="어시스트" />
+    <string id="CjPiabbn" text="각개 사격" />
+    <string id="CJr1T7jh" text="관리자 비밀번호" />
+    <string id="Cl3TziQE" text="탈것이 {DAMAGE}의 낙하 피해를 입었습니다." />
+    <string id="CoxEyDa8" text="건틀렛" />
+    <string id="cSui4APH" text="목표 파괴됨" />
+    <string id="d1ogH1v1" text="차가안 성" />
+    <string id="d3RJm2zW" text="턱 높이" />
+    <string id="dbLB0tuT" text="가문 공유가 허용되지 않습니다." />
+    <string id="DHlVSaZW" text="상대적 이동 속도: {SPEED}m/s" />
+    <string id="DLKRQOuM" text="플랫폼 서비스에서 액세스할 수 없습니다. (오류: {ACCESSERROR})" />
+    <string id="dojUqbv8" text="코 길이" />
+    <string id="dRlTmdKR" text="시스템" />
+    <string id="DuJfaNx5" text="{DAMAGE} 충각 피해를 받았습니다." />
+    <string id="dZ4xp6Lu" text="관자놀이 너비" />
+    <string id="eGcXbXPy" text="부적절한 행동" />
+    <string id="Ej6Gjmkc" text="떠남" />
+    <string id="EUHaR98k" text="보고" />
+    <string id="EX4bKRbV" text="사망 수" />
+    <string id="EZRnvPJS" text="이 방향을 마주하라" />
+    <string id="f4ZeGAJi" text="상대적 투사체 속도: {SPEED}m/s" />
+    <string id="f5y9qyDb" text="팔" />
+    <string id="F6l8hFEA" text="아칼라트 절벽" />
+    <string id="F6WH1JaM" text="팀원에게 고정" />
+    <string id="fFLBT9wb" text="흉부" />
+    <string id="FFNJTsDL" text="플레이어 추방" />
+    <string id="FgJpTBp1" text="아군 공격 원거리 피해(자신)" />
+    <string id="fjD2tRXW" text="턱 끝을 앞으로" />
+    <string id="fJHsYtKu" text="에체리온" />
+    <string id="fJqJiJvl" text="사실적인 방어 사용" />
+    <string id="fnJQO5Os" text="코끝 높이" />
+    <string id="FzaoDwLA" text="기습 공격!" />
+    <string id="FzJnNNam" text="코 비대칭" />
+    <string id="G1HobbjU" text="대장전" />
+    <string id="g6cHDWJF" text="머리" />
+    <string id="GaF4CvmX" text="얼굴 선명도" />
+    <string id="GcosVDAt" text="어시스트 수" />
+    <string id="GnKCsV44" text="턱 끝 길이" />
+    <string id="GoEo27il" text="재생성 시간(공격군)" />
+    <string id="goodConnection" text="좋음" />
+    <string id="gQLDkSrf" text="대화 진행 중에는 이 옵션을 이용할 수 없습니다." />
+    <string id="GQOS4d9g" text="방향 전환" />
+    <string id="Gr994CTR" text="원거리 무기 금지" />
+    <string id="gUQI0PLa" text="북미 서부" />
+    <string id="GY4NaieE" text="순수" />
+    <string id="GYc0Dcbn" text="북미 동부" />
+    <string id="h3obZWO0" text="절벽" />
+    <string id="H4PrQzvN" text="클랜원 교육이 완료되지 않아 이 옵션을 이용할 수 없습니다." />
+    <string id="h5OsTOFM" text="입술 오목/볼록" />
+    <string id="H7YWqwq6" text="라운드 시작 생성 시간" />
+    <string id="HgpdpYuK" text="몸" />
+    <string id="HL3EONMe" text="사용자 정의 게임" />
+    <string id="HLhT64IP" text="비공개" />
+    <string id="htW15Gmn" text="해안" />
+    <string id="HyV2D9qZ" text="키페고스 봉쇄" />
+    <string id="I4wnvBGd" text="방어 또는 공격 세력이 되어 이 대규모 PvP 게임 모드에서 중세 공성전의 격렬함을 체험해 보세요. 다양한 공성 장비를 활용하여 적 병력을 몰아내거나, 적의 방어를 뚫고 성채를 차지하세요." />
+    <string id="IaaVNwwb" text="BattlEye 활성화" />
+    <string id="IBAaKSbp" text="오모르 항구" />
+    <string id="iDMBz55E" text="멀티 플레이어 게임에서" />
+    <string id="ig0lsiwY" text="병사" />
+    <string id="IKn1YxU2" text="골드 습득 비율(공격군)" />
+    <string id="ImWyFyld" text="입 위치" />
+    <string id="irGCyJaY" text="처치 수" />
+    <string id="ItmPmlWH" text="·   골드로 재생성 1회를 구매하세요.{newline}·   지도에 있는 거점을 장악하여 적의 사기를 떨어뜨리세요.{newline}·   적군을 전멸시키거나 적의 사기가 바닥나면 승리합니다." />
+    <string id="iWLq9hMg" text="인증 토큰이 제공되지 않았습니다." />
+    <string id="JCcbydcJ" text="{KEY} {ACTION}" />
+    <string id="jEh6EdF9" text="총 {ROUND_COUNT}라운드" />
+    <string id="JetpbYv9" text="오명" />
+    <string id="jpeq1gF0" text="노드 도시" />
+    <string id="JPimShCw" text="게임 유형" />
+    <string id="jsqyGWGu" text="골드 습득 비율(수비군)" />
+    <string id="jtLGvCac" text="텍스트 음성 차단" />
+    <string id="jukzZmBb" text="적을 처치하고 아군을 도와 골드 및 점수를 획득하며 상대 팀과 승리를 놓고 경쟁하세요." />
+    <string id="jUsEkEBt" text="턱 비대칭" />
+    <string id="JW2nEe4X" text="아군 공격 근접 피해(아군)" />
+    <string id="JwnoxhKI" text="얼굴 깊이" />
+    <string id="k4cMrbVf" text="최초 근접 처치" />
+    <string id="Ke7eAS5B" text="특성 추가 효과" />
+    <string id="KHx75GnA" text="물" />
+    <string id="Kl9aqIuX" text="인종" />
+    <string id="kQh0O7gn" text="골드를 사용하여 라운드 시작 시 원하는 소대를 선택하세요." />
+    <string id="KtRCqiVO" text="펜다릭" />
+    <string id="kVwwG63i" text="지도 변경 투표 허용" />
+    <string id="kW4c2liv" text="애니메이션 진행에 따른 방어 사용" />
+    <string id="KwrSLa0H" text="악의적인 채팅" />
+    <string id="kY2oXMng" text="로그인할 수 없습니다." />
+    <string id="L0lGQWt5" text="봇 수(팀 2)" />
+    <string id="L3tY2kTE" text="아군 공격입니다!" />
+    <string id="L9xEQ5b2" text="교체할 아이템 선택" />
+    <string id="LaaA8U4W" text="코 각도" />
+    <string id="laIfauZH" text="눈 돌출부" />
+    <string id="lauXoy6d" text="대형당 봇 수" />
+    <string id="lclQSt39" text="라운드 시간 제한(초)" />
+    <string id="ldIXGrVi" text="우리크스칼라" />
+    <string id="lDPQa5gc" text="자동 팀 밸런스 기준" />
+    <string id="likop0am" text="투표 시작" />
+    <string id="LkiQDpi5" text="귀 크기" />
+    <string id="LmkYgWnF" text="눈 크기" />
+    <string id="LthEtGxp" text="타격한 대상: {OBJECT_NAME}" />
+    <string id="Lz6ggWch" text="특성 및 효과에 따른 피해 감소: {MODIFIED_DAMAGE}" />
+    <string id="LZmOy39a" text="공성전 통계" />
+    <string id="M1RCJ9DM" text="3차 어시스트" />
+    <string id="m3zVR2UH" text="마우스 표시: [{KEY_NAME}]" />
+    <string id="m5UdbzHr" text="선택한 지역 없음" />
+    <string id="M97xvRgO" text="부대가 해산되었습니다." />
+    <string id="MaOht6ky" text="수비군이 도망쳤습니다!" />
+    <string id="mEHIBbBy" text="공격군이 도망쳤습니다!" />
+    <string id="mjhOYJWg" text="화살집이 비었습니다." />
+    <string id="MnM0L4AV" text="멀티 플레이어 외에서" />
+    <string id="MnvK3eK2" text="목표 완료됨" />
+    <string id="mountverb" text="승마" />
+    <string id="mpparty" text="부대" />
+    <string id="MS795wWa" text="최초 어시스트" />
+    <string id="mtlNshCB" text="시험장(야간)" />
+    <string id="mwetB4R6" text="무제한 골드" />
+    <string id="MyrHcDkP" text="요새로 퇴각했습니다!" />
+    <string id="n6N21Shz" text="아군을 돕고, 적 소대를 처치하고, 공성 장비를 파괴해 골드를 벌어 높은 티어 재생성권을 구매하세요." />
+    <string id="NdQZWHIy" text="·   자신의 파견 소대를 지휘하세요.{newline}·   지도에 있는 거점을 장악하여 적의 사기를 떨어뜨리세요.{newline}·   적군을 전멸시키거나 적의 사기가 바닥나면 승리합니다." />
+    <string id="NE7PmH7n" text="조건" />
+    <string id="NecHOOXR" text="처음" />
+    <string id="NRa52uaF" text="플랫폼 서비스에서 액세스할 수 없습니다." />
+    <string id="nt5MOuwo" text="사구" />
+    <string id="nUR7rs6y" text="중세식으로 바뀐 클래식 PvP 게임 모드를 만끽해 보세요. " />
+    <string id="nx5W7jN0" text="보강된 폴암 피해를 입었습니다!" />
+    <string id="nXE6eV8W" text="호수" />
+    <string id="o5Ead68n" text="저장하지 않고 종료" />
+    <string id="O5uDFhwu" text="펜 알타이의 성" />
+    <string id="O9F9q1zx" text="광대뼈 깊이" />
+    <string id="obB483C5" text="맞은 신체 부위: {BODY_PART}" />
+    <string id="oBbiVeKE" text="체력" />
+    <string id="oGAzC0Ob" text="게임 모드" />
+    <string id="Ok03egKG" text="위치로 이동" />
+    <string id="Oud3W58w" text="{KEY} 길게 누르기 {ACTION}" />
+    <string id="ox8XcxfR" text="귀 모양" />
+    <string id="OZHFucP5" text="찌푸림/미소" />
+    <string id="P3blWoZh" text="마지막" />
+    <string id="p5K0ATtZ" text="이전 세션을 삭제할 수 없습니다." />
+    <string id="pa4yXyDa" text="{PLAYER_COUNT} 대 {PLAYER_COUNT}" />
+    <string id="pagmdsCK" text="눈꺼풀 높이" />
+    <string id="PbLuHcJg" text="흡수한 피해: {ABSORBED_DAMAGE}" />
+    <string id="pCRwBpzd" text="코" />
+    <string id="Ph6PhUwX" text="거리: {DISTANCE}m" />
+    <string id="pHaRIFa8" text="최초 원거리 처치" />
+    <string id="PiLml6Nl" text="공격군은 사기가 떨어지거나 시간이 종료되기 전까지 90초간 성채 깃발을 보유합니다. 깃발을 점령하면 사기가 올라갑니다.{newline}수비군은 적의 사기가 떨어질 때까지 성을 방어합니다." />
+    <string id="pMmmfvkN" text="부적절한 플레이" />
+    <string id="pnUSAxzf" text="정식 게임 서버 목록 추가" />
+    <string id="poiKV9sJ" text="확인 완료!" />
+    <string id="poorConnection" text="낮음" />
+    <string id="pPoySQPy" text="자신에게 반사된 피해: {REFLECTED_DAMAGE}" />
+    <string id="pQibMlbA" text="코 돌출부" />
+    <string id="PuX1G0h3" text="승마 스킬 부족" />
+    <string id="PY6VznGu" text="얼굴 너비" />
+    <string id="Pzvtcbk6" text="사우나" />
+    <string id="Q2EmU0TA" text="팀 점수 제한" />
+    <string id="Q2yjFlC9" text="사격 중지" />
+    <string id="q8lsn0U6" text="이 팀 기반 PvP 게임 모드에서 전투를 치르며 나만의 소대를 지휘해 보세요. 전장의 흐름을 제어하며 적군의 사기를 꺾거나 적 병력을 소탕하여 승리를 쟁취하세요." />
+    <string id="QDU03vOW" text="대상에게 {DAMAGE}의 {DAMAGE_TYPE} 피해를 입혔습니다." />
+    <string id="qeSbaPWi" text="봇 수(팀 1)" />
+    <string id="qF5pJt7e" text="눈 비대칭" />
+    <string id="Qhl77Oki" text="{TROOP_NAME} 처치 어시스트" />
+    <string id="QIDj0u8w" text="플레이어에게 고정" />
+    <string id="qNga6uPw" text="피해 입힘" />
+    <string id="qNRc3pXu" text="채우기" />
+    <string id="QQX6oNbn" text="부대 소속 중" />
+    <string id="R3BwLVmT" text="{DAMAGE}의 {DAMAGE_TYPE} 피해를 입혔습니다." />
+    <string id="rbYITcao" text="입" />
+    <string id="RDsOaEtS" text="스킬, 특성 및 효과에 의한 추가 피해: {MODIFIED_DAMAGE}" />
+    <string id="Ri6KKhfy" text="젠디아" />
+    <string id="Rj8RhD7F" text="실패" />
+    <string id="RJEHDWmu" text="·   골드로 제한된 재생성 횟수를 구매하세요.{newline}·   지도에 있는 거점을 장악하여 적의 사기를 떨어뜨리세요.{newline}·   적군을 전멸시키거나 적의 사기가 바닥나면 승리합니다." />
+    <string id="RlDVtPpB" text="눈 깊이" />
+    <string id="rLozutts" text="친구 요청" />
+    <string id="rnP6wzwy" text="대양" />
+    <string id="Rvr1bcu8" text="다음" />
+    <string id="satFJMMu" text="사용자 정의 전투 서버에 호환되지 않는 버전이 있습니다." />
+    <string id="Sbna6UGb" text="꼬마 얼굴" />
+    <string id="sbSdIIXR" text="근해" />
+    <string id="sBU9vyF1" text="헤드샷!" />
+    <string id="scoreboardkick" text="추방" />
+    <string id="SdxEH6b1" text="아랫입술 모양" />
+    <string id="siegemultiplayergametype" text="공성전" />
+    <string id="sisK3HPI" text="음성 차단되었습니다." />
+    <string id="SN2ojCFr" text="전체 스킨" />
+    <string id="SNLShTzq" text="점수" />
+    <string id="SqR917CO" text="활동 없는 플레이어 추방 비활성화" />
+    <string id="Suma3RVA" text="단일 생성" />
+    <string id="SVAmzGRM" text="플레이어 차단" />
+    <string id="SVeIOaab" text="매치 승리를 위한 최소 점수" />
+    <string id="SVnbZdJq" text="귀 숨기기" />
+    <string id="sXAATSgd" text="오브스크 항구" />
+    <string id="sZxSeeXp" text="준비 단계 종료 플레이어 수" />
+    <string id="t1bNrw95" text="소규모 접전 통계" />
+    <string id="T1JTpYXL" text="음성 차단" />
+    <string id="t8lAbdCk" text="데리아드섬(겨울)" />
+    <string id="tAb8KAQb" text="부대에서 떠났습니다." />
+    <string id="tAeflOpj" text="{DAMAGE}의 {DAMAGE_TYPE} 피해를 입었습니다." />
+    <string id="Tauk2JzA" text="버전 불일치, 서버 버전: {SERVERVERSION} - 플레이어 버전: {CLIENTVERSION}." />
+    <string id="tAyw51tM" text="개별 깃발 허용" />
+    <string id="TDy1GZHv" text="소규모 전투" />
+    <string id="tFLVZdBz" text="캐릭터 생성을 완료하지 않아 이 옵션을 이용할 수 없습니다." />
+    <string id="TGaU0hQi" text="산" />
+    <string id="tnCNPJMO" text="늪" />
+    <string id="TOfBGa0Z" text="연승" />
+    <string id="tp6B2QGw" text="동아시아" />
+    <string id="tqESV37j" text="방어!" />
+    <string id="TSoS5HJZ" text="스콜데르 은신처" />
+    <string id="TuAP5xXV" text="콧구멍 높이" />
+    <string id="tUETZiIp" text="투구" />
+    <string id="tvDuF1vU" text="공성탑 속도(백분율)" />
+    <string id="tvHQcaC1" text="광대뼈 높이" />
+    <string id="tYuSNFuD" text="배지" />
+    <string id="U1em3vrJ" text="어깨" />
+    <string id="U3LxBtL0" text="비밀번호 입력" />
+    <string id="U4xlUBHg" text="코 너비" />
+    <string id="U6h8eatq" text="팀 데스매치" />
+    <string id="UbMCCh8L" text="콧등" />
+    <string id="uCrIJ8D4" text="샤리스" />
+    <string id="UEmw71kN" text="{REQUESTER}님이 친구 요청을 보냈습니다." />
+    <string id="UHIZLFBn" text="{TROOP_NAME} 처치" />
+    <string id="UJaQuEpD" text="승마 전환" />
+    <string id="UPH3hI5P" text="매치 메이킹" />
+    <string id="UQabkhbG" text="탈것 돌진으로 {DAMAGE}의 {DAMAGE_TYPE} 피해를 입혔습니다." />
+    <string id="uqzA4Q4a" text="제국 빌라" />
+    <string id="UrZvjCfE" text="탈것이 {DAMAGE}의 {DAMAGE_TYPE} 피해를 입었습니다." />
+    <string id="UUKzc88q" text="관전자 카메라" />
+    <string id="UvIsHvrt" text="강" />
+    <string id="V1kxYbRp" text="발사 전환" />
+    <string id="V4iU0wRv" text="골드" />
+    <string id="V6BAHTnv" text="문화 팀 2" />
+    <string id="VecPWliR" text="플레이어 신고 악용 시 계정 제제를 당할 수도 있습니다." />
+    <string id="VIgZNfvL" text="VAC 차단됨" />
+    <string id="vkEzdL3k" text="게임 유형 또는 장면 변경" />
+    <string id="vM7CssWE" text="자왈 폐허" />
+    <string id="vo5NpcUS" text="윗입술 모양" />
+    <string id="vqao3Z2N" text="공성추 속도(백분율)" />
+    <string id="VwyBNTs3" text="얼굴" />
+    <string id="vZ4mRbfo" text="결투 서버 규칙 위반" />
+    <string id="W1nzgCTY" text="입 앞으로" />
+    <string id="W3OXv9Tx" text="최소 방어구 강제 적용" />
+    <string id="w9Jf0FeQ" text="관전자에게 고정" />
+    <string id="WfwkVjTA" text="빠르게 전개되는 이 전략적 PvP 게임 모드에서는 아군과 협력해야 합니다. 신중하게 금을 관리하여 병과 및 재생성 기회를 구매하는 동시에 적군의 사기를 꺾거나 적 병력을 전멸시키세요." />
+    <string id="wIgbfqQR" text="머리카락" />
+    <string id="wk4bgkCt" text="내리기" />
+    <string id="Wl5xazIU" text="지도 바 확장/축소" />
+    <string id="WlVa7XwJ" text="{DAMAGE}의 낙하 피해를 입었습니다." />
+    <string id="WLztEbPL" text="높이" />
+    <string id="WnN8Ul7A" text="라운드 수" />
+    <string id="WsbShtMt" text="10번째 처치" />
+    <string id="WXAaWZVf" text="이전" />
+    <string id="Wxlhg1f1" text="장화" />
+    <string id="WxM16s2Y" text="드루이모르 숲" />
+    <string id="wxzhtvZR" text="재생성 시간(수비군)" />
+    <string id="X6N9nSn0" text="이 서버에 로그인할 수 없습니다. 공식 공개 서버를 이용해 보세요." />
+    <string id="xgr9rlx3" text="오스라크 반란" />
+    <string id="xhnV76OL" text="스칼라 상륙지" />
+    <string id="Xj2FCkQl" text="커스텀 서버 목록" />
+    <string id="xO8l2Lg1" text="인증 실패" />
+    <string id="xoXWGYVI" text="·   다양한 공성 장비로 통제 지점을 공격하거나 방어하세요.{newline}·   거점을 점령하면 재생성 지점이 전진합니다.{newline}·   공격에 성공하고 깃발을 지키거나 적을 격퇴하면 승리합니다." />
+    <string id="xq9Vxpyc" text="&lt;a style=&quot;HeadshotTitle.Text&quot; &gt;&lt;b&gt;{TITLE}&lt;/b&gt;&lt;/a&gt;" />
+    <string id="XQndveFG" text="아군 공격 근접 피해(자신)" />
+    <string id="xriaEwgN" text="{BAN_EXPIRATION_TIME}까지 서버 호스팅이 차단되었습니다. 사유: {BAN_REASON}." />
+    <string id="XUKRrgOr" text="탈것에 {DAMAGE}의 {DAMAGE_TYPE} 피해를 입혔습니다." />
+    <string id="xuo8gmaL" text="·   골드로 재생성 횟수를 구매하세요.{newline}·   적을 해치우거나 아군을 지원하면 골드를 획득합니다.{newline}·   적군을 더 많이 처치하면 게임에서 승리합니다." />
+    <string id="xXQN7Go6" text="외꺼풀 눈" />
+    <string id="ycCmfxhJ" text="5번째 처치" />
+    <string id="yClOSxT8" text="코 형태" />
+    <string id="yekjRMT1" text="결투 통계" />
+    <string id="YhDDXj0I" text="협곡" />
+    <string id="YmPyx3qi" text="사용자 정의 전투 서버에서 허용하는 최대 플레이어 수에 도달했습니다." />
+    <string id="YntJTd09" text="에베레스 언덕 성채" />
+    <string id="YoNYyLba" text="창" />
+    <string id="yQtzabbe" text="닫기" />
+    <string id="yQu6aBw4" text="재편성하라!" />
+    <string id="YRabuUqx" text="바라베노스 포위" />
+    <string id="yRSjcxBv" text="새로운 패치가 출시되었습니다. 클라이언트를 업데이트해주세요." />
+    <string id="YRymCbaa" text="돌파당했습니다!" />
+    <string id="YSKoiyjt" text="MVP" />
+    <string id="YtSQB7rg" text="경기 시작 시점에 원하는 병과를 선택하면 골드를 사용하여 추가 재생성이 가능합니다." />
+    <string id="Yvjap05b" text="이동 속도" />
+    <string id="YvK6gI6q" text="도시 외곽" />
+    <string id="yyJejJbO" text="턱 끝 모양" />
+    <string id="Z27nSqNt" text="도움이 필요하다!" />
+    <string id="Zc2f5bhh" text="적을 전부 처치하거나, 적군의 사기를 없애거나, 경기 시간이 만료되었을 때 사기가 가장 높아야 합니다." />
+    <string id="zHKHwHMr" text="외곽 지역" />
+    <string id="zmlCRb1M" text="최대 플레이어 수" />
+    <string id="ZMmrpMPk" text="목" />
+    <string id="ztGHtRNf" text="치트 행위" />
+    <string id="zU7hCYwT" text="퍼블리셔에게 차단됨" />
+    <string id="ZYChhMrO" text="무승부" />
+    <string id="ZZMbAjSU" text="돌파했습니다!" />
+  </strings>
+</base>

@@ -1,0 +1,953 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<full_movement_sets>
+	<full_movement_set
+		id="no_weapon">
+		<movement_set
+			id="walk_unarmed"
+			left_stance="False"
+			movement_mode="walking" />
+		<movement_set
+			id="run_unarmed"
+			left_stance="False"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_unarmed"
+			left_stance="False"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_unarmed"
+			left_stance="False"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="walk_unarmed_left_stance"
+			left_stance="True"
+			movement_mode="walking" />
+		<movement_set
+			id="run_unarmed_left_stance"
+			left_stance="True"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_unarmed_left_stance"
+			left_stance="True"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_unarmed_left_stance"
+			left_stance="True"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="swim_unarmed"
+			left_stance="False"
+			movement_mode="swimming" />
+		<movement_set
+			id="dive_unarmed"
+			left_stance="False"
+			movement_mode="diving" />
+	</full_movement_set>
+	<full_movement_set
+		id="drag">
+		<movement_set
+			id="walk_unarmed"
+			left_stance="False"
+			movement_mode="walking" />
+		<movement_set
+			id="run_unarmed"
+			left_stance="False"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_drag"
+			left_stance="False"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_unarmed"
+			left_stance="False"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="walk_unarmed_left_stance"
+			left_stance="True"
+			movement_mode="walking" />
+		<movement_set
+			id="run_unarmed_left_stance"
+			left_stance="True"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_unarmed_left_stance"
+			left_stance="True"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_unarmed_left_stance"
+			left_stance="True"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="swim_unarmed"
+			left_stance="False"
+			movement_mode="swimming" />
+		<movement_set
+			id="dive_unarmed"
+			left_stance="False"
+			movement_mode="diving" />
+	</full_movement_set>
+	<full_movement_set
+		id="shield">
+		<movement_set
+			id="walk_1h_with_shield"
+			left_stance="False"
+			movement_mode="walking" />
+		<movement_set
+			id="run_1h_with_shield"
+			left_stance="False"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_1h"
+			left_stance="False"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_1h"
+			left_stance="False"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="walk_1h_with_shield_left_stance"
+			left_stance="True"
+			movement_mode="walking" />
+		<movement_set
+			id="run_1h_with_shield_left_stance"
+			left_stance="True"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_1h_left_stance"
+			left_stance="True"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_1h_left_stance"
+			left_stance="True"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="swim_unarmed"
+			left_stance="False"
+			movement_mode="swimming" />
+		<movement_set
+			id="dive_unarmed"
+			left_stance="False"
+			movement_mode="diving" />
+	</full_movement_set>
+	<full_movement_set
+		id="1h_with_hand_shield">
+		<movement_set
+			id="walk_1h_with_hand_shield"
+			left_stance="False"
+			movement_mode="walking" />
+		<movement_set
+			id="run_1h_with_hand_shield"
+			left_stance="False"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_1h_with_hand_shield"
+			left_stance="False"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_1h_with_hand_shield"
+			left_stance="False"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="walk_1h_with_hand_shield_left_stance"
+			left_stance="True"
+			movement_mode="walking" />
+		<movement_set
+			id="run_1h_with_hand_shield_left_stance"
+			left_stance="True"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_1h_with_hand_shield_left_stance"
+			left_stance="True"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_1h_with_hand_shield_left_stance"
+			left_stance="True"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="swim_unarmed"
+			left_stance="False"
+			movement_mode="swimming" />
+		<movement_set
+			id="dive_unarmed"
+			left_stance="False"
+			movement_mode="diving" />
+	</full_movement_set>
+	<full_movement_set
+		id="polearm_with_hand_shield">
+		<movement_set
+			id="walk_polearm_with_hand_shield"
+			left_stance="False"
+			movement_mode="walking" />
+		<movement_set
+			id="run_polearm_with_hand_shield"
+			left_stance="False"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_polearm_with_hand_shield"
+			left_stance="False"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_polearm_with_hand_shield"
+			left_stance="False"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="walk_polearm_with_hand_shield_left_stance"
+			left_stance="True"
+			movement_mode="walking" />
+		<movement_set
+			id="run_polearm_with_hand_shield_left_stance"
+			left_stance="True"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_polearm_with_hand_shield_left_stance"
+			left_stance="True"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_polearm_with_hand_shield_left_stance"
+			left_stance="True"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="swim_unarmed"
+			left_stance="False"
+			movement_mode="swimming" />
+		<movement_set
+			id="dive_unarmed"
+			left_stance="False"
+			movement_mode="diving" />
+	</full_movement_set>
+	<full_movement_set
+		id="onehanded_swing_cantblock">
+		<movement_set
+			id="walk_1h"
+			left_stance="False"
+			movement_mode="walking" />
+		<movement_set
+			id="run_1h"
+			left_stance="False"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_1h"
+			left_stance="False"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_1h"
+			left_stance="False"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="walk_1h_left_stance"
+			left_stance="True"
+			movement_mode="walking" />
+		<movement_set
+			id="run_1h_left_stance"
+			left_stance="True"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_1h_left_stance"
+			left_stance="True"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_1h_left_stance"
+			left_stance="True"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="swim_unarmed"
+			left_stance="False"
+			movement_mode="swimming" />
+		<movement_set
+			id="dive_unarmed"
+			left_stance="False"
+			movement_mode="diving" />
+	</full_movement_set>
+	<full_movement_set
+		id="onehanded_swing_cantblock_with_shield"
+		base_set="onehanded_swing_cantblock">
+		<movement_set
+			id="walk_1h_with_shield"
+			left_stance="False"
+			movement_mode="walking" />
+		<movement_set
+			id="run_1h_with_shield"
+			left_stance="False"
+			movement_mode="running" />
+		<movement_set
+			id="walk_1h_with_shield_left_stance"
+			left_stance="True"
+			movement_mode="walking" />
+		<movement_set
+			id="run_1h_with_shield_left_stance"
+			left_stance="True"
+			movement_mode="running" />
+	</full_movement_set>
+	<full_movement_set
+		id="twohanded_swing_thrust">
+		<movement_set
+			id="walk_2h"
+			left_stance="False"
+			movement_mode="walking" />
+		<movement_set
+			id="run_2h"
+			left_stance="False"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_2h"
+			left_stance="False"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_2h"
+			left_stance="False"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="walk_2h_left_stance"
+			left_stance="True"
+			movement_mode="walking" />
+		<movement_set
+			id="run_2h_left_stance"
+			left_stance="True"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_2h_left_stance"
+			left_stance="True"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_2h_left_stance"
+			left_stance="True"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="swim_unarmed"
+			left_stance="False"
+			movement_mode="swimming" />
+		<movement_set
+			id="dive_unarmed"
+			left_stance="False"
+			movement_mode="diving" />
+	</full_movement_set>
+	<full_movement_set
+		id="twohanded_swing_left">
+		<movement_set
+			id="walk_2h"
+			left_stance="False"
+			movement_mode="walking" />
+		<movement_set
+			id="run_2h"
+			left_stance="False"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_2h"
+			left_stance="False"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_2h"
+			left_stance="False"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="walk_2h_left_stance"
+			left_stance="True"
+			movement_mode="walking" />
+		<movement_set
+			id="run_2h_left_stance"
+			left_stance="True"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_2h_left_stance"
+			left_stance="True"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_2h_left_stance"
+			left_stance="True"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="swim_unarmed"
+			left_stance="False"
+			movement_mode="swimming" />
+		<movement_set
+			id="dive_unarmed"
+			left_stance="False"
+			movement_mode="diving" />
+	</full_movement_set>
+	<full_movement_set
+		id="twohanded_swing_right">
+		<movement_set
+			id="walk_2h"
+			left_stance="False"
+			movement_mode="walking" />
+		<movement_set
+			id="run_2h"
+			left_stance="False"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_2h"
+			left_stance="False"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_2h"
+			left_stance="False"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="walk_2h_left_stance"
+			left_stance="True"
+			movement_mode="walking" />
+		<movement_set
+			id="run_2h_left_stance"
+			left_stance="True"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_2h_left_stance"
+			left_stance="True"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_2h_left_stance"
+			left_stance="True"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="swim_unarmed"
+			left_stance="False"
+			movement_mode="swimming" />
+		<movement_set
+			id="dive_unarmed"
+			left_stance="False"
+			movement_mode="diving" />
+	</full_movement_set>
+	<full_movement_set
+		id="twohanded_swing_up">
+		<movement_set
+			id="walk_2h"
+			left_stance="False"
+			movement_mode="walking" />
+		<movement_set
+			id="run_2h"
+			left_stance="False"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_2h"
+			left_stance="False"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_2h"
+			left_stance="False"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="walk_2h_left_stance"
+			left_stance="True"
+			movement_mode="walking" />
+		<movement_set
+			id="run_2h_left_stance"
+			left_stance="True"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_2h_left_stance"
+			left_stance="True"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_2h_left_stance"
+			left_stance="True"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="swim_unarmed"
+			left_stance="False"
+			movement_mode="swimming" />
+		<movement_set
+			id="dive_unarmed"
+			left_stance="False"
+			movement_mode="diving" />
+	</full_movement_set>
+	<full_movement_set
+		id="twohanded_thrust">
+		<movement_set
+			id="walk_2h"
+			left_stance="False"
+			movement_mode="walking" />
+		<movement_set
+			id="run_2h"
+			left_stance="False"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_2h"
+			left_stance="False"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_2h"
+			left_stance="False"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="walk_2h_left_stance"
+			left_stance="True"
+			movement_mode="walking" />
+		<movement_set
+			id="run_2h_left_stance"
+			left_stance="True"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_2h_left_stance"
+			left_stance="True"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_2h_left_stance"
+			left_stance="True"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="swim_unarmed"
+			left_stance="False"
+			movement_mode="swimming" />
+		<movement_set
+			id="dive_unarmed"
+			left_stance="False"
+			movement_mode="diving" />
+	</full_movement_set>
+	<full_movement_set
+		id="twohanded_swing">
+		<movement_set
+			id="walk_2h"
+			left_stance="False"
+			movement_mode="walking" />
+		<movement_set
+			id="run_2h"
+			left_stance="False"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_2h"
+			left_stance="False"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_2h"
+			left_stance="False"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="walk_2h_left_stance"
+			left_stance="True"
+			movement_mode="walking" />
+		<movement_set
+			id="run_2h_left_stance"
+			left_stance="True"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_2h_left_stance"
+			left_stance="True"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_2h_left_stance"
+			left_stance="True"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="swim_unarmed"
+			left_stance="False"
+			movement_mode="swimming" />
+		<movement_set
+			id="dive_unarmed"
+			left_stance="False"
+			movement_mode="diving" />
+	</full_movement_set>
+	<full_movement_set
+		id="twohanded_axe">
+		<movement_set
+			id="walk_2h_axe"
+			left_stance="False"
+			movement_mode="walking" />
+		<movement_set
+			id="run_2h_axe"
+			left_stance="False"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_2h_axe"
+			left_stance="False"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_2h_axe"
+			left_stance="False"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="walk_2h_axe_left_stance"
+			left_stance="True"
+			movement_mode="walking" />
+		<movement_set
+			id="run_2h_axe_left_stance"
+			left_stance="True"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_2h_axe_left_stance"
+			left_stance="True"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_2h_axe_left_stance"
+			left_stance="True"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="swim_unarmed"
+			left_stance="False"
+			movement_mode="swimming" />
+		<movement_set
+			id="dive_unarmed"
+			left_stance="False"
+			movement_mode="diving" />
+	</full_movement_set>
+	<full_movement_set
+		id="parry_polearm">
+		<movement_set
+			id="walk_polearm"
+			left_stance="False"
+			movement_mode="walking" />
+		<movement_set
+			id="run_polearm"
+			left_stance="False"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_polearm"
+			left_stance="False"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_polearm"
+			left_stance="False"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="walk_polearm_left_stance"
+			left_stance="True"
+			movement_mode="walking" />
+		<movement_set
+			id="run_polearm_left_stance"
+			left_stance="True"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_polearm_left_stance"
+			left_stance="True"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_polearm_left_stance"
+			left_stance="True"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="swim_unarmed"
+			left_stance="False"
+			movement_mode="swimming" />
+		<movement_set
+			id="dive_unarmed"
+			left_stance="False"
+			movement_mode="diving" />
+	</full_movement_set>
+	<full_movement_set
+		id="parry_polearm_with_shield"
+		base_set="parry_polearm">
+		<movement_set
+			id="walk_1h"
+			left_stance="False"
+			movement_mode="walking" />
+		<movement_set
+			id="walk_1h_left_stance"
+			left_stance="True"
+			movement_mode="walking" />
+		<movement_set
+			id="run_polearm_with_shield"
+			left_stance="False"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_polearm_with_shield"
+			left_stance="False"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="run_polearm_with_shield_left_stance"
+			left_stance="True"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_polearm_with_shield_left_stance"
+			left_stance="True"
+			movement_mode="crouch_walking" />
+	</full_movement_set>
+	<full_movement_set
+		id="pike">
+		<movement_set
+			id="walk_polearm"
+			left_stance="False"
+			movement_mode="walking" />
+		<movement_set
+			id="run_polearm"
+			left_stance="False"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_polearm"
+			left_stance="False"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_polearm"
+			left_stance="False"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="walk_polearm_left_stance"
+			left_stance="True"
+			movement_mode="walking" />
+		<movement_set
+			id="run_polearm_left_stance"
+			left_stance="True"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_polearm_left_stance"
+			left_stance="True"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_polearm_left_stance"
+			left_stance="True"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="swim_unarmed"
+			left_stance="False"
+			movement_mode="swimming" />
+		<movement_set
+			id="dive_unarmed"
+			left_stance="False"
+			movement_mode="diving" />
+	</full_movement_set>
+	<full_movement_set
+		id="pike_with_shield">
+		<movement_set
+			id="walk_1h"
+			left_stance="False"
+			movement_mode="walking" />
+		<movement_set
+			id="walk_1h_left_stance"
+			left_stance="True"
+			movement_mode="walking" />
+		<movement_set
+			id="run_polearm_with_shield"
+			left_stance="False"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_polearm_with_shield"
+			left_stance="False"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="run_polearm_with_shield_left_stance"
+			left_stance="True"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_polearm_with_shield_left_stance"
+			left_stance="True"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="swim_unarmed"
+			left_stance="False"
+			movement_mode="swimming" />
+		<movement_set
+			id="dive_unarmed"
+			left_stance="False"
+			movement_mode="diving" />
+	</full_movement_set>
+	<full_movement_set
+		id="bow">
+		<movement_set
+			id="walk_bow"
+			left_stance="False"
+			movement_mode="walking" />
+		<movement_set
+			id="run_bow"
+			left_stance="False"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_bow"
+			left_stance="False"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_bow"
+			left_stance="False"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="swim_unarmed"
+			left_stance="False"
+			movement_mode="swimming" />
+		<movement_set
+			id="dive_unarmed"
+			left_stance="False"
+			movement_mode="diving" />
+	</full_movement_set>
+	<full_movement_set
+		id="crossbow">
+		<movement_set
+			id="walk_crossbow"
+			left_stance="False"
+			movement_mode="walking" />
+		<movement_set
+			id="run_crossbow"
+			left_stance="False"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_crossbow"
+			left_stance="False"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_crossbow"
+			left_stance="False"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="swim_unarmed"
+			left_stance="False"
+			movement_mode="swimming" />
+		<movement_set
+			id="dive_unarmed"
+			left_stance="False"
+			movement_mode="diving" />
+	</full_movement_set>
+	<full_movement_set
+		id="stone">
+		<movement_set
+			id="walk_thrown"
+			left_stance="False"
+			movement_mode="walking" />
+		<movement_set
+			id="run_thrown"
+			left_stance="False"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_thrown"
+			left_stance="False"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_thrown"
+			left_stance="False"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="swim_unarmed"
+			left_stance="False"
+			movement_mode="swimming" />
+		<movement_set
+			id="dive_unarmed"
+			left_stance="False"
+			movement_mode="diving" />
+	</full_movement_set>
+	<full_movement_set
+		id="stone_with_shield"
+		base_set="stone">
+		<movement_set
+			id="walk_1h_with_shield"
+			left_stance="False"
+			movement_mode="walking" />
+		<movement_set
+			id="run_1h_with_shield"
+			left_stance="False"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_1h_with_shield"
+			left_stance="False"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="walk_1h_with_shield_left_stance"
+			left_stance="True"
+			movement_mode="walking" />
+		<movement_set
+			id="run_1h_with_shield_left_stance"
+			left_stance="True"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_1h_with_shield_left_stance"
+			left_stance="True"
+			movement_mode="crouch_walking" />
+	</full_movement_set>
+	<full_movement_set
+		id="heavy_stone">
+		<movement_set
+			id="walk_heavy_thrown"
+			left_stance="False"
+			movement_mode="walking" />
+		<movement_set
+			id="run_heavy_thrown"
+			left_stance="False"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_heavy_thrown"
+			left_stance="False"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_heavy_thrown"
+			left_stance="False"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="swim_unarmed"
+			left_stance="False"
+			movement_mode="swimming" />
+		<movement_set
+			id="dive_unarmed"
+			left_stance="False"
+			movement_mode="diving" />
+	</full_movement_set>
+	<full_movement_set
+		id="torch">
+		<movement_set
+			id="walk_torch"
+			left_stance="False"
+			movement_mode="walking" />
+		<movement_set
+			id="run_torch"
+			left_stance="False"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_torch"
+			left_stance="False"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_torch"
+			left_stance="False"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="walk_torch_left_stance"
+			left_stance="True"
+			movement_mode="walking" />
+		<movement_set
+			id="run_torch_left_stance"
+			left_stance="True"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_torch_left_stance"
+			left_stance="True"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_torch_left_stance"
+			left_stance="True"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="swim_unarmed"
+			left_stance="False"
+			movement_mode="swimming" />
+		<movement_set
+			id="dive_unarmed"
+			left_stance="False"
+			movement_mode="diving" />
+	</full_movement_set>
+	<full_movement_set
+		id="dagger">
+		<movement_set
+			id="walk_dagger"
+			left_stance="False"
+			movement_mode="walking" />
+		<movement_set
+			id="run_dagger"
+			left_stance="False"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_1h"
+			left_stance="False"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_1h"
+			left_stance="False"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="walk_dagger_left_stance"
+			left_stance="True"
+			movement_mode="walking" />
+		<movement_set
+			id="run_dagger_left_stance"
+			left_stance="True"
+			movement_mode="running" />
+		<movement_set
+			id="crouch_walk_1h_left_stance"
+			left_stance="True"
+			movement_mode="crouch_walking" />
+		<movement_set
+			id="crouch_run_1h_left_stance"
+			left_stance="True"
+			movement_mode="crouch_running" />
+		<movement_set
+			id="swim_unarmed"
+			left_stance="False"
+			movement_mode="swimming" />
+		<movement_set
+			id="dive_unarmed"
+			left_stance="False"
+			movement_mode="diving" />
+	</full_movement_set>
+</full_movement_sets>

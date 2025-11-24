@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Polski" />
+  </tags>
+  <strings>
+    <string id="00fZGqbJ" text="To był ciężki dzień, ale {ENEMY_SETTLEMENT} należy do nas. Było warto." />
+    <string id="2AsFNABs" text="Za każdym razem, gdy trafiamy na kolejną grupę bandytów, myślę sobie, że to mogło przytrafić się mnie, gdyby tylko los poprowadził mnie inną drogą." />
+    <string id="2R19RV70" text="Podobno wzięliście {SETTLEMENT_NAME}{.a}." />
+    <string id="2zjTq6N8" text="Ponoć {?LISTENER.GENDER}pokonałaś{?}pokonałeś{\?} {DEFEATED_LEADER_RELATIONSHIP}{.a} w bitwie. Nie będę udawać, że te wieści bardzo mnie zmartwiły." />
+    <string id="3CKuk4Nj" text="Mówią, że {?LISTENER.GENDER}wypowiedziałaś{?}wypowiedziałeś{\?} posłuszeństwo {TT_LIEGE.NAME}{.d}. Miejmy nadzieję, że nie dojdzie do wojny." />
+    <string id="3Ksb1Hlu" text="No cóż... Bitwa o {ENEMY_SETTLEMENT}{.a} nie była tak ciężka, jak można się było obawiać." />
+    <string id="3vO2C8hO" text="{DEFEATED_PARTY_LEADER} na długo popamięta krwawą jatkę, którą mu zgotowaliśmy. I ja też łatwo jej nie zapomnę. Zniesiesz więcej takich widoków?" />
+    <string id="53MDeyby" text="No, ci bandyci wcześniej nie narobili nam większych problemów. " />
+    <string id="5OKXtEW6" text="Zapłacenie za moją wolność było z twojej strony hojne i szlachetne." />
+    <string id="6KMf8lNE" text="Nie zapomnę twojej odwagi w bitwie przeciw {DEFEATED_PARTY_LEADER}{.d}. To było nasze wielkie zwycięstwo." />
+    <string id="7vcCSGEN" text="Podobno {?LISTENER.GENDER}zwyciężyłaś{?}zwyciężyłeś{\?} wojska {DEFEATED_PARTY_LEADER}{.g}, chociaż to one były liczniejsze. Imponujące." />
+    <string id="8qkWFWTa" text="{PLAYER.LINK}. Ostatnim razem mnie {?PLAYER.GENDER}pokonałaś{?}pokonałeś{\?}. Jeśli znów trafimy na siebie w bitwie, może sprawy przybiorą inny obrót." />
+    <string id="952DmRsV" text="Powiadają, że {?LISTENER.GENDER}złożyłaś{?}złożyłeś{\?} przysięgę wierności {?TT_LIEGE.GENDER}pani{?}panu{\?} {TT_LIEGE.NAME}{.d}. Cóż, nie mogę powiedzieć, że ci ufam, ale może zasługujesz przynajmniej na to, by dać ci szansę." />
+    <string id="9aS4em4L" text="Podobno w twoje ręce wpadło tu ostatnio paru bandytów. Mogę ci tylko pogratulować i myślę, że inni kupcy w okolicy też ci przyklasną. Oczyść gościńce z tych szkodników i pozwól nam handlować." />
+    <string id="9DDmAvXD" text="Najwyraźniej moja rodzina uważa, że możemy być dobrze dobrani." />
+    <string id="9HvWdW77" text="Ponoć próbujesz przypisać sobie zasługi za bitwę, w której udało nam się wspólnie pokonać {DEFEATED_PARTY_LEADER}{.a}. Pamiętaj, że ja też tam {?SPEAKER.GENDER}byłam{?}byłem{\?}." />
+    <string id="9VBbSF33" text="Pamiętam naszą ostatnią bitwę. Lepiej się zastanów, nim znowu wejdziesz mi w drogę." />
+    <string id="A7iiTdng" text="Podobno niewiele ci brakowało do wygranej z {ENEMY_TERM}{.i}." />
+    <string id="A7nmHKBr" text="Zdaje się, że zdobyliście {SETTLEMENT_NAME}{.a}. Mam nadzieję, że zbyt wielu ludzi nie straciło przy tym życia." />
+    <string id="ADCkcVUn" text="Powiadają, że {?TT_LIEGE.GENDER}pani{?}pan{\?} {TT_LIEGE.NAME} {?TT_LIEGE.GENDER}przyjęła{?}przyjął{\?} od ciebie przysięgę wierności. {?PLAYER.GENDER}Moja pani{?}Mój panie{\?}! {TT_LIEGE.NAME} jest bardzo szlachetną osobą i szczodrze wynagradza oddanie." />
+    <string id="AiamDgVH" text="Nie zapomnę widoku twoich ludzi wchodzących na nasze mury... Cóż, cieszę się, że oszczędzili mi życie." />
+    <string id="al0vHv5D" text="Zelżyłem {SIDE2TROOP}{.a}." />
+    <string id="ALIAwlgz" text="Podobno {?LISTENER.GENDER}walczyłaś{?}walczyłeś{\?} z {DEFEATED_PARTY_LEADER}{.i} i {?LISTENER.GENDER}pokonałaś{?}pokonałeś{\?} {?DEFEATED_PARTY_LEADER.GENDER}ją{?}go{\?}. Życzę ci słodkiej radości z tego zwycięstwa!" />
+    <string id="alO2F63A" text="Jak mówią, {?LISTENER.GENDER}walczyłaś{?}walczyłeś{\?} dzielnie, a {VICTORIOUS_PARTY_LEADER} i {ENEMY_TERM} słono zapłacili za zwycięstwo. Chylę czoła przed twym męstwem i poświęceniem twoich ludzi." />
+    <string id="AtbVSdJi" text="Powiadają, że {?LISTENER.GENDER}składałaś{?}składałeś{\?} przysięgę wierności {?TT_LIEGE.GENDER}pani{?}panu{\?} {TT_LIEGE.NAME}{.d}. Bez wątpienia wkrótce {?TT_LIEGE.GENDER}ją{?}go{\?} zdradzisz, a ja z przyjemnością popatrzę, jak cię wtedy stracą." />
+    <string id="b55tdDVs" text="A więc chcesz walczyć po naszej stronie. Cieszę się z twojej decyzji." />
+    <string id="B8Kb89jk" text="Co do tej bitwy z {ENEMY_TERM}{.i}... {?LISTENER.GENDER}Przegrałaś{?}Przegrałeś{\?}, a straty przyszło nam ponieść razem." />
+    <string id="bb8AxGwc" text="{?SPEAKER.GENDER}Słyszałam{?}Słyszałem{\?}, że {?LISTENER.GENDER}pokonałaś{?}pokonałeś{\?} {DEFEATED_PARTY_LEADER}{.a}. Celnie wymierzony cios!" />
+    <string id="BCNRS2ml" text="Podobno {DEFEATED_LEADER_RELATIONSHIP} rozpamiętuje jeszcze porażkę w bitwie z tobą. Cóż, zawsze miałem cię za niebezpiecznego wroga." />
+    <string id="bI2XZrAk" text="Podobno ty i {VICTORIOUS_PARTY_LEADER} poszliście w szranki i {?VICTORIOUS_PARTY_LEADER.GENDER}spuściła{?}spuścił{\?} ci zasłużony łomot." />
+    <string id="bOKqn4dN" text="Następnym razem oszczędź moje karawany i zdobądź się na odwagę, by otwarcie mnie zaatakować." />
+    <string id="BYZXoAly" text="Pamiętam porażkę {DEFEATED_PARTY_LEADER}{.g} w bitwie z nami. Dziękuję ci za wsparcie. Mylisz się jednak, jeśli uważasz, że masz u mnie jakąś przysługę." />
+    <string id="C6iJs2Ih" text="A więc ty i {FIRST_NAME} zostaliście małżeństwem. Bez wątpienia będziecie bardzo szczęśliwi." />
+    <string id="CfYJZXok" text="Wiem o twoim buncie przeciw {TT_LIEGE.NAME}{.d}. Znam cię i rozumiem, że masz swoje powody. Ale to był błąd." />
+    <string id="cQbIMImo" text="Na zawsze zapamiętam, jak {DEFEATED_PARTY_LEADER} {?DEFEATED_PARTY_LEADER.GENDER}uległa{?}uległ{\?} potędze naszych armii." />
+    <string id="cVgKHCqa" text="Pamiętam, gdy razem z sojusznikami stawiliśmy ci czoło. To było dobre starcie." />
+    <string id="CwJonOjV" text="{PLAYER.LINK}. Należysz do buntowników i zdrajców, lecz wciąż nie potrafię cię znienawidzić." />
+    <string id="cWRudt73" text="Powiadają, że {?HERO.GENDER}złożyłaś{?}złożyłeś{\?} przysięgę wierności {?TT_LIEGE.GENDER}pani{?}panu{\?} {TT_LIEGE.NAME}{.d}. Walcz odważnie z naszymi wrogami, lecz nie zapominaj o honorze i współczuciu. Na wojnie dobre imię jest tyle samo warte, co ostry miecz lub rączy koń." />
+    <string id="CXbZjUzR" text="Twoi ludzie zajęli miasto na moich oczach... Nie skończyło się to tak źle, jak się obawialiśmy. Jeżeli to z twojego rozkazu nas oszczędzili, to cóż, chyba muszę ci podziękować za tę litościwość." />
+    <string id="DcRDdH6d" text="Ponoć {VICTORIOUS_PARTY_LEADER} {?VICTORIOUS_PARTY_LEADER.GENDER}spuściła{?}spuścił{\?} ci zasłużone lanie." />
+    <string id="ddUxQwOX" text="Podobno {DEFEATED_PARTY_LEADER} {?DEFEATED_PARTY_LEADER.GENDER}przegrała{?}przegrał{\?} z tobą w ostatniej bitwie, chociaż {?DEFEATED_PARTY_LEADER.GENDER}miała{?}miał{\?} przewagę liczebną. Chwała ci, {?PLAYER.GENDER}pani{?}panie{\?}!" />
+    <string id="dJMfIABx" text="Ponoć nasz wróg, {DEFEATED_PARTY_LEADER}, musiał uznać twoje pierwszeństwo w bitwie." />
+    <string id="dkuhmSPi" text="Ale! Co za wesele... Nie mogę się doczekać szczęśliwego pożycia z tobą." />
+    <string id="dlfG8Bdx" text="{SIDE1TROOP} i {SIDE2TROOP} kłócili się o swoją miłość do {SUBJECT}{.g}." />
+    <string id="dNNcebar" text="Więc może teraz żałujesz, że {?LISTENER.GENDER}wyrzekłaś{?}wyrzekłeś{\?} się przysięgi danej {TT_LIEGE.NAME}{.d}?" />
+    <string id="dpaagbUb" text="Więc {DEFEATED_PARTY_LEADER} {?DEFEATED_PARTY_LEADER.GENDER}napadła{?}napadł{\?} cię z wielką zgrają, a tobie i tak udało się ich pogonić. Ha. Dobra robota." />
+    <string id="dtaIcOa0" text="W naszym ostatnim starciu {?LISTENER.GENDER}wygrałaś{?}wygrałeś{\?} ty. Wyczekuję okazji na wyrównanie wyniku." />
+    <string id="DzpcTVWI" text="Mówią, że {?LISTENER.GENDER}składałaś{?}składałeś{\?} przysięgę wierności {?TT_LIEGE.GENDER}pani{?}panu{\?} {TT_LIEGE.NAME}{.d}. Nie mogę się doczekać, aż wraz z tobą pójdę walczyć z wrogami!" />
+    <string id="e0WSVhxu" text="Podobno razem z nami będziesz służyć {TT_LIEGE.NAME}{.d}. Cóż... Dla własnego dobra nie wchodź mi w paradę." />
+    <string id="e5viS3jv" text="{SIDE2TROOP} mnie {?SIDE2TROOP.GENDER}znieważyła{?}znieważył{\?}." />
+    <string id="e8Lec4g2" text="Powiadają, że {?TT_LIEGE.GENDER}pani{?}pan{\?} {TT_LIEGE.NAME} {?TT_LIEGE.GENDER}przyjęła{?}przyjął{\?} od ciebie przysięgę wierności. Nie będę udawać, że podoba mi się ta decyzja. Ale może to i lepiej, że będziesz szczać na innych, a nie na nas." />
+    <string id="f0TZ7BRb" text="Ponoć {DEFEATED_PARTY_LEADER} {?DEFEATED_PARTY_LEADER.GENDER}przegrała{?}przegrał{\?} bitwę z tobą." />
+    <string id="FaQ02Yet" text="Zawsze będę pamiętać o {ENEMY_SETTLEMENT}{.l}... To była ciężka, lecz chwalebna bitwa." />
+    <string id="fjthM3fE" text="Powiadają, że {?HERO.GENDER}złożyłaś{?}złożyłeś{\?} przysięgę wierności {?TT_LIEGE.GENDER}pani{?}panu{\?} {TT_LIEGE.NAME}{.d}. Doskonale... Myślę, że szybko zostaniemy przyjaciółmi. Ale pamiętaj, jeśli nas zdradzisz, będzie to największy błąd twego życia." />
+    <string id="FxTlch69" text="Musisz mnie mieć za naprawdę zamożnego człowieka, skoro napadasz na moje karawany i liczysz, że nie zauważę. Zakładam, że twoje czyny miały być komplementem i że znajdziesz sobie inne źródło dochodu." />
+    <string id="g3a9dmzu" text="Ci bandyci nigdy nie sprawiają nam kłopotów, ale to chyba dobry trening." />
+    <string id="gaHeS3qu" text="Nie zapomnę naszego zwycięstwa nad {DEFEATED_PARTY_LEADER}{.i}. Podziękujmy raz jeszcze niebiosom i pomódlmy się, żeby nie wbić się w dumę." />
+    <string id="gQcyHNVT" text="Ponoć twierdza {SETTLEMENT_NAME}{.g} jest obecnie pod twoim władaniem. Na pewno jakiś zdrajca otworzył dla ciebie bramy." />
+    <string id="GXR9KGBn" text="Ściganie bandytów... Ktoś to niby robić musi." />
+    <string id="H1t6YIMv" text="Zawsze będę miło wspominać nasze starcie z {DEFEATED_PARTY_LEADER}{.i}. Oby wszystkie nasze bitwy były równie chwalebne." />
+    <string id="hjcjbEYn" text="Z tego, co słyszę, wzięliście {SETTLEMENT_NAME}{.a}. Mam nadzieję, że ukaraliście tych ludzi za to, co nam zrobili." />
+    <string id="hl1AFy3m" text="Podobno udało ci się pokonać {DEFEATED_LEADER_RELATIONSHIP}{.a}. Ha! Zabawnie byłoby patrzeć, jak kuli się przed tobą ze strachu." />
+    <string id="iEaXFpUF" text="Nie wiem, w jaki zdradziecki sposób udało ci się zwyciężyć {DEFEATED_LEADER_RELATIONSHIP}{.a}, ale na mnie to nie zadziała." />
+    <string id="ifNalTNK" text="A zatem jedna grupa bandytów nie żeruje już na podróżnych. Ale i tak będą kolejne. Zawsze tak jest." />
+    <string id="iNYL0cJ5" text="Wygląda na to, że zdobyliście {SETTLEMENT_NAME}{.a}. Dobra robota." />
+    <string id="Iz9jimvM" text="Nigdy nie zapomnę przejęcia {ENEMY_SETTLEMENT}{.g}... Wszystkie oblężenia są paskudne, nawet te zwycięskie." />
+    <string id="j9CHWmr5" text="Dziękuję ci za zapłacenie mojego okupu." />
+    <string id="JCzju3in" text="Podobno wrogowie – {ENEMY_TERM} – cieszą się zwycięstwem nad tobą, lecz zapłaciło za to wielu ludzi. Dobrze." />
+    <string id="jH77WXL2" text="Dużo o tobie mówią – o tym, jak udało ci się pokonać {DEFEATED_PARTY_LEADER}{.a}, choć twoja armia była mniejsza. Czy to prawda? Jakoś nie mogę uwierzyć." />
+    <string id="jhnPucu3" text="Zatem... Celem i moich, i twoich zalotów jest piękna {FIRST_NAME}." />
+    <string id="JNub3xzU" text="Wrogowie, {ENEMY_TERM}, atakowali zawzięcie. Cieszę się, że wszyscy uszliśmy z życiem." />
+    <string id="jqOmOSQZ" text="Wśród wojny i śmierci tylko handel trzyma ten wspaniały kraj razem. Jeśli zamierzasz dalej napadać na moje karawany i sabotować dobrobyt tego świata, to muszę cię powstrzymać." />
+    <string id="k4MKDRJH" text="A więc {?LISTENER.GENDER}zajęłaś{?}zająłeś{\?} {SETTLEMENT_NAME}{.a}. Niech tak będzie. Na twoim miejscu {?SPEAKER.GENDER}zrobiłabym{?}zrobiłbym{\?} to samo. Ale odzyskam, co moje." />
+    <string id="keJgUALH" text="Cóż... Mogę wiele wybaczyć, ale trudno jest wybaczyć zdradę." />
+    <string id="Kf45xPSd" text="Może i ostatnim razem udało ci się wygrać, ale to się nie powtórzy." />
+    <string id="Kn0sd9dR" text="Przyszło mi patrzeć, jak twoi ludzie szturmują nasze mury. Nie wiem, czemu mnie oszczędzili. Wielu nie zaznało tego szczęścia." />
+    <string id="kWGF47Mc" text="Zwycięstwo w naszej ostatniej bitwie należy do ciebie. Lecz nigdy więcej." />
+    <string id="LaBhR4Vm" text="Ponoć {VICTORIOUS_PARTY_LEADER} cię {?VICTORIOUS_PARTY_LEADER.GENDER}pokonała{?}pokonał{\?}. Nie obawiaj się, odpłacimy za to z nawiązką." />
+    <string id="LaPJJMCD" text="Mówiono mi, że {?LISTENER.GENDER}walczyłaś{?}walczyłeś{\?} przeciwko {DEFEATED_PARTY_LEADER}{.d} i {?LISTENER.GENDER}zwyciężyłaś{?}zwyciężyłeś{\?}. No cóż, nawet tacy jak ty czasem mają szczęście." />
+    <string id="lMFCQOJL" text="{PLAYER.LINK}! {?LISTENER.GENDER}Zbuntowałaś{?}Zbuntowałeś{\?} się i {?LISTENER.GENDER}złamałaś{?}złamałeś{\?} przysięgę lenną. Nie licz na łaskę." />
+    <string id="lsgsuRva" text="Mówią, że {?LISTENER.GENDER}wypowiedziałaś{?}wypowiedziałeś{\?} posłuszeństwo {TT_LIEGE.NAME}{.d}. Cóż, lepiej nam będzie bez ciebie." />
+    <string id="LXMcIObA" text="Moi parobkowie twierdzą, że ktoś, kto wyglądał tak jak ty, okradł ich z towarów i pieniędzy. Chyba powinienem czuć wdzięczność, że ich domostwa nie zostały spalone." />
+    <string id="LZlTOKIH" text="Podobno w twoje ręce wpadło tu ostatnio paru bandytów. Cóż, moja kupiecka dusza każe mi podziękować ci za uczynienie dróg bezpieczniejszymi. Może dzięki temu choć niektórzy desperaci zrezygnują z przestępczego życia." />
+    <string id="lzQYayR0" text="Pamiętam naszą ostatnią bitwę. To było dobre starcie. Przybywasz po więcej?" />
+    <string id="M43kLIaa" text="Może i łączy nas wspólna walka przeciw {DEFEATED_PARTY_LEADER}{.d}, ale nawet to nic nie znaczy w obliczu twoich uczynków." />
+    <string id="mabEK2R8" text="Podobno udało ci się schwytać jakichś bandytów. Moje doświadczenie handlowe każe mi doceniać wszelkie starania w celu ochrony traktów." />
+    <string id="mwF92doJ" text="Pamiętam naszą ostatnią bitwę. To było dobre starcie." />
+    <string id="n0SpScdp" text="Najwyraźniej twardy z ciebie wojak. Podobno {VICTORIOUS_PARTY_LEADER} {?VICTORIOUS_PARTY_LEADER.GENDER}okupiła{?}okupił{\?} zwycięstwo nad tobą ogromnymi stratami." />
+    <string id="ndagvVPz" text="Ponoć {DEFEATED_PARTY_LEADER} {?DEFEATED_PARTY_LEADER.GENDER}przegrała{?}przegrał{\?} bitwę z tobą. Nie myśl jednak, że ja tak łatwo nabiorę się na twoje sztuczki." />
+    <string id="ndQo81VN" text="Mówią, że {?LISTENER.GENDER}składałaś{?}składałeś{\?} przysięgę wierności {?TT_LIEGE.GENDER}pani{?}panu{\?} {TT_LIEGE.NAME}{.d}. To dobrze. Im więcej będziemy mieć doświadczonych żołnierzy w tych trudnych czasach, tym lepiej. Będę cię obserwować." />
+    <string id="Nnqgix3X" text="Cieszę się, że dbasz o swoich ludzi." />
+    <string id="O0acjJR9" text="Mówią, że {?LISTENER.GENDER}składałaś{?}składałeś{\?} przysięgę wierności {?TT_LIEGE.GENDER}pani{?}panu{\?} {TT_LIEGE.NAME}{.d}. Obawiam się, że możesz przynieść nam hańbę, ale udowodnij mi, że się mylę, a naprawdę mnie to uraduje." />
+    <string id="obydBl7I" text="Podobno udało ci się pokonać {DEFEATED_PARTY_LEADER}{.a}... Dobrze." />
+    <string id="Pf44U15I" text="Mówią, że {?LISTENER.GENDER}składałaś{?}składałeś{\?} przysięgę wierności {?TT_LIEGE.GENDER}pani{?}panu{\?} {TT_LIEGE.NAME}{.d}. Proszę, nie przynieś nam wstydu tchórzliwymi uczynkami." />
+    <string id="pJtkSopk" text="Ponoć {DEFEATED_PARTY_LEADER} {?DEFEATED_PARTY_LEADER.GENDER}przegrała{?}przegrał{\?} bitwę z tobą. Przybywam, by wyrównać rachunki." />
+    <string id="pmw8vTs8" text="Zobaczmy, czy naprawdę zasługujesz na tyle, ile ci płacimy." />
+    <string id="pT6QqtTB" text="Powiedziano mi, że {?LISTENER.GENDER}oblegałaś{?}oblegałeś{\?} i {?LISTENER.GENDER}zdobyłaś{?}zdobyłeś{\?} {SETTLEMENT_NAME}{.a}." />
+    <string id="pWQwULg1" text="Ile kosztowała cię moja wolność? Chyba nie potrącisz mi tego z mojej doli łupu?" />
+    <string id="PzBfkDIF" text="Twoi ludzie ograbili karawanę, która znajdowała się pod moją ochroną. Posłuchaj, wiem, że trwa wojna... Ale czy to było naprawdę konieczne?" />
+    <string id="Q5eT72ba" text="Twój bunt przeciw {TT_LIEGE.NAME}{.d} czyni z nas wrogów. Szczerze mówiąc, wolę, by tak było. Lepiej, by wąż czaił się na zewnątrz namiotu. Nie zgodzisz się?" />
+    <string id="q5SZRgUR" text="Podobno ty i {VICTORIOUS_PARTY_LEADER} poszliście w szranki i {VICTORIOUS_PARTY_LEADER} {?VICTORIOUS_PARTY_LEADER.GENDER}zmusiła{?}zmusił{\?} cię do odwrotu." />
+    <string id="QbXjHb7y" text="Ostatnim razem {?LISTENER.GENDER}odniosłaś{?}odniosłeś{\?} zwycięstwo. Mam nadzieję, że czujesz z tego powodu satysfakcję. Kolejny raz ci się nie uda. Twoje sztuczki już nie zadziałają." />
+    <string id="QD7wWIdW" text="Pamiętasz, jak oblaliśmy pola krwią twoich ludzi? Ja pamiętam." />
+    <string id="qdMJ3HN3" text="A więc walczysz dla nas za pieniądze. Nie wiem, czy zasługujesz na zaufanie." />
+    <string id="qEZR7adT" text="Nie mogę stać bezczynnie, gdy siejesz zamęt na moich traktach i ograbiasz moje karawany. Trzeba wymierzyć ci sprawiedliwość." />
+    <string id="QXrxVZHJ" text="Z tego, co słyszę, {?LISTENER.GENDER}pokonałaś{?}pokonałeś{\?} {DEFEATED_PARTY_LEADER}{.a}. Cóż, nie będę komentować {?GENDER}jej{?}jego{\?} umiejętności dowódczych, lecz to nie mogło być trudne zwycięstwo." />
+    <string id="r7yWwaY3" text="Ponoć {?LISTENER.GENDER}walczyłaś{?}walczyłeś{\?} dzielnie, ale w końcu {VICTORIOUS_PARTY_LEADER} {?VICTORIOUS_PARTY_LEADER.GENDER}zwyciężyła{?}zwyciężył{\?} cię dzięki liczebności swej armii." />
+    <string id="RGNIuSCM" text="Ponoć {DEFEATED_PARTY_LEADER} {?DEFEATED_PARTY_LEADER.GENDER}przegrała{?}przegrał{\?} bitwę przeciw tobie. Szanuję godnego przeciwnika." />
+    <string id="rINfrA70" text="Masz na sumieniu bunt przeciwko {TT_LIEGE.NAME}{.d}. Spodziewaj się kary godnej zdrajców." />
+    <string id="rlLqbDCQ" text="Twój atak na moją karawanę kosztował mnie górę monet. Ciekawe, czy mógłbym je odzyskać, sprzedając twoje narządy." />
+    <string id="rUda85FW" text="{?LISTENER.GENDER}Odebrałaś{?}Odebrałeś{\?} nam {SETTLEMENT_NAME}{.a}. Nie zapomnimy tego." />
+    <string id="S28aK0oF" text="Zaklinam cię na honor, zaniechaj ataków na moje karawany." />
+    <string id="SCvFN6Ap" text="Twój bunt przeciw {TT_LIEGE.NAME}{.d} był aktem zdrady." />
+    <string id="SM16wIcc" text="Czyli {?DEFEATED_PARTY_LEADER.GENDER}ta niegodziwa kobieta{?}ten niegodziwiec{\?}, {DEFEATED_PARTY_LEADER}, {?DEFEATED_PARTY_LEADER.GENDER}stanęła{?}stanął{\?} przeciw tobie i udało ci się wygrać? Świetna robota." />
+    <string id="SoCaUHhH" text="Jest coś, co muszę powiedzieć... {?LISTENER.GENDER}Złamałaś{?}Złamałeś{\?} słowo dane {COMMENT_REFERENCE_HERO}{.d}. Ciężko mi to zaakceptować." />
+    <string id="Sxga9UOp" text="Cieszę się, że walczysz po naszej stronie." />
+    <string id="tciR9VSr" text="Ponoć {DEFEATED_PARTY_LEADER} {?DEFEATED_PARTY_LEADER.GENDER}przegrała{?}przegrał{\?} bitwę z tobą. {?GENDER}Jej{?}jego{\?} błąd kosztował nas życie wielu dzielnych ludzi." />
+    <string id="tMET9a0Q" text="Widzę, że tak po prostu sięgasz sobie po zawartość mojej karawany... Nie darzę sympatią złodziei. Być może trzeba odjąć ci ręce i oczy w ramach rekompensaty." />
+    <string id="TN5hbc7f" text="Dobrze jest nie mieć spętanych rąk." />
+    <string id="tUc0CIs4" text="Nigdy nie zapomnę, jak pokonaliśmy umocnienia {ENEMY_SETTLEMENT}{.g} i wycięliśmy obrońców." />
+    <string id="ucKrwFCj" text="Z tego, co słyszę, {?LISTENER.GENDER}wypowiedziałaś{?}wypowiedziałeś{\?} posłuszeństwo {TT_LIEGE.NAME}{.d}. Cóż, to twoja decyzja." />
+    <string id="udMxMICB" text="Karawana, która znajdowała się pod moją ochroną, została ponoć splądrowana przez twoje wojska. Zakładam, że to było nieporozumienie." />
+    <string id="UKTXefOD" text="Mówią, że {?LISTENER.GENDER}składałaś{?}składałeś{\?} przysięgę wierności {?TT_LIEGE.GENDER}pani{?}panu{\?} {TT_LIEGE.NAME}{.d}. Walcz z wrogami, szanuj tych, którzy stoją wyżej od ciebie, i nie sprzeciwiaj mi się, a wszystko będzie dobrze." />
+    <string id="VcXpFIrT" text="Pamiętasz, jak nasze wojska zmiażdżyły {DEFEATED_PARTY_LEADER}{.a} i zostawiły truchła {?DEFEATED_PARTY_LEADER.GENDER}jej{?}jego{\?} ludzi na ucztę dla wron? Cudowne wspomnienie." />
+    <string id="VSyOVMge" text="Nie chcę nazywać cię zdrajcą. Uznam raczej, że to głupota nie pozwoliła ci dostrzec, że atakujesz moją karawanę, a nie wrogą." />
+    <string id="vxkoCCuc" text="Ponoć razem z nami będziesz służyć {TT_LIEGE.NAME}{.d}." />
+    <string id="W3F2HgTN" text="Jak rozumiem, {?LISTENER.GENDER}zajęłaś{?}zająłeś{\?} twierdzę {SETTLEMENT_NAME}{.g}. Celnie zadany cios!" />
+    <string id="WobMdST8" text="Pamiętam nasze ostatnie spotkanie. Byliście godnymi przeciwnikami." />
+    <string id="WROObSl4" text="{SIDE1TROOP} znieważył {SIDE2TROOP}{.a}." />
+    <string id="WZ2K83Z4" text="{PLAYER.LINK}! {?LISTENER.GENDER}Zbuntowałaś{?}Zbuntowałeś{\?} się i {?LISTENER.GENDER}złamałaś{?}złamałeś{\?} przysięgę lenną. Lecz teraz niebiosa przyprowadziły cię do mnie." />
+    <string id="WzMjUSGv" text="Ponoć {?LISTENER.GENDER}wygrałaś{?}wygrałeś{\?} bitwę z {DEFEATED_LEADER_RELATIONSHIP}{.i}. {?LISTENER.GENDER}Sprytna z ciebie przeciwniczka{?}Sprytny z ciebie przeciwnik{\?}, ale teraz {?SPEAKER.GENDER}zapędziłam{?}zapędziłem{\?} cię w kozi róg, gdzie spotkasz swój koniec." />
+    <string id="x8WJb01D" text="Nie zazdroszczę ci zwycięstwa podczas naszego ostatniego spotkania. Cieszę się, że nie musimy już walczyć." />
+    <string id="XLqklKR5" text="Ponoć {VICTORIOUS_PARTY_LEADER} cię {?VICTORIOUS_PARTY_LEADER.GENDER}pokonała{?}pokonał{\?}. Niektórzy mówią o bohaterskim oporze, ale dla mnie klęska jest klęską." />
+    <string id="Xt1V4D6X" text="Zwycięstwo w naszym ostatnim starciu należało do ciebie. Gratuluję i wyczekuję okazji na wyrównanie wyniku." />
+    <string id="YEoEaMRJ" text="{FIRST_NAME} to ktoś, od kogo należy się trzymać z daleka." />
+    <string id="yjDRCuQx" text="Cieszę się, że dochowaliśmy słowa danego {COMMENT_REFERENCE_HERO}{.d}." />
+    <string id="YsUq0lPJ" text="Cokolwiek się wydarzy, nasze zmagania z {DEFEATED_PARTY_LEADER}{.i} na zawsze zostaną w mojej pamięci." />
+    <string id="yzxJBMJd" text="Podobno {?LISTENER.GENDER}napadłaś{?}napadłeś{\?} na chronioną przeze mnie karawanę. Nie podoba mi się to." />
+    <string id="yZZx1WVQ" text="Mówią, że {?LISTENER.GENDER}składałaś{?}składałeś{\?} przysięgę wierności {?TT_LIEGE.GENDER}pani{?}panu{\?} {TT_LIEGE.NAME}{.d}. Walcz dzielnie, a otrzymasz nagrodę. Zdradź nas, a uczynimy z ciebie przykład, który zostanie zapamiętany na długo." />
+    <string id="Z6XSaq8b" text="Ostatnim razem udało ci się mnie pokonać. Ale zapewniam, że to się nie powtórzy!" />
+    <string id="z76zznAS" text="Gratuluję tobie oraz {FIRST_NAME}{.d} z okazji ślubu." />
+    <string id="zFfRLbxK" text="Nie myśl, że nie pamiętam o naszej małej potyczce. Znam już twoje sztuczki. Jeśli znów staniemy przeciw sobie, wszystko potoczy się inaczej." />
+    <string id="zTNNxMzz" text="Mówią, że {?LISTENER.GENDER}składałaś{?}składałeś{\?} przysięgę wierności {?TT_LIEGE.GENDER}pani{?}panu{\?} {TT_LIEGE.NAME}{.d}. Moim zdaniem nie {?TT_LIEGE.GENDER}powinna{?}powinien{\?} powierzyć ci nawet czyszczenia butów." />
+  </strings>
+</base>

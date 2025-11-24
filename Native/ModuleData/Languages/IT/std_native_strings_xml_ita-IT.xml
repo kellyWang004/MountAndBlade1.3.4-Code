@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Italiano" />
+  </tags>
+  <strings>
+    <string id="01zQKaF3" text="Forma degli occhi" />
+    <string id="05loYcST" text="Colpisci scudo sulla schiena" />
+    <string id="0cpbEvsG" text="Volto anziano" />
+    <string id="0DBQGaka" text="Hai inflitto danni caricati!" />
+    <string id="0ezfbORI" text="Tipo di partita" />
+    <string id="0P89VyAQ" text="Asimmetria del volto" />
+    <string id="0W4dgUho" text="Ti hanno bannato fino al giorno {BANNEDUNTIL} per il seguente motivo: {BANREASON}" />
+    <string id="0WHQKap4" text="Tempo massimo selezione equipaggiamento (secondi)" />
+    <string id="0xJ3qIlJ" text="Profilo del mento" />
+    <string id="180DfbQU" text="Terreni di prova" />
+    <string id="1b2dfc0n" text="Richiesta di unirsi al gruppo rifiutata." />
+    <string id="1fFnE9Vk" text="Europa" />
+    <string id="1GFrsDRm" text="Soglia validità sondaggio" />
+    <string id="1gU5rDws" text="Banna giocatori tramite sondaggio" />
+    <string id="1kCkzrpc" text="Blocco su visuale membri della squadra" />
+    <string id="1LVlILek" text="Hai inflitto {DAMAGE} danni da speronamento." />
+    <string id="1Ndyb5I1" text="Durata rimozione bandiera (secondi)" />
+    <string id="1r0tDsrR" text="All&apos;attacco!" />
+    <string id="1siBGYlP" text="Larghezza zigomi" />
+    <string id="1zveWQFg" text="Seleziona una regione nella scheda del matchmaking per cercare una battaglia a cui partecipare" />
+    <string id="21m0Bo08" text="Riattiva la voce" />
+    <string id="22MOa4Fc" text="Altezza esterno occhi" />
+    <string id="23INS6nf" text="Password richiesta" />
+    <string id="26SJhCRD" text="Sostituisci con" />
+    <string id="2blpQ3OQ" text="Segni distintivi" />
+    <string id="2d0H47C8" text="Distanza tra gli occhi" />
+    <string id="2G3QpSDk" text="Labbra fuori/dentro" />
+    <string id="2KrDfHI8" text="Impossibile unirsi al gruppo a causa delle impostazioni delle autorizzazioni della piattaforma." />
+    <string id="2QzgefNF" text="Peso del volto" />
+    <string id="2Rf2ChRD" text="Spessore sopracciglia" />
+    <string id="2uynGJbP" text="Trasferimento truppe" />
+    <string id="39f0eu3Y" text="Token per l&apos;autenticazione scaduto." />
+    <string id="3AInGztr" text="Busto" />
+    <string id="3APdsKEi" text="Coltello da lancio" />
+    <string id="3aX5gXmJ" text="Colore della pelle" />
+    <string id="3EbTklMi" text="Hai ottenuto un nuovo stemma: {BADGE_NAME}." />
+    <string id="3Kkya96j" text="Gamba" />
+    <string id="3kqFHkZz" text="Spessore labbra" />
+    <string id="3ydKbDmI" text="{PLAY_TIME} minuti" />
+    <string id="3ZzxddkE" text="Password partita" />
+    <string id="43L45sjx" text="Numero di bot per formazione" />
+    <string id="4b2hRWiI" text="{.MS}Castello di Domogtul" />
+    <string id="4daqsVWG" text="Guadagna oro per acquistare possibilità di rientro assistendo i compagni di team e uccidendo le truppe nemiche." />
+    <string id="4DcNDein" text="Limite tempo mappa (minuti)" />
+    <string id="4Dd2xgPm" text="Peso" />
+    <string id="4jv2sW4U" text="Zona commerciale" />
+    <string id="4ompPd8W" text="Il tuo clan ha effettuato un nuovo annuncio." />
+    <string id="4SWcDUJC" text="Bastione di Ayzar" />
+    <string id="4wLU6s4S" text="Addome" />
+    <string id="4yiB8CRO" text="Negativo!" />
+    <string id="52YN6m2B" text="Hai inflitto danni con un&apos;arma inastata in ferro!" />
+    <string id="5IR8g3YL" text="Statistiche come capitano" />
+    <string id="5mSKBidd" text="Forma del naso" />
+    <string id="5odwu8qB" text="Classificato" />
+    <string id="5tbWdY1j" text="Avatar" />
+    <string id="5vZW8IJ5" text="Scambia con {.l}{ITEM_NAME}" />
+    <string id="621DbiOw" text="Asimmetria del naso" />
+    <string id="64n3piBf" text="Partite totali" />
+    <string id="66aByatH" text="Riattiva il testo" />
+    <string id="6DBVzw9r" text="Corporatura" />
+    <string id="6kQxshlw" text="Uccisione squadra/Fuoco amico" />
+    <string id="6usZYAVm" text="Abuso di comunicazione" />
+    <string id="6yZnboe6" text="Dimensione orbite" />
+    <string id="74tYdiOb" text="Scegli con cura le truppe da schierare in base alle necessità del tuo team. Il conteggio delle truppe dipende dalla forza delle unità." />
+    <string id="77arWi0m" text="Altezza interno occhi" />
+    <string id="7BlOJvyo" text="Larghezza della bocca" />
+    <string id="7lvexPjZ" text="Pianura" />
+    <string id="7nLM1z2V" text="Punteggio minimo per vincere il duello" />
+    <string id="880uOrte" text="Terreno" />
+    <string id="8bnYsGu6" text="Porto di Ovsk (Inverno)" />
+    <string id="8EsaVlSX" text="Isola di Deriad" />
+    <string id="8K0DR83v" text="Collabora con i tuoi compagni di team in questa frenetica modalità PvP tattica. Ottieni oro uccidendo nemici o mentre combatti per demoralizzare o spazzare via completamente le truppe avversarie." />
+    <string id="8o1lZcjR" text="Altezza esterna" />
+    <string id="8sG5bTtK" text="Tempo di rientro" />
+    <string id="8vXHhxPr" text="Attiva/Disattiva IA" />
+    <string id="9kEUK9iY" text="·   Scegli la classe che desideri da tutti i tipi di truppa disponibili{newline}·   Affronta un avversario in combattimento singolo{newline}·   Sconfiggi il tuo avversario tre volte per vincere il duello e impossessarti del suo bottino." />
+    <string id="9S7liri5" text="Questa opzione non è accessibile, hai raggiunto i limiti di salvataggio." />
+    <string id="9Ts5zKIj" text="Occhi" />
+    <string id="a2xfNmqa" text="Nella lobby" />
+    <string id="a8nb5HVc" text="Altezza centrale" />
+    <string id="aAD1iOuH" text="Dimensione parte superiore bocca" />
+    <string id="aALNy4Es" text="Strade di Syllianon" />
+    <string id="aDabgVpn" text="Personalizzazione personaggio" />
+    <string id="adyGICWc" text="Camera non accessibile!" />
+    <string id="AEcTBnkz" text="Cambia abiti" />
+    <string id="aGTgzoqW" text="Espelli giocatori tramite sondaggio" />
+    <string id="ahobSLlo" text="Richiesta di accesso fallita." />
+    <string id="AoNh2ihL" text="Nemico avvistato!" />
+    <string id="auDOtbza" text="Team Civiltà 1" />
+    <string id="averageConnection" text="Media" />
+    <string id="aZVxHbwH" text="{?PLAYER.GENDER}Uccisa{?}Ucciso{\?} da {TROOP_NAME}" />
+    <string id="b0L0jbIa" text="Posizione degli occhi" />
+    <string id="b74zosgq" text="Dimensione del naso" />
+    <string id="bAPQFzcW" text="Danno da proiettile" />
+    <string id="BBKp1Ajq" text="Attiva la registrazione della missione" />
+    <string id="bbYwqrvo" text="Forma mandibola" />
+    <string id="bdljU1ig" text="Statistiche deathmatch a squadre" />
+    <string id="BFWD0pCE" text="Danno a distanza fuoco amico Alleato" />
+    <string id="bgwo3QpS" text="Contenuti offensivi" />
+    <string id="bH0wXnXr" text="Questa opzione non è accessibile per via della modalità Ironman." />
+    <string id="bjcixGIE" text="Team" />
+    <string id="BJMPBcDn" text="Secondo assist" />
+    <string id="BMPrnHpK" text="Dimensione narici" />
+    <string id="bnfUdx3O" text="Altezza al centro" />
+    <string id="BQzP1ivS" text="Rapporto dimensioni" />
+    <string id="brk0f05B" text="Scalatura testa" />
+    <string id="bTpn4bZ8" text="Altezza interna" />
+    <string id="bV75iwKa" text="Salva" />
+    <string id="bwmlWKa2" text="Limite: {LIMIT_VALUE}" />
+    <string id="bXIrqxKc" text="Numero min. di giocatori richiesto per iniziare" />
+    <string id="bYCfMbYk" text="Cambia team" />
+    <string id="bzu60bhP" text="Chiedo scusa!" />
+    <string id="c1zu1b3M" text="Non fai più parte del gruppo." />
+    <string id="c2tGH5II" text="Limite tempo riscaldamento (minuti)" />
+    <string id="captainasgame" text="Capitano" />
+    <string id="ccROnOY3" text="Hai subito danni caricati!" />
+    <string id="CFI2aDtg" text="Armatura cavalcatura" />
+    <string id="cJ5emwNF" text="Assist" />
+    <string id="CjPiabbn" text="Fuoco a volontà" />
+    <string id="CJr1T7jh" text="Password admin" />
+    <string id="Cl3TziQE" text="La tua cavalcatura ha subito {DAMAGE} punti di danno da caduta." />
+    <string id="CoxEyDa8" text="Linea d&apos;attacco" />
+    <string id="cSui4APH" text="Obiettivo distrutto" />
+    <string id="d1ogH1v1" text="{.MS}Castello di Tsagaan" />
+    <string id="d3RJm2zW" text="Altezza mandibola" />
+    <string id="dbLB0tuT" text="La condivisione familiare non è consentita." />
+    <string id="DHlVSaZW" text="Velocità di movimento relativa: {SPEED} m/s" />
+    <string id="DLKRQOuM" text="Impossibile accedere dal tuo servizio di piattaforma (Errore: {ACCESSERROR})." />
+    <string id="dojUqbv8" text="Lunghezza del naso" />
+    <string id="dRlTmdKR" text="Sistema" />
+    <string id="DuJfaNx5" text="Hai subito {DAMAGE} danni da speronamento." />
+    <string id="dZ4xp6Lu" text="Larghezza tempie" />
+    <string id="eGcXbXPy" text="Comportamento inappropriato" />
+    <string id="Ej6Gjmkc" text="Disattiva" />
+    <string id="EUHaR98k" text="Segnala" />
+    <string id="EX4bKRbV" text="Conteggio vittime" />
+    <string id="EZRnvPJS" text="Voltati in questa direzione" />
+    <string id="f4ZeGAJi" text="Velocità relativa proiettile: {SPEED} m/s" />
+    <string id="f5y9qyDb" text="Braccio" />
+    <string id="F6l8hFEA" text="Scogliere di Akkalat" />
+    <string id="F6WH1JaM" text="Blocco sui membri della squadra" />
+    <string id="fFLBT9wb" text="Petto" />
+    <string id="FFNJTsDL" text="Espelli un giocatore" />
+    <string id="FgJpTBp1" text="Danno a distanza fuoco amico Giocatore" />
+    <string id="fjD2tRXW" text="Prognatismo" />
+    <string id="fJHsYtKu" text="Echerion" />
+    <string id="fJqJiJvl" text="Usa parate realistiche" />
+    <string id="fnJQO5Os" text="Altezza punta naso" />
+    <string id="FzaoDwLA" text="Attacco a sorpresa!" />
+    <string id="FzJnNNam" text="Asimmetria del naso" />
+    <string id="G1HobbjU" text="Scontro tra capitani" />
+    <string id="g6cHDWJF" text="Testa" />
+    <string id="GaF4CvmX" text="Affilatezza del volto" />
+    <string id="GcosVDAt" text="Conteggio assist" />
+    <string id="GnKCsV44" text="Lunghezza del mento" />
+    <string id="GoEo27il" text="Tempo di rientro degli attaccanti" />
+    <string id="goodConnection" text="Forte" />
+    <string id="gQLDkSrf" text="Questa opzione non è accessibile per via di una conversazione in corso." />
+    <string id="GQOS4d9g" text="Attiva/Disattiva faccia a faccia" />
+    <string id="Gr994CTR" text="Disattiva armi a distanza" />
+    <string id="gUQI0PLa" text="Nord America occidentale" />
+    <string id="GY4NaieE" text="Puro" />
+    <string id="GYc0Dcbn" text="Nord America orientale" />
+    <string id="h3obZWO0" text="Rupe" />
+    <string id="H4PrQzvN" text="Questa opzione non è accessibile per via dell&apos;educazione incompleta di un membro del clan." />
+    <string id="h5OsTOFM" text="Labbra fuori/dentro" />
+    <string id="H7YWqwq6" text="Durata entrata in gioco inizio round" />
+    <string id="HgpdpYuK" text="Corpo" />
+    <string id="HL3EONMe" text="Partita personalizzata" />
+    <string id="HLhT64IP" text="Privato" />
+    <string id="htW15Gmn" text="Spiaggia" />
+    <string id="HyV2D9qZ" text="Blocco di Cypegos" />
+    <string id="I4wnvBGd" text="Affronta un brutale assedio medievale nei panni delle forze d&apos;attacco o di difesa in questa modalità PvP su larga scala. Usa i macchinari d&apos;assedio a tua disposizione per ricacciare le truppe avversarie o per stabilire una testa di ponte oltre i bastioni nemici." />
+    <string id="IaaVNwwb" text="Attiva BattlEye" />
+    <string id="IBAaKSbp" text="Porto di Omor" />
+    <string id="iDMBz55E" text="In una partita multigiocatore" />
+    <string id="ig0lsiwY" text="Soldati" />
+    <string id="IKn1YxU2" text="Percentuale guadagno oro attaccanti" />
+    <string id="ImWyFyld" text="Posizione della bocca" />
+    <string id="irGCyJaY" text="Uccisioni totali" />
+    <string id="ItmPmlWH" text="· Spendi oro per acquistare un rientro in gioco{newline}· Mantieni i punti di controllo sulla mappa per demoralizzare il nemico{newline}· Uccidi l&apos;intero team nemico o demoralizzalo del tutto per vincere" />
+    <string id="iWLq9hMg" text="Non è stato fornito un token per l&apos;autenticazione." />
+    <string id="JCcbydcJ" text="{KEY} {ACTION}" />
+    <string id="jEh6EdF9" text="Al meglio di {ROUND_COUNT}" />
+    <string id="JetpbYv9" text="Macchia" />
+    <string id="jpeq1gF0" text="Città del nord" />
+    <string id="JPimShCw" text="Modalità di gioco" />
+    <string id="jsqyGWGu" text="Percentuale guadagno oro difensori" />
+    <string id="jtLGvCac" text="Disattiva il testo" />
+    <string id="jukzZmBb" text="Guadagna oro e punti uccidendo i nemici e supportando i compagni di team, sfidando il team avversario per la vittoria." />
+    <string id="jUsEkEBt" text="Asimmetria della mandibola" />
+    <string id="JW2nEe4X" text="Danno corpo a corpo fuoco amico Alleato" />
+    <string id="JwnoxhKI" text="Profondità del volto" />
+    <string id="k4cMrbVf" text="Prima uccisione in corpo a corpo" />
+    <string id="Ke7eAS5B" text="Bonus beneficio" />
+    <string id="KHx75GnA" text="Acqua" />
+    <string id="Kl9aqIuX" text="Gara" />
+    <string id="kQh0O7gn" text="Spendi oro per scegliere la truppa all&apos;inizio del round." />
+    <string id="KtRCqiVO" text="Pendaric" />
+    <string id="kVwwG63i" text="Cambia mappe tramite sondaggio" />
+    <string id="kW4c2liv" text="Usa parate dipendenti dall&apos;animazione" />
+    <string id="KwrSLa0H" text="Chat abusiva" />
+    <string id="kY2oXMng" text="Impossibile accedere." />
+    <string id="L0lGQWt5" text="Numero di bot team 2" />
+    <string id="L3tY2kTE" text="Fuoco amico!" />
+    <string id="L9xEQ5b2" text="Seleziona l&apos;oggetto da sostituire" />
+    <string id="LaaA8U4W" text="Angolo del naso" />
+    <string id="laIfauZH" text="Protuberanza degli occhi" />
+    <string id="lauXoy6d" text="Numero di bot per formazione" />
+    <string id="lclQSt39" text="Tempo massimo round (secondi)" />
+    <string id="ldIXGrVi" text="Urikskalaar" />
+    <string id="lDPQa5gc" text="Soglia bilanciamento automatico team" />
+    <string id="likop0am" text="Avvia un sondaggio" />
+    <string id="LkiQDpi5" text="Dimensione orecchie" />
+    <string id="LmkYgWnF" text="Dimensione occhi" />
+    <string id="LthEtGxp" text="Oggetto colpito: {OBJECT_NAME}" />
+    <string id="Lz6ggWch" text="Riduzione danni da benefici ed effetti: {MODIFIED_DAMAGE}" />
+    <string id="LZmOy39a" text="Statistiche assedio" />
+    <string id="M1RCJ9DM" text="Terzo assist" />
+    <string id="m3zVR2UH" text="Mostra puntatore: [{KEY_NAME}]" />
+    <string id="m5UdbzHr" text="Nessuna regione selezionata" />
+    <string id="M97xvRgO" text="Il gruppo è stato sciolto." />
+    <string id="MaOht6ky" text="I difensori sono fuggiti!" />
+    <string id="mEHIBbBy" text="Gli attaccanti sono fuggiti!" />
+    <string id="mjhOYJWg" text="La faretra è vuota." />
+    <string id="MnM0L4AV" text="Non in una partita multigiocatore" />
+    <string id="MnvK3eK2" text="Obiettivo completato" />
+    <string id="mountverb" text="Cavalca" />
+    <string id="mpparty" text="Gruppo" />
+    <string id="MS795wWa" text="Primo assist" />
+    <string id="mtlNshCB" text="Terreni di prova (notte)" />
+    <string id="mwetB4R6" text="Oro illimitato" />
+    <string id="MyrHcDkP" text="Ritirata nella fortezza!" />
+    <string id="n6N21Shz" text="Guadagna oro per rientrare assistendo il team, uccidendo le truppe e distruggendo le macchine d&apos;assedio." />
+    <string id="NdQZWHIy" text="· Guida il tuo distaccamento{newline}· Mantieni i punti di controllo sulla mappa per demoralizzare il nemico{newline}· Uccidi l&apos;intero team nemico o demoralizzalo del tutto per vincere" />
+    <string id="NE7PmH7n" text="Condizioni" />
+    <string id="NecHOOXR" text="Prima" />
+    <string id="NRa52uaF" text="Impossibile accedere dal tuo servizio di piattaforma." />
+    <string id="nt5MOuwo" text="Duna" />
+    <string id="nUR7rs6y" text="Entra subito in azione in questa versione medievale della classica modalità di gioco PvP. " />
+    <string id="nx5W7jN0" text="Hai subito danni con un&apos;arma inastata in ferro!" />
+    <string id="nXE6eV8W" text="Lago" />
+    <string id="o5Ead68n" text="Esci senza salvare" />
+    <string id="O5uDFhwu" text="{.MS}Castello di fen Altai" />
+    <string id="O9F9q1zx" text="Profondità zigomi" />
+    <string id="obB483C5" text="Parte del corpo colpita: {BODY_PART}" />
+    <string id="oBbiVeKE" text="Punti ferita" />
+    <string id="oGAzC0Ob" text="Modalità di gioco" />
+    <string id="Ok03egKG" text="Vai verso la posizione" />
+    <string id="Oud3W58w" text="Tieni premuto {KEY} {ACTION}" />
+    <string id="ox8XcxfR" text="Forma delle orecchie" />
+    <string id="OZHFucP5" text="Cipiglio/Sorriso" />
+    <string id="P3blWoZh" text="Ultima" />
+    <string id="p5K0ATtZ" text="Impossibile eliminare la sessione precedente." />
+    <string id="pa4yXyDa" text="{PLAYER_COUNT} contro {PLAYER_COUNT}" />
+    <string id="pagmdsCK" text="Altezza palpebre" />
+    <string id="PbLuHcJg" text="Danno assorbito: {ABSORBED_DAMAGE}" />
+    <string id="pCRwBpzd" text="Naso" />
+    <string id="Ph6PhUwX" text="Distanza: {DISTANCE} m" />
+    <string id="pHaRIFa8" text="Prima uccisione a distanza" />
+    <string id="PiLml6Nl" text="Gli attaccanti proteggono la bandiera catturata per 90 s prima che il morale o il tempo si esauriscano. Le bandiere catturate aumentano il morale. I difensori difendono il castello finché il morale degli avversari non si esaurisce." />
+    <string id="pMmmfvkN" text="Condotta inappropriata" />
+    <string id="pnUSAxzf" text="Aggiungi elenco ufficiale dei server di gioco" />
+    <string id="poiKV9sJ" text="Affermativo!" />
+    <string id="poorConnection" text="Debole" />
+    <string id="pPoySQPy" text="Danni riflessi: {REFLECTED_DAMAGE}" />
+    <string id="pQibMlbA" text="Gobba sul naso" />
+    <string id="PuX1G0h3" text="Abilità Equitazione insufficiente per questa cavalcatura" />
+    <string id="PY6VznGu" text="Larghezza del volto" />
+    <string id="Pzvtcbk6" text="Xauna" />
+    <string id="Q2EmU0TA" text="Limite punti team" />
+    <string id="Q2yjFlC9" text="Trattenete il fuoco" />
+    <string id="q8lsn0U6" text="Guida in battaglia il tuo distaccamento in questa modalità PvP a team. Domina il campo di battaglia per ridurre il morale degli avversari o spazzali via fino all&apos;ultimo uomo per conquistare la vittoria." />
+    <string id="QDU03vOW" text="Hai inflitto {DAMAGE} danni ({DAMAGE_TYPE}) all&apos;oggetto." />
+    <string id="qeSbaPWi" text="Numero di bot team 1" />
+    <string id="qF5pJt7e" text="Asimmetria occhi" />
+    <string id="Qhl77Oki" text="Hai aiutato a uccidere {TROOP_NAME}" />
+    <string id="QIDj0u8w" text="Blocco su un giocatore qualsiasi" />
+    <string id="qNga6uPw" text="Danni inflitti" />
+    <string id="qNRc3pXu" text="Riempi" />
+    <string id="QQX6oNbn" text="In un gruppo" />
+    <string id="R3BwLVmT" text="Hai inflitto {DAMAGE} danni ({DAMAGE_TYPE})." />
+    <string id="rbYITcao" text="Bocca" />
+    <string id="RDsOaEtS" text="Danno aggiuntivo da abilità, benefici ed effetti: {MODIFIED_DAMAGE}" />
+    <string id="Ri6KKhfy" text="Zendyar" />
+    <string id="Rj8RhD7F" text="Non riuscito" />
+    <string id="RJEHDWmu" text="· Spendi oro per acquistare rientri in gioco limitati{newline}· Mantieni i punti di controllo sulla mappa per demoralizzare il nemico{newline}· Uccidi l&apos;intero team nemico o demoralizzalo del tutto per vincere" />
+    <string id="RlDVtPpB" text="Profondità degli occhi" />
+    <string id="rLozutts" text="Richiedi amicizia" />
+    <string id="rnP6wzwy" text="Mare aperto" />
+    <string id="Rvr1bcu8" text="Seguente" />
+    <string id="satFJMMu" text="La versione del server della battaglia personalizzato non è compatibile." />
+    <string id="Sbna6UGb" text="Volto giovane" />
+    <string id="sbSdIIXR" text="Acque costiere" />
+    <string id="sBU9vyF1" text="Colpo alla testa!" />
+    <string id="scoreboardkick" text="Espelli" />
+    <string id="SdxEH6b1" text="Forma labbro infer." />
+    <string id="siegemultiplayergametype" text="Assedio" />
+    <string id="sisK3HPI" text="La tua voce non è attiva." />
+    <string id="SN2ojCFr" text="Pelle piena" />
+    <string id="SNLShTzq" text="Punteggio" />
+    <string id="SqR917CO" text="Disattiva espulsione per inattività" />
+    <string id="Suma3RVA" text="Rientro singolo" />
+    <string id="SVAmzGRM" text="Banna un giocatore" />
+    <string id="SVeIOaab" text="Punteggio minimo per vincere il match" />
+    <string id="SVnbZdJq" text="Nascondi orecchie" />
+    <string id="sXAATSgd" text="Porto di Ovsk" />
+    <string id="sZxSeeXp" text="Numero di giocatori richiesto per terminare il riscaldamento" />
+    <string id="t1bNrw95" text="Statistiche schermaglia" />
+    <string id="T1JTpYXL" text="Disattiva la voce" />
+    <string id="t8lAbdCk" text="Isola di Deriad (Inverno)" />
+    <string id="tAb8KAQb" text="Hai abbandonato il gruppo." />
+    <string id="tAeflOpj" text="Hai subito {DAMAGE} danni ({DAMAGE_TYPE})." />
+    <string id="Tauk2JzA" text="Le versioni non corrispondono. Versione del server: {SERVERVERSION} - La tua versione: {CLIENTVERSION}." />
+    <string id="tAyw51tM" text="Permetti stendardi individuali" />
+    <string id="TDy1GZHv" text="Schermaglia" />
+    <string id="tFLVZdBz" text="Questa opzione non è accessibile per via della creazione incompleta del personaggio." />
+    <string id="TGaU0hQi" text="Montagna" />
+    <string id="tnCNPJMO" text="Palude" />
+    <string id="TOfBGa0Z" text="Serie di vittorie" />
+    <string id="tp6B2QGw" text="Asia Orientale" />
+    <string id="tqESV37j" text="In difesa!" />
+    <string id="TSoS5HJZ" text="Rifugio Skolder" />
+    <string id="TuAP5xXV" text="Altezza delle narici" />
+    <string id="tUETZiIp" text="Elmetto" />
+    <string id="tvDuF1vU" text="Velocità torre d&apos;assedio (percentuale)" />
+    <string id="tvHQcaC1" text="Altezza degli zigomi" />
+    <string id="tYuSNFuD" text="Stemmi" />
+    <string id="U1em3vrJ" text="Spalla" />
+    <string id="U3LxBtL0" text="Inserisci la password" />
+    <string id="U4xlUBHg" text="Larghezza del naso" />
+    <string id="U6h8eatq" text="Deathmatch a team" />
+    <string id="UbMCCh8L" text="Ponte nasale" />
+    <string id="uCrIJ8D4" text="Sharis" />
+    <string id="UEmw71kN" text="{REQUESTER} ti ha inviato una richiesta di amicizia." />
+    <string id="UHIZLFBn" text="Hai ucciso {TROOP_NAME}" />
+    <string id="UJaQuEpD" text="Attiva/Disattiva cavalcatura" />
+    <string id="UPH3hI5P" text="Matchmaking" />
+    <string id="UQabkhbG" text="La cavalcatura effettua una carica, infliggendo {DAMAGE} danni ({DAMAGE_TYPE})." />
+    <string id="uqzA4Q4a" text="Villa imperiale" />
+    <string id="UrZvjCfE" text="La tua cavalcatura ha subito {DAMAGE} danni ({DAMAGE_TYPE})" />
+    <string id="UUKzc88q" text="Visuale spettatore" />
+    <string id="UvIsHvrt" text="Fiume" />
+    <string id="V1kxYbRp" text="Attiva/Disattiva fuoco" />
+    <string id="V4iU0wRv" text="Oro" />
+    <string id="V6BAHTnv" text="Team Civiltà 2" />
+    <string id="VecPWliR" text="L&apos;eccessivo numero di segnalazioni rivolte a un giocatore possono portare a un ban." />
+    <string id="VIgZNfvL" text="Bannato con VAC" />
+    <string id="vkEzdL3k" text="Cambia scenario o modalità di gioco" />
+    <string id="vM7CssWE" text="Rovine di Jawwali" />
+    <string id="vo5NpcUS" text="Forma labbro super." />
+    <string id="vqao3Z2N" text="Velocità ariete (percentuale)" />
+    <string id="VwyBNTs3" text="Volto" />
+    <string id="vZ4mRbfo" text="Non rispettare le regole di duello dei server" />
+    <string id="W1nzgCTY" text="Protrusione bocca" />
+    <string id="W3OXv9Tx" text="Forza minima armatura" />
+    <string id="w9Jf0FeQ" text="Blocco su un agente qualsiasi" />
+    <string id="WfwkVjTA" text="Collabora con i tuoi compagni di team in questa frenetica modalità PvP tattica. Gestisci al meglio le tue riserve d&apos;oro per comprare classi di unità e possibilità di rientro in gioco mentre combatti per demoralizzare o spazzare via completamente le truppe avversarie." />
+    <string id="wIgbfqQR" text="Capelli" />
+    <string id="wk4bgkCt" text="Smonta" />
+    <string id="Wl5xazIU" text="Allarga/Restringi barra della mappa" />
+    <string id="WlVa7XwJ" text="Hai subito {DAMAGE} punti di danno da caduta." />
+    <string id="WLztEbPL" text="Altezza" />
+    <string id="WnN8Ul7A" text="Numero di round" />
+    <string id="WsbShtMt" text="Decima uccisione" />
+    <string id="WXAaWZVf" text="Precedente" />
+    <string id="Wxlhg1f1" text="Stivali" />
+    <string id="WxM16s2Y" text="Foresta di Druimmor" />
+    <string id="wxzhtvZR" text="Tempo di rientro dei difensori" />
+    <string id="X6N9nSn0" text="Non puoi accedere a questo server. Prova con i server pubblici ufficiali." />
+    <string id="xgr9rlx3" text="Insurrezione di Osrac" />
+    <string id="xhnV76OL" text="Approdo di Skala" />
+    <string id="Xj2FCkQl" text="Elenco server personalizzati" />
+    <string id="xO8l2Lg1" text="Autenticazione fallita" />
+    <string id="xoXWGYVI" text="  Utilizza varie macchine d&apos;assedio per attaccare o difendere i punti di controllo{newline}  I punti di rientro avanzano man mano che i punti di controllo vengono catturati{newline}  Assalta con successo e mantieni la bandiera o respingi il nemico per vincere" />
+    <string id="xq9Vxpyc" text="&lt;a style=&quot;HeadshotTitle.Text&quot; &gt;&lt;b&gt;{TITLE}&lt;/b&gt;&lt;/a&gt;" />
+    <string id="XQndveFG" text="Danno corpo a corpo fuoco amico Giocatore" />
+    <string id="xriaEwgN" text="Ti hanno bannato dalla gestione di server fino al giorno {BAN_EXPIRATION_TIME}. Motivo: {BAN_REASON}" />
+    <string id="XUKRrgOr" text="Hai inflitto {DAMAGE} danni ({DAMAGE_TYPE}) alla cavalcatura." />
+    <string id="xuo8gmaL" text="· Spendi oro per acquistare rientri in gioco{newline}· Guadagna oro uccidendo i nemici e aiutando i compagni di team{newline}· Realizza più uccisioni del nemico per vincere la partita" />
+    <string id="xXQN7Go6" text="Occhi monopalpebra" />
+    <string id="ycCmfxhJ" text="Quinta uccisione" />
+    <string id="yClOSxT8" text="Definizione naso" />
+    <string id="yekjRMT1" text="Statistiche duello" />
+    <string id="YhDDXj0I" text="Canyon" />
+    <string id="YmPyx3qi" text="Il giocatore ha raggiunto il numero massimo di server della battaglia personalizzati." />
+    <string id="YntJTd09" text="Forte di Ebereth" />
+    <string id="YoNYyLba" text="Lancia" />
+    <string id="yQtzabbe" text="Chiudi" />
+    <string id="yQu6aBw4" text="Riorganizzarsi!" />
+    <string id="YRabuUqx" text="Accerchiamento di Baravenos" />
+    <string id="yRSjcxBv" text="È stata pubblicata una nuova patch. Aggiorna la tua versione." />
+    <string id="YRymCbaa" text="Sconfitta schiacciante!" />
+    <string id="YSKoiyjt" text="MVP" />
+    <string id="YtSQB7rg" text="Spendi oro per scegliere la classe all&apos;inizio del round e per i rientri in gioco successivi." />
+    <string id="Yvjap05b" text="Velocità di movimento" />
+    <string id="YvK6gI6q" text="Periferia della città" />
+    <string id="yyJejJbO" text="Forma del mento" />
+    <string id="Z27nSqNt" text="Aiuto!" />
+    <string id="Zc2f5bhh" text="Uccidi tutti gli avversari, demoralizza completamente il team nemico o arriva al termine del round con il morale più alto." />
+    <string id="zHKHwHMr" text="Zona rurale" />
+    <string id="zmlCRb1M" text="Numero max di giocatori" />
+    <string id="ZMmrpMPk" text="Collo" />
+    <string id="ztGHtRNf" text="Gioco sleale" />
+    <string id="zU7hCYwT" text="Bannato dal publisher" />
+    <string id="ZYChhMrO" text="Pareggio" />
+    <string id="ZZMbAjSU" text="Vittoria schiacciante!" />
+  </strings>
+</base>

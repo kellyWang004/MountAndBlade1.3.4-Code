@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	type="string">
+	<layouts>
+		<layout
+			class="flora_kind"
+			version="0.1"
+			xml_tag="flora_kinds.flora_kind"
+			name_attribute="name"
+			use_in_treeview="true">
+			<columns>
+				<column
+					id="1"
+					width="120" />
+			</columns>
+			<items>
+				<item
+					name="name"
+					label="Name"
+					type="text"
+					column="0"
+					xml_path="name" />
+				<item
+					name="summer_kind"
+					label="Summer Kind"
+					type="text"
+					column="0"
+					xml_path="summer_kind" />
+				<item
+					name="winter_kind"
+					label="Winter Kind"
+					type="text"
+					column="0"
+					xml_path="winter_kind" />
+				<item
+					name="fall_kind"
+					label="Fall Kind"
+					type="text"
+					column="0"
+					xml_path="fall_kind" />
+				<item
+					name="spring_kind"
+					label="Spring Kind"
+					type="text"
+					column="0"
+					xml_path="spring_kind" />
+				<item
+					name="season"
+					label="Preview Season"
+					type="combobox"
+					column="0"
+					xml_path="">
+					<properties>
+						<property
+							name="system_values"
+							value="atmosphere.season_type" />
+					</properties>
+				</item>
+				<item
+					name="density"
+					label="Density"
+					type="float"
+					column="0"
+					xml_path="density">
+					<properties>
+						<property
+							name="min_value"
+							value="0.0" />
+						<property
+							name="max_value"
+							value="100.0" />
+					</properties>
+				</item>
+				<item
+					name="view_distance"
+					label="View Distance"
+					type="float"
+					column="0"
+					xml_path="view_distance">
+					<properties>
+						<property
+							name="min_value"
+							value="-1.0" />
+						<property
+							name="max_value"
+							value="1000.0" />
+					</properties>
+				</item>
+				<item
+					name="vertical_slope_amount"
+					label="Vertical Slope Amount"
+					type="float"
+					column="0"
+					xml_path="vertical_slope_amount">
+					<properties>
+						<property
+							name="min_value"
+							value="0.0" />
+						<property
+							name="max_value"
+							value="1.0" />
+					</properties>
+				</item>
+				<item
+					name="flags"
+					label="Flags"
+					type="flag_set"
+					column="1"
+					xml_path="flags">
+					<properties>
+						<property
+							name="system_value"
+							value="flora_kind" />
+					</properties>
+				</item>
+				<item
+					name="variations"
+					label="Flora variations"
+					type="dynamic_complex"
+					column="0"
+					xml_path="flora_variations.flora_variation">
+					<default_node>
+						<flora_variation
+							entity=""
+							name="flora_debug_mesh" />
+					</default_node>
+				</item>
+				<item
+					name="regenerate_billboards"
+					label="(Re)Generate Billboards"
+					type="tool_button"
+					column="0"
+					xml_path="regen_billboards"></item>
+				<item
+					name="regenerate_single_billboards"
+					label="(Re)Generate Selected Flora Billboard"
+					type="tool_button"
+					column="0"
+					xml_path="regen_single_billboards"></item>
+				<item
+					name="preview"
+					label="Preview Window"
+					type="preview_window"
+					column="2"
+					xml_path="">
+					<properties>
+						<property
+							name="scene_group_id"
+							value="flora_preview" />
+						<property
+							name="width"
+							value="400" />
+						<property
+							name="height"
+							value="400" />
+					</properties>
+				</item>
+			</items>
+		</layout>
+		<layout
+			class="flora_variation"
+			version="0.1"
+			xml_tag="flora_kinds.flora_kind.flora_variations.flora_variation"
+			name_attribute="name"
+			use_in_treeview="false">
+			<items>
+				<item
+					name="variation_name"
+					label="Name"
+					type="text"
+					column="0"
+					xml_path="name" />
+				<item
+					name="variation_entity"
+					label="Entity"
+					type="text"
+					column="0"
+					xml_path="entity " />
+				<item
+					name="variation_summer_material"
+					label="Summer Material"
+					type="text"
+					column="0"
+					xml_path="summer_material " />
+				<item
+					name="variation_winter_material"
+					label="Winter Material"
+					type="text"
+					column="0"
+					xml_path="winter_material " />
+				<item
+					name="variation_fall_material"
+					label="Fall Material"
+					type="text"
+					column="0"
+					xml_path="fall_material " />
+				<item
+					name="variation_spring_material"
+					label="Spring Material"
+					type="text"
+					column="0"
+					xml_path="spring_material " />
+			</items>
+		</layout>
+	</layouts>
+</base>

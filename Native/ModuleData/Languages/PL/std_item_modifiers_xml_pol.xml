@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Polski" />
+  </tags>
+  <strings>
+    <string id="3JaHZA3Y" text="Duży worek pełen {._}{ITEMNAME}{.gp}" />
+    <string id="5yVgXqQr" text="{adjectiveGenderCreator(ITEMNAME)}Zużyty{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {.%}{ITEMNAME}{.n}{.%}" />
+    <string id="85WO1MKG" text="{adjectiveGenderCreator(ITEMNAME)}Porządny{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {.%}{ITEMNAME}{.n}{.%}" />
+    <string id="8Pd6fLoy" text="{ITEMNAME} z drzazgami" />
+    <string id="8Tal0XIj" text="{adjectiveGenderCreator(ITEMNAME)}Mistrzowski{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {.%}{ITEMNAME}{.n}{.%}" />
+    <string id="BA9c7gPb" text="{adjectiveGenderCreator(ITEMNAME)}Gruby{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {.%}{ITEMNAME}{.n}{.%}" />
+    <string id="bAdxUq7s" text="{ITEMNAME} wysokiej jakości" />
+    <string id="br0N6SSH" text="{adjectiveGenderCreator(ITEMNAME)}Popękany{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {.%}{ITEMNAME}{.n}{.%}" />
+    <string id="bWhJwHA1" text="{adjectiveGenderCreator(ITEMNAME)}Luźny{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {.%}{ITEMNAME}{.n}{.%}" />
+    <string id="eb4miTUB" text="{adjectiveGenderCreator(ITEMNAME)}Pogięty{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {.%}{ITEMNAME}{.n}{.%}" />
+    <string id="fdgcpipH" text="{adjectiveGenderCreator(ITEMNAME)}Wyważony{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {.%}{ITEMNAME}{.n}{.%}" />
+    <string id="geUpgQI5" text="{adjectiveGenderCreator(ITEMNAME)}Kiepski{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {.%}{ITEMNAME}{.n}{.%}" />
+    <string id="l7QEpVwU" text="{adjectiveGenderCreator(ITEMNAME)}Zardzewiały{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {.%}{ITEMNAME}{.n}{.%}" />
+    <string id="LmzHz4CG" text="{adjectiveGenderCreator(ITEMNAME)}Tępy{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {.%}{ITEMNAME}{.n}{.%}" />
+    <string id="lRf4t9Qg" text="{adjectiveGenderCreator(ITEMNAME)}Legendarny{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {.%}{ITEMNAME}{.n}{.%}" />
+    <string id="Pbb94NdW" text="{adjectiveGenderCreator(ITEMNAME)}Podarty{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {.%}{ITEMNAME}{.n}{.%}" />
+    <string id="PobRGG9S" text="{adjectiveGenderCreator(ITEMNAME)}Wgnieciony{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {.%}{ITEMNAME}{.n}{.%}" />
+    <string id="Q5HVyNWJ" text="{ITEMNAME} na miarę" />
+    <string id="TePk4BSJ" text="{adjectiveGenderCreator(ITEMNAME)}Poobijany{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {.%}{ITEMNAME}{.n}{.%}" />
+    <string id="VbxJPJGe" text="{adjectiveGenderCreator(ITEMNAME)}Niewyważony{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {.%}{ITEMNAME}{.n}{.%}" />
+    <string id="w3jn7Ahz" text="{ITEMNAME} dla władcy" />
+    <string id="WbaIorOh" text="{adjectiveGenderCreator(ITEMNAME)}Majestatyczny{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {.%}{ITEMNAME}{.n}{.%}" />
+    <string id="xeb1b5PQ" text="Dobrej jakości {._}{ITEMNAME}" />
+    <string id="y3TvYqhG" text="{adjectiveGenderCreator(ITEMNAME)}Stary{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {.%}{ITEMNAME}{.n}{.%}" />
+    <string id="zPqPvf0o" text="{adjectiveGenderCreator(ITEMNAME)}Woskowany{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {.%}{ITEMNAME}{.n}{.%}" />
+  </strings>
+</base>

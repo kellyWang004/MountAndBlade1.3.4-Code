@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-16"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Türkçe" />
+  </tags>
+  <strings>
+    <string id="01zQKaF3" text="Göz Yapısı" />
+    <string id="05loYcST" text="Arkadaki kalkana çarptı" />
+    <string id="0cpbEvsG" text="Eski Yüz" />
+    <string id="0DBQGaka" text="Koltuklanmış kargı hasarı verildi!" />
+    <string id="0ezfbORI" text="Takım Maçı Türü" />
+    <string id="0P89VyAQ" text="Yüz Asimetrisi" />
+    <string id="0W4dgUho" text="{BANNEDUNTIL} tarihine kadar oyundan yasaklandınız, Neden: {BANREASON}" />
+    <string id="0WHQKap4" text="Ekipman Seçim Süre Sınırı (saniye)" />
+    <string id="0xJ3qIlJ" text="Çene Çizgisi" />
+    <string id="180DfbQU" text="Er Meydanı" />
+    <string id="1b2dfc0n" text="Grup katılım isteği reddedildi." />
+    <string id="1fFnE9Vk" text="Avrupa" />
+    <string id="1GFrsDRm" text="Anket Kabul Eşiği" />
+    <string id="1gU5rDws" text="Oyuncu Yasaklama Oylamalarına İzin Ver" />
+    <string id="1kCkzrpc" text="Takım Üyesi Bakış Açısına Kilitle" />
+    <string id="1LVlILek" text="{DAMAGE} çarpma hasarı verildi." />
+    <string id="1Ndyb5I1" text="Bayrak Silinme Süresi (saniye)" />
+    <string id="1r0tDsrR" text="Saldır!" />
+    <string id="1siBGYlP" text="Elmacık Genişliği" />
+    <string id="1zveWQFg" text="Savaş sırasına girmek için eşleştirme sekmesine git ve bir bölge seç" />
+    <string id="21m0Bo08" text="Sesi Aç" />
+    <string id="22MOa4Fc" text="Dış Göz Yüksekliği" />
+    <string id="23INS6nf" text="Parola Korumalı" />
+    <string id="26SJhCRD" text="İle Değiştir" />
+    <string id="2blpQ3OQ" text="Yüz Boyaları ve Yaralar" />
+    <string id="2d0H47C8" text="Gözler Arası Uzaklık" />
+    <string id="2G3QpSDk" text="Dudak Açısı" />
+    <string id="2KrDfHI8" text="Platform izin ayarları nedeniyle grup katılımı başarısız." />
+    <string id="2QzgefNF" text="Yüz Dolgunluğu" />
+    <string id="2Rf2ChRD" text="Kaş Derinliği" />
+    <string id="2uynGJbP" text="Birlikler Taşınıyor" />
+    <string id="39f0eu3Y" text="Sağlanan AuthToken sona erdi." />
+    <string id="3AInGztr" text="Gövde" />
+    <string id="3APdsKEi" text="Fırlatma Bıçağı" />
+    <string id="3aX5gXmJ" text="Ten Rengi" />
+    <string id="3EbTklMi" text="Yeni bir rozet kazandın: {BADGE_NAME}." />
+    <string id="3Kkya96j" text="Bacak" />
+    <string id="3kqFHkZz" text="Dudak Kalınlığı" />
+    <string id="3ydKbDmI" text="{PLAY_TIME} dakika" />
+    <string id="3ZzxddkE" text="Oyun Parolası" />
+    <string id="43L45sjx" text="Düzen Başına Bot Sayısı" />
+    <string id="4b2hRWiI" text="Domogtul Kalesi" />
+    <string id="4daqsVWG" text="Düşman askerlerini öldürerek ve takım arkadaşlarına destek olarak altın kazan ve yüksek sınıf askerler ile canlan." />
+    <string id="4DcNDein" text="Harita Süre Sınırı (dakika)" />
+    <string id="4Dd2xgPm" text="Ağırlık" />
+    <string id="4jv2sW4U" text="Kervansaray" />
+    <string id="4ompPd8W" text="Klanın yeni bir duyuru yaptı." />
+    <string id="4SWcDUJC" text="Ayzar Kalesi" />
+    <string id="4wLU6s4S" text="Karın" />
+    <string id="4yiB8CRO" text="Olumsuz!" />
+    <string id="52YN6m2B" text="Destekli mızrak hasarı verdin!" />
+    <string id="5IR8g3YL" text="Kaptan İstatistikleri" />
+    <string id="5mSKBidd" text="Burun Yapısı" />
+    <string id="5odwu8qB" text="Dereceli" />
+    <string id="5tbWdY1j" text="Avatar" />
+    <string id="5vZW8IJ5" text="{ITEM_NAME} ile değiştir" />
+    <string id="621DbiOw" text="Burun Asimetrisi" />
+    <string id="64n3piBf" text="Toplam Oyun" />
+    <string id="66aByatH" text="Sohbet Susturmasını Aç" />
+    <string id="6DBVzw9r" text="Yapı" />
+    <string id="6kQxshlw" text="Takım Arkadaşını Öldürme/Dost Ateşi" />
+    <string id="6usZYAVm" text="İletişim Suistimali" />
+    <string id="6yZnboe6" text="Göz Boşluğu Boyutu" />
+    <string id="74tYdiOb" text="Takımınızın ihtiyaçlarına göre birliklerinizi akıllıca seçin. Birlik büyüklükleri askerlerin güçlerine göre belirlenir." />
+    <string id="77arWi0m" text="İç Göz Yüksekliği" />
+    <string id="7BlOJvyo" text="Ağız Genişliği" />
+    <string id="7lvexPjZ" text="Ova" />
+    <string id="7nLM1z2V" text="Düello Zaferi İçin Minimum Skor" />
+    <string id="880uOrte" text="Arazi" />
+    <string id="8bnYsGu6" text="Ovsk Limanı(Kış)" />
+    <string id="8EsaVlSX" text="Deriad Adası" />
+    <string id="8K0DR83v" text="Bu hızlı, PvP oyun modunda takım arkadaşlarınla birlikte çalış. Düşman takımın moralini düşürürken veya düşman kuvvetlerini yok ederken düşman öldürerek altın kazan." />
+    <string id="8o1lZcjR" text="Dış Kaş Yüksekliği" />
+    <string id="8sG5bTtK" text="Canlanma Aralığı Period" />
+    <string id="8vXHhxPr" text="YZ'yi Değiştir" />
+    <string id="9kEUK9iY" text="·   Mevcut birlikler arasından istediğin birimi seç{newline}·   Teke tek dövüşte rakibinle dövüş{newline}·   Rakibini üç defa alt ederek düelloyu kazan ve başlarındaki ödülü kap" />
+    <string id="9S7liri5" text="Bu seçenek kayıt sınırına ulaşıldığı için devre dışı bırakılmıştır." />
+    <string id="9Ts5zKIj" text="Gözler" />
+    <string id="a2xfNmqa" text="Lobide" />
+    <string id="a8nb5HVc" text="Orta Kaş Yüksekliği" />
+    <string id="aAD1iOuH" text="Üst Dudak Boyutu" />
+    <string id="aALNy4Es" text="Syllianon Sokakları" />
+    <string id="aDabgVpn" text="Karakter Özelleştirme" />
+    <string id="adyGICWc" text="Saldırıyla bloklandı!" />
+    <string id="AEcTBnkz" text="Kıyafeti Değiştir" />
+    <string id="aGTgzoqW" text="Oyuncu Atma Oylamalarına İzin Ver" />
+    <string id="ahobSLlo" text="Giriş isteği başarısız." />
+    <string id="AoNh2ihL" text="Düşman Görüldü!" />
+    <string id="auDOtbza" text="Takım 1 Kültürü" />
+    <string id="averageConnection" text="Ortalama" />
+    <string id="aZVxHbwH" text="{TROOP_NAME} tarafından öldürüldü" />
+    <string id="b0L0jbIa" text="Göz Pozisyonu" />
+    <string id="b74zosgq" text="Burun Boyutu" />
+    <string id="bAPQFzcW" text="Mermi Hasarı" />
+    <string id="BBKp1Ajq" text="Tekrar Kaydını Etkinleştir" />
+    <string id="bbYwqrvo" text="Gıdı Yapısı" />
+    <string id="bdljU1ig" text="Takımlı Ölüm Maçı İstatistikleri" />
+    <string id="BFWD0pCE" text="Menzilli Dost Ateşi Hasarı" />
+    <string id="bgwo3QpS" text="Saldırgan İçerik" />
+    <string id="bH0wXnXr" text="Bu özellik Ironman modunda devre dışı bırakılmıştır." />
+    <string id="bjcixGIE" text="Takım" />
+    <string id="BJMPBcDn" text="İkinci Asist" />
+    <string id="BMPrnHpK" text="Burun Deliği Boyutu" />
+    <string id="bnfUdx3O" text="Merkez Uzunluk" />
+    <string id="BQzP1ivS" text="Yüz Oranı" />
+    <string id="brk0f05B" text="Kafa Ölçekleme" />
+    <string id="bTpn4bZ8" text="İç Kaş Yüksekliği" />
+    <string id="bV75iwKa" text="Kaydet" />
+    <string id="bwmlWKa2" text="{LIMIT_VALUE} ile sınırla" />
+    <string id="bXIrqxKc" text="Oyunun Başlatılması İçin Gereken Min. Oyuncu Sayısı" />
+    <string id="bYCfMbYk" text="Takım Değiştir" />
+    <string id="bzu60bhP" text="Pardon!" />
+    <string id="c1zu1b3M" text="Gruptan çıkarıldın." />
+    <string id="c2tGH5II" text="Isınma Süresi Sınırı (dakika)" />
+    <string id="captainasgame" text="Kaptan" />
+    <string id="ccROnOY3" text="Koltuklanmış kargı hasarı aldın!" />
+    <string id="CFI2aDtg" text="Binek Zırhı" />
+    <string id="cJ5emwNF" text="Asist" />
+    <string id="CjPiabbn" text="Atış Serbest" />
+    <string id="CJr1T7jh" text="Yönetici Parolası" />
+    <string id="Cl3TziQE" text="Binek {DAMAGE} düşme hasar aldı." />
+    <string id="CoxEyDa8" text="Zırhlı Eldiven" />
+    <string id="cSui4APH" text="Hedef Yok Edildi" />
+    <string id="d1ogH1v1" text="Tsagaan Kalesi" />
+    <string id="d3RJm2zW" text="Gıdı Uzunluğu" />
+    <string id="dbLB0tuT" text="Aile paylaşımına izin verilmiyor." />
+    <string id="DHlVSaZW" text="Görece hareket hızı: {SPEED} m/s" />
+    <string id="DLKRQOuM" text="Platform hizmetlerininze erişim sağlanamıyor (Hata: {ACCESSERROR})." />
+    <string id="dojUqbv8" text="Burun Uzunluğu" />
+    <string id="dRlTmdKR" text="Sistem" />
+    <string id="DuJfaNx5" text="{DAMAGE} çarpma hasarı alındı." />
+    <string id="dZ4xp6Lu" text="Şakak Genişliği" />
+    <string id="eGcXbXPy" text="Uygunsuz Davranış" />
+    <string id="Ej6Gjmkc" text="Kapalı" />
+    <string id="EUHaR98k" text="Raporla" />
+    <string id="EX4bKRbV" text="Ölüm Sayısı" />
+    <string id="EZRnvPJS" text="Bu Yöne Dön" />
+    <string id="f4ZeGAJi" text="Görece mermi hızı: {SPEED} m/s" />
+    <string id="f5y9qyDb" text="Kol" />
+    <string id="F6l8hFEA" text="Akkalat Etekleri" />
+    <string id="F6WH1JaM" text="Takım Üyelerine Kilitle" />
+    <string id="fFLBT9wb" text="Göğüs" />
+    <string id="FFNJTsDL" text="Bir Oyuncu At" />
+    <string id="FgJpTBp1" text="Kendine Menzilli Dost Ateşi Hasarı" />
+    <string id="fjD2tRXW" text="Çene Pozisyonu" />
+    <string id="fJHsYtKu" text="Echerion" />
+    <string id="fJqJiJvl" text="Gerçekçi Savunma Kullan" />
+    <string id="fnJQO5Os" text="Burun Ucu Yüksekliği" />
+    <string id="FzaoDwLA" text="Gizli Saldırı!" />
+    <string id="FzJnNNam" text="Burun Asimetrisi" />
+    <string id="G1HobbjU" text="Kaptan Savaşı" />
+    <string id="g6cHDWJF" text="Kafa" />
+    <string id="GaF4CvmX" text="Yüz Keskinliği" />
+    <string id="GcosVDAt" text="Asist Sayısı" />
+    <string id="GnKCsV44" text="Çene Uzunluğu" />
+    <string id="GoEo27il" text="Saldıran Tarafın Canlanma Periyodu" />
+    <string id="goodConnection" text="İyi" />
+    <string id="gQLDkSrf" text="Bu seçenek devam eden konuşma sebebiyle devre dışı bırakılmıştır." />
+    <string id="GQOS4d9g" text="Toggle Facing" />
+    <string id="Gr994CTR" text="Menzilli Silahları Yasakla" />
+    <string id="gUQI0PLa" text="Kuzey Amerika (Batı)" />
+    <string id="GY4NaieE" text="Saf" />
+    <string id="GYc0Dcbn" text="Kuzey Amerika (Doğu)" />
+    <string id="h3obZWO0" text="Uçurum" />
+    <string id="H4PrQzvN" text="Bu seçenek bir klan üyesinin bitmemiş eğitimi sebebiyle devre dışı bırakılmıştır." />
+    <string id="h5OsTOFM" text="Dudak Açısı" />
+    <string id="H7YWqwq6" text="Raunt Başlangıç Canlanma Süresi" />
+    <string id="HgpdpYuK" text="Vücut" />
+    <string id="HL3EONMe" text="Özel Oyun" />
+    <string id="HLhT64IP" text="Özel" />
+    <string id="htW15Gmn" text="Sahil" />
+    <string id="HyV2D9qZ" text="Cypegos Ablukası" />
+    <string id="I4wnvBGd" text="Bu büyük PVP oyun modunda ister saldıran ister savunan takım olarak ortaçağ kuşatmalarının gaddarlığını deneyimleyin.  Düşman kuvvetlerini geri tepebilmek için kuşatma aletlerini kullanın veya kaleyi alabilmek veya savunabilmek için iç avluyu kontrol etmeye çalışın." />
+    <string id="IaaVNwwb" text="BattlEye'ı Etkinleştir" />
+    <string id="IBAaKSbp" text="Omor Limanı" />
+    <string id="iDMBz55E" text="Çok Oyunculu Oyunda" />
+    <string id="ig0lsiwY" text="Askerler" />
+    <string id="IKn1YxU2" text="Saldıran Tarafın Altın Kazanma Yüzdesi" />
+    <string id="ImWyFyld" text="Ağız Pozisyonu" />
+    <string id="irGCyJaY" text="Öldürme Sayısı" />
+    <string id="ItmPmlWH" text="·   Altın kullanarak tek canlanma hakkı satın al{newline}·   Düşman moralini düşürmek için kontrol noktalarını tut{newline}·   Kazanmak için tüm düşman takımı öldür veya morallerini sıfıra indir" />
+    <string id="iWLq9hMg" text="Kimlik Doğrulama Jetonu sağlanmadı." />
+    <string id="JCcbydcJ" text="{KEY} {ACTION}" />
+    <string id="jEh6EdF9" text="{ROUND_COUNT} Rauntun En İyisi" />
+    <string id="JetpbYv9" text="Leke" />
+    <string id="jpeq1gF0" text="Nord Kasabası" />
+    <string id="JPimShCw" text="Oyun Türü" />
+    <string id="jsqyGWGu" text="Savunan Tarafın Altın Kazanma Yüzdesi" />
+    <string id="jtLGvCac" text="Sohbeti Sustur" />
+    <string id="jukzZmBb" text="Rakip takımla yarışırken düşmanlarını öldürerek ve takım arkadaşlarına yardım ederek altın ve puan kazan." />
+    <string id="jUsEkEBt" text="Çene Asimetrisi" />
+    <string id="JW2nEe4X" text="Yakın Dövüş Dost Ateşi Hasarı" />
+    <string id="JwnoxhKI" text="Yüz Derinliği" />
+    <string id="k4cMrbVf" text="İlk Yakın Dövüş Öldürüşü" />
+    <string id="Ke7eAS5B" text="Getiri Bonusu" />
+    <string id="KHx75GnA" text="Su" />
+    <string id="Kl9aqIuX" text="Irk" />
+    <string id="kQh0O7gn" text="Raunt başında altın kullanarak tercih ettiğin birimi seç." />
+    <string id="KtRCqiVO" text="Pendaric" />
+    <string id="kVwwG63i" text="Harita Değiştirme Oylamalarına İzin Ver" />
+    <string id="kW4c2liv" text="Animasyon Sürecine Bağlı Savunmayı Kullan" />
+    <string id="KwrSLa0H" text="İletişim Suistimali" />
+    <string id="kY2oXMng" text="Giriş yapılamadı." />
+    <string id="L0lGQWt5" text="Takım 2 Bot Sayısı" />
+    <string id="L3tY2kTE" text="Dost ateşi!" />
+    <string id="L9xEQ5b2" text="Değiştirilecek Eşyayı Seçin" />
+    <string id="LaaA8U4W" text="Burun Açısı" />
+    <string id="laIfauZH" text="Göz Çıkıntısı" />
+    <string id="lauXoy6d" text="Düzen Başına Bot Sayısı" />
+    <string id="lclQSt39" text="Raunt Süre Sınırı (saniye)" />
+    <string id="ldIXGrVi" text="Urikskalaar" />
+    <string id="lDPQa5gc" text="Otomatik Takım Denge Sınırı" />
+    <string id="likop0am" text="Bir Oylama Başlat" />
+    <string id="LkiQDpi5" text="Kulak Boyutu" />
+    <string id="LmkYgWnF" text="Göz Boyutu" />
+    <string id="LthEtGxp" text="{OBJECT_NAME} vuruldu" />
+    <string id="Lz6ggWch" text="Getiriler ve efektlerden gelen hasar azaltma: {MODIFIED_DAMAGE}" />
+    <string id="LZmOy39a" text="Kuşatma İstatistikleri" />
+    <string id="M1RCJ9DM" text="Üçüncü Asist" />
+    <string id="m3zVR2UH" text="Fareyi Göster: [{KEY_NAME}]" />
+    <string id="m5UdbzHr" text="Bölge Seçilmedi" />
+    <string id="M97xvRgO" text="Grup dağıldı." />
+    <string id="MaOht6ky" text="Savunanlar kaçtı!" />
+    <string id="mEHIBbBy" text="Saldırganlar kaçtı!" />
+    <string id="mjhOYJWg" text="Sadak boş." />
+    <string id="MnM0L4AV" text="Çok Oyunculuda Değil" />
+    <string id="MnvK3eK2" text="Hedef Tamamlandı" />
+    <string id="mountverb" text="Bin" />
+    <string id="mpparty" text="Grup" />
+    <string id="MS795wWa" text="İlk Asist" />
+    <string id="mtlNshCB" text="Er Meydanı (Gece)" />
+    <string id="mwetB4R6" text="Sınırsız Altın" />
+    <string id="MyrHcDkP" text="Kaleye geri çekildi!" />
+    <string id="n6N21Shz" text="Takım arkadaşlarına destek olarak, düşman birliklerini öldürerek ve kuşatma silahlarını kırarak altın kazan ve daha iyi askerler ile canlan." />
+    <string id="NdQZWHIy" text="·   Kendi asker birliğine liderlik et{newline}·   Haritadaki kontrol noktalarını tut ve düşman moralini bitir{newline}·   Kazanmak için tüm düşman takımını öldür veya morallerini bitir" />
+    <string id="NE7PmH7n" text="Koşullar" />
+    <string id="NecHOOXR" text="Birinci" />
+    <string id="NRa52uaF" text="Platform hizmetinizden erişim sağlanamadı." />
+    <string id="nt5MOuwo" text="Kum Tepesi" />
+    <string id="nUR7rs6y" text="Klasik PvP oyun modunun bu ortaçağ sürümünde aksiyona hızlıca katıl. " />
+    <string id="nx5W7jN0" text="Destekli mızrak hasarı aldın!" />
+    <string id="nXE6eV8W" text="Göl" />
+    <string id="o5Ead68n" text="Kaydetmeden Çık" />
+    <string id="O5uDFhwu" text="fen Altai Kalesi" />
+    <string id="O9F9q1zx" text="Elmacık Derinliği" />
+    <string id="obB483C5" text="Hasar gören vücut bölgesi: {BODY_PART}" />
+    <string id="oBbiVeKE" text="Sağlık" />
+    <string id="oGAzC0Ob" text="Oyun Modu" />
+    <string id="Ok03egKG" text="Mevkiye İlerle" />
+    <string id="Oud3W58w" text="Basılı tut {KEY} {ACTION}" />
+    <string id="ox8XcxfR" text="Kulak Yapısı" />
+    <string id="OZHFucP5" text="Somurtu/Gülücük" />
+    <string id="P3blWoZh" text="Sonuncu" />
+    <string id="p5K0ATtZ" text="Eski oturumunuz yok edilemedi." />
+    <string id="pa4yXyDa" text="{PLAYER_COUNT} vs {PLAYER_COUNT}" />
+    <string id="pagmdsCK" text="Göz Kapağı Uzunluğu" />
+    <string id="PbLuHcJg" text="Zırhın koruduğu hasar: {ABSORBED_DAMAGE}" />
+    <string id="pCRwBpzd" text="Burun" />
+    <string id="Ph6PhUwX" text="Uzaklık: {DISTANCE} m" />
+    <string id="pHaRIFa8" text="İlk Menzilli Öldürme" />
+    <string id="PiLml6Nl" text="Saldıranlar, moral tükenmeden ve zaman sona ermeden kale bayrağını 90 saniye tutmalı. Bayrakların ele geçirilmesi morali artırır.{newline}Savunanlar, düşmanın morali tükenene kadar kaleyi savunmalı." />
+    <string id="pMmmfvkN" text="Uygunsuz Davranış" />
+    <string id="pnUSAxzf" text="Resmi Oyun Sunucusu Listesine Ekle" />
+    <string id="poiKV9sJ" text="Olumlu!" />
+    <string id="poorConnection" text="Zayıf" />
+    <string id="pPoySQPy" text="Kendine yansıtılan hasar: {REFLECTED_DAMAGE}" />
+    <string id="pQibMlbA" text="Burun Kemeri" />
+    <string id="PuX1G0h3" text="Binicilik Yeteneği Binmek İçin Yeterli Değil" />
+    <string id="PY6VznGu" text="Yüz Genişliği" />
+    <string id="Pzvtcbk6" text="Xauna" />
+    <string id="Q2EmU0TA" text="Takım Puan Sınırı" />
+    <string id="Q2yjFlC9" text="Atışı Kes" />
+    <string id="q8lsn0U6" text="Bu takım bazlı PVP oyun modunda kendi askerlerinizi yönetin. Savaş alanını kontrol ederek düşman takımın moralini kırın ya da onların kuvvetlerini yok ederek zaferi elde edin." />
+    <string id="QDU03vOW" text="Yapıya {DAMAGE} {DAMAGE_TYPE} hasar verildi." />
+    <string id="qeSbaPWi" text="Takım 1 Bot Sayısı" />
+    <string id="qF5pJt7e" text="Göz Asimetrisi" />
+    <string id="Qhl77Oki" text="{TROOP_NAME} öldürüşüne asist" />
+    <string id="QIDj0u8w" text="Herhangi Bir Oyuncuya Kilitle" />
+    <string id="qNga6uPw" text="Hasar Verildi" />
+    <string id="qNRc3pXu" text="Doldur" />
+    <string id="QQX6oNbn" text="Grupta" />
+    <string id="R3BwLVmT" text="{DAMAGE} {DAMAGE_TYPE} hasar verildi." />
+    <string id="rbYITcao" text="Ağız" />
+    <string id="RDsOaEtS" text="Yetenekler, getiriler ve efektlerden gelen fazla hasar: {MODIFIED_DAMAGE}" />
+    <string id="Ri6KKhfy" text="Zendyar" />
+    <string id="Rj8RhD7F" text="Başarısız" />
+    <string id="RJEHDWmu" text="·   Sınır canlanma hakkını altın ile satın al{newline}·   Haritadaki kontrol noktalarını tutarak düşman moralini bitir{newline}·   Kazanmak için tüm düşman takımını öldür veya morallerini bitir" />
+    <string id="RlDVtPpB" text="Göz Derinliği" />
+    <string id="rLozutts" text="Arkadaş Olarak Ekle" />
+    <string id="rnP6wzwy" text="Açık Sular" />
+    <string id="Rvr1bcu8" text="Sonraki" />
+    <string id="satFJMMu" text="Özel Savaş Sunucusu uyumsuz bir sürümde." />
+    <string id="Sbna6UGb" text="Çocuk Yüzü" />
+    <string id="sbSdIIXR" text="Kıyı Suları" />
+    <string id="sBU9vyF1" text="Kafadan vuruş!" />
+    <string id="scoreboardkick" text="At" />
+    <string id="SdxEH6b1" text="Alt Dudak Yapısı" />
+    <string id="siegemultiplayergametype" text="Kuşatma" />
+    <string id="sisK3HPI" text="Susturuldun." />
+    <string id="SN2ojCFr" text="Tam Ekipman" />
+    <string id="SNLShTzq" text="Skor" />
+    <string id="SqR917CO" text="Hareketsizlik Atılmasını Devre Dışı Bırak" />
+    <string id="Suma3RVA" text="Tek Canlanma" />
+    <string id="SVAmzGRM" text="Oyuncu yasakla" />
+    <string id="SVeIOaab" text="Maçı Kazanmak İçin Minimum Skor" />
+    <string id="SVnbZdJq" text="Kulakları Gizle" />
+    <string id="sXAATSgd" text="Ovsk Limanı" />
+    <string id="sZxSeeXp" text="Isınmanın Sona Ermesi İçin Gereken Min. Oyuncu Sayısı" />
+    <string id="t1bNrw95" text="Çatışma İstatistikleri" />
+    <string id="T1JTpYXL" text="Sesi Sustur" />
+    <string id="t8lAbdCk" text="Deriad Adası (Kış)" />
+    <string id="tAb8KAQb" text="Gruptan çıktın." />
+    <string id="tAeflOpj" text="{DAMAGE} {DAMAGE_TYPE} hasar aldın." />
+    <string id="Tauk2JzA" text="Sürüm uyuşmazığı, Sunucu Sürümü: {SERVERVERSION} - Sizin Sürümünüz: {CLIENTVERSION}." />
+    <string id="tAyw51tM" text="Bireysel Sancaklara İzin Ver" />
+    <string id="TDy1GZHv" text="Çatışma Savaşı" />
+    <string id="tFLVZdBz" text="Bu özellik bitmemiş karakter oluşturma sebebiyle devre dışı bırakılmıştır." />
+    <string id="TGaU0hQi" text="Dağ" />
+    <string id="tnCNPJMO" text="Bataklık" />
+    <string id="TOfBGa0Z" text="Kazanma Serisi" />
+    <string id="tp6B2QGw" text="Doğu Asya" />
+    <string id="tqESV37j" text="Savun!" />
+    <string id="TSoS5HJZ" text="Skolder Sığınağı" />
+    <string id="TuAP5xXV" text="Burun Yüksekliği" />
+    <string id="tUETZiIp" text="Miğfer" />
+    <string id="tvDuF1vU" text="Kuşatma Kulesi Hızı (yüzde)" />
+    <string id="tvHQcaC1" text="Elmacık  Yüksekliği" />
+    <string id="tYuSNFuD" text="Rozetler" />
+    <string id="U1em3vrJ" text="Omuz" />
+    <string id="U3LxBtL0" text="Parola gir" />
+    <string id="U4xlUBHg" text="Burun Genişliği" />
+    <string id="U6h8eatq" text="Takımlı Ölüm Maçı" />
+    <string id="UbMCCh8L" text="Burun Köprüsü" />
+    <string id="uCrIJ8D4" text="Sharis" />
+    <string id="UEmw71kN" text="{REQUESTER} adlı oyuncu sana arkadaşlık isteği yolladı." />
+    <string id="UHIZLFBn" text="{TROOP_NAME} öldürüldü" />
+    <string id="UJaQuEpD" text="Bineği Ayarla" />
+    <string id="UPH3hI5P" text="Eşleştirme" />
+    <string id="UQabkhbG" text="Binek {DAMAGE} {DAMAGE_TYPE} çarpma hasarı verdi." />
+    <string id="uqzA4Q4a" text="Imparatorluk Villası" />
+    <string id="UrZvjCfE" text="Bineğin {DAMAGE} {DAMAGE_TYPE} hasar aldı" />
+    <string id="UUKzc88q" text="İzleyici Kamerası" />
+    <string id="UvIsHvrt" text="Nehir" />
+    <string id="V1kxYbRp" text="Ateş Et/Dur" />
+    <string id="V4iU0wRv" text="Altın" />
+    <string id="V6BAHTnv" text="Takım 2 Kültürü" />
+    <string id="VecPWliR" text="Bir oyuncuyu aşırı raporlamak yasaklanman ile sonuçlanabilir." />
+    <string id="VIgZNfvL" text="VAC Yasaklı" />
+    <string id="vkEzdL3k" text="Oyun türünü veya haritayı değiştir" />
+    <string id="vM7CssWE" text="Jawwali Harabeleri" />
+    <string id="vo5NpcUS" text="Üst Dudak Yapısı" />
+    <string id="vqao3Z2N" text="Koçbaşı Hızı (yüzde)" />
+    <string id="VwyBNTs3" text="Yüz" />
+    <string id="vZ4mRbfo" text="Düello Sunucu Kurallarına Uymama" />
+    <string id="W1nzgCTY" text="Ağız Pozisyonu" />
+    <string id="W3OXv9Tx" text="En Düşük Zırhı Zorla" />
+    <string id="w9Jf0FeQ" text="Herhangi Bir Birime Kilitle" />
+    <string id="WfwkVjTA" text="Bu hızlı, PvP oyun modunda takım arkadaşlarınla birlikte çalış. Düşman takımın moralini kırmak için veya onları tamamen yok etmek için altını akıllıca kullanarak birlik veya canlanma hakkı satın alın." />
+    <string id="wIgbfqQR" text="Saç" />
+    <string id="wk4bgkCt" text="Binekten İn" />
+    <string id="Wl5xazIU" text="Harita Barını Uzat/Kısalt" />
+    <string id="WlVa7XwJ" text="{DAMAGE} düşme hasarı alındı." />
+    <string id="WLztEbPL" text="Boy" />
+    <string id="WnN8Ul7A" text="Raunt Sayısı" />
+    <string id="WsbShtMt" text="Onuncu Öldürme" />
+    <string id="WXAaWZVf" text="Önceki" />
+    <string id="Wxlhg1f1" text="Botlar" />
+    <string id="WxM16s2Y" text="Druimmor Ormanı" />
+    <string id="wxzhtvZR" text="Savunan Tarafın Canlanma Periyodu" />
+    <string id="X6N9nSn0" text="Bu sunucuya girmeye izniniz yok. Lütfen resmi herkese açık sunucuları deneyin." />
+    <string id="xgr9rlx3" text="Osrac İsyanı" />
+    <string id="xhnV76OL" text="Skala Çıkarması" />
+    <string id="Xj2FCkQl" text="Özel Sunucu Listesi" />
+    <string id="xO8l2Lg1" text="Kimlik Doğrulama Başarısız" />
+    <string id="xoXWGYVI" text="·   Çeşitli kuşatma silahlarını kullanarak kontrol noktalarına saldır veya savun{newline}·   Kontrol noktaları ele geçtikçe canlanma pozisyonları daha da ileride olur{newline}·   Kazanmak için başarılı bir şekilde kale bayrağına saldır veya düşman saldırısını geri püskürt" />
+    <string id="xq9Vxpyc" text="&lt;a style=&quot;HeadshotTitle.Text&quot; &gt;&lt;b&gt;{TITLE}&lt;/b&gt;&lt;/a&gt;" />
+    <string id="XQndveFG" text="Kendine Yakın Dövüş Dost Ateşi Hasarı" />
+    <string id="xriaEwgN" text="{BAN_EXPIRATION_TIME} tarihine kadar sunucu açmaktan yasaklandınız. Nedeni: {BAN_REASON}." />
+    <string id="XUKRrgOr" text="Bineğe {DAMAGE} {DAMAGE_TYPE} hasar verildi." />
+    <string id="xuo8gmaL" text="·   Altın kullanarak yeniden canlan{newline}·   Düşmanları öldürerek veya takım arkadaşlarına yardım ederek altın kazan{newline}·   Kazanmak için karşı takımı öldür" />
+    <string id="xXQN7Go6" text="Çekik Göz" />
+    <string id="ycCmfxhJ" text="Beşinci Öldürme" />
+    <string id="yClOSxT8" text="Burun Açıklığı" />
+    <string id="yekjRMT1" text="Düello İstatistikleri" />
+    <string id="YhDDXj0I" text="Kanyon" />
+    <string id="YmPyx3qi" text="Oyuncu izin verilen azami Özel Savaş Sunucusu sayısına ulaştı." />
+    <string id="YntJTd09" text="Ebereth Kalesi" />
+    <string id="YoNYyLba" text="Mızrak" />
+    <string id="yQtzabbe" text="Kapat" />
+    <string id="yQu6aBw4" text="Toplan!" />
+    <string id="YRabuUqx" text="Baravenos Kuşatması" />
+    <string id="yRSjcxBv" text="Yeni bir yama yayınlandı. Lütfen oyununuzu güncelleyin." />
+    <string id="YRymCbaa" text="Kırıp geçti!" />
+    <string id="YSKoiyjt" text="EDO" />
+    <string id="YtSQB7rg" text="Altın ile raunt başında ve devamında istediğin sınıfı seç." />
+    <string id="Yvjap05b" text="Hareket Hızı" />
+    <string id="YvK6gI6q" text="Sur Dibi" />
+    <string id="yyJejJbO" text="Çene Yapısı" />
+    <string id="Z27nSqNt" text="Yardım Edin!" />
+    <string id="Zc2f5bhh" text="Bütün düşmanları öldür, düşman takımın moralini tüket veya raunt süresi sona erdiğinde daha fazla morale sahip ol." />
+    <string id="zHKHwHMr" text="Kırsal Alan" />
+    <string id="zmlCRb1M" text="Maks. Oyuncu Sayısı" />
+    <string id="ZMmrpMPk" text="Boyun" />
+    <string id="ztGHtRNf" text="Hile Kullanımı" />
+    <string id="zU7hCYwT" text="Yayıncı Yasağı" />
+    <string id="ZYChhMrO" text="Beraberlik" />
+    <string id="ZZMbAjSU" text="Kırıp geçti!" />
+  </strings>
+</base>

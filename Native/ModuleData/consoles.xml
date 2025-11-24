@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<string
+		id="str_wireless_controller_text"
+		text="{=MceLT3Zg}Wireless Controller" />
+	<string
+		id="str_game_key_text.controllerrdown_ps"
+		text="{=psXButton}cross button" />
+	<string
+		id="str_game_key_text.controllerrright_ps"
+		text="{=psCircleButton}circle button" />
+	<string
+		id="str_game_key_text.controllerrleft_ps"
+		text="{=psSquareButton}square button" />
+	<string
+		id="str_game_key_text.controllerrup_ps"
+		text="{=psTriangleButton}triangle button" />
+	<string
+		id="str_game_key_text.controllerroption_ps"
+		text="{=psOptionsButton}OPTIONS button" />
+	<string
+		id="str_game_key_text.controllerloption_ps"
+		text="{=psTouchpadButton}touch pad button" />
+	<string
+		id="str_game_key_text.controllerrbumper_ps"
+		text="{=psR1Button}R1 button" />
+	<string
+		id="str_game_key_text.controllerlbumper_ps"
+		text="{=psL1Button}L1 button" />
+	<string
+		id="str_game_key_text.controllerrtrigger_ps"
+		text="{=psR2Button}R2 button" />
+	<string
+		id="str_game_key_text.controllerltrigger_ps"
+		text="{=psL2Button}L2 button" />
+	<string
+		id="str_options_type.EnableTouchpadMouse"
+		text="{=gLlM7pQw}Enable Touch Pad Mouse" />
+	<string
+		id="str_options_description.EnableTouchpadMouse"
+		text="{=pvit1VDX}Enable touch pad to control cursor." />
+	<string
+		id="str_ps_controller_disconnected"
+		text="{=controllerDisconnectedTitlePS}Wireless Controller Disconnected" />
+	<string
+		id="str_ps_controller_disconnected_continue"
+		text="{=controllerDisconnectedDescriptionPS}Please reconnect wireless controller to continue" />
+	<string
+		id="str_options_type.EnableAlternateAiming"
+		text="{=bIuDbdVB}Enable {?IS_PLAYSTATION}Wireless {?}{\?}Controller Alternate Aiming" />
+	<string
+		id="str_gyro_disabled"
+		text="{=jA2D1Rgt}This option is disabled because motion sensor function is disabled." />
+	<string
+		id="str_gyro_overrides_attack_block_direction"
+		text="{=7UqxMUHr}This option is disabled because &quot;Use Motion Sensor Function for Attack Block Direction&quot; is enabled." />
+	<string
+		id="str_options_type.PlayerReceivedDamageDifficulty"
+		text="{=KM7uAbL8}Player Received Damage" />
+	<string
+		id="str_options_type.GyroOverrideForAttackDefend"
+		text="{=aCVTu5AJ}Use Motion Sensor Function for Attack Block Direction" />
+	<string
+		id="str_options_type.EnableVibration"
+		text="{=c3I1AjcF}Enable {?IS_PLAYSTATION}Wireless {?}{\?}Controller Vibration" />
+	<string
+		id="str_options_type.EnableGyroAssistedAim"
+		text="{=NbiZd9up}Enable Motion Sensor Function Assisted Aim" />
+	<string
+		id="str_options_type.GyroAimSensitivity"
+		text="{=136P0uC5}Motion Sensor Function Aim Sensitivity" />
+	<string
+		id="str_options_type_GyroOverrideForAttackDefend"
+		text="{=5mBbS0mb}Use motion sensor function input for attack and block direction." />
+	<string
+		id="str_options_description.PlayerReceivedDamageDifficulty"
+		text="{=rRhypEZV}Determines the damage received by your character." />
+	<string
+		id="str_options_description.GyroOverrideForAttackDefend"
+		text="{=m0NJf3BU}Use motion sensor function input for melee attack and defend direction." />
+	<string
+		id="str_options_description.EnableGyroAssistedAim"
+		text="{=aLAtopse}Use motion sensor function input for ranged aim assistance." />
+	<string
+		id="str_options_description.GyroAimSensitivity"
+		text="{=zZeDwVbv}Set motion sensor function sensitivity while aiming with ranged weapons. 0 means disabled." />
+	<string
+		id="str_ps_not_signed_in"
+		text="{=3rcPHq9a}You are not signed in to PlayStation™Network. To use online features, you must sign in." />
+	<string
+		id="str_ps_plus_required"
+		text="{=8yk50Ba5}PlayStation®Plus is required to play Multiplayer." />
+	<string
+		id="str_ps_disconnected"
+		text="{=UhUvwvkh}You are disconnected from PlayStation™Network. Online features are not available." />
+	<string
+		id="str_ps_logged_out"
+		text="{=NyA57ke1}Logged out of PlayStation™Network" />
+	<string
+		id="str_ps_transfer_ps4_save"
+		text="{=6WHz63af}Transfer PS4™ Console Save" />
+	<string
+		id="str_ps_transfer_ps4_save_no_found"
+		text="{=ifkdZmxr}No PS4™ Console save was found" />
+	<string
+		id="str_ps_transfer_ps4_save_transfer_successful"
+		text="{=tHGHDaFH}PS4™ Console save was successfully transferred" />
+	<string
+		id="str_ps_transfer_ps4_save_select"
+		text="{=PJK980ka}Select a PS4™ Console save file to transfer" />
+	<string
+		id="str_campaign_options_description.EnableCheats_ps"
+		text="{=i6x93YjL}Cheat Menu can also be enabled by holding &quot;L1 + R2 + Down Button&quot; in map." />
+	<string
+		id="str_options_description.EnableAlternateAiming"
+		text="{=wXuZKLkk}Changes how you aim with ranged weapons. If enabled, {?IS_PLAYSTATION}L2 button{?}left trigger{\?} will aim the weapon and using {?IS_PLAYSTATION}R2 button{?}right trigger{\?} will fire the weapon." />
+	<string
+		id="str_ps_show_profile"
+		text="{=ovqtG4LS}Show PlayStation™Network Profile" />
+	<string
+		id="str_game_key_text.controllerlup"
+		text="{=xboxDpadUp}D-pad Up" />
+	<string
+		id="str_game_key_text.controllerldown"
+		text="{=xboxDpadDown}D-pad Down" />
+	<string
+		id="str_game_key_text.controllerlright"
+		text="{=xboxDpadRight}D-pad Right" />
+	<string
+		id="str_game_key_text.controllerlleft"
+		text="{=xboxDpadLeft}D-pad Left" />
+	<string
+		id="str_game_key_text.controllerroption"
+		text="{=xboxStartButton}Menu Button" />
+	<string
+		id="str_game_key_text.controllerloption"
+		text="{=xboxBackButton}View Button" />
+	<string
+		id="str_game_key_text.controllerrbumper"
+		text="{=xboxRightBumper}right bumper" />
+	<string
+		id="str_game_key_text.controllerlbumper"
+		text="{=xboxLeftBumper}left bumper" />
+	<string
+		id="str_game_key_text.controllerrtrigger"
+		text="{=xboxRightTrigger}right trigger" />
+	<string
+		id="str_game_key_text.controllerltrigger"
+		text="{=xboxLeftTrigger}left trigger" />
+	<string
+		id="str_game_key_text.controllerrthumb"
+		text="{=xboxRightStick}Right Stick" />
+	<string
+		id="str_game_key_text.controllerlthumb"
+		text="{=xboxLeftStick}Left Stick" />
+	<string
+		id="str_game_key_text.controllerlstickup"
+		text="{=xboxLeftStickUp}Left Stick Up" />
+	<string
+		id="str_game_key_text.controllerlstickdown"
+		text="{=xboxLeftStickDown}Left Stick Down" />
+	<string
+		id="str_game_key_text.controllerlstickleft"
+		text="{=xboxLeftStickLeft}Left Stick Left" />
+	<string
+		id="str_game_key_text.controllerlstickright"
+		text="{=xboxLeftStickRight}Left Stick Right" />
+	<string
+		id="str_game_key_text.controllerrstickup"
+		text="{=xboxRightStickUp}Right Stick Up" />
+	<string
+		id="str_game_key_text.controllerrstickdown"
+		text="{=xboxRightStickDown}Right Stick Down" />
+	<string
+		id="str_game_key_text.controllerrstickleft"
+		text="{=xboxRightStickLeft}Right Stick Left" />
+	<string
+		id="str_game_key_text.controllerrstickright"
+		text="{=xboxRightStickRight}Right Stick Right" />
+	<string
+		id="str_dlc_installed_title"
+		text="{=dlcInstallComplete}DLC Installation Complete" />
+	<string
+		id="str_dlc_installed_title_ps"
+		text="{=psDlcInstallComplete}Add-on Installation Complete" />
+	<string
+		id="str_dlc_installed_description"
+		text="{=dlcInstalledDescription}The DLC content has finished installing. You need to return to the main menu to access the new content." />
+	<string
+		id="str_dlc_installed_description_ps"
+		text="{=psDlcInstalledDescription}The add-on content has finished installing. You need to return to the main menu to access the new content." />
+	<string
+		id="str_left_stick_abbr_ps"
+		text="{=leftstickabbreviatedps}L" />
+	<string
+		id="str_left_stick_abbr"
+		text="{=leftstickabbreviated}LS" />
+	<string
+		id="str_right_stick_abbr_ps"
+		text="{=rightstickabbreviatedps}R" />
+	<string
+		id="str_right_stick_abbr"
+		text="{=rightstickabbreviated}RS" />
+</strings>

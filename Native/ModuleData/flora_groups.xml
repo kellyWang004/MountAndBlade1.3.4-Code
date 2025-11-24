@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<flora_groups>
+	<flora_group
+		name="test_flora_group">
+		<flora_records>
+			<flora_record
+				name="wheats_green"
+				density="100" />
+			<flora_record
+				name="map_pine_a"
+				density="50" />
+			<flora_record
+				name="map_tree_small_b"
+				density="70" />
+		</flora_records>
+	</flora_group>
+	<flora_group
+		name="grass">
+		<flora_records>
+			<flora_record
+				name="flora_grass_a"
+				density="25" />
+			<flora_record
+				name="flora_grass_b"
+				density="25" />
+			<flora_record
+				name="grass_terrain_a"
+				density="11" />
+		</flora_records>
+	</flora_group>
+	<flora_group
+		name="grass_mix_shadow">
+		<flora_records>
+			<flora_record
+				name="flora_grass_a"
+				density="18" />
+			<flora_record
+				name="flora_grass_b"
+				density="18" />
+			<flora_record
+				name="flora_green__mix"
+				density="25" />
+		</flora_records>
+	</flora_group>
+	<flora_group
+		name="reeds">
+		<flora_records>
+			<flora_record
+				name="flora_reed_a"
+				density="25" />
+			<flora_record
+				name="flora_reed_b"
+				density="25" />
+			<flora_record
+				name="flora_reed_c"
+				density="35" />
+			<flora_record
+				name="flora_reed_d"
+				density="30" />
+			<flora_record
+				name="flora_reed_e"
+				density="10" />
+			<flora_record
+				name="flora_reed_f"
+				density="10" />
+		</flora_records>
+	</flora_group>
+	<flora_group
+		name="forest">
+		<flora_records>
+			<flora_record
+				name="tree_high__mix_aspen"
+				density="30" />
+			<flora_record
+				name="tree_high__mix_poplar"
+				density="20" />
+			<flora_record
+				name="tree_high__mix_poplar_forest"
+				density="18" />
+		</flora_records>
+	</flora_group>
+</flora_groups>

@@ -1,0 +1,735 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Français" />
+  </tags>
+  <strings>
+    <string id="03YrcAtx" text="{.F}{.S}Fusée à deux mains bandée de cuir{@PLURAL}{.F}{.P}Fusées à deux mains bandées de cuir{\@}" />
+    <string id="0gteBOD7" text="{.F}{.S}Tête de bardiche{@PLURAL}{.F}{.P}Têtes de bardiche{\@}" />
+    <string id="0kP9bf7n" text="{.M}{.S}Manche de faucille{@PLURAL}{.M}{.P}Manches de faucille{\@}" />
+    <string id="0LJtoZtW" text="{.F}{.S}Garde de cimeterre recourbé gravée{@PLURAL}{.F}{.P}Gardes de cimeterre recourbé gravées{\@}" />
+    <string id="0Y0kaTwm" text="{.F}{.S}Lame de spatha simple{@PLURAL}{.F}{.P}Lames de spatha simples{\@}" />
+    <string id="13lb5at6" text="{.M}{.S}Manche en acajou avec bandes de peau{@PLURAL}{.M}{.P}Manches en acajou avec bandes de peau{\@}" />
+    <string id="19a3jJ1s" text="{.F}{.S}Lame de grand sabre striée{@PLURAL}{.F}{.P}Lames de grand sabre striées{\@}" />
+    <string id="1ajbJdao" text="{.M}{.S}Pommeau en forme de barre{@PLURAL}{.M}{.P}Pommeaux en forme de barre{\@}" />
+    <string id="1auabxxv" text="{.F}{.S}Garde plate arrondie{@PLURAL}{.F}{.P}Gardes plates arrondies{\@}" />
+    <string id="1e9OaUWk" text="{.F}{.S}Tête de masse d&apos;armes légère de l&apos;est{@PLURAL}{.F}{.P}Têtes de masse d&apos;armes légères de l&apos;est{\@}" />
+    <string id="1Ia3Wxbf" text="{.F}{.S}Lame de faux en acier fin{@PLURAL}{.F}{.P}Lames de faux en acier fin{\@}" />
+    <string id="1nGcpiom" text="{.M}{.S}Pommeau d&apos;ornement arrondi{@PLURAL}{.M}{.P}Pommeaux d&apos;ornement arrondis{\@}" />
+    <string id="1NLsucbu" text="{.F}{.S}Tête de masse d&apos;armes à ailettes lourde{@PLURAL}{.F}{.P}Têtes de masse d&apos;armes à ailettes lourdes{\@}" />
+    <string id="1NSafswc" text="{.F}{.S}Tête de hache de Gallogaich{@PLURAL}{.F}{.P}Têtes de hache de Gallogaich{\@}" />
+    <string id="1pvLe1Mh" text="{.M}{.S}Pommeau d&apos;ild simple{@PLURAL}{.M}{.P}Pommeaux d&apos;ild simples{\@}" />
+    <string id="1rGNXUaJ" text="{.F}{.S}Tête d&apos;épieu fine en acier fin{@PLURAL}{.F}{.P}Têtes d&apos;épieu fines en acier fin{\@}" />
+    <string id="1T0XBYlc" text="{.M}{.S}Manche de hache à deux mains en chêne durci{@PLURAL}{.M}{.P}Manches de hache à deux mains en chêne durci{\@}" />
+    <string id="1yEQNTG1" text="{.F}{.S}Tête longue de shestopyor{@PLURAL}{.F}{.P}Têtes longues de shestopyor{\@}" />
+    <string id="1zRo3td4" text="{.F}{.S}Fusée à deux mains en corne rivetée{@PLURAL}{.F}{.P}Fusées à deux mains en corne rivetées{\@}" />
+    <string id="22f2NR2N" text="{.F}{.S}Hampe noueuse longue en frêne{@PLURAL}{.F}{.P}Hampes noueuses longues en frêne{\@}" />
+    <string id="26KZ6S7F" text="{.M}{.S}Pommeau décoré de l&apos;est{@PLURAL}{.M}{.P}Pommeaux décorés de l&apos;est{\@}" />
+    <string id="27Oaoras" text="{.F}{.S}Lame de scramasaxe émoussée longue{@PLURAL}{.F}{.P}Lames de scramasaxe émoussées longues{\@}" />
+    <string id="29OXRdZu" text="{.F}{.S}Garde fuselée étroite{@PLURAL}{.F}{.P}Gardes fuselées étroites{\@}" />
+    <string id="2FLWuksh" text="{.F}{.S}Fusée de Battania{@PLURAL}{.F}{.P}Fusées de Battania{\@}" />
+    <string id="2Fq1t169" text="{.F}{.S}Fusée à deux mains du nord{@PLURAL}{.F}{.P}Fusées à deux mains du nord{\@}" />
+    <string id="2LrkLq5M" text="{.F}{.S}Garde de dague longue du nord{@PLURAL}{.F}{.P}Gardes de dague longue du nord{\@}" />
+    <string id="2MNfdGZQ" text="{.F}{.S}Fusée d&apos;épée longue en corne renforcée recouverte de cuir fin{@PLURAL}{.F}{.P}Fusées d&apos;épée longue en corne renforcées recouvertes de cuir fin{\@}" />
+    <string id="2mo4gsuh" text="{.F}{.S}Lame de rasoir de guerre{@PLURAL}{.F}{.P}Lames de rasoir de guerre{\@}" />
+    <string id="2noNmMPc" text="Garde large impériale épaisse " />
+    <string id="2OWBegq6" text="Garde d&apos;épée de guerre épaisse avec gravures" />
+    <string id="2XBuTBru" text="Fusée longue du nord en forme de sablier" />
+    <string id="35tXR29a" text="Fusée à deux mains de l&apos;est basique" />
+    <string id="37DVF96v" text="Garde avec pommeau de dague en croissant" />
+    <string id="38vt2VVz" text="Pommeau large" />
+    <string id="3aXHbrFV" text="Manche long en bambou avec pointe en métal" />
+    <string id="3cIsT4ZK" text="Garde de dague large" />
+    <string id="3ged5Ozt" text="Glaive de l&apos;est exceptionnel" />
+    <string id="3Q3FFqu0" text="{.F}{.S}Tête de masse d&apos;armes royale légère{@PLURAL}{.F}{.P}Têtes de masse d&apos;armes royales légères{\@}" />
+    <string id="3tCye4Iw" text="Pommeau d&apos;épieu long simple" />
+    <string id="3uUaFQ9Y" text="Garde en forme de marteau avec gravures" />
+    <string id="3VCyUu2h" text="Garde de dague de l&apos;est fine" />
+    <string id="3VoW9qZs" text="Fusée d&apos;épée renforcée cousue d&apos;or" />
+    <string id="3wn1WbIx" text="{.F}{.S}Lame de kaskara longue striée{@PLURAL}{.F}{.P}Lames de kaskara longues striées{\@}" />
+    <string id="3wXjMEwI" text="Fusée d&apos;épée renforcée recouverte de cuir segmenté" />
+    <string id="3Y7plSBX" text="{.F}{.S}Lame d&apos;épée large en fer{@PLURAL}{.F}{.P}Lames d&apos;épée large en fer{\@}" />
+    <string id="3ZyRhmke" text="Fusée de sabre court" />
+    <string id="45k6EEUu" text="{.F}{.S}Tête d&apos;anicroche en fer{@PLURAL}{.F}{.P}Têtes d&apos;anicroche en fer{\@}" />
+    <string id="47UEgMpD" text="Manche en chêne à bout pointu" />
+    <string id="4FnOKgB6" text="Garde de dague en croissant impériale" />
+    <string id="4Ilo91CO" text="{.F}{.S}Tête de hache de bataille impériale{@PLURAL}{.F}{.P}Têtes de hache de bataille impériales{\@}" />
+    <string id="4MZvoVyI" text="Pommeau d&apos;épieu riveté à bout rond" />
+    <string id="4OefdTD1" text="{.F}{.S}Lame de gladius court striée{@PLURAL}{.F}{.P}Lames de gladius court striées{\@}" />
+    <string id="4Olvmpen" text="Fusée à une main en forme de sablier en cuir brut" />
+    <string id="4t0EyE1B" text="Fusée à deux mains en cuir tissé" />
+    <string id="4TvA6YaC" text="Fusée d&apos;épée renforcée marbrée" />
+    <string id="4VIUHmbP" text="Manche de masse d&apos;armes en acier décoré" />
+    <string id="4XytssVk" text="Garde en demi-lune" />
+    <string id="4z3U5ubo" text="Garde d&apos;épée de guerre dorée" />
+    <string id="57DBqJd1" text="Manche de masse d&apos;armes épais bandé de cuir" />
+    <string id="5ALE9Joh" text="{.F}{.S}Tête de faux de guerre{@PLURAL}{.F}{.P}Têtes de faux de guerre{\@}" />
+    <string id="5GR6xb8a" text="Manche d&apos;outil" />
+    <string id="5KvdG6ep" text="Garde en forme de croissant doré chevaleresque" />
+    <string id="5l0PBFAe" text="{.F}{.S}Lame de flissa émoussée en fer{@PLURAL}{.F}{.P}Lames de flissa émoussées en fer{\@}" />
+    <string id="5NeanDJM" text="Pommeau annelé" />
+    <string id="5o5DaSHZ" text="{.F}{.S}Lame de dague large{@PLURAL}{.F}{.P}Lames de dague large{\@}" />
+    <string id="5V0QR20o" text="Fusée à une main en cuir brut clouté" />
+    <string id="5Xoa1EFa" text="{.F}{.S}Lame d&apos;épée à un seul tranchant gravée{@PLURAL}{.F}{.P}Lames d&apos;épée à un seul tranchant gravées{\@}" />
+    <string id="61A1VUw8" text="Garde avec pommeau en bronze" />
+    <string id="61hjmt0T" text="Pommeau triangulaire" />
+    <string id="62biJ5O5" text="Fusée à une main en cuir fin des hautes terres" />
+    <string id="6BMAGMRu" text="Garde plate" />
+    <string id="6Da4uzZO" text="Garde chevaleresque large gravée" />
+    <string id="6HybYLtu" text="Fusée à une main du nord recouverte de cuir brut" />
+    <string id="6I4lZs47" text="{.M}{.S}Pommeau à fer d&apos;épieu{@PLURAL}{.M}{.P}Pommeaux à fer d&apos;épieu{\@}" />
+    <string id="6PD2rBbf" text="Fusée à une main en corne recouverte de cuir fuselée" />
+    <string id="6uyVChLK" text="Bannière rectangulaire" />
+    <string id="6xkt7bxz" text="{.F}{.S}Tête de masse d&apos;armes royale lourde{@PLURAL}{.F}{.P}Têtes de masse d&apos;armes royales lourdes{\@}" />
+    <string id="6ZW9fOUJ" text="Garde de kaskara dorée" />
+    <string id="71588OX7" text="Hampe en bambou" />
+    <string id="7EZbFRaG" text="Hampe renforcée en pin" />
+    <string id="7JjctWr3" text="Garde gravée chevaleresque en forme de marteau" />
+    <string id="7lRnhAgf" text="Fusée à deux mains du nord en forme de sablier" />
+    <string id="7ZWtiHKj" text="{.F}{.S}Lame d&apos;épée de guerre longue{@PLURAL}{.F}{.P}Lames d&apos;épée de guerre longues{\@}" />
+    <string id="85bQmjWX" text="{.F}{.S}Lame de couteau" />
+    <string id="85jApGfe" text="Garde de dague avec pommeau" />
+    <string id="87BmkiMO" text="Manche de masse d&apos;armes noueux" />
+    <string id="89QyC7eD" text="Garde du nord étroite" />
+    <string id="8gW1o7iH" text="Pommeau de l&apos;ouest à lobes" />
+    <string id="8OaZSfaZ" text="Fusée d&apos;épée renforcée en cuir brut scindé" />
+    <string id="8olqutaL" text="Fusée à deux mains scindée du nord" />
+    <string id="8S6ZYPFD" text="{.F}{.S}Tête de hachette en acier fin arrondie{@PLURAL}{.F}{.P}Têtes de hachette en acier fin arrondies{\@}" />
+    <string id="8T7gNbfM" text="{.F}{.S}Tête d&apos;épieu en forme de feuille large percée{@PLURAL}{.F}{.P}Têtes d&apos;épieu en forme de feuille large percées{\@}" />
+    <string id="8x9klENe" text="Renfort de hampe rivetée segmenté" />
+    <string id="8yb60cDi" text="Hampe d&apos;épieu long en acajou" />
+    <string id="8ZbL3exH" text="Pommeau à lobes" />
+    <string id="9aYBy1RN" text="{.F}{.S}Tête d&apos;épieu en forme de feuille en acier fin{@PLURAL}{.F}{.P}Têtes d&apos;épieu en forme de feuille en acier fin{\@}" />
+    <string id="9HgtH0Nb" text="Garde d&apos;épieu en forme de vague" />
+    <string id="9HMxA4AU" text="Manche de masse d&apos;armes en fer" />
+    <string id="9JMatUNQ" text="Fusée à deux mains brute du nord" />
+    <string id="9JxsngjD" text="Garde de kaskara en argent gravée" />
+    <string id="9PgS5SzW" text="Fusée à une main en corne renforcée en fer" />
+    <string id="9phikaHT" text="Garde de dague en croissant de l&apos;ouest" />
+    <string id="9qaanOpL" text="Pommeau du nord simple" />
+    <string id="9T2KA9sk" text="Fusée en acier décoré cousue d&apos;or" />
+    <string id="9Y1zUaE7" text="Pommeau rond impérial" />
+    <string id="A06HEqvF" text="Ailes d&apos;épieu lacées" />
+    <string id="a0erBuF1" text="{.F}{.S}Tête de hache recourbée{@PLURAL}{.F}{.P}Têtes de hache recourbées{\@}" />
+    <string id="A1m12E8N" text="Garde de dague longue" />
+    <string id="a4qSDsmb" text="Garde d&apos;estramaçon dorée impériale" />
+    <string id="a860bQ4f" text="Pommeau plat" />
+    <string id="AA4WhCGw" text="Garde de dague plate" />
+    <string id="aaEv3sBU" text="Hampe de javelot en chêne" />
+    <string id="aalvbENh" text="Pommeau du désert" />
+    <string id="aaYy1btG" text="Bannière en queue d&apos;hirondelle" />
+    <string id="abLXJ3L3" text="Pommeau en forme de masse d&apos;armes" />
+    <string id="aBnaaaHv" text="{.F}{.S}Lame de scramasaxe longue{@PLURAL}{.F}{.P}Lames de scramasaxe longues{\@}" />
+    <string id="Ac4kblsm" text="Fusée à deux mains en peau du nord" />
+    <string id="aFxc3ZVL" text="Garde en forme de disque concave" />
+    <string id="AGfMPOWB" text="Manche de masse d&apos;armes anguleux en acier fin" />
+    <string id="aGtEhibt" text="Pommeau rond du nord" />
+    <string id="aj59KGOS" text="Fusée à deux mains en cuir brut" />
+    <string id="ajVcY9v6" text="{.F}{.S}Petite tête de marteau-hache{@PLURAL}{.F}{.P}Petites têtes de marteau-hache{\@}" />
+    <string id="AkfEFzkk" text="Garde en forme de bol" />
+    <string id="AKJzOQkF" text="{.F}{.S}Lame d&apos;épée à un seul tranchant de l&apos;est{@PLURAL}{.F}{.P}Lames d&apos;épée à un seul tranchant de l&apos;est{\@}" />
+    <string id="aKpVHE2g" text="Ailes à double crochet à glands" />
+    <string id="AlIRh9mz" text="{.F}{.S}Lame du nord émoussée fuselée{@PLURAL}{.F}{.P}Lames du nord émoussées fuselées{\@}" />
+    <string id="ALO9gw69" text="{.F}{.S}Tête de hache à deux mains carrée{@PLURAL}{.F}{.P}Têtes de hache à deux mains carrées{\@}" />
+    <string id="AlRRkKut" text="{.F}{.S}Tête de morgenstern lourde{@PLURAL}{.F}{.P}Têtes de morgenstern lourdes{\@}" />
+    <string id="alti0PsZ" text="{.F}{.S}Lame d&apos;épée de guerre pointue{@PLURAL}{.F}{.P}Lames d&apos;épée de guerre pointues{\@}" />
+    <string id="AM6iuDAv" text="Garde avec pommeau de dague en diamant" />
+    <string id="AO2BfABx" text="Pommeau en forme de champignon" />
+    <string id="Ao7c1VrC" text="Pommeau triangulaire du nord" />
+    <string id="AObgGzg9" text="Fusée à une main en corne rivetée" />
+    <string id="aPr8NPdo" text="{.F}{.S}Tête d&apos;arme d&apos;hast de l&apos;ouest en fer{@PLURAL}{.F}{.P}Têtes d&apos;arme d&apos;hast de l&apos;ouest en fer{\@}" />
+    <string id="aQa3tp6Q" text="Hampe longue en pin décorée" />
+    <string id="artqaNEi" text="Garde avec pommeau en fer" />
+    <string id="aS56bF5s" text="{.M}{.S}Petit couteau de boucher" />
+    <string id="ASGZJW85" text="Fusée de spatha à une main en fer segmenté" />
+    <string id="aTnuOUCC" text="{.F}{.S}Lame de kaskara en acier thamaskène{@PLURAL}{.F}{.P}Lames de kaskara en acier thamaskène{\@}" />
+    <string id="AtNVVwTF" text="Hampe courte en pin" />
+    <string id="aUJaQmN1" text="Fusée à deux mains renforcée à joyaux " />
+    <string id="aVBGVt7N" text="Fusée en corne fuselée" />
+    <string id="Aw7Veoaa" text="Fusée angulaire en cuir brut cousue de fer" />
+    <string id="aYnTt86Y" text="Garde de dague en bronze à ailes" />
+    <string id="az6t2tOm" text="Garde de l&apos;ouest striée" />
+    <string id="azjW7lAg" text="Garde d&apos;ild gravée" />
+    <string id="aZp1ur9Q" text="Pommeau en forme de calice" />
+    <string id="b1KGhVwD" text="Garde du nord concave" />
+    <string id="b30mn7KF" text="{.F}{.S}Lame de kandjar{@PLURAL}{.F}{.P}Lames de kandjar{\@}" />
+    <string id="b9bboB3v" text="{.F}{.S}Tête de masse d&apos;armes d&apos;infanterie du sud{@PLURAL}{.F}{.P}Têtes de masse d&apos;armes d&apos;infanterie du sud{\@}" />
+    <string id="baQ99nza" text="Hampe longue en frêne" />
+    <string id="bCCYhnbY" text="Fusée en cuir verte" />
+    <string id="bCZ6V3uY" text="{.F}{.S}Garde de dague en forme de tête de serpent{@PLURAL}{.F}{.P}Gardes de dague en forme de tête de serpent{\@}" />
+    <string id="bEbyObu7" text="Fusée à une main dorée à joyaux" />
+    <string id="Bej5R7tP" text="Garde de dague en couronne" />
+    <string id="bEQETxjB" text="Pommeau strié" />
+    <string id="bfE00BnK" text="Manche de masse d&apos;armes en fer à pommeau" />
+    <string id="bfueDx6s" text="Manche de grande hache en chêne lourdement renforcé" />
+    <string id="bGaOu7rO" text="Garde de dague plate de l&apos;est" />
+    <string id="bGfs8gNv" text="{.F}{.S}Lame d&apos;épée à un seul tranchant du nord{@PLURAL}{.F}{.P}Lames d&apos;épée à un seul tranchant du nord{\@}" />
+    <string id="bjQ8J71a" text="{.F}{.S}Tête longue de glaive{@PLURAL}{.F}{.P}Têtes longues de glaive{\@}" />
+    <string id="BKHKQ15N" text="Pommeau turquoise" />
+    <string id="bki9u9FW" text="{.F}{.S}Lame d&apos;épée renforcée avec marquage de cercle doré{@PLURAL}{.F}{.P}Lames d&apos;épée renforcée avec marquage de cercle doré{\@}" />
+    <string id="BL96pnde" text="Fusée de hachoir à une main en cuir brut" />
+    <string id="blaVlvm2" text="{.F}{.S}Lame d&apos;épée de guerre courte décorée{@PLURAL}{.F}{.P}Lames d&apos;épée de guerre courtes décorées{\@}" />
+    <string id="bM8kSewD" text="Garde du nord striée" />
+    <string id="booEob1z" text="Pommeau en forme de disque" />
+    <string id="bP6SBz4s" text="Garde avec marquage doré impériale" />
+    <string id="bPUXlfs8" text="Fusée d&apos;ild de l&apos;est décorée" />
+    <string id="BQ3hMy9D" text="{.M}{.S}Pommeau en forme de tête de cheval{@PLURAL}{.M}{.P}Pommeaux en forme de tête de cheval{\@}" />
+    <string id="bQkJSHCt" text="Fusée à deux mains en bronze avec spirale en argent" />
+    <string id="bQzz8mc3" text="Manche de hache de lancer simple en pin" />
+    <string id="BtXFrrVj" text="Garde concave épaisse" />
+    <string id="BXW4LeQT" text="{.F}{.S}Lame courte à gouttière large{@PLURAL}{.F}{.P}Lames courtes à gouttière large{\@}" />
+    <string id="bZbW2UEE" text="Garde de dague de l&apos;est large" />
+    <string id="bzr1DEgS" text="Garde de dague en étoile du sud" />
+    <string id="c1YI2Nxt" text="{.F}{.S}Lame de spatha en fer{@PLURAL}{.F}{.P}Lames de spatha en fer{\@}" />
+    <string id="C2hTDlWq" text="{.F}{.S}Lame de sabre lourde{@PLURAL}{.F}{.P}Lames de sabre lourdes{\@}" />
+    <string id="c6aNuaDP" text="{.F}{.S}Tête d&apos;épieu émoussée irrégulière{@PLURAL}{.F}{.P}Têtes d&apos;épieu émoussées irrégulières{\@}" />
+    <string id="C89rbAz6" text="{.F}{.S}Lame d&apos;épée renforcée chevaleresque{@PLURAL}{.F}{.P}Lames d&apos;épée renforcée chevaleresques{\@}" />
+    <string id="cag70E1F" text="{.F}{.S}Tête de pernach{@PLURAL}{.F}{.P}Têtes de pernach{\@}" />
+    <string id="cbHjFPEb" text="Fusée d&apos;épée bâtarde en cuir fin des hautes terres" />
+    <string id="CdBAvJdP" text="{.F}{.S}Tête de contus{@PLURAL}{.F}{.P}Têtes de contus{\@}" />
+    <string id="CE1IQiEU" text="Fusée d&apos;épée renforcée en cuir fin spiralée" />
+    <string id="CeeJmlSq" text="{.F}{.S}Tête de shishpar lourde{@PLURAL}{.F}{.P}Têtes de shishpar lourdes{\@}" />
+    <string id="cEU66ABf" text="{.F}{.S}Lame de hache de bataille du nord{@PLURAL}{.F}{.P}Lames de hache de bataille du nord{\@}" />
+    <string id="cFTzptut" text="Manche en acajou" />
+    <string id="CiZRwdet" text="Garde plate de l&apos;est" />
+    <string id="cK6D7cyn" text="{.F}{.S}Tête de francisque large{@PLURAL}{.F}{.P}Têtes de francisque larges{\@}" />
+    <string id="CKKaarrY" text="Fusée cousue de fil recouverte de cuir" />
+    <string id="CODGBskg" text="{.F}{.S}Lame de sabre longue{@PLURAL}{.F}{.P}Lames de sabre longues{\@}" />
+    <string id="cuxuEx40" text="Garde ovale à facettes" />
+    <string id="CYVjEcPQ" text="Bannière à long fanion" />
+    <string id="czhTpYo8" text="{.F}{.S}Lame de sabre en fer{@PLURAL}{.F}{.P}Lames de sabre en fer{\@}" />
+    <string id="d2kOHsY7" text="Fusée d&apos;épée large décorée" />
+    <string id="d4aLa7tz" text="Pommeau supérieur" />
+    <string id="d4bVwnK8" text="Fusée à deux mains en cuir pressé" />
+    <string id="dafrn0mR" text="{.F}{.S}Lame de spatha en acier thamaskène{@PLURAL}{.F}{.P}Lames de spatha en acier thamaskène{\@}" />
+    <string id="dbmuyJcf" text="Pommeau à facettes du sud" />
+    <string id="dBVMNui8" text="Fusée à deux mains en corne renforcée en fer" />
+    <string id="dCco8dRt" text="Garde de dague en forme de disque" />
+    <string id="Dd7fJ9aL" text="{.F}{.S}Fusée d&apos;épée longue en cuir brut scindé{@PLURAL}{.F}{.P}Fusées d&apos;épée longue en cuir brut scindé{\@}" />
+    <string id="DEpwMMql" text="Garde de dague du sud piquée" />
+    <string id="dgjXkbuA" text="Pommeau en forme d&apos;œil de chouette" />
+    <string id="DiAHIRxm" text="Garde de sabre gravée" />
+    <string id="DID87A6l" text="Fusée en cuir tissée" />
+    <string id="Dix4EYD8" text="{.F}{.S}Tête de maillet{@PLURAL}{.F}{.P}Têtes de maillet{\@}" />
+    <string id="DkhuNoTH" text="Fusée à une main en bois" />
+    <string id="dlnciENS" text="Garde en bois" />
+    <string id="DLvSnz8U" text="Garde des hautes terres gravée" />
+    <string id="dnd2hafw" text="Fusée simple enveloppée rêche" />
+    <string id="dNk7UZVD" text="{.F}{.S}Lame d&apos;épée émoussée renforcée à gouttière étroite{@PLURAL}{.F}{.P}Lames d&apos;épée émoussées renforcées à gouttière étroite{\@}" />
+    <string id="do4vZhh4" text="Garde fine fuselée" />
+    <string id="DPa0JB1U" text="Fusée à deux mains angulaire cloutée en bronze" />
+    <string id="dpft1I1B" text="Garde de l&apos;ouest fine" />
+    <string id="Dsf9JE8N" text="Crochet en bois" />
+    <string id="dTkiV4i6" text="Pommeau en forme de bateau de pêche" />
+    <string id="dtSrK9bs" text="{.F}{.S}Lame de scramasaxe large{@PLURAL}{.F}{.P}Lames de scramasaxe larges{\@}" />
+    <string id="DVe5SkQA" text="Ailes à double pinnule" />
+    <string id="dvm8sTr9" text="Pommeau en bois" />
+    <string id="DXLlcbf9" text="Hampe de javelot en frêne" />
+    <string id="dXRt8jY4" text="{.F}{.S}Tête de menaulion{@PLURAL}{.F}{.P}Têtes de menaulion{\@}" />
+    <string id="DzncFcGk" text="Pommeau de Kheshig" />
+    <string id="e1DF7wbz" text="Bâton en frêne durci" />
+    <string id="E7cNp0rF" text="Pommeau d&apos;épieu riveté" />
+    <string id="eapPaDKi" text="Garde d&apos;épée de guerre en argent épaisse " />
+    <string id="EBlx3VId" text="{.F}{.S}Lame en fer brut des hautes terres{@PLURAL}{.F}{.P}Lames en fer brut des hautes terres{\@}" />
+    <string id="EbucFMZq" text="Garde de dague concave large" />
+    <string id="eBxzZ1SW" text="Fusée à une main renforcée à joyaux" />
+    <string id="edg8bnXX" text="Garde de dague du nord striée" />
+    <string id="eeFrva8L" text="Pommeau troué" />
+    <string id="EjJl6bA4" text="{.F}{.S}Tête d&apos;anicroche émoussée en fer{@PLURAL}{.F}{.P}Têtes d&apos;anicroche émoussées en fer{\@}" />
+    <string id="ELpWa0K5" text="Hampe de pique en chêne séchée" />
+    <string id="eLrbkvTV" text="Garde d&apos;estramaçon du nord" />
+    <string id="emryrbYV" text="Pommeau galonné" />
+    <string id="emUoygLE" text="{.F}{.S}Tête de harpon{@PLURAL}{.F}{.P}Têtes de harpon{\@}" />
+    <string id="euI3vluL" text="Garde de sabre large" />
+    <string id="f0syWNR7" text="{.F}{.S}Lame de poignard{@PLURAL}{.F}{.P}Lames de poignard{\@}" />
+    <string id="f3zHQAs9" text="Pennon anormal" />
+    <string id="f4GSe3UB" text="{.F}{.S}Tête de pelle{@PLURAL}{.F}{.P}Têtes de pelle{\@}" />
+    <string id="faZasq1G" text="Pommeau annelé de l&apos;est" />
+    <string id="fd6Lnv1l" text="Garde de gladius dorée" />
+    <string id="fdR6zYiP" text="{.F}{.S}Tête de francisque{@PLURAL}{.F}{.P}Têtes de francisque{\@}" />
+    <string id="FDscHYmZ" text="Oriflamme" />
+    <string id="fEkKXof4" text="Aile rivetée" />
+    <string id="feVbf7sb" text="{.F}{.S}Lame de kaskara courte striée{@PLURAL}{.F}{.P}Lames de kaskara courtes striées{\@}" />
+    <string id="fhbGCsdC" text="{.F}{.S}Tête de masse d&apos;armes lourde de l&apos;est{@PLURAL}{.F}{.P}Têtes de masse d&apos;armes lourdes de l&apos;est{\@}" />
+    <string id="fHKHwvsW" text="Pommeau à bandes de bronze" />
+    <string id="finesteelbladecraftingpiece" text="{.F}{.S}Lame en acier fin des hautes terres{@PLURAL}{.F}{.P}Lames en acier fin des hautes terres{\@}" />
+    <string id="fnz6wUVy" text="Pommeau d&apos;épieu rond à pointe" />
+    <string id="fo040lyg" text="Fusée simple enveloppée" />
+    <string id="fOrRdtNK" text="{.F}{.S}Tête de hache à petit éperon{@PLURAL}{.F}{.P}Têtes de hache à petit éperon{\@}" />
+    <string id="fRVQzcoY" text="Fusée à une main enveloppée en cuir épais rêche" />
+    <string id="Ft5A2Eb4" text="Fusée à deux mains renforcée recouverte de cuir de l&apos;est" />
+    <string id="ftwNaFZh" text="Ailes à double crochet" />
+    <string id="fuIxmJ2g" text="{.F}{.S}Lame en bois lourde{@PLURAL}{.F}{.P}Lames en bois lourdes{\@}" />
+    <string id="FURnbmjc" text="Hampe en frêne" />
+    <string id="FxCfO3zN" text="Manche de masse d&apos;armes renforcée en fer" />
+    <string id="g2r3QKOB" text="{.F}{.S}Petite tête de hache du sud{@PLURAL}{.F}{.P}Petites têtes de hache du sud{\@}" />
+    <string id="g5Va1lfk" text="Garde du désert fuselée" />
+    <string id="g60SQjOR" text="{.F}{.S}Fusée d&apos;épée longue en corne enveloppée de cuir{@PLURAL}{.F}{.P}Fusées d&apos;épée longue en corne enveloppées de cuir{\@}" />
+    <string id="G8Fb2RPa" text="{.F}{.S}Lame de fauchon à pointe{@PLURAL}{.F}{.P}Lames de fauchon à pointe{\@}" />
+    <string id="G9cBw5sV" text="Pommeau rond des hautes terres" />
+    <string id="GA4AaQQk" text="Fusée à une main en bois renforcée" />
+    <string id="gdVNxGZU" text="{.F}{.S}Lame courte striée{@PLURAL}{.F}{.P}Lames courtes striées{\@}" />
+    <string id="Gewh8Bzr" text="Fusée à deux mains cousue en fourrure" />
+    <string id="GFBFgA7R" text="{.F}{.S}Lame de dague émoussée large{@PLURAL}{.F}{.P}Lames de dague émoussées larges{\@}" />
+    <string id="GI6XD77j" text="Pommeau décoré impérial" />
+    <string id="gIm5Lnh8" text="Hampe de javelot en acajou" />
+    <string id="GJYbHthS" text="Queue d&apos;hirondelle à deux fourches" />
+    <string id="GLnI8ozz" text="Manche en séquoia" />
+    <string id="gM8zaQ8l" text="Gonfalon" />
+    <string id="GMwWb6SE" text="{.F}{.S}Tête d&apos;épieu en bois{@PLURAL}{.F}{.P}Têtes d&apos;épieu en bois{\@}" />
+    <string id="gPXRnvas" text="Garde en forme de disque" />
+    <string id="GQ9JwKBt" text="Fusée à deux mains de hachoir en cuir brut" />
+    <string id="GqwD99cu" text="Pommeau orné" />
+    <string id="GsBQCQEF" text="Hampe longue en pin renforcée" />
+    <string id="gSdybwMN" text="{.F}{.S}Tête de hache barbue nordique large percée{@PLURAL}{.F}{.P}Têtes de hache barbues nordiques larges percées{\@}" />
+    <string id="gsNbyLjV" text="{.M}{.S}Petit manche en séquoia" />
+    <string id="gTMThdRJ" text="Pommeau seigneurial" />
+    <string id="gTzMtKYu" text="{.F}{.S}Tête de lame de fauchon en étoile{@PLURAL}{.F}{.P}Têtes de lame de fauchon en étoile{\@}" />
+    <string id="gwkR6TZL" text="{.F}{.S}Lame de kaskara décorée{@PLURAL}{.F}{.P}Lames de kaskara décorées{\@}" />
+    <string id="GXhZ8NKv" text="{.F}{.S}Lame du nord à gouttière large{@PLURAL}{.F}{.P}Lames de kaskara décorées{\@}" />
+    <string id="gXUXjtuL" text="{.F}{.S}Lame de kama{@PLURAL}{.F}{.P}Lames de kama{\@}" />
+    <string id="GyOxvJpB" text="Pommeau en forme de globe" />
+    <string id="gZzEkk5t" text="Fusée à deux mains en cuir fin des hautes terres" />
+    <string id="H2xibh6p" text="Fusée impériale cloutée" />
+    <string id="h4DmfRfb" text="Pommeau chevaleresque" />
+    <string id="H6hlPsgV" text="Fusée à une main en peau" />
+    <string id="HA4O76ri" text="Ruban" />
+    <string id="HaNPlFBt" text="Hampe longue en bois dur enveloppée" />
+    <string id="HbCb0T6W" text="{.F}{.S}Lame d&apos;épée large émoussée en fer{@PLURAL}{.F}{.P}Lames d&apos;épée large émoussées en fer{\@}" />
+    <string id="hbv5aCRX" text="{.F}{.S}Tête d&apos;épieu émoussée simple courte{@PLURAL}{.F}{.P}Têtes d&apos;épieu émoussées simples courtes{\@}" />
+    <string id="hD5LzC6b" text="Fusée à une main angulaire cousue de fer" />
+    <string id="he3725oa" text="Pommeau d&apos;épieu conique" />
+    <string id="HF2WJagx" text="Fusée d&apos;épée de guerre enveloppée de cuir décorée" />
+    <string id="HHVH0IoH" text="Manche en séquoia durci avec fourrure" />
+    <string id="Hj151a5b" text="Garde en croissant fuselée" />
+    <string id="hk3d4d35" text="Manche de masse d&apos;armes en séquoia" />
+    <string id="hKKIijPr" text="Garde de dague en forme de disque concave" />
+    <string id="HlFpG5xw" text="Garde en bronze à ailes" />
+    <string id="HmsEarnz" text="Pommeau en forme de goutte d&apos;eau" />
+    <string id="hN0kTfhB" text="Fusée en cuir pressé renforcée en fer" />
+    <string id="hRfqLq4V" text="{.F}{.S}Lame de fauchon{@PLURAL}{.F}{.P}Lames de fauchon{\@}" />
+    <string id="hRtzRR6C" text="{.F}{.S}Tête de masse d&apos;armes légère impériale{@PLURAL}{.F}{.P}Têtes de masse d&apos;armes légères impériales{\@}" />
+    <string id="hSSk6tTn" text="{.F}{.S}Tête de hache de lancer{@PLURAL}{.F}{.P}Têtes de hache de lancer{\@}" />
+    <string id="huaGi2zw" text="Garde de dague du nord concave" />
+    <string id="HuYwPEmh" text="Pommeau d&apos;ornement" />
+    <string id="hvCj5TID" text="Garde en croissant à pointe" />
+    <string id="HwCYBWq2" text="{.F}{.S}Lame de spatha à pointe affûtée{@PLURAL}{.F}{.P}Lames de spatha à pointe affûtée{\@}" />
+    <string id="hWTFaw0E" text="Extrémité en acier" />
+    <string id="hX6YZ5GJ" text="{.F}{.S}Grande tête de gourdin à pointes lourde{@PLURAL}{.F}{.P}Grandes têtes de gourdin à pointes lourdes{\@}" />
+    <string id="HysmKS5a" text="{.F}{.S}Lame de dague large striée{@PLURAL}{.F}{.P}Lames de dague large striées{\@}" />
+    <string id="i7d3En7L" text="{.F}{.S}Lame de fauchon recourbée{@PLURAL}{.F}{.P}Lames de fauchon recourbées{\@}" />
+    <string id="i9Ja7Uib" text="Garde de dague épaisse avec gravures" />
+    <string id="I9yrLqPc" text="{.F}{.S}Tête de masse d&apos;armes en acier à ailettes de l&apos;est{@PLURAL}{.F}{.P}Têtes de masse d&apos;armes en acier à ailettes de l&apos;est{\@}" />
+    <string id="IAltuLvf" text="Fusée à une main du nord fuselée" />
+    <string id="Ibaju3oe" text="{.M}{.S}Pommeau en forme de tête d&apos;aigle{@PLURAL}{.M}{.P}Pommeaux en forme de tête d&apos;aigle{\@}" />
+    <string id="ibU7mZKx" text="Manche de grande hache en frêne" />
+    <string id="iFhr5nGq" text="{.F}{.S}Tête de hache impériale{@PLURAL}{.F}{.P}Têtes de hache impériales{\@}" />
+    <string id="IftwekS7" text="Garde d&apos;épée de guerre en bronze avec gravures" />
+    <string id="il1M66Z8" text="Fusée à une main enveloppée en cuir" />
+    <string id="iMbT3L4I" text="{.F}{.S}Lame de faux{@PLURAL}{.F}{.P}Lames de faux{\@}" />
+    <string id="In69b7aL" text="Fusée à une main décorée en métal à moitié recouverte de cuir" />
+    <string id="indl9fEW" text="Fusée à une main cousue en cuir épais rêche" />
+    <string id="IR8UeIRp" text="{.F}{.S}Tête de masse d&apos;armes de cataphractaire{@PLURAL}{.F}{.P}Têtes de masse d&apos;armes de cataphractaire{\@}" />
+    <string id="ittUjlRb" text="Garde en forme de diamant" />
+    <string id="IUlApNGp" text="{.F}{.S}Lame de faux longue{@PLURAL}{.F}{.P}Lames de faux longues{\@}" />
+    <string id="iuQE1xwL" text="{.F}{.S}Lame de spatha à gouttière étroite{@PLURAL}{.F}{.P}Lames de spatha à gouttière étroite{\@}" />
+    <string id="IvUO8nJc" text="Garde de dague concave élargie" />
+    <string id="IWrTsX3V" text="Fusée à une main en cuir rouge" />
+    <string id="IxCaIvUk" text="{.F}{.S}Tête large du nord avec col décoré{@PLURAL}{.F}{.P}Têtes larges du nord avec col décoré{\@}" />
+    <string id="iznpu0ih" text="Fusée de kaskara à une main en cuir pressé" />
+    <string id="Izstbt9y" text="{.F}{.S}Lame décorée des hautes terres{@PLURAL}{.F}{.P}Lames décorées des hautes terres{\@}" />
+    <string id="IZw8FnwW" text="{.F}{.S}Tête d&apos;ascia large{@PLURAL}{.F}{.P}Têtes d&apos;ascia larges{\@}" />
+    <string id="j2pkA2Yr" text="Garde couronnée du sud" />
+    <string id="J3ADekEw" text="Manche de grande hache en chêne" />
+    <string id="J5Tu73Mb" text="Bâton à pointe d&apos;épieu en pin durci" />
+    <string id="JabA2SWF" text="Manche en frêne renforcé" />
+    <string id="JanWod6k" text="Garde d&apos;épée de guerre étroite" />
+    <string id="Jbaj33wV" text="Longue bannière rectangulaire" />
+    <string id="JbP7zdes" text="Garde du sud à lobe" />
+    <string id="JCYmlrKF" text="Manche de masse d&apos;armes renforcée en acier" />
+    <string id="JfRydy7M" text="Garde de hachoir striée" />
+    <string id="jfyCVJya" text="Fusée à deux mains en acier noirci" />
+    <string id="JIj91e96" text="Fusée à deux mains cousue en peau" />
+    <string id="jMRMazLr" text="Manche de masse d&apos;armes en pin décoré" />
+    <string id="jN4PPWjp" text="Garde avec pommeau en croissant" />
+    <string id="jqiXcEyD" text="Fusée longue cousue" />
+    <string id="jre8aFdB" text="Garde de dague de l&apos;ouest à pointe" />
+    <string id="Js1FKwrL" text="{.F}{.S}Tête de javelot{@PLURAL}{.F}{.P}Têtes de javelot{\@}" />
+    <string id="JSba9OCN" text="Garde de dague en fer avec pommeau" />
+    <string id="jupH2NfE" text="Fusée d&apos;épée bâtarde angulaire incrustée d&apos;or" />
+    <string id="jZnVKvJN" text="Pommeau à trois branches" />
+    <string id="jzzZDEw7" text="Fusée longue cousue de fil" />
+    <string id="k2HEOuHV" text="Fusée d&apos;épée bâtarde cousue de bronze" />
+    <string id="k2MQ9kL0" text="Manche de masse d&apos;armes en acier" />
+    <string id="k66YIIWR" text="{.F}{.S}Lame de kaskara en acier fin étroite{@PLURAL}{.F}{.P}Lames de kaskara en acier fin étroites{\@}" />
+    <string id="kaoSz0Cx" text="Fusée à deux mains en cuir biseautée" />
+    <string id="kbh6i0M7" text="Pommeau de gladius raffiné" />
+    <string id="KeTioaJE" text="Manche de grande hache en acajou enveloppé de cuir" />
+    <string id="KFqa2uF1" text="{.F}{.S}Lame d&apos;arme à deux mains large{@PLURAL}{.F}{.P}Lames d&apos;arme à deux mains larges{\@}" />
+    <string id="Kh7AB6a4" text="Fusée à une main du nord en forme de sablier" />
+    <string id="KhHXgQJb" text="{.F}{.S}Tête de hache en fer forgé commune{@PLURAL}{.F}{.P}Têtes de hache en fer forgé communes{\@}" />
+    <string id="khO8Li1D" text="Fusée en peau très longue" />
+    <string id="kIbtwQRF" text="{.F}{.S}Lame de spatha en acier fin{@PLURAL}{.F}{.P}Lames de spatha en acier fin{\@}" />
+    <string id="kiEZmxjT" text="Fusée à deux mains en acier fin à goulot" />
+    <string id="kjw9c4M2" text="Manche de masse d&apos;armes angulaire en acier" />
+    <string id="kNhcSC6i" text="{.F}{.S}Tête de hache barbue du nord{@PLURAL}{.F}{.P}Têtes de hache barbues du nord{\@}" />
+    <string id="KNisROi1" text="{.F}{.S}Lame de skaen large{@PLURAL}{.F}{.P}Lames de skaen larges{\@}" />
+    <string id="knobbedclubcraftingpiece" text="{.M}{.S}Gourdin avec pommeau" />
+    <string id="Knv8oS4x" text="Fusée à une main épaisse enveloppée en cuir" />
+    <string id="kp8hUsXA" text="Garde du nord rectangulaire mêlée" />
+    <string id="kuROzU1J" text="{.F}{.S}Lame d&apos;épée de guerre simple{@PLURAL}{.F}{.P}Lames d&apos;épée de guerre simples{\@}" />
+    <string id="KyKh5jCE" text="Manche en bambou" />
+    <string id="l13RibeF" text="Manche de grande hache renforcé en acier" />
+    <string id="l1YxVZil" text="Garde de dague en bronze avec pommeau" />
+    <string id="L3vLdPJT" text="{.F}{.S}Tête de gourdin à pointes améliorée{@PLURAL}{.F}{.P}Têtes de gourdin à pointes améliorées{\@}" />
+    <string id="L4PDF4MY" text="Garde d&apos;épée de guerre avec gravures dorées" />
+    <string id="L9wMZ9HB" text="Garde de morgenstern" />
+    <string id="LbnJhG2R" text="{.F}{.S}Tête de gourdin à pointes lourde{@PLURAL}{.F}{.P}Têtes de gourdin à pointes lourdes{\@}" />
+    <string id="lcjkq4bA" text="Pommeau décoré du sud" />
+    <string id="Ld1nfdj4" text="{.F}{.S}Lame de sabre en acier fin{@PLURAL}{.F}{.P}Lames de sabre en acier fin{\@}" />
+    <string id="LddmrrGM" text="Grande fusée à deux mains de l&apos;est" />
+    <string id="Ldq6AOrb" text="Fusée à deux mains en cuir brut cousue de mailles de fer" />
+    <string id="LDRnfLRh" text="Pommeau du nord décoré" />
+    <string id="ldvppRXj" text="Pommeau à motifs" />
+    <string id="LEdJzFrZ" text="Fusée à une main angulaire biseautée" />
+    <string id="lF10mZnb" text="Fusée à une main enveloppée de fil" />
+    <string id="Lh1E9EsS" text="Fusée à deux mains renforcée en acier impériale" />
+    <string id="lLZfWq7i" text="Fusée du désert à goulot" />
+    <string id="lmxaWsmn" text="Fusée à deux mains longue enveloppée de cuir" />
+    <string id="LNDbMUK0" text="{.F}{.S}Tête de vouge{@PLURAL}{.F}{.P}Têtes de vouge{\@}" />
+    <string id="lOiyLjqK" text="Garde en croissant impériale" />
+    <string id="lpqDjWsL" text="Fusée à une main en cuir fin avec attache en fer" />
+    <string id="lpVGz11R" text="Fusée à une main en fourrure du nord" />
+    <string id="LryUJnu7" text="Pommeau lisse" />
+    <string id="LSOXMCAW" text="Hampe en pin" />
+    <string id="LSrJljDL" text="{.F}{.S}Tête d&apos;herminette{@PLURAL}{.F}{.P}Têtes d&apos;herminette{\@}" />
+    <string id="ltbHzq5B" text="{.M}{.S}Renfort de tête d&apos;épieu riveté{@PLURAL}{.M}{.P}Renforts de tête d&apos;épieu rivetés{\@}" />
+    <string id="lv9oJyKJ" text="Pommeau plat de l&apos;est" />
+    <string id="LwM5byQG" text="Pommeau d&apos;épieu en fer simple" />
+    <string id="lYEaqL9y" text="Fusée à une main cousue en fourrure " />
+    <string id="LYSMiV6V" text="Fusée longue en peau" />
+    <string id="lz8rSkzE" text="{.F}{.S}Lame de sabre émoussée épaisse{@PLURAL}{.F}{.P}Lames de sabre émoussées épaisses{\@}" />
+    <string id="LzHkkphU" text="Fusée à une main en cuir brut avec pommeau" />
+    <string id="lZoqaYmx" text="{.F}{.S}Tête de gourdin à pointes{@PLURAL}{.F}{.P}Têtes de gourdin à pointes{\@}" />
+    <string id="M08i7S6M" text="Garde de dague du désert fuselée" />
+    <string id="m0uOH4el" text="Garde de dague impériale courbée" />
+    <string id="m2Xz2K5v" text="Fusée à deux mains en fourrure du nord" />
+    <string id="m6CVEgTU" text="{.F}{.S}Lame de hache de bataille à pointes{@PLURAL}{.F}{.P}Lames de hache de bataille à pointes{\@}" />
+    <string id="m8eUrnVj" text="Garde de dague fine de l&apos;ouest" />
+    <string id="M9ACQeD6" text="{.F}{.S}Tête d&apos;ascia émoussée large{@PLURAL}{.F}{.P}Têtes d&apos;ascia émoussées larges{\@}" />
+    <string id="mak3naEe" text="{.F}{.S}Lame d&apos;arme à deux mains large à gouttière large{@PLURAL}{.F}{.P}Lames d&apos;arme à deux mains larges à gouttière large{\@}" />
+    <string id="MCRppfbZ" text="Hampe de javelot en pin" />
+    <string id="mcYSvJfA" text="Branche d&apos;arbre" />
+    <string id="MDL2CcCH" text="Pics longs lestés" />
+    <string id="MGD7zTLf" text="Pommeau en forme de roue à facettes" />
+    <string id="Mh5MDpsk" text="Fusée à deux mains du sud en cuir pressé" />
+    <string id="MJRzaazz" text="Fusée à deux mains de plates cousue d&apos;acier" />
+    <string id="MKtMbBJD" text="Grande fusée à une main de l&apos;est" />
+    <string id="mm24JNyb" text="Fusée du nord en forme de sablier" />
+    <string id="mm6b54ZD" text="Garde concave large" />
+    <string id="MpVC0RXl" text="Épieu triangulaire du nord" />
+    <string id="mQCQF6TL" text="Garde de dague du nord étroite" />
+    <string id="MQEuR8Yz" text="{.F}{.S}Longue tête de masse d&apos;armes lourde cloutée{@PLURAL}{.F}{.P}Longues têtes de masse d&apos;armes lourdes cloutées{\@}" />
+    <string id="MRqIJXqv" text="Garde de dague en diamant du sud" />
+    <string id="mrTkURKV" text="{.F}{.S}Tête de fourche dentelée{@PLURAL}{.F}{.P}Têtes de fourche dentelées{\@}" />
+    <string id="mSNaSLiC" text="{.F}{.S}Lame d&apos;épée de guerre en acier thamaskène{@PLURAL}{.F}{.P}Lames d&apos;épée de guerre en acier thamaskène{\@}" />
+    <string id="mSplbvgI" text="Crochets doubles" />
+    <string id="mTDuVvVN" text="Grande fusée de plates" />
+    <string id="mU8oVsFW" text="{.F}{.S}Tête de morgenstern{@PLURAL}{.F}{.P}Têtes de morgenstern{\@}" />
+    <string id="muv8N0Wo" text="Garde de dague en bronze avec gravures" />
+    <string id="mVjshtzg" text="Pommeau conique" />
+    <string id="mYP1ovEy" text="Garde du désert piquée" />
+    <string id="N1qLYlxF" text="{.F}{.S}Lame de kaskara en acier fin{@PLURAL}{.F}{.P}Lames de kaskara en acier fin{\@}" />
+    <string id="N3VXsh2z" text="{.F}{.S}Lame de paramérion en acier{@PLURAL}{.F}{.P}Lames de paramérion en acier{\@}" />
+    <string id="n55UtbGg" text="{.F}{.S}Tête de menaulion d&apos;entraînement{@PLURAL}{.F}{.P}Têtes de menaulion d&apos;entraînement{\@}" />
+    <string id="NAHHwS3G" text="Pointe d&apos;épieu en forme de feuille large" />
+    <string id="nazL7Z3e" text="Fusée à deux mains du sud rivetée" />
+    <string id="NehOioZp" text="{.M}{.S}Manche de masse d&apos;armes à deux mains renforcé en acier{@PLURAL}{.M}{.P}Manches de masse d&apos;armes à deux mains renforcés en acier{\@}" />
+    <string id="NfPgejKk" text="{.F}{.S}Lame de sparth percée{@PLURAL}{.F}{.P}Lames de sparth percées{\@}" />
+    <string id="nGP3FlHm" text="Hampe longue en acajou" />
+    <string id="Nhhmj7bz" text="Hampe de pique en érable dur" />
+    <string id="Nk924YlG" text="Fusée à une main en acier fin décorée" />
+    <string id="nKb9goqQ" text="Garde fine" />
+    <string id="NkV2CAmL" text="{.F}{.S}Lame de cimeterre émoussée en fer{@PLURAL}{.F}{.P}Lames de cimeterre émoussées en fer{\@}" />
+    <string id="NLs9M1D6" text="Garde ovale simple de l&apos;est" />
+    <string id="NmkDgmWW" text="Manche de masse d&apos;armes en acier de cavalier" />
+    <string id="NO6FhjbJ" text="Fusée en cuir orangée" />
+    <string id="NQb8boHt" text="Hampe en frêne durci" />
+    <string id="nr3K4od2" text="{.F}{.S}Tête de pilum{@PLURAL}{.F}{.P}Têtes de pilum{\@}" />
+    <string id="NRhAqB5a" text="Épieu émoussé long des terres verdoyantes" />
+    <string id="nRKOX66b" text="{.F}{.S}Tête d&apos;épieu en acier fin irrégulière{@PLURAL}{.F}{.P}Têtes d&apos;épieu en acier fin irrégulières{\@}" />
+    <string id="NS83CCvb" text="{.F}{.S}Tête de hache en fer commune{@PLURAL}{.F}{.P}Têtes de hache en fer communes{\@}" />
+    <string id="nsjbWcmp" text="{.F}{.S}Lame de sparth émoussée étroite{@PLURAL}{.F}{.P}Lames de sparth émoussées étroites{\@}" />
+    <string id="ntIEIQ0N" text="{.F}{.S}Tête légère de shishpar{@PLURAL}{.F}{.P}Têtes légères de shishpar{\@}" />
+    <string id="Num2tkFb" text="Fusée longue de plates" />
+    <string id="NuXH8rip" text="Garde en bronze à couches multiples" />
+    <string id="nVrg9Uda" text="Fusée d&apos;épée renforcée en corne enveloppée de cuir" />
+    <string id="nxyf3OHZ" text="Fusée d&apos;épée renforcée en cuir fin cousue de bronze" />
+    <string id="Nz4mg7JT" text="Garde de cimeterre dorée" />
+    <string id="nZ5e678J" text="Pommeau en forme de roue simple" />
+    <string id="NzjHzhwC" text="Garde avec pommeau en diamant" />
+    <string id="o2kFafbu" text="{.F}{.S}Tête de masse d&apos;armes en acier de l&apos;est{@PLURAL}{.F}{.P}Têtes de masse d&apos;armes en acier de l&apos;est{\@}" />
+    <string id="O2kPKeuK" text="{.F}{.S}Lame d&apos;épée renforcée avec gravures dorées{@PLURAL}{.F}{.P}Lames d&apos;épée renforcée avec gravures dorées{\@}" />
+    <string id="OBeOZ27b" text="{.F}{.S}Tête de glaive{@PLURAL}{.F}{.P}Têtes de glaive{\@}" />
+    <string id="oeELDZRo" text="Bannière rectangulaire horizontale" />
+    <string id="oGPHQt1J" text="Grande fusée à deux mains de hachoir" />
+    <string id="OHHpwD0F" text="{.F}{.S}Lame de sabre droite{@PLURAL}{.F}{.P}Lames de sabre droites{\@}" />
+    <string id="OHl66gsX" text="Garde de dague à boules en bronze" />
+    <string id="OJ7iPw5M" text="Manche de grande hache en frêne durci renforcé" />
+    <string id="OlnvawN6" text="Garde d&apos;estramaçon en bronze" />
+    <string id="OlUuoUBe" text="Fusée en cuir fin cousue de fer de l&apos;est" />
+    <string id="ooBWHpxP" text="Fusée de l&apos;est angulaire recouverte de cuir" />
+    <string id="OPfm5y7W" text="{.F}{.S}Garde à têtes de lion chevaleresque dorée{@PLURAL}{.F}{.P}Gardes à têtes de lion chevaleresques dorées{\@}" />
+    <string id="OphcYYyN" text="Pommeau d&apos;épieu en acier fin riveté" />
+    <string id="opUK4WmL" text="Garde de dague plate arrondie" />
+    <string id="orwoyDlX" text="{.F}{.S}Grande tête de sparth{@PLURAL}{.F}{.P}Grandes têtes de sparth{\@}" />
+    <string id="OryiZr9d" text="Contus" />
+    <string id="OTtMvvJK" text="{.F}{.S}Lame d&apos;épée renforcée striée{@PLURAL}{.F}{.P}Lames d&apos;épée renforcée striées{\@}" />
+    <string id="ow1aK4DJ" text="Hampe longue en chêne enveloppée" />
+    <string id="oW5N04JL" text="{.F}{.S}Lame en acier des hautes terres{@PLURAL}{.F}{.P}Lames en acier des hautes terres{\@}" />
+    <string id="OW7w3Mth" text="Pommeau de Fian" />
+    <string id="OwA6LLeY" text="{.M}{.S}Manche de masse d&apos;armes à deux mains bandé de cuir{@PLURAL}{.M}{.P}Manches de masse d&apos;armes à deux mains bandés de cuir{\@}" />
+    <string id="Oxew9WCe" text="{.F}{.S}Tête d&apos;épieu simple impériale{@PLURAL}{.F}{.P}Têtes d&apos;épieu simples impériales{\@}" />
+    <string id="oXXWEUYY" text="{.F}{.S}Lame d&apos;épée large émoussée en fer{@PLURAL}{.F}{.P}Lames d&apos;épée large émoussées en fer{\@}" />
+    <string id="Oz6xANFb" text="Pommeau d&apos;ornement des hautes terres" />
+    <string id="p1Uz3dqs" text="Fusée de kaskara rouge décorée rivetée" />
+    <string id="p2aqirUu" text="Fusée de flissa en cuir fin" />
+    <string id="p2xjr5Bp" text="{.F}{.S}Lame en bois{@PLURAL}{.F}{.P}Lames en bois{\@}" />
+    <string id="p3jlcHNo" text="Pommeau d&apos;épieu long basique" />
+    <string id="P5dUGIl7" text="{.F}{.S}Lame d&apos;épée de guerre décorée{@PLURAL}{.F}{.P}Lames d&apos;épée de guerre décorées{\@}" />
+    <string id="pAqWQWJs" text="Contus émoussé" />
+    <string id="pb4zUxzA" text="{.F}{.S}Lame de makhaira{@PLURAL}{.F}{.P}Lames de makhaira{\@}" />
+    <string id="PbxZzhZx" text="Garde de scramasaxe étroite" />
+    <string id="PjMeZcwO" text="Garde de dague à lèvres" />
+    <string id="pkmy6zB2" text="Garde d&apos;étoile du sud" />
+    <string id="PmPxx2gK" text="{.F}{.S}Tête de rasoir tordue{@PLURAL}{.F}{.P}Têtes de rasoir tordues{\@}" />
+    <string id="pnS90zg8" text="{.F}{.S}Lame de spatha émoussée striée plate{@PLURAL}{.F}{.P}Lames de spatha émoussées striées plates{\@}" />
+    <string id="pocRP9dq" text="Bâton long en frêne" />
+    <string id="PQ8rR13R" text="{.F}{.S}Lame de spatha émoussée striée plate{@PLURAL}{.F}{.P}Lames de cimeterre en acier fin longues{\@}" />
+    <string id="PqoJ1ZeB" text="{.F}{.S}Lame de sabre décorée{@PLURAL}{.F}{.P}Lames de sabre décorées{\@}" />
+    <string id="PQThPvP6" text="{.F}{.S}Lame de spatha courte décorée{@PLURAL}{.F}{.P}Lames de spatha courte décorées{\@}" />
+    <string id="PsKP5j6A" text="Garde avec pommeau" />
+    <string id="pT5C12yT" text="Manche de hache à deux mains en frêne clouté" />
+    <string id="PUAi75mb" text="Pommeau annelé impérial" />
+    <string id="PuRJZS03" text="Fusée à deux mains du sud" />
+    <string id="PvB0pW1Q" text="{.F}{.S}Lame émoussée à gouttière large{@PLURAL}{.F}{.P}Lames émoussées à gouttière large{\@}" />
+    <string id="pX4nTZOI" text="Kaskara large en acier fin" />
+    <string id="pXxv7YJv" text="Manche en acajou long avec bandes de cuir" />
+    <string id="PZYq0hBO" text="Garde de dague en bronze à couches multiples" />
+    <string id="Q6kGQNzP" text="Fusée à deux mains en fer segmentée " />
+    <string id="q7jHkLam" text="{.F}{.S}Lame d&apos;épée renforcée à gouttière étroite{@PLURAL}{.F}{.P}Lames d&apos;épée renforcée à gouttière étroite{\@}" />
+    <string id="Q9Gfv68h" text="Fusée de sabre à deux mains" />
+    <string id="q9K7Y2pZ" text="Bannière en tissu" />
+    <string id="qbYoAvs6" text="Fusée à une main cousue en peau" />
+    <string id="QCE1sAu3" text="{.F}{.S}Lame d&apos;épée large{@PLURAL}{.F}{.P}Lames d&apos;épée large{\@}" />
+    <string id="QH0oIiIz" text="{.F}{.S}Longue lame de dague large{@PLURAL}{.F}{.P}Longues lames de dague large{\@}" />
+    <string id="QIo60ZKh" text="{.F}{.S}Lame d&apos;épée de guerre longue à gouttière{@PLURAL}{.F}{.P}Lames d&apos;épée de guerre longues à gouttière{\@}" />
+    <string id="qjxXq3P5" text="Garde de dague des hautes terres gravée" />
+    <string id="QNe7mQlZ" text="{.F}{.S}Tête de râteau{@PLURAL}{.F}{.P}Têtes de râteau{\@}" />
+    <string id="Qqb0VZ1a" text="Manche à deux mains en frêne bandé de cuir" />
+    <string id="qQrmuHQ9" text="{.F}{.S}Tête de masse d&apos;armes de cavalier lourd{@PLURAL}{.F}{.P}Têtes de masse d&apos;armes de cavalier lourd{\@}" />
+    <string id="qQtLUC7Q" text="Garde de faux en bronze" />
+    <string id="qSV6C2tp" text="{.F}{.S}Tête de svärdstav{@PLURAL}{.F}{.P}Têtes de svärdstav{\@}" />
+    <string id="qtZNUUqG" text="Fusée à une main en bois du nord" />
+    <string id="Qw9HWSY7" text="{.F}{.S}Lame de flissa en fer{@PLURAL}{.F}{.P}Lames de flissa en fer{\@}" />
+    <string id="QwfDN06p" text="{.F}{.S}Tête de lance chevaleresque{@PLURAL}{.F}{.P}Têtes de lance chevaleresque{\@}" />
+    <string id="qyaS75Gr" text="{.F}{.S}Lame émoussée à gouttière large{@PLURAL}{.F}{.P}Lames émoussées à gouttière large{\@}" />
+    <string id="qYxzdFAa" text="Manche long en chêne à bandes de cuir" />
+    <string id="qZYeu55z" text="Manche de masse d&apos;armes long avec fond en fer" />
+    <string id="r3R6RM9G" text="{.F}{.S}Tête de pique simple courte{@PLURAL}{.F}{.P}Têtes de pique simples courtes{\@}" />
+    <string id="R3zJaL72" text="Petit pennon anormal" />
+    <string id="R62maL2H" text="{.F}{.S}Tête d&apos;anicroche{@PLURAL}{.F}{.P}Têtes d&apos;anicroche{\@}" />
+    <string id="R7OBSozV" text="{.F}{.S}Lame d&apos;ild épaisse courte{@PLURAL}{.F}{.P}Lames d&apos;ild épaisses courtes{\@}" />
+    <string id="R8hEAwUZ" text="Fusée enveloppée rêche" />
+    <string id="r8KoZCBy" text="Garde de dague ovale à facettes" />
+    <string id="r9NcHImd" text="Triple gonfalon" />
+    <string id="RB3oxhaV" text="Garde d&apos;arme longue" />
+    <string id="RBoqow67" text="Pommeau en forme d&apos;œuf" />
+    <string id="RdVX1jC0" text="{.F}{.S}Lame de kaskara gravée{@PLURAL}{.F}{.P}Lames de kaskara gravées{\@}" />
+    <string id="reHxxC6K" text="Manche de marteau de forgeron" />
+    <string id="Rh3h5NIg" text="Manche de hache de lancer en bois dur court" />
+    <string id="rkEbLbYf" text="Fusée longue en cuir renforcée de l&apos;est" />
+    <string id="rKnBJPfp" text="{.F}{.S}Lame d&apos;épée large de cavalerie en acier fin{@PLURAL}{.F}{.P}Lames d&apos;épée large de cavalerie en acier fin{\@}" />
+    <string id="rL2zMQ2l" text="Garde d&apos;arme large" />
+    <string id="rn6tttI2" text="Pommeau d&apos;ornement du sud" />
+    <string id="rSs1M2EJ" text="{.F}{.S}Tête de masse d&apos;armes en spirale{@PLURAL}{.F}{.P}Têtes de masse d&apos;armes en spirale{\@}" />
+    <string id="RWljioj5" text="Fusée à une main en corne cousue de cuir et de fer" />
+    <string id="RWm1h40B" text="Pommeau des hautes terres" />
+    <string id="RXjhTS9s" text="Manche en chêne long enveloppé" />
+    <string id="S2MYKoII" text="Grand pommeau de l&apos;est" />
+    <string id="s50O60ed" text="Garde impériale courbée" />
+    <string id="S75vUGzK" text="{.F}{.S}Tête d&apos;épieu en acier fin{@PLURAL}{.F}{.P}Têtes d&apos;épieu en acier fin{\@}" />
+    <string id="S9zZO7qJ" text="{.F}{.S}Tête de pique en acier fin{@PLURAL}{.F}{.P}Têtes de pique en acier fin{\@}" />
+    <string id="SaPaeTr4" text="Fusée à deux mains en bois " />
+    <string id="saYgR9C6" text="Fusée à deux mains des hautes terres de grande qualité" />
+    <string id="SEsx3kZz" text="{.F}{.S}Tête de bardiche lourde{@PLURAL}{.F}{.P}Têtes de bardiche lourdes{\@}" />
+    <string id="SgJH5KtP" text="{.F}{.S}Lame de sica{@PLURAL}{.F}{.P}Lames de sica{\@}" />
+    <string id="SgknWcu2" text="Fusée à une main en peau" />
+    <string id="sHwhgRzK" text="Pommeau en croissant" />
+    <string id="SJiam61q" text="Manche court noueux" />
+    <string id="SJssgxmf" text="{.F}{.S}Lame d&apos;ild décorée{@PLURAL}{.F}{.P}Lames d&apos;ild décorées{\@}" />
+    <string id="sNJNDDKN" text="{.F}{.S}Petite tête de hache{@PLURAL}{.F}{.P}Petites têtes de hache{\@}" />
+    <string id="sq7G99xP" text="Garde en couronne" />
+    <string id="SqR5K74b" text="Fusée des hautes terres fine" />
+    <string id="SR7a3qlO" text="{.F}{.S}Tête de hache de bataille arrondie{@PLURAL}{.F}{.P}Têtes de hache de bataille arrondies{\@}" />
+    <string id="SraI0yxb" text="Manche long en chêne durci" />
+    <string id="sUlksgjL" text="Garde d&apos;épieu clouée et bandée" />
+    <string id="SVBYn9KW" text="Fourche en fer" />
+    <string id="sw5rAz73" text="{.F}{.S}Tête de masse d&apos;armes du sud légère{@PLURAL}{.F}{.P}Têtes de masse d&apos;armes du sud légères{\@}" />
+    <string id="swb45HVS" text="{.F}{.S}Lame montagnarde{@PLURAL}{.F}{.P}Lames montagnardes{\@}" />
+    <string id="T1aiDuOp" text="{.F}{.S}Tête de menaulion{@PLURAL}{.F}{.P}Têtes de menaulion{\@}" />
+    <string id="T1xFTaOf" text="{.F}{.S}Lame de cimeterre longue décorée{@PLURAL}{.F}{.P}Lames de cimeterre longues décorées{\@}" />
+    <string id="T62Cmrrh" text="Pommeau à facettes" />
+    <string id="tgJ3dSOx" text="Bâton à pointe d&apos;épieu en chêne" />
+    <string id="TKQl9boE" text="Fusée d&apos;épée renforcée fine décorée d&apos;or" />
+    <string id="TKVxb6QD" text="{.F}{.S}Tête d&apos;épieu en forme de feuille en acier thamaskène{@PLURAL}{.F}{.P}Têtes d&apos;épieu en forme de feuille en acier thamaskène{\@}" />
+    <string id="tLa3nYAQ" text="Pommeau en forme de calice à facettes" />
+    <string id="tnaGywrE" text="Fusée à deux mains en forme de sablier en cuir brut" />
+    <string id="tNtulHAv" text="{.F}{.S}Tête nordique large{@PLURAL}{.F}{.P}Têtes nordiques larges{\@}" />
+    <string id="tooJPhpa" text="Bannière en queue d&apos;hirondelle fine" />
+    <string id="tq0eDwck" text="Garde de dague en forme de bol" />
+    <string id="tq5XGebt" text="Fusée d&apos;épée à deux mains recouverte de cuir fin cousue de bronze" />
+    <string id="TqXFwLYL" text="{.F}{.S}Tête de glaive émoussée{@PLURAL}{.F}{.P}Têtes de glaive émoussées{\@}" />
+    <string id="trGnmFsh" text="{.F}{.S}Tête de masse d&apos;armes calradique{@PLURAL}{.F}{.P}Têtes de masse d&apos;armes calradiques{\@}" />
+    <string id="tRJC72Qh" text="Fusée à une main à croix de cuir" />
+    <string id="tSaAzzYe" text="{.F}{.S}Lame étroite striée{@PLURAL}{.F}{.P}Lames étroites striées{\@}" />
+    <string id="tSgZoxsu" text="Fusée à une main en bois renforcée en fer" />
+    <string id="tSQbGb4m" text="Hampe très longue en acajou" />
+    <string id="TUbTwW9U" text="{.F}{.S}Lame de spatha striée plate{@PLURAL}{.F}{.P}Lames de spatha striées plates{\@}" />
+    <string id="Tui9qvOZ" text="{.F}{.S}Tête de tzikourion{@PLURAL}{.F}{.P}Tête de tzikourion{\@}" />
+    <string id="U30HpvtI" text="{.F}{.S}Tête d&apos;épieu du nord en fer triangulaire{@PLURAL}{.F}{.P}Têtes d&apos;épieu du nord en fer triangulaires{\@}" />
+    <string id="u89rP5qY" text="Pommeau large à larges bords" />
+    <string id="uAfTaa3p" text="Fusée à une main en cuir fin de l&apos;est" />
+    <string id="ubnADEGb" text="Queue d&apos;hirondelle à trois fourches" />
+    <string id="Udo97SZC" text="Pommeau décoré de l&apos;ouest" />
+    <string id="ueCf3sde" text="Fusée à une main fine enveloppée de cuir" />
+    <string id="ugQrq53t" text="Pommeau en éventail" />
+    <string id="Uhc0KIdz" text="Bâton à pointe d&apos;épieu en pin" />
+    <string id="uIciSK8t" text="Fusée noble du sud ronde décorée" />
+    <string id="uKu7rTrW" text="Fusée à une main étroite serrée" />
+    <string id="UKWwPPkx" text="{.F}{.S}Lame d&apos;épée renforcée avec marquage de pétales dorés{@PLURAL}{.F}{.P}Lames d&apos;épée renforcée avec marquage de pétales dorés{\@}" />
+    <string id="ukYW8FVm" text="Pommeau de sabre bulbeux" />
+    <string id="uLqEw8LB" text="Fusée longue impériale cloutée" />
+    <string id="UqNbbdKN" text="{.F}{.S}Lame de couteau simple" />
+    <string id="uQsJQLJH" text="Fusée en peau du nord courte" />
+    <string id="usVYZYYD" text="Pommeau seigneurial du nord" />
+    <string id="USWfzbuW" text="{.F}{.S}Tête de grande hache large du nord{@PLURAL}{.F}{.P}Têtes de grande hache larges du nord{\@}" />
+    <string id="uuover9F" text="{.F}{.S}Lame d&apos;épée renforcée courte{@PLURAL}{.F}{.P}Lames d&apos;épée renforcée courtes{\@}" />
+    <string id="uvmvs2SP" text="Grande fusée de hachoir" />
+    <string id="uwG8iwBc" text="Épieu long des terres verdoyantes" />
+    <string id="V0khEGns" text="Pommeau plat" />
+    <string id="v22onVb2" text="{.F}{.S}Lame de flissa légèrement striée{@PLURAL}{.F}{.P}Lames de flissa légèrement striées{\@}" />
+    <string id="V3JMuFEg" text="Manche de masse d&apos;armes lié" />
+    <string id="V6YQykoc" text="Garde de dague en croissant à pointe" />
+    <string id="V9Kbq6vj" text="Pointe d&apos;entraînement émoussée" />
+    <string id="VbpiYB68" text="{.F}{.S}Lame courte à gouttière large décorée{@PLURAL}{.F}{.P}Lames courtes à gouttière large décorée{\@}" />
+    <string id="VccYBtB0" text="{.F}{.S}Tête de hachette du nord{@PLURAL}{.F}{.P}Têtes de hachette du nord{\@}" />
+    <string id="VeHazKzb" text="Manche en bois dur à bandes de cuir" />
+    <string id="Vf2wKojF" text="Ailes émoussées" />
+    <string id="VfzFTGd8" text="{.F}{.S}Petite tête arrondie{@PLURAL}{.F}{.P}Petites têtes arrondies{\@}" />
+    <string id="vGda3CNV" text="Fusée d&apos;épée bâtarde en cuir décorée d&apos;or" />
+    <string id="VgMDYLje" text="Fusée à deux mains avec pommeau en cuir brut" />
+    <string id="vh9AlAru" text="{.F}{.S}Bannière à fanion" />
+    <string id="vJieQpnH" text="Fusée à une main du sud rivetée" />
+    <string id="VJmu4Yag" text="Attache d&apos;épieu décorative" />
+    <string id="vJtBlaeS" text="{.F}{.S}Fusée d&apos;épée à deux mains très longue enveloppée de cuir{@PLURAL}{.F}{.P}Fusées d&apos;épée à deux mains très longue enveloppées de cuir{\@}" />
+    <string id="VL00fQvj" text="Manche de hache renforcé" />
+    <string id="vPMsDf85" text="Manche en chêne à bandes de cuir" />
+    <string id="vx2VIbmb" text="{.F}{.S}Lame d&apos;épée de guerre longue décorée{@PLURAL}{.F}{.P}Lames d&apos;épée de guerre longue décorées{\@}" />
+    <string id="vxqrW5GN" text="{.F}{.S}Lame de faucille{@PLURAL}{.F}{.P}Lames de faucille{\@}" />
+    <string id="vYS4m95c" text="Fusée d&apos;épée bâtarde en cuir avec anneaux de bronze " />
+    <string id="W5tvNbjY" text="Pommeau d&apos;ornement de l&apos;est" />
+    <string id="wait0O6m" text="{.F}{.S}Tête de rasoir de guerre{@PLURAL}{.F}{.P}Têtes de rasoir de guerre{\@}" />
+    <string id="WAtAGKhV" text="Ailes à double pic" />
+    <string id="Wd3bU57P" text="Pommeau en croissant en bronze" />
+    <string id="we4ykbNe" text="Fusée à une main en cuir cousue de fer bombée" />
+    <string id="weIT4gUP" text="{.F}{.S}Lame d&apos;épée de guerre à gouttière étroite{@PLURAL}{.F}{.P}Lames d&apos;épée de guerre à gouttière étroite{\@}" />
+    <string id="wfK63ZQn" text="Pommeau de sabre" />
+    <string id="wgWSJzGD" text="Fusée à deux mains en cuir biseautée" />
+    <string id="wHMdRIl6" text="Fusée à une main segmentée en cuir brut" />
+    <string id="Wkhv9ESv" text="Manche de hache de lancer en chêne durci" />
+    <string id="wKJM541b" text="Garde à pointe tranchante" />
+    <string id="WkLj6xAo" text="Pommeau trapézoïdal" />
+    <string id="WkTkxQfw" text="{.F}{.S}Lame rectangulaire{@PLURAL}{.F}{.P}Lames rectangulaires{\@}" />
+    <string id="Wl1m0LbL" text="Fusée renforcée gravée incrustée d&apos;argent" />
+    <string id="Wn4GjoXY" text="{.F}{.S}Tête de hache émoussée à deux mains carrée{@PLURAL}{.F}{.P}Têtes de hache émoussée à deux mains carrées{\@}" />
+    <string id="WNch6azL" text="{.F}{.S}Lame de cimeterre en fer{@PLURAL}{.F}{.P}Lames de cimeterre en fer{\@}" />
+    <string id="wQGWxeCc" text="{.F}{.S}Lame de sabre épaisse{@PLURAL}{.F}{.P}Lames de sabre épaisses{\@}" />
+    <string id="WrvDoYKa" text="{.F}{.S}Longue tête de masse d&apos;armes à ailettes lourde{@PLURAL}{.F}{.P}Longues têtes de masse d&apos;armes à ailettes lourdes{\@}" />
+    <string id="wsVbMK6L" text="{.F}{.S}Lame plate de tournoi{@PLURAL}{.F}{.P}Lames plates de tournoi{\@}" />
+    <string id="wTSBQduq" text="Accessoires pour queue de cheval" />
+    <string id="wVcrqv4p" text="Fusée en bois" />
+    <string id="wvLoXrFV" text="Grand pommeau de l&apos;ouest" />
+    <string id="WXBkfAbb" text="Garde de dague du nord rectangulaire mêlée" />
+    <string id="WxnqOG8s" text="Garde concave large" />
+    <string id="wXUjru6o" text="Garde avec pommeau de sabre large" />
+    <string id="X1FY4VYe" text="{.F}{.S}Tête de marteau de forgeron{@PLURAL}{.F}{.P}Têtes de marteau de forgeron{\@}" />
+    <string id="X7OrRebK" text="{.F}{.S}Lames de sparth étroites{@PLURAL}{.F}{.P}Lames de sparth étroites{\@}" />
+    <string id="xa3vFv52" text="{.F}{.S}Masse d&apos;armes à deux mains surmontée de fer{@PLURAL}{.F}{.P}Masses d&apos;armes à deux mains surmontées de fer{\@}" />
+    <string id="xb6e2YaV" text="Garde de dague ovale simple de l&apos;est" />
+    <string id="XbaFle0M" text="Ailes d&apos;épieu double de l&apos;est" />
+    <string id="xbazdytG" text="Fusée à deux mains du sud cousue d&apos;acier" />
+    <string id="xbB9Ga5X" text="{.F}{.S}Lame du nord fuselée{@PLURAL}{.F}{.P}Lames du nord fuselées{\@}" />
+    <string id="XetKl5yO" text="Garde de sabre dorée" />
+    <string id="XI5QgznO" text="Garde de hachoir fuselée" />
+    <string id="xJaVK4D0" text="Ailes sanglier" />
+    <string id="xKGpbQjJ" text="Hampe en acajou longue avec bandes de cuir" />
+    <string id="Xo7l8eae" text="{.F}{.S}Lame émoussée{@PLURAL}{.F}{.P}Lames émoussées{\@}" />
+    <string id="xoSaQWhX" text="Garde en croissant de l&apos;ouest" />
+    <string id="XSabsFbx" text="{.F}{.S}Tête de pique à poinçon lestée{@PLURAL}{.F}{.P}Têtes de pique à poinçon lestées{\@}" />
+    <string id="XtneitaD" text="{.F}{.S}Lame d&apos;épée de guerre en acier fin{@PLURAL}{.F}{.P}Lames d&apos;épée de guerre en acier fin{\@}" />
+    <string id="xVHbBpb9" text="Fusée de cimeterre en acier segmenté" />
+    <string id="xWZuE1aE" text="Garde de dague concave épaisse" />
+    <string id="XxhFx0yw" text="Manche de grande hache enveloppé de cuir court" />
+    <string id="xYgJN0Ja" text="{.F}{.S}Lame de cimeterre décorée{@PLURAL}{.F}{.P}Lames de cimeterre décorées{\@}" />
+    <string id="xZ70rbRt" text="Pommeau en bois arrondi" />
+    <string id="Y0gbKTgZ" text="{.F}{.S}Tête de fourche militaire sturgienne{@PLURAL}{.F}{.P}Têtes de fourche militaires sturgiennes{\@}" />
+    <string id="Y4tIQnS4" text="{.F}{.S}Tête d&apos;épieu simple courte{@PLURAL}{.F}{.P}Têtes d&apos;épieu simples courtes{\@}" />
+    <string id="y5A3HGua" text="{.F}{.S}Lame de paramérion en acier fin{@PLURAL}{.F}{.P}Lames de paramérion en acier fin{\@}" />
+    <string id="ybjDbw8p" text="Manche de masse d&apos;armes en chêne long" />
+    <string id="yD9v5GS0" text="Hampe en pin décorée" />
+    <string id="YDG2spCf" text="Fusé noble en cuir de l&apos;est" />
+    <string id="YFkEsUhn" text="Accessoires rouges pour queue de cheval" />
+    <string id="yFm0f44p" text="Garde de l&apos;ouest à pointe" />
+    <string id="YFy0t1NY" text="{.F}{.S}Tête de masse d&apos;armes de l&apos;ouest à gouttière{@PLURAL}{.F}{.P}Têtes de masse d&apos;armes de l&apos;ouest à gouttière{\@}" />
+    <string id="Yi2PlMln" text="Pommeau d&apos;épieu long riveté" />
+    <string id="yilLfxCc" text="Garde à lèvres" />
+    <string id="ykTYTbek" text="{.F}{.S}Lame de couteau de lancer{@PLURAL}{.F}{.P}Lames de couteau de lancer{\@}" />
+    <string id="YkWqmDEK" text="{.F}{.S}Tête de lame de fauchon large{@PLURAL}{.F}{.P}Têtes de lame de fauchon larges{\@}" />
+    <string id="YKXNxxvY" text="Fusée à deux mains du nord" />
+    <string id="ylUAAsQt" text="Fusée à une main enveloppée en cuir brut" />
+    <string id="yMWzpgjz" text="Fusée à deux mains angulaire enveloppée de fil" />
+    <string id="YQLEkXb7" text="Ailes à crochet simple" />
+    <string id="yrdrYLA9" text="{.F}{.S}Tête de hache de lancer émoussée{@PLURAL}{.F}{.P}Têtes de hache de lancer émoussée{\@}" />
+    <string id="ysby6FNF" text="Pommeau d&apos;épieu riveté en acier thamaskène" />
+    <string id="YTZblGJ0" text="Fusée à deux mains en corne renforcée recouverte de cuir" />
+    <string id="YUDKID1R" text="Manche de masse d&apos;armes en frêne long renforcé" />
+    <string id="yUyJ39ot" text="Fusée de spatha cousue d&apos;acier" />
+    <string id="YwKrIR6s" text="Doubles crochets géants recouverts de fourrure" />
+    <string id="yWvSjlnb" text="{.F}{.S}Tête de masse d&apos;armes en acier fin de l&apos;est{@PLURAL}{.F}{.P}Têtes de masse d&apos;armes en acier fin de l&apos;est{\@}" />
+    <string id="YxoUpPRb" text="Ailes à crochet rivetées" />
+    <string id="yzsneaL6" text="Pommeau en forme de roue à bordure" />
+    <string id="Z98LPAz7" text="Fusée d&apos;épée bâtarde recouverte de cuir avec clous en bronze" />
+    <string id="zAdloN6Y" text="{.F}{.S}Lame d&apos;épée courte striée large{@PLURAL}{.F}{.P}Lames d&apos;épée courte striées larges{\@}" />
+    <string id="ZAoWK9Gt" text="{.F}{.S}Tête d&apos;épieu impériale arrondie{@PLURAL}{.F}{.P}Têtes d&apos;épieu impériales arrondies{\@}" />
+    <string id="Zc2Mb991" text="{.F}{.S}Tête de shestopyor{@PLURAL}{.F}{.P}Têtes de shestopyor{\@}" />
+    <string id="ZCJ0aNYt" text="{.F}{.S}Garde en forme de tête de serpent{@PLURAL}{.F}{.P}Gardes en forme de tête de serpent{\@}" />
+    <string id="ZcUNAfKT" text="{.F}{.S}Tête d&apos;épieu en acier fin très longue{@PLURAL}{.F}{.P}Têtes d&apos;épieu en acier fin très longues{\@}" />
+    <string id="zCYuj3yr" text="{.F}{.S}Lame d&apos;épée renforcée à pointe striée{@PLURAL}{.F}{.P}Lames d&apos;épée renforcée à pointe striée{\@}" />
+    <string id="ZfEiEOsK" text="Garde de dague en couronne du sud" />
+    <string id="ZgCUNieQ" text="{.F}{.S}Tête de fourche{@PLURAL}{.F}{.P}Têtes de fourche{\@}" />
+    <string id="Zgy40Qc4" text="Manche en acajou long" />
+    <string id="zIbAD527" text="Pommeau en forme de coin" />
+    <string id="ZJrqEfBF" text="{.F}{.S}Lame de kaskara fuselée{@PLURAL}{.F}{.P}Lames de kaskara fuselées{\@}" />
+    <string id="zKaNmT8r" text="Garde de dague en demi-lune" />
+    <string id="ZKrpvDu6" text="Fusée d&apos;épée bâtarde renforcée à moitié recouverte d&apos;acier " />
+    <string id="ZKsIpbg6" text="Fusée à deux mains cousue de fil à moitié recouverte de cuir" />
+    <string id="ZmFx0XvN" text="Fusée à une main scindée du nord" />
+    <string id="Zmtfwmh1" text="Garde de dague fine fuselée" />
+    <string id="zoQhOBku" text="Pommeau à pointe arrondi" />
+    <string id="zoxF4ikz" text="Manche en frêne long avec bandes de cuir" />
+    <string id="Zp625kEP" text="Fusée à deux mains en bois du nord" />
+    <string id="ZUp9mm79" text="{.F}{.S}Tête d&apos;épieu irrégulière{@PLURAL}{.F}{.P}Têtes d&apos;épieu irrégulières{\@}" />
+    <string id="ZxZ7AJ1r" text="Lame de hache de bataille du sud" />
+  </strings>
+</base>

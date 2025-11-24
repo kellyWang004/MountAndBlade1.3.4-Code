@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Deutsch" />
+  </tags>
+  <strings>
+    <string id="ovqtG4LS" text="PlayStation™Network-Profil zeigen" />
+    <string id="zZeDwVbv" text="Legt die Bewegungssensor-&#x200b;Funktions-&#x200b;Empfindlichkeit beim Zielen mit Fernkampfwaffen fest. 0 heißt deaktiviert." />
+    <string id="xboxStartButton" text="Menü-&#x200b;Taste" />
+    <string id="xboxRightTrigger" text="rechter Trigger" />
+    <string id="xboxRightStickUp" text="Rechter Stick nach oben" />
+    <string id="xboxRightStickRight" text="Rechter Stick nach rechts" />
+    <string id="xboxRightStickLeft" text="Rechter Stick nach links" />
+    <string id="xboxRightStickDown" text="Rechter Stick nach unten" />
+    <string id="xboxRightStick" text="Rechter Stick" />
+    <string id="xboxRightBumper" text="rechter Bumper" />
+    <string id="xboxLeftTrigger" text="linker Trigger" />
+    <string id="xboxLeftStickUp" text="Linker Stick nach oben" />
+    <string id="xboxLeftStickRight" text="Linker Stick nach rechts" />
+    <string id="xboxLeftStickLeft" text="Linker Stick nach links" />
+    <string id="xboxLeftStickDown" text="Linker Stick nach unten" />
+    <string id="xboxLeftStick" text="Linker Stick" />
+    <string id="xboxLeftBumper" text="linker Bumper" />
+    <string id="xboxDpadUp" text="Steuerkreuz nach oben" />
+    <string id="xboxDpadRight" text="Steuerkreuz rechts" />
+    <string id="xboxDpadLeft" text="Steuerkreuz links" />
+    <string id="xboxDpadDown" text="Steuerkreuz unten" />
+    <string id="xboxBackButton" text="Ansicht-&#x200b;Taste" />
+    <string id="wXuZKLkk" text="Ändert, wie Ihr mit Fernkampfwaffen zielt. Wenn diese Option aktiviert ist, zielt Ihr mit {?IS_PLAYSTATION}der L2-Taste{?}dem linken Trigger{\?} und feuert mit {?IS_PLAYSTATION}der R2-Taste{?}dem rechten Trigger{\?}." />
+    <string id="pvit1VDX" text="Aktiviert das Touchpad, um den Cursor zu steuern." />
+    <string id="psXButton" text="Kreuz-&#x200b;Taste" />
+    <string id="psTriangleButton" text="Dreieck-&#x200b;Taste" />
+    <string id="psTouchpadButton" text="Touchpad-&#x200b;Taste" />
+    <string id="psSquareButton" text="Quadrat-&#x200b;Taste" />
+    <string id="psR2Button" text="R2-&#x200b;Taste" />
+    <string id="psR1Button" text="R1-&#x200b;Taste" />
+    <string id="psOptionsButton" text="OPTIONS-&#x200b;Taste" />
+    <string id="psL2Button" text="L2-&#x200b;Taste" />
+    <string id="psL1Button" text="L1-&#x200b;Taste" />
+    <string id="psCircleButton" text="Kreis-&#x200b;Taste" />
+    <string id="NbiZd9up" text="Bewegungssensor-&#x200b;Funktion-&#x200b;Zielhilfe aktivieren" />
+    <string id="m0NJf3BU" text="Bewegungssensor-&#x200b;Funktion-&#x200b;Eingabe für Angriffs-&#x200b;und Verteidigungsrichtung im Nahkampf verwenden." />
+    <string id="jA2D1Rgt" text="Diese Option ist deaktiviert, weil Bewegungssensor-&#x200b;Funktion deaktiviert ist." />
+    <string id="gLlM7pQw" text="Touchpad-&#x200b;Maus aktivieren" />
+    <string id="bIuDbdVB" text="Alternatives {?IS_PLAYSTATION}Wireless-&#x200b;{?}{\?}Controller-&#x200b;Zielen aktivieren" />
+    <string id="aLAtopse" text="Bewegungssensor-&#x200b;Funktion-&#x200b;Eingabe für Zielhilfe mit Fernkampfwaffen verwenden." />
+    <string id="aCVTu5AJ" text="Bewegungssensor-&#x200b;Funktion-&#x200b;für Angriffs-&#x200b;und Blockrichtung verwenden." />
+    <string id="7UqxMUHr" text="Diese Option ist deaktiviert, weil &quot;Bewegungssensor-&#x200b;Funktion für Angriffs-&#x200b;und Blockrichtung verwenden&quot; aktiviert ist." />
+    <string id="5mBbS0mb" text="Bewegungssensor-&#x200b;Funktion-&#x200b;Eingabe für Angriffs-&#x200b;und Blockrichtung verwenden." />
+    <string id="136P0uC5" text="Bewegungssensor-&#x200b;Funktion-&#x200b;Zielempfindlichkeit" />
+    <string id="UhUvwvkh" text="Du bist nicht mit dem PlayStation™Network verbunden. Online-&#x200b;Funktionen stehen nicht zur Verfügung." />
+    <string id="8yk50Ba5" text="Für den Mehrspielermodus wird PlayStation®Plus benötigt." />
+    <string id="3rcPHq9a" text="Du bist nicht beim PlayStation™Network angemeldet. Um Online-&#x200b;Funktionen zu nutzen, müsst Ihr Euch anmelden." />
+    <string id="controllerDisconnectedTitlePS" text="Wireless-&#x200b;Controller nicht verbunden" />
+    <string id="controllerDisconnectedDescriptionPS" text="Zum Fortfahren bitte Wireless-&#x200b;Controller wieder anschließen" />
+    <string id="MceLT3Zg" text="{?IS_PLAYSTATION}Wireless-&#x200b;{?}{\?}Controller" />
+    <string id="NyA57ke1" text="Von PlayStation™Network abgemeldet" />
+    <string id="i6x93YjL" text="Ihr könnt das Cheat-&#x200b;Menü auch aktivieren, indem Ihr auf der Karte &quot;L1 + R2 + Unten-&#x200b;Taste&quot; haltet." />
+    <string id="tHGHDaFH" text="Spielstand von PS4™-&#x200b;Konsole wurde erfolgreich übertragen" />
+    <string id="PJK980ka" text="Wählt einen Spielstand von der PS4™-&#x200b;Konsole, der übertragen werden soll" />
+    <string id="ifkdZmxr" text="Es wurde kein Spielstand auf der PS4™-&#x200b;Konsole gefunden" />
+    <string id="6WHz63af" text="Spielstand von PS4™-&#x200b;Konsole übertragen" />
+    <string id="dlcInstallComplete" text="DLC-&#x200b;Installation abgeschlossen" />
+    <string id="psDlcInstallComplete" text="Add-on-&#x200b;Installation abgeschlossen" />
+    <string id="dlcInstalledDescription" text="Die Installation der DLC-&#x200b;Inhalte ist abgeschlossen. Ihr müsst ins Hauptmenü zurückkehren, um auf die DLC-&#x200b;Inhalte zuzugreifen." />
+    <string id="psDlcInstalledDescription" text="Die Installation der Add-&#x200b;on-&#x200b;Inhalte ist abgeschlossen. Ihr müsst ins Hauptmenü zurückkehren, um auf die Add-&#x200b;on-&#x200b;Inhalte zuzugreifen." />
+	<string id="c3I1AjcF" text="{?IS_PLAYSTATION}Wireless-&#x200b;{?}{\?}Controller-&#x200b;Vibration aktivieren" />
+	<string id="rightstickabbreviated" text="RS" />
+    <string id="rightstickabbreviatedps" text="R" />
+  </strings>
+</base>

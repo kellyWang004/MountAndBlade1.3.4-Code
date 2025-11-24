@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAttributeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<AttributeData
+		id="AgentHitPoints"
+		Name="HitPoints"
+		Source="Character">
+		<Documentation>Hit points of an agent.</Documentation>
+	</AttributeData>
+	<AttributeData
+		id="AgentRunningSpeed"
+		Name="Running Speed"
+		Source="Character">
+		<Documentation>Running speed of an agent.</Documentation>
+	</AttributeData>
+	<AttributeData
+		id="AgentStrength"
+		Name="Strength"
+		Source="Character">
+		<Documentation>Strength of an agent.</Documentation>
+	</AttributeData>
+	<AttributeData
+		id="AgentAgility"
+		Name="Agility"
+		Source="Character">
+		<Documentation>Agility of an agent.</Documentation>
+	</AttributeData>
+	<AttributeData
+		id="AgentIntelligence"
+		Name="Intelligence"
+		Source="Character">
+		<Documentation>Intelligence of an agent.</Documentation>
+	</AttributeData>
+	<AttributeData
+		id="AgentCharisma"
+		Name="Charisma"
+		Source="Character">
+		<Documentation>Charisma of an agent.</Documentation>
+	</AttributeData>
+	<AttributeData
+		id="WeaponSwingDamage"
+		Name="Swing Damage"
+		Source="WieldedWeapon">
+		<Documentation>Damage type to be applied when a weapon is swung.</Documentation>
+	</AttributeData>
+	<AttributeData
+		id="WeaponThrustDamage"
+		Name="Thrust Damage"
+		Source="WieldedWeapon">
+		<Documentation>Damage type to be applied when a weapon is thrust.</Documentation>
+	</AttributeData>
+	<AttributeData
+		id="WeaponLength"
+		Name="Weapon Length"
+		Source="WieldedWeapon">
+		<Documentation>Length of a weapon</Documentation>
+	</AttributeData>
+	<AttributeData
+		id="ShieldHitPoints"
+		Name="Hit Points"
+		Source="WieldedShield">
+		<Documentation>Hit points of a shield.</Documentation>
+	</AttributeData>
+	<AttributeData
+		id="ShieldSize"
+		Name="Size"
+		Source="WieldedShield">
+		<Documentation>Size of a shield.</Documentation>
+	</AttributeData>
+	<AttributeData
+		id="RangedWeaponAccuracy"
+		Name="Accuracy"
+		Source="WieldedWeapon">
+		<Documentation>Accuracy to be used when a ranged weapon is fired.</Documentation>
+	</AttributeData>
+	<AttributeData
+		id="HelmetHeadDefense"
+		Name="Head Defense"
+		Source="SumEquipment">
+		<Documentation>Head defense an armor or helmet provides.</Documentation>
+	</AttributeData>
+	<AttributeData
+		id="ArmorBodyDefense"
+		Name="Body Defense"
+		Source="SumEquipment">
+		<Documentation>Body defense an armor provides.</Documentation>
+	</AttributeData>
+	<AttributeData
+		id="ArmorLegDefense"
+		Name="Leg Defense"
+		Source="SumEquipment">
+		<Documentation>Leg defense an armor provides.</Documentation>
+	</AttributeData>
+</ArrayOfAttributeData>

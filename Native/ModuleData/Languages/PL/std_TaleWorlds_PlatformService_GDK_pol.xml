@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Polski" />
+  </tags>
+  <strings>
+    <string id="HB9emF7u" text="Nie udało się zalogować: upłynął limit czasu" />
+    <string id="ph6rtI5J" text="Błąd inicjalizacji platformy Xbox: {FAILREASON}" />
+    <string id="Qb30URMY" text="Nie udało się zalogować: {FAILREASON}" />
+    <string id="yWJcwCHf" text="Nie można znaleźć identyfikatora Xbox" />
+  </strings>
+</base>

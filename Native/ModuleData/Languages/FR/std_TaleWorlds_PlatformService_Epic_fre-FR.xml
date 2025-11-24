@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Français" />
+  </tags>
+  <strings>
+    <string id="BJ1626h7" text="Échec de l&apos;initialisation de la plateforme Epic : {FAILREASON}." />
+    <string id="KoKdRd1u" text="Échec de la connexion à Epic" />
+    <string id="oGIdsL8h" text="Échec de la récupération du jeton" />
+  </strings>
+</base>

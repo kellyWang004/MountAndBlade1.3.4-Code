@@ -1,0 +1,1740 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<!--
+    Engineers - Empire, Aserai, Khuzaits
+    Surgeons - Empire (f), Aserai, Vlandia
+    Herbalists - Sturgia (f), Battanians (f), Vlandia
+
+    Scouts
+
+    "bit of something, is possible to oversalt the soup
+
+    -->
+	<string
+		id="spc_prebackstory_generic"
+		text="{=!}(prebackstory generic remark for outside taverns)" />
+	<!-- apprentice to the master of artillery in his unit. legions no longer exist. nepotism in the engineering trade. young and arrogant. -->
+	<string
+		id="prebackstory.spc_wanderer_empire_0"
+		text="{=jPGOlC7O}I don't mind talking about it." />
+	<string
+		id="backstory_a.spc_wanderer_empire_0"
+		text="{=3yK4uXyt}I'm an engineer. Most of us learned our trade and got our contacts through the army. It was a good system: it was the emperor's money, so the emperor's servants kept a close eye on us. But as everyone knows, the emperor ran out of money. The lords are in charge of fortifications now, and all they have to go on is the say-so of other engineers." />
+	<string
+		id="backstory_b.spc_wanderer_empire_0"
+		text="{=OYOwasMe}You can imagine - it's a bit of a racket. People build arches that fall down, and his colleagues go on recommending him because he's someone's brother or old apprentice. The greatest sin in our brotherhood is criticizing the work of other engineers. " />
+	<string
+		id="backstory_c.spc_wanderer_empire_0"
+		text="{=JfTTbPag}Well, I don't play that game. If something's going to fall down and kill someone, I'll point that out. So, naturally, all my 'brothers' cut me out of contracts." />
+	<string
+		id="response_1.spc_wanderer_empire_0"
+		text="{=R36Bl55h}Most noble of you, sir." />
+	<string
+		id="response_2.spc_wanderer_empire_0"
+		text="{=oXnqNsvz}A man of integrity, or simply one who backbites his peers? I have no idea, and wouldn't want to take the risk of hiring you." />
+	<string
+		id="backstory_d.spc_wanderer_empire_0"
+		text="{=b1sCl4SI}So, anyway, I am forced to spend my time in taverns, taking whatever work can be found. I can oversee the building of most structures, or, if the need is there, I am also adept at knocking them down with catapults, rams, and mines." />
+	<string
+		id="generic_backstory.spc_wanderer_empire_0"
+		text="{=RZizPvaI}I'm an engineer, with imperial army training. I'm sure by now you've met a few of us around, and know a bit about what we can do." />
+	<!-- the bull -->
+	<string
+		id="prebackstory.spc_wanderer_empire_1"
+		text="{=836klxRM}You want to know about me? Well, that's a story, that's a story." />
+	<string
+		id="backstory_a.spc_wanderer_empire_1"
+		text="{=ivz2U3e2}See, there's a lot of tales about me, and only some of them are true. The Khuzaits call me by one name, the Aserai by another." />
+	<string
+		id="backstory_b.spc_wanderer_empire_1"
+		text="{=0ty7hiZI}I've been in a lot of fights and I've killed a lot of people. Ask you around - you shouldn't just take my word for it. But never one who didn't deserve it, and never once outside a fair fight." />
+	<string
+		id="backstory_c.spc_wanderer_empire_1"
+		text="{=waUxgr5b}Let me tell you something else - war is not a game. It's not a game. Play by the rules and you die. The streets aren't the arena. If you think someone's your enemy, you take them down - don't wait for a polite challenge." />
+	<string
+		id="response_1.spc_wanderer_empire_1"
+		text="{=8duSHfDa}Ah, yes. Wise words. Do go on." />
+	<string
+		id="response_2.spc_wanderer_empire_1"
+		text="{=oyHzM0jb}You've said nothing about yourself, and your one word contradicts the other. I have better things to do." />
+	<string
+		id="backstory_d.spc_wanderer_empire_1"
+		text="{=1ubcomnD}I don't like to brag about my own deeds, so I'll leave it at that. I do a lot of work for the merchants around here, but they don't own me. I'm my own man. I just take their money. It's not like I'm a mercenary or something like that." />
+	<string
+		id="generic_backstory.spc_wanderer_empire_1"
+		text="{=zXJvWvD5}I'm a warrior. A soldier of fortune, you might say. A damn good one, too, as my enemies would tell you if they could speak from the other world." />
+	<!-- the brave -->
+	<string
+		id="prebackstory.spc_wanderer_empire_2"
+		text="{=AT7pJ6Rm}It is not without some reluctance that I tell this story, for it hardly does honor to my name." />
+	<string
+		id="backstory_a.spc_wanderer_empire_2"
+		text="{=3J76GzZh}My father was a cataphract in the east. We had a small estate to pay for his horse and armor. I was raised to take his place on the imperial troop rosters when he came of age." />
+	<string
+		id="backstory_b.spc_wanderer_empire_2"
+		text="{=fwYGme3B}But the Khuzaits overran us, and he was slain, and our land was taken. Its revenues now belong to some tarkhan. Alas, the empire has little land to grant today, even to trained cavalrymen like myself who wish to serve. And horses are expensive." />
+	<string
+		id="backstory_c.spc_wanderer_empire_2"
+		text="{=4UMf7HDe}You may call it pride, but I do not wish to enlist as a foot soldier. So I work here in town, for merchants, for pay, a hired sword. All I can say is that I hope one day to purchase the land I need to serve our emperor, whoever sits in the throne, as my father did." />
+	<string
+		id="response_1.spc_wanderer_empire_2"
+		text="{=KtN79I0H}That's it? The dishonorable part? That you work for merchants? I'd thought it would be a lot worse." />
+	<string
+		id="response_2.spc_wanderer_empire_2"
+		text="{=902xqUja}A cavalier of the empire doing errands for traders! The shame of it!" />
+	<string
+		id="backstory_d.spc_wanderer_empire_2"
+		text="{=wiR9bSfw}I try at least to pick and choose my master, and hope at least that some of our equestrian honor rubs off on the men of commerce." />
+	<string
+		id="generic_backstory.spc_wanderer_empire_2"
+		text="{=ammEPFoq}I'm a former imperial cataphract. Our skills, and our honor, needs no further introduction. But I was unable to afford my horse and armor, so I took work with merchants, as a hired sword." />
+	<!-- the boar -->
+	<string
+		id="prebackstory.spc_wanderer_empire_3"
+		text="{=B3UQTCRE}Refill my glass and I'll tell you." />
+	<string
+		id="backstory_a.spc_wanderer_empire_3"
+		text="{=H7tFXLVN}I'm a soldier by trade. I've served in the empire's legions for 20 years. Once upon a time they were worthy of being called 'legions.' We served together for years, and we'd die rather than see our standards falter or fall." />
+	<string
+		id="backstory_b.spc_wanderer_empire_3"
+		text="{=DzyAgYIX}But Drosios Neretzes led the pick of the legions into an ambush in the Battanian woods. You may have heard that story. I was laid up sick at the time. But a lot of my comrades didn't come back, and things were never the same afterward." />
+	<string
+		id="backstory_c.spc_wanderer_empire_3"
+		text="{=6OF0vjQV}After Arenicos's so-called reforms, they try to maintain an army on the cheap, letting the rich run the show out of their own pocket. No wonder the whole thing's collapsed into a bunch of squabbling factions and we're mocked by the barbarians we used to rule." />
+	<string
+		id="response_1.spc_wanderer_empire_3"
+		text="{=0SnKUaex}No doubt a sad state of affairs. So what do you do?" />
+	<string
+		id="response_2.spc_wanderer_empire_3"
+		text="{=WQCAanal}Ah, the old days. And no doubt back then they complained about the older days. I've heard enough." />
+	<string
+		id="backstory_d.spc_wanderer_empire_3"
+		text="{=yx5yqDby}Well, I can't just sit around and drink myself to death, so I sell my sword to anyone worth following. I'm a good trainer - I don't bother with horsemen or archers, but if you've got good steady footmen I can do a lot with them. I know a bit about siege machinery too." />
+	<string
+		id="generic_backstory.spc_wanderer_empire_3"
+		text="{=GLXrkZbW}I'm a soldier of the imperial legions. How we came to this sorry state is a sad tale that you've no doubt heard already from my comrades. But I'm sure you're familiar with our mettle in battle, and our skill at turning youths into soldiers." />
+	<!-- the robber. possibly gang leader as nemesis -->
+	<string
+		id="prebackstory.spc_wanderer_empire_4"
+		text="{=22ajCymb}Oh, I suppose I can tell you. Nothing that no one doesn't already know, no how." />
+	<string
+		id="backstory_a.spc_wanderer_empire_4"
+		text="{=RaqBSakL}Me and some lads from my village, we thought we'd run away, join some other lads up there who make their living on the highways, if you know what I mean. Didn't much want to go scratching a plow across the dry fields all year every year like my father did." />
+	<string
+		id="backstory_b.spc_wanderer_empire_4"
+		text="{=xZuqLfE7}But I was young and foolish. Bandits - well, who'd have thought? They're real animals. Always drunk and stabbing each other, or too drunk to feel cold so they catch the plague and end up coughing up blood, or drunk and asleep when the patrol comes around so they end up on the gallows - I suspect you get the idea." />
+	<string
+		id="backstory_c.spc_wanderer_empire_4"
+		text="{=qgmt8aPz}So that was no kind of life, neither. I left the woods, paid a little money to friends who got my name off the outlaw list, and now I'm a regular law-abiding citizen. Officially, that is." />
+	<string
+		id="response_1.spc_wanderer_empire_4"
+		text="{=QIrR9NhL}A wise decision." />
+	<string
+		id="response_2.spc_wanderer_empire_4"
+		text="{=xzLIIPjB}A knave who could not abide other men's knavery! May such wonders never cease." />
+	<string
+		id="backstory_d.spc_wanderer_empire_4"
+		text="{=hinn6pmX}Life's better here in the city. More 'civilized,' you could say. Oh, the work can be a bit rough and tumble, but I feel I can relax after a long day with more refined company, like your good self." />
+	<string
+		id="generic_backstory.spc_wanderer_empire_4"
+		text="{=suf4hUxN}When I was a lad, I dabbled in crime and banditry a bit, but am now seeking more honest work. I still like the fighting and killing part, though. Anyway, I'm sure you've met a fair amount of men like me on your journeys." />
+	<!-- the butcher, doesn't give much away about himself -->
+	<string
+		id="prebackstory.spc_wanderer_empire_5"
+		text="{=56VPnxQd}You're a nosy one, I see." />
+	<string
+		id="backstory_a.spc_wanderer_empire_5"
+		text="{=qlAW1aTi}What do you want to know about? My family? Piss on them. I left home as a child and never had cause to regret it. My brothers can take my inheritance, and I hope they choke on it." />
+	<string
+		id="backstory_b.spc_wanderer_empire_5"
+		text="{=ikVu2vQU}I've fought in a few wars, for one side or the other. You want to know about my-comrades-in-arms? Piss on them too. They all turn on you in the end." />
+	<string
+		id="backstory_c.spc_wanderer_empire_5"
+		text="{=iWe4KrSO}About my past, that's all I have to say." />
+	<string
+		id="response_1.spc_wanderer_empire_5"
+		text="{=AX7gvmaj}So... What are you good at?" />
+	<string
+		id="response_2.spc_wanderer_empire_5"
+		text="{=Aj9ulUly}You're a cheerful one. Good day to you." />
+	<string
+		id="backstory_d.spc_wanderer_empire_5"
+		text="{=X9zcXYPa}I can fight. And I don't mind doing work that others would shirk." />
+	<string
+		id="generic_backstory.spc_wanderer_empire_5"
+		text="{=Ycc0gsX9}I kill for a living. You don't look too wet behind the ears, so I'm sure I don't need to tell you any more about myself than that." />
+	<!-- maquisard, ex-messianic rebel turned mafiosi -->
+	<string
+		id="prebackstory.spc_wanderer_empire_6"
+		text="{=VILYhtjW}I'll tell you my story." />
+	<string
+		id="backstory_a.spc_wanderer_empire_6"
+		text="{=R9KivNZ6}You may have heard of Ladimos the Red. He preached that the Heavens were getting ready to unload their wrath on landowners and merchant, that we had to drive them out and live pure lives and we'd be rewarded with a Pure Emperor, come down from the skies. This was some 10 years ago. Well, a lot of us ran off to follow him, some of us believed him and some of us had debts and some just wanted to take a lick at those that oppressed us." />
+	<string
+		id="backstory_b.spc_wanderer_empire_6"
+		text="{=7JMaPpkN}We built a great temple in the back country, out in the bush, called it the Kingdom of Truth. We whipped two imperial detachments sent to track us down. But Ladimos died, 'Called up to Heaven' he said on his deathbed, and then we lost our way a bit. We needed food and we needed money, so our chiefs started collecting 'taxes' from the villages below. Some started taking money from lords and merchants for protection of caravans. And those who grumbled - well, they started turning up dead in the dry streambeds." />
+	<string
+		id="backstory_c.spc_wanderer_empire_6"
+		text="{=7caHipXX}So I left. And a short while later the emperor sent a third detachment, bigger than the others, and that was the end of the Kingdom of Truth. My old comrades - I see them sometimes from time to time, some in a lord's retinue, others in a cage with R for 'robber' branded on their forehead." />
+	<string
+		id="response_1.spc_wanderer_empire_6"
+		text="{=wk1jPh1S}A sad tale." />
+	<string
+		id="response_2.spc_wanderer_empire_6"
+		text="{=OsWmIhds}Heresy, rebellion, and looting are three intertwined serpents. You should bear that brand yourself, knave." />
+	<string
+		id="backstory_d.spc_wanderer_empire_6"
+		text="{=HcMbaZn4}I learned a few skills up in the hills, how to follow a trail and spot an ambush, most useful to caravaneers. So I reckon I can probably stay ahead of the hangman. A regular job wouldn't hurt, though." />
+	<string
+		id="generic_backstory.spc_wanderer_empire_6"
+		text="{=DIaT6pXi}Aye, well, once I was a rebel up in the back country, but rebels never last too long. Now I just want to serve and get paid. You've been around. You've met men like me before, I'm sure." />
+	<!-- Lord as nemesis-->
+	<!-- posed as man to join army. needed the money -->
+	<string
+		id="prebackstory.spc_wanderer_empire_7"
+		text="{=eeEra0bI}Yeah, I'll tell you my story. Pass the wine and listen close." />
+	<string
+		id="backstory_a.spc_wanderer_empire_7"
+		text="{=Ed3XsQhN}My family had debts, so I signed up to be a soldier under one of Old Neretzes's kinsmen. I guess I always liked men's work more than women's work. The legions took hill women as scouts but I was never the hidey-sneaky type. So I did what I did to be in the spear line." />
+	<string
+		id="backstory_b.spc_wanderer_empire_7"
+		text="{=yPRaUTwX}Dressed as a man, of course. Weren't difficult to do. Not hard to fool men. Bound my breasts and watched where I pissed. It was easy." />
+	<string
+		id="backstory_c.spc_wanderer_empire_7"
+		text="{=iBwF0NxU}Then one day our commander led us into an ambush. The apple doesn't far fall from the tree, you could say. I didn't see the battle but was part of the rout. That was the end of army life for me. Don't care for glory-hounding lords leading me to my death. But I still like to fight." />
+	<string
+		id="response_1.spc_wanderer_empire_7"
+		text="{=8CixQpyO}Well, there's always work for the brave and the resourceful." />
+	<string
+		id="response_2.spc_wanderer_empire_7"
+		text="{=bhvZuX1m}A rather sad tale of deceit and disgrace." />
+	<string
+		id="backstory_d.spc_wanderer_empire_7"
+		text="{=TzOdlTeb}Yeah.. The merchants give me jobs. But I'm not sure I care much for guarding caravans. A lot of sitting around listening to boring talk about prices. Look, I can wield a sword or spear and I can also repair them. Wouldn't mind trying my hand them at making them too. If you've know a captain with a good company, a fighting company, maybe he'd be interested." />
+	<string
+		id="generic_backstory.spc_wanderer_empire_7"
+		text="{=Jv85koU3}I dressed as a man to serve in the legions. There are many of us who've done that, believe it or not. You've probably met one of us before, even if you didn't know it." />
+	<!-- family was in sacked city, followed in wake of refugee columns.
+My father was a grain merchant in {IMPERIALCAPITAL}. Men such as he feed the city, yet they are hated when the price is high, and they do not sell at a loss. When the riots broke out, the riff-raff were not content to loot our warehouses. They attacked our house, and broke my father's skull with a weighing block -->
+	<string
+		id="prebackstory.spc_wanderer_empire_8"
+		text="{=KNCnJN4n}I'll tell you my story. If it bothers you, I'd prefer you keep it to yourself - unless you've lived months on crusts of bread and chaff of grain, that is." />
+	<string
+		id="backstory_a.spc_wanderer_empire_8"
+		text="{=pD92hewA}My father was a merchant in {IMPERIALCAPITAL}. We lived in a rich house, with many servants. I wanted for nothing. Our neighbor was a moneylender, who specialized in loans to the imperial guard. That turned out to be a bad neighborhood in which to live, when the riots came. " />
+	<string
+		id="backstory_b.spc_wanderer_empire_8"
+		text="{=OGyYFIEA}The guardsmen came to burn our neighbor's house, so their debts would be forgotten. The flames spread to our house, and it was destroyed. My father tried to save his strongbox, and that was his undoing. A riot is a holiday for thieves and robbers, and some saw him dragging it through the streets, so they knifed him and took it. We tried to find shelter with my uncle, but there was no food in the city, and he turned us out. So we joined the refugees in the country, living on what we could steal from the fields. " />
+	<string
+		id="backstory_c.spc_wanderer_empire_8"
+		text="{=aNSIajhR}I found a guardsman, alone and drunk. I have no idea whether he was one of the ones that set fire to our neighborhood. Maybe I should not have done to him what I did to him. But now I have his sword. It's been very useful." />
+	<string
+		id="response_1.spc_wanderer_empire_8"
+		text="{=cGr6RvX7}The starving do what they must." />
+	<string
+		id="response_2.spc_wanderer_empire_8"
+		text="{=iaagSMEa}And to think you had all the advantages of an educated childhood." />
+	<string
+		id="backstory_d.spc_wanderer_empire_8"
+		text="{=RZglJSZ3}I think my story shows that I am adaptable, at least. If there was room for me in a warlord's retinue, say, I imagine I could quickly learn whatever skills were needed." />
+	<string
+		id="generic_backstory.spc_wanderer_empire_8"
+		text="{=QUamabEa}I was a merchant's daughter. There was a bout of unrest in our home city, and our home and warehouses were burned and our family made penniless. I shall spare you the details. I am sure you've heard plenty of similar tales in these times." />
+	<!-- female outlaw. Mascot, used as assassin as girl. Got older, men's antics not as funny. Gang leader nemesis -->
+	<string
+		id="prebackstory.spc_wanderer_empire_9"
+		text="{=ZhZlhNfn}Aye, so you want my story then?" />
+	<string
+		id="backstory_a.spc_wanderer_empire_9"
+		text="{=Aqbu1o9v}Far back as I remember, I was living on the streets of {IMPERIALCAPITAL} with a bunch of other dirty, barefoot scrogs. A group of men in our alley, they called themselves the Centaurs, I guess they took a liking to me. Gave me special errands to run from them - started with picking pockets, ended with sticking knives into their enemies. Back then I'd do anything for a handful of figs and cheese and a pat on the head." />
+	<string
+		id="backstory_b.spc_wanderer_empire_9"
+		text="{=imBWFomj}Got a bit older though, and their interest in me changed. Filthy drunken louts pressing themselves against me, grabbing at me - I wasn't having that. Made up my mind to leave, but wasn't sure where to go." />
+	<string
+		id="backstory_c.spc_wanderer_empire_9"
+		text="{=axnObjSY}Then came the day that {IMPERIALCAPITAL} burned, and everyone was out looting and robbing, and that was my chance. Lifted a bag of silver from the Centaurs' stash and lit out on the road." />
+	<string
+		id="response_1.spc_wanderer_empire_9"
+		text="{=LIYZlInR}A hard life, but I must admire your fortitude, at least." />
+	<string
+		id="response_2.spc_wanderer_empire_9"
+		text="{=haiCZjua}You truly are the dregs of the street, my lady." />
+	<string
+		id="backstory_d.spc_wanderer_empire_9"
+		text="{=aULjoDXL}Anyway, I wandered about a bit, but now I think it's time I found steady work. You wouldn't need someone to stick a knife in those that need sticking, do you?" />
+	<string
+		id="generic_backstory.spc_wanderer_empire_9"
+		text="{=L7tJUtlN}I was an orphan, you see. Worked for a gang, as our kind must so often do. Did their foul work for them. But they perished in a siege, and I decided to strike out on my own, see what this fine land of Calradia could offer me." />
+	<!-- surgeon - forced by intel to torture, guilt-racked -->
+	<string
+		id="prebackstory.spc_wanderer_empire_10"
+		text="{=rOUaG9iG}I can tell you my story, though it is painful to recall." />
+	<string
+		id="backstory_a.spc_wanderer_empire_10"
+		text="{=0FHF0OXK}I'm a surgeon. I trained at the imperial academy in {IMPERIALCAPITAL}. I had many rich and influential patients in the town. I thought I was well shielded from the intrigues and dangers of the Empire. " />
+	<string
+		id="backstory_b.spc_wanderer_empire_10"
+		text="{=pzK7TN05}But one day I was contacted by an agent of the Bureau of Barbarian Affairs. I do not know how well you know them. Their original mission was to keep the foreign tribes divided and weak, but they expanded their remit into all the affairs of the empire, anything that might be deemed a threat. At first they wanted small harmless details about my patients. To do so was a violation of my oath, but I was anxious to have the favor of the Bureau. But soon they began to call on me for more and more." />
+	<string
+		id="backstory_c.spc_wanderer_empire_10"
+		text="{=sfFLudTM}One time they came at midnight - they had a man who plotted against the Emperor, they said, and they needed a confession, and wished me to use my art to elicit that confession. If I refused, they said, they would disclose our relationship to my patients - I would be ruined. I went with them, to my shame, and what I was asked to do to that man's body -- I shall not repeat it." />
+	<string
+		id="response_1.spc_wanderer_empire_10"
+		text="{=BIsvfC0x}You too are a victim of the hideous power of the state." />
+	<string
+		id="response_2.spc_wanderer_empire_10"
+		text="{=hikXX6zE}You broke your oath. It is not surprising that you fell further." />
+	<string
+		id="backstory_d.spc_wanderer_empire_10"
+		text="{=x50bW6NF}I should have refused - my practice was ruined anyway. To blot out the memory of that night, I took opium, until my pallid face so alarmed my patients that they no longer called on me. So I fled the city, and have wandered from town to town ever since. I would welcome steady work, if I could find it." />
+	<string
+		id="generic_backstory.spc_wanderer_empire_10"
+		text="{=pya1JSNe}I was a surgeon, trained at the imperial academy. But my home and infirmary were burned in a bout of unrest, and now I must wander the world a bit. There are many of us out there, you know, forced to make what living we can." />
+	<!-- empire 13, aristocrat who fled bad marriage, lord is nemesis -->
+	<string
+		id="prebackstory.spc_wanderer_empire_11"
+		text="{=CAiFXWEf}Yes... I can tell you my tale..." />
+	<string
+		id="backstory_a.spc_wanderer_empire_11"
+		text="{=FybsZ7yK}My father was an imperial cataphract. Alas, he died in battle against the Aserai, and I was placed under the local archon's guardianship. He had eyes for my father's estate, modest as it was, so he arranged for me to be married to his cousin." />
+	<string
+		id="backstory_b.spc_wanderer_empire_11"
+		text="{=omEoa2q7}But this cousin... I would not marry that man! He was a boor, a drunk - never there was a night that he did not reek of wine, never a morning that he did not reek of vomit! But a cataphract's daughter is not some chit you can marry against her will. I took a horse from my father's estate - my horse, legally - his old sword, and rode off." />
+	<string
+		id="backstory_c.spc_wanderer_empire_11"
+		text="{=j7cE9DTZ}So, here I am. Perhaps I am not the most experienced of warriors, but I can learn. I cannot go back - I learned that the archon filed suit that I stole a horse - my own horse, by right! - which shows you what a cad he is." />
+	<string
+		id="response_1.spc_wanderer_empire_11"
+		text="{=tx6L29wu}You've got spirit, I'll give you that." />
+	<string
+		id="response_2.spc_wanderer_empire_11"
+		text="{=O3Pkql2y}Takes more to being a warrior than a horse and a sword, young one." />
+	<string
+		id="backstory_d.spc_wanderer_empire_11"
+		text="{=UWWgML2g}So, here I am, looking for a captain under whom to serve. I know the ways of an archon's court, and I know how to ride, but I am looking to master the ways of the sword. And if I learn my trade well, perhaps I shall one day reclaim my birthright!" />
+	<string
+		id="generic_backstory.spc_wanderer_empire_11"
+		text="{=wRS9yqyx}I fled a bad marriage. There are many like me; I meet them in every tavern in Calradia. I am lucky in that my father was a cataphract, and taught me to ride and fight before he died, and I suppose that's how I must make a living." />
+	<!-- female herbalist -->
+	<string
+		id="prebackstory.spc_wanderer_sturgia_0"
+		text="{=xSbEUPK4}You know, we women suffer greatly when you warriors have your sport..." />
+	<string
+		id="backstory_a.spc_wanderer_sturgia_0"
+		text="{=ifBURmmv}I lived in a village to the north of here, across the gulf. It is a cruel land; there is no strong king, and lords think nothing of ravaging their neighbor's lands. My mother was skilled in the use of herbs to treat disease and wounds. I had a happy peaceful childhood - until one day, a month before I was to be married." />
+	<string
+		id="backstory_b.spc_wanderer_sturgia_0"
+		text="{=WBE6MeCl}That was the day my life changed. A band from a nearby village came and attacked us. We had done them no harm; we had never even thought of them as our enemies. But they wanted our cattle. They killed my mother and the youth who I was to marry, and burned our village. Everything gone. Those who lived fled into the woods." />
+	<string
+		id="backstory_c.spc_wanderer_sturgia_0"
+		text="{=hOsJjMZ8}I expect that my kin will soon return to their homes, but I will not.  I cannot... I cannot be in a place where I am at the mercy of any beast on the rampage. I will ply my trade among warriors. I will learn to harm as well as to heal. And if the time comes for me to marry, I will live in a land where there is a king, even a tyrant, rather than raising a family amid the war of all against all." />
+	<string
+		id="response_1.spc_wanderer_sturgia_0"
+		text="{=31XTldnZ}I am sorry for your fate, my lady." />
+	<string
+		id="response_2.spc_wanderer_sturgia_0"
+		text="{=l4A16aGs}It's a cruel world, and if you think a warrior's life is any easier, you have a painful lesson in store." />
+	<string
+		id="backstory_d.spc_wanderer_sturgia_0"
+		text="{=iYbBHXNA}At any rate, if you know of a warband who is looking for someone who knows how to treat wounds, I would be grateful." />
+	<string
+		id="generic_backstory.spc_wanderer_sturgia_0"
+		text="{=N0yE1Ptz}I was an herbalist in a village in the north. But our home was raided, and I've been forced to wander in search of work. There are many like me on the roads of Calradia." />
+	<!-- braggart backstory - found skolderbrotva too soft -->
+	<string
+		id="prebackstory.spc_wanderer_sturgia_1"
+		text="{=BuamWVTp}Yes.. My story... Jealousy, envy of my talents. That's always been my undoing." />
+	<string
+		id="backstory_a.spc_wanderer_sturgia_1"
+		text="{=L14od7cC}When I was a boy, I was the best fighter in my village. 'You're stronger as a boy than a full-grown warrior,' people would say. I'm not boasting here - that's what they'd tell me. So when I came of age I went off to make my fortune." />
+	<string
+		id="backstory_b.spc_wanderer_sturgia_1"
+		text="{=zb6VN6rr}Started in the Vaegir guard. I found that I was the only real warrior among them. They were all about marching here and there in their pretty uniforms, not pulling sword from scabbard for months on end. I told them what I thought, and my captain told me to keep my mouth shut or leave. So I left." />
+	<string
+		id="backstory_c.spc_wanderer_sturgia_1"
+		text="{=iAmsyL01}Then I joined the Skolderbroda. The 'Shield Brothers.' It's a good name, you know? They spent most of their time hunkering behind their shields. Ha! Me, I'd wade into the midst of the enemy, dealing out death right and left - and, well, all they had to say afterward was 'Why didn't you keep ranks?'" />
+	<string
+		id="response_1.spc_wanderer_sturgia_1"
+		text="{=4ee0aofe}Hmm... Strange response." />
+	<string
+		id="response_2.spc_wanderer_sturgia_1"
+		text="{=FNuxKNBi}Has no one told you that leaving a gap in a shield wall is as good as treason?" />
+	<string
+		id="backstory_d.spc_wanderer_sturgia_1"
+		text="{=qbYupvSJ}So I'm having no more of that. I'm on the look-out for an outfit that employs real fighters." />
+	<string
+		id="generic_backstory.spc_wanderer_sturgia_1"
+		text="{=gnLnZuAH}Let me tell you friend, I'm hard. I've fought with the Skolderbroda, the Vaegirs, any mercenaries worth their salt, I've been with them. Others may tell you've they've done what I've done, but I'm the real thing." />
+	<!-- gallant warrior backstory -->
+	<string
+		id="prebackstory.spc_wanderer_sturgia_2"
+		text="{=RObjObjy}Certainly - I make no secret of my ambitions." />
+	<string
+		id="backstory_a.spc_wanderer_sturgia_2"
+		text="{=NKLS5mN1}My father was one of the leading warriors of our clan, but in his last battle his hamstring was cut. We've lived well off the wealth he brought home from his raids, buying land and thralls, but now I feel it's time that I bring home some silver of my own." />
+	<string
+		id="backstory_b.spc_wanderer_sturgia_2"
+		text="{=jaLrENzo}I need to buy a ship, and hire men to row it. But I do not wish to sell our land to outfit a risky voyage, to risk depriving my father and mother of their comforts in old age, and my brothers of their hopes for a good marriage." />
+	<string
+		id="backstory_c.spc_wanderer_sturgia_2"
+		text="{=TxwPTwvh}So I have resolved to hire out my sword and make enough money for such a ship. Having done so, I shall take it to faraway shores and bring home silver and slaves so that we may buy land enough for all. In this way I will do my duty to my family." />
+	<string
+		id="response_1.spc_wanderer_sturgia_2"
+		text="{=3QxjeC94}You are a most dutiful son and brother." />
+	<string
+		id="response_2.spc_wanderer_sturgia_2"
+		text="{=nqLiWPR7}Such pieties from a man who intends to pillage the labor of others." />
+	<string
+		id="backstory_d.spc_wanderer_sturgia_2"
+		text="{=3W1H83WZ}At any rate, if you know the leader of warband who's generous and honorable, he'll find no braver warrior to follow him than me." />
+	<string
+		id="generic_backstory.spc_wanderer_sturgia_2"
+		text="{=QJCieDQ9}My father sent me off into the world, to build our fortune with my sword. This is a common story among the sons of our people." />
+	<!-- veteran backstory - bitter about riots -->
+	<string
+		id="prebackstory.spc_wanderer_sturgia_3"
+		text="{=gysOh3M5}Aye - you've heard about the death of the last Emperor?" />
+	<string
+		id="backstory_a.spc_wanderer_sturgia_3"
+		text="{=DFW5i63X}I'll tell you - what most people believe is a pack of lies. I was in the Vaegir guard in the time of Arenicos. We took our discipline seriously; we were proud of it. Then the riots happened. What I saw in {IMPERIALCAPITAL}.. Even now it makes me feel ashamed." />
+	<string
+		id="backstory_b.spc_wanderer_sturgia_3"
+		text="{=mGTuBDtF}It wasn't easy for the men. They felt the city turn against them, blame them for killing the emperor. Whereas we were sure that we were innocent of his blood, that there was some sort of trick. But even so, there was no excuse." />
+	<string
+		id="backstory_c.spc_wanderer_sturgia_3"
+		text="{=SwwXXPNe}We could have marched out in battle array. No one would have stood against us. If we couldn't restore order, at least we could have gone home with honor. But instead, we turned our anger against the city. My comrades looted, set fires, even murdered those who we were supposed to protect. It was a disgrace." />
+	<string
+		id="response_1.spc_wanderer_sturgia_3"
+		text="{=HiJTqUPJ}I have heard about the riots in {IMPERIALCAPITAL}. It was an ugly thing all round." />
+	<string
+		id="response_2.spc_wanderer_sturgia_3"
+		text="{=JHduQdEb}The Guard didn't kill the Emperor? Funny, that's not what the witnesses said." />
+	<string
+		id="backstory_d.spc_wanderer_sturgia_3"
+		text="{=ZoxPPYLX}I thought of going home. But I lost what denars I had saved during the riots. If there is a warband looking for good men, I would like to earn it back." />
+	<string
+		id="generic_backstory.spc_wanderer_sturgia_3"
+		text="{=7tCl75xJ}I was part of the old Emperor Arenicos's Vaegir Guard. But the people turned on us after his death, and attacked us. Maybe you've heard the story before. There's a whole lot of us, spat out into the world by the ungrateful Calradians." />
+	<!-- outlaw backstory,  easily angered  -->
+	<string
+		id="prebackstory.spc_wanderer_sturgia_4"
+		text="{=1Slubhxc}It's not many who ask that question." />
+	<string
+		id="backstory_a.spc_wanderer_sturgia_4"
+		text="{=Csokpo5C}I was a farmer. But I split a man's head open with a hoe. He was also a farmer. It was a dispute over a broken fence, between my pasture and his. I had no intention of killing him." />
+	<string
+		id="backstory_b.spc_wanderer_sturgia_4"
+		text="{=JLHhV1ta}His cousins came for me, to take me to judgment. I would have gone willingly; I would have paid blood-money. Gladly. But one of them laid hands on me, and a black rage came over me, and I killed two of them, too. I didn't want to kill them either. " />
+	<string
+		id="backstory_c.spc_wanderer_sturgia_4"
+		text="{=W2Jhsc2X}That was that. I could pay blood money for one man but not three. I fled. I cannot return." />
+	<string
+		id="response_1.spc_wanderer_sturgia_4"
+		text="{=zX3hVUKI}It sounds like you had no choice." />
+	<string
+		id="response_2.spc_wanderer_sturgia_4"
+		text="{=K9ig7Mst}A man who cannot master his rage is a greater threat then the man who murders with intent." />
+	<string
+		id="backstory_d.spc_wanderer_sturgia_4"
+		text="{=1gXv1YlG}If the choice I had been mine, I would have never hurt anyone. I would live on my land, eat what I had grown, marry and have children. But the Heavens have decreed that I should eat by shedding other men's blood. In the city, rich men pay me well for that." />
+	<string
+		id="generic_backstory.spc_wanderer_sturgia_4"
+		text="{=b1Ucozvw}I was a farmer once. I killed a man in a fight and could not pay the blood money, so I had to flee. It's a common enough tale in the northlands. I accept that my destiny will be blood and hardship, rather than the simple life on the land I once craved." />
+	<!-- add nemesis - rural clan, family of slain -->
+	<!-- coalbiter backstory -->
+	<string
+		id="prebackstory.spc_wanderer_sturgia_5"
+		text="{=E7z7aoQo}Look, friend, I'm here to drink, not talk. But if you really want to know, I'll give it to you in brief." />
+	<string
+		id="backstory_a.spc_wanderer_sturgia_5"
+		text="{=Zu4uBSxk}We Sturgians have a tradition. If two people have a dispute, and there's no witnesses, so it all comes down to one man's word against another's, then we let them settle it with swords. If one man doesn't like to fight, he can hire someone else to do the fighting. That's how it works with us. Probably other people do the same, because it's a good tradition." />
+	<string
+		id="backstory_b.spc_wanderer_sturgia_5"
+		text="{=r8ga8i93}I like to fight, so I made it known that I'd fight for anyone if the price is right. Shed a little blood, make a little coin, drink it away, make a little more, all in the cause of justice. Not a bad life, eh?" />
+	<string
+		id="backstory_c.spc_wanderer_sturgia_5"
+		text="{=ExBNUPTm}Well, I guess I showed myself a bit too eager. The councils stopped accepting me as champion. Told me I sold my sword too cheaply, they said. What can I say? I have to look for other work now. It's a damn shame. I like duels - you don't worry about arrows, or someone coming up from behind. No need to stay sober for hours on end waiting for a fight that never comes. Just a few minutes of trouble, a bit of blood, and then usually a good meal afterwards." />
+	<string
+		id="response_1.spc_wanderer_sturgia_5"
+		text="{=AlZlPv4b}Councils these days. Always making changes..." />
+	<string
+		id="response_2.spc_wanderer_sturgia_5"
+		text="{=Fgsd3jBn}You call that the cause of justice?" />
+	<string
+		id="backstory_d.spc_wanderer_sturgia_5"
+		text="{=2UEpvIIV} But look - I'd still be a fine addition to a fighting company. I know how to swing a sword and an axe, and know a thing or two about forging them and keeping them sharp as well." />
+	<string
+		id="generic_backstory.spc_wanderer_sturgia_5"
+		text="{=IVIIkCaY}I was a sword for hire. Specialized in duels - you know, when there's a trial, and you can't work it out any other way. But you can run that racket too long - eventually the councils start banning you from fighting - so now here I am." />
+	<!-- generic backstories start again here -->
+	<!-- icebeard - mossbeard. Simple misanthrope, cheated in marriage by brother-in-law -->
+	<string
+		id="prebackstory.spc_wanderer_sturgia_6"
+		text="{=x9l3KCvQ}I'll tell you, but I don't know why you'd be interested." />
+	<string
+		id="backstory_a.spc_wanderer_sturgia_6"
+		text="{=OuUzIkaK}My parents died when I was young. My sister married. Her husband wanted my parents' farm. So he hired a devious man, a fast-talker, who knew the law well. He said... I don't even remember what he said, in court, before the council. But the council awarded both of them the farm." />
+	<string
+		id="backstory_b.spc_wanderer_sturgia_6"
+		text="{=9bezXRLp}It did not matter much. I always preferred the woods. I made a better living shooting squirrels and rabbits and selling fur. " />
+	<string
+		id="backstory_c.spc_wanderer_sturgia_6"
+		text="{=gqWMrx3S}But I've been thinking.. Maybe I want to marry. And I guess I need more silver for that, probably more than I can get from the squirrels. So... People tell me that warleaders will pay for a good scout. And I know the woods well." />
+	<string
+		id="response_1.spc_wanderer_sturgia_6"
+		text="{=Vs428XEb}That seems a reasonable ambition. A good scout can command a high price." />
+	<string
+		id="response_2.spc_wanderer_sturgia_6"
+		text="{=FMnIiXge}What woman wouldn't relish a husband smelling of half-cured skins, slept in for the whole winter?" />
+	<string
+		id="backstory_d.spc_wanderer_sturgia_6"
+		text="{=gSXfbTn5}I know the woods well. I can move quickly in them. I'll tell you all about a war party from the branches it broke marching through." />
+	<string
+		id="generic_backstory.spc_wanderer_sturgia_6"
+		text="{=UydGgLl9}I'm a trapper, a hunter. Used to be I could make a good living through furs... But with all these bandits about.... I'd rather be part of an army, I think. Spent my whole life in the woods and I reckon I could do well as a scout." />
+	<!-- dispossessed -->
+	<string
+		id="prebackstory.spc_wanderer_sturgia_7"
+		text="{=2rX8VwCj}I'll tell you my story. Why not?" />
+	<string
+		id="backstory_a.spc_wanderer_sturgia_7"
+		text="{=7qlJdbtC}My father was a draftsman. He helped build towers and walls for the boyars. I used to help him in his work, drawing up his plans. I had a good hand for that. We went from town to town, employer to employer, just the two of us. It was a wonderful time, until he dropped dead, just before I entered my twelfth year." />
+	<string
+		id="backstory_b.spc_wanderer_sturgia_7"
+		text="{=z2Vv7D3b}My mother had already died, so I was taken in by my uncle. But he didn't really want me. See, I had a birthmark on my shoulder, the kind that some people means the bearer can cast the Evil Eye. Whenever there was sickness in the streets of my uncles' village, the people would mutter and curse at me. Eventually they demanded my uncle drive me out of the village. It was no great loss for him to comply. Probably saved him worry over where he was going to find the money to marry me off." />
+	<string
+		id="backstory_c.spc_wanderer_sturgia_7"
+		text="{=gLaZnLBe}I wandered from village to village, begging and stealing. You may imagine how I fared at the mercy of the robbers of the road, who had no more fear of sorcery then they did of man's laws. But eventually I learned to protect myself, and the body of one careless bandit afforded me with my first sword and leather jerkin." />
+	<string
+		id="response_1.spc_wanderer_sturgia_7"
+		text="{=BVQ075W6}A sad tale. Please continue." />
+	<string
+		id="response_2.spc_wanderer_sturgia_7"
+		text="{=aIPLCDp7}Heavens protect us from evil! Away! Away!" />
+	<string
+		id="backstory_d.spc_wanderer_sturgia_7"
+		text="{=CEb36UEm}That is all there is to say, really. I still have the sword, and it is for hire, to those who pay well. I still remember a bit of my father's trade, too. I'll do most whatever is needed. The world had no mercy on me, so I feel no need to show any." />
+	<string
+		id="generic_backstory.spc_wanderer_sturgia_7"
+		text="{=bNUxoLhP}I don't know where I came from. First thing I remember is wandering the roads with a bunch of other orphans, going from village to village begging and stealing. But now, you see, I've stolen a sword from a group of bandits we found sleeping off a drunken night, and I figure maybe I can be something different." />
+	<!-- shield maiden -->
+	<string
+		id="prebackstory.spc_wanderer_sturgia_8"
+		text="{=rKeqsRyj}I'll tell you my tale. But I will warn you in advance: It is of no concern to me whether you approve or disapprove of what I did." />
+	<string
+		id="backstory_a.spc_wanderer_sturgia_8"
+		text="{=o6ugLOZi}I came from a good family, with much land. Since I was a girl, I wished to be a shield-maiden. I practiced fighting with the village boys and the old warriors. But it is a strange thing - while some families in our lands take pride in a daughter who takes up arms, others accord it a great shame, and my father was of the latter type." />
+	<string
+		id="backstory_b.spc_wanderer_sturgia_8"
+		text="{=R2haBQK7}I had no special desire to be married but my family found me a groom anyway. I consented, but my husband and I detested each other from the first. Once he insulted me in the marketplace, I cursed his manhood, he struck me, and I pulled a knife and he pulled his. I won." />
+	<string
+		id="backstory_c.spc_wanderer_sturgia_8"
+		text="{=SfmWAuv3}The elders sat in judgment on our case. As it turned out, they had plenty of precedent. They accorded our fight a fair duel, and thus I was innocent of murder. On the other hand, I was excluded from his inheritance. I suppose that was fair, although I would have enjoyed wearing his jewels and riding his horse in front of his family." />
+	<string
+		id="response_1.spc_wanderer_sturgia_8"
+		text="{=DhQ7lgNr}Indeed. No doubt such traditions encourages husbands to behave better than they might do otherwise." />
+	<string
+		id="response_2.spc_wanderer_sturgia_8"
+		text="{=tbbQ3PZH}You slew your husband in a duel? Get away!" />
+	<string
+		id="backstory_d.spc_wanderer_sturgia_8"
+		text="{=5mUCH99p}Suffice to say, I could not return to my father's house. I went on my way, happy to live the life of a warrior I had always dreamed of living. But soon I found out - the tales I loved as a girl, of shield-maidens who fought for honor, do not pertain to a woman with no family or land. One cannot fight for honor when one doesn't know where the next meal comes from. So I fight for pay." />
+	<string
+		id="generic_backstory.spc_wanderer_sturgia_8"
+		text="{=UCpJEIE3}I am a warrior. A shield-maiden, as the Nords say. It is not uncommon in the northern lands. Perhaps you have met some of us before." />
+	<!-- add nemesis - rural clan, husband's family -->
+	<!-- female hireling -->
+	<string
+		id="prebackstory.spc_wanderer_sturgia_9"
+		text="{=Wzl0V95v}Pour yourself a drink stranger. I'll tell you all you need to know." />
+	<string
+		id="backstory_a.spc_wanderer_sturgia_9"
+		text="{=agmuAXJc}How would I put it? I guess I'd say I'm a lady who's gotten a reputation for doing a man's work better then the men. I guess I'm a bit of a rarity. Although that's a bit of a surprise to me." />
+	<string
+		id="backstory_b.spc_wanderer_sturgia_9"
+		text="{=ELLbiNDu}You won't find me passed out in the straw in my own vomit when needed for a task. You won't have to bribe the guard to get me out of a cell because I got on a fight on my way to work." />
+	<string
+		id="backstory_c.spc_wanderer_sturgia_9"
+		text="{=F81bgvec}Instead, for my fee, I'll make sure that those who need protecting are protected, and those who need to die are dead." />
+	<string
+		id="response_1.spc_wanderer_sturgia_9"
+		text="{=TwbAHDDJ}Yes... So hard to find a dependable fighter these days." />
+	<string
+		id="response_2.spc_wanderer_sturgia_9"
+		text="{=4rC9tzki}I don't begrudge a warrior a few drinks and a fight from time to time." />
+	<string
+		id="backstory_d.spc_wanderer_sturgia_9"
+		text="{=wxSiMjJ0}Anyway, you come across a chief who needs a reliable sword in his warband, you let me know." />
+	<string
+		id="generic_backstory.spc_wanderer_sturgia_9"
+		text="{=kQO0wZLj}I guess I'd say that I'm just a lady who didn't care for her distaff, and took up a spear instead. If you want to know more, hire me, point me at your enemies, and I'll show you rather than tell you." />
+	<!-- BATTANIANS -->
+	<string
+		id="prebackstory.spc_wanderer_battania_0"
+		text="{=mFiGSOSm}Certainly. The more who know about my skills, the better." />
+	<string
+		id="backstory_a.spc_wanderer_battania_0"
+		text="{=8lQ9IM8N}The women in our family passed down the art of healing from generation to generation, and other... em... services, that can be accomplished with herbs. But for all our skill we remained poor, while richly robed, well-fed men with half our skill walked about the towns tending to the lords and ladies." />
+	<string
+		id="backstory_b.spc_wanderer_battania_0"
+		text="{=dKAun6OE}By the time I became a woman I was sick of filthy huts and puking babies. I came to the towns and inquired after which households, among those who had wealth, might have a patient for me. Of course when I showed up at the door in my torn, stained dress they slammed it in my face. " />
+	<string
+		id="backstory_c.spc_wanderer_battania_0"
+		text="{=WvLK5myZ}So I acquired some denars - I will not say how - and with it bought a silk robe and some jewelry. This got me inside the doors of rich men's houses, and the cures I worked, and the reputation I earned, have done the rest. " />
+	<string
+		id="response_1.spc_wanderer_battania_0"
+		text="{=Zb6ObDEB}Sounds like you have a good head for business." />
+	<string
+		id="response_2.spc_wanderer_battania_0"
+		text="{=C19gsGFY}Yes - many is the healer who has come to specialize in the diseases of the rich." />
+	<string
+		id="backstory_d.spc_wanderer_battania_0"
+		text="{=jcrmV9Lg}But I've noticed something - more denars is spent on war than on anything else. So, if someone's raised an army, and doesn't want to lose their investment to infected wounds and fevers, well, it might be worthwhile to employ me." />
+	<string
+		id="generic_backstory.spc_wanderer_battania_0"
+		text="{=qyvj53mi}Once I was just another back-country healer, attending to squalling babies and superstitious villagers. But now I'm trying to make the money that my skill with medicine deserves." />
+	<!-- the boar (boorish) -->
+	<string
+		id="prebackstory.spc_wanderer_battania_1"
+		text="{=lGSH1wsv}Pull up a chair, friend - you'll be glad you asked!" />
+	<string
+		id="backstory_a.spc_wanderer_battania_1"
+		text="{=7TbLW9lr}I could tell you of all my deeds, and you'd never believe me. But you know, if you'd met me a year back, I could have taken you to my hall some time and shown you them. Shown you my deeds! You heard that! " />
+	<string
+		id="backstory_b.spc_wanderer_battania_1"
+		text="{=yj3nO24m}I do things in the old way, and so whenever an enemy falls to my spear, I take their head! Let's see - I have Brechtan the Old, Lamaich the Lame -- don't let the names fool you, these were great warriors - Archan the Bull, so many others! A true Battanian never boasts, because his deeds are hung over the hearth for all to see. At least that's the way it used to be." />
+	<string
+		id="backstory_c.spc_wanderer_battania_1"
+		text="{=mPLvjSiB}A lot of heads... You can imagine, a lot of other warriors were envious of me. Some in my village even conspired against me, had me expelled. I lost my hall, and I had to bury the heads. I doubt you could recognize them any more. What a pity, eh? A collection like that will never be seen again." />
+	<string
+		id="response_1.spc_wanderer_battania_1"
+		text="{=ZqWHeJ9B}Envy, yes, the only possible explanation for why your clan drove you out. Such a terrible sin!" />
+	<string
+		id="response_2.spc_wanderer_battania_1"
+		text="{=tRgVxROs}I doubt you have such a collection, and if you did, it would be the last thing I'd like to see." />
+	<string
+		id="backstory_d.spc_wanderer_battania_1"
+		text="{=OESUaPeh}So anyway, I need money to build a new hall, and start a new collection. So if someone wants to pay me my worth as a warrior, my spear is theirs!" />
+	<string
+		id="generic_backstory.spc_wanderer_battania_1"
+		text="{=LDlFgmIs}Well now, I am a warrior of the Battanians. There is no greater boast than that, I will tell you! But perhaps if you hire me, I can tell you more later about the great names I have slain and the heads I have taken." />
+	<!-- hamlet type, son of a medb -->
+	<string
+		id="prebackstory.spc_wanderer_battania_2"
+		text="{=APcr8rgq}I'll tell you. You may wish to get yourself a drink." />
+	<string
+		id="backstory_a.spc_wanderer_battania_2"
+		text="{=t0VGwvPo}You may have heard of my father - Cynan fen Aedeg. Many called him Cynan the Brave. It's my life's goal to be his worthy son, though he died when I was a baby. My stepfather, though rich in land and cows, does not have the same reputation, although I resolved early in my life that duty to my mother necessitated that I serve him as loyally as I would my natural father." />
+	<string
+		id="backstory_b.spc_wanderer_battania_2"
+		text="{=a1FYCbdy}Soon after I came of age, we got wind that our neighbors would raid us for cattle. We did not know by which road they would come. I was sent with a few of our tenants to hold a ford that was far out of the way." />
+	<string
+		id="backstory_c.spc_wanderer_battania_2"
+		text="{=iGH88WOz}At first I was angered, because I believed that I was being kept away from battle and glory. But as it turned out, that's the way the enemy army came. When I saw them at the ford, I challenged their leaders to single combat, as that was our way. They accepted, and sent forth a champion. To make a long story short, I slew him, and then two more who came after him. The rest graciously admitted that my victories meant they were obliged to retreat. " />
+	<string
+		id="response_1.spc_wanderer_battania_2"
+		text="{=QRgltY66}May all of us have such honorable foes!" />
+	<string
+		id="response_2.spc_wanderer_battania_2"
+		text="{=egZ6P7sq}A boy like you killed three champions, eh? Well, all things are possible, I suppose." />
+	<string
+		id="backstory_d.spc_wanderer_battania_2"
+		text="{=d8aCwUJj}When I returned to my stepfather's hall, my mother met me outside, in tears. She had given me up for dead - my stepfather knew the direction from which the enemy clan would come, and had intended for me to die. She did nothing to stop him, but since I had survived, she bid me flee - for if not, she feared, it was inevitable that our clan should sink into the abyss of kinslaying. So here I am, looking for a worthy lord for whom to fight." />
+	<string
+		id="generic_backstory.spc_wanderer_battania_2"
+		text="{=7bX48G5w}I was raised in a well-known clan, but my father died and my stepfather cast me out. It is a common enough story among our people. You may find many of us wandering the roads, our swords our only inheritance." />
+	<!-- the grey, professional veteran. fought for the empire -->
+	<string
+		id="prebackstory.spc_wanderer_battania_3"
+		text="{=4qqsndje}One moment. I need a drink." />
+	<string
+		id="backstory_a.spc_wanderer_battania_3"
+		text="{=wH5GepOD}I am Battanian. But for 20 years, I fought for the Empire. Indeed, most Battanians my age learned their trade in the legions. We saw no dishonor in it. They fed us well, they paid us well, they respected our courage." />
+	<string
+		id="backstory_b.spc_wanderer_battania_3"
+		text="{=WmGxA0P1}But there's no legions any more. And since Caladog became king, well, he's gotten the young to think that to fight for the Empire is treason. Treason to what? 'Battania'? There is no Battania. Never has been. Just a bunch of quarreling warlords, who'll steal your cows as soon as you turn your back on them." />
+	<string
+		id="backstory_c.spc_wanderer_battania_3"
+		text="{=7QFCINsI}Every time I've fought with a band of my 'countrymen,' I've told them: 'Hold your lines. Stay firm. Fight as the Empires does: as a solid hammer, not a gaggle of goats.' And every time I have seen them disintegrate into a screaming rush as soon as the arrows start flying, to dash themselves on the enemy's shields or be cut down by cavalry coming in on the sides." />
+	<string
+		id="response_1.spc_wanderer_battania_3"
+		text="{=VnfPb4ji}Indeed. There's much to be learned from the foreigner, whoever the foreigner is to you." />
+	<string
+		id="response_2.spc_wanderer_battania_3"
+		text="{=F9dSDE2k}A man should fight for his hearth and his kin, however much they disappoint him." />
+	<string
+		id="backstory_d.spc_wanderer_battania_3"
+		text="{=HREVUExb}Anyway, well, I've had it with narrow escapes from charging cataphracts, and I'm going to seek work in a more professional force." />
+	<string
+		id="generic_backstory.spc_wanderer_battania_3"
+		text="{=kqbifZIo}I am Battanian by birth but I served with the Empire. Many of us did. A brave lord, a captain who cares for his men... What does it matter in which language your oath of fealty is given, as long as you honor it? " />
+	<!-- horsethief -->
+	<string
+		id="prebackstory.spc_wanderer_battania_4"
+		text="{=OxBmSnh0}I shall tell you. Is there a bard in the house? He may wish to take notes. I believe this is fine material for a song." />
+	<string
+		id="backstory_a.spc_wanderer_battania_4"
+		text="{=9vt4wew9}I am a connoisseur of horseflesh, my friend. No one knows horses better than I. But I find, alas, that often the best horses are wasted on unworthy owners, so I try to rectify that." />
+	<string
+		id="backstory_b.spc_wanderer_battania_4"
+		text="{=VUbklG5U}I was raised as a stableboy. But I had a gift for breaking horses, and for my hard work, and the risks I took to my neck taming young stallions, the old lord promised me that on my fifteenth birthday I should have a horse of my own." />
+	<string
+		id="backstory_c.spc_wanderer_battania_4"
+		text="{=zwKDTWd5}But the old lord died, alas, and when my birthday came, his heir laughed at me. He told me that a fine horse would be wasted on me; perhaps I would like a goat. So that night I took the best animal in the stable, and rode off." />
+	<string
+		id="response_1.spc_wanderer_battania_4"
+		text="{=bagbVij6}So, what you're saying is that you're a horsethief." />
+	<string
+		id="response_2.spc_wanderer_battania_4"
+		text="{=ysfnd0id}Of course. Every felon is just an honest man wronged. I've heard a hundred such tales and I've no wish to hear another." />
+	<string
+		id="backstory_d.spc_wanderer_battania_4"
+		text="{=KHq1bUOa}I am the prince of horsethieves! I have stolen Aserai mares from amid the tents and ridden them across the desert under the moon, I have taken Vlandian stallions from their paddocks, the sturdy ponies of the Khuzaits, and the steady geldings of the imperial lancers. But, I'll be the first to admit, it is risky work, so sometimes I do other jobs." />
+	<string
+		id="generic_backstory.spc_wanderer_battania_4"
+		text="{=ZRQIdapZ}I am a horsethief. I come from a region where to be a horsethief is an honorable profession, and I am very good at it. But it is dangerous work, as owners can be vindictive people, and I am seeking safer work - as a mercenary, perhaps." />
+	<!-- loner -->
+	<string
+		id="prebackstory.spc_wanderer_battania_5"
+		text="{=LzlRFPrj}Give me a minute. It has been a long time since I spoke more than a few words at a time to others." />
+	<string
+		id="backstory_a.spc_wanderer_battania_5"
+		text="{=84coQmIJ}My family was not one of the greatest clans of the Battanians, but neither are we among the poorest. When I came of age, my family sent me to join the Wolfskins. You may have heard of this tradition - for three years we live in the woods and do not eat cooked meat, wear spun cloth, or sleep under a roof, and according to the law we are beasts, not bound by the laws of men." />
+	<string
+		id="backstory_b.spc_wanderer_battania_5"
+		text="{=re1jRErx}Some speak well of their time in the Wolfskins. It is intended to teach you the ways of the woods. But the 'pack' I joined were all rich feral children, playing at being animals." />
+	<string
+		id="backstory_c.spc_wanderer_battania_5"
+		text="{=U6GQq4Id}They would sit around the fire at night and belittle each other. I was never quick with my tongue and the others learned to gang up on me. At one point I could take it no longer - I stabbed one in a fight. No one knew how to treat the wound, so he bled to death. And then I fled." />
+	<string
+		id="response_1.spc_wanderer_battania_5"
+		text="{=HtbAEEcR}Good thing you were exempt from the laws of man, eh?" />
+	<string
+		id="response_2.spc_wanderer_battania_5"
+		text="{=fynTmZiX}Barbarians. Just when you think you've heard it all... Good day to you." />
+	<string
+		id="backstory_d.spc_wanderer_battania_5"
+		text="{=jp9iAxab}I saw how much tradition was worth. I was not answerable to the law, but I heard soon enough that the family of the youth I'd stabbed hired men to kill me. I stayed in the woods, living alone. I am happy there, most of the time. But sometimes I yearn to be among other men, and come to the city to look for work." />
+	<string
+		id="generic_backstory.spc_wanderer_battania_5"
+		text="{=bZ1qYeIa}I'm a former Wolfskin. No doubt you have heard of us. I am not proud of what I did as a Wolfskin. But I am proud of the woodcraft I learned." />
+	<!-- talkative bandit, of the hills -->
+	<string
+		id="prebackstory.spc_wanderer_battania_6"
+		text="{=rriedqBz}Oh, I'll tell you. It's a fine tale, full of adventure and romance, but tragic too." />
+	<string
+		id="backstory_a.spc_wanderer_battania_6"
+		text="{=IRTr1FXk}Aye, once I made a fine living, in the Empire, stopping merchants on the roads and asking 'em for a bit of change. But there was a lass there, beautiful as the moon and just as cold, and she was my undoing. Courted by an imperial prefect but I thought, I can do better than that, with my takings, and I brought her the pick of the rings and finery and asked her to pass the evening with me. " />
+	<string
+		id="backstory_b.spc_wanderer_battania_6"
+		text="{=oAyYQazn}She agreed, eagerly enough! There was wine and talk, but too much wine, and I slept off. Then woke in the morning, I did, and hooves were clattering outside and up comes the prefect and a file of horsemen, and away they took me to the town to be hanged." />
+	<string
+		id="backstory_c.spc_wanderer_battania_6"
+		text="{=oqWFzmkN}Blessed be the Gods, happened that my cousin Aed was in the guard. He sprung me that night from the prison, and together we went roaming round the country. But a passing magistrate decided he weren't parting with his purse, and pulled his blade rather than handing it over like a sensible lad. I took him down, but now before my poor Aed was butchered. See now the price of woman's ingratitude?" />
+	<string
+		id="response_1.spc_wanderer_battania_6"
+		text="{=hGL3LHSN}Most unlucky you were." />
+	<string
+		id="response_2.spc_wanderer_battania_6"
+		text="{=GCd02obf}Perhaps one should not press a courtship too far, when one is a bandit." />
+	<string
+		id="backstory_d.spc_wanderer_battania_6"
+		text="{=tqdwOLPg}So here I am now, drinking to my poor cousin's memory, and looking for a bit of honest work. Well, it needn't be too honest, I suppose. I have a few skills that might be of use - among other things, if you ever happen to acquire any contraband you wish to sell, I reckon I can spot you a good price in the markets." />
+	<string
+		id="generic_backstory.spc_wanderer_battania_6"
+		text="{=TD3babBS}I was a robber on the highways, in the Empire, making a fine living from the merchants on the roads. But I loved a girl in town, and snuck in to visit her from time to time. Then I got caught, and had to reveal the hiding place all my hard-earned loot to the guards to escape the noose. So here I am now." />
+	<!-- female, the wanderer. killed a chief's son who pestered her -->
+	<string
+		id="prebackstory.spc_wanderer_battania_7"
+		text="{=yHWwzEZQ}Aye, I can tell you my story." />
+	<string
+		id="backstory_a.spc_wanderer_battania_7"
+		text="{=0reAi03W}I was a cowherd. In most villages, this is a boy's job, because one must be alone in the hills. In our village there were few boys, and I was a good shot with a sling, good at keeping the wolves away." />
+	<string
+		id="backstory_b.spc_wanderer_battania_7"
+		text="{=12lOrxfb}The boys of the neighboring village would pester me. One of them, the chief's son, would not leave me alone. They wanted from me what all boys want. One day he came up behind me and tried to take me by force. But I had a knife... " />
+	<string
+		id="backstory_c.spc_wanderer_battania_7"
+		text="{=EtfElSU3}I did not know what to do with his body. I buried it up in the hills, then told my parents. For fear of bloodshed, they told me to leave, to find my way in the world some other way." />
+	<string
+		id="response_1.spc_wanderer_battania_7"
+		text="{=bYrgTQ3s}It sounds as though you had no choice." />
+	<string
+		id="response_2.spc_wanderer_battania_7"
+		text="{=OUTjQlW1}There are customs for that sort of thing, trials, blood money, you know." />
+	<string
+		id="backstory_d.spc_wanderer_battania_7"
+		text="{=mxK0bSmE}I am no warrior, not yet - but I could be one. I am good with a sling, and a knife. I can run fast. I can bear hardship. I would stand my ground, because I have nowhere to run." />
+	<string
+		id="generic_backstory.spc_wanderer_battania_7"
+		text="{=pabl5PiA}I was a shepherd. Normally the job is given to boys, but I always had a knack for bows and slings, which we use to keep the wolves away. The trouble with being a shepherd, though, is that there's always the chance of quarrels with the herders of the neighboring village over disputed pastures or missing sheep. Perhaps I was too good with a bow - I killed a neighbor. My parents were poor and could not afford the blood money, so I fled." />
+	<!-- The accursed, believed to be bad luck to husbands -->
+	<string
+		id="prebackstory.spc_wanderer_battania_8"
+		text="{=ZOVdtwbw}So, you want to know about the games that Fate has played with me?" />
+	<string
+		id="backstory_a.spc_wanderer_battania_8"
+		text="{=qFU6cYSe}When I was just a baby, a woman said to have the Sight came to my father's hall. When she saw me, she told him that she saw the mark of the faeries upon me. She performed a divination, and said she had learned that I was to be a prank played on mankind: I should grow up to be a great beauty, but that any man who proposes to marry me shall die." />
+	<string
+		id="backstory_b.spc_wanderer_battania_8"
+		text="{=aZOuFJ6H}Well, he did not believe in such things, so he laughed, tossed her a few coins, and sent her on her way. I grew up. When my first suitor was skewered by a spear in battle, I grieved, but thought little of it." />
+	<string
+		id="backstory_c.spc_wanderer_battania_8"
+		text="{=P1EHkSAx}When my second suitor passed of a fever, I was unnerved. When my third suitor was thrown from his horse on a hunt, I knew I must do something.." />
+	<string
+		id="response_1.spc_wanderer_battania_8"
+		text="{=KbdCL6nK}Very responsible of you. Can't go killing off the whole village, now." />
+	<string
+		id="response_2.spc_wanderer_battania_8"
+		text="{=7RyQGcbI}The trouble with prophecies... People remember the one that came true, never the ten that were false." />
+	<string
+		id="backstory_d.spc_wanderer_battania_8"
+		text="{=gPN2xlx1}I resolved to take up the profession of arms, so that all men know that I am not the marrying type. I forge my own weapons, to avoid going into town whenever possible. And I tell all others of the curse upon me, as soon as I meet them. And I am far from my family, so no man will go to my father to ask for my hand." />
+	<string
+		id="generic_backstory.spc_wanderer_battania_8"
+		text="{=bhVekK9J}I come from the highlands. My people were suspicious folk. It is easy to them to get into their heads that a child, especially a girl, practices witchcraft. I had two neighbors die of fevers within the same season, and so I was chased from my home and driven to fend for myself. Which I can, and did. I forge my own weapons and can wield them as well, but now I'm looking for steady work." />
+	<!-- 'Cowthief' - caught up in feud, raided cattle as revenge -->
+	<string
+		id="prebackstory.spc_wanderer_battania_9"
+		text="{=l01koCnM}My story? This is my tale in a nutshell - men's greed for cattle cost me my home and my kin." />
+	<string
+		id="backstory_a.spc_wanderer_battania_9"
+		text="{=DZTOovh6}My uncle - he had a great herd of cows, and in the Battanian upcountry that is only kind of wealth we value. But they were taken by his chief herdsman, a man we trusted. So we took up spears to get them back, but my uncle was now poor, but the thief had many kinsmen. Having nothing else to lose, my uncle ordered that even the women of our family take up spears and ride out to fight, and so we did." />
+	<string
+		id="backstory_b.spc_wanderer_battania_9"
+		text="{=RBwhiMkD}We came down on the thief's village one day at dawn. They were too many, and we were beaten. My brothers and most of my kin were all slain. I had nowhere to go." />
+	<string
+		id="backstory_c.spc_wanderer_battania_9"
+		text="{=ECaJe7d8}But I had killed three men with a spear that day, and found I had a taste for it. And I learned that thieves grow rich, while honest men die. So I lived in the hills, and took the cows of families more fortunate then my own. But I sold the cows I took, and kept the denars close to my chest." />
+	<string
+		id="response_1.spc_wanderer_battania_9"
+		text="{=4u5YQtKn}Hard to blame you for that, I suppose." />
+	<string
+		id="response_2.spc_wanderer_battania_9"
+		text="{=8U01rj5f}When a victim turns thief, that does not right the world." />
+	<string
+		id="backstory_d.spc_wanderer_battania_9"
+		text="{=fkbaYOGt}But I don't intend to live this way forever. There are a thousand paths to turning outlaw, you see, but they mostly come to a single end. So I'm here, in the town, looking for other work." />
+	<string
+		id="generic_backstory.spc_wanderer_battania_9"
+		text="{=0ttlPDSr}My family was in a feud. Over stolen cattle, as is often the case in the upcountry. Well, the family we fought turned out to be rather stronger than us, and most of us were killed. The rest were scattered. I lived for a while as a thief, stealing to eat, but that is a bitter path, and now I am looking for something better." />
+	<!-- chatty monk, healer -->
+	<string
+		id="prebackstory.spc_wanderer_vlandia_0"
+		text="{=6NorKoWz}Well, before we begin, here's a flagon of ale to your health - both physical and spiritual." />
+	<string
+		id="backstory_a.spc_wanderer_vlandia_0"
+		text="{=ruX5vDpE}I fancy myself a philosopher of medicine, you see. My parents sent me to a monastery when I was young, to study both the healing power of the Heavens and the healing powers of man - the science of herbs, that is to say." />
+	<string
+		id="backstory_b.spc_wanderer_vlandia_0"
+		text="{=JrnXaI9i}But the monasteries, you know. The gardens are lovely, the libraries rich... But getting up at dawn to pray for the health of the king and benefactors - I don't know if it was doing his Majesty's health much good, but it certainly wasn't doing me any favors. So I left." />
+	<string
+		id="backstory_c.spc_wanderer_vlandia_0"
+		text="{=vhQVhYFV}I started following the armies around. Always work for a herbalist, and while I don't care much for dawn marches, they're infrequent enough, and often there's a spare cart to sleep on. And warriors too - wounds of the body and wounds of the soul. I do far more good there then I ever did among my fellow monks, I can tell you." />
+	<string
+		id="response_1.spc_wanderer_vlandia_0"
+		text="{=hGYQ0mxR}Yes, yes. The healer must go to where there is need of healing." />
+	<string
+		id="response_2.spc_wanderer_vlandia_0"
+		text="{=astXdbzl}The monastic calling is supposed to inspire us to live pure lives. It doesn't look good when people abandon it." />
+	<string
+		id="backstory_d.spc_wanderer_vlandia_0"
+		text="{=ataDrzt7}At any rate, I'm looking around to see if there's any campaign I might join." />
+	<string
+		id="generic_backstory.spc_wanderer_vlandia_0"
+		text="{=BFVlgN2S}I was a monk. But I, like many others, wasn't especially suited to monastery life, and was expelled. No complaints there. The one good thing about monasteries, though - you learn a fair deal about herbs and medicine. So that's how I intend to make my income." />
+	<!-- the loud -->
+	<string
+		id="prebackstory.spc_wanderer_vlandia_1"
+		text="{=U0zuHtwa}Of course - and I'm sure you'll agree it's a tale worth of the telling!" />
+	<string
+		id="backstory_a.spc_wanderer_vlandia_1"
+		text="{=ELXn5Nv5}My lineage is as ancient as it is noble, so of course when King Derthert called the muster of the vassals, I took my father's horse and mail and rode off to join it. This was in our war against the Empire, you see." />
+	<string
+		id="backstory_b.spc_wanderer_vlandia_1"
+		text="{=nI3aJA8u}There was a great deal of marching to and fro, in the mud, and I shan't bore you with that. But you must have heard of what happened when we caught them. We were forming our ranks to charge when another knight - if indeed he is worthy of the name - told me that I had no place in the front and I must join the second rank of horses." />
+	<string
+		id="backstory_c.spc_wanderer_vlandia_1"
+		text="{=qMPY1rUo}Well, you know what a man of honor does when he is insulted like that -- I struck him down, and then his friends came against me, and I struck them down too! I laid a full dozen of them down before they finally overbore me. Have you ever heard of a more glorious stand against such odds in the name of honor?" />
+	<string
+		id="response_1.spc_wanderer_vlandia_1"
+		text="{=OgdD6bs9}If you really took down a dozen men fighting single-handed, that is quite impressive." />
+	<string
+		id="response_2.spc_wanderer_vlandia_1"
+		text="{=26RU4ZRj}Wait... This famous stand you're describing. It was against your own side?" />
+	<string
+		id="backstory_d.spc_wanderer_vlandia_1"
+		text="{=FqW4dBTS}At any rate the enemy came down upon us, and the Vlandian host was scattered. I do not care to rejoin such miscreants, but if another captain were gracious enough to take me on, I would be pleased to add to my glory in his service." />
+	<string
+		id="generic_backstory.spc_wanderer_vlandia_1"
+		text="{=kSJEjvHm}I am a knight of the Vlandians. I am a man of honor. Honor, of course, dictates that one avenges all insults, regardless of the consequences. I shall say no more, only that I am in need of a new captain to follow due to complications in my previous circumstances." />
+	<!-- born out of wedlock -->
+	<string
+		id="prebackstory.spc_wanderer_vlandia_2"
+		text="{=D7IINWEl}I can tell you my story, but I don't know how interesting you will find it." />
+	<string
+		id="backstory_a.spc_wanderer_vlandia_2"
+		text="{=QlWhygXi}I was born out of wedlock. My father took me in, but of course there was no question of me inheriting anything. I did not wish to be a burden on my brothers, so I decided to go to war." />
+	<string
+		id="backstory_b.spc_wanderer_vlandia_2"
+		text="{=2VTD9b4L}As it happened, my neighbors needed to supply an armed man for the king's levy. None of them wished to go, so I offered to stand in for them. They bought me a sword, jerkin and horse, and thus I became a warrior." />
+	<string
+		id="backstory_c.spc_wanderer_vlandia_2"
+		text="{=8xrIamsU}My first foray into war, we were pursued by a force of imperial cavalry twice our number. One man was needed to stay behind and hold a ford, so that the rest could escape. The others had families, so I chose to be that one, as I could think of none who would mourn me. " />
+	<string
+		id="response_1.spc_wanderer_vlandia_2"
+		text="{=faDAEda5}I commend your love for your fellow man." />
+	<string
+		id="response_2.spc_wanderer_vlandia_2"
+		text="{=9YDjFZIU}Mmm... I do appreciate virtue, but villainy makes for a much spicier tale." />
+	<string
+		id="backstory_d.spc_wanderer_vlandia_2"
+		text="{=4mgqRx6a}I fought as best I could, but the imperial forces took me prisoner. When they found that there was no one to ransom me, they let me go on my pledge that I would pay them later. It was a most noble gesture of them. So, I feel that I have no choice but to earn the money." />
+	<string
+		id="generic_backstory.spc_wanderer_vlandia_2"
+		text="{=qE4rBOI7}I am the son of a knight, but not a son born in wedlock. I was raised in my father's house, but when he was taken prisoner and ransomed, he had to sell much of what he owned, and therefore could no longer support me. I decided to set out to make my own name, if my family could not give me one. It is a common tale." />
+	<!-- veteran. decent man haunted by looting of cities. hated being loyal to men who saved his lives who turn out to be killers -->
+	<string
+		id="prebackstory.spc_wanderer_vlandia_3"
+		text="{=D6Xd5ZrT}I'm drunk, so I'll tell you." />
+	<string
+		id="backstory_a.spc_wanderer_vlandia_3"
+		text="{=xl6SnA6n}I was a soldier. It was my father's profession. I thought it would be easy for me. I wasn't scared of death or hardship. But things happen in war - not the deaths, the wounds, the screaming - but terrible things. It's difficult to explain." />
+	<string
+		id="backstory_b.spc_wanderer_vlandia_3"
+		text="{=xSKbicft}Let's say there's a man. He saves your life. He takes a blow for you. And he doesn't boast about it, he doesn't tell anyone else - he just grins at you. Because he knows you'd do the same for him. He's your brother. Every man who fights with him is his brother." />
+	<string
+		id="backstory_c.spc_wanderer_vlandia_3"
+		text="{=4MJsYhys}But everyone else - they're beasts to him. And he's a beast to them. And maybe a day comes that he's gone too far, and the lord is wondering whether to hang him, and a word from you determines whether he lives or dies. And if he lives, that means more peasant women will be raped and old men cut open to look for jewels in their bellies." />
+	<string
+		id="response_1.spc_wanderer_vlandia_3"
+		text="{=g1sQna0D}A terrible dilemma." />
+	<string
+		id="response_2.spc_wanderer_vlandia_3"
+		text="{=nmtbhSbc}A warrior stands beside his comrades like a man stands beside his brothers. Whatever their crimes may be." />
+	<string
+		id="backstory_d.spc_wanderer_vlandia_3"
+		text="{=spHoDrGN}I said nothing. I let my brother hang. I thought I did the right thing, but every night thereafter I saw accusation in the eyes of my fellows. I could not face them. I fled. And here I am now." />
+	<string
+		id="generic_backstory.spc_wanderer_vlandia_3"
+		text="{=bxKXHPp1}I served in the free companies. When I was young and foolish I loved it - the danger, the comraderie. But sometimes something you see turns your stomach. Something you saw a friend of yours do in a looted city. I will not speak of it. I need a new road to follow." />
+	<!-- the shark, butcher/criminal -->
+	<string
+		id="prebackstory.spc_wanderer_vlandia_4"
+		text="{=q977EaUU}You ask a lot of questions, friend. So I'll tell you what you need to know, and no more." />
+	<string
+		id="backstory_a.spc_wanderer_vlandia_4"
+		text="{=I9FWCRtO}You look like someone who's been around a bit, so I probably don't have to tell you about how this faithless world of ours works. Sometimes it needs a man who's not afraid to get his hands dirty to make sure there's a bit of order." />
+	<string
+		id="backstory_b.spc_wanderer_vlandia_4"
+		text="{=5Z9SNzQw}The lords and the merchants, they sit in their lofty towers making grand decisions, but they don't see into the back alleys to know what plots are going on. They don't know where to find the debtor who won't pay his debt. They don't know where to find the wagging tongues starting rumors. So that's where I come in." />
+	<string
+		id="backstory_c.spc_wanderer_vlandia_4"
+		text="{=aTGl3b1G}Anyway, that's all I'll say about my line of work - unless, of course, you'd care to make a down payment on my services. Then we can talk more." />
+	<string
+		id="response_1.spc_wanderer_vlandia_4"
+		text="{=RsE01mvh}Ah, yes, you do sound like a useful type." />
+	<string
+		id="response_2.spc_wanderer_vlandia_4"
+		text="{=bDidH1Pu}It takes a vile man to do that work, and an even worse one to boast about it." />
+	<string
+		id="backstory_d.spc_wanderer_vlandia_4"
+		text="{=dJxHX9si}The way I look at it, we all fulfil the will of the Heavens in our own way. So I do what I'm good at." />
+	<string
+		id="generic_backstory.spc_wanderer_vlandia_4"
+		text="{=ohA8pdlS}I kill for a living. I've killed a lot, and if you want me to kill for you, you'll hire me. You seem to have been around a bit. I don't think I need to tell you any more. I'm sure you can reckon if I'm worth my price." />
+	<!-- longshoreman, fled dominating guild, strong. Gang leader nemesis - removed for now -->
+	<string
+		id="prebackstory.spc_wanderer_vlandia_5"
+		text="{=ZN3QD4Ks}I'll tell you. I'll tell anyone who listens." />
+	<string
+		id="backstory_a.spc_wanderer_vlandia_5"
+		text="{=8Caa7QPs}My father had five sons. That wasn't unusual, but what was unusual is that we all made it to adulthood. There wasn't enough land for all of us, so the two youngest of us moved to Charas. Found work on the wharves, hauling in cargos from all the ships coming in. For a few years, it was good work." />
+	<string
+		id="backstory_b.spc_wanderer_vlandia_5"
+		text="{=fGhNWKgK}But with the wars, and a lot of people losing their land, things changed on the docks. Too many hands, and not enough cargos. Gangs from the back alleys started getting involved. If you didn't hire their people, maybe your ship would go up in flames." />
+	<string
+		id="backstory_c.spc_wanderer_vlandia_5"
+		text="{=ddQAXhd6}One night I was walking home with my brother when we ran into a group working for one boss they called Big Tuna. Told us our crew had killed one of theirs, and they were going to kill one of ours in return. Took my brother, wrapped a heavy chain around his legs, and threw him into the water. I don't know why they let me live. " />
+	<string
+		id="response_1.spc_wanderer_vlandia_5"
+		text="{=JsP90A6a}I am sorry for your loss." />
+	<string
+		id="response_2.spc_wanderer_vlandia_5"
+		text="{=9KJdwiWV}Aye, well, that shows how far honest work gets you." />
+	<string
+		id="backstory_d.spc_wanderer_vlandia_5"
+		text="{=FbVJrA77}So I ran. I left Charas. Look, I know about shipping, cargos, inventories. I'm not a violent man. But I will learn to fight. And then I'll return. I'll show them that there's a price to be paid for killing my brother." />
+	<string
+		id="generic_backstory.spc_wanderer_vlandia_5"
+		text="{=KAK7DLTq}My family were farmers, but we were driven off of our land. We tried to make a new home in Charas, but the people weren't too keen on newcomers, and one of the gangs ran us out. Now I don't know what to do to myself, but whatever it is, I reckon I'll have to learn how to fight." />
+	<!-- loner - father fled to avoid feud with bailiff, then disappeared in a blizzard -->
+	<string
+		id="prebackstory.spc_wanderer_vlandia_6"
+		text="{=UnNwWJT2}I don't mind telling." />
+	<string
+		id="backstory_a.spc_wanderer_vlandia_6"
+		text="{=W2x5Z40R}Up in the northwest, when we go to bed each night we make sure we can find our spears in the dark, because you never know if that night's going to to be the one that a Sturgian or Battanian warband is going to pay a visit. We're proud men up there, and we expect the lords to understand that their lackeys can't treat us like serfs in some safe southern estate." />
+	<string
+		id="backstory_b.spc_wanderer_vlandia_6"
+		text="{=fGTeaCVU}My father was even a little prouder than most, I suppose. One day he was insulted by the lord's bailiff and he upped and left, moved us higher in the hills to be away from all other men. " />
+	<string
+		id="backstory_c.spc_wanderer_vlandia_6"
+		text="{=q3ZXATdq}We burned away some of the forest and planted barley. My mother died of a fever, but me and my sister and my father, we lived up there 10 lean and lonely years, all so my father didn't have to doff his hat to any other man. Then he vanished in a blizzard." />
+	<string
+		id="response_1.spc_wanderer_vlandia_6"
+		text="{=WZyybR2g}A tragic tale. My condolences." />
+	<string
+		id="response_2.spc_wanderer_vlandia_6"
+		text="{=f4kz9PyG}A fitting reward for a man who defied the order that the Heavens instituted on earth for our own good." />
+	<string
+		id="backstory_d.spc_wanderer_vlandia_6"
+		text="{=b0zmbTPQ}When all was done I'd have killed for an hour of another man's company, or a sip of wine, or a glimpse of a girl. So my sister and I, we came down to the valleys. She found a husband. I can get good work as a tracker. And that's all there is to it." />
+	<string
+		id="generic_backstory.spc_wanderer_vlandia_6"
+		text="{=sfgZhUgT}I grew up in the north of the Vlandian lands. Sometimes men up there take their families far up in the hills, to live without any master or lord. But it's a hard life, cold and lonely. I want something better. I know the wilds well. I figure I can be of good use to a lord or lady, as a scout, and can at least choose my master." />
+	<!-- female. ex brother of the woods. Like any other group of bandits. Lord as nemesis -->
+	<string
+		id="prebackstory.spc_wanderer_vlandia_7"
+		text="{=6KUJ7cYt}Sure, I'll tell you my tale. Don't expect a happy one." />
+	<string
+		id="backstory_a.spc_wanderer_vlandia_7"
+		text="{=iPCX96mA}My father was a tenant farmer from near Usanc. By law, so long as he paid a third of his crop in tax, he couldn't be kicked off the land. But the landlord wanted to raise sheep, so he had a document forged that said my family moved here a generation ago and therefore wasn't covered by the law... It's a bit complicated, this part, but the end is that they cheated my family of its rights and we were cast into poverty." />
+	<string
+		id="backstory_b.spc_wanderer_vlandia_7"
+		text="{=xB6zj8ei}I wasn't the type to take that meekly. My cousin, he'd lost his land too some years before, and he'd run off to join the Brotherhood of the Woods. People said that they stood up for the poor. Took money from those who did injustice, and gave it to those who were wronged. So I went to join them too." />
+	<string
+		id="backstory_c.spc_wanderer_vlandia_7"
+		text="{=3AbNYbOo}Maybe they were like that once, but they'd changed. They robbed, forced people to give them food, called poor farmers 'spies' and killed them just to strike fear in the others. So I said one day, 'You're all a bunch of common bandits.' They came to kill me, my cousin stood up for me, and they knifed him." />
+	<string
+		id="response_1.spc_wanderer_vlandia_7"
+		text="{=1paC3mV1}Yes. Too many men on both sides of the law prey on the weak." />
+	<string
+		id="response_2.spc_wanderer_vlandia_7"
+		text="{=VLIz9b7u}You thought there was such a thing as noble bandits? Perhaps you went in search of fairies next?" />
+	<string
+		id="backstory_d.spc_wanderer_vlandia_7"
+		text="{=b2UpIO43}I left the woods, but I spent enough time with the bandits to learn a bit of woodcraft. Now I help lords hunt them. If I must choose between two evils, I will work for the one that pays better. But I also have an outstanding debt with the landlord. Perhaps some day I will be able to settle it." />
+	<string
+		id="generic_backstory.spc_wanderer_vlandia_7"
+		text="{=WtNQGw3o}My family were tenant farmers. But that life was rubbish, and our lord was rubbish too. So I fled to the woods, where there were rebels, called themselves the 'Brotherhood of the Woods.' Rubbish of the woods, more like it. Puffed-up bandits. So now I'm looking for a boss who's not rubbish. Does such a thing exist? I guess I'll find out." />
+	<!-- smith, struck dead a lord who ran down a child with his horse -->
+	<string
+		id="prebackstory.spc_wanderer_vlandia_8"
+		text="{=JFdjrbAF}Huh? Well, okay. Why not?" />
+	<string
+		id="backstory_a.spc_wanderer_vlandia_8"
+		text="{=1Gr3wo1m}I was a smith. As you can see I'm a big fellow, strong... I was good at my job. Had a nice shop on the high street through my town. Saved a bit of money and thought about finding a girl to wed." />
+	<string
+		id="backstory_b.spc_wanderer_vlandia_8"
+		text="{=jsuOEu3a}There was a woman who lived out on the street. Refugee from the wars. Had a small child, a baby really. It was all she had. She'd make small cakes of wheat over a fire. Then one day a young man from the palace came down the street in his horse. Wasn't looking where he was going, didn't care, and his horse crushed that baby's head." />
+	<string
+		id="backstory_c.spc_wanderer_vlandia_8"
+		text="{=rpOla1Vp}I saw her nurse that babe through two fevers. The patience, the sacrifice, of that mother - to see all for which she suffered snatched away like that from her, by some young drunk's carelessness... There was a crowd around them, he was yelling. I just walked over with my hammer and struck him dead.... That was the end of my life in the city. I think back, though, and can't imagine doing different." />
+	<string
+		id="response_1.spc_wanderer_vlandia_8"
+		text="{=bwthhDSN}Right or wrong, I cannot blame you for your anger." />
+	<string
+		id="response_2.spc_wanderer_vlandia_8"
+		text="{=hpKAp2ZW}The law is the law, and murder is murder." />
+	<string
+		id="backstory_d.spc_wanderer_vlandia_8"
+		text="{=DHCTLcp1}So here I am. I know men like me can make money guarding merchants, doing other tasks such as that. As long as no one wants me to hurt the innocent... Some day, I hope to find a new place to set up a smithy and start again." />
+	<string
+		id="generic_backstory.spc_wanderer_vlandia_8"
+		text="{=XEsq2Gd6}I was a smith, but I had a problem with gambling. I borrowed from an alley gang, I couldn't pay back, and, well, you probably know what comes next. A smith just can't pack up and go to another place. There's guilds that make that difficult. But I'm a big fellow, I figure I can swing a weapon as well as my tools, and there might be work for me in the wars." />
+	<!-- female bandit, the black -->
+	<string
+		id="prebackstory.spc_wanderer_vlandia_9"
+		text="{=LTvInwfa}I have a cup of wine before me. The room is nice and warm. Why not?" />
+	<string
+		id="backstory_a.spc_wanderer_vlandia_9"
+		text="{=P1fLl2KS}See, some girls are attracted to bad boys. My mother was one of those. Bandits came to her village one day and she made up her mind. Ran off with them. 'Married' the leader. But he was killed soon, so she married the one who replaced him. And so forth and so on." />
+	<string
+		id="backstory_b.spc_wanderer_vlandia_9"
+		text="{=PIu7b9wO}I was born around the time she married her fourth husband. My father, well, he was hanged a few months before that. A couple others were hanged, but mostly they were killed by their own followers. You see, the trick to leading bandits is that you can't value your life very much. Never back down from a fight or an insult. Sooner or later your luck will run out. Usually sooner." />
+	<string
+		id="backstory_c.spc_wanderer_vlandia_9"
+		text="{=LVkWjJgD}I had a wild childhood, you can imagine. Living in the woods, never doing much work. But the winters were cruel. Ma died when I was twelve. And I knew I wanted something different. So I came to the town. Plenty of work for a girl who knows how to use a blade, and at least here there's a fire at night and a roof over my head. " />
+	<string
+		id="response_1.spc_wanderer_vlandia_9"
+		text="{=JJqwFLjR}That's a start, I suppose. Have you ever considered an honest trade?" />
+	<string
+		id="response_2.spc_wanderer_vlandia_9"
+		text="{=587q6IS6}Very nice. You sound destined for the scaffold, so you might as well enjoy a hot meal or two." />
+	<string
+		id="backstory_d.spc_wanderer_vlandia_9"
+		text="{=aOSiXn2O}Well, I'm not averse to less dangerous work, if it pays well. No sense going to my grave too quickly, now that I've discovered the finer things in life. I do like the wine you get in the city, especially with a bit of bread and anchovy sauce." />
+	<string
+		id="generic_backstory.spc_wanderer_vlandia_9"
+		text="{=SmWz2t65}I'm a bandit, love. I like bad men and dangerous deeds. Got it from my mother, I suppose. But banditry - you earn your silver, you spend it, you never spend long in the same place. There have to be more stable ways to kill, loot and roam." />
+	<!-- engineer -->
+	<string
+		id="prebackstory.spc_wanderer_vlandia_10"
+		text="{=bE3LXxhw}Yeah... I can tell you all that." />
+	<string
+		id="backstory_a.spc_wanderer_vlandia_10"
+		text="{=PGa4Ehaa}My father was a wheelwright. Everyone knew that the best work was in {IMPERIALCAPITAL}, in the streets around the hippodrome fixing chariots. So we sold our shop and went there, he and I - my mother was dead. The rumors weren't wrong, the work was good, but then you know what happened. The riots, the hippodrome burned, and my father killed for being a foreigner." />
+	<string
+		id="backstory_b.spc_wanderer_vlandia_10"
+		text="{=21QinZCq}Well, now there's a war on, and few are bothering with racing chariots. I went to find work with the armies. At first they had me fixing carts, but it turns out my skill with wheels came useful in making a catapult torsion twist. So I learned a bit about that. A lot about that, actually. " />
+	<string
+		id="backstory_c.spc_wanderer_vlandia_10"
+		text="{=b3IzpFH2}Now, I'm looking around to see if there's anyone who might want to take me on. Especially if I might one day have a chance to rain rocks on the good people of {IMPERIALCAPITAL}, who killed my da." />
+	<string
+		id="response_1.spc_wanderer_vlandia_10"
+		text="{=W5OECu87}A good engineer is always in demand." />
+	<string
+		id="response_2.spc_wanderer_vlandia_10"
+		text="{=YgZJYYds}Few war leaders have the patience for followers with private vendettas." />
+	<string
+		id="backstory_d.spc_wanderer_vlandia_10"
+		text="{=IX7IpWAm}Anyway, you hear of someone who might have work for me, you let me know." />
+	<string
+		id="generic_backstory.spc_wanderer_vlandia_10"
+		text="{=qFLZGWHj}My father was a wheelwright but there's more money in catapults than in carts these days. I did a bit of work repairing the mangonels round the walls of my hometown, and I reckon I can build some as well." />
+	<!-- formerly of the company  -->
+	<string
+		id="prebackstory.spc_wanderer_vlandia_11"
+		text="{=anGYtcYU}Yeah... Right, so here it is..." />
+	<string
+		id="backstory_a.spc_wanderer_vlandia_11"
+		text="{=kBFbivPP}I fought with the Company of the Boar. I was their armorer - kept their blades sharp, and patched the holes in the mail they took off corpses. Good lads, some of them, but others... Let's just say that it's the kind of outfit that attracts men born to trouble." />
+	<string
+		id="backstory_b.spc_wanderer_vlandia_11"
+		text="{=U0tO8xtz}I made an enemy there, Alric his name was. I don't even remember why he decided to hate me, but he did. Never could leave me alone. I had to sleep with one eye open." />
+	<string
+		id="backstory_c.spc_wanderer_vlandia_11"
+		text="{=u6mV420C}One day, right before a siege, he took me aside and told me that he'd put a crossbow bolt in my back. Thing is, he went up the ladder first, so I put the bolt into his. Dropped him onto the rocky ground and split his head open." />
+	<string
+		id="response_1.spc_wanderer_vlandia_11"
+		text="{=QrFrfN44}I suppose that is self-defense, in a way." />
+	<string
+		id="response_2.spc_wanderer_vlandia_11"
+		text="{=xOSV0qT8}Shooting a man in the back is murder, whatever the circumstances." />
+	<string
+		id="backstory_d.spc_wanderer_vlandia_11"
+		text="{=l8Xo44xM}Anyway, I couldn't quite go back to the Company after that. His mess-mates knew well enough what happened. So I need work somewhere else. I suppose I could look for work at a smithy, but I don't think I'm cut out for peace. I just want to fight against an enemy in front of me without worrying about the one behind me as well." />
+	<string
+		id="generic_backstory.spc_wanderer_vlandia_11"
+		text="{=7RyuT39x}I fought with the Company of the Boar. I was an armorer, a smith. They're a hard lot, though. I think you'll find a lot of us who've left them and gone looking for other work." />
+	<!-- gamekeeper  -->
+	<string
+		id="prebackstory.spc_wanderer_vlandia_12"
+		text="{=cvGrEGoT}Ah... I suppose I can tell you." />
+	<string
+		id="backstory_a.spc_wanderer_vlandia_12"
+		text="{=5xVPlyeI}I was a gamekeeper near here. For a lord whose name I will not mention. I was taught to track deer and boars. But my master wanted me to go after other game." />
+	<string
+		id="backstory_b.spc_wanderer_vlandia_12"
+		text="{=PTc6N9tC}He had me find a group of outlaws, Brothers of the Woods, they called them. Oh, we knew of their crimes well enough, the robbing, the murder. I managed to find their lair in the hills. They had no chance against knights, and gave up." />
+	<string
+		id="backstory_c.spc_wanderer_vlandia_12"
+		text="{=3ArVOTld}I don't know what I thought would happen... A good clean fight? The leaders executed, the rest let go? No, they took all 20 of that gang, including some who were barely old enough to grow a beard, and left them hanging to die outside the castle. I'd see those bodies twisting and think, 'This is my work,' and that was something I want no part of." />
+	<string
+		id="response_1.spc_wanderer_vlandia_12"
+		text="{=QSogTAKq}That sounds terrible indeed." />
+	<string
+		id="response_2.spc_wanderer_vlandia_12"
+		text="{=hxPlbuMf}These are hard times. Don't worry about the fate of outlaws." />
+	<string
+		id="backstory_d.spc_wanderer_vlandia_12"
+		text="{=IIaMv3C5}At any rate... I'm willing to work as a tracker or scout. I know this is wartime, there will be fights and deaths. But... If you must kill an enemy, do so as you'd kill a stag. Without cruelty. That's all I ask." />
+	<string
+		id="generic_backstory.spc_wanderer_vlandia_12"
+		text="{=sr5qg0s1}I'm a gamekeeper by trade, but I haven't found a master I care to work for. I expect there are many of us around, these days." />
+	<!-- surgeon -->
+	<!-- misanthropic, chip-on-shoulder illegitimate. nautical surgeon -->
+	<string
+		id="prebackstory.spc_wanderer_aserai_0"
+		text="{=EMkaeD9M}Hmm. Many men would begin their story by reciting their ancestry. I will not do this. A man should be judged on his own deeds, and a long list of ancestors does him no credit. Also, my family does not acknowledge me, so why should I acknowledge them?" />
+	<string
+		id="backstory_a.spc_wanderer_aserai_0"
+		text="{=RaSZtTqh}I was the son of a slave. My master, a judge, raised me in his house, but it was clear that he would never spend much time to ensure my success in the world. Still, I was tutored with his other sons, and chose to study medicine as a young man. I thought I could perhaps be a physician." />
+	<string
+		id="backstory_b.spc_wanderer_aserai_0"
+		text="{=9AIyvTmF}Well... I was soon disabused of this idea. A doctor starting out in the world must either have a great deal of money, or family that ensures him a long list of clients. I had neither. Instead of working in the city, I took service aboard a ship." />
+	<string
+		id="backstory_c.spc_wanderer_aserai_0"
+		text="{=ZuHolx2r}Professionally, it was perhaps the best thing I could have done. Fevers, injuries, festering sores - the seaman has in greater number and variety than any manner of land-dweller, I imagine. But I have little patience for life aboard, the monotony, the tyranny of captains, the lack of any space to oneself, the groaning of timbers, the constant smell of rotting bilge..." />
+	<string
+		id="response_1.spc_wanderer_aserai_0"
+		text="{=A9r6SnWx}Yes, it must be trying." />
+	<string
+		id="response_2.spc_wanderer_aserai_0"
+		text="{=B7cMisFf}Weren't handed life on a silver platter, were you? Such a tragedy." />
+	<string
+		id="backstory_d.spc_wanderer_aserai_0"
+		text="{=HaQlEZPq}At any rate, I have a bit of money to my name, and the leisure to wait a few weeks before choosing my next employer." />
+	<string
+		id="generic_backstory.spc_wanderer_aserai_0"
+		text="{=vgcTdEvc}I was the son of a slave, but my father bought me my freedom and an apprenticeship with a healer. I could make a lot of money as a doctor if I came from a well-known family that would attract patients. But I don't, so I offer my skills to war-leaders, who cannot afford to be so picky." />
+	<!-- Obsessed with own genealogy -->
+	<string
+		id="prebackstory.spc_wanderer_aserai_1"
+		text="{=d9qUbj3I}I shall tell you... Ahem..." />
+	<string
+		id="backstory_a.spc_wanderer_aserai_1"
+		text="{=xNPAZdtX}My father is Aytham, son of Thamuq, who was son of Munbilas - the elder son, mind you, not the younger - and he was son of Numayn - Numayn of the Mountain, that is, not the less illustrious ones of that name - and he was son of Zais." />
+	<string
+		id="backstory_b.spc_wanderer_aserai_1"
+		text="{=ikWAfIHX}Now some people will tell you that Zais was born of out wedlock, but those are lies. He was the legitimate son of Ghutan, and Rasad 'Ban Ghutan' doesn't deserve that name, he should be called the 'Bastard,' not Zais. Anyway, as for Ghutan's father... Well, not everyone knows this, but..." />
+	<string
+		id="backstory_c.spc_wanderer_aserai_1"
+		text="{=Wz71n66t}I'm sorry. Are you not paying attention?" />
+	<string
+		id="response_1.spc_wanderer_aserai_1"
+		text="{=N9rVRfaW}Oh.. Of course I am! This is fascinating. But tell me about your own deeds." />
+	<string
+		id="response_2.spc_wanderer_aserai_1"
+		text="{=SYBe3aIC}Do you have a trade? Any skills? Or just a string of ancestors?" />
+	<string
+		id="backstory_d.spc_wanderer_aserai_1"
+		text="{=KGa4gmDW}Ah, yes - well, it would be beneath someone with a lineage like mine to pledge allegiance to the current parvenus who call themselves the emirs of the Aserai. So, I fight for those who pay me my value in denars, good noble denars." />
+	<string
+		id="generic_backstory.spc_wanderer_aserai_1"
+		text="{=vKSGJNxT}I am a warrior. I would recite to you my lineage, but that would take an hour. I would tell you my deeds, but that would take two. So, instead - if you pay me - I shall come with you and fight your enemies, and that will be the best demonstration of my mettle." />
+	<!-- The falcon, chivalrous, but thinks great clans hog the glory -->
+	<string
+		id="prebackstory.spc_wanderer_aserai_2"
+		text="{=AVqbfwrh}I will tell you. Perhaps you will think I am petty-minded, but a man's reputation is a valuable thing..." />
+	<string
+		id="backstory_a.spc_wanderer_aserai_2"
+		text="{=TNOM6nuo}I am from one of the lesser known clans of the Aserai. We take the name of an undistinguished younger son of the Qildi line from five generations back. We have never held fiefs or won much wealth, but when the Qild called out their kinfolk, or the tribes were summoned by the Sultan, we took our place in the battle line." />
+	<string
+		id="backstory_b.spc_wanderer_aserai_2"
+		text="{=H8wpFACA}The great names in our great clans - some of them are brave, and generous with the loot, but don't they like to take their names bandied out after every battle? Poets know there's silver in it if they sing the praises of the Banu Qild, the Banu Sarran - but those of us who are Banu Nobody, well, we deserve a bit of time in the sun too, don't you think?" />
+	<string
+		id="backstory_c.spc_wanderer_aserai_2"
+		text="{=2BKMNXE7}I fought three battles under the banner of the Sultan, and two more under the banners of the Qild. No more." />
+	<string
+		id="response_1.spc_wanderer_aserai_2"
+		text="{=AMMXrcC9}Indeed. Glory is as much a spoil of war as any, and should be shared." />
+	<string
+		id="response_2.spc_wanderer_aserai_2"
+		text="{=iztRBaaF}Frankly, I have little time for glory-hounds of any sort. Men who do their job is what I want." />
+	<string
+		id="backstory_d.spc_wanderer_aserai_2"
+		text="{=lQ4PPsnT}At any rate, I will find a master who allows me to win fame for myself. Or barring that, land and silver, so that I can buy a poet or two." />
+	<string
+		id="generic_backstory.spc_wanderer_aserai_2"
+		text="{=q71Cbib7}I am a warrior, but I am not from one of the greater clans. After a battle, I may get a bloodstained weapon pried from the enemy's hand or a pat on the head from my emir, but no song of my deeds. No robe of honor. I intend to fight for someone who see in people more than their name." />
+	<!-- "the swordsman", fell out with lord over a woman -->
+	<string
+		id="prebackstory.spc_wanderer_aserai_3"
+		text="{=2PZsQPty}I will tell you my story. I haven't... I haven't spoken of this before, to anyone. Perhaps it's the wine here. But know that if you speak of this to anyone else, I'll cut your tongue out." />
+	<string
+		id="backstory_a.spc_wanderer_aserai_3"
+		text="{=Agbh1AmR}I have a gift... From the Heavens, perhaps, or perhaps from somewhere else. I have never met anyone I could not kill in a fair fight. But I do not like wars. Armies are full of crude men, boasters, drunks, rapists. I have another speciality." />
+	<string
+		id="backstory_b.spc_wanderer_aserai_3"
+		text="{=33Dzgon7}Say you had a man you wanted killed. Who you would pay to kill. I could find him, bump into him, mutter an insult. He would pull out his blade. And that would be the last mistake he would ever make. But as I said, it would be a fair fight. I do not kill from behind. It is dishonorable." />
+	<string
+		id="backstory_c.spc_wanderer_aserai_3"
+		text="{=PHVJ9fOm}But there was a lord, a customer of mine, who had no honor. And he refused to pay me. And having no honor, he laughed at my insults. He did not pull his blade. He had his men drive me away. I can kill one man but not three at once. So here I am." />
+	<string
+		id="response_1.spc_wanderer_aserai_3"
+		text="{=mijieuku}You know, I'm sure you could put your gift to better use." />
+	<string
+		id="response_2.spc_wanderer_aserai_3"
+		text="{=0dQLkzEw}What you call 'honor'... I'm not sure that's the best word for it." />
+	<string
+		id="backstory_d.spc_wanderer_aserai_3"
+		text="{=OHFZ9EAk}Mmm.... Well, for now, I do not know what to do with myself. Perhaps I could consider joining a warband, if the commander was well-bred and kept his word." />
+	<string
+		id="generic_backstory.spc_wanderer_aserai_3"
+		text="{=KNQCoxIJ}I am a sword for hire. Some think us scum but I have my own code of honor. If I kill a man, it must be in a fair fight. My last employer asked me to do something dishonorable, so now I am looking for a new employer." />
+	<!-- lord as nemesis -->
+	<!-- "The Prince", fitiwi whom a guard captain tried to corrupt -->
+	<string
+		id="prebackstory.spc_wanderer_aserai_4"
+		text="{=XVZGCB0a}Yeah, sure." />
+	<string
+		id="backstory_a.spc_wanderer_aserai_4"
+		text="{=LjkQ4fYp}I come from a town where every alley has its 'protector.' These are men with some strength but also a lot of respect, who stand up for the rights of the people there. My father was our alley's protector, and so it fell on me to take his job after he grew too old to do it himself." />
+	<string
+		id="backstory_b.spc_wanderer_aserai_4"
+		text="{=Z8TfQDSV}A few years after he retired, we had a new guard captain. We protectors, we serve the state, but we're not its tool. This new captain didn't understand. He'd come to me and say, 'One of my lads took this man's daughter - see that he doesn't make a fuss,' or, 'Let's have little private meetings, so you can tell us what your people are up to.' " />
+	<string
+		id="backstory_c.spc_wanderer_aserai_4"
+		text="{=PWpTT0NM}I told the captain that I couldn't do these things. The alley people - they had to trust me. The captain didn't take 'no' for an answer. He pressured me. He threatened my father. What could I do? I couldn't betray my people but I couldn't betray my father either. I took my family and left." />
+	<string
+		id="response_1.spc_wanderer_aserai_4"
+		text="{=yXhf3AJk}A hard choice." />
+	<string
+		id="response_2.spc_wanderer_aserai_4"
+		text="{=nlRg040C}Better to have properly constituted authority than that of some back-alley tough." />
+	<string
+		id="backstory_d.spc_wanderer_aserai_4"
+		text="{=Vwhnrf66}So here I am. I have mouths to feed, and the thing I know best is to fight." />
+	<string
+		id="generic_backstory.spc_wanderer_aserai_4"
+		text="{=zTNhw5T6}I'm from a town near here. I won't say which one... Our family were protectors of our alley, and by that I mean that I thumped the head of anyone who tried to take away our rights. But the guard captain, he kept coming around demanding money and favors, and I couldn't thump his head. So now I'm looking for new work." />
+	<!-- "The Hyena" (maybe make imperial, as close to the Swordsman) -->
+	<string
+		id="prebackstory.spc_wanderer_aserai_5"
+		text="{=41Et3Siz}You want a story? Then go toss a copper to a fellow who knows the song of Kais and Layali, because you won't get one from me." />
+	<string
+		id="backstory_a.spc_wanderer_aserai_5"
+		text="{=DRv6hB6p}Here's what you need to know about me - I can take a man down with a single blow, or maybe two if he's got armor, and I have expensive tastes in wine and women. So I don't work for free." />
+	<string
+		id="backstory_b.spc_wanderer_aserai_5"
+		text="{=37d1A0AM}I kill for a living. Some men, in my line of work, will spin a tale of how they were forced into it, orphans of war or some-such. Piss on that." />
+	<string
+		id="backstory_c.spc_wanderer_aserai_5"
+		text="{=osaIOFNx}I like to fight, I'm good at it, and in my opinion, the Heavens smile on a man who loves his job." />
+	<string
+		id="response_1.spc_wanderer_aserai_5"
+		text="{=iZPiYDbj}Can't fault you for enthusiasm, I suppose." />
+	<string
+		id="response_2.spc_wanderer_aserai_5"
+		text="{=kzvTFUbj}That's a rather unique theology." />
+	<string
+		id="backstory_d.spc_wanderer_aserai_5"
+		text="{=r8vQ3KpJ}You want me to kill for you? Then make me an offer. If not, piss off." />
+	<string
+		id="generic_backstory.spc_wanderer_aserai_5"
+		text="{=wGyCPQwG}I kill for a living. If you want me to kill for you, pay me what I'm worth. If you don't, then don't waste my time." />
+	<!-- of the Wastes - 'the searing gravel plain knows me' -->
+	<string
+		id="prebackstory.spc_wanderer_aserai_6"
+		text="{=5QpIypgB}Since you ask who I am, stranger, I will tell you." />
+	<string
+		id="backstory_a.spc_wanderer_aserai_6"
+		text="{=Ke9L8QbX}The searing gravel plain knows me, as do the rippling sands and the shadowed canyon. The hidden spring whispers to me, 'Come hither and drink,' and the high outcrop unveils to me the horizons." />
+	<string
+		id="backstory_b.spc_wanderer_aserai_6"
+		text="{=fELWdbuL}The viper does not trouble me, nor does the scorpion. I have faced the scouring sandstorm, the rushing flood, the killing heat of noontime, and they have all said to me, 'Pass safely, brother.'" />
+	<string
+		id="backstory_c.spc_wanderer_aserai_6"
+		text="{=rP2EVSvT}I am {MET_WANDERER.FIRSTNAME}, prince of the wastelands, lord of solitude, master of emptiness. If you wish to know my other names, you may ask my kinsmen, the leopard, the hyena and the gazelle.." />
+	<string
+		id="response_1.spc_wanderer_aserai_6"
+		text="{=xagl8d4w}{MET_WANDERER.FIRSTNAME} is fine. No need to bother the hyenas. So, what can you do?" />
+	<string
+		id="response_2.spc_wanderer_aserai_6"
+		text="{=5d6Xifm1}Master of empty talk, rather." />
+	<string
+		id="backstory_d.spc_wanderer_aserai_6"
+		text="{=C5pqZtNs}I roam the desert. I learn its secret ways, its gifts, as a lover learns the secrets and gifts of his beloved. But though the desert is bountiful, horses and steel must be bought with silver. So, I must sell my services from time to time." />
+	<string
+		id="generic_backstory.spc_wanderer_aserai_6"
+		text="{=V6boHnpo}I am of the desert. I know its ways. The wind guides me. The scorpion comes into my camp at night and tells me its secrets. The howls of the jackal bring me news of the hunt." />
+	<!-- female member of clan that lost power-->
+	<string
+		id="prebackstory.spc_wanderer_aserai_7"
+		text="{=AH4ell4y}Hmf. Very well. I'll tell you - and you can decide for yourself whether my family should be ashamed of me." />
+	<string
+		id="backstory_a.spc_wanderer_aserai_7"
+		text="{=KbP87Fzv}I was part of a clan that lived beyond the mountains to the south. We came under pressure from our neighbors, who wanted to take our lush grazing grounds in the foothills. We were an ancient clan, that valued its name, but in this generation we have been short of men, so I fought alongside my brothers - indeed, I slew our enemies' champion in single combat. That stopped the pressure on our lands, but not the violence. " />
+	<string
+		id="backstory_b.spc_wanderer_aserai_7"
+		text="{=lwvQCrG2}We kept our grazing grounds. But my brothers and cousins found that, when they mingled with other clans during the holy months of truce, that they were mocked. 'You let your women do your fighting!'" />
+	<string
+		id="backstory_c.spc_wanderer_aserai_7"
+		text="{=X8Zkp0Ut}The insults were many, and they had no choice but to respond. One cousin was slain in a duel, one cousin killed his opponent, so we had two new bloodfeuds on our hands. I chose to leave home before it got any worse." />
+	<string
+		id="response_1.spc_wanderer_aserai_7"
+		text="{=VJDZp4rM}An impossible situation..." />
+	<string
+		id="response_2.spc_wanderer_aserai_7"
+		text="{=zZfHxtS5}Honor must come first!" />
+	<string
+		id="backstory_d.spc_wanderer_aserai_7"
+		text="{=2ZiWirPM}I find that I like to fight, and the pay is good. But I will do my fighting far from home, so that no shame attaches itself to my family's name." />
+	<string
+		id="generic_backstory.spc_wanderer_aserai_7"
+		text="{=8TabS6RW}I was a daughter of a wealthy clan. But our rivals drove us from our grazing grounds. We had to sell our herds. We were mocked in towns when we went to trade in the marketplace. Luckily my father was one of those wise enough to teach his daughters to fight. With the Heavens' help I will become wealthy and famous, and restore our family name." />
+	<!-- failed merchant -->
+	<string
+		id="prebackstory.spc_wanderer_aserai_8"
+		text="{=1ssGvu9j}I can tell you my story. If you spend time among merchants, I suppose you will hear it anyway, told as a cautionary tale, complete with a great deal of moralizing and tut-tutting." />
+	<string
+		id="backstory_a.spc_wanderer_aserai_8"
+		text="{=Gepa1szA}My father was a merchant. When he died, he left his children a small inheritance. Most went to my brothers. They headed east, to the lands of the Padishah, leaving me in charge of our interests in Calradia. For me to step into my father's shoes, and be treated as an equal by other merchants, I knew I had to make a lot of money in a short time or they would elbow me out of the market." />
+	<string
+		id="backstory_b.spc_wanderer_aserai_8"
+		text="{=jnbQL2ta}I had an opportunity to buy pepper from another trader who was selling at a discount, and needed cash. I of course inspected the pepper and its storage. I interviewed the watchmen at the warehouse. You can trust us madame,' they said. 'Rest assured your pepper is in good hands.'" />
+	<string
+		id="backstory_c.spc_wanderer_aserai_8"
+		text="{=YOzdVTeS}But one of them kept a brazier lit at night, for the warmth, and a camel kicked it into a bed of straw when he was off relieving himself. When he returned, the warehouse was in flames. And so became penniless." />
+	<string
+		id="response_1.spc_wanderer_aserai_8"
+		text="{=EB6RcaTF}Merchants take risks. I am sorry it turned out so badly for you." />
+	<string
+		id="response_2.spc_wanderer_aserai_8"
+		text="{=Nz0iyKaM}All one's pepper in one warehouse. A cautionary tale indeed." />
+	<string
+		id="backstory_d.spc_wanderer_aserai_8"
+		text="{=bk3Ir2uC}Well... Even now I feel I made a wise choice to buy the pepper -- wise, but unlucky. Such is fortune! Had I not seized this opportunity, other merchants would have mocked me, a woman who lacked the daring to succeed in a man's trade. Instead they mock a rash woman who lacked a man's judgment. And here I am, looking for work." />
+	<string
+		id="generic_backstory.spc_wanderer_aserai_8"
+		text="{=OohIyeJo}My parents were merchants, and I inherited a share of their workshops and camels. But banditry and the fortunes of trade ruined me, which is also common, and now I must make my money some other way." />
+	<!-- female alley urchin-->
+	<string
+		id="prebackstory.spc_wanderer_aserai_9"
+		text="{=CE8we5VF}Oh, I'll tell you my story. I don't mind who knows." />
+	<string
+		id="backstory_a.spc_wanderer_aserai_9"
+		text="{=OcCLz4je}When I was a child, my mother sent me out on the streets to beg and pick pockets. And the big man of our quarter took a cut of that. I got a little older and my mother taught me how to rob drunken travellers, and the big man took a cut of that." />
+	<string
+		id="backstory_b.spc_wanderer_aserai_9"
+		text="{=NDR2Xcoq}But you see, for a big man, it's not all sitting in the shade and counting your money. A big man must beat and he must kill, or people will not fear you. And one day, as I watched, he beat my mother to death over the share of his cut." />
+	<string
+		id="backstory_c.spc_wanderer_aserai_9"
+		text="{=G7ZQb9tQ}Now some would say I should have avenged my mother. But there was a wrinkle, you see - we didn't talk about it much, but he was my father, as he was the father of so many other children of our alley. So I fled our town, and now work here, using the skills my dear parents taught me." />
+	<string
+		id="response_1.spc_wanderer_aserai_9"
+		text="{=qxBbhtLH}Perhaps you can rise above the sorry circumstances of your birth." />
+	<string
+		id="response_2.spc_wanderer_aserai_9"
+		text="{=pKMVhx2v}They never cease to shock me, the sordid tales you hear from the dregs of the alleys." />
+	<string
+		id="backstory_d.spc_wanderer_aserai_9"
+		text="{=x6acpIw7}So... Anyway, if you've got an enterprise or two that might not be entirely legal, and need a sharp eye on the villains you've got running it, you may find that my skills are of use to you." />
+	<string
+		id="generic_backstory.spc_wanderer_aserai_9"
+		text="{=bRE8iZqE}I had no father, see. None that I knew. There are scores of us in every town, begging and stealing and working for the gangs. But I was always the type of girl who wanted something more, and I got ahold of this sword, you see, and now I intend to turn other people's blood into silver." />
+	<!-- pre-islamic arabia, was supposed to be scholar, became engineer -->
+	<string
+		id="prebackstory.spc_wanderer_aserai_10"
+		text="{=rgSWtZ0w}I'll tell you my story. I suppose it is a fine lesson in how destiny makes mock of our intentions." />
+	<string
+		id="backstory_a.spc_wanderer_aserai_10"
+		text="{=ZSaGzgmN}My father was a judge, and I had intended to study the legal rulings of the past, so I could follow in his footsteps. But when I went to study, my master told me that only two kinds of scholars were needed these days: those who knew how to build and knock down walls, and those who knew how to stem the epidemics that spread from unburied bodies." />
+	<string
+		id="backstory_b.spc_wanderer_aserai_10"
+		text="{=cyjb9lmm}I had no talent for medicine, it turned out, so I chose to be an engineer. I had one final flight of folly - a local academy was crumbling, so I submitted a sketch for a new one to the emir. He laughed and told me to come back with a schematic of siege engines. " />
+	<string
+		id="backstory_c.spc_wanderer_aserai_10"
+		text="{=PKzUUVKC}So go on - ask me how thick a mangonel's struts must be to withstand the torsion to throw a five-istar ball. Ask me how heavy a ram's head must be, compared to its total weight, so that it does not rebound from the gate and strike the men who wield it. I never imagined I would know such things, when I dreamed of making men's lives better through the dispensing of justice." />
+	<string
+		id="response_1.spc_wanderer_aserai_10"
+		text="{=gMiceyRl}Well, some day there may be peace, and money to build again." />
+	<string
+		id="response_2.spc_wanderer_aserai_10"
+		text="{=KrXlrnsg}The quarries are hiring. You could always haul rocks for a living, if you're so averse to launching them." />
+	<!-- Truly, there is no greater tragedy in this world than a scholar having to do work he thinks beneath him -->
+	<string
+		id="backstory_d.spc_wanderer_aserai_10"
+		text="{=XKsjweaA}Unfortunately, I've found that siegework pays irregularly. My contracts are usually honored if the city falls and is looted. But if dysentery breaks out in the siege camp and the army must march away, well, you may find that you submit your receipts in vain." />
+	<string
+		id="generic_backstory.spc_wanderer_aserai_10"
+		text="{=wQRSM1lz}My father was a judge, and as such, I was educated to be a judge. That is usually the case with us. But I was always better at mathematics than letters. So I took mercenary work, making catapults. My father cast me out of his home in disgust. He once told me that the greatest privilege on earth is to dispense justice, but he will never know the joy of firing a mine and seeing the walls of a tyrannical baron or cruel archon crumble, so what does he know?" />
+	<!-- KHUZAIT WANDERERS -->
+	<!-- engineer -->
+	<string
+		id="prebackstory.spc_wanderer_khuzait_0"
+		text="{=OqzUb0E6}My story? Certainly I can tell you, if it interests you." />
+	<string
+		id="backstory_a.spc_wanderer_khuzait_0"
+		text="{=axVcadKQ}My father learned his trade in the time of the old Urkhun Khan. Back then, the Khuzaits were invincible in battle, but had little knowledge of rams, catapults or even ladders, and even the most humble fortress defied them. " />
+	<string
+		id="backstory_b.spc_wanderer_khuzait_0"
+		text="{=Kaz4NbDN}So Urkhun, a man of vision, offered to pay the weight in silver of any imperial engineer captured alive. These captives were forced to teach men like my father the art of siegecraft. My father, in turn, taught me." />
+	<string
+		id="backstory_c.spc_wanderer_khuzait_0"
+		text="{=uSYQb9KY}Now, in Urkhun's day, if a Khuzait apprenticed in siegecraft went to work for another master, it meant a very painful death if he was recaptured. But times have changed. The richest plums of the empire's cities have fallen, and they build their walls higher than they once did. The Khuzait lords pay less for a siegemaster, and that pay is often late. So I am up to taking other employment, if it is offered." />
+	<string
+		id="response_1.spc_wanderer_khuzait_0"
+		text="{=HSHRP59J}Of course, of course. A good engineer deserves his pay." />
+	<string
+		id="response_2.spc_wanderer_khuzait_0"
+		text="{=cPpWwCU9}How virtue has crumbled since the old days." />
+	<string
+		id="backstory_d.spc_wanderer_khuzait_0"
+		text="{=l0OCTrl9}Indeed... Well, at any rate, if you find there is an inconvenient wall between you and the object of your desire, and you wish it reduced to rubble, you know where to find me." />
+	<string
+		id="generic_backstory.spc_wanderer_khuzait_0"
+		text="{=9cFEa5EB}My father was one of the men that Urkhun Khan had trained by captured imperial engineers. Our people knew little of siegecraft in those days. Well, he was not allowed to work for anyone but the Khan, or he would be killed in a very unpleasant way. But he taught me, his son, what he knew, and in this generation things are a little more lenient. So I can work for whom I please. " />
+	<!-- the hawk, curt voice. Rural clan nemesis -->
+	<string
+		id="prebackstory.spc_wanderer_khuzait_1"
+		text="{=VHyXsXu7}You know, you'd think this place could serve proper kumis, instead of this piss they call wine... Sorry, where were we? Ah yes, my story." />
+	<string
+		id="backstory_a.spc_wanderer_khuzait_1"
+		text="{=vney5HbZ}I rode for years behind Monchug Khan, even before he was khan. I had good name and a good sum of money. There was a girl in a neighboring village, quiet thing but good childbearing hips, who I thought would make a good bride. " />
+	<string
+		id="backstory_b.spc_wanderer_khuzait_1"
+		text="{=cX7q60eg}So I went to her brother, and offered him 50 sheep - a good price. But he said he wasn't giving his sister to a 'man like me.' Asked him what he meant by that, and he didn't answer, so I gave him a good punch. Maybe a couple punches - no more. Shouldn't have hurt a real man, but this little whelp died on me." />
+	<string
+		id="backstory_c.spc_wanderer_khuzait_1"
+		text="{=jwGsuWlN}Well, you know how these things go - his kin came to our village looking for my blood. They didn't find me, but wounded one of my cousins. It was time to teach them a lesson, but my brothers had a fit of cowardice. So they brokered a deal, and I was forced to leave. How do you like that?" />
+	<string
+		id="response_1.spc_wanderer_khuzait_1"
+		text="{=bMHFQgVE}Aye, real honor is as scarce as hen's teeth these days." />
+	<string
+		id="response_2.spc_wanderer_khuzait_1"
+		text="{=xpENowWf}Strange thing, how people don't wish to die in someone else's quarrel." />
+	<string
+		id="backstory_d.spc_wanderer_khuzait_1"
+		text="{=rSwj5KBb}Let me tell you something - I'm sick of cowardice, sick of those who don't stand by their comrades and their kin." />
+	<string
+		id="generic_backstory.spc_wanderer_khuzait_1"
+		text="{=dKiy6V83}I rode behind the banner of the Khuzait khan for years. I should have had a place of honor in his hall. But I killed a man from a richer clan over an insult, and he had too many kinfolk for me to linger anymore." />
+	<!-- the fatherless -->
+	<string
+		id="prebackstory.spc_wanderer_khuzait_2"
+		text="{=ErBHSq7A}I am from one of the highland clans, in the far east. I do not know if you are familiar with their ways. I will try to explain." />
+	<string
+		id="backstory_a.spc_wanderer_khuzait_2"
+		text="{=IUbGYeJV}A man of another clan slew my father. My father had slain his uncle many years before. It was my job to avenge my father, but the plague carried off his killer first. So I would be expected to kill his brother instead. This is how it is with us." />
+	<string
+		id="backstory_b.spc_wanderer_khuzait_2"
+		text="{=qRwX7d5K}I wanted to go to the other clan and negotiate a settlement. I had always had a talent for setting conflicts, and in this case it seemed to me clearly that fate had ended the feud. But my mother begged me not to; my cousins begged me not to. They said I should spill blood, not words." />
+	<string
+		id="backstory_c.spc_wanderer_khuzait_2"
+		text="{=JAqysRea}MY family said others would mock my father's memory. They said no one would fear to steal our sheep and horses, to molest my sisters. They told me I had a choice: do my duty, or I would no longer be of their blood. So be it. I chose exile. Why should more men die? " />
+	<string
+		id="response_1.spc_wanderer_khuzait_2"
+		text="{=T07xEuQR}A noble decision!" />
+	<string
+		id="response_2.spc_wanderer_khuzait_2"
+		text="{=atWYxZBh}What? Does no one respect their parents anymore?" />
+	<string
+		id="backstory_d.spc_wanderer_khuzait_2"
+		text="{=B7iZITxb}If an enemy chooses to stand in a battle-line and face my arrows, I would not hesitate to kill him. But our feuds - I cannot accept that I have no choice but to kill a man who had no choice but to be my enemy. I left my people. Here I can choose what I do." />
+	<string
+		id="generic_backstory.spc_wanderer_khuzait_2"
+		text="{=7GpMPCMW}My clan was locked in a feud with another clan for years. One life of theirs, then one life of ours, year after year, decade after decade. But I chose to break the cycle. I left my family. I am not the first to do so. This happens among us, from time to time, though few speak of it." />
+	<!-- ironeye, professional soldier. infantryman -->
+	<string
+		id="prebackstory.spc_wanderer_khuzait_3"
+		text="{=VgyWyNvL}Yeah... I'll tell you a tale of life in the great Khuzait hordes, terror of the world." />
+	<string
+		id="backstory_a.spc_wanderer_khuzait_3"
+		text="{=8lGql3mA}I've fought for Ulus Khan, and for Monchug Khan, and even for the old Urkhun. But I fight on foot - my family's from the town, not the steppe. Life's a little different for us." />
+	<string
+		id="backstory_b.spc_wanderer_khuzait_3"
+		text="{=dCHCb1hb}The horse lords, the men of the great tribes - well they gallop here, and they gallup there, shooting this and shooting that. They win battles, I'll give them that. But at the end of the day, if the enemy's still laughing at you behind their walls, all that galloping means nothing." />
+	<string
+		id="backstory_c.spc_wanderer_khuzait_3"
+		text="{=DFaMQXWH}We foot-sloggers, we're the ones who go up the ladder and into the meat grinder. Did that for 15 years, and I'm still getting less pay than some boy fresh of his mother's tit who happens to own a horse. Piss on that, I said, and I went looking for other work." />
+	<string
+		id="response_1.spc_wanderer_khuzait_3"
+		text="{=FjrLf4LE}Indeed. Good infantry is the backbone of an army." />
+	<string
+		id="response_2.spc_wanderer_khuzait_3"
+		text="{=9jYj8jGg}Resentment is poison to an army. Men must learn to follow what orders they are given." />
+	<string
+		id="backstory_d.spc_wanderer_khuzait_3"
+		text="{=EQzHDnlS}At any rate, I'll fight for any man willing to take the same risks that his men face." />
+	<string
+		id="generic_backstory.spc_wanderer_khuzait_3"
+		text="{=5hBuA8kd}I was an spearman. I fought on foot. That's usually what you do if you're not from a big clan. Twice the risk, half the pay and none of the glory. Anyway, I'm done with that for now, looking for other work." />
+	<!-- the proud, turned on protectors. lord as nemesis -->
+	<string
+		id="prebackstory.spc_wanderer_khuzait_4"
+		text="{=zdOaQbDp}I'll tell you my story. But if you would judge me for what I do, you're welcome to do so, but I do not care to hear it." />
+	<string
+		id="backstory_a.spc_wanderer_khuzait_4"
+		text="{=JBW0WsH7}My clan was among the last of the Khuzaits to live out on the open steppe, moving from place to place in the old way. It was not a large clan; you would not have heard of it. It became even smaller when our encampment was surprised by an imperial patrol, and our flocks slain and scattered. Those of us who survived were forced to refuge in a village, under a larger clan, whose name you may know, but I shall not mention it." />
+	<string
+		id="backstory_b.spc_wanderer_khuzait_4"
+		text="{=z9CN2ibp}They protected us, but they treated us with contempt. We were told to hew wood for them, to bring them water. We submitted. For the sake of our old, of our nursing mothers, we submitted. But it was hard for the young men to take." />
+	<string
+		id="backstory_c.spc_wanderer_khuzait_4"
+		text="{=CxZWemhO}Perhaps I was prouder than most, or quicker to anger. One day one of them insulted my lineage, and I insulted his. I was angry but my words were ill-chosen. Our protectors said they would no longer protect us if I remained among them. So, my clan banished me." />
+	<string
+		id="response_1.spc_wanderer_khuzait_4"
+		text="{=XRUotzSi}Indeed. Misfortune does not mean you must submit to humiliation." />
+	<string
+		id="response_2.spc_wanderer_khuzait_4"
+		text="{=pQVFVqa9}As well they should have. Those who curse their protectors deserve no home." />
+	<string
+		id="backstory_d.spc_wanderer_khuzait_4"
+		text="{=crRb9ZhF}A man must eat. It's easy to find traders on the steppe and take their horses. But a man, unless he wishes to live like a beast, must also have people to buy those wares and give him food and blankets. There are merchants here, in the towns, who will buy horses without asking too many questions, and sometimes have other work for me." />
+	<string
+		id="generic_backstory.spc_wanderer_khuzait_4"
+		text="{=RewhujIa}My family lost their herds and land in a dispute, and so we pledged ourself to another clan as our protectors. They treated us like servants. Once I stood up for myself, and ended up killing one of our 'protectors' in a fight. They say that is a great shame to do, but it seems that whatever happens to you, once you've tasted defeat, you encounter shame." />
+	<!-- 'the mad' soft voice, sinister? Gang leader as nemesis REDO -->
+	<string
+		id="prebackstory.spc_wanderer_khuzait_5"
+		text="{=DMQSb5MX}Ah... Very well, I can satisfy your curiosity." />
+	<string
+		id="backstory_a.spc_wanderer_khuzait_5"
+		text="{=8zQ9UPvX}Some boys help their fathers sew crops. Some boys learn to herd sheep. Me, I spent my childhood learning to harvest the back alleys outside winehouses. My father taught me. He was a good teacher, if a cruel man." />
+	<string
+		id="backstory_b.spc_wanderer_khuzait_5"
+		text="{=1qrysbeT}If a man was drunk enough, I could usually take their purse without them even knowing, although sometimes they required a small knock on the head. Only travellers, though - much less fuss afterwards. Every trade takes finesse, as my father said." />
+	<string
+		id="backstory_c.spc_wanderer_khuzait_5"
+		text="{=9EQxlFGK}A wise man, my father. But proud, and that was his undoing. A thief cannot be proud. We do not survive long without protection from the guards, and a new captain wanted to double the 'tax' my father paid. He refused, so they hanged him." />
+	<string
+		id="response_1.spc_wanderer_khuzait_5"
+		text="{=nHrF87Up}I guess there's something to be learned from those skilled at all trades." />
+	<string
+		id="response_2.spc_wanderer_khuzait_5"
+		text="{=5Fp7d2cV}Sounds like justice served." />
+	<string
+		id="backstory_d.spc_wanderer_khuzait_5"
+		text="{=gPpi8a8n}I too am proud. So, I cannot work as a thief. Now I am looking for work that doesn't require me to bend down to the whims of guards, dogs and turnkeys." />
+	<string
+		id="generic_backstory.spc_wanderer_khuzait_5"
+		text="{=2cdYmeeq}My father was a robber and a murderer. We preyed on drunks and travellers outside the caravanserais, mostly, only knifing them when we needed to. But the guards caught up with my father, eventually. He had enough silver stored away to pay the bribes to save one of us. He was hanged, I fled." />
+	<!-- the grey falcon, lone survivor of a hunted steppe clan -->
+	<string
+		id="prebackstory.spc_wanderer_khuzait_6"
+		text="{=8aEcRzM7}I will tell you. If you are a partisan of the Khan Urkhun and his brood, however, you may not like it." />
+	<string
+		id="backstory_a.spc_wanderer_khuzait_6"
+		text="{=mSQSZyEF}You probably know that the Khuzaits once lived out on the open grass. But our khans became used to luxuries. They lived in cities, and wished to trade with and make war upon other kings. Khan Urkhun, whom some call the Great and others call the Cruel, decided the clans must live in fixed places, so he could count their warriors and levy them, and count their flocks and tax them. Thirty years ago Khan Urkhun ordered all the clans of the Khuzaits to claim land and live upon it, and the noyans to build castles. Most complied, for they had come to value their comforts more than their freedom." />
+	<string
+		id="backstory_b.spc_wanderer_khuzait_6"
+		text="{=phhXgKRm}Some resisted. The Karakhergit - you may have heard of them. They still dwell in the steppes but they are outcaste, raided for slaves by the others. My people were the Uvait. We were broken up - some bands were lured into the villages with silver, others were hunted down, defeated, and their sons taken as hostages. " />
+	<string
+		id="backstory_c.spc_wanderer_khuzait_6"
+		text="{=TxQztLfy}I am one of those whose clan was hunted down a generation ago when they refused the decree of Urkhun Khan, that they must settle and be taxed. They took our flocks, and we have since lived like beggars on the edge of the towns. The far grass teases us with its beauty, but if we went there with no sheep, we would soon starve." />
+	<string
+		id="response_1.spc_wanderer_khuzait_6"
+		text="{=TVQEb0MJ}Such a cruel decree..." />
+	<string
+		id="response_2.spc_wanderer_khuzait_6"
+		text="{=YDPpShfF}Sensible man, that Urkhun. Nomads are the enemy of order." />
+	<string
+		id="backstory_d.spc_wanderer_khuzait_6"
+		text="{=sbK6AEjB}I have scraped together a few coins. I will not say how, but they were enough to buy a sword. I am determined to earn enough to buy my people what was taken away from them - herds. I am sad to say I know little of the steppe, but I know much of the towns, of the back streets, of how to live in the gutters and shadows and grow strong." />
+	<string
+		id="generic_backstory.spc_wanderer_khuzait_6"
+		text="{=BxJA6fS5}Urkhun Khan decreed a generation ago that all the Khuzaits must settle, to be conscripted and taxed. We refused. His men took our flocks, and we have since lived like beggars on the edge of the towns. I have resolved to go out and earn the money we need to buy new flocks, and then we shall go again into the great grass, beyond the reach of any tyrant or khan." />
+	<!-- enslaved, used as amazon -->
+	<string
+		id="prebackstory.spc_wanderer_khuzait_7"
+		text="{=g3BssthL}Oh yes. I do indeed have a story to tell you." />
+	<string
+		id="backstory_a.spc_wanderer_khuzait_7"
+		text="{=TgN0DvXA}Slavers took me when I was a girl. The Empire tell legends of warrior-women out in the deep steppe, and when I was sold, they claimed I was one of these - to fight other slaves, to entertain them by making their legends come true." />
+	<string
+		id="backstory_b.spc_wanderer_khuzait_7"
+		text="{=3Yax10rQ}Well, perhaps there is something to those legends, because I did very well for myself, and made my master very rich. Imperial law now decrees that men are not allowed to kill in the arena, but no one pries into what happens at the private entertainments of the rich, and over a score of my fellow slaves must have felt my blade in their chest." />
+	<string
+		id="backstory_c.spc_wanderer_khuzait_7"
+		text="{=Gnczyx1v}I feel no guilt - they were trying to kill me, and some came very close. I did what I needed to do." />
+	<string
+		id="response_1.spc_wanderer_khuzait_7"
+		text="{=CQq51L8J}Yes, I suppose you did what you had to do." />
+	<string
+		id="response_2.spc_wanderer_khuzait_7"
+		text="{=rZs4HKkc}Necessity or not, you seem to take pride in what you did." />
+	<string
+		id="backstory_d.spc_wanderer_khuzait_7"
+		text="{=tpPE2Ert}There's not much more to say. My master was a sadistic animal but he let me keep my winnings, and eventually buy my freedom. I think he may also have realized that eventually, had he kept me against my will, he'd have ended up with a severed neck vein. So here I am, looking to make a living through the only means I know - shedding other people's blood. Got work?" />
+	<string
+		id="generic_backstory.spc_wanderer_khuzait_7"
+		text="{=ifkJcbZu}I was enslaved by imperial raiders and taken to the city. I was bought by a nobleman, who had me fight other slaves for his personal amusement. But I purchased my freedom, eventually, and now intend to enjoy it." />
+	<!-- lone daughter of mother -->
+	<string
+		id="prebackstory.spc_wanderer_khuzait_8"
+		text="{=iK5Kaa7M}Well, if you wish to know how cruel a pack can be to one of its own, I could enlighten you." />
+	<string
+		id="backstory_a.spc_wanderer_khuzait_8"
+		text="{=lbLBkvoe}My father died shortly after my mother became pregnant with me. I was her only child. Like most of our people, she had wanted sons. So she raised me as a son, and boasted of me like she would boast about a son. When I was a baby, she boasted of how swiftly I emptied her breast of milk. When I was a girl, she boasted of how I killed steppe ducks with my bow. When I became a woman, she boasted that soon I would be the first of my age-set to bring home the head of an enemy slain in battle." />
+	<string
+		id="backstory_b.spc_wanderer_khuzait_8"
+		text="{=piHbGBbA}Because I loved my mother, and because I was faster and stronger than the boys, I did all that she said I would do. Of those born in my year, I was the first to kill an enemy. My mother boasted even more, so that the other women came to hate her. They turned us all out of our encampment. We were forced to sell our lands and our slaves, as we could not take them with us, and we were given but a fraction of the price. All we had was our sheep. Of course raiders found us soon enough, and killed my mother, and took our flock. I escaped." />
+	<string
+		id="backstory_c.spc_wanderer_khuzait_8"
+		text="{=J7dPH9cj}I wandered a bit on the steppe. I starved a bit. But I followed the raiders and one, when he went beyond the campfire to empty his bladder, did not return. I now have his purse and his sword." />
+	<string
+		id="response_1.spc_wanderer_khuzait_8"
+		text="{=IyGObqs1}I'm sorry for your loss. You drew a cruel lot in life." />
+	<string
+		id="response_2.spc_wanderer_khuzait_8"
+		text="{=28RfiykG}Every day, I give thanks to the Heavens that I was not born a savage." />
+	<string
+		id="backstory_d.spc_wanderer_khuzait_8"
+		text="{=548o0GKu}I could return to my people, I suppose, but I have no wish to do so. So I am here, in the towns, where I can make good money with my sword and care nothing about those who envy me." />
+	<string
+		id="generic_backstory.spc_wanderer_khuzait_8"
+		text="{=TIYbctCQ}My father died shortly after my birth. I was my mother's only child. Our clan was poor, and a woman with a baby - especially a girl-baby - was only a drain on what little they had. So we were sold to another clan, as servants. Some years later, when my mother died, I stole one of their swords and one of their horses and rode off into the grass." />
+	<!-- tomboy daughter of caravan guard -->
+	<string
+		id="prebackstory.spc_wanderer_khuzait_9"
+		text="{=W5MlHm8t}Sure. You can't sell a horse if you don't shout its praises, as they say." />
+	<string
+		id="backstory_a.spc_wanderer_khuzait_9"
+		text="{=Xe2pVmnX}I was the brat of a caravan guard. Never knew my mother, but my Da kept me close. I grew up running between the legs of camels on the steppe, eavesdropping on merchant gossip in the sarais, eating sesame cakes bought me by the other guards. A happier childhood you couldn't imagine." />
+	<string
+		id="backstory_b.spc_wanderer_khuzait_9"
+		text="{=TAC5Tnx4}But when I got older, well, it wasn't so easy to take me on the road. Too many boys giving me funny looks. And my Da, he wanted a good husband for me, but the boys he knew weren't the marrying type. So I said to him, 'I'll be like you, Da, carry a sword and guard rich merchants. And maybe, with the money I earn, some decent boy will love me for my dowry, if not my family name.' He fussed a bit about that but he had no better ideas." />
+	<string
+		id="backstory_c.spc_wanderer_khuzait_9"
+		text="{=KyiL4Hvs}So here I am. Guess I'm not so interested in the marriage part, but I like the denars and I like my freedom. Maybe some day I'll surprise my Da with a nice farm and a couple of slaves to keep him happy in his old age." />
+	<string
+		id="response_1.spc_wanderer_khuzait_9"
+		text="{=bLZVseMd}I'm sure he'll be happy if you're happy." />
+	<string
+		id="response_2.spc_wanderer_khuzait_9"
+		text="{=MlXbCLlO}You must have broken your poor father's heart." />
+	<string
+		id="backstory_d.spc_wanderer_khuzait_9"
+		text="{=A6WrXPQ6}So like I said: I can ride, swing a sword, manage a caravan, and I have good idea how to turn a profit. You know anyone looking to hire someone like that?" />
+	<string
+		id="generic_backstory.spc_wanderer_khuzait_9"
+		text="{=GT1ubyEr}I was the child of a caravan guard. I spent my babyhood swinging from a sling on the side of a camel, and my childhood chasing strays. But caravans are preyed upon by bandits and others, and I decided I don't like being prey. I reckon I have the skills to be a predator." />
+	<!-- failed horsethief -->
+	<string
+		id="prebackstory.spc_wanderer_khuzait_10"
+		text="{=tfEfmvBt}Mm. Oh yes, you may." />
+	<string
+		id="backstory_a.spc_wanderer_khuzait_10"
+		text="{=Iedpguoa}I grew up in a village not far from here. My father was a peddler, and I used to go around with him, buying broken goods, repairing them, making a denar here and a denar there. But you know how the tribes from the steppe look down on those who scrape and save for the pennies to pay our taxes. Trampling our crops, hauling us off to war, sitting their in the saddle looking pleased with themeselves as we grub in the mud." />
+	<string
+		id="backstory_b.spc_wanderer_khuzait_10"
+		text="{=wxfJIDtt}At any rate, that wasn't the life for me. So I made up my mind to run off to the grasses, find one of those tribes that doesn't answer to the khan and takes in fugitives. The Karakhuzaits, they call them. Problem is I first needed a horse." />
+	<string
+		id="backstory_c.spc_wanderer_khuzait_10"
+		text="{=EJKa1wQS}Anyway I hung around the marketplace in Chaikand, looking for a likely candidate. Eventually I found an animal whose owner hadn't tied up too well as he went off to get drunk. So I took it and ran. And you know what? The cursed beast threw me, not one league out of town, and ran back to his sodden master." />
+	<string
+		id="response_1.spc_wanderer_khuzait_10"
+		text="{=Xxu37bB8}Oh well. I guess you've got spirit." />
+	<string
+		id="response_2.spc_wanderer_khuzait_10"
+		text="{=MIBESua8}Hah! May all thieves fail as you did." />
+	<string
+		id="backstory_d.spc_wanderer_khuzait_10"
+		text="{=R6P8JauE}Anyway, I guess I need a new plan to make my way in the world. But I'm not going to be a peddlar like my dad, I'll tell you that much. Maybe I'll fight and ride, or maybe I'll be a rich merchant running caravans, but one way or the other, I intend to find my place among the hawks of the world rather than the pigeons." />
+	<string
+		id="generic_backstory.spc_wanderer_khuzait_10"
+		text="{=aCaH6sMX}I was the son of a village peddler but that's not the kind of life I want to live. I want to learn to fight and ride. There are a lot of us lads like that in the Khuzait lands, I think you'll find, even if the great horse lords think we're fit only to stitch sandals or push a plough." />
+	<!--
+
+  -->
+	<!--<string id="str_npc_intro.16" text="Who are you? What do you want?" />
+<string id="str_npc_intro_response_1.16" text="I merely meant to toast your health. As strangers sometimes do in taverns, without meaning any harm." />
+<string id="str_npc_intro_response_2.16" text="Never mind." />
+<string id="str_npc_backstory_a.16" text="Ah. I am sorry. It has been long since I spoke with other men. And I am a bit drunk... Look, let me tell you my story." />
+<string id="str_npc_backstory_b.16" text="I'm from the fen Dairl. We're not one of the biggest clans of Battania, but we're good fighters. When I came of age, I left my father's home for some years to live in the woods, as a Wolfskin. It is a custom we have, for youths to run as Wolfskins. They don't eat cooked food or live in houses or wear spun cloth, and in turn are not answerable to the laws of men. " />
+<string id="str_npc_interrupt_1.16" text="I think I've heard of that custom. Don't the Battanians say it teaches them the ways of the woods?" />
+<string id="str_npc_interrupt_2.16" text="I did not ask to hear your story. I have other business." />
+<string id="str_npc_backstory_d.16" text="Fah. The Wolfskins are rich feral children, playing at being animals. There was one in my band, Deimul fen Gruffendoc, a cousin of the king. He had a quick tongue. He mocked me, every chance he had. I was slow and could never think how to answer. One night I couldn't take it any more. I pulled my knife, and we fought. I stabbed him in the thigh and no one knew how to staunch the bleeding so he bled to death." />
+<string id="str_npc_backstory_d.16" text="I am sorry. It has been a long time since I spoke at such length to anyone. I think it is the wine. It has gone to my head. It has been three years that I have lived in the woods, with only the wolves for companions." />
+<string id="str_npc_backstory_response_1.16" text="Three years by yourself? You must have learned a great deal of woodcraft. I may have need of a scout." />
+<string id="str_npc_backstory_response_2.16" text="...." />
+<string id="str_npc_signup.16" text="Patrols and hunting parties would sometimes come into the woods. I could run circles around them, and they would never know I was there." />
+<string id="str_npc_signup_2.16" text="[what he won't do]" />
+<string id="str_npc_signup_response_1.16" text="Good. [agrees not to do it]" />
+
+<string id="str_npc_signup_response_2.16" text="On second thought, you seem as much beast as man." />
+			-->
+	<!--
+    
+    
+    <string id="str_political_philosophy_pharon" text="Things will have to change, if they are to stay the same." />
+    <string id="str_political_philosophy_rhagaea" text="I am fighting because the Emperor Arenicos named me, the mother of his children, as his heir, so that his daughter can become Empress in turn. The principle of inheritance - the people understand this, not the arcane rules of the Senate." />
+    <string id="str_political_philosophy_rhagaea_2" text="Whoever wins this war, landlords will cheat tenants, city guards will demand bribes from merchants, warriors will rape farmers' daughters, husbands will beat wives. If I win, in centuries to come, people will think back on my victory and think, 'Heavens smile on those who fight for their rights and the rights of their children.'" />
+
+
+    Garios: We will never have peace until there is an Emperor whom the soldiers love. What do they want? A leader who trains them hard, fights them hard, and rewards them generously. I intend to do that.
+    The Heavens know I loved Arenicos. I shed his blood for them. But his dream of peace with our neighbors was moonshine. You can have war on the frontiers or war at home. I prefer war on the frontiers. Let the men earn glory, gold and slaves.
+
+    Lucon: The Senate chooses the Emperor. That is our law. It has been twisted, broken, or ignored for 100 years. But it has never been changed. Without law, there is but tyranny and the mob.
+
+    Rhagaea:
+I am fighting because the Emperor Arenicos named me, the mother of his children, as his heir. That is how it has been done the past 100 years. The Senate are a bunch of greedy squabbling rich old men, and there is good reason why the people no longer accept them as their masters.
+I do not proclaim any lofty cause. Whoever wins this war, landlords will cheat tenants, city guards will demand bribes from merchants, warriors will rape farmers' daughters, husbands will beat wives. The plague and the flux will take more lives than all the evils of man put together.
+I will strive to be a good queen. I will pursue policies that I believe to be sensible, such as persuading the Aserai and the Khuzait to accept imperial citizenship and join us rather than harass our frontiers. But I can offer no guarantee that my heir, or my heir's heir, will not be a monster.
+I could marry Lucon or Gario, and save thousands of lives. But men are willing to fight for me, though it gains them nothing, for no other reason that the throne is my right. I will not betray these men.
+If I win, in centuries to come, people will think back on my victory and think, "Heavens smile on those who fight for truth."
+    -->
+</strings>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Français" />
+  </tags>
+  <strings>
+    <string id="1QAEyN2V" text="Triche utilisée : {CHEAT}" />
+    <string id="1tiF5JhE" text="{TITLE} &gt; {SUBTITLE}" />
+    <string id="5zeL8sa9" text="Vous avez obtenu {A0} d&apos;influence." />
+    <string id="6qYaQkDD" text="{COUNT} + {PRISONER_COUNT}p" />
+    <string id="7AI8jA0b" text="Le texte saisi ne peut pas être vide." />
+    <string id="7WdWK2Dt" text="Sauvegarder la partie" />
+    <string id="AdgAJbAP" text="Revenir à la carte" />
+    <string id="aG6XMhA1" text="Un fichier d&apos;une partie sauvegardée existante possède déjà ce nom." />
+    <string id="Ahy035gM" text="Coût de construction" />
+    <string id="ANoYN1yZ" text="Vous avez débloqué la figure de proue {A0}." />
+    <string id="azJulvrp" text="{?IS_BETTING}Vous perdrez {BET_AMOUNT}{GOLD_ICON} en abandonnant.{newline}{?}{\?}Voulez-vous vraiment abandonner ?" />
+    <string id="B3W6fcQX" text="Le texte saisi ne peut pas dépasser les {MAX_LENGTH} caractères." />
+    <string id="CiIWjF3f" text="+{PRISONERAMOUNT}p" />
+    <string id="cp2XDjeq" text="Sauvegarde en cours..." />
+    <string id="CqAhj27p" text=" {ITEM_NAME} x{ITEM_NUMBER}" />
+    <string id="deleteaction" text="Supprimer" />
+    <string id="DeXfSjgY" text="Impossible de créer une nouvelle sauvegarde. Limite de sauvegarde atteinte." />
+    <string id="eiWQoW9j" text="Vous avez obtenu {A0} de renommée." />
+    <string id="eL8nhkhQ" text="Nouvel emplacement de sauvegarde" />
+    <string id="FFiPLPbs" text="Mise à jour de la sauvegarde" />
+    <string id="Fm0rjkH7" text="Homme de fer" />
+    <string id="GaOE4bdd" text="Passer toutes les manches" />
+    <string id="gDKhs4lD" text="{A0} a péri sur le champ de bataille." />
+    <string id="GmjiZk9P" text="Appeler les troupes" />
+    <string id="gZIOG0wl" text="Influence d&apos;archer à cheval" />
+    <string id="GZWPHmAw" text="Jour : {DAY}" />
+    <string id="HH2mZq8J" text="Voulez-vous vraiment supprimer cette partie sauvegardée ?" />
+    <string id="hiCxFj4E" text="Campagnes sauvegardées" />
+    <string id="hUSmlhNh" text="{CURRENT_PAGE}/{TOTAL_PAGES}" />
+    <string id="hYL3CFHX" text="Voulez-vous écraser cette partie sauvegardée ?" />
+    <string id="hZrwUIaq" text="Santé" />
+    <string id="IwhpeT8C" text="Niveau : {PLAYER_LEVEL}" />
+    <string id="KdT0PM8Y" text="Sentinelle" />
+    <string id="KgTFCWG8" text="Vous êtes {?PLAYER.GENDER}suspicieuse{?}suspicieux{\?}" />
+    <string id="kXRdeawC" text="Le texte saisi ne peut pas contenir de caractères spéciaux." />
+    <string id="kXy4R7ca" text="Vous êtes sur le point de perdre votre cible." />
+    <string id="L9GnQvsq" text="Mise : {BETTED_DENARS}" />
+    <string id="lPMYSSAa" text="Outils requis" />
+    <string id="M1AEHJ76" text="Veuillez remarquer que cette sauvegarde est créée pour une session où le mode Homme de fer a été activé. Il n&apos;y aura aucune autre sauvegarde pour cette session. Voulez-vous vraiment supprimer cette partie sauvegardée ?" />
+    <string id="M4WMKyE1" text="Le texte saisi contient du texte réservé." />
+    <string id="nvemmBZz" text="Vous avez remporté {AMOUNT} % du butin et des prisonniers" />
+    <string id="nVGqjtaa" text="Campagne {ID}" />
+    <string id="O9nwLrYp" text="+{WOUNDEDAMOUNT}b" />
+    <string id="o9PIe7am" text="Corrompue" />
+    <string id="OYtysXzk" text="Triches" />
+    <string id="PY00wRz4" text="Échec de la suppression de la sauvegarde." />
+    <string id="Q1HIlJxe" text="Écraser" />
+    <string id="QHV8aeEg" text="Supprimer la sauvegarde" />
+    <string id="qIeDZoSx" text="{ITEMS} {#GENDER(ITEMS)}achetés{#}acheté{#}achetées{#}achetée{\#}" />
+    <string id="R3Zn7x07" text="Vous devez sélectionner une option" />
+    <string id="RoYPofhK" text="Sauvegarde corrompue" />
+    <string id="Rtakaivj" text="Le texte saisi doit contenir au moins un caractère qui n&apos;est pas une espace." />
+    <string id="SRjrhb0A" text="Nombre de fiefs possédés" />
+    <string id="str_save_text_ps4" text="Sauvegarde. N&apos;éteignez pas votre console." />
+    <string id="str_save_text_ps5" text="Sauvegarde. N&apos;éteignez pas votre console." />
+    <string id="TFJTOYea" text="A résolu une tâche" />
+    <string id="uncategorized_save" text="Sans catégorie" />
+    <string id="vjhkoUFS" text="Sauvegarde. N&apos;éteignez pas votre console." />
+    <string id="WAKz9xX8" text="Vous avez obtenu {A0} de moral." />
+    <string id="WcSky2KB" text="Zone de furtivité" />
+    <string id="WDlVhNuq" text="Nommez votre fichier de sauvegarde" />
+    <string id="X8i3jZn8" text="Influence de cavalerie" />
+    <string id="xlEZ02Qw" text="Le visuel du personnage est désactivé lors de &quot;Sauvegarder sous&quot; sur la carte de campagne." />
+    <string id="xu5NA6AW" text="Vous avez remporté {A0} % du butin." />
+    <string id="xzzSaN4b" text="Prévisions : {OVERALL_EXPECTED_DENARS}" />
+    <string id="yF5fpwNE" text="Total : {TOTAL}" />
+    <string id="YgyHVu8S" text="{ITEMS} {#GENDER(ITEMNAME)}vendus{#}vendu{#}vendues{#}vendue{\#}" />
+    <string id="ZDPIq4hi" text="Chargez la partie sauvegardée de votre choix, écrasez-la avec la version actuelle du jeu et revenez à cet écran." />
+  </strings>
+</base>

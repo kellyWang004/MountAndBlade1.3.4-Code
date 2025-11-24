@@ -1,0 +1,696 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<string
+		id="str_kingdom_formal_name.vlandia"
+		text="{=lAWwcO6b}Kingdom of Vlandia" />
+	<string
+		id="str_kingdom_formal_name.battania"
+		text="{=qaDIU0XC}High Kingdom of the Battanians" />
+	<string
+		id="str_kingdom_formal_name.khuzait"
+		text="{=bF7HmNGQ}Khuzait Khanate" />
+	<string
+		id="str_kingdom_formal_name.sturgia"
+		text="{=iYCR3xuQ}Principality of Sturgia" />
+	<string
+		id="str_kingdom_formal_name.aserai"
+		text="{=eb0nLx5E}Aserai Sultanate" />
+	<string
+		id="str_kingdom_formal_name.empire"
+		text="{=NF627oiX}Northern Empire" />
+	<string
+		id="str_kingdom_formal_name.empire_s"
+		text="{=frBQ9mbP}Southern Empire" />
+	<string
+		id="str_kingdom_formal_name.empire_w"
+		text="{=yG3YUySN}Western Empire" />
+	<string
+		id="str_player_father_name.vlandia"
+		text="{=QZHSvGrD}Baldrim" />
+	<string
+		id="str_player_father_name.battania"
+		text="{=4IZnbvlD}Baudein" />
+	<string
+		id="str_player_father_name.khuzait"
+		text="{=Sfd3aqia}Bandan" />
+	<string
+		id="str_player_father_name.sturgia"
+		text="{=XsIq2RFs}Baldim" />
+	<string
+		id="str_player_father_name.aserai"
+		text="{=GCqWwDWg}Baladir" />
+	<string
+		id="str_player_father_name.empire"
+		text="{=776J8Fng}Baldimos" />
+	<string
+		id="str_player_mother_name.vlandia"
+		text="{=X7Xp9xGe}Tertha" />
+	<string
+		id="str_player_mother_name.battania"
+		text="{=EhELIf65}Teruin" />
+	<string
+		id="str_player_mother_name.khuzait"
+		text="{=opUBnFym}Terte" />
+	<string
+		id="str_player_mother_name.sturgia"
+		text="{=Z33uQl2f}Tarya" />
+	<string
+		id="str_player_mother_name.aserai"
+		text="{=DELVwiEM}Tira" />
+	<string
+		id="str_player_mother_name.empire"
+		text="{=yvdQ9MD6}Terea" />
+	<string
+		id="str_game_action_note.DefaultNote"
+		text="{=!}DefaultNote" />
+	<string
+		id="str_game_action_note.EasyPlayerVictory"
+		text="{=!}EasyPlayerVictory" />
+	<string
+		id="str_game_action_note.AgainstGreatOdds"
+		text="{=!}AgainstGreatOdds" />
+	<string
+		id="str_game_action_note.PlayerLastStand"
+		text="{=!}PlayerLastStand" />
+	<string
+		id="str_game_action_note.Treacherously"
+		text="{=!}Treacherously" />
+	<string
+		id="str_game_action_note.AgainstCaravan"
+		text="{=!}" />
+	<string
+		id="str_game_action_note.GrantedFief"
+		text="{=!}GrantedFief" />
+	<string
+		id="str_game_action_note.GrantedDux"
+		text="{=!}GrantedDux" />
+	<string
+		id="str_game_action_note.MadeWar"
+		text="{=!}MadeWar" />
+	<string
+		id="str_game_action_note.IgnoredWar"
+		text="{=!}" />
+	<string
+		id="str_game_action_note.MadePeace"
+		text="{=!}MadePeace" />
+	<string
+		id="str_game_action_note.IgnoredPeace"
+		text="{=!}IgnoredPeace" />
+	<string
+		id="str_game_action_note.ByRebellion"
+		text="{=!}ByRebellion" />
+	<string
+		id="str_game_action_note.NoQuarrel"
+		text="{=!}NoQuarrel" />
+	<string
+		id="str_game_action_note.CourtshipQuarrel"
+		text="{=!}CourtshipQuarrel" />
+	<string
+		id="str_game_action_note.FiefQuarrel"
+		text="{=!}FiefQuarrel" />
+	<string
+		id="str_game_action_note.ValorStrategyQuarrel"
+		text="{=!}ValorStrategyQuarrel" />
+	<string
+		id="str_game_action_note.ResponsibilityStrategyQuarrel"
+		text="{=!}ResponsibilityStrategyQuarrel" />
+	<string
+		id="str_game_action_note.CalculatingStrategyQuarrel"
+		text="{=!}CalculatingStrategyQuarrel" />
+	<string
+		id="str_game_action_note.VengeanceQuarrel"
+		text="{=!}VengeanceQuarrel" />
+	<string
+		id="str_game_action_note.DishonestBusinessQuarrel"
+		text="{=!}DishonestBusinessQuarrel" />
+	<string
+		id="str_game_action_note.RuthlessBusinessQuarrel"
+		text="{=!}RuthlessBusinessQuarrel" />
+	<string
+		id="str_game_action_note.CorruptGangLeaderQuarrel"
+		text="{=!}" />
+	<string
+		id="str_game_action_note.ExploitativeMerchantQuarrel"
+		text="{=!}ExploitativeMerchantQuarrel" />
+	<string
+		id="str_game_action_note.CompetingGangLeaderQuarrel"
+		text="{=!}CompetingGangLeaderQuarrel" />
+	<string
+		id="str_game_action_note.TroublemakerQuarrel"
+		text="{=!}TroublemakerQuarrel" />
+	<string
+		id="str_game_action_note.ExtortingQuarrel"
+		text="{=!}ExtortingQuarrel" />
+	<string
+		id="str_game_action_note.HereticQuarrel"
+		text="{=!}HereticQuarrel" />
+	<string
+		id="str_game_action_note.LandCheatingQuarrel"
+		text="{=!}LandCheatingQuarrel" />
+	<string
+		id="str_game_action_note.QuestBetrayal"
+		text="{=!}QuestBetrayal" />
+	<string
+		id="str_game_action_note.QuestSuccess"
+		text="{=!}QuestSuccess" />
+	<string
+		id="str_game_action_note.QuestFailed"
+		text="{=!}QuestFailed" />
+	<string
+		id="str_game_action_note.BattleValor"
+		text="{=!}BattleValor" />
+	<string
+		id="str_game_action_note.HostileAction"
+		text="{=!}HostileAction" />
+	<string
+		id="str_game_action_note.PersuadedToDefect"
+		text="{=!}PersuadedToDefect" />
+	<string
+		id="str_game_action_note.PartyHungry"
+		text="{=!}PartyHungry" />
+	<string
+		id="str_game_action_note.PartyTakenCareOf,//increases loyalty"
+		text="{=!}PartyTakenCareOf" />
+	<string
+		id="str_game_action_note.VillageRaid"
+		text="{=!}VillageRaid" />
+	<string
+		id="str_game_action_note.SacrificedTroops"
+		text="{=!}SacrificedTroops" />
+	<string
+		id="str_game_action_note.NPCFreed"
+		text="{=!}NPCFreed" />
+	<string
+		id="str_campaign_options_auto_save_value"
+		text="{=irBV6UE4}{MINUTE} {?IS_PLURAL}minutes{?}minute{\?}" />
+	<string
+		id="str_campaign_options_type.DifficultyPresets"
+		text="{=4v3Lb6BU}Difficulty Presets" />
+	<string
+		id="str_campaign_options_type.PlayerTroopsReceivedDamage"
+		text="{=Oea9a5nY}Friendly Troops Received Damage" />
+	<string
+		id="str_campaign_options_type.MaximumIndexPlayerCanRecruit"
+		text="{=bLwIgxXa}Recruitment Difficulty" />
+	<string
+		id="str_campaign_options_type.PlayerMapMovementSpeed"
+		text="{=IWD56KMc}Map Movement Speed" />
+	<string
+		id="str_campaign_options_type.StealthAndDisguiseDifficulty"
+		text="{=Wgu9EK8b}Stealth and Disguise Difficulty" />
+	<string
+		id="str_campaign_options_type_StealthAndDisguiseDifficulty.VeryEasy"
+		text="{=8UBfIenN}Normal" />
+	<string
+		id="str_campaign_options_type_StealthAndDisguiseDifficulty.Easy"
+		text="{=veterandifficulty}Veteran" />
+	<string
+		id="str_campaign_options_type_StealthAndDisguiseDifficulty.Realistic"
+		text="{=JMhKt2W1}Challenging" />
+	<string
+		id="str_campaign_options_type.PersuasionSuccess"
+		text="{=ax9PEsfp}Persuasion Difficulty" />
+	<string
+		id="str_campaign_options_type.ClanMemberBattleDeathPossibility"
+		text="{=VtEF7wle}Clan Member Battle Death Chance" />
+	<string
+		id="str_campaign_options_type.BattleDeath"
+		text="{=mY4hNpbk}Hero Battle Death Chance" />
+	<string
+		id="str_campaign_options_type.IsLifeDeathCycleEnabled"
+		text="{=o81neN4A}Enable Birth and Aging" />
+	<string
+		id="str_campaign_options_type.IsFastModeEnabled"
+		text="{=S2NCdsTo}Fast Mode Is Enabled" />
+	<string
+		id="str_campaign_options_type.IsMapNotificationsEnabled"
+		text="{=yKJ9c8IV}Enable Right Side Circle Map Notifications" />
+	<string
+		id="str_campaign_options_type.EnableTutorial"
+		text="{=t47EzcbW}Enable Tutorial" />
+	<string
+		id="str_campaign_options_type.CombatAIDifficulty"
+		text="{=sYVFg9ai}Combat AI Difficulty" />
+	<string
+		id="str_campaign_options_type.AutoSaveInMinutes"
+		text="{=k0nSlwe9}Auto Save Interval" />
+	<string
+		id="str_campaign_options_type_CombatAIDifficulty.VeryEasy"
+		text="{=8UBfIenN}Normal" />
+	<string
+		id="str_campaign_options_type_CombatAIDifficulty.Easy"
+		text="{=veterandifficulty}Veteran" />
+	<string
+		id="str_campaign_options_type_CombatAIDifficulty.Realistic"
+		text="{=JMhKt2W1}Challenging" />
+	<string
+		id="str_campaign_options_description.CombatAIDifficulty"
+		text="{=izbANsTI}Determines the difficulty of the combat AI" />
+	<string
+		id="str_campaign_options_type.AutoAllocateClanMemberPerks"
+		text="{=TZ9ugd1p}Auto Allocate Clan Member Perks" />
+	<string
+		id="str_campaign_options_type.IronmanMode"
+		text="{=vNLVkLT5}Ironman Mode" />
+	<string
+		id="str_campaign_options_type.SkipMainStoryLineTutorial"
+		text="{=ZWiFWA2W}Skip Main Storyline Tutorial" />
+	<string
+		id="str_campaign_options_type.ResetTutorial"
+		text="{=oUz16Nav}Reset Tutorial" />
+	<string
+		id="str_campaign_options_type.EnableCheats"
+		text="{=aWeYcDKm}Open Cheat Menu" />
+	<string
+		id="str_campaign_options_type_DifficultyPresets.Freebooter"
+		text="{=freebooterdifficulty}Freebooter" />
+	<string
+		id="str_campaign_options_type_DifficultyPresets.Warrior"
+		text="{=bHx8jaeI}Warrior" />
+	<string
+		id="str_campaign_options_type_DifficultyPresets.Bannerlord"
+		text="{=MMv0U5Yr}Bannerlord" />
+	<string
+		id="str_campaign_options_type_DifficultyPresets.Custom"
+		text="{=jvOYgHOe}Custom" />
+	<string
+		id="str_campaign_options_type_PlayerTroopsReceivedDamage.VeryEasy"
+		text="{=CH9ZYhWk}Very Easy (-50% Damage)" />
+	<string
+		id="str_campaign_options_type_PlayerTroopsReceivedDamage.Easy"
+		text="{=MI2007pj}Easy (-%25 Damage)" />
+	<string
+		id="str_campaign_options_type_PlayerTroopsReceivedDamage.Realistic"
+		text="{=9jSxo790}Realistic" />
+	<string
+		id="str_campaign_options_type_PlayerReceivedDamage.VeryEasy"
+		text="{=ob84Szvh}Very Easy (-75% Damage)" />
+	<string
+		id="str_campaign_options_type_PlayerReceivedDamage.Easy"
+		text="{=JR6UgiT1}Easy (-50% Damage)" />
+	<string
+		id="str_campaign_options_type_PlayerReceivedDamage.Realistic"
+		text="{=9jSxo790}Realistic" />
+	<string
+		id="str_campaign_options_type_MaximumIndexPlayerCanRecruit.VeryEasy"
+		text="{=UcgNVM0P}Very Easy (+2 Troops)" />
+	<string
+		id="str_campaign_options_type_MaximumIndexPlayerCanRecruit.Easy"
+		text="{=QzmJL5I7}Easy (+1 Troops)" />
+	<string
+		id="str_campaign_options_type_MaximumIndexPlayerCanRecruit.Realistic"
+		text="{=9jSxo790}Realistic" />
+	<string
+		id="str_campaign_options_type_PlayerMapMovementSpeed.VeryEasy"
+		text="{=RZFAxCMp}Very Easy (+10% Speed)" />
+	<string
+		id="str_campaign_options_type_PlayerMapMovementSpeed.Easy"
+		text="{=7ZhNilg8}Easy (+5% Speed)" />
+	<string
+		id="str_campaign_options_type_PlayerMapMovementSpeed.Realistic"
+		text="{=9jSxo790}Realistic" />
+	<string
+		id="str_campaign_options_type_PersuasionSuccess.VeryEasy"
+		text="{=6SRPa65F}Very Easy (+10% Success Chance)" />
+	<string
+		id="str_campaign_options_type_PersuasionSuccess.Easy"
+		text="{=6o10SHat}Easy (+5% Success Chance)" />
+	<string
+		id="str_campaign_options_type_PersuasionSuccess.Realistic"
+		text="{=9jSxo790}Realistic" />
+	<string
+		id="str_campaign_options_type_BattleDeath.VeryEasy"
+		text="{=ehdBvNmN}Disable Battle Death For All Heroes" />
+	<string
+		id="str_campaign_options_type_BattleDeath.Easy"
+		text="{=cpWFA3dl}Disable Battle Death For Player Hero" />
+	<string
+		id="str_campaign_options_type_BattleDeath.Realistic"
+		text="{=OPPcXXSJ}Enable Battle Death For All Heroes" />
+	<string
+		id="str_campaign_options_type_ClanMemberBattleDeathPossibility.VeryEasy"
+		text="{=npLZ741I}Disable Battle Death For Clan Members" />
+	<string
+		id="str_campaign_options_type_ClanMemberBattleDeathPossibility.Easy"
+		text="{=bfiDLULr}Reduced by 50%" />
+	<string
+		id="str_campaign_options_type_ClanMemberBattleDeathPossibility.Realistic"
+		text="{=9jSxo790}Realistic" />
+	<string
+		id="str_campaign_options_description.DifficultyPresets"
+		text="{=khb5YDgN}Select a difficulty preset." />
+	<string
+		id="str_campaign_options_description.EnableTutorial"
+		text="{=SrkDqNdb}Enable Tutorial Popups" />
+	<string
+		id="str_campaign_options_description.DamageToPlayer"
+		text="{=rRhypEZV}Determines the damage received by your character." />
+	<string
+		id="str_campaign_options_description.DamageToFriends"
+		text="{=ltfL5OSA}Determines the damage received by your troops." />
+	<string
+		id="str_campaign_options_description.IsLifeDeathCycleEnabled"
+		text="{=BskZLZRb}Choose if the heroes are able to age and reproduce." />
+	<string
+		id="str_campaign_options_description.IsFastModeEnabled"
+		text="{=V4PXAgJB}Accelerated gameplay." />
+	<string
+		id="str_campaign_options_description.IsMapNotificationsEnabled"
+		text="{=9l5RgXiU}Choose if circle map notifications will be shown on the right side on campaign map." />
+	<string
+		id="str_campaign_options_description.PlayerTroopsReceivedDamage"
+		text="{=ltfL5OSA}Determines the damage received by your troops." />
+	<string
+		id="str_campaign_options_description.MaximumIndexPlayerCanRecruit"
+		text="{=LQAb6X5j}Determines the amount of troops available from notables." />
+	<string
+		id="str_campaign_options_description.PlayerMapMovementSpeed"
+		text="{=wZrW5FEB}Determines your party’s movement speed while travelling." />
+	<string
+		id="str_campaign_options_description.StealthAndDisguiseDifficulty"
+		text="{=DEH8AvZt}Determines the difficulty of stealth and disguise gameplay." />
+	<string
+		id="str_campaign_options_description.PersuasionSuccess"
+		text="{=lCHii7V0}Determines the persuasion success chance." />
+	<string
+		id="str_campaign_options_description.ClanMemberBattleDeathPossibility"
+		text="{=lF6dauOB}Determines the possibility of your clan members dying in battle." />
+	<string
+		id="str_campaign_options_description.BattleDeath"
+		text="{=BqImNuSm}Determines if you and/or other heroes can die in battle." />
+	<string
+		id="str_campaign_options_description.AutoAllocateClanMemberPerks"
+		text="{=fbaQp3ox}Enable auto allocation of perks for members in your clan." />
+	<string
+		id="str_campaign_options_description.IronmanMode"
+		text="{=FiRWs5vF}Ironman mode limits you to a single save file and automatically saves when you quit the game." />
+	<string
+		id="str_campaign_options_description.SkipMainStoryLineTutorial"
+		text="{=N6fz1efb}Skips tutorial at the beginning of the game." />
+	<string
+		id="str_campaign_options_description.AutoSaveInMinutes"
+		text="{=yLa9ftit}Sets the interval of time between autosaves." />
+	<string
+		id="str_campaign_options_description.ResetTutorial"
+		text="{=gRVHCPak}Reset all tutorials" />
+	<string
+		id="str_campaign_options_description.EnableCheats"
+		text="{=hLijkSTy}Cheat Menu can also be enabled by holding &quot;Left Bumper + Right Trigger + D-Pad Down&quot; in map." />
+	<string
+		id="str_campaign_options_disabled_reason.DifficultyPresets"
+		text="{=1JlzQIXE}Disabled" />
+	<string
+		id="str_campaign_options_disabled_reason.PlayerTroopsReceivedDamage"
+		text="{=1JlzQIXE}Disabled" />
+	<string
+		id="str_campaign_options_disabled_reason.MaximumIndexPlayerCanRecruit"
+		text="{=1JlzQIXE}Disabled" />
+	<string
+		id="str_campaign_options_disabled_reason.PlayerMapMovementSpeed"
+		text="{=1JlzQIXE}Disabled" />
+	<string
+		id="str_campaign_options_disabled_reason.CombatAIDifficulty"
+		text="{=1JlzQIXE}Disabled" />
+	<string
+		id="str_campaign_options_disabled_reason.PersuasionSuccess"
+		text="{=1JlzQIXE}Disabled" />
+	<string
+		id="str_campaign_options_disabled_reason.ClanMemberBattleDeathPossibility"
+		text="{=1JlzQIXE}Disabled" />
+	<string
+		id="str_campaign_options_disabled_reason.BattleDeath"
+		text="{=1JlzQIXE}Disabled" />
+	<string
+		id="str_campaign_options_disabled_reason.IsLifeDeathCycleEnabled"
+		text="{=debaZA1j}This option can only be changed in character creation." />
+	<string
+		id="str_campaign_options_disabled_reason.IsFastModeEnabled"
+		text="{=lJ28AH1a}This option can only be changed by activating/deactivating Fast Mode mod from launcher on new games." />
+	<string
+		id="str_campaign_options_disabled_reason.AutoAllocateClanMemberPerks"
+		text="{=1JlzQIXE}Disabled" />
+	<string
+		id="str_campaign_options_disabled_reason.IronmanMode"
+		text="{=debaZA1j}This option can only be changed in character creation." />
+	<string
+		id="str_campaign_options_persistency_warning"
+		text="{=btC3Y3hb}This option cannot be changed later." />
+	<string
+		id="str_campaign_options_dependency_warning"
+		text="{=OKjjmsPq}This option depends on &quot;{OPTION}&quot; to be enabled." />
+	<string
+		id="str_game_difficulty"
+		text="{=uG2Alcat}Game Difficulty" />
+	<string
+		id="str_difficulty"
+		text="{=raD9MK3O}Difficulty" />
+	<string
+		id="str_determine_difficulty"
+		text="{=8eYtra7T}Determine the game difficulty" />
+	<string
+		id="str_character_developer_member_not_in_player_party"
+		text="{=sp8Kred0}Member needs to be in player's party in order to do this action." />
+	<string
+		id="str_leaderboard_rank"
+		text="{=!}{RANK}" />
+	<string
+		id="str_leaderboard_victories"
+		text="{=k71J6bVH}Victories" />
+	<string
+		id="str_leaderboard_rank_sort"
+		text="{=UfQotsfo}Rank #" />
+	<string
+		id="str_leaderboard_prize"
+		text="{=AQfVclN8}Prize" />
+	<string
+		id="str_leaderboard_title"
+		text="{=vGF5S2hE}Leaderboard" />
+	<string
+		id="str_kingdom_decision_abstain_desc"
+		text="{=k4CF68S6}We abstain" />
+	<!-- how is this supposed to sound? -->
+	<string
+		id="str_change_kingdom_name"
+		text="{=ReNnVfEn}Change Kingdom Name" />
+	<string
+		id="str_change_clan_name"
+		text="{=mD89ih8N}Change Clan Name" />
+	<string
+		id="str_change_kingdom_name_rules"
+		text="{=HVrobtL5}New kingdom name:{newline} - Cannot include digits.{newline} - Cannot be longer than {MAX_LETTER_COUNT} characters.{newline} - Cannot be shorter than {MIN_LETTER_COUNT} characters." />
+	<string
+		id="str_game_tip.campaign0"
+		text="{=0yCa27tK}You can hold {LEAVE_AREA_KEY} to leave the current area." />
+	<string
+		id="str_game_tip.campaign1"
+		text="{=JbFRrjqM}When you are in a town or village scene, holding down {MISSION_INDICATORS_KEY} shows markers on important people and interest points." />
+	<string
+		id="str_game_tip.campaign2"
+		text="{=DFMhzFGV}Keeping a number of horses in your inventory may speed up your party considerably, since they'll increase your carrying capacity and footmen will ride spare horses. Pack horses and mules are only useful for carrying cargo though." />
+	<string
+		id="str_game_tip_pc.campaign3"
+		text="{=uBajEuVL}In game windows, you can open the encyclopedia entry for an item by pressing {ENCYCLOPEDIA_SHORTCUT}. This works for troop portraits, town icons, and most other elements." />
+	<string
+		id="str_game_tip.campaign4"
+		text="{=m0907jTh}When you are looking at tooltip, you can press {EXTEND_KEY} to see an extended version of the tooltip." />
+	<string
+		id="str_game_tip.campaign5"
+		text="{=CQZJLWfw}You can reset your perks at the tournament master...for the right price. " />
+	<string
+		id="str_hero"
+		text="{=qc9Llr3x}Hero" />
+	<string
+		id="str_leave_training_field"
+		text="{=D9GkBqyW}You can leave the training field by holding {LEAVE_KEY}{newline}You can return at any time from the campaign map." />
+	<string
+		id="str_workshop_upgrade_explain"
+		text="{=!}Upgrading a workshop will ETC ETC TODO_CAMPAIGN" />
+	<string
+		id="str_workshop_downgrade_explain"
+		text="{=!}Downgrading a workshop will ETC ETC TODO_CAMPAIGN" />
+	<string
+		id="str_workshop_sell_explain"
+		text="{=!}Selling a workshop will ETC ETC TODO_CAMPAIGN" />
+	<string
+		id="str_kingdom_political_inclination.Authoritarian"
+		text="{=NaMPa4ML}Authoritarian" />
+	<string
+		id="str_kingdom_political_inclination.Oligarchic"
+		text="{=hR6Zo6pD}Oligarchic" />
+	<string
+		id="str_kingdom_political_inclination.Egalitarian"
+		text="{=HMFb1gaq}Egalitarian" />
+	<string
+		id="str_character_in_town"
+		text="{=lfDzgLTa}{PROFESSION} in {LOCATION}" />
+	<!--General Stats-->
+	<string
+		id="str_game_over_stat_category.General"
+		text="{=8byRf9zO}General" />
+	<string
+		id="str_game_over_stat_item.CampaignPlayTime"
+		text="{=QEjoqEe0}Campaign play time (Campaign Time)" />
+	<string
+		id="str_game_over_stat_item.CampaignRealPlayTime"
+		text="{=taU38mMa}Campaign play time (Real World Time)" />
+	<string
+		id="str_game_over_stat_item.ChildrenBorn"
+		text="{=M7HGkj18}Children Born" />
+	<string
+		id="str_game_over_stat_item.InfluenceEarned"
+		text="{=NQfjuHcs}Influence Earned" />
+	<string
+		id="str_game_over_stat_item.IssuesSolved"
+		text="{=VRSsxx1g}Issues Solved" />
+	<string
+		id="str_game_over_stat_item.TournamentsWon"
+		text="{=5gLojbx4}Tournaments Won" />
+	<string
+		id="str_game_over_stat_item.HighestLeaderboardRank"
+		text="{=H9X6MFgL}Highest Tournament Leaderboard Rank" />
+	<string
+		id="str_game_over_stat_item.PrisonersRecruited"
+		text="{=fDQuQ8Ph}Prisoners Recruited" />
+	<string
+		id="str_game_over_stat_item.TroopsRecruited"
+		text="{=WBkmgu69}Troops Recruited from Towns and Villages" />
+	<string
+		id="str_game_over_stat_item.ClansDefected"
+		text="{=3GDgVYim}Enemy Clans Defected" />
+	<string
+		id="str_game_over_stat_item.TotalCrimeGained"
+		text="{=3Dhbg955}Total Crime Rating Gained" />
+	<!--Battles-->
+	<string
+		id="str_game_over_stat_category.Battle"
+		text="{=9WimyleE}Battles" />
+	<string
+		id="str_battles_won_lost"
+		text="{=b1h7b7oj}{BATTLES_WON}/{BATTLES_LOST}/{ALL_BATTLES}" />
+	<string
+		id="str_game_over_stat_item.BattlesWonLostAll"
+		text="{=d4O49oLs}Battles(W/L/ALL)" />
+	<string
+		id="str_game_over_stat_item.BiggestBattleWonAsLeader"
+		text="{=CCFwzq24}Biggest Battle Won as the Leader" />
+	<string
+		id="str_game_over_stat_item.BiggestArmyByPlayer"
+		text="{=9a6ZBSGw}Biggest Army Formed by the Player" />
+	<string
+		id="str_game_over_stat_item.EnemyClansDestroyed"
+		text="{=BNynfsuy}Enemy Clans Destroyed" />
+	<string
+		id="str_game_over_stat_item.HeroesKilledInBattle"
+		text="{=ggMFUCVT}Heroes Killed in Battles" />
+	<string
+		id="str_game_over_stat_item.TroopsEliminatedByPlayer"
+		text="{=HHaRDiuO}Troops Killed or Knocked Out in Person" />
+	<string
+		id="str_game_over_stat_item.TroopsEliminatedByParty"
+		text="{=cLHMjwb5}Troops Killed or Knocked Out as a Party" />
+	<string
+		id="str_game_over_stat_item.HeroPrisonersTaken"
+		text="{=DV7u7B6A}Hero Prisoners Taken" />
+	<string
+		id="str_game_over_stat_item.TroopPrisonersTaken"
+		text="{=B8qJSb66}Troop Prisoners Taken" />
+	<string
+		id="str_game_over_stat_item.CapturedTowns"
+		text="{=3o6FDRsq}Captured Towns" />
+	<string
+		id="str_game_over_stat_item.CapturedCastles"
+		text="{=7ZOp7cg5}Captured Castles" />
+	<string
+		id="str_game_over_stat_item.ClearedHideouts"
+		text="{=rweyNfS3}Cleared Hideouts" />
+	<string
+		id="str_game_over_stat_item.RaidedVillages"
+		text="{=Y0GDVFiN}Raided Villages" />
+	<string
+		id="str_game_over_stat_item.DaysSpentAsPrisoner"
+		text="{=APt3biyJ}Days Spent as a Prisoner" />
+	<!--Finance-->
+	<string
+		id="str_game_over_stat_category.Finance"
+		text="{=nJefkQ3Z}Finances" />
+	<string
+		id="str_game_over_stat_item.TotalDenarsEarned"
+		text="{=m7RFdwFt}Total Denars Earned" />
+	<string
+		id="str_game_over_stat_item.DenarsFromCaravans"
+		text="{=GbSZ3ZXh}Denars Earned from Caravans" />
+	<string
+		id="str_game_over_stat_item.DenarsFromWorkshops"
+		text="{=OXVO6LUN}Denars Earned from Workshops" />
+	<string
+		id="str_game_over_stat_item.DenarsFromRansoms"
+		text="{=Tv35SPaB}Denars Earned from Ransoms" />
+	<string
+		id="str_game_over_stat_item.DenarsFromTaxes"
+		text="{=57QbB8cu}Denars Earned from Taxes" />
+	<string
+		id="str_game_over_stat_item.TributeCollected"
+		text="{=1xtmifKD}Tribute Collected" />
+	<!--Crafting-->
+	<string
+		id="str_game_over_stat_category.Crafting"
+		text="{=YuNsJ7bD}Crafting" />
+	<string
+		id="str_game_over_stat_item.WeaponsCrafted"
+		text="{=TAgQrIxj}Weapons Crafted" />
+	<string
+		id="str_game_over_stat_item.MostExpensiveCraft"
+		text="{=584IPqj2}Most Expensive Weapon Crafted (Name / Value)" />
+	<string
+		id="str_game_over_stat_item.NumberOfPiecesUnlocked"
+		text="{=SFGwg8op}Number of Pieces Unlocked" />
+	<string
+		id="str_game_over_stat_item.CraftingOrdersCompleted"
+		text="{=2wiUtuu5}Crafting Orders Completed" />
+	<!--Companions-->
+	<string
+		id="str_game_over_stat_category.Companion"
+		text="{=vOgACpuD}Companions" />
+	<string
+		id="str_game_over_stat_item.NumberOfHiredCompanions"
+		text="{=SrP38hbU}Number of Hired Companions" />
+	<string
+		id="str_game_over_stat_item.MostIssueCompanion"
+		text="{=czU1QREp}Companion with the Most Issues Solved" />
+	<string
+		id="str_game_over_stat_item.MostKillCompanion"
+		text="{=Rx13jX4M}Companion with the Most Kills" />
+	<string
+		id="str_game_over_title.Retirement"
+		text="{=GkTR3n2o}You have retired." />
+	<string
+		id="str_game_over_title.ClanDestroyed"
+		text="{=YhwN5u7f}Your clan is no more!" />
+	<string
+		id="str_game_over_title.Victory"
+		text="{=jKn9B0bh}You have conquered Calradia!" />
+	<string
+		id="str_no_items_crafted"
+		text="{=cKOZjVU0}No Items Crafted" />
+	<string
+		id="str_no_companions_with_kills"
+		text="{=aaEgGfCX}No Companions with Kills" />
+	<string
+		id="str_no_companions_with_issues_solved"
+		text="{=Kqkf6HBN}No Companions with Issues Solved" />
+	<string
+		id="str_havent_met_character"
+		text="{=HWNEo6pa}You are yet to meet this character." />
+	<string
+		id="str_call_troops"
+		text="{=Tz0aWGfB}Call Troops {KEY}" />
+	<string
+		id="str_call_troops_description"
+		text="{=ap9OK7Zl}Your troops will wait here" />
+	<string
+		id="str_patrol_area_name"
+		text="{=FlhW2QWY}Patrol Area" />
+	<string
+		id="str_open_ship_door"
+		text="{=QBbSD4fG}Open {KEY}" />
+</strings>

@@ -1,0 +1,88 @@
+<Prefab>
+  <Window>
+    <Widget Id="OptionsInnerPanel" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Top" MarginTop="10" MarginBottom="10" StackLayout.LayoutMethod="VerticalBottomToTop">
+      <Children>
+
+        <ListPanel WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="VerticalBottomToTop">
+          <Children>
+
+            <OptionsGamepadCategoryWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" CurrentGamepadType="@CurrentGamepadType" Playstation4LayoutParentWidget="Playstation4Parent" Playstation5LayoutParentWidget="Playstation5Parent" XboxLayoutParentWidget="XboxParent">
+              <Children>
+
+                <!--Xbox-->
+                <XboxBinds Id="XboxParent" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginTop="75"/>
+
+                <!--Playstation4-->
+                <Playstation4Binds Id="Playstation4Parent" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginTop="75"/>
+
+                <!--Playstation5-->
+                <Playstation5Binds Id="Playstation5Parent" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginTop="75"/>
+
+              </Children>
+            </OptionsGamepadCategoryWidget>
+
+            <NavigationScopeTargeter ScopeID="ControllerSchemeScope" ScopeParent="..\GamepadOptions" ScopeMovements="Vertical" IsDefaultNavigationScope="true" />
+            <ListPanel Id="GamepadOptions" DataSource="{Actions}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Bottom" MarginTop="100">
+              <ItemTemplate>
+                <Standard.DropdownWithHorizontalControl Id="GamepadCategoriesDropdown" Parameter.SelectorDataSource="{Categories}" GamepadNavigationIndex="0" />
+              </ItemTemplate>
+            </ListPanel>
+
+            <NavigationScopeTargeter ScopeID="ControllerBaseOptionsScope" ScopeParent="..\BaseOptions" ScopeMovements="Vertical" ForceGainNavigationOnClosestChild="true" />
+            <NavigatableListPanel Id="BaseOptions" DataSource="{BaseOptions}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Top" MarginTop="40" MarginBottom="40" StackLayout.LayoutMethod="VerticalBottomToTop" AutoScrollTopOffset="90" AutoScrollBottomOffset="90" >
+              <ItemTemplate>
+                <OptionItem />
+              </ItemTemplate>
+            </NavigatableListPanel>
+
+            <NavigationScopeTargeter ScopeID="ControllerGroupOptionsScope" ScopeParent="..\GroupOptions" ScopeMovements="Vertical" ForceGainNavigationOnClosestChild="true" />
+            <NavigatableListPanel Id="GroupOptions" DataSource="{Groups}" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Top" MarginBottom="200" StackLayout.LayoutMethod="VerticalBottomToTop" StepSize="10000">
+              <ItemTemplate>
+                <NavigatableListPanel WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginBottom="50" StackLayout.LayoutMethod="VerticalBottomToTop" UseSelfIndexForMinimum="true" StepSize="1000" AutoScrollTopOffset="90" AutoScrollBottomOffset="90" >
+                  <Children>
+
+                    <PartyHeaderToggleWidget DoNotPassEventsToChildren="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Top" MarginLeft="120" MarginRight="10" CollapseIndicator="Description\CollapseParent\GroupTitle\CollapseIndicator" ListPanel="..\OptionsList" RenderLate="true" UpdateChildrenStates="true" WidgetToClose="..\OptionsList">
+                      <Children>
+
+                        <ListPanel Id="Description" DoNotAcceptEvents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Center" StackLayout.LayoutMethod="HorizontalLeftToRight" UpdateChildrenStates="true">
+                          <Children>
+
+                            <Widget Id="CollapseParent" WidthSizePolicy="Fixed" HeightSizePolicy="CoverChildren" SuggestedWidth="382" HorizontalAlignment="Right" UpdateChildrenStates="true">
+                              <Children>
+                                <TextWidget Id="GroupTitle" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Right" Brush="SPOptions.GameKeysGroup.Title.Text" Text="@Name" ClipContents="false">
+                                  <Children>
+                                    <BrushWidget Id="CollapseIndicator" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedHeight="19" SuggestedWidth="19" VerticalAlignment="Center" PositionXOffset="-26" PositionYOffset="-3" Brush="SPOptions.GameKeysgroup.ExpandIndicator" OverrideDefaultStateSwitchingEnabled="true" />
+                                  </Children>
+                                </TextWidget>
+                              </Children>
+                            </Widget>
+
+                            <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="2" VerticalAlignment="Center" MarginLeft="15" Brush="SPOptions.CollapserLine"  />
+                          </Children>
+                        </ListPanel>
+
+                      </Children>
+                    </PartyHeaderToggleWidget>
+
+                    <NavigatableListPanel Id="OptionsList" DataSource="{Options}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" MarginTop="15" StackLayout.LayoutMethod="VerticalBottomToTop" UseSelfIndexForMinimum="true">
+                      <ItemTemplate>
+                        <OptionItem />
+                      </ItemTemplate>
+                    </NavigatableListPanel>
+
+                  </Children>
+                </NavigatableListPanel>
+              </ItemTemplate>
+            </NavigatableListPanel>
+
+          </Children>
+        </ListPanel>
+
+        <!--Connector Template Widget-->
+        <Widget Id="ConnectorTemplateWidget" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="0" SuggestedHeight="0" IsVisible="false" Sprite="controllerkeybindconnector_9"/>
+
+      </Children>
+    </Widget>
+
+  </Window>
+</Prefab>

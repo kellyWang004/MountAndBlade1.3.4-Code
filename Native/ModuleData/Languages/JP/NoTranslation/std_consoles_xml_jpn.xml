@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="日本語" />
+  </tags>
+  <strings>
+    <string id="ovqtG4LS" text="P&#8288;l&#8288;a&#8288;y&#8288;S&#8288;t&#8288;a&#8288;t&#8288;i&#8288;o&#8288;n&#8288;™&#8288;N&#8288;e&#8288;t&#8288;w&#8288;o&#8288;r&#8288;k プロフィールを表示" />
+    <string id="zZeDwVbv" text="遠隔武器でのエイム時のモーションセンサー機能の感度を設定してください。「0」に設定した場合は、機能の無効化を意味します。" />
+    <string id="xboxStartButton" text="メニューボタン" />
+    <string id="xboxRightTrigger" text="右トリガー" />
+    <string id="xboxRightStickUp" text="右スティック（上）" />
+    <string id="xboxRightStickRight" text="右スティック（右）" />
+    <string id="xboxRightStickLeft" text="右スティック（左）" />
+    <string id="xboxRightStickDown" text="右スティック（下）" />
+    <string id="xboxRightStick" text="右スティック" />
+    <string id="xboxRightBumper" text="右バンパー" />
+    <string id="xboxLeftTrigger" text="左トリガー" />
+    <string id="xboxLeftStickUp" text="左スティック（上）" />
+    <string id="xboxLeftStickRight" text="左スティック（右）" />
+    <string id="xboxLeftStickLeft" text="左スティック（左）" />
+    <string id="xboxLeftStickDown" text="左スティック（下）" />
+    <string id="xboxLeftStick" text="左スティック" />
+    <string id="xboxLeftBumper" text="左バンパー" />
+    <string id="xboxDpadUp" text="方向パッドー（上）" />
+    <string id="xboxDpadRight" text="方向パッドー（右）" />
+    <string id="xboxDpadLeft" text="方向パッドー（左）" />
+    <string id="xboxDpadDown" text="方向パッドー（下）" />
+    <string id="xboxBackButton" text="ビューボタン" />
+    <string id="wXuZKLkk" text="遠隔武器使用時のエイムのしかたを変更します。有効にすると{?IS_PLAYSTATION}L2ボタン{?}左トリガー{\?}でエイム、{?IS_PLAYSTATION}R2ボタン{?}右トリガー{\?}で武器を放てるようになります。" />
+    <string id="pvit1VDX" text="タッチパッドマウスでのカーソル操作を有効にします。" />
+    <string id="psXButton" text="ばつボタン" />
+    <string id="psTriangleButton" text="さんかくボタン" />
+    <string id="psTouchpadButton" text="タッチパッドボタン" />
+    <string id="psSquareButton" text="しかくボタン" />
+    <string id="psR2Button" text="R&#8288;2ボタン" />
+    <string id="psR1Button" text="R&#8288;1ボタン" />
+    <string id="psOptionsButton" text="OPTIONSボタン" />
+    <string id="psL2Button" text="L&#8288;2ボタン" />
+    <string id="psL1Button" text="L&#8288;1ボタン" />
+    <string id="psCircleButton" text="まるボタン" />
+    <string id="NbiZd9up" text="モーションセンサー機能を使ったエイムアシストを有効にする" />
+    <string id="m0NJf3BU" text="モーションセンサー機能を使って、近接攻撃や防御の方向を定めます。" />
+    <string id="jA2D1Rgt" text="モーションセンサー機能が無効になっているため、このオプションも無効となっています。" />
+    <string id="gLlM7pQw" text="タッチパッドマウスを有効にする" />
+    <string id="bIuDbdVB" text="{?IS_PLAYSTATION}ワイヤレス {?}{\?}コントローラーを使った別のエイム方法を有効にする" />
+    <string id="aLAtopse" text="モーションセンサー機能による入力を使った遠隔エイムアシストが有効になります。" />
+    <string id="aCVTu5AJ" text="攻撃やブロックの方向をモーションセンサー機能で指定" />
+    <string id="7UqxMUHr" text="「攻撃やブロックの方向をモーションセンサー機能で指定」が有効になっているため、このオプションは無効となっています。" />
+    <string id="5mBbS0mb" text="モーションセンサー機能による入力を使って、攻撃やブロックの方向を定めます。" />
+    <string id="136P0uC5" text="モーションセンサー機能のエイム感度" />
+    <string id="UhUvwvkh" text="P&#8288;l&#8288;a&#8288;y&#8288;S&#8288;t&#8288;a&#8288;t&#8288;i&#8288;o&#8288;n&#8288;™&#8288;N&#8288;e&#8288;t&#8288;w&#8288;o&#8288;r&#8288;k から切断されています。オンライン機能は利用できません。" />
+    <string id="8yk50Ba5" text="マルチプレイヤーをプレイするには P&#8288;l&#8288;a&#8288;y&#8288;S&#8288;t&#8288;a&#8288;t&#8288;i&#8288;o&#8288;n&#8288;®&#8288;P&#8288;l&#8288;u&#8288;s が必要です。" />
+    <string id="3rcPHq9a" text="P&#8288;l&#8288;a&#8288;y&#8288;S&#8288;t&#8288;a&#8288;t&#8288;i&#8288;o&#8288;n&#8288;™&#8288;N&#8288;e&#8288;t&#8288;w&#8288;o&#8288;r&#8288;k にサインインしていません。オンライン機能を利用するには、サインインする必要があります。" />
+    <string id="controllerDisconnectedTitlePS" text="ワイヤレスコントローラー切断" />
+    <string id="controllerDisconnectedDescriptionPS" text="続行するには、ワイヤレスコントローラーを再接続してください。" />
+    <string id="MceLT3Zg" text="ワイヤレスコントローラー" />
+    <string id="NyA57ke1" text="P&#8288;l&#8288;a&#8288;y&#8288;S&#8288;t&#8288;a&#8288;t&#8288;i&#8288;o&#8288;n&#8288;™&#8288;N&#8288;e&#8288;t&#8288;w&#8288;o&#8288;r&#8288;k からログアウトされました" />
+    <string id="i6x93YjL" text="チートメニューは、マップ上で「L1＋R2＋方向キー下」を長押しすることでも有効にできます。" />
+    <string id="tHGHDaFH" text="PS4™のセーブデータの移行に成功しました" />
+    <string id="PJK980ka" text="移行したいPS4™のセーブファイルを選択" />
+    <string id="ifkdZmxr" text="PS4™にセーブデータがありません" />
+    <string id="6WHz63af" text="PS4™のセーブデータを移行する" />
+    <string id="dlcInstallComplete" text="ダウンロード コンテンツのインストール完了" />
+    <string id="psDlcInstallComplete" text="追加コンテンツのインストール完了" />
+    <string id="dlcInstalledDescription" text="ダウンロード コンテンツのインストールが終了しました。新しいコンテンツをプレイするには、メインメニューに戻ってください。" />
+    <string id="psDlcInstalledDescription" text="追加コンテンツのインストールが終了しました。新しいコンテンツをプレイするには、メインメニューに戻ってください。" />
+	<string id="c3I1AjcF" text="{?IS_PLAYSTATION}ワイヤレス {?}{\?}コントローラーのバイブレーションを有効にする" />
+	<string id="rightstickabbreviated" text="RS" />
+    <string id="rightstickabbreviatedps" text="R" />
+  </strings>
+</base>

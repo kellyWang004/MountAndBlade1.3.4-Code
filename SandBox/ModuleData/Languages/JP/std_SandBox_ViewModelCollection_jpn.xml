@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="日本語" />
+  </tags>
+  <strings>
+    <string id="1QAEyN2V" text="使用中のチート： {CHEAT}" />
+    <string id="1tiF5JhE" text="{TITLE} &gt; {SUBTITLE}" />
+    <string id="5zeL8sa9" text="{A0}の影響力を獲得しました" />
+    <string id="6qYaQkDD" text="{COUNT}+囚人{PRISONER_COUNT}" />
+    <string id="7AI8jA0b" text="入力テキストには、何かしら入力する必要があります。" />
+    <string id="7WdWK2Dt" text="ゲームを保存する" />
+    <string id="AdgAJbAP" text="マップに戻る" />
+    <string id="aG6XMhA1" text="同じ名前で保存されているゲームファイルが、すでに存在します。" />
+    <string id="Ahy035gM" text="建設コスト" />
+    <string id="ANoYN1yZ" text="船首像「{A0}」をアンロックしました。" />
+    <string id="azJulvrp" text="{?IS_BETTING}降参する場合、{BET_AMOUNT}{GOLD_ICON}を失うことになります。{newline}{?}{\?}本当に降参しますか？" />
+    <string id="B3W6fcQX" text="入力テキストは、{MAX_LENGTH}文字以内に収めてください。" />
+    <string id="CiIWjF3f" text="+囚人{PRISONERAMOUNT}" />
+    <string id="cp2XDjeq" text="セーブしています…" />
+    <string id="CqAhj27p" text=" {ITEM_NAME} x{ITEM_NUMBER}" />
+    <string id="deleteaction" text="削除" />
+    <string id="DeXfSjgY" text="新しいセーブを作成できません。セーブの上限に達しました。" />
+    <string id="eiWQoW9j" text="{A0}の名声を獲得しました" />
+    <string id="eL8nhkhQ" text="新しいセーブスロットを作成" />
+    <string id="FFiPLPbs" text="セーブをアップデート" />
+    <string id="Fm0rjkH7" text="アイアンマン" />
+    <string id="GaOE4bdd" text="全てのラウンドをスキップ" />
+    <string id="gDKhs4lD" text="{A0}は戦場で死亡しました。" />
+    <string id="GmjiZk9P" text="兵士召集" />
+    <string id="gZIOG0wl" text="弓騎兵の影響力" />
+    <string id="GZWPHmAw" text="{DAY}日目" />
+    <string id="HH2mZq8J" text="保存したゲームを本当に削除しますか？" />
+    <string id="hiCxFj4E" text="保存されたキャンペーン" />
+    <string id="hUSmlhNh" text="{CURRENT_PAGE}/{TOTAL_PAGES}" />
+    <string id="hYL3CFHX" text="このゲームを上書きしますか？" />
+    <string id="hZrwUIaq" text="体力" />
+    <string id="IwhpeT8C" text="レベル: {PLAYER_LEVEL}" />
+    <string id="KdT0PM8Y" text="番兵" />
+    <string id="KgTFCWG8" text="不審に思われています" />
+    <string id="kXRdeawC" text="入力テキストには、特殊文字を使うことはできません。" />
+    <string id="kXy4R7ca" text="標的を見失いかけています" />
+    <string id="L9GnQvsq" text="賭け金：{BETTED_DENARS}" />
+    <string id="lPMYSSAa" text="道具が必要です" />
+    <string id="M1AEHJ76" text="こちらはアイアンマン・モードが有効なセッションで作成されたセーブデータです。関連セッションのセーブファイルは、これ以外に存在しません。本当にこのセーブゲームを削除してよろしいですか？" />
+    <string id="M4WMKyE1" text="入力テキストは著作権を侵害しています。" />
+    <string id="nvemmBZz" text="あなたは{AMOUNT}%の戦利品と囚人を獲得しました" />
+    <string id="nVGqjtaa" text="キャンペーン{ID}" />
+    <string id="O9nwLrYp" text="+{WOUNDEDAMOUNT}人" />
+    <string id="o9PIe7am" text="破損" />
+    <string id="OYtysXzk" text="チート" />
+    <string id="PY00wRz4" text="セーブファイルの削除に失敗しました。" />
+    <string id="Q1HIlJxe" text="上書き" />
+    <string id="QHV8aeEg" text="セーブを削除" />
+    <string id="qIeDZoSx" text="購入した{ITEMS}" />
+    <string id="R3Zn7x07" text="選択を行う必要があります" />
+    <string id="RoYPofhK" text="破損したセーブデータ" />
+    <string id="Rtakaivj" text="入力テキストには、非空白文字を最低でも1つ、含める必要があります。" />
+    <string id="SRjrhb0A" text="所有している領地の数" />
+    <string id="str_save_text_ps4" text="セーブ中です。コンソールの電源を切らないでください。" />
+    <string id="str_save_text_ps5" text="セーブ中です。コンソールの電源を切らないでください。" />
+    <string id="TFJTOYea" text="問題を解決しました" />
+    <string id="uncategorized_save" text="未分類" />
+    <string id="vjhkoUFS" text="セーブ中です。コンソールの電源を切らないでください。" />
+    <string id="WAKz9xX8" text="{A0}の士気を獲得しました" />
+    <string id="WcSky2KB" text="隠密エリア" />
+    <string id="WDlVhNuq" text="セーブファイルに名前をつける" />
+    <string id="X8i3jZn8" text="騎兵の影響力" />
+    <string id="xlEZ02Qw" text="キャラクターの外見は、キャンペーンマップで名前をつけて保存している間は無効となります。" />
+    <string id="xu5NA6AW" text="あなたは{A0}%の戦利品を獲得しました" />
+    <string id="xzzSaN4b" text="予想： {OVERALL_EXPECTED_DENARS}" />
+    <string id="yF5fpwNE" text="合計: {TOTAL}" />
+    <string id="YgyHVu8S" text="売却した{ITEMS}" />
+    <string id="ZDPIq4hi" text="選択したセーブゲームをロードして、現在のバージョンのゲームに上書きして、この画面に戻ります。" />
+  </strings>
+</base>

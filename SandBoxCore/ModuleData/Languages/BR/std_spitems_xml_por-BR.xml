@@ -1,0 +1,780 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Português (BR)" />
+  </tags>
+  <strings>
+    <string id="2Ilvjlz9" text="{.MP}Avambraços com Talas" />
+    <string id="LoUxaFeE" text="{.MP}Avambraços de Couro" />
+    <string id="NfFAgMUE" text="{.FP}Braçadeiras Chapeadas do Khan" />
+    <string id="t01v8qW7" text="{.FP}Mitenes Acolchoadas de Lorde" />
+    <string id="ulaMq9HL" text="{.MP}Avambraços Chapeados com Tiras" />
+    <string id="wLAL9NRB" text="{.FP}Braçadeiras de Fian" />
+    <string id="0heYJNpN" text="{.MS}Estandarte dos Escudos Cerrados" />
+    <string id="5Hn58Ra0" text="{.MS}Estandarte do Falcão do Faris" />
+    <string id="6uSQnTob" text="{.MS}Estandarte de Aço" />
+    <string id="79QBpG6D" text="{.MS}Estandarte dos Ventos do Deserto" />
+    <string id="7mCYbhbp" text="{.MS}Estandarte de Ferro" />
+    <string id="8yEr93Aw" text="{.FS}Bandeira do Arqueiro" />
+    <string id="9SbsZJUZ" text="{.MS}Estandarte dos Escudos de Ferro" />
+    <string id="AEFT6XBM" text="{.MS}Estandarte da Muralha de Lanças" />
+    <string id="AfouAjT5" text="{.FS}Bandeira do Flecheiro" />
+    <string id="atPgGfXo" text="{.MS}Estandarte dos Escudos de Aço" />
+    <string id="bFxReZW8" text="{.MS}Estandarte da Muralha de Piques" />
+    <string id="bMI735CY" text="{.MS}Pendão da Raiva" />
+    <string id="caWWYP0J" text="{.FS}Bandeira do Atirador" />
+    <string id="Cd6mr3q2" text="{.MS}Estandarte da Pedra" />
+    <string id="CdBEdJqV" text="{.FS}Bandeira do Martírio dos Cavalos" />
+    <string id="CEK9YjWK" text="{.MS}Estandarte dos Escudos Cruzados" />
+    <string id="D3RYsPg5" text="{.FS}Bandeira do Patrulheiro" />
+    <string id="dioBqbxi" text="{.MS}Tug da Flecha de Madeira" />
+    <string id="e59hZ6Er" text="{.MS}Estandarte dos Demônios de Poeira" />
+    <string id="EbEmIi5K" text="{.MS}Estandarte do Gavião do Emir" />
+    <string id="eIHsXeC4" text="{.MS}Estandarte do Escudeiro" />
+    <string id="ETLxYEwL" text="{.MS}Estandarte do Cavalgador" />
+    <string id="fqvQNrqN" text="{.MS}Estandarte da Barreira de Escudos" />
+    <string id="fUugSmen" text="{.FS}Bandeira do Batedor" />
+    <string id="HAZIchT3" text="{.FS}Bandeira do Martírio dos Javalis" />
+    <string id="iR9jPgOg" text="{.MS}Estandarte da Águia do Sultão" />
+    <string id="jkEUOujE" text="{.MS}Tug da Estepe sem Fim" />
+    <string id="LbvihbBz" text="{.MS}Tug da Horda Infinda" />
+    <string id="LylVtFCG" text="{.MS}Pendão da Tartaruga" />
+    <string id="M3ZTF7rj" text="{.FS}Bandeira do Caminhante" />
+    <string id="ndfetbYO" text="{.MS}Pendão da Falange" />
+    <string id="NrXBeKMl" text="{.MS}Pendão da Coragem" />
+    <string id="p6FU9oQa" text="{.MS}Estandarte das Areias Moventes" />
+    <string id="ppVcgN5l" text="{.MS}Tug da Flecha de Osso" />
+    <string id="QR6AaH9A" text="{.MS}Estandarte do Cavaleiro" />
+    <string id="rUXo5AsE" text="{.MS}Tug da Flecha Silvante" />
+    <string id="rZ4iW5vM" text="{.MS}Pendão da Disciplina" />
+    <string id="SlmJXyQD" text="{.MS}Tug do Cavalo Andante" />
+    <string id="UMW7oc9g" text="{.MS}Pendão do Fulcum" />
+    <string id="v652kWEt" text="{.MS}Pendão da Ira" />
+    <string id="VP7YhB8K" text="{.MS}Estandarte dos Escudos de Carvalho" />
+    <string id="w9bVJ78F" text="{.MS}Estandarte da Lança Erguida" />
+    <string id="xbrIp3qS" text="{.MS}Pendão da Fúria" />
+    <string id="xjgt7gpf" text="{.MS}Pendão do Dever" />
+    <string id="xzzr0WR7" text="{.FS}Bandeira do Martírio dos Cervos" />
+    <string id="1WLiLoL5" text="{.FS}Armadura de Couro Lustrado" />
+    <string id="2KQbV4To" text="{.FS}Casaca de Pele Mercantil" />
+    <string id="2VZ10uRa" text="{.FP}Escamas Magistrais do Sul sobre Malha Encadeada" />
+    <string id="2WQTvOLF" text="{.MS}Avental de Tecido" />
+    <string id="4eSEJor3" text="{.MS}Vestido com Corselete" />
+    <string id="63jCqJPA" text="{.FS}Armadura Selvática" />
+    <string id="6VW6zVa3" text="{.FS}Casaca Luxuosa" />
+    <string id="79I1U8OC" text="{.FS}Peitoral de Bronze" />
+    <string id="7CPMZKVY" text="{.MS}Vestido de Tartan" />
+    <string id="7uJkrHeg" text="{.FS}Casaca Feminina com Avental" />
+    <string id="aJLikenm" text="{.MS}Jaquetão de Infante" />
+    <string id="ALbtxxyC" text="{.FS}Armadura Laminada de Cavalaria" />
+    <string id="aM2EPdXj" text="{.MS}Tabardo Vermelho sobre Loriga de Malha" />
+    <string id="aSJbMKdb" text="{.MS}Tartan do Planalto com Peitoral" />
+    <string id="atSRQkCE" text="{.FS}Loriga de Malha Pesada" />
+    <string id="atu9tCq8" text="{.MS}Vestido sob Medida" />
+    <string id="blEEEOdy" text="{.FS}Malha Encadeada do Sul" />
+    <string id="bLgnonyc" text="{.FS}Veste de Camponês Simples" />
+    <string id="btrf2AXp" text="{.MP}Calçotes Folgados" />
+    <string id="bxzrU99N" text="{.FS}Camisa de Malha do Sul com Placas de Latão" />
+    <string id="c7wcTevc" text="{.FS}Armadura Couro sobre Tecido Pesado" />
+    <string id="camFHYrN" text="{.FS}Armadura de Couro com Placas de Ferro" />
+    <string id="CqMQXzUd" text="{.MS}Jaquetão Rústico de Infante" />
+    <string id="CttLMqiq" text="{.FS}Casaca de Placas do Khan" />
+    <string id="CZvGrvzY" text="{.FS}Camisa de Malha Pesada" />
+    <string id="dAgxHUsJ" text="{.FS}Malha Encadeada Decorada do Sul" />
+    <string id="deA729dQ" text="{.MS}Vestido Cortado com Bolso" />
+    <string id="dIfcfMbY" text="{.MS}Colete de Couro Cravejado" />
+    <string id="DMciP5z3" text="{.MS}Vestido Longo de Tartan" />
+    <string id="DUp0MKZQ" text="{.MS}Vestido de Clima Frio" />
+    <string id="eHyxxxoK" text="{.FS}Loriga de Huscarl" />
+    <string id="eRZK8Kbp" text="{.MS}Vestido Bem-feito" />
+    <string id="EvW5Xzt2" text="{.FS}Armadura de Malha Reforçada sem Manga do Sul" />
+    <string id="F9GB8lMZ" text="{.MP}Trapos Surrados" />
+    <string id="FOJHPU5N" text="{.MS}Meio-avental" />
+    <string id="FRWm800F" text="{.MS}Couro Cerzido" />
+    <string id="gbRVBOLH" text="{.FP}Roupas Plebeias" />
+    <string id="Gcrqt90P" text="{.FS}Malha Reforçada do Planalto" />
+    <string id="gSWtpl8a" text="{.FS}Veste sobre Camisa de Malha" />
+    <string id="i6QMSiut" text="{.MS}Kaftan com Faixa" />
+    <string id="j7EZxCiG" text="{.FS}Casaca de Pele Velha" />
+    <string id="jbxeZs8K" text="{.FS}Túnica Plebeia" />
+    <string id="JsmnUp0T" text="{.MS}Vestido de Dama" />
+    <string id="K2JbjKLG" text="{.MS}Kaftan Simples" />
+    <string id="LSaIs3DB" text="{.FS}Armadura de Couro" />
+    <string id="MFYaL8FL" text="{.MS}Laminado Pesado sobre Malha" />
+    <string id="MLBA8tej" text="{.MS}Vestido" />
+    <string id="Mm1QAtPx" text="{.MS}Colete de Malha Reforçada do Sul" />
+    <string id="mT1bvZxM" text="{.FS}Casaca Luxuosa Citadina" />
+    <string id="MXpeQ7jp" text="{.MS}Vestido Grosso de Aldeã" />
+    <string id="mzc6SKeH" text="{.MS}Vestido Franzido" />
+    <string id="n7e0y95m" text="{.FS}Armadura de Couro Batido Curtido" />
+    <string id="NMSEAA4A" text="{.MS}Vestido com Pele" />
+    <string id="OyBdFyeV" text="{.FS}Camisa de Malha do Sul sem Manga com Placas de Latão" />
+    <string id="pbxbCnVy" text="{.MS}Vestido Nobre Sedoso" />
+    <string id="PP5SzUx0" text="{.MS}Vestido Ornamentado" />
+    <string id="puNpMCgX" text="{.FS}Armadura de Malha com Presilha" />
+    <string id="QaTkvy56" text="{.MS}Corselete de Escamas de Bronze" />
+    <string id="QfqwaRZ2" text="{.MS}Vestido Envelopado" />
+    <string id="qhbOjHRI" text="{.MP}Trajes Acolchoados Rasgados" />
+    <string id="qi1lkMqk" text="{.MS}Kaftan Feminino" />
+    <string id="qPm3xaiP" text="{.MS}Vestido com Avental" />
+    <string id="qrCVMyEk" text="{.FS}Malha de Escamas Rústica" />
+    <string id="QuaE76ua" text="{.FS}Veste de Erudito" />
+    <string id="r0Ln9bAp" text="{.MS}Avental de Couro" />
+    <string id="RUvI70xS" text="{.MS}Vestido Quadriculado" />
+    <string id="SsCM14Xu" text="{.FS}Túnica Pesada com Mangas" />
+    <string id="t695AnJU" text="{.MS}Vestido Simples" />
+    <string id="TOf8dVcn" text="{.FS}Armadura de Escamas Ornada" />
+    <string id="tuEQnm2r" text="{.MS}Vestido Curto de Aldeia" />
+    <string id="U7WGaQ45" text="{.FP}Escamas Magistrais do Sul sobre Loriga Encadeada" />
+    <string id="v6W9XaDI" text="{.FS}Armadura de Pelego Velho" />
+    <string id="VqFV9LS4" text="{.MS}Vestido Vermelho" />
+    <string id="w6j8Oaai" text="{.MP}Calçotes Folgados Blindados" />
+    <string id="whiQg21b" text="{.MS}Kaftan Luxuoso" />
+    <string id="wJ4Y9IFc" text="{.FS}Camisa de Malha de Cavalariano" />
+    <string id="wRZ3LExm" text="{.MS}Corselete de Escamas de Bronze sobre Jaquetão" />
+    <string id="xlLoyxXT" text="{.FS}Armadura Laminada Leve" />
+    <string id="ya4i8G3y" text="{.FS}Túnica Afivelada" />
+    <string id="yfjqWrUx" text="{.MS}Vestido Plebeu Florestal" />
+    <string id="YTST4rdh" text="{.FS}Armadura de Malha Reforçada do Sul" />
+    <string id="zadVVah1" text="{.FS}Malha de Infante sobre Tiras de Couro" />
+    <string id="zG4Ms3f4" text="{.MS}Tartan do Planalto" />
+    <string id="ZMPw2IPy" text="{.FS}Pele Rústica sobre Malha" />
+    <string id="zVieddxB" text="{.FS}Armadura de Malha Curta Reforçada do Sul" />
+    <string id="1b6T0M72" text="{.FS}Coroa Austera" />
+    <string id="2U17pNiY" text="{.MS}Toucado Rural" />
+    <string id="3Q2F2BKD" text="{.FS}Coifa Acolchoada Leve" />
+    <string id="4vB2SPZa" text="{.MS}Elmo de Catafractário Real" />
+    <string id="4xXPKRpE" text="{.MS}Capacete do Senhor da Guerra com Penas" />
+    <string id="5kAqcWac" text="{.MS}Capacete Orlado de Pelos Cravejado" />
+    <string id="77RIGK7B" text="{.FS}Coifa de Malha" />
+    <string id="83qyvGkN" text="{.MS}Capacete do Senhor da Guerra " />
+    <string id="9efOcFRL" text="{.MS}Véu Solto" />
+    <string id="9j9fb5pR" text="{.MS}Capacete Chapeado com Guardas Laterais" />
+    <string id="9UJfJrZR" text="{.MS}Capelo Espetado sobre Acolchoamento" />
+    <string id="ac9xJt2X" text="{.MS}Elmo Nasal Pesado sobre Acolchoamento" />
+    <string id="ahN0UNxw" text="{.MS}Capacete de Bronze do Sul com Turbante" />
+    <string id="AoJ4Ztl2" text="{.MS}Capuz de Couro de Bandido" />
+    <string id="AQIH729X" text="{.MS}Elmo Nasal de Ferro sobre Couro" />
+    <string id="aYLCCpS4" text="{.MS}Capacete do Senhor da Guerra Fechado do Norte" />
+    <string id="B7tbURzI" text="{.FS}Cabeça de Lobo" />
+    <string id="b7TdIRac" text="{.FS}Gálea sobre Malha" />
+    <string id="BD07fj39" text="{.MS}Capacete com Joias Imperial" />
+    <string id="bfFNYaiU" text="{.FS}Cervilheira sobre Coifa Cingida" />
+    <string id="BUlmMbgH" text="{.FS}Gálea" />
+    <string id="bXVSSptk" text="{.MS}Capacete Pesado de Cavalaria" />
+    <string id="C8nk7NEf" text="{.MS}Capuz de Pele Grosso" />
+    <string id="Cg7vqdPQ" text="{.MS}Elmo Nasal de Ferro sobre Coifa" />
+    <string id="CHaYjWDb" text="{.FS}Gálea Leve sobre Couro" />
+    <string id="cQ6IsHSL" text="{.MS}Elmo Nasal de Ferro sobre Acolchoamento" />
+    <string id="DeawBxbx" text="{.MS}Capelo Espetado sobre Malha" />
+    <string id="dHv9Dbkp" text="{.MS}Capacete de Bronze do Sul com Tiras de Couro" />
+    <string id="e3nslzlA" text="{.MS}Spangenhelm Emplumado sobre Couro" />
+    <string id="E3XTFDXt" text="{.MS}Capacete Binocular sobre Couro" />
+    <string id="E5b3gc6R" text="{.MS}Capacete de Bronze Turbantado com Tiras de Couro" />
+    <string id="e9BpfZ9L" text="{.FS}Cervilheira sobre Bandana" />
+    <string id="ebPu5G8o" text="{.MS}Capacete Mameluco com Malha" />
+    <string id="EPaqJLSg" text="{.MS}Capacete Coroado" />
+    <string id="ePdiHF5D" text="{.MS}Spangenhelm Emplumado" />
+    <string id="f2awUw9x" text="{.MS}Kufiya Colorido" />
+    <string id="GdM7iaV9" text="{.FS}Cimeira de Aço Senhorial" />
+    <string id="GnkKOx5H" text="{.FS}Cervilheira Segmentada sobre Coifa Cingida" />
+    <string id="Gzc0Ql3a" text="{.MS}Hijab Colorido" />
+    <string id="HrLupYXP" text="{.MS}Capacete de Bronze Fechado do Sul com Turbante" />
+    <string id="ISCtxKub" text="{.MS}Capacete Binoculado de Saqueador dos Mares" />
+    <string id="JjaUzfDK" text="{.MS}Capacete do Senhor da Guerra com Protetores Faciais" />
+    <string id="k4kivaf5" text="{.FS}Cimeira de Aço com Protetor de Nariz" />
+    <string id="KD3OTFlE" text="{.MS}Capacete de Lanceador Nobre Emplumado com Gorjal" />
+    <string id="kEInAJ2P" text="{.FS}Cimeira de Pele de Nômade" />
+    <string id="KhXnRIan" text="{.FS}Trunfa Feminina" />
+    <string id="lawHibbG" text="{.MS}Capacete do Senhor da Guerra sobre Malha Completa" />
+    <string id="N3SgmNxe" text="{.MS}Véu" />
+    <string id="NB9bQt6O" text="{.MS}Elmo Espinhoso com Turbante Aberto" />
+    <string id="NEupkuqV" text="{.MS}Véu do Deserto" />
+    <string id="NhDpFjF0" text="{.MS}Capacete com Visor Fechado Reforçado" />
+    <string id="noqT1MMC" text="{.FS}Cimeira de Aço Ornada" />
+    <string id="nUarDXVH" text="{.FS}Gálea de Ferro sobre Couro" />
+    <string id="nZ2MJWhM" text="{.MS}Turbante Tribal" />
+    <string id="o67ySkfH" text="{.MS}Capacete Chapeado" />
+    <string id="oa2XYnHC" text="{.MS}Cachecol Rural Feminino" />
+    <string id="Oa4h7TVi" text="{.FS}Cimeira de Nômade" />
+    <string id="OFxwPQyA" text="{.FS}Coroa de Batalha" />
+    <string id="OLkncAaD" text="{.MS}Capacete com Visor de Malha Fechado" />
+    <string id="OrMbh1dn" text="{.MS}Elmo de Lanceiro Pesado" />
+    <string id="Pqua61u8" text="{.MS}Capacete Cristado do Senhor da Guerra" />
+    <string id="PVWsZleW" text="{.MS}Capacete com Turbante Aberto " />
+    <string id="pxTmx2ka" text="{.MS}Capacete de Bronze Fechado do Sul" />
+    <string id="py7VUj47" text="{.MS}Casquete Acuminado sobre Jaquetão" />
+    <string id="qojh0tsC" text="{.MS}Spangenhelm sobre Malha" />
+    <string id="qxExIHbx" text="{.MS}Elmo de Couro Cravejado" />
+    <string id="Qyg2bJLX" text="{.FS}Trunfa Rural" />
+    <string id="RraboU6p" text="{.MS}Capacete Cingido com Coifa de Malha" />
+    <string id="rUMPiiox" text="{.FS}Lança de Lanceiro Nobre com Pele" />
+    <string id="sc2x2QRe" text="{.MS}Véu com Fez" />
+    <string id="sDKfIQbO" text="{.FS}Trunfa Camponesa" />
+    <string id="sDWEWefz" text="{.FS}Coroa Cerimonial do Planalto" />
+    <string id="SugbcP3D" text="{.FS}Trunfa Rural Feminina" />
+    <string id="SV1pTR2P" text="{.FS}Coifa Acolchoada" />
+    <string id="SVTa5spB" text="{.FS}Cimeira de Aço Fechada" />
+    <string id="T6ObiB5P" text="{.MS}Elmo Espinhoso com Turbante Fechado " />
+    <string id="twbUeZph" text="{.MS}Elmo Legionário de Ferro sobre Tecido" />
+    <string id="U0bVXSVs" text="{.FS}Cimeira Transpassada" />
+    <string id="u5eafobF" text="{.MS}Aro com Joias Imperial" />
+    <string id="udQSdRXR" text="{.FS}Coroa com Joias" />
+    <string id="uRsU67qC" text="{.MS}Capacete de Bronze do Sul" />
+    <string id="UsOgGylA" text="{.MS}Chapéu de Ferro com Malha" />
+    <string id="uu9rXeYz" text="{.FS}Gálea sobre Acolchoamento" />
+    <string id="uz24W7s4" text="{.MS}Capacete Chapeado Coroado" />
+    <string id="V5qbVfWF" text="{.MS}Elmo de Guarda Palatino" />
+    <string id="vaVvDVu4" text="{.MS}Capacete Senhorial com Tiras de Metal" />
+    <string id="VBrLhqiJ" text="{.MS}Capacete Senhorial Coroado Nobre" />
+    <string id="VwQJ4aLY" text="{.MS}Capacete de Aço da Infantaria" />
+    <string id="VXFwEF3M" text="{.MS}Capuz de Peregrino" />
+    <string id="VYmHTbTY" text="{.MS}Capacete do Senhor da Guerra sobre Malha" />
+    <string id="W8OGOfyt" text="{.MS}Kufiya com Faixa Marrom" />
+    <string id="WF14UrdR" text="{.FS}Coroa de Louros Dourada" />
+    <string id="WkYsiU1c" text="{.FS}Cimeira com Coifa de Pele" />
+    <string id="wvnJzwbU" text="{.MS}Capacete do Senhor da Guerra Chapeado" />
+    <string id="wW3iouiU" text="{.MS}Hijab" />
+    <string id="XCnUaINR" text="{.MS}Elmo Nasal de Bronze sobre Malha" />
+    <string id="xJTfOqD6" text="{.MS}Capacete de Catafractário Binoculado" />
+    <string id="xTH3z9Sr" text="{.MS}Spangenhelm sobre Couro" />
+    <string id="YFg8x5QC" text="{.MS}Spangenhelm Emplumado sobre Coifa" />
+    <string id="Z95RglmZ" text="{.FS}Cimeira de Aço Nobre" />
+    <string id="ZhcOdFgK" text="{.MS}Véu Aberto Luxuoso" />
+    <string id="ZOWdFaUi" text="{.MS}Casquete Acuminado sobre Coifa de Malha" />
+    <string id="17tuCyeb" text="Cavalo de Askar{@Plural}Cavalos de Askar{\@}" />
+    <string id="1DqnZxiC" text="Pônei Bataniano{@Plural}Pôneis Batanianos{\@}" />
+    <string id="1O761hqN" text="Camelo da Caravana{@Plural}Camelos da Caravana{\@}" />
+    <string id="2SUb8jNP" text="{.MS}Arnês de Mula com Cestos" />
+    <string id="2WB0qeAi" text="Cavalo da Estepe{@Plural}Cavalos da Estepe{\@}" />
+    <string id="2wFal5Nd" text="Cavalo de Batalha da Tempestade{@Plural}Cavalos de Batalha da Tempestade{\@}" />
+    <string id="33aaUcaX" text="{.MS}Arnês Equestre de Batânia" />
+    <string id="7S6BjECG" text="{.MS}Arnês de Mula com Alforje" />
+    <string id="8el5a3sF" text="{.FS}Galinha" />
+    <string id="9X2l53vY" text="{.MS}Minério de Prata{@Plural}cargas de minério de prata{\@}" />
+    <string id="ABWvOCTE" text="Camelo de Nahasa{@Plural}Camelos de Nahasa{\@}" />
+    <string id="amqJbdDV" text="{.FS}Barda de Escamas" />
+    <string id="ApiPJ1NJ" text="Camelo Husnphree{@Plural}Camelos Husnphree{\@}" />
+    <string id="aqrJqQqx" text="{.FS}Sela de Tecido de Beduíno" />
+    <string id="avXZdUvi" text="{.FS}Sela de Pele" />
+    <string id="b56X0QOh" text="Sangue-quente de Wadar{@Plural}Sangues-quentes de Wadar{\@}" />
+    <string id="b5BDaOva" text="Cavalhante Bataniano{@Plural}Cavalhantes Batanianos{\@}" />
+    <string id="b6JvcSiQ" text="{.MS}Gato" />
+    <string id="bBGDwuXX" text="Cavalo Nahasavi{@Plural}Cavalos Nahasavis{\@}" />
+    <string id="BvLhPmdK" text="Destreiro Real{@Plural}Destreiros Reais{\@}" />
+    <string id="CB97qhVM" text="{.FS}Mula" />
+    <string id="Cdecpigb" text="Nativo Estúrgio{@Plural}Nativos Estúrgios{\@}" />
+    <string id="CHxRDUN1" text="{.FS}Sela de Pele Rígida" />
+    <string id="CjjzWA1r" text="Cavalo de Guerra do Deserto{@Plural}Cavalos de Guerra do Deserto{\@}" />
+    <string id="daI3Ybk8" text="Pônei de Glintor{@Plural}Pôneis de Glintor{\@}" />
+    <string id="ds1nrqNv" text="{.FS}Barda de Escamas de Catafractário" />
+    <string id="EfRKaKs0" text="{.MS}Arnês de Pele da Estepe" />
+    <string id="f2O1XjYd" text="{.MS}Cachorro" />
+    <string id="FhTUc64z" text="{.MS}Ganso" />
+    <string id="FkqbAeoY" text="Pônei de Swenryn{@Plural}Pôneis de Swenryn{\@}" />
+    <string id="GSiBXOfg" text="Trotador Estúrgio{@Plural}Trotadores Estúrgios{\@}" />
+    <string id="HAcujhib" text="Camelo{@Plural}Camelos{\@}" />
+    <string id="he5mGIMh" text="Cavalo de Batalha{@Plural}Cavalos de Batalha{\@}" />
+    <string id="HJriXlcb" text="{.FS}Barda de Cota de Malha Reforçada" />
+    <string id="i2QlHUVW" text="{.FS}Meia-Barda de Escamas de Catafractário" />
+    <string id="IIzhL9gt" text="Cavalo de Guerra{@Plural}Cavalos de Guerra{\@}" />
+    <string id="iquQ9dro" text="{.FS}Meia-Barda de Malha" />
+    <string id="ItUyYjdd" text="{.MS}Machado de Execução" />
+    <string id="JHef9oad" text="{.MS}Arnês de Mula com Bolsas" />
+    <string id="JkxPt29i" text="{.FS}Armadura de Cavalo de Malha Encadeada" />
+    <string id="k3dvbLDi" text="{.FS}Sela de Eneias" />
+    <string id="K4uryqOO" text="Barbo Bataniano{@Plural}Barbos Batanianos{\@}" />
+    <string id="kKuVy1jT" text="Cavalo Cansim{@Plural}Cavalos Cansins{\@}" />
+    <string id="Kp9kslko" text="Cavalo Darshi{@Plural}Cavalos Darshis{\@}" />
+    <string id="LzlQUcak" text="{.FS}Barda Laminada" />
+    <string id="meARhlZC" text="Corcel de Valanby{@Plural}Corcéis de Valanby{\@}" />
+    <string id="MedDPUNh" text="Destreiro{@Plural}Destreiros{\@}" />
+    <string id="MI65uuKB" text="{.FS}Barda Anilhada" />
+    <string id="N5aT5hoA" text="Palafrém das Terras Médias{@Plural}Palafréns das Terras Médias{\@}" />
+    <string id="nhaiQ9oX" text="Caçador da Estepe{@Plural}Caçadores da Estepe{\@}" />
+    <string id="NNUXGwTc" text="Cavalo Karahan{@Plural}Cavalos Karahan{\@}" />
+    <string id="NRB3V6yP" text="{.FS}Meia-Barda Chapeada Reforçada" />
+    <string id="NtsdmmW9" text="{.FS}Tâmara{@Plural}sacas de tâmara{\@}" />
+    <string id="OaQE1Frx" text="{.FS}Sela da Estepe" />
+    <string id="OflbQCw6" text="{.FS}Sela de Camelo com Carga Leve" />
+    <string id="Og0FswFV" text="Trotador de Omor{@Plural}Trotadores de Omor{\@}" />
+    <string id="OKn90ad7" text="Cavalo de Batalha de Canterion{@Plural}Cavalos de Batalha de Canterion{\@}" />
+    <string id="P1rL28RT" text="Cavalo de Carga{@Plural}Cavalos de Carga{\@}" />
+    <string id="p2jR7Urm" text="{.FS}Sela Rígida" />
+    <string id="pb2ELRZQ" text="Cavalo Selado{@Plural}Cavalos Selados{\@}" />
+    <string id="Pd77RH8P" text="Cavalo Rocinante{@Plural}Cavalos Rocinantes{\@}" />
+    <string id="qNNja5IF" text="{.FS}Meia-Barda Laminada" />
+    <string id="Qqdl6fbM" text="{.FS}Sela Rígida de Beduíno" />
+    <string id="quDh9Vlu" text="Cavalo do Deserto{@Plural}Cavalos do Deserto{\@}" />
+    <string id="r8NS1wz7" text="Cavalo Puro-sangue{@Plural}Cavalos Puros-sangues {\@}" />
+    <string id="rmjcrnll" text="Cavalo Palmaciano{@Plural}Cavalos Palmacianos{\@}" />
+    <string id="rO0oKtAo" text="{.MS}Estandarte de Campanha Pequeno" />
+    <string id="TXpQetkh" text="Camelo de Guerra{@Plural}Camelos de Guerra{\@}" />
+    <string id="U3SWNkFt" text="Cavalo de Tração{@Plural}Cavalos de Tração{\@}" />
+    <string id="uPrWdLxV" text="{.MS}Caçadeiro de Revyl" />
+    <string id="uRqm1nJ7" text="{.FS}Sela Leve" />
+    <string id="uTt4HX6V" text="Cavalo Tyal{@Plural}Cavalos Tyal{\@}" />
+    <string id="Vj4ZBxm5" text="{.FS}Barda Chapeada Reforçada" />
+    <string id="voORddjl" text="Cavalo Cossian{@Plural}Cavalos Cossian{\@}" />
+    <string id="vPAHwC3X" text="{.MP}Itens Roubados" />
+    <string id="VqCS28U1" text="Mula{@Plural}Mulas{\@}" />
+    <string id="vRIpgxhi" text="{.FS}Escolha da Fortuna" />
+    <string id="vXsifw1K" text="Cavalo Asaligat{@Plural}Cavalos Asaligat{\@}" />
+    <string id="w6Oz5viK" text="Palafrém das Terras Médias{@Plural}Palafréns das Terras Médias{\@}" />
+    <string id="W8r7A7qH" text="{.FS}Meia-Barda de Escamas" />
+    <string id="Wj98Otmo" text="Cavalo de Batalha da Estepe{@Plural}Cavalos de Batalha da Estepe{\@}" />
+    <string id="yy7RvQKN" text="{.MS}Bastão Bo" />
+    <string id="ZgVVPGTb" text="{.FP}Uvas{@Plural}sacas de uvas{\@}" />
+    <string id="ZJYVpjuR" text="{.FS}Sela de Camelo com Carga Pesada" />
+    <string id="zPbDZ9VA" text="{.FS}Sela Comum de Beduíno" />
+    <string id="18ZFPXsO" text="{.FP}Botas Chapeadas de Huscarl" />
+    <string id="4KZekKff" text="{.FP}Botas Atadas" />
+    <string id="4Ygp7P0Y" text="{.FP}Botas de Couro Fidalgas" />
+    <string id="6QNQosHv" text="{.FP}Botas de Couro Atadas" />
+    <string id="bFm9jOft" text="{.FP}Botas de Couro Afiveladas" />
+    <string id="DhHBBpPf" text="{.FP}Botas de Couro Simples" />
+    <string id="FptcHNb9" text="{.FP}Botas Transpassadas" />
+    <string id="FQqaVHq2" text="{.FP}Botas Selváticas" />
+    <string id="Ga5mCiLp" text="{.FP}Botas de Montaria de Couro" />
+    <string id="IOOTPpYj" text="{.FP}Botas Curvas com Acabamento de Pele" />
+    <string id="jVK5B86k" text="{.FP}Botas de Pele" />
+    <string id="L7qYlJqn" text="{.FP}Botas Florestais" />
+    <string id="RU2EppgI" text="{.MP}Sapatos Femininos" />
+    <string id="SxqSJK8h" text="{.MP}Mocassins" />
+    <string id="UuWPfE1x" text="{.FP}Botas de Escamas" />
+    <string id="uvSXUgT8" text="{.FP}Botas de Cavalgador" />
+    <string id="VpxHysbZ" text="{.FP}Botas de Couro Robustas" />
+    <string id="xqE9aycc" text="{.FP}Perneiras Florestais" />
+    <string id="xwWYJb5A" text="{.FP}Botas de Couro Dobradas" />
+    <string id="XXGZLTN6" text="{.FP}Botas Chapeadas Decoradas" />
+    <string id="0666zYUB" text="{.FS}Adarga Cravejada" />
+    <string id="1w5StEM1" text="{.MS}Escudo de Vime" />
+    <string id="3TAnl7hb" text="{.MS}Escudo Oriental Decorado" />
+    <string id="7MlFqkJ8" text="{.MS}Escudo Triangular Improvisado de Cavalgador" />
+    <string id="8ndLVeN0" text="{.MS}Escudo Ogival de Madeira" />
+    <string id="8UMQ8ocB" text="{.MS}Escudo de Cavalaria Oriental" />
+    <string id="ap2yulQ2" text="{.MS}Escudo Ogival Plano" />
+    <string id="aprm5ypZ" text="{.MS}Escudo Triangular de Cavalaria Robusto" />
+    <string id="BmHJmxXz" text="{.MS}Escudo de Cavalaria Reforçado" />
+    <string id="buaIafV6" text="{.MS}Escudo Ogival Aparatado" />
+    <string id="C2IIn10Q" text="{.MS}Escudo Redondo Grande Simples" />
+    <string id="cXesETQJ" text="{.FS}Adarga Grande" />
+    <string id="dbbwszHd" text="{.MS}Escudo Redondo Decorado" />
+    <string id="djSq8yL0" text="{.MS}Escudo Triangular Angulado" />
+    <string id="eopAWegQ" text="{.MS}Escudo Triangular de Ponta Redonda" />
+    <string id="gfQDDkEY" text="{.FS}Adarga de Madeira" />
+    <string id="hRKmfw2H" text="{.MS}Escudo Redondo Pesado" />
+    <string id="hytuHaoA" text="{.MS}Escudo Triangular com Arremate Cravejado" />
+    <string id="IBXDYUZW" text="{.MS}Escudo Triangular do Cavalgador" />
+    <string id="iE9JNuZI" text="{.MS}Escudo Redondo da Estepe" />
+    <string id="iFPkhVGe" text="{.MS}Escudo Ogival Plano Pequeno" />
+    <string id="jAbn05Vg" text="{.MS}Escudo Triangular do Cavalgador Simples" />
+    <string id="jdOu5l5D" text="{.MS}Escudo Triangular de Ponta Redonda Reforçado" />
+    <string id="jqWBGBo7" text="{.MS}Escudo Pequeno de Cavalaria Reforçado" />
+    <string id="JzZJpbTB" text="{.MS}Targe Reforçado" />
+    <string id="kNDbSy6K" text="{.MS}Escudo Triangular de Cavalaria Reforçado" />
+    <string id="LOhfAMnh" text="{.MS}Escudo Ogival Pequeno de Cavalaria" />
+    <string id="Mb1hQRyT" text="{.MS}Escudo Oval do Deserto" />
+    <string id="MiUxU83P" text="{.MS}Escudo Triangular Simples" />
+    <string id="n3sz2k5j" text="{.MS}Escudo Triangular de Cavaleiro" />
+    <string id="NFvuDpwG" text="{.MS}Escudo Triangular Fortificado" />
+    <string id="nVAhoxcH" text="{.MS}Escudo de Cavaleiro" />
+    <string id="O3TTXEFe" text="{.MS}Escudo Triangular de Cavalaria Leve" />
+    <string id="OIcwZGmC" text="{.MS}Escudo de Vime Reforçado" />
+    <string id="OSHSIyhN" text="{.MS}Escudo Redondo do Planalto" />
+    <string id="pmabPgC0" text="{.MS}Escudo Tribal da Estepe" />
+    <string id="przGGaVm" text="{.MS}Escudo Grande Reforçado de Bronze do Planalto" />
+    <string id="QcKpipVr" text="{.FS}Adarga" />
+    <string id="QodawBSN" text="{.MS}Escudo Redondo de Ferro" />
+    <string id="T3SFANYK" text="{.MS}Escudo Triangular Druzhinnik" />
+    <string id="txgUxMYw" text="{.MS}Escudo Ogival com Recorte" />
+    <string id="veI9RcR3" text="{.MS}Escudo Triangular Reforçado" />
+    <string id="vFqkSbGC" text="{.MS}Escudo Redondo Reforçado do Deserto" />
+    <string id="vsI4M5oq" text="{.MS}Escudo Grande Reforçado de Ferro do Planalto" />
+    <string id="vXvuViMT" text="{.MS}Escudo Triangular Improvisado" />
+    <string id="wAcc9SX4" text="{.MS}Escudo Grande do Planalto" />
+    <string id="WpdmIlU5" text="{.MS}Escudo Triangular com Acabamento de Ferro" />
+    <string id="WzAJJQjP" text="{.MS}Escudo Redondo do Deserto" />
+    <string id="YRYJGzxw" text="{.FS}Adarga Ornada" />
+    <string id="z62uDlbh" text="{.MS}Escudo Redondo Nórdico" />
+    <string id="1EhlbySK" text="{.MS}Manto Curto" />
+    <string id="27GO9o9K" text="{.FP}Brafoneiras de Placa de Ferro" />
+    <string id="3Xx3hg8s" text="{.MP}Guarda-Ombros de Escamas Decorados" />
+    <string id="4ryhrb9p" text="{.MS}Arnês Reforçado com Capa" />
+    <string id="567zyLq5" text="{.FP}Ombreiras de Couro Batido Curtido" />
+    <string id="5gsp0xUN" text="{.MP}Guarda-Ombros Anilhados" />
+    <string id="5uqExwWb" text="{.MS}Manto de Pele Florestal" />
+    <string id="9w40yGlZ" text="{.MS}Guarda-Ombros de Couro" />
+    <string id="aChUcrRt" text="{.MP}Guarda-Ombros de Escamas" />
+    <string id="AHQQp0O0" text="{.MP}Guarda-Ombros Laminados de Couro" />
+    <string id="B58Ocaxw" text="{.FS}Casaca de Pele com Corrente" />
+    <string id="beg6guIH" text="{.FS}Capa de Pele de Lobo" />
+    <string id="C6f64ZyJ" text="{.FP}Brafoneiras Ornadas Reforçadas sobre Escamas" />
+    <string id="D2ZuOT3H" text="{.MP}Guarda-Ombros Laminado de Bronze Reforçado" />
+    <string id="DbEzJcbD" text="{.FP}Brafoneiras Laminadas" />
+    <string id="dIgaajLB" text="{.FP}Brafoneiras de Escamas de Bronze com Manga Longa Decoradas" />
+    <string id="e6WOD7Ra" text="{.FS}Capa Franjada" />
+    <string id="ectdzWNx" text="{.MS}Cachecol de Tartan Pesado" />
+    <string id="EyQTfFS6" text="{.FS}Ombreira Trançada" />
+    <string id="FItBDuqh" text="{.MS}Capuz de Algodão" />
+    <string id="FQdTo5ay" text="{.MP}Guarda-Ombros de Escamas" />
+    <string id="h1bcf5zn" text="{.MS}Xale" />
+    <string id="HJdIkdm2" text="{.MS}Cachecol Grosso" />
+    <string id="hjYFbvcy" text="{.FS}Capa Florestal" />
+    <string id="Ie0EazLn" text="{.FP}Brafoneiras Laminadas Pesadas" />
+    <string id="imHoaCGi" text="{.MP}Guarda-Ombros de Escamas de Bronze" />
+    <string id="jQKVnVNR" text="{.FP}Brafoneiras de Bronze" />
+    <string id="k9ouZ59X" text="{.FP}Brafoneiras de Escamas de Bronze" />
+    <string id="kjzCaoMK" text="{.MS}Gorjal com Brafoneiras de Placa de Bronze" />
+    <string id="KQ9h5eAe" text="{.MS}Manto Pesado" />
+    <string id="KrzAIXgG" text="{.FP}Brafoneiras de Escamas de Bronze Decoradas" />
+    <string id="LePDTpFD" text="{.MP}Guarda-Ombros de Escamas de Bronze Reforçadas" />
+    <string id="NJSYumaV" text="{.FP}Brafoneiras Ornadas" />
+    <string id="NuWovN18" text="{.MP}Guarda-Ombros Laminados de Bronze" />
+    <string id="NZjbiEXg" text="{.MS}Manto de Tartan" />
+    <string id="Oub0aVl3" text="{.FP}Brafoneiras de Couro Curtido" />
+    <string id="P0FmQHgF" text="{.MS}Arnês de Couro Decorado sobre Malha" />
+    <string id="p0Xgt48l" text="{.MS}Manto de Pele Grande com Placa Redonda" />
+    <string id="P96J2c61" text="{.FP}Brafoneiras de Placa de Bronze" />
+    <string id="P9wiCrIU" text="{.FP}Ombreiras de Malha Reforçada" />
+    <string id="pGmYxauO" text="{.FS}Capa Legionária" />
+    <string id="Q19xluDy" text="{.MS}Gorjal Cravejado Reforçado" />
+    <string id="qGzZ78bM" text="{.FP}Tiras de Couro Aparafusadas" />
+    <string id="QlpyR6uc" text="{.MP}Guarda-Ombros Laminados" />
+    <string id="re2oRFLW" text="{.MS}Brafoneiras com Capa" />
+    <string id="RmPPVmgJ" text="{.FP}Proteções de Ombro Laminadas de Bronze" />
+    <string id="s7siCSsh" text="{.MS}Arnês Cravejado Reforçado Legionário" />
+    <string id="s7WRzaf2" text="{.FS}Pele de Urso" />
+    <string id="SRyvwNd1" text="{.MS}Brafoneiras Ornadas com Capa" />
+    <string id="t6pQ6Vxc" text="{.MP}Guarda-Ombros Cravejados Reforçados" />
+    <string id="TS7NjgyH" text="{.MS}Arnês Cravejado Legionário" />
+    <string id="U0zBG3F9" text="{.FP}Brafoneiras de Escamas" />
+    <string id="uIov9Yo9" text="{.MP}Guarda-Ombros de Camurça Reforçados" />
+    <string id="ujntvg7M" text="{.MS}Manto de Pele com Placa Redonda" />
+    <string id="Uo2t80GH" text="{.FP}Proteções de Ombro Laminadas de Aço Decoradas" />
+    <string id="URZVE5aK" text="{.FP}Brafoneiras de Bronze com Protetor de Pescoço" />
+    <string id="UTXWsY1Y" text="{.FP}Brafoneiras de Couro Reforçadas" />
+    <string id="vo9kYKNQ" text="{.FP}Proteções de Ombro Laminadas" />
+    <string id="vRBg9ICF" text="{.MS}Arnês de Ombro de Tartan" />
+    <string id="W9bsRAfD" text="{.MP}Guarda-ombros de Malha" />
+    <string id="WDNKhjca" text="{.FP}Tiras Acolchoadas Legionárias" />
+    <string id="wMsbMc2T" text="{.FP}Brafoneiras Ornadas Reforçadas" />
+    <string id="XpzvP7hE" text="{.FP}Ombreiras Laminadas Reforçadas" />
+    <string id="yrCoCgJf" text="{.FP}Brafoneiras do Senhor da Guerra Pesadas" />
+    <string id="z4nryDlp" text="{.MP}Guarda-ombros de Escamas de Bronze de Manga Longa" />
+    <string id="zf2GUNfh" text="{.MP}Guarda-ombros de Couro Laminados Decorados" />
+    <string id="2Igdc86g" text="{.FS}Espata de Treino" />
+    <string id="4Ea6pr5p" text="{.FS}Besta de Treino" />
+    <string id="5dQdBOTa" text="{.MS}Machado Galogaico de Treino" />
+    <string id="89bCqb0Z" text="{.MS}Escudo de Torneio Quadrado de Vime" />
+    <string id="8WlRREMh" text="{.MS}Machado com Punho de Bambu de Treino" />
+    <string id="AB2lD2JQ" text="{.MS}Menaulion de Treino" />
+    <string id="APO9YcBv" text="{.MS}Machado de Duas Mãos de Treino" />
+    <string id="B0E6Zfyk" text="{.FS}Azagaia de Treino" />
+    <string id="BACi0kaM" text="{.FS}Lança Dentada de Treino" />
+    <string id="cG1g4T3t" text="{.FS}Flyssa de Treino" />
+    <string id="D1webCRZ" text="{.FS}Espada Larga de Treino" />
+    <string id="EbWA5mcO" text="{.MS}Podão de Treino" />
+    <string id="es77bJBa" text="{.FS}Adaga de Arremesso de Treino" />
+    <string id="faiiCbbS" text="{.MS}Escudo Redondo de Treino" />
+    <string id="feMEjAIj" text="{.MS}Escudo Triangular de Treino de Cavalgador" />
+    <string id="HIjSiX4E" text="{.FS}Lança de Treino" />
+    <string id="hyagO05b" text="{.FS}Targe de Treino" />
+    <string id="Kba6rxWK" text="{.FS}Cimitarra de Treino" />
+    <string id="lGHrlYqQ" text="{.MS}Espadão de Treino" />
+    <string id="LLaFEt1m" text="{.FS}Espada d'Armas de Treino" />
+    <string id="LpN4YWb2" text="{.MS}Sabre de Treino" />
+    <string id="lW3smDRu" text="{.MS}Escudo Triangular de Treino" />
+    <string id="M75Ybg6r" text="{.MS}Machado de Arremesso de Treino" />
+    <string id="pdtQybBM" text="{.MS}Escudo de Treino Redondo do Deserto" />
+    <string id="Rwp23MLA" text="{.FS}Lâmina de Treino" />
+    <string id="tcN9Vyn7" text="{.FS}Azagaia Contundente de Treino" />
+    <string id="XU0b0yiW" text="{.FS}Lança de Cavalaria de Treino" />
+    <string id="YmoddWwb" text="{.MS}Saxo de Treino" />
+    <string id="YQ9ybgmj" text="{.FS}Archa de Treino" />
+    <string id="06Qoh8AO" text="{.FS}Espada de Guerra Curta Folheada a Ouro" />
+    <string id="0lNp3f76" text="{.FS}Kaskara Angular Entalhada" />
+    <string id="0NLJnGfF" text="{.FS}Azagaia Simples" />
+    <string id="0S8k9Hqa" text="{.FS}Besta de Camponês Leve" />
+    <string id="160aqzPm" text="{.FS}Navalha Bélica" />
+    <string id="1bc4kTaz" text="{.MS}Espátion de Aço Tamasqueno" />
+    <string id="1CamO1P3" text="{.FS}Espata de Ferro" />
+    <string id="1HWRwbwT" text="{.FS}Espada de Madeira" />
+    <string id="1mCmYNl6" text="{.FS}Espada de Haste" />
+    <string id="1oQWbXJw" text="{.MS}Arpão de Pesca" />
+    <string id="1WxLaeQE" text="{.FS}Espada de Duas Mãos de Aço Refinado" />
+    <string id="24MA4JLX" text="{.FS}Kaskara Longa Sulcada" />
+    <string id="2dJ5HB8a" text="{.MS}Coração Negro" />
+    <string id="3daDQxwM" text="{.FP}Flechas das Terras Baixas" />
+    <string id="3Pv0SlYj" text="{.MS}Saxo" />
+    <string id="3yh33obu" text="{.FS}Lança de Cavalaria Druzhinnik" />
+    <string id="3YhwjpQ0" text="{.FS}Espada Delgada" />
+    <string id="4cMV1pY3" text="{.FS}Maça Leve Imperial" />
+    <string id="4jmcs2Xm" text="{.FP}Setas de Torneio" />
+    <string id="4OaVIYuD" text="{.FS}Espata com Encalcamento Estreito" />
+    <string id="4q69NwNy" text="{.FS}Espada d'Armas com Guarda em Crescente" />
+    <string id="4RTsybkx" text="{.FS}Navalha de Guerra" />
+    <string id="4wQRk3f5" text="{.FS}Espada de Guerra Longa Decorada" />
+    <string id="57jpWo7g" text="{.FS}Espada Larga de Cavalaria de Aço Refinado" />
+    <string id="62nIvqbA" text="{.FS}Lâmina Montanhesa Bataniana" />
+    <string id="6EWm09LY" text="{.FS}Maça d'Armas" />
+    <string id="6jYzHJjB" text="{.MS}Grilhão" />
+    <string id="6q0nmVtg" text="{.MS}Machado Florestal" />
+    <string id="6QI8X6CY" text="{.FS}Maça Leve Encalcada" />
+    <string id="6WcZ5Tr0" text="{.MS}Martelo de Ferreiro" />
+    <string id="77GPT2B6" text="{.MS}Mangual de Guerra" />
+    <string id="7jH0kuof" text="{.FS}Maça com Espetos" />
+    <string id="7phSQw5i" text="{.FS}Enxada" />
+    <string id="89OWzLBb" text="{.FS}Ascia com Cabo de Bambu" />
+    <string id="8fK5E68M" text="{.MS}Sabre Sulcado " />
+    <string id="8jEDX9J4" text="{.FS}Espada Larga" />
+    <string id="8mpp8ZCL" text="{.FS}Espada d'Armas de Cavaleiro" />
+    <string id="8pnCvnFR" text="{.MS}Shestopyor de Aço" />
+    <string id="93OHSnEV" text="{.FS}Cimitarra Longa Decorada" />
+    <string id="9EWN9SiT" text="{.FS}Maça Shishpar Leve" />
+    <string id="9pD32UdV" text="{.FS}Maça do Planalto" />
+    <string id="9UB0LF8Z" text="{.FS}Lança de Cavalaria do Norte" />
+    <string id="9YbFEaZ1" text="{.MS}Arco de Teixo" />
+    <string id="9ZiUK3JJ" text="{.FS}Lâmina de Duas Mãos Larga com Encalcamento Grande" />
+    <string id="a10taTGb" text="{.MS}Sabre com Entalhe de Leão" />
+    <string id="a3WNz6Ci" text="{.MP}Projéteis de Atiradeira de Pedra" />
+    <string id="a47UTuL6" text="{.MS}Justiciar" />
+    <string id="Ag6dujzl" text="{.FS}Lâmina Afunilada" />
+    <string id="AMIdBVZb" text="{.FS}Espata de Aço Refinado" />
+    <string id="arBdK7st" text="{.FS}Espada Bastarda Simples" />
+    <string id="b88lWWOo" text="{.FS}Maça de Aço Refinado" />
+    <string id="b8AgXwbL" text="{.FS}Espada d'Armas Larga" />
+    <string id="bANXyotg" text="{.FS}Flyssa Levemente Cristada" />
+    <string id="BAsjzOiH" text="{.MS}Machado de Executor" />
+    <string id="bcjcw1o9" text="{.MS}Machado de Rachar Lenha" />
+    <string id="bdTQG99v" text="{.MS}Machado com Punho de Bambu" />
+    <string id="beVFwINO" text="{.MS}Martelo de Madeira" />
+    <string id="bhiVBSge" text="{.FS}Faca" />
+    <string id="Biq7t1xv" text="{.FP}Flechas de Longo Alcance" />
+    <string id="bK03bqdA" text="{.FP}Flechas de Torneio" />
+    <string id="bNABNs8O" text="{.MS}Machado de Duas Mãos de Ponta Quadrada" />
+    <string id="bohbzGjg" text="{.FS}Cimitarra Decorada com Cabo Largo" />
+    <string id="BqAUrOpn" text="{.FP}Flechas Penetrantes Leves" />
+    <string id="bt0uFefo" text="{.MS}Espadão de Madeira" />
+    <string id="bue69aD4" text="{.FS}Lança Curta Simples" />
+    <string id="bwXACVOb" text="{.FS}Lança de Folha de Aço Refinado" />
+    <string id="BYPhysbH" text="{.FS}Queda do Cavaleiro" />
+    <string id="cKtkyroA" text="{.MS}Machado de Duas Mãos Decorado do Norte" />
+    <string id="cmuMaYGR" text="{.MS}Arco Longo de Treino" />
+    <string id="Cr5ak47X" text="{.FS}Espada Larga Decorada" />
+    <string id="cRCkC36E" text="{.FS}Espada Curta" />
+    <string id="DC0qJkVs" text="{.FP}Flechas Contundentes" />
+    <string id="dCbrowBV" text="{.FS}Kaskara Longa de Aço Refinado" />
+    <string id="DFcMeRdB" text="{.MS}Machado de Batalha de Saqueador Simples" />
+    <string id="DI9P2HDG" text="{.FP}Flechas Penetrantes Empilhadas" />
+    <string id="dkldfSqU" text="{.MS}Mangual com Espetos" />
+    <string id="dkuzrKJF" text="{.MS}Pique Refinado" />
+    <string id="DQaV0i5W" text="{.FS}Espada Larga de Ferro" />
+    <string id="dRWKmbaa" text="{.MS}Machado Esporeado Pequeno" />
+    <string id="dSTxsYsh" text="{.FS}Maça de Cavalaria Encalcada" />
+    <string id="duIWCjdD" text="{.FS}Lança Recurvada com Ponta de Aço" />
+    <string id="E7miRMw1" text="{.MS}Arco Recurvo Pesado" />
+    <string id="e8amL6a1" text="{.FS}Ild Larga" />
+    <string id="eaALL6uO" text="{.MS}Sabre Longo" />
+    <string id="EadnjRjs" text="{.FS}Espada de Guerra Longa" />
+    <string id="EBRG6qbv" text="{.FS}Lança de Cavalaria Nobre" />
+    <string id="EgrNdBct" text="{.FS}Lança de Arremesso Serrilhada" />
+    <string id="ekUvh8Em" text="{.MS}Espadão Afunilado" />
+    <string id="eND6ECxg" text="{.FS}Lança de Catafractário" />
+    <string id="EO7pCu1b" text="{.MS}Arco Nobre" />
+    <string id="ErOLa263" text="{.FS}Tocha" />
+    <string id="FAzGPJn6" text="{.MS}Machado de Bambu" />
+    <string id="FbG3CW5p" text="{.FS}Forquilha Marcial" />
+    <string id="fcgDtZy7" text="{.FS}Maça Pesada Oriental" />
+    <string id="fHj6NbWy" text="{.FS}Flyssa de Ferro" />
+    <string id="finesteelbladeweapon" text="{.FS}Lâmina de Aço Refinado do Planalto" />
+    <string id="FJDCc3Y2" text="{.FS}Maça de Cavalgador Pesada" />
+    <string id="FQHaFsyQ" text="{.FS}Espada de Cavalaria" />
+    <string id="fuyj7s3F" text="{.FS}Cimitarra de Aço Refinado Longa" />
+    <string id="fz23ajFz" text="{.FS}Maça Flangeada Pesada" />
+    <string id="g6IpxVat" text="{.FS}Maça de Duas Mãos do Norte" />
+    <string id="G7EbBKuA" text="{.FS}Lança Estreita de Cabeça Longa" />
+    <string id="g7vxJhiz" text="{.FP}Setas Leves" />
+    <string id="gadEbFyj" text="{.MS}Sabre de Aço Refinado" />
+    <string id="gJPogg0J" text="{.MS}Machado de Acha Simples" />
+    <string id="GKzw7E8a" text="{.MS}Pique Simples" />
+    <string id="GrfnpDxu" text="{.MS}Machado de Arremesso do Planalto" />
+    <string id="gsGjXj8J" text="{.FS}Espada Longa do Deserto" />
+    <string id="gYpNILVC" text="{.FS}Marreta" />
+    <string id="GyYsQlVd" text="{.FS}Espata Curta Decorada" />
+    <string id="H9hzBJz3" text="{.FS}Lança de Treinamento" />
+    <string id="ha3rVEzP" text="{.FS}Espada d'Armas com Ponta Cristada" />
+    <string id="habJjtmv" text="{.FS}Espada Larga de Ferro Cristada" />
+    <string id="HaK3y9yi" text="{.FS}Clava com Espinhos" />
+    <string id="HclLXEaT" text="{.MS}Chicote de Cavalo" />
+    <string id="HECAP8QW" text="{.MS}Berdiche com Punho Curto" />
+    <string id="hN4wE2gG" text="{.MP}Virotes Pesados" />
+    <string id="HpdJJO9g" text="{.FS}Lâmina de Espata com Pomo de Anel" />
+    <string id="hQrLHkaU" text="{.MS}Machado Galogaico" />
+    <string id="hsRwbHSk" text="{.FS}Lança de Mameluco" />
+    <string id="hTPJXK1w" text="{.MS}Machado de Executor Pesado" />
+    <string id="HVcwvRMF" text="{.FS}Lança do Planalto Reforçada" />
+    <string id="HwO0AYul" text="{.FS}Espada Curta de Crista Larga" />
+    <string id="hyq1zBg5" text="{.FS}Lança Plebeia Simples" />
+    <string id="hz87PBsa" text="{.FS}Lança de Folha Larga" />
+    <string id="I1yTY2rx" text="{.FS}Besta Leve Refinada" />
+    <string id="I67Avuos" text="{.MP}Virotes Leves" />
+    <string id="IClH3Pus" text="{.FS}Avalanche" />
+    <string id="IDfl59yt" text="{.FS}Lança de Ponta Nodosa" />
+    <string id="iEbP2INp" text="{.FS}Kaskara Decorada" />
+    <string id="ifzgMcrK" text="{.MS}Arco Nômade" />
+    <string id="IK2Z9zWk" text="{.FS}Cimitarra Simples" />
+    <string id="IM2SamZ8" text="{.MS}Alfanje" />
+    <string id="J3erdO1b" text="{.FS}Vaga d'Aurora" />
+    <string id="j4XraSN6" text="{.FS}Lança de Cavalaria Leve" />
+    <string id="jcOJqWGA" text="{.FS}Lança de Aço Refinado" />
+    <string id="jfWzICId" text="{.FS}Espada de Guerra Longa Encalcada" />
+    <string id="jhFSLdve" text="{.MS}Machado de Duas Mãos Furado" />
+    <string id="Jkd2gmyj" text="{.FS}Lança de Ponta Triangular" />
+    <string id="JM8Mjfa0" text="{.FS}Maça Espiralada" />
+    <string id="JPByibJQ" text="{.FS}Cimitarra de Ferro" />
+    <string id="jSspzlmR" text="{.MS}Sabre Reto" />
+    <string id="JXSZelwE" text="{.FP}Adagas de Arremesso Tribais" />
+    <string id="JxV66l02" text="{.FS}Archa Longa" />
+    <string id="K2Xtca1a" text="{.MS}Podão Curto" />
+    <string id="K5XLb84w" text="{.FP}Flechas Imperiais" />
+    <string id="k9bmPuTB" text="{.FS}Lança da Cavalaria Pesada" />
+    <string id="KanKBHcS" text="{.MS}Machado de Infantaria" />
+    <string id="kJzIZMBR" text="{.FS}Lança de Arremesso Triangular" />
+    <string id="knobbedclubweapon" text="{.FS}Clava Nodosa" />
+    <string id="koOrDa9q" text="{.FS}Adaga de Arremesso do Planalto" />
+    <string id="kR1blV2k" text="{.FS}Forquilha Marcial Chanfrada" />
+    <string id="KRhIG1cw" text="{.MS}Machado de Franceska Grande" />
+    <string id="KRuZuMFI" text="{.MS}Julgamento" />
+    <string id="ksxylfU4" text="{.FS}Espada d'Armas Sulcada" />
+    <string id="ktJ6crBs" text="{.MS}Alfanje Largo" />
+    <string id="Kv4zAMIh" text="{.FS}Maça de Catafractário" />
+    <string id="kxtSkGju" text="{.MS}O Embaixador" />
+    <string id="L5i5RgO0" text="{.FS}Funda de Lã" />
+    <string id="l9kAJ1Xh" text="{.FS}Lâmina Larga do Planalto" />
+    <string id="LAEaH3zB" text="{.FS}Besta Leve Simples" />
+    <string id="lbkaoPk6" text="{.FS}Sica" />
+    <string id="ljOwXClb" text="{.FS}Machadinha Nórdica" />
+    <string id="LVQworUy" text="{.FS}Kaskara Larga" />
+    <string id="lXwaLAYP" text="{.FS}Espada de Guerra de Aço Tamasqueno" />
+    <string id="LzqugHen" text="{.MS}Escalpelo" />
+    <string id="Mb0CuONB" text="{.MS}Machado Barbado" />
+    <string id="mMtKWolp" text="{.MS}Sabre Grande Sulcado" />
+    <string id="MRIdGqhA" text="{.FS}Espada de Guerra Pontuda" />
+    <string id="mTWvG1xz" text="{.MS}Arco de Patrulheiro" />
+    <string id="mWxNSjSP" text="{.FS}Lança Cortada de Aço Fino Refinado" />
+    <string id="mzvtFPPi" text="{.MS}Esmaga-ossos" />
+    <string id="N0ErUFHS" text="{.FS}Azagaia Serrilhada" />
+    <string id="N28bDEhh" text="{.FS}Lança Cortada de Aço Refinado" />
+    <string id="N8VJWdVY" text="{.FS}Maça Leve da Estepe" />
+    <string id="NaaM2O2g" text="{.FS}Montante Encalcada Larga do Norte" />
+    <string id="NFT4sLva" text="{.FS}Lança de Ponta Alta" />
+    <string id="NkV2c6YX" text="{.FP}Flechas da Estepe Empilhadas" />
+    <string id="nq26Puio" text="{.FS}Besta de Camponês Pesada" />
+    <string id="nTc20R1R" text="{.FS}Marreta Improvisada" />
+    <string id="o5kKAbRu" text="{.FS}Lança dos Cavaleiros" />
+    <string id="ObGN145P" text="{.FS}Azagaia Florestal" />
+    <string id="oFEzCTpW" text="{.MS}Forcado de Ferro" />
+    <string id="OjHwbgeY" text="{.MS}Arco Tribal Robusto" />
+    <string id="OLTUHPaD" text="{.MS}Paramerion de Aço Refinado" />
+    <string id="oQmUlQWp" text="{.MS}Sabre Simples " />
+    <string id="oV5AhcDl" text="{.FS}Azagaia das Terras Baixas" />
+    <string id="oXrbTRJo" text="{.FS}Ceifadeira" />
+    <string id="P9FUrH8a" text="{.FS}Espada d'Armas Gravada a Ouro" />
+    <string id="P9PcIk4q" text="{.MS}Machado de Cavalaria Recurvado" />
+    <string id="PBLsXDgP" text="{.FS}Maça Leve" />
+    <string id="pjvwuVuc" text="{.MS}Machado Barbado de Uma Mão" />
+    <string id="POhLMyat" text="{.MS}Tzkurion Largo" />
+    <string id="pP0GacSW" text="{.FS}Machadinha de Aço Refinado Cravejada Redonda" />
+    <string id="ppiy9Cwl" text="{.FS}Azagaia de Lâmina Larga" />
+    <string id="QA3k2I4A" text="{.FP}Facas de Arremesso de Lâmina Larga" />
+    <string id="QA5zGCKf" text="{.FS}Espada Encalcada Decorada" />
+    <string id="QjdyYS0m" text="{.MS}Sabre de Ferro" />
+    <string id="QnyD1yWB" text="{.MS}Machado Largo do Norte" />
+    <string id="Qpl5aCb0" text="{.MS}Machado de Guerreiro Veterano" />
+    <string id="qxYDHkKl" text="{.FS}Funda Reforçada" />
+    <string id="qZOpdQVx" text="{.MS}Alfanje de Estrela" />
+    <string id="Rcc0JW6H" text="{.FS}Espata de Aço Tamasqueno" />
+    <string id="RcCtV0aS" text="{.MS}Arco de Teixo Florestal" />
+    <string id="rdKSIamN" text="{.FP}Flechas Perfurantes" />
+    <string id="rhWOdhjr" text="{.FS}Lança de Guerra do Planalto" />
+    <string id="rkqaCud5" text="{.MS}Pilo" />
+    <string id="rnzpyc0N" text="{.MS}Pernach" />
+    <string id="rtRGq1uU" text="{.FS}Lâmina de Duas Mãos Larga" />
+    <string id="RwpJFXxc" text="{.MS}Pique Tamasqueno" />
+    <string id="RzLZHrYT" text="{.FS}Lança de Saqueador Simples Curta" />
+    <string id="s7jkSgba" text="{.FP}Flechas Farpadas" />
+    <string id="SbARa2gU" text="{.FP}Flechas Penetrantes" />
+    <string id="SDBvC0ON" text="{.MS}Machado de Batalha com Espinhos" />
+    <string id="SGdY9jmK" text="{.FS}Espada de Guerra Estreita Encalcada" />
+    <string id="steppebowitem" text="{.MS}Arco da Estepe" />
+    <string id="SUSbUAEl" text="{.MS}Arco de Treino" />
+    <string id="sWUbsPty" text="{.FS}Lança dos Cavaleiros Pesada" />
+    <string id="t28VYqjP" text="{.FS}Lança de Aço Refinado Longa" />
+    <string id="TbFLTHHm" text="{.FS}Tyrhung" />
+    <string id="TBW9E2ao" text="{.FS}Besta Atada" />
+    <string id="te48yHa8" text="{.FS}Faca de Arremesso com Lâmina de Folha" />
+    <string id="Th4E7v2h" text="{.FS}Azagaia de Cavalgador" />
+    <string id="tpUzcdY6" text="{.FS}Espada Alta Empunhada de Ild" />
+    <string id="TQ1MVhIX" text="{.FS}Lança da Cavalaria Leve" />
+    <string id="tQw4Zfwu" text="{.MS}Alfanje Pontudo" />
+    <string id="tsaSBPKu" text="{.MS}Tzikourion" />
+    <string id="tzoARfAm" text="{.FS}Lança de Cavalaria Druzhinnik Pesada" />
+    <string id="UMX05EQF" text="{.FS}Maça Real Leve" />
+    <string id="Urv6mKxq" text="{.FS}Maça de Duas Mãos Reforçada do Norte" />
+    <string id="uSBxV2Ob" text="{.MS}Machado de Ponta Retangular" />
+    <string id="UunjXpgb" text="{.MS}Menaulion de Aço Refinado" />
+    <string id="UWvOndG0" text="{.FS}Lança de Cavalaria de Ginete da Estepe Leve" />
+    <string id="V4b2ZRTH" text="{.FS}Ronfaia" />
+    <string id="v7WQhge3" text="{.MS}Sabre Decorado" />
+    <string id="VAcSEseI" text="{.FS}Espada d'Armas Larga com Encalcamento Grande" />
+    <string id="VAO11FSu" text="{.FS}Lâmina de Duas Mãos de Aço Tamasqueno" />
+    <string id="vDfuEQ7M" text="{.MS}Arco Curto Estúrgio" />
+    <string id="vDvj5zkG" text="{.FS}Fúria dos Ventos" />
+    <string id="vmz4vfu5" text="{.FS}Azagaia Recurvada" />
+    <string id="VP74qdJ3" text="{.FS}Lança de Cavalaria de Corcel" />
+    <string id="vPXWpJTP" text="{.FS}Adaga do Planalto" />
+    <string id="VucrovFw" text="{.FS}Espada de Cavalaria Entalhada" />
+    <string id="VxRYaOc2" text="{.FS}Skaen Larga" />
+    <string id="vXYlLH6L" text="{.FS}Lança Longa com Ponta Tamasquena" />
+    <string id="Vyw5KNxR" text="{.FS}Lança de Milícia Curta" />
+    <string id="w6EU77OH" text="{.MS}Arco Recurvo da Estepe" />
+    <string id="w9RLq82l" text="{.FS}Espada d'Armas de Ferro" />
+    <string id="WASZXuec" text="{.MS}Pernach de Milícia" />
+    <string id="wfhHGTbl" text="{.MS}Arco de Guerra da Estepe" />
+    <string id="wi53b5PG" text="{.FP}Setas Pesadas" />
+    <string id="WQksMqMR" text="{.FS}Lança Longa de Ponta Alta" />
+    <string id="WRqYWspc" text="{.MS}Arco Longo Nobre" />
+    <string id="WUasz2kP" text="{.FS}Espada de Duas Mãos Refinada do Planalto" />
+    <string id="WWRKeqwD" text="{.MS}Machado de Arremesso de Saqueador" />
+    <string id="wxL5TdDv" text="{.FS}Maça de Milícia" />
+    <string id="x0x1gIbT" text="{.FS}Aposentadoria Antecipada" />
+    <string id="X31qND4N" text="{.MS}Machado de Arremesso Tribal" />
+    <string id="XbwDj80t" text="{.FP}Flechas da Estepe" />
+    <string id="xgOuAWEE" text="{.MS}Machado de Plebeu" />
+    <string id="XIRtmaQt" text="{.FS}Sentinela" />
+    <string id="XRaPBg6d" text="{.MS}Machado de Ponta Pequena" />
+    <string id="XTGdfqVV" text="{.MS}Cutelo de Duas Mãos " />
+    <string id="xTyib5ms" text="{.FS}Lança em Formato de Folha Larga" />
+    <string id="Xv95gei9" text="{.FS}Maça de Duas Mãos do Sul" />
+    <string id="xWFW8jXw" text="{.MS}Machado de Batalha" />
+    <string id="xYk4953c" text="{.FS}Maça de Aço" />
+    <string id="yCvBx27Z" text="{.FS}Lança Dentada" />
+    <string id="Yd4lmlQp" text="{.FS}Kaskara de Aço Refinado Estreita" />
+    <string id="yeQr4RiM" text="{.MP}Projéteis de Funda Entalhados" />
+    <string id="YGndAhTr" text="{.FS}Lança da Estepe Contrabalanceada" />
+    <string id="YLplNGxb" text="{.FS}Maça Calradique" />
+    <string id="YPUDAJDH" text="{.MS}Arpão" />
+    <string id="YrAVxmFn" text="{.FS}Espada Larga do Planalto" />
+    <string id="z3brrzJ9" text="{.FS}Funda Trançada" />
+    <string id="zBUT90xQ" text="{.FS}Kaskara de Aço Tamasqueno" />
+    <string id="Zcaucj4W" text="{.FS}Espada d'Armas Decorada" />
+    <string id="ZDZR5UzN" text="{.MS}Projéteis de Funda de Chumbo" />
+    <string id="zH0QF7mE" text="{.FS}Lança de Ponta Nodosa com Frisos" />
+    <string id="ZLpYFYXo" text="{.FS}Lança de Aço Refinado Dentada" />
+    <string id="ZQv5Bcl2" text="{.MS}Arco Tribal" />
+    <string id="ZsaukY0N" text="{.FS}Espada d'Armas com Aro" />
+    <string id="zUFRE9y4" text="{.FS}Picareta" />
+    <string id="zvIax8Kt" text="{.FS}Faca de Arremesso das Terras Baixas" />
+  </strings>
+</base>

@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MultiplayerScenes>
+	<!-- Test Maps -->
+	<Scene
+		name="mp_skirmish_spawn_test">
+		<GameType
+			name="TeamDeathmatch" />
+		<GameType
+			name="Battle" />
+		<GameType
+			name="Captain" />
+		<GameType
+			name="Skirmish" />
+	</Scene>
+	<Scene
+		name="mp_troop_test_10m">
+		<GameType
+			name="Captain" />
+	</Scene>
+	<Scene
+		name="mp_troop_test_50m">
+		<GameType
+			name="Captain" />
+	</Scene>
+	<Scene
+		name="mp_troop_test_90m">
+		<GameType
+			name="Captain" />
+	</Scene>
+	<!-- Captain Maps -->
+	<Scene
+		name="mp_sergeant_map_007">
+		<GameType
+			name="Captain" />
+	</Scene>
+	<Scene
+		name="mp_sergeant_map_008">
+		<GameType
+			name="Captain" />
+	</Scene>
+	<Scene
+		name="mp_sergeant_map_009">
+		<GameType
+			name="Captain" />
+	</Scene>
+	<Scene
+		name="mp_sergeant_map_010">
+		<GameType
+			name="Captain" />
+	</Scene>
+	<Scene
+		name="mp_sergeant_map_012">
+		<GameType
+			name="Captain" />
+	</Scene>
+	<Scene
+		name="mp_sergeant_map_013">
+		<GameType
+			name="Captain" />
+	</Scene>
+	<Scene
+		name="mp_sergeant_map_vlandia_01">
+		<GameType
+			name="Captain" />
+	</Scene>
+	<Scene
+		name="mp_sergeant_map_013">
+		<GameType
+			name="Captain" />
+	</Scene>
+	<!-- Battle / Skirmish Maps -->
+	<Scene
+		name="mp_battle_map_001">
+		<GameType
+			name="Battle" />
+	</Scene>
+	<Scene
+		name="mp_battle_map_002">
+		<GameType
+			name="Battle" />
+	</Scene>
+	<Scene
+		name="mp_battle_map_003">
+		<GameType
+			name="Battle" />
+	</Scene>
+	<Scene
+		name="mp_skirmish_map_002f">
+		<GameType
+			name="Battle" />
+		<GameType
+			name="Skirmish" />
+	</Scene>
+	<Scene
+		name="mp_skirmish_map_003_skinc">
+		<GameType
+			name="Battle" />
+		<GameType
+			name="Skirmish" />
+	</Scene>
+	<Scene
+		name="mp_skirmish_map_010">
+		<GameType
+			name="Battle" />
+		<GameType
+			name="Skirmish" />
+	</Scene>
+	<Scene
+		name="mp_skirmish_map_007">
+		<GameType
+			name="Skirmish" />
+	</Scene>
+	<Scene
+		name="mp_skirmish_map_008_skin">
+		<GameType
+			name="Skirmish" />
+	</Scene>
+	<Scene
+		name="mp_skirmish_map_009">
+		<GameType
+			name="Battle" />
+		<GameType
+			name="Skirmish" />
+	</Scene>
+	<Scene
+		name="mp_skirmish_map_014">
+		<GameType
+			name="Battle" />
+		<GameType
+			name="Skirmish" />
+	</Scene>
+	<Scene
+		name="mp_skirmish_map_020">
+		<GameType
+			name="Battle" />
+		<GameType
+			name="Skirmish" />
+	</Scene>
+	<!-- TDM & Duel Maps -->
+	<Scene
+		name="mp_duel_mode_map_004">
+		<GameType
+			name="Duel" />
+	</Scene>
+	<Scene
+		name="mp_duel_001">
+		<GameType
+			name="TeamDeathmatch" />
+	</Scene>
+	<Scene
+		name="mp_tdm_map_001">
+		<GameType
+			name="TeamDeathmatch" />
+	</Scene>
+	<Scene
+		name="mp_tdm_map_004a">
+		<GameType
+			name="TeamDeathmatch" />
+	</Scene>
+	<Scene
+		name="mp_tdm_map_001_spring">
+		<GameType
+			name="TeamDeathmatch" />
+	</Scene>
+	<Scene
+		name="mp_duel_002">
+		<GameType
+			name="TeamDeathmatch" />
+	</Scene>
+	<Scene
+		name="mp_compact">
+		<GameType
+			name="TeamDeathmatch" />
+	</Scene>
+	<Scene
+		name="mp_tdm_map_003">
+		<GameType
+			name="TeamDeathmatch" />
+	</Scene>
+	<!-- Siege Maps -->
+	<Scene
+		name="mp_siege_map_test">
+		<GameType
+			name="Siege" />
+	</Scene>
+	<Scene
+		name="mp_siege_map_004_rs">
+		<GameType
+			name="Siege" />
+	</Scene>
+	<Scene
+		name="mp_siege_map_003">
+		<GameType
+			name="Siege" />
+	</Scene>
+	<Scene
+		name="mp_siege_map_005">
+		<GameType
+			name="Siege" />
+	</Scene>
+	<Scene
+		name="mp_siege_map_007_battania">
+		<GameType
+			name="Siege" />
+	</Scene>
+	<Scene
+		name="mp_siege_map_009">
+		<GameType
+			name="Siege" />
+	</Scene>
+	<Scene
+		name="mp_siege_map_011_b">
+		<GameType
+			name="Siege" />
+	</Scene>
+	<Scene
+		name="mp_siege_map_012">
+		<GameType
+			name="Siege" />
+	</Scene>
+</MultiplayerScenes>

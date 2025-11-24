@@ -1,0 +1,1026 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	type="map_icon">
+	<map_icons>
+		<map_icon
+			id="map_icon_player"
+			id_str="player"
+			flags="0x0"
+			mesh_name="player"
+			mesh_scale="0.15"
+			sound_no="17"
+			offset_pos="0.150000, 0.173000, 0.000000" />
+		<map_icon
+			id="map_icon_player_horseman"
+			id_str="player_horseman"
+			flags="0x0"
+			mesh_name="player_horseman"
+			mesh_scale="0.15"
+			sound_no="112"
+			offset_pos="0.150000, 0.173000, 0.000000" />
+		<map_icon
+			id="map_icon_gray_knight"
+			id_str="gray_knight"
+			flags="0x0"
+			mesh_name="knight_a"
+			mesh_scale="0.15"
+			sound_no="112"
+			offset_pos="0.150000, 0.173000, 0.000000" />
+		<map_icon
+			id="map_icon_vaegir_knight"
+			id_str="vaegir_knight"
+			flags="0x0"
+			mesh_name="knight_b"
+			mesh_scale="0.15"
+			sound_no="112"
+			offset_pos="0.150000, 0.173000, 0.000000" />
+		<map_icon
+			id="map_icon_flagbearer_a"
+			id_str="flagbearer_a"
+			flags="0x0"
+			mesh_name="flagbearer_a"
+			mesh_scale="0.15"
+			sound_no="112"
+			offset_pos="0.150000, 0.173000, 0.000000" />
+		<map_icon
+			id="map_icon_flagbearer_b"
+			id_str="flagbearer_b"
+			flags="0x0"
+			mesh_name="flagbearer_b"
+			mesh_scale="0.15"
+			sound_no="112"
+			offset_pos="0.150000, 0.173000, 0.000000" />
+		<map_icon
+			id="map_icon_peasant"
+			id_str="peasant"
+			flags="0x0"
+			mesh_name="peasant_a"
+			mesh_scale="0.15"
+			sound_no="17"
+			offset_pos="0.150000, 0.173000, 0.000000" />
+		<map_icon
+			id="map_icon_khergit"
+			id_str="khergit"
+			flags="0x0"
+			mesh_name="khergit_horseman"
+			mesh_scale="0.15"
+			sound_no="112"
+			offset_pos="0.150000, 0.173000, 0.000000" />
+		<map_icon
+			id="map_icon_khergit_horseman_b"
+			id_str="khergit_horseman_b"
+			flags="0x0"
+			mesh_name="khergit_horseman_b"
+			mesh_scale="0.15"
+			sound_no="112"
+			offset_pos="0.150000, 0.173000, 0.000000" />
+		<map_icon
+			id="map_icon_axeman"
+			id_str="axeman"
+			flags="0x0"
+			mesh_name="bandit_a"
+			mesh_scale="0.15"
+			sound_no="17"
+			offset_pos="0.150000, 0.173000, 0.000000" />
+		<map_icon
+			id="map_icon_woman"
+			id_str="woman"
+			flags="0x0"
+			mesh_name="woman_a"
+			mesh_scale="0.15"
+			sound_no="17"
+			offset_pos="0.150000, 0.173000, 0.000000" />
+		<map_icon
+			id="map_icon_woman_b"
+			id_str="woman_b"
+			flags="0x0"
+			mesh_name="woman_b"
+			mesh_scale="0.15"
+			sound_no="17"
+			offset_pos="0.150000, 0.173000, 0.000000" />
+		<map_icon
+			id="map_icon_town"
+			id_str="town"
+			flags="0x1"
+			mesh_name="map_town_a"
+			mesh_scale="0.35"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_town_steppe"
+			id_str="town_steppe"
+			flags="0x1"
+			mesh_name="map_town_steppe_a"
+			mesh_scale="0.35"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_town_desert"
+			id_str="town_desert"
+			flags="0x1"
+			mesh_name="map_town_desert_a"
+			mesh_scale="0.35"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_village_a"
+			id_str="village_a"
+			flags="0x1"
+			mesh_name="map_village_a"
+			mesh_scale="0.45"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_village_b"
+			id_str="village_b"
+			flags="0x1"
+			mesh_name="map_village_b"
+			mesh_scale="0.45"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_village_c"
+			id_str="village_c"
+			flags="0x1"
+			mesh_name="map_village_c"
+			mesh_scale="0.45"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_village_burnt_a"
+			id_str="village_burnt_a"
+			flags="0x1"
+			mesh_name="map_village_burnt_a"
+			mesh_scale="0.45"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_village_deserted_a"
+			id_str="village_deserted_a"
+			flags="0x1"
+			mesh_name="map_village_deserted_a"
+			mesh_scale="0.45"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_village_burnt_b"
+			id_str="village_burnt_b"
+			flags="0x1"
+			mesh_name="map_village_burnt_b"
+			mesh_scale="0.45"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_village_deserted_b"
+			id_str="village_deserted_b"
+			flags="0x1"
+			mesh_name="map_village_deserted_b"
+			mesh_scale="0.45"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_village_burnt_c"
+			id_str="village_burnt_c"
+			flags="0x1"
+			mesh_name="map_village_burnt_c"
+			mesh_scale="0.45"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_village_deserted_c"
+			id_str="village_deserted_c"
+			flags="0x1"
+			mesh_name="map_village_deserted_c"
+			mesh_scale="0.45"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_village_snow_a"
+			id_str="village_snow_a"
+			flags="0x1"
+			mesh_name="map_village_snow_a"
+			mesh_scale="0.45"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_village_snow_burnt_a"
+			id_str="village_snow_burnt_a"
+			flags="0x1"
+			mesh_name="map_village_snow_burnt_a"
+			mesh_scale="0.45"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_village_snow_deserted_a"
+			id_str="village_snow_deserted_a"
+			flags="0x1"
+			mesh_name="map_village_snow_deserted_a"
+			mesh_scale="0.45"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_camp"
+			id_str="camp"
+			flags="0x1"
+			mesh_name="camp_tent"
+			mesh_scale="0.13"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_ship"
+			id_str="ship"
+			flags="0x1"
+			mesh_name="boat_sail_on"
+			mesh_scale="0.23"
+			sound_no="17"
+			offset_pos="0.000000, 0.050000, 0.000000" />
+		<map_icon
+			id="map_icon_ship_on_land"
+			id_str="ship_on_land"
+			flags="0x1"
+			mesh_name="boat_sail_off"
+			mesh_scale="0.23"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_castle_a"
+			id_str="castle_a"
+			flags="0x1"
+			mesh_name="map_castle_a"
+			mesh_scale="0.35"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_castle_b"
+			id_str="castle_b"
+			flags="0x1"
+			mesh_name="map_castle_b"
+			mesh_scale="0.35"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_castle_c"
+			id_str="castle_c"
+			flags="0x1"
+			mesh_name="map_castle_c"
+			mesh_scale="0.35"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_castle_d"
+			id_str="castle_d"
+			flags="0x1"
+			mesh_name="map_castle_d"
+			mesh_scale="0.35"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_town_snow"
+			id_str="town_snow"
+			flags="0x1"
+			mesh_name="map_town_snow_a"
+			mesh_scale="0.35"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_castle_snow_a"
+			id_str="castle_snow_a"
+			flags="0x1"
+			mesh_name="map_castle_snow_a"
+			mesh_scale="0.35"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_castle_snow_b"
+			id_str="castle_snow_b"
+			flags="0x1"
+			mesh_name="map_castle_snow_b"
+			mesh_scale="0.35"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_mule"
+			id_str="mule"
+			flags="0x0"
+			mesh_name="icon_mule"
+			mesh_scale="0.2"
+			sound_no="17"
+			offset_pos="0.150000, 0.173000, 0.000000" />
+		<map_icon
+			id="map_icon_cattle"
+			id_str="cattle"
+			flags="0x0"
+			mesh_name="icon_cow"
+			mesh_scale="0.2"
+			sound_no="17"
+			offset_pos="0.150000, 0.173000, 0.000000" />
+		<map_icon
+			id="map_icon_training_ground"
+			id_str="training_ground"
+			flags="0x1"
+			mesh_name="training"
+			mesh_scale="0.35"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_bridge_a"
+			id_str="bridge_a"
+			flags="0x1"
+			mesh_name="map_river_bridge_a"
+			mesh_scale="1.27"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_bridge_b"
+			id_str="bridge_b"
+			flags="0x1"
+			mesh_name="map_river_bridge_b"
+			mesh_scale="0.7"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_bridge_snow_a"
+			id_str="bridge_snow_a"
+			flags="0x1"
+			mesh_name="map_river_bridge_snow_a"
+			mesh_scale="1.27"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_bandit_lair"
+			id_str="bandit_lair"
+			flags="0x1"
+			mesh_name="map_bandit_lair"
+			mesh_scale="0.45"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<!--Arab Villages-->
+		<map_icon
+			id="map_icon_aserai_village"
+			id_str="aserai_village"
+			flags="0x1"
+			mesh_name="village_aserai"
+			mesh_scale="2.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_aserai_g" />
+		<map_icon
+			id="map_icon_aserai_village_burned"
+			id_str="aserai_village_burned"
+			flags="0x1"
+			mesh_name="village_aserai_burned"
+			mesh_scale="2.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_aserai_g" />
+		<!--Battania Villages-->
+		<map_icon
+			id="map_icon_batannia_village"
+			id_str="battania_village"
+			flags="0x1"
+			mesh_name="village_batannia"
+			mesh_scale="2.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_batannia_g" />
+		<map_icon
+			id="map_icon_batannia_village_burned"
+			id_str="battania_village_burned"
+			flags="0x1"
+			mesh_name="village_batannia_burned"
+			mesh_scale="2.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_batannia_g" />
+		<!--Khuzait Villages-->
+		<map_icon
+			id="map_icon_khuzait_village"
+			id_str="khuzait_village"
+			flags="0x1"
+			mesh_name="village_khuzait"
+			mesh_scale="2.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_kuzait_g" />
+		<map_icon
+			id="map_icon_khuzait_village_burned"
+			id_str="khuzait_village_burned"
+			flags="0x1"
+			mesh_name="village_khuzait_burned"
+			mesh_scale="2.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_kuzait_g" />
+		<!--Sturgia Villages-->
+		<map_icon
+			id="map_icon_sturgia_village"
+			id_str="sturgia_village"
+			flags="0x1"
+			mesh_name="village_sturgia"
+			mesh_scale="2.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_sturgia_g" />
+		<map_icon
+			id="map_icon_sturgia_village_burned"
+			id_str="sturgia_village_burned"
+			flags="0x1"
+			mesh_name="village_sturgia_burned"
+			mesh_scale="2.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_sturgia_g" />
+		<!--Vlandia Villages-->
+		<map_icon
+			id="map_icon_vlandia_village"
+			id_str="vlandia_village"
+			flags="0x1"
+			mesh_name="village_vlandia"
+			mesh_scale="2.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_vlandia_g" />
+		<map_icon
+			id="map_icon_vlandia_village_burned"
+			id_str="vlandia_village_burned"
+			flags="0x1"
+			mesh_name="village_vlandia_burned"
+			mesh_scale="2.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_vlandia_g" />
+		<!--Empire Villages-->
+		<map_icon
+			id="map_icon_empire_village"
+			id_str="empire_village"
+			flags="0x1"
+			mesh_name="village_empire"
+			mesh_scale="2.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_empire_g" />
+		<map_icon
+			id="map_icon_empire_village_burned"
+			id_str="empire_village_burned"
+			flags="0x1"
+			mesh_name="village_empire_burned"
+			mesh_scale="2.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_empire_g" />
+		<map_icon
+			id="map_icon_bandit_hideout"
+			id_str="bandit_hideout"
+			flags="0x1"
+			mesh_name="map_icon_bandit_hideout"
+			mesh_scale="0.70"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_bandit_hideout_a"
+			id_str="bandit_hideout_a"
+			flags="0x1"
+			mesh_name="map_icon_bandit_hideout_a"
+			mesh_scale="0.70"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_bandit_hideout_b"
+			id_str="bandit_hideout_b"
+			flags="0x1"
+			mesh_name="map_icon_bandit_hideout_b"
+			mesh_scale="0.70"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_bandit_hideout_c"
+			id_str="bandit_hideout_c"
+			flags="0x1"
+			mesh_name="map_icon_bandit_hideout_c"
+			mesh_scale="0.70"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_bandit_hideout_d"
+			id_str="bandit_hideout_d"
+			flags="0x1"
+			mesh_name="map_icon_bandit_hideout_d"
+			mesh_scale="0.70"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_bandit_hideout_e"
+			id_str="bandit_hideout_e"
+			flags="0x1"
+			mesh_name="map_icon_bandit_hideout_e"
+			mesh_scale="0.70"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_ambush_spot_desert_a"
+			id_str="ambush_spot_desert_a"
+			flags="0x1"
+			mesh_name="map_icon_ambush_spot_desert_a"
+			mesh_scale="0.58"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_ambush_spot_desert_b"
+			id_str="ambush_spot_desert_b"
+			flags="0x1"
+			mesh_name="map_icon_bandit_hideout_c"
+			mesh_scale="0.58"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_ambush_spot_rock_a"
+			id_str="ambush_spot_rock_a"
+			flags="0x1"
+			mesh_name="map_icon_ambush_spot_rock_a"
+			mesh_scale="0.58"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_ambush_spot_rock_b"
+			id_str="ambush_spot_rock_b"
+			flags="0x1"
+			mesh_name="map_icon_bandit_hideout_a"
+			mesh_scale="0.58"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_ambush_spot_forest_a"
+			id_str="ambush_spot_forest_a"
+			flags="0x1"
+			mesh_name="map_icon_bandit_hideout_a"
+			mesh_scale="0.58"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_ambush_spot_forest_b"
+			id_str="ambush_spot_forest_b"
+			flags="0x1"
+			mesh_name="map_icon_ambush_spot_forest_b"
+			mesh_scale="0.58"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_sturgia_city_h"
+			id_str="sturgia_city_h"
+			flags="0x1"
+			mesh_name="map_icon_empire_city_h"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_sturgia_city_m"
+			id_str="sturgia_city_m"
+			flags="0x1"
+			mesh_name="map_icon_empire_city_m"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_sturgia_city_l"
+			id_str="sturgia_city_l"
+			flags="0x1"
+			mesh_name="map_icon_empire_city_l"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_sturgia_castle_h"
+			id_str="sturgia_castle_h"
+			flags="0x1"
+			mesh_name="map_icon_empire_castle_h"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_sturgia_castle_m"
+			id_str="sturgia_castle_m"
+			flags="0x1"
+			mesh_name="map_icon_empire_castle_m"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_sturgia_castle_l"
+			id_str="sturgia_castle_l"
+			flags="0x1"
+			mesh_name="map_icon_empire_castle_l"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_sturgia_castle_h_ucon"
+			id_str="sturgia_castle_h_ucon"
+			flags="0x1"
+			mesh_name="map_icon_empire_castle_h_ucon"
+			mesh_scale="1.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_sturgia_castle_m_ucon"
+			id_str="sturgia_castle_m_ucon"
+			flags="0x1"
+			mesh_name="map_icon_empire_castle_m_ucon"
+			mesh_scale="1.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_sturgia_castle_l_ucon"
+			id_str="sturgia_castle_l_ucon"
+			flags="0x1"
+			mesh_name="map_icon_empire_castle_l_ucon"
+			mesh_scale="1.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_khuzait_city_h"
+			id_str="khuzait_city_h"
+			flags="0x1"
+			mesh_name="map_icon_steppe_city_h"
+			mesh_scale="2.30"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_khuzait_city_m"
+			id_str="khuzait_city_m"
+			flags="0x1"
+			mesh_name="map_icon_steppe_city_m"
+			mesh_scale="2.30"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_khuzait_city_l"
+			id_str="khuzait_city_l"
+			flags="0x1"
+			mesh_name="map_icon_steppe_city_l"
+			mesh_scale="2.30"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_khuzait_castle_h"
+			id_str="khuzait_castle_h"
+			flags="0x1"
+			mesh_name="map_icon_aserai_castle_h"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_khuzait_castle_m"
+			id_str="khuzait_castle_m"
+			flags="0x1"
+			mesh_name="map_icon_aserai_castle_m"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_khuzait_castle_l"
+			id_str="khuzait_castle_l"
+			flags="0x1"
+			mesh_name="map_icon_aserai_castle_l"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_khuzait_castle_h_ucon"
+			id_str="khuzait_castle_h_ucon"
+			flags="0x1"
+			mesh_name="map_icon_empire_castle_h_ucon"
+			mesh_scale="1.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_khuzait_castle_m_ucon"
+			id_str="khuzait_castle_m_ucon"
+			flags="0x1"
+			mesh_name="map_icon_empire_castle_m_ucon"
+			mesh_scale="1.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_khuzait_castle_l_ucon"
+			id_str="khuzait_castle_l_ucon"
+			flags="0x1"
+			mesh_name="map_icon_empire_castle_l_ucon"
+			mesh_scale="1.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_battania_city_h"
+			id_str="battania_city_h"
+			flags="0x1"
+			mesh_name="map_icon_pict_city_h"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_battania_city_m"
+			id_str="battania_city_m"
+			flags="0x1"
+			mesh_name="map_icon_pict_city_m"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_battania_city_l"
+			id_str="battania_city_l"
+			flags="0x1"
+			mesh_name="map_icon_pict_city_l"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_battania_castle_h"
+			id_str="battania_castle_h"
+			flags="0x1"
+			mesh_name="map_icon_battania_castle_h"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_batannia_castle_g" />
+		<map_icon
+			id="map_icon_battania_castle_m"
+			id_str="battania_castle_m"
+			flags="0x1"
+			mesh_name="map_icon_battania_castle_m"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_batannia_castle_g" />
+		<map_icon
+			id="map_icon_battania_castle_l"
+			id_str="battania_castle_l"
+			flags="0x1"
+			mesh_name="map_icon_battania_castle_l"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_batannia_castle_g" />
+		<map_icon
+			id="map_icon_battania_castle_h_ucon"
+			id_str="battania_castle_h_ucon"
+			flags="0x1"
+			mesh_name="map_icon_empire_castle_h_ucon"
+			mesh_scale="1.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_batannia_castle_g" />
+		<map_icon
+			id="map_icon_battania_castle_m_ucon"
+			id_str="battania_castle_m_ucon"
+			flags="0x1"
+			mesh_name="map_icon_empire_castle_m_ucon"
+			mesh_scale="1.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_batannia_castle_g" />
+		<map_icon
+			id="map_icon_battania_castle_l_ucon"
+			id_str="battania_castle_l_ucon"
+			flags="0x1"
+			mesh_name="map_icon_empire_castle_l_ucon"
+			mesh_scale="1.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_batannia_castle_g" />
+		<map_icon
+			id="map_icon_empire_city_h"
+			id_str="empire_city_h"
+			flags="0x1"
+			mesh_name="map_icon_empire_city_h"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_empire_city_g" />
+		<map_icon
+			id="map_icon_empire_city_m"
+			id_str="empire_city_m"
+			flags="0x1"
+			mesh_name="map_icon_empire_city_m"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_empire_city_g" />
+		<map_icon
+			id="map_icon_empire_city_l"
+			id_str="empire_city_l"
+			flags="0x1"
+			mesh_name="map_icon_empire_city_l"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_empire_city_g" />
+		<map_icon
+			id="map_icon_empire_castle_h"
+			id_str="empire_castle_h"
+			flags="0x1"
+			mesh_name="map_icon_empire_castle_h"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_empire_castle_m"
+			id_str="empire_castle_m"
+			flags="0x1"
+			mesh_name="map_icon_empire_castle_m"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_empire_castle_l"
+			id_str="empire_castle_l"
+			flags="0x1"
+			mesh_name="map_icon_empire_castle_l"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_empire_castle_h_ucon"
+			id_str="empire_castle_h_ucon"
+			flags="0x1"
+			mesh_name="map_icon_empire_castle_h_ucon"
+			mesh_scale="1.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_empire_castle_m_ucon"
+			id_str="empire_castle_m_ucon"
+			flags="0x1"
+			mesh_name="map_icon_empire_castle_m_ucon"
+			mesh_scale="1.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_empire_castle_l_ucon"
+			id_str="empire_castle_l_ucon"
+			flags="0x1"
+			mesh_name="map_icon_empire_castle_l_ucon"
+			mesh_scale="1.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_vlandia_city_h"
+			id_str="vlandia_city_h"
+			flags="0x1"
+			mesh_name="map_icon_vlandia_city_h"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_vlandia_g" />
+		<map_icon
+			id="map_icon_vlandia_city_m"
+			id_str="vlandia_city_m"
+			flags="0x1"
+			mesh_name="map_icon_vlandia_city_m"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_vlandia_g" />
+		<map_icon
+			id="map_icon_vlandia_city_l"
+			id_str="vlandia_city_l"
+			flags="0x1"
+			mesh_name="map_icon_vlandia_city_l"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_vlandia_g" />
+		<map_icon
+			id="map_icon_vlandia_castle_h"
+			id_str="vlandia_castle_h"
+			flags="0x1"
+			mesh_name="map_icon_vlandia_castle_h"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_vlandia_g" />
+		<map_icon
+			id="map_icon_vlandia_castle_m"
+			id_str="vlandia_castle_m"
+			flags="0x1"
+			mesh_name="map_icon_vlandia_castle_m"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_vlandia_g" />
+		<map_icon
+			id="map_icon_vlandia_castle_l"
+			id_str="vlandia_castle_l"
+			flags="0x1"
+			mesh_name="map_icon_vlandia_castle_l"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_vlandia_g" />
+		<map_icon
+			id="map_icon_vlandia_castle_h_ucon"
+			id_str="vlandia_castle_h_ucon"
+			flags="0x1"
+			mesh_name="map_icon_empire_castle_h_ucon"
+			mesh_scale="1.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_vlandia_castle_m_ucon"
+			id_str="vlandia_castle_m_ucon"
+			flags="0x1"
+			mesh_name="map_icon_empire_castle_m_ucon"
+			mesh_scale="1.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_vlandia_castle_l_ucon"
+			id_str="vlandia_castle_l_ucon"
+			flags="0x1"
+			mesh_name="map_icon_empire_castle_l_ucon"
+			mesh_scale="1.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_aserai_city_h"
+			id_str="aserai_city_h"
+			flags="0x1"
+			mesh_name="map_icon_aserai_city_h"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_aserai_g" />
+		<map_icon
+			id="map_icon_aserai_city_m"
+			id_str="aserai_city_m"
+			flags="0x1"
+			mesh_name="map_icon_aserai_city_m"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_aserai_g" />
+		<map_icon
+			id="map_icon_aserai_city_l"
+			id_str="aserai_city_l"
+			flags="0x1"
+			mesh_name="map_icon_aserai_city_l"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000"
+			dirt_name="map_icons_aserai_g" />
+		<map_icon
+			id="map_icon_aserai_castle_h"
+			id_str="aserai_castle_h"
+			flags="0x1"
+			mesh_name="map_icon_aserai_castle_h"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_aserai_castle_m"
+			id_str="aserai_castle_m"
+			flags="0x1"
+			mesh_name="map_icon_aserai_castle_m"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_aserai_castle_l"
+			id_str="aserai_castle_l"
+			flags="0x1"
+			mesh_name="map_icon_aserai_castle_l"
+			mesh_scale="2.50"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_aserai_castle_h_ucon"
+			id_str="aserai_castle_h_ucon"
+			flags="0x1"
+			mesh_name="map_icon_empire_castle_h_ucon"
+			mesh_scale="1.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_aserai_castle_m_ucon"
+			id_str="aserai_castle_m_ucon"
+			flags="0x1"
+			mesh_name="map_icon_empire_castle_m_ucon"
+			mesh_scale="1.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_aserai_castle_l_ucon"
+			id_str="aserai_castle_l_ucon"
+			flags="0x1"
+			mesh_name="map_icon_empire_castle_l_ucon"
+			mesh_scale="1.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+		<map_icon
+			id="map_icon_siege_camp_tent"
+			id_str="siege_camp_tent"
+			flags="0x1"
+			mesh_name="map_icon_siege_camp_tent"
+			mesh_scale="1.00"
+			sound_no="0"
+			offset_pos="0.000000, 0.000000, 0.000000" />
+	</map_icons>
+</base>
