@@ -1,0 +1,217 @@
+<Prefab>
+  <Constants>
+    <!-- Action Buttons Constants -->
+    <Constant Name="DoneButton.Width" BrushLayer="Default" BrushName="ButtonBrush1" BrushValueType="Width" />
+    <Constant Name="DoneButton.Height" BrushLayer="Default" BrushName="ButtonBrush1" BrushValueType="Height" />
+    <Constant Name="AutoDeployButton.Width" BrushLayer="Default" BrushName="ButtonBrush2" BrushValueType="Width" />
+    <Constant Name="AutoDeployButton.Height" BrushLayer="Default" BrushName="ButtonBrush2" BrushValueType="Height" />
+    <!--Thumbnail Visual Constants-->
+    <Constant Name="ThumbnailSlot.Width" Value="92.5"/>
+    <Constant Name="ThumbnailSlot.Height" Value="70"/>
+    <!--Formation Class Selection Button Constants-->
+    <Constant Name="FormationClass.Icon.Width" Value="150" MultiplyResult="0.35" />
+    <Constant Name="FormationClass.Icon.Height" Value="60" MultiplyResult="0.35" />
+  </Constants>
+  <VisualDefinitions>
+    <VisualDefinition Name="FormationNumberVisual" TransitionDuration="0.1">
+      <VisualState State="Default" PositionXOffset="0" />
+      <VisualState State="Disabled" PositionXOffset="40" />
+    </VisualDefinition>
+  </VisualDefinitions>
+  <Window>
+    <Widget UpdateChildrenStates="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="325" SuggestedHeight="200" MarginTop="30" MarginBottom="30" HorizontalAlignment="Center" IsSelected="@IsSelected">
+      <Children>
+
+        <!--Canvas-->
+        <ButtonWidget DoNotPassEventsToChildren="true" Id="Canvas" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Naval.OrderOfBattle.Formation.Card" IsSelected="@IsSelected" IsEnabled="@IsSelectable" Command.Click="ExecuteSelect" UpdateChildrenStates="true">
+          <Children>
+            <!--Formation Name-->
+            <BrushWidget DoNotAcceptEvents="true" DoNotPassEventsToChildren="true" HeightSizePolicy="Fixed" WidthSizePolicy="Fixed" SuggestedWidth="55" SuggestedHeight="40" HorizontalAlignment="Right" VerticalAlignment="Top" PositionYOffset="-20" MarginRight="15" Brush="OrderOfBattle.FormationTypeSelection.Dropdown" IsVisible="@HasShip">
+              <Children>
+                <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" VerticalAlignment="Center" HorizontalAlignment="Center" Text="@FormationName"/>
+              </Children>
+            </BrushWidget>
+
+            <!-- Formation Disabled Brush -->
+            <BoolBrushChangerBrushWidget DoNotAcceptEvents="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" TargetWidget="..\." BooleanCheck="@IsEnabled" TrueBrush="Naval.OrderOfBattle.Formation.Card" FalseBrush="Naval.OrderOfBattle.Formation.Card.Disabled"/>
+
+            <!-- Troop Distribution Tooltip -->
+            <HintWidget DataSource="{Tooltip}" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint"/>
+          </Children>
+        </ButtonWidget>
+
+        <!--Formation Disabled Hint-->
+        <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" IsDisabled="@IsEnabled">
+          <Children>
+            <HintWidget DataSource="{DisabledHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" IsEnabled="false" />
+          </Children>
+        </Widget>
+
+        <!-- Captain Slot -->
+        <Widget DoNotAcceptEvents="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!ThumbnailSlot.Width" SuggestedHeight="!ThumbnailSlot.Height" HorizontalAlignment="Left" VerticalAlignment="Bottom" MarginBottom="15" MarginLeft="15" Brush="Naval.OrderOfBattle.Formation.Hero.Slot" IsVisible="@HasShip">
+          <Children>
+
+            <!-- Empty Visual -->
+            <BrushWidget DoNotPassEventsToChildren="true" UpdateChildrenStates="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="61" SuggestedHeight="48" VerticalAlignment="Center" HorizontalAlignment="Center" Brush="Naval.OrderOfBattle.Formation.Hero.Slot.Empty" IsHidden="@HasCaptain">
+              <Children>
+                <HintWidget DataSource="{CaptainSlotHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" />
+              </Children>
+            </BrushWidget>
+            
+            <!-- Captain Visual -->
+            <NavigationScopeTargeter ScopeID="CaptainButtonScope" ScopeParent="..\CaptainButton" IsScopeDisabled="@IsAcceptingCaptain" />
+            <Widget Id="CaptainButton" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" IsVisible="@HasCaptain" GamepadNavigationIndex="0">
+              <Children>
+                <NavalOrderOfBattleHeroItem DataSource="{Captain}" />
+              </Children>
+            </Widget>
+
+            <!--Captain Drop Widget-->
+            <NavigationScopeTargeter ScopeID="CaptainDropButtonScope" ScopeParent="..\CaptainDropButton" IsScopeEnabled="@IsAcceptingCaptain" />
+            <OrderOfBattleHeroDropWidget Id="CaptainDropButton" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="OrderOfBattle.Formation.HeroSlot" DoNotPassEventsToChildren="true" UpdateChildrenStates="true" AcceptDrop="true" Command.Click="ExecuteAcceptCaptain" Command.Drop="ExecuteAcceptCaptain" IsVisible="@IsAcceptingCaptain" GamepadNavigationIndex="0">
+              <Children>
+                <HintWidget DataSource="{AssignCaptainHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.DragHoverBegin="ExecuteBeginHint" Command.DragHoverEnd="ExecuteEndHint" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" />
+                <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="61" SuggestedHeight="48" Brush="OrderOfBattle.Add.Captain.Icon" HorizontalAlignment="Center" VerticalAlignment="Center" IsHidden="@HasCaptain" DoNotAcceptEvents="true" />
+              </Children>
+            </OrderOfBattleHeroDropWidget>
+            
+          </Children>
+        </Widget>
+
+        <!-- Ship Slot -->
+        <Widget DoNotAcceptEvents="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="158" SuggestedHeight="90" HorizontalAlignment="Left" VerticalAlignment="Top" MarginTop="15" MarginLeft="15" Brush="Naval.OrderOfBattle.Formation.Ship.Slot" >
+          <Children>
+
+            <!-- Empty Visual -->
+            <Widget DoNotAcceptEvents="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" VerticalAlignment="Center" HorizontalAlignment="Center" IsVisible="@IsEnabled">
+              <Children>
+                <BrushWidget DoNotPassEventsToChildren="true" UpdateChildrenStates="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="61" SuggestedHeight="48" Brush="Naval.OrderOfBattle.Formation.Ship.Slot.Empty" IsHidden="@HasShip">
+                  <Children>
+                    <HintWidget DataSource="{ShipSlotHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" />
+                  </Children>
+                </BrushWidget>
+              </Children>
+            </Widget>
+
+            <!-- Ship Visual -->
+            <NavigationScopeTargeter ScopeID="ShipButtonScope" ScopeParent="..\ShipButton" IsScopeDisabled="@IsAcceptingShip" />
+            <Widget Id="ShipButton" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" IsVisible="@HasShip" GamepadNavigationIndex="0">
+              <Children>
+                <NavalOrderOfBattleShipItem DataSource="{Ship}" />
+              </Children>
+            </Widget>
+            
+            <!--Ship Drop Widget-->
+            <NavigationScopeTargeter ScopeID="ShipDropButtonScope" ScopeParent="..\ShipDropButton" IsScopeEnabled="@IsAcceptingShip" />
+            <OrderOfBattleHeroDropWidget Id="ShipDropButton" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="OrderOfBattle.Formation.HeroSlot" DoNotPassEventsToChildren="true" UpdateChildrenStates="true" AcceptDrop="true" Command.Click="ExecuteAcceptShip" Command.Drop="ExecuteAcceptShip" IsVisible="@IsAcceptingShip" GamepadNavigationIndex="0">
+              <Children>
+                <HintWidget DataSource="{AssignShipHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.DragHoverBegin="ExecuteBeginHint" Command.DragHoverEnd="ExecuteEndHint" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" />
+                <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="61" SuggestedHeight="48" Brush="Naval.OrderOfBattle.Add.Ship.Icon" HorizontalAlignment="Center" VerticalAlignment="Center" IsHidden="@HasShip" DoNotAcceptEvents="true" />
+              </Children>
+            </OrderOfBattleHeroDropWidget>
+
+          </Children>
+        </Widget>
+
+        <!--Ship Name -->
+        <Widget DoNotAcceptEvents="true" DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="CoverChildren" SuggestedWidth="115" HorizontalAlignment="Left" VerticalAlignment="Center" MarginBottom="75" MarginLeft="175" IsVisible="@HasShip" >
+          <Children>
+            <TextWidget DataSource="{Ship}" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="60" Brush="Naval.OrderOfBattle.ShipInfo.Text" Brush.TextVerticalAlignment="Center" Brush.TextHorizontalAlignment="Center" Text="@ShipName"/>
+          </Children>
+        </Widget>
+
+        <!--Crew Info-->
+        <Widget DoNotAcceptEvents="true" DoNotPassEventsToChildren="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" IsVisible="@HasShip">
+          <Children>
+
+            <Widget DataSource="{Ship}" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="170" SuggestedHeight="30" VerticalAlignment="Bottom" HorizontalAlignment="Left" MarginBottom="55" MarginLeft="115" ClipContents="true" >
+              <Children>
+
+                <!-- Reserve Count -->
+                <FillBarWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="6" MarginTop="11" MarginLeft="15" MarginRight="50" VerticalAlignment="Top" FillWidget="FillWidget" ChangeWidget="ChangeWidget" InitialAmount="@ReserveCrewCount" CurrentAmount="@ReserveCrewCount" MaxAmount="@MainDeckCrewCapacity" CustomChangeColor="true" >
+                  <Children>
+                    <Widget Id="FillWidget" WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" HorizontalAlignment="Left" VerticalAlignment="Center" Sprite="BlankWhiteSquare_9" Color="#A0A0A0FF" />
+                    <Widget Id="ChangeWidget" WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" HorizontalAlignment="Left" VerticalAlignment="Center" Sprite="BlankWhiteSquare_9" Color="#A0A0A0FF" />
+                  </Children>
+                </FillBarWidget>
+
+                <!-- Main Deck Crew -->
+                <FillBarWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="6" MarginTop="8" MarginLeft="15" MarginRight="50" VerticalAlignment="Top" FillWidget="FillWidget" ChangeWidget="ChangeWidget" InitialAmount="@MainDeckCrewCount" CurrentAmount="@MainDeckCrewCount" MaxAmount="@MainDeckCrewCapacity" CustomChangeColor="true" Sprite="BlankWhiteSquare_9" Color="#777777FF">
+                  <Children>
+                    <Widget Id="FillWidget" WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" HorizontalAlignment="Left" VerticalAlignment="Center" Sprite="BlankWhiteSquare_9" Color="#836237FF" />
+                    <Widget Id="ChangeWidget" WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" HorizontalAlignment="Left" VerticalAlignment="Center" Sprite="BlankWhiteSquare_9" Color="#AB8F6AFF" />
+                  </Children>
+                </FillBarWidget>
+
+                <Widget WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="10">
+                  <Children>
+                    <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="25" SuggestedHeight="22" VerticalAlignment="Top" HorizontalAlignment="Center" Sprite="General\Icons\Party@2x"/>
+                  </Children>
+                </Widget>
+
+                <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Left" PositionXOffset="130" Brush="Naval.OrderOfBattle.ShipInfo.Text" Brush.FontSize="14" Text="@CrewCountAsString"/>
+
+                <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Left" PositionXOffset="130" PositionYOffset="14" Brush="Naval.OrderOfBattle.ShipInfo.Text" Brush.FontSize="12" Text="@ReserveCrewCountAsString" AutoHideIfEmpty="true"/>
+
+              </Children>
+            </Widget>
+
+          </Children>
+        </Widget>
+
+        <!--Formation Class Selection-->
+        <NavigationScopeTargeter ScopeID="ClassSelectionScope" ScopeParent="..\ClassSelectionListPanel" ScopeMovements="Horizontal" IsScopeEnabled="@HasShip" />
+        <NavigatableListPanel Id="ClassSelectionListPanel" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Left" VerticalAlignment="Bottom" MarginBottom="20" MarginLeft="124" IsVisible="@HasShip" IsEnabled="@IsSelectable">
+          <Children>
+            <ButtonWidget DoNotPassEventsToChildren="true" UpdateChildrenStates="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="40" SuggestedHeight="25" VerticalAlignment="Center" Brush="Naval.OrderOfBattle.FormationClass.Button.InfantryAndRanged" ButtonType="Radio" Command.Click="ExecuteSelectInfantryAndRanged" IsEnabled="@IsSelectable" IsSelected="@IsInfantryAndRangedSelected" GamepadNavigationIndex="0">
+              <Children>
+                <HintWidget DataSource="{InfantryAndRangedHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" />
+                <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!FormationClass.Icon.Width" SuggestedHeight="!FormationClass.Icon.Height" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Naval.OrderOfBattle.FormationClass.Icon.InfantryAndRanged"/>
+              </Children>
+            </ButtonWidget>
+            <ButtonWidget DoNotPassEventsToChildren="true" UpdateChildrenStates="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="40" SuggestedHeight="25" MarginLeft="10" VerticalAlignment="Center" Brush="Naval.OrderOfBattle.FormationClass.Button.Infantry" ButtonType="Radio" Command.Click="ExecuteSelectInfantry" IsEnabled="@IsSelectable" IsSelected="@IsInfantrySelected" GamepadNavigationIndex="1">
+              <Children>
+                <HintWidget DataSource="{InfantryHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" />
+                <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!FormationClass.Icon.Width" SuggestedHeight="!FormationClass.Icon.Height" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Naval.OrderOfBattle.FormationClass.Icon.Infantry"/>
+              </Children>
+            </ButtonWidget>
+            <ButtonWidget DoNotPassEventsToChildren="true" UpdateChildrenStates="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="40" SuggestedHeight="25" MarginLeft="10" VerticalAlignment="Center" Brush="Naval.OrderOfBattle.FormationClass.Button.Ranged" ButtonType="Radio" Command.Click="ExecuteSelectRanged" IsEnabled="@IsSelectable" IsSelected="@IsRangedSelected" GamepadNavigationIndex="2">
+              <Children>
+                <HintWidget DataSource="{RangedHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" />
+                <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!FormationClass.Icon.Width" SuggestedHeight="!FormationClass.Icon.Height" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Naval.OrderOfBattle.FormationClass.Icon.Ranged"/>
+              </Children>
+            </ButtonWidget>
+          </Children>
+        </NavigatableListPanel>
+        
+        <!--Formation Filter Selection-->
+        <NavigationScopeTargeter ScopeID="FilterSelectionScope" ScopeParent="..\FilterSelectionParent\FilterSelectionListPanel" ScopeMovements="Vertical" IsScopeEnabled="@HasShip" />
+        <Widget Id="FilterSelectionParent" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" DoNotAcceptEvents="true" HorizontalAlignment="Right" VerticalAlignment="Center" MarginRight="10" MarginTop="5" IsVisible="@HasShip">
+          <Children>
+            <NavigatableListPanel Id="FilterSelectionListPanel" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" DataSource="{FilterItems}" StackLayout.LayoutMethod="VerticalBottomToTop">
+              <ItemTemplate>
+                <ButtonWidget Id="FilterItemToggle" DoNotPassEventsToChildren="true" UpdateChildrenStates="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="25" SuggestedHeight="25" MarginTop="5" HorizontalAlignment="Center" ButtonType="Toggle" IsSelected="@IsActive" IsEnabled="@IsEnabled">
+                  <Children>
+                    <OrderOfBattleFormationFilterVisualBrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" FormationFilter="@FilterTypeValue" ShieldBrush="Naval.OrderOfBattle.Filter.Shield" ThrownBrush="Naval.OrderOfBattle.Filter.Thrown" HeavyBrush="Naval.OrderOfBattle.Filter.Heavy" HighTierBrush="Naval.OrderOfBattle.Filter.HighTier" LowTierBrush="Naval.OrderOfBattle.Filter.LowTier"/>
+                    <HintWidget DataSource="{Hint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" />
+                    <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="12" SuggestedHeight="12" HorizontalAlignment="Right" VerticalAlignment="Top" PositionXOffset="2" PositionYOffset="15" Brush="OrderOfBattle.Filters.Checkmark" IsVisible="@IsActive" DoNotAcceptEvents="true" />
+                  </Children>
+                </ButtonWidget>
+              </ItemTemplate>
+            </NavigatableListPanel>
+          </Children>
+        </Widget>
+
+        <!-- Empty Formation Number Text -->
+        <TextWidget VisualDefinition="FormationNumberVisual" DoNotAcceptEvents="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Center" Brush.FontSize="46" IsHidden="@HasShip" IsDisabled="@IsAcceptingShip" Text="@FormationName" />
+
+        <!--Formation Empty Text-->
+        <TextWidget DoNotAcceptEvents="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Bottom" MarginBottom="15" Brush="OrderOfBattle.NoFormation.Text" Text="@FormationIsEmptyText" IsHidden="@HasShip" />
+        
+        <!-- Troop Count Does Not Satisfy Skeletal Crew Count Text -->
+        <TextWidget DoNotAcceptEvents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="30" HorizontalAlignment="Center" VerticalAlignment="Bottom" PositionYOffset="30" Brush="OrderOfBattle.Mismatched.Assignment.Text" Brush.FontSize="20" Text="@SkeletalCrewCountWarning" IsVisible="@IsSkeletalCrewCountWarningActive" />
+        
+      </Children>
+    </Widget>
+  </Window>
+</Prefab>

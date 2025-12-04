@@ -1,0 +1,42 @@
+<Prefab>
+  <Parameters>
+    <Parameter Name="ButtonBrush" DefaultValue=""/>
+  </Parameters>
+  <Window>
+    <PortInspectionParentWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="70" SuggestedHeight="70" Command.HoverBegin="ExecuteInspectBegin" Command.HoverEnd="ExecuteInspectEnd">
+      <Children>
+        <NavigationScopeTargeter ScopeID="UpgradePieceScope" ScopeParent="..\PieceButton" DoNotAutoGainNavigationOnInit="true" />
+        <ButtonWidget Id="PieceButton" DoNotPassEventsToChildren="true" UpdateChildrenStates="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" IsSelected="@IsSelected" IsDisabled="@IsDisabled" Command.Click="ExecuteSelect" Command.HoverBegin="ExecuteInspectBegin" Command.HoverEnd="ExecuteInspectEnd" Brush="*ButtonBrush" GamepadNavigationIndex="0">
+          <Children>
+            <PortUpgradePieceVisuals Parameter.IsUpgradePiece="true" />
+
+            <!-- Newly Unlocked Piece Notification -->
+            <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="10" SuggestedHeight="10" HorizontalAlignment="Right" VerticalAlignment="Top" MarginRight="3" MarginTop="3" Brush="Port.Slot.Notification" IsVisible="@IsUnexamined" UseGlobalTimeForAnimation="true" />
+
+            <!-- Price -->
+            <Widget UpdateChildrenStates="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" IsHidden="@IsDisabled">
+              <Children>
+                <Widget UpdateChildrenStates="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" IsHidden="@IsSelected">
+                  <Children>
+                    <ValueBasedVisibilityWidget UpdateChildrenStates="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" IndexToBeVisible="0" WatchType="BiggerThan" IndexToWatch="@Price">
+                      <Children>
+                        <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="30" MarginLeft="3" MarginRight="3" MarginTop="3" VerticalAlignment="Top" Sprite="StdAssets\Popup\canvas_gradient" Color="#000000FF" VerticalFlip="true"/>
+                        <ListPanel UpdateChildrenStates="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Right" VerticalAlignment="Top" MarginRight="2" MarginTop="2">
+                          <Children>
+                            <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" IntText="@Price" Brush="Port.Ship.Price.Text" />
+                            <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="16" SuggestedHeight="16" VerticalAlignment="Center" Sprite="General\Icons\Coin@2x" />
+                          </Children>
+                        </ListPanel>
+                      </Children>
+                    </ValueBasedVisibilityWidget>
+                  </Children>
+                </Widget>
+              </Children>
+            </Widget>
+
+          </Children>
+        </ButtonWidget>
+      </Children>
+    </PortInspectionParentWidget>
+  </Window>
+</Prefab>

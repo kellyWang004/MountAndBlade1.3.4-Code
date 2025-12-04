@@ -1,0 +1,38 @@
+<Prefab>
+  <Parameters>
+    <Parameter Name="IsUpgradePiece" DefaultValue="false" />
+  </Parameters>
+  <Window>
+    <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" UpdateChildrenStates="true">
+      <Children>
+        <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Port.Slot.Button.Background.Bronze" IsVisible="@IsBronzeTier" />
+        <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Port.Slot.Button.Background.Silver" IsVisible="@IsSilverTier" />
+        <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Port.Slot.Button.Background.Gold" IsVisible="@IsGoldTier" />
+        <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Port.Slot.Button.Background.Diamond" IsVisible="@IsDiamondTier" />
+
+        <PortPieceImageBrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="2" MarginRight="2" MarginTop="2" MarginBottom="2" Identifier="@Identifier" Brush="Port.ShipUpgrade.Image" />
+
+        <!-- Slot Frames -->
+        <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" UpdateChildrenStates="true" IsHidden="*IsUpgradePiece">
+          <Children>
+            <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Port.Slot.Button.Frame.Bronze" IsVisible="@IsBronzeTier" />
+            <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Port.Slot.Button.Frame.Silver" IsVisible="@IsSilverTier" />
+            <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Port.Slot.Button.Frame.Gold" IsVisible="@IsGoldTier" />
+            <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Port.Slot.Button.Frame.Diamond" IsVisible="@IsDiamondTier" />
+          </Children>
+        </Widget>
+
+        <!-- Piece Frames -->
+        <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" UpdateChildrenStates="true" IsVisible="*IsUpgradePiece">
+          <Children>
+            <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Port.Slot.Button.UpgradePiece.Frame.Bronze" IsVisible="@IsBronzeTier" />
+            <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Port.Slot.Button.UpgradePiece.Frame.Silver" IsVisible="@IsSilverTier" />
+            <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Port.Slot.Button.UpgradePiece.Frame.Gold" IsVisible="@IsGoldTier" />
+            <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Port.Slot.Button.UpgradePiece.Frame.Diamond" IsVisible="@IsDiamondTier" />
+          </Children>
+        </Widget>
+
+      </Children>
+    </Widget>
+  </Window>
+</Prefab>

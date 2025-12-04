@@ -1,0 +1,60 @@
+<Prefab>
+  <Window>
+    <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent">
+      <Children>
+        
+        <Widget DataSource="{ShipMarkers}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent">
+          <ItemTemplate>
+
+            <FormationMarkerListPanel WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" Position="@ScreenPosition" StackLayout.LayoutMethod="VerticalBottomToTop" IsTargetingAFormation="@IsTargetingAShip" WSign="@WSign" IsMarkerEnabled="@IsEnabled" Distance="@Distance" FarAlphaTarget="0.7" FarDistanceCutoff="500" CloseDistanceCutoff="35" ClosestFadeoutRange="5" CloseSizeTarget="70" FarSizeTarget="25" MarkerType="@MarkerType" FormationTypeMarker="PlacementList\TeamTypeWidget\FormationTypeMarker" TeamType="@TeamType" TeamTypeMarker="PlacementList\TeamTypeWidget" IconBrush="Naval.Compass.Type.Icons">
+              <Children>
+
+                <ValueBasedVisibilityWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" VerticalAlignment="Center" HorizontalAlignment="Center" IndexToBeVisible="0" IndexToWatch="@Size" WatchType="BiggerThan">
+                  <Children>
+                    <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" IntText="@Size" Brush="NameMarker.Distance.Text"/>
+                  </Children>
+                </ValueBasedVisibilityWidget>
+
+                <ListPanel Id="PlacementList" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center">
+                  <Children>
+                    <Widget Id="TeamTypeWidget" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedHeight="50" SuggestedWidth="50" UpdateChildrenStates="true">
+                      <Children>
+                        <FillBarVerticalWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" InitialAmountAsFloat="@HitPoints" MaxAmountAsFloat="@MaxHitPoints" CurrentAmountAsFloat="@MaxHitPoints" FillWidget="FillWidget" ChangeWidget="ChangeWidget" IsDirectionUpward="true" UpdateChildrenStates="true">
+                          <Children>
+                            <Widget Id="ChangeWidget" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" ClipContents="true" UpdateChildrenStates="true">
+                              <Children>
+                                <DimensionSyncWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" VerticalAlignment="Top" DimensionToSync="Vertical" WidgetToCopyHeightFrom="..\..\." UpdateChildrenStates="true">
+                                  <Children>
+                                    <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Naval.FormationMarker.TeamType.MissingHP"/>
+                                  </Children>
+                                </DimensionSyncWidget>
+                              </Children>
+                            </Widget>
+                            <Widget Id="FillWidget" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" ClipContents="true" UpdateChildrenStates="true">
+                              <Children>
+                                <DimensionSyncWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" VerticalAlignment="Bottom" DimensionToSync="Vertical" WidgetToCopyHeightFrom="..\..\." UpdateChildrenStates="true">
+                                  <Children>
+                                    <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="FormationMarker.TeamType"/>
+                                  </Children>
+                                </DimensionSyncWidget>
+                              </Children>
+                            </Widget>
+                          </Children>
+                        </FillBarVerticalWidget>
+                        <Widget Id="FormationTypeMarker" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" HorizontalAlignment="Center"/>
+                        <FormationFocusedMarkerWidget Id="FormationFocusedMarker" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" Brush="OrderOfBattle.Formation.Focus.Indicator" Brush.AlphaFactor="1.0" HorizontalAlignment="Center" VerticalAlignment="Center" NormalSize="65" FocusedSize="71" IsCenterOfFocus="@IsCenterOfFocus" IsTargetingAFormation="@IsTargetingAShip" IsFormationTargetRelevant="@IsShipTargetRelevant" />
+                      </Children>
+                    </Widget>
+                  </Children>
+                </ListPanel>
+
+              </Children>
+            </FormationMarkerListPanel>
+            
+          </ItemTemplate>
+        </Widget>
+        
+      </Children>
+    </Widget>
+  </Window>
+</Prefab>

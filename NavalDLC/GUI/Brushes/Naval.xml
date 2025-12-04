@@ -1,0 +1,1863 @@
+<Brushes>
+  <Brush Name="Port.Ship.Name.Text" Font="FiraSansExtraCondensed-Regular" FontColor="#EEE0C7FF" FontSize="32" TextHorizontalAlignment="Left">
+    <Styles>
+      <Style Name="Default" FontColor="#C6AC8DFF" TextOutlineAmount="0.2" TextGlowRadius="0" TextBlur="0" TextColorFactor="1" />
+      <Style Name="Hovered" FontColor="#C6AC8DFF" TextOutlineAmount="0.2" TextGlowRadius="0" TextBlur="0" TextColorFactor="1.4" />
+      <Style Name="Pressed" FontColor="#C6AC8DFF" TextOutlineAmount="0.2" TextGlowRadius="0" TextBlur="0" TextColorFactor="0.8" />
+      <Style Name="Disabled" FontColor="#C6AC8DFF" TextOutlineAmount="0.2" TextGlowRadius="0" TextBlur="0" TextColorFactor="1" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Ship.Name.Underline" Sprite="BlankWhiteSquare_9">
+    <Layers>
+      <Layer Name="Default" Sprite="BlankWhiteSquare_9" Color="#C6AC8DFF"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1.4" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.8" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Ship.Roster.Title.Text" Font="Galahad" FontColor="#EEE0C7FF" FontSize="28" TextHorizontalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#EEE0C7FF" TextBlur="0" TextGlowColor="#EEE0C7FF" TextGlowRadius="0" TextOutlineAmount="0.2" TextOutlineColor="#000000FF" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Ship.Roster.No.Ships.Text" Font="FiraSansExtraCondensed-Regular" FontColor="#EEE0C7FF" FontSize="22" TextHorizontalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#EEE0C7FF" TextBlur="0" TextGlowColor="#EEE0C7FF" TextGlowRadius="0" TextOutlineAmount="0.2" TextOutlineColor="#000000FF" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Ship.Tuple.Name.Text" Font="FiraSansExtraCondensed-Regular" FontColor="#F4E1C4FF" FontSize="16" TextHorizontalAlignment="Center" TransitionDuration="0.15">
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" TextBlur="0" TextGlowRadius="0" TextOutlineAmount="0.4" TextOutlineColor="#000000FF" TextColorFactor="0.8" />
+      <Style Name="Hovered" FontColor="#F4E1C4FF" TextBlur="0" TextGlowRadius="0" TextOutlineAmount="0.4" TextOutlineColor="#000000FF" TextColorFactor="0.9" />
+      <Style Name="Pressed" FontColor="#F4E1C4FF" TextBlur="0" TextGlowRadius="0" TextOutlineAmount="0.4" TextOutlineColor="#000000FF" TextColorFactor="0.8" />
+      <Style Name="Selected" FontColor="#F4E1C4FF" TextBlur="0" TextGlowRadius="0" TextOutlineAmount="0.4" TextOutlineColor="#000000FF" TextColorFactor="1" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Ship.Tuple.Name.Renamed.Text" BaseBrush="Port.Ship.Tuple.Name.Text">
+    <Styles>
+      <Style Name="Default" FontColor="#DFA84FFF" />
+      <Style Name="Hovered" FontColor="#DFA84FFF" />
+      <Style Name="Pressed" FontColor="#DFA84FFF" />
+      <Style Name="Selected" FontColor="#DFA84FFF" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Ship.Tuple.HullName.Text" BaseBrush="Port.Ship.Tuple.Name.Text" FontSize="18">
+    <Styles>
+      <Style Name="Default" TextAlphaFactor="0"  />
+      <Style Name="Hovered" TextAlphaFactor="0.8" TextColorFactor="0.8" />
+      <Style Name="Pressed" TextAlphaFactor="0.8" TextColorFactor="0.7" />
+      <Style Name="Selected" TextAlphaFactor="0.8" TextColorFactor="0.9" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.ShipPiece.Stat.Header.Text" Font="FiraSansExtraCondensed-Regular" FontColor="#F3C697FF" FontSize="22" TextHorizontalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#F3C697FF" TextBlur="0" TextGlowColor="#F3C697FF" TextGlowRadius="0" TextOutlineAmount="0" TextOutlineColor="#F3C697FF" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.ShipPiece.Stat.Definition.Text" Font="FiraSansExtraCondensed-Regular" FontColor="#F4E1C4FF" FontSize="16" TextHorizontalAlignment="Right">
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" TextBlur="0" TextGlowColor="#F4E1C4FF" TextGlowRadius="0" TextOutlineAmount="0" TextOutlineColor="#F4E1C4FF" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.ShipPiece.Stat.Value.Text" Font="FiraSansExtraCondensed-Regular" FontColor="#FEC157FF" FontSize="16" TextHorizontalAlignment="Left">
+    <Styles>
+      <Style Name="Default" FontColor="#FEC157FF" TextBlur="0" TextGlowColor="#FEC157FF" TextGlowRadius="0" TextOutlineAmount="0" TextOutlineColor="#FEC157FF" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.ShipPiece.BetterAvailable.Icon" BaseBrush="Port.Slot.Button.Frame">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="PortScreen\available_upgrade_icon" Color="#AAAAAAFF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.7" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.8" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.6" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.ShipPiece.Tooltip.Background">
+    <Layers>
+      <BrushLayer Name="Background" Sprite="piece_tooltip_background_9" Color="#2C363CFF" AlphaFactor="0.95" ExtendLeft="15" />
+      <BrushLayer Name="Frame" Sprite="piece_tooltip_frame_9" Color="#817A5FFF" ExtendLeft="15" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Port.ShipPiece.Tooltip.Background.Bottom">
+    <Layers>
+      <BrushLayer Name="Background" Sprite="piece_tooltip_background_9" Color="#2C363CFF" AlphaFactor="0.95" ExtendLeft="15" VerticalFlip="true" />
+      <BrushLayer Name="Frame" Sprite="piece_tooltip_frame_9" Color="#817A5FFF" ExtendLeft="15" VerticalFlip="true" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Port.ShipPiece.Tooltip.Thumbnail.Background">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="rounded_canvas_9" Color="#78BEFFFF" ColorFactor="0.7" />
+      <BrushLayer Name="Gradient" Sprite="PortScreen\port_ship_gradient" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Port.Ship.Previous.Page.Button" TransitionDuration="0.07">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\arrow_little" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="1.5" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="1" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Ship.Next.Page.Button" BaseBrush="Port.Ship.Previous.Page.Button">
+    <Layers>
+      <BrushLayer Name="Default" HorizontalFlip="true" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Port.Ship.Image.Button" TransitionDuration="0.14">
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="port/choose_ship" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="Port.Ship.Image.Frame" TransitionDuration="0.14">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="PortScreen\port_ship_frame" Color="#C0C0C0FF" />
+      <BrushLayer Name="Glow" Sprite="PortScreen\port_ship_frame_outer_glow" ExtendLeft="5" ExtendRight="5" ExtendTop="5" ExtendBottom="5" AlphaFactor="0" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1.25" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" Color="#D4AF37FF" ColorFactor="1.1" />
+        <BrushLayer Name="Glow" Color="#D4AF37FF" AlphaFactor="0.5" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Ship.Image.Frame.FullHealth" BaseBrush="Port.Ship.Image.Frame">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="PortScreen\port_ship_frame_fullhealth" />
+      <BrushLayer Name="Glow" Sprite="PortScreen\port_ship_frame_fullhealth_outer_glow" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Port.Ship.Image" TransitionDuration="0.14">
+    <Layers>
+      <Layer Name="Overlay" Sprite="SettlementLeftPanelFilter_9" Color="#00213B55"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1.1" />
+        <BrushLayer Name="Overlay" AlphaFactor="0.7" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.8" />
+        <BrushLayer Name="Overlay" AlphaFactor="0.7" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" ColorFactor="1.1" />
+        <BrushLayer Name="Overlay" AlphaFactor="0" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Ship.Image.Night" BaseBrush="Port.Ship.Image">
+    <Layers>
+      <Layer Name="Default" Color="#A3B2CCFF"/>
+    </Layers>
+  </Brush>
+
+  <Brush Name="Port.Name.Reset.Button" TransitionDuration="0.07">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="General\CharacterCreation\button_reset" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" ColorFactor="1.35" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.4" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Ship.Tuple.Health.Frame" TransitionDuration="0.07">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="WhiteFrame_9" ExtendLeft="2" ExtendTop="2" ExtendRight="2" ExtendBottom="2"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" Color="#F4E1C4FF" AlphaFactor="0.8" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Ship.Tuple.Health.Text" Font="FiraSansExtraCondensed-Regular" FontColor="#EEE0C7FF" FontSize="14" TextHorizontalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" TextBlur="0" TextGlowRadius="0" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Ship.Tuple.Health.Repaired.Text" BaseBrush="Port.Ship.Tuple.Health.Text">
+    <Styles>
+      <Style Name="Default" FontColor="#DFA84FCC" TextBlur="0" TextGlowRadius="0" TextOutlineAmount="0" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Ship.Tuple.Bought.Icon">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\simple_dropdown_arrow_right" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="1.75" AlphaFactor="0.8" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Ship.Tuple.Sold.Icon">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\simple_dropdown_arrow_left" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="1.75" AlphaFactor="0.8" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Slot.Button.Empty.Icon.Base" TransitionDuration="0.14">
+    <Layers>
+      <Layer Name="Default" Sprite="BlankWhiteSquare_9"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="0.6" AlphaFactor="0.6" SaturationFactor="-75" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="0.7" AlphaFactor="0.7" SaturationFactor="-40" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.5" AlphaFactor="0.5" SaturationFactor="-40" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" ColorFactor="1" AlphaFactor="0.8" SaturationFactor="-30" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.25" AlphaFactor="0.6" SaturationFactor="-75" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Slot.Button.Empty.Icons">
+    <Layers>
+      <BrushLayer Name="aft" Sprite="PortScreen\UpgradeSlotIcons\aft"/>
+      <BrushLayer Name="bow" Sprite="PortScreen\UpgradeSlotIcons\bow"/>
+      <BrushLayer Name="deck" Sprite="PortScreen\UpgradeSlotIcons\deck"/>
+      <BrushLayer Name="figurehead" Sprite="PortScreen\UpgradeSlotIcons\figurehead"/>
+      <BrushLayer Name="fore" Sprite="PortScreen\UpgradeSlotIcons\fore"/>
+      <BrushLayer Name="hull" Sprite="PortScreen\UpgradeSlotIcons\hull"/>
+      <BrushLayer Name="oars" Sprite="PortScreen\UpgradeSlotIcons\oar"/>
+      <BrushLayer Name="roof" Sprite="PortScreen\UpgradeSlotIcons\roof"/>
+      <BrushLayer Name="sail" Sprite="PortScreen\UpgradeSlotIcons\sail"/>
+      <BrushLayer Name="side" Sprite="PortScreen\UpgradeSlotIcons\side"/>
+    </Layers>
+  </Brush>
+
+  <Brush Name="Port.Slot.Button.Empty.Icon.Highlight.Base" TransitionDuration="0.28">
+    <Layers>
+      <Layer Name="Default" Sprite="BlankWhiteSquare_9"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.6" SaturationFactor="-30" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.9" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.5" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="1" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.05" SaturationFactor="-30" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Slot.Button.Empty.Highlight.Icons">
+    <Layers>
+      <BrushLayer Name="aft" Sprite="PortScreen\UpgradeSlotIcons\aft_highlight"/>
+      <BrushLayer Name="bow" Sprite="PortScreen\UpgradeSlotIcons\bow_highlight"/>
+      <BrushLayer Name="deck" Sprite="PortScreen\UpgradeSlotIcons\deck_highlight"/>
+      <BrushLayer Name="figurehead" Sprite="PortScreen\UpgradeSlotIcons\figurehead_highlight"/>
+      <BrushLayer Name="fore" Sprite="PortScreen\UpgradeSlotIcons\fore_highlight"/>
+      <BrushLayer Name="hull" Sprite="PortScreen\UpgradeSlotIcons\hull_highlight"/>
+      <BrushLayer Name="oars" Sprite="PortScreen\UpgradeSlotIcons\oar_highlight"/>
+      <BrushLayer Name="roof" Sprite="PortScreen\UpgradeSlotIcons\roof_highlight"/>
+      <BrushLayer Name="sail" Sprite="PortScreen\UpgradeSlotIcons\sail_highlight"/>
+      <BrushLayer Name="side" Sprite="PortScreen\UpgradeSlotIcons\side_highlight"/>
+    </Layers>
+  </Brush>
+
+  <Brush Name="Port.Slot.Button.SoundBrush.Bronze">
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="port/add_ship_part_tier_01" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="Port.Slot.Button.SoundBrush.Silver">
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="port/add_ship_part_tier_02" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="Port.Slot.Button.SoundBrush.Gold">
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="port/add_ship_part_tier_03" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="Port.Slot.Button.SoundBrush.Diamond">
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="port/add_ship_figurehead" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="Port.Slot.Button.SoundBrush.Clear">
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="port/remove_ship_part" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="Port.Slot.Button.Background" TransitionDuration="0.14">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="rounded_canvas_9" Color="#333333FF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="1" AlphaFactor="0.4"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1" AlphaFactor="0.5" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.8" AlphaFactor="0.3" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" ColorFactor="1.1" AlphaFactor="0.6"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.2" AlphaFactor="0.4" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Slot.Button.Background.Bronze" BaseBrush="Port.Slot.Button.Background">
+    <Layers>
+      <BrushLayer Name="Default" Color="#8C5722FF" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Port.Slot.Button.Background.Silver" BaseBrush="Port.Slot.Button.Background">
+    <Layers>
+      <BrushLayer Name="Default" Color="#9AA9B3FF" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Port.Slot.Button.Background.Gold" BaseBrush="Port.Slot.Button.Background">
+    <Layers>
+      <BrushLayer Name="Default" Color="#BF9E30FF" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Port.Slot.Button.Background.Diamond" BaseBrush="Port.Slot.Button.Background">
+    <Layers>
+      <BrushLayer Name="Default" Color="#85BFCCFF" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Port.Slot.Button.Frame" TransitionDuration="0.14">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="PortScreen\UpgradeFrames\upgrade_frame" ExtendLeft="4" ExtendRight="4" ExtendTop="4" ExtendBottom="4" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="0.8"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.7" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.6" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Slot.Button.Frame.Bronze" BaseBrush="Port.Slot.Button.Frame">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="PortScreen\UpgradeFrames\upgrade_frame_bronze" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Port.Slot.Button.Frame.Silver" BaseBrush="Port.Slot.Button.Frame">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="PortScreen\UpgradeFrames\upgrade_frame_silver" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Port.Slot.Button.Frame.Gold" BaseBrush="Port.Slot.Button.Frame">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="PortScreen\UpgradeFrames\upgrade_frame_gold" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Port.Slot.Button.Frame.Diamond" BaseBrush="Port.Slot.Button.Frame">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="PortScreen\UpgradeFrames\upgrade_frame_diamond" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Port.Slot.Button.UpgradePiece.Frame" BaseBrush="Port.Slot.Button.Frame">
+    <Layers>
+      <BrushLayer Name="Selected" Sprite="PortScreen\UpgradeFrames\upgrade_frame_selected" ExtendLeft="4" ExtendRight="4" ExtendTop="4" ExtendBottom="4" AlphaFactor="0" />
+    </Layers>
+    <Styles>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" AlphaFactor="0" />
+        <BrushLayer Name="Selected" ColorFactor="1.2" AlphaFactor="1" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Slot.Button.UpgradePiece.Frame.Bronze" BaseBrush="Port.Slot.Button.UpgradePiece.Frame">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="PortScreen\UpgradeFrames\upgrade_frame_bronze" />
+      <BrushLayer Name="Selected" Sprite="PortScreen\UpgradeFrames\upgrade_frame_bronze_selected" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Port.Slot.Button.UpgradePiece.Frame.Silver" BaseBrush="Port.Slot.Button.UpgradePiece.Frame">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="PortScreen\UpgradeFrames\upgrade_frame_silver" />
+      <BrushLayer Name="Selected" Sprite="PortScreen\UpgradeFrames\upgrade_frame_silver_selected" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Port.Slot.Button.UpgradePiece.Frame.Gold" BaseBrush="Port.Slot.Button.UpgradePiece.Frame">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="PortScreen\UpgradeFrames\upgrade_frame_gold" />
+      <BrushLayer Name="Selected" Sprite="PortScreen\UpgradeFrames\upgrade_frame_gold_selected" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Port.Slot.Button.UpgradePiece.Frame.Diamond" BaseBrush="Port.Slot.Button.UpgradePiece.Frame">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="PortScreen\UpgradeFrames\upgrade_frame_diamond" />
+      <BrushLayer Name="Selected" Sprite="PortScreen\UpgradeFrames\upgrade_frame_diamond_selected" />
+    </Layers>
+  </Brush>
+  
+  <Brush Name="Port.Slot.Button.UpgradePiece.Frame.Clear" BaseBrush="Port.Slot.Button.UpgradePiece.Frame">
+    <Layers>
+      <BrushLayer Name="ClearIcon" Sprite="PortScreen\empty_set_with_shadow" Color="#888888FF" ExtendLeft="-10" ExtendRight="-10" ExtendTop="-10" ExtendBottom="-10" AlphaFactor="0.7"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="ClearIcon" ColorFactor="0.8"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="ClearIcon" ColorFactor="1" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="ClearIcon" ColorFactor="0.7" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="ClearIcon" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="ClearIcon" ColorFactor="0.6" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Slot.Notification">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BlankWhiteCircle" Color="#FEC157FF"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default" AnimationToPlayOnBegin="NotificationAnimation">
+        <BrushLayer Name="Default" AlphaFactor="1"/>
+      </Style>
+    </Styles>
+    <Animations>
+      <Animation Name="NotificationAnimation" Duration="1.5" Loop="true">
+        <AnimationProperty PropertyName="AlphaFactor" LayerName="Default">
+          <KeyFrame Time="0" Value="1" />
+          <KeyFrame Time="0.5" Value="1" />
+          <KeyFrame Time="0.75" Value="0" />
+          <KeyFrame Time="1" Value="1" />
+          <KeyFrame Time="1.5" Value="1" />
+        </AnimationProperty>
+      </Animation>
+    </Animations>
+  </Brush>
+
+  <Brush Name="Port.ShipUpgrade.Image" TransitionDuration="0.14">
+    <Layers>
+      <BrushLayer Name="Default" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1.25" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" ColorFactor="1.4" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.7" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Mode.Switch.Button" TransitionDuration="0.11">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="order_popup_card_default_9" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" Color="#875A1AFF" AlphaFactor="1"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" Color="#875A1AFF" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" Color="#875A1AFF" ColorFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" Color="#DFA84FCC" ColorFactor="1.2" AlphaFactor="1.1"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.65" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Mode.Switch.Button.Text" Font="Galahad" FontColor="#EEE0C7FF" FontSize="26" TextHorizontalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#EEE0C7FF" TextBlur="0" TextGlowColor="#EEE0C7FF" TextGlowRadius="0" TextOutlineAmount="0" TextOutlineColor="#EEE0C7FF" />
+      <Style Name="Hovered" FontColor="#EEE0C7FF" TextBlur="0" TextGlowColor="#EEE0C7FF" TextGlowRadius="0" TextOutlineAmount="0" TextOutlineColor="#EEE0C7FF" />
+      <Style Name="Pressed" FontColor="#EEE0C7FF" TextBlur="0" TextGlowColor="#EEE0C7FF" TextGlowRadius="0" TextOutlineAmount="0" TextOutlineColor="#EEE0C7FF" />
+      <Style Name="Selected" FontColor="#EEE0C7FF" TextBlur="0" TextGlowColor="#EEE0C7FF" TextGlowRadius="0" TextOutlineAmount="0" TextOutlineColor="#EEE0C7FF" />
+      <Style Name="Disabled" FontColor="#EEE0C7FF" TextBlur="0" TextGlowColor="#EEE0C7FF" TextGlowRadius="0" TextOutlineAmount="0" TextOutlineColor="#EEE0C7FF" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Main.Button.Base" TransitionDuration="0.075">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="PortScreen\port_main_button_fill" />
+      <BrushLayer Name="Frame" Sprite="PortScreen\port_main_button_frame"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+        <BrushLayer Name="Frame"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1.2" />
+        <BrushLayer Name="Frame" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.8"/>
+        <BrushLayer Name="Frame" ColorFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" ColorFactor="1.4" />
+        <BrushLayer Name="Frame" ColorFactor="1.4" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.7" SaturationFactor="-60" />
+        <BrushLayer Name="Frame" ColorFactor="0.7" SaturationFactor="-60" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Side.Button.Base" BaseBrush="Port.Main.Button.Base">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="PortScreen\port_side_button_fill" />
+      <BrushLayer Name="Frame" Sprite="PortScreen\port_side_button_frame"/>
+    </Layers>
+  </Brush>
+
+  <Brush Name="Port.Buy.Button" BaseBrush="Port.Main.Button.Base">
+    <Layers>
+      <BrushLayer Name="Default" Color="#7A9926FF"/>
+      <BrushLayer Name="Frame" />
+    </Layers>
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="port/buy_ship" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="Port.Sell.Button" BaseBrush="Port.Main.Button.Base">
+    <Layers>
+      <BrushLayer Name="Default" Color="#B3251BFF" />
+      <BrushLayer Name="Frame" />
+    </Layers>
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="port/sell_ship" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="Port.Repair.Button" BaseBrush="Port.Side.Button.Base">
+    <Layers>
+      <BrushLayer Name="Default" Color="#B38536FF" />
+      <BrushLayer Name="Frame" />
+    </Layers>
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="repair_ship" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="Port.RepairAll.Button" BaseBrush="Port.Side.Button.Base">
+    <Layers>
+      <BrushLayer Name="Default" Color="#B38536FF" />
+      <BrushLayer Name="Frame" />
+    </Layers>
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="repair_all_ships" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="Port.SendToClan.Button" BaseBrush="Port.Side.Button.Base">
+    <Layers>
+      <BrushLayer Name="Default" Color="#B38536FF" />
+      <BrushLayer Name="Frame" />
+    </Layers>
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="port/send_to_clan" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="Port.Ship.Option.Button" TransitionDuration="0.11">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="order_popup_card_default_9" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="1"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" Color="#EEE0C7FF" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" Color="#EEE0C7FF" ColorFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" Color="#D7AB28FF" AlphaFactor="1"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.65" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Ship.Option.Button.Text" Font="Galahad" FontColor="#EEE0C7FF" FontSize="22" TextHorizontalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#EEE0C7FF" TextBlur="0" TextGlowColor="#000000FF" TextGlowRadius="0.2" TextOutlineAmount="0" TextOutlineColor="#EEE0C7FF" />
+      <Style Name="Hovered" FontColor="#EEE0C7FF" TextBlur="0" TextGlowColor="#000000FF" TextGlowRadius="0.2" TextOutlineAmount="0" TextOutlineColor="#EEE0C7FF" />
+      <Style Name="Pressed" FontColor="#EEE0C7FF" TextBlur="0" TextGlowColor="#000000FF" TextGlowRadius="0.2" TextOutlineAmount="0" TextOutlineColor="#EEE0C7FF" />
+      <Style Name="Selected" FontColor="#EEE0C7FF" TextBlur="0" TextGlowColor="#000000FF" TextGlowRadius="0.2" TextOutlineAmount="0" TextOutlineColor="#EEE0C7FF" />
+      <Style Name="Disabled" FontColor="#EEE0C7FF" TextBlur="0" TextGlowColor="#000000FF" TextGlowRadius="0.2" TextOutlineAmount="0" TextOutlineColor="#EEE0C7FF" TextAlphaFactor="0.5" />
+    </Styles>
+  </Brush>
+  
+  <Brush Name="Port.Ship.Option.Gold.Text" Font="Galahad" FontColor="#EEE0C7FF" FontSize="22" TextHorizontalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#EEE0C7FF" TextBlur="0" TextGlowColor="#000000FF" TextGlowRadius="0.2" TextOutlineAmount="0" TextOutlineColor="#EEE0C7FF" />
+      <Style Name="Hovered" FontColor="#EEE0C7FF" TextBlur="0" TextGlowColor="#000000FF" TextGlowRadius="0.2" TextOutlineAmount="0" TextOutlineColor="#EEE0C7FF" />
+      <Style Name="Pressed" FontColor="#EEE0C7FF" TextBlur="0" TextGlowColor="#000000FF" TextGlowRadius="0.2" TextOutlineAmount="0" TextOutlineColor="#EEE0C7FF" />
+      <Style Name="Selected" FontColor="#EEE0C7FF" TextBlur="0" TextGlowColor="#000000FF" TextGlowRadius="0.2" TextOutlineAmount="0" TextOutlineColor="#EEE0C7FF" />
+      <Style Name="Disabled" FontColor="#EEE0C7FF" TextBlur="0" TextGlowColor="#000000FF" TextGlowRadius="0.2" TextOutlineAmount="0" TextOutlineColor="#EEE0C7FF" TextAlphaFactor="0.5" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Ship.Stat.Name.Text" Font="FiraSansExtraCondensed-Regular" FontColor="#DFA84FCC" FontSize="18" TextHorizontalAlignment="Right">
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" TextBlur="0" TextGlowColor="#EEE0C7FF" TextGlowRadius="0" TextOutlineAmount="0.3" TextOutlineColor="#000000FF" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Ship.Stat.Value.Text" Font="FiraSansExtraCondensed-Regular" FontColor="#DD8808FF" FontSize="18" TextHorizontalAlignment="Left">
+    <Styles>
+      <Style Name="Default" FontColor="#DD8808FF" TextBlur="0" TextGlowColor="#EEE0C7FF" TextGlowRadius="0" TextOutlineAmount="0.3" TextOutlineColor="#000000FF" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Ship.Stat.BonusValue.Text" Font="FiraSansExtraCondensed-Regular" FontColor="#EEE0C7FF" FontSize="18" TextHorizontalAlignment="Left">
+    <Styles>
+      <Style Name="Positive" FontColor="#5DBE5DFF" TextBlur="0" TextGlowColor="#EEE0C7FF" TextGlowRadius="0" TextOutlineAmount="0.3" TextOutlineColor="#000000FF" />
+      <Style Name="Negative" FontColor="#D16755FF" TextBlur="0" TextGlowColor="#EEE0C7FF" TextGlowRadius="0" TextOutlineAmount="0.3" TextOutlineColor="#000000FF" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Ship.Stat" TransitionDuration="0.11">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BlankWhiteCircleOutlined" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1.2"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default"  ColorFactor="1.3"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.6" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Action.Panel" TransitionDuration="0.11">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="rounded_canvas_9" AlphaFactor="0.3" />
+      <BrushLayer Name="Frame" Sprite="rounded_frame_9" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+      <Style Name="Opened">
+        <BrushLayer Name="Default" AlphaFactor="0.3" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Ship.Stat.Icons">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BlankWhiteCircleOutlined" />
+      <BrushLayer Name="model" Sprite="BlankWhiteCircleOutlined" />
+      <BrushLayer Name="type" Sprite="BlankWhiteCircleOutlined" />
+      <BrushLayer Name="weight" Sprite="BlankWhiteCircleOutlined" />
+      <BrushLayer Name="oar_count" Sprite="BlankWhiteCircleOutlined" />
+      <BrushLayer Name="crew_capacity" Sprite="BlankWhiteCircleOutlined" />
+      <BrushLayer Name="speed" Sprite="BlankWhiteCircleOutlined" />
+      <BrushLayer Name="manouver" Sprite="BlankWhiteCircleOutlined" />
+      <BrushLayer Name="sea_worthiness" Sprite="BlankWhiteCircleOutlined" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Port.Roster.Button.Background" TransitionDuration="0.085">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="PortScreen\port_roster_button_background" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1.3" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" ColorFactor="1.5" SaturationFactor="10" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.6" SaturationFactor="-50" />
+      </Style>
+    </Styles>
+  </Brush>
+  
+  <Brush Name="Port.Roster.Button.Frame" BaseBrush="Port.Roster.Button.Background">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="PortScreen\port_roster_button_frame" />
+    </Layers>
+  </Brush>
+  
+  <Brush Name="Port.Roster.Button.Name.Text" Font="FiraSansExtraCondensed-Regular" FontColor="#FAF4DEFF" FontSize="28" TextHorizontalAlignment="Left">
+    <Styles>
+      <Style Name="Default" FontColor="#FAF4DEFF" TextOutlineAmount="0.2" TextGlowRadius="0" TextBlur="0" TextColorFactor="0.8" />
+      <Style Name="Hovered" FontColor="#FAF4DEFF" TextOutlineAmount="0.2" TextGlowRadius="0" TextBlur="0" TextColorFactor="0.9" />
+      <Style Name="Pressed" FontColor="#FAF4DEFF" TextOutlineAmount="0.2" TextGlowRadius="0" TextBlur="0" TextColorFactor="0.7" />
+      <Style Name="Selected" FontColor="#FAF4DEFF" TextOutlineAmount="0.2" TextGlowRadius="0" TextBlur="0" TextColorFactor="1" />
+      <Style Name="Disabled" FontColor="#FAF4DEFF" TextOutlineAmount="0.2" TextGlowRadius="0" TextBlur="0" TextColorFactor="0.5" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Roster.Button.Info.Text" Font="FiraSansExtraCondensed-Regular" FontColor="#FAF4DEFF" FontSize="24" TextHorizontalAlignment="Left">
+    <Styles>
+      <Style Name="Default" FontColor="#FAF4DEFF" TextOutlineAmount="0.2" TextGlowRadius="0" TextBlur="0" TextColorFactor="0.8" />
+      <Style Name="Hovered" FontColor="#FAF4DEFF" TextOutlineAmount="0.2" TextGlowRadius="0" TextBlur="0" TextColorFactor="0.9" />
+      <Style Name="Pressed" FontColor="#FAF4DEFF" TextOutlineAmount="0.2" TextGlowRadius="0" TextBlur="0" TextColorFactor="0.7" />
+      <Style Name="Selected" FontColor="#FAF4DEFF" TextOutlineAmount="0.2" TextGlowRadius="0" TextBlur="0" TextColorFactor="1" />
+      <Style Name="Disabled" FontColor="#FAF4DEFF" TextOutlineAmount="0.2" TextGlowRadius="0" TextBlur="0" TextColorFactor="0.5" />
+      <Style Name="Danger" FontColor="#FF1111FF" TextOutlineAmount="0.2" TextGlowRadius="0" TextBlur="0" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Ship.Price.Text" Font="FiraSansExtraCondensed-Regular" FontColor="#DFA84FCC" FontSize="16" TextHorizontalAlignment="Right">
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" TextBlur="0" TextGlowRadius="0" TextOutlineAmount="0.4" TextOutlineColor="#000000FF" TextColorFactor="0.9" />
+      <Style Name="Hovered" FontColor="#F4E1C4FF" TextBlur="0" TextGlowRadius="0" TextOutlineAmount="0.4" TextOutlineColor="#000000FF" TextColorFactor="0.95" />
+      <Style Name="Pressed" FontColor="#F4E1C4FF" TextBlur="0" TextGlowRadius="0" TextOutlineAmount="0.4" TextOutlineColor="#000000FF" TextColorFactor="0.85" />
+      <Style Name="Selected" FontColor="#F4E1C4FF" TextBlur="0" TextGlowRadius="0" TextOutlineAmount="0.4" TextOutlineColor="#000000FF" TextColorFactor="1" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Port.Scrollbar.Handle">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BlankWhiteSquare_9" Color="#C0C0C0FF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.5" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.OrderOfBattle.Formation.Card" TransitionDuration="0.11">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="card_canvas_default_9" IsHidden="true" />
+      <BrushLayer Name="Selected" Sprite="card_canvas_selected_9" IsHidden="true" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.8" IsHidden="false"  />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Selected" AlphaFactor="0.9" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Selected" AlphaFactor="0.9" ColorFactor="0.6" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Selected" AlphaFactor="1" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.8" ColorFactor="0.6" IsHidden="false"/>
+      </Style>
+    </Styles>
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="tab"/>
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="Naval.OrderOfBattle.Formation.Card.Disabled" BaseBrush="Naval.OrderOfBattle.Formation.Card">
+    <Layers>
+      <BrushLayer Name="Disabled" Sprite="card_canvas_disabled_9" IsHidden="true" />
+    </Layers>
+    <Styles>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" IsHidden="true" />
+        <BrushLayer Name="Disabled" AlphaFactor="0.8" ColorFactor="0.6" SaturationFactor="-150" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.OrderOfBattle.Formation.Ship.Slot" TransitionDuration="0.11">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="order_popup_card_default_9" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="1"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" Color="#EEE0C7FF" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" Color="#EEE0C7FF" ColorFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" Color="#D7AB28FF" ColorFactor="1.5" AlphaFactor="1"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.65" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.OrderOfBattle.Formation.Ship.Slot.Empty" TransitionDuration="0.11">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="SPGeneral\Ships\ship_icon_medium" AlphaFactor="0.4" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.OrderOfBattle.Formation.Ship.Image" TransitionDuration="0.11">
+    <Layers>
+      <Layer Name="Overlay" Sprite="SettlementLeftPanelFilter_9" Color="#49312133"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1.2" />
+        <BrushLayer Name="Overlay" AlphaFactor="0.7" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.8" />
+        <BrushLayer Name="Overlay" AlphaFactor="0.7" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" ColorFactor="1.2" />
+        <BrushLayer Name="Overlay" AlphaFactor="0.5" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.OrderOfBattle.Add.Ship.Icon">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="SPGeneral\Ships\ship_icon_medium" Color="#866638FF" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.8" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.4" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.2" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.OrderOfBattle.Remove.Ship.Icon">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="SPGeneral\Ships\unassign_ship" Color="#866638FF" IsHidden="true"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" IsHidden="false"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.8" IsHidden="false"/>
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.4" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.2" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.OrderOfBattle.Formation.Hero.Slot" TransitionDuration="0.11">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="order_popup_card_default_9" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="1"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" Color="#EEE0C7FF" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" Color="#EEE0C7FF" ColorFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" Color="#D7AB28FF" ColorFactor="1.5" AlphaFactor="1"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.65" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.OrderOfBattle.Formation.Hero.Slot.Empty" TransitionDuration="0.11">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="OrderOfBattle\assign_captain" Color="#866638FF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="1"/>
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" Color="#EEE0C7FF" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" Color="#EEE0C7FF" ColorFactor="0.8" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" Color="#D7AB28FF" ColorFactor="1.5" AlphaFactor="1"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.65" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.Order.Card.Class.Frame">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="rounded_frame_9" IsHidden="true" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" Color="#866638FF" IsHidden="false"/>
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" Color="#FEC157FF" IsHidden="false"/>
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" Color="#999999FF" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.OrderOfBattle.FormationClass.BaseBrush">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="order_popup_frame_white_9" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.5" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.9" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.3" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" Color="#D7AB28FF" AlphaFactor="1" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.7" ColorFactor="0.6" SaturationFactor="-150" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.OrderOfBattle.FormationClass.Button.Infantry" BaseBrush="Naval.OrderOfBattle.FormationClass.BaseBrush">
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="oob/formation_infantry" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="Naval.OrderOfBattle.FormationClass.Button.Ranged" BaseBrush="Naval.OrderOfBattle.FormationClass.BaseBrush">
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="oob/formation_archers" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="Naval.OrderOfBattle.FormationClass.Button.InfantryAndRanged" BaseBrush="Naval.OrderOfBattle.FormationClass.BaseBrush">
+    <SoundProperties>
+      <EventSounds>
+        <EventSound EventName="Click" Audio="oob/formation_infantry_archers" />
+      </EventSounds>
+    </SoundProperties>
+  </Brush>
+
+  <Brush Name="Naval.OrderOfBattle.FormationClass.Icon.Infantry" BaseBrush="Naval.OrderOfBattle.FormationClass.BaseBrush">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Order\oob_inf" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Naval.OrderOfBattle.FormationClass.Icon.Ranged" BaseBrush="Naval.OrderOfBattle.FormationClass.BaseBrush">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Order\oob_archer" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Naval.OrderOfBattle.FormationClass.Icon.InfantryAndRanged" BaseBrush="Naval.OrderOfBattle.FormationClass.BaseBrush">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Order\oob_inf_archer" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Naval.OrderOfBattle.Filter.Shield" BaseBrush="OrderOfBattle.Filter.Shield">
+    <Styles>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" Color="#D7AB28FF" AlphaFactor="1" ColorFactor="1" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.OrderOfBattle.Filter.Thrown" BaseBrush="OrderOfBattle.Filter.Thrown">
+    <Styles>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" Color="#D7AB28FF" AlphaFactor="1" ColorFactor="1" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.OrderOfBattle.Filter.Heavy" BaseBrush="OrderOfBattle.Filter.Heavy">
+    <Styles>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" Color="#D7AB28FF" AlphaFactor="1" ColorFactor="1" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.OrderOfBattle.Filter.HighTier" BaseBrush="OrderOfBattle.Filter.HighTier">
+    <Styles>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" Color="#D7AB28FF" AlphaFactor="1" ColorFactor="1" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.OrderOfBattle.Filter.LowTier" BaseBrush="OrderOfBattle.Filter.LowTier">
+    <Styles>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" Color="#D7AB28FF" AlphaFactor="1" ColorFactor="1" IsHidden="false"/>
+      </Style>
+    </Styles>
+  </Brush>
+  
+  <Brush Name="Naval.OrderOfBattle.ShipInfo.Text" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#FAF4DEFF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="22" />
+      <Style Name="Warning" FontColor="#FF1111FF" TextBlur="0.3" TextOutlineAmount="0" TextGlowRadius="0" FontSize="22" />
+    </Styles>
+  </Brush>
+  
+  <Brush Name="Naval.Mission.NameMarker.VisualBrush" OverrideBrush="NameMarker.VisualBrush">
+    <Styles>
+      <Style Name="control_point">
+        <BrushLayer Name="Default" Sprite="Mission\ship_wheel" Color="#F4E1C4FF" IsHidden="false" />
+      </Style>
+    </Styles>
+  </Brush>
+  
+  <Brush Name="Naval.Mission.FormationMarker.Frame">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="General\compass\target_background" Color="#F44141CC" />
+    </Layers>
+    <Styles>
+      <Style Name="Player">
+        <BrushLayer Name="Default" Color="#41F4E2CC" />
+      </Style>
+      <Style Name="Enemy">
+        <BrushLayer Name="Default" Color="#F44141CC" />
+      </Style>
+      <Style Name="Ally">
+        <BrushLayer Name="Default" Color="#42F456CC" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.Mission.FormationMarker.Text" Font="FiraSansExtraCondensed-Regular" FontColor="#EEE0C7FF" FontSize="20" TextHorizontalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#E8E8E8FF" TextGlowColor="#000000FF" TextOutlineColor="#000000FF" TextOutlineAmount="0.5" TextGlowRadius="0" TextBlur="0" FontSize="22" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.Mission.ShipControl.Key.Description" Font="FiraSansExtraCondensed-Regular" FontColor="#EEE0C7FF" FontSize="18" TextHorizontalAlignment="Right">
+    <Styles>
+      <Style Name="Default" FontColor="#E8E8E8FF" TextGlowColor="#000000FF" TextOutlineColor="#000000FF" TextOutlineAmount="0.4" TextGlowRadius="0" TextBlur="0" TextAlphaFactor="1" />
+      <Style Name="Disabled" FontColor="#E8E8E8FF" TextGlowColor="#000000FF" TextOutlineColor="#000000FF" TextOutlineAmount="0.4" TextGlowRadius="0" TextBlur="0" TextAlphaFactor="0.5" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.Mission.ShipControl.Sail.Icon" TransitionDuration="0.25">
+    <Layers>
+      <BrushLayer Name="Raised" Sprite="BlankWhiteSquare_9" AlphaFactor="0" />
+      <BrushLayer Name="SquareSailsRaised" Sprite="BlankWhiteSquare_9" AlphaFactor="0" />
+      <BrushLayer Name="Full" Sprite="BlankWhiteSquare_9" AlphaFactor="0" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Raised" AlphaFactor="0" />
+        <BrushLayer Name="SquareSailsRaised" AlphaFactor="0" />
+        <BrushLayer Name="Full" AlphaFactor="0" />
+      </Style>
+      <Style Name="Raised">
+        <BrushLayer Name="Raised" AlphaFactor="1" />
+      </Style>
+      <Style Name="SquareSailsRaised">
+        <BrushLayer Name="SquareSailsRaised" AlphaFactor="1" />
+      </Style>
+      <Style Name="Full">
+        <BrushLayer Name="Full" AlphaFactor="1" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.Mission.ShipControl.Sail.Icon.Square" BaseBrush="Naval.Mission.ShipControl.Sail.Icon">
+    <Layers>
+      <BrushLayer Name="Raised" Sprite="Mission\ShipControlHUD\sail_square_closed" />
+      <BrushLayer Name="Full" Sprite="Mission\ShipControlHUD\sail_square_open" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Naval.Mission.ShipControl.Sail.Icon.Lateen" BaseBrush="Naval.Mission.ShipControl.Sail.Icon">
+    <Layers>
+      <BrushLayer Name="Raised" Sprite="Mission\ShipControlHUD\sail_lateen_closed" />
+      <BrushLayer Name="Full" Sprite="Mission\ShipControlHUD\sail_lateen_open" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Naval.Mission.ShipControl.Sail.Icon.Hybrid" BaseBrush="Naval.Mission.ShipControl.Sail.Icon">
+    <Layers>
+      <BrushLayer Name="Raised" Sprite="Mission\ShipControlHUD\sail_hybrid_closed" />
+      <BrushLayer Name="SquareSailsRaised" Sprite="Mission\ShipControlHUD\sail_hybrid_half" />
+      <BrushLayer Name="Full" Sprite="Mission\ShipControlHUD\sail_hybrid_open" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Naval.Mission.ShipControl.Oarsmen.Icon" TransitionDuration="0.25">
+    <Layers>
+      <BrushLayer Name="OarInactiveLeft" Sprite="Mission\ShipControlHUD\oar_inactive" XOffset="-6" AlphaFactor="0.5" />
+      <BrushLayer Name="OarInactiveRight" Sprite="Mission\ShipControlHUD\oar_inactive" XOffset="6" AlphaFactor="0.5" />
+      <BrushLayer Name="OarActiveLeft" Sprite="Mission\ShipControlHUD\oar_active" XOffset="-6" AlphaFactor="0" />
+      <BrushLayer Name="OarActiveRight" Sprite="Mission\ShipControlHUD\oar_active" XOffset="6" AlphaFactor="0" />
+    </Layers>
+    <Styles>
+      <Style Name="Idle">
+        <BrushLayer Name="OarActiveLeft" AlphaFactor="0" />
+        <BrushLayer Name="OarActiveRight" AlphaFactor="0" />
+      </Style>
+      <Style Name="Normal">
+        <BrushLayer Name="OarActiveLeft" AlphaFactor="1" />
+        <BrushLayer Name="OarActiveRight" AlphaFactor="0" />
+      </Style>
+      <Style Name="Fast">
+        <BrushLayer Name="OarActiveLeft" AlphaFactor="1" />
+        <BrushLayer Name="OarActiveRight" AlphaFactor="1" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.Mission.ShipControl.CutLoose.Icon.Active">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Mission\ShipControlHUD\cut_loose_icon" />
+    </Layers>
+    <Styles>
+      <Style Name="Default" AnimationToPlayOnBegin="ActiveAnim">
+        <BrushLayer Name="Default"/>
+      </Style>
+    </Styles>
+    <Animations>
+      <Animation Name="ActiveAnim" Duration="2" Loop="true" InterpolationType="EaseInOut" InterpolationFunction="Sine" >
+        <AnimationProperty LayerName="Default" PropertyName="ColorFactor" >
+          <KeyFrame Time="0" Value="0.8" />
+          <KeyFrame Time="1" Value="1.2" />
+          <KeyFrame Time="2" Value="0.8" />
+        </AnimationProperty>
+      </Animation>
+    </Animations>
+  </Brush>
+
+  <Brush Name="Naval.Mission.ShipControl.AttemptBoarding.Icon.Active">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Mission\ShipControlHUD\attempt_boarding_icon" />
+    </Layers>
+    <Styles>
+      <Style Name="Default" AnimationToPlayOnBegin="ActiveAnim">
+        <BrushLayer Name="Default"/>
+      </Style>
+    </Styles>
+    <Animations>
+      <Animation Name="ActiveAnim" Duration="2" Loop="true" InterpolationType="EaseInOut" InterpolationFunction="Sine" >
+        <AnimationProperty LayerName="Default" PropertyName="ColorFactor" >
+          <KeyFrame Time="0" Value="0.8" />
+          <KeyFrame Time="1" Value="1.2" />
+          <KeyFrame Time="2" Value="0.8" />
+        </AnimationProperty>
+      </Animation>
+    </Animations>
+  </Brush>
+
+  <Brush Name="Naval.Mission.ShipControl.Fire.Icon.Inactive" TransitionDuration="0.25">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Mission\ShipControlHUD\fire_icon_inactive" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="1" />
+      </Style>
+      <Style Name="Inactive">
+        <BrushLayer Name="Default" AlphaFactor="0.3" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.Mission.ShipControl.Fire.Icon.Active" BaseBrush="Naval.Mission.ShipControl.Fire.Icon.Inactive">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Mission\ShipControlHUD\fire_icon_active" />
+    </Layers>
+    <Styles>
+      <Style Name="SlowBurning" AnimationToPlayOnBegin="SlowBurnAnimation">
+        <BrushLayer Name="Default" AlphaFactor="1" />
+      </Style>
+      <Style Name="FastBurning" AnimationToPlayOnBegin="FastBurnAnimation">
+        <BrushLayer Name="Default" AlphaFactor="1" />
+      </Style>
+    </Styles>
+    <Animations>
+      <Animation Name="SlowBurnAnimation" Duration="2" Loop="true" InterpolationType="EaseInOut" InterpolationFunction="Sine" >
+        <AnimationProperty LayerName="Default" PropertyName="ColorFactor" >
+          <KeyFrame Time="0.0" Value="1" />
+          <KeyFrame Time="1" Value="1.2" />
+          <KeyFrame Time="2" Value="1" />
+        </AnimationProperty>
+      </Animation>
+      <Animation Name="FastBurnAnimation" Duration="1" Loop="true" InterpolationType="EaseInOut" InterpolationFunction="Sine" >
+        <AnimationProperty LayerName="Default" PropertyName="ColorFactor" >
+          <KeyFrame Time="0" Value="1" />
+          <KeyFrame Time="0.5" Value="1.2" />
+          <KeyFrame Time="1" Value="1" />
+        </AnimationProperty>
+        <AnimationProperty LayerName="Default" PropertyName="ValueFactor" >
+          <KeyFrame Time="0" Value="0" />
+          <KeyFrame Time="0.5" Value="10" />
+          <KeyFrame Time="1" Value="0" />
+        </AnimationProperty>
+      </Animation>
+    </Animations>
+  </Brush>
+
+  <Brush Name="Naval.Mission.ShipControl.CompassCenter" TransitionDuration="0.25">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Mission\ShipControlHUD\compass_center" />
+    </Layers>
+    <Styles>
+      <Style Name="Burning" AnimationToPlayOnBegin="BurnAnimation">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+    <Animations>
+      <Animation Name="BurnAnimation" Duration="2" Loop="true" InterpolationType="EaseInOut" InterpolationFunction="Sine" >
+        <AnimationProperty LayerName="Default" PropertyName="Color" >
+          <KeyFrame Time="0" Value="#FFFFFFFF" />
+          <KeyFrame Time="1" Value="#FF0000FF" />
+          <KeyFrame Time="2" Value="#FFFFFFFF" />
+        </AnimationProperty>
+      </Animation>
+    </Animations>
+  </Brush>
+
+  <Brush Name="Naval.Mission.ShipControl.Compass.Square" TransitionDuration="0.25">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Mission\ShipControlHUD\compass_square" />
+    </Layers>
+    <Styles>
+      <Style Name="Full">
+        <BrushLayer Name="Default" />
+      </Style>
+      <Style Name="Raised">
+        <BrushLayer Name="Default" AlphaFactor="0.5" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.Mission.ShipControl.Compass.Lateen" TransitionDuration="0.25">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Mission\ShipControlHUD\compass_lateen" />
+    </Layers>
+    <Styles>
+      <Style Name="Full">
+        <BrushLayer Name="Default" />
+      </Style>
+      <Style Name="Raised">
+        <BrushLayer Name="Default" AlphaFactor="0.5" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.Mission.ShipControl.Compass.Hybrid" TransitionDuration="0.25">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Mission\ShipControlHUD\compass_hybrid" />
+      <BrushLayer Name="Lateen" Sprite="Mission\ShipControlHUD\compass_lateen" AlphaFactor="0" />
+    </Layers>
+    <Styles>
+      <Style Name="Full">
+        <BrushLayer Name="Default" />
+      </Style>
+      <Style Name="SquareSailsRaised">
+        <BrushLayer Name="Default" AlphaFactor="0" />
+        <BrushLayer Name="Lateen" AlphaFactor="1" />
+      </Style>
+      <Style Name="Raised">
+        <BrushLayer Name="Default" AlphaFactor="0.5" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.Mission.ShipControl.Target.Icon" TransitionDuration="0.135">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Mission\ShipControlHUD\ship_target_indicator_fill" />
+      <BrushLayer Name="Frame" Sprite="Mission\ShipControlHUD\ship_target_indicator_frame" />
+    </Layers>
+    <Styles>
+      <Style Name="Default" >
+        <BrushLayer Name="Default" />
+        <BrushLayer Name="Frame" />
+      </Style>
+      <Style Name="Animate" AnimationToPlayOnBegin="JumpAnimation" >
+        <BrushLayer Name="Default" />
+        <BrushLayer Name="Frame" />
+      </Style>
+    </Styles>
+    <Animations>
+      <Animation Name="JumpAnimation" Duration="1.1" Loop="true" InterpolationType="EaseInOut" InterpolationFunction="Cubic" >
+        <!-- Fill -->
+        <AnimationProperty LayerName="Default" PropertyName="YOffset" >
+          <KeyFrame Time="0.0" Value="0" />
+          <KeyFrame Time="0.55" Value="-10" />
+          <KeyFrame Time="1.1" Value="0" />
+        </AnimationProperty>
+
+        <!-- Frame -->
+        <AnimationProperty LayerName="Frame" PropertyName="YOffset" >
+          <KeyFrame Time="0.0" Value="0" />
+          <KeyFrame Time="0.55" Value="-10" />
+          <KeyFrame Time="1.1" Value="0" />
+        </AnimationProperty>
+
+      </Animation>
+    </Animations>
+  </Brush>
+
+  <Brush Name="Naval.Mission.ShipControl.Target.Icon.Player" BaseBrush="Naval.Mission.ShipControl.Target.Icon">
+    <Layers>
+      <BrushLayer Name="Default" Color="#41F4E2FF" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Naval.Mission.ShipControl.Target.Icon.Ally" BaseBrush="Naval.Mission.ShipControl.Target.Icon">
+    <Layers>
+      <BrushLayer Name="Default" Color="#42F456FF" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Naval.Mission.ShipControl.Target.Icon.Enemy" BaseBrush="Naval.Mission.ShipControl.Target.Icon">
+    <Layers>
+      <BrushLayer Name="Default" Color="#F44141FF" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Naval.Map.Tracker.Images" OverrideBrush="Map.Tracker.Images">
+    <Layers>
+      <BrushLayer Name="AnchorPoint" Sprite="party_track_frame_9" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Naval.Map.Ship.Tracker.Icon">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="butter" AlphaFactor="0.6" OverlayMethod="CoverWithTexture" OverlaySprite="stone_texture_continuous" ExtendLeft="17.5" ExtendRight="17.5" ExtendTop="17.5" ExtendBottom="17.5" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Map.Anchor.Tracker" TransitionDuration="0.08">
+    <Layers>
+      <BrushLayer Name="Background" Sprite="SPGeneral\SPRecruitment\portrait_patron" AlphaFactor="0.5" ExtendBottom="5"/>
+      <BrushLayer Name="Foreground" Sprite="Map\anchor_stroked" YOffset="3" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Foreground" ColorFactor="1.0" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Foreground" ColorFactor="1.5" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Foreground" ColorFactor="0.8" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Foreground" ColorFactor="0.8" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.Map.Ship.Tracker.Frame">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="SPGeneral\Nameplates\DayFrame@2x" AlphaFactor="0.6" OverlayMethod="CoverWithTexture" OverlaySprite="stone_texture_continuous" ExtendLeft="17.5" ExtendRight="17.5" ExtendTop="17.5" ExtendBottom="17.5" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Naval.Compass.Type.Icons" BaseBrush="Compass.Type.Icons">
+    <Layers>
+      <BrushLayer Name="Ship_Light" Sprite="Mission\Compass\ship_light" />
+      <BrushLayer Name="Ship_Medium" Sprite="Mission\Compass\ship_medium" />
+      <BrushLayer Name="Ship_Heavy" Sprite="Mission\Compass\ship_heavy" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Naval.FormationMarker.TeamType.MissingHP" BaseBrush="FormationMarker.TeamType">
+    <Styles>
+      <Style Name="Ally">
+        <BrushLayer Name="Default" Color="#42F456CC" ColorFactor="0.4" IsHidden="false" />
+      </Style>
+      <Style Name="Player">
+        <BrushLayer Name="Default" Color="#41F4E2CC" ColorFactor="0.4" IsHidden="false" />
+      </Style>
+      <Style Name="Enemy">
+        <BrushLayer Name="Default" Color="#F44141CC" ColorFactor="0.4" IsHidden="false" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.Scoreboard.Ship.Icon.Base">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BlankWhiteSquare_9" Color="#888888FF" AlphaFactor="0.5" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Naval.Scoreboard.Ship.Icon.Player">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BlankWhiteSquare_9" Color="#41F4E2FF" AlphaFactor="0.5" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Naval.Scoreboard.Ship.Icon.Ally">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BlankWhiteSquare_9" Color="#42F456FF" AlphaFactor="0.5" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Naval.Scoreboard.Ship.Icon.Enemy">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BlankWhiteSquare_9" Color="#F44141FF" AlphaFactor="0.5" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Naval.Scoreboard.Ship.Icons">
+    <Layers>
+      <BrushLayer Name="Ship_Light" Sprite="NavalScoreboard\ShipIcons\ship_light" />
+      <BrushLayer Name="Ship_Medium" Sprite="NavalScoreboard\ShipIcons\ship_medium" />
+      <BrushLayer Name="Ship_Heavy" Sprite="NavalScoreboard\ShipIcons\ship_heavy" />
+    </Layers>
+  </Brush>
+  
+  <Brush Name="MPLobby.ClassFilter.FactionButton.Nord" BaseBrush="MPLobby.ClassFilter.FactionButton" TransitionDuration="0.1">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="FactionIcons\ButtonIcons\nord" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Naval.CustomBattle.Ship.Button" TransitionDuration="0.1">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="rounded_frame_9" Color="#C98A36FF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.7" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="1" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.7" ColorFactor="0.8" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" AlphaFactor="0.5" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.CustomBattle.Ship.Button.PlusIcon" BaseBrush="Naval.CustomBattle.Ship.Button">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\plus_icon_big" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Naval.CustomBattle.Ship.Button.CycleTierButton" TransitionDuration="0.1">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\cycle_options" Color="#C98A36FF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.8" ColorFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.85" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.3" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" ColorFactor="1.1" />
+      </Style>
+    </Styles>
+  </Brush>
+  <Brush Name="Naval.CustomBattle.Ship.Button.ClearShipButton" TransitionDuration="0.1">
+    <Layers>
+      <BrushLayer Name="Background" Sprite="BlankWhiteCircle" Color="#000000FF" ExtendLeft="-3" ExtendRight="-3" ExtendTop="-3" ExtendBottom="-3" />
+      <BrushLayer Name="Button" Sprite="StdAssets\plus_button_medium" Rotation="45" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Button" AlphaFactor="0.8" ColorFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Button" ColorFactor="1.2" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Button" ColorFactor="0.85" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Button" ColorFactor="0.3" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Button" ColorFactor="1.1" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.CustomBattle.Ship.Image" TransitionDuration="0.1">
+    <Layers>
+      <Layer Name="Overlay" Sprite="SettlementLeftPanelFilter_9" Color="#49312133"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1.2" />
+        <BrushLayer Name="Overlay" AlphaFactor="0.7" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.8" />
+        <BrushLayer Name="Overlay" AlphaFactor="0.7" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.CustomBattle.Warning.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center">
+    <Styles>
+      <Style Name="Default" FontColor="#F03030FF" TextGlowColor="#000000FF" TextOutlineColor="#000000FF" TextOutlineAmount="0" TextGlowRadius="0" TextBlur="0" FontSize="20" TextAlphaFactor="0.8" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.CustomBattle.Slider.Fill.Warning" BaseBrush="CustomBattle.Slider.Fill">
+    <Layers>
+      <BrushLayer Name="Default" Color="#FF5555FF" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Naval.CustomBattle.ShipSelection.Ship.Image" TransitionDuration="0.1">
+    <Layers>
+      <Layer Name="Overlay" Sprite="SettlementLeftPanelFilter_9" Color="#49312155"/>
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="0.8" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="0.9" />
+        <BrushLayer Name="Overlay" AlphaFactor="0.7" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.7" />
+        <BrushLayer Name="Overlay" AlphaFactor="0.7" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" ColorFactor="1" />
+        <BrushLayer Name="Overlay" AlphaFactor="0.6" />
+      </Style>
+      <Style Name="Disabled">
+        <BrushLayer Name="Default" ColorFactor="0.5" SaturationFactor="-50" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.CustomBattle.ShipSelection.Card.Frame" TransitionDuration="0.1">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="rounded_frame_9" Color="#F4E1C4FF" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" ColorFactor="0.1" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="0.6" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" ColorFactor="0.3" />
+      </Style>
+      <Style Name="Selected">
+        <BrushLayer Name="Default" ColorFactor="1" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Naval.ShipThumbnails">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="ShipThumbnails\none"/>
+      <BrushLayer Name="catship_ship_nested" Sprite="ShipThumbnails\catship"/>
+      <BrushLayer Name="cog_ship_nested" Sprite="ShipThumbnails\cog"/>
+      <BrushLayer Name="corbita_ship_nested" Sprite="ShipThumbnails\corbita"/>
+      <BrushLayer Name="dhow_ship_nested" Sprite="ShipThumbnails\dhow"/>
+      <BrushLayer Name="drakkar_ship_nested" Sprite="ShipThumbnails\drakkar"/>
+      <BrushLayer Name="dromon_ship_nested" Sprite="ShipThumbnails\dromon"/>
+      <BrushLayer Name="galley_ship_nested" Sprite="ShipThumbnails\galley"/>
+      <BrushLayer Name="knarr_ship_nested" Sprite="ShipThumbnails\knarr"/>
+      <BrushLayer Name="liburna_ship_nested" Sprite="ShipThumbnails\liburna"/>
+      <BrushLayer Name="lightdromon_ship_nested" Sprite="ShipThumbnails\lightdromon"/>
+      <BrushLayer Name="lightlongship_ship_nested" Sprite="ShipThumbnails\lightlongship"/>
+      <BrushLayer Name="longship_ship_nested" Sprite="ShipThumbnails\longship"/>
+      <BrushLayer Name="meditheavy_ship_nested" Sprite="ShipThumbnails\meditheavy"/>
+      <BrushLayer Name="meditlight_ship_nested" Sprite="ShipThumbnails\meditlight"/>
+      <BrushLayer Name="meditmedium_ship_nested" Sprite="ShipThumbnails\meditmedium"/>
+      <BrushLayer Name="roundship_nested" Sprite="ShipThumbnails\roundship"/>
+      <BrushLayer Name="sturgian_heavy_longship_nested" Sprite="ShipThumbnails\sturgianheavylongship"/>
+      <BrushLayer Name="trade_cog_ship_nested" Sprite="ShipThumbnails\tradecog"/>
+      <BrushLayer Name="xebec_ship_nested" Sprite="ShipThumbnails\xebec"/>
+      <BrushLayer Name="fishing_ship_nested" Sprite="ShipThumbnails\fishing_ship"/>
+      <BrushLayer Name="southern_fishing_ship_nested" Sprite="ShipThumbnails\southern_fishing_ship"/>
+      <!-- Storyline Ships -->
+      <BrushLayer Name="knarr_ship_nested_storyline" Sprite="ShipThumbnails\knarr"/>
+      <BrushLayer Name="knarr_ship_nested_storyline_act2" Sprite="ShipThumbnails\knarr"/>
+      <BrushLayer Name="lightlongship_ship_nested_storyline_act2" Sprite="ShipThumbnails\lightlongship"/>
+      <BrushLayer Name="dromon_ship_nested_storyline_q5" Sprite="ShipThumbnails\dromon"/>
+      <BrushLayer Name="purigs_roundship_nested_storyline" Sprite="ShipThumbnails\roundship"/>
+      <BrushLayer Name="burning_cog_ship_nested_storyline" Sprite="ShipThumbnails\cog"/>
+      <BrushLayer Name="mangonel_cog_ship_nested_storyline_q4" Sprite="ShipThumbnails\cog"/>
+      <BrushLayer Name="mangonel_roundship_nested_storyline_q4" Sprite="ShipThumbnails\roundship"/>
+      <BrushLayer Name="naval_storyline_quest_4_player_medit_ship_nested" Sprite="ShipThumbnails\meditmedium"/>
+      <BrushLayer Name="naval_storyline_galley_ship_nested" Sprite="ShipThumbnails\galley"/>
+      <BrushLayer Name="galley_ship_nested_storyline" Sprite="ShipThumbnails\galley"/>
+      <BrushLayer Name="trade_cog_q5_nested" Sprite="ShipThumbnails\cog"/>
+      <BrushLayer Name="lodya_ship_nested_storyline" Sprite="ShipThumbnails\sturgianheavylongship"/>
+      <BrushLayer Name="catship_ship_nested_storyline" Sprite="ShipThumbnails\catship"/>
+      <BrushLayer Name="meditheavy_ship_nested_storyline_q2" Sprite="ShipThumbnails\meditheavy"/>
+      <BrushLayer Name="crusas_roundship_nested_q5" Sprite="ShipThumbnails\roundship"/>
+      <BrushLayer Name="burning_fishing_ship_nested_storyline" Sprite="ShipThumbnails\fishing_ship"/>
+    </Layers>
+  </Brush>
+  
+</Brushes>

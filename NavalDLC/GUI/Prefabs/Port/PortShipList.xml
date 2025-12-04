@@ -1,0 +1,181 @@
+<Prefab>
+  <Constants>
+    <Constant Name="List.Width" Value="1354"/> <!--(ShipCount * (204 + 10)) + (2 * 35)-->
+    
+    <Constant Name="Ship.Image.Frame.PaddingNoThickness.Horizontal" Value="0"/>
+    <Constant Name="Ship.Image.Frame.PaddingNoThickness.Vertical" Value="6"/>
+    
+    <Constant Name="Ship.Image.Frame.Thickness" Value="2"/>
+    <Constant Name="Ship.Image.Frame.Thickness.Inverse" Value="!Ship.Image.Frame.Thickness" MultiplyResult="-1"/>
+    
+    <Constant Name="Ship.Image.Frame.Padding.Horizontal" Value="!Ship.Image.Frame.PaddingNoThickness.Horizontal" Additive="!Ship.Image.Frame.Thickness"/>
+    <Constant Name="Ship.Image.Frame.Padding.Vertical" Value="!Ship.Image.Frame.PaddingNoThickness.Vertical" Additive="!Ship.Image.Frame.Thickness"/>
+
+    <Constant Name="Ship.HealthBar.Width" Value="140"/>
+    <Constant Name="Ship.HealthBar.Height" Value="!Ship.Image.Frame.PaddingNoThickness.Vertical" Additive="!Ship.Image.Frame.Thickness.Inverse"/>
+    <Constant Name="Ship.HealthBar.EmptyFill.Width" Value="3"/>
+
+    <Constant Name="Ship.Image.Frame.Width" Value="204"/>
+    <Constant Name="Ship.Image.Frame.Height" Value="128"/>
+
+    <Constant Name="Ship.Image.Frame.Padding.Horizontal.Inverse" Value="!Ship.Image.Frame.Padding.Horizontal" MultiplyResult="-1"/>
+
+    <Constant Name="Ship.Image.Width" Value="!Ship.Image.Frame.Width" Additive="!Ship.Image.Frame.Padding.Horizontal.Inverse"/>
+    <Constant Name="Ship.Image.Width.Default" Value="!Ship.Image.Width" MultiplyResult="1.05"/>
+    <Constant Name="Ship.Image.Width.Hovered" Value="!Ship.Image.Width" MultiplyResult="1.1"/>
+    <Constant Name="Ship.Image.Width.Pressed" Value="!Ship.Image.Width" MultiplyResult="1"/>
+    <Constant Name="Ship.Image.Width.Selected" Value="!Ship.Image.Width" MultiplyResult="1.15"/>
+
+    <Constant Name="PageButton.MarginTop" Value="!Ship.Image.Frame.Height" Additive="-41" MultiplyResult="0.5"/>
+  </Constants>
+  <Parameters>
+    <Parameter Name="DataSource" DefaultValue="" />
+    <Parameter Name="IsRightSide" DefaultValue="true" />
+  </Parameters>
+  <VisualDefinitions>
+    <VisualDefinition Name="Ship.Image" TransitionDuration="0.15" EaseType="EaseInOut" EaseFunction="Sine">
+      <VisualState State="Default" SuggestedWidth="!Ship.Image.Width.Default" />
+      <VisualState State="Hovered" SuggestedWidth="!Ship.Image.Width.Hovered" />
+      <VisualState State="Pressed" SuggestedWidth="!Ship.Image.Width.Pressed" />
+      <VisualState State="Selected" SuggestedWidth="!Ship.Image.Width.Selected" />
+    </VisualDefinition>
+  </VisualDefinitions>
+  <Window>
+    <Widget DoNotAcceptEvents="true" DataSource="*DataSource" WidthSizePolicy="Fixed" HeightSizePolicy="CoverChildren" SuggestedWidth="!List.Width" IsVisible="@IsSelected" HorizontalAlignment="Center" VerticalAlignment="Top" MarginTop="80">
+      <Children>
+        <TextWidget DoNotAcceptEvents="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" Text="@HasNoShipsText" Brush="Port.Ship.Roster.No.Ships.Text" IsHidden="@HasAnyShips" />
+
+        <DiscreteScrollablePanel Id="ScrollablePanel" DoNotAcceptEvents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginTop="25" ClipRect="Content\ClipRect" HorizontalScrollbar="..\HorizontalScrollbar" InnerPanel="Content\ClipRect\List" ListWidget="Content\ClipRect\List" PreviousButtonWidget="Content\PreviousButton" NextButtonWidget="Content\NextButton" ScrollTime="0.15" ItemsPerPage="6" ScrollToSelectedOnVisibilityChanged="true" UpdateScrollbarVisibility="false">
+          <Children>
+
+            <ListPanel Id="Content" DoNotAcceptEvents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="HorizontalLeftToRight" IsVisible="@HasAnyShips" >
+              <Children>
+
+                <!-- Previous Button -->
+                <ButtonWidget Id="PreviousButton" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="30" SuggestedHeight="41" VerticalAlignment="Top" MarginTop="!PageButton.MarginTop" MarginRight="5" Brush="Port.Ship.Previous.Page.Button" />
+
+                <!-- Ship List -->
+                <Widget DoNotAcceptEvents="true" Id="ClipRect" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" ClipContents="true" >
+                  <Children>
+                    <ListPanel DoNotAcceptEvents="true" Id="List" DataSource="{Ships}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Center" StackLayout.LayoutMethod="HorizontalLeftToRight">
+                      <ItemTemplate>
+                        <ButtonWidget Id="ShipButton" DoNotPassEventsToChildren="true" UpdateChildrenStates="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!Ship.Image.Frame.Width" SuggestedHeight="!Ship.Image.Frame.Height" MarginLeft="5" MarginRight="5" MarginBottom="30" IsSelected="@IsSelected" Brush="Port.Ship.Image.Button" Command.Click="ExecuteSelect">
+                          <Children>
+                            <!-- Thumbnail -->
+                            <Widget UpdateChildrenStates="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="!Ship.Image.Frame.Padding.Horizontal" MarginRight="!Ship.Image.Frame.Padding.Horizontal" MarginTop="!Ship.Image.Frame.Padding.Vertical" MarginBottom="!Ship.Image.Frame.Padding.Vertical" ClipContents="true">
+                              <Children>
+                                <ShipThumbnailWidget VisualDefinition="Ship.Image" WidthSizePolicy="Fixed" HeightSizePolicy="CoverChildren" SuggestedWidth="!Ship.Image.Width" HorizontalAlignment="Center" VerticalAlignment="Center" SpriteBrush="Naval.ShipThumbnails" StyleBrush="Port.Ship.Image" PrefabId="@PrefabId" IsHidden="@IsNight"/>
+                                <ShipThumbnailWidget VisualDefinition="Ship.Image" WidthSizePolicy="Fixed" HeightSizePolicy="CoverChildren" SuggestedWidth="!Ship.Image.Width" HorizontalAlignment="Center" VerticalAlignment="Center" SpriteBrush="Naval.ShipThumbnails" StyleBrush="Port.Ship.Image.Night" PrefabId="@PrefabId" IsVisible="@IsNight"/>
+                              </Children>
+                            </Widget>
+
+                            <!-- Top Gradient-->
+                            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="50" VerticalAlignment="Top" MarginLeft="!Ship.Image.Frame.PaddingNoThickness.Horizontal" MarginRight="!Ship.Image.Frame.PaddingNoThickness.Horizontal" MarginTop="!Ship.Image.Frame.PaddingNoThickness.Vertical" MarginBottom="!Ship.Image.Frame.PaddingNoThickness.Vertical" Sprite="scrollable_field_gradient_9" Color="#00000055" VerticalFlip="true" />
+
+                            <!-- Bottom Gradient-->
+                            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="50" VerticalAlignment="Bottom" MarginLeft="!Ship.Image.Frame.PaddingNoThickness.Horizontal" MarginRight="!Ship.Image.Frame.PaddingNoThickness.Horizontal" MarginTop="!Ship.Image.Frame.PaddingNoThickness.Vertical" MarginBottom="!Ship.Image.Frame.PaddingNoThickness.Vertical" Sprite="scrollable_field_gradient_9" Color="#000000AA" />
+
+                            <!-- Health Bar -->
+                            <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!Ship.HealthBar.Width" SuggestedHeight="!Ship.HealthBar.Height" HorizontalAlignment="Center" VerticalAlignment="Bottom" MarginBottom="!Ship.Image.Frame.Thickness" Sprite="BlankWhiteSquare_9" Color="#802C26FF" ClipContents="true" IsVisible="@IsHealthRelevant">
+                              <Children>
+                                <FillBarWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginRight="!Ship.HealthBar.EmptyFill.Width" FillWidget="FillWidget" ChangeWidget="ChangeWidget" MaxAmountAsFloat="@MaxHp" InitialAmountAsFloat="@InitialHp" CurrentAmountAsFloat="@CurrentHp" CustomChangeColor="true">
+                                  <Children>
+                                    <Widget Id="ChangeWidget" ClipContents="true" WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" HorizontalAlignment="Left" Sprite="BlankWhiteSquare_9" Color="#FEC157FF" />
+                                    <Widget Id="FillWidget" ClipContents="true" WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" HorizontalAlignment="Left" Sprite="BlankWhiteSquare_9" Color="#5DBE5DFF" />
+                                  </Children>
+                                </FillBarWidget>
+                                <Widget WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="!Ship.HealthBar.EmptyFill.Width" HorizontalAlignment="Right" Sprite="BlankWhiteSquare_9" Color="#FEC157FF" IsVisible="@IsRepaired"/>
+                              </Children>
+                            </Widget>
+
+                            <!-- Slot Indicators -->
+                            <ListPanel DataSource="{Upgrades\UpgradeSlots}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" MarginTop="12" MarginLeft="6" HorizontalAlignment="Left" VerticalAlignment="Top" StackLayout.LayoutMethod="VerticalBottomToTop">
+                              <ItemTemplate>
+                                <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="9" SuggestedHeight="9" MarginBottom="3">
+                                  <Children>
+                                    <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Sprite="PortScreen\upgrade_icon" Color="#00000066"/>
+                                    <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" IsVisible="@HasSelectedPiece">
+                                      <Children>
+                                        <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Sprite="PortScreen\upgrade_icon_shadow" ExtendLeft="1" ExtendRight="1" ExtendTop="1" ExtendBottom="1" Color="#000000FF" IsHidden="@IsChanged"/>
+                                        <Widget DataSource="{SelectedPiece}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent">
+                                          <Children>
+                                            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Sprite="PortScreen\upgrade_icon_bronze" IsVisible="@IsBronzeTier"/>
+                                            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Sprite="PortScreen\upgrade_icon_silver" IsVisible="@IsSilverTier"/>
+                                            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Sprite="PortScreen\upgrade_icon_gold" IsVisible="@IsGoldTier"/>
+                                            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Sprite="PortScreen\upgrade_icon_diamond" IsVisible="@IsDiamondTier"/>
+                                          </Children>
+                                        </Widget>
+                                      </Children>
+                                    </Widget>
+                                    <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Sprite="PortScreen\upgrade_icon_glow" ExtendLeft="2" ExtendRight="2" ExtendTop="2" ExtendBottom="2" Color="#FEC157FF" IsVisible="@IsChanged"/>
+                                  </Children>
+                                </Widget>
+                              </ItemTemplate>
+                            </ListPanel>
+
+                            <!-- Price -->
+                            <ValueBasedVisibilityWidget UpdateChildrenStates="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" VerticalAlignment="Top" HorizontalAlignment="Right" MarginRight="!Ship.Image.Frame.Padding.Horizontal" MarginTop="!Ship.Image.Frame.Padding.Vertical" PositionXOffset="-2" PositionYOffset="2" IndexToWatch="@Price" IndexToBeVisible="0" WatchType="NotEqual">
+                              <Children>
+                                <ListPanel UpdateChildrenStates="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" IsHidden="*IsRightSide">
+                                  <Children>
+                                    <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" IntText="@Price" Brush="Port.Ship.Price.Text" />
+                                    <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="16" SuggestedHeight="16" VerticalAlignment="Center" Sprite="General\Icons\Coin@2x" />
+                                  </Children>
+                                </ListPanel>
+                              </Children>
+                            </ValueBasedVisibilityWidget>
+
+                            <!-- Ship Name -->
+                            <ScrollingTextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" Brush="Port.Ship.Tuple.Name.Text" VerticalAlignment="Bottom" MarginBottom="10" MarginLeft="10" MarginRight="10" Text="@Name" IsAutoScrolling="false" ScrollOnHoverWidget="..\.">
+                              <Children>
+                                <BoolBrushChangerBrushWidget BooleanCheck="@IsRenamed" TrueBrush="Port.Ship.Tuple.Name.Renamed.Text" FalseBrush="Port.Ship.Tuple.Name.Text" TargetWidget="..\."/>
+                              </Children>
+                            </ScrollingTextWidget>
+
+                            <!-- Hull Name -->
+                            <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedWidth="!Ship.Image.Frame.Width" SuggestedHeight="20" VerticalAlignment="Bottom" PositionYOffset="20" Brush="Port.Ship.Tuple.HullName.Text" Text="@HullName"/>
+                            
+                            <!-- Change Indicator -->
+                            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Sprite="PortScreen\port_ship_frame_inner_glow" Color="#FEC157FF" IsVisible="@HasChanges" />
+
+                            <!-- Frame -->
+                            <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Port.Ship.Image.Frame" IsVisible="@IsHealthRelevant" />
+                            <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Port.Ship.Image.Frame.FullHealth" IsHidden="@IsHealthRelevant" />
+                          </Children>
+                        </ButtonWidget>
+                      </ItemTemplate>
+                    </ListPanel>
+                  </Children>
+                </Widget>
+
+                <!-- Next Button -->
+                <ButtonWidget Id="NextButton" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="30" SuggestedHeight="41" VerticalAlignment="Top" MarginTop="!PageButton.MarginTop" MarginLeft="5" Brush="Port.Ship.Next.Page.Button" />
+
+              </Children>
+            </ListPanel>
+
+          </Children>
+        </DiscreteScrollablePanel>
+
+        <DimensionSyncWidget DoNotAcceptEvents="true" DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="CoverChildren" MaxWidth="!List.Width" HorizontalAlignment="Center" VerticalAlignment="Top" DimensionToSync="Horizontal" WidgetToCopyHeightFrom="..\ScrollablePanel\Content\ClipRect\List" PaddingAmount="70" IsVisible="@HasMultipleShips">
+          <Children>
+            <Widget DataSource="{..}" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" VerticalAlignment="Center" IsHidden="@IsControllingCamera">
+              <Children>
+                <InputKeyVisualWidget DataSource="{SelectPreviousShipInputKey}" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="50" SuggestedHeight="50" HorizontalAlignment="Left" KeyID="@KeyID" IsVisible="@IsVisible"/>
+                <InputKeyVisualWidget DataSource="{SelectNextShipInputKey}" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="50" SuggestedHeight="50" HorizontalAlignment="Right" KeyID="@KeyID" IsVisible="@IsVisible"/>
+              </Children>
+            </Widget>
+          </Children>
+        </DimensionSyncWidget>
+
+        <ScrollbarWidget Id="HorizontalScrollbar" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="6" VerticalAlignment="Bottom" AlignmentAxis="Horizontal" DoNotUpdateHandleSize="true" Handle="ScrollbarHandle" MaxValue="100" MinValue="0" IsVisible="false">
+          <Children>
+            <ImageWidget Id="ScrollbarHandle" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="10" SuggestedHeight="10" HorizontalAlignment="Left" VerticalAlignment="Center" />
+          </Children>
+        </ScrollbarWidget>
+
+      </Children>
+    </Widget>
+
+  </Window>
+</Prefab>

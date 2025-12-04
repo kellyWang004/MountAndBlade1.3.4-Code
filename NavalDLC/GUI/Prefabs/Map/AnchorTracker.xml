@@ -1,0 +1,31 @@
+<Prefab>
+  <Constants>
+    <Constant Name="MainHeroVisual.Padding" Value="5" />
+
+    <Constant Name="Party.Banner.Width" BrushLayer="Default" BrushName="Nameplate.FlatBanner.Party" BrushValueType="Width" />
+    <Constant Name="Party.Banner.Height" BrushLayer="Default" BrushName="Nameplate.FlatBanner.Party" BrushValueType="Height" />
+
+    <Constant Name="Party.Banner.Width.Scaled" MultiplyResult="0.20" Value="!Party.Banner.Width" />
+    <Constant Name="Party.Banner.Height.Scaled" MultiplyResult="0.20" Value="!Party.Banner.Height" />
+
+    <Constant Name="Banner.Width" BrushLayer="Default" BrushName="Flat.Tuple.Banner.Small" BrushValueType="Width" />
+    <Constant Name="Banner.Height" BrushLayer="Default" BrushName="Flat.Tuple.Banner.Small" BrushValueType="Height" />
+
+    <Constant Name="Banner.Width.Scaled" MultiplyResult="0.55" Value="!Banner.Width" />
+    <Constant Name="Banner.Height.Scaled" MultiplyResult="0.50" Value="!Banner.Height" />
+
+    <Constant Name="Frame.Height.Scaled" Additive="12" Value="!Banner.Height.Scaled" />
+  </Constants>
+  <Window>
+    <Widget DoNotAcceptEvents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" IsVisible="@IsVisible">
+      <Children>
+        <MapAnchorTrackerWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="60" SuggestedHeight="60" HorizontalAlignment="Left" VerticalAlignment="Top" PositionX="@PositionX" PositionY="@PositionY" PositionW="@PositionW" >
+          <Children>
+            <ButtonWidget DoNotPassEventsToChildren="true" UpdateChildrenStates="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.Click="ExecuteGoToPosition" Command.HoverBegin="ExecuteShowTooltip" Command.HoverEnd="ExecuteHideTooltip" CircularClipEnabled="true" CircularClipRadius="30" Brush="Map.Anchor.Tracker" />
+            <BrushWidget DoNotAcceptEvents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" PositionYOffset="5" Brush="Naval.Map.Ship.Tracker.Frame"/>
+          </Children>
+        </MapAnchorTrackerWidget>
+      </Children>
+    </Widget>
+  </Window>
+</Prefab>

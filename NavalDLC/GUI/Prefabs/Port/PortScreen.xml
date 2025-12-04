@@ -1,0 +1,455 @@
+<Prefab>
+  <Constants>
+    <Constant Name="Ship.Image.Padding" Value="2"/>
+    <Constant Name="Ship.Image.Frame.Width" Value="84"/>
+    <Constant Name="Ship.Image.Frame.Height" Value="74"/>
+    <Constant Name="Ship.Item.Margin" Value="10"/>
+    <Constant Name="Piece.Size" Value="70"/>
+    <Constant Name="Piece.Margin" Value="14"/>
+    <Constant Name="Piece.SizeAndMargin" Value="!Piece.Size" Additive="!Piece.Margin"/>
+    <Constant Name="Piece.Size.Hovered" Value="!Piece.Size" MultiplyResult="1.025"/>
+    <Constant Name="Piece.Size.Pressed" Value="!Piece.Size" MultiplyResult="0.975"/>
+    <Constant Name="Piece.Size.Selected" Value="!Piece.Size" MultiplyResult="1.05"/>
+  </Constants>
+  <VisualDefinitions>
+    <VisualDefinition Name="CameraControls" TransitionDuration="0.45" EaseType="EaseOut" EaseFunction="Quint">
+      <VisualState MarginBottom="60" State="Default" />
+      <VisualState MarginBottom="96" State="Extended" />
+    </VisualDefinition>
+    <VisualDefinition Name="Ship.Slot" TransitionDuration="0.15" EaseType="EaseInOut" EaseFunction="Sine">
+      <VisualState State="Default" SuggestedWidth="!Piece.Size" SuggestedHeight="!Piece.Size" />
+      <VisualState State="Hovered" SuggestedWidth="!Piece.Size.Hovered" SuggestedHeight="!Piece.Size.Hovered" />
+      <VisualState State="Pressed" SuggestedWidth="!Piece.Size.Pressed" SuggestedHeight="!Piece.Size.Pressed" />
+      <VisualState State="Selected" SuggestedWidth="!Piece.Size.Selected" SuggestedHeight="!Piece.Size.Selected" />
+    </VisualDefinition>
+  </VisualDefinitions>
+  <Window>
+    <PortScreenWidget DoNotAcceptEvents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" IsAnyUpgradeSlotSelected="@IsAnyUpgradeSlotSelected" SlotsPanel="LeftPanel\SlotsPanel" UpgradesPanel="LeftPanel\UpgradesPanel\UpgradesInnerPanel" Command.DeselectSlot="ExecuteDeselectSlot" IsControllingCamera="@IsControllingCamera" TopPanel="TopPanel" BottomPanel="BottomPanel" LeftPanel="LeftPanel" RightPanel="RightPanel" InspectionPanelWidget="InspectionPanel" UpgradesPanelArrowWidget="LeftPanel\UpgradesPanel\UpgradesPanelBackgroundContainer\UpgradesPanelArrowWidget">
+      <Children>
+
+        <!-- Left Gradient -->
+        <Widget DoNotAcceptEvents="true" WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="500" HorizontalAlignment="Left" Sprite="main_menu_gradient_left_9" AlphaFactor="0.65"/>
+        <!-- Right Gradient -->
+        <Widget DoNotAcceptEvents="true" WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="500" HorizontalAlignment="Right" Sprite="main_menu_gradient_left_9" AlphaFactor="0.65" HorizontalFlip="true" />
+
+        <!-- Top Panel -->
+        <Widget Id="TopPanel" DoNotAcceptEvents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Top">
+          <Children>
+
+            <ListPanel Id="RosterButtons" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Top" StackLayout.LayoutMethod="HorizontalLeftToRight">
+              <Children>
+
+                <!-- Left Roster Button -->
+                <PortRosterButton DataSource="{LeftRoster}" MarginLeft="20" MarginRight="20">
+                  <Children>
+                    <Widget DoNotAcceptEvents="true" DoNotPassEventsToChildren="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Left" VerticalAlignment="Top" PositionXOffset="-35" IsHidden="@IsSelected">
+                      <Children>
+                        <Widget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" IsVisible="@HasAnyShips">
+                          <Children>
+                            <Widget DataSource="{..}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" IsHidden="@IsControllingCamera">
+                              <Children>
+                                <InputKeyVisualWidget DataSource="{SelectLeftRosterInputKey}" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="50" SuggestedHeight="50" KeyID="@KeyID" IsVisible="@IsVisible"/>
+                              </Children>
+                            </Widget>
+                          </Children>
+                        </Widget>
+                      </Children>
+                    </Widget>
+                  </Children>
+                </PortRosterButton>
+
+                <!-- Right Roster Button -->
+                <PortRosterButton DataSource="{RightRoster}" MarginLeft="20" MarginRight="20">
+                  <Children>
+                    <Widget DoNotAcceptEvents="true" DoNotPassEventsToChildren="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Right" VerticalAlignment="Top" PositionXOffset="35" IsHidden="@IsSelected">
+                      <Children>
+                        <Widget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" IsVisible="@HasAnyShips">
+                          <Children>
+                            <Widget DataSource="{..}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" IsHidden="@IsControllingCamera">
+                              <Children>
+                                <InputKeyVisualWidget DataSource="{SelectRightRosterInputKey}" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="50" SuggestedHeight="50" KeyID="@KeyID" IsVisible="@IsVisible"/>
+                              </Children>
+                            </Widget>
+                          </Children>
+                        </Widget>
+                      </Children>
+                    </Widget>
+                  </Children>
+                </PortRosterButton>
+
+              </Children>
+            </ListPanel>
+
+            <!-- Left Ships Panel -->
+            <PortShipList Parameter.DataSource="{LeftRoster}" Parameter.IsRightSide="false" />
+
+            <!-- Right Ships Panel -->
+            <PortShipList Parameter.DataSource="{RightRoster}" Parameter.IsRightSide="true" />
+
+          </Children>
+        </Widget>
+
+        <!-- Left Panel -->
+        <ListPanel Id="LeftPanel" DoNotAcceptEvents="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent" HorizontalAlignment="Left" MarginLeft="30" MarginTop="250" MarginBottom="55">
+          <Children>
+
+            <!-- Slots Panel -->
+            <ListPanel Id="SlotsPanel" WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent">
+              <Children>
+
+                <ScrollablePanel Id="SlotsScrollablePanel" WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent" AutoHideScrollBars="true" ClipRect="ClipRect" InnerPanel="ClipRect\SlotsInnerPanel" VerticalScrollbar="..\SlotsScrollbar">
+                  <Children>
+                    <Widget Id="ClipRect" WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent" ClipContents="true">
+                      <Children>
+                        <NavigationScopeTargeter ScopeID="SlotsPanelNavigationScope" ScopeParent="..\SlotsInnerPanel" ScopeMovements="Vertical" />
+                        <NavigatableListPanel Id="SlotsInnerPanel" DataSource="{SelectedShip\Upgrades\UpgradeSlots}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" MarginTop="10" MarginLeft="5" MarginRight="5" StackLayout.LayoutMethod="VerticalBottomToTop" AutoScrollTopOffset="20" AutoScrollBottomOffset="20">
+                          <ItemTemplate>
+                            <PortInspectionParentWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!Piece.Size" SuggestedHeight="!Piece.Size" MarginBottom="!Piece.Margin" Command.HoverBegin="ExecuteInspectBegin" Command.HoverEnd="ExecuteInspectEnd">
+                              <Children>
+
+                                <ButtonWidget Id="SelectedPiece" DoNotPassEventsToChildren="true" UpdateChildrenStates="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!Piece.Size" SuggestedHeight="!Piece.Size" HorizontalAlignment="Center" VerticalAlignment="Center" IsSelected="@IsSelected" IsEnabled="@CanTradeUpgrades" Command.Click="ExecuteSelect" Command.HoverBegin="ExecuteInspectBegin" Command.HoverEnd="ExecuteInspectEnd">
+                                  <Children>
+                                    <Widget VisualDefinition="Ship.Slot" UpdateChildrenStates="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!Piece.Size" SuggestedHeight="!Piece.Size" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                      <Children>
+                                    <!-- Selected Piece Visual -->
+                                    <Widget UpdateChildrenStates="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" IsVisible="@HasSelectedPiece">
+                                      <Children>
+                                        <PortUpgradePieceVisuals DataSource="{SelectedPiece}" />
+                                      </Children>
+                                    </Widget>
+
+                                    <!-- Empty Slot Visual -->
+                                        <Widget UpdateChildrenStates="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" IsHidden="@HasSelectedPiece">
+                                          <Children>
+                                            <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Port.Slot.Button.Background" />
+                                            <IconBrushWidget UpdateChildrenStates="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="2" MarginRight="2" MarginTop="2" MarginBottom="2" Brush="Port.Slot.Button.Empty.Icon.Base" IconBrush="Port.Slot.Button.Empty.Icons" IconID="@SlotTypeId">
+                                              <Children>
+                                                <IconBrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Port.Slot.Button.Empty.Icon.Highlight.Base" IconBrush="Port.Slot.Button.Empty.Highlight.Icons" IconID="@SlotTypeId"/>
+                                              </Children>
+                                            </IconBrushWidget>
+                                            <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Port.Slot.Button.Frame" />
+                                          </Children>
+                                        </Widget>
+                                    
+                                        <!-- New Piece Indicator Frame -->
+                                        <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" ExtendLeft="4" ExtendRight="4" ExtendTop="4" ExtendBottom="4" Sprite="PortScreen\UpgradeFrames\upgrade_frame_inner_glow" Color="#FEC157FF" IsVisible="@IsChanged" />
+
+                                        <!-- Better Piece Available Indicator -->
+                                        <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="10" SuggestedHeight="10" HorizontalAlignment="Right" VerticalAlignment="Bottom" MarginRight="3" MarginBottom="5" Brush="Port.ShipPiece.BetterAvailable.Icon" IsVisible="@AnyBetterPiecesAvailable"/>
+
+                                    <!-- Newly Unlocked Piece Notification -->
+                                        <Widget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Right" VerticalAlignment="Top" MarginRight="3" MarginTop="3" IsHidden="@IsDisabled">
+                                          <Children>
+                                            <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="10" SuggestedHeight="10" Brush="Port.Slot.Notification" IsVisible="@IsUnexamined" UseGlobalTimeForAnimation="true" />
+                                          </Children>
+                                        </Widget>
+                                      </Children>
+                                    </Widget>
+
+                                    <HintWidget DataSource="{SlotHint}" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" IsEnabled="false"/>
+                                  </Children>
+                                </ButtonWidget>
+
+                                <HintWidget DataSource="{SlotHint}" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" IsEnabled="false"/>
+
+                              </Children>
+                            </PortInspectionParentWidget>
+                          </ItemTemplate>
+                        </NavigatableListPanel>
+                      </Children>
+                    </Widget>
+                  </Children>
+                </ScrollablePanel>
+
+                <!-- Scrollbar -->
+                <ScrollbarWidget Id="SlotsScrollbar" WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent" MarginLeft="6" MarginTop="10" MarginBottom="5" AlignmentAxis="Vertical" Handle="SlotsScrollbarHandle" MaxValue="100" MinValue="0">
+                  <Children>
+                    <Widget WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="2" HorizontalAlignment="Center" Sprite="BlankWhiteSquare_9" Color="#FFFFFFB0" />
+                    <ImageWidget Id="SlotsScrollbarHandle" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="6" SuggestedHeight="250" HorizontalAlignment="Center" VerticalAlignment="Top" Brush="Port.Scrollbar.Handle" />
+                  </Children>
+                </ScrollbarWidget>
+                
+              </Children>
+            </ListPanel>
+            
+            <!-- Upgrades Panel -->
+            <PortUpgradesPanelParentWidget Id="UpgradesPanel" DataSource="{SelectedShip\Upgrades}" DoNotAcceptEvents="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent" MarginLeft="60" VisibilityCondition="@HasSelectedSlot" VisibilityAnimationDuration="0.15">
+              <Children>
+                <ListPanel Id="UpgradesPanelBackgroundContainer" DoNotAcceptEvents="true" DoNotPassEventsToChildren="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent" PositionXOffset="-45" MarginBottom="5" ClipContents="true">
+                  <Children>
+                    <PortUpgradesPanelArrowWidget Id="UpgradesPanelArrowWidget" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="30" SuggestedHeight="30" ClipContents="true">
+                      <Children>
+                        <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="30" SuggestedHeight="30" HorizontalAlignment="Center" VerticalAlignment="Center" PivotX="0.5" PivotY="0.5" Rotation="45" PositionXOffset="21" Sprite="BlankWhiteSquare_9" Color="#DD8808CC"/>
+                      </Children>
+                    </PortUpgradesPanelArrowWidget>
+                    <Widget WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="2" Sprite="BlankWhiteSquare_9" Color="#DD8808CC" />
+                    <Widget WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="300" Sprite="horizontal_gradient_divider_9" Color="#00000066" />
+                  </Children>
+                </ListPanel>
+                
+                <NavigationForcedScopeCollectionTargeter CollectionID="UpgradesPanelPopupCollection" CollectionParent="..\UpgradesInnerPanel" IsCollectionEnabled="@HasSelectedSlot" />
+                <ListPanel Id="UpgradesInnerPanel" DoNotAcceptEvents="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" MarginTop="10" StackLayout.LayoutMethod="VerticalBottomToTop" IsEnabled="@HasSelectedSlot">
+                  <Children>
+
+                    <!-- Clear Slot -->
+                    <NavigationScopeTargeter ScopeID="ClearSlotButtonScope" ScopeParent="..\ClearSlotButton" />
+                    <ButtonWidget Id="ClearSlotButton" DataSource="{SelectedSlot}" DoNotPassEventsToChildren="true" UpdateChildrenStates="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!Piece.Size" SuggestedHeight="!Piece.Size" MarginBottom="!Piece.Margin" IsSelected="@IsEmpty" Command.Click="ExecuteClearSlot" Brush="Port.Slot.Button.SoundBrush.Clear" GamepadNavigationIndex="0">
+                      <Children>
+                        <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Port.Slot.Button.Background" />
+                        <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Port.Slot.Button.UpgradePiece.Frame.Clear" />
+                        <HintWidget DataSource="{ClearSlotHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" IsEnabled="false"/>
+                      </Children>
+                    </ButtonWidget>
+
+                    <ListPanel DoNotAcceptEvents="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren">
+                      <Children>
+                        <!-- Bronze Tier Grid -->
+                        <GridWidget Id="BronzeTierPiecesGrid" DataSource="{SelectedSlot\AvailablePieces}" DoNotAcceptEvents="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" GridLayout.Direction="ColumnFirst" RowCount="8" DefaultCellWidth="!Piece.SizeAndMargin" DefaultCellHeight="!Piece.SizeAndMargin">
+                          <ItemTemplate>
+                            <PortUpgradePiece WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!Piece.Size" SuggestedHeight="!Piece.Size" MarginBottom="!Piece.Margin" MarginRight="!Piece.Margin" IsVisible="@IsBronzeTier" Parameter.ButtonBrush="Port.Slot.Button.SoundBrush.Bronze"/>
+                          </ItemTemplate>
+                        </GridWidget>
+
+                        <!-- Silver Tier Grid -->
+                        <GridWidget Id="SilverTierPiecesGrid" DataSource="{SelectedSlot\AvailablePieces}" DoNotAcceptEvents="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" GridLayout.Direction="ColumnFirst" RowCount="8" DefaultCellWidth="!Piece.SizeAndMargin" DefaultCellHeight="!Piece.SizeAndMargin">
+                          <ItemTemplate>
+                            <PortUpgradePiece WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!Piece.Size" SuggestedHeight="!Piece.Size" MarginBottom="!Piece.Margin" MarginRight="!Piece.Margin" IsVisible="@IsSilverTier" Parameter.ButtonBrush="Port.Slot.Button.SoundBrush.Silver"/>
+                          </ItemTemplate>
+                        </GridWidget>
+
+                        <!-- Gold Tier Grid -->
+                        <GridWidget Id="GoldTierPiecesGrid" DataSource="{SelectedSlot\AvailablePieces}" DoNotAcceptEvents="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" GridLayout.Direction="ColumnFirst" RowCount="8" DefaultCellWidth="!Piece.SizeAndMargin" DefaultCellHeight="!Piece.SizeAndMargin">
+                          <ItemTemplate>
+                            <PortUpgradePiece WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!Piece.Size" SuggestedHeight="!Piece.Size" MarginBottom="!Piece.Margin" MarginRight="!Piece.Margin" IsVisible="@IsGoldTier" Parameter.ButtonBrush="Port.Slot.Button.SoundBrush.Gold"/>
+                          </ItemTemplate>
+                        </GridWidget>
+
+                        <!-- Diamond Tier Grid -->
+                        <GridWidget Id="DiamondTierPiecesGrid" DataSource="{SelectedSlot\AvailablePieces}" DoNotAcceptEvents="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" GridLayout.Direction="ColumnFirst" RowCount="8" DefaultCellWidth="!Piece.SizeAndMargin" DefaultCellHeight="!Piece.SizeAndMargin">
+                          <ItemTemplate>
+                            <PortUpgradePiece WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!Piece.Size" SuggestedHeight="!Piece.Size" MarginBottom="!Piece.Margin" MarginRight="!Piece.Margin" IsVisible="@IsDiamondTier" Parameter.ButtonBrush="Port.Slot.Button.SoundBrush.Diamond"/>
+                          </ItemTemplate>
+                        </GridWidget>
+                      </Children>
+                    </ListPanel>
+                  </Children>
+                </ListPanel>
+              </Children>
+            </PortUpgradesPanelParentWidget>
+
+          </Children>
+        </ListPanel>
+
+        <!-- Right Panel -->
+        <ListPanel Id="RightPanel" DoNotAcceptEvents="true" WidthSizePolicy="Fixed" SuggestedWidth="300" HeightSizePolicy="CoverChildren" HorizontalAlignment="Right" MarginTop="260" MarginRight="20" StackLayout.LayoutMethod="VerticalBottomToTop">
+          <Children>
+
+            <!--Ship Name Container-->
+            <NavigationScopeTargeter ScopeID="ShipNameNavigationScope" ScopeParent="..\ShipNameContainer" ScopeMovements="Horizontal" />
+            <NavigatableListPanel Id="ShipNameContainer" DataSource="{SelectedShip}" DoNotAcceptEvents="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" MarginBottom="10">
+              <Children>
+                <Widget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center">
+                  <Children>
+                    <ButtonWidget DoNotPassEventsToChildren="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" Command.Click="ExecuteChangeShipName" IsEnabled="@PlayerCanChangeShipName" UpdateChildrenStates="true">
+                      <Children>
+                        <!-- Name Underline -->
+                        <DimensionSyncWidget DoNotAcceptEvents="true" UpdateChildrenStates="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedHeight="2" VerticalAlignment="Bottom" DimensionToSync="Horizontal" WidgetToCopyHeightFrom="..\NameListPanel\NameTextWidget">
+                          <Children>
+                            <BrushWidget DoNotAcceptEvents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Port.Ship.Name.Underline"/>
+                          </Children>
+                        </DimensionSyncWidget>
+                        <!--Ship Name-->
+                        <ListPanel Id="NameListPanel" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="HorizontalLeftToRight" HorizontalAlignment="Center" UpdateChildrenStates="true">
+                          <Children>
+                            <ScrollingTextWidget Id="NameTextWidget" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" MaxWidth="225" Brush="Port.Ship.Name.Text" Text="@Name" VerticalAlignment="Center" IsAutoScrolling="false" ScrollOnHoverWidget="..\..\."/>
+                            <Widget WidthSizePolicy="CoverChildren" HeightSizePolicy="Fixed" SuggestedHeight="30" HorizontalAlignment="Right" VerticalAlignment="Center" MarginLeft="5" IsVisible="@PlayerCanChangeShipName" UpdateChildrenStates="true">
+                              <Children>
+                                <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="29" SuggestedHeight="37" VerticalAlignment="Center" Brush="Kingdom.Name.Edit.Icon"  />
+                          </Children>
+                            </Widget>
+                          </Children>
+                        </ListPanel>
+                      </Children>
+                    </ButtonWidget>
+                    <HintWidget DataSource="{ChangeShipNameHint}" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" IsEnabled="false" />
+                  </Children>
+                </Widget>
+                <!-- Reset Name Button -->
+                <ButtonWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="30" SuggestedHeight="30" VerticalAlignment="Center" HorizontalAlignment="Right" Brush="Port.Name.Reset.Button" Command.Click="ExecuteResetShipName" IsVisible="@IsRenamed" />
+              </Children>
+            </NavigatableListPanel>
+
+            <!-- Stats List -->
+            <NavigationScopeTargeter ScopeID="ShipStatsNavigationScope" ScopeParent="..\ShipStats" ScopeMovements="Vertical" />
+            <NavigatableListPanel Id="ShipStats" DataSource="{SelectedShip\Stats\StatList}" DoNotAcceptEvents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="VerticalBottomToTop">
+              <ItemTemplate>
+                <ListPanel DoNotPassEventsToChildren="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="28" StackLayout.LayoutMethod="HorizontalLeftToRight">
+                  <Children>
+                    <TextWidget WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="146" Brush="Port.Ship.Stat.Name.Text" Text="@Name" MarginRight="4" />
+                    <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent" MaxWidth="125" Brush="Port.Ship.Stat.Value.Text" Text="@ValueText" MarginLeft="4" />
+                    <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent" Brush="Port.Ship.Stat.BonusValue.Text" Text="@BonusValueText" MarginLeft="4">
+                      <Children>
+                        <BoolStateChangerWidget BooleanCheck="@IsBonusBeneficial" TrueState="Positive" FalseState="Negative" TargetWidget="..\."/>
+                      </Children>
+                    </TextWidget>
+                    <HintWidget DataSource="{Hint}" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" IsEnabled="false" />
+                  </Children>
+                </ListPanel>
+              </ItemTemplate>
+            </NavigatableListPanel>
+
+            <!-- Buttons List -->
+            <NavigationScopeTargeter ScopeID="ActionButtonsNavigationScope" ScopeParent="..\ActionButtons" ScopeMovements="Vertical" />
+            <NavigatableListPanel Id="ActionButtons" DoNotAcceptEvents="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" MarginTop="20" StackLayout.LayoutMethod="VerticalBottomToTop">
+              <Children>
+
+                <!--Repair Button-->
+                <PortActionButton Parameter.DataSource="{RepairAction}" Parameter.Brush="Port.Repair.Button" MarginBottom="10" HorizontalAlignment="Center" />
+
+                <!--Repair All Button-->
+                <PortActionButton Parameter.DataSource="{RepairAllAction}" Parameter.Brush="Port.RepairAll.Button" MarginBottom="10" HorizontalAlignment="Center" />
+
+                <!--Send to Clan Button-->
+                <PortActionButton Parameter.DataSource="{SendToClanAction}" Parameter.Brush="Port.SendToClan.Button" MarginBottom="10" HorizontalAlignment="Center" />
+              </Children>
+            </NavigatableListPanel>
+
+          </Children>
+        </ListPanel>
+
+        <Widget Id="BottomPanel" DoNotAcceptEvents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent">
+          <Children>
+            <!-- Total Cost -->
+            <NavigationScopeTargeter ScopeID="TotalCostNavigationScope" ScopeParent="..\TotalCost" />
+            <RichTextWidget Id="TotalCost" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Bottom" MarginBottom="120" Text="@TotalGoldCostText" AutoHideIfEmpty="true" GamepadNavigationIndex="0">
+              <Children>
+                <HintWidget DataSource="{GoldCostHint}" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" IsEnabled="false"/>
+              </Children>
+            </RichTextWidget>
+
+            <!-- Main Action Buttons -->
+            <NavigationScopeTargeter ScopeID="MainActionButtonsNavigationScope" ScopeParent="..\MainActionButtons" ScopeMovements="Vertical" />
+            <Widget Id="MainActionButtons" DoNotAcceptEvents="true" WidthSizePolicy="Fixed" HeightSizePolicy="CoverChildren" SuggestedWidth="300" HorizontalAlignment="Right" VerticalAlignment="Bottom" MarginRight="20" MarginBottom="200">
+              <Children>
+
+            <!-- Buy Button -->
+                <PortActionButton Parameter.DataSource="{BuyAction}" Parameter.Brush="Port.Buy.Button" HorizontalAlignment="Center" VerticalAlignment="Bottom" GamepadNavigationIndex="0"/>
+
+            <!-- Sell Button -->
+                <PortActionButton Parameter.DataSource="{SellAction}" Parameter.Brush="Port.Sell.Button" HorizontalAlignment="Center" VerticalAlignment="Bottom" GamepadNavigationIndex="1"/>
+
+              </Children>
+            </Widget>
+          </Children>
+        </Widget>
+
+        <!-- Camera Controls Navigation -->
+        <NavigationScopeTargeter ScopeID="CameraNavigationScope" ScopeParent="..\CameraNavigationTarget" IsDefaultNavigationScope="true" />
+        <Widget Id="CameraNavigationTarget" DoNotAcceptEvents="true" DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="150" SuggestedHeight="150" ExtendCursorAreaLeft="-50" ExtendCursorAreaRight="-50" ExtendCursorAreaTop="-50" ExtendCursorAreaBottom="-50" VerticalAlignment="Center" HorizontalAlignment="Center" GamepadNavigationIndex="0" />
+
+        <!-- Input Key List -->
+        <Widget VisualDefinition="CameraControls" DoNotAcceptEvents="true" DoNotPassEventsToChildren="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Right" VerticalAlignment="Bottom" MarginRight="10" MarginBottom="60">
+          <Children>
+            <!-- Gamepad Inputs -->
+            <Widget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" IsVisible="@CanUseGamepadInputs">
+              <Children>
+                <ListPanel DataSource="{GamepadCameraControlKeys}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="HorizontalLeftToRight">
+                  <ItemTemplate>
+                    <ListPanel WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="HorizontalLeftToRight" MarginLeft="15" IsVisible="@IsVisible">
+                      <Children>
+                        <InputKeyVisualWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="50" SuggestedHeight="50" VerticalAlignment="Center" KeyID="@KeyID" IsVisible="@IsVisible"/>
+                        <TextWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="60" SuggestedHeight="40" VerticalAlignment="Center" Text="@KeyName" Brush="FaceGen.Input.Text" />
+                      </Children>
+                    </ListPanel>
+                  </ItemTemplate>
+                </ListPanel>
+              </Children>
+            </Widget>
+            <!-- Keyboard Inputs -->
+            <DisabledAlphaChangerWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" IsHidden="@CanUseGamepadInputs" IsEnabled="@CanUseKeyboardInputs" UpdateChildrenAlphas="true" DisabledAlpha="0" AnimationDuration="0.15">
+              <Children>
+                <ListPanel WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren">
+                  <Children>
+                <ListPanel DataSource="{KeyboardMoveCameraInputKeys}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="HorizontalLeftToRight">
+                  <ItemTemplate>
+                    <InputKeyVisualWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="50" SuggestedHeight="50" MarginLeft="-10" VerticalAlignment="Center" KeyID="@KeyID" IsVisible="@IsVisible"/>
+                  </ItemTemplate>
+                </ListPanel>
+                <TextWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="60" SuggestedHeight="40" VerticalAlignment="Center" Text="@KeyboardMoveCameraText" Brush="FaceGen.Input.Text" />
+                <ListPanel DataSource="{KeyboardRotateCameraInputKey}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="HorizontalLeftToRight" MarginLeft="15" IsVisible="@IsVisible">
+                  <Children>
+                    <InputKeyVisualWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="50" SuggestedHeight="50" VerticalAlignment="Center" KeyID="@KeyID" IsVisible="@IsVisible"/>
+                    <TextWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="60" SuggestedHeight="40" VerticalAlignment="Center" Text="@KeyName" Brush="FaceGen.Input.Text" />
+                  </Children>
+                </ListPanel>
+              </Children>
+            </ListPanel>
+              </Children>
+            </DisabledAlphaChangerWidget>
+
+            <BoolStateChangerWidget TargetWidget="..\." BooleanCheck="@IsMapBarExtended" FalseState="Default" TrueState="Extended" />
+          </Children>
+        </Widget>
+
+        <PortPieceInspectionWidget Id="InspectionPanel" DataSource="{InspectedUpgrade}" DoNotAcceptEvents="true" DoNotPassEventsToChildren="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" IsInspected="@IsInspected" AnimationSpeed="15" OffsetFromTarget="70" FadeInOutDuration="0.2" FadeOutDelay="0.1" TopFrameWidget="FrameContainer\FrameDimensionSyncWidget\FrameListPanel\TopFrame" >
+          <Children>
+
+            <!-- Frame & Background -->
+            <Widget Id="FrameContainer" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="1" SuggestedHeight="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+              <Children>
+                <DimensionSyncWidget Id="FrameDimensionSyncWidget" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" VerticalAlignment="Center" HorizontalAlignment="Center" WidgetToCopyHeightFrom="..\..\." DimensionToSync="HorizontalAndVertical" PaddingAmount="25">
+                  <Children>
+                    <!-- Frame -->
+                    <ListPanel Id="FrameListPanel" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" StackLayout.LayoutMethod="VerticalBottomToTop">
+                      <Children>
+                        <BrushWidget Id="TopFrame" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" Brush="Port.ShipPiece.Tooltip.Background"/>
+                        <BrushWidget Id="BottomFrame" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Port.ShipPiece.Tooltip.Background.Bottom"/>
+                      </Children>
+                    </ListPanel>
+                  </Children>
+                </DimensionSyncWidget>
+              </Children>
+            </Widget>
+
+            <ListPanel WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="HorizontalLeftToRight">
+              <Children>
+
+                <ListPanel WidthSizePolicy="Fixed" HeightSizePolicy="CoverChildren" SuggestedWidth="245" StackLayout.LayoutMethod="VerticalBottomToTop" >
+                  <Children>
+                    <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" Brush="Port.ShipPiece.Stat.Header.Text" Text="@Name" MarginBottom="5" />
+
+                    <!-- Thumbnail -->
+                    <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="240" SuggestedHeight="240" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Port.ShipPiece.Tooltip.Thumbnail.Background">
+                      <Children>
+                        <PortPieceImageBrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="2" MarginRight="2" MarginTop="2" MarginBottom="2" Identifier="@Identifier" Brush="Port.ShipUpgrade.Image" />
+                        <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Sprite="rounded_frame_9" Color="#817A5FFF"/>
+                      </Children>
+                    </BrushWidget>
+
+                    <PortPieceTooltipPropertiesListPanel DataSource="{Properties}" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="VerticalBottomToTop" MarginTop="5">
+                      <ItemTemplate>
+                        <ListPanel WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="HorizontalLeftToRight">
+                          <Children>
+                            <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" MarginRight="5" Brush="Port.ShipPiece.Stat.Definition.Text" Text="@Definition"/>
+                            <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" MarginLeft="5" Brush="Port.ShipPiece.Stat.Value.Text" Text="@Value" AutoHideIfEmpty="true" />
+                          </Children>
+                        </ListPanel>
+                      </ItemTemplate>
+                    </PortPieceTooltipPropertiesListPanel>
+
+                  </Children>
+                </ListPanel>
+
+              </Children>
+            </ListPanel>
+
+          </Children>
+        </PortPieceInspectionWidget>
+
+        <!-- Triple Popup Buttons -->
+        <Standard.TripleDialogCloseButtons Id="TripleDialogCloseButtons" Parameter.CancelButtonAction="ExecuteCancel" Parameter.CancelButtonText="@CancelText" Parameter.DoneButtonAction="ExecuteConfirm" Parameter.DoneButtonText="@ConfirmText" Parameter.ResetButtonAction="ExecuteReset" Parameter.ResetInputKeyDataSource="{ResetInputKey}" Parameter.CancelInputKeyDataSource="{CancelInputKey}" Parameter.DoneInputKeyDataSource="{DoneInputKey}" Parameter.DoneButtonHintDataSource="{CanConfirmHint}" Parameter.DoneButtonDisabled="@IsConfirmDisabled" Parameter.HideCancelInputKey="@IsAnyUpgradeSlotSelected" Parameter.ConfirmSoundEvent="port/confirm_ship" />
+
+      </Children>
+    </PortScreenWidget>
+  </Window>
+</Prefab>

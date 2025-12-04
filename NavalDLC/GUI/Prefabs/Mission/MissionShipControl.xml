@@ -1,0 +1,284 @@
+<Prefab>
+  <Constants>
+    <!-- Ship Health Bar -->
+    <Constant Name="Naval.Mission.ShipControl.ShipHealthBar.Width" MultiplyResult="0.7" Value="120"/>
+    <Constant Name="Naval.Mission.ShipControl.ShipHealthBar.Height" MultiplyResult="0.7" Value="171"/>
+    <!-- Wind Compass -->
+    <Constant Name="Naval.Mission.ShipControl.WindCompass.Size" MultiplyResult="0.8" Value="300"/>
+  </Constants>
+  <Parameters>
+    <Parameter Name="Wind.Indicator.Width" DefaultValue="23" />
+    <Parameter Name="Wind.Indicator.Height" DefaultValue="39" />
+    <Parameter Name="Wind.Indicator.Background.Size" DefaultValue="100" />
+  </Parameters>
+  <VisualDefinitions>
+    <VisualDefinition Name="IndicatorsPanel" EaseType="EaseInOut" EaseFunction="Cubic" TransitionDuration="0.62">
+      <VisualState State="Default" PositionXOffset="0" />
+      <VisualState State="Passive" PositionXOffset="400" />
+    </VisualDefinition>
+  </VisualDefinitions>
+  <Window>
+    <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent">
+      <Children>
+        <!-- State Changer for Parent -->
+        <BoolStateChangerWidget TargetWidget="..\IndicatorsPanel" BooleanCheck="@IsControllingShip" TrueState="Default" FalseState="Passive"/>
+
+        <!-- Indicators -->
+        <Widget Id="IndicatorsPanel" VisualDefinition="IndicatorsPanel" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" MarginRight="55" MarginBottom="75" VerticalAlignment="Bottom" HorizontalAlignment="Right" >
+          <Children>
+
+            <!-- Wind Compass Parent -->
+            <Widget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Center">
+              <Children>
+                <!-- Wind Panel -->
+                <ShipControlWindIndicatorParent WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!Naval.Mission.ShipControl.WindCompass.Size" SuggestedHeight="!Naval.Mission.ShipControl.WindCompass.Size" HorizontalAlignment="Center" VerticalAlignment="Center" WindHandle="..\WindHandle" ProjectedWindDirection="@ProjectedWindDirection" SailState="@SailState" UpdateChildrenStates="true">
+                  <Children>
+                    <ValueBasedVisibilityWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" IndexToWatch="@SailType" IndexToBeVisible="0" WatchType="Equal" UpdateChildrenStates="true">
+                      <Children>
+                        <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Naval.Mission.ShipControl.Compass.Square"/>
+                      </Children>
+                    </ValueBasedVisibilityWidget>
+                    <ValueBasedVisibilityWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" IndexToWatch="@SailType" IndexToBeVisible="1" WatchType="Equal" UpdateChildrenStates="true">
+                      <Children>
+                        <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Naval.Mission.ShipControl.Compass.Lateen"/>
+                      </Children>
+                    </ValueBasedVisibilityWidget>
+                    <ValueBasedVisibilityWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" IndexToWatch="@SailType" IndexToBeVisible="2" WatchType="Equal" UpdateChildrenStates="true">
+                      <Children>
+                        <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Naval.Mission.ShipControl.Compass.Hybrid"/>
+                      </Children>
+                    </ValueBasedVisibilityWidget>
+                  </Children>
+                </ShipControlWindIndicatorParent>
+
+                <!-- Compass Center -->
+                <BrushWidget Id="CompassCenter" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!Naval.Mission.ShipControl.WindCompass.Size" SuggestedHeight="!Naval.Mission.ShipControl.WindCompass.Size" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Naval.Mission.ShipControl.CompassCenter"/>
+
+                  <!-- Ship HP -->
+                <ShipHealthWidget DataSource="{ShipHitPoints}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Center" Health="@ActiveHitPoints" MaxHealth="@MaxHitPoints" HealthBar="FillBar" ChangeVisualWidget="FillBar\ChangeVisualContainer\ChangeVisual" DividerWidget="FillBar\DividerVisualContainer" DividerVisualWidget="FillBar\DividerVisualContainer\DividerVisual" IsVisible="@IsRelevant" AnimationDelay="0.5" AnimationDuration="0.5">
+                  <Children>
+                    <FillBarVerticalWidget Id="FillBar" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!Naval.Mission.ShipControl.ShipHealthBar.Width" SuggestedHeight="!Naval.Mission.ShipControl.ShipHealthBar.Height" IsDirectionUpward="true" FillWidget="FillVisualContainer" ChangeWidget="ChangeVisualContainer" Sprite="Mission\ShipControlHUD\main_ship_empty">
+                      <Children>
+                        <Widget Id="FillVisualContainer" ClipContents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed">
+                          <Children>
+                            <Widget Id="FillVisual" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="!Naval.Mission.ShipControl.ShipHealthBar.Height" VerticalAlignment="Bottom" Sprite="Mission\ShipControlHUD\main_ship"/>
+                          </Children>
+                        </Widget>
+                        <Widget Id="ChangeVisualContainer" ClipContents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed">
+                          <Children>
+                            <Widget Id="ChangeVisual" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="!Naval.Mission.ShipControl.ShipHealthBar.Height" VerticalAlignment="Bottom" Sprite="Mission\ShipControlHUD\main_ship" Color="#AA2222CC"/>
+                          </Children>
+                        </Widget>
+                        <Widget Id="DividerVisualContainer" ClipContents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" VerticalAlignment="Bottom" SuggestedHeight="1">
+                          <Children>
+                            <Widget Id="DividerVisual" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="!Naval.Mission.ShipControl.ShipHealthBar.Height" VerticalAlignment="Bottom" Sprite="Mission\ShipControlHUD\main_ship" ColorFactor="2"/>
+                          </Children>
+                        </Widget>
+                      </Children>
+                    </FillBarVerticalWidget>
+                  </Children>
+                </ShipHealthWidget>
+                
+                <!-- Fire Damage -->
+                <ShipFireContainerWidget DataSource="{FireHitPoints}" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="1" SuggestedHeight="1" HorizontalAlignment="Center" VerticalAlignment="Center" FireHitPoints="@ActiveHitPoints" MaxFireHitPoints="@MaxHitPoints" CompassCenterWidget="..\CompassCenter" IsVisible="@IsRelevant">
+                  <Children>
+                    <FillBarVerticalWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="20" SuggestedHeight="20" HorizontalAlignment="Center" VerticalAlignment="Center" PositionXOffset="-51.5" PositionYOffset="-19" FillWidget="FillWidget" IsDirectionUpward="true" UpdateChildrenStates="true">
+                      <Children>
+                        <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Naval.Mission.ShipControl.Fire.Icon.Inactive"/>
+                        <Widget Id="FillWidget" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" ClipContents="true" UpdateChildrenStates="true">
+                          <Children>
+                            <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="20" VerticalAlignment="Bottom" Brush="Naval.Mission.ShipControl.Fire.Icon.Active" UseGlobalTimeForAnimation="true"/>
+                          </Children>
+                        </Widget>
+                      </Children>
+                    </FillBarVerticalWidget>
+                    <FillBarVerticalWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="20" SuggestedHeight="20" HorizontalAlignment="Center" VerticalAlignment="Center" PositionXOffset="-42" PositionYOffset="-35" FillWidget="FillWidget" IsDirectionUpward="true" UpdateChildrenStates="true">
+                      <Children>
+                        <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Naval.Mission.ShipControl.Fire.Icon.Inactive"/>
+                        <Widget Id="FillWidget" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" ClipContents="true" UpdateChildrenStates="true">
+                          <Children>
+                            <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="20" VerticalAlignment="Bottom" Brush="Naval.Mission.ShipControl.Fire.Icon.Active" UseGlobalTimeForAnimation="true"/>
+                          </Children>
+                        </Widget>
+                      </Children>
+                    </FillBarVerticalWidget>
+                    <FillBarVerticalWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="20" SuggestedHeight="20" HorizontalAlignment="Center" VerticalAlignment="Center" PositionXOffset="-27.5" PositionYOffset="-47.5" FillWidget="FillWidget" IsDirectionUpward="true" UpdateChildrenStates="true">
+                      <Children>
+                        <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Naval.Mission.ShipControl.Fire.Icon.Inactive"/>
+                        <Widget Id="FillWidget" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" ClipContents="true" UpdateChildrenStates="true">
+                          <Children>
+                            <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="20" VerticalAlignment="Bottom" Brush="Naval.Mission.ShipControl.Fire.Icon.Active" UseGlobalTimeForAnimation="true"/>
+                          </Children>
+                        </Widget>
+                      </Children>
+                    </FillBarVerticalWidget>
+                    <FillBarVerticalWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="20" SuggestedHeight="20" HorizontalAlignment="Center" VerticalAlignment="Center" PositionXOffset="27.5" PositionYOffset="-47.5" FillWidget="FillWidget" IsDirectionUpward="true" UpdateChildrenStates="true">
+                      <Children>
+                        <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Naval.Mission.ShipControl.Fire.Icon.Inactive"/>
+                        <Widget Id="FillWidget" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" ClipContents="true" UpdateChildrenStates="true">
+                          <Children>
+                            <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="20" VerticalAlignment="Bottom" Brush="Naval.Mission.ShipControl.Fire.Icon.Active" UseGlobalTimeForAnimation="true"/>
+                          </Children>
+                        </Widget>
+                      </Children>
+                    </FillBarVerticalWidget>
+                    <FillBarVerticalWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="20" SuggestedHeight="20" HorizontalAlignment="Center" VerticalAlignment="Center" PositionXOffset="42" PositionYOffset="-35" FillWidget="FillWidget" IsDirectionUpward="true" UpdateChildrenStates="true">
+                      <Children>
+                        <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Naval.Mission.ShipControl.Fire.Icon.Inactive"/>
+                        <Widget Id="FillWidget" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" ClipContents="true" UpdateChildrenStates="true">
+                          <Children>
+                            <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="20" VerticalAlignment="Bottom" Brush="Naval.Mission.ShipControl.Fire.Icon.Active" UseGlobalTimeForAnimation="true"/>
+                          </Children>
+                        </Widget>
+                      </Children>
+                    </FillBarVerticalWidget>
+                    <FillBarVerticalWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="20" SuggestedHeight="20" HorizontalAlignment="Center" VerticalAlignment="Center" PositionXOffset="51.5" PositionYOffset="-19" FillWidget="FillWidget" IsDirectionUpward="true" UpdateChildrenStates="true">
+                      <Children>
+                        <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Naval.Mission.ShipControl.Fire.Icon.Inactive"/>
+                        <Widget Id="FillWidget" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" ClipContents="true" UpdateChildrenStates="true">
+                          <Children>
+                            <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="20" VerticalAlignment="Bottom" Brush="Naval.Mission.ShipControl.Fire.Icon.Active" UseGlobalTimeForAnimation="true"/>
+                          </Children>
+                        </Widget>
+                      </Children>
+                    </FillBarVerticalWidget>
+                  </Children>
+                </ShipFireContainerWidget>
+
+                <Widget Id="WindHandle" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="1" SuggestedHeight="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                  <Children>
+                    <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="50" SuggestedHeight="50" HorizontalAlignment="Center" VerticalAlignment="Center" PositionYOffset="-85" Sprite="Mission\ShipControlHUD\wind_cursor" ColorFactor="0.7" />
+                  </Children>
+                </Widget>
+              </Children>
+            </Widget>
+
+            <!-- Sail -->
+            <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="1" SuggestedHeight="1" HorizontalAlignment="Center" VerticalAlignment="Center" PositionXOffset="-120" PositionYOffset="-90">
+              <Children>
+                <!-- Sail State -->
+                <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="40" SuggestedHeight="44" HorizontalAlignment="Right" VerticalAlignment="Center">
+                  <Children>
+                    <ValueBasedVisibilityWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" IndexToWatch="@SailType" IndexToBeVisible="0" WatchType="Equal">
+                      <Children>
+                        <SelectedStateBrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" SelectedState="@SailState" Brush="Naval.Mission.ShipControl.Sail.Icon.Square"/>
+                      </Children>
+                    </ValueBasedVisibilityWidget>
+                    <ValueBasedVisibilityWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" IndexToWatch="@SailType" IndexToBeVisible="1" WatchType="Equal">
+                      <Children>
+                        <SelectedStateBrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" SelectedState="@SailState" Brush="Naval.Mission.ShipControl.Sail.Icon.Lateen"/>
+                      </Children>
+                    </ValueBasedVisibilityWidget>
+                    <ValueBasedVisibilityWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" IndexToWatch="@SailType" IndexToBeVisible="2" WatchType="Equal">
+                      <Children>
+                        <SelectedStateBrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" SelectedState="@SailState" Brush="Naval.Mission.ShipControl.Sail.Icon.Hybrid"/>
+                      </Children>
+                    </ValueBasedVisibilityWidget>
+
+                    <TutorialHighlightItemBrushWidget Id="SailHighlight" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="TutorialHighlightBrush" IsEnabled="false" IsVisible="false" IsHighlightEnabled="@IsSailHighlightActive" />
+
+                    <!--Input Key-->
+                    <DisabledAlphaChangerWidget DataSource="{ToggleSailKey}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Center" PositionXOffset="25" PositionYOffset="20" IsVisible="@IsVisible" IsDisabled="@IsDisabled" UpdateChildrenStates="true" DisabledAlpha="0.2" UpdateChildrenAlphas="true">
+                      <Children>
+                        <InputKeyVisualWidget DataSource="{Key}" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="40" SuggestedHeight="40" KeyID="@KeyID" Color="#F4E1C4FF" VerticalAlignment="Center"/>
+                      </Children>
+                    </DisabledAlphaChangerWidget>
+                  </Children>
+                </Widget>
+              </Children>
+            </Widget>
+
+            <!-- Oarsmen -->
+            <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="1" SuggestedHeight="1" HorizontalAlignment="Center" VerticalAlignment="Center" PositionXOffset="-135" PositionYOffset="-25">
+              <Children>
+                <!-- Oarsmen State -->
+                <SelectedStateBrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="40" SuggestedHeight="40" HorizontalAlignment="Right" VerticalAlignment="Center" SelectedState="@OarsmenState" Brush="Naval.Mission.ShipControl.Oarsmen.Icon">
+                  <Children>
+                    <TutorialHighlightItemBrushWidget Id="OarsmenHighlight" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="TutorialHighlightBrush" IsEnabled="false" IsVisible="false" IsHighlightEnabled="@IsOarsmenHighlightActive" />
+
+                    <!--Input Key-->
+                    <DisabledAlphaChangerWidget DataSource="{ToggleOarsmenKey}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Center" PositionXOffset="25" PositionYOffset="20" IsVisible="@IsVisible" IsDisabled="@IsDisabled" UpdateChildrenStates="true" DisabledAlpha="0.2" UpdateChildrenAlphas="true">
+                      <Children>
+                        <InputKeyVisualWidget DataSource="{Key}" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="40" SuggestedHeight="40" KeyID="@KeyID" Color="#F4E1C4FF" VerticalAlignment="Center"/>
+                      </Children>
+                    </DisabledAlphaChangerWidget>
+                  </Children>
+                </SelectedStateBrushWidget>
+              </Children>
+            </Widget>
+
+            <!-- Camera -->
+            <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="1" SuggestedHeight="1" HorizontalAlignment="Center" VerticalAlignment="Center" PositionXOffset="-120" PositionYOffset="40">
+              <Children>
+                <DisabledAlphaChangerWidget DataSource="{ChangeCameraKey}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Right" VerticalAlignment="Center" IsVisible="@IsVisible" IsDisabled="@IsDisabled" UpdateChildrenStates="true" DisabledAlpha="0.2" UpdateChildrenAlphas="true">
+                  <Children>
+                    <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="40" SuggestedHeight="40" HorizontalAlignment="Center" VerticalAlignment="Center" ExtendLeft="-5" ExtendRight="-5" ExtendTop="-5" ExtendBottom="-5" Sprite="Mission\ShipControlHUD\change_camera_icon">
+                      <Children>
+                        <InputKeyVisualWidget DataSource="{Key}" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="40" SuggestedHeight="40" HorizontalAlignment="Center" VerticalAlignment="Center" PositionXOffset="25" PositionYOffset="20" KeyID="@KeyID" Color="#F4E1C4FF"/>
+                      </Children>
+                    </Widget>
+                  </Children>
+                </DisabledAlphaChangerWidget>
+              </Children>
+            </Widget>
+
+            <!-- Cut Loose -->
+            <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="1" SuggestedHeight="1" HorizontalAlignment="Center" VerticalAlignment="Center" PositionXOffset="-190" PositionYOffset="-70">
+              <Children>
+                <DisabledAlphaChangerWidget DataSource="{CutLooseKey}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Right" VerticalAlignment="Center" IsVisible="@IsVisible" IsDisabled="@IsDisabled" UpdateChildrenStates="true" DisabledAlpha="0.2" UpdateChildrenAlphas="true">
+                  <Children>
+                    <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="40" SuggestedHeight="40" HorizontalAlignment="Center" VerticalAlignment="Center" Sprite="Mission\ShipControlHUD\cut_loose_icon">
+                      <Children>
+                        <InputKeyVisualWidget DataSource="{Key}" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="40" SuggestedHeight="40" HorizontalAlignment="Center" VerticalAlignment="Center" PositionXOffset="25" PositionYOffset="20" KeyID="@KeyID" Color="#F4E1C4FF"/>
+                      </Children>
+                    </Widget>
+                  </Children>
+                </DisabledAlphaChangerWidget>
+                <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="40" SuggestedHeight="40" HorizontalAlignment="Right" VerticalAlignment="Center" Brush="Naval.Mission.ShipControl.CutLoose.Icon.Active" IsVisible="@IsCutLooseOrderActive"/>
+              </Children>
+            </Widget>
+
+            <!-- Ballista -->
+            <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="1" SuggestedHeight="1" HorizontalAlignment="Center" VerticalAlignment="Center" PositionXOffset="-40" PositionYOffset="-145">
+              <Children>
+                <DisabledAlphaChangerWidget DataSource="{ToggleBallistaKey}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Right" VerticalAlignment="Center" IsVisible="@IsVisible" IsDisabled="@IsDisabled" UpdateChildrenStates="true" DisabledAlpha="0.2" UpdateChildrenAlphas="true">
+                  <Children>
+                    <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="80" SuggestedHeight="40" HorizontalAlignment="Center" VerticalAlignment="Center" Sprite="Mission\ShipControlHUD\ballista_icon">
+                      <Children>
+                        <InputKeyVisualWidget DataSource="{Key}" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="40" SuggestedHeight="40" HorizontalAlignment="Center" VerticalAlignment="Center" PositionXOffset="25" PositionYOffset="20" KeyID="@KeyID" Color="#F4E1C4FF"/>
+                      </Children>
+                    </Widget>
+                  </Children>
+                </DisabledAlphaChangerWidget>
+                <AgentAmmoTextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Right" VerticalAlignment="Bottom" MarginRight="70" Brush="AgentAmmoCount.Text" IntText="@BallistaAmmoCount" IsVisible="@IsUsingBallista" IsAlertEnabled="@IsAmmoCountWarned"/>
+              </Children>
+            </Widget>
+            
+            <!-- Attempt Boarding -->
+            <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="1" SuggestedHeight="1" HorizontalAlignment="Center" VerticalAlignment="Center" PositionXOffset="-170" PositionYOffset="15">
+              <Children>
+                <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="40" SuggestedHeight="40" HorizontalAlignment="Right" VerticalAlignment="Center" Brush="Naval.Mission.ShipControl.AttemptBoarding.Icon.Active" IsVisible="@IsAttemptBoardingOrderActive"/>
+              </Children>
+            </Widget>
+            
+          </Children>
+        </Widget>
+
+        <!-- Targeted Ship -->
+        <ShipControlFocusedShipParentListPanel WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" Position="@TargetedShipPosition" WSign="@TargetedShipWSign" IsVisible="@HasTargetedShip" StackLayout.LayoutMethod="VerticalBottomToTop">
+          <Children>
+            <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="35" SuggestedHeight="35" HorizontalAlignment="Center" MarginTop="10">
+              <Children>
+                <BoolStateChangerWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" BooleanCheck="@TargetedShipHasAction" TrueState="Animate" FalseState="Default" Brush="Naval.Mission.ShipControl.Target.Icon.Player" IsVisible="@IsTargetedShipPlayerTeam"/>
+                <BoolStateChangerWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" BooleanCheck="@TargetedShipHasAction" TrueState="Animate" FalseState="Default" Brush="Naval.Mission.ShipControl.Target.Icon.Ally" IsVisible="@IsTargetedShipPlayerAllyTeam"/>
+                <BoolStateChangerWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" BooleanCheck="@TargetedShipHasAction" TrueState="Animate" FalseState="Default" Brush="Naval.Mission.ShipControl.Target.Icon.Enemy" IsVisible="@IsTargetedShipEnemyTeam"/>
+              </Children>
+            </Widget>
+          </Children>
+        </ShipControlFocusedShipParentListPanel>
+
+      </Children>
+    </Widget>
+    
+  </Window>
+</Prefab>

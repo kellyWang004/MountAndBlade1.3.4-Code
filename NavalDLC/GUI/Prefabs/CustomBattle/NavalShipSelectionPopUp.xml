@@ -1,0 +1,87 @@
+<Prefab>
+  <Parameters>
+    <Parameter Name="PopUpDataSource" DefaultValue="" />
+  </Parameters>
+  <Constants>
+    <Constant Name="Popup.CloseButton.Width" BrushName="Popup.CloseButton" BrushLayer="Default" BrushValueType="Width"/>
+    <Constant Name="Popup.CloseButton.Height" BrushName="Popup.CloseButton" BrushLayer="Default" BrushValueType="Height"/>
+  </Constants>
+  <Window>
+    <Widget DataSource="*PopUpDataSource" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" IsVisible="@IsOpen">
+      <Children>
+
+				<NavigationForcedScopeCollectionTargeter CollectionParent="..\." />
+				
+        <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Sprite="BlankWhiteSquare" Color="#000000B0"/>
+
+        <!--Popup-->
+        <BrushWidget DoNotAcceptEvents="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedHeight="900" MarginBottom="40" SuggestedWidth="930" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="CustomBattle.TroopSelection.PopUp.Window">
+          <Children>
+
+            <ScrollablePanel WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" AutoHideScrollBars="true" VerticalAlignment="Bottom"  ClipRect="ClipRect" InnerPanel="ClipRect\ShipsGrid" VerticalScrollbar="..\VerticalScrollbar\Scrollbar" >
+              <Children>
+
+                <NavigationScopeTargeter ScopeID="CustomBattleShipSelectionItemsScope" ScopeParent="..\ClipRect" ScopeMovements="Horizontal" AlternateScopeMovements="Vertical" AlternateMovementStepSize="4" />
+                <Widget Id="ClipRect" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="810" SuggestedHeight="680" HorizontalAlignment="Center" VerticalAlignment="Center" ClipContents="true">
+                  <Children>
+
+                    <NavigatableGridWidget Id="ShipsGrid" DataSource="{Items}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" ColumnCount="4" DefaultCellHeight="130" DefaultCellWidth="190" LayoutImp="GridLayout" MarginTop="10" MarginRight="20">
+                      <ItemTemplate>
+                        <!--Ship Card-->
+                        <Widget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center">
+                          <Children>
+                            <ButtonWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="170" SuggestedHeight="120" Brush="TroopSelection.Card" IsSelected="@IsSelected" IsDisabled="@IsDisabled" Command.Click="ExecuteSelect" DoNotPassEventsToChildren="true" UpdateChildrenStates="true">
+                              <Children>
+
+                                <HintWidget DataSource="{Tooltip}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" />
+
+                                <ShipThumbnailWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="4" MarginRight="4" MarginTop="3" MarginBottom="3" SpriteBrush="Naval.ShipThumbnails" StyleBrush="Naval.CustomBattle.ShipSelection.Ship.Image" PrefabId="@PrefabId"/>
+
+                                <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="2" MarginRight="2" MarginTop="41" MarginBottom="1" Sprite="scrollable_field_gradient_9"/>
+
+                                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="55" Brush="GameMenu.ManageHideoutTroops.NameText" Text="@Name" MarginLeft="20" MarginRight="20" MarginTop="80" />
+
+                                <Widget Id="CheckmarkVisualWidget" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="47" SuggestedHeight="38" HorizontalAlignment="Right" MarginTop="20" MarginRight="20" Sprite="SPGeneral\GameMenu\companion_selected_check" Color="#F4E1C4FF" IsVisible="@IsSelected"/>
+
+                                <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Naval.CustomBattle.ShipSelection.Card.Frame" MarginLeft="2" MarginRight="2" MarginTop="1" MarginBottom="1" />
+
+                              </Children>
+                            </ButtonWidget>
+                            <HintWidget DataSource="{DisabledHint}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" />
+                          </Children>
+                        </Widget>
+                      </ItemTemplate>
+                    </NavigatableGridWidget>
+
+                    <Widget DoNotAcceptEvents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="50" VertialAlignment="Center" Sprite="SPGeneral\SPScoreboard\leaderboard_shadow" Color="#000000FF" />
+
+                    <Widget DoNotAcceptEvents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="50" VertialAlignment="Center" MarginTop="650" Sprite="SPGeneral\SPScoreboard\leaderboard_shadow"  Color="#000000FF" VerticalFlip="true"/>
+
+                  </Children>
+                </Widget>
+
+              </Children>
+            </ScrollablePanel>
+
+            <Standard.VerticalScrollbar Id="VerticalScrollbar" WidthSizePolicy="CoverChildren" HeightSizePolicy="Fixed" SuggestedHeight="677" HorizontalAlignment="Right" VerticalAlignment="Center" MarginRight="60"/>
+
+            <!--Header-->
+            <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedHeight="140" SuggestedWidth="634" HorizontalAlignment="Center" PositionYOffset="-17" Sprite="StdAssets\tabbar_popup" IsDisabled="true">
+              <Children>
+                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" VerticalAlignment="Center" PositionYOffset="-22" PositionXOffset="0" Brush="Recruitment.Popup.Title.Text" Text="@Title" Brush.FontSize="40"/>
+              </Children>
+            </Widget>
+
+          </Children>
+        </BrushWidget>
+
+        <ButtonWidget Id="CloseButton" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!Popup.CloseButton.Width" SuggestedHeight="!Popup.CloseButton.Height" VerticalAlignment="Center" HorizontalAlignment="Center" PositionXOffset="460" PositionYOffset="-460" Brush="Popup.CloseButton" Command.Click="ExecuteClose">
+          <Children>
+            <InputKeyVisualWidget DataSource="{CloseInputKey}" DoNotAcceptEvents="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="45" SuggestedHeight="45" HorizontalAlignment="Left" VerticalAlignment="Center" PositionXOffset="-15" KeyID="@KeyID" IsVisible="@IsVisible"/>
+          </Children>
+        </ButtonWidget>
+
+      </Children>
+    </Widget>
+  </Window>
+</Prefab>

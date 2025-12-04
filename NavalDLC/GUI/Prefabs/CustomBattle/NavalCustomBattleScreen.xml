@@ -1,0 +1,184 @@
+<Prefab>
+  <Constants>
+    <Constant Name="Popup.CloseButton.Width" BrushLayer="Default" BrushName="Popup.CloseButton" BrushValueType="Width" />
+    <Constant Name="Popup.CloseButton.Height" BrushLayer="Default" BrushName="Popup.CloseButton" BrushValueType="Height" />
+
+    <Constant Name="InnerPanel.LeftRight.Padding" Value="80" />
+
+    <Constant Name="SpectateButton.Width" BrushLayer="Default" BrushName="WideButton.Flat" BrushValueType="Width" />
+    <Constant Name="SpectateButton.Height" BrushLayer="Default" BrushName="WideButton.Flat" BrushValueType="Height" />
+
+    <Constant Name="RandomizeButton.Width" BrushLayer="Default" BrushName="CustomBattle.Random.Button" BrushValueType="Width" />
+    <Constant Name="RandomizeButton.Height" BrushLayer="Default" BrushName="CustomBattle.Random.Button" BrushValueType="Height" />
+
+    <Constant Name="CloseButton.Width" BrushLayer="Default" BrushName="CustomBattle.Leave.Button" BrushValueType="Width" />
+    <Constant Name="CloseButton.Height" BrushLayer="Default" BrushName="CustomBattle.Leave.Button" BrushValueType="Height" />
+
+    <Constant Name="SwitchButton.Width" BrushLayer="Default" BrushName="CustomBattle.Switch.Button" BrushValueType="Width" MultiplyResult="0.5" />
+    <Constant Name="SwitchButton.Height" BrushLayer="Default" BrushName="CustomBattle.Switch.Button" BrushValueType="Height" MultiplyResult="0.5" />
+
+  </Constants>
+  <Variables>
+  </Variables>
+  <VisualDefinitions>
+    <VisualDefinition Name="LeftMenu" EaseType="EaseOut" EaseFunction="Quint" TransitionDuration="0.45">
+      <VisualState PositionXOffset="0" State="Default" />
+    </VisualDefinition>
+    <VisualDefinition Name="RightMenu" EaseType="EaseOut" EaseFunction="Quint" TransitionDuration="0.45">
+      <VisualState PositionXOffset="0" State="Default" />
+    </VisualDefinition>
+    <VisualDefinition Name="CenterMenu" EaseType="EaseOut" EaseFunction="Quint" TransitionDuration="0.45">
+      <VisualState PositionYOffset="0" State="Default" />
+    </VisualDefinition>
+  </VisualDefinitions>
+  <Window>
+    <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent">
+      <Children>
+        <Standard.Background />
+        <ListPanel WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" HorizontalAlignment="Center" StackLayout.LayoutMethod="HorizontalLeftToRight">
+          <Children>
+
+            <!--Left Side Panel-->
+            <NavalArmyComposition DataSource="{PlayerSide}" VisualDefinition="LeftMenu" HorizontalAlignment="Left" PositionXOffset="-550" Parameter.TitleText="@TitleText" />
+
+            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent">
+              <Children>
+
+                <!--Center Panel-->
+                <Widget VisualDefinition="CenterMenu" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" VerticalAlignment="Top" PositionYOffset="-505" Sprite="flat_panel_9" ExtendLeft="53" ExtendRight="52" AlphaFactor="0.5">
+                  <Children>
+
+                    <ListPanel WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Top" MarginTop="25">
+                      <Children>
+                        <!--Padding-->
+                        <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!SwitchButton.Width" SuggestedHeight="!SwitchButton.Height" MarginRight="5" IsVisible="@CanSwitchMode"/>
+                        
+                        <!--Title-->
+                        <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" Brush="CustomBattle.Title.Text" Text="@TitleText"/>
+                        
+                        <!--Switch to Next Custom Game Button-->
+                        <NavigationScopeTargeter ScopeID="SwitchButtonScope" ScopeParent="..\SwitchButton" />
+                        <ButtonWidget Id="SwitchButton" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!SwitchButton.Width" SuggestedHeight="!SwitchButton.Height" MarginLeft="10" MarginTop="3" VerticalAlignment="Center" Brush="CustomBattle.Switch.Button" Command.Click="ExecuteSwitchToNextCustomBattle" IsVisible="@CanSwitchMode" DoNotPassEventsToChildren="true" UpdateChildrenStates="true" GamepadNavigationIndex="0">
+                          <Children>
+                            <HintWidget DataSource="{SwitchHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" IsEnabled="false" />
+                            <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="Fixed" SuggestedHeight="14" VerticalAlignment="Top" PositionYOffset="-14" HorizontalAlignment="Center" Brush="MPLobby.Matchmaking.CircleButtonText" Text="@SwitchButtonText" />
+                          </Children>
+                        </ButtonWidget>
+                      </Children>
+                    </ListPanel>
+                    
+                    <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="650" SuggestedHeight="7" HorizontalAlignment="Center" VerticalAlignment="Top" PositionYOffset="75" Sprite="SPGeneral\TownManagement\title_divider" />
+
+										<NavigationScopeTargeter ScopeID="CenterSelectionsScope" ScopeParent="..\CenterSelections" ScopeMovements="Vertical" />
+                    <ListPanel Id="CenterSelections" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginTop="100" StackLayout.LayoutMethod="VerticalBottomToTop">
+                      <Children>
+
+                        <Widget DataSource="{GameTypeSelectionGroup}" WidthSizePolicy="Fixed" SuggestedWidth="590" HorizontalAlignment="Center" HeightSizePolicy="CoverChildren" MarginLeft="!InnerPanel.LeftRight.Padding" MarginRight="!InnerPanel.LeftRight.Padding" MarginTop="15">
+                          <Children>
+                            <RichTextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Left" VerticalAlignment="Center" Brush="CustomBattle.Value.Text" Text="@PlayerSideText" />
+                            <Standard.DropdownWithHorizontalControl HorizontalAlignment="Right" Parameter.SelectorDataSource="{PlayerSideSelection}" GamepadNavigationIndex="0"/>
+                          </Children>
+                        </Widget>
+
+                        <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="12" MarginTop="20" Sprite="StdAssets\subpage_divider" />
+
+                        <RichTextWidget DataSource="{MapSelectionGroup}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Top" Brush="CustomBattle.Character.Title.Text" Text="@TitleText" />
+
+                        <!--Map Selection-->
+                        <Widget DataSource="{MapSelectionGroup}" WidthSizePolicy="Fixed" SuggestedWidth="590" HorizontalAlignment="Center" HeightSizePolicy="CoverChildren" MarginLeft="!InnerPanel.LeftRight.Padding" MarginRight="!InnerPanel.LeftRight.Padding" MarginTop="15">
+                          <Children>
+                            <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Left" VerticalAlignment="Center" Brush="CustomBattle.Value.Text" Text="@MapText" />
+                            <Standard.DropdownWithHorizontalControl HorizontalAlignment="Right" Parameter.SelectorDataSource="{MapSelection}" GamepadNavigationIndex="1" />
+                          </Children>
+                        </Widget>
+                        
+                        <!--Season Selection-->
+                        <Widget DataSource="{MapSelectionGroup}" WidthSizePolicy="Fixed" SuggestedWidth="590" HorizontalAlignment="Center" HeightSizePolicy="CoverChildren" MarginLeft="!InnerPanel.LeftRight.Padding" MarginRight="!InnerPanel.LeftRight.Padding" MarginTop="15">
+                          <Children>
+                            <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Left" VerticalAlignment="Center" Brush="CustomBattle.Value.Text" Text="@SeasonText" />
+                            <Standard.DropdownWithHorizontalControl HorizontalAlignment="Right" Parameter.SelectorDataSource="{SeasonSelection}" GamepadNavigationIndex="2" />
+                          </Children>
+                        </Widget>
+
+                        <!--Time Of Day Selection-->
+                        <Widget DataSource="{MapSelectionGroup}" WidthSizePolicy="Fixed" SuggestedWidth="590" HorizontalAlignment="Center" HeightSizePolicy="CoverChildren" MarginLeft="!InnerPanel.LeftRight.Padding" MarginRight="!InnerPanel.LeftRight.Padding" MarginTop="15">
+                          <Children>
+                            <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Left" VerticalAlignment="Center" Brush="CustomBattle.Value.Text" Text="@TimeOfDayText" />
+                            <Standard.DropdownWithHorizontalControl HorizontalAlignment="Right" Parameter.SelectorDataSource="{TimeOfDaySelection}" GamepadNavigationIndex="3"/>
+                          </Children>
+                        </Widget>
+
+                        <!--Wind Strength Selection-->
+                        <Widget DataSource="{MapSelectionGroup}" WidthSizePolicy="Fixed" SuggestedWidth="590" HorizontalAlignment="Center" HeightSizePolicy="CoverChildren" MarginLeft="!InnerPanel.LeftRight.Padding" MarginRight="!InnerPanel.LeftRight.Padding" MarginTop="15">
+                          <Children>
+                            <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Left" VerticalAlignment="Center" Brush="CustomBattle.Value.Text" Text="@WindStrengthText" />
+                            <Standard.DropdownWithHorizontalControl HorizontalAlignment="Right" Parameter.SelectorDataSource="{WindStrengthSelection}" GamepadNavigationIndex="4"/>
+                          </Children>
+                        </Widget>
+
+                        <!--Wind Direction Selection-->
+                        <Widget DataSource="{MapSelectionGroup}" WidthSizePolicy="Fixed" SuggestedWidth="590" HorizontalAlignment="Center" HeightSizePolicy="CoverChildren" MarginLeft="!InnerPanel.LeftRight.Padding" MarginRight="!InnerPanel.LeftRight.Padding" MarginTop="15">
+                          <Children>
+                            <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Left" VerticalAlignment="Center" Brush="CustomBattle.Value.Text" Text="@WindDirectionText" />
+                            <Standard.DropdownWithHorizontalControl HorizontalAlignment="Right" Parameter.SelectorDataSource="{WindDirectionSelection}" GamepadNavigationIndex="5"/>
+                          </Children>
+                        </Widget>
+
+                      </Children>
+                    </ListPanel>
+
+                    <!--Control Buttons-->
+										<NavigationScopeTargeter ScopeID="CenterControlsScope" ScopeParent="..\CenterControls" ScopeMovements="Horizontal" />
+										<ListPanel Id="CenterControls" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" MarginBottom="10" VerticalAlignment="Bottom">
+                      <Children>
+
+                        <ButtonWidget DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!RandomizeButton.Width" SuggestedHeight="!RandomizeButton.Height" HorizontalAlignment="Left" VerticalAlignment="Bottom" MarginRight="40"  Brush="CustomBattle.Random.Button" Command.Click="ExecuteRandomize" UpdateChildrenStates="true" GamepadNavigationIndex="0">
+                          <Children>
+                            <InputKeyVisualWidget DataSource="{RandomizeInputKey}" DoNotAcceptEvents="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="60" SuggestedHeight="60" HorizontalAlignment="Left" VerticalAlignment="Center" PositionXOffset="-45" KeyID="@KeyID" IsVisible="@IsVisible"/>
+                            <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="Fixed" SuggestedHeight="35" VerticalAlignment="Top" PositionYOffset="-30" HorizontalAlignment="Center" Brush="MPLobby.Matchmaking.CircleButtonText" Text="@RandomizeButtonText" />
+                          </Children>
+                        </ButtonWidget>
+
+                        <ButtonWidget DoNotPassEventsToChildren="true" SuggestedWidth="!SpectateButton.Width" SuggestedHeight="!SpectateButton.Height" HorizontalAlignment="Center" VerticalAlignment="Bottom" Brush="WideButton.Flat" Command.Click="ExecuteStart" UpdateChildrenStates="true" GamepadNavigationIndex="1">
+                          <Children>
+                            <ListPanel WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent" HorizontalAlignment="Center" VerticalAlignment="Center" UpdateChildrenStates="true">
+                              <Children>
+                                <InputKeyVisualWidget DataSource="{StartInputKey}" DoNotAcceptEvents="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="60" SuggestedHeight="60" HorizontalAlignment="Center" VerticalAlignment="Center" KeyID="@KeyID" IsVisible="@IsVisible"/>
+                                <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent" MarginTop="10" MarginBottom="10" HorizontalAlignment="Center" VerticalAlignment="Center" MaxWidth="300" Brush="MPTeamSelection.SpectateButton.Text" Text="@StartButtonText" />
+                              </Children>
+                            </ListPanel>
+                          </Children>
+                        </ButtonWidget>
+
+                        <ButtonWidget DoNotPassEventsToChildren="true" Command.Click="ExecuteBack" SuggestedWidth="!CloseButton.Width" SuggestedHeight="!CloseButton.Height" HorizontalAlignment="Right" VerticalAlignment="Bottom" MarginLeft="40" Brush="CustomBattle.Leave.Button" UpdateChildrenStates="true" GamepadNavigationIndex="2">
+                          <Children>
+                            <InputKeyVisualWidget DataSource="{CancelInputKey}" DoNotAcceptEvents="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="60" SuggestedHeight="60" HorizontalAlignment="Left" VerticalAlignment="Center" PositionXOffset="-45" KeyID="@KeyID" IsVisible="@IsVisible"/>
+                            <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="Fixed" SuggestedHeight="35" VerticalAlignment="Top" PositionYOffset="-30" HorizontalAlignment="Center" Brush="MPLobby.Matchmaking.CircleButtonText" Text="@BackButtonText" />
+                          </Children>
+                        </ButtonWidget>
+
+                      </Children>
+                    </ListPanel>
+
+                  </Children>
+                </Widget>
+
+              </Children>
+            </Widget>
+
+            <!--_____Right Side Panel_______-->
+            <NavalArmyComposition DataSource="{EnemySide}" VisualDefinition="RightMenu" HorizontalAlignment="Right" PositionXOffset="550" Parameter.TitleText="@TitleText" />
+
+          </Children>
+        </ListPanel>
+
+        <!--Troop Type Selection Popup-->
+        <TroopTypeSelectionPopUp Parameter.PopUpDataSource="{TroopTypeSelectionPopUp}"/>
+        
+        <!--Ship Selection Popup-->
+        <NavalShipSelectionPopUp Parameter.PopUpDataSource="{ShipSelectionPopUp}"/>
+
+      </Children>
+    </Widget>
+  </Window>
+</Prefab>

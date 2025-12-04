@@ -1,0 +1,54 @@
+<Prefab>
+  <Parameters>
+    <Parameter Name="DataSource" DefaultValue="" />
+    <Parameter Name="Brush" DefaultValue="" />
+  </Parameters>
+  <Constants>
+    <Constant Name="Button.Width" BrushLayer="Default" BrushName="*Brush" BrushValueType="Width" />
+    <Constant Name="Button.Height" BrushLayer="Default" BrushName="*Brush" BrushValueType="Height" />
+    
+    <Constant Name="Text.MaxWidth" Value="!Button.Width" Additive="-58" MultiplyResult="0.5" />
+  </Constants>
+  <Window>
+    <Widget DataSource="*DataSource" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" IsVisible="@IsVisible">
+      <Children>
+        <ButtonWidget DoNotPassEventsToChildren="true" UpdateChildrenStates="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!Button.Width" SuggestedHeight="!Button.Height" Brush="*Brush" Command.Click="ExecuteAction" IsEnabled="@IsEnabled">
+          <Children>
+            
+            <!--No Additional Information-->
+            <StringBasedVisibilityWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" WatchType="Equal" FirstString="@AdditionalInfo" SecondString="" UpdateChildrenStates="true">
+              <Children>
+                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Port.Ship.Option.Button.Text" Brush.TextHorizontalAlignment="Center" Text="@Name" />
+              </Children>
+            </StringBasedVisibilityWidget>
+
+            <!--With Additional Information-->
+            <StringBasedVisibilityWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" WatchType="NotEqual" FirstString="@AdditionalInfo" SecondString="" UpdateChildrenStates="true">
+              <Children>
+                <ListPanel WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent" HorizontalAlignment="Center" MarginLeft="28" MarginRight="20" MarginTop="12" MarginBottom="12" UpdateChildrenStates="true">
+                  <Children>
+                    <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent" MaxWidth="!Text.MaxWidth" MarginRight="5" Brush="Port.Ship.Option.Button.Text" Brush.TextHorizontalAlignment="Right" Text="@Name" />
+
+                    <!-- When changing RichTextWidget states, there is a bug where the widget can become stuck in the previous state. The fix could break existing texts, hence the below workaround. -->
+                    <Widget WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent" MarginLeft="5" IsVisible="@IsEnabled">
+                      <Children>
+                        <RichTextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent" MaxWidth="!Text.MaxWidth" Brush="Port.Ship.Option.Gold.Text" Brush.TextHorizontalAlignment="Left" Text="@AdditionalInfo" AutoHideIfEmpty="true" IsEnabled="true" />
+                      </Children>
+                    </Widget>
+                    <Widget WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent" MarginLeft="5" IsHidden="@IsEnabled">
+                      <Children>
+                        <RichTextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent" MaxWidth="!Text.MaxWidth" Brush="Port.Ship.Option.Gold.Text" Brush.TextHorizontalAlignment="Left" Text="@AdditionalInfo" AutoHideIfEmpty="true" IsEnabled="false" />
+                      </Children>
+                    </Widget>
+                  </Children>
+                </ListPanel>
+              </Children>
+            </StringBasedVisibilityWidget>
+            <HintWidget  DataSource="{Tooltip}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" IsEnabled="false"/>
+          </Children>
+        </ButtonWidget>
+        <HintWidget DataSource="{Tooltip}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" IsEnabled="false"/>
+      </Children>
+    </Widget>
+  </Window>
+</Prefab>

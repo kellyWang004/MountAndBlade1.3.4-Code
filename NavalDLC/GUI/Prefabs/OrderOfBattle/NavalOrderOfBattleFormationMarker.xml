@@ -1,0 +1,41 @@
+<Prefab>
+  <Constants>
+    <!-- Class Brush Constants -->
+    <Constant Name="InfantryBrush"              Value="OrderOfBattle.FormationClass.Infantry" />
+    <Constant Name="RangedBrush"                Value="OrderOfBattle.FormationClass.Ranged" />
+    <Constant Name="InfantryAndRangedBrush"     Value="OrderOfBattle.FormationClass.InfantryAndRanged" />
+  </Constants>
+  <Window>
+    <!-- Single Marker -->
+    <OrderOfBattleFormationMarkerBrushWidget UpdateChildrenStates="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="100" SuggestedHeight="55" IsAvailable="@HasShip" Position="@ScreenPosition" WSign="@WSign">
+      <Children>
+
+        <!-- Button -->
+        <ButtonWidget DoNotPassEventsToChildren="true" UpdateChildrenStates="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="OrderOfBattle.Formation.Canvas" IsSelected="@IsSelected" IsEnabled="@IsSelectable" Command.Click="ExecuteSelect">
+          <Children>
+
+            <!-- Formation Name as Title -->
+            <BrushWidget DoNotPassEventsToChildren="true" UpdateChildrenStates="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="55" SuggestedHeight="40" PositionYOffset="-20" HorizontalAlignment="Center" VerticalAlignment="Top" Brush="OrderOfBattle.FormationTypeSelection.Dropdown">
+              <Children>
+                <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Center" Text="@FormationName" />
+              </Children>
+            </BrushWidget>
+
+            <Widget UpdateChildrenStates="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginTop="20">
+              <Children>
+
+                <!-- Formation Type Icon -->
+                <OrderOfBattleFormationClassBrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="70" SuggestedHeight="27" HorizontalAlignment="Left" VerticalAlignment="Center" PositionXOffset="-5" FormationClass="@FormationClassInt" InfantryBrush="!InfantryBrush" RangedBrush="!RangedBrush" InfantryAndRangedBrush="!InfantryAndRangedBrush" />
+                <!-- Count Text -->
+                <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="Fixed" SuggestedHeight="27" HorizontalAlignment="Center" VerticalAlignment="Center" PositionXOffset="20" IntText="@TroopCount" Brush.FontSize="24" />
+
+              </Children>
+            </Widget>
+
+          </Children>
+        </ButtonWidget>
+
+      </Children>
+    </OrderOfBattleFormationMarkerBrushWidget>
+  </Window>
+</Prefab>

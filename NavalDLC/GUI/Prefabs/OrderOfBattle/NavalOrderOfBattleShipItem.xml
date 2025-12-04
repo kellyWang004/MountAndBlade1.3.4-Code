@@ -1,0 +1,55 @@
+<Prefab>
+  <Parameters>
+    <Parameter Name="IsSmall" DefaultValue="false" />
+  </Parameters>
+  <Constants>
+    <Constant Name="BorderWidth" BooleanCheck="*IsSmall" OnTrue="92.5" OnFalse="158" />
+    <Constant Name="BorderHeight" BooleanCheck="*IsSmall" OnTrue="70" OnFalse="90" />
+    <Constant Name="ImageIdentifierWidth" BooleanCheck="*IsSmall" OnTrue="82.5" OnFalse="148" />
+    <Constant Name="ImageIdentifierHeight" BooleanCheck="*IsSmall" OnTrue="60" OnFalse="80" />
+    <Constant Name="ImageIdentifierMargin" BooleanCheck="*IsSmall" OnTrue="5" OnFalse="5" />
+  </Constants>
+  <Window>
+    <Widget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren">
+      <Children>
+        <ButtonWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!BorderWidth" SuggestedHeight="!BorderHeight" Command.Click="ExecuteToggleSelect" Brush="OrderOfBattle.CaptainSlot.Frame" IsSelected="@IsSelected" IsDisabled="@IsDisabled" AcceptDrag="true" DragWidget="DragWidget" Command.DragBegin="ExecuteSelect" DoNotPassEventsToChildren="true" UpdateChildrenStates="true">
+          <Children>
+            <!-- Background -->
+            <BrushWidget DoNotAcceptEvents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="!ImageIdentifierHeight" HorizontalAlignment="Center" MarginLeft="!ImageIdentifierMargin" MarginTop="!ImageIdentifierMargin" MarginRight="!ImageIdentifierMargin" MarginBottom="!ImageIdentifierMargin" Brush="OrderOfBattle.CaptainSlot.Background"/>
+
+            <!-- Visual -->
+            <ShipThumbnailWidget DoNotAcceptEvents="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!ImageIdentifierWidth" SuggestedHeight="!ImageIdentifierHeight" MarginLeft="!ImageIdentifierMargin" MarginTop="!ImageIdentifierMargin" SpriteBrush="Naval.ShipThumbnails" StyleBrush="Naval.OrderOfBattle.Formation.Ship.Image" PrefabId="@PrefabId" />
+            
+            <!--Health-->
+            <ValueBasedVisibilityWidget DoNotAcceptEvents="true" DoNotPassEventsToChildren="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" MarginLeft="5" MarginRight="5" MarginBottom="4" SuggestedHeight="2" VerticalAlignment="Bottom" HorizontalAlignment="Center" IndexToWatchFloat="@HealthRatio" IndexToBeVisibleFloat="0.95" WatchType="LessThan">
+              <Children>
+
+                <FillBarWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="2" VerticalAlignment="Center" FillWidget="FillWidget" MaxAmountAsFloat="1.0" InitialAmountAsFloat="@HealthRatio" Sprite="BlankWhiteSquare_9" Color="#EE2D2CFF">
+                  <Children>
+                    <Widget Id="FillWidget" ClipContents="true" WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" HorizontalAlignment="Left" VerticalAlignment="Center" Sprite="BlankWhiteSquare_9" Color="#76EE2CFF" />
+                  </Children>
+                </FillBarWidget>
+
+              </Children>
+            </ValueBasedVisibilityWidget>
+
+            <!-- Tooltip -->
+            <HintWidget DataSource="{Tooltip}" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint"/>
+
+            <!-- Dragged Widget -->
+            <BrushWidget Id="DragWidget" DoNotAcceptEvents="true" DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!BorderWidth" SuggestedHeight="!BorderHeight" Brush="OrderOfBattle.CaptainSlot.Frame">
+              <Children>
+                <BrushWidget DoNotAcceptEvents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="!ImageIdentifierHeight" HorizontalAlignment="Center" MarginLeft="!ImageIdentifierMargin" MarginTop="!ImageIdentifierMargin" MarginRight="!ImageIdentifierMargin" MarginBottom="!ImageIdentifierMargin" Brush="OrderOfBattle.CaptainSlot.Background"/>
+                <ShipThumbnailWidget DoNotAcceptEvents="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!ImageIdentifierWidth" SuggestedHeight="!ImageIdentifierHeight" MarginLeft="!ImageIdentifierMargin" MarginTop="!ImageIdentifierMargin" SpriteBrush="Naval.ShipThumbnails" StyleBrush="Naval.OrderOfBattle.Formation.Ship.Image" PrefabId="@PrefabId" />
+              </Children>
+            </BrushWidget>
+
+            <TutorialHighlightItemBrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="TutorialHighlightBrush" IsHighlightEnabled="@IsHighlightActive" IsVisible="false" DoNotAcceptEvents="true"/>
+          </Children>
+        </ButtonWidget>
+        <!-- Disabled Tooltip -->
+        <HintWidget DataSource="{Tooltip}" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint"/>
+      </Children>
+    </Widget>
+  </Window>
+</Prefab>

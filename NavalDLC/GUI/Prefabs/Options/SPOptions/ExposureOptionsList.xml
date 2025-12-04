@@ -1,0 +1,38 @@
+<Prefab>
+  <Window>
+    <ListPanel WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren">
+      <Children>
+        <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="300" SuggestedHeight="620" MarginRight="15" ClipContents="true">
+          <Children>
+            <BrightnessDemoWidget WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="480" DemoType="ExposureTexture1"/>
+          </Children>
+        </Widget>
+        <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="300" SuggestedHeight="620" MarginRight="15" ClipContents="true">
+          <Children>
+            <BrightnessDemoWidget WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="480" DemoType="ExposureTexture2"/>
+          </Children>
+        </Widget>
+        <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="300" SuggestedHeight="620" MarginRight="15" ClipContents="true">
+          <Children>
+            <BrightnessDemoWidget WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="480" DemoType="ExposureTexture3"/>
+          </Children>
+        </Widget>
+        <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="300" SuggestedHeight="620" MarginRight="15" ClipContents="true">
+          <Children>
+            <BrightnessDemoWidget WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="480" DemoType="ExposureTexture4"/>
+          </Children>
+        </Widget>
+        <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="300" SuggestedHeight="620" MarginRight="15" ClipContents="true">
+          <Children>
+            <BrightnessDemoWidget WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="480" DemoType="ExposureTexture5"/>
+          </Children>
+        </Widget>
+        <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="300" SuggestedHeight="620" ClipContents="true">
+          <Children>
+            <BrightnessDemoWidget WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="480" DemoType="ExposureTexture6"/>
+          </Children>
+        </Widget>
+      </Children>
+    </ListPanel>
+  </Window>
+</Prefab>

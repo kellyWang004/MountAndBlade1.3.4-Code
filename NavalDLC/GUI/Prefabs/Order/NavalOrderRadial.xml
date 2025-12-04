@@ -1,0 +1,64 @@
+<Prefab>
+  <Window>
+    <Widget DoNotAcceptEvents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent">
+      <Children>
+        <Siege />
+        <Widget IsVisible="@IsToggleOrderShown" DoNotAcceptEvents="true" DoNotPassEventsToChildren="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent">
+          <Children>
+            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" IsVisible="@IsTroopListShown">
+              <Children>
+
+                <Widget DataSource="{TroopController}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="20" MarginRight="20" MarginTop="20" MarginBottom="20">
+                  <Children>
+                    <ListPanel WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Left" VerticalAlignment="Center" StackLayout.LayoutMethod="VerticalBottomToTop">
+                      <Children>
+                        <NavalOrderTroopItem DataSource="{TroopItem0}" />
+                        <NavalOrderTroopItem DataSource="{TroopItem1}" />
+                        <NavalOrderTroopItem DataSource="{TroopItem2}" />
+                        <NavalOrderTroopItem DataSource="{TroopItem3}" />
+                      </Children>
+                    </ListPanel>
+                    <ListPanel WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Right" VerticalAlignment="Center" StackLayout.LayoutMethod="VerticalBottomToTop">
+                      <Children>
+                        <NavalOrderTroopItem DataSource="{TroopItem4}" />
+                        <NavalOrderTroopItem DataSource="{TroopItem5}" />
+                        <NavalOrderTroopItem DataSource="{TroopItem6}" />
+                        <NavalOrderTroopItem DataSource="{TroopItem7}" />
+                      </Children>
+                    </ListPanel>
+                  </Children>
+                </Widget>
+
+              </Children>
+            </Widget>
+
+            <OrderCircleActionSelectorParentWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Bottom" IsHidden="@HasAnyCascadingOrders" CircleActionSelectorWidget="ActionSelector" >
+              <Children>
+                <CircleActionSelectorWidget Id="ActionSelector" DataSource="{OrderSets}" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="430" SuggestedHeight="400" HorizontalAlignment="Center" VerticalAlignment="Bottom" DistanceFromCenterModifier="130" DirectionWidget="..\DirectionWidget" Sprite="General\RadialMenu\radial_menu_bg" Color="#00000099" ActivateOnlyWithController="true">
+                  <ItemTemplate>
+                    <OrderItemRadial Parameter.DataSource="{SoloOrder}" />
+                  </ItemTemplate>
+                </CircleActionSelectorWidget>
+
+                <Widget Id="DirectionWidget" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="13" SuggestedHeight="13" HorizontalAlignment="Center" VerticalAlignment="Center" Sprite="BlankWhiteCircle" AlphaFactor="0.5"/>
+                
+              </Children>
+            </OrderCircleActionSelectorParentWidget>
+
+            <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" IsVisible="@HasAnyCascadingOrders">
+              <Children>
+                <ListPanel DataSource="{OrderSets}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Bottom" MarginBottom="60">
+                  <ItemTemplate>
+                    <OrderSetRadial MarginLeft="20" MarginRight="20"/>
+                  </ItemTemplate>
+                </ListPanel>
+              </Children>
+            </Widget>
+
+          </Children>
+        </Widget>
+        <OrderTransferPopup DataSource="{TroopController}"/>
+      </Children>
+    </Widget>
+  </Window>
+</Prefab>

@@ -1,0 +1,142 @@
+<Prefab>
+  <Constants>
+    <!-- Filter Brush Constants -->
+    <Constant Name="ShieldBrush"                Value="OrderOfBattle.Filter.Shield" />
+    <Constant Name="ThrownBrush"                Value="OrderOfBattle.Filter.Thrown" />
+    <Constant Name="HeavyBrush"                 Value="OrderOfBattle.Filter.Heavy" />
+    <Constant Name="HighTierBrush"              Value="OrderOfBattle.Filter.HighTier" />
+    <Constant Name="LowTierBrush"               Value="OrderOfBattle.Filter.LowTier" />
+
+  </Constants>
+  <Window>
+    <!--Must fill space even when invisible-->
+    <Widget DoNotAcceptEvents="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="131" SuggestedHeight="223" MarginTop="30" MarginBottom="10">
+      <Children>
+        <!-- Highlight -->
+        <OrderTroopItemBrushWidget DoNotAcceptEvents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" RangedCardBrush="Order.Card.Highlight.Ranged" MeleeCardBrush="Order.Card.Highlight.Melee" HasAmmo="@IsAmmoAvailable" IsVisible="@IsSelectionHighlightActive"/>
+        
+        <OrderTroopItemBrushWidget UpdateChildrenStates="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" RangedCardBrush="Order.Card.Background.Ranged" MeleeCardBrush="Order.Card.Background.Melee" HasAmmo="@IsAmmoAvailable" CurrentMemberCount="@CurrentMemberCount" IsSelectable="@IsSelectable" IsSelected="@IsSelected" IsVisible="@IsValid" FormationClass="@OrderOfBattleFormationClass">
+          <Children>
+            <!--Formation Name-->
+            <BrushWidget DoNotAcceptEvents="true" DoNotPassEventsToChildren="true" UpdateChildrenStates="true" HeightSizePolicy="Fixed" WidthSizePolicy="Fixed" SuggestedWidth="35" SuggestedHeight="30" HorizontalAlignment="Right" VerticalAlignment="Top" PositionYOffset="-5" MarginRight="10" Brush="OrderOfBattle.FormationTypeSelection.Dropdown" IsVisible="false">
+              <Children>
+                <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" VerticalAlignment="Center" HorizontalAlignment="Center" Brush.FontSize="20" Text="@FormationName"/>
+              </Children>
+            </BrushWidget>
+
+            <!-- Left Shortcut Info -->
+            <ValueBasedVisibilityWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Right" VerticalAlignment="Center" PositionYOffset="-5" PositionXOffset="40" IndexToWatch="@FormationIndex" IndexToBeVisible="3" WatchType="LessThanEqual">
+              <Children>
+                <Widget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" IsVisible="@CanToggleSelection">
+                  <Children>
+                    <Widget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" IsVisible="@HaveTroops">
+                      <Children>
+                        <InputKeyVisualWidget DataSource="{SelectionKey}" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="60" SuggestedHeight="60" KeyID="@KeyID" IsVisible="@IsVisible"/>
+                      </Children>
+                    </Widget>
+                  </Children>
+                </Widget>
+              </Children>
+            </ValueBasedVisibilityWidget>
+
+            <!-- Right Shortcut Info -->
+            <ValueBasedVisibilityWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Left" VerticalAlignment="Center" PositionYOffset="-5" PositionXOffset="-40" IndexToWatch="@FormationIndex" IndexToBeVisible="4" WatchType="BiggerThanEqual">
+              <Children>
+                <Widget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" IsVisible="@CanToggleSelection">
+                  <Children>
+                    <Widget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" IsVisible="@HaveTroops">
+                      <Children>
+                        <InputKeyVisualWidget DataSource="{SelectionKey}" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="60" SuggestedHeight="60" KeyID="@KeyID" IsVisible="@IsVisible"/>
+                      </Children>
+                    </Widget>
+                  </Children>
+                </Widget>
+              </Children>
+            </ValueBasedVisibilityWidget>
+
+            <!-- Ammo Percentage -->
+            <FillBarWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="77" SuggestedHeight="3" HorizontalAlignment="Center" VerticalAlignment="Bottom" MarginBottom="14" FillWidget="FillWidget" MaxAmountAsFloat="1.0" InitialAmountAsFloat="@AmmoPercentage">
+              <Children>
+                <Widget Id="FillWidget" ClipContents="true" WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="77" Sprite="BlankWhiteSquare_9" Color="#00000000">
+                  <Children>
+                    <Widget WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="77" Sprite="Order\ranged_unit_troop_card_ammo_fillbar"/>
+                  </Children>
+                </Widget>
+              </Children>
+            </FillBarWidget>
+
+            <ListPanel WidthSizePolicy="Fixed" HeightSizePolicy="CoverChildren" SuggestedWidth="75" HorizontalAlignment="Left" VerticalAlignment="Center" MarginLeft="15" PositionYOffset="-5" StackLayout.LayoutMethod="VerticalBottomToTop">
+              <Children>
+                <!-- Health -->
+                <ListPanel WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="HorizontalLeftToRight">
+                  <Children>
+                    <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="25" SuggestedHeight="25" VerticalAlignment="Center" Sprite="General\Icons\Health@2x"/>
+                    <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="20" VerticalAlignment="Center" Brush="Order.Troop.CountText" Brush.TextHorizontalAlignment="Left" Brush.FontSize="20" Text="@HealthText" />
+                  </Children>
+                </ListPanel>
+
+                <!-- Troop Count -->
+                <ListPanel WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="HorizontalLeftToRight">
+                  <Children>
+                    <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="25" SuggestedHeight="22" VerticalAlignment="Center" Sprite="General\Icons\Party@2x"/>
+                    <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="20" VerticalAlignment="Center" Brush="Order.Troop.CountText" Brush.TextHorizontalAlignment="Left" Brush.FontSize="20" Text="@TroopCountText" />
+                  </Children>
+                </ListPanel>
+              </Children>
+            </ListPanel>
+
+            <!-- Ship Visual -->
+            <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="70" SuggestedHeight="52" HorizontalAlignment="Left" VerticalAlignment="Top" PositionYOffset="20" MarginLeft="15" IsVisible="@HasShip" UpdateChildrenStates="true">
+              <Children>
+                <ShipThumbnailWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="2" MarginRight="2" MarginTop="2" MarginBottom="2" SpriteBrush="Naval.ShipThumbnails" StyleBrush="Naval.OrderOfBattle.Formation.Ship.Image" PrefabId="@PrefabId" />
+                <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Sprite="rounded_canvas_9" Color="#00000088" IsHidden="@IsShipActive" />
+                <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Order.Card.Captain.Frame" />
+              </Children>
+            </Widget>
+
+            <!-- Captain Visual -->
+            <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="70" SuggestedHeight="52" HorizontalAlignment="Left" VerticalAlignment="Bottom" PositionYOffset="-30" MarginLeft="15" IsVisible="@HasCaptain" UpdateChildrenStates="true">
+              <Children>
+                <ImageIdentifierWidget DataSource="{CaptainImageIdentifier}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" MarginLeft="2" MarginRight="2" MarginTop="2" MarginBottom="2" AdditionalArgs="@AdditionalArgs" ImageId="@Id" TextureProviderName="@TextureProviderName" />
+                <BrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Order.Card.Captain.Frame" />
+              </Children>
+            </Widget>
+
+            <!-- Class -->
+            <BrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="30" SuggestedHeight="25" HorizontalAlignment="Right" VerticalAlignment="Bottom" MarginBottom="25" MarginRight="10" UpdateChildrenStates="true">
+              <Children>
+                <OrderOfBattleFormationClassBrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="40" SuggestedHeight="16" HorizontalAlignment="Center" VerticalAlignment="Center" FormationClass="@FormationClassInt" InfantryBrush="OrderOfBattle.FormationClass.Infantry" RangedBrush="OrderOfBattle.FormationClass.Ranged" InfantryAndRangedBrush="OrderOfBattle.FormationClass.InfantryAndRanged" />
+              </Children>
+            </BrushWidget>
+
+            <!-- Filters -->
+            <ListPanel DataSource="{ActiveFilters}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Right" VerticalAlignment="Bottom" MarginBottom="55" MarginRight="15" StackLayout.LayoutMethod="VerticalBottomToTop" UpdateChildrenStates="true">
+              <ItemTemplate>
+                <OrderOfBattleFormationFilterVisualBrushWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="20" SuggestedHeight="20" MarginBottom="5" FormationFilter="@FilterTypeValue" ShieldBrush="!ShieldBrush" ThrownBrush="!ThrownBrush" HeavyBrush="!HeavyBrush" HighTierBrush="!HighTierBrush" LowTierBrush="!LowTierBrush" />
+              </ItemTemplate>
+            </ListPanel>
+
+            <!-- Orders -->
+            <Widget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Bottom" >
+              <Children>
+                <ListPanel WidthSizePolicy="CoverChildren" HeightSizePolicy="Fixed" SuggestedHeight="50" PositionYOffset="30" IsVisible="@HasTarget" StackLayout.LayoutMethod="HorizontalLeftToRight" >
+                  <Children>
+                    <IconBrushWidget Id="Icon" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="30" SuggestedHeight="30" VerticalAlignment="Center" Brush="Order.Icon" IconBrush="Order.Icons.Square" IconID="@CurrentOrderIconId" />
+
+                    <FormationMarkerTeamTypeBrushWidget Id="TeamTypeWidget" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedHeight="30" SuggestedWidth="30" VerticalAlignment="Center" Brush="FormationMarker.TeamType" TeamType="2">
+                      <Children>
+                        <IconBrushWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Compass.Type.Base" IconBrush="Naval.Compass.Type.Icons" IconID="@CurrentTargetFormationType" />
+                      </Children>
+                    </FormationMarkerTeamTypeBrushWidget>
+
+                  </Children>
+                </ListPanel>
+              </Children>
+            </Widget>
+
+          </Children>
+        </OrderTroopItemBrushWidget>
+      </Children>
+    </Widget>
+  </Window>
+</Prefab>
