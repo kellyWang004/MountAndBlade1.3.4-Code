@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>卡拉迪亚地图 - Calradia Map</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #1a1a2e;
+            color: #eee;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+            color: #f0c040;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .subtitle {
+            text-align: center;
+            color: #888;
+            margin-bottom: 20px;
+        }
+        .map-container {
+            position: relative;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background: linear-gradient(135deg, #2d4a3e 0%, #3d5a4e 50%, #4a6a5e 100%);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+        }
+        #mapCanvas {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        .legend {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+            padding: 15px;
+            background: rgba(0,0,0,0.3);
+            border-radius: 8px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+            border: 2px solid rgba(255,255,255,0.3);
+        }
+        .geo-legend {
+            margin-top: 15px;
+        }
+        .geo-legend .legend-color {
+            border-radius: 50%;
+        }
+        .tooltip {
+            position: absolute;
+            background: rgba(0,0,0,0.9);
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 13px;
+            pointer-events: none;
+            display: none;
+            z-index: 100;
+            border: 1px solid #f0c040;
+        }
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        .controls label {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            cursor: pointer;
+            padding: 5px 10px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 5px;
+        }
+        .controls input[type="checkbox"] {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>卡拉迪亚大陆地图</h1>
+        <p class="subtitle">Mount & Blade II: Bannerlord - Calradia Geography</p>
+
+        <div class="controls">
+            <label><input type="checkbox" id="showTowns" checked> 城镇</label>
+            <label><input type="checkbox" id="showGeo" checked> 地理名称</label>
+            <label><input type="checkbox" id="showRegions" checked> 区域边界</label>
+        </div>
+
+        <div class="map-container">
+            <canvas id="mapCanvas" width="1200" height="700"></canvas>
+            <div class="tooltip" id="tooltip"></div>
+        </div>
+
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color" style="background: #8b0000;"></div>
+                <span>帝国 Empire</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #1e90ff;"></div>
+                <span>斯图吉亚 Sturgia</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #ffd700;"></div>
+                <span>阿塞莱 Aserai</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #4169e1;"></div>
+                <span>瓦兰迪亚 Vlandia</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #228b22;"></div>
+                <span>巴坦尼亚 Battania</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #9932cc;"></div>
+                <span>库兹艾特 Khuzait</span>
+            </div>
+        </div>
+
+        <div class="legend geo-legend">
+            <div class="legend-item">
+                <div class="legend-color" style="background: #4a90d9;"></div>
+                <span>海洋/海湾 Sea/Bay</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #6bb3f0;"></div>
+                <span>湖泊 Lake</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #8b4513;"></div>
+                <span>山脉 Mountain</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #d4a76a;"></div>
+                <span>沙漠 Desert</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #5fad5f;"></div>
+                <span>平原/山谷 Plain/Valley</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('mapCanvas');
+        const ctx = canvas.getContext('2d');
+        const tooltip = document.getElementById('tooltip');
+
+        // Map boundaries (from game data)
+        const mapBounds = {
+            minX: 76.52, maxX: 782.63,
+            minY: 62.20, maxY: 610.56
+        };
+
+        // Canvas padding
+        const padding = 50;
+
+        // Convert game coordinates to canvas coordinates
+        function toCanvasX(x) {
+            return padding + ((x - mapBounds.minX) / (mapBounds.maxX - mapBounds.minX)) * (canvas.width - 2 * padding);
+        }
+        function toCanvasY(y) {
+            // Flip Y axis (game Y increases downward on map visually)
+            return canvas.height - padding - ((y - mapBounds.minY) / (mapBounds.maxY - mapBounds.minY)) * (canvas.height - 2 * padding);
+        }
+
+        // Culture colors
+        const cultureColors = {
+            empire: '#8b0000',
+            sturgia: '#1e90ff',
+            aserai: '#ffd700',
+            vlandia: '#4169e1',
+            battania: '#228b22',
+            khuzait: '#9932cc'
+        };
+
+        // Towns data
+        const towns = [
+            // Empire North
+            {name: 'Epicrotea', cn: '埃皮克罗蒂亚', x: 407.645, y: 474.297, culture: 'empire'},
+            {name: 'Diathma', cn: '迪亚瑟玛', x: 465.971, y: 475.17, culture: 'empire'},
+            {name: 'Saneopa', cn: '萨涅欧帕', x: 513.339, y: 419.099, culture: 'empire'},
+            {name: 'Argoron', cn: '阿尔戈龙', x: 534.622, y: 495.804, culture: 'empire'},
+            {name: 'Myzea', cn: '米泽亚', x: 604.173, y: 426.101, culture: 'empire'},
+            {name: 'Amprela', cn: '安普雷拉', x: 620.342, y: 483.919, culture: 'empire'},
+            // Empire West
+            {name: 'Lageta', cn: '拉盖塔', x: 315.287, y: 397.114, culture: 'empire'},
+            {name: 'Zeonica', cn: '泽奥尼卡', x: 412.41, y: 287.631, culture: 'empire'},
+            {name: 'Jalmarys', cn: '贾尔马里斯', x: 376.986, y: 341.692, culture: 'empire'},
+            {name: 'Ortysia', cn: '欧提西亚', x: 303.859, y: 331.889, culture: 'empire'},
+            {name: 'Amitatys', cn: '阿米塔提斯', x: 441.84, y: 352.923, culture: 'empire'},
+            {name: 'Rhotae', cn: '罗泰', x: 390.118, y: 393.159, culture: 'empire'},
+            // Empire South
+            {name: 'Danustica', cn: '达努斯蒂卡', x: 661.191, y: 276.466, culture: 'empire'},
+            {name: 'Vostrum', cn: '沃斯特鲁姆', x: 568.779, y: 239.989, culture: 'empire'},
+            {name: 'Poros', cn: '波罗斯', x: 471.018, y: 269.821, culture: 'empire'},
+            {name: 'Lycaron', cn: '利卡隆', x: 515.33, y: 333.562, culture: 'empire'},
+            {name: 'Onira', cn: '奥尼拉', x: 645.315, y: 325.385, culture: 'empire'},
+            {name: 'Phycaon', cn: '菲卡昂', x: 566.24, y: 347.43, culture: 'empire'},
+            {name: 'Syronea', cn: '西罗尼亚', x: 651.026, y: 387.791, culture: 'empire'},
+            // Sturgia
+            {name: 'Varcheg', cn: '瓦尔切格', x: 361.256, y: 554.313, culture: 'sturgia'},
+            {name: 'Balgard', cn: '巴尔加德', x: 467.86, y: 570.509, culture: 'sturgia'},
+            {name: 'Omor', cn: '奥莫尔', x: 451.107, y: 515.464, culture: 'sturgia'},
+            {name: 'Varnovapol', cn: '瓦尔诺瓦波尔', x: 540.416, y: 548.273, culture: 'sturgia'},
+            {name: 'Tyal', cn: '提亚尔', x: 647.079, y: 569.108, culture: 'sturgia'},
+            {name: 'Sibir', cn: '西比尔', x: 549.771, y: 586.259, culture: 'sturgia'},
+            {name: 'Revyl', cn: '雷维尔', x: 296.82, y: 580.832, culture: 'sturgia'},
+            // Aserai
+            {name: 'Quyaz', cn: '库亚兹', x: 299.553, y: 264.853, culture: 'aserai'},
+            {name: 'Husn Fulq', cn: '哈苏·富尔克', x: 686.263, y: 234.344, culture: 'aserai'},
+            {name: 'Iyakis', cn: '伊亚基斯', x: 493.537, y: 111.743, culture: 'aserai'},
+            {name: 'Razih', cn: '拉齐赫', x: 615.08, y: 180.537, culture: 'aserai'},
+            {name: 'Hubyar', cn: '胡比亚尔', x: 560.451, y: 107.058, culture: 'aserai'},
+            {name: 'Sanala', cn: '萨纳拉', x: 401.068, y: 207.927, culture: 'aserai'},
+            {name: 'Askar', cn: '阿斯卡尔', x: 379.425, y: 118.472, culture: 'aserai'},
+            {name: 'Qasira', cn: '卡西拉', x: 490.694, y: 163.097, culture: 'aserai'},
+            // Vlandia
+            {name: 'Sargot', cn: '萨尔戈特', x: 210.378, y: 383.893, culture: 'vlandia'},
+            {name: 'Ocs Hall', cn: '奥克斯厅', x: 181.785, y: 495.348, culture: 'vlandia'},
+            {name: 'Pravend', cn: '普拉文德', x: 139.205, y: 475.542, culture: 'vlandia'},
+            {name: 'Galend', cn: '盖伦德', x: 107.5, y: 411.689, culture: 'vlandia'},
+            {name: 'Jaculan', cn: '贾库兰', x: 149.91, y: 392.826, culture: 'vlandia'},
+            {name: 'Charas', cn: '查拉斯', x: 174.271, y: 336.303, culture: 'vlandia'},
+            {name: 'Ostican', cn: '奥斯蒂坎', x: 135.09, y: 547.52, culture: 'vlandia'},
+            {name: 'Rovalt', cn: '罗瓦尔特', x: 179.501, y: 548.785, culture: 'vlandia'},
+            // Battania
+            {name: 'Marunath', cn: '马鲁纳斯', x: 291.2, y: 442.757, culture: 'battania'},
+            {name: 'Dunglanys', cn: '邓格拉尼斯', x: 266.398, y: 483.399, culture: 'battania'},
+            {name: 'Car Banseth', cn: '卡尔·班塞斯', x: 255.387, y: 515.614, culture: 'battania'},
+            {name: 'Seonon', cn: '塞奥农', x: 329.92, y: 474.32, culture: 'battania'},
+            {name: 'Pen Cannoc', cn: '彭·坎诺克', x: 231.631, y: 451.187, culture: 'battania'},
+            // Khuzait
+            {name: 'Baltakhand', cn: '巴尔塔汗德', x: 732.504, y: 536.542, culture: 'khuzait'},
+            {name: 'Akkalat', cn: '阿卡拉特', x: 726.701, y: 372.704, culture: 'khuzait'},
+            {name: 'Makeb', cn: '马克布', x: 685.692, y: 480.056, culture: 'khuzait'},
+            {name: 'Ortongard', cn: '奥尔通加德', x: 745.826, y: 448.187, culture: 'khuzait'},
+            {name: 'Chaikand', cn: '柴坎德', x: 684.811, y: 421.592, culture: 'khuzait'},
+            {name: 'Odokh', cn: '奥多赫', x: 752.864, y: 336.823, culture: 'khuzait'}
+        ];
+
+        // Geographic features (approximate positions based on settlement descriptions)
+        const geoFeatures = [
+            // Seas (around the edges)
+            {name: 'Perassic Sea', cn: '佩拉西亚海', x: 80, y: 400, type: 'sea'},
+            {name: 'Jade Sea', cn: '翡翠海', x: 780, y: 280, type: 'sea'},
+            {name: 'Byalic Sea', cn: '拜阿利克海', x: 400, y: 620, type: 'sea'},
+            {name: 'Tanaz Sea', cn: '塔纳兹海', x: 550, y: 65, type: 'sea'},
+
+            // Bays
+            {name: 'Bay of Ortysia', cn: '欧提西亚湾', x: 280, y: 310, type: 'bay'},
+            {name: 'Gulf of Charas', cn: '卡拉斯湾', x: 150, y: 320, type: 'bay'},
+            {name: 'Bay of Varcheg', cn: '瓦尔切格湾', x: 340, y: 580, type: 'bay'},
+            {name: 'Whale Bay', cn: '鲸湾', x: 720, y: 560, type: 'bay'},
+            {name: 'Diathmic Bay', cn: '迪亚瑟米克湾', x: 500, y: 500, type: 'bay'},
+
+            // Lakes
+            {name: 'Lake Laconis', cn: '拉科尼斯湖', x: 610, y: 520, type: 'lake'},
+            {name: 'Dark Lake', cn: '暗湖', x: 350, y: 530, type: 'lake'},
+            {name: 'Ocspool', cn: '奥克斯普尔', x: 180, y: 480, type: 'lake'},
+
+            // Mountains
+            {name: 'Dryatic Mountains', cn: '德里亚蒂克山脉', x: 450, y: 450, type: 'mountain'},
+            {name: 'Chertyg Mountains', cn: '切提格山脉', x: 680, y: 550, type: 'mountain'},
+            {name: 'Ashabi Mountains', cn: '阿沙比山脉', x: 420, y: 150, type: 'mountain'},
+            {name: 'Sideric Mountains', cn: '西德里克山脉', x: 560, y: 280, type: 'mountain'},
+            {name: 'Tamar Mountains', cn: '塔玛尔山脉', x: 320, y: 410, type: 'mountain'},
+            {name: 'Rhennod Hills', cn: '伦诺德山丘', x: 260, y: 460, type: 'mountain'},
+            {name: 'Bars Dag', cn: '巴尔斯达格', x: 740, y: 400, type: 'mountain'},
+            {name: 'Sulun Dag', cn: '苏伦达格', x: 680, y: 320, type: 'mountain'},
+
+            // Deserts
+            {name: 'Nahasa Desert', cn: '纳哈萨沙漠', x: 500, y: 100, type: 'desert'},
+
+            // Plains/Valleys
+            {name: 'Lycarea Plain', cn: '利卡瑞亚平原', x: 520, y: 350, type: 'plain'},
+            {name: 'Devseg Plateau', cn: '德夫塞格高原', x: 730, y: 450, type: 'plain'},
+
+            // Rivers (shown as labels)
+            {name: 'Aris River', cn: '阿里斯河', x: 480, y: 400, type: 'river'},
+            {name: 'Trand River', cn: '特兰河', x: 560, y: 530, type: 'river'},
+            {name: 'Nevys River', cn: '内维斯河', x: 400, y: 560, type: 'river'},
+            {name: 'Sefen River', cn: '塞芬河', x: 330, y: 370, type: 'river'}
+        ];
+
+        // Type colors for geographic features
+        const geoColors = {
+            sea: '#4a90d9',
+            bay: '#5a9fd9',
+            lake: '#6bb3f0',
+            mountain: '#8b4513',
+            desert: '#d4a76a',
+            plain: '#5fad5f',
+            river: '#4a90d9'
+        };
+
+        let showTowns = true;
+        let showGeo = true;
+        let showRegions = true;
+
+        function drawMap() {
+            // Clear canvas
+            ctx.fillStyle = '#2d4a3e';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            // Draw water areas (seas around edges)
+            ctx.fillStyle = '#1a4a6e';
+            // West coast
+            ctx.beginPath();
+            ctx.moveTo(0, 0);
+            ctx.lineTo(padding - 10, 0);
+            ctx.lineTo(padding - 10, canvas.height);
+            ctx.lineTo(0, canvas.height);
+            ctx.fill();
+            // North coast
+            ctx.beginPath();
+            ctx.moveTo(0, canvas.height);
+            ctx.lineTo(canvas.width, canvas.height);
+            ctx.lineTo(canvas.width, canvas.height - padding + 10);
+            ctx.lineTo(0, canvas.height - padding + 10);
+            ctx.fill();
+            // East coast (partial)
+            ctx.beginPath();
+            ctx.moveTo(canvas.width, 0);
+            ctx.lineTo(canvas.width - padding + 20, 0);
+            ctx.lineTo(canvas.width - padding + 20, canvas.height * 0.5);
+            ctx.lineTo(canvas.width, canvas.height * 0.5);
+            ctx.fill();
+            // South coast
+            ctx.beginPath();
+            ctx.moveTo(200, 0);
+            ctx.lineTo(canvas.width - 200, 0);
+            ctx.lineTo(canvas.width - 200, padding - 10);
+            ctx.lineTo(200, padding - 10);
+            ctx.fill();
+
+            // Draw desert area (south)
+            ctx.fillStyle = 'rgba(210, 180, 140, 0.3)';
+            ctx.beginPath();
+            ctx.moveTo(toCanvasX(250), toCanvasY(62));
+            ctx.lineTo(toCanvasX(700), toCanvasY(62));
+            ctx.lineTo(toCanvasX(700), toCanvasY(220));
+            ctx.lineTo(toCanvasX(250), toCanvasY(220));
+            ctx.fill();
+
+            // Draw region boundaries if enabled
+            if (showRegions) {
+                ctx.strokeStyle = 'rgba(255,255,255,0.15)';
+                ctx.lineWidth = 2;
+                ctx.setLineDash([10, 5]);
+
+                // Approximate culture boundaries
+                // Sturgia (North)
+                ctx.beginPath();
+                ctx.moveTo(toCanvasX(200), toCanvasY(500));
+                ctx.lineTo(toCanvasX(680), toCanvasY(500));
+                ctx.stroke();
+
+                // Aserai (South)
+                ctx.beginPath();
+                ctx.moveTo(toCanvasX(250), toCanvasY(250));
+                ctx.lineTo(toCanvasX(720), toCanvasY(250));
+                ctx.stroke();
+
+                // Vlandia (West)
+                ctx.beginPath();
+                ctx.moveTo(toCanvasX(230), toCanvasY(300));
+                ctx.lineTo(toCanvasX(230), toCanvasY(560));
+                ctx.stroke();
+
+                // Khuzait (East)
+                ctx.beginPath();
+                ctx.moveTo(toCanvasX(660), toCanvasY(300));
+                ctx.lineTo(toCanvasX(660), toCanvasY(580));
+                ctx.stroke();
+
+                ctx.setLineDash([]);
+            }
+
+            // Draw geographic features
+            if (showGeo) {
+                geoFeatures.forEach(geo => {
+                    const x = toCanvasX(geo.x);
+                    const y = toCanvasY(geo.y);
+
+                    // Draw marker
+                    ctx.fillStyle = geoColors[geo.type];
+                    ctx.globalAlpha = 0.7;
+
+                    if (geo.type === 'mountain') {
+                        // Triangle for mountains
+                        ctx.beginPath();
+                        ctx.moveTo(x, y - 10);
+                        ctx.lineTo(x - 8, y + 6);
+                        ctx.lineTo(x + 8, y + 6);
+                        ctx.closePath();
+                        ctx.fill();
+                    } else if (geo.type === 'river') {
+                        // Wavy line for rivers
+                        ctx.beginPath();
+                        ctx.moveTo(x - 15, y);
+                        ctx.quadraticCurveTo(x - 7, y - 5, x, y);
+                        ctx.quadraticCurveTo(x + 7, y + 5, x + 15, y);
+                        ctx.strokeStyle = geoColors[geo.type];
+                        ctx.lineWidth = 3;
+                        ctx.stroke();
+                    } else {
+                        // Circle for others
+                        ctx.beginPath();
+                        ctx.arc(x, y, 8, 0, Math.PI * 2);
+                        ctx.fill();
+                    }
+
+                    ctx.globalAlpha = 1;
+
+                    // Draw label
+                    ctx.fillStyle = '#fff';
+                    ctx.font = '11px Arial';
+                    ctx.textAlign = 'center';
+                    ctx.fillText(geo.cn, x, y + 22);
+                });
+            }
+
+            // Draw towns
+            if (showTowns) {
+                towns.forEach(town => {
+                    const x = toCanvasX(town.x);
+                    const y = toCanvasY(town.y);
+
+                    // Draw town marker
+                    ctx.fillStyle = cultureColors[town.culture];
+                    ctx.beginPath();
+                    ctx.arc(x, y, 6, 0, Math.PI * 2);
+                    ctx.fill();
+
+                    // Draw border
+                    ctx.strokeStyle = '#fff';
+                    ctx.lineWidth = 1.5;
+                    ctx.stroke();
+
+                    // Draw town name
+                    ctx.fillStyle = '#fff';
+                    ctx.font = 'bold 10px Arial';
+                    ctx.textAlign = 'center';
+                    ctx.fillText(town.name, x, y - 10);
+                });
+            }
+
+            // Draw compass
+            const compassX = canvas.width - 80;
+            const compassY = 80;
+            ctx.fillStyle = 'rgba(255,255,255,0.8)';
+            ctx.font = 'bold 16px Arial';
+            ctx.textAlign = 'center';
+            ctx.fillText('N', compassX, compassY - 25);
+            ctx.fillText('S', compassX, compassY + 35);
+            ctx.fillText('W', compassX - 30, compassY + 5);
+            ctx.fillText('E', compassX + 30, compassY + 5);
+
+            // Draw compass circle
+            ctx.strokeStyle = 'rgba(255,255,255,0.5)';
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            ctx.arc(compassX, compassY, 20, 0, Math.PI * 2);
+            ctx.stroke();
+
+            // Draw title
+            ctx.fillStyle = '#f0c040';
+            ctx.font = 'bold 24px Arial';
+            ctx.textAlign = 'center';
+            ctx.fillText('CALRADIA', canvas.width / 2, 35);
+        }
+
+        // Handle mouse move for tooltips
+        canvas.addEventListener('mousemove', (e) => {
+            const rect = canvas.getBoundingClientRect();
+            const scaleX = canvas.width / rect.width;
+            const scaleY = canvas.height / rect.height;
+            const mouseX = (e.clientX - rect.left) * scaleX;
+            const mouseY = (e.clientY - rect.top) * scaleY;
+
+            let found = false;
+
+            // Check towns
+            if (showTowns) {
+                for (const town of towns) {
+                    const x = toCanvasX(town.x);
+                    const y = toCanvasY(town.y);
+                    const dist = Math.sqrt((mouseX - x) ** 2 + (mouseY - y) ** 2);
+
+                    if (dist < 15) {
+                        tooltip.style.display = 'block';
+                        tooltip.style.left = (e.clientX - rect.left + 15) + 'px';
+                        tooltip.style.top = (e.clientY - rect.top - 10) + 'px';
+                        tooltip.innerHTML = `<strong>${town.name}</strong><br>${town.cn}<br><em style="color:${cultureColors[town.culture]}">${town.culture}</em>`;
+                        found = true;
+                        break;
+                    }
+                }
+            }
+
+            // Check geo features
+            if (!found && showGeo) {
+                for (const geo of geoFeatures) {
+                    const x = toCanvasX(geo.x);
+                    const y = toCanvasY(geo.y);
+                    const dist = Math.sqrt((mouseX - x) ** 2 + (mouseY - y) ** 2);
+
+                    if (dist < 20) {
+                        tooltip.style.display = 'block';
+                        tooltip.style.left = (e.clientX - rect.left + 15) + 'px';
+                        tooltip.style.top = (e.clientY - rect.top - 10) + 'px';
+                        tooltip.innerHTML = `<strong>${geo.name}</strong><br>${geo.cn}<br><em style="color:${geoColors[geo.type]}">${geo.type}</em>`;
+                        found = true;
+                        break;
+                    }
+                }
+            }
+
+            if (!found) {
+                tooltip.style.display = 'none';
+            }
+        });
+
+        canvas.addEventListener('mouseleave', () => {
+            tooltip.style.display = 'none';
+        });
+
+        // Handle checkboxes
+        document.getElementById('showTowns').addEventListener('change', (e) => {
+            showTowns = e.target.checked;
+            drawMap();
+        });
+        document.getElementById('showGeo').addEventListener('change', (e) => {
+            showGeo = e.target.checked;
+            drawMap();
+        });
+        document.getElementById('showRegions').addEventListener('change', (e) => {
+            showRegions = e.target.checked;
+            drawMap();
+        });
+
+        // Initial draw
+        drawMap();
+    </script>
+</body>
+</html>
